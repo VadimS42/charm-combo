@@ -89,8 +89,8 @@ need to be hidden.
 | ENDING_HAZEL | Putting Down Roots | Reach an ending with Hazel. |
 | ALL_FOUR | The Whole Circle | Reach an ending with all four of them. |
 | BOTH_ROUTES | Two Sides of Her | See a warm and a spark ending with the same woman. |
-| GALLERY_HALF | Collector | Find 8 of the 16 endings. |
-| GALLERY_FULL | Complete Gallery | Find all 16 endings. |
+| GALLERY_HALF | Collector | Find half of the endings. |
+| GALLERY_FULL | Complete Gallery | Find every ending. |
 | COMBO_3 | Chain Reaction | Set off a x3 combo. |
 | COMBO_5 | Avalanche | Set off a x5 combo. |
 | MAKE_STARBURST | Starstruck | Make a Starburst. |

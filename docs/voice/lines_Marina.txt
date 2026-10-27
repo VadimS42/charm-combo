@@ -3,7 +3,7 @@ MARINA WAVERLY (Mermaid of Saltwick Cove)
 Voice: Marina Waverly, mermaid, the eldest of four sisters. Quick, blunt, sarcastic; talks faster when she's flustered and goes very short when she's hurt. Competent, proud, embarrassed by needing help. Calls you 'lifeguard' to needle you. No pirate voice, no sea-shanty accent.
 Say it: Marina = muh-REE-nuh · Waverly = WAY-vur-lee · Mari (her family's nickname) = MAH-ree · Nerissa = neh-RISS-uh · Saltwick = SALT-wick · Pellow = PELL-oh
 
-82 lines. Emotion = the portrait she shows; after it, how to deliver the line.
+77 lines. Emotion = the portrait she shows; after it, how to deliver the line.
 
 
 == MEETING HER ==
@@ -236,171 +236,136 @@ Say it: Marina = muh-REE-nuh · Waverly = WAY-vur-lee · Mari (her family's nick
    File: marina_night_23.wav
 
 
-== WARM ENDING: THE MORNING AFTER ==
+== HER ENDING: THE MORNING AFTER ==
 
 48. Morning. Your clothes are on the rail. I wrung them out myself, so you can thank me.
    Emotion: shy. Soft, pleased with herself, a bit shy that she's been watching.
-   File: marina_warm_01.wav
+   File: marina_end_01.wav
 
-49. Gran's going to know. She always knows. She's going to look at me over breakfast and just know.
+49. So. Last night. I've been floating here trying to think of a word for it, and I've got it down to three, and they're all very rude.
+   Emotion: teasing. Fast, giddy, very pleased with herself.
+   File: marina_end_02.wav
+
+50. Gran's going to know. She always knows. She's going to look at me over breakfast and just know.
    Emotion: happy. Mock dread, mostly giddy.
-   File: marina_warm_02.wav
+   File: marina_end_03.wav
 
-50. Gran's asked you to the family dinner, which is not a small thing, people have married into this family and never been asked to the family dinner.
+51. Gran's asked you to the family dinner, which is not a small thing, people have married into this family and never been asked to the family dinner.
    Emotion: shy. Low, quick, moved and trying to hide it.
-   File: marina_warm_03.wav
+   File: marina_end_04.wav
 
-51. Dance with me later. Badly. I've got a tail, so we'll be bad at it together.
+52. Dance with me later. Badly. I've got a tail, so we'll be bad at it together.
    Emotion: happy. Warm, laughing.
-   File: marina_warm_04.wav
+   File: marina_end_05.wav
 
-52. So. Are you telling them how we met, or am I?
+53. About your reward. Last night was not the reward. I need you to understand that. Last night was separate.
+   Emotion: angry. Tsundere: flustered and very firm about it.
+   File: marina_end_06.wav
+
+54. The reward is you come to every Tide from now on. Non-negotiable. Don't smile, it's a punishment.
+   Emotion: shy. Tsundere: bossy on top, hopeful underneath.
+   File: marina_end_07.wav
+
+55. So. Are you telling them how we met, or am I?
    Emotion: teasing. Teasing, already planning to embarrass you.
-   File: marina_warm_05.wav
+   File: marina_end_08.wav
 
-
-== WARM ENDING: FINAL REPLY 1 ==
-
-53. I'm going to make you sound very brave. And very wet.
+56. I'm going to make you sound very brave. And very wet.
    Emotion: happy. Gleeful.
-   File: marina_warm_r1_01.wav
-
-
-== WARM ENDING: FINAL REPLY 2 ==
-
-54. You can't leave out the shoe. The shoe's the best part.
-   Emotion: teasing. Outraged on the shoe's behalf.
-   File: marina_warm_r2_01.wav
-
-
-== TEASING ENDING: THE MORNING AFTER ==
-
-55. I'll be honest, I thought you'd be shyer. You jumped into the sea fully dressed. I assumed that made you a shy person.
-   Emotion: teasing. Delighted, teasing, very pleased with last night.
-   File: marina_spark_01.wav
-
-56. Mum's going to ask where I was. I'm going to say I was checking nets. Technically true. Look at you.
-   Emotion: happy. Wicked little laugh.
-   File: marina_spark_02.wav
-
-57. That's one rescue each. Write it down. Nerissa will want the numbers.
-   Emotion: teasing. Smug.
-   File: marina_spark_03.wav
-
-58. You can stay in a bit longer. I'm holding you up. It's fine.
-   Emotion: shy. Softer; she likes holding on.
-   File: marina_spark_04.wav
-
-59. Swimming lessons every night, or do I just keep rescuing you?
-   Emotion: teasing. Playful, a little challenging.
-   File: marina_spark_05.wav
-
-
-== TEASING ENDING: FINAL REPLY 1 ==
-
-60. Good answer. You'll never keep up. But good answer.
-   Emotion: happy. Fond, cocky.
-   File: marina_spark_r1_01.wav
-
-
-== TEASING ENDING: FINAL REPLY 2 ==
-
-61. Lazy. Fine. I'm keeping score.
-   Emotion: teasing. Mock-disapproving, pleased.
-   File: marina_spark_r2_01.wav
+   File: marina_end_09.wav
 
 
 == GIFT SCENE (FROSTED SEA-GLASS PENDANT) ==
 
-62. That's real. The sea made that. People tumble old bottles in a barrel and sell it as sea glass.
+57. That's real. The sea made that. People tumble old bottles in a barrel and sell it as sea glass.
    Emotion: surprised. Impressed despite herself; expert, a little indignant on its behalf.
    File: marina_gift_01.wav
 
-63. I lose things. You've noticed. I'm not losing this one.
+58. I lose things. You've noticed. I'm not losing this one.
    Emotion: shy. Soft and self-aware; half a joke.
    File: marina_gift_02.wav
 
 
 == PUZZLE QUIP: YOU MATCHED HER FAVOURITE GEM ==
 
-64. Pearls. Gran would approve.
+59. Pearls. Gran would approve.
    Emotion: neutral. Pleased, a little smug.
    File: marina_fav_01.wav
 
-65. Nine of those and I'm off the hook.
+60. Nine of those and I'm off the hook.
    Emotion: neutral. Wry, under her breath.
    File: marina_fav_02.wav
 
-66. That's the good stuff. Again.
+61. That's the good stuff. Again.
    Emotion: neutral. Bright, bossy.
    File: marina_fav_03.wav
 
-67. Pretty. Don't tell my sisters I said that.
+62. Pretty. Don't tell my sisters I said that.
    Emotion: neutral. Quick, embarrassed.
    File: marina_fav_04.wav
 
-68. Okay, that one was nice.
+63. Okay, that one was nice.
    Emotion: neutral. Grudging praise.
    File: marina_fav_05.wav
 
-69. Oh, that's smooth, why can't anything else this week be smooth?
+64. Oh, that's smooth, why can't anything else this week be smooth?
    Emotion: neutral. Fast, run-on, half laughing.
    File: marina_fav_06.wav
 
 
 == PUZZLE QUIP: YOU MATCHED A GEM SHE DISLIKES ==
 
-70. Who brings fire to a pier?
+65. Who brings fire to a pier?
    Emotion: neutral. Sarcastic, baffled.
    File: marina_least_01.wav
 
-71. Ugh. That's drier than Gran's sponge.
+66. Ugh. That's drier than Gran's sponge.
    Emotion: neutral. Disgusted, then guilty about Gran.
    File: marina_least_02.wav
 
-72. No. Absolutely not.
+67. No. Absolutely not.
    Emotion: neutral. Flat refusal.
    File: marina_least_03.wav
 
-73. Who even likes those?
+68. Who even likes those?
    Emotion: neutral. Genuinely baffled.
    File: marina_least_04.wav
 
-74. That's a dry-land gem. Put it back.
+69. That's a dry-land gem. Put it back.
    Emotion: neutral. Bossy.
    File: marina_least_05.wav
 
 
 == PUZZLE QUIP: CHATTER WHILE YOU PLAY ==
 
-75. Nine days. Keep going.
+70. Nine days. Keep going.
    Emotion: neutral. Tense, focused.
    File: marina_chat_01.wav
 
-76. You're getting good at this. It's annoying.
+71. You're getting good at this. It's annoying.
    Emotion: neutral. Grudging, a bit flirty.
    File: marina_chat_02.wav
 
-77. Gran says hello. Gran says a lot of things.
+72. Gran says hello. Gran says a lot of things.
    Emotion: neutral. Long-suffering.
    File: marina_chat_03.wav
 
-78. If Nerissa asks, we're friends. Who swim. At night.
+73. If Nerissa asks, we're friends. Who swim. At night.
    Emotion: neutral. Fast, flustered.
    File: marina_chat_04.wav
 
-79. Board, lifeguard. Not me.
+74. Board, lifeguard. Not me.
    Emotion: neutral. Teasing; caught you looking.
    File: marina_chat_05.wav
 
-80. You still only have one shoe, you know.
+75. You still only have one shoe, you know.
    Emotion: neutral. Deadpan.
    File: marina_chat_06.wav
 
-81. Mum wants to feed you. Consider yourself warned.
+76. Mum wants to feed you. Consider yourself warned.
    Emotion: neutral. Wry.
    File: marina_chat_07.wav
 
-82. Faster. Tide's turning.
+77. Faster. Tide's turning.
    Emotion: neutral. Brisk, urgent.
    File: marina_chat_08.wav

@@ -53,7 +53,7 @@
     "id": "amara_intro_04",
     "scene": "Meeting her",
     "context": "You ask what she means.",
-    "line": "What you want. Gold. Revenge. And sooner or later the other thing. They always get round to the other thing.",
+    "line": "What you want. Gold. Revenge. And sooner or later sex. It always comes to that.",
     "emotion": "teasing",
     "note": "A flat, tired list, then a knowing little drop on the last sentence."
    },
@@ -125,7 +125,7 @@
     "id": "amara_intro_r2_01",
     "scene": "Meeting her: reply 2",
     "context": "You said: Sure. After I've shelved these returns.",
-    "line": "I'm a demon of the third circle, and you're making me wait for a returns cart.",
+    "line": "I destroyed kingdoms, and you're making me wait?!",
     "emotion": "angry",
     "note": "Outraged, though some of it is put on."
    },
@@ -205,49 +205,49 @@
     "id": "amara_ch2_02",
     "scene": "After chapter 2",
     "context": "She sits on the reading table, which you've asked her twice not to do, and moves the candle so it won't drip on the returns.",
-    "line": "While you were in the basement, I read three of your romance novels. They're the same book three times.",
+    "line": "Stop pretending you're looking for the book. You've walked past this table eleven times tonight, and the book isn't on it. I am.",
     "emotion": "teasing",
-    "note": "Dry, bored, enjoying being rude about it."
+    "note": "Bold, flirty. She's been counting and wants you to know."
    },
    {
     "id": "amara_ch2_03",
     "scene": "After chapter 2",
-    "context": "Her previous line: While you were in the basement, I read three of your romance novels. They're the same book three times.",
-    "line": "In every one of them, he asks her for something by page twenty. You're well past page twenty.",
-    "emotion": "shy",
-    "note": "Light on the surface, but it's a real question."
+    "context": "Her previous line: Stop pretending you're looking for the book. You've walked past this table eleven times tonight, and the book isn't on it. I am.",
+    "line": "Come here. That's an order, and I'm only giving it once before I come over there and get you.",
+    "emotion": "teasing",
+    "note": "Bold, commanding. Every word is an invitation."
    },
    {
     "id": "amara_ch2_r1_01",
     "scene": "After chapter 2: reply 1",
-    "context": "You said: Maybe I'm just enjoying the company.",
-    "line": "That isn't how this works.",
-    "emotion": "surprised",
-    "note": "Thrown; almost defensive."
+    "context": "You said: You're the best thing I've found in this library.",
+    "line": "Flattery. Good. Keep going.",
+    "emotion": "happy",
+    "note": "Pleased, flirty. Not slowing down."
    },
    {
     "id": "amara_ch2_r1_02",
     "scene": "After chapter 2: reply 1",
-    "context": "She turns a page she isn't reading.",
-    "line": "Fine. Enjoy it, then. Quietly. It's a library.",
-    "emotion": "happy",
-    "note": "Softening; a smile she can't quite stop."
+    "context": "She hooks a foot round your ankle and reels you in the last step.",
+    "line": "Now we can both stop pretending you came over here to talk about books.",
+    "emotion": "teasing",
+    "note": "Smug, low."
    },
    {
     "id": "amara_ch2_r2_01",
     "scene": "After chapter 2: reply 2",
-    "context": "You said: Maybe I'm a slow reader.",
-    "line": "Then I'll read faster for both of us.",
+    "context": "You said: Make me.",
+    "line": "Oh, I intend to.",
     "emotion": "teasing",
-    "note": "Low and amused."
+    "note": "Delighted, wicked."
    },
    {
     "id": "amara_ch2_r2_02",
     "scene": "After chapter 2: reply 2",
-    "context": "She hooks a finger in your collar and pulls you down to read over her shoulder. It's the chapter with the kiss. She knows it is.",
-    "line": "Page two hundred and four. Out loud, please.",
+    "context": "She hooks a finger in your collar and pulls you down until you're nose to nose over the reading table.",
+    "line": "There. Now look me in the eye and tell me you'd rather be shelving.",
     "emotion": "teasing",
-    "note": "A dare. Quiet, wicked."
+    "note": "A dare. Low, wicked."
    },
    {
     "id": "amara_ch3_01",
@@ -261,14 +261,14 @@
     "id": "amara_ch3_02",
     "scene": "After chapter 3",
     "context": "Her previous line: He took it apart. To sell it page by page.",
-    "line": "Every one of those pages is part of my binding. Somebody in Duskhaven has been buying them.",
+    "line": "Every one of those pages is part of my binding. Somebody has been buying them.",
     "emotion": "angry",
     "note": "Low and tight. Frightened, and showing it as anger."
    },
    {
     "id": "amara_ch3_03",
     "scene": "After chapter 3",
-    "context": "Her previous line: Every one of those pages is part of my binding. Somebody in Duskhaven has been buying them.",
+    "context": "Her previous line: Every one of those pages is part of my binding. Somebody has been buying them.",
     "line": "You could keep one, you know. Just one page. I wouldn't be able to refuse you anything.",
     "emotion": "sad",
     "note": "Very quiet. She's testing you and dreading the answer."
@@ -349,7 +349,7 @@
     "id": "amara_night_02",
     "scene": "Her night scene (full-screen CG)",
     "context": "Her previous line: You've asked me twice not to sit on this table.",
-    "line": "I've been summoned four hundred and some times. Nobody's ever shut the door first. They're usually too busy telling me what to do.",
+    "line": "I've been summoned four hundred and some times. Never seen such gentleman.",
     "emotion": "shy",
     "note": "Quiet, almost puzzled. The dryness is slipping."
    },
@@ -410,116 +410,60 @@
     "note": "Gentle and unguarded. Nearly asleep."
    },
    {
-    "id": "amara_warm_01",
-    "scene": "Warm ending: the morning after",
+    "id": "amara_end_01",
+    "scene": "Her ending: the morning after",
     "context": "Morning comes in through the reading room windows. Somebody has folded your jacket into a very neat square.",
-    "line": "The day librarian gets in at eight. I'd suggest we're dressed by then.",
+    "line": "For the record: four hundred-odd summonings, several kings and one very enthusiastic bishop. None of them came close. I'm only telling you once.",
+    "emotion": "teasing",
+    "note": "Dry and delighted. She means every word."
+   },
+   {
+    "id": "amara_end_02",
+    "scene": "Her ending: the morning after",
+    "context": "Her previous line: For the record: four hundred-odd summonings, several kings and one very enthusiastic bishop. None of them came close. I'm only telling you once.",
+    "line": "You can get dressed now.",
     "emotion": "shy",
     "note": "Dry and amused, with a little shyness under it."
    },
    {
-    "id": "amara_warm_02",
-    "scene": "Warm ending: the morning after",
-    "context": "Her previous line: The day librarian gets in at eight. I'd suggest we're dressed by then.",
+    "id": "amara_end_03",
+    "scene": "Her ending: the morning after",
+    "context": "Her previous line: You can get dressed now.",
     "line": "I've never seen a morning from this side of a summoning. It's very bright. I don't hate it.",
     "emotion": "happy",
     "note": "Quietly surprised at herself."
    },
    {
-    "id": "amara_warm_03",
-    "scene": "Warm ending: the morning after",
+    "id": "amara_end_04",
+    "scene": "Her ending: the morning after",
     "context": "While you fetch coffee from the staff room, she takes a red pencil from your desk and starts correcting the page that started all this.",
-    "line": "If you're going to draw these, you'll draw them properly. Nobody else is coming through a circle with a coffee stain in it.",
+    "line": "If you're going to draw these, you'll draw them properly. Nobody else is coming through a circle this pathetic.",
     "emotion": "teasing",
     "note": "Bossy, fond."
    },
    {
-    "id": "amara_warm_04",
-    "scene": "Warm ending: the morning after",
-    "context": "Her previous line: If you're going to draw these, you'll draw them properly. Nobody else is coming through a circle with a coffee stain in it.",
-    "line": "This line here. That's where you'd put my name. If you ever wanted to call me. You won't need to. I'll be at the desk.",
+    "id": "amara_end_05",
+    "scene": "Her ending: the morning after",
+    "context": "Her previous line: If you're going to draw these, you'll draw them properly. Nobody else is coming through a circle this pathetic.",
+    "line": "This line here. That's where you'd put my name. If you ever wanted to call me. You won't need to. I'll be with you.",
     "emotion": "shy",
     "note": "Starts as a lesson, ends as something else. Slows down."
    },
    {
-    "id": "amara_warm_05",
-    "scene": "Warm ending: the morning after",
-    "context": "Her previous line: This line here. That's where you'd put my name. If you ever wanted to call me. You won't need to. I'll be at the desk.",
+    "id": "amara_end_06",
+    "scene": "Her ending: the morning after",
+    "context": "Her previous line: This line here. That's where you'd put my name. If you ever wanted to call me. You won't need to. I'll be with you.",
     "line": "They want an address for my library card. I don't have one. What do I put?",
     "emotion": "neutral",
     "note": "Casual on purpose. She cares about the answer."
    },
    {
-    "id": "amara_warm_r1_01",
-    "scene": "Warm ending: final reply 1",
-    "context": "You said: Put mine.",
+    "id": "amara_end_07",
+    "scene": "Her ending: the morning after",
+    "context": "You tell her to put yours.",
     "line": "Yours. Fine. I'm bringing my own candles.",
     "emotion": "happy",
     "note": "Trying for dry, landing on delighted."
-   },
-   {
-    "id": "amara_warm_r2_01",
-    "scene": "Warm ending: final reply 2",
-    "context": "You said: Put the reading room.",
-    "line": "Living in the stacks. Scandalous. I accept.",
-    "emotion": "teasing",
-    "note": "Playful, pleased."
-   },
-   {
-    "id": "amara_spark_01",
-    "scene": "Teasing ending: the morning after",
-    "context": "You wake on the reading room couch under a coat that isn't yours. She's sitting on the desk, reading your shift notes.",
-    "line": "You talk in your sleep. Mostly about overdue fines. It was very romantic.",
-    "emotion": "teasing",
-    "note": "Deadpan, delighted with herself."
-   },
-   {
-    "id": "amara_spark_02",
-    "scene": "Teasing ending: the morning after",
-    "context": "Her previous line: You talk in your sleep. Mostly about overdue fines. It was very romantic.",
-    "line": "I'm told this is the part where one of us makes breakfast. I don't know how. I assumed you'd find that charming.",
-    "emotion": "happy",
-    "note": "Breezy, completely unbothered."
-   },
-   {
-    "id": "amara_spark_03",
-    "scene": "Teasing ending: the morning after",
-    "context": "She tears a clean page from the back of an old ledger and draws a circle on it in ink. Every ring closes.",
-    "line": "A summoning circle that only works on you. Correctly drawn. If you ever leave, I'll use it.",
-    "emotion": "teasing",
-    "note": "Mock-sinister, enjoying the threat."
-   },
-   {
-    "id": "amara_spark_04",
-    "scene": "Teasing ending: the morning after",
-    "context": "Her previous line: A summoning circle that only works on you. Correctly drawn. If you ever leave, I'll use it.",
-    "line": "That was a joke. Mostly. Keep it in your wallet.",
-    "emotion": "shy",
-    "note": "Backpedals a little, then means it."
-   },
-   {
-    "id": "amara_spark_05",
-    "scene": "Teasing ending: the morning after",
-    "context": "Her previous line: That was a joke. Mostly. Keep it in your wallet.",
-    "line": "Now. Are you going to keep pretending you don't want me to use it?",
-    "emotion": "teasing",
-    "note": "Low, challenging, sure of the answer."
-   },
-   {
-    "id": "amara_spark_r1_01",
-    "scene": "Teasing ending: final reply 1",
-    "context": "You said: Use it tonight.",
-    "line": "Tonight, then. Bring the good candles.",
-    "emotion": "happy",
-    "note": "Warm, eager, still cool on top."
-   },
-   {
-    "id": "amara_spark_r2_01",
-    "scene": "Teasing ending: final reply 2",
-    "context": "You said: Make me wait.",
-    "line": "You're going to be unbearable about this. Good.",
-    "emotion": "teasing",
-    "note": "Mock-exasperated; she loves it."
    },
    {
     "id": "amara_gift_01",
@@ -597,7 +541,7 @@
     "id": "amara_least_02",
     "scene": "Puzzle quip: you matched a gem she dislikes",
     "context": "Short bark, shown as a pop-up while you play.",
-    "line": "Don't. Moonstone makes my horns itch.",
+    "line": "Don't. Just don't.",
     "emotion": "neutral",
     "note": "Irritated, quick."
    },
@@ -648,22 +592,6 @@
     "line": "I've been summoned by kings. They were worse at this.",
     "emotion": "neutral",
     "note": "Bored brag."
-   },
-   {
-    "id": "amara_chat_04",
-    "scene": "Puzzle quip: chatter while you play",
-    "context": "Short bark, shown as a pop-up while you play.",
-    "line": "Stop humming. Actually, no. Carry on.",
-    "emotion": "neutral",
-    "note": "Annoyed, then she changes her mind."
-   },
-   {
-    "id": "amara_chat_05",
-    "scene": "Puzzle quip: chatter while you play",
-    "context": "Short bark, shown as a pop-up while you play.",
-    "line": "Your shelving is a crime. This is better.",
-    "emotion": "neutral",
-    "note": "Dry."
    },
    {
     "id": "amara_chat_06",
@@ -737,7 +665,7 @@
     },
     {
      "k": "s",
-     "t": "What you want. Gold. Revenge. And sooner or later the other thing. They always get round to the other thing.",
+     "t": "What you want. Gold. Revenge. And sooner or later sex. It always comes to that.",
      "e": "teasing",
      "d": "A flat, tired list, then a knowing little drop on the last sentence.",
      "id": "amara_intro_04"
@@ -837,7 +765,7 @@
       "resp": [
        {
         "k": "s",
-        "t": "I'm a demon of the third circle, and you're making me wait for a returns cart.",
+        "t": "I destroyed kingdoms, and you're making me wait?!",
         "e": "angry",
         "d": "Outraged, though some of it is put on.",
         "id": "amara_intro_r2_01"
@@ -961,67 +889,67 @@
       },
       {
        "k": "s",
-       "t": "While you were in the basement, I read three of your romance novels. They're the same book three times.",
+       "t": "Stop pretending you're looking for the book. You've walked past this table eleven times tonight, and the book isn't on it. I am.",
        "e": "teasing",
-       "d": "Dry, bored, enjoying being rude about it.",
+       "d": "Bold, flirty. She's been counting and wants you to know.",
        "id": "amara_ch2_02"
       },
       {
        "k": "s",
-       "t": "In every one of them, he asks her for something by page twenty. You're well past page twenty.",
-       "e": "shy",
-       "d": "Light on the surface, but it's a real question.",
+       "t": "Come here. That's an order, and I'm only giving it once before I come over there and get you.",
+       "e": "teasing",
+       "d": "Bold, commanding. Every word is an invitation.",
        "id": "amara_ch2_03"
       }
      ],
      "choice": {
       "options": [
        {
-        "label": "Maybe I'm just enjoying the company.",
+        "label": "You're the best thing I've found in this library.",
         "stat": "warmth",
         "bonus": 110,
         "resp": [
          {
           "k": "s",
-          "t": "That isn't how this works.",
-          "e": "surprised",
-          "d": "Thrown; almost defensive.",
+          "t": "Flattery. Good. Keep going.",
+          "e": "happy",
+          "d": "Pleased, flirty. Not slowing down.",
           "id": "amara_ch2_r1_01"
          },
          {
           "k": "n",
-          "t": "She turns a page she isn't reading."
+          "t": "She hooks a foot round your ankle and reels you in the last step."
          },
          {
           "k": "s",
-          "t": "Fine. Enjoy it, then. Quietly. It's a library.",
-          "e": "happy",
-          "d": "Softening; a smile she can't quite stop.",
+          "t": "Now we can both stop pretending you came over here to talk about books.",
+          "e": "teasing",
+          "d": "Smug, low.",
           "id": "amara_ch2_r1_02"
          }
         ]
        },
        {
-        "label": "Maybe I'm a slow reader.",
+        "label": "Make me.",
         "stat": "spark",
         "bonus": -40,
         "resp": [
          {
           "k": "s",
-          "t": "Then I'll read faster for both of us.",
+          "t": "Oh, I intend to.",
           "e": "teasing",
-          "d": "Low and amused.",
+          "d": "Delighted, wicked.",
           "id": "amara_ch2_r2_01"
          },
          {
           "k": "n",
-          "t": "She hooks a finger in your collar and pulls you down to read over her shoulder. It's the chapter with the kiss. She knows it is."
+          "t": "She hooks a finger in your collar and pulls you down until you're nose to nose over the reading table."
          },
          {
           "k": "s",
-          "t": "Page two hundred and four. Out loud, please.",
+          "t": "There. Now look me in the eye and tell me you'd rather be shelving.",
           "e": "teasing",
-          "d": "A dare. Quiet, wicked.",
+          "d": "A dare. Low, wicked.",
           "id": "amara_ch2_r2_02"
          }
         ]
@@ -1055,7 +983,7 @@
       },
       {
        "k": "s",
-       "t": "Every one of those pages is part of my binding. Somebody in Duskhaven has been buying them.",
+       "t": "Every one of those pages is part of my binding. Somebody has been buying them.",
        "e": "angry",
        "d": "Low and tight. Frightened, and showing it as anger.",
        "id": "amara_ch3_02"
@@ -1192,7 +1120,7 @@
      },
      {
       "k": "s",
-      "t": "I've been summoned four hundred and some times. Nobody's ever shut the door first. They're usually too busy telling me what to do.",
+      "t": "I've been summoned four hundred and some times. Never seen such gentleman.",
       "e": "shy",
       "d": "Quiet, almost puzzled. The dryness is slipping.",
       "id": "amara_night_02"
@@ -1279,7 +1207,7 @@
    "endings": {
     "warmth": {
      "title": "After Hours",
-     "text": "Amara stays. She gets a library card in her everyday name, once she's settled what to put for an address. She still corrects your chalk, your shelving and the way you say 'grimoire'. Most nights she's at the late desk when your shift ends, reading something she claims is terrible, and she walks you home by the river even though it's longer.",
+     "text": "Her library card has your address on it in small, furious handwriting. She moves in with forty candles and opinions about your bookshelf, which she reorganises by how much she disliked each book. Your favourite goes on the bottom shelf. Most nights she's still at the late desk when your shift ends, and she walks you home by the river even though it's longer.",
      "epilogue": {
       "intro": [
        {
@@ -1288,17 +1216,24 @@
        },
        {
         "k": "s",
-        "t": "The day librarian gets in at eight. I'd suggest we're dressed by then.",
+        "t": "For the record: four hundred-odd summonings, several kings and one very enthusiastic bishop. None of them came close. I'm only telling you once.",
+        "e": "teasing",
+        "d": "Dry and delighted. She means every word.",
+        "id": "amara_end_01"
+       },
+       {
+        "k": "s",
+        "t": "You can get dressed now.",
         "e": "shy",
         "d": "Dry and amused, with a little shyness under it.",
-        "id": "amara_warm_01"
+        "id": "amara_end_02"
        },
        {
         "k": "s",
         "t": "I've never seen a morning from this side of a summoning. It's very bright. I don't hate it.",
         "e": "happy",
         "d": "Quietly surprised at herself.",
-        "id": "amara_warm_02"
+        "id": "amara_end_03"
        }
       ],
       "beat1_caption": "The reading room at dawn: a burnt-out candle in a smudged chalk circle, your jacket folded into a neat square on the returns cart.",
@@ -1309,17 +1244,17 @@
        },
        {
         "k": "s",
-        "t": "If you're going to draw these, you'll draw them properly. Nobody else is coming through a circle with a coffee stain in it.",
+        "t": "If you're going to draw these, you'll draw them properly. Nobody else is coming through a circle this pathetic.",
         "e": "teasing",
         "d": "Bossy, fond.",
-        "id": "amara_warm_03"
+        "id": "amara_end_04"
        },
        {
         "k": "s",
-        "t": "This line here. That's where you'd put my name. If you ever wanted to call me. You won't need to. I'll be at the desk.",
+        "t": "This line here. That's where you'd put my name. If you ever wanted to call me. You won't need to. I'll be with you.",
         "e": "shy",
         "d": "Starts as a lesson, ends as something else. Slows down.",
-        "id": "amara_warm_04"
+        "id": "amara_end_05"
        }
       ],
       "beat2_caption": "Her corrections in red pencil, all over the loose page that started it.",
@@ -1329,146 +1264,22 @@
         "t": "They want an address for my library card. I don't have one. What do I put?",
         "e": "neutral",
         "d": "Casual on purpose. She cares about the answer.",
-        "id": "amara_warm_05"
-       }
-      ],
-      "choice": {
-       "options": [
-        {
-         "label": "Put mine.",
-         "key": "your_address",
-         "resp": [
-          {
-           "k": "s",
-           "t": "Yours. Fine. I'm bringing my own candles.",
-           "e": "happy",
-           "d": "Trying for dry, landing on delighted.",
-           "id": "amara_warm_r1_01"
-          }
-         ]
-        },
-        {
-         "label": "Put the reading room.",
-         "key": "reading_room",
-         "resp": [
-          {
-           "k": "s",
-           "t": "Living in the stacks. Scandalous. I accept.",
-           "e": "teasing",
-           "d": "Playful, pleased.",
-           "id": "amara_warm_r2_01"
-          }
-         ]
-        }
-       ]
-      },
-      "finales": {
-       "your_address": {
-        "title": "Forwarding Address",
-        "text": "Her library card has your address on it in small, furious handwriting. She moves in with forty candles and opinions about your bookshelf, which she reorganises by how much she disliked each book. Your favourite goes on the bottom shelf."
+        "id": "amara_end_06"
        },
-       "reading_room": {
-        "title": "Night Shift",
-        "text": "Officially she lives nowhere. Unofficially she's in the reading room every night when the lights go off, feet on the table, waiting for you to finish the returns. The day staff keep finding chalk dust and can't work out who has been annotating the romance section."
-       }
-      }
-     }
-    },
-    "spark": {
-     "title": "Unfinished Business",
-     "text": "Amara says she's staying because of unfinished business, and refuses to say what it is. It seems to involve following you round the library, reading over your shoulder and arguing about endings until closing time, and then a good deal of not arguing after.",
-     "epilogue": {
-      "intro": [
        {
         "k": "n",
-        "t": "You wake on the reading room couch under a coat that isn't yours. She's sitting on the desk, reading your shift notes."
+        "t": "You tell her to put yours."
        },
        {
         "k": "s",
-        "t": "You talk in your sleep. Mostly about overdue fines. It was very romantic.",
-        "e": "teasing",
-        "d": "Deadpan, delighted with herself.",
-        "id": "amara_spark_01"
-       },
-       {
-        "k": "s",
-        "t": "I'm told this is the part where one of us makes breakfast. I don't know how. I assumed you'd find that charming.",
+        "t": "Yours. Fine. I'm bringing my own candles.",
         "e": "happy",
-        "d": "Breezy, completely unbothered.",
-        "id": "amara_spark_02"
+        "d": "Trying for dry, landing on delighted.",
+        "id": "amara_end_07"
        }
       ],
-      "beat1_caption": "The reading room couch in the morning: one coat, two people, a romance novel face down on the floor.",
-      "middle": [
-       {
-        "k": "n",
-        "t": "She tears a clean page from the back of an old ledger and draws a circle on it in ink. Every ring closes."
-       },
-       {
-        "k": "s",
-        "t": "A summoning circle that only works on you. Correctly drawn. If you ever leave, I'll use it.",
-        "e": "teasing",
-        "d": "Mock-sinister, enjoying the threat.",
-        "id": "amara_spark_03"
-       },
-       {
-        "k": "s",
-        "t": "That was a joke. Mostly. Keep it in your wallet.",
-        "e": "shy",
-        "d": "Backpedals a little, then means it.",
-        "id": "amara_spark_04"
-       }
-      ],
-      "beat2_caption": "A perfect circle in black ink, with your name where hers used to be.",
-      "choice_lines": [
-       {
-        "k": "s",
-        "t": "Now. Are you going to keep pretending you don't want me to use it?",
-        "e": "teasing",
-        "d": "Low, challenging, sure of the answer.",
-        "id": "amara_spark_05"
-       }
-      ],
-      "choice": {
-       "options": [
-        {
-         "label": "Use it tonight.",
-         "key": "tonight",
-         "resp": [
-          {
-           "k": "s",
-           "t": "Tonight, then. Bring the good candles.",
-           "e": "happy",
-           "d": "Warm, eager, still cool on top.",
-           "id": "amara_spark_r1_01"
-          }
-         ]
-        },
-        {
-         "label": "Make me wait.",
-         "key": "make_wait",
-         "resp": [
-          {
-           "k": "s",
-           "t": "You're going to be unbearable about this. Good.",
-           "e": "teasing",
-           "d": "Mock-exasperated; she loves it.",
-           "id": "amara_spark_r2_01"
-          }
-         ]
-        }
-       ]
-      },
-      "finales": {
-       "tonight": {
-        "title": "Correct Lines",
-        "text": "She draws the circle on your floor that night, perfectly, and you step into it before the ink's dry. It becomes a habit. The neighbours complain about the smell of struck matches. She sends each of them a candle."
-       },
-       "make_wait": {
-        "title": "Overdue",
-        "text": "You make her wait a week. She counts it in hours, out loud, every time she sees you. When she finally uses the circle it's halfway through your shift, and the library closes early that night for reasons nobody writes in the log."
-       }
-      }
+      "choice": null,
+      "finales": {}
      }
     }
    }
@@ -1552,7 +1363,7 @@
      "id": "amara_least_01"
     },
     {
-     "t": "Don't. Moonstone makes my horns itch.",
+     "t": "Don't. Just don't.",
      "e": "neutral",
      "d": "Irritated, quick.",
      "id": "amara_least_02"
@@ -1594,18 +1405,6 @@
      "e": "neutral",
      "d": "Bored brag.",
      "id": "amara_chat_03"
-    },
-    {
-     "t": "Stop humming. Actually, no. Carry on.",
-     "e": "neutral",
-     "d": "Annoyed, then she changes her mind.",
-     "id": "amara_chat_04"
-    },
-    {
-     "t": "Your shelving is a crime. This is better.",
-     "e": "neutral",
-     "d": "Dry.",
-     "id": "amara_chat_05"
     },
     {
      "t": "Eyes on the board. I'll still be here.",
@@ -2039,116 +1838,76 @@
     "note": "Quiet and sleepy, meaning it."
    },
    {
-    "id": "marina_warm_01",
-    "scene": "Warm ending: the morning after",
+    "id": "marina_end_01",
+    "scene": "Her ending: the morning after",
     "context": "You wake up in the boathouse on a heap of old sails, with sand in your ears. She's already in the water, arms folded on the edge of the slipway, watching you.",
     "line": "Morning. Your clothes are on the rail. I wrung them out myself, so you can thank me.",
     "emotion": "shy",
     "note": "Soft, pleased with herself, a bit shy that she's been watching."
    },
    {
-    "id": "marina_warm_02",
-    "scene": "Warm ending: the morning after",
+    "id": "marina_end_02",
+    "scene": "Her ending: the morning after",
     "context": "Her previous line: Morning. Your clothes are on the rail. I wrung them out myself, so you can thank me.",
+    "line": "So. Last night. I've been floating here trying to think of a word for it, and I've got it down to three, and they're all very rude.",
+    "emotion": "teasing",
+    "note": "Fast, giddy, very pleased with herself."
+   },
+   {
+    "id": "marina_end_03",
+    "scene": "Her ending: the morning after",
+    "context": "Her previous line: So. Last night. I've been floating here trying to think of a word for it, and I've got it down to three, and they're all very rude.",
     "line": "Gran's going to know. She always knows. She's going to look at me over breakfast and just know.",
     "emotion": "happy",
     "note": "Mock dread, mostly giddy."
    },
    {
-    "id": "marina_warm_03",
-    "scene": "Warm ending: the morning after",
+    "id": "marina_end_04",
+    "scene": "Her ending: the morning after",
     "context": "At the Midsummer Tide the whole family swims out to the rocks, and Gran wears nine pearls in her hair and pretends not to notice everyone watching her.",
     "line": "Gran's asked you to the family dinner, which is not a small thing, people have married into this family and never been asked to the family dinner.",
     "emotion": "shy",
     "note": "Low, quick, moved and trying to hide it."
    },
    {
-    "id": "marina_warm_04",
-    "scene": "Warm ending: the morning after",
+    "id": "marina_end_05",
+    "scene": "Her ending: the morning after",
     "context": "Her previous line: Gran's asked you to the family dinner, which is not a small thing, people have married into this family and never been asked to the family dinner.",
     "line": "Dance with me later. Badly. I've got a tail, so we'll be bad at it together.",
     "emotion": "happy",
     "note": "Warm, laughing."
    },
    {
-    "id": "marina_warm_05",
-    "scene": "Warm ending: the morning after",
+    "id": "marina_end_06",
+    "scene": "Her ending: the morning after",
     "context": "Her previous line: Dance with me later. Badly. I've got a tail, so we'll be bad at it together.",
+    "line": "About your reward. Last night was not the reward. I need you to understand that. Last night was separate.",
+    "emotion": "angry",
+    "note": "Tsundere: flustered and very firm about it."
+   },
+   {
+    "id": "marina_end_07",
+    "scene": "Her ending: the morning after",
+    "context": "Her previous line: About your reward. Last night was not the reward. I need you to understand that. Last night was separate.",
+    "line": "The reward is you come to every Tide from now on. Non-negotiable. Don't smile, it's a punishment.",
+    "emotion": "shy",
+    "note": "Tsundere: bossy on top, hopeful underneath."
+   },
+   {
+    "id": "marina_end_08",
+    "scene": "Her ending: the morning after",
+    "context": "Her previous line: The reward is you come to every Tide from now on. Non-negotiable. Don't smile, it's a punishment.",
     "line": "So. Are you telling them how we met, or am I?",
     "emotion": "teasing",
     "note": "Teasing, already planning to embarrass you."
    },
    {
-    "id": "marina_warm_r1_01",
-    "scene": "Warm ending: final reply 1",
-    "context": "You said: You tell it.",
+    "id": "marina_end_09",
+    "scene": "Her ending: the morning after",
+    "context": "You tell her she should tell it.",
     "line": "I'm going to make you sound very brave. And very wet.",
     "emotion": "happy",
     "note": "Gleeful."
-   },
-   {
-    "id": "marina_warm_r2_01",
-    "scene": "Warm ending: final reply 2",
-    "context": "You said: I'll tell it. I'll leave out the shoe.",
-    "line": "You can't leave out the shoe. The shoe's the best part.",
-    "emotion": "teasing",
-    "note": "Outraged on the shoe's behalf."
-   },
-   {
-    "id": "marina_spark_01",
-    "scene": "Teasing ending: the morning after",
-    "context": "You wake on the boathouse floor, wrapped in a fishing net. It was her idea. She's going to say it was yours.",
-    "line": "I'll be honest, I thought you'd be shyer. You jumped into the sea fully dressed. I assumed that made you a shy person.",
-    "emotion": "teasing",
-    "note": "Delighted, teasing, very pleased with last night."
-   },
-   {
-    "id": "marina_spark_02",
-    "scene": "Teasing ending: the morning after",
-    "context": "Her previous line: I'll be honest, I thought you'd be shyer. You jumped into the sea fully dressed. I assumed that made you a shy person.",
-    "line": "Mum's going to ask where I was. I'm going to say I was checking nets. Technically true. Look at you.",
-    "emotion": "happy",
-    "note": "Wicked little laugh."
-   },
-   {
-    "id": "marina_spark_03",
-    "scene": "Teasing ending: the morning after",
-    "context": "She makes you swim to the rocks before breakfast. You get halfway before she has to tow you.",
-    "line": "That's one rescue each. Write it down. Nerissa will want the numbers.",
-    "emotion": "teasing",
-    "note": "Smug."
-   },
-   {
-    "id": "marina_spark_04",
-    "scene": "Teasing ending: the morning after",
-    "context": "Her previous line: That's one rescue each. Write it down. Nerissa will want the numbers.",
-    "line": "You can stay in a bit longer. I'm holding you up. It's fine.",
-    "emotion": "shy",
-    "note": "Softer; she likes holding on."
-   },
-   {
-    "id": "marina_spark_05",
-    "scene": "Teasing ending: the morning after",
-    "context": "Her previous line: You can stay in a bit longer. I'm holding you up. It's fine.",
-    "line": "Swimming lessons every night, or do I just keep rescuing you?",
-    "emotion": "teasing",
-    "note": "Playful, a little challenging."
-   },
-   {
-    "id": "marina_spark_r1_01",
-    "scene": "Teasing ending: final reply 1",
-    "context": "You said: Lessons. I want to keep up with you.",
-    "line": "Good answer. You'll never keep up. But good answer.",
-    "emotion": "happy",
-    "note": "Fond, cocky."
-   },
-   {
-    "id": "marina_spark_r2_01",
-    "scene": "Teasing ending: final reply 2",
-    "context": "You said: Keep rescuing me.",
-    "line": "Lazy. Fine. I'm keeping score.",
-    "emotion": "teasing",
-    "note": "Mock-disapproving, pleased."
    },
    {
     "id": "marina_gift_01",
@@ -2899,7 +2658,7 @@
    "endings": {
     "warmth": {
      "title": "High Water",
-     "text": "Gran wears the comb at the Midsummer Tide and never finds out it was lost. Marina tells her anyway, a month later, and Gran laughs so hard she has to be helped onto a rock. At the next family dinner you're seated beside her, and she tells you she knew from the first day.",
+     "text": "Gran wears the comb at the Midsummer Tide and never finds out it was lost. Marina tells her anyway, a month later, and Gran laughs so hard she has to be helped onto a rock. Marina tells the story of how you met at every family dinner after that, and it gets bigger every time. Gran corrects her every time, and every time she sets a place for you without asking.",
      "epilogue": {
       "intro": [
        {
@@ -2911,14 +2670,21 @@
         "t": "Morning. Your clothes are on the rail. I wrung them out myself, so you can thank me.",
         "e": "shy",
         "d": "Soft, pleased with herself, a bit shy that she's been watching.",
-        "id": "marina_warm_01"
+        "id": "marina_end_01"
+       },
+       {
+        "k": "s",
+        "t": "So. Last night. I've been floating here trying to think of a word for it, and I've got it down to three, and they're all very rude.",
+        "e": "teasing",
+        "d": "Fast, giddy, very pleased with herself.",
+        "id": "marina_end_02"
        },
        {
         "k": "s",
         "t": "Gran's going to know. She always knows. She's going to look at me over breakfast and just know.",
         "e": "happy",
         "d": "Mock dread, mostly giddy.",
-        "id": "marina_warm_02"
+        "id": "marina_end_03"
        }
       ],
       "beat1_caption": "The boathouse slipway at sunrise, two sets of clothes drying on the rail.",
@@ -2932,163 +2698,53 @@
         "t": "Gran's asked you to the family dinner, which is not a small thing, people have married into this family and never been asked to the family dinner.",
         "e": "shy",
         "d": "Low, quick, moved and trying to hide it.",
-        "id": "marina_warm_03"
+        "id": "marina_end_04"
        },
        {
         "k": "s",
         "t": "Dance with me later. Badly. I've got a tail, so we'll be bad at it together.",
         "e": "happy",
         "d": "Warm, laughing.",
-        "id": "marina_warm_04"
+        "id": "marina_end_05"
        }
       ],
       "beat2_caption": "Gran at the Midsummer Tide, her pearl comb in her hair.",
       "choice_lines": [
        {
         "k": "s",
+        "t": "About your reward. Last night was not the reward. I need you to understand that. Last night was separate.",
+        "e": "angry",
+        "d": "Tsundere: flustered and very firm about it.",
+        "id": "marina_end_06"
+       },
+       {
+        "k": "s",
+        "t": "The reward is you come to every Tide from now on. Non-negotiable. Don't smile, it's a punishment.",
+        "e": "shy",
+        "d": "Tsundere: bossy on top, hopeful underneath.",
+        "id": "marina_end_07"
+       },
+       {
+        "k": "s",
         "t": "So. Are you telling them how we met, or am I?",
         "e": "teasing",
         "d": "Teasing, already planning to embarrass you.",
-        "id": "marina_warm_05"
-       }
-      ],
-      "choice": {
-       "options": [
-        {
-         "label": "You tell it.",
-         "key": "she_tells",
-         "resp": [
-          {
-           "k": "s",
-           "t": "I'm going to make you sound very brave. And very wet.",
-           "e": "happy",
-           "d": "Gleeful.",
-           "id": "marina_warm_r1_01"
-          }
-         ]
-        },
-        {
-         "label": "I'll tell it. I'll leave out the shoe.",
-         "key": "you_tell",
-         "resp": [
-          {
-           "k": "s",
-           "t": "You can't leave out the shoe. The shoe's the best part.",
-           "e": "teasing",
-           "d": "Outraged on the shoe's behalf.",
-           "id": "marina_warm_r2_01"
-          }
-         ]
-        }
-       ]
-      },
-      "finales": {
-       "she_tells": {
-        "title": "Family Table",
-        "text": "She tells it at every family dinner after that, and it gets bigger every time. By winter you've pulled her out of a riptide in a storm while fighting off a shark. Gran corrects her every time, and every time she sets a place for you without asking."
+        "id": "marina_end_08"
        },
-       "you_tell": {
-        "title": "The Missing Shoe",
-        "text": "You tell it plainly and the whole table laughs anyway. Your shoe turns up in spring, washed into a rock pool, and Marina nails it to the boathouse wall like a trophy, with the date and the word HERO painted underneath, in quotation marks."
-       }
-      }
-     }
-    },
-    "spark": {
-     "title": "Riptide",
-     "text": "Marina decides that since you've already ruined one set of clothes for her, you may as well learn to swim properly. The lessons go badly in the most enjoyable way. Her family stops asking where she goes in the evenings. Nerissa starts calling you 'the lifeguard' at dinner, and Marina has stopped correcting her.",
-     "epilogue": {
-      "intro": [
        {
         "k": "n",
-        "t": "You wake on the boathouse floor, wrapped in a fishing net. It was her idea. She's going to say it was yours."
+        "t": "You tell her she should tell it."
        },
        {
         "k": "s",
-        "t": "I'll be honest, I thought you'd be shyer. You jumped into the sea fully dressed. I assumed that made you a shy person.",
-        "e": "teasing",
-        "d": "Delighted, teasing, very pleased with last night.",
-        "id": "marina_spark_01"
-       },
-       {
-        "k": "s",
-        "t": "Mum's going to ask where I was. I'm going to say I was checking nets. Technically true. Look at you.",
+        "t": "I'm going to make you sound very brave. And very wet.",
         "e": "happy",
-        "d": "Wicked little laugh.",
-        "id": "marina_spark_02"
+        "d": "Gleeful.",
+        "id": "marina_end_09"
        }
       ],
-      "beat1_caption": "The boathouse floor at dawn: one fishing net, badly tangled, two people still inside it.",
-      "middle": [
-       {
-        "k": "n",
-        "t": "She makes you swim to the rocks before breakfast. You get halfway before she has to tow you."
-       },
-       {
-        "k": "s",
-        "t": "That's one rescue each. Write it down. Nerissa will want the numbers.",
-        "e": "teasing",
-        "d": "Smug.",
-        "id": "marina_spark_03"
-       },
-       {
-        "k": "s",
-        "t": "You can stay in a bit longer. I'm holding you up. It's fine.",
-        "e": "shy",
-        "d": "Softer; she likes holding on.",
-        "id": "marina_spark_04"
-       }
-      ],
-      "beat2_caption": "Halfway to the rocks, one of you swimming a lot better than the other.",
-      "choice_lines": [
-       {
-        "k": "s",
-        "t": "Swimming lessons every night, or do I just keep rescuing you?",
-        "e": "teasing",
-        "d": "Playful, a little challenging.",
-        "id": "marina_spark_05"
-       }
-      ],
-      "choice": {
-       "options": [
-        {
-         "label": "Lessons. I want to keep up with you.",
-         "key": "lessons",
-         "resp": [
-          {
-           "k": "s",
-           "t": "Good answer. You'll never keep up. But good answer.",
-           "e": "happy",
-           "d": "Fond, cocky.",
-           "id": "marina_spark_r1_01"
-          }
-         ]
-        },
-        {
-         "label": "Keep rescuing me.",
-         "key": "rescue_me",
-         "resp": [
-          {
-           "k": "s",
-           "t": "Lazy. Fine. I'm keeping score.",
-           "e": "teasing",
-           "d": "Mock-disapproving, pleased.",
-           "id": "marina_spark_r2_01"
-          }
-         ]
-        }
-       ]
-      },
-      "finales": {
-       "lessons": {
-        "title": "Deep End",
-        "text": "By midsummer you can swim to the rocks and back without being towed. She still swims circles round you the whole way, and still pulls you under at the halfway point every single time. You've learned to take a breath first."
-       },
-       "rescue_me": {
-        "title": "Lifeguard Duty",
-        "text": "She keeps a tally of every rescue on the boathouse wall. It passes a hundred by autumn. Number sixty-three was a puddle."
-       }
-      }
+      "choice": null,
+      "finales": {}
      }
     }
    }
@@ -3298,7 +2954,7 @@
     "id": "opal_intro_04",
     "scene": "Meeting her",
     "context": "Her previous line: Ambrose wrote that label. He was the forester. When the alchemists came round buying slimes, he hid me out here. It worked for thirty-one years.",
-    "line": "He used to tap on the glass every morning. Twice. So I'd know it was him.",
+    "line": "He used to tap on the glass every morning twice so I'd know it was him.",
     "emotion": "sad",
     "note": "Fond and very quiet. She hasn't said this out loud since he died."
    },
@@ -3354,9 +3010,9 @@
     "id": "opal_intro_r2_02",
     "scene": "Meeting her: reply 2",
     "context": "Her previous line: It was a joke. He laughed at it every single morning for thirty-one years.",
-    "line": "The stream goes to town. We're going. You're carrying me.",
+    "line": "The stream goes to town. We're going. You're carrying me! Please?",
     "emotion": "neutral",
-    "note": "Surprisingly firm. She's decided."
+    "note": "Trying to be firm, and losing her nerve on the last word."
    },
    {
     "id": "opal_ch1_01",
@@ -3370,14 +3026,14 @@
     "id": "opal_ch1_02",
     "scene": "After chapter 1",
     "context": "Her previous line: Th-thank you. Sorry. Thank you.",
-    "line": "This one's off a sea captain's coat. Thirty winters ago. He'd come up from the coast for the forest air, to cure his seasickness. I always thought that was a strange job to have, if you get seasick.",
-    "emotion": "happy",
-    "note": "Warming up; precise, a little wry."
+    "line": "This one's my favourite. Brass, four holes, off a very handsome coat. You have a very handsome coat too. That's all. Coats.",
+    "emotion": "shy",
+    "note": "Starting to flirt and immediately regretting it. Rushed at the end."
    },
    {
     "id": "opal_ch1_03",
     "scene": "After chapter 1",
-    "context": "Her previous line: This one's off a sea captain's coat. Thirty winters ago. He'd come up from the coast for the forest air, to cure his seasickness. I always thought that was a strange job to have, if you get seasick.",
+    "context": "Her previous line: This one's my favourite. Brass, four holes, off a very handsome coat. You have a very handsome coat too. That's all. Coats.",
     "line": "The keys went to a locksmith, he says. And the glass eye went to someone who needed a glass eye, I suppose.",
     "emotion": "neutral",
     "note": "A small dry joke, testing whether you'll laugh."
@@ -3458,7 +3114,7 @@
     "id": "opal_ch2_r2_01",
     "scene": "After chapter 2: reply 2",
     "context": "You said: Then we'll make sure nobody's boiling anybody.",
-    "line": "Against an alchemist? You sold my buttons for two coppers and bought them back for six.",
+    "line": "Against an alchemist? You kicked my buttons into a stream and then paid six coppers to get them back.",
     "emotion": "surprised",
     "note": "Startled into teasing."
    },
@@ -3623,116 +3279,68 @@
     "note": "Her first thank-you again, but this time she catches the 'sorry' and takes it back. She means it."
    },
    {
-    "id": "opal_warm_01",
-    "scene": "Warm ending: the morning after",
+    "id": "opal_end_01",
+    "scene": "Her ending: the morning after",
     "context": "Something cool and slightly heavy is draped over you like a blanket. It turns out to be her.",
     "line": "Sorry. I spread out in my sleep. I didn't know that. I've never slept anywhere big enough to find out.",
     "emotion": "shy",
     "note": "Embarrassed, half laughing."
    },
    {
-    "id": "opal_warm_02",
-    "scene": "Warm ending: the morning after",
+    "id": "opal_end_02",
+    "scene": "Her ending: the morning after",
     "context": "Her previous line: Sorry. I spread out in my sleep. I didn't know that. I've never slept anywhere big enough to find out.",
+    "line": "Last night was the best thing that's happened to me in thirty-one years. Possibly ever. I'm not exaggerating. I've had a lot of time to compare.",
+    "emotion": "shy",
+    "note": "Shy and glowing, completely sincere."
+   },
+   {
+    "id": "opal_end_03",
+    "scene": "Her ending: the morning after",
+    "context": "Her previous line: Last night was the best thing that's happened to me in thirty-one years. Possibly ever. I'm not exaggerating. I've had a lot of time to compare.",
+    "line": "I'd like to do it again. That's allowed to be said, isn't it? Good. I'd like to do it again.",
+    "emotion": "happy",
+    "note": "Flustered, then brave, then delighted with herself."
+   },
+   {
+    "id": "opal_end_04",
+    "scene": "Her ending: the morning after",
+    "context": "Her previous line: I'd like to do it again. That's allowed to be said, isn't it? Good. I'd like to do it again.",
     "line": "I've started a card for last night. For the collection. I'm on my fourth draft.",
     "emotion": "happy",
     "note": "Pleased with herself, shy about it."
    },
    {
-    "id": "opal_warm_03",
-    "scene": "Warm ending: the morning after",
+    "id": "opal_end_05",
+    "scene": "Her ending: the morning after",
     "context": "She goes outside on her own for the first time to buy bread. She's gone twenty minutes. You both pretend you weren't worried.",
     "line": "The baker asked my name. I told him. Then I told him about buttons for a while. He was very patient.",
     "emotion": "happy",
     "note": "Proud, breathless."
    },
    {
-    "id": "opal_warm_04",
-    "scene": "Warm ending: the morning after",
+    "id": "opal_end_06",
+    "scene": "Her ending: the morning after",
     "context": "Her previous line: The baker asked my name. I told him. Then I told him about buttons for a while. He was very patient.",
     "line": "I'm going back tomorrow. He does a seeded loaf on Thursdays.",
     "emotion": "shy",
     "note": "Quietly determined, trying to make it sound ordinary."
    },
    {
-    "id": "opal_warm_05",
-    "scene": "Warm ending: the morning after",
+    "id": "opal_end_07",
+    "scene": "Her ending: the morning after",
     "context": "Her previous line: I'm going back tomorrow. He does a seeded loaf on Thursdays.",
     "line": "The jar. Should I keep it? I haven't been in it for a week. I still check it's there.",
     "emotion": "neutral",
     "note": "Thoughtful, a little vulnerable."
    },
    {
-    "id": "opal_warm_r1_01",
-    "scene": "Warm ending: final reply 1",
-    "context": "You said: Keep it. For storms.",
+    "id": "opal_end_08",
+    "scene": "Her ending: the morning after",
+    "context": "You tell her to keep it. For storms.",
     "line": "For storms. Okay. Just for storms.",
     "emotion": "shy",
     "note": "Relieved."
-   },
-   {
-    "id": "opal_warm_r2_01",
-    "scene": "Warm ending: final reply 2",
-    "context": "You said: Make it part of the collection.",
-    "line": "Oh. Yes. The jar I used to live in. Item nought. It goes before everything.",
-    "emotion": "happy",
-    "note": "A delighted little realisation."
-   },
-   {
-    "id": "opal_spark_01",
-    "scene": "Teasing ending: the morning after",
-    "context": "You can't find your shirt. It's on the shelf, folded, with a little card in front of it.",
-    "line": "Item four hundred and forty-two. Shirt, slightly torn. Acquired last night.",
-    "emotion": "teasing",
-    "note": "Deadpan, then she can't hold in the laugh."
-   },
-   {
-    "id": "opal_spark_02",
-    "scene": "Teasing ending: the morning after",
-    "context": "Her previous line: Item four hundred and forty-two. Shirt, slightly torn. Acquired last night.",
-    "line": "You can have it back. If you ask nicely. Very nicely.",
-    "emotion": "shy",
-    "note": "Shy and flirty at once; amazed at her own nerve."
-   },
-   {
-    "id": "opal_spark_03",
-    "scene": "Teasing ending: the morning after",
-    "context": "She drags you to quiz night at the Lamplighter. She doesn't know a single answer, and finds eleven lost buttons under the tables.",
-    "line": "Eleven. In one night. People are so careless. I love them.",
-    "emotion": "happy",
-    "note": "Gleeful."
-   },
-   {
-    "id": "opal_spark_04",
-    "scene": "Teasing ending: the morning after",
-    "context": "Her previous line: Eleven. In one night. People are so careless. I love them.",
-    "line": "Next week, the dance. I'm going to step on everyone. I don't have feet, so it won't hurt.",
-    "emotion": "teasing",
-    "note": "Cheeky, very pleased with the joke."
-   },
-   {
-    "id": "opal_spark_05",
-    "scene": "Teasing ending: the morning after",
-    "context": "Her previous line: Next week, the dance. I'm going to step on everyone. I don't have feet, so it won't hurt.",
-    "line": "Do I have to wait for you to drop things? I could just take them. I'm asking first.",
-    "emotion": "teasing",
-    "note": "Playful, a little bold, very polite about it."
-   },
-   {
-    "id": "opal_spark_r1_01",
-    "scene": "Teasing ending: final reply 1",
-    "context": "You said: On purpose. Take whatever you like.",
-    "line": "Whatever I like? You shouldn't say things like that to a collector.",
-    "emotion": "shy",
-    "note": "Flustered and delighted."
-   },
-   {
-    "id": "opal_spark_r2_01",
-    "scene": "Teasing ending: final reply 2",
-    "context": "You said: By accident. It's more fun.",
-    "line": "Then I'll just follow you round. Quietly. I'm very good at floors.",
-    "emotion": "teasing",
-    "note": "Sly, soft, pleased with the joke."
    },
    {
     "id": "opal_gift_01",
@@ -3934,7 +3542,8 @@
      "t": "Why would you do that?",
      "e": "angry",
      "d": "Angry, but not confident.",
-     "id": "opal_intro_01"
+     "id": "opal_intro_01",
+     "short": "Angry"
     },
     {
      "k": "n",
@@ -3945,21 +3554,24 @@
      "t": "I was fine. It was quiet in there.",
      "e": "angry",
      "d": "Says it annoyed, kind of under her breath.",
-     "id": "opal_intro_02"
+     "id": "opal_intro_02",
+     "short": "Annoyed"
     },
     {
      "k": "s",
      "t": "Ambrose wrote that label. He was the forester. When the alchemists came round buying slimes, he hid me out here. It worked for thirty-one years.",
      "e": "neutral",
      "d": "Small and precise. A little proud of him.",
-     "id": "opal_intro_03"
+     "id": "opal_intro_03",
+     "short": "Precise, proud"
     },
     {
      "k": "s",
-     "t": "He used to tap on the glass every morning. Twice. So I'd know it was him.",
+     "t": "He used to tap on the glass every morning twice so I'd know it was him.",
      "e": "sad",
      "d": "Fond and very quiet. She hasn't said this out loud since he died.",
-     "id": "opal_intro_04"
+     "id": "opal_intro_04",
+     "short": "Fond, quiet"
     },
     {
      "k": "n",
@@ -3970,7 +3582,8 @@
      "t": "Where are my things? They were here. In rows. I-I had them in rows.",
      "e": "surprised",
      "d": "Rising alarm, trying to stay polite.",
-     "id": "opal_intro_05"
+     "id": "opal_intro_05",
+     "short": "Alarmed"
     },
     {
      "k": "n",
@@ -3981,14 +3594,16 @@
      "t": "Those are mine. I-I've been collecting them for years.",
      "e": "sad",
      "d": "You lost her things. She's trying to be strict, but she's too shy to actually tell you off.",
-     "id": "opal_intro_06"
+     "id": "opal_intro_06",
+     "short": "Shy"
     },
     {
      "k": "s",
      "t": "Four hundred and twelve buttons. Twenty-six keys. A glass eye. Everyone who comes through these woods drops something, and I kept it.",
      "e": "sad",
      "d": "Reciting to hold herself together. The numbers steady her voice; the last sentence wobbles.",
-     "id": "opal_intro_07"
+     "id": "opal_intro_07",
+     "short": "Barely holding together"
     }
    ],
    "introChoice": {
@@ -4003,7 +3618,8 @@
         "t": "Every one? That's four hundred and twelve buttons.",
         "e": "surprised",
         "d": "Startled, hope creeping in.",
-        "id": "opal_intro_r1_01"
+        "id": "opal_intro_r1_01",
+        "short": "Hopeful"
        },
        {
         "k": "n",
@@ -4015,7 +3631,8 @@
         "t": "Okay. The stream comes out under the Mill Bridge, in town. Things wash up there. People pick them up.",
         "e": "shy",
         "d": "Nervous, convincing herself.",
-        "id": "opal_intro_r1_02"
+        "id": "opal_intro_r1_02",
+        "short": "Nervous"
        }
       ]
      },
@@ -4029,14 +3646,16 @@
         "t": "It was a joke. He laughed at it every single morning for thirty-one years.",
         "e": "angry",
         "d": "Prickly, protective of him.",
-        "id": "opal_intro_r2_01"
+        "id": "opal_intro_r2_01",
+        "short": "Protective"
        },
        {
         "k": "s",
-        "t": "The stream goes to town. We're going. You're carrying me.",
+        "t": "The stream goes to town. We're going. You're carrying me! Please?",
         "e": "neutral",
-        "d": "Surprisingly firm. She's decided.",
-        "id": "opal_intro_r2_02"
+        "d": "Trying to be firm, and losing her nerve on the last word.",
+        "id": "opal_intro_r2_02",
+        "short": "Trying to be firm"
        }
       ]
      }
@@ -4061,21 +3680,24 @@
        "t": "Th-thank you. Sorry. Thank you.",
        "e": "shy",
        "d": "Shy, stutters.",
-       "id": "opal_ch1_01"
+       "id": "opal_ch1_01",
+       "short": "Shy"
       },
       {
        "k": "s",
-       "t": "This one's off a sea captain's coat. Thirty winters ago. He'd come up from the coast for the forest air, to cure his seasickness. I always thought that was a strange job to have, if you get seasick.",
-       "e": "happy",
-       "d": "Warming up; precise, a little wry.",
-       "id": "opal_ch1_02"
+       "t": "This one's my favourite. Brass, four holes, off a very handsome coat. You have a very handsome coat too. That's all. Coats.",
+       "e": "shy",
+       "d": "Starting to flirt and immediately regretting it. Rushed at the end.",
+       "id": "opal_ch1_02",
+       "short": "Shy, flustered"
       },
       {
        "k": "s",
        "t": "The keys went to a locksmith, he says. And the glass eye went to someone who needed a glass eye, I suppose.",
        "e": "neutral",
        "d": "A small dry joke, testing whether you'll laugh.",
-       "id": "opal_ch1_03"
+       "id": "opal_ch1_03",
+       "short": "Dry"
       }
      ],
      "choice": {
@@ -4090,7 +3712,8 @@
           "t": "You want to hear about buttons?",
           "e": "surprised",
           "d": "Disbelieving, delighted.",
-          "id": "opal_ch1_r1_01"
+          "id": "opal_ch1_r1_01",
+          "short": "Disbelieving, delighted"
          },
          {
           "k": "n",
@@ -4102,7 +3725,8 @@
           "t": "Sorry. I don't usually get to tell anyone.",
           "e": "shy",
           "d": "Suddenly self-conscious.",
-          "id": "opal_ch1_r1_02"
+          "id": "opal_ch1_r1_02",
+          "short": "Self-conscious"
          }
         ]
        },
@@ -4116,14 +3740,16 @@
           "t": "They're not strangers. I heard every one of them go by. From the jar.",
           "e": "angry",
           "d": "Offended, firm for once.",
-          "id": "opal_ch1_r2_01"
+          "id": "opal_ch1_r2_01",
+          "short": "Firm"
          },
          {
           "k": "s",
           "t": "That sounds strange out loud. Don't answer that.",
           "e": "shy",
           "d": "Hearing herself; embarrassed.",
-          "id": "opal_ch1_r2_02"
+          "id": "opal_ch1_r2_02",
+          "short": "Embarrassed"
          }
         ]
        }
@@ -4148,21 +3774,24 @@
        "t": "Alchemists boil slimes down for glue. Did you know that? Twelve shillings a pound.",
        "e": "sad",
        "d": "Quiet and matter-of-fact. Frightened underneath.",
-       "id": "opal_ch2_01"
+       "id": "opal_ch2_01",
+       "short": "Quiet"
       },
       {
        "k": "s",
        "t": "That's why Ambrose put me in the jar. Nobody looks inside a jar of pickled newts. We were the same age when he did it, near enough. He got old.",
        "e": "sad",
        "d": "Fond, grieving, matter-of-fact about the last part; slimes don't age the way people do.",
-       "id": "opal_ch2_02"
+       "id": "opal_ch2_02",
+       "short": "Fond, grieving"
       },
       {
        "k": "s",
        "t": "They start clearing on quarter day. After that I need somewhere else to be quiet.",
        "e": "neutral",
        "d": "Trying very hard to sound practical.",
-       "id": "opal_ch2_03"
+       "id": "opal_ch2_03",
+       "short": "Worried"
       }
      ],
      "choice": {
@@ -4177,14 +3806,16 @@
           "t": "W-with you? Where would I even...",
           "e": "shy",
           "d": "Flustered, stumbling over it.",
-          "id": "opal_ch2_r1_01"
+          "id": "opal_ch2_r1_01",
+          "short": "Flustered"
          },
          {
           "k": "s",
           "t": "I'd want my own jar. Just to start. Is that strange?",
           "e": "happy",
           "d": "Shy, hopeful, braver than she sounds.",
-          "id": "opal_ch2_r1_02"
+          "id": "opal_ch2_r1_02",
+          "short": "Shy, hopeful"
          }
         ]
        },
@@ -4195,10 +3826,11 @@
         "resp": [
          {
           "k": "s",
-          "t": "Against an alchemist? You sold my buttons for two coppers and bought them back for six.",
+          "t": "Against an alchemist? You kicked my buttons into a stream and then paid six coppers to get them back.",
           "e": "surprised",
           "d": "Startled into teasing.",
-          "id": "opal_ch2_r2_01"
+          "id": "opal_ch2_r2_01",
+          "short": "Startled, teasing"
          },
          {
           "k": "n",
@@ -4210,7 +3842,8 @@
           "t": "I'd like to see that, actually.",
           "e": "happy",
           "d": "Shy smile you can hear.",
-          "id": "opal_ch2_r2_02"
+          "id": "opal_ch2_r2_02",
+          "short": "Shy"
          }
         ]
        }
@@ -4454,7 +4087,7 @@
    "endings": {
     "warmth": {
      "title": "A Quiet Place",
-     "text": "Opal moves in properly. Her collection grows a second shelf, then a third: things you've dropped, things your friends have dropped, the ticket from your first evening out together. She learns the name of everyone on your street, and what each of them has dropped.",
+     "text": "Opal moves in properly. Her collection grows a second shelf, then a third: things you've dropped, things your friends have dropped, the ticket from your first evening out together. The jar lives under the bed. She uses it twice that year, both times in thunderstorms, and both times you sit on the floor beside it while she tells you, through the glass, which of the neighbours owe each other money. She climbs out on her own before the storm is over.",
      "epilogue": {
       "intro": [
        {
@@ -4466,14 +4099,28 @@
         "t": "Sorry. I spread out in my sleep. I didn't know that. I've never slept anywhere big enough to find out.",
         "e": "shy",
         "d": "Embarrassed, half laughing.",
-        "id": "opal_warm_01"
+        "id": "opal_end_01"
+       },
+       {
+        "k": "s",
+        "t": "Last night was the best thing that's happened to me in thirty-one years. Possibly ever. I'm not exaggerating. I've had a lot of time to compare.",
+        "e": "shy",
+        "d": "Shy and glowing, completely sincere.",
+        "id": "opal_end_02"
+       },
+       {
+        "k": "s",
+        "t": "I'd like to do it again. That's allowed to be said, isn't it? Good. I'd like to do it again.",
+        "e": "happy",
+        "d": "Flustered, then brave, then delighted with herself.",
+        "id": "opal_end_03"
        },
        {
         "k": "s",
         "t": "I've started a card for last night. For the collection. I'm on my fourth draft.",
         "e": "happy",
         "d": "Pleased with herself, shy about it.",
-        "id": "opal_warm_02"
+        "id": "opal_end_04"
        }
       ],
       "beat1_caption": "Morning light through the bedroom curtains, and someone translucent and lilac curled over the covers.",
@@ -4487,14 +4134,14 @@
         "t": "The baker asked my name. I told him. Then I told him about buttons for a while. He was very patient.",
         "e": "happy",
         "d": "Proud, breathless.",
-        "id": "opal_warm_03"
+        "id": "opal_end_05"
        },
        {
         "k": "s",
         "t": "I'm going back tomorrow. He does a seeded loaf on Thursdays.",
         "e": "shy",
         "d": "Quietly determined, trying to make it sound ordinary.",
-        "id": "opal_warm_04"
+        "id": "opal_end_06"
        }
       ],
       "beat2_caption": "Opal at the baker's counter, a loaf under one arm and a stray button in her hand.",
@@ -4504,146 +4151,22 @@
         "t": "The jar. Should I keep it? I haven't been in it for a week. I still check it's there.",
         "e": "neutral",
         "d": "Thoughtful, a little vulnerable.",
-        "id": "opal_warm_05"
-       }
-      ],
-      "choice": {
-       "options": [
-        {
-         "label": "Keep it. For storms.",
-         "key": "keep_jar",
-         "resp": [
-          {
-           "k": "s",
-           "t": "For storms. Okay. Just for storms.",
-           "e": "shy",
-           "d": "Relieved.",
-           "id": "opal_warm_r1_01"
-          }
-         ]
-        },
-        {
-         "label": "Make it part of the collection.",
-         "key": "collect_jar",
-         "resp": [
-          {
-           "k": "s",
-           "t": "Oh. Yes. The jar I used to live in. Item nought. It goes before everything.",
-           "e": "happy",
-           "d": "A delighted little realisation.",
-           "id": "opal_warm_r2_01"
-          }
-         ]
-        }
-       ]
-      },
-      "finales": {
-       "keep_jar": {
-        "title": "Storm Jar",
-        "text": "The jar lives under the bed. She uses it twice that year, both times in thunderstorms, and both times you sit on the floor beside it with a glass of wine while she tells you, through the glass, which of the neighbours owe each other money. She climbs out on her own before the storm is over."
+        "id": "opal_end_07"
        },
-       "collect_jar": {
-        "title": "Item Nought",
-        "text": "The jar goes on the top shelf with a card in front of it in her neat handwriting: 'Lived here. Don't any more.' Visitors think it's a joke. She lets them."
-       }
-      }
-     }
-    },
-    "spark": {
-     "title": "Loud Company",
-     "text": "Opal finds out she likes noise, as long as it's yours. She comes to the market and the quiz nights at the pub, and once to a dance. She comes home with full pockets every time.",
-     "epilogue": {
-      "intro": [
        {
         "k": "n",
-        "t": "You can't find your shirt. It's on the shelf, folded, with a little card in front of it."
+        "t": "You tell her to keep it. For storms."
        },
        {
         "k": "s",
-        "t": "Item four hundred and forty-two. Shirt, slightly torn. Acquired last night.",
-        "e": "teasing",
-        "d": "Deadpan, then she can't hold in the laugh.",
-        "id": "opal_spark_01"
-       },
-       {
-        "k": "s",
-        "t": "You can have it back. If you ask nicely. Very nicely.",
+        "t": "For storms. Okay. Just for storms.",
         "e": "shy",
-        "d": "Shy and flirty at once; amazed at her own nerve.",
-        "id": "opal_spark_02"
+        "d": "Relieved.",
+        "id": "opal_end_08"
        }
       ],
-      "beat1_caption": "The collection shelf at dawn, with one new item: a shirt, carefully folded, with a label.",
-      "middle": [
-       {
-        "k": "n",
-        "t": "She drags you to quiz night at the Lamplighter. She doesn't know a single answer, and finds eleven lost buttons under the tables."
-       },
-       {
-        "k": "s",
-        "t": "Eleven. In one night. People are so careless. I love them.",
-        "e": "happy",
-        "d": "Gleeful.",
-        "id": "opal_spark_03"
-       },
-       {
-        "k": "s",
-        "t": "Next week, the dance. I'm going to step on everyone. I don't have feet, so it won't hurt.",
-        "e": "teasing",
-        "d": "Cheeky, very pleased with the joke.",
-        "id": "opal_spark_04"
-       }
-      ],
-      "beat2_caption": "Quiz night at the Lamplighter: one terrible score, eleven recovered buttons.",
-      "choice_lines": [
-       {
-        "k": "s",
-        "t": "Do I have to wait for you to drop things? I could just take them. I'm asking first.",
-        "e": "teasing",
-        "d": "Playful, a little bold, very polite about it.",
-        "id": "opal_spark_05"
-       }
-      ],
-      "choice": {
-       "options": [
-        {
-         "label": "On purpose. Take whatever you like.",
-         "key": "on_purpose",
-         "resp": [
-          {
-           "k": "s",
-           "t": "Whatever I like? You shouldn't say things like that to a collector.",
-           "e": "shy",
-           "d": "Flustered and delighted.",
-           "id": "opal_spark_r1_01"
-          }
-         ]
-        },
-        {
-         "label": "By accident. It's more fun.",
-         "key": "by_accident",
-         "resp": [
-          {
-           "k": "s",
-           "t": "Then I'll just follow you round. Quietly. I'm very good at floors.",
-           "e": "teasing",
-           "d": "Sly, soft, pleased with the joke.",
-           "id": "opal_spark_r2_01"
-          }
-         ]
-        }
-       ]
-      },
-      "finales": {
-       "on_purpose": {
-        "title": "A Collection of You",
-        "text": "A whole shelf fills up with you: a scarf, a pen, a ticket, the first note you left her. Every item has a card. The cards get longer and less formal as the year goes on, and some of them you're not allowed to read."
-       },
-       "by_accident": {
-        "title": "Finders Keepers",
-        "text": "You drop things round the house without thinking, and she finds every one, usually before you notice it's gone. She never gives anything back. Your cufflinks are on the third shelf, very nicely arranged."
-       }
-      }
+      "choice": null,
+      "finales": {}
      }
     }
    }
@@ -4839,17 +4362,17 @@
     "id": "hazel_intro_02",
     "scene": "Meeting her",
     "context": "She looks at the axe, then at the place on the trunk you were aiming for.",
-    "line": "You'd have struck just below my heart. It would take... forty years or so to heal.",
+    "line": "You were aiming just below my heart. That takes forty years or so to heal.",
     "emotion": "sad",
     "note": "Calm, not angry, a little sad."
    },
    {
     "id": "hazel_intro_03",
     "scene": "Meeting her",
-    "context": "Her previous line: You'd have struck just below my heart. It would take... forty years or so to heal.",
-    "line": "Aldous sent you. He sends someone every spring.",
+    "context": "Her previous line: You were aiming just below my heart. That takes forty years or so to heal.",
+    "line": "Let me guess. Aldous paid you half up front.",
     "emotion": "neutral",
-    "note": "Dry and matter-of-fact. Tired more than cross."
+    "note": "Dry, tired more than cross. Aldous the miller sends someone every spring."
    },
    {
     "id": "hazel_intro_04",
@@ -4863,55 +4386,55 @@
     "id": "hazel_intro_05",
     "scene": "Meeting her",
     "context": "Her previous line: Oh. You're putting it down. Most of them argue first.",
-    "line": "The last one tried to reason with me while he was still holding the axe. I dropped a beehive on him.",
+    "line": "The last one argued with the axe still in his hands, so I dropped a beehive on him. I wouldn't do that to you. Your face is too nice to waste on bees.",
     "emotion": "teasing",
-    "note": "Bone-dry, perfectly pleasant."
+    "note": "Bone-dry, perfectly pleasant. The compliment comes out in the same flat tone."
    },
    {
     "id": "hazel_intro_06",
     "scene": "Meeting her",
     "context": "You tell her about the wall. Her roots are cracking it, and when it goes, the miller loses his mill.",
-    "line": "I know about the wall. My roots go where the water is. They don't ask me first.",
+    "line": "I know about the wall. My roots go where the water is, and they've never once asked my opinion.",
     "emotion": "sad",
     "note": "Tired. She's had this argument with herself for years."
    },
    {
     "id": "hazel_intro_07",
     "scene": "Meeting her",
-    "context": "Her previous line: I know about the wall. My roots go where the water is. They don't ask me first.",
-    "line": "If someone dug him a new channel, further out, I could follow it. It would take a season. Nobody's ever offered to dig.",
+    "context": "Her previous line: I know about the wall. My roots go where the water is, and they've never once asked my opinion.",
+    "line": "If someone dug him a new channel further out, my roots would follow the water. It would take a season. Nobody's ever offered. It's a lot of digging.",
     "emotion": "neutral",
-    "note": "Plain statement. A small hope she won't admit to."
+    "note": "Plain. A small hope she won't admit to; the last sentence is a hint."
    },
    {
     "id": "hazel_intro_r1_01",
     "scene": "Meeting her: reply 1",
     "context": "You said: I'll dig it. Show me where.",
-    "line": "By hand? You'll be at it till midsummer.",
+    "line": "By hand? You'll be at it till midsummer. I suppose I'll have to put up with you all spring.",
     "emotion": "surprised",
-    "note": "Slow disbelief, a little touched under it."
+    "note": "Slow disbelief, touched. The second sentence pretends to be a complaint."
    },
    {
     "id": "hazel_intro_r1_02",
     "scene": "Meeting her: reply 1",
     "context": "A leaf drops into your hair. There's no wind.",
-    "line": "Start by the alder. The ground's soft there. I'll tell you when you hit a root.",
+    "line": "Start by the alder, the ground's soft there. And roll your sleeves up. For the digging.",
     "emotion": "happy",
-    "note": "Practical, warmer than before."
+    "note": "Practical, then a short pause before the excuse at the end."
    },
    {
     "id": "hazel_intro_r2_01",
     "scene": "Meeting her: reply 2",
     "context": "You said: I'll dig. I'm keeping the miller's money, though.",
-    "line": "Keep it. Buy a better axe and never use it.",
+    "line": "Keep it. Buy yourself a better axe and never use it.",
     "emotion": "teasing",
     "note": "Dry, amused."
    },
    {
     "id": "hazel_intro_r2_02",
     "scene": "Meeting her: reply 2",
-    "context": "Her previous line: Keep it. Buy a better axe and never use it.",
-    "line": "Start by the alder. If you hit a root, apologise to it.",
+    "context": "Her previous line: Keep it. Buy yourself a better axe and never use it.",
+    "line": "Start by the alder. If you hit a root, say sorry. It's me, and I'll be listening.",
     "emotion": "neutral",
     "note": "Deadpan. She means the apology."
    },
@@ -4919,7 +4442,7 @@
     "id": "hazel_ch1_01",
     "scene": "After chapter 1",
     "context": "You dig until sunset. The trench ends up about the length of a coffin, which she points out twice.",
-    "line": "That's a good trench. For a grave. For a millrace, it's a start.",
+    "line": "That's a lovely trench, if you're planning to bury somebody. For a millrace it's a start.",
     "emotion": "teasing",
     "note": "Teasing, unhurried."
    },
@@ -4927,17 +4450,17 @@
     "id": "hazel_ch1_02",
     "scene": "After chapter 1",
     "context": "When you climb out you lean on the trunk to get your breath back. The bark is rough and cool under your hand.",
-    "line": "Oh, you're warm... No one's touched me without an axe in years.",
+    "line": "Oh. You're warm. Nobody's put a hand on me in years, unless they were measuring where to cut.",
     "emotion": "surprised",
-    "note": "Surprised and affectionate."
+    "note": "Surprised, caught off guard."
    },
    {
     "id": "hazel_ch1_03",
     "scene": "After chapter 1",
     "context": "You start to take your hand away. She says you don't have to.",
-    "line": "Leave it there a minute. It's been a long winter.",
+    "line": "Leave it. Bit lower, if you like. The bark's softer.",
     "emotion": "shy",
-    "note": "Quiet, a little embarrassed to ask."
+    "note": "Quiet and low; a little embarrassed she said it."
    },
    {
     "id": "hazel_ch1_r1_01",
@@ -4951,9 +4474,9 @@
     "id": "hazel_ch1_r1_02",
     "scene": "After chapter 1: reply 1",
     "context": "Her previous line: Since the grove was a forest. Two hundred years, give or take a drought.",
-    "line": "It isn't so bad. The badgers visit. They're terrible company.",
+    "line": "The badgers visit. They don't talk much, and none of them has ever leaned on me like that.",
     "emotion": "happy",
-    "note": "Lifting it with a dry joke."
+    "note": "Dry joke, then fond."
    },
    {
     "id": "hazel_ch1_r2_01",
@@ -4967,33 +4490,33 @@
     "id": "hazel_ch1_r2_02",
     "scene": "After chapter 1: reply 2",
     "context": "Her previous line: You came by with an axe.",
-    "line": "But I'll allow it. Bring the shovel tomorrow. Leave the axe.",
+    "line": "Come back tomorrow. Bring the shovel, leave the axe, and wear that shirt again.",
     "emotion": "happy",
-    "note": "Warm, playful."
+    "note": "Warm, playful; the last part comes quickly, before she can take it back."
    },
    {
     "id": "hazel_ch2_01",
     "scene": "After chapter 2",
     "context": "When you get back, a branch creaks overhead in a way that sounds very deliberate.",
-    "line": "The ferns tell me you were talking to the miller's daughter. I'm not jealous. But I might drop a branch near her, that's all.",
+    "line": "The ferns say you walked the miller's daughter to the footbridge. That's fine. I'm sure no branch will fall on her. Fairly sure.",
     "emotion": "teasing",
-    "note": "Jealous and playful."
+    "note": "Calm and pleasant, and jealous. The threat is polite."
    },
    {
     "id": "hazel_ch2_02",
     "scene": "After chapter 2",
     "context": "A twig drops, very precisely, into your lunch.",
-    "line": "Her father came by this morning. He'll give you until the end of the month. Then he hires someone with a saw.",
+    "line": "Her father came by too. You've got till the end of the month. Then he hires someone with a saw.",
     "emotion": "sad",
     "note": "Calm on the surface; worry underneath."
    },
    {
     "id": "hazel_ch2_03",
     "scene": "After chapter 2",
-    "context": "Her previous line: Her father came by this morning. He'll give you until the end of the month. Then he hires someone with a saw.",
-    "line": "Dig faster. I'd like to see another spring.",
+    "context": "Her previous line: Her father came by too. You've got till the end of the month. Then he hires someone with a saw.",
+    "line": "So dig faster. I've started making plans for summer, and you're in most of them.",
     "emotion": "neutral",
-    "note": "Light on top, real fear underneath."
+    "note": "Light on top, real fear underneath; the second half is softer."
    },
    {
     "id": "hazel_ch2_r1_01",
@@ -5007,9 +4530,9 @@
     "id": "hazel_ch2_r1_02",
     "scene": "After chapter 2: reply 1",
     "context": "Her previous line: I know. The ferns mentioned that too.",
-    "line": "Eat your lunch. She makes good bread, apparently.",
+    "line": "Eat your lunch. She makes good bread, apparently. Nobody's ever walked me to a footbridge.",
     "emotion": "happy",
-    "note": "A tiny bit petty, mostly fond."
+    "note": "A tiny bit petty, mostly wistful."
    },
    {
     "id": "hazel_ch2_r2_01",
@@ -5023,7 +4546,7 @@
     "id": "hazel_ch2_r2_02",
     "scene": "After chapter 2: reply 2",
     "context": "It's April.",
-    "line": "Dig your trench.",
+    "line": "Dig your trench. And stop looking at my leaves.",
     "emotion": "shy",
     "note": "Mortified, very dignified about it."
    },
@@ -5031,7 +4554,7 @@
     "id": "hazel_ch3_01",
     "scene": "After chapter 3",
     "context": "The trench reaches the river on the night of a storm. Water floods into the new channel, and the whole tree shudders.",
-    "line": "It's fine. It's just roots. They have to let go of the old wall, and they don't like it.",
+    "line": "It's fine. It's the roots letting go of the old wall. They've held it forty years. They're making a fuss.",
     "emotion": "sad",
     "note": "Strained. Trying to sound calm and not quite managing."
    },
@@ -5039,14 +4562,14 @@
     "id": "hazel_ch3_02",
     "scene": "After chapter 3",
     "context": "You sit with your back against the trunk while it rains. Every so often she makes a small sound, and you put your hand flat on the bark.",
-    "line": "You didn't have to stay. It's cold. You'll get ill and blame me.",
+    "line": "You didn't have to stay. You're soaked. You'll get ill, and then I'll have to look after you, and I've no idea how.",
     "emotion": "shy",
     "note": "Gruff, grateful underneath."
    },
    {
     "id": "hazel_ch3_03",
     "scene": "After chapter 3",
-    "context": "Her previous line: You didn't have to stay. It's cold. You'll get ill and blame me.",
+    "context": "Her previous line: You didn't have to stay. You're soaked. You'll get ill, and then I'll have to look after you, and I've no idea how.",
     "line": "Talk to me. About anything. What did you have for breakfast?",
     "emotion": "sad",
     "note": "Small, strained; asking for help is hard for her, so she makes it about breakfast."
@@ -5063,7 +4586,7 @@
     "id": "hazel_ch3_r1_02",
     "scene": "After chapter 3: reply 1",
     "context": "She talks until the storm passes. You fall asleep against her before she's finished, and she doesn't seem to mind.",
-    "line": "You're still warm. Good.",
+    "line": "You're still warm. I'll keep you.",
     "emotion": "shy",
     "note": "Barely a murmur, to herself as much as to you."
    },
@@ -5087,7 +4610,7 @@
     "id": "hazel_ch4_01",
     "scene": "After chapter 4 (last scene)",
     "context": "He tells you to keep the money. Then he walks over and pats the hazel's trunk, awkwardly, like a man apologising to a horse.",
-    "line": "He's never done that. Forty springs, and he's never once done that.",
+    "line": "Forty springs he's sent people with axes. That's the first time he's ever touched me.",
     "emotion": "surprised",
     "note": "Quietly moved. Almost a whisper."
    },
@@ -5095,38 +4618,38 @@
     "id": "hazel_ch4_02",
     "scene": "After chapter 4 (last scene)",
     "context": "That night she climbs down from her branch and walks out across the grass, further than you've ever seen her go.",
-    "line": "I can walk as far as my roots go. They go a long way now. Thanks to someone.",
+    "line": "I can go as far as my roots do. Thanks to someone, that's quite far now. Far enough to follow you home, if I felt like it.",
     "emotion": "shy",
-    "note": "Shy and warm; won't say your name."
+    "note": "Shy and warm; won't say your name. The last part is a test."
    },
    {
     "id": "hazel_ch4_03",
     "scene": "After chapter 4 (last scene)",
-    "context": "Her previous line: I can walk as far as my roots go. They go a long way now. Thanks to someone.",
-    "line": "The moss on the east side is softer than it looks.",
+    "context": "Her previous line: I can go as far as my roots do. Thanks to someone, that's quite far now. Far enough to follow you home, if I felt like it.",
+    "line": "The moss on the east side is softer than it looks. I've been meaning to mention that for about a week.",
     "emotion": "teasing",
     "note": "Low and slow. An invitation she's pretending is a fact about moss."
    },
    {
     "id": "hazel_ch4_04",
     "scene": "After chapter 4 (last scene)",
-    "context": "Her previous line: The moss on the east side is softer than it looks.",
-    "line": "Stay tonight. I'll keep the rain off.",
+    "context": "Her previous line: The moss on the east side is softer than it looks. I've been meaning to mention that for about a week.",
+    "line": "Stay tonight. I'll keep the rain off. I'm not promising anything else.",
     "emotion": "happy",
-    "note": "Warm, certain."
+    "note": "Warm, certain, a little wicked at the end."
    },
    {
     "id": "hazel_night_01",
     "scene": "Her night scene (full-screen CG)",
     "context": "The moss on the east side is softer than it looks. Above you her branches have spread and knitted together, and the first rain ticks against the leaves without coming through.",
-    "line": "Two hundred springs I've watched people walk past this tree. Not one of them ever lay down under it.",
+    "line": "Two hundred years people have walked past this tree. Not one of them ever lay down under it. Shift over, you're on a root.",
     "emotion": "neutral",
-    "note": "Slow and calm, quietly amazed."
+    "note": "Slow and calm, quietly amazed, then practical."
    },
    {
     "id": "hazel_night_02",
     "scene": "Her night scene (full-screen CG)",
-    "context": "Her previous line: Two hundred springs I've watched people walk past this tree. Not one of them ever lay down under it.",
+    "context": "Her previous line: Two hundred years people have walked past this tree. Not one of them ever lay down under it. Shift over, you're on a root.",
     "line": "The badgers are watching. I told them to go away. Nobody in this grove listens to me.",
     "emotion": "teasing",
     "note": "Bone-dry, a little shy under it."
@@ -5151,7 +4674,7 @@
     "id": "hazel_night_05",
     "scene": "Her night scene (full-screen CG)",
     "context": "Her previous line: Tell me if I get this wrong. I've read about it in exactly one book, and a woodcutter dropped it here before the mill was built.",
-    "line": "Slowly. I've got all the time in the world, and I'd like to spend some of it on this.",
+    "line": "Slowly. I've had two hundred years of nothing happening. I'd like this to take a while.",
     "emotion": "shy",
     "note": "Calm, warm, certain."
    },
@@ -5167,129 +4690,73 @@
     "id": "hazel_night_22",
     "scene": "Her night scene (full-screen CG)",
     "context": "Her previous line: Don't look at the leaves. They're being ridiculous.",
-    "line": "And don't tell the ferns.",
+    "line": "And don't tell the ferns. They'll want details.",
     "emotion": "teasing",
     "note": "Hushed, smiling."
    },
    {
     "id": "hazel_night_23",
     "scene": "Her night scene (full-screen CG)",
-    "context": "Her previous line: And don't tell the ferns.",
+    "context": "Her previous line: And don't tell the ferns. They'll want details.",
     "line": "Sleep. I'll wake you if the miller comes. I might not.",
     "emotion": "happy",
     "note": "Warm and drowsy, a little wicked."
    },
    {
-    "id": "hazel_warm_01",
-    "scene": "Warm ending: the morning after",
+    "id": "hazel_end_01",
+    "scene": "Her ending: the morning after",
     "context": "Morning in the grove. There's blossom on the east side of the tree that wasn't there last night. Hazels flower in February. It's May.",
+    "line": "Two hundred years, and nobody told me it could feel like that. I'd like it noted that I'm saying this very calmly.",
+    "emotion": "shy",
+    "note": "Calm voice, completely undone underneath."
+   },
+   {
+    "id": "hazel_end_02",
+    "scene": "Her ending: the morning after",
+    "context": "Her previous line: Two hundred years, and nobody told me it could feel like that. I'd like it noted that I'm saying this very calmly.",
     "line": "Don't look at them. They're not for you. They're seasonal.",
     "emotion": "shy",
     "note": "Flustered and a terrible liar, deadpan anyway."
    },
    {
-    "id": "hazel_warm_02",
-    "scene": "Warm ending: the morning after",
+    "id": "hazel_end_03",
+    "scene": "Her ending: the morning after",
     "context": "Her previous line: Don't look at them. They're not for you. They're seasonal.",
     "line": "Fine. They're for you. I haven't flowered out of season since before the mill was built. People are going to talk.",
     "emotion": "happy",
     "note": "Giving in; fond and a bit exasperated with herself."
    },
    {
-    "id": "hazel_warm_03",
-    "scene": "Warm ending: the morning after",
+    "id": "hazel_end_04",
+    "scene": "Her ending: the morning after",
     "context": "She shows you which branches you can sit on and which ones she's ticklish about. The second list is long.",
     "line": "That one's fine. That one's fine. Not that one. I mean it. Don't.",
     "emotion": "teasing",
     "note": "Escalating warning, trying not to laugh."
    },
    {
-    "id": "hazel_warm_04",
-    "scene": "Warm ending: the morning after",
+    "id": "hazel_end_05",
+    "scene": "Her ending: the morning after",
     "context": "Her previous line: That one's fine. That one's fine. Not that one. I mean it. Don't.",
-    "line": "Plant something near me. So there's something of yours here when you're not.",
+    "line": "Plant something near me. Something that needs watering every day, so you've got a reason to come by.",
     "emotion": "shy",
     "note": "Simple, a little shy; she's thought about it."
    },
    {
-    "id": "hazel_warm_05",
-    "scene": "Warm ending: the morning after",
-    "context": "Her previous line: Plant something near me. So there's something of yours here when you're not.",
-    "line": "What will you plant? Choose carefully. It'll be here longer than either of us. Well. Longer than you.",
+    "id": "hazel_end_06",
+    "scene": "Her ending: the morning after",
+    "context": "Her previous line: Plant something near me. Something that needs watering every day, so you've got a reason to come by.",
+    "line": "Go on, then. What are you planting? It'll outlast both of us. Well. It'll outlast you.",
     "emotion": "neutral",
     "note": "Gentle, dry correction at the end."
    },
    {
-    "id": "hazel_warm_r1_01",
-    "scene": "Warm ending: final reply 1",
-    "context": "You said: Another hazel. So you're not the only one.",
+    "id": "hazel_end_07",
+    "scene": "Her ending: the morning after",
+    "context": "You say another hazel, so she isn't the only one.",
     "line": "A neighbour. I've never had a neighbour.",
     "emotion": "shy",
     "note": "Quiet wonder."
-   },
-   {
-    "id": "hazel_warm_r2_01",
-    "scene": "Warm ending: final reply 2",
-    "context": "You said: An apple tree. I want something to eat out here.",
-    "line": "Practical. I'll make sure it's the best apple tree in the county. Out of spite towards the other trees.",
-    "emotion": "teasing",
-    "note": "Dry, competitive."
-   },
-   {
-    "id": "hazel_spark_01",
-    "scene": "Teasing ending: the morning after",
-    "context": "You try to get up at dawn. A root has looped itself gently round your ankle.",
-    "line": "Oh, that? I don't control those when I'm asleep.",
-    "emotion": "teasing",
-    "note": "An obvious lie told very calmly."
-   },
-   {
-    "id": "hazel_spark_02",
-    "scene": "Teasing ending: the morning after",
-    "context": "Her previous line: Oh, that? I don't control those when I'm asleep.",
-    "line": "I'm awake now. It's still there. Lie back down.",
-    "emotion": "happy",
-    "note": "Warm, smug, sleepy."
-   },
-   {
-    "id": "hazel_spark_03",
-    "scene": "Teasing ending: the morning after",
-    "context": "The miller's daughter walks past on the path and waves. A branch creaks overhead.",
-    "line": "Trees creak. Ask anyone.",
-    "emotion": "teasing",
-    "note": "Innocent, not even trying to be convincing."
-   },
-   {
-    "id": "hazel_spark_04",
-    "scene": "Teasing ending: the morning after",
-    "context": "Her previous line: Trees creak. Ask anyone.",
-    "line": "I'm keeping you. You understand that? Dryads don't do things by halves.",
-    "emotion": "neutral",
-    "note": "Calm and serious under the play. She means it."
-   },
-   {
-    "id": "hazel_spark_05",
-    "scene": "Teasing ending: the morning after",
-    "context": "Her previous line: I'm keeping you. You understand that? Dryads don't do things by halves.",
-    "line": "Say so and I'll let go. I'd rather you didn't.",
-    "emotion": "teasing",
-    "note": "Light on the surface, a real question underneath."
-   },
-   {
-    "id": "hazel_spark_r1_01",
-    "scene": "Teasing ending: final reply 1",
-    "context": "You said: Keep me.",
-    "line": "Good. I was going to anyway. This is nicer.",
-    "emotion": "happy",
-    "note": "Content, a little wicked."
-   },
-   {
-    "id": "hazel_spark_r2_01",
-    "scene": "Teasing ending: final reply 2",
-    "context": "You said: You'll have to catch me first.",
-    "line": "I'm a tree. I'm very patient. Run.",
-    "emotion": "teasing",
-    "note": "Slow, delighted menace."
    },
    {
     "id": "hazel_gift_01",
@@ -5303,7 +4770,7 @@
     "id": "hazel_gift_02",
     "scene": "Gift scene (Brass Pocket Sundial)",
     "context": "The green at the tips of her hair goes a shade darker. She notices, and decides not to mention it.",
-    "line": "I'll keep it on the low branch. Where I can see it. And see you, coming up the path.",
+    "line": "I'll hang it on the low branch. You can see the path from there, which is where you come from. Not that I watch it.",
     "emotion": "shy",
     "note": "Quiet, shy, saying more than she planned to."
    },
@@ -5351,7 +4818,7 @@
     "id": "hazel_fav_06",
     "scene": "Puzzle quip: you matched her favourite gem",
     "context": "Short bark, shown as a pop-up while you play.",
-    "line": "That's lovely. Keep going.",
+    "line": "Don't stop on my account.",
     "emotion": "neutral",
     "note": "Warm."
    },
@@ -5415,9 +4882,9 @@
     "id": "hazel_chat_03",
     "scene": "Puzzle quip: chatter while you play",
     "context": "Short bark, shown as a pop-up while you play.",
-    "line": "The ferns are watching. They gossip.",
+    "line": "The ferns are watching. Give them something to talk about.",
     "emotion": "neutral",
-    "note": "Conspiratorial."
+    "note": "Sly."
    },
    {
     "id": "hazel_chat_04",
@@ -5431,9 +4898,9 @@
     "id": "hazel_chat_05",
     "scene": "Puzzle quip: chatter while you play",
     "context": "Short bark, shown as a pop-up while you play.",
-    "line": "Better than the last one Aldous sent.",
+    "line": "Better than the last one Aldous sent. Prettier, too.",
     "emotion": "neutral",
-    "note": "Faint praise, meant kindly."
+    "note": "Dry, fond."
    },
    {
     "id": "hazel_chat_06",
@@ -5447,7 +4914,7 @@
     "id": "hazel_chat_07",
     "scene": "Puzzle quip: chatter while you play",
     "context": "Short bark, shown as a pop-up while you play.",
-    "line": "Take your time. I've got about three hundred years.",
+    "line": "Take your time. I've got a few hundred years.",
     "emotion": "neutral",
     "note": "Unhurried."
    },
@@ -5496,16 +4963,16 @@
     },
     {
      "k": "s",
-     "t": "You'd have struck just below my heart. It would take... forty years or so to heal.",
+     "t": "You were aiming just below my heart. That takes forty years or so to heal.",
      "e": "sad",
      "d": "Calm, not angry, a little sad.",
      "id": "hazel_intro_02"
     },
     {
      "k": "s",
-     "t": "Aldous sent you. He sends someone every spring.",
+     "t": "Let me guess. Aldous paid you half up front.",
      "e": "neutral",
-     "d": "Dry and matter-of-fact. Tired more than cross.",
+     "d": "Dry, tired more than cross. Aldous the miller sends someone every spring.",
      "id": "hazel_intro_03"
     },
     {
@@ -5522,9 +4989,9 @@
     },
     {
      "k": "s",
-     "t": "The last one tried to reason with me while he was still holding the axe. I dropped a beehive on him.",
+     "t": "The last one argued with the axe still in his hands, so I dropped a beehive on him. I wouldn't do that to you. Your face is too nice to waste on bees.",
      "e": "teasing",
-     "d": "Bone-dry, perfectly pleasant.",
+     "d": "Bone-dry, perfectly pleasant. The compliment comes out in the same flat tone.",
      "id": "hazel_intro_05"
     },
     {
@@ -5533,16 +5000,16 @@
     },
     {
      "k": "s",
-     "t": "I know about the wall. My roots go where the water is. They don't ask me first.",
+     "t": "I know about the wall. My roots go where the water is, and they've never once asked my opinion.",
      "e": "sad",
      "d": "Tired. She's had this argument with herself for years.",
      "id": "hazel_intro_06"
     },
     {
      "k": "s",
-     "t": "If someone dug him a new channel, further out, I could follow it. It would take a season. Nobody's ever offered to dig.",
+     "t": "If someone dug him a new channel further out, my roots would follow the water. It would take a season. Nobody's ever offered. It's a lot of digging.",
      "e": "neutral",
-     "d": "Plain statement. A small hope she won't admit to.",
+     "d": "Plain. A small hope she won't admit to; the last sentence is a hint.",
      "id": "hazel_intro_07"
     }
    ],
@@ -5555,9 +5022,9 @@
       "resp": [
        {
         "k": "s",
-        "t": "By hand? You'll be at it till midsummer.",
+        "t": "By hand? You'll be at it till midsummer. I suppose I'll have to put up with you all spring.",
         "e": "surprised",
-        "d": "Slow disbelief, a little touched under it.",
+        "d": "Slow disbelief, touched. The second sentence pretends to be a complaint.",
         "id": "hazel_intro_r1_01"
        },
        {
@@ -5567,9 +5034,9 @@
        },
        {
         "k": "s",
-        "t": "Start by the alder. The ground's soft there. I'll tell you when you hit a root.",
+        "t": "Start by the alder, the ground's soft there. And roll your sleeves up. For the digging.",
         "e": "happy",
-        "d": "Practical, warmer than before.",
+        "d": "Practical, then a short pause before the excuse at the end.",
         "id": "hazel_intro_r1_02"
        }
       ]
@@ -5581,14 +5048,14 @@
       "resp": [
        {
         "k": "s",
-        "t": "Keep it. Buy a better axe and never use it.",
+        "t": "Keep it. Buy yourself a better axe and never use it.",
         "e": "teasing",
         "d": "Dry, amused.",
         "id": "hazel_intro_r2_01"
        },
        {
         "k": "s",
-        "t": "Start by the alder. If you hit a root, apologise to it.",
+        "t": "Start by the alder. If you hit a root, say sorry. It's me, and I'll be listening.",
         "e": "neutral",
         "d": "Deadpan. She means the apology.",
         "id": "hazel_intro_r2_02"
@@ -5608,7 +5075,7 @@
       },
       {
        "k": "s",
-       "t": "That's a good trench. For a grave. For a millrace, it's a start.",
+       "t": "That's a lovely trench, if you're planning to bury somebody. For a millrace it's a start.",
        "e": "teasing",
        "d": "Teasing, unhurried.",
        "id": "hazel_ch1_01"
@@ -5620,9 +5087,9 @@
       },
       {
        "k": "s",
-       "t": "Oh, you're warm... No one's touched me without an axe in years.",
+       "t": "Oh. You're warm. Nobody's put a hand on me in years, unless they were measuring where to cut.",
        "e": "surprised",
-       "d": "Surprised and affectionate.",
+       "d": "Surprised, caught off guard.",
        "id": "hazel_ch1_02"
       },
       {
@@ -5632,9 +5099,9 @@
       },
       {
        "k": "s",
-       "t": "Leave it there a minute. It's been a long winter.",
+       "t": "Leave it. Bit lower, if you like. The bark's softer.",
        "e": "shy",
-       "d": "Quiet, a little embarrassed to ask.",
+       "d": "Quiet and low; a little embarrassed she said it.",
        "id": "hazel_ch1_03"
       }
      ],
@@ -5654,9 +5121,9 @@
          },
          {
           "k": "s",
-          "t": "It isn't so bad. The badgers visit. They're terrible company.",
+          "t": "The badgers visit. They don't talk much, and none of them has ever leaned on me like that.",
           "e": "happy",
-          "d": "Lifting it with a dry joke.",
+          "d": "Dry joke, then fond.",
           "id": "hazel_ch1_r1_02"
          }
         ]
@@ -5675,9 +5142,9 @@
          },
          {
           "k": "s",
-          "t": "But I'll allow it. Bring the shovel tomorrow. Leave the axe.",
+          "t": "Come back tomorrow. Bring the shovel, leave the axe, and wear that shirt again.",
           "e": "happy",
-          "d": "Warm, playful.",
+          "d": "Warm, playful; the last part comes quickly, before she can take it back.",
           "id": "hazel_ch1_r2_02"
          }
         ]
@@ -5700,9 +5167,9 @@
       },
       {
        "k": "s",
-       "t": "The ferns tell me you were talking to the miller's daughter. I'm not jealous. But I might drop a branch near her, that's all.",
+       "t": "The ferns say you walked the miller's daughter to the footbridge. That's fine. I'm sure no branch will fall on her. Fairly sure.",
        "e": "teasing",
-       "d": "Jealous and playful.",
+       "d": "Calm and pleasant, and jealous. The threat is polite.",
        "id": "hazel_ch2_01"
       },
       {
@@ -5711,16 +5178,16 @@
       },
       {
        "k": "s",
-       "t": "Her father came by this morning. He'll give you until the end of the month. Then he hires someone with a saw.",
+       "t": "Her father came by too. You've got till the end of the month. Then he hires someone with a saw.",
        "e": "sad",
        "d": "Calm on the surface; worry underneath.",
        "id": "hazel_ch2_02"
       },
       {
        "k": "s",
-       "t": "Dig faster. I'd like to see another spring.",
+       "t": "So dig faster. I've started making plans for summer, and you're in most of them.",
        "e": "neutral",
-       "d": "Light on top, real fear underneath.",
+       "d": "Light on top, real fear underneath; the second half is softer.",
        "id": "hazel_ch2_03"
       }
      ],
@@ -5740,9 +5207,9 @@
          },
          {
           "k": "s",
-          "t": "Eat your lunch. She makes good bread, apparently.",
+          "t": "Eat your lunch. She makes good bread, apparently. Nobody's ever walked me to a footbridge.",
           "e": "happy",
-          "d": "A tiny bit petty, mostly fond.",
+          "d": "A tiny bit petty, mostly wistful.",
           "id": "hazel_ch2_r1_02"
          }
         ]
@@ -5765,7 +5232,7 @@
          },
          {
           "k": "s",
-          "t": "Dig your trench.",
+          "t": "Dig your trench. And stop looking at my leaves.",
           "e": "shy",
           "d": "Mortified, very dignified about it.",
           "id": "hazel_ch2_r2_02"
@@ -5786,7 +5253,7 @@
       },
       {
        "k": "s",
-       "t": "It's fine. It's just roots. They have to let go of the old wall, and they don't like it.",
+       "t": "It's fine. It's the roots letting go of the old wall. They've held it forty years. They're making a fuss.",
        "e": "sad",
        "d": "Strained. Trying to sound calm and not quite managing.",
        "id": "hazel_ch3_01"
@@ -5797,7 +5264,7 @@
       },
       {
        "k": "s",
-       "t": "You didn't have to stay. It's cold. You'll get ill and blame me.",
+       "t": "You didn't have to stay. You're soaked. You'll get ill, and then I'll have to look after you, and I've no idea how.",
        "e": "shy",
        "d": "Gruff, grateful underneath.",
        "id": "hazel_ch3_02"
@@ -5830,7 +5297,7 @@
          },
          {
           "k": "s",
-          "t": "You're still warm. Good.",
+          "t": "You're still warm. I'll keep you.",
           "e": "shy",
           "d": "Barely a murmur, to herself as much as to you.",
           "id": "hazel_ch3_r1_02"
@@ -5880,7 +5347,7 @@
       },
       {
        "k": "s",
-       "t": "He's never done that. Forty springs, and he's never once done that.",
+       "t": "Forty springs he's sent people with axes. That's the first time he's ever touched me.",
        "e": "surprised",
        "d": "Quietly moved. Almost a whisper.",
        "id": "hazel_ch4_01"
@@ -5892,23 +5359,23 @@
       },
       {
        "k": "s",
-       "t": "I can walk as far as my roots go. They go a long way now. Thanks to someone.",
+       "t": "I can go as far as my roots do. Thanks to someone, that's quite far now. Far enough to follow you home, if I felt like it.",
        "e": "shy",
-       "d": "Shy and warm; won't say your name.",
+       "d": "Shy and warm; won't say your name. The last part is a test.",
        "id": "hazel_ch4_02"
       },
       {
        "k": "s",
-       "t": "The moss on the east side is softer than it looks.",
+       "t": "The moss on the east side is softer than it looks. I've been meaning to mention that for about a week.",
        "e": "teasing",
        "d": "Low and slow. An invitation she's pretending is a fact about moss.",
        "id": "hazel_ch4_03"
       },
       {
        "k": "s",
-       "t": "Stay tonight. I'll keep the rain off.",
+       "t": "Stay tonight. I'll keep the rain off. I'm not promising anything else.",
        "e": "happy",
-       "d": "Warm, certain.",
+       "d": "Warm, certain, a little wicked at the end.",
        "id": "hazel_ch4_04"
       },
       {
@@ -5928,9 +5395,9 @@
      },
      {
       "k": "s",
-      "t": "Two hundred springs I've watched people walk past this tree. Not one of them ever lay down under it.",
+      "t": "Two hundred years people have walked past this tree. Not one of them ever lay down under it. Shift over, you're on a root.",
       "e": "neutral",
-      "d": "Slow and calm, quietly amazed.",
+      "d": "Slow and calm, quietly amazed, then practical.",
       "id": "hazel_night_01"
      },
      {
@@ -5964,7 +5431,7 @@
      },
      {
       "k": "s",
-      "t": "Slowly. I've got all the time in the world, and I'd like to spend some of it on this.",
+      "t": "Slowly. I've had two hundred years of nothing happening. I'd like this to take a while.",
       "e": "shy",
       "d": "Calm, warm, certain.",
       "id": "hazel_night_05"
@@ -5986,7 +5453,7 @@
      },
      {
       "k": "s",
-      "t": "And don't tell the ferns.",
+      "t": "And don't tell the ferns. They'll want details.",
       "e": "teasing",
       "d": "Hushed, smiling.",
       "id": "hazel_night_22"
@@ -6007,7 +5474,7 @@
    "endings": {
     "warmth": {
      "title": "Out of Season",
-     "text": "The millrace runs and the old hazel keeps her roots. You start sleeping in the grove more nights than not, and the tree blossoms in the wrong season, every season, which the miller now tells people is good luck.",
+     "text": "The millrace runs and the old hazel keeps her roots. You plant another hazel beside the new channel, and it grows faster than it has any right to, leaning towards the old tree as if it's listening. You sleep in the grove more nights than not, and the old hazel blossoms in the wrong season, every season, which the miller now tells people is good luck.",
      "epilogue": {
       "intro": [
        {
@@ -6016,17 +5483,24 @@
        },
        {
         "k": "s",
+        "t": "Two hundred years, and nobody told me it could feel like that. I'd like it noted that I'm saying this very calmly.",
+        "e": "shy",
+        "d": "Calm voice, completely undone underneath.",
+        "id": "hazel_end_01"
+       },
+       {
+        "k": "s",
         "t": "Don't look at them. They're not for you. They're seasonal.",
         "e": "shy",
         "d": "Flustered and a terrible liar, deadpan anyway.",
-        "id": "hazel_warm_01"
+        "id": "hazel_end_02"
        },
        {
         "k": "s",
         "t": "Fine. They're for you. I haven't flowered out of season since before the mill was built. People are going to talk.",
         "e": "happy",
         "d": "Giving in; fond and a bit exasperated with herself.",
-        "id": "hazel_warm_02"
+        "id": "hazel_end_03"
        }
       ],
       "beat1_caption": "The old hazel at dawn, in full blossom, in May.",
@@ -6040,163 +5514,39 @@
         "t": "That one's fine. That one's fine. Not that one. I mean it. Don't.",
         "e": "teasing",
         "d": "Escalating warning, trying not to laugh.",
-        "id": "hazel_warm_03"
+        "id": "hazel_end_04"
        },
        {
         "k": "s",
-        "t": "Plant something near me. So there's something of yours here when you're not.",
+        "t": "Plant something near me. Something that needs watering every day, so you've got a reason to come by.",
         "e": "shy",
         "d": "Simple, a little shy; she's thought about it.",
-        "id": "hazel_warm_04"
+        "id": "hazel_end_05"
        }
       ],
       "beat2_caption": "A sapling beside the new millrace, a ribbon tied round it.",
       "choice_lines": [
        {
         "k": "s",
-        "t": "What will you plant? Choose carefully. It'll be here longer than either of us. Well. Longer than you.",
+        "t": "Go on, then. What are you planting? It'll outlast both of us. Well. It'll outlast you.",
         "e": "neutral",
         "d": "Gentle, dry correction at the end.",
-        "id": "hazel_warm_05"
-       }
-      ],
-      "choice": {
-       "options": [
-        {
-         "label": "Another hazel. So you're not the only one.",
-         "key": "hazel",
-         "resp": [
-          {
-           "k": "s",
-           "t": "A neighbour. I've never had a neighbour.",
-           "e": "shy",
-           "d": "Quiet wonder.",
-           "id": "hazel_warm_r1_01"
-          }
-         ]
-        },
-        {
-         "label": "An apple tree. I want something to eat out here.",
-         "key": "apple",
-         "resp": [
-          {
-           "k": "s",
-           "t": "Practical. I'll make sure it's the best apple tree in the county. Out of spite towards the other trees.",
-           "e": "teasing",
-           "d": "Dry, competitive.",
-           "id": "hazel_warm_r2_01"
-          }
-         ]
-        }
-       ]
-      },
-      "finales": {
-       "hazel": {
-        "title": "Two Hazels",
-        "text": "The sapling grows faster than it has any right to, and leans towards the old tree as if it's listening. Hazel talks to it in the mornings. She says it's a terrible listener. She says that about you, too, while she's holding your hand."
+        "id": "hazel_end_06"
        },
-       "apple": {
-        "title": "The Spite Orchard",
-        "text": "The apple tree fruits in its second year, which is impossible, and the apples are absurdly good. Hazel takes full credit. You eat them under her branches every evening, and she keeps the wasps off you and no one else."
-       }
-      }
-     }
-    },
-    "spark": {
-     "title": "Heartwood",
-     "text": "After one night on the east-side moss, Hazel decides there's no point being dignified. She drops branches near anyone who flirts with you and catches your ankle in a root when you try to leave in the mornings. The miller's daughter's fiancé once gets a whole branch of hazelnuts on his head, and he hadn't done anything at all.",
-     "epilogue": {
-      "intro": [
        {
         "k": "n",
-        "t": "You try to get up at dawn. A root has looped itself gently round your ankle."
+        "t": "You say another hazel, so she isn't the only one."
        },
        {
         "k": "s",
-        "t": "Oh, that? I don't control those when I'm asleep.",
-        "e": "teasing",
-        "d": "An obvious lie told very calmly.",
-        "id": "hazel_spark_01"
-       },
-       {
-        "k": "s",
-        "t": "I'm awake now. It's still there. Lie back down.",
-        "e": "happy",
-        "d": "Warm, smug, sleepy.",
-        "id": "hazel_spark_02"
+        "t": "A neighbour. I've never had a neighbour.",
+        "e": "shy",
+        "d": "Quiet wonder.",
+        "id": "hazel_end_07"
        }
       ],
-      "beat1_caption": "Dawn under the old hazel: a root wrapped loosely round one ankle, entirely by accident.",
-      "middle": [
-       {
-        "k": "n",
-        "t": "The miller's daughter walks past on the path and waves. A branch creaks overhead."
-       },
-       {
-        "k": "s",
-        "t": "Trees creak. Ask anyone.",
-        "e": "teasing",
-        "d": "Innocent, not even trying to be convincing.",
-        "id": "hazel_spark_03"
-       },
-       {
-        "k": "s",
-        "t": "I'm keeping you. You understand that? Dryads don't do things by halves.",
-        "e": "neutral",
-        "d": "Calm and serious under the play. She means it.",
-        "id": "hazel_spark_04"
-       }
-      ],
-      "beat2_caption": "A branch hanging meaningfully over the footpath. Just in case.",
-      "choice_lines": [
-       {
-        "k": "s",
-        "t": "Say so and I'll let go. I'd rather you didn't.",
-        "e": "teasing",
-        "d": "Light on the surface, a real question underneath.",
-        "id": "hazel_spark_05"
-       }
-      ],
-      "choice": {
-       "options": [
-        {
-         "label": "Keep me.",
-         "key": "keep_me",
-         "resp": [
-          {
-           "k": "s",
-           "t": "Good. I was going to anyway. This is nicer.",
-           "e": "happy",
-           "d": "Content, a little wicked.",
-           "id": "hazel_spark_r1_01"
-          }
-         ]
-        },
-        {
-         "label": "You'll have to catch me first.",
-         "key": "catch_me",
-         "resp": [
-          {
-           "k": "s",
-           "t": "I'm a tree. I'm very patient. Run.",
-           "e": "teasing",
-           "d": "Slow, delighted menace.",
-           "id": "hazel_spark_r2_01"
-          }
-         ]
-        }
-       ]
-      },
-      "finales": {
-       "keep_me": {
-        "title": "Taken Root",
-        "text": "You move your things into the old woodsman's hut at the edge of the grove. She drops a twig on the roof whenever you're late home, which is often, because you've started dawdling on the path to hear it."
-       },
-       "catch_me": {
-        "title": "Patient Things",
-        "text": "You run. She catches you at the edge of the grove every time, with a root round your ankle and a very innocent expression. It becomes a game. Most evenings you don't run very fast."
-       }
-      }
+      "choice": null,
+      "finales": {}
      }
     }
    }
@@ -6221,7 +5571,7 @@
    },
    {
     "k": "s",
-    "t": "I'll keep it on the low branch. Where I can see it. And see you, coming up the path.",
+    "t": "I'll hang it on the low branch. You can see the path from there, which is where you come from. Not that I watch it.",
     "e": "shy",
     "d": "Quiet, shy, saying more than she planned to.",
     "id": "hazel_gift_02"
@@ -6266,7 +5616,7 @@
      "id": "hazel_fav_05"
     },
     {
-     "t": "That's lovely. Keep going.",
+     "t": "Don't stop on my account.",
      "e": "neutral",
      "d": "Warm.",
      "id": "hazel_fav_06"
@@ -6318,9 +5668,9 @@
      "id": "hazel_chat_02"
     },
     {
-     "t": "The ferns are watching. They gossip.",
+     "t": "The ferns are watching. Give them something to talk about.",
      "e": "neutral",
-     "d": "Conspiratorial.",
+     "d": "Sly.",
      "id": "hazel_chat_03"
     },
     {
@@ -6330,9 +5680,9 @@
      "id": "hazel_chat_04"
     },
     {
-     "t": "Better than the last one Aldous sent.",
+     "t": "Better than the last one Aldous sent. Prettier, too.",
      "e": "neutral",
-     "d": "Faint praise, meant kindly.",
+     "d": "Dry, fond.",
      "id": "hazel_chat_05"
     },
     {
@@ -6342,7 +5692,7 @@
      "id": "hazel_chat_06"
     },
     {
-     "t": "Take your time. I've got about three hundred years.",
+     "t": "Take your time. I've got a few hundred years.",
      "e": "neutral",
      "d": "Unhurried.",
      "id": "hazel_chat_07"

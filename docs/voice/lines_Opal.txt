@@ -3,7 +3,7 @@ OPAL (Slime, formerly of a jar)
 Voice: Opal, slime. An adult who spent thirty-one years hiding in a jar in the woods north of Duskhaven, listening to people on the path. Soft, polite, a little formal; stutters on the first word when she's nervous, apologises and then corrects herself. Very exact about her collection (counts, where each thing came from). Gets braver and funnier as the story goes on. Shy, never childish.
 Say it: Opal = OH-pul · Ambrose = AM-brohz · Coombs = KOOMZ
 
-80 lines. Emotion = the portrait she shows; after it, how to deliver the line.
+74 lines. Emotion = the portrait she shows; after it, how to deliver the line.
 
 
 == MEETING HER ==
@@ -20,7 +20,7 @@ Say it: Opal = OH-pul · Ambrose = AM-brohz · Coombs = KOOMZ
    Emotion: neutral. Small and precise. A little proud of him.
    File: opal_intro_03.wav
 
-4. He used to tap on the glass every morning. Twice. So I'd know it was him.
+4. He used to tap on the glass every morning twice so I'd know it was him.
    Emotion: sad. Fond and very quiet. She hasn't said this out loud since he died.
    File: opal_intro_04.wav
 
@@ -54,8 +54,8 @@ Say it: Opal = OH-pul · Ambrose = AM-brohz · Coombs = KOOMZ
    Emotion: angry. Prickly, protective of him.
    File: opal_intro_r2_01.wav
 
-11. The stream goes to town. We're going. You're carrying me.
-   Emotion: neutral. Surprisingly firm. She's decided.
+11. The stream goes to town. We're going. You're carrying me! Please?
+   Emotion: neutral. Trying to be firm, and losing her nerve on the last word.
    File: opal_intro_r2_02.wav
 
 
@@ -65,8 +65,8 @@ Say it: Opal = OH-pul · Ambrose = AM-brohz · Coombs = KOOMZ
    Emotion: shy. Shy, stutters.
    File: opal_ch1_01.wav
 
-13. This one's off a sea captain's coat. Thirty winters ago. He'd come up from the coast for the forest air, to cure his seasickness. I always thought that was a strange job to have, if you get seasick.
-   Emotion: happy. Warming up; precise, a little wry.
+13. This one's my favourite. Brass, four holes, off a very handsome coat. You have a very handsome coat too. That's all. Coats.
+   Emotion: shy. Starting to flirt and immediately regretting it. Rushed at the end.
    File: opal_ch1_02.wav
 
 14. The keys went to a locksmith, he says. And the glass eye went to someone who needed a glass eye, I suppose.
@@ -124,7 +124,7 @@ Say it: Opal = OH-pul · Ambrose = AM-brohz · Coombs = KOOMZ
 
 == AFTER CHAPTER 2: REPLY 2 ==
 
-24. Against an alchemist? You sold my buttons for two coppers and bought them back for six.
+24. Against an alchemist? You kicked my buttons into a stream and then paid six coppers to get them back.
    Emotion: surprised. Startled into teasing.
    File: opal_ch2_r2_01.wav
 
@@ -224,175 +224,136 @@ Say it: Opal = OH-pul · Ambrose = AM-brohz · Coombs = KOOMZ
    File: opal_night_23.wav
 
 
-== WARM ENDING: THE MORNING AFTER ==
+== HER ENDING: THE MORNING AFTER ==
 
 45. Sorry. I spread out in my sleep. I didn't know that. I've never slept anywhere big enough to find out.
    Emotion: shy. Embarrassed, half laughing.
-   File: opal_warm_01.wav
+   File: opal_end_01.wav
 
-46. I've started a card for last night. For the collection. I'm on my fourth draft.
+46. Last night was the best thing that's happened to me in thirty-one years. Possibly ever. I'm not exaggerating. I've had a lot of time to compare.
+   Emotion: shy. Shy and glowing, completely sincere.
+   File: opal_end_02.wav
+
+47. I'd like to do it again. That's allowed to be said, isn't it? Good. I'd like to do it again.
+   Emotion: happy. Flustered, then brave, then delighted with herself.
+   File: opal_end_03.wav
+
+48. I've started a card for last night. For the collection. I'm on my fourth draft.
    Emotion: happy. Pleased with herself, shy about it.
-   File: opal_warm_02.wav
+   File: opal_end_04.wav
 
-47. The baker asked my name. I told him. Then I told him about buttons for a while. He was very patient.
+49. The baker asked my name. I told him. Then I told him about buttons for a while. He was very patient.
    Emotion: happy. Proud, breathless.
-   File: opal_warm_03.wav
+   File: opal_end_05.wav
 
-48. I'm going back tomorrow. He does a seeded loaf on Thursdays.
+50. I'm going back tomorrow. He does a seeded loaf on Thursdays.
    Emotion: shy. Quietly determined, trying to make it sound ordinary.
-   File: opal_warm_04.wav
+   File: opal_end_06.wav
 
-49. The jar. Should I keep it? I haven't been in it for a week. I still check it's there.
+51. The jar. Should I keep it? I haven't been in it for a week. I still check it's there.
    Emotion: neutral. Thoughtful, a little vulnerable.
-   File: opal_warm_05.wav
+   File: opal_end_07.wav
 
-
-== WARM ENDING: FINAL REPLY 1 ==
-
-50. For storms. Okay. Just for storms.
+52. For storms. Okay. Just for storms.
    Emotion: shy. Relieved.
-   File: opal_warm_r1_01.wav
-
-
-== WARM ENDING: FINAL REPLY 2 ==
-
-51. Oh. Yes. The jar I used to live in. Item nought. It goes before everything.
-   Emotion: happy. A delighted little realisation.
-   File: opal_warm_r2_01.wav
-
-
-== TEASING ENDING: THE MORNING AFTER ==
-
-52. Item four hundred and forty-two. Shirt, slightly torn. Acquired last night.
-   Emotion: teasing. Deadpan, then she can't hold in the laugh.
-   File: opal_spark_01.wav
-
-53. You can have it back. If you ask nicely. Very nicely.
-   Emotion: shy. Shy and flirty at once; amazed at her own nerve.
-   File: opal_spark_02.wav
-
-54. Eleven. In one night. People are so careless. I love them.
-   Emotion: happy. Gleeful.
-   File: opal_spark_03.wav
-
-55. Next week, the dance. I'm going to step on everyone. I don't have feet, so it won't hurt.
-   Emotion: teasing. Cheeky, very pleased with the joke.
-   File: opal_spark_04.wav
-
-56. Do I have to wait for you to drop things? I could just take them. I'm asking first.
-   Emotion: teasing. Playful, a little bold, very polite about it.
-   File: opal_spark_05.wav
-
-
-== TEASING ENDING: FINAL REPLY 1 ==
-
-57. Whatever I like? You shouldn't say things like that to a collector.
-   Emotion: shy. Flustered and delighted.
-   File: opal_spark_r1_01.wav
-
-
-== TEASING ENDING: FINAL REPLY 2 ==
-
-58. Then I'll just follow you round. Quietly. I'm very good at floors.
-   Emotion: teasing. Sly, soft, pleased with the joke.
-   File: opal_spark_r2_01.wav
+   File: opal_end_08.wav
 
 
 == GIFT SCENE (OLD GLASS MARBLE) ==
 
-59. Gold swirl. They stopped making these before I went in the jar. Where did you even find it?
+53. Gold swirl. They stopped making these before I went in the jar. Where did you even find it?
    Emotion: surprised. Awestruck, quiet. The collector in her is very excited.
    File: opal_gift_01.wav
 
-60. I-it's not going on the shelf. It stays with me. In here. Is that all right?
+54. I-it's not going on the shelf. It stays with me. In here. Is that all right?
    Emotion: shy. Shy and stuttering, a little overwhelmed.
    File: opal_gift_02.wav
 
 
 == PUZZLE QUIP: YOU MATCHED HER FAVOURITE GEM ==
 
-61. Ooh. That's going in the... sorry. Habit.
+55. Ooh. That's going in the... sorry. Habit.
    Emotion: neutral. Delighted, then embarrassed.
    File: opal_fav_01.wav
 
-62. Crystal. I'd keep that one.
+56. Crystal. I'd keep that one.
    Emotion: neutral. Soft, covetous.
    File: opal_fav_02.wav
 
-63. Pretty. Like a button, but better.
+57. Pretty. Like a button, but better.
    Emotion: neutral. Earnest.
    File: opal_fav_03.wav
 
-64. That catches the light. Do another.
+58. That catches the light. Do another.
    Emotion: neutral. Eager.
    File: opal_fav_04.wav
 
-65. Clear all the way through. Like me.
+59. Clear all the way through. Like me.
    Emotion: neutral. Shy little joke.
    File: opal_fav_05.wav
 
-66. That was very nice. Thank you.
+60. That was very nice. Thank you.
    Emotion: neutral. Polite, sincere.
    File: opal_fav_06.wav
 
 
 == PUZZLE QUIP: YOU MATCHED A GEM SHE DISLIKES ==
 
-67. Runes. Like on the alchemists' jars.
+61. Runes. Like on the alchemists' jars.
    Emotion: neutral. Uneasy.
    File: opal_least_01.wav
 
-68. I don't like those. Sorry.
+62. I don't like those. Sorry.
    Emotion: neutral. Small, apologetic.
    File: opal_least_02.wav
 
-69. Th-that's a sealing mark. Please don't.
+63. Th-that's a sealing mark. Please don't.
    Emotion: neutral. Nervous stutter.
    File: opal_least_03.wav
 
-70. Can we not? Please?
+64. Can we not? Please?
    Emotion: neutral. Quiet plea.
    File: opal_least_04.wav
 
-71. Runes make my edges go fizzy.
+65. Runes make my edges go fizzy.
    Emotion: neutral. Uncomfortable, a little funny.
    File: opal_least_05.wav
 
 
 == PUZZLE QUIP: CHATTER WHILE YOU PLAY ==
 
-72. You're doing well. I'm counting.
+66. You're doing well. I'm counting.
    Emotion: neutral. Encouraging, precise.
    File: opal_chat_01.wav
 
-73. Sorry. I'm watching. Is that all right?
+67. Sorry. I'm watching. Is that all right?
    Emotion: neutral. Shy.
    File: opal_chat_02.wav
 
-74. Four hundred and twelve. I check every night.
+68. Four hundred and twelve. I check every night.
    Emotion: neutral. Proud, matter-of-fact.
    File: opal_chat_03.wav
 
-75. It's loud out here. You're the good kind of loud.
+69. It's loud out here. You're the good kind of loud.
    Emotion: neutral. Soft, fond.
    File: opal_chat_04.wav
 
-76. If you drop anything, I'll find it.
+70. If you drop anything, I'll find it.
    Emotion: neutral. Helpful, sincere.
    File: opal_chat_05.wav
 
-77. You hum when you think. It's nice.
+71. You hum when you think. It's nice.
    Emotion: neutral. Shy compliment.
    File: opal_chat_06.wav
 
-78. I'm a bit pink right now. Ignore it.
+72. I'm a bit pink right now. Ignore it.
    Emotion: neutral. Flustered.
    File: opal_chat_07.wav
 
-79. Ambrose would have liked you. He liked people who apologise.
+73. Ambrose would have liked you. He liked people who apologise.
    Emotion: neutral. Warm, a little sad.
    File: opal_chat_08.wav
 
-80. Th-that was good. That was really good.
+74. Th-that was good. That was really good.
    Emotion: neutral. Excited stutter.
    File: opal_chat_09.wav

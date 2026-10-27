@@ -190,13 +190,6 @@ func setup(p_main: Node, p_host: Control, p_char_id: String) -> void:
 	var use_color_bomb: bool = int(GameState.items.get("colorBomb", 0)) > 0
 	var used_favor_charm: bool = int(GameState.items.get("favorCharm", 0)) > 0
 	var used_heart_mender: bool = int(GameState.items.get("heartMender", 0)) > 0
-	if use_color_bomb:
-		GameState.items.colorBomb = int(GameState.items.colorBomb) - 1
-	if used_favor_charm:
-		GameState.items.favorCharm = int(GameState.items.favorCharm) - 1
-	if used_heart_mender:
-		GameState.items.heartMender = int(GameState.items.heartMender) - 1
-	GameState.save_state()
 
 	# These three items are consumed silently the moment a chapter starts
 	# (matching the original HTML), which gave no feedback at all that
@@ -221,6 +214,15 @@ func setup(p_main: Node, p_host: Control, p_char_id: String) -> void:
 	# was left during that one frame, don't deal a board onto freed nodes.
 	if _torn_down:
 		return
+	# Spent only now the chapter is really starting (they used to be spent
+	# even when you left on the very first frame).
+	if use_color_bomb:
+		GameState.items.colorBomb = int(GameState.items.colorBomb) - 1
+	if used_favor_charm:
+		GameState.items.favorCharm = int(GameState.items.favorCharm) - 1
+	if used_heart_mender:
+		GameState.items.heartMender = int(GameState.items.heartMender) - 1
+	GameState.save_state()
 	# Guard against the vanishingly rare case where a freshly built board
 	# happens to have no legal move at all (build_board only forbids
 	# pre-existing 3-runs, it doesn't guarantee a move exists).
@@ -1601,6 +1603,9 @@ func _on_cell_pressed(r: int, c: int) -> void:
 		await _settle_and_chain()
 		if _torn_down:
 			return
+		# Testing Mode clears the chapter on a Hammer too, like on a swap.
+		if GameState.settings.test_mode:
+			score = int(level.target)
 		GameState.save_state()
 		busy = false
 		_update_hud()
@@ -1861,12 +1866,14 @@ func _score_and_clear(matched: Dictionary, combo_index: int) -> void:
 	var fav_quips: Array = ch.get("favQuips", [])
 	var least_quips: Array = ch.get("leastQuips", [])
 	var chat_quips: Array = ch.get("chatQuips", [])
-	if fav_hit and randf() < 0.4 and not fav_quips.is_empty():
-		_toast(_quip_text(fav_quips[randi() % fav_quips.size()]))
-	elif least_hit and randf() < 0.4 and not least_quips.is_empty():
-		_toast(_quip_text(least_quips[randi() % least_quips.size()]))
-	elif randf() < 0.12 and not chat_quips.is_empty():
-		_toast(_quip_text(chat_quips[randi() % chat_quips.size()]))
+	# While she's still saying the last one, she doesn't start another.
+	if not Voice.is_playing():
+		if fav_hit and randf() < 0.4 and not fav_quips.is_empty():
+			_say_quip(fav_quips[randi() % fav_quips.size()])
+		elif least_hit and randf() < 0.4 and not least_quips.is_empty():
+			_say_quip(least_quips[randi() % least_quips.size()])
+		elif randf() < 0.12 and not chat_quips.is_empty():
+			_say_quip(chat_quips[randi() % chat_quips.size()])
 
 	if charm >= MatchEngine.CHARM_MAX:
 		charm = 0
@@ -1875,6 +1882,12 @@ func _score_and_clear(matched: Dictionary, combo_index: int) -> void:
 		Achievements.unlock("CHARM_BURST")
 
 	_update_hud()
+
+
+## Shows a quip and plays her recording of it, if there is one.
+func _say_quip(q) -> void:
+	_toast(_quip_text(q))
+	Voice.play_line(char_id, q)
 
 
 ## A quip is either plain text or {"t": text, "d": delivery note, "id": voice

@@ -82,6 +82,26 @@ static func build(main: Node, host: Control) -> void:
 				GameState.save_state()
 		))
 
+	# Same idea for voice acting: only once some lines are recorded.
+	if Voice.any_clips():
+		v.add_child(_row(
+			"Voice Acting", "Hear the girls speak their lines.",
+			GameState.settings.get("voice", true),
+			func(on: bool):
+				GameState.settings.voice = on
+				if not on:
+					Voice.stop()
+				GameState.save_state()
+		))
+		v.add_child(_slider_row(
+			"Voice Volume", "How loud their voices play.",
+			float(GameState.settings.get("voice_volume", Voice.DEFAULT_VOLUME)),
+			func(val: float):
+				GameState.settings.voice_volume = val
+				Voice.apply_volume()
+				GameState.save_state()
+		))
+
 	v.add_child(_row(
 		"Reduce Motion", "Shorter animations, calmer feedback.",
 		GameState.settings.reduce_motion,

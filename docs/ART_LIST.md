@@ -239,8 +239,8 @@ Named after each achievement's Steam API name, in lowercase. Until an icon exist
 | Putting Down Roots | Reach an ending with Hazel. | `art/achievements/ending_hazel.png` | A sapling with deep roots and one white blossom (Hazel's colors). | To make |
 | The Whole Circle | Reach an ending with all four of them. | `art/achievements/all_four.png` | Four small motifs in a ring: candle, pearl comb, button, blossom. | To make |
 | Two Sides of Her | See a warm and a spark ending with the same woman. | `art/achievements/both_routes.png` | A heart in two halves: one soft and glowing (warm), one crackling with a spark. | To make |
-| Collector | Find 8 of the 16 endings. | `art/achievements/gallery_half.png` | A picture wall with half its little frames filled. | To make |
-| Complete Gallery | Find all 16 endings. | `art/achievements/gallery_full.png` | A picture wall, every frame filled, edged in gold. | To make |
+| Collector | Find half of the endings. | `art/achievements/gallery_half.png` | A picture wall with half its little frames filled. | To make |
+| Complete Gallery | Find every ending. | `art/achievements/gallery_full.png` | A picture wall, every frame filled, edged in gold. | To make |
 | Chain Reaction | Set off a x3 combo. | `art/achievements/combo_3.png` | Three gems chaining into each other with motion trails. | To make |
 | Avalanche | Set off a x5 combo. | `art/achievements/combo_5.png` | A tumbling avalanche of gems. | To make |
 | Starstruck | Make a Starburst. | `art/achievements/make_starburst.png` | The Starburst gem, glowing (match the in-game gem). | To make |

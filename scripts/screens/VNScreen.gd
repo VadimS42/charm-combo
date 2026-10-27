@@ -30,6 +30,8 @@ const EXPR_ICON := {
 ## chest sits just above the dialogue box (round 19; it used to stand on the
 ## bottom edge, hiding everything below her shoulders behind the box). The
 ## box is ~185 px tall; the last few pixels of the picture tuck behind it.
+## A character can set her own lift with "portraitLift" in characters.json:
+## Hazel's art ends at her chest, so she sits higher, clear of the box.
 const PORTRAIT_H := 548.0
 const PORTRAIT_LIFT := 178.0
 ## On-screen height of a full-body sprite (the screen area is ~732px tall), and
@@ -120,12 +122,13 @@ static func build(main: Node, host: Control, char_id: String, lines: Array, choi
 				# Waist-up portrait: raised so the bottom of the picture (her
 				# chest) ends just above the dialogue box.
 				var w: float = PORTRAIT_H / aspect
+				var lift: float = float(ch.get("portraitLift", PORTRAIT_LIFT))
 				t.anchor_top = 1.0
 				t.anchor_bottom = 1.0
 				t.offset_left = -w / 2.0
 				t.offset_right = w / 2.0
-				t.offset_top = -PORTRAIT_LIFT - PORTRAIT_H
-				t.offset_bottom = -PORTRAIT_LIFT
+				t.offset_top = -lift - PORTRAIT_H
+				t.offset_bottom = -lift
 			portrait_host.add_child(t)
 		else:
 			var center := CenterContainer.new()
@@ -270,6 +273,7 @@ static func build(main: Node, host: Control, char_id: String, lines: Array, choi
 		text_lbl.add_theme_color_override("font_color", UITheme.INK_ON_DARK_SOFT if is_narration else UITheme.INK_ON_DARK)
 		var expr: String = String(line.get("e", "neutral"))
 		set_portrait.call(expr)
+		Voice.play_line(char_id, line)
 		var cont := UITheme.make_primary_button("Continue  ▸")
 		cont.pressed.connect(func(): fns.advance.call())
 		footer.add_child(cont)

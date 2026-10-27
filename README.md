@@ -17,6 +17,32 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-24 — Amara speaks, Hazel only blinks, bug fixes
+
+- **Voice acting** (`autoload/Voice.gd`): a spoken line plays its clip from
+  `audio/voice/<char id>/<line id>.ogg` the moment the file exists, in dialogue
+  scenes and for puzzle quips (she won't start a new quip while still saying the
+  last one). Narration stops her voice, and the music dips while she talks.
+  Settings has **Voice Acting** (on/off) and **Voice Volume**, shown once any
+  clips exist. Amara has 72 of her 80 lines; missing: `amara_end_06`/`07` and
+  her laughs and sighs.
+- **Recordings → clips:** `tools/voice_import/import_voice.py` finds the takes
+  in each raw .wav, keeps the last one, trims it, evens the loudness and writes
+  the .ogg. Hand-picked cuts are listed in `tools/voice_import/takes.json`.
+- Amara's line text now matches what was recorded (10 lines), and the two unrecorded
+  chatter lines (`amara_chat_04`/`05`) are gone.
+- **Hazel** only blinks in her chapters (`"motion": false` and `"ambient":
+  "none"` in her `live.json`). In conversations she sits higher, so her chest is
+  above the dialogue box (`"portraitLift"` in `characters.json`).
+- **Fixes:** a mostly-teasing playthrough crashed at the ending and replayed
+  chapter 4 forever (no spark ending exists; it now falls back to hers);
+  quitting mid-epilogue counted the ending on the next launch; Collector /
+  Complete Gallery used fixed 8/16 counts; one-chapter power-ups were spent
+  even when you left on the first frame; Testing Mode didn't clear a chapter
+  on a Hammer; the voice script generator crashed on the current data.
+- `BOTH_ROUTES` ("see a warm and a spark ending") can't be earned until spark
+  endings exist again.
+
 ## ✅ Status: round-23 verified — Opal in the woods, Marina's reward, Amara's freedom
 
 - **Opal** is found in the woods north of Duskhaven: her PICKLED NEWTS jar sits in a moss-lined hollow

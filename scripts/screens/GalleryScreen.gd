@@ -62,7 +62,7 @@ static func build(main: Node, host: Control) -> void:
 
 	if found == 0:
 		var hint := UITheme.soft_label(
-			"Nothing here yet — finish a girl's story to add her ending. Each girl has four to find: her warm and spark routes, and two different last replies on each.", 13)
+			"Nothing here yet — finish a girl's story to add her ending.", 13)
 		hint.custom_minimum_size = Vector2(640, 0)
 		outer.add_child(hint)
 

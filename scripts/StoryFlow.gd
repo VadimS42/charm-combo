@@ -170,6 +170,11 @@ static func _finish_character(main: Node, ch: Dictionary) -> void:
 	elif not ch.story.endings.has("balanced"):
 		# No "balanced" ending defined: a tie leans warmth.
 		key = "warmth"
+	# A route with no ending written for it (right now every girl only has
+	# "warmth") falls back to one she has, instead of crashing the epilogue
+	# and leaving her stuck replaying chapter 4 forever.
+	if not ch.story.endings.has(key):
+		key = "warmth" if ch.story.endings.has("warmth") else String(ch.story.endings.keys()[0])
 
 	progress["endings_unlocked"] = [key]
 	progress.erase("epilogue_finale")

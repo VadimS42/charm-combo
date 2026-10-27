@@ -80,7 +80,7 @@
     "id": "amara_least_01"
    },
    {
-    "t": "Don't. Moonstone makes my horns itch.",
+    "t": "Don't. Just don't.",
     "e": "neutral",
     "d": "Irritated, quick.",
     "id": "amara_least_02"
@@ -122,18 +122,6 @@
     "e": "neutral",
     "d": "Bored brag.",
     "id": "amara_chat_03"
-   },
-   {
-    "t": "Stop humming. Actually, no. Carry on.",
-    "e": "neutral",
-    "d": "Annoyed, then she changes her mind.",
-    "id": "amara_chat_04"
-   },
-   {
-    "t": "Your shelving is a crime. This is better.",
-    "e": "neutral",
-    "d": "Dry.",
-    "id": "amara_chat_05"
    },
    {
     "t": "Eyes on the board. I'll still be here.",
@@ -233,7 +221,7 @@
     },
     {
      "k": "s",
-     "t": "What you want. Gold. Revenge. And sooner or later the other thing. They always get round to the other thing.",
+     "t": "What you want. Gold. Revenge. And sooner or later sex. It always comes to that.",
      "e": "teasing",
      "d": "A flat, tired list, then a knowing little drop on the last sentence.",
      "id": "amara_intro_04"
@@ -333,7 +321,7 @@
       "resp": [
        {
         "k": "s",
-        "t": "I'm a demon of the third circle, and you're making me wait for a returns cart.",
+        "t": "I destroyed kingdoms, and you're making me wait?!",
         "e": "angry",
         "d": "Outraged, though some of it is put on.",
         "id": "amara_intro_r2_01"
@@ -479,7 +467,7 @@
         "resp": [
          {
           "k": "s",
-          "t": "Flattery. Good. Keep going, and keep walking while you do it.",
+          "t": "Flattery. Good. Keep going.",
           "e": "happy",
           "d": "Pleased, flirty. Not slowing down.",
           "id": "amara_ch2_r1_01"
@@ -490,7 +478,7 @@
          },
          {
           "k": "s",
-          "t": "Better. Now we can both stop pretending you came over here to talk about books.",
+          "t": "Now we can both stop pretending you came over here to talk about books.",
           "e": "teasing",
           "d": "Smug, low.",
           "id": "amara_ch2_r1_02"
@@ -551,7 +539,7 @@
       },
       {
        "k": "s",
-       "t": "Every one of those pages is part of my binding. Somebody in Duskhaven has been buying them.",
+       "t": "Every one of those pages is part of my binding. Somebody has been buying them.",
        "e": "angry",
        "d": "Low and tight. Frightened, and showing it as anger.",
        "id": "amara_ch3_02"
@@ -688,7 +676,7 @@
      },
      {
       "k": "s",
-      "t": "I've been summoned four hundred and some times. Nobody's ever shut the door first. They're usually too busy telling me what to do.",
+      "t": "I've been summoned four hundred and some times. Never seen such gentleman.",
       "e": "shy",
       "d": "Quiet, almost puzzled. The dryness is slipping.",
       "id": "amara_night_02"
@@ -791,7 +779,7 @@
        },
        {
         "k": "s",
-        "t": "The day librarian gets in at eight. I'd suggest we're dressed by then.",
+        "t": "You can get dressed now.",
         "e": "shy",
         "d": "Dry and amused, with a little shyness under it.",
         "id": "amara_end_02"
@@ -812,14 +800,14 @@
        },
        {
         "k": "s",
-        "t": "If you're going to draw these, you'll draw them properly. Nobody else is coming through a circle with a coffee stain in it.",
+        "t": "If you're going to draw these, you'll draw them properly. Nobody else is coming through a circle this pathetic.",
         "e": "teasing",
         "d": "Bossy, fond.",
         "id": "amara_end_04"
        },
        {
         "k": "s",
-        "t": "This line here. That's where you'd put my name. If you ever wanted to call me. You won't need to. I'll be at the desk.",
+        "t": "This line here. That's where you'd put my name. If you ever wanted to call me. You won't need to. I'll be with you.",
         "e": "shy",
         "d": "Starts as a lesson, ends as something else. Slows down.",
         "id": "amara_end_05"
@@ -2720,6 +2708,7 @@
   "tagline": "\"Don't even think about it.\"",
   "bg": "dryad_grove",
   "portraitFocus": 0.45,
+  "portraitLift": 214,
   "fav": "petal",
   "least": "ember",
   "favQuips": [

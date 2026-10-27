@@ -25,8 +25,8 @@ const LIST := [
 	{"id": "ENDING_HAZEL", "name": "Putting Down Roots", "desc": "Reach an ending with Hazel."},
 	{"id": "ALL_FOUR", "name": "The Whole Circle", "desc": "Reach an ending with all four of them."},
 	{"id": "BOTH_ROUTES", "name": "Two Sides of Her", "desc": "See a warm and a spark ending with the same woman."},
-	{"id": "GALLERY_HALF", "name": "Collector", "desc": "Find 8 of the 16 endings."},
-	{"id": "GALLERY_FULL", "name": "Complete Gallery", "desc": "Find all 16 endings."},
+	{"id": "GALLERY_HALF", "name": "Collector", "desc": "Find half of the endings."},
+	{"id": "GALLERY_FULL", "name": "Complete Gallery", "desc": "Find every ending."},
 	{"id": "COMBO_3", "name": "Chain Reaction", "desc": "Set off a x3 combo."},
 	{"id": "COMBO_5", "name": "Avalanche", "desc": "Set off a x5 combo."},
 	{"id": "MAKE_STARBURST", "name": "Starstruck", "desc": "Make a Starburst."},
@@ -128,7 +128,7 @@ func check_gallery() -> void:
 	for s in GalleryScreen.all_slots():
 		if GameState.gallery.has(s.entry):
 			found += 1
-	if found >= 8:
+	if total > 0 and found * 2 >= total:
 		unlock("GALLERY_HALF")
 	if total > 0 and found >= total:
 		unlock("GALLERY_FULL")

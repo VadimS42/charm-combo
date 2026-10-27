@@ -40,6 +40,8 @@ const DEFAULT_SETTINGS := {
 	"sound": true,
 	"volume": 0.8,  # 0..1, the Master bus (see apply_volume())
 	"music_volume": 0.7,  # 0..1, background music only (Music.gd)
+	"voice": true,  # voice acting on/off (Voice.gd)
+	"voice_volume": 1.0,  # 0..1, voice lines only (Voice.gd)
 	"reduce_motion": false,
 	"theme": "system",  # "system" | "light" | "dark" (not ported yet)
 	"test_mode": false,
@@ -213,10 +215,11 @@ func load_state() -> void:
 			if not gallery.has(String(e)):
 				gallery.append(String(e))
 	# Saves from before the gallery existed: seed it from what each character
-	# has currently reached.
+	# has currently reached — but only once her epilogue was actually seen
+	# through (quitting halfway used to count the ending on the next launch).
 	for id in characters_progress.keys():
 		var p: Dictionary = characters_progress[id]
-		if not p.endings_unlocked.is_empty():
+		if not p.endings_unlocked.is_empty() and not StoryFlow.epilogue_unfinished(id):
 			var ek: String = p.endings_unlocked[0]
 			var fin: Dictionary = p.get("epilogue_finale", {})
 			add_to_gallery(id, ek, String(fin.get("key", "")) if String(fin.get("ending", "")) == ek else "")

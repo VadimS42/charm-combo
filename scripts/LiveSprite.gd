@@ -14,6 +14,9 @@
 ## swish for good moves, a sigh for sad, a flustered head shake with a red
 ## flash for the cursed gem.
 ##
+## "motion": false in live.json leaves only the blinking: no breathing, hair
+## or head movement, and reactions are just a blink / the red flash.
+##
 ## Reduce Motion holds her still, eyes open (checked every frame, so the
 ## Settings toggle takes effect mid-chapter).
 class_name LiveSprite
@@ -29,6 +32,7 @@ var sway_sec := 5.8       # one full swing
 var head_px := 1.0        # head drifts this far either way
 var head_sec := 7.7
 var blink_every := Vector2(2.2, 5.5)   # seconds between blinks (random)
+var motion := true        # false: she only blinks
 
 var _mat: ShaderMaterial
 var _t := 0.0
@@ -67,6 +71,7 @@ func setup(rig: Dictionary) -> LiveSprite:
 	sway_sec = maxf(0.5, float(cfg.get("sway_sec", sway_sec)))
 	head_px = float(cfg.get("head_px", head_px))
 	head_sec = maxf(0.5, float(cfg.get("head_sec", head_sec)))
+	motion = bool(cfg.get("motion", motion))
 	_mat = ShaderMaterial.new()
 	_mat.shader = SHADER
 	_mat.set_shader_parameter("hair_tex", rig.hair)
@@ -130,6 +135,9 @@ func _process(delta: float) -> void:
 
 
 func _apply() -> void:
+	if not motion:
+		_set_all(0.0, 0.0, 0.0, 0.0, 0.0, 0.0, _blink_frame())
+		return
 	var p := fposmod(_t / breath_sec, 1.0)
 	# in for 40% of the breath, out for the rest, eased both ways
 	var b := smoothstep(0.0, 0.4, p) if p < 0.4 else 1.0 - smoothstep(0.4, 1.0, p)
@@ -197,6 +205,12 @@ func _blink_frame() -> float:
 func react(expr: String) -> void:
 	if _mat == null or GameState.settings.get("reduce_motion", false):
 		return
+	if not motion:
+		if expr == "surprised" and _has_blink:
+			_blink_t = 0.0
+		elif expr == "angry":
+			_flash()
+		return
 	match expr:
 		"happy", "surprised":
 			_hop_v = maxf(_hop_v, 0.0) + 85.0
@@ -209,11 +223,15 @@ func react(expr: String) -> void:
 		"angry":
 			_shake_t = 0.0
 			_swish(3.5)
-			if _flash_tw and _flash_tw.is_valid():
-				_flash_tw.kill()
-			_flash_tw = create_tween()
-			_flash_tw.tween_property(self, "self_modulate", Color(1.0, 0.8, 0.8), 0.08)
-			_flash_tw.tween_property(self, "self_modulate", Color.WHITE, 0.35)
+			_flash()
+
+
+func _flash() -> void:
+	if _flash_tw and _flash_tw.is_valid():
+		_flash_tw.kill()
+	_flash_tw = create_tween()
+	_flash_tw.tween_property(self, "self_modulate", Color(1.0, 0.8, 0.8), 0.08)
+	_flash_tw.tween_property(self, "self_modulate", Color.WHITE, 0.35)
 
 
 func _swish(amp: float) -> void:

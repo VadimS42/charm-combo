@@ -50,8 +50,8 @@ out" to "stay".
   ring that fills up for a Charm Burst.
 - Hammer, Shuffle and +3 Moves when a board gets tough, and an Item Shop for a
   head start. Running out of moves still pays a few stars, so you can grind.
-- Choices in conversation lean each story warm or teasing, with 16 endings to
-  find and a Gallery to keep them in.
+- Choices in conversation lean each story warm or teasing, with an ending
+  for each of them and a Gallery to keep them in.
 - A gift for each of them, and 20 achievements.
 - Full controller support. (Steam page: add "Steam Deck ready".)
 - (itch.io page: add "Play in your browser, or download for Windows, Mac and

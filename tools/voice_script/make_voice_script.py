@@ -51,10 +51,12 @@ def collect(ch):
     night = s.get("night")
     if isinstance(night, dict):
         block(night.get("lines", []), "Her night scene (full-screen CG)", "Her last chapter's scene has just ended. The two of you are alone.")
-    for key, label in (("warmth", "Warm ending"), ("spark", "Teasing ending")):
+    for key, label in (("warmth", "Her ending"), ("spark", "Teasing ending")):
+        if key not in s["endings"]:
+            continue
         ep = s["endings"][key]["epilogue"]
         block(ep["intro"] + ep["middle"] + ep["choice_lines"], label + ": the morning after", "The night after her last chapter.")
-        for i, o in enumerate(ep["choice"]["options"], 1):
+        for i, o in enumerate((ep.get("choice") or {}).get("options", []), 1):
             block(o["resp"], label + ": final reply %d" % i, "You said: " + o["label"])
     block(ch["giftLine"], "Gift scene (%s)" % ch["gift"]["name"])
     for field, scene in (("favQuips", "Puzzle quip: you matched her favourite gem"),

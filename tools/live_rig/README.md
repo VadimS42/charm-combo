@@ -19,6 +19,8 @@ with numpy, scipy, opencv-python and pillow. None of this ships with the game
    holds each eye's outline and closed-lid line, in page pixels.
 4. `live.json` beside them: blink rect, hair root/tip heights, and the motion
    settings LiveSprite.gd reads (breath, sway, head drift, "ambient": "leaves").
+   `"motion": false` keeps only the blinking (Hazel uses this), and
+   `"ambient": "none"` turns the falling leaves off.
 5. `emulate.py art/characters/<id>/live <out dir>`: renders a few poses (rest,
    hair swung both ways, a deep breath, a head shake, eyes shut) at full size
    to check for seams before opening Godot.
