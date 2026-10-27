@@ -350,7 +350,7 @@ static func build(main: Node, host: Control, char_id: String, lines: Array, choi
 	var st := {
 		"i": 0, "can_advance": false, "typing": false, "skip": false,
 		"auto": false, "ready_ms": -1, "choosing": false, "cur_seen": false,
-		"skip_all": false,
+		"skip_all": false, "type_tw": null,
 	}
 
 	# NOTE on a real GDScript footgun: these functions call each other, and a
@@ -393,6 +393,11 @@ static func build(main: Node, host: Control, char_id: String, lines: Array, choi
 
 	fns.finish_typing = func():
 		st.typing = false
+		# Stop the typing tween first: left running, it put the text back
+		# to half-typed on the next frame, so a click seemed to do nothing.
+		if st.type_tw is Tween and (st.type_tw as Tween).is_valid():
+			(st.type_tw as Tween).kill()
+		st.type_tw = null
 		text_lbl.visible_ratio = 1.0
 		next_lbl.modulate.a = 1.0
 		st.ready_ms = Time.get_ticks_msec()
@@ -409,7 +414,7 @@ static func build(main: Node, host: Control, char_id: String, lines: Array, choi
 		# when there were no lines at all.
 		if lines.is_empty():
 			speaker_lbl.text = String(ch.get("name", ""))
-			var fallback: String = String(ch.get("tagline", "")).trim_prefix("\"").trim_suffix("\"")
+			var fallback: String = UITheme.unquote(String(ch.get("tagline", "")))
 			text_lbl.text = fallback if not fallback.is_empty() else "What do you say?"
 			text_lbl.visible_ratio = 1.0
 			text_lbl.add_theme_color_override("font_color", UITheme.INK_ON_DARK_SOFT)
@@ -476,7 +481,9 @@ static func build(main: Node, host: Control, char_id: String, lines: Array, choi
 			st.typing = true
 			text_lbl.visible_ratio = 0.0
 			var tw := text_lbl.create_tween()
-			tw.tween_property(text_lbl, "visible_ratio", 1.0, maxf(0.05, text.length() / cps))
+			# Timed on the text as shown (the translation, if there is one).
+			tw.tween_property(text_lbl, "visible_ratio", 1.0, maxf(0.05, UITheme.t(text).length() / cps))
+			st.type_tw = tw
 			tw.tween_callback(func():
 				if st.typing and fns.has("finish_typing"):
 					fns.finish_typing.call())

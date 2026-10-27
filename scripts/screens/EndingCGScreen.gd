@@ -34,7 +34,7 @@ static func build(main: Node, host: Control, char_id: String, ending: Dictionary
 	title_lbl.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
 	v.add_child(title_lbl)
 
-	var name_lbl := UITheme.accent_label(String(ch.get("name", "")).to_upper(), accent.darkened(0.15), 12)
+	var name_lbl := UITheme.accent_label(UITheme.t(String(ch.get("name", ""))).to_upper(), accent.darkened(0.15), 12)
 	name_lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	name_lbl.add_theme_font_override("font", UITheme.tracked_font(2))
 	v.add_child(name_lbl)

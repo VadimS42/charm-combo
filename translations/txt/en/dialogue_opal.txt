@@ -98,7 +98,7 @@ She turns pink, which, on Opal, is very easy to see.
 I-it's not going on the shelf. It stays with me. In here. Is that all right?
 
 @@ opal-0030
-The woods north of Duskhaven, late autumn. You're out gathering firewood and anything worth selling, and you've followed the stream further in than you meant to.
+The woods north of Millbrook, late autumn. You're out gathering firewood and anything worth selling, and you've followed the stream further in than you meant to.
 
 @@ opal-0031
 Between the roots of an old oak, someone has dug a little hollow and lined it with moss. In it sits a big glass jar, sealed with wax. The label says PICKLED NEWTS, DO NOT OPEN, in handwriting that's trying to be funny.

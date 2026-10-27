@@ -12,7 +12,7 @@ on Steam). This guide walks through it in order.
   before Steam was connected. The list is in `autoload/Achievements.gd`, and
   the table in step 3 is what to type into Steamworks.
 - **Rich presence**: Steam friends see what you're up to, like "Chapter 2 of
-  Marina's story" or "Wandering Duskhaven" (`steam/rich_presence_english.vdf`).
+  Marina's story" or "Wandering Millbrook" (`steam/rich_presence_english.vdf`).
 - **Cloud saves**: ready. It's a Steamworks setting, no code (step 5).
 - **Steam overlay**: works as soon as the plug-in is installed (step 2). The
   game also saves when the overlay opens.

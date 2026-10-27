@@ -138,7 +138,7 @@ static func _section(main: Node, ch: Dictionary, slots: Array) -> Control:
 	var name_lbl := UITheme.heading(String(ch.name), 18)
 	name_lbl.autowrap_mode = TextServer.AUTOWRAP_OFF
 	head.add_child(name_lbl)
-	var role_lbl := UITheme.accent_label(String(ch.get("role", "")).to_upper(), accent.darkened(0.2), 10)
+	var role_lbl := UITheme.accent_label(UITheme.t(String(ch.get("role", ""))).to_upper(), accent.darkened(0.2), 10)
 	role_lbl.autowrap_mode = TextServer.AUTOWRAP_OFF
 	role_lbl.add_theme_font_override("font", UITheme.tracked_font(1))
 	role_lbl.size_flags_vertical = Control.SIZE_SHRINK_CENTER

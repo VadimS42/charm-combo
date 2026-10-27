@@ -2,3 +2,2232 @@ msgid ""
 msgstr ""
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "\"Don't even think about it.\""
+msgstr "“想都别想。”"
+
+msgid "\"I was fine. It was quiet in there.\""
+msgstr "“我挺好的。那里面很安静。”"
+
+msgid "\"I was floating. On my back.\""
+msgstr "“我在漂着。仰面漂着。”"
+
+msgid "\"You summoned me with that pathetic chalk circle?\""
+msgstr "“你就用那个可怜的粉笔圈召唤了我?”"
+
+msgid "%d / %d endings found"
+msgstr "已发现结局 %d / %d"
+
+msgid "%d / %d pts"
+msgstr "%d / %d分"
+
+msgid "%d / %d unlocked"
+msgstr "已解锁 %d / %d"
+
+msgid "%d pts — rough start..."
+msgstr "%d分——开局不顺……"
+
+msgid "%d pts..."
+msgstr "%d分……"
+
+msgid "(You need %d more stars.)"
+msgstr "(还差%d颗星星。)"
+
+msgid "+%d pts — great answer!"
+msgstr "+%d分——回答得好!"
+
+msgid "+%d ⭐ for trying"
+msgstr "+%d ⭐ 鼓励奖"
+
+msgid "+3 Moves"
+msgstr "+3步"
+
+msgid "+3 Moves, the Hammer (smash any one gem) and Shuffle (new board) sit under the board. Buy them, and one-chapter boosts, in the Item Shop with the stars you earn."
+msgstr "+3步、锤子(砸碎任意一个宝石)和洗牌(换一块新棋盘)都在棋盘下方。用通关赚到的星星,可以在道具商店购买它们以及单章增益。"
+
+msgid "1 star for every 100 points. Save up for power-ups in the Item Shop, then try again!"
+msgstr "每100分得1颗星星。去道具商店攒钱买增益,然后再试一次!"
+
+msgid "18+ · original characters · all characters are adults."
+msgstr "18+ · 原创角色 · 所有角色均为成年人。"
+
+msgid "A Lovely Trench"
+msgstr "一条可爱的壕沟"
+
+msgid "A Quiet Place"
+msgstr "一个安静的地方"
+
+msgid "A clock that only works when the sun's out. Someone finally made one that keeps sensible hours."
+msgstr "只有出太阳才走的钟。总算有人做了个作息正常的。"
+
+msgid "A folding brass sundial small enough for a pocket. It only tells the time on sunny days, which as far as she's concerned are the only days that need it."
+msgstr "一只折叠式黄铜日晷,小得能放进口袋。只有晴天才能报时,而在她看来,只有晴天才值得报时。"
+
+msgid "A glass marble with a ribbon of gold twisted through it, the kind nobody's made for decades."
+msgstr "一颗扭着金色丝带的玻璃弹珠,是几十年前就没人做的那种。"
+
+msgid "A leaf drops into your hair. There's no wind."
+msgstr "一片叶子落进你的头发里。没有风。"
+
+msgid "A match-3 romance for adults, set in Millbrook, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes."
+msgstr "一款面向成年人的三消恋爱游戏,故事发生在暮色小镇米尔布鲁克,奇幻种族在这里安家。用最糟糕的方式结识四位女子,帮她们解决所需,看看这一夜会走向何方。"
+
+msgid "A neighbour. I've never had a neighbour."
+msgstr "邻居。我从没有过邻居。"
+
+msgid "A sapling beside the new millrace, a ribbon tied round it."
+msgstr "新水道边的一棵小树苗,系着一条丝带。"
+
+msgid "A smooth chip of sea glass, worn soft by years of tide, on a plain cord."
+msgstr "一小块海玻璃,被多年的潮汐磨得柔和,系在一根朴素的绳子上。"
+
+msgid "A squall comes in over the cove. She wants to dive anyway. You hold the rope ladder and argue with her over the wind."
+msgstr "一阵暴风袭来,吹过海湾。她偏要潜水。你抓着绳梯,在风中跟她争。"
+
+msgid "A tall beeswax candle with a nine-hour wick. It burns longer if nobody blows it out."
+msgstr "一支高高的蜂蜡蜡烛,烛芯能烧九个小时。没人吹灭的话,烧得更久。"
+
+msgid "A twig drops, very precisely, into your lunch."
+msgstr "一根小树枝,不偏不倚落进你的午饭里。"
+
+msgid "ACHIEVEMENT UNLOCKED"
+msgstr "成就解锁"
+
+msgid "About the voices"
+msgstr "关于配音"
+
+msgid "About your reward. Last night was not the reward. I need you to understand that. Last night was separate."
+msgstr "说到你的报酬。昨晚不是报酬。我需要你明白这一点。昨晚是另一回事。"
+
+msgid "Achievements"
+msgstr "成就"
+
+msgid "Adds three moves to the chapter you're playing. Use it from the item row under the board — it also gets you out of an Out of Moves screen."
+msgstr "为你正在玩的章节增加三步。从棋盘下方的道具栏使用——它还能让你摆脱“步数用完”界面。"
+
+msgid "Admit it. You like having me around."
+msgstr "承认吧。你喜欢有我在身边。"
+
+msgid "After Hours"
+msgstr "闭馆之后"
+
+msgid "After each chapter you pick a reply. A warm one starts her next chapter with bonus points; a teasing one costs a few, but she likes those too."
+msgstr "每章结束后,你要选择一句回应。温柔的回应会让她的下一章以奖励分开场;调侃的回应会扣几分,不过她也挺喜欢。"
+
+msgid "After the comb, it can be a big thing."
+msgstr "找到梳子之后,可以变成大事。"
+
+msgid "Afterwards she lies with her head on your chest, her tail curled down the slipway into the water, flicking now and then."
+msgstr "事后,她枕在你胸口,尾巴顺着滑道垂进水里,时不时拨动一下。"
+
+msgid "Afterwards she's spread across most of the bed and some of you, glowing faintly, humming something Ambrose used to whistle."
+msgstr "事后,她铺满了大半张床和你的一部分,微微发光,哼着安布罗斯过去常吹的调子。"
+
+msgid "Afterwards you lie in the moss with her hair across your chest. Overhead, every leaf on her east side has turned pale side up, the way they do before a storm. There's no storm."
+msgstr "事后,你躺在苔藓里,她的头发铺在你胸口。头顶上,东侧的每一片叶子都翻成了背面朝上,就像暴风雨来临前那样。没有暴风雨。"
+
+msgid "Against an alchemist? You kicked my buttons into a stream and then paid six coppers to get them back."
+msgstr "对付一个炼金术士?你把我的纽扣踢进了小溪,然后又花六个铜板买回来。"
+
+msgid "Alchemists boil slimes down for glue. Did you know that? Twelve shillings a pound."
+msgstr "炼金术士会把史莱姆熬成胶水。你知道吗?一磅十二先令。"
+
+msgid "All rules"
+msgstr "全部规则"
+
+msgid "Amara Duskrose"
+msgstr "阿玛拉·达斯克罗斯"
+
+msgid "Amara. It's the one I use. The real one is in the book, along with everything else that keeps me on a leash."
+msgstr "阿玛拉。这是我用的名字。真名在那本书里,连同其他所有拴着我的东西。"
+
+msgid "Ambrose would have liked you. He liked people who apologise."
+msgstr "安布罗斯会喜欢你的。他喜欢会道歉的人。"
+
+msgid "Ambrose wrote that label. He was the forester. When the alchemists came round buying slimes, he hid me out here. It worked for thirty-one years."
+msgstr "那标签是安布罗斯写的。他是护林员。炼金术士们来收购史莱姆的时候,他把我藏在这里。这招管用了三十一年。"
+
+msgid "And don't tell the ferns. They'll want details."
+msgstr "也别告诉蕨类。它们会想要细节的。"
+
+msgid "And this time, take your clothes off before you jump in."
+msgstr "这一次,跳下去之前先把衣服脱了。"
+
+msgid "And you still haven't asked me for anything."
+msgstr "而你还是什么都没向我要。"
+
+msgid "And you're not going to tell anyone either, are you, lifeguard."
+msgstr "你也不会告诉任何人的,对吧,救生员。"
+
+msgid "Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing."
+msgstr "任何有效的消除都会立即达成章节目标,并奖励99颗星星——仅供QA测试,不适合正常游玩。"
+
+msgid "At the Midsummer Tide the whole family swims out to the rocks, and Gran wears nine pearls in her hair and pretends not to notice everyone watching her."
+msgstr "仲夏潮汛上,全家游到礁石那边,奶奶头发里戴着九颗珍珠,假装没注意到所有人都在看她。"
+
+msgid "Auto"
+msgstr "自动"
+
+msgid "Auto Speed"
+msgstr "自动速度"
+
+msgid "Avalanche"
+msgstr "雪崩"
+
+msgid "Back"
+msgstr "返回"
+
+msgid "Balanced route"
+msgstr "平衡路线"
+
+msgid "Better than the last one Aldous sent. Prettier, too."
+msgstr "比奥尔德斯上次派来的那个强。也好看多了。"
+
+msgid "Between the roots of an old oak, someone has dug a little hollow and lined it with moss. In it sits a big glass jar, sealed with wax. The label says PICKLED NEWTS, DO NOT OPEN, in handwriting that's trying to be funny."
+msgstr "一棵老橡树的树根之间,有人挖了一个小凹坑,铺上了苔藓。里面放着一个蜡封的大玻璃罐。标签上写着“腌蝾螈,请勿打开”,字迹努力想显得好笑。"
+
+msgid "Black cover. No title. It'll feel warm. Don't open it."
+msgstr "黑色封面。没有书名。摸起来是温的。别打开。"
+
+msgid "Blossom. You have my attention."
+msgstr "花开了。你成功吸引了我的注意。"
+
+msgid "Board, lifeguard. Not me."
+msgstr "板子是给救生员的。不是给我的。"
+
+msgid "Boathouse. It's got a door. Gran can't see through doors. Probably."
+msgstr "船屋。那里有门。奶奶看不穿门。大概吧。"
+
+msgid "Boom!"
+msgstr "嘭!"
+
+msgid "Brass Pocket Sundial"
+msgstr "黄铜袖珍日晷"
+
+msgid "But she's a little pinker than she was."
+msgstr "但她比刚才又粉了一点。"
+
+msgid "Buy something in the Item Shop."
+msgstr "在道具商店买点东西。"
+
+msgid "Buy · %d"
+msgstr "购买 · %d"
+
+msgid "Buy · %d ⭐"
+msgstr "购买 · %d ⭐"
+
+msgid "By hand? You'll be at it till midsummer. I suppose I'll have to put up with you all spring."
+msgstr "用手挖?你得挖到仲夏。看来我整个春天都得忍着你了。"
+
+msgid "By the end of the month the old wall has stopped cracking. The new millrace runs clean, and Aldous Brock stands on the bank for a long time with his hat in his hands."
+msgstr "月底前,旧墙不再开裂。新水道流得清澈,奥尔德斯·布洛克手里攥着帽子,在岸边站了很久。"
+
+msgid "By two in the morning you've checked every book returned this month. No black cover. One very overdue cookbook, which she opens, reads a page of, and closes in disgust."
+msgstr "凌晨两点,你已经检查完这个月还回来的所有书。没有黑色封面。只有一本严重逾期的烹饪书,她翻开,读了一页,厌恶地合上了。"
+
+msgid "C-can I sleep in your room tonight? Not in the jar. With you."
+msgstr "我、我今晚能睡在你房间吗?不是罐子里。和你一起。"
+
+msgid "CHAPTER GOAL"
+msgstr "章节目标"
+
+msgid "Can we not? Please?"
+msgstr "能不能别这样?拜托?"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Careful. If you keep staring at me like that, I'll start thinking you summoned me on purpose."
+msgstr "小心点。你要是一直那样盯着我看,我会以为你是故意召唤我的。"
+
+msgid "Carry on without clearing this chapter (no stars for it)."
+msgstr "不通关本章,直接继续(本章没有星星)。"
+
+msgid "Chain Reaction"
+msgstr "连锁反应"
+
+msgid "Chapter %d / %d"
+msgstr "第%d / %d章"
+
+msgid "Charm Burst"
+msgstr "魅力爆发"
+
+msgid "Charm Burst! +150"
+msgstr "魅力爆发!+150"
+
+msgid "Charm Combo is for adults"
+msgstr "Charm Combo 仅限成年人"
+
+msgid "Charm — fills as you match (her favorite gem fastest). Full = +150 Charm Burst."
+msgstr "魅力——随消除充能(她最爱的宝石充得最快)。充满 = 魅力爆发 +150。"
+
+msgid "Chimes for matches, combos, and menus."
+msgstr "消除、连锁和菜单的提示音。"
+
+msgid "Choose"
+msgstr "选择"
+
+msgid "Clean lines. I'm almost proud of you."
+msgstr "线条干净。我几乎要为你骄傲了。"
+
+msgid "Clear Hazel's first chapter."
+msgstr "通关黑泽尔的第一章。"
+
+msgid "Clear Hazel's second chapter."
+msgstr "通关黑泽尔的第二章。"
+
+msgid "Clear Hazel's third chapter."
+msgstr "通关黑泽尔的第三章。"
+
+msgid "Clear a chapter with 5 or more moves left."
+msgstr "通关一章时剩余5步或更多。"
+
+msgid "Clear a cursed shard with the Hammer."
+msgstr "用锤子清除一个诅咒碎片。"
+
+msgid "Clear all the way through. Like me."
+msgstr "从里到外都是透明的。像我一样。"
+
+msgid "Click to view."
+msgstr "点击查看。"
+
+msgid "Click, Space or Enter: next line. Hold Ctrl or press Skip: skip lines you've read. A or Auto: lines play on by themselves. L, Log or scroll up: read back. H: hide the text on full-screen pictures. Text speed is in Settings."
+msgstr "点击、空格或回车:下一句。按住Ctrl或点击“跳过”:跳过已读台词。A或“自动”:台词自动播放。L、“记录”或向上滚动:回看。H:在全屏图片上隐藏文字。文字速度可在设置中调整。"
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "Close enough."
+msgstr "差不多。"
+
+msgid "Close enough. You can keep using it."
+msgstr "差不多。你可以继续用。"
+
+msgid "Close settings"
+msgstr "关闭设置"
+
+msgid "Combo x%d!"
+msgstr "连锁 x%d!"
+
+msgid "Combos"
+msgstr "连锁"
+
+msgid "Come back tomorrow. Bring the shovel, leave the axe, and wear that shirt again."
+msgstr "明天再来。带上铲子,别带斧头,还穿那件衬衫。"
+
+msgid "Come here. That's an order, and I'm only giving it once before I come over there and get you."
+msgstr "过来。这是命令,我只下一次,不然我就过去把你抓来。"
+
+msgid "Come on. Binders keep ledgers. If he sold them, he wrote down who to."
+msgstr "走吧。装订匠都记账。要是他卖了,就会记下卖给了谁。"
+
+msgid "Continue"
+msgstr "继续"
+
+msgid "Continue the story  ▸"
+msgstr "继续故事  ▸"
+
+msgid "Credits"
+msgstr "制作人员"
+
+msgid "Crystal"
+msgstr "水晶"
+
+msgid "Crystal. I'd keep that one."
+msgstr "水晶。这个我会留着。"
+
+msgid "Cursed Shard"
+msgstr "诅咒碎片"
+
+msgid "Cursed shards"
+msgstr "诅咒碎片"
+
+msgid "Dance with me later. Badly. I've got a tail, so we'll be bad at it together."
+msgstr "一会儿陪我跳舞。跳得很烂。我有尾巴,所以我们会一起跳得很烂。"
+
+msgid "Dark, cracked shards cost you points when they're part of a match. The Hammer smashes one for free."
+msgstr "暗色的裂开碎片如果被消除,会扣分。锤子可以免费砸碎一个。"
+
+msgid "Day four. Word's got round that someone is digging by the old hazel instead of cutting it down. The miller's daughter brings you lunch, and you walk her back as far as the footbridge."
+msgstr "第四天。消息传开了,有人在老榛树旁挖土而不是砍树。磨坊主的女儿给你送来午饭,你陪她走到了人行桥边。"
+
+msgid "Day three. She's been in the water since dawn, and she misses the rope ladder twice trying to climb onto the pier. At the far end, three old fishermen are setting out their Thursday tile game by lamplight."
+msgstr "第三天。她从黎明起就在水里,两次爬码头的绳梯都没抓住。码头尽头,三位老渔夫正就着灯光摆开他们周四的骨牌游戏。"
+
+msgid "Dialogue controls"
+msgstr "对话操作"
+
+msgid "Dig your trench. And stop looking at my leaves."
+msgstr "去挖你的壕沟。别再盯着我的叶子看。"
+
+msgid "Dislikes"
+msgstr "讨厌"
+
+msgid "Do that again. Slower."
+msgstr "再来一次。慢一点。"
+
+msgid "Don't Even Think About It"
+msgstr "想都别想"
+
+msgid "Don't even think about it."
+msgstr "想都别想。"
+
+msgid "Don't go before morning. I'll know if you do. I'll hear the door."
+msgstr "天亮前别走。你走了我会知道。我会听到门响。"
+
+msgid "Don't look at the leaves. They're being ridiculous."
+msgstr "别看叶子。它们在胡闹。"
+
+msgid "Don't look at them. They're not for you. They're seasonal."
+msgstr "别看它们。它们不是为你开的。它们是应季的。"
+
+msgid "Don't look so pleased with yourself. Actually, no. Look exactly that pleased."
+msgstr "别一脸得意。其实,不。就保持这样得意。"
+
+msgid "Don't put me back in the jar yet. I want to go home on my own. Well. Not walk. You know."
+msgstr "先别把我放回罐子里。我想自己回家。嗯。不是走。你知道的。"
+
+msgid "Don't say it like that. Like it matters."
+msgstr "别那样说。好像这很重要似的。"
+
+msgid "Don't stop on my account."
+msgstr "别因为我就停下来。"
+
+msgid "Don't. Just don't."
+msgstr "别。千万别。"
+
+msgid "Down on the pier, a whole family is yelling at the water. Out past the rocks, a woman is floating face up, perfectly still, her hair spread out round her."
+msgstr "下面的码头上,一整家人正对着水面大喊。礁石外面,一个女人仰面漂着,一动不动,头发在周围散开。"
+
+msgid "Dryad of the old hazel"
+msgstr "老榛树的树精"
+
+msgid "Each chapter has a points goal and a number of moves. Reach the goal before your moves run out and the story carries on. There's no timer: take as long as you like."
+msgstr "每个章节都有分数目标和步数限制。在步数用完前达到目标,故事就会继续。没有计时器,慢慢来。"
+
+msgid "Eat your lunch. She makes good bread, apparently. Nobody's ever walked me to a footbridge."
+msgstr "吃你的午饭吧。听说她做的面包不错。从来没人送我到人行桥边。"
+
+msgid "Ember"
+msgstr "余烬"
+
+msgid "Embers. I'll pretend I didn't see that."
+msgstr "余烬。我就当没看见。"
+
+msgid "Ending Gallery"
+msgstr "结局图鉴"
+
+msgid "Ending: %s"
+msgstr "结局:%s"
+
+msgid "English"
+msgstr "English"
+
+msgid "Every girl has a favourite gem and one she dislikes (it's on her card in the roster). Matching her favourite fills the Charm ring faster."
+msgstr "每位女孩都有一种最爱的宝石和一种讨厌的宝石(在名册中她的卡片上可以看到)。消除她最爱的宝石,魅力环会充得更快。"
+
+msgid "Every match fills the Charm ring. When it's full you get a Charm Burst: +150 points."
+msgstr "每次消除都会为魅力环充能。充满时触发魅力爆发:+150分。"
+
+msgid "Every one of those pages is part of my binding. Somebody has been buying them."
+msgstr "那里每一页都是我束缚的一部分。有人一直在收购。"
+
+msgid "Every one? That's four hundred and twelve buttons."
+msgstr "每一样?那可是四百一十二颗纽扣。"
+
+msgid "Everything — music and sound effects."
+msgstr "全部——音乐和音效。"
+
+msgid "Ex-excuse me. That's my eye. Not my eye. It's in my collection. I'd like it back, please."
+msgstr "打、打扰一下。那是我的眼珠。不是我的眼珠。它在我的收藏里。请还给我。"
+
+msgid "Eyes on the board. I'll still be here."
+msgstr "眼睛看棋盘。我还在这儿。"
+
+msgid "Fast"
+msgstr "快"
+
+msgid "Faster. And alphabetise properly. I've seen your circle."
+msgstr "快点。还要按字母顺序排好。我见过你画的圈。"
+
+msgid "Faster. Tide's turning."
+msgstr "快点。潮水要转向了。"
+
+msgid "Favor Charm"
+msgstr "好感符"
+
+msgid "Fill the Charm ring for a Charm Burst."
+msgstr "充满魅力环,触发魅力爆发。"
+
+msgid "Fill the whole screen. F11 toggles it anywhere."
+msgstr "铺满整个屏幕。F11可随时切换。"
+
+msgid "Fine. They're for you. I haven't flowered out of season since before the mill was built. People are going to talk."
+msgstr "好吧。它们是为你开的。自磨坊建起来之前,我就没不合时令地开过花了。人们要议论了。"
+
+msgid "Fine. You're not a menace anymore. You can help me. Don't get excited."
+msgstr "好吧。你不再是个祸害了。你可以帮我。别太兴奋。"
+
+msgid "Finish Hazel's story picking every warm reply."
+msgstr "通关黑泽尔的故事,并且每次都选择温柔的回应。"
+
+msgid "Finish Hazel's story teasing her in every reply."
+msgstr "通关黑泽尔的故事,并且每次回应都调侃她。"
+
+msgid "Fire. In a grove. Really?"
+msgstr "火。在树林里。认真的吗?"
+
+msgid "Flattery. Good. Keep going."
+msgstr "奉承。很好。继续。"
+
+msgid "For bug reports: send the newest godot.log from this folder."
+msgstr "提交错误报告时:请从此文件夹发送最新的godot.log。"
+
+msgid "For storms. Okay. Just for storms."
+msgstr "为了风暴天。好。只为了风暴天。"
+
+msgid "For the record: four hundred-odd summonings, several kings and one very enthusiastic bishop. None of them came close. I'm only telling you once."
+msgstr "声明一下:四百多次召唤,好几位国王,还有一位非常热情的主教。没有一个接近。我只说这一次。"
+
+msgid "Forty springs he's sent people with axes. That's the first time he's ever touched me."
+msgstr "四十个春天,他一直派人拿着斧头来。这是他第一次碰我。"
+
+msgid "Forty years, I said. Mind where you swing."
+msgstr "我说了,四十年。挥的时候当心点。"
+
+msgid "Four hundred and twelve buttons, twenty-six keys, a glass eye and two owls. The alchemist's men are felling the north woods now, so Opal is staying with you, and her collection takes up a whole shelf in your front room. She rearranges it twice."
+msgstr "四百一十二颗纽扣,二十六把钥匙,一只玻璃眼珠,还有两只猫头鹰。炼金术士的人正在砍伐北边的树林,所以欧泊住在了你家,她的收藏占满了你客厅的整整一个架子。她重新摆了两次。"
+
+msgid "Four hundred and twelve buttons. Twenty-six keys. A glass eye. Everyone who comes through these woods drops something, and I kept it."
+msgstr "四百一十二颗纽扣。二十六把钥匙。一只玻璃眼珠。每个路过这片树林的人都会掉点东西,我都留着。"
+
+msgid "Four hundred and twelve. I check every night."
+msgstr "四百一十二。我每晚都会检查。"
+
+msgid "Four hundred buttons is a lot of strangers' buttons."
+msgstr "四百颗纽扣,可是很多陌生人的纽扣呢。"
+
+msgid "Frosted Sea-Glass Pendant"
+msgstr "磨砂海玻璃吊坠"
+
+msgid "Fullscreen"
+msgstr "全屏"
+
+msgid "Gallery"
+msgstr "图鉴"
+
+msgid "Gently. Like that."
+msgstr "轻点。就这样。"
+
+msgid "Get that holy rock away from me."
+msgstr "把那块圣石拿开。"
+
+msgid "Give Hazel the Brass Pocket Sundial."
+msgstr "把黄铜袖珍日晷送给黑泽尔。"
+
+msgid "Give her the %s"
+msgstr "送她%s"
+
+msgid "Go on, then. What are you planting? It'll outlast both of us. Well. It'll outlast you."
+msgstr "来吧。你要种什么?它会比我们两个都活得久。好吧。会比你活得久。"
+
+msgid "Gold swirl. They stopped making these before I went in the jar. Where did you even find it?"
+msgstr "金色漩涡。我进罐子之前他们就不做这种了。你到底是在哪儿找到的?"
+
+msgid "Got it"
+msgstr "知道了"
+
+msgid "Gran at the Midsummer Tide, her pearl comb in her hair."
+msgstr "仲夏潮汛上的奶奶,头发里戴着她的珍珠梳子。"
+
+msgid "Gran says hello. Gran says a lot of things."
+msgstr "奶奶向你问好。奶奶什么话都说。"
+
+msgid "Gran wears the comb at the Midsummer Tide and never finds out it was lost. Marina tells her anyway, a month later, and Gran laughs so hard she has to be helped onto a rock. Marina tells the story of how you met at every family dinner after that, and it gets bigger every time. Gran corrects her every time, and every time she sets a place for you without asking."
+msgstr "奶奶在仲夏潮汛上戴着梳子,始终不知道它曾经丢过。一个月后玛丽娜还是告诉了她,奶奶笑得不得不被人扶到一块岩石上。从那以后,每次家庭晚餐玛丽娜都要讲你们怎么认识的,每次都讲得更夸张。奶奶每次都纠正她,每次也都不等人开口就为你摆好一个座位。"
+
+msgid "Gran's asked you to the family dinner, which is not a small thing, people have married into this family and never been asked to the family dinner."
+msgstr "奶奶邀请你去家庭晚餐,这可不是小事,有人嫁进这个家,都没被邀请过家庭晚餐。"
+
+msgid "Gran's going to know. She always knows. She's going to look at me over breakfast and just know."
+msgstr "奶奶会知道的。她总是知道。她会在早餐时看着我,然后就知道了。"
+
+msgid "Gran's going to wear it at the Tide and never know. Nobody's ever going to know you did this."
+msgstr "奶奶会在潮汛上戴着它,永远不会知道。没人会知道这是你做的。"
+
+msgid "Gran, I'm fine. I was resting. I always rest like that."
+msgstr "奶奶,我没事。我在休息。我总是这样休息。"
+
+msgid "Hammer"
+msgstr "锤子"
+
+msgid "Hand-Dipped Beeswax Candle"
+msgstr "手工蘸制蜂蜡蜡烛"
+
+msgid "Hazel Mossgrove"
+msgstr "黑泽尔·莫斯格罗夫"
+
+msgid "He tells you to keep the money. Then he walks over and pats the hazel's trunk, awkwardly, like a man apologising to a horse."
+msgstr "他让你留着那笔钱。然后他走过去,笨拙地拍了拍榛树的树干,像一个向马道歉的人。"
+
+msgid "He took it apart. To sell it page by page."
+msgstr "他把它拆了。为了一页一页地卖。"
+
+msgid "He used to tap on the glass every morning twice so I'd know it was him."
+msgstr "他每天早上都会敲两下玻璃,让我知道是他。"
+
+msgid "Hear the girls speak their lines."
+msgstr "听女孩们说出她们的台词。"
+
+msgid "Heart Mender"
+msgstr "疗心者"
+
+msgid "Her corrections in red pencil, all over the loose page that started it."
+msgstr "她用红铅笔在那张引发一切的散页上做的修改。"
+
+msgid "Her ending"
+msgstr "她的结局"
+
+msgid "Her entire family is, in fact, right there. A grandmother, a mother, three sisters. One of the sisters is laughing so hard she can barely ask, out loud, whether Mari is going to thank her lifeguard."
+msgstr "她的全家其实就在那儿。一位奶奶,一位妈妈,三个姐妹。其中一个笑得几乎说不出话,大声问玛丽是不是要谢谢她的救生员。"
+
+msgid "Her family slips off the end of the pier one by one and swims home round the point, very slowly, looking back the whole way. She waits until they're out of earshot."
+msgstr "她的家人一个接一个从码头边滑进水里,慢慢游向岬角那边,一路回头张望。她等到她们听不见了才开口。"
+
+msgid "Her father came by too. You've got till the end of the month. Then he hires someone with a saw."
+msgstr "她父亲也来过了。你们只有到月底的时间。然后他就会雇个带锯的人来。"
+
+msgid "Her grandmother says, mildly, that they'd been calling her for twenty minutes, that the tide's on the turn, and that this nice person was the only one who did anything about it."
+msgstr "她的奶奶温和地说,她们叫了她二十分钟,潮水就要转向了,而这位好心人是唯一采取行动的。"
+
+msgid "Her hands are warm now. They were cold the first time you touched the bark. She sees you notice."
+msgstr "她的双手现在是暖的。你第一次碰树皮时,它们是冷的。她看见你注意到了。"
+
+msgid "Her jar sits at the end of the shelf with the lid off. She hasn't been in it for three days."
+msgstr "她的罐子放在架子尽头,盖子敞着。她已经三天没进去了。"
+
+msgid "Her library card has your address on it in small, furious handwriting. She moves in with forty candles and opinions about your bookshelf, which she reorganises by how much she disliked each book. Your favourite goes on the bottom shelf. Most nights she's still at the late desk when your shift ends, and she walks you home by the river even though it's longer."
+msgstr "她的借书证上写着你的地址,字迹细小而愤怒。她带着四十支蜡烛和对你书架的各种意见搬了进来,她按每本书她有多讨厌来重新排列。你最喜欢的那本放在了最底层。大多数夜晚,你下班时她还坐在夜班服务台那儿,她陪你沿着河边走回家,尽管那样更远。"
+
+msgid "Her night scene"
+msgstr "她的夜晚场景"
+
+msgid "Her story starts over from your first meeting, so you can make different choices. Endings you've found stay in the Gallery, your gift stays given, and her chapters pay out stars again."
+msgstr "她的故事会从你们初次相遇重新开始,这样你可以做出不同的选择。你已找到的结局会保留在图鉴中,送出的礼物依然算送出,她的章节也会再次给予星星。"
+
+msgid "Hide text"
+msgstr "隐藏文字"
+
+msgid "High Water"
+msgstr "满潮时分"
+
+msgid "How fast dialogue types out."
+msgstr "对话逐字显示的快慢。"
+
+msgid "How long Auto waits after each line (left = quicker)."
+msgstr "“自动”在每句台词后等待多久(向左更快)。"
+
+msgid "How long have you been out here on your own?"
+msgstr "你一个人在这儿待了多久了?"
+
+msgid "How loud the background music plays."
+msgstr "背景音乐的音量。"
+
+msgid "How loud their voices play."
+msgstr "她们声音的音量。"
+
+msgid "How to Play"
+msgstr "玩法说明"
+
+msgid "Huh. Nobody's ever told me to slow down. They just assume I've got it handled."
+msgstr "哈。从来没人叫我慢下来。他们都以为我能搞定。"
+
+msgid "I can go as far as my roots do. Thanks to someone, that's quite far now. Far enough to follow you home, if I felt like it."
+msgstr "我能走多远,取决于我的根能延伸多远。托某个人的福,现在已经相当远了。远到如果我想,可以跟着你回家。"
+
+msgid "I destroyed kingdoms, and you're making me wait?!"
+msgstr "我毁灭过王国,你却让我等?!"
+
+msgid "I did that. Did you see? I did that out loud."
+msgstr "是我干的。你看到了吗?我大声说出来了。"
+
+msgid "I don't like those. Sorry."
+msgstr "我不喜欢那些。对不起。"
+
+msgid "I have to tell you something. I kept something of yours. On the first day."
+msgstr "我得告诉你一件事。我留了你的一样东西。第一天的时候。"
+
+msgid "I know about the wall. My roots go where the water is, and they've never once asked my opinion."
+msgstr "墙的事我知道。我的根往有水的地方长,从来没问过我的意见。"
+
+msgid "I know. The ferns mentioned that too."
+msgstr "我知道。蕨类们也提过了。"
+
+msgid "I like having someone to hold the bucket."
+msgstr "我喜欢有人帮我提桶。"
+
+msgid "I lose things. You've noticed. I'm not losing this one."
+msgstr "我总丢东西。你已经注意到了。这一件我不会丢。"
+
+msgid "I should tell you I don't know what I'm doing. I've only heard about this. Through glass. People say a lot on a forest path when they think no one's listening."
+msgstr "我得告诉你,我不知道自己在做什么。我只是听说过。隔着玻璃。人们走在林间小路上,以为没人听见的时候,什么都说。"
+
+msgid "I still owe you a reward. I haven't decided what it is yet. Don't look at me like that, I'm deciding."
+msgstr "我还欠你一份报酬。我还没决定是什么。别那样看我,我在决定。"
+
+msgid "I was fine. It was quiet in there."
+msgstr "我挺好的。那里面很安静。"
+
+msgid "I was floating. On my back. I'm a mermaid, if you didn't notice, and you just dragged me out of my own cove in front of my entire family."
+msgstr "我在漂着。仰面漂着。我是美人鱼,如果你没注意到的话,而你刚刚当着我全家的面把我从我自己的海湾里拖了出来。"
+
+msgid "I was meant to get it cleaned. I dropped it off the pier a week ago. Nobody knows."
+msgstr "我本该拿去清洗的。一个星期前我把它从码头上掉下去了。没人知道。"
+
+msgid "I wasn't resting. I was looking for something. Gran's pearl comb. It's the only thing she brought with her when she came to this cove, and she wears it every Midsummer Tide."
+msgstr "我不是在休息。我在找东西。奶奶的珍珠梳子。那是她来到这个海湾时唯一带来的东西,每年仲夏潮汛她都要戴。"
+
+msgid "I won't tell. Let me help you look."
+msgstr "我不会说的。让我帮你一起找。"
+
+msgid "I'd do it badly. Out of spite."
+msgstr "我会整理得很糟糕。出于恶意。"
+
+msgid "I'd like to do it again. That's allowed to be said, isn't it? Good. I'd like to do it again."
+msgstr "我想再来一次。这样说是可以的吧?好。我想再来一次。"
+
+msgid "I'd like to make it a thing."
+msgstr "我想当回事。"
+
+msgid "I'd like to see that, actually."
+msgstr "其实,我想看看那场面。"
+
+msgid "I'd want my own jar. Just to start. Is that strange?"
+msgstr "我想要我自己的罐子。只是一开始。这奇怪吗?"
+
+msgid "I'll dig it. Show me where."
+msgstr "我来挖。告诉我在哪儿。"
+
+msgid "I'll dig. I'm keeping the miller's money, though."
+msgstr "我来挖。不过磨坊主的钱我要留着。"
+
+msgid "I'll hang it on the low branch. You can see the path from there, which is where you come from. Not that I watch it."
+msgstr "我把它挂在低枝上。从那里能看见小路,那是你来的方向。不是说我在看。"
+
+msgid "I'll list everyone in town you'd like to drop a branch on."
+msgstr "我来列一张名单,写上镇上所有你想砸树枝的人。"
+
+msgid "I'll pay you, obviously. A reward, when we find it. It's a business arrangement, so you can stop smiling like that."
+msgstr "我当然会付你钱。找到后给你报酬。这是一笔生意,所以别那样笑。"
+
+msgid "I'm 18 or older"
+msgstr "我已年满18岁"
+
+msgid "I'm a bit pink right now. Ignore it."
+msgstr "我现在有点泛粉。别在意。"
+
+msgid "I'm fine. Midsummer Tide's in nine days, and I've checked maybe a third of the cove."
+msgstr "我没事。仲夏潮汛还有九天,我大概只查了三分之一的海湾。"
+
+msgid "I'm glad I can help. Really."
+msgstr "能帮上忙我很高兴。真的。"
+
+msgid "I'm going back tomorrow. He does a seeded loaf on Thursdays."
+msgstr "我明天还要去。他每周四做籽粒面包。"
+
+msgid "I'm going to make you sound very brave. And very wet."
+msgstr "我会把你讲得非常勇敢。也非常湿。"
+
+msgid "I'm not watching you. I'm photosynthesising."
+msgstr "我没在看你。我在光合作用。"
+
+msgid "I'm so sorry. I'll get every one of them back."
+msgstr "我很抱歉。我会把每一样都找回来。"
+
+msgid "I've been doing this for a very long time, and that was not on the list of things I expected from a library."
+msgstr "我做这行很久了,而这是我从图书馆里意想不到的。"
+
+msgid "I've been summoned by kings. They were worse at this."
+msgstr "国王们都召唤过我。他们做得比你差。"
+
+msgid "I've been summoned four hundred and some times. Never seen such gentleman."
+msgstr "我被召唤过四百多次。从没见过这样的绅士。"
+
+msgid "I've never seen a morning from this side of a summoning. It's very bright. I don't hate it."
+msgstr "我从来没从召唤的这一边看过早晨。很亮。我不讨厌。"
+
+msgid "I've started a card for last night. For the collection. I'm on my fourth draft."
+msgstr "我给昨晚开了一张卡片。为了收藏。已经是第四稿了。"
+
+msgid "I've thought about this. Not a lot. A normal amount. Every day since the pier."
+msgstr "我想过这件事。不是很多。是正常的程度。从码头那天起,每天都想。"
+
+msgid "I-is that all right? Tell me if it's strange. You can say it's strange."
+msgstr "这、这样可以吗?奇怪的话告诉我。你可以说这很奇怪。"
+
+msgid "I-it's not going on the shelf. It stays with me. In here. Is that all right?"
+msgstr "它、它不放架子上。它留在我身边。在这里面。可以吗?"
+
+msgid "If I find one, I'm burning it."
+msgstr "要是我找到一页,我就烧了它。"
+
+msgid "If I'd known you liked it, I'd have come by sooner."
+msgstr "早知道你喜欢,我早就来了。"
+
+msgid "If Nerissa asks, we're friends. Who swim. At night."
+msgstr "要是内丽莎问起,我们就是朋友。会游泳的那种。在晚上。"
+
+msgid "If someone dug him a new channel further out, my roots would follow the water. It would take a season. Nobody's ever offered. It's a lot of digging."
+msgstr "要是有人在更远处给他挖一条新水道,我的根就会跟着水走。要一个季节。从没人提过。要挖的活儿太多了。"
+
+msgid "If you drop anything, I'll find it."
+msgstr "你要是掉了什么东西,我会找到的。"
+
+msgid "If you find it before I do, don't open it."
+msgstr "要是你比我先找到,别打开。"
+
+msgid "If you see the miller, wave. It makes him nervous."
+msgstr "要是看见磨坊主,朝他挥挥手。他会紧张的。"
+
+msgid "If you're going to draw these, you'll draw them properly. Nobody else is coming through a circle this pathetic."
+msgstr "你要是打算画这些,就好好画。这么可怜的圈,没人会再进来了。"
+
+msgid "In my defence, the label said newts."
+msgstr "我要辩解一句:标签上写的是蝾螈。"
+
+msgid "In my experience, the people who don't ask want something worse. So. What is it?"
+msgstr "以我的经验,不开口要东西的人,想要的东西更糟。所以。是什么?"
+
+msgid "In the back, under a dust sheet, you find a black cover with nothing in it. The pages have been cut out with a knife."
+msgstr "在后屋的防尘布下面,你们找到一个黑色封面,里面什么都没有。书页被刀割走了。"
+
+msgid "Instant"
+msgstr "立即"
+
+msgid "Irresistible"
+msgstr "难以抗拒"
+
+msgid "It has sexual content, including intimate scenes, and suggestive art. All characters are adults.\n\nPlease only continue if you're 18 or older, or the age of majority where you live."
+msgstr "游戏含有性内容,包括亲密场景和暗示性画面。所有角色均为成年人。\n\n请仅在你年满18岁,或已达到所在地成年年龄时继续。"
+
+msgid "It rains all night. None of it reaches you."
+msgstr "雨下了一整夜。一滴也没落到你们身上。"
+
+msgid "It was a joke. He laughed at it every single morning for thirty-one years."
+msgstr "那是个玩笑。他每天早上都为它笑,笑了三十一年。"
+
+msgid "It was a very good storm."
+msgstr "那是一场很棒的暴风雨。"
+
+msgid "It was an excellent storm."
+msgstr "那是一场极好的暴风雨。"
+
+msgid "It was here. Someone moved it, and not long ago."
+msgstr "它本来在这儿。有人把它挪走了,而且没多久。"
+
+msgid "It's April."
+msgstr "现在是四月。"
+
+msgid "It's all here. All of it. I counted three times."
+msgstr "都在这儿了。全都在。我数了三遍。"
+
+msgid "It's down there! I've checked everywhere else, it has to be down there!"
+msgstr "它就在下面!别的地方我都找过了,它一定在下面!"
+
+msgid "It's fine. It's the roots letting go of the old wall. They've held it forty years. They're making a fuss."
+msgstr "没事。那是根在放开旧墙。它们抱了四十年。在闹脾气呢。"
+
+msgid "It's going to need a very long card."
+msgstr "那得是一张很长很长的卡片。"
+
+msgid "It's loud out here. You're the good kind of loud."
+msgstr "外面好吵。你是那种好听的吵。"
+
+msgid "It's not even scratched."
+msgstr "它连划痕都没有。"
+
+msgid "It's only when you're heaving her onto the boards that you notice the tail. It's long, it's teal, and it's slapping the pier hard enough to soak everyone."
+msgstr "直到把她拖上木板时,你才注意到那条尾巴。又长又青绿,拍打码头的力气大得把所有人都溅湿了。"
+
+msgid "It's somewhere in this building. I can feel it, like a draught. You're going to help me find it before anyone else does."
+msgstr "它就在这栋楼里的某处。我能感觉到,像一阵穿堂风。你要帮我赶在别人之前找到它。"
+
+msgid "It's the chalk. Cheap chalk gets in your throat."
+msgstr "是粉笔。便宜的粉笔会呛嗓子。"
+
+msgid "It's the first thing in a new collection. Things that are yours."
+msgstr "这是新收藏里的第一件。属于你的东西。"
+
+msgid "Item Shop"
+msgstr "道具商店"
+
+msgid "Items"
+msgstr "道具"
+
+msgid "Keep it. Buy yourself a better axe and never use it."
+msgstr "留着吧。给自己买把好点的斧头,然后永远别用。"
+
+msgid "Keep voices on"
+msgstr "保持开启"
+
+msgid "Keeping Time"
+msgstr "计时"
+
+msgid "Language"
+msgstr "语言"
+
+msgid "Language · 语言 · Язык"
+msgstr "Language · 语言 · Язык"
+
+msgid "Last night was the best thing that's happened to me in thirty-one years. Possibly ever. I'm not exaggerating. I've had a lot of time to compare."
+msgstr "昨晚是我三十一年来发生过的最好的事。也许是有史以来。我没有夸张。我有很多时间可以比较。"
+
+msgid "Later. The candle is down to a stub. She's lying across you on the reading room rug with one wing folded over you both like a blanket."
+msgstr "后来。蜡烛烧到只剩一截。她横躺在阅览室的地毯上,压在你身上,一只翅膀像毯子一样盖住你们两个。"
+
+msgid "Leave"
+msgstr "离开"
+
+msgid "Leave it. Bit lower, if you like. The bark's softer."
+msgstr "留着吧。再往下一点,如果你愿意的话。那里的树皮更软。"
+
+msgid "Leave to Roster"
+msgstr "退出到名册"
+
+msgid "Leaves Going Red"
+msgstr "叶子渐红"
+
+msgid "Let Skip race through lines you haven't read yet, too."
+msgstr "让“跳过”也能快速略过你还没读过的台词。"
+
+msgid "Let me guess. Aldous paid you half up front."
+msgstr "让我猜猜。奥尔德斯预付了你一半工钱。"
+
+msgid "Lines carry on by themselves (A)"
+msgstr "台词自动继续(A)"
+
+msgid "Log"
+msgstr "记录"
+
+msgid "Loves"
+msgstr "喜欢"
+
+msgid "Low tide's at six. If you happen to be on the pier, you're on the pier, I'm not asking, I'm just saying when low tide is."
+msgstr "退潮是六点。你要是碰巧在码头上,那就是在码头上,我没有邀请,我只是在说退潮是几点。"
+
+msgid "Low tide. You spend two hours turning over rocks in the pools while she works the deeper water. You find a fork and a very angry crab."
+msgstr "退潮时。你花了两个小时在水洼里翻石头,她在更深的水里搜寻。你找到了一把叉子和一只非常生气的螃蟹。"
+
+msgid "Lunar nonsense. Next."
+msgstr "月亮的废话。下一个。"
+
+msgid "MOVES"
+msgstr "步数"
+
+msgid "Made with Godot Engine"
+msgstr "使用Godot引擎制作"
+
+msgid "Main menu"
+msgstr "主菜单"
+
+msgid "Make a Starburst."
+msgstr "制造一个星爆。"
+
+msgid "Make me."
+msgstr "来逼我啊。"
+
+msgid "Marina Waverly"
+msgstr "玛丽娜·韦弗利"
+
+msgid "Master Volume"
+msgstr "主音量"
+
+msgid "Match 4 in a row to make a Rocket, which clears its row or column. Match 5, or an L or T shape, to make a Starburst. Swap a special gem to set it off; swap two together for a Mega Blast."
+msgstr "一行连成4个会生成火箭,清除所在的行或列。连成5个,或连成L形、T形,会生成星爆。交换特殊宝石即可引爆;把两个特殊宝石交换在一起,则触发超级爆破。"
+
+msgid "Maybe I'm saving my wish for something good."
+msgstr "也许我是在把愿望留给更好的事。"
+
+msgid "Meet Hazel instead of cutting her tree down."
+msgstr "遇见黑泽尔,而不是砍倒她的树。"
+
+msgid "Meet her"
+msgstr "去认识她"
+
+msgid "Mega Blast"
+msgstr "超级爆破"
+
+msgid "Mega Blast!"
+msgstr "超级爆破!"
+
+msgid "Mermaid of Saltwick Cove"
+msgstr "索尔特威克湾的美人鱼"
+
+msgid "Millbrook Circle"
+msgstr "米尔布鲁克圈子"
+
+msgid "Mind my leaves with that."
+msgstr "拿着那玩意儿,当心我的叶子。"
+
+msgid "Mind the candle."
+msgstr "当心蜡烛。"
+
+msgid "Mm. That one smells like April."
+msgstr "嗯。这个闻起来像四月。"
+
+msgid "Moonstone"
+msgstr "月光石"
+
+msgid "Moonstone. It smells like a church."
+msgstr "月光石。闻起来像教堂。"
+
+msgid "Morning comes in through the reading room windows. Somebody has folded your jacket into a very neat square."
+msgstr "晨光从阅览室的窗户照进来。有人把你的外套叠成了一个非常整齐的方块。"
+
+msgid "Morning in the grove. There's blossom on the east side of the tree that wasn't there last night. Hazels flower in February. It's May."
+msgstr "树林里的早晨。树东侧开了花,昨晚还没有。榛树二月开花。现在是五月。"
+
+msgid "Morning light through the bedroom curtains, and someone translucent and lilac curled over the covers."
+msgstr "晨光透过卧室窗帘,一个半透明的淡紫色身影蜷在被子上。"
+
+msgid "Morning. Your clothes are on the rail. I wrung them out myself, so you can thank me."
+msgstr "早上好。你的衣服在栏杆上。我亲手拧干的,所以你可以谢我。"
+
+msgid "Most people come down here for the game. You keep coming back for me, don't you?"
+msgstr "大多数人来这儿是为了看游戏。你一直回来是为了我,对吧?"
+
+msgid "Most summonings end the moment someone gets what they asked for. You never asked for anything. So... I stayed."
+msgstr "大多数召唤在有人得到所求之物的那一刻就结束了。你什么也没求。所以……我留下了。"
+
+msgid "Mostly couples who thought they'd found somewhere private. So I know a lot about not lying down in nettles."
+msgstr "大多是以为找到了隐蔽地方的情侣。所以我对怎么避免躺进荨麻丛里懂得很多。"
+
+msgid "Move"
+msgstr "移动"
+
+msgid "Moves left this chapter"
+msgstr "本章剩余步数"
+
+msgid "Mum wants to feed you. Consider yourself warned."
+msgstr "妈妈想喂你吃饭。你已经被警告了。"
+
+msgid "Music"
+msgstr "音乐"
+
+msgid "Nerissa keeps asking about the comb. I keep saying it's at the jeweller's. I'm running out of jewellers."
+msgstr "内丽莎一直问梳子的事。我一直说在珠宝商那里。我的珠宝商快用光了。"
+
+msgid "Nerissa. Don't. Don't you dare."
+msgstr "内丽莎。别说。你敢说。"
+
+msgid "Next"
+msgstr "下一步"
+
+msgid "Night scene"
+msgstr "夜晚场景"
+
+msgid "Nine days. If we haven't found it by then, I'll tell her. Deal?"
+msgstr "九天。要是到时候还没找到,我就告诉她。说定了?"
+
+msgid "Nine days. Keep going."
+msgstr "九天。继续。"
+
+msgid "Nine of those and I'm off the hook."
+msgstr "九颗这样的,我就没事了。"
+
+msgid "Nine-hour wick. Hand-dipped. You know what this is for, don't you."
+msgstr "九小时的烛芯。手工蘸制。你知道这是做什么的,对吧。"
+
+msgid "No moves left — reshuffling!"
+msgstr "没有可走的步数——重新洗牌!"
+
+msgid "No. Absolutely not."
+msgstr "不。绝对不行。"
+
+msgid "No. I've seen what those do."
+msgstr "不。我见过那东西干的好事。"
+
+msgid "Normal"
+msgstr "正常"
+
+msgid "Not found yet"
+msgstr "尚未发现"
+
+msgid "Not found yet: finish her story to unlock it."
+msgstr "尚未发现:完成她的故事即可解锁。"
+
+msgid "Not met yet"
+msgstr "尚未结识"
+
+msgid "Nothing here yet — finish a girl's story to add her ending."
+msgstr "这里还空着——完成一位女孩的故事,即可加入她的结局。"
+
+msgid "Nothing yet."
+msgstr "暂无。"
+
+msgid "Now that's a circle I'd step out of."
+msgstr "这才是我愿意走出来的圈。"
+
+msgid "Now we can both stop pretending you came over here to talk about books."
+msgstr "现在我们都可以不用再假装你是过来聊书的了。"
+
+msgid "Obviously we're getting the second owl."
+msgstr "当然要第二只猫头鹰。"
+
+msgid "Of course I'll help. What does it look like?"
+msgstr "我当然会帮忙。它长什么样?"
+
+msgid "Oh, I intend to."
+msgstr "哦,我正有此意。"
+
+msgid "Oh, that's smooth, why can't anything else this week be smooth?"
+msgstr "哦,这么顺滑,为什么这周别的事就没一件顺滑?"
+
+msgid "Oh. I didn't know I did that. That's embarrassing. Do it again."
+msgstr "哦。我不知道我会这样。好尴尬。再来一次。"
+
+msgid "Oh. You're putting it down. Most of them argue first."
+msgstr "哦。你把它放下了。大多数人都要先争辩一番。"
+
+msgid "Oh. You're warm. Nobody's put a hand on me in years, unless they were measuring where to cut."
+msgstr "哦。你是暖的。多年没人把手放在我身上了,除非是在量从哪儿下斧。"
+
+msgid "Okay, that one was nice."
+msgstr "好吧,这个不错。"
+
+msgid "Okay. A small thing."
+msgstr "好吧。小小的一回事。"
+
+msgid "Okay. I'm going to say something and you're not allowed to be nice about it."
+msgstr "好。我要说点话,而你不许对此说什么好听的。"
+
+msgid "Okay. The stream comes out under the Mill Bridge, in town. Things wash up there. People pick them up."
+msgstr "好吧。小溪在镇上的磨坊桥下流出来。东西会冲到那儿。有人会捡起来。"
+
+msgid "Old Glass Marble"
+msgstr "旧玻璃弹珠"
+
+msgid "On the way back there's a notice nailed to the Mill Bridge. The town has sold the north woods to an alchemist, for his workshop. Clearing starts on quarter day."
+msgstr "回去的路上,磨坊桥上钉着一张告示。镇上把北边的树林卖给了一位炼金术士,用来建他的工坊。清理工作将在季度日开始。"
+
+msgid "Ooh. That's going in the... sorry. Habit."
+msgstr "哦。这个要放进……抱歉。习惯了。"
+
+msgid "Opal"
+msgstr "欧泊"
+
+msgid "Opal at the baker's counter, a loaf under one arm and a stray button in her hand."
+msgstr "欧泊站在面包师的柜台前,一条面包夹在腋下,手里拿着一颗走失的纽扣。"
+
+msgid "Opal moves in properly. Her collection grows a second shelf, then a third: things you've dropped, things your friends have dropped, the ticket from your first evening out together. The jar lives under the bed. She uses it twice that year, both times in thunderstorms, and both times you sit on the floor beside it while she tells you, through the glass, which of the neighbours owe each other money. She climbs out on her own before the storm is over."
+msgstr "欧泊正式搬了进来。她的收藏长出了第二个架子,然后是第三个:你掉的东西,你朋友们掉的东西,你们第一次一起出门那晚的票根。罐子放在床底下。那一年她用了两次,两次都是在雷暴中,两次你都坐在地板上陪着,她隔着玻璃告诉你哪几户邻居互相欠钱。风暴没结束,她就自己爬了出来。"
+
+msgid "Open log folder"
+msgstr "打开日志文件夹"
+
+msgid "Ouch!"
+msgstr "哎哟!"
+
+msgid "Out in the Storm"
+msgstr "暴风雨中"
+
+msgid "Out of Moves"
+msgstr "步数用完"
+
+msgid "Out of Season"
+msgstr "不合时令"
+
+msgid "Out of moves"
+msgstr "步数用完"
+
+msgid "Owned: %d"
+msgstr "已拥有:%d"
+
+msgid "Pearl"
+msgstr "珍珠"
+
+msgid "Pearls. Gran would approve."
+msgstr "珍珠。奶奶会赞成的。"
+
+msgid "Petal"
+msgstr "花瓣"
+
+msgid "Petals. Good. Those I understand."
+msgstr "花瓣。好。这个我懂。"
+
+msgid "Pick a gem to pop."
+msgstr "选一颗宝石来砸碎。"
+
+msgid "Pick up"
+msgstr "拿起"
+
+msgid "Pickled newts don't usually have a date pencilled on the wax: the second of January. You open it anyway."
+msgstr "腌蝾螈的蜡封上通常不会用铅笔写日期:一月二日。你还是打开了。"
+
+msgid "Plant something near me. Something that needs watering every day, so you've got a reason to come by."
+msgstr "在我旁边种点什么。要每天浇水的那种,这样你就有理由来了。"
+
+msgid "Play"
+msgstr "开始游戏"
+
+msgid "Pop any one gem, no match needed. Arm it from the item row, then tap a gem."
+msgstr "砸碎任意一颗宝石,无需消除。从道具栏中选取,然后点一颗宝石。"
+
+msgid "Pretty. Don't tell my sisters I said that."
+msgstr "好看。别告诉我姐妹们我这么说。"
+
+msgid "Pretty. Like a button, but better."
+msgstr "真好看。像纽扣,但比纽扣更好。"
+
+msgid "Put that out."
+msgstr "把那个熄了。"
+
+msgid "Putting Down Roots"
+msgstr "扎下根来"
+
+msgid "Quit"
+msgstr "退出"
+
+msgid "Reach Hazel's ending."
+msgstr "达成黑泽尔的结局。"
+
+msgid "Reach her goal"
+msgstr "达成她的目标"
+
+msgid "Read back (L, or scroll up)"
+msgstr "回看(L,或向上滚动)"
+
+msgid "Reduce Motion"
+msgstr "减少动态效果"
+
+msgid "Replay"
+msgstr "重播"
+
+msgid "Replay %s's story?"
+msgstr "重玩%s的故事?"
+
+msgid "Replay her night scene."
+msgstr "重温她的夜晚场景。"
+
+msgid "Replay story"
+msgstr "重玩故事"
+
+msgid "Reply"
+msgstr "回应"
+
+msgid "Reset Progress"
+msgstr "重置进度"
+
+msgid "Reset all progress?"
+msgstr "重置所有进度?"
+
+msgid "Reset everything"
+msgstr "全部重置"
+
+msgid "Reshuffles the whole board into a fresh one that always has a move."
+msgstr "把整块棋盘重新洗成一块新的,并保证一定有可走的步。"
+
+msgid "Retry Chapter"
+msgstr "重试本章"
+
+msgid "Revisit"
+msgstr "重访"
+
+msgid "Rune"
+msgstr "符文"
+
+msgid "Runes make my edges go fizzy."
+msgstr "符文会让我的边缘冒泡。"
+
+msgid "Runes. Finally, someone in this town who can draw."
+msgstr "符文。这个镇上总算有人会画了。"
+
+msgid "Runes. Like on the alchemists' jars."
+msgstr "符文。像炼金术士的罐子上那种。"
+
+msgid "Running out of moves still pays 1 star for every 100 points you scored (at least 3)."
+msgstr "步数用完时,你每得100分仍可获得1颗星星(至少3颗)。"
+
+msgid "Running out still pays you a few stars. Try again, use +3 Moves, or visit the shop. Lose three times in a row and you can carry on with the story anyway."
+msgstr "步数用完也会给你几颗星星。你可以重试、使用+3步,或去商店逛逛。连续失败三次后,你可以直接继续故事。"
+
+msgid "Saltwick Cove, an hour before sunset. You're on the cliff path when the shouting starts."
+msgstr "索尔特威克湾,日落前一小时。你正走在悬崖小路上,下面传来喊叫声。"
+
+msgid "Save it, then. I'll be watching you very closely until you spend it."
+msgstr "那就留着吧。在你许愿之前,我会非常仔细地盯着你。"
+
+msgid "Say it. The name I gave you."
+msgstr "说出来。我给你的那个名字。"
+
+msgid "Scroll"
+msgstr "滚动"
+
+msgid "See the whole picture (H)"
+msgstr "查看完整画面(H)"
+
+msgid "See? Closed rings. It isn't hard."
+msgstr "看见没?闭合的圈。并不难。"
+
+msgid "Select"
+msgstr "确定"
+
+msgid "Set off a x3 combo."
+msgstr "触发x3连锁。"
+
+msgid "Set off a x5 combo."
+msgstr "触发x5连锁。"
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "Shard Smasher"
+msgstr "碎片粉碎者"
+
+msgid "Shard smashed!"
+msgstr "碎片已砸碎!"
+
+msgid "She bites the corner of it before she's even said thank you."
+msgstr "她还没说谢谢,就先咬了一下它的角。"
+
+msgid "She burns them in the reading room fireplace at four in the morning, one at a time. Each one goes up green. The loose page from your desk goes last: she tears her name off the corner and burns only that."
+msgstr "凌晨四点,她在阅览室的壁炉里把它们一页一页烧掉。每一页都烧出绿色的火焰。你桌上那张散页最后烧:她把角上自己的名字撕下来,只烧了那一片。"
+
+msgid "She ducks under before you can answer and comes up a few yards away, pretending to search."
+msgstr "你还没来得及回答,她就潜了下去,在几码外冒出来,假装在搜寻。"
+
+msgid "She falls asleep first, which she will deny. The tide comes in under the boathouse doors and goes out again."
+msgstr "她先睡着了,她以后会否认的。潮水从船屋的门下涌进来,又退了出去。"
+
+msgid "She flicks her tail and soaks you a second time, very deliberately."
+msgstr "她甩了一下尾巴,故意又溅了你一身水。"
+
+msgid "She goes cloudy."
+msgstr "她变浑了。"
+
+msgid "She goes outside on her own for the first time to buy bread. She's gone twenty minutes. You both pretend you weren't worried."
+msgstr "她第一次独自出门去买面包。她去了二十分钟。你们俩都假装没有担心。"
+
+msgid "She goes slightly pink all the way through, like a drop of dye in a glass of water."
+msgstr "她从里到外微微变粉,像一滴染料落进一杯水里。"
+
+msgid "She grabs you by the collar and kisses you, hard and quick, then looks horrified at herself."
+msgstr "她揪住你的衣领吻了你,用力而迅速,然后对自己的举动感到惊恐。"
+
+msgid "She holds out a button. It's yours. It came off your sleeve when you reached into the hollow for her jar, and you never noticed."
+msgstr "她递出一颗纽扣。是你的。你伸手进凹坑拿她的罐子时,它从你的袖子上掉了下来,你却一直没发觉。"
+
+msgid "She holds the marble up to her eye, then presses it gently into her own palm. It sinks in and floats there, inside her hand, where she can see it."
+msgstr "她把弹珠举到眼前,然后轻轻按进自己的手掌。它沉了进去,悬浮在她手心里,她能看见它。"
+
+msgid "She hooks a finger in your collar and pulls you down until you're nose to nose over the reading table."
+msgstr "她用手指勾住你的衣领,把你拉下来,直到你们隔着阅览桌鼻尖碰着鼻尖。"
+
+msgid "She hooks a foot round your ankle and reels you in the last step."
+msgstr "她用一只脚勾住你的脚踝,把你拉过最后一步。"
+
+msgid "She kisses you again, slower, just to be sure."
+msgstr "她又吻了你,更慢一些,只为确认一下。"
+
+msgid "She kisses you, slower than in the storm. When she pulls back she's breathing hard, and it isn't from swimming."
+msgstr "她吻了你,比暴风雨那次更慢。分开时她喘得厉害,而且不是因为游泳。"
+
+msgid "She laughs into your shoulder until she gets the hiccups."
+msgstr "她笑得把脸埋在你肩上,直到打起嗝来。"
+
+msgid "She laughs, and a shower of rainwater falls off her leaves onto your head."
+msgstr "她笑了起来,一阵雨水从她的叶子上哗地落在你头上。"
+
+msgid "She looks at the axe, then at the place on the trunk you were aiming for."
+msgstr "她看看斧头,又看看树干上你瞄准的那个位置。"
+
+msgid "She looks past you at the hollow: at the moss, pressed flat in neat little rows where something used to be laid out, and at the stream running fast and brown."
+msgstr "她越过你望向凹坑:望向苔藓上被压平的一行行整齐痕迹,那里曾摆放过东西,望向湍急浑浊的小溪。"
+
+msgid "She makes you hold it up in the one patch of sun that gets through her leaves, and watches the shadow for a long time."
+msgstr "她让你把它举到穿过她枝叶的那一小片阳光里,然后盯着影子看了很久。"
+
+msgid "She narrows her eyes, looking for the catch. There isn't one."
+msgstr "她眯起眼睛,寻找其中的陷阱。没有陷阱。"
+
+msgid "She picks up a stack of books anyway and asks where the poetry goes."
+msgstr "她还是拿起了一摞书,问诗集该放哪儿。"
+
+msgid "She picks up the candle so she has something to do with her hands."
+msgstr "她拿起蜡烛,好让手有点事做。"
+
+msgid "She pulls you down by your shirt. Her hair falls round you both, gold at the top and green at the ends, and it smells of rain."
+msgstr "她揪着你的衬衫把你拉了下去。她的头发垂落在你们周围,上面金色,末梢翠绿,闻起来有雨的味道。"
+
+msgid "She pulls your arms round her neck so you don't have to tread water, and holds you up with her tail."
+msgstr "她把你的双臂环到自己脖子上,这样你不用踩水,她用尾巴托着你。"
+
+msgid "She rides in a big glass jar in your arms with the lid off, and counts every button as you drop it in."
+msgstr "她坐在你怀里一只敞着盖子的大玻璃罐里,你每放进一颗纽扣,她都数一遍。"
+
+msgid "She says it, but she doesn't swim off."
+msgstr "她嘴上这么说,却没有游走。"
+
+msgid "She sets it beside the stub in your chalk circle and lights it from the old flame before the old one can go out."
+msgstr "她把它放在你粉笔圈里的残烛旁边,趁旧火苗还没熄灭,用它点燃了新的。"
+
+msgid "She shows you which branches you can sit on and which ones she's ticklish about. The second list is long."
+msgstr "她告诉你哪些树枝可以坐,哪些树枝她怕痒。第二张清单很长。"
+
+msgid "She sits on the end of the pier with her tail in the water. After a while she leans on your shoulder, as if by accident."
+msgstr "她坐在码头尽头,尾巴泡在水里。过了一会儿,她靠在你肩上,像是不经意的。"
+
+msgid "She sits on the reading table, which you've asked her twice not to do, and moves the candle so it won't drip on the returns."
+msgstr "她坐到阅览桌上,你已经两次请她别这样了,又把蜡烛挪开,免得蜡油滴到还书上。"
+
+msgid "She steps over the chalk line herself, careful not to smudge it, and picks the page up. You realise you've been staring."
+msgstr "她自己跨过粉笔线,小心着不蹭花,拿起了那页纸。你发觉自己一直在盯着她看。"
+
+msgid "She takes your hand and presses it flat to her chest. Under the silk, something is beating far too fast for anyone that old."
+msgstr "她握住你的手,按在自己胸口。丝绸之下,有什么东西跳得快得不像一个这么老的人。"
+
+msgid "She takes your hand and presses it gently against her. It sinks in a little, cool and soft, and she shivers."
+msgstr "她握住你的手,轻轻按在自己身上。它陷进去一点,清凉而柔软,她颤了一下。"
+
+msgid "She talks until the storm passes. You fall asleep against her before she's finished, and she doesn't seem to mind."
+msgstr "她一直讲到暴风雨过去。她还没讲完,你就靠着她睡着了,她似乎并不介意。"
+
+msgid "She ties the cord round her neck with a double knot, so it can't come off in the water."
+msgstr "她把绳子在脖子上打了个双结,这样在水里就不会掉。"
+
+msgid "She turns pink, which, on Opal, is very easy to see."
+msgstr "她变粉了,在欧泊身上,这非常容易看出来。"
+
+msgid "She turns round and lifts her hair off her neck. The dress fastens with a row of tiny hooks, from the collar down to where her wings begin."
+msgstr "她转过身去,把头发从脖子上撩起。裙子用一排细小的挂钩扣着,从领口一直到翅膀开始的地方。"
+
+msgid "She turns the candle over in her hands and sniffs the wax, which seems to be the professional way to check."
+msgstr "她把蜡烛翻过来,又嗅了嗅蜡,这似乎是专业的检验方法。"
+
+msgid "She was being friendly. You're the one I come here for."
+msgstr "她只是友好。我来这儿是为了你。"
+
+msgid "She won't even be angry. She'll just say 'oh, Mari', the way Mum does."
+msgstr "她甚至不会生气。她只会说“哦,玛丽”,就像妈妈那样。"
+
+msgid "She won't leave the candle behind. She carries it to Wick Street cupped in both hands, and makes you walk on the windy side."
+msgstr "她不肯把蜡烛留下。她双手捧着它走到烛芯街,还让你走在迎风的一侧。"
+
+msgid "She's tall, horned and dressed for somewhere much nicer than a library. She crouches to look at your circle, and tuts."
+msgstr "她高挑,有角,穿着适合更高档场所的衣服。她蹲下来看你的圈,啧了一声。"
+
+msgid "Shorter animations, calmer feedback."
+msgstr "动画更短,反馈更平静。"
+
+msgid "Shuffle"
+msgstr "洗牌"
+
+msgid "Since the grove was a forest. Two hundred years, give or take a drought."
+msgstr "从这里还是一片森林的时候就在。两百年,上下差个旱灾。"
+
+msgid "Six tomorrow, lifeguard."
+msgstr "明天六点,救生员。"
+
+msgid "Skip"
+msgstr "跳过"
+
+msgid "Skip Unread Lines"
+msgstr "跳过未读台词"
+
+msgid "Skip every line up to the next reply, read or not"
+msgstr "跳过所有台词直到下一次回应,无论是否已读"
+
+msgid "Skip lines you've read (hold Ctrl)"
+msgstr "跳过已读台词(按住Ctrl)"
+
+msgid "Skip unread"
+msgstr "跳过未读"
+
+msgid "Skips this chapter's puzzle: no stars for it."
+msgstr "跳过本章的谜题:本章没有星星。"
+
+msgid "Sleep. I'll wake you if the miller comes. I might not."
+msgstr "睡吧。磨坊主来了我会叫醒你。也可能不会。"
+
+msgid "Slime, formerly of a jar"
+msgstr "曾住在罐子里的史莱姆"
+
+msgid "Slow"
+msgstr "慢"
+
+msgid "Slower. I can hear you panicking."
+msgstr "慢一点。我都听得见你在慌。"
+
+msgid "Slowly. I've had two hundred years of nothing happening. I'd like this to take a while."
+msgstr "慢慢来。我已经度过了两百年什么都没发生的日子。我希望这一次能久一点。"
+
+msgid "Smart. Unspent wishes don't expire. I knew a man who sat on one until he died."
+msgstr "聪明。没用掉的愿望不会过期。我认识一个人,抱着一个愿望坐到死。"
+
+msgid "So dig faster. I've started making plans for summer, and you're in most of them."
+msgstr "所以挖快点。我已经开始计划夏天了,你在大部分计划里。"
+
+msgid "So she climbs out of her jar in the middle of the shop, in front of everyone, and asks for it herself."
+msgstr "于是她在店中央当着所有人的面从罐子里爬出来,亲自开口要。"
+
+msgid "So. Are you telling them how we met, or am I?"
+msgstr "那么。你来跟他们讲我们怎么认识的,还是我来?"
+
+msgid "So. Last night. I've been floating here trying to think of a word for it, and I've got it down to three, and they're all very rude."
+msgstr "那么。昨晚。我一直漂在这儿想找个词来形容,已经缩小到三个了,而且全都很粗鲁。"
+
+msgid "Soft as Moss"
+msgstr "柔软如苔"
+
+msgid "Someone bought that off a market stall. I can tell."
+msgstr "这是从市集摊子上买的。我闻得出来。"
+
+msgid "Someone in this town knows exactly what that book is."
+msgstr "这座镇上有人确切知道那本书是什么。"
+
+msgid "Something cool and slightly heavy is draped over you like a blanket. It turns out to be her."
+msgstr "有什么清凉而微重的东西像毯子一样盖在你身上。原来是她。"
+
+msgid "Something pours over the rim, slow and shining, pale lilac with flashes of green and pink in it. You jump back so fast you kick half the hollow into the stream. It gathers itself on a root into the shape of a woman, and she does not look happy."
+msgstr "有东西漫过罐沿,缓慢而闪亮,淡紫色中闪着绿色和粉色的光。你跳开得太快,把半个凹坑踢进了小溪里。它在树根上聚成一个女人的形状,看起来很不高兴。"
+
+msgid "Sorry. I don't usually get to tell anyone."
+msgstr "对不起。我平时没机会讲给任何人听。"
+
+msgid "Sorry. I spread out in my sleep. I didn't know that. I've never slept anywhere big enough to find out."
+msgstr "对不起。我睡着时会摊开。我不知道。我从没睡过足够大的地方,没法发现这一点。"
+
+msgid "Sorry. I'm watching. Is that all right?"
+msgstr "对不起。我在看。可以吗?"
+
+msgid "Sound Effects"
+msgstr "音效"
+
+msgid "Spark route"
+msgstr "火花路线"
+
+msgid "Special gems"
+msgstr "特殊宝石"
+
+msgid "Splinters"
+msgstr "木刺"
+
+msgid "Starburst Starter"
+msgstr "星爆开局"
+
+msgid "Stars come from clearing chapters: 15 for a girl's first and 5 more for each one after it."
+msgstr "星星来自通关章节:每位女孩的第一章15颗,之后每多一章再加5颗。"
+
+msgid "Stars — earned by clearing chapters, spent in the Item Shop and on gifts."
+msgstr "星星——通关章节获得,可在道具商店和送礼时花费。"
+
+msgid "Starstruck"
+msgstr "星光熠熠"
+
+msgid "Start by the alder, the ground's soft there. And roll your sleeves up. For the digging."
+msgstr "从桤木那儿开始,那里土软。还有,把袖子卷起来。为了挖土。"
+
+msgid "Start by the alder. If you hit a root, say sorry. It's me, and I'll be listening."
+msgstr "从桤木那儿开始。要是碰到根,说声对不起。那是我,我听着呢。"
+
+msgid "Start her story over from the beginning"
+msgstr "从头重新开始她的故事"
+
+msgid "Start with the baker. He leans on me when he smokes."
+msgstr "先从面包师开始。他抽烟的时候总靠着我。"
+
+msgid "Stay till the candle goes. Then stay anyway."
+msgstr "留到蜡烛熄灭。然后再继续留下。"
+
+msgid "Stay tonight. I'll keep the rain off. I'm not promising anything else."
+msgstr "今晚留下来。我替你挡雨。别的我什么都不保证。"
+
+msgid "Stay where you are. Don't break the circle. If that candle goes out, I go home, and I'm not done with you."
+msgstr "站着别动。别破坏圆圈。要是那支蜡烛熄了,我就回家去,而我还没跟你算完账。"
+
+msgid "Still nothing?"
+msgstr "还是什么都没有?"
+
+msgid "Stop here. This scene plays again next time you visit her."
+msgstr "到此为止。下次拜访她时,这个场景会重新播放。"
+
+msgid "Stop pretending you're looking for the book. You've walked past this table eleven times tonight, and the book isn't on it. I am."
+msgstr "别再假装你在找那本书了。你今晚已经从这张桌子旁走过十一次,而书不在桌上。我在。"
+
+msgid "Stop. I'll go cloudy."
+msgstr "别说了。我会变浑的。"
+
+msgid "Store"
+msgstr "商店"
+
+msgid "Succubus, summoned by mistake"
+msgstr "被误召唤的魅魔"
+
+msgid "Sure. After I've shelved these returns."
+msgstr "好的。等我把这些还书上架之后。"
+
+msgid "Swap"
+msgstr "交换"
+
+msgid "Swap and match"
+msgstr "交换与消除"
+
+msgid "Swap two gems next to each other to line up three or more of the same kind. Matched gems pop and score points; new ones fall in from the top."
+msgstr "交换两个相邻的宝石,连成三个或更多同类宝石。消除的宝石会爆开并得分;新的宝石从顶部落下。"
+
+msgid "Swap two special gems together."
+msgstr "把两个特殊宝石交换在一起。"
+
+msgid "TIP"
+msgstr "提示"
+
+msgid "Take your time. I've got a few hundred years."
+msgstr "慢慢来。我有好几百年呢。"
+
+msgid "Talk to me. About anything. What did you have for breakfast?"
+msgstr "跟我说话。什么都行。你早饭吃了什么?"
+
+msgid "Tap a gem!"
+msgstr "点一颗宝石!"
+
+msgid "Tell her the jeweller ran off with a sea captain."
+msgstr "就说珠宝商跟一位海船船长跑了。"
+
+msgid "Tell her the truth. She'll understand."
+msgstr "告诉她真相。她会理解的。"
+
+msgid "Tell me about the grove when it was a forest."
+msgstr "跟我讲讲树林还是森林时的样子吧。"
+
+msgid "Tell me about the others while we look."
+msgstr "我们找的时候,给我讲讲其他的吧。"
+
+msgid "Tell me if I get this wrong. I've read about it in exactly one book, and a woodcutter dropped it here before the mill was built."
+msgstr "我要是做错了就告诉我。这事我只在一本书里读过,还是个伐木工在磨坊建起来之前落在这儿的。"
+
+msgid "Tempting. You'd have to do my shelving."
+msgstr "很诱人。那样你就得替我整理书架了。"
+
+msgid "Testing Mode"
+msgstr "测试模式"
+
+msgid "Text Speed"
+msgstr "文字速度"
+
+msgid "Th-thank you. Sorry. No. Not sorry. Thank you."
+msgstr "谢、谢谢你。对不起。不。不是对不起。谢谢你。"
+
+msgid "Th-thank you. Sorry. Thank you."
+msgstr "谢、谢谢你。对不起。谢谢。"
+
+msgid "Th-that was good. That was really good."
+msgstr "那、那太棒了。真的太棒了。"
+
+msgid "Th-that's a sealing mark. Please don't."
+msgstr "那、那是封印符号。请不要。"
+
+msgid "Thanks for playing the demo!"
+msgstr "感谢试玩Demo!"
+
+msgid "That catches the light. Do another."
+msgstr "这个会反光。再来一个。"
+
+msgid "That night she climbs down from her branch and walks out across the grass, further than you've ever seen her go."
+msgstr "那天夜里,她从枝头爬下来,走过草地,走得比你见过的任何时候都远。"
+
+msgid "That one would actually hold a demon."
+msgstr "这个确实能困住一个恶魔。"
+
+msgid "That one's fine. That one's fine. Not that one. I mean it. Don't."
+msgstr "那根可以。那根可以。那根不行。我是认真的。别碰。"
+
+msgid "That sounds strange out loud. Don't answer that."
+msgstr "大声说出来听着很奇怪。别回答。"
+
+msgid "That was the storm. Don't make it a thing."
+msgstr "那是暴风雨的缘故。别当回事。"
+
+msgid "That was very nice. Thank you."
+msgstr "那个太棒了。谢谢你。"
+
+msgid "That was. Okay. I don't have a word. I always have a word."
+msgstr "那个。好吧。我没有词了。我总是有词的。"
+
+msgid "That's a dry-land gem. Put it back."
+msgstr "那是旱地的宝石。放回去。"
+
+msgid "That's a lovely trench, if you're planning to bury somebody. For a millrace it's a start."
+msgstr "这条壕沟真可爱,如果你打算埋个人的话。作水道的话,算是个开头。"
+
+msgid "That's actually good. She'd believe that."
+msgstr "这个主意其实不错。她会信的。"
+
+msgid "That's all of them. I'm free. No more circles. Nobody can drag me anywhere ever again."
+msgstr "全部了。我自由了。再也没有圆圈了。再也没有人能把我拖到任何地方了。"
+
+msgid "That's autumn."
+msgstr "那是秋天。"
+
+msgid "That's nine more hours you can't get rid of me. You did that on purpose."
+msgstr "这就是说,你又有九个小时甩不掉我了。你是故意的。"
+
+msgid "That's off the comb's box. So it went in right here."
+msgstr "这是梳子盒子上的。所以它就是掉在这儿的。"
+
+msgid "That's real. The sea made that. People tumble old bottles in a barrel and sell it as sea glass."
+msgstr "这是真的。是大海做的。有些人把旧瓶子放进滚筒里翻,再当海玻璃卖。"
+
+msgid "That's the good stuff. Again."
+msgstr "这才是好东西。再来。"
+
+msgid "That's why Ambrose put me in the jar. Nobody looks inside a jar of pickled newts. We were the same age when he did it, near enough. He got old."
+msgstr "所以安布罗斯才把我放进罐子里。没人会看一罐腌蝾螈。他那时候和我差不多大,大致上。他后来变老了。"
+
+msgid "That's you. You did that. A month of you leaning on me with your sleeves rolled up."
+msgstr "这是你。是你做到的。一个月来,你挽着袖子靠在我身上。"
+
+msgid "That's your fault. I'd like that on record."
+msgstr "这是你的错。我希望这一点记录在案。"
+
+msgid "The badgers are watching. I told them to go away. Nobody in this grove listens to me."
+msgstr "獾们在看。我叫它们走开。这片树林里没人听我的。"
+
+msgid "The badgers think you're doing well. They're wrong, but it's sweet."
+msgstr "獾们觉得你做得不错。它们错了,不过挺可爱的。"
+
+msgid "The badgers visit. They don't talk much, and none of them has ever leaned on me like that."
+msgstr "獾会来看我。它们不爱说话,也没有一只像那样靠过我。"
+
+msgid "The baker asked my name. I told him. Then I told him about buttons for a while. He was very patient."
+msgstr "面包师问了我的名字。我告诉他了。然后我给他讲了一阵纽扣的事。他非常有耐心。"
+
+msgid "The boathouse slipway at sunrise, two sets of clothes drying on the rail."
+msgstr "日出时船屋的滑道,栏杆上晾着两套衣服。"
+
+msgid "The boathouse smells of tar and salt. There's a heap of old sails in the corner, and she pulls you down onto them by your wet shirt."
+msgstr "船屋里有焦油和盐的味道。角落里堆着一堆旧帆,她抓着你湿透的衬衫把你拉倒在上面。"
+
+msgid "The book is in this building. Keep going."
+msgstr "那本书就在这栋楼里。继续。"
+
+msgid "The candle burns down to nothing, and neither of you notices when it goes out."
+msgstr "蜡烛烧尽了,你们两个都没留意它是什么时候熄灭的。"
+
+msgid "The candle in your chalk circle, the fourth one this week, is nearly gone. She watches it gutter and doesn't go anywhere."
+msgstr "你粉笔圈里的蜡烛,这周的第四支,快烧尽了。她看着它摇曳,却没有离开。"
+
+msgid "The card catalogue has a gap where the book should be. Someone has left a slip in the drawer instead: OUT FOR REBINDING, and a name."
+msgstr "卡片目录里有一处空缺,该放那本书的地方。有人在抽屉里放了一张便条:“送去重新装订”,后面还有一个名字。"
+
+msgid "The comb is in a tin of odds and ends on the Pellow brothers' boat: fishing weights, a doll's head, and nine pearls on a silver spine. It costs you two weeks' pay and a lot of explaining."
+msgstr "梳子在佩洛兄弟的船上一只装杂物的铁盒里:渔网坠子、一个娃娃头,还有银脊上的九颗珍珠。这花掉了你两周的工钱,还有一大堆解释。"
+
+msgid "The ferns are watching. Give them something to talk about."
+msgstr "蕨类们都在看着呢。给它们点谈资吧。"
+
+msgid "The ferns say you walked the miller's daughter to the footbridge. That's fine. I'm sure no branch will fall on her. Fairly sure."
+msgstr "蕨类们说你陪磨坊主的女儿走到了人行桥。没关系。我相信不会有树枝砸到她。差不多相信。"
+
+msgid "The flame leans sideways. Then it goes green. Smoke fills the circle, smelling of struck matches and expensive perfume, and someone steps out of it, coughing."
+msgstr "火苗向一侧倾斜。接着变成了绿色。烟雾充满圆圈,闻起来像划过的火柴和昂贵的香水,有人从里面走出来,咳嗽着。"
+
+msgid "The full game has four stories: Hazel's, and three more women of Millbrook to meet in the worst way possible. Each has four chapters, her night scene and her ending."
+msgstr "完整版有四个故事:黑泽尔的故事,以及米尔布鲁克另外三位女子的故事——你会用最糟糕的方式认识她们。每个故事有四章、她的夜晚场景和她的结局。"
+
+msgid "The game's text. Voices stay in English."
+msgstr "游戏文本。配音保持英语。"
+
+msgid "The girls are voiced by amateur voice actresses, recorded at home. We love how they turned out, but they aren't studio recordings, and not every line is voiced yet.\n\nIf you'd rather read in your own head, turn the voices off. You can change this any time in Settings."
+msgstr "女孩们由业余配音演员在家中录制配音。我们很喜欢最终的效果,但这些并非录音棚录音,而且并非每句台词都已配音。\n\n如果你更想默读,可以关闭配音。你随时可以在设置中更改。"
+
+msgid "The glass eye turns up in the window of the taxidermist's on Lantern Street, in a stuffed owl. The taxidermist won't sell it. He says the owl needs it."
+msgstr "玻璃眼珠出现在灯笼街标本师店铺的橱窗里,镶在一只填充的猫头鹰上。标本师不肯卖。他说猫头鹰需要它。"
+
+msgid "The green at the tips of her hair goes a shade darker. She notices, and decides not to mention it."
+msgstr "她发梢的绿色深了一个色号。她注意到了,决定不提。"
+
+msgid "The jar stays empty all night."
+msgstr "罐子整夜都是空的。"
+
+msgid "The jar. Should I keep it? I haven't been in it for a week. I still check it's there."
+msgstr "罐子。我该留着吗?我已经一个星期没进去了。我还是会检查它在不在。"
+
+msgid "The keys went to a locksmith, he says. And the glass eye went to someone who needed a glass eye, I suppose."
+msgstr "他说钥匙去了锁匠那里。至于玻璃眼珠,我猜是去了需要玻璃眼珠的人那里。"
+
+msgid "The last one argued with the axe still in his hands, so I dropped a beehive on him. I wouldn't do that to you. Your face is too nice to waste on bees."
+msgstr "上一个人手里还握着斧头就跟我争,所以我扔了个蜂巢砸他。我不会对你那样。你这张脸太好看,不该浪费在蜜蜂身上。"
+
+msgid "The ledger leads you straight back to your own library. The last pages were sold to it in March as loose leaves, assorted, and filed in the rare books vault under Miscellaneous, Infernal."
+msgstr "账本径直把你们引回你自己的图书馆。最后几页在三月作为散页卖给了它,杂项,归在善本库的“杂项,地狱类”之下。"
+
+msgid "The locksmith on Cinder Row has her keys in a bucket and wants a shilling for the lot. While you haggle, she stays very still in her jar under the counter."
+msgstr "煤渣巷的锁匠把她的钥匙放在一只桶里,要一先令才肯整桶给你。你讨价还价的时候,她一动不动地待在柜台下的罐子里。"
+
+msgid "The mermaid looks at you properly for the first time. You're dripping. You've lost a shoe."
+msgstr "美人鱼第一次认真地看着你。你浑身滴水。还丢了一只鞋。"
+
+msgid "The millrace runs and the old hazel keeps her roots. You plant another hazel beside the new channel, and it grows faster than it has any right to, leaning towards the old tree as if it's listening. You sleep in the grove more nights than not, and the old hazel blossoms in the wrong season, every season, which the miller now tells people is good luck."
+msgstr "水道流淌,老榛树保住了它的根。你在新水道边又种下一棵榛树,它长得快得离谱,朝着老树倾斜,仿佛在聆听。你在树林里过夜的日子比不过夜的多,老榛树每个季节都在不合时令地开花,磨坊主现在逢人便说这是好运。"
+
+msgid "The moss on the east side is softer than it looks. Above you her branches have spread and knitted together, and the first rain ticks against the leaves without coming through."
+msgstr "东侧的苔藓比看上去软。头顶上,她的枝条铺展开来,交织在一起,第一场雨滴答打在叶子上,却没有漏下来。"
+
+msgid "The moss on the east side is softer than it looks. I've been meaning to mention that for about a week."
+msgstr "东侧的苔藓比看上去软。我一个星期前就想告诉你了。"
+
+msgid "The name on the slip belongs to a bookbinder who died in the spring. His shop is still full of loose pages."
+msgstr "便条上的名字属于一位春天去世的装订匠。他的店里依旧堆满散页。"
+
+msgid "The old hazel at dawn, in full blossom, in May."
+msgstr "黎明时的老榛树,五月里,繁花满枝。"
+
+msgid "The old hazel stands where the grove meets the millrace. It's so big that the mill's back wall has started to bend round its roots."
+msgstr "老榛树长在树林与磨坊水道相接的地方。它大得磨坊的后墙都开始绕着它的根弯了。"
+
+msgid "The pier's quiet apart from the Thursday tile game at the far end, where the three old fishermen are arguing about the score again."
+msgstr "码头很安静,只有远处那头的周四游戏,三位老渔夫又在为比分争吵。"
+
+msgid "The reading room at dawn: a burnt-out candle in a smudged chalk circle, your jacket folded into a neat square on the returns cart."
+msgstr "黎明时分的阅览室:涂花的粉笔圈里一支烧尽的蜡烛,还书车上你的外套叠成了整齐的方块。"
+
+msgid "The reading room with the door shut. The only light is the candle in your chalk circle, and she's sitting on the reading table again."
+msgstr "门关上的阅览室。唯一的光来自你粉笔圈里的蜡烛,而她又坐在了阅览桌上。"
+
+msgid "The reward is you come to every Tide from now on. Non-negotiable. Don't smile, it's a punishment."
+msgstr "报酬是,从现在起每年的潮汛你都要来。没得商量。别笑,这是惩罚。"
+
+msgid "The stream comes out under the Mill Bridge, where Coombs the rag-and-bone man fishes for anything that floats. He's netted most of the buttons and wants six coppers for them, which he finds very funny."
+msgstr "小溪在磨坊桥下流出来,收破烂的库姆斯在那里钓一切能漂的东西。他捞到了大部分纽扣,要价六个铜板,还觉得这特别好笑。"
+
+msgid "The stream goes to town. We're going. You're carrying me! Please?"
+msgstr "小溪通向镇上。我们走吧。你要抱着我!可以吗?"
+
+msgid "The taxidermist is so startled he gives her the eye, the owl, and a discount on a second owl."
+msgstr "标本师惊得把眼珠、猫头鹰,还有第二只猫头鹰的折扣都给了她。"
+
+msgid "The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts."
+msgstr "上面一排在章节中使用;下面一排会在你的下一章开始时自动生效。"
+
+msgid "The trench reaches the river on the night of a storm. Water floods into the new channel, and the whole tree shudders."
+msgstr "壕沟在暴风雨的那晚挖到了河边。水涌进新水道,整棵树都颤抖起来。"
+
+msgid "The water in the cove is warm and black and full of moonlight. She surfaces right in front of you, close enough that her hair brushes your face."
+msgstr "海湾的水温暖、漆黑,盈满月光。她就在你面前浮出水面,近得头发拂过你的脸。"
+
+msgid "The water's warm tonight."
+msgstr "今晚的水很暖。"
+
+msgid "The woods north of Millbrook, late autumn. You're out gathering firewood and anything worth selling, and you've followed the stream further in than you meant to."
+msgstr "米尔布鲁克北边的树林,深秋。你出来捡柴火和一切值钱的东西,顺着小溪走得比原计划更深了。"
+
+msgid "Their net. It went right through where I dropped it."
+msgstr "他们的网。正好从我掉东西的地方过去了。"
+
+msgid "Then I'll ask. Close the reading room door. Leave the candle."
+msgstr "那我来求。关上阅览室的门。蜡烛留着。"
+
+msgid "Then she notices the loose page on your desk, the one you copied from, and goes very still."
+msgstr "然后她注意到了你桌上那张散页,你抄的那张,顿时一动不动。"
+
+msgid "Then the miller. Then the miller again."
+msgstr "然后是磨坊主。然后再来一次磨坊主。"
+
+msgid "Then we'd better find them before anyone else does."
+msgstr "那我们最好赶在别人之前找到它们。"
+
+msgid "Then we'll make sure nobody's boiling anybody."
+msgstr "那我们就保证没有人会被熬煮。"
+
+msgid "Then you remember the Pellow brothers dragging their nets through the cove last week. The whole pier complained about it."
+msgstr "这时你想起上周佩洛兄弟们拖着渔网扫过海湾。整个码头都在抱怨。"
+
+msgid "There are forty-one of those. I counted when I put it on. Take your time."
+msgstr "一共有四十一个。我穿的时候数过。慢慢来。"
+
+msgid "There are four hundred and forty-one things in my collection. I'm trying to work out how to write a card for tonight."
+msgstr "我的收藏里有四百四十一件东西。我在想怎么给今晚写一张卡片。"
+
+msgid "There were wolves. And a family of woodcutters who sang while they worked. I liked them, even though they were woodcutters."
+msgstr "有狼。还有一家伐木工,干活时唱歌。我喜欢他们,尽管他们是伐木工。"
+
+msgid "There's a woman sitting on the lowest branch, where you're sure nobody was a second ago. Her hair goes from gold to green, and below the knee her legs turn into bark."
+msgstr "最低的那根树枝上坐着一个女人,可你确信一秒钟前那儿没人。她的头发从金色渐变成绿色,膝盖以下的双腿化成了树皮。"
+
+msgid "There. Now look me in the eye and tell me you'd rather be shelving."
+msgstr "这样。现在看着我的眼睛,告诉我你宁愿去整理书架。"
+
+msgid "There. Now we're even. Low tide's at six. Bring your other shoe."
+msgstr "好了。现在我们扯平了。退潮是六点。把你另一只鞋带来。"
+
+msgid "There. Now you can't go anywhere. That's a mermaid thing. It's very old. I just made it up."
+msgstr "好了。现在你哪儿也去不了。这是美人鱼的事。非常古老。我刚编的。"
+
+msgid "These unlock on Steam too."
+msgstr "这些成就也会在Steam上解锁。"
+
+msgid "They start clearing on quarter day. After that I need somewhere else to be quiet."
+msgstr "他们在季度日开始清理。那之后,我需要另一个安静的地方。"
+
+msgid "They want an address for my library card. I don't have one. What do I put?"
+msgstr "他们要我的借书证地址。我没有。我该写什么?"
+
+msgid "They're a pair. I'm not splitting up a pair."
+msgstr "它们是一对。我不会拆散一对。"
+
+msgid "They're not strangers. I heard every one of them go by. From the jar."
+msgstr "它们不是陌生人。每一颗经过的时候我都听到了。在罐子里。"
+
+msgid "This erases every girl's story progress, your stars, items, gifts and the whole Gallery. Your settings and achievements are kept. This can't be undone."
+msgstr "这会清除每位女孩的故事进度、你的星星、道具、礼物以及整个图鉴。设置和成就会保留。此操作无法撤销。"
+
+msgid "This line here. That's where you'd put my name. If you ever wanted to call me. You won't need to. I'll be with you."
+msgstr "这一条线。你会把我的名字放在这儿。要是你想叫我的话。你不需要。我会和你在一起。"
+
+msgid "This one's my favourite. Brass, four holes, off a very handsome coat. You have a very handsome coat too. That's all. Coats."
+msgstr "这颗是我最喜欢的。黄铜的,四个孔,来自一件非常帅气的外套。你的外套也很帅。就是这样。外套而已。"
+
+msgid "This page is from my binding. The book that ties me to every circle anyone draws, however badly. Find all of it, burn it, and I'm free."
+msgstr "这一页来自我的束缚之书。那本书把我绑在每一个任何人画出的圈上,不管画得多烂。把它全部找到,烧掉,我就自由了。"
+
+msgid "Those are mine. I-I've been collecting them for years."
+msgstr "那些是我的。我、我收集了好多年。"
+
+msgid "Toggle"
+msgstr "切换"
+
+msgid "Turn the lamp down a bit? Everything shows, with me."
+msgstr "把灯调暗一点好吗?在我身上,什么都看得见。"
+
+msgid "Turn voices off"
+msgstr "关闭配音"
+
+msgid "Twenty minutes?"
+msgstr "二十分钟?"
+
+msgid "Two hundred years people have walked past this tree. Not one of them ever lay down under it. Shift over, you're on a root."
+msgstr "两百年来,人们从这棵树旁走过。没有一个躺在它下面。挪一挪,你压在根上了。"
+
+msgid "Two hundred years, and nobody told me it could feel like that. I'd like it noted that I'm saying this very calmly."
+msgstr "两百年了,没人告诉过我可以是这种感觉。我想声明一下,我说这话的时候非常平静。"
+
+msgid "Ugh. That's drier than Gran's sponge."
+msgstr "呃。比奶奶做的海绵蛋糕还干。"
+
+msgid "Use +3 Moves"
+msgstr "使用+3步"
+
+msgid "Voice Acting"
+msgstr "语音配音"
+
+msgid "Voice Volume"
+msgstr "语音音量"
+
+msgid "W-with you? Where would I even..."
+msgstr "和、和你?我要在哪儿……"
+
+msgid "We're getting the second owl, right?"
+msgstr "我们要第二只猫头鹰,对吧?"
+
+msgid "Well. It worked, which is insulting in its own way. Go on, then. Ask."
+msgstr "好吧。它居然成功了,这从某种角度来说是种侮辱。来吧。许愿。"
+
+msgid "What do you say?"
+msgstr "你要说什么?"
+
+msgid "What she likes"
+msgstr "她的喜好"
+
+msgid "What you want. Gold. Revenge. And sooner or later sex. It always comes to that."
+msgstr "你想要什么。金子。复仇。还有迟早会提到的性。总是这些。"
+
+msgid "When falling gems make new matches on their own, that's a combo. Each link in the chain scores more than the last."
+msgstr "落下的宝石自行形成新的消除时,就是连锁。链条上每一环的得分都比前一环更高。"
+
+msgid "When you climb out you lean on the trunk to get your breath back. The bark is rough and cool under your hand."
+msgstr "你爬出来时靠在树干上喘气。树皮在你手下粗糙而清凉。"
+
+msgid "When you get back, a branch creaks overhead in a way that sounds very deliberate."
+msgstr "你回来时,头顶一根树枝吱呀作响,声音显得格外刻意。"
+
+msgid "Where are my things? They were here. In rows. I-I had them in rows."
+msgstr "我的东西呢?它们本来在这儿。一排一排的。我、我是一排一排摆好的。"
+
+msgid "Where did you get that."
+msgstr "你从哪儿弄来的。"
+
+msgid "While you fetch coffee from the staff room, she takes a red pencil from your desk and starts correcting the page that started all this."
+msgstr "你去员工休息室拿咖啡的时候,她从你桌上拿起一支红铅笔,开始修改引发这一切的那张散页。"
+
+msgid "Who brings fire to a pier?"
+msgstr "谁会带火来码头?"
+
+msgid "Who even likes those?"
+msgstr "谁会喜欢那种东西?"
+
+msgid "Why would you do that?"
+msgstr "你为什么要这样做?"
+
+msgid "Window Shopping"
+msgstr "橱窗购物"
+
+msgid "With Moves to Spare"
+msgstr "步数绰绰有余"
+
+msgid "With the lamp down, the only light in your room comes from her: a soft lilac glow that brightens wherever you touch."
+msgstr "灯调暗后,你房里唯一的光来自她:一团柔和的淡紫色光芒,你触碰的地方会变得更亮。"
+
+msgid "You"
+msgstr "你"
+
+msgid "You also find a little brass clasp wedged under the pier. She takes it from you and turns it over for a long time."
+msgstr "你还在码头下面找到一枚小小的黄铜搭扣。她从你手里接过去,翻来覆去看了很久。"
+
+msgid "You ask what she means."
+msgstr "你问她这是什么意思。"
+
+msgid "You bring it down to the pier after dark. She holds it for a long time without saying anything."
+msgstr "天黑后你把它带到码头。她拿着它,很久没有说话。"
+
+msgid "You came by with an axe."
+msgstr "你来的时候带着斧头。"
+
+msgid "You can actually swim. The first time, you looked like a coat someone had thrown off a pier."
+msgstr "你现在真的会游泳了。第一次,你看上去像一件被人从码头上扔下来的外套。"
+
+msgid "You can close this tab now."
+msgstr "现在可以关闭此标签页了。"
+
+msgid "You can get dressed now."
+msgstr "你现在可以穿衣服了。"
+
+msgid "You can hold my hand. If you don't mind it being a bit... wet."
+msgstr "你可以牵我的手。如果你不介意它有点……湿。"
+
+msgid "You can stay with me. My place is quiet."
+msgstr "你可以和我住。我那里很安静。"
+
+msgid "You close the door."
+msgstr "你关上了门。"
+
+msgid "You copied it off a loose page that fell out of a returned book. It looked nice. You put a candle stub in the middle because it seemed like the kind of thing that wanted a candle."
+msgstr "你是照着一张从还回来的书里掉出来的散页抄的。看起来很好看。你在中间放了一截蜡烛头,因为它看上去需要一支蜡烛。"
+
+msgid "You could keep one, you know. Just one page. I wouldn't be able to refuse you anything."
+msgstr "你可以留一页,你知道的。就一页。我就没法拒绝你任何事了。"
+
+msgid "You didn't ask what you get out of it."
+msgstr "你没问你能得到什么。"
+
+msgid "You didn't have to stay. You're soaked. You'll get ill, and then I'll have to look after you, and I've no idea how."
+msgstr "你本不必留下。你都湿透了。你会生病,然后我就得照顾你,可我一点头绪都没有。"
+
+msgid "You dig until sunset. The trench ends up about the length of a coffin, which she points out twice."
+msgstr "你一直挖到日落。壕沟最后大约有一口棺材那么长,她还指出了两次。"
+
+msgid "You don't ask for any of it. You ask if she's all right, because she came out of the smoke coughing."
+msgstr "这些你一样都没要。你问她还好吗,因为她从烟里出来时在咳嗽。"
+
+msgid "You don't take your time. She laughs at you, low in her throat, and doesn't complain."
+msgstr "你没有慢慢来。她在喉咙深处低低地笑你,却没有抱怨。"
+
+msgid "You don't think about it. You run down the steps, jump off the end of the pier in your clothes, get an arm round her and drag her back."
+msgstr "你没有多想。你跑下台阶,穿着衣服从码头尽头跳了下去,一只手臂搂住她,把她拖了回来。"
+
+msgid "You hold it very well. That's all I'm admitting."
+msgstr "你桶提得很好。我就只承认这个。"
+
+msgid "You hum when you think. It's nice."
+msgstr "你思考的时候会哼歌。很好听。"
+
+msgid "You laugh. She goes pink all the way through, and then she laughs too."
+msgstr "你笑了。她从里到外变粉,然后也笑了。"
+
+msgid "You leave your shoes on the pier, both of them."
+msgstr "你把鞋子留在了码头上,两只都留下了。"
+
+msgid "You lower the axe. After a moment, you put it down on the grass."
+msgstr "你放下斧头。过了一会儿,你把它放在了草地上。"
+
+msgid "You need %d more stars."
+msgstr "你还差%d颗星星。"
+
+msgid "You needed %d more points."
+msgstr "你还差%d分。"
+
+msgid "You point out that the label said newts."
+msgstr "你指出标签上写的是蝾螈。"
+
+msgid "You say another hazel, so she isn't the only one."
+msgstr "你说,再种一棵榛树,这样她就不是唯一的一棵了。"
+
+msgid "You say it back. She listens like she's checking your pronunciation."
+msgstr "你把名字复述了一遍。她听着,像在检查你的发音。"
+
+msgid "You say it. Amara. She shuts her eyes, as if she's checking your pronunciation one last time."
+msgstr "你说了出来。阿玛拉。她闭上眼睛,仿佛在最后一次检查你的发音。"
+
+msgid "You say yes. She talks for an hour without stuttering once."
+msgstr "你说想。她一口气讲了一个小时,一次都没结巴。"
+
+msgid "You shake your head."
+msgstr "你摇了摇头。"
+
+msgid "You sit with your back against the trunk while it rains. Every so often she makes a small sound, and you put your hand flat on the bark."
+msgstr "下雨时你背靠树干坐着。她时不时发出一声轻响,你便把手平放在树皮上。"
+
+msgid "You start to take your hand away. She says you don't have to."
+msgstr "你想把手拿开。她说不用。"
+
+msgid "You stay."
+msgstr "你留了下来。"
+
+msgid "You still only have one shoe, you know."
+msgstr "你知道吗,你还是只有一只鞋。"
+
+msgid "You summoned me with that pathetic chalk circle? Where did you even copy it from? Ugh, I was in the middle of something."
+msgstr "你就用那个可怜的粉笔圈召唤了我?你到底是从哪儿抄来的?唉,我正做到一半呢。"
+
+msgid "You take the lantern off her and tell her to sit down for an hour. You'll do the rocks."
+msgstr "你接过她的提灯,叫她坐下歇一个小时。石头你来翻。"
+
+msgid "You tell her about the wall. Her roots are cracking it, and when it goes, the miller loses his mill."
+msgstr "你告诉她那堵墙的事。她的根把墙挤裂了,墙一倒,磨坊主就没有磨坊了。"
+
+msgid "You tell her it fell out of a returned book, and you didn't check which one. You step towards the desk to show her."
+msgstr "你告诉她,它是从还回来的书里掉出来的,你没看是哪一本。你朝书桌走了一步,想拿给她看。"
+
+msgid "You tell her it isn't strange. She pulls you closer, and for once she doesn't apologise for anything."
+msgstr "你告诉她这并不奇怪。她把你拉得更近,这一次,她什么都没有道歉。"
+
+msgid "You tell her she should tell it."
+msgstr "你说应该由她来讲。"
+
+msgid "You tell her to keep it. For storms."
+msgstr "你告诉她留着。为了风暴天。"
+
+msgid "You tell her to put yours."
+msgstr "你告诉她写你的地址。"
+
+msgid "You tell her you haven't watched a single game."
+msgstr "你告诉她,你一局都没看过。"
+
+msgid "You tell her. The stream has already carried most of it round the bend, towards town."
+msgstr "你告诉了她。小溪已经把大部分东西冲过了拐弯处,冲向镇上。"
+
+msgid "You turn the lamp down."
+msgstr "你把灯调暗了。"
+
+msgid "You wake up in the boathouse on a heap of old sails, with sand in your ears. She's already in the water, arms folded on the edge of the slipway, watching you."
+msgstr "你在船屋里醒来,躺在一堆旧帆上,耳朵里全是沙子。她已经在水里了,双臂交叠搭在滑道边缘,看着你。"
+
+msgid "You want a thank-you? For that?"
+msgstr "你想要一句谢谢?就为那个?"
+
+msgid "You want to hear about buttons?"
+msgstr "你想听纽扣的事?"
+
+msgid "You were aiming just below my heart. That takes forty years or so to heal."
+msgstr "你瞄的是我心脏正下方。那要四十年左右才能愈合。"
+
+msgid "You were incredible."
+msgstr "你太了不起了。"
+
+msgid "You'd burn it."
+msgstr "你会烧掉。"
+
+msgid "You're a genius, you're a soaked genius with one shoe, come here."
+msgstr "你是天才,你是个浑身湿透、只有一只鞋的天才,过来。"
+
+msgid "You're a terrible influence. Keep going."
+msgstr "你的影响太坏了。继续。"
+
+msgid "You're doing well. I'm counting."
+msgstr "你做得很好。我在数着呢。"
+
+msgid "You're getting good at this. It's annoying."
+msgstr "你越来越会玩了。真烦人。"
+
+msgid "You're good with soft things."
+msgstr "你对柔软的东西很在行。"
+
+msgid "You're new in town and you'll take any work that pays. The miller paid you half up front to cut the tree down. You pick a spot on the trunk that looks right, plant your feet and lift the axe."
+msgstr "你初来乍到,什么活儿给钱就接。磨坊主预付了你一半工钱,让你把这棵树砍倒。你在树干上挑好一个顺眼的位置,站稳脚跟,举起了斧头。"
+
+msgid "You're not jealous? Your leaves are going red."
+msgstr "你不是在吃醋吧?你的叶子都红了。"
+
+msgid "You're quicker than you look. You look quite slow."
+msgstr "你比看上去快。你看上去相当迟钝。"
+
+msgid "You're still warm. I'll keep you."
+msgstr "你还是暖的。我要留着你。"
+
+msgid "You're the best thing I've found in this library."
+msgstr "你是我在这间图书馆里找到的最好的东西。"
+
+msgid "You're welcome, by the way."
+msgstr "顺便说一句,不客气。"
+
+msgid "You've asked me twice not to sit on this table."
+msgstr "你已经请我别坐这张桌子两次了。"
+
+msgid "You've been in Millbrook three weeks, taking whatever work pays. Tonight that's the late shift at the public library. It's a quarter past midnight, the gas lamps have been out for an hour, the returns cart is still full, and you've drawn a circle on the reading room floor in children's chalk."
+msgstr "你来米尔布鲁克三周了,什么活儿给钱就接。今晚是公共图书馆的夜班。现在是午夜过后一刻钟,煤气灯已经灭了一个小时,还书车里还是满的,而你在阅览室地板上用儿童粉笔画了一个圈。"
+
+msgid "You've got mud on your face. Leave it. It suits you."
+msgstr "你脸上沾了泥。别擦。很适合你。"
+
+msgid "You've got sand on you. Everywhere. That's your problem, I'm not helping."
+msgstr "你身上都是沙子。到处都是。那是你的问题,我不帮忙。"
+
+msgid "You've helped enough for one day, lifeguard."
+msgstr "你今天帮得够多了,救生员。"
+
+msgid "You... jumped in your clothes. For someone you'd never met."
+msgstr "你……穿着衣服就跳了。为了一个你从没见过的人。"
+
+msgid "Your name would be nice."
+msgstr "要是能知道你的名字就好了。"
+
+msgid "Your next chapter begins with a free Starburst gem already on the board."
+msgstr "你的下一章开局时,棋盘上就带有一颗免费的星爆宝石。"
+
+msgid "Your next chapter: far fewer cursed shards appear on the board."
+msgstr "你的下一章:棋盘上出现的诅咒碎片大大减少。"
+
+msgid "Your next chapter: her favorite gem shows up more often, her least favorite less."
+msgstr "你的下一章:她最爱的宝石出现得更频繁,她最不喜欢的出现得更少。"
+
+msgid "Your replies"
+msgstr "你的回应"
+
+msgid "Your second ring doesn't close. That sigil is upside down. And this one isn't a sigil at all, it's a coffee stain you traced."
+msgstr "你的第二个环没闭合。那个符号是倒的。这个压根不是符号,是你描下来的咖啡渍。"
+
+msgid "Yours. Fine. I'm bringing my own candles."
+msgstr "你的。好吧。我自己带蜡烛来。"
+
+msgid "←  Back"
+msgstr "←  返回"
+
+msgid "←  Back to the chapter"
+msgstr "←  返回章节"
+
+msgid "←  Menu"
+msgstr "←  菜单"
+
+msgid "←  Roster"
+msgstr "←  名册"
+
+msgid "♥  Wishlist on Steam"
+msgstr "♥  在Steam上加入愿望单"
+
+msgid "✨ Starburst Starter active!"
+msgstr "✨ 星爆开局已生效!"
+
+msgid "💗 Favor Charm active!"
+msgstr "💗 好感符已生效!"
+
+msgid "💚 Heart Mender active!"
+msgstr "💚 疗心者已生效!"

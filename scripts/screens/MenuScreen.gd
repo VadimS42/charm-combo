@@ -56,7 +56,7 @@ static func build(main: Node, host: Control) -> void:
 		v.add_child(title)
 
 	var tag := UITheme.body(
-		"A match-3 romance for adults, set in Duskhaven, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes.",
+		"A match-3 romance for adults, set in Millbrook, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes.",
 		14, UITheme.INK_SOFT)
 	tag.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	tag.custom_minimum_size = Vector2(460, 0)

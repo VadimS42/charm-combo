@@ -8,7 +8,7 @@ voice; it's here so you're not starting from a blank box.
 
 For Steam's short description (300 characters max) and the itch.io tagline:
 
-> A match-3 romance for adults. In Duskhaven you summon a succubus by mistake,
+> A match-3 romance for adults. In Millbrook you summon a succubus by mistake,
 > "rescue" a mermaid who didn't need it, nearly chop down a dryad's tree and
 > let a shy slime out of her jar. Help each of them with what she needs, and
 > see where the night goes. 18+.
@@ -19,7 +19,7 @@ Shorter, for the itch.io tagline if you want one line:
 
 ## About the game
 
-Duskhaven is a town that wakes up at dusk, where succubi, mermaids, dryads and
+Millbrook is a town that wakes up at dusk, where succubi, mermaids, dryads and
 slimes live next door to everyone else. You're new here, doing whatever work
 pays, and you manage to meet four women in the worst way possible. Every
 chapter is a match-3 puzzle; every puzzle cleared moves her a step from "get

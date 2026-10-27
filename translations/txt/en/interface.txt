@@ -140,7 +140,7 @@ Close settings
 Thanks for playing the demo!
 
 @@ ui-0044
-The full game has four stories: Hazel's, and three more women of Duskhaven to meet in the worst way possible. Each has four chapters, her night scene and her ending.
+The full game has four stories: Hazel's, and three more women of Millbrook to meet in the worst way possible. Each has four chapters, her night scene and her ending.
 
 @@ ui-0045
 Main menu
@@ -243,7 +243,7 @@ Not found yet: finish her story to unlock it.
 Not found yet
 
 @@ ui-0077
-A match-3 romance for adults, set in Duskhaven, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes.
+A match-3 romance for adults, set in Millbrook, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes.
 
 @@ ui-0078
 Play
@@ -363,7 +363,7 @@ Skips this chapter's puzzle: no stars for it.
 ←  Menu
 
 @@ ui-0117
-Duskhaven Circle
+Millbrook Circle
 
 @@ ui-0118
 Loves
@@ -718,3 +718,9 @@ English
 
 @@ ui-0235
 %d pts...
+
+@@ ui-0236
+MOVES
+
+@@ ui-0237
+TIP

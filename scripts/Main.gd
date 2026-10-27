@@ -799,7 +799,7 @@ func show_demo_end() -> void:
 	v.add_theme_constant_override("separation", 14)
 	card.add_child(v)
 	v.add_child(UITheme.heading("Thanks for playing the demo!", 24))
-	var t := UITheme.body("The full game has four stories: Hazel's, and three more women of Duskhaven to meet in the worst way possible. Each has four chapters, her night scene and her ending.", 14, UITheme.INK_SOFT)
+	var t := UITheme.body("The full game has four stories: Hazel's, and three more women of Millbrook to meet in the worst way possible. Each has four chapters, her night scene and her ending.", 14, UITheme.INK_SOFT)
 	t.custom_minimum_size = Vector2(500, 0)
 	v.add_child(t)
 	var row := HBoxContainer.new()

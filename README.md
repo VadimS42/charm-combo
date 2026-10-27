@@ -17,6 +17,21 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-31 — Russian and Chinese are in; Millbrook; click finishes text
+
+- **Translations:** all 743 pieces in Russian (`translations/ru.po`) and
+  Simplified Chinese (`translations/zh_CN.po`), translated in a separate chat
+  from the `.txt` files and imported with `tools/i18n/import_txt.py`. Checked on
+  screen: picker, menu, roster, dialogue, replies, chapter, Settings.
+- Text the game changes before showing (capitalised roles, quotes stripped
+  off taglines, her first name in the speech box) is now translated first
+  (`UITheme.unquote()`, `UITheme.first_name()`); "MOVES" and "TIP" added.
+- **The town is Millbrook** (was Duskhaven) in the story, menus, docs, store
+  page text and both translations (Миллбрук, 米尔布鲁克). No recorded voice line
+  named it.
+- **Dialogue:** a click while a line is typing now shows it whole (the typing
+  tween used to keep running and undo it); the next click moves on.
+
 ## ✅ Status: round-30 — Chinese and Russian (text ready for translation)
 
 - **Language picker** on first launch (before the age notice: English, 简体中文,

@@ -1,4 +1,4 @@
-## RosterScreen.gd — the character-select screen (the "Duskhaven Circle" of
+## RosterScreen.gd — the character-select screen (the "Millbrook Circle" of
 ## love interests), equivalent to #screen-select in the HTML prototype. Each
 ## card shows her favorite and least-favorite gem (task: "girls page should
 ## say which her favorites are"), chapter progress dots, and — once
@@ -88,7 +88,7 @@ static func build(main: Node, host: Control) -> void:
 		main.show_menu()
 	)
 	top_row.add_child(back)
-	var title := UITheme.glass_label("Duskhaven Circle", 16)
+	var title := UITheme.glass_label("Millbrook Circle", 16)
 	title.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 	top_row.add_child(title)
 	var spacer := Control.new()
@@ -246,9 +246,9 @@ static func _make_caption(state: Dictionary) -> PanelContainer:
 static func _update_caption(state: Dictionary, ch: Dictionary, instant: bool) -> void:
 	var accent := Color(String(ch.get("c", "#FF6F91")))
 	state.caption_name.text = String(ch.get("name", ""))
-	state.caption_role.text = String(ch.get("role", "")).to_upper()
+	state.caption_role.text = UITheme.t(String(ch.get("role", ""))).to_upper()
 	state.caption_role.add_theme_color_override("font_color", accent.lightened(0.45))
-	state.caption_tagline.text = String(ch.get("tagline", "")).trim_prefix("\"").trim_suffix("\"")
+	state.caption_tagline.text = UITheme.unquote(String(ch.get("tagline", "")))
 	state.caption_tag.visible = ArtAssets.background_for(String(ch.get("bg", ""))) == null
 	var caption: Control = state.caption
 	if instant or GameState.settings.get("reduce_motion", false):
@@ -626,7 +626,7 @@ static func _plate(ch: Dictionary, accent: Color) -> Control:
 	name_lbl.text_overrun_behavior = TextServer.OVERRUN_TRIM_ELLIPSIS
 	name_lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	nv.add_child(name_lbl)
-	var role_lbl := UITheme.accent_label(String(ch.role).to_upper(), accent.darkened(0.22), 10)
+	var role_lbl := UITheme.accent_label(UITheme.t(String(ch.role)).to_upper(), accent.darkened(0.22), 10)
 	role_lbl.autowrap_mode = TextServer.AUTOWRAP_OFF
 	role_lbl.clip_text = true
 	role_lbl.text_overrun_behavior = TextServer.OVERRUN_TRIM_ELLIPSIS

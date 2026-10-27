@@ -14,8 +14,8 @@
     "DUSK-rose"
    ],
    [
-    "Duskhaven",
-    "DUSK-hay-vun"
+    "Millbrook",
+    "MILL-brook"
    ],
    [
     "grimoire",
@@ -178,7 +178,7 @@
    "intro": [
     {
      "k": "n",
-     "t": "You've been in Duskhaven three weeks, taking whatever work pays. Tonight that's the late shift at the public library. It's a quarter past midnight, the gas lamps have been out for an hour, the returns cart is still full, and you've drawn a circle on the reading room floor in children's chalk."
+     "t": "You've been in Millbrook three weeks, taking whatever work pays. Tonight that's the late shift at the public library. It's a quarter past midnight, the gas lamps have been out for an hour, the returns cart is still full, and you've drawn a circle on the reading room floor in children's chalk."
     },
     {
      "k": "n",
@@ -1805,7 +1805,7 @@
   "id": "slime",
   "name": "Opal",
   "role": "Slime, formerly of a jar",
-  "voice": "Opal, slime. An adult who spent thirty-one years hiding in a jar in the woods north of Duskhaven, listening to people on the path. Soft, polite, a little formal; stutters on the first word when she's nervous, apologises and then corrects herself. Very exact about her collection (counts, where each thing came from). Gets braver and funnier as the story goes on. Shy, never childish.",
+  "voice": "Opal, slime. An adult who spent thirty-one years hiding in a jar in the woods north of Millbrook, listening to people on the path. Soft, polite, a little formal; stutters on the first word when she's nervous, apologises and then corrects herself. Very exact about her collection (counts, where each thing came from). Gets braver and funnier as the story goes on. Shy, never childish.",
   "pronunciation": [
    [
     "Opal",
@@ -1994,7 +1994,7 @@
    "intro": [
     {
      "k": "n",
-     "t": "The woods north of Duskhaven, late autumn. You're out gathering firewood and anything worth selling, and you've followed the stream further in than you meant to."
+     "t": "The woods north of Millbrook, late autumn. You're out gathering firewood and anything worth selling, and you've followed the stream further in than you meant to."
     },
     {
      "k": "n",

@@ -50,6 +50,21 @@ static func t(s: String) -> String:
 	return String(TranslationServer.translate(s))
 
 
+## A translated line without its outer quote marks ("…", «…» or “…”).
+static func unquote(s: String) -> String:
+	var out := t(s).strip_edges()
+	for pair in [["\"", "\""], ["«", "»"], ["“", "”"]]:
+		if out.begins_with(pair[0]) and out.ends_with(pair[1]) and out.length() >= 2:
+			out = out.substr(1, out.length() - 2)
+	return out
+
+
+## The first part of a (translated) name: "Hazel Mossgrove" -> "Hazel",
+## "黑泽尔·莫斯格罗夫" -> "黑泽尔".
+static func first_name(s: String) -> String:
+	return t(s).split(" ")[0].split("·")[0]
+
+
 static func install_fonts() -> void:
 	var base := ThemeDB.fallback_font
 	if base == null or base.has_meta("cc_fonts"):

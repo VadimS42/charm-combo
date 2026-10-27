@@ -56,7 +56,7 @@ UI_EXTRA = ["%d / %d unlocked", "%d / %d endings found", "Click to view.", "%d p
             "Stars come from clearing chapters: 15 for a girl's first and 5 more for each one after it.",
             "Running out of moves still pays 1 star for every 100 points you scored (at least 3).",
             "The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts.",
-            "Language", "The game's text. Voices stay in English."]
+            "Language", "The game's text. Voices stay in English.", "MOVES", "TIP"]
 
 
 def ui_strings():

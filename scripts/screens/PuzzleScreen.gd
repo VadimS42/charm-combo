@@ -684,7 +684,7 @@ func _build_ui() -> void:
 	var speech_v := VBoxContainer.new()
 	speech_v.add_theme_constant_override("separation", 4)
 	_speech_box.add_child(speech_v)
-	var speech_name := UITheme.accent_label(String(ch.name).split(" ")[0], _accent().lightened(0.3), 12)
+	var speech_name := UITheme.accent_label(UITheme.first_name(String(ch.name)), _accent().lightened(0.3), 12)
 	speech_v.add_child(speech_name)
 	_speech_lbl = UITheme.body("", 14, UITheme.INK_ON_DARK)
 	_speech_lbl.autowrap_mode = TextServer.AUTOWRAP_WORD
