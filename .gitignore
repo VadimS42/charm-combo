@@ -22,3 +22,6 @@ steam_appid.txt
 # OS cruft
 .DS_Store
 Thumbs.db
+
+# Python caches
+__pycache__/
