@@ -510,7 +510,7 @@ func _build_ui() -> void:
 		main.show_roster()
 	)
 	top_row.add_child(back)
-	var how_btn := _photo_nav_button("?  How to Play")
+	var how_btn := _photo_nav_button("How to Play")
 	how_btn.pressed.connect(func():
 		SFX.nav()
 		HowToPlay.show_page(main)
@@ -2114,8 +2114,7 @@ func _show_lose_overlay() -> void:
 
 	# Straight to the shop; its Back button brings you back into this chapter
 	# for a fresh try (Main.open_store_from_chapter()).
-	var shop_btn := UITheme.make_ghost_button("🛍  Item Shop")
-	UITheme.apply_icon(shop_btn, "store", "Item Shop")
+	var shop_btn := UITheme.make_ghost_button("Item Shop")
 	shop_btn.pressed.connect(func():
 		SFX.nav()
 		main.open_store_from_chapter(char_id)

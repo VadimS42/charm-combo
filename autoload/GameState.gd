@@ -54,6 +54,8 @@ const DEFAULT_SETTINGS := {
 	"fullscreen": false,
 	# The one-time 18+ notice was confirmed on this computer (AgeGateScreen).
 	"age_confirmed": false,
+	# The one-time note about the amateur voice cast was shown (round 28).
+	"voice_notice_seen": false,
 }
 
 var stars: int = 0

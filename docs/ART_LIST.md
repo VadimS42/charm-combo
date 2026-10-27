@@ -11,7 +11,7 @@ Character folders use the story ids: `succubus` (Amara), `mermaid` (Marina), `sl
 1. Each girl's `neutral.png` — one file puts her on every screen.
 2. The other six expressions per girl.
 3. Backgrounds: library, woods, grove.
-4. Logo + the small icons (art/ui).
+4. Logo + the three HUD icons (star, heart, hourglass). Buttons are plain words and need no icons (round 28).
 5. Story CGs (or first a `cg/warmth.png` per girl, which stands in for the rest).
 6. Puzzle frames, gift icons, menu illustration.
 7. Achievement icons.
@@ -191,19 +191,6 @@ Her **night CG** fills the screen behind the dialogue box for her whole night sc
 | Icon — star | `art/ui/star.png` | Stars (the currency): top bar counter, prices on gifts and in the Item Shop. 128 × 128 px, transparent PNG, simple bold shape. Shown at 16–26 px. | To make |
 | Icon — heart | `art/ui/heart.png` | The middle of the Charm ring in her chapters. 128 × 128 px, transparent PNG, simple bold shape. Shown at 16–26 px. | To make |
 | Icon — hourglass | `art/ui/hourglass.png` | Moves left, in her chapters. 128 × 128 px, transparent PNG, simple bold shape. Shown at 16–26 px. | To make |
-| Icon — settings | `art/ui/settings.png` | The gear at the top right. 128 × 128 px, transparent PNG, simple bold shape. Shown at 16–26 px. | To make |
-| Icon — play | `art/ui/play.png` | Main menu: Play. 128 × 128 px, transparent PNG, simple bold shape. Shown at 16–26 px. | To make |
-| Icon — store | `art/ui/store.png` | Main menu: Store. 128 × 128 px, transparent PNG, simple bold shape. Shown at 16–26 px. | To make |
-| Icon — gallery | `art/ui/gallery.png` | Main menu: Gallery. 128 × 128 px, transparent PNG, simple bold shape. Shown at 16–26 px. | To make |
-| Icon — credits | `art/ui/credits.png` | Main menu: Credits. 128 × 128 px, transparent PNG, simple bold shape. Shown at 16–26 px. | To make |
-| Icon — quit | `art/ui/quit.png` | Main menu: Quit. 128 × 128 px, transparent PNG, simple bold shape. Shown at 16–26 px. | To make |
-| Icon — achievements | `art/ui/achievements.png` | Main menu: Achievements. 128 × 128 px, transparent PNG, simple bold shape. Shown at 16–26 px. | To make |
-| Icon — how to play | `art/ui/howto.png` | Main menu, chapter top bar and Settings: How to Play (a question mark in a speech bubble or a little book). 128 × 128 px, transparent PNG. Shown at 16–20 px. | To make |
-| Icon — log | `art/ui/log.png` | Dialogue box: Log, read back earlier lines (a scroll or stacked lines). 128 × 128 px, transparent PNG, light-coloured: it sits on the dark box. Shown at 16–20 px. | To make |
-| Icon — auto | `art/ui/auto.png` | Dialogue box: Auto, lines play on by themselves (a play arrow in a loop). Same spec as Log. | To make |
-| Icon — skip | `art/ui/skip.png` | Dialogue box: Skip lines already read (fast-forward ▶▶). Same spec as Log. | To make |
-| Icon — hide | `art/ui/hide.png` | Dialogue box on full-screen pictures: Hide text (an eye). Same spec as Log. | To make |
-| Icon — next | `art/ui/next.png` | Dialogue box: the little bouncing "next line" marker (a down arrow, heart or leaf). 64 × 64 px, transparent PNG, light-coloured. Shown at 16 px. | To make |
 
 ## Achievement icons (16)
 
@@ -232,8 +219,8 @@ Hazel only for now, made from her expression art (her face, zoomed in) by `tools
 
 | Asset | File | Notes | Status |
 |---|---|---|---|
-| App icon | `icon.svg (replace)` | The same mark as the logo, readable at 16 px. 1024 × 1024 PNG or SVG master. Used for the game window and taskbar while it runs. | To make |
-| Windows .exe icon | `icon.ico` | Made from the app icon. One .ico with 16, 24, 32, 48, 64, 128 and 256 px sizes. Needs the rcedit tool set up in Godot's Editor Settings to be written into the exe. | To make |
+| App icon | `icon.png` | Hazel's face biting her lip, made by `tools/achievement_icons/make_app_icon.py` (round 28). Redraw only for a cleaner version, readable at 16 px. | Done |
+| Windows .exe icon | `icon.ico` | Made from the app icon by the same script (16–256 px); the Windows export presets write it into the .exe. | Done |
 
 ### Steam (uploaded in Steamworks)
 

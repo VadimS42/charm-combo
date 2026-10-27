@@ -89,7 +89,7 @@ func _ready() -> void:
 	elif not GameState.settings.get("age_confirmed", false):
 		show_age_gate()
 	else:
-		show_menu()
+		show_start()
 
 
 func _build_chrome() -> void:
@@ -184,8 +184,8 @@ func _build_chrome() -> void:
 	# does exactly what Settings' own "← Back" does (close_settings()). It
 	# stays lit in the accent color while Settings is open, so it reads as
 	# the thing to press to get back out. Esc does the same (_unhandled_input).
-	var settings_btn := UITheme.make_glass_button("⚙")
-	UITheme.apply_icon(settings_btn, "settings")
+	# A word, not a gear icon (round 28: words wherever a word works).
+	var settings_btn := UITheme.make_glass_button("Settings")
 	settings_btn.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 	settings_btn.tooltip_text = "Settings"
 	# Start / Esc open Settings with keys or a pad, so focus navigation stays
@@ -350,6 +350,19 @@ func show_age_gate() -> void:
 	refresh_topbar()
 	_menu_music()
 	AgeGateScreen.build(self, screen_host)
+
+
+## After the age notice: the one-time voice notice (when the game has voice
+## clips and it hasn't been shown yet), else the main menu.
+func show_start() -> void:
+	if Voice.any_clips() and not GameState.settings.get("voice_notice_seen", false):
+		clear_screen()
+		_rebuild_route = show_start
+		refresh_topbar()
+		_menu_music()
+		AgeGateScreen.build_voice_notice(self, screen_host)
+	else:
+		show_menu()
 
 
 ## data/characters.json didn't load (most likely a typo made while editing the

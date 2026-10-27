@@ -269,27 +269,26 @@ static func build(main: Node, host: Control, char_id: String, lines: Array, choi
 	ctrl_row.add_theme_constant_override("separation", 8)
 	ctrl_row.mouse_filter = Control.MOUSE_FILTER_PASS
 	box_v.add_child(ctrl_row)
-	# Drop-in icons: art/ui/<icon>.png (see docs/ART_LIST.md), else the word.
-	var mk := func(label: String, tip: String, icon: String) -> Button:
+	var mk := func(label: String, tip: String) -> Button:
 		var b := UITheme.make_glass_button(label)
-		UITheme.apply_icon(b, icon, label)
 		b.focus_mode = Control.FOCUS_NONE
 		b.toggle_mode = false
 		b.tooltip_text = tip
 		b.add_theme_font_size_override("font_size", 12)
 		ctrl_row.add_child(b)
 		return b
-	var log_btn: Button = mk.call("Log", "Read back (L, or scroll up)", "log")
-	var auto_btn: Button = mk.call("Auto", "Lines carry on by themselves (A)", "auto")
-	var skip_btn: Button = mk.call("Skip", "Skip lines you've read (hold Ctrl)", "skip")
+	var log_btn: Button = mk.call("Log", "Read back (L, or scroll up)")
+	var auto_btn: Button = mk.call("Auto", "Lines carry on by themselves (A)")
+	var skip_btn: Button = mk.call("Skip", "Skip lines you've read (hold Ctrl)")
+	var skip_all_btn: Button = mk.call("Skip unread", "Skip every line up to the next reply, read or not")
 	var hide_btn: Button = null
 	if cg_key != "":
-		hide_btn = mk.call("Hide text", "See the whole picture (H)", "hide")
+		hide_btn = mk.call("Hide text", "See the whole picture (H)")
 	var row_sp := Control.new()
 	row_sp.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	row_sp.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	ctrl_row.add_child(row_sp)
-	var next_lbl: Control = UITheme.icon_or_emoji("next", "▼", 16, accent.lightened(0.35))
+	var next_lbl := UITheme.body("▼", 14, accent.lightened(0.35))
 	next_lbl.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 	next_lbl.modulate.a = 0.0
 	ctrl_row.add_child(next_lbl)
@@ -301,6 +300,7 @@ static func build(main: Node, host: Control, char_id: String, lines: Array, choi
 	var st := {
 		"i": 0, "can_advance": false, "typing": false, "skip": false,
 		"auto": false, "ready_ms": -1, "choosing": false, "cur_seen": false,
+		"skip_all": false,
 	}
 
 	# NOTE on a real GDScript footgun: these functions call each other, and a
@@ -324,6 +324,14 @@ static func build(main: Node, host: Control, char_id: String, lines: Array, choi
 	fns.set_skip = func(on: bool):
 		st.skip = on
 		light.call(skip_btn, on)
+		if not on:
+			st.skip_all = false
+			light.call(skip_all_btn, false)
+	# "Skip unread": skips everything up to the next reply.
+	fns.set_skip_all = func(on: bool):
+		fns.set_skip.call(on)
+		st.skip_all = on
+		light.call(skip_all_btn, on)
 
 	# Whether skipping may pass the line on screen.
 	fns.may_skip = func() -> bool:
@@ -331,7 +339,7 @@ static func build(main: Node, host: Control, char_id: String, lines: Array, choi
 			return false
 		# Whether it had been read BEFORE it came up this time (showing a
 		# line marks it read).
-		return bool(GameState.settings.get("skip_unseen", false)) or st.cur_seen
+		return st.skip_all or bool(GameState.settings.get("skip_unseen", false)) or st.cur_seen
 
 	fns.finish_typing = func():
 		st.typing = false
@@ -403,7 +411,7 @@ static func build(main: Node, host: Control, char_id: String, lines: Array, choi
 		st.cur_seen = was_seen
 		GameState.seen_lines[key] = true
 		# Racing through: no voice, no typing.
-		var skipping: bool = (st.skip or Input.is_action_pressed("cc_skip")) and (was_seen or bool(GameState.settings.get("skip_unseen", false)))
+		var skipping: bool = (st.skip or Input.is_action_pressed("cc_skip")) and (was_seen or st.skip_all or bool(GameState.settings.get("skip_unseen", false)))
 		if skipping:
 			Voice.stop()
 		else:
@@ -486,6 +494,7 @@ static func build(main: Node, host: Control, char_id: String, lines: Array, choi
 
 	log_btn.pressed.connect(func(): fns.open_log.call())
 	auto_btn.pressed.connect(func(): fns.set_auto.call(not st.auto))
+	skip_all_btn.pressed.connect(func(): fns.set_skip_all.call(not st.skip_all))
 	skip_btn.pressed.connect(func():
 		fns.set_skip.call(not st.skip)
 		# Nothing read to skip to: it simply stays off.

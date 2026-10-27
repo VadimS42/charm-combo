@@ -173,7 +173,7 @@ static func build(main: Node, host: Control) -> void:
 	var extra_row := HBoxContainer.new()
 	extra_row.add_theme_constant_override("separation", 10)
 	v.add_child(extra_row)
-	var howto := UITheme.make_ghost_button("?  How to Play")
+	var howto := UITheme.make_ghost_button("How to Play")
 	howto.pressed.connect(func():
 		SFX.nav()
 		HowToPlay.show_page(main)

@@ -17,6 +17,24 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-28 — skip unread, menu slideshow, app icon, voice notice
+
+- **Dialogue:** a "Skip unread" button next to Skip races through every line,
+  read or not, up to the next reply (Skip still stops at unread lines).
+- **Main menu:** until `art/menu_illustration.png` exists, a slideshow of the
+  girls' places, each slowly zooming and drifting, crossfading every 9 s
+  (`RosterBackdrop.cycle()`). The roster already did this for the selected
+  girl.
+- **App icon:** Hazel's face biting her lip (`icon.png`, `icon.ico`, from
+  `tools/achievement_icons/make_app_icon.py`); the Windows presets now write
+  it into the .exe (`application/modify_resources`).
+- **Voice notice:** once, after the age notice (and once for existing saves):
+  the voices are by amateur voice actresses, with "Turn voices off" / "Keep
+  voices on" (`settings.voice_notice_seen`).
+- **Words, not icons:** menu buttons, Settings, Item Shop and the dialogue
+  controls are plain words; only the star, hourglass and Charm heart keep
+  icon slots. The art list was trimmed to match.
+
 ## ✅ Status: round-27 — polish from the market research list
 
 From the research task list (scope: polish only, no new girls or systems).
