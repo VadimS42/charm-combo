@@ -256,9 +256,9 @@ func setup(p_main: Node, p_host: Control, p_char_id: String) -> void:
 			break
 	_tip_for_board()
 	if score > 0:
-		_toast("+%d pts — great answer!" % score)
+		_toast(UITheme.t("+%d pts — great answer!") % score)
 	elif score < 0:
-		_toast("%d pts — rough start..." % score)
+		_toast(UITheme.t("%d pts — rough start...") % score)
 
 	# Keys / a pad: the ring starts in the middle of the board. B cancels a
 	# picked-up gem or an armed Hammer; the item shortcuts work anywhere.
@@ -1340,12 +1340,12 @@ func _update_hud() -> void:
 		return
 	moves_lbl.text = "%d" % moves_left
 	var target := int(level.target)
-	score_lbl.text = "%d / %d pts" % [score, target]
+	score_lbl.text = UITheme.t("%d / %d pts") % [score, target]
 	goal_bar.max_value = target
 	goal_bar.value = clamp(score, 0, target)
 	if charm_ring:
 		charm_ring.set_progress(charm, MatchEngine.CHARM_MAX)
-	chapter_lbl.text = "Chapter %d / %d" % [level_index + 1, ch.story.levels.size()]
+	chapter_lbl.text = UITheme.t("Chapter %d / %d") % [level_index + 1, ch.story.levels.size()]
 	for item_id in item_btns.keys():
 		_refresh_item_button(item_id)
 
@@ -1950,13 +1950,13 @@ func _score_and_clear(matched: Dictionary, combo_index: int) -> void:
 
 	if broken_hit > 0:
 		_react_sprite("angry", 1.4)
-		_toast(("%d pts..." % gain) if gain < 0 else "Ouch!")
+		_toast((UITheme.t("%d pts...") % gain) if gain < 0 else UITheme.t("Ouch!"))
 	elif combo_index >= 2:
 		SFX.combo(combo_index)
 		# Floats up from the actual matched gems (angled, see _combo_popup)
 		# instead of the generic top-center toast, which used to land right
 		# on top of the score/quip toast fired from this same match.
-		_combo_popup("Combo x%d!" % combo_index, matched)
+		_combo_popup(UITheme.t("Combo x%d!") % combo_index, matched)
 		_react_sprite("happy", 1.0)
 	else:
 		SFX.match_()
@@ -2079,10 +2079,10 @@ func _show_lose_overlay() -> void:
 	var title := UITheme.heading("Out of Moves", 20)
 	title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	v.add_child(title)
-	var needed := UITheme.soft_label("You needed %d more points." % max(0, int(level.target) - score), 12)
+	var needed := UITheme.soft_label(UITheme.t("You needed %d more points.") % max(0, int(level.target) - score), 12)
 	needed.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	v.add_child(needed)
-	var reward := UITheme.body("+%d ⭐ for trying" % earned, 15, UITheme.INK)
+	var reward := UITheme.body(UITheme.t("+%d ⭐ for trying") % earned, 15, UITheme.INK)
 	reward.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	v.add_child(reward)
 	var hint := UITheme.soft_label("1 star for every 100 points. Save up for power-ups in the Item Shop, then try again!", 12)

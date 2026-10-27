@@ -43,6 +43,11 @@ window/size/viewport_height=800
 window/stretch/mode="canvas_items"
 window/stretch/aspect="keep"
 
+[internationalization]
+
+locale/translations=PackedStringArray("res://translations/ru.po", "res://translations/zh_CN.po")
+locale/fallback="en"
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"

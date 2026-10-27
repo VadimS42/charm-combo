@@ -126,3 +126,45 @@ static func build_voice_notice(main: Node, host: Control) -> void:
 	on.pressed.connect(func(): done.call(true))
 	row.add_child(on)
 	main.nav_setup(on, Callable(), {}, [["move", "Move"], ["accept", "Select"]])
+
+
+## First launch, before anything else (round 30): pick a language. Each
+## button is written in its own language. Settings can change it later.
+static func build_language_picker(main: Node, host: Control) -> void:
+	host.add_child(UITheme.make_screen_backdrop(UITheme.ACCENT, UITheme.VIOLET))
+	var center := CenterContainer.new()
+	center.set_anchors_preset(Control.PRESET_FULL_RECT)
+	host.add_child(center)
+	var card := PanelContainer.new()
+	card.add_theme_stylebox_override("panel", UITheme.window_style())
+	card.custom_minimum_size = Vector2(420, 0)
+	center.add_child(card)
+	var pad := MarginContainer.new()
+	for side in ["left", "right"]:
+		pad.add_theme_constant_override("margin_" + side, 36)
+	pad.add_theme_constant_override("margin_top", 30)
+	pad.add_theme_constant_override("margin_bottom", 30)
+	card.add_child(pad)
+	var col := VBoxContainer.new()
+	col.add_theme_constant_override("separation", 12)
+	pad.add_child(col)
+	# The title in all three, since nothing is chosen yet.
+	var title := UITheme.heading("Language · 语言 · Язык", 22)
+	title.auto_translate_mode = Node.AUTO_TRANSLATE_MODE_DISABLED
+	title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	col.add_child(title)
+	var first: Button = null
+	for pair in GameState.LANGUAGES:
+		var code := String(pair[0])
+		var b := UITheme.make_primary_button(String(pair[1]))
+		b.auto_translate_mode = Node.AUTO_TRANSLATE_MODE_DISABLED
+		b.custom_minimum_size = Vector2(320, 48)
+		b.pressed.connect(func():
+			SFX.nav()
+			GameState.set_language(code)
+			main.after_language()
+		)
+		col.add_child(b)
+		if first == null:
+			first = b
+	main.nav_setup(first, Callable(), {}, [["move", "Move"], ["accept", "Select"]])

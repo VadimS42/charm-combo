@@ -4,6 +4,11 @@ Charm Combo Emoji is a subset of Noto Color Emoji 2.047 (the emoji this game use
 Copyright 2022 Google Inc.
 Licensed under the SIL Open Font License, Version 1.1 (full text below).
 
+Charm Combo CJK is a subset of Noto Sans CJK SC (the GB2312 characters, for the
+Simplified Chinese translation), renamed.
+Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+Licensed under the SIL Open Font License, Version 1.1 (full text below).
+
 Charm Combo Symbols is a subset of DejaVu Sans (arrows and symbols), renamed.
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. 
 Bitstream Vera is a trademark of Bitstream, Inc.

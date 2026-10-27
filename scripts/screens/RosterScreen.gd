@@ -392,11 +392,11 @@ static func _card(main: Node, ch: Dictionary, state: Dictionary) -> PanelContain
 	if finished:
 		# Whichever finale she actually reached (round 12's epilogue choice),
 		# same as the Gallery and the reopened CG — not just the flat ending.
-		status_text = "Ending: " + String(StoryFlow.display_ending_for(id).get("title", ""))
+		status_text = UITheme.t("Ending: %s") % UITheme.t(String(StoryFlow.display_ending_for(id).get("title", "")))
 	elif met:
 		# (It used to say "Not started" until chapter 1 was WON, even after
 		# her whole introduction.)
-		status_text = "Chapter %d / %d" % [level_idx + 1, levels.size()]
+		status_text = UITheme.t("Chapter %d / %d") % [level_idx + 1, levels.size()]
 	var status_lbl := UITheme.soft_label(status_text, 11)
 	status_lbl.autowrap_mode = TextServer.AUTOWRAP_OFF
 	status_lbl.clip_text = true
@@ -427,7 +427,7 @@ static func _card(main: Node, ch: Dictionary, state: Dictionary) -> PanelContain
 		replay_btn.tooltip_text = "Start her story over from the beginning"
 		replay_btn.pressed.connect(func():
 			SFX.nav()
-			main.confirm("Replay %s's story?" % String(ch.name),
+			main.confirm(UITheme.t("Replay %s's story?") % UITheme.t(String(ch.name)),
 				"Her story starts over from your first meeting, so you can make different choices. Endings you've found stay in the Gallery, your gift stays given, and her chapters pay out stars again.",
 				"Replay story", func():
 					StoryFlow.restart_character(id)
@@ -466,7 +466,7 @@ static func _pref_row(emoji: String, verb: String, gem_id: String) -> HBoxContai
 	var row := HBoxContainer.new()
 	row.add_theme_constant_override("separation", 4)
 	row.mouse_filter = Control.MOUSE_FILTER_PASS
-	var lead := UITheme.soft_label(emoji + " " + verb, 10)
+	var lead := UITheme.soft_label(emoji + " " + UITheme.t(verb), 10)
 	lead.autowrap_mode = TextServer.AUTOWRAP_OFF
 	row.add_child(lead)
 	var tex := ArtAssets.gem_icon(gem_id)
@@ -653,10 +653,10 @@ static func _gift_button(main: Node, ch: Dictionary, accent: Color, progress: Di
 	var price := int(ch.gift.price)
 	var gift_btn := UITheme.make_card_button("", accent)
 	gift_btn.custom_minimum_size = Vector2(0, 40)
-	gift_btn.tooltip_text = "Give her the " + String(ch.gift.name) + " — " + String(ch.gift.get("desc", ""))
+	gift_btn.tooltip_text = UITheme.t("Give her the %s") % UITheme.t(String(ch.gift.name)) + " — " + UITheme.t(String(ch.gift.get("desc", "")))
 	gift_btn.disabled = GameState.stars < price
 	if gift_btn.disabled:
-		gift_btn.tooltip_text += "\n(You need %d more stars.)" % (price - GameState.stars)
+		gift_btn.tooltip_text += "\n" + UITheme.t("(You need %d more stars.)") % (price - GameState.stars)
 
 	var gh := HBoxContainer.new()
 	gh.set_anchors_preset(Control.PRESET_FULL_RECT)

@@ -1,0 +1,404 @@
+# Charm Combo: Marina's dialogue
+#
+# HOW TO TRANSLATE THIS FILE
+# - Translate the text under each "@@" line into the language you were asked
+#   for (Russian, or Simplified Chinese). Write ONLY the translation there.
+# - Keep every "@@ ..." line exactly as it is (the game finds the text by it).
+# - Keep %d and %s where they are (the game puts numbers and names there).
+# - Keep the names the same everywhere: Amara Duskrose, Marina Waverly, Opal,
+#   Hazel Mossgrove, Duskhaven (transliterate them once and stay consistent).
+# - An 18+ romance with dry humour; keep the tone, not word-for-word.
+# - Lines starting with "#" are notes; they can be left out.
+
+@@ marina-0001
+Marina Waverly
+
+@@ marina-0002
+Mermaid of Saltwick Cove
+
+@@ marina-0003
+"I was floating. On my back."
+
+@@ marina-0004
+Pearls. Gran would approve.
+
+@@ marina-0005
+Nine of those and I'm off the hook.
+
+@@ marina-0006
+That's the good stuff. Again.
+
+@@ marina-0007
+Pretty. Don't tell my sisters I said that.
+
+@@ marina-0008
+Okay, that one was nice.
+
+@@ marina-0009
+Oh, that's smooth, why can't anything else this week be smooth?
+
+@@ marina-0010
+Who brings fire to a pier?
+
+@@ marina-0011
+Ugh. That's drier than Gran's sponge.
+
+@@ marina-0012
+No. Absolutely not.
+
+@@ marina-0013
+Who even likes those?
+
+@@ marina-0014
+That's a dry-land gem. Put it back.
+
+@@ marina-0015
+Nine days. Keep going.
+
+@@ marina-0016
+You're getting good at this. It's annoying.
+
+@@ marina-0017
+Gran says hello. Gran says a lot of things.
+
+@@ marina-0018
+If Nerissa asks, we're friends. Who swim. At night.
+
+@@ marina-0019
+Board, lifeguard. Not me.
+
+@@ marina-0020
+You still only have one shoe, you know.
+
+@@ marina-0021
+Mum wants to feed you. Consider yourself warned.
+
+@@ marina-0022
+Faster. Tide's turning.
+
+@@ marina-0023
+Frosted Sea-Glass Pendant
+
+@@ marina-0024
+A smooth chip of sea glass, worn soft by years of tide, on a plain cord.
+
+@@ marina-0025
+She bites the corner of it before she's even said thank you.
+
+@@ marina-0026
+That's real. The sea made that. People tumble old bottles in a barrel and sell it as sea glass.
+
+@@ marina-0027
+She ties the cord round her neck with a double knot, so it can't come off in the water.
+
+@@ marina-0028
+I lose things. You've noticed. I'm not losing this one.
+
+@@ marina-0029
+Saltwick Cove, an hour before sunset. You're on the cliff path when the shouting starts.
+
+@@ marina-0030
+Down on the pier, a whole family is yelling at the water. Out past the rocks, a woman is floating face up, perfectly still, her hair spread out round her.
+
+@@ marina-0031
+You don't think about it. You run down the steps, jump off the end of the pier in your clothes, get an arm round her and drag her back.
+
+@@ marina-0032
+It's only when you're heaving her onto the boards that you notice the tail. It's long, it's teal, and it's slapping the pier hard enough to soak everyone.
+
+@@ marina-0033
+I was floating. On my back. I'm a mermaid, if you didn't notice, and you just dragged me out of my own cove in front of my entire family.
+
+@@ marina-0034
+Her entire family is, in fact, right there. A grandmother, a mother, three sisters. One of the sisters is laughing so hard she can barely ask, out loud, whether Mari is going to thank her lifeguard.
+
+@@ marina-0035
+Nerissa. Don't. Don't you dare.
+
+@@ marina-0036
+Gran, I'm fine. I was resting. I always rest like that.
+
+@@ marina-0037
+Her grandmother says, mildly, that they'd been calling her for twenty minutes, that the tide's on the turn, and that this nice person was the only one who did anything about it.
+
+@@ marina-0038
+Twenty minutes?
+
+@@ marina-0039
+The mermaid looks at you properly for the first time. You're dripping. You've lost a shoe.
+
+@@ marina-0040
+You... jumped in your clothes. For someone you'd never met.
+
+@@ marina-0041
+Her family slips off the end of the pier one by one and swims home round the point, very slowly, looking back the whole way. She waits until they're out of earshot.
+
+@@ marina-0042
+I wasn't resting. I was looking for something. Gran's pearl comb. It's the only thing she brought with her when she came to this cove, and she wears it every Midsummer Tide.
+
+@@ marina-0043
+I was meant to get it cleaned. I dropped it off the pier a week ago. Nobody knows.
+
+@@ marina-0044
+And you're not going to tell anyone either, are you, lifeguard.
+
+@@ marina-0045
+I won't tell. Let me help you look.
+
+@@ marina-0046
+You've helped enough for one day, lifeguard.
+
+@@ marina-0047
+She says it, but she doesn't swim off.
+
+@@ marina-0048
+Low tide's at six. If you happen to be on the pier, you're on the pier, I'm not asking, I'm just saying when low tide is.
+
+@@ marina-0049
+You're welcome, by the way.
+
+@@ marina-0050
+You want a thank-you? For that?
+
+@@ marina-0051
+She flicks her tail and soaks you a second time, very deliberately.
+
+@@ marina-0052
+There. Now we're even. Low tide's at six. Bring your other shoe.
+
+@@ marina-0053
+Low tide. You spend two hours turning over rocks in the pools while she works the deeper water. You find a fork and a very angry crab.
+
+@@ marina-0054
+You also find a little brass clasp wedged under the pier. She takes it from you and turns it over for a long time.
+
+@@ marina-0055
+That's off the comb's box. So it went in right here.
+
+@@ marina-0056
+Fine. You're not a menace anymore. You can help me. Don't get excited.
+
+@@ marina-0057
+I'll pay you, obviously. A reward, when we find it. It's a business arrangement, so you can stop smiling like that.
+
+@@ marina-0058
+I'm glad I can help. Really.
+
+@@ marina-0059
+Don't say it like that. Like it matters.
+
+@@ marina-0060
+She ducks under before you can answer and comes up a few yards away, pretending to search.
+
+@@ marina-0061
+Six tomorrow, lifeguard.
+
+@@ marina-0062
+Admit it. You like having me around.
+
+@@ marina-0063
+I like having someone to hold the bucket.
+
+@@ marina-0064
+You hold it very well. That's all I'm admitting.
+
+@@ marina-0065
+Day three. She's been in the water since dawn, and she misses the rope ladder twice trying to climb onto the pier. At the far end, three old fishermen are setting out their Thursday tile game by lamplight.
+
+@@ marina-0066
+I'm fine. Midsummer Tide's in nine days, and I've checked maybe a third of the cove.
+
+@@ marina-0067
+You take the lantern off her and tell her to sit down for an hour. You'll do the rocks.
+
+@@ marina-0068
+Huh. Nobody's ever told me to slow down. They just assume I've got it handled.
+
+@@ marina-0069
+She sits on the end of the pier with her tail in the water. After a while she leans on your shoulder, as if by accident.
+
+@@ marina-0070
+Nerissa keeps asking about the comb. I keep saying it's at the jeweller's. I'm running out of jewellers.
+
+@@ marina-0071
+Tell her the truth. She'll understand.
+
+@@ marina-0072
+She won't even be angry. She'll just say 'oh, Mari', the way Mum does.
+
+@@ marina-0073
+Nine days. If we haven't found it by then, I'll tell her. Deal?
+
+@@ marina-0074
+Tell her the jeweller ran off with a sea captain.
+
+@@ marina-0075
+That's actually good. She'd believe that.
+
+@@ marina-0076
+She laughs into your shoulder until she gets the hiccups.
+
+@@ marina-0077
+You're a terrible influence. Keep going.
+
+@@ marina-0078
+A squall comes in over the cove. She wants to dive anyway. You hold the rope ladder and argue with her over the wind.
+
+@@ marina-0079
+It's down there! I've checked everywhere else, it has to be down there!
+
+@@ marina-0080
+Then you remember the Pellow brothers dragging their nets through the cove last week. The whole pier complained about it.
+
+@@ marina-0081
+Their net. It went right through where I dropped it.
+
+@@ marina-0082
+You're a genius, you're a soaked genius with one shoe, come here.
+
+@@ marina-0083
+She grabs you by the collar and kisses you, hard and quick, then looks horrified at herself.
+
+@@ marina-0084
+That was the storm. Don't make it a thing.
+
+@@ marina-0085
+I'd like to make it a thing.
+
+@@ marina-0086
+Okay. A small thing.
+
+@@ marina-0087
+After the comb, it can be a big thing.
+
+@@ marina-0088
+It was a very good storm.
+
+@@ marina-0089
+It was an excellent storm.
+
+@@ marina-0090
+She kisses you again, slower, just to be sure.
+
+@@ marina-0091
+The comb is in a tin of odds and ends on the Pellow brothers' boat: fishing weights, a doll's head, and nine pearls on a silver spine. It costs you two weeks' pay and a lot of explaining.
+
+@@ marina-0092
+You bring it down to the pier after dark. She holds it for a long time without saying anything.
+
+@@ marina-0093
+It's not even scratched.
+
+@@ marina-0094
+Gran's going to wear it at the Tide and never know. Nobody's ever going to know you did this.
+
+@@ marina-0095
+I still owe you a reward. I haven't decided what it is yet. Don't look at me like that, I'm deciding.
+
+@@ marina-0096
+The pier's quiet apart from the Thursday tile game at the far end, where the three old fishermen are arguing about the score again.
+
+@@ marina-0097
+Most people come down here for the game. You keep coming back for me, don't you?
+
+@@ marina-0098
+You tell her you haven't watched a single game.
+
+@@ marina-0099
+The water's warm tonight.
+
+@@ marina-0100
+And this time, take your clothes off before you jump in.
+
+@@ marina-0101
+You leave your shoes on the pier, both of them.
+
+@@ marina-0102
+The water in the cove is warm and black and full of moonlight. She surfaces right in front of you, close enough that her hair brushes your face.
+
+@@ marina-0103
+You can actually swim. The first time, you looked like a coat someone had thrown off a pier.
+
+@@ marina-0104
+Okay. I'm going to say something and you're not allowed to be nice about it.
+
+@@ marina-0105
+I've thought about this. Not a lot. A normal amount. Every day since the pier.
+
+@@ marina-0106
+She pulls your arms round her neck so you don't have to tread water, and holds you up with her tail.
+
+@@ marina-0107
+There. Now you can't go anywhere. That's a mermaid thing. It's very old. I just made it up.
+
+@@ marina-0108
+She kisses you, slower than in the storm. When she pulls back she's breathing hard, and it isn't from swimming.
+
+@@ marina-0109
+Boathouse. It's got a door. Gran can't see through doors. Probably.
+
+@@ marina-0110
+The boathouse smells of tar and salt. There's a heap of old sails in the corner, and she pulls you down onto them by your wet shirt.
+
+@@ marina-0111
+Afterwards she lies with her head on your chest, her tail curled down the slipway into the water, flicking now and then.
+
+@@ marina-0112
+That was. Okay. I don't have a word. I always have a word.
+
+@@ marina-0113
+You've got sand on you. Everywhere. That's your problem, I'm not helping.
+
+@@ marina-0114
+Don't go before morning. I'll know if you do. I'll hear the door.
+
+@@ marina-0115
+She falls asleep first, which she will deny. The tide comes in under the boathouse doors and goes out again.
+
+@@ marina-0116
+High Water
+
+@@ marina-0117
+Gran wears the comb at the Midsummer Tide and never finds out it was lost. Marina tells her anyway, a month later, and Gran laughs so hard she has to be helped onto a rock. Marina tells the story of how you met at every family dinner after that, and it gets bigger every time. Gran corrects her every time, and every time she sets a place for you without asking.
+
+@@ marina-0118
+You wake up in the boathouse on a heap of old sails, with sand in your ears. She's already in the water, arms folded on the edge of the slipway, watching you.
+
+@@ marina-0119
+Morning. Your clothes are on the rail. I wrung them out myself, so you can thank me.
+
+@@ marina-0120
+So. Last night. I've been floating here trying to think of a word for it, and I've got it down to three, and they're all very rude.
+
+@@ marina-0121
+Gran's going to know. She always knows. She's going to look at me over breakfast and just know.
+
+@@ marina-0122
+The boathouse slipway at sunrise, two sets of clothes drying on the rail.
+
+@@ marina-0123
+At the Midsummer Tide the whole family swims out to the rocks, and Gran wears nine pearls in her hair and pretends not to notice everyone watching her.
+
+@@ marina-0124
+Gran's asked you to the family dinner, which is not a small thing, people have married into this family and never been asked to the family dinner.
+
+@@ marina-0125
+Dance with me later. Badly. I've got a tail, so we'll be bad at it together.
+
+@@ marina-0126
+Gran at the Midsummer Tide, her pearl comb in her hair.
+
+@@ marina-0127
+About your reward. Last night was not the reward. I need you to understand that. Last night was separate.
+
+@@ marina-0128
+The reward is you come to every Tide from now on. Non-negotiable. Don't smile, it's a punishment.
+
+@@ marina-0129
+So. Are you telling them how we met, or am I?
+
+@@ marina-0130
+You tell her she should tell it.
+
+@@ marina-0131
+I'm going to make you sound very brave. And very wet.

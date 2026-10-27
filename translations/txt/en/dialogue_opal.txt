@@ -1,0 +1,383 @@
+# Charm Combo: Opal's dialogue
+#
+# HOW TO TRANSLATE THIS FILE
+# - Translate the text under each "@@" line into the language you were asked
+#   for (Russian, or Simplified Chinese). Write ONLY the translation there.
+# - Keep every "@@ ..." line exactly as it is (the game finds the text by it).
+# - Keep %d and %s where they are (the game puts numbers and names there).
+# - Keep the names the same everywhere: Amara Duskrose, Marina Waverly, Opal,
+#   Hazel Mossgrove, Duskhaven (transliterate them once and stay consistent).
+# - An 18+ romance with dry humour; keep the tone, not word-for-word.
+# - Lines starting with "#" are notes; they can be left out.
+
+@@ opal-0001
+Opal
+
+@@ opal-0002
+Slime, formerly of a jar
+
+@@ opal-0003
+"I was fine. It was quiet in there."
+
+@@ opal-0004
+Ooh. That's going in the... sorry. Habit.
+
+@@ opal-0005
+Crystal. I'd keep that one.
+
+@@ opal-0006
+Pretty. Like a button, but better.
+
+@@ opal-0007
+That catches the light. Do another.
+
+@@ opal-0008
+Clear all the way through. Like me.
+
+@@ opal-0009
+That was very nice. Thank you.
+
+@@ opal-0010
+Runes. Like on the alchemists' jars.
+
+@@ opal-0011
+I don't like those. Sorry.
+
+@@ opal-0012
+Th-that's a sealing mark. Please don't.
+
+@@ opal-0013
+Can we not? Please?
+
+@@ opal-0014
+Runes make my edges go fizzy.
+
+@@ opal-0015
+You're doing well. I'm counting.
+
+@@ opal-0016
+Sorry. I'm watching. Is that all right?
+
+@@ opal-0017
+Four hundred and twelve. I check every night.
+
+@@ opal-0018
+It's loud out here. You're the good kind of loud.
+
+@@ opal-0019
+If you drop anything, I'll find it.
+
+@@ opal-0020
+You hum when you think. It's nice.
+
+@@ opal-0021
+I'm a bit pink right now. Ignore it.
+
+@@ opal-0022
+Ambrose would have liked you. He liked people who apologise.
+
+@@ opal-0023
+Th-that was good. That was really good.
+
+@@ opal-0024
+Old Glass Marble
+
+@@ opal-0025
+A glass marble with a ribbon of gold twisted through it, the kind nobody's made for decades.
+
+@@ opal-0026
+She holds the marble up to her eye, then presses it gently into her own palm. It sinks in and floats there, inside her hand, where she can see it.
+
+@@ opal-0027
+Gold swirl. They stopped making these before I went in the jar. Where did you even find it?
+
+@@ opal-0028
+She turns pink, which, on Opal, is very easy to see.
+
+@@ opal-0029
+I-it's not going on the shelf. It stays with me. In here. Is that all right?
+
+@@ opal-0030
+The woods north of Duskhaven, late autumn. You're out gathering firewood and anything worth selling, and you've followed the stream further in than you meant to.
+
+@@ opal-0031
+Between the roots of an old oak, someone has dug a little hollow and lined it with moss. In it sits a big glass jar, sealed with wax. The label says PICKLED NEWTS, DO NOT OPEN, in handwriting that's trying to be funny.
+
+@@ opal-0032
+Pickled newts don't usually have a date pencilled on the wax: the second of January. You open it anyway.
+
+@@ opal-0033
+Something pours over the rim, slow and shining, pale lilac with flashes of green and pink in it. You jump back so fast you kick half the hollow into the stream. It gathers itself on a root into the shape of a woman, and she does not look happy.
+
+@@ opal-0034
+Why would you do that?
+
+@@ opal-0035
+You point out that the label said newts.
+
+@@ opal-0036
+I was fine. It was quiet in there.
+
+@@ opal-0037
+Ambrose wrote that label. He was the forester. When the alchemists came round buying slimes, he hid me out here. It worked for thirty-one years.
+
+@@ opal-0038
+He used to tap on the glass every morning twice so I'd know it was him.
+
+@@ opal-0039
+She looks past you at the hollow: at the moss, pressed flat in neat little rows where something used to be laid out, and at the stream running fast and brown.
+
+@@ opal-0040
+Where are my things? They were here. In rows. I-I had them in rows.
+
+@@ opal-0041
+You tell her. The stream has already carried most of it round the bend, towards town.
+
+@@ opal-0042
+Those are mine. I-I've been collecting them for years.
+
+@@ opal-0043
+Four hundred and twelve buttons. Twenty-six keys. A glass eye. Everyone who comes through these woods drops something, and I kept it.
+
+@@ opal-0044
+I'm so sorry. I'll get every one of them back.
+
+@@ opal-0045
+Every one? That's four hundred and twelve buttons.
+
+@@ opal-0046
+She goes slightly pink all the way through, like a drop of dye in a glass of water.
+
+@@ opal-0047
+Okay. The stream comes out under the Mill Bridge, in town. Things wash up there. People pick them up.
+
+@@ opal-0048
+In my defence, the label said newts.
+
+@@ opal-0049
+It was a joke. He laughed at it every single morning for thirty-one years.
+
+@@ opal-0050
+The stream goes to town. We're going. You're carrying me! Please?
+
+@@ opal-0051
+The stream comes out under the Mill Bridge, where Coombs the rag-and-bone man fishes for anything that floats. He's netted most of the buttons and wants six coppers for them, which he finds very funny.
+
+@@ opal-0052
+She rides in a big glass jar in your arms with the lid off, and counts every button as you drop it in.
+
+@@ opal-0053
+Th-thank you. Sorry. Thank you.
+
+@@ opal-0054
+This one's my favourite. Brass, four holes, off a very handsome coat. You have a very handsome coat too. That's all. Coats.
+
+@@ opal-0055
+The keys went to a locksmith, he says. And the glass eye went to someone who needed a glass eye, I suppose.
+
+@@ opal-0056
+Tell me about the others while we look.
+
+@@ opal-0057
+You want to hear about buttons?
+
+@@ opal-0058
+You say yes. She talks for an hour without stuttering once.
+
+@@ opal-0059
+Sorry. I don't usually get to tell anyone.
+
+@@ opal-0060
+Four hundred buttons is a lot of strangers' buttons.
+
+@@ opal-0061
+They're not strangers. I heard every one of them go by. From the jar.
+
+@@ opal-0062
+That sounds strange out loud. Don't answer that.
+
+@@ opal-0063
+The locksmith on Cinder Row has her keys in a bucket and wants a shilling for the lot. While you haggle, she stays very still in her jar under the counter.
+
+@@ opal-0064
+On the way back there's a notice nailed to the Mill Bridge. The town has sold the north woods to an alchemist, for his workshop. Clearing starts on quarter day.
+
+@@ opal-0065
+Alchemists boil slimes down for glue. Did you know that? Twelve shillings a pound.
+
+@@ opal-0066
+That's why Ambrose put me in the jar. Nobody looks inside a jar of pickled newts. We were the same age when he did it, near enough. He got old.
+
+@@ opal-0067
+They start clearing on quarter day. After that I need somewhere else to be quiet.
+
+@@ opal-0068
+You can stay with me. My place is quiet.
+
+@@ opal-0069
+W-with you? Where would I even...
+
+@@ opal-0070
+I'd want my own jar. Just to start. Is that strange?
+
+@@ opal-0071
+Then we'll make sure nobody's boiling anybody.
+
+@@ opal-0072
+Against an alchemist? You kicked my buttons into a stream and then paid six coppers to get them back.
+
+@@ opal-0073
+But she's a little pinker than she was.
+
+@@ opal-0074
+I'd like to see that, actually.
+
+@@ opal-0075
+The glass eye turns up in the window of the taxidermist's on Lantern Street, in a stuffed owl. The taxidermist won't sell it. He says the owl needs it.
+
+@@ opal-0076
+So she climbs out of her jar in the middle of the shop, in front of everyone, and asks for it herself.
+
+@@ opal-0077
+Ex-excuse me. That's my eye. Not my eye. It's in my collection. I'd like it back, please.
+
+@@ opal-0078
+The taxidermist is so startled he gives her the eye, the owl, and a discount on a second owl.
+
+@@ opal-0079
+I did that. Did you see? I did that out loud.
+
+@@ opal-0080
+Don't put me back in the jar yet. I want to go home on my own. Well. Not walk. You know.
+
+@@ opal-0081
+You were incredible.
+
+@@ opal-0082
+Stop. I'll go cloudy.
+
+@@ opal-0083
+She goes cloudy.
+
+@@ opal-0084
+You can hold my hand. If you don't mind it being a bit... wet.
+
+@@ opal-0085
+We're getting the second owl, right?
+
+@@ opal-0086
+Obviously we're getting the second owl.
+
+@@ opal-0087
+They're a pair. I'm not splitting up a pair.
+
+@@ opal-0088
+Four hundred and twelve buttons, twenty-six keys, a glass eye and two owls. The alchemist's men are felling the north woods now, so Opal is staying with you, and her collection takes up a whole shelf in your front room. She rearranges it twice.
+
+@@ opal-0089
+It's all here. All of it. I counted three times.
+
+@@ opal-0090
+Her jar sits at the end of the shelf with the lid off. She hasn't been in it for three days.
+
+@@ opal-0091
+I have to tell you something. I kept something of yours. On the first day.
+
+@@ opal-0092
+She holds out a button. It's yours. It came off your sleeve when you reached into the hollow for her jar, and you never noticed.
+
+@@ opal-0093
+It's the first thing in a new collection. Things that are yours.
+
+@@ opal-0094
+C-can I sleep in your room tonight? Not in the jar. With you.
+
+@@ opal-0095
+Turn the lamp down a bit? Everything shows, with me.
+
+@@ opal-0096
+You turn the lamp down.
+
+@@ opal-0097
+With the lamp down, the only light in your room comes from her: a soft lilac glow that brightens wherever you touch.
+
+@@ opal-0098
+Oh. I didn't know I did that. That's embarrassing. Do it again.
+
+@@ opal-0099
+I should tell you I don't know what I'm doing. I've only heard about this. Through glass. People say a lot on a forest path when they think no one's listening.
+
+@@ opal-0100
+Mostly couples who thought they'd found somewhere private. So I know a lot about not lying down in nettles.
+
+@@ opal-0101
+You laugh. She goes pink all the way through, and then she laughs too.
+
+@@ opal-0102
+She takes your hand and presses it gently against her. It sinks in a little, cool and soft, and she shivers.
+
+@@ opal-0103
+I-is that all right? Tell me if it's strange. You can say it's strange.
+
+@@ opal-0104
+You tell her it isn't strange. She pulls you closer, and for once she doesn't apologise for anything.
+
+@@ opal-0105
+Afterwards she's spread across most of the bed and some of you, glowing faintly, humming something Ambrose used to whistle.
+
+@@ opal-0106
+There are four hundred and forty-one things in my collection. I'm trying to work out how to write a card for tonight.
+
+@@ opal-0107
+It's going to need a very long card.
+
+@@ opal-0108
+Th-thank you. Sorry. No. Not sorry. Thank you.
+
+@@ opal-0109
+The jar stays empty all night.
+
+@@ opal-0110
+A Quiet Place
+
+@@ opal-0111
+Opal moves in properly. Her collection grows a second shelf, then a third: things you've dropped, things your friends have dropped, the ticket from your first evening out together. The jar lives under the bed. She uses it twice that year, both times in thunderstorms, and both times you sit on the floor beside it while she tells you, through the glass, which of the neighbours owe each other money. She climbs out on her own before the storm is over.
+
+@@ opal-0112
+Something cool and slightly heavy is draped over you like a blanket. It turns out to be her.
+
+@@ opal-0113
+Sorry. I spread out in my sleep. I didn't know that. I've never slept anywhere big enough to find out.
+
+@@ opal-0114
+Last night was the best thing that's happened to me in thirty-one years. Possibly ever. I'm not exaggerating. I've had a lot of time to compare.
+
+@@ opal-0115
+I'd like to do it again. That's allowed to be said, isn't it? Good. I'd like to do it again.
+
+@@ opal-0116
+I've started a card for last night. For the collection. I'm on my fourth draft.
+
+@@ opal-0117
+Morning light through the bedroom curtains, and someone translucent and lilac curled over the covers.
+
+@@ opal-0118
+She goes outside on her own for the first time to buy bread. She's gone twenty minutes. You both pretend you weren't worried.
+
+@@ opal-0119
+The baker asked my name. I told him. Then I told him about buttons for a while. He was very patient.
+
+@@ opal-0120
+I'm going back tomorrow. He does a seeded loaf on Thursdays.
+
+@@ opal-0121
+Opal at the baker's counter, a loaf under one arm and a stray button in her hand.
+
+@@ opal-0122
+The jar. Should I keep it? I haven't been in it for a week. I still check it's there.
+
+@@ opal-0123
+You tell her to keep it. For storms.
+
+@@ opal-0124
+For storms. Okay. Just for storms.

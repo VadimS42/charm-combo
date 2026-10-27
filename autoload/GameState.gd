@@ -56,6 +56,9 @@ const DEFAULT_SETTINGS := {
 	"age_confirmed": false,
 	# The one-time note about the amateur voice cast was shown (round 28).
 	"voice_notice_seen": false,
+	# Game language (round 30): "en", "zh_CN" or "ru"; "" until the player
+	# picks one on first launch.
+	"language": "",
 }
 
 var stars: int = 0
@@ -99,6 +102,7 @@ func _ready() -> void:
 	_migrate_old_save_location()
 	load_state()
 	apply_volume()
+	apply_language()
 	# Autosave on every path the OS might use to end the process.
 	get_tree().auto_accept_quit = false
 	process_mode = Node.PROCESS_MODE_ALWAYS
@@ -332,6 +336,21 @@ func reset_progress() -> void:
 	items = DEFAULT_ITEMS.duplicate()
 	gallery = []
 	pending_epilogue_key = ""
+	save_state()
+
+
+## The languages the game has (translations/<locale>.po), with their own names.
+const LANGUAGES := [["en", "English"], ["zh_CN", "简体中文"], ["ru", "Русский"]]
+
+
+func apply_language() -> void:
+	var lang := String(settings.get("language", ""))
+	TranslationServer.set_locale(lang if lang != "" else "en")
+
+
+func set_language(lang: String) -> void:
+	settings.language = lang
+	apply_language()
 	save_state()
 
 

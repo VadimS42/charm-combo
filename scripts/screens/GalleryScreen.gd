@@ -54,7 +54,7 @@ static func build(main: Node, host: Control) -> void:
 	var spacer := Control.new()
 	spacer.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	top_row.add_child(spacer)
-	var counter := UITheme.body("%d / %d endings found" % [found, slots.size()], 13, UITheme.INK_SOFT)
+	var counter := UITheme.body(UITheme.t("%d / %d endings found") % [found, slots.size()], 13, UITheme.INK_SOFT)
 	counter.autowrap_mode = TextServer.AUTOWRAP_OFF
 	counter.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 	top_row.add_child(counter)
@@ -206,7 +206,7 @@ static func _found_card(main: Node, ch: Dictionary, slot: Dictionary, accent: Co
 	var ending := StoryFlow.ending_for_entry(char_id, slot.ending, slot.finale)
 	var b := UITheme.make_card_button("", accent)
 	b.custom_minimum_size = _card_size()
-	b.tooltip_text = String(ending.get("title", "")) + " — " + String(ROUTE_NAMES.get(slot.ending, "")) + ". Click to view."
+	b.tooltip_text = UITheme.t(String(ending.get("title", ""))) + " — " + UITheme.t("Click to view.")
 
 	var inner := VBoxContainer.new()
 	inner.set_anchors_preset(Control.PRESET_FULL_RECT)

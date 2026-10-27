@@ -1,0 +1,398 @@
+# Charm Combo: Amara's dialogue
+#
+# HOW TO TRANSLATE THIS FILE
+# - Translate the text under each "@@" line into the language you were asked
+#   for (Russian, or Simplified Chinese). Write ONLY the translation there.
+# - Keep every "@@ ..." line exactly as it is (the game finds the text by it).
+# - Keep %d and %s where they are (the game puts numbers and names there).
+# - Keep the names the same everywhere: Amara Duskrose, Marina Waverly, Opal,
+#   Hazel Mossgrove, Duskhaven (transliterate them once and stay consistent).
+# - An 18+ romance with dry humour; keep the tone, not word-for-word.
+# - Lines starting with "#" are notes; they can be left out.
+
+@@ amara-0001
+Amara Duskrose
+
+@@ amara-0002
+Succubus, summoned by mistake
+
+@@ amara-0003
+"You summoned me with that pathetic chalk circle?"
+
+@@ amara-0004
+Runes. Finally, someone in this town who can draw.
+
+@@ amara-0005
+Clean lines. I'm almost proud of you.
+
+@@ amara-0006
+That one would actually hold a demon.
+
+@@ amara-0007
+Do that again. Slower.
+
+@@ amara-0008
+See? Closed rings. It isn't hard.
+
+@@ amara-0009
+Now that's a circle I'd step out of.
+
+@@ amara-0010
+Moonstone. It smells like a church.
+
+@@ amara-0011
+Don't. Just don't.
+
+@@ amara-0012
+Someone bought that off a market stall. I can tell.
+
+@@ amara-0013
+Lunar nonsense. Next.
+
+@@ amara-0014
+Get that holy rock away from me.
+
+@@ amara-0015
+The book is in this building. Keep going.
+
+@@ amara-0016
+You're quicker than you look. You look quite slow.
+
+@@ amara-0017
+I've been summoned by kings. They were worse at this.
+
+@@ amara-0018
+Eyes on the board. I'll still be here.
+
+@@ amara-0019
+If you find it before I do, don't open it.
+
+@@ amara-0020
+Mind the candle.
+
+@@ amara-0021
+Hand-Dipped Beeswax Candle
+
+@@ amara-0022
+A tall beeswax candle with a nine-hour wick. It burns longer if nobody blows it out.
+
+@@ amara-0023
+She turns the candle over in her hands and sniffs the wax, which seems to be the professional way to check.
+
+@@ amara-0024
+Nine-hour wick. Hand-dipped. You know what this is for, don't you.
+
+@@ amara-0025
+She sets it beside the stub in your chalk circle and lights it from the old flame before the old one can go out.
+
+@@ amara-0026
+That's nine more hours you can't get rid of me. You did that on purpose.
+
+@@ amara-0027
+You've been in Duskhaven three weeks, taking whatever work pays. Tonight that's the late shift at the public library. It's a quarter past midnight, the gas lamps have been out for an hour, the returns cart is still full, and you've drawn a circle on the reading room floor in children's chalk.
+
+@@ amara-0028
+You copied it off a loose page that fell out of a returned book. It looked nice. You put a candle stub in the middle because it seemed like the kind of thing that wanted a candle.
+
+@@ amara-0029
+The flame leans sideways. Then it goes green. Smoke fills the circle, smelling of struck matches and expensive perfume, and someone steps out of it, coughing.
+
+@@ amara-0030
+You summoned me with that pathetic chalk circle? Where did you even copy it from? Ugh, I was in the middle of something.
+
+@@ amara-0031
+She's tall, horned and dressed for somewhere much nicer than a library. She crouches to look at your circle, and tuts.
+
+@@ amara-0032
+Your second ring doesn't close. That sigil is upside down. And this one isn't a sigil at all, it's a coffee stain you traced.
+
+@@ amara-0033
+Well. It worked, which is insulting in its own way. Go on, then. Ask.
+
+@@ amara-0034
+You ask what she means.
+
+@@ amara-0035
+What you want. Gold. Revenge. And sooner or later sex. It always comes to that.
+
+@@ amara-0036
+You don't ask for any of it. You ask if she's all right, because she came out of the smoke coughing.
+
+@@ amara-0037
+It's the chalk. Cheap chalk gets in your throat.
+
+@@ amara-0038
+Then she notices the loose page on your desk, the one you copied from, and goes very still.
+
+@@ amara-0039
+Where did you get that.
+
+@@ amara-0040
+You tell her it fell out of a returned book, and you didn't check which one. You step towards the desk to show her.
+
+@@ amara-0041
+Stay where you are. Don't break the circle. If that candle goes out, I go home, and I'm not done with you.
+
+@@ amara-0042
+She steps over the chalk line herself, careful not to smudge it, and picks the page up. You realise you've been staring.
+
+@@ amara-0043
+Careful. If you keep staring at me like that, I'll start thinking you summoned me on purpose.
+
+@@ amara-0044
+This page is from my binding. The book that ties me to every circle anyone draws, however badly. Find all of it, burn it, and I'm free.
+
+@@ amara-0045
+It's somewhere in this building. I can feel it, like a draught. You're going to help me find it before anyone else does.
+
+@@ amara-0046
+Of course I'll help. What does it look like?
+
+@@ amara-0047
+You didn't ask what you get out of it.
+
+@@ amara-0048
+She narrows her eyes, looking for the catch. There isn't one.
+
+@@ amara-0049
+Black cover. No title. It'll feel warm. Don't open it.
+
+@@ amara-0050
+Sure. After I've shelved these returns.
+
+@@ amara-0051
+I destroyed kingdoms, and you're making me wait?!
+
+@@ amara-0052
+She picks up a stack of books anyway and asks where the poetry goes.
+
+@@ amara-0053
+Faster. And alphabetise properly. I've seen your circle.
+
+@@ amara-0054
+By two in the morning you've checked every book returned this month. No black cover. One very overdue cookbook, which she opens, reads a page of, and closes in disgust.
+
+@@ amara-0055
+It was here. Someone moved it, and not long ago.
+
+@@ amara-0056
+And you still haven't asked me for anything.
+
+@@ amara-0057
+In my experience, the people who don't ask want something worse. So. What is it?
+
+@@ amara-0058
+Your name would be nice.
+
+@@ amara-0059
+Amara. It's the one I use. The real one is in the book, along with everything else that keeps me on a leash.
+
+@@ amara-0060
+You say it back. She listens like she's checking your pronunciation.
+
+@@ amara-0061
+Close enough. You can keep using it.
+
+@@ amara-0062
+Maybe I'm saving my wish for something good.
+
+@@ amara-0063
+Smart. Unspent wishes don't expire. I knew a man who sat on one until he died.
+
+@@ amara-0064
+Save it, then. I'll be watching you very closely until you spend it.
+
+@@ amara-0065
+The card catalogue has a gap where the book should be. Someone has left a slip in the drawer instead: OUT FOR REBINDING, and a name.
+
+@@ amara-0066
+Someone in this town knows exactly what that book is.
+
+@@ amara-0067
+She sits on the reading table, which you've asked her twice not to do, and moves the candle so it won't drip on the returns.
+
+@@ amara-0068
+Stop pretending you're looking for the book. You've walked past this table eleven times tonight, and the book isn't on it. I am.
+
+@@ amara-0069
+Come here. That's an order, and I'm only giving it once before I come over there and get you.
+
+@@ amara-0070
+You're the best thing I've found in this library.
+
+@@ amara-0071
+Flattery. Good. Keep going.
+
+@@ amara-0072
+She hooks a foot round your ankle and reels you in the last step.
+
+@@ amara-0073
+Now we can both stop pretending you came over here to talk about books.
+
+@@ amara-0074
+Make me.
+
+@@ amara-0075
+Oh, I intend to.
+
+@@ amara-0076
+She hooks a finger in your collar and pulls you down until you're nose to nose over the reading table.
+
+@@ amara-0077
+There. Now look me in the eye and tell me you'd rather be shelving.
+
+@@ amara-0078
+She won't leave the candle behind. She carries it to Wick Street cupped in both hands, and makes you walk on the windy side.
+
+@@ amara-0079
+The name on the slip belongs to a bookbinder who died in the spring. His shop is still full of loose pages.
+
+@@ amara-0080
+In the back, under a dust sheet, you find a black cover with nothing in it. The pages have been cut out with a knife.
+
+@@ amara-0081
+He took it apart. To sell it page by page.
+
+@@ amara-0082
+Every one of those pages is part of my binding. Somebody has been buying them.
+
+@@ amara-0083
+You could keep one, you know. Just one page. I wouldn't be able to refuse you anything.
+
+@@ amara-0084
+If I find one, I'm burning it.
+
+@@ amara-0085
+You'd burn it.
+
+@@ amara-0086
+She picks up the candle so she has something to do with her hands.
+
+@@ amara-0087
+Then we'd better find them before anyone else does.
+
+@@ amara-0088
+Tempting. You'd have to do my shelving.
+
+@@ amara-0089
+I'd do it badly. Out of spite.
+
+@@ amara-0090
+Come on. Binders keep ledgers. If he sold them, he wrote down who to.
+
+@@ amara-0091
+The ledger leads you straight back to your own library. The last pages were sold to it in March as loose leaves, assorted, and filed in the rare books vault under Miscellaneous, Infernal.
+
+@@ amara-0092
+She burns them in the reading room fireplace at four in the morning, one at a time. Each one goes up green. The loose page from your desk goes last: she tears her name off the corner and burns only that.
+
+@@ amara-0093
+That's all of them. I'm free. No more circles. Nobody can drag me anywhere ever again.
+
+@@ amara-0094
+The candle in your chalk circle, the fourth one this week, is nearly gone. She watches it gutter and doesn't go anywhere.
+
+@@ amara-0095
+Most summonings end the moment someone gets what they asked for. You never asked for anything. So... I stayed.
+
+@@ amara-0096
+Still nothing?
+
+@@ amara-0097
+You shake your head.
+
+@@ amara-0098
+Then I'll ask. Close the reading room door. Leave the candle.
+
+@@ amara-0099
+You close the door.
+
+@@ amara-0100
+The reading room with the door shut. The only light is the candle in your chalk circle, and she's sitting on the reading table again.
+
+@@ amara-0101
+You've asked me twice not to sit on this table.
+
+@@ amara-0102
+I've been summoned four hundred and some times. Never seen such gentleman.
+
+@@ amara-0103
+She takes your hand and presses it flat to her chest. Under the silk, something is beating far too fast for anyone that old.
+
+@@ amara-0104
+That's your fault. I'd like that on record.
+
+@@ amara-0105
+She turns round and lifts her hair off her neck. The dress fastens with a row of tiny hooks, from the collar down to where her wings begin.
+
+@@ amara-0106
+There are forty-one of those. I counted when I put it on. Take your time.
+
+@@ amara-0107
+You don't take your time. She laughs at you, low in her throat, and doesn't complain.
+
+@@ amara-0108
+Say it. The name I gave you.
+
+@@ amara-0109
+You say it. Amara. She shuts her eyes, as if she's checking your pronunciation one last time.
+
+@@ amara-0110
+Close enough.
+
+@@ amara-0111
+Later. The candle is down to a stub. She's lying across you on the reading room rug with one wing folded over you both like a blanket.
+
+@@ amara-0112
+I've been doing this for a very long time, and that was not on the list of things I expected from a library.
+
+@@ amara-0113
+Don't look so pleased with yourself. Actually, no. Look exactly that pleased.
+
+@@ amara-0114
+Stay till the candle goes. Then stay anyway.
+
+@@ amara-0115
+The candle burns down to nothing, and neither of you notices when it goes out.
+
+@@ amara-0116
+After Hours
+
+@@ amara-0117
+Her library card has your address on it in small, furious handwriting. She moves in with forty candles and opinions about your bookshelf, which she reorganises by how much she disliked each book. Your favourite goes on the bottom shelf. Most nights she's still at the late desk when your shift ends, and she walks you home by the river even though it's longer.
+
+@@ amara-0118
+Morning comes in through the reading room windows. Somebody has folded your jacket into a very neat square.
+
+@@ amara-0119
+For the record: four hundred-odd summonings, several kings and one very enthusiastic bishop. None of them came close. I'm only telling you once.
+
+@@ amara-0120
+You can get dressed now.
+
+@@ amara-0121
+I've never seen a morning from this side of a summoning. It's very bright. I don't hate it.
+
+@@ amara-0122
+The reading room at dawn: a burnt-out candle in a smudged chalk circle, your jacket folded into a neat square on the returns cart.
+
+@@ amara-0123
+While you fetch coffee from the staff room, she takes a red pencil from your desk and starts correcting the page that started all this.
+
+@@ amara-0124
+If you're going to draw these, you'll draw them properly. Nobody else is coming through a circle this pathetic.
+
+@@ amara-0125
+This line here. That's where you'd put my name. If you ever wanted to call me. You won't need to. I'll be with you.
+
+@@ amara-0126
+Her corrections in red pencil, all over the loose page that started it.
+
+@@ amara-0127
+They want an address for my library card. I don't have one. What do I put?
+
+@@ amara-0128
+You tell her to put yours.
+
+@@ amara-0129
+Yours. Fine. I'm bringing my own candles.

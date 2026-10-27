@@ -58,6 +58,19 @@ static func build(main: Node, host: Control) -> void:
 
 	v.add_child(UITheme.heading("Settings", 22))
 
+	# Language (round 30). Text on screen switches at once; anything built
+	# from pieces catches up when Settings closes (mark_settings_dirty).
+	var lang_row := _choice_row(
+		"Language", "The game's text. Voices stay in English.",
+		GameState.LANGUAGES, String(GameState.settings.get("language", "en")) if String(GameState.settings.get("language", "")) != "" else "en",
+		func(code: String):
+			GameState.set_language(code)
+			main.mark_settings_dirty()
+	)
+	for b in (lang_row.get_meta("control") as Control).get_parent().get_children():
+		(b as Control).auto_translate_mode = Node.AUTO_TRANSLATE_MODE_DISABLED
+	v.add_child(lang_row)
+
 	var sound_row := _row(
 		"Sound Effects", "Chimes for matches, combos, and menus.",
 		GameState.settings.sound,

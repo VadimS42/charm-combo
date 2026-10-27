@@ -42,13 +42,22 @@ static var _rings := {}
 ## showed as empty boxes. Small subsets of Noto Color Emoji and DejaVu Sans
 ## (assets/fonts/, licenses in data/font_licenses.txt), added once as
 ## fallbacks of the default font, so every label picks them up.
+## `s` in the player's language (translations/<locale>.po; round 30). Labels
+## and buttons translate their own text already, so this is only for text
+## built from pieces: translate the English pattern FIRST, then fill it in
+## (UITheme.t("Chapter %d / %d") % [a, b]), or the whole won't match.
+static func t(s: String) -> String:
+	return String(TranslationServer.translate(s))
+
+
 static func install_fonts() -> void:
 	var base := ThemeDB.fallback_font
 	if base == null or base.has_meta("cc_fonts"):
 		return
 	var fb: Array[Font] = []
 	fb.assign(base.fallbacks)
-	for path in ["res://assets/fonts/CharmComboSymbols.ttf", "res://assets/fonts/CharmComboEmoji.ttf"]:
+	# CJK (round 30): Simplified Chinese for the translation.
+	for path in ["res://assets/fonts/CharmComboSymbols.ttf", "res://assets/fonts/CharmComboCJK.otf", "res://assets/fonts/CharmComboEmoji.ttf"]:
 		if ResourceLoader.exists(path):
 			var f = load(path)
 			if f is FontFile:

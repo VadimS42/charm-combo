@@ -17,6 +17,20 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-30 — Chinese and Russian (text ready for translation)
+
+- **Language picker** on first launch (before the age notice: English, 简体中文,
+  Русский), and a Language row at the top of Settings. Voices stay English.
+- **Plumbing:** Godot's translation files `translations/ru.po` and
+  `translations/zh_CN.po` (empty for now); labels and buttons translate by their
+  English text, text built in code goes through `UITheme.t()`.
+- **Text for translators:** `translations/txt/en/` (each girl's dialogue, about
+  1,850 words apiece, and the interface, about 1,400), made by
+  `tools/i18n/make_txt.py`; `tools/i18n/import_txt.py` reads the translated
+  files back. See `docs/TRANSLATING.md`.
+- **Chinese font:** `assets/fonts/CharmComboCJK.otf` (Noto Sans CJK SC, GB2312
+  subset, 3 MB, OFL). Tested with the system's Chinese fonts removed.
+
 ## ✅ Status: round-29 — three pictures per night scene; .exe icon
 
 - **Night scenes** switch between three full-screen pictures in

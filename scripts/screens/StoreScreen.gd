@@ -49,9 +49,9 @@ static func build(main: Node, host: Control) -> void:
 
 	v.add_child(UITheme.heading("Item Shop", 22))
 	var sub := UITheme.soft_label(
-		"Stars come from clearing chapters: 15 for a girl's first and 5 more for each one after it. " +
-		"Running out of moves still pays 1 star for every 100 points you scored (at least 3). " +
-		"The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts.", 12)
+		UITheme.t("Stars come from clearing chapters: 15 for a girl's first and 5 more for each one after it.") + " " +
+		UITheme.t("Running out of moves still pays 1 star for every 100 points you scored (at least 3).") + " " +
+		UITheme.t("The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts."), 12)
 	sub.custom_minimum_size = Vector2(CARD_W * 3.0 + 24.0, 0)
 	v.add_child(sub)
 
@@ -108,17 +108,17 @@ static func _card(main: Node, item: Dictionary) -> PanelContainer:
 	v.add_child(d)
 
 	var owned := int(GameState.items.get(item.id, 0))
-	v.add_child(UITheme.soft_label("Owned: %d" % owned, 11))
+	v.add_child(UITheme.soft_label(UITheme.t("Owned: %d") % owned, 11))
 
 	var price := int(item.price)
-	var buy_btn := UITheme.make_primary_button("Buy · %d ⭐" % price)
+	var buy_btn := UITheme.make_primary_button(UITheme.t("Buy · %d ⭐") % price)
 	# art/ui/star.png after the price when it exists, in place of the emoji.
-	UITheme.apply_icon(buy_btn, "star", "Buy · %d" % price)
+	UITheme.apply_icon(buy_btn, "star", UITheme.t("Buy · %d") % price)
 	if buy_btn.icon != null:
 		buy_btn.icon_alignment = HORIZONTAL_ALIGNMENT_RIGHT
 	buy_btn.disabled = GameState.stars < price
 	if buy_btn.disabled:
-		buy_btn.tooltip_text = "You need %d more stars." % (price - GameState.stars)
+		buy_btn.tooltip_text = UITheme.t("You need %d more stars.") % (price - GameState.stars)
 	buy_btn.pressed.connect(func():
 		if GameState.stars < price:
 			return

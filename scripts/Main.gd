@@ -86,10 +86,10 @@ func _ready() -> void:
 	Achievements.unlocked.connect(_on_achievement_unlocked)
 	if CharacterData.load_error() != "":
 		show_data_error()
-	elif not GameState.settings.get("age_confirmed", false):
-		show_age_gate()
+	elif String(GameState.settings.get("language", "")) == "":
+		show_language_picker()
 	else:
-		show_start()
+		after_language()
 
 
 func _build_chrome() -> void:
@@ -350,6 +350,23 @@ func show_age_gate() -> void:
 	refresh_topbar()
 	_menu_music()
 	AgeGateScreen.build(self, screen_host)
+
+
+## First launch: the language picker (round 30), before the age notice.
+func show_language_picker() -> void:
+	clear_screen()
+	_rebuild_route = show_language_picker
+	refresh_topbar()
+	_menu_music()
+	AgeGateScreen.build_language_picker(self, screen_host)
+
+
+## After the language: the age notice once, then the voice notice / menu.
+func after_language() -> void:
+	if not GameState.settings.get("age_confirmed", false):
+		show_age_gate()
+	else:
+		show_start()
 
 
 ## After the age notice: the one-time voice notice (when the game has voice
