@@ -17,6 +17,17 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-32 — expressions match the lines
+
+- Every line's `"e"` checked against what Hazel's and Marina's pictures
+  actually show. Hazel's `teasing` is a sultry lip-bite, so it now marks only
+  flirting: 12 of her lines moved (dry jokes such as the beehive/axe line and
+  "a lovely trench" to `neutral`, jealousy to `angry`, mischief to `happy`,
+  nervous or tender lines to `shy`). Marina: 5 lines (a defensive line to
+  `shy`, a quiet tearful moment off her big grin, narration off the wink).
+- `docs/EDITING_DIALOGUE.md` has a table of what each expression looks like
+  for both girls. Voice script regenerated (it lists the portraits).
+
 ## ✅ Status: round-31 — Russian and Chinese are in; Millbrook; click finishes text
 
 - **Translations:** all 743 pieces in Russian (`translations/ru.po`) and

@@ -17,7 +17,7 @@ Say it: Marina = muh-REE-nuh · Waverly = WAY-vur-lee · Mari (her family's nick
    File: marina_intro_02.wav
 
 3. Gran, I'm fine. I was resting. I always rest like that.
-   Emotion: angry. Defensive and too fast. Nobody believes her, including her.
+   Emotion: shy. Defensive and too fast. Nobody believes her, including her.
    File: marina_intro_03.wav
 
 4. Twenty minutes?
@@ -70,7 +70,7 @@ Say it: Marina = muh-REE-nuh · Waverly = WAY-vur-lee · Mari (her family's nick
    File: marina_ch1_01.wav
 
 14. Fine. You're not a menace anymore. You can help me. Don't get excited.
-   Emotion: teasing. Classic tsundere delivery.
+   Emotion: neutral. Classic tsundere delivery.
    File: marina_ch1_02.wav
 
 15. I'll pay you, obviously. A reward, when we find it. It's a business arrangement, so you can stop smiling like that.
@@ -177,7 +177,7 @@ Say it: Marina = muh-REE-nuh · Waverly = WAY-vur-lee · Mari (her family's nick
 == AFTER CHAPTER 4 (LAST SCENE) ==
 
 34. It's not even scratched.
-   Emotion: happy. Barely holding it together. Small.
+   Emotion: shy. Barely holding it together. Small.
    File: marina_ch4_01.wav
 
 35. Gran's going to wear it at the Tide and never know. Nobody's ever going to know you did this.

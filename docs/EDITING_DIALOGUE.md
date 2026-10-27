@@ -58,6 +58,21 @@ A line she speaks:
 | `"d"` | delivery note for the voice actor. The game never shows it |
 | `"id"` | the voice file name for this line. Leave it alone when you reword a line |
 
+Pick `"e"` by what the picture actually shows, not by the word (round 32). In
+the art that exists:
+
+| `"e"` | Hazel | Marina | Use it for |
+|---|---|---|---|
+| `neutral` | calm, level | cool, hand at her chin | plain lines, dry or deadpan jokes, sarcasm |
+| `happy` | soft smile | big fanged grin | warmth, laughing, playful mischief |
+| `shy` | worried brows, blush | looking away, biting a finger | flustered, tender, confessions, nervous |
+| `surprised` | wide eyes, open mouth | shocked | surprise, being thrown |
+| `teasing` | sultry, biting her lip | wink and grin | Hazel: flirting only. Marina: any playful teasing |
+| `sad` | frown | pouting, looking down | hurt, worry, dread |
+| `angry` | gritted teeth | furious blush | anger, jealousy, tsundere snaps |
+
+Narration with no `"e"` shows her neutral picture.
+
 Narration looks the same without `"d"` and `"id"` (its `"e"` is optional):
 
 ```json

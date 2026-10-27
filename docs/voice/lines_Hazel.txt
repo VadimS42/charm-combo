@@ -25,7 +25,7 @@ Say it: Hazel Mossgrove = HAY-zul MOSS-grove · Aldous Brock = ALL-dus BROCK
    File: hazel_intro_04.wav
 
 5. The last one argued with the axe still in his hands, so I dropped a beehive on him. I wouldn't do that to you. Your face is too nice to waste on bees.
-   Emotion: teasing. Bone-dry, perfectly pleasant. The compliment comes out in the same flat tone.
+   Emotion: neutral. Bone-dry, perfectly pleasant. The compliment comes out in the same flat tone.
    File: hazel_intro_05.wav
 
 6. I know about the wall. My roots go where the water is, and they've never once asked my opinion.
@@ -51,7 +51,7 @@ Say it: Hazel Mossgrove = HAY-zul MOSS-grove · Aldous Brock = ALL-dus BROCK
 == MEETING HER: REPLY 2 ==
 
 10. Keep it. Buy yourself a better axe and never use it.
-   Emotion: teasing. Dry, amused.
+   Emotion: neutral. Dry, amused.
    File: hazel_intro_r2_01.wav
 
 11. Start by the alder. If you hit a root, say sorry. It's me, and I'll be listening.
@@ -62,7 +62,7 @@ Say it: Hazel Mossgrove = HAY-zul MOSS-grove · Aldous Brock = ALL-dus BROCK
 == AFTER CHAPTER 1 ==
 
 12. That's a lovely trench, if you're planning to bury somebody. For a millrace it's a start.
-   Emotion: teasing. Teasing, unhurried.
+   Emotion: neutral. Teasing, unhurried.
    File: hazel_ch1_01.wav
 
 13. Oh. You're warm. Nobody's put a hand on me in years, unless they were measuring where to cut.
@@ -88,7 +88,7 @@ Say it: Hazel Mossgrove = HAY-zul MOSS-grove · Aldous Brock = ALL-dus BROCK
 == AFTER CHAPTER 1: REPLY 2 ==
 
 17. You came by with an axe.
-   Emotion: teasing. Instant, deadpan.
+   Emotion: neutral. Instant, deadpan.
    File: hazel_ch1_r2_01.wav
 
 18. Come back tomorrow. Bring the shovel, leave the axe, and wear that shirt again.
@@ -99,7 +99,7 @@ Say it: Hazel Mossgrove = HAY-zul MOSS-grove · Aldous Brock = ALL-dus BROCK
 == AFTER CHAPTER 2 ==
 
 19. The ferns say you walked the miller's daughter to the footbridge. That's fine. I'm sure no branch will fall on her. Fairly sure.
-   Emotion: teasing. Calm and pleasant, and jealous. The threat is polite.
+   Emotion: angry. Calm and pleasant, and jealous. The threat is polite.
    File: hazel_ch2_01.wav
 
 20. Her father came by too. You've got till the end of the month. Then he hires someone with a saw.
@@ -107,7 +107,7 @@ Say it: Hazel Mossgrove = HAY-zul MOSS-grove · Aldous Brock = ALL-dus BROCK
    File: hazel_ch2_02.wav
 
 21. So dig faster. I've started making plans for summer, and you're in most of them.
-   Emotion: neutral. Light on top, real fear underneath; the second half is softer.
+   Emotion: shy. Light on top, real fear underneath; the second half is softer.
    File: hazel_ch2_03.wav
 
 
@@ -162,7 +162,7 @@ Say it: Hazel Mossgrove = HAY-zul MOSS-grove · Aldous Brock = ALL-dus BROCK
 == AFTER CHAPTER 3: REPLY 2 ==
 
 31. Start with the baker. He leans on me when he smokes.
-   Emotion: teasing. Perking up, wicked.
+   Emotion: happy. Perking up, wicked.
    File: hazel_ch3_r2_01.wav
 
 32. Then the miller. Then the miller again.
@@ -196,7 +196,7 @@ Say it: Hazel Mossgrove = HAY-zul MOSS-grove · Aldous Brock = ALL-dus BROCK
    File: hazel_night_01.wav
 
 38. The badgers are watching. I told them to go away. Nobody in this grove listens to me.
-   Emotion: teasing. Bone-dry, a little shy under it.
+   Emotion: neutral. Bone-dry, a little shy under it.
    File: hazel_night_02.wav
 
 39. That's you. You did that. A month of you leaning on me with your sleeves rolled up.
@@ -204,7 +204,7 @@ Say it: Hazel Mossgrove = HAY-zul MOSS-grove · Aldous Brock = ALL-dus BROCK
    File: hazel_night_03.wav
 
 40. Tell me if I get this wrong. I've read about it in exactly one book, and a woodcutter dropped it here before the mill was built.
-   Emotion: teasing. Deadpan joke; nervous underneath.
+   Emotion: shy. Deadpan joke; nervous underneath.
    File: hazel_night_04.wav
 
 41. Slowly. I've had two hundred years of nothing happening. I'd like this to take a while.
@@ -216,7 +216,7 @@ Say it: Hazel Mossgrove = HAY-zul MOSS-grove · Aldous Brock = ALL-dus BROCK
    File: hazel_night_21.wav
 
 43. And don't tell the ferns. They'll want details.
-   Emotion: teasing. Hushed, smiling.
+   Emotion: happy. Hushed, smiling.
    File: hazel_night_22.wav
 
 44. Sleep. I'll wake you if the miller comes. I might not.
@@ -239,7 +239,7 @@ Say it: Hazel Mossgrove = HAY-zul MOSS-grove · Aldous Brock = ALL-dus BROCK
    File: hazel_end_03.wav
 
 48. That one's fine. That one's fine. Not that one. I mean it. Don't.
-   Emotion: teasing. Escalating warning, trying not to laugh.
+   Emotion: happy. Escalating warning, trying not to laugh.
    File: hazel_end_04.wav
 
 49. Plant something near me. Something that needs watering every day, so you've got a reason to come by.

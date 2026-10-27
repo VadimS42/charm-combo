@@ -1484,7 +1484,7 @@
     "scene": "Meeting her",
     "context": "Her previous line: Nerissa. Don't. Don't you dare.",
     "line": "Gran, I'm fine. I was resting. I always rest like that.",
-    "emotion": "angry",
+    "emotion": "shy",
     "note": "Defensive and too fast. Nobody believes her, including her."
    },
    {
@@ -1572,7 +1572,7 @@
     "scene": "After chapter 1",
     "context": "Her previous line: That's off the comb's box. So it went in right here.",
     "line": "Fine. You're not a menace anymore. You can help me. Don't get excited.",
-    "emotion": "teasing",
+    "emotion": "neutral",
     "note": "Classic tsundere delivery."
    },
    {
@@ -1732,7 +1732,7 @@
     "scene": "After chapter 4 (last scene)",
     "context": "You bring it down to the pier after dark. She holds it for a long time without saying anything.",
     "line": "It's not even scratched.",
-    "emotion": "happy",
+    "emotion": "shy",
     "note": "Barely holding it together. Small."
    },
    {
@@ -2121,7 +2121,7 @@
     {
      "k": "s",
      "t": "Gran, I'm fine. I was resting. I always rest like that.",
-     "e": "angry",
+     "e": "shy",
      "d": "Defensive and too fast. Nobody believes her, including her.",
      "id": "marina_intro_03"
     },
@@ -2252,7 +2252,7 @@
       {
        "k": "s",
        "t": "Fine. You're not a menace anymore. You can help me. Don't get excited.",
-       "e": "teasing",
+       "e": "neutral",
        "d": "Classic tsundere delivery.",
        "id": "marina_ch1_02"
       },
@@ -2507,12 +2507,12 @@
       {
        "k": "n",
        "t": "You bring it down to the pier after dark. She holds it for a long time without saying anything.",
-       "e": "happy"
+       "e": "shy"
       },
       {
        "k": "s",
        "t": "It's not even scratched.",
-       "e": "happy",
+       "e": "shy",
        "d": "Barely holding it together. Small.",
        "id": "marina_ch4_01"
       },
@@ -2533,7 +2533,7 @@
       {
        "k": "n",
        "t": "The pier's quiet apart from the Thursday tile game at the far end, where the three old fishermen are arguing about the score again.",
-       "e": "teasing"
+       "e": "neutral"
       },
       {
        "k": "s",
@@ -4393,7 +4393,7 @@
     "scene": "Meeting her",
     "context": "Her previous line: Oh. You're putting it down. Most of them argue first.",
     "line": "The last one argued with the axe still in his hands, so I dropped a beehive on him. I wouldn't do that to you. Your face is too nice to waste on bees.",
-    "emotion": "teasing",
+    "emotion": "neutral",
     "note": "Bone-dry, perfectly pleasant. The compliment comes out in the same flat tone."
    },
    {
@@ -4433,7 +4433,7 @@
     "scene": "Meeting her: reply 2",
     "context": "You said: I'll dig. I'm keeping the miller's money, though.",
     "line": "Keep it. Buy yourself a better axe and never use it.",
-    "emotion": "teasing",
+    "emotion": "neutral",
     "note": "Dry, amused."
    },
    {
@@ -4449,7 +4449,7 @@
     "scene": "After chapter 1",
     "context": "You dig until sunset. The trench ends up about the length of a coffin, which she points out twice.",
     "line": "That's a lovely trench, if you're planning to bury somebody. For a millrace it's a start.",
-    "emotion": "teasing",
+    "emotion": "neutral",
     "note": "Teasing, unhurried."
    },
    {
@@ -4489,7 +4489,7 @@
     "scene": "After chapter 1: reply 2",
     "context": "You said: If I'd known you liked it, I'd have come by sooner.",
     "line": "You came by with an axe.",
-    "emotion": "teasing",
+    "emotion": "neutral",
     "note": "Instant, deadpan."
    },
    {
@@ -4505,7 +4505,7 @@
     "scene": "After chapter 2",
     "context": "When you get back, a branch creaks overhead in a way that sounds very deliberate.",
     "line": "The ferns say you walked the miller's daughter to the footbridge. That's fine. I'm sure no branch will fall on her. Fairly sure.",
-    "emotion": "teasing",
+    "emotion": "angry",
     "note": "Calm and pleasant, and jealous. The threat is polite."
    },
    {
@@ -4521,7 +4521,7 @@
     "scene": "After chapter 2",
     "context": "Her previous line: Her father came by too. You've got till the end of the month. Then he hires someone with a saw.",
     "line": "So dig faster. I've started making plans for summer, and you're in most of them.",
-    "emotion": "neutral",
+    "emotion": "shy",
     "note": "Light on top, real fear underneath; the second half is softer."
    },
    {
@@ -4601,7 +4601,7 @@
     "scene": "After chapter 3: reply 2",
     "context": "You said: I'll list everyone in town you'd like to drop a branch on.",
     "line": "Start with the baker. He leans on me when he smokes.",
-    "emotion": "teasing",
+    "emotion": "happy",
     "note": "Perking up, wicked."
    },
    {
@@ -4657,7 +4657,7 @@
     "scene": "Her night scene (full-screen CG)",
     "context": "Her previous line: Two hundred years people have walked past this tree. Not one of them ever lay down under it. Shift over, you're on a root.",
     "line": "The badgers are watching. I told them to go away. Nobody in this grove listens to me.",
-    "emotion": "teasing",
+    "emotion": "neutral",
     "note": "Bone-dry, a little shy under it."
    },
    {
@@ -4673,7 +4673,7 @@
     "scene": "Her night scene (full-screen CG)",
     "context": "She pulls you down by your shirt. Her hair falls round you both, gold at the top and green at the ends, and it smells of rain.",
     "line": "Tell me if I get this wrong. I've read about it in exactly one book, and a woodcutter dropped it here before the mill was built.",
-    "emotion": "teasing",
+    "emotion": "shy",
     "note": "Deadpan joke; nervous underneath."
    },
    {
@@ -4697,7 +4697,7 @@
     "scene": "Her night scene (full-screen CG)",
     "context": "Her previous line: Don't look at the leaves. They're being ridiculous.",
     "line": "And don't tell the ferns. They'll want details.",
-    "emotion": "teasing",
+    "emotion": "happy",
     "note": "Hushed, smiling."
    },
    {
@@ -4737,7 +4737,7 @@
     "scene": "Her ending: the morning after",
     "context": "She shows you which branches you can sit on and which ones she's ticklish about. The second list is long.",
     "line": "That one's fine. That one's fine. Not that one. I mean it. Don't.",
-    "emotion": "teasing",
+    "emotion": "happy",
     "note": "Escalating warning, trying not to laugh."
    },
    {
@@ -4996,7 +4996,7 @@
     {
      "k": "s",
      "t": "The last one argued with the axe still in his hands, so I dropped a beehive on him. I wouldn't do that to you. Your face is too nice to waste on bees.",
-     "e": "teasing",
+     "e": "neutral",
      "d": "Bone-dry, perfectly pleasant. The compliment comes out in the same flat tone.",
      "id": "hazel_intro_05"
     },
@@ -5055,7 +5055,7 @@
        {
         "k": "s",
         "t": "Keep it. Buy yourself a better axe and never use it.",
-        "e": "teasing",
+        "e": "neutral",
         "d": "Dry, amused.",
         "id": "hazel_intro_r2_01"
        },
@@ -5082,7 +5082,7 @@
       {
        "k": "s",
        "t": "That's a lovely trench, if you're planning to bury somebody. For a millrace it's a start.",
-       "e": "teasing",
+       "e": "neutral",
        "d": "Teasing, unhurried.",
        "id": "hazel_ch1_01"
       },
@@ -5142,7 +5142,7 @@
          {
           "k": "s",
           "t": "You came by with an axe.",
-          "e": "teasing",
+          "e": "neutral",
           "d": "Instant, deadpan.",
           "id": "hazel_ch1_r2_01"
          },
@@ -5169,12 +5169,12 @@
       {
        "k": "n",
        "t": "When you get back, a branch creaks overhead in a way that sounds very deliberate.",
-       "e": "teasing"
+       "e": "angry"
       },
       {
        "k": "s",
        "t": "The ferns say you walked the miller's daughter to the footbridge. That's fine. I'm sure no branch will fall on her. Fairly sure.",
-       "e": "teasing",
+       "e": "angry",
        "d": "Calm and pleasant, and jealous. The threat is polite.",
        "id": "hazel_ch2_01"
       },
@@ -5192,7 +5192,7 @@
       {
        "k": "s",
        "t": "So dig faster. I've started making plans for summer, and you're in most of them.",
-       "e": "neutral",
+       "e": "shy",
        "d": "Light on top, real fear underneath; the second half is softer.",
        "id": "hazel_ch2_03"
       }
@@ -5318,7 +5318,7 @@
          {
           "k": "s",
           "t": "Start with the baker. He leans on me when he smokes.",
-          "e": "teasing",
+          "e": "happy",
           "d": "Perking up, wicked.",
           "id": "hazel_ch3_r2_01"
          },
@@ -5409,7 +5409,7 @@
      {
       "k": "s",
       "t": "The badgers are watching. I told them to go away. Nobody in this grove listens to me.",
-      "e": "teasing",
+      "e": "neutral",
       "d": "Bone-dry, a little shy under it.",
       "id": "hazel_night_02"
      },
@@ -5431,7 +5431,7 @@
      {
       "k": "s",
       "t": "Tell me if I get this wrong. I've read about it in exactly one book, and a woodcutter dropped it here before the mill was built.",
-      "e": "teasing",
+      "e": "shy",
       "d": "Deadpan joke; nervous underneath.",
       "id": "hazel_night_04"
      },
@@ -5462,7 +5462,7 @@
      {
       "k": "s",
       "t": "And don't tell the ferns. They'll want details.",
-      "e": "teasing",
+      "e": "happy",
       "d": "Hushed, smiling.",
       "id": "hazel_night_22"
      },
@@ -5520,7 +5520,7 @@
        {
         "k": "s",
         "t": "That one's fine. That one's fine. Not that one. I mean it. Don't.",
-        "e": "teasing",
+        "e": "happy",
         "d": "Escalating warning, trying not to laugh.",
         "id": "hazel_end_04"
        },

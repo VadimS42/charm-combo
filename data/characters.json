@@ -1124,7 +1124,7 @@
     {
      "k": "s",
      "t": "Gran, I'm fine. I was resting. I always rest like that.",
-     "e": "angry",
+     "e": "shy",
      "d": "Defensive and too fast. Nobody believes her, including her.",
      "id": "marina_intro_03"
     },
@@ -1255,7 +1255,7 @@
       {
        "k": "s",
        "t": "Fine. You're not a menace anymore. You can help me. Don't get excited.",
-       "e": "teasing",
+       "e": "neutral",
        "d": "Classic tsundere delivery.",
        "id": "marina_ch1_02"
       },
@@ -1510,12 +1510,12 @@
       {
        "k": "n",
        "t": "You bring it down to the pier after dark. She holds it for a long time without saying anything.",
-       "e": "happy"
+       "e": "shy"
       },
       {
        "k": "s",
        "t": "It's not even scratched.",
-       "e": "happy",
+       "e": "shy",
        "d": "Barely holding it together. Small.",
        "id": "marina_ch4_01"
       },
@@ -1536,7 +1536,7 @@
       {
        "k": "n",
        "t": "The pier's quiet apart from the Thursday tile game at the far end, where the three old fishermen are arguing about the score again.",
-       "e": "teasing"
+       "e": "neutral"
       },
       {
        "k": "s",
@@ -2932,7 +2932,7 @@
     {
      "k": "s",
      "t": "The last one argued with the axe still in his hands, so I dropped a beehive on him. I wouldn't do that to you. Your face is too nice to waste on bees.",
-     "e": "teasing",
+     "e": "neutral",
      "d": "Bone-dry, perfectly pleasant. The compliment comes out in the same flat tone.",
      "id": "hazel_intro_05"
     },
@@ -2991,7 +2991,7 @@
        {
         "k": "s",
         "t": "Keep it. Buy yourself a better axe and never use it.",
-        "e": "teasing",
+        "e": "neutral",
         "d": "Dry, amused.",
         "id": "hazel_intro_r2_01"
        },
@@ -3018,7 +3018,7 @@
       {
        "k": "s",
        "t": "That's a lovely trench, if you're planning to bury somebody. For a millrace it's a start.",
-       "e": "teasing",
+       "e": "neutral",
        "d": "Teasing, unhurried.",
        "id": "hazel_ch1_01"
       },
@@ -3078,7 +3078,7 @@
          {
           "k": "s",
           "t": "You came by with an axe.",
-          "e": "teasing",
+          "e": "neutral",
           "d": "Instant, deadpan.",
           "id": "hazel_ch1_r2_01"
          },
@@ -3105,12 +3105,12 @@
       {
        "k": "n",
        "t": "When you get back, a branch creaks overhead in a way that sounds very deliberate.",
-       "e": "teasing"
+       "e": "angry"
       },
       {
        "k": "s",
        "t": "The ferns say you walked the miller's daughter to the footbridge. That's fine. I'm sure no branch will fall on her. Fairly sure.",
-       "e": "teasing",
+       "e": "angry",
        "d": "Calm and pleasant, and jealous. The threat is polite.",
        "id": "hazel_ch2_01"
       },
@@ -3128,7 +3128,7 @@
       {
        "k": "s",
        "t": "So dig faster. I've started making plans for summer, and you're in most of them.",
-       "e": "neutral",
+       "e": "shy",
        "d": "Light on top, real fear underneath; the second half is softer.",
        "id": "hazel_ch2_03"
       }
@@ -3254,7 +3254,7 @@
          {
           "k": "s",
           "t": "Start with the baker. He leans on me when he smokes.",
-          "e": "teasing",
+          "e": "happy",
           "d": "Perking up, wicked.",
           "id": "hazel_ch3_r2_01"
          },
@@ -3345,7 +3345,7 @@
      {
       "k": "s",
       "t": "The badgers are watching. I told them to go away. Nobody in this grove listens to me.",
-      "e": "teasing",
+      "e": "neutral",
       "d": "Bone-dry, a little shy under it.",
       "id": "hazel_night_02"
      },
@@ -3367,7 +3367,7 @@
      {
       "k": "s",
       "t": "Tell me if I get this wrong. I've read about it in exactly one book, and a woodcutter dropped it here before the mill was built.",
-      "e": "teasing",
+      "e": "shy",
       "d": "Deadpan joke; nervous underneath.",
       "id": "hazel_night_04"
      },
@@ -3398,7 +3398,7 @@
      {
       "k": "s",
       "t": "And don't tell the ferns. They'll want details.",
-      "e": "teasing",
+      "e": "happy",
       "d": "Hushed, smiling.",
       "id": "hazel_night_22"
      },
@@ -3456,7 +3456,7 @@
        {
         "k": "s",
         "t": "That one's fine. That one's fine. Not that one. I mean it. Don't.",
-        "e": "teasing",
+        "e": "happy",
         "d": "Escalating warning, trying not to laugh.",
         "id": "hazel_end_04"
        },
