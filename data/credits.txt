@@ -3,8 +3,17 @@ Charm Combo
 Game design & writing — (your name / studio)
 Character art — (artist)
 Backgrounds — (artist)
-Music & sound — (composer)
 Programming — (your name / studio)
+
+Music
+Main theme: "Sweet Serene" by Fablefly Music
+Hazel's theme: "Enchanted Hollow" by Eric Matyas, www.soundimage.org
+Amara's theme: "Sexy Scene Instrumentals Vol. 4" by Sascha Ende (ende.app), licensed under CC BY 4.0
+Marina's theme: "Underwater Theme II" by Cleyton Kauffman (CC0)
+Opal's theme: "Binary Underwater Village" by Alex McCulloch (Pro Sensory) (CC0)
+Night scenes: "Sexy Scene Vol. 3 [With Ultra Sexy Voice]" by Sascha Ende (ende.app), licensed under CC BY 4.0
+Endings: "morning_2d" by (composer: fill in)
+CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
 
 Special thanks — (everyone who playtested)
 

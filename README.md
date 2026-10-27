@@ -17,6 +17,15 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-26 — the soundtrack is in
+
+- All seven music tracks in `audio/music/` (menu, each girl, night, ending),
+  converted to .ogg and evened out to the same loudness (-20 LUFS, a little
+  under the voice lines). Marina's track got a 30 ms fade at the end to stop
+  the click where it loops. Composers and licences are in `data/credits.txt`
+  (shown on the Credits screen; the CC BY tracks need it) and
+  `docs/ART_LIST.md`. The ending track's composer still needs filling in.
+
 ## ✅ Status: round-25 — Hazel's achievements, see-through dialogue box
 
 - **Achievements are Hazel-only for now** (16): meeting her, each chapter,

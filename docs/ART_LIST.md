@@ -288,15 +288,15 @@ Capsules: game art + logo only — no review scores, awards or sale text.
 
 An .ogg (or .mp3/.wav) at `audio/music/<track>.ogg` loops on its screens with a crossfade; missing tracks fall back to her theme, then `menu`. The Music slider shows in Settings once any track exists.
 
-| Track | Plays on |
-|---|---|
-| `audio/music/menu.ogg` | Main menu, roster, gallery, store, credits. On its own it already covers the whole game. |
-| `audio/music/succubus.ogg` | Amara's story: her conversations and chapters. |
-| `audio/music/mermaid.ogg` | Marina's story. |
-| `audio/music/slime.ogg` | Opal's story. |
-| `audio/music/dryad.ogg` | Hazel's story. |
-| `audio/music/night.ogg` | Every girl's night scene (otherwise her own theme plays). |
-| `audio/music/ending.ogg` | Every epilogue: its dialogue, story beats and final picture. |
+| Track | Plays on | In the game |
+|---|---|---|
+| `audio/music/menu.ogg` | Main menu, roster, gallery, store, credits. On its own it already covers the whole game. | Sweet Serene — Fablefly Music |
+| `audio/music/succubus.ogg` | Amara's story: her conversations and chapters. | Sexy Scene Instrumentals Vol. 4 — Sascha Ende (CC BY 4.0) |
+| `audio/music/mermaid.ogg` | Marina's story. | Underwater Theme II — Cleyton Kauffman (CC0) |
+| `audio/music/slime.ogg` | Opal's story. | Binary Underwater Village — Alex McCulloch (CC0) |
+| `audio/music/dryad.ogg` | Hazel's story. | Enchanted Hollow — Eric Matyas |
+| `audio/music/night.ogg` | Every girl's night scene (otherwise her own theme plays). | Sexy Scene Vol. 3 — Sascha Ende (CC BY 4.0) |
+| `audio/music/ending.ogg` | Every epilogue: its dialogue, story beats and final picture. | morning_2d (composer: fill in) |
 
 ## Already in the game
 
