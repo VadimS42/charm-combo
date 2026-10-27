@@ -1,0 +1,410 @@
+AMARA DUSKROSE (Succubus, summoned by mistake)
+
+Voice: Amara Duskrose, succubus. Ancient, unhurried, precise. Low, dry, faintly old-fashioned; she finds sloppiness more offensive than rudeness. Flirting is slow and confident, never giggly. When she's actually hurt or scared she goes quiet and plain, not loud.
+Say it: Amara = ah-MAH-ruh · Duskrose = DUSK-rose · Duskhaven = DUSK-hay-vun · grimoire = grim-WAHR
+
+83 lines. Emotion = the portrait she shows; after it, how to deliver the line.
+
+
+== MEETING HER ==
+
+1. You summoned me with that pathetic chalk circle? Where did you even copy it from? Ugh, I was in the middle of something.
+   Emotion: angry. Just pulled out of the smoke. Irritated, but not shouting; more relaxed towards the end. She's more insulted by the sloppy circle than by being summoned.
+   File: amara_intro_01.wav
+
+2. Your second ring doesn't close. That sigil is upside down. And this one isn't a sigil at all, it's a coffee stain you traced.
+   Emotion: teasing. Picking it apart like a teacher marking homework. Dry, precise, enjoying it a little.
+   File: amara_intro_02.wav
+
+3. Well. It worked, which is insulting in its own way. Go on, then. Ask.
+   Emotion: neutral. Bored and businesslike. She has done this a thousand times.
+   File: amara_intro_03.wav
+
+4. What you want. Gold. Revenge. And sooner or later the other thing. They always get round to the other thing.
+   Emotion: teasing. A flat, tired list, then a knowing little drop on the last sentence.
+   File: amara_intro_04.wav
+
+5. It's the chalk. Cheap chalk gets in your throat.
+   Emotion: surprised. Caught off guard by the question. Brushes it off a beat too quickly.
+   File: amara_intro_05.wav
+
+6. Where did you get that.
+   Emotion: neutral. Quiet. Every bit of play gone. Not really a question.
+   File: amara_intro_06.wav
+
+7. Stay where you are. Don't break the circle. If that candle goes out, I go home, and I'm not done with you.
+   Emotion: angry. First half commanding, then flirtatious.
+   File: amara_intro_07.wav
+
+8. Careful. If you keep staring at me like that, I'll start thinking you summoned me on purpose.
+   Emotion: teasing. Playful and flirty.
+   File: amara_intro_08.wav
+
+9. This page is from my binding. The book that ties me to every circle anyone draws, however badly. Find all of it, burn it, and I'm free.
+   Emotion: neutral. Level and quiet, then a little hope she can't keep out of the last words.
+   File: amara_intro_09.wav
+
+10. It's somewhere in this building. I can feel it, like a draught. You're going to help me find it before anyone else does.
+   Emotion: neutral. Pulling herself back together. An order dressed up as a favour.
+   File: amara_intro_10.wav
+
+
+== MEETING HER: REPLY 1 ==
+
+11. You didn't ask what you get out of it.
+   Emotion: surprised. Genuinely thrown; slower than usual.
+   File: amara_intro_r1_01.wav
+
+12. Black cover. No title. It'll feel warm. Don't open it.
+   Emotion: neutral. Brisk again, but softer at the edges.
+   File: amara_intro_r1_02.wav
+
+
+== MEETING HER: REPLY 2 ==
+
+13. I'm a demon of the third circle, and you're making me wait for a returns cart.
+   Emotion: angry. Outraged, though some of it is put on.
+   File: amara_intro_r2_01.wav
+
+14. Faster. And alphabetise properly. I've seen your circle.
+   Emotion: teasing. Bossy, amused.
+   File: amara_intro_r2_02.wav
+
+
+== AFTER CHAPTER 1 ==
+
+15. It was here. Someone moved it, and not long ago.
+   Emotion: neutral. Focused, half to herself, like a detective at a crime scene.
+   File: amara_ch1_01.wav
+
+16. And you still haven't asked me for anything.
+   Emotion: teasing. Light on top, testing underneath.
+   File: amara_ch1_02.wav
+
+17. In my experience, the people who don't ask want something worse. So. What is it?
+   Emotion: neutral. Probing; guarded.
+   File: amara_ch1_03.wav
+
+
+== AFTER CHAPTER 1: REPLY 1 ==
+
+18. Amara. It's the one I use. The real one is in the book, along with everything else that keeps me on a leash.
+   Emotion: shy. Hesitant, then plain. Giving away something small but real.
+   File: amara_ch1_r1_01.wav
+
+19. Close enough. You can keep using it.
+   Emotion: happy. Pleased and trying not to show it.
+   File: amara_ch1_r1_02.wav
+
+
+== AFTER CHAPTER 1: REPLY 2 ==
+
+20. Smart. Unspent wishes don't expire. I knew a man who sat on one until he died.
+   Emotion: teasing. Amused; a dry little story she clearly enjoyed at the time.
+   File: amara_ch1_r2_01.wav
+
+21. Save it, then. I'll be watching you very closely until you spend it.
+   Emotion: teasing. Slow and flirtatious. More promise than threat.
+   File: amara_ch1_r2_02.wav
+
+
+== AFTER CHAPTER 2 ==
+
+22. Someone in this town knows exactly what that book is.
+   Emotion: angry. Cold, quiet anger. Not shouting.
+   File: amara_ch2_01.wav
+
+23. While you were in the basement, I read three of your romance novels. They're the same book three times.
+   Emotion: teasing. Dry, bored, enjoying being rude about it.
+   File: amara_ch2_02.wav
+
+24. In every one of them, he asks her for something by page twenty. You're well past page twenty.
+   Emotion: shy. Light on the surface, but it's a real question.
+   File: amara_ch2_03.wav
+
+
+== AFTER CHAPTER 2: REPLY 1 ==
+
+25. That isn't how this works.
+   Emotion: surprised. Thrown; almost defensive.
+   File: amara_ch2_r1_01.wav
+
+26. Fine. Enjoy it, then. Quietly. It's a library.
+   Emotion: happy. Softening; a smile she can't quite stop.
+   File: amara_ch2_r1_02.wav
+
+
+== AFTER CHAPTER 2: REPLY 2 ==
+
+27. Then I'll read faster for both of us.
+   Emotion: teasing. Low and amused.
+   File: amara_ch2_r2_01.wav
+
+28. Page two hundred and four. Out loud, please.
+   Emotion: teasing. A dare. Quiet, wicked.
+   File: amara_ch2_r2_02.wav
+
+
+== AFTER CHAPTER 3 ==
+
+29. He took it apart. To sell it page by page.
+   Emotion: sad. Shaken. Trying to sound clinical about it.
+   File: amara_ch3_01.wav
+
+30. Every one of those pages is part of my binding. Somebody in Duskhaven has been buying them.
+   Emotion: angry. Low and tight. Frightened, and showing it as anger.
+   File: amara_ch3_02.wav
+
+31. You could keep one, you know. Just one page. I wouldn't be able to refuse you anything.
+   Emotion: sad. Very quiet. She's testing you and dreading the answer.
+   File: amara_ch3_03.wav
+
+
+== AFTER CHAPTER 3: REPLY 1 ==
+
+32. You'd burn it.
+   Emotion: surprised. Stunned. Barely above a breath.
+   File: amara_ch3_r1_01.wav
+
+33. Then we'd better find them before anyone else does.
+   Emotion: shy. Steadier. Grateful, and not about to say so.
+   File: amara_ch3_r1_02.wav
+
+
+== AFTER CHAPTER 3: REPLY 2 ==
+
+34. I'd do it badly. Out of spite.
+   Emotion: teasing. Dry; relieved you're joking.
+   File: amara_ch3_r2_01.wav
+
+35. Come on. Binders keep ledgers. If he sold them, he wrote down who to.
+   Emotion: neutral. Back to business, brisk.
+   File: amara_ch3_r2_02.wav
+
+
+== AFTER CHAPTER 4 (LAST SCENE) ==
+
+36. That's all of them. I'm free. No more circles. Nobody can drag me anywhere ever again.
+   Emotion: neutral. Tired, light, almost disbelieving. Freedom hasn't sunk in yet.
+   File: amara_ch4_01.wav
+
+37. Most summonings end the moment someone gets what they asked for. You never asked for anything. So... I stayed.
+   Emotion: shy. Late at night, near the end of her story. Gentle, defenceless in a way.
+   File: amara_ch4_02.wav
+
+38. Still nothing?
+   Emotion: teasing. Soft teasing, a little breathless.
+   File: amara_ch4_03.wav
+
+39. Then I'll ask. Close the reading room door. Leave the candle.
+   Emotion: teasing. Low and unhurried. She's decided.
+   File: amara_ch4_04.wav
+
+
+== HER NIGHT SCENE (FULL-SCREEN CG) ==
+
+40. You've asked me twice not to sit on this table.
+   Emotion: teasing. Low, amused. She has no intention of getting down.
+   File: amara_night_01.wav
+
+41. I've been summoned four hundred and some times. Nobody's ever shut the door first. They're usually too busy telling me what to do.
+   Emotion: shy. Quiet, almost puzzled. The dryness is slipping.
+   File: amara_night_02.wav
+
+42. That's your fault. I'd like that on record.
+   Emotion: shy. Breathy, embarrassed and pleased about it.
+   File: amara_night_03.wav
+
+43. There are forty-one of those. I counted when I put it on. Take your time.
+   Emotion: teasing. Slow and flirtatious. A dare.
+   File: amara_night_04.wav
+
+44. Say it. The name I gave you.
+   Emotion: shy. Soft and close, a little unsteady.
+   File: amara_night_05.wav
+
+45. Close enough.
+   Emotion: happy. A whisper. She's smiling.
+   File: amara_night_06.wav
+
+46. I've been doing this for a very long time, and that was not on the list of things I expected from a library.
+   Emotion: happy. Breathless, dry, delighted.
+   File: amara_night_21.wav
+
+47. Don't look so pleased with yourself. Actually, no. Look exactly that pleased.
+   Emotion: teasing. Teasing, then giving in halfway through.
+   File: amara_night_22.wav
+
+48. Stay till the candle goes. Then stay anyway.
+   Emotion: shy. Gentle and unguarded. Nearly asleep.
+   File: amara_night_23.wav
+
+
+== WARM ENDING: THE MORNING AFTER ==
+
+49. The day librarian gets in at eight. I'd suggest we're dressed by then.
+   Emotion: shy. Dry and amused, with a little shyness under it.
+   File: amara_warm_01.wav
+
+50. I've never seen a morning from this side of a summoning. It's very bright. I don't hate it.
+   Emotion: happy. Quietly surprised at herself.
+   File: amara_warm_02.wav
+
+51. If you're going to draw these, you'll draw them properly. Nobody else is coming through a circle with a coffee stain in it.
+   Emotion: teasing. Bossy, fond.
+   File: amara_warm_03.wav
+
+52. This line here. That's where you'd put my name. If you ever wanted to call me. You won't need to. I'll be at the desk.
+   Emotion: shy. Starts as a lesson, ends as something else. Slows down.
+   File: amara_warm_04.wav
+
+53. They want an address for my library card. I don't have one. What do I put?
+   Emotion: neutral. Casual on purpose. She cares about the answer.
+   File: amara_warm_05.wav
+
+
+== WARM ENDING: FINAL REPLY 1 ==
+
+54. Yours. Fine. I'm bringing my own candles.
+   Emotion: happy. Trying for dry, landing on delighted.
+   File: amara_warm_r1_01.wav
+
+
+== WARM ENDING: FINAL REPLY 2 ==
+
+55. Living in the stacks. Scandalous. I accept.
+   Emotion: teasing. Playful, pleased.
+   File: amara_warm_r2_01.wav
+
+
+== TEASING ENDING: THE MORNING AFTER ==
+
+56. You talk in your sleep. Mostly about overdue fines. It was very romantic.
+   Emotion: teasing. Deadpan, delighted with herself.
+   File: amara_spark_01.wav
+
+57. I'm told this is the part where one of us makes breakfast. I don't know how. I assumed you'd find that charming.
+   Emotion: happy. Breezy, completely unbothered.
+   File: amara_spark_02.wav
+
+58. A summoning circle that only works on you. Correctly drawn. If you ever leave, I'll use it.
+   Emotion: teasing. Mock-sinister, enjoying the threat.
+   File: amara_spark_03.wav
+
+59. That was a joke. Mostly. Keep it in your wallet.
+   Emotion: shy. Backpedals a little, then means it.
+   File: amara_spark_04.wav
+
+60. Now. Are you going to keep pretending you don't want me to use it?
+   Emotion: teasing. Low, challenging, sure of the answer.
+   File: amara_spark_05.wav
+
+
+== TEASING ENDING: FINAL REPLY 1 ==
+
+61. Tonight, then. Bring the good candles.
+   Emotion: happy. Warm, eager, still cool on top.
+   File: amara_spark_r1_01.wav
+
+
+== TEASING ENDING: FINAL REPLY 2 ==
+
+62. You're going to be unbearable about this. Good.
+   Emotion: teasing. Mock-exasperated; she loves it.
+   File: amara_spark_r2_01.wav
+
+
+== GIFT SCENE (HAND-DIPPED BEESWAX CANDLE) ==
+
+63. Nine-hour wick. Hand-dipped. You know what this is for, don't you.
+   Emotion: surprised. Realising what the gift means; a little thrown. Not a question.
+   File: amara_gift_01.wav
+
+64. That's nine more hours you can't get rid of me. You did that on purpose.
+   Emotion: shy. Trying to sound accusing and failing; pleased.
+   File: amara_gift_02.wav
+
+
+== PUZZLE QUIP: YOU MATCHED HER FAVOURITE GEM ==
+
+65. Runes. Finally, someone in this town who can draw.
+   Emotion: neutral. Dry approval.
+   File: amara_fav_01.wav
+
+66. Clean lines. I'm almost proud of you.
+   Emotion: neutral. Grudging, a little warm.
+   File: amara_fav_02.wav
+
+67. That one would actually hold a demon.
+   Emotion: neutral. Professional, impressed.
+   File: amara_fav_03.wav
+
+68. Do that again. Slower.
+   Emotion: neutral. Low, flirty.
+   File: amara_fav_04.wav
+
+69. See? Closed rings. It isn't hard.
+   Emotion: neutral. Teacher who's been proven right.
+   File: amara_fav_05.wav
+
+70. Now that's a circle I'd step out of.
+   Emotion: neutral. Amused, flirtatious.
+   File: amara_fav_06.wav
+
+
+== PUZZLE QUIP: YOU MATCHED A GEM SHE DISLIKES ==
+
+71. Moonstone. It smells like a church.
+   Emotion: neutral. Wrinkling her nose.
+   File: amara_least_01.wav
+
+72. Don't. Moonstone makes my horns itch.
+   Emotion: neutral. Irritated, quick.
+   File: amara_least_02.wav
+
+73. Someone bought that off a market stall. I can tell.
+   Emotion: neutral. Snobbish, bored.
+   File: amara_least_03.wav
+
+74. Lunar nonsense. Next.
+   Emotion: neutral. Dismissive.
+   File: amara_least_04.wav
+
+75. Get that holy rock away from me.
+   Emotion: neutral. Recoiling, half joking.
+   File: amara_least_05.wav
+
+
+== PUZZLE QUIP: CHATTER WHILE YOU PLAY ==
+
+76. The book is in this building. Keep going.
+   Emotion: neutral. Focused, quiet urgency.
+   File: amara_chat_01.wav
+
+77. You're quicker than you look. You look quite slow.
+   Emotion: neutral. Deadpan tease.
+   File: amara_chat_02.wav
+
+78. I've been summoned by kings. They were worse at this.
+   Emotion: neutral. Bored brag.
+   File: amara_chat_03.wav
+
+79. Stop humming. Actually, no. Carry on.
+   Emotion: neutral. Annoyed, then she changes her mind.
+   File: amara_chat_04.wav
+
+80. Your shelving is a crime. This is better.
+   Emotion: neutral. Dry.
+   File: amara_chat_05.wav
+
+81. Eyes on the board. I'll still be here.
+   Emotion: neutral. Knowing, a little flirty.
+   File: amara_chat_06.wav
+
+82. If you find it before I do, don't open it.
+   Emotion: neutral. Serious; a real warning.
+   File: amara_chat_07.wav
+
+83. Mind the candle.
+   Emotion: neutral. Quick, protective, almost an order.
+   File: amara_chat_08.wav

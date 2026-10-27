@@ -28,12 +28,27 @@ static func build(main: Node, host: Control) -> void:
 	v.add_theme_constant_override("separation", 18)
 	host.add_child(v)
 
-	var title := UITheme.heading("Charm Combo", 40)
-	title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	v.add_child(title)
+	# The game's logo (art/ui/logo.png) when it exists, else the text title.
+	var logo_tex := ArtAssets.ui_icon("logo")
+	if logo_tex:
+		var logo := TextureRect.new()
+		logo.texture = logo_tex
+		logo.custom_minimum_size = Vector2(480, 150)
+		logo.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+		logo.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+		logo.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
+		v.add_child(logo)
+	else:
+		var title := UITheme.heading("Charm Combo", 44)
+		title.add_theme_color_override("font_color", UITheme.BERRY)
+		title.add_theme_color_override("font_shadow_color", Color(UITheme.PLUM.r, UITheme.PLUM.g, UITheme.PLUM.b, 0.22))
+		title.add_theme_constant_override("shadow_offset_y", 3)
+		title.add_theme_constant_override("shadow_offset_x", 0)
+		title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+		v.add_child(title)
 
 	var tag := UITheme.body(
-		"A cozy match-3 story set in Duskhaven, a twilight town where fantastical folk make their home. Clear the board, win over its guildmasters, and see where the friendship goes.",
+		"A match-3 romance for adults, set in Duskhaven, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes.",
 		14, UITheme.INK_SOFT)
 	tag.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	tag.custom_minimum_size = Vector2(460, 0)
@@ -44,9 +59,11 @@ static func build(main: Node, host: Control) -> void:
 	v.add_child(UITheme.spacer(6))
 
 	var play_btn := UITheme.make_primary_button("▶  Play")
+	UITheme.apply_icon(play_btn, "play", "Play")
 	play_btn.custom_minimum_size = Vector2(280, 52)
 	play_btn.pressed.connect(func():
 		SFX.nav()
+		main.menu_focus = "play"
 		main.show_roster()
 	)
 	var play_center := CenterContainer.new()
@@ -59,22 +76,58 @@ static func build(main: Node, host: Control) -> void:
 	v.add_child(row)
 
 	var store_btn := UITheme.make_ghost_button("🛍  Store")
+	UITheme.apply_icon(store_btn, "store", "Store")
 	store_btn.pressed.connect(func():
 		SFX.nav()
+		main.menu_focus = "store"
 		main.show_store()
 	)
 	row.add_child(store_btn)
 
 	var gallery_btn := UITheme.make_ghost_button("🖼  Gallery")
+	UITheme.apply_icon(gallery_btn, "gallery", "Gallery")
 	gallery_btn.pressed.connect(func():
 		SFX.nav()
+		main.menu_focus = "gallery"
 		main.show_gallery()
 	)
 	row.add_child(gallery_btn)
 
+	var ach_btn := UITheme.make_ghost_button("🏆  Achievements")
+	UITheme.apply_icon(ach_btn, "achievements", "Achievements")
+	ach_btn.pressed.connect(func():
+		SFX.nav()
+		main.menu_focus = "achievements"
+		main.show_achievements()
+	)
+	row.add_child(ach_btn)
+
+	var credits_btn := UITheme.make_ghost_button("✦  Credits")
+	UITheme.apply_icon(credits_btn, "credits", "Credits")
+	credits_btn.pressed.connect(func():
+		SFX.nav()
+		main.menu_focus = "credits"
+		main.show_credits()
+	)
+	row.add_child(credits_btn)
+
+	# Desktop builds need a way out besides the window's close button (and
+	# fullscreen has none). Not in the browser build, where the tab is the way
+	# out and "quitting" would just freeze the page.
+	if not OS.has_feature("web"):
+		var quit_btn := UITheme.make_ghost_button("✕  Quit")
+		UITheme.apply_icon(quit_btn, "quit", "Quit")
+		quit_btn.pressed.connect(func():
+			SFX.nav()
+			GameState.quit_game()
+		)
+		row.add_child(quit_btn)
+
 	v.add_child(UITheme.spacer(10))
-	var footnote := UITheme.soft_label(
-		"4 guildmasters of Duskhaven · original characters · no explicit content — just puzzles & wholesome fireside banter.", 11)
+	var foot_text := "18+ · original characters · all characters are adults."
+	if CharacterData.using_override():
+		foot_text += "\nTest build: using your edited characters.json from the game's folder."
+	var footnote := UITheme.soft_label(foot_text, 11)
 	footnote.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	# NOTE: without an explicit width, a word-wrapped Label reports a
 	# near-zero minimum width (just its longest word) and gets crushed down
@@ -85,3 +138,8 @@ static func build(main: Node, host: Control) -> void:
 	var foot_center := CenterContainer.new()
 	foot_center.add_child(footnote)
 	v.add_child(foot_center)
+
+	# Keys / a pad land on the button you left the menu through (Play at first).
+	var by_name := {"play": play_btn, "store": store_btn, "gallery": gallery_btn,
+		"achievements": ach_btn, "credits": credits_btn}
+	main.nav_setup(by_name.get(main.menu_focus, play_btn))

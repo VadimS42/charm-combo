@@ -16,6 +16,9 @@ var _playback: AudioStreamGeneratorPlayback
 
 func _ready() -> void:
 	_player = AudioStreamPlayer.new()
+	# The browser build plays sounds as Web Audio "samples" by default, which a
+	# generated stream can't be; stream it instead (no effect on desktop).
+	_player.playback_type = AudioServer.PLAYBACK_TYPE_STREAM
 	var gen := AudioStreamGenerator.new()
 	gen.mix_rate = SAMPLE_RATE
 	gen.buffer_length = 0.3
@@ -23,6 +26,15 @@ func _ready() -> void:
 	add_child(_player)
 	_player.play()
 	_playback = _player.get_stream_playback()
+
+
+## Lets go of the generator playback before the engine shuts down — holding
+## it through exit was reported as a leaked instance.
+func _exit_tree() -> void:
+	_playback = null
+	if is_instance_valid(_player):
+		_player.stop()
+		_player.stream = null
 
 
 func _enabled() -> bool:

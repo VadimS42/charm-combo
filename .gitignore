@@ -2,12 +2,22 @@
 .godot/
 .import/
 export.cfg
-export_presets.cfg
 *.translation
+# export_presets.cfg IS kept: the store presets (Steam / itch.io) live there.
+# Godot 4.3 keeps export passwords in .godot/export_credentials.cfg instead,
+# which the .godot/ line above already leaves out.
 
-# Build output
+# Build output (build/.gdignore stays, so Godot never imports exported files)
+/build/*
+!/build/.gdignore
 /builds/
 /exports/
+
+# Steam helper output
+/steam/achievement_icons/
+
+# Testing only, never commit or upload
+steam_appid.txt
 
 # OS cruft
 .DS_Store

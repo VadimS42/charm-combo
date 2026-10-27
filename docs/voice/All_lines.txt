@@ -1,0 +1,1621 @@
+AMARA DUSKROSE (Succubus, summoned by mistake)
+
+Voice: Amara Duskrose, succubus. Ancient, unhurried, precise. Low, dry, faintly old-fashioned; she finds sloppiness more offensive than rudeness. Flirting is slow and confident, never giggly. When she's actually hurt or scared she goes quiet and plain, not loud.
+Say it: Amara = ah-MAH-ruh · Duskrose = DUSK-rose · Duskhaven = DUSK-hay-vun · grimoire = grim-WAHR
+
+83 lines. Emotion = the portrait she shows; after it, how to deliver the line.
+
+
+== MEETING HER ==
+
+1. You summoned me with that pathetic chalk circle? Where did you even copy it from? Ugh, I was in the middle of something.
+   Emotion: angry. Just pulled out of the smoke. Irritated, but not shouting; more relaxed towards the end. She's more insulted by the sloppy circle than by being summoned.
+   File: amara_intro_01.wav
+
+2. Your second ring doesn't close. That sigil is upside down. And this one isn't a sigil at all, it's a coffee stain you traced.
+   Emotion: teasing. Picking it apart like a teacher marking homework. Dry, precise, enjoying it a little.
+   File: amara_intro_02.wav
+
+3. Well. It worked, which is insulting in its own way. Go on, then. Ask.
+   Emotion: neutral. Bored and businesslike. She has done this a thousand times.
+   File: amara_intro_03.wav
+
+4. What you want. Gold. Revenge. And sooner or later the other thing. They always get round to the other thing.
+   Emotion: teasing. A flat, tired list, then a knowing little drop on the last sentence.
+   File: amara_intro_04.wav
+
+5. It's the chalk. Cheap chalk gets in your throat.
+   Emotion: surprised. Caught off guard by the question. Brushes it off a beat too quickly.
+   File: amara_intro_05.wav
+
+6. Where did you get that.
+   Emotion: neutral. Quiet. Every bit of play gone. Not really a question.
+   File: amara_intro_06.wav
+
+7. Stay where you are. Don't break the circle. If that candle goes out, I go home, and I'm not done with you.
+   Emotion: angry. First half commanding, then flirtatious.
+   File: amara_intro_07.wav
+
+8. Careful. If you keep staring at me like that, I'll start thinking you summoned me on purpose.
+   Emotion: teasing. Playful and flirty.
+   File: amara_intro_08.wav
+
+9. This page is from my binding. The book that ties me to every circle anyone draws, however badly. Find all of it, burn it, and I'm free.
+   Emotion: neutral. Level and quiet, then a little hope she can't keep out of the last words.
+   File: amara_intro_09.wav
+
+10. It's somewhere in this building. I can feel it, like a draught. You're going to help me find it before anyone else does.
+   Emotion: neutral. Pulling herself back together. An order dressed up as a favour.
+   File: amara_intro_10.wav
+
+
+== MEETING HER: REPLY 1 ==
+
+11. You didn't ask what you get out of it.
+   Emotion: surprised. Genuinely thrown; slower than usual.
+   File: amara_intro_r1_01.wav
+
+12. Black cover. No title. It'll feel warm. Don't open it.
+   Emotion: neutral. Brisk again, but softer at the edges.
+   File: amara_intro_r1_02.wav
+
+
+== MEETING HER: REPLY 2 ==
+
+13. I'm a demon of the third circle, and you're making me wait for a returns cart.
+   Emotion: angry. Outraged, though some of it is put on.
+   File: amara_intro_r2_01.wav
+
+14. Faster. And alphabetise properly. I've seen your circle.
+   Emotion: teasing. Bossy, amused.
+   File: amara_intro_r2_02.wav
+
+
+== AFTER CHAPTER 1 ==
+
+15. It was here. Someone moved it, and not long ago.
+   Emotion: neutral. Focused, half to herself, like a detective at a crime scene.
+   File: amara_ch1_01.wav
+
+16. And you still haven't asked me for anything.
+   Emotion: teasing. Light on top, testing underneath.
+   File: amara_ch1_02.wav
+
+17. In my experience, the people who don't ask want something worse. So. What is it?
+   Emotion: neutral. Probing; guarded.
+   File: amara_ch1_03.wav
+
+
+== AFTER CHAPTER 1: REPLY 1 ==
+
+18. Amara. It's the one I use. The real one is in the book, along with everything else that keeps me on a leash.
+   Emotion: shy. Hesitant, then plain. Giving away something small but real.
+   File: amara_ch1_r1_01.wav
+
+19. Close enough. You can keep using it.
+   Emotion: happy. Pleased and trying not to show it.
+   File: amara_ch1_r1_02.wav
+
+
+== AFTER CHAPTER 1: REPLY 2 ==
+
+20. Smart. Unspent wishes don't expire. I knew a man who sat on one until he died.
+   Emotion: teasing. Amused; a dry little story she clearly enjoyed at the time.
+   File: amara_ch1_r2_01.wav
+
+21. Save it, then. I'll be watching you very closely until you spend it.
+   Emotion: teasing. Slow and flirtatious. More promise than threat.
+   File: amara_ch1_r2_02.wav
+
+
+== AFTER CHAPTER 2 ==
+
+22. Someone in this town knows exactly what that book is.
+   Emotion: angry. Cold, quiet anger. Not shouting.
+   File: amara_ch2_01.wav
+
+23. While you were in the basement, I read three of your romance novels. They're the same book three times.
+   Emotion: teasing. Dry, bored, enjoying being rude about it.
+   File: amara_ch2_02.wav
+
+24. In every one of them, he asks her for something by page twenty. You're well past page twenty.
+   Emotion: shy. Light on the surface, but it's a real question.
+   File: amara_ch2_03.wav
+
+
+== AFTER CHAPTER 2: REPLY 1 ==
+
+25. That isn't how this works.
+   Emotion: surprised. Thrown; almost defensive.
+   File: amara_ch2_r1_01.wav
+
+26. Fine. Enjoy it, then. Quietly. It's a library.
+   Emotion: happy. Softening; a smile she can't quite stop.
+   File: amara_ch2_r1_02.wav
+
+
+== AFTER CHAPTER 2: REPLY 2 ==
+
+27. Then I'll read faster for both of us.
+   Emotion: teasing. Low and amused.
+   File: amara_ch2_r2_01.wav
+
+28. Page two hundred and four. Out loud, please.
+   Emotion: teasing. A dare. Quiet, wicked.
+   File: amara_ch2_r2_02.wav
+
+
+== AFTER CHAPTER 3 ==
+
+29. He took it apart. To sell it page by page.
+   Emotion: sad. Shaken. Trying to sound clinical about it.
+   File: amara_ch3_01.wav
+
+30. Every one of those pages is part of my binding. Somebody in Duskhaven has been buying them.
+   Emotion: angry. Low and tight. Frightened, and showing it as anger.
+   File: amara_ch3_02.wav
+
+31. You could keep one, you know. Just one page. I wouldn't be able to refuse you anything.
+   Emotion: sad. Very quiet. She's testing you and dreading the answer.
+   File: amara_ch3_03.wav
+
+
+== AFTER CHAPTER 3: REPLY 1 ==
+
+32. You'd burn it.
+   Emotion: surprised. Stunned. Barely above a breath.
+   File: amara_ch3_r1_01.wav
+
+33. Then we'd better find them before anyone else does.
+   Emotion: shy. Steadier. Grateful, and not about to say so.
+   File: amara_ch3_r1_02.wav
+
+
+== AFTER CHAPTER 3: REPLY 2 ==
+
+34. I'd do it badly. Out of spite.
+   Emotion: teasing. Dry; relieved you're joking.
+   File: amara_ch3_r2_01.wav
+
+35. Come on. Binders keep ledgers. If he sold them, he wrote down who to.
+   Emotion: neutral. Back to business, brisk.
+   File: amara_ch3_r2_02.wav
+
+
+== AFTER CHAPTER 4 (LAST SCENE) ==
+
+36. That's all of them. I'm free. No more circles. Nobody can drag me anywhere ever again.
+   Emotion: neutral. Tired, light, almost disbelieving. Freedom hasn't sunk in yet.
+   File: amara_ch4_01.wav
+
+37. Most summonings end the moment someone gets what they asked for. You never asked for anything. So... I stayed.
+   Emotion: shy. Late at night, near the end of her story. Gentle, defenceless in a way.
+   File: amara_ch4_02.wav
+
+38. Still nothing?
+   Emotion: teasing. Soft teasing, a little breathless.
+   File: amara_ch4_03.wav
+
+39. Then I'll ask. Close the reading room door. Leave the candle.
+   Emotion: teasing. Low and unhurried. She's decided.
+   File: amara_ch4_04.wav
+
+
+== HER NIGHT SCENE (FULL-SCREEN CG) ==
+
+40. You've asked me twice not to sit on this table.
+   Emotion: teasing. Low, amused. She has no intention of getting down.
+   File: amara_night_01.wav
+
+41. I've been summoned four hundred and some times. Nobody's ever shut the door first. They're usually too busy telling me what to do.
+   Emotion: shy. Quiet, almost puzzled. The dryness is slipping.
+   File: amara_night_02.wav
+
+42. That's your fault. I'd like that on record.
+   Emotion: shy. Breathy, embarrassed and pleased about it.
+   File: amara_night_03.wav
+
+43. There are forty-one of those. I counted when I put it on. Take your time.
+   Emotion: teasing. Slow and flirtatious. A dare.
+   File: amara_night_04.wav
+
+44. Say it. The name I gave you.
+   Emotion: shy. Soft and close, a little unsteady.
+   File: amara_night_05.wav
+
+45. Close enough.
+   Emotion: happy. A whisper. She's smiling.
+   File: amara_night_06.wav
+
+46. I've been doing this for a very long time, and that was not on the list of things I expected from a library.
+   Emotion: happy. Breathless, dry, delighted.
+   File: amara_night_21.wav
+
+47. Don't look so pleased with yourself. Actually, no. Look exactly that pleased.
+   Emotion: teasing. Teasing, then giving in halfway through.
+   File: amara_night_22.wav
+
+48. Stay till the candle goes. Then stay anyway.
+   Emotion: shy. Gentle and unguarded. Nearly asleep.
+   File: amara_night_23.wav
+
+
+== WARM ENDING: THE MORNING AFTER ==
+
+49. The day librarian gets in at eight. I'd suggest we're dressed by then.
+   Emotion: shy. Dry and amused, with a little shyness under it.
+   File: amara_warm_01.wav
+
+50. I've never seen a morning from this side of a summoning. It's very bright. I don't hate it.
+   Emotion: happy. Quietly surprised at herself.
+   File: amara_warm_02.wav
+
+51. If you're going to draw these, you'll draw them properly. Nobody else is coming through a circle with a coffee stain in it.
+   Emotion: teasing. Bossy, fond.
+   File: amara_warm_03.wav
+
+52. This line here. That's where you'd put my name. If you ever wanted to call me. You won't need to. I'll be at the desk.
+   Emotion: shy. Starts as a lesson, ends as something else. Slows down.
+   File: amara_warm_04.wav
+
+53. They want an address for my library card. I don't have one. What do I put?
+   Emotion: neutral. Casual on purpose. She cares about the answer.
+   File: amara_warm_05.wav
+
+
+== WARM ENDING: FINAL REPLY 1 ==
+
+54. Yours. Fine. I'm bringing my own candles.
+   Emotion: happy. Trying for dry, landing on delighted.
+   File: amara_warm_r1_01.wav
+
+
+== WARM ENDING: FINAL REPLY 2 ==
+
+55. Living in the stacks. Scandalous. I accept.
+   Emotion: teasing. Playful, pleased.
+   File: amara_warm_r2_01.wav
+
+
+== TEASING ENDING: THE MORNING AFTER ==
+
+56. You talk in your sleep. Mostly about overdue fines. It was very romantic.
+   Emotion: teasing. Deadpan, delighted with herself.
+   File: amara_spark_01.wav
+
+57. I'm told this is the part where one of us makes breakfast. I don't know how. I assumed you'd find that charming.
+   Emotion: happy. Breezy, completely unbothered.
+   File: amara_spark_02.wav
+
+58. A summoning circle that only works on you. Correctly drawn. If you ever leave, I'll use it.
+   Emotion: teasing. Mock-sinister, enjoying the threat.
+   File: amara_spark_03.wav
+
+59. That was a joke. Mostly. Keep it in your wallet.
+   Emotion: shy. Backpedals a little, then means it.
+   File: amara_spark_04.wav
+
+60. Now. Are you going to keep pretending you don't want me to use it?
+   Emotion: teasing. Low, challenging, sure of the answer.
+   File: amara_spark_05.wav
+
+
+== TEASING ENDING: FINAL REPLY 1 ==
+
+61. Tonight, then. Bring the good candles.
+   Emotion: happy. Warm, eager, still cool on top.
+   File: amara_spark_r1_01.wav
+
+
+== TEASING ENDING: FINAL REPLY 2 ==
+
+62. You're going to be unbearable about this. Good.
+   Emotion: teasing. Mock-exasperated; she loves it.
+   File: amara_spark_r2_01.wav
+
+
+== GIFT SCENE (HAND-DIPPED BEESWAX CANDLE) ==
+
+63. Nine-hour wick. Hand-dipped. You know what this is for, don't you.
+   Emotion: surprised. Realising what the gift means; a little thrown. Not a question.
+   File: amara_gift_01.wav
+
+64. That's nine more hours you can't get rid of me. You did that on purpose.
+   Emotion: shy. Trying to sound accusing and failing; pleased.
+   File: amara_gift_02.wav
+
+
+== PUZZLE QUIP: YOU MATCHED HER FAVOURITE GEM ==
+
+65. Runes. Finally, someone in this town who can draw.
+   Emotion: neutral. Dry approval.
+   File: amara_fav_01.wav
+
+66. Clean lines. I'm almost proud of you.
+   Emotion: neutral. Grudging, a little warm.
+   File: amara_fav_02.wav
+
+67. That one would actually hold a demon.
+   Emotion: neutral. Professional, impressed.
+   File: amara_fav_03.wav
+
+68. Do that again. Slower.
+   Emotion: neutral. Low, flirty.
+   File: amara_fav_04.wav
+
+69. See? Closed rings. It isn't hard.
+   Emotion: neutral. Teacher who's been proven right.
+   File: amara_fav_05.wav
+
+70. Now that's a circle I'd step out of.
+   Emotion: neutral. Amused, flirtatious.
+   File: amara_fav_06.wav
+
+
+== PUZZLE QUIP: YOU MATCHED A GEM SHE DISLIKES ==
+
+71. Moonstone. It smells like a church.
+   Emotion: neutral. Wrinkling her nose.
+   File: amara_least_01.wav
+
+72. Don't. Moonstone makes my horns itch.
+   Emotion: neutral. Irritated, quick.
+   File: amara_least_02.wav
+
+73. Someone bought that off a market stall. I can tell.
+   Emotion: neutral. Snobbish, bored.
+   File: amara_least_03.wav
+
+74. Lunar nonsense. Next.
+   Emotion: neutral. Dismissive.
+   File: amara_least_04.wav
+
+75. Get that holy rock away from me.
+   Emotion: neutral. Recoiling, half joking.
+   File: amara_least_05.wav
+
+
+== PUZZLE QUIP: CHATTER WHILE YOU PLAY ==
+
+76. The book is in this building. Keep going.
+   Emotion: neutral. Focused, quiet urgency.
+   File: amara_chat_01.wav
+
+77. You're quicker than you look. You look quite slow.
+   Emotion: neutral. Deadpan tease.
+   File: amara_chat_02.wav
+
+78. I've been summoned by kings. They were worse at this.
+   Emotion: neutral. Bored brag.
+   File: amara_chat_03.wav
+
+79. Stop humming. Actually, no. Carry on.
+   Emotion: neutral. Annoyed, then she changes her mind.
+   File: amara_chat_04.wav
+
+80. Your shelving is a crime. This is better.
+   Emotion: neutral. Dry.
+   File: amara_chat_05.wav
+
+81. Eyes on the board. I'll still be here.
+   Emotion: neutral. Knowing, a little flirty.
+   File: amara_chat_06.wav
+
+82. If you find it before I do, don't open it.
+   Emotion: neutral. Serious; a real warning.
+   File: amara_chat_07.wav
+
+83. Mind the candle.
+   Emotion: neutral. Quick, protective, almost an order.
+   File: amara_chat_08.wav
+
+============================================================
+
+MARINA WAVERLY (Mermaid of Saltwick Cove)
+
+Voice: Marina Waverly, mermaid, the eldest of four sisters. Quick, blunt, sarcastic; talks faster when she's flustered and goes very short when she's hurt. Competent, proud, embarrassed by needing help. Calls you 'lifeguard' to needle you. No pirate voice, no sea-shanty accent.
+Say it: Marina = muh-REE-nuh · Waverly = WAY-vur-lee · Mari (her family's nickname) = MAH-ree · Nerissa = neh-RISS-uh · Saltwick = SALT-wick · Pellow = PELL-oh
+
+82 lines. Emotion = the portrait she shows; after it, how to deliver the line.
+
+
+== MEETING HER ==
+
+1. I was floating. On my back. I'm a mermaid, if you didn't notice, and you just dragged me out of my own cove in front of my entire family.
+   Emotion: angry. Angry: a stranger has just 'rescued' her from her own cove in front of her family. Furious, but it turns into embarrassment.
+   File: marina_intro_01.wav
+
+2. Nerissa. Don't. Don't you dare.
+   Emotion: angry. Hissed at her sister. Mortified.
+   File: marina_intro_02.wav
+
+3. Gran, I'm fine. I was resting. I always rest like that.
+   Emotion: angry. Defensive and too fast. Nobody believes her, including her.
+   File: marina_intro_03.wav
+
+4. Twenty minutes?
+   Emotion: surprised. Caught off guard. Quiet.
+   File: marina_intro_04.wav
+
+5. You... jumped in your clothes. For someone you'd never met.
+   Emotion: shy. Shy: she's just learned you jumped in because her family panicked for her. Quieter and slower, as if she's confused why you'd do it.
+   File: marina_intro_05.wav
+
+6. I wasn't resting. I was looking for something. Gran's pearl comb. It's the only thing she brought with her when she came to this cove, and she wears it every Midsummer Tide.
+   Emotion: neutral. Low and quick, checking nobody's listening.
+   File: marina_intro_06.wav
+
+7. I was meant to get it cleaned. I dropped it off the pier a week ago. Nobody knows.
+   Emotion: sad. Flat and ashamed. She hasn't said it out loud to anyone.
+   File: marina_intro_07.wav
+
+8. And you're not going to tell anyone either, are you, lifeguard.
+   Emotion: angry. Sounds like a threat. It's really a plea.
+   File: marina_intro_08.wav
+
+
+== MEETING HER: REPLY 1 ==
+
+9. You've helped enough for one day, lifeguard.
+   Emotion: angry. Snappish; embarrassed.
+   File: marina_intro_r1_01.wav
+
+10. Low tide's at six. If you happen to be on the pier, you're on the pier, I'm not asking, I'm just saying when low tide is.
+   Emotion: neutral. Grudging, looking anywhere but at you.
+   File: marina_intro_r1_02.wav
+
+
+== MEETING HER: REPLY 2 ==
+
+11. You want a thank-you? For that?
+   Emotion: angry. Incredulous, rising.
+   File: marina_intro_r2_01.wav
+
+12. There. Now we're even. Low tide's at six. Bring your other shoe.
+   Emotion: teasing. Smug, with a sneaky bit of warmth at the end.
+   File: marina_intro_r2_02.wav
+
+
+== AFTER CHAPTER 1 ==
+
+13. That's off the comb's box. So it went in right here.
+   Emotion: surprised. Quick intake of breath; hope she doesn't want to show.
+   File: marina_ch1_01.wav
+
+14. Fine. You're not a menace anymore. You can help me. Don't get excited.
+   Emotion: teasing. Classic tsundere delivery.
+   File: marina_ch1_02.wav
+
+15. I'll pay you, obviously. A reward, when we find it. It's a business arrangement, so you can stop smiling like that.
+   Emotion: angry. Tsundere: brisk and businesslike, flustered underneath. She's offering it so it can't look like a favour.
+   File: marina_ch1_03.wav
+
+
+== AFTER CHAPTER 1: REPLY 1 ==
+
+16. Don't say it like that. Like it matters.
+   Emotion: shy. Flustered, almost cross about it.
+   File: marina_ch1_r1_01.wav
+
+17. Six tomorrow, lifeguard.
+   Emotion: happy. Called over the water; she's smiling and you can hear it.
+   File: marina_ch1_r1_02.wav
+
+
+== AFTER CHAPTER 1: REPLY 2 ==
+
+18. I like having someone to hold the bucket.
+   Emotion: teasing. Dry, instant.
+   File: marina_ch1_r2_01.wav
+
+19. You hold it very well. That's all I'm admitting.
+   Emotion: happy. Teasing, warmer than she means it to be.
+   File: marina_ch1_r2_02.wav
+
+
+== AFTER CHAPTER 2 ==
+
+20. I'm fine. Midsummer Tide's in nine days, and I've checked maybe a third of the cove.
+   Emotion: angry. Snappish. Exhausted and refusing to show it.
+   File: marina_ch2_01.wav
+
+21. Huh. Nobody's ever told me to slow down. They just assume I've got it handled.
+   Emotion: sad. She's just been told she doesn't have to do everything herself. More serious. Short pause after 'Huh.'
+   File: marina_ch2_02.wav
+
+22. Nerissa keeps asking about the comb. I keep saying it's at the jeweller's. I'm running out of jewellers.
+   Emotion: shy. Tired joke; trying to keep it light.
+   File: marina_ch2_03.wav
+
+
+== AFTER CHAPTER 2: REPLY 1 ==
+
+23. She won't even be angry. She'll just say 'oh, Mari', the way Mum does.
+   Emotion: sad. Quiet. Dreading it.
+   File: marina_ch2_r1_01.wav
+
+24. Nine days. If we haven't found it by then, I'll tell her. Deal?
+   Emotion: neutral. Steadying herself; offering a handshake in a voice.
+   File: marina_ch2_r1_02.wav
+
+
+== AFTER CHAPTER 2: REPLY 2 ==
+
+25. That's actually good. She'd believe that.
+   Emotion: happy. Startled into laughing.
+   File: marina_ch2_r2_01.wav
+
+26. You're a terrible influence. Keep going.
+   Emotion: teasing. Fond, still giggling a little.
+   File: marina_ch2_r2_02.wav
+
+
+== AFTER CHAPTER 3 ==
+
+27. It's down there! I've checked everywhere else, it has to be down there!
+   Emotion: angry. Shouting over the storm. Frightened underneath.
+   File: marina_ch3_01.wav
+
+28. Their net. It went right through where I dropped it.
+   Emotion: surprised. The realisation lands. Breath caught.
+   File: marina_ch3_02.wav
+
+29. You're a genius, you're a soaked genius with one shoe, come here.
+   Emotion: happy. Giddy relief, half laughing.
+   File: marina_ch3_03.wav
+
+30. That was the storm. Don't make it a thing.
+   Emotion: shy. Flustered, too fast, cheeks burning.
+   File: marina_ch3_04.wav
+
+
+== AFTER CHAPTER 3: REPLY 1 ==
+
+31. Okay. A small thing.
+   Emotion: shy. Very quiet; can't look at you.
+   File: marina_ch3_r1_01.wav
+
+32. After the comb, it can be a big thing.
+   Emotion: happy. A shy grin breaking through.
+   File: marina_ch3_r1_02.wav
+
+
+== AFTER CHAPTER 3: REPLY 2 ==
+
+33. It was an excellent storm.
+   Emotion: teasing. Low, playful; she's recovered.
+   File: marina_ch3_r2_01.wav
+
+
+== AFTER CHAPTER 4 (LAST SCENE) ==
+
+34. It's not even scratched.
+   Emotion: happy. Barely holding it together. Small.
+   File: marina_ch4_01.wav
+
+35. Gran's going to wear it at the Tide and never know. Nobody's ever going to know you did this.
+   Emotion: shy. Quiet, a little wondering.
+   File: marina_ch4_02.wav
+
+36. I still owe you a reward. I haven't decided what it is yet. Don't look at me like that, I'm deciding.
+   Emotion: angry. Tsundere: snappish to cover how much she means it, and she already knows what she's going to offer.
+   File: marina_ch4_06.wav
+
+37. Most people come down here for the game. You keep coming back for me, don't you?
+   Emotion: teasing. Flirty, late at night, the two of you alone on the dock. Soft, half-teasing and half-hoping.
+   File: marina_ch4_03.wav
+
+38. The water's warm tonight.
+   Emotion: shy. Casual on purpose. It isn't casual.
+   File: marina_ch4_04.wav
+
+39. And this time, take your clothes off before you jump in.
+   Emotion: teasing. Bold, then she can't quite look at you.
+   File: marina_ch4_05.wav
+
+
+== HER NIGHT SCENE (FULL-SCREEN CG) ==
+
+40. You can actually swim. The first time, you looked like a coat someone had thrown off a pier.
+   Emotion: teasing. Fast and teasing, nerves underneath.
+   File: marina_night_01.wav
+
+41. Okay. I'm going to say something and you're not allowed to be nice about it.
+   Emotion: shy. Rushed. Bracing herself.
+   File: marina_night_02.wav
+
+42. I've thought about this. Not a lot. A normal amount. Every day since the pier.
+   Emotion: shy. Run-on and mortified, and completely honest.
+   File: marina_night_03.wav
+
+43. There. Now you can't go anywhere. That's a mermaid thing. It's very old. I just made it up.
+   Emotion: teasing. Laughing at herself; flirty.
+   File: marina_night_04.wav
+
+44. Boathouse. It's got a door. Gran can't see through doors. Probably.
+   Emotion: shy. Breathless. Half joking, completely serious about the door.
+   File: marina_night_05.wav
+
+45. That was. Okay. I don't have a word. I always have a word.
+   Emotion: happy. Breathless and giddy, lost for words for once.
+   File: marina_night_21.wav
+
+46. You've got sand on you. Everywhere. That's your problem, I'm not helping.
+   Emotion: teasing. Lazy, smug, fond.
+   File: marina_night_22.wav
+
+47. Don't go before morning. I'll know if you do. I'll hear the door.
+   Emotion: shy. Quiet and sleepy, meaning it.
+   File: marina_night_23.wav
+
+
+== WARM ENDING: THE MORNING AFTER ==
+
+48. Morning. Your clothes are on the rail. I wrung them out myself, so you can thank me.
+   Emotion: shy. Soft, pleased with herself, a bit shy that she's been watching.
+   File: marina_warm_01.wav
+
+49. Gran's going to know. She always knows. She's going to look at me over breakfast and just know.
+   Emotion: happy. Mock dread, mostly giddy.
+   File: marina_warm_02.wav
+
+50. Gran's asked you to the family dinner, which is not a small thing, people have married into this family and never been asked to the family dinner.
+   Emotion: shy. Low, quick, moved and trying to hide it.
+   File: marina_warm_03.wav
+
+51. Dance with me later. Badly. I've got a tail, so we'll be bad at it together.
+   Emotion: happy. Warm, laughing.
+   File: marina_warm_04.wav
+
+52. So. Are you telling them how we met, or am I?
+   Emotion: teasing. Teasing, already planning to embarrass you.
+   File: marina_warm_05.wav
+
+
+== WARM ENDING: FINAL REPLY 1 ==
+
+53. I'm going to make you sound very brave. And very wet.
+   Emotion: happy. Gleeful.
+   File: marina_warm_r1_01.wav
+
+
+== WARM ENDING: FINAL REPLY 2 ==
+
+54. You can't leave out the shoe. The shoe's the best part.
+   Emotion: teasing. Outraged on the shoe's behalf.
+   File: marina_warm_r2_01.wav
+
+
+== TEASING ENDING: THE MORNING AFTER ==
+
+55. I'll be honest, I thought you'd be shyer. You jumped into the sea fully dressed. I assumed that made you a shy person.
+   Emotion: teasing. Delighted, teasing, very pleased with last night.
+   File: marina_spark_01.wav
+
+56. Mum's going to ask where I was. I'm going to say I was checking nets. Technically true. Look at you.
+   Emotion: happy. Wicked little laugh.
+   File: marina_spark_02.wav
+
+57. That's one rescue each. Write it down. Nerissa will want the numbers.
+   Emotion: teasing. Smug.
+   File: marina_spark_03.wav
+
+58. You can stay in a bit longer. I'm holding you up. It's fine.
+   Emotion: shy. Softer; she likes holding on.
+   File: marina_spark_04.wav
+
+59. Swimming lessons every night, or do I just keep rescuing you?
+   Emotion: teasing. Playful, a little challenging.
+   File: marina_spark_05.wav
+
+
+== TEASING ENDING: FINAL REPLY 1 ==
+
+60. Good answer. You'll never keep up. But good answer.
+   Emotion: happy. Fond, cocky.
+   File: marina_spark_r1_01.wav
+
+
+== TEASING ENDING: FINAL REPLY 2 ==
+
+61. Lazy. Fine. I'm keeping score.
+   Emotion: teasing. Mock-disapproving, pleased.
+   File: marina_spark_r2_01.wav
+
+
+== GIFT SCENE (FROSTED SEA-GLASS PENDANT) ==
+
+62. That's real. The sea made that. People tumble old bottles in a barrel and sell it as sea glass.
+   Emotion: surprised. Impressed despite herself; expert, a little indignant on its behalf.
+   File: marina_gift_01.wav
+
+63. I lose things. You've noticed. I'm not losing this one.
+   Emotion: shy. Soft and self-aware; half a joke.
+   File: marina_gift_02.wav
+
+
+== PUZZLE QUIP: YOU MATCHED HER FAVOURITE GEM ==
+
+64. Pearls. Gran would approve.
+   Emotion: neutral. Pleased, a little smug.
+   File: marina_fav_01.wav
+
+65. Nine of those and I'm off the hook.
+   Emotion: neutral. Wry, under her breath.
+   File: marina_fav_02.wav
+
+66. That's the good stuff. Again.
+   Emotion: neutral. Bright, bossy.
+   File: marina_fav_03.wav
+
+67. Pretty. Don't tell my sisters I said that.
+   Emotion: neutral. Quick, embarrassed.
+   File: marina_fav_04.wav
+
+68. Okay, that one was nice.
+   Emotion: neutral. Grudging praise.
+   File: marina_fav_05.wav
+
+69. Oh, that's smooth, why can't anything else this week be smooth?
+   Emotion: neutral. Fast, run-on, half laughing.
+   File: marina_fav_06.wav
+
+
+== PUZZLE QUIP: YOU MATCHED A GEM SHE DISLIKES ==
+
+70. Who brings fire to a pier?
+   Emotion: neutral. Sarcastic, baffled.
+   File: marina_least_01.wav
+
+71. Ugh. That's drier than Gran's sponge.
+   Emotion: neutral. Disgusted, then guilty about Gran.
+   File: marina_least_02.wav
+
+72. No. Absolutely not.
+   Emotion: neutral. Flat refusal.
+   File: marina_least_03.wav
+
+73. Who even likes those?
+   Emotion: neutral. Genuinely baffled.
+   File: marina_least_04.wav
+
+74. That's a dry-land gem. Put it back.
+   Emotion: neutral. Bossy.
+   File: marina_least_05.wav
+
+
+== PUZZLE QUIP: CHATTER WHILE YOU PLAY ==
+
+75. Nine days. Keep going.
+   Emotion: neutral. Tense, focused.
+   File: marina_chat_01.wav
+
+76. You're getting good at this. It's annoying.
+   Emotion: neutral. Grudging, a bit flirty.
+   File: marina_chat_02.wav
+
+77. Gran says hello. Gran says a lot of things.
+   Emotion: neutral. Long-suffering.
+   File: marina_chat_03.wav
+
+78. If Nerissa asks, we're friends. Who swim. At night.
+   Emotion: neutral. Fast, flustered.
+   File: marina_chat_04.wav
+
+79. Board, lifeguard. Not me.
+   Emotion: neutral. Teasing; caught you looking.
+   File: marina_chat_05.wav
+
+80. You still only have one shoe, you know.
+   Emotion: neutral. Deadpan.
+   File: marina_chat_06.wav
+
+81. Mum wants to feed you. Consider yourself warned.
+   Emotion: neutral. Wry.
+   File: marina_chat_07.wav
+
+82. Faster. Tide's turning.
+   Emotion: neutral. Brisk, urgent.
+   File: marina_chat_08.wav
+
+============================================================
+
+OPAL (Slime, formerly of a jar)
+
+Voice: Opal, slime. An adult who spent thirty-one years hiding in a jar in the woods north of Duskhaven, listening to people on the path. Soft, polite, a little formal; stutters on the first word when she's nervous, apologises and then corrects herself. Very exact about her collection (counts, where each thing came from). Gets braver and funnier as the story goes on. Shy, never childish.
+Say it: Opal = OH-pul · Ambrose = AM-brohz · Coombs = KOOMZ
+
+80 lines. Emotion = the portrait she shows; after it, how to deliver the line.
+
+
+== MEETING HER ==
+
+1. Why would you do that?
+   Emotion: angry. Angry, but not confident.
+   File: opal_intro_01.wav
+
+2. I was fine. It was quiet in there.
+   Emotion: angry. Says it annoyed, kind of under her breath.
+   File: opal_intro_02.wav
+
+3. Ambrose wrote that label. He was the forester. When the alchemists came round buying slimes, he hid me out here. It worked for thirty-one years.
+   Emotion: neutral. Small and precise. A little proud of him.
+   File: opal_intro_03.wav
+
+4. He used to tap on the glass every morning. Twice. So I'd know it was him.
+   Emotion: sad. Fond and very quiet. She hasn't said this out loud since he died.
+   File: opal_intro_04.wav
+
+5. Where are my things? They were here. In rows. I-I had them in rows.
+   Emotion: surprised. Rising alarm, trying to stay polite.
+   File: opal_intro_05.wav
+
+6. Those are mine. I-I've been collecting them for years.
+   Emotion: sad. You lost her things. She's trying to be strict, but she's too shy to actually tell you off.
+   File: opal_intro_06.wav
+
+7. Four hundred and twelve buttons. Twenty-six keys. A glass eye. Everyone who comes through these woods drops something, and I kept it.
+   Emotion: sad. Reciting to hold herself together. The numbers steady her voice; the last sentence wobbles.
+   File: opal_intro_07.wav
+
+
+== MEETING HER: REPLY 1 ==
+
+8. Every one? That's four hundred and twelve buttons.
+   Emotion: surprised. Startled, hope creeping in.
+   File: opal_intro_r1_01.wav
+
+9. Okay. The stream comes out under the Mill Bridge, in town. Things wash up there. People pick them up.
+   Emotion: shy. Nervous, convincing herself.
+   File: opal_intro_r1_02.wav
+
+
+== MEETING HER: REPLY 2 ==
+
+10. It was a joke. He laughed at it every single morning for thirty-one years.
+   Emotion: angry. Prickly, protective of him.
+   File: opal_intro_r2_01.wav
+
+11. The stream goes to town. We're going. You're carrying me.
+   Emotion: neutral. Surprisingly firm. She's decided.
+   File: opal_intro_r2_02.wav
+
+
+== AFTER CHAPTER 1 ==
+
+12. Th-thank you. Sorry. Thank you.
+   Emotion: shy. Shy, stutters.
+   File: opal_ch1_01.wav
+
+13. This one's off a sea captain's coat. Thirty winters ago. He'd come up from the coast for the forest air, to cure his seasickness. I always thought that was a strange job to have, if you get seasick.
+   Emotion: happy. Warming up; precise, a little wry.
+   File: opal_ch1_02.wav
+
+14. The keys went to a locksmith, he says. And the glass eye went to someone who needed a glass eye, I suppose.
+   Emotion: neutral. A small dry joke, testing whether you'll laugh.
+   File: opal_ch1_03.wav
+
+
+== AFTER CHAPTER 1: REPLY 1 ==
+
+15. You want to hear about buttons?
+   Emotion: surprised. Disbelieving, delighted.
+   File: opal_ch1_r1_01.wav
+
+16. Sorry. I don't usually get to tell anyone.
+   Emotion: shy. Suddenly self-conscious.
+   File: opal_ch1_r1_02.wav
+
+
+== AFTER CHAPTER 1: REPLY 2 ==
+
+17. They're not strangers. I heard every one of them go by. From the jar.
+   Emotion: angry. Offended, firm for once.
+   File: opal_ch1_r2_01.wav
+
+18. That sounds strange out loud. Don't answer that.
+   Emotion: shy. Hearing herself; embarrassed.
+   File: opal_ch1_r2_02.wav
+
+
+== AFTER CHAPTER 2 ==
+
+19. Alchemists boil slimes down for glue. Did you know that? Twelve shillings a pound.
+   Emotion: sad. Quiet and matter-of-fact. Frightened underneath.
+   File: opal_ch2_01.wav
+
+20. That's why Ambrose put me in the jar. Nobody looks inside a jar of pickled newts. We were the same age when he did it, near enough. He got old.
+   Emotion: sad. Fond, grieving, matter-of-fact about the last part; slimes don't age the way people do.
+   File: opal_ch2_02.wav
+
+21. They start clearing on quarter day. After that I need somewhere else to be quiet.
+   Emotion: neutral. Trying very hard to sound practical.
+   File: opal_ch2_03.wav
+
+
+== AFTER CHAPTER 2: REPLY 1 ==
+
+22. W-with you? Where would I even...
+   Emotion: shy. Flustered, stumbling over it.
+   File: opal_ch2_r1_01.wav
+
+23. I'd want my own jar. Just to start. Is that strange?
+   Emotion: happy. Shy, hopeful, braver than she sounds.
+   File: opal_ch2_r1_02.wav
+
+
+== AFTER CHAPTER 2: REPLY 2 ==
+
+24. Against an alchemist? You sold my buttons for two coppers and bought them back for six.
+   Emotion: surprised. Startled into teasing.
+   File: opal_ch2_r2_01.wav
+
+25. I'd like to see that, actually.
+   Emotion: happy. Shy smile you can hear.
+   File: opal_ch2_r2_02.wav
+
+
+== AFTER CHAPTER 3 ==
+
+26. Ex-excuse me. That's my eye. Not my eye. It's in my collection. I'd like it back, please.
+   Emotion: shy. Terrified and stammering, then firm on 'please'.
+   File: opal_ch3_01.wav
+
+27. I did that. Did you see? I did that out loud.
+   Emotion: happy. Breathless, giddy disbelief.
+   File: opal_ch3_02.wav
+
+28. Don't put me back in the jar yet. I want to go home on my own. Well. Not walk. You know.
+   Emotion: shy. Excited, then shy about how she moves.
+   File: opal_ch3_03.wav
+
+
+== AFTER CHAPTER 3: REPLY 1 ==
+
+29. Stop. I'll go cloudy.
+   Emotion: shy. Flustered, half laughing.
+   File: opal_ch3_r1_01.wav
+
+30. You can hold my hand. If you don't mind it being a bit... wet.
+   Emotion: shy. Shy offer; means a lot to her.
+   File: opal_ch3_r1_02.wav
+
+
+== AFTER CHAPTER 3: REPLY 2 ==
+
+31. Obviously we're getting the second owl.
+   Emotion: teasing. Dry and instant. A new side of her.
+   File: opal_ch3_r2_01.wav
+
+32. They're a pair. I'm not splitting up a pair.
+   Emotion: happy. Firm, pleased.
+   File: opal_ch3_r2_02.wav
+
+
+== AFTER CHAPTER 4 (LAST SCENE) ==
+
+33. It's all here. All of it. I counted three times.
+   Emotion: happy. Quietly overjoyed.
+   File: opal_ch4_01.wav
+
+34. I have to tell you something. I kept something of yours. On the first day.
+   Emotion: shy. Confessing; nervous.
+   File: opal_ch4_02.wav
+
+35. It's the first thing in a new collection. Things that are yours.
+   Emotion: shy. Soft, almost scared to say it.
+   File: opal_ch4_03.wav
+
+36. C-can I sleep in your room tonight? Not in the jar. With you.
+   Emotion: shy. Halting, but she means every word. Asking, not hinting.
+   File: opal_ch4_04.wav
+
+37. Turn the lamp down a bit? Everything shows, with me.
+   Emotion: shy. Embarrassed, with a small laugh.
+   File: opal_ch4_05.wav
+
+
+== HER NIGHT SCENE (FULL-SCREEN CG) ==
+
+38. Oh. I didn't know I did that. That's embarrassing. Do it again.
+   Emotion: shy. Startled and flustered, then brave.
+   File: opal_night_01.wav
+
+39. I should tell you I don't know what I'm doing. I've only heard about this. Through glass. People say a lot on a forest path when they think no one's listening.
+   Emotion: shy. Halting, honest, a little funny.
+   File: opal_night_02.wav
+
+40. Mostly couples who thought they'd found somewhere private. So I know a lot about not lying down in nettles.
+   Emotion: neutral. Deadpan, testing whether you'll laugh.
+   File: opal_night_03.wav
+
+41. I-is that all right? Tell me if it's strange. You can say it's strange.
+   Emotion: shy. Nervous and hopeful. She needs to hear the answer.
+   File: opal_night_04.wav
+
+42. There are four hundred and forty-one things in my collection. I'm trying to work out how to write a card for tonight.
+   Emotion: happy. Drowsy, shy, delighted.
+   File: opal_night_21.wav
+
+43. It's going to need a very long card.
+   Emotion: shy. A small, pleased laugh.
+   File: opal_night_22.wav
+
+44. Th-thank you. Sorry. No. Not sorry. Thank you.
+   Emotion: shy. Her first thank-you again, but this time she catches the 'sorry' and takes it back. She means it.
+   File: opal_night_23.wav
+
+
+== WARM ENDING: THE MORNING AFTER ==
+
+45. Sorry. I spread out in my sleep. I didn't know that. I've never slept anywhere big enough to find out.
+   Emotion: shy. Embarrassed, half laughing.
+   File: opal_warm_01.wav
+
+46. I've started a card for last night. For the collection. I'm on my fourth draft.
+   Emotion: happy. Pleased with herself, shy about it.
+   File: opal_warm_02.wav
+
+47. The baker asked my name. I told him. Then I told him about buttons for a while. He was very patient.
+   Emotion: happy. Proud, breathless.
+   File: opal_warm_03.wav
+
+48. I'm going back tomorrow. He does a seeded loaf on Thursdays.
+   Emotion: shy. Quietly determined, trying to make it sound ordinary.
+   File: opal_warm_04.wav
+
+49. The jar. Should I keep it? I haven't been in it for a week. I still check it's there.
+   Emotion: neutral. Thoughtful, a little vulnerable.
+   File: opal_warm_05.wav
+
+
+== WARM ENDING: FINAL REPLY 1 ==
+
+50. For storms. Okay. Just for storms.
+   Emotion: shy. Relieved.
+   File: opal_warm_r1_01.wav
+
+
+== WARM ENDING: FINAL REPLY 2 ==
+
+51. Oh. Yes. The jar I used to live in. Item nought. It goes before everything.
+   Emotion: happy. A delighted little realisation.
+   File: opal_warm_r2_01.wav
+
+
+== TEASING ENDING: THE MORNING AFTER ==
+
+52. Item four hundred and forty-two. Shirt, slightly torn. Acquired last night.
+   Emotion: teasing. Deadpan, then she can't hold in the laugh.
+   File: opal_spark_01.wav
+
+53. You can have it back. If you ask nicely. Very nicely.
+   Emotion: shy. Shy and flirty at once; amazed at her own nerve.
+   File: opal_spark_02.wav
+
+54. Eleven. In one night. People are so careless. I love them.
+   Emotion: happy. Gleeful.
+   File: opal_spark_03.wav
+
+55. Next week, the dance. I'm going to step on everyone. I don't have feet, so it won't hurt.
+   Emotion: teasing. Cheeky, very pleased with the joke.
+   File: opal_spark_04.wav
+
+56. Do I have to wait for you to drop things? I could just take them. I'm asking first.
+   Emotion: teasing. Playful, a little bold, very polite about it.
+   File: opal_spark_05.wav
+
+
+== TEASING ENDING: FINAL REPLY 1 ==
+
+57. Whatever I like? You shouldn't say things like that to a collector.
+   Emotion: shy. Flustered and delighted.
+   File: opal_spark_r1_01.wav
+
+
+== TEASING ENDING: FINAL REPLY 2 ==
+
+58. Then I'll just follow you round. Quietly. I'm very good at floors.
+   Emotion: teasing. Sly, soft, pleased with the joke.
+   File: opal_spark_r2_01.wav
+
+
+== GIFT SCENE (OLD GLASS MARBLE) ==
+
+59. Gold swirl. They stopped making these before I went in the jar. Where did you even find it?
+   Emotion: surprised. Awestruck, quiet. The collector in her is very excited.
+   File: opal_gift_01.wav
+
+60. I-it's not going on the shelf. It stays with me. In here. Is that all right?
+   Emotion: shy. Shy and stuttering, a little overwhelmed.
+   File: opal_gift_02.wav
+
+
+== PUZZLE QUIP: YOU MATCHED HER FAVOURITE GEM ==
+
+61. Ooh. That's going in the... sorry. Habit.
+   Emotion: neutral. Delighted, then embarrassed.
+   File: opal_fav_01.wav
+
+62. Crystal. I'd keep that one.
+   Emotion: neutral. Soft, covetous.
+   File: opal_fav_02.wav
+
+63. Pretty. Like a button, but better.
+   Emotion: neutral. Earnest.
+   File: opal_fav_03.wav
+
+64. That catches the light. Do another.
+   Emotion: neutral. Eager.
+   File: opal_fav_04.wav
+
+65. Clear all the way through. Like me.
+   Emotion: neutral. Shy little joke.
+   File: opal_fav_05.wav
+
+66. That was very nice. Thank you.
+   Emotion: neutral. Polite, sincere.
+   File: opal_fav_06.wav
+
+
+== PUZZLE QUIP: YOU MATCHED A GEM SHE DISLIKES ==
+
+67. Runes. Like on the alchemists' jars.
+   Emotion: neutral. Uneasy.
+   File: opal_least_01.wav
+
+68. I don't like those. Sorry.
+   Emotion: neutral. Small, apologetic.
+   File: opal_least_02.wav
+
+69. Th-that's a sealing mark. Please don't.
+   Emotion: neutral. Nervous stutter.
+   File: opal_least_03.wav
+
+70. Can we not? Please?
+   Emotion: neutral. Quiet plea.
+   File: opal_least_04.wav
+
+71. Runes make my edges go fizzy.
+   Emotion: neutral. Uncomfortable, a little funny.
+   File: opal_least_05.wav
+
+
+== PUZZLE QUIP: CHATTER WHILE YOU PLAY ==
+
+72. You're doing well. I'm counting.
+   Emotion: neutral. Encouraging, precise.
+   File: opal_chat_01.wav
+
+73. Sorry. I'm watching. Is that all right?
+   Emotion: neutral. Shy.
+   File: opal_chat_02.wav
+
+74. Four hundred and twelve. I check every night.
+   Emotion: neutral. Proud, matter-of-fact.
+   File: opal_chat_03.wav
+
+75. It's loud out here. You're the good kind of loud.
+   Emotion: neutral. Soft, fond.
+   File: opal_chat_04.wav
+
+76. If you drop anything, I'll find it.
+   Emotion: neutral. Helpful, sincere.
+   File: opal_chat_05.wav
+
+77. You hum when you think. It's nice.
+   Emotion: neutral. Shy compliment.
+   File: opal_chat_06.wav
+
+78. I'm a bit pink right now. Ignore it.
+   Emotion: neutral. Flustered.
+   File: opal_chat_07.wav
+
+79. Ambrose would have liked you. He liked people who apologise.
+   Emotion: neutral. Warm, a little sad.
+   File: opal_chat_08.wav
+
+80. Th-that was good. That was really good.
+   Emotion: neutral. Excited stutter.
+   File: opal_chat_09.wav
+
+============================================================
+
+HAZEL MOSSGROVE (Dryad of the old hazel)
+
+Voice: Hazel Mossgrove, dryad, bound to an old hazel tree for about two hundred years. Slow, calm, warm, few words. Her threats are polite and her jokes are bone-dry; she rarely raises her voice. Lonely underneath and not used to company. Jealousy comes out as calm, playful menace.
+Say it: Hazel Mossgrove = HAY-zul MOSS-grove · Aldous Brock = ALL-dus BROCK
+
+80 lines. Emotion = the portrait she shows; after it, how to deliver the line.
+
+
+== MEETING HER ==
+
+1. Don't even think about it.
+   Emotion: angry. You're about to cut her tree. Calm, but threatening.
+   File: hazel_intro_01.wav
+
+2. You'd have struck just below my heart. It would take... forty years or so to heal.
+   Emotion: sad. Calm, not angry, a little sad.
+   File: hazel_intro_02.wav
+
+3. Aldous sent you. He sends someone every spring.
+   Emotion: neutral. Dry and matter-of-fact. Tired more than cross.
+   File: hazel_intro_03.wav
+
+4. Oh. You're putting it down. Most of them argue first.
+   Emotion: surprised. Mildly surprised. A little disarmed.
+   File: hazel_intro_04.wav
+
+5. The last one tried to reason with me while he was still holding the axe. I dropped a beehive on him.
+   Emotion: teasing. Bone-dry, perfectly pleasant.
+   File: hazel_intro_05.wav
+
+6. I know about the wall. My roots go where the water is. They don't ask me first.
+   Emotion: sad. Tired. She's had this argument with herself for years.
+   File: hazel_intro_06.wav
+
+7. If someone dug him a new channel, further out, I could follow it. It would take a season. Nobody's ever offered to dig.
+   Emotion: neutral. Plain statement. A small hope she won't admit to.
+   File: hazel_intro_07.wav
+
+
+== MEETING HER: REPLY 1 ==
+
+8. By hand? You'll be at it till midsummer.
+   Emotion: surprised. Slow disbelief, a little touched under it.
+   File: hazel_intro_r1_01.wav
+
+9. Start by the alder. The ground's soft there. I'll tell you when you hit a root.
+   Emotion: happy. Practical, warmer than before.
+   File: hazel_intro_r1_02.wav
+
+
+== MEETING HER: REPLY 2 ==
+
+10. Keep it. Buy a better axe and never use it.
+   Emotion: teasing. Dry, amused.
+   File: hazel_intro_r2_01.wav
+
+11. Start by the alder. If you hit a root, apologise to it.
+   Emotion: neutral. Deadpan. She means the apology.
+   File: hazel_intro_r2_02.wav
+
+
+== AFTER CHAPTER 1 ==
+
+12. That's a good trench. For a grave. For a millrace, it's a start.
+   Emotion: teasing. Teasing, unhurried.
+   File: hazel_ch1_01.wav
+
+13. Oh, you're warm... No one's touched me without an axe in years.
+   Emotion: surprised. Surprised and affectionate.
+   File: hazel_ch1_02.wav
+
+14. Leave it there a minute. It's been a long winter.
+   Emotion: shy. Quiet, a little embarrassed to ask.
+   File: hazel_ch1_03.wav
+
+
+== AFTER CHAPTER 1: REPLY 1 ==
+
+15. Since the grove was a forest. Two hundred years, give or take a drought.
+   Emotion: sad. Matter-of-fact, the sadness well buried.
+   File: hazel_ch1_r1_01.wav
+
+16. It isn't so bad. The badgers visit. They're terrible company.
+   Emotion: happy. Lifting it with a dry joke.
+   File: hazel_ch1_r1_02.wav
+
+
+== AFTER CHAPTER 1: REPLY 2 ==
+
+17. You came by with an axe.
+   Emotion: teasing. Instant, deadpan.
+   File: hazel_ch1_r2_01.wav
+
+18. But I'll allow it. Bring the shovel tomorrow. Leave the axe.
+   Emotion: happy. Warm, playful.
+   File: hazel_ch1_r2_02.wav
+
+
+== AFTER CHAPTER 2 ==
+
+19. The ferns tell me you were talking to the miller's daughter. I'm not jealous. But I might drop a branch near her, that's all.
+   Emotion: teasing. Jealous and playful.
+   File: hazel_ch2_01.wav
+
+20. Her father came by this morning. He'll give you until the end of the month. Then he hires someone with a saw.
+   Emotion: sad. Calm on the surface; worry underneath.
+   File: hazel_ch2_02.wav
+
+21. Dig faster. I'd like to see another spring.
+   Emotion: neutral. Light on top, real fear underneath.
+   File: hazel_ch2_03.wav
+
+
+== AFTER CHAPTER 2: REPLY 1 ==
+
+22. I know. The ferns mentioned that too.
+   Emotion: shy. Soft, caught out.
+   File: hazel_ch2_r1_01.wav
+
+23. Eat your lunch. She makes good bread, apparently.
+   Emotion: happy. A tiny bit petty, mostly fond.
+   File: hazel_ch2_r1_02.wav
+
+
+== AFTER CHAPTER 2: REPLY 2 ==
+
+24. That's autumn.
+   Emotion: angry. Clipped, flustered.
+   File: hazel_ch2_r2_01.wav
+
+25. Dig your trench.
+   Emotion: shy. Mortified, very dignified about it.
+   File: hazel_ch2_r2_02.wav
+
+
+== AFTER CHAPTER 3 ==
+
+26. It's fine. It's just roots. They have to let go of the old wall, and they don't like it.
+   Emotion: sad. Strained. Trying to sound calm and not quite managing.
+   File: hazel_ch3_01.wav
+
+27. You didn't have to stay. It's cold. You'll get ill and blame me.
+   Emotion: shy. Gruff, grateful underneath.
+   File: hazel_ch3_02.wav
+
+28. Talk to me. About anything. What did you have for breakfast?
+   Emotion: sad. Small, strained; asking for help is hard for her, so she makes it about breakfast.
+   File: hazel_ch3_03.wav
+
+
+== AFTER CHAPTER 3: REPLY 1 ==
+
+29. There were wolves. And a family of woodcutters who sang while they worked. I liked them, even though they were woodcutters.
+   Emotion: happy. Drifting into a memory; fond, a little wry.
+   File: hazel_ch3_r1_01.wav
+
+30. You're still warm. Good.
+   Emotion: shy. Barely a murmur, to herself as much as to you.
+   File: hazel_ch3_r1_02.wav
+
+
+== AFTER CHAPTER 3: REPLY 2 ==
+
+31. Start with the baker. He leans on me when he smokes.
+   Emotion: teasing. Perking up, wicked.
+   File: hazel_ch3_r2_01.wav
+
+32. Then the miller. Then the miller again.
+   Emotion: happy. Laughing through the pain.
+   File: hazel_ch3_r2_02.wav
+
+
+== AFTER CHAPTER 4 (LAST SCENE) ==
+
+33. He's never done that. Forty springs, and he's never once done that.
+   Emotion: surprised. Quietly moved. Almost a whisper.
+   File: hazel_ch4_01.wav
+
+34. I can walk as far as my roots go. They go a long way now. Thanks to someone.
+   Emotion: shy. Shy and warm; won't say your name.
+   File: hazel_ch4_02.wav
+
+35. The moss on the east side is softer than it looks.
+   Emotion: teasing. Low and slow. An invitation she's pretending is a fact about moss.
+   File: hazel_ch4_03.wav
+
+36. Stay tonight. I'll keep the rain off.
+   Emotion: happy. Warm, certain.
+   File: hazel_ch4_04.wav
+
+
+== HER NIGHT SCENE (FULL-SCREEN CG) ==
+
+37. Two hundred springs I've watched people walk past this tree. Not one of them ever lay down under it.
+   Emotion: neutral. Slow and calm, quietly amazed.
+   File: hazel_night_01.wav
+
+38. The badgers are watching. I told them to go away. Nobody in this grove listens to me.
+   Emotion: teasing. Bone-dry, a little shy under it.
+   File: hazel_night_02.wav
+
+39. That's you. You did that. A month of you leaning on me with your sleeves rolled up.
+   Emotion: shy. Soft, almost accusing. Fond.
+   File: hazel_night_03.wav
+
+40. Tell me if I get this wrong. I've read about it in exactly one book, and a woodcutter dropped it here before the mill was built.
+   Emotion: teasing. Deadpan joke; nervous underneath.
+   File: hazel_night_04.wav
+
+41. Slowly. I've got all the time in the world, and I'd like to spend some of it on this.
+   Emotion: shy. Calm, warm, certain.
+   File: hazel_night_05.wav
+
+42. Don't look at the leaves. They're being ridiculous.
+   Emotion: shy. Embarrassed. She can't control them and she knows you know.
+   File: hazel_night_21.wav
+
+43. And don't tell the ferns.
+   Emotion: teasing. Hushed, smiling.
+   File: hazel_night_22.wav
+
+44. Sleep. I'll wake you if the miller comes. I might not.
+   Emotion: happy. Warm and drowsy, a little wicked.
+   File: hazel_night_23.wav
+
+
+== WARM ENDING: THE MORNING AFTER ==
+
+45. Don't look at them. They're not for you. They're seasonal.
+   Emotion: shy. Flustered and a terrible liar, deadpan anyway.
+   File: hazel_warm_01.wav
+
+46. Fine. They're for you. I haven't flowered out of season since before the mill was built. People are going to talk.
+   Emotion: happy. Giving in; fond and a bit exasperated with herself.
+   File: hazel_warm_02.wav
+
+47. That one's fine. That one's fine. Not that one. I mean it. Don't.
+   Emotion: teasing. Escalating warning, trying not to laugh.
+   File: hazel_warm_03.wav
+
+48. Plant something near me. So there's something of yours here when you're not.
+   Emotion: shy. Simple, a little shy; she's thought about it.
+   File: hazel_warm_04.wav
+
+49. What will you plant? Choose carefully. It'll be here longer than either of us. Well. Longer than you.
+   Emotion: neutral. Gentle, dry correction at the end.
+   File: hazel_warm_05.wav
+
+
+== WARM ENDING: FINAL REPLY 1 ==
+
+50. A neighbour. I've never had a neighbour.
+   Emotion: shy. Quiet wonder.
+   File: hazel_warm_r1_01.wav
+
+
+== WARM ENDING: FINAL REPLY 2 ==
+
+51. Practical. I'll make sure it's the best apple tree in the county. Out of spite towards the other trees.
+   Emotion: teasing. Dry, competitive.
+   File: hazel_warm_r2_01.wav
+
+
+== TEASING ENDING: THE MORNING AFTER ==
+
+52. Oh, that? I don't control those when I'm asleep.
+   Emotion: teasing. An obvious lie told very calmly.
+   File: hazel_spark_01.wav
+
+53. I'm awake now. It's still there. Lie back down.
+   Emotion: happy. Warm, smug, sleepy.
+   File: hazel_spark_02.wav
+
+54. Trees creak. Ask anyone.
+   Emotion: teasing. Innocent, not even trying to be convincing.
+   File: hazel_spark_03.wav
+
+55. I'm keeping you. You understand that? Dryads don't do things by halves.
+   Emotion: neutral. Calm and serious under the play. She means it.
+   File: hazel_spark_04.wav
+
+56. Say so and I'll let go. I'd rather you didn't.
+   Emotion: teasing. Light on the surface, a real question underneath.
+   File: hazel_spark_05.wav
+
+
+== TEASING ENDING: FINAL REPLY 1 ==
+
+57. Good. I was going to anyway. This is nicer.
+   Emotion: happy. Content, a little wicked.
+   File: hazel_spark_r1_01.wav
+
+
+== TEASING ENDING: FINAL REPLY 2 ==
+
+58. I'm a tree. I'm very patient. Run.
+   Emotion: teasing. Slow, delighted menace.
+   File: hazel_spark_r2_01.wav
+
+
+== GIFT SCENE (BRASS POCKET SUNDIAL) ==
+
+59. A clock that only works when the sun's out. Someone finally made one that keeps sensible hours.
+   Emotion: surprised. Delighted, dry. A rare open smile in the voice.
+   File: hazel_gift_01.wav
+
+60. I'll keep it on the low branch. Where I can see it. And see you, coming up the path.
+   Emotion: shy. Quiet, shy, saying more than she planned to.
+   File: hazel_gift_02.wav
+
+
+== PUZZLE QUIP: YOU MATCHED HER FAVOURITE GEM ==
+
+61. Petals. Good. Those I understand.
+   Emotion: neutral. Content.
+   File: hazel_fav_01.wav
+
+62. Mm. That one smells like April.
+   Emotion: neutral. Dreamy, slow.
+   File: hazel_fav_02.wav
+
+63. Gently. Like that.
+   Emotion: neutral. Low, approving.
+   File: hazel_fav_03.wav
+
+64. You're good with soft things.
+   Emotion: neutral. Fond, a little suggestive.
+   File: hazel_fav_04.wav
+
+65. Blossom. You have my attention.
+   Emotion: neutral. Dry, pleased.
+   File: hazel_fav_05.wav
+
+66. That's lovely. Keep going.
+   Emotion: neutral. Warm.
+   File: hazel_fav_06.wav
+
+
+== PUZZLE QUIP: YOU MATCHED A GEM SHE DISLIKES ==
+
+67. Fire. In a grove. Really?
+   Emotion: neutral. Calm disapproval.
+   File: hazel_least_01.wav
+
+68. Put that out.
+   Emotion: neutral. Quiet order.
+   File: hazel_least_02.wav
+
+69. No. I've seen what those do.
+   Emotion: neutral. Grim, short.
+   File: hazel_least_03.wav
+
+70. Embers. I'll pretend I didn't see that.
+   Emotion: neutral. Dry.
+   File: hazel_least_04.wav
+
+71. Mind my leaves with that.
+   Emotion: neutral. Calm warning.
+   File: hazel_least_05.wav
+
+
+== PUZZLE QUIP: CHATTER WHILE YOU PLAY ==
+
+72. Slower. I can hear you panicking.
+   Emotion: neutral. Patient, dry.
+   File: hazel_chat_01.wav
+
+73. Forty years, I said. Mind where you swing.
+   Emotion: neutral. Dry reminder.
+   File: hazel_chat_02.wav
+
+74. The ferns are watching. They gossip.
+   Emotion: neutral. Conspiratorial.
+   File: hazel_chat_03.wav
+
+75. You've got mud on your face. Leave it. It suits you.
+   Emotion: neutral. Fond.
+   File: hazel_chat_04.wav
+
+76. Better than the last one Aldous sent.
+   Emotion: neutral. Faint praise, meant kindly.
+   File: hazel_chat_05.wav
+
+77. I'm not watching you. I'm photosynthesising.
+   Emotion: neutral. Deadpan lie.
+   File: hazel_chat_06.wav
+
+78. Take your time. I've got about three hundred years.
+   Emotion: neutral. Unhurried.
+   File: hazel_chat_07.wav
+
+79. If you see the miller, wave. It makes him nervous.
+   Emotion: neutral. Mischievous.
+   File: hazel_chat_08.wav
+
+80. The badgers think you're doing well. They're wrong, but it's sweet.
+   Emotion: neutral. Teasing.
+   File: hazel_chat_09.wav

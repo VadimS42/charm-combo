@@ -1,0 +1,12 @@
+Charm Combo
+
+Game design & writing — (your name / studio)
+Character art — (artist)
+Backgrounds — (artist)
+Music & sound — (composer)
+Programming — (your name / studio)
+
+Special thanks — (everyone who playtested)
+
+Edit this file (data/credits.txt) to fill these in. The Godot Engine license
+notices below are generated automatically and are required when you ship.

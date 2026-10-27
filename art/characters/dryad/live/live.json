@@ -1,0 +1,15 @@
+{
+ "blink_rect": [334, 121, 103, 52],
+ "blink_frames": 2,
+ "hair_root_y": 128,
+ "hair_tip_y": 610,
+ "wave_k": 0.009,
+ "breath_px": 2.4,
+ "breath_sec": 4.6,
+ "sway_px": 5.5,
+ "sway_sec": 5.8,
+ "head_px": 1.0,
+ "head_sec": 7.7,
+ "ambient": "leaves",
+ "ambient_colors": ["8DB46E", "B7C982", "6E8F4A", "C9D27A"]
+}

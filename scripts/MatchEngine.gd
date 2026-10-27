@@ -239,7 +239,17 @@ static func collapse_and_refill(board: Array, matched_set: Dictionary, weights =
 ## idle "here's a move" hint and for deadlock detection (new features — the
 ## original HTML prototype had neither, so there's no port to match here).
 ## Cheap enough for an 8x8 board to just brute-force every adjacent pair.
-static func find_valid_swap(board: Array) -> Dictionary:
+##
+## avoid_broken, when true, skips past any swap whose resulting match would
+## include a broken-heart cell (BROKEN_IDX) and keeps looking for a "clean"
+## one instead — used by the idle-hint UI, since nudging a stuck player
+## toward the one swap that costs them points reads as bad advice, not help.
+## A broken-heart-only swap is still remembered as a fallback and returned if
+## nothing cleaner exists, so has_valid_move()/the no-move reshuffle (which
+## call this with the default false) still correctly treat a board where
+## every remaining move happens to involve broken hearts as playable.
+static func find_valid_swap(board: Array, avoid_broken: bool = false) -> Dictionary:
+	var fallback := {}
 	for r in range(SIZE):
 		for c in range(SIZE):
 			for d in [Vector2i(0, 1), Vector2i(1, 0)]:
@@ -257,13 +267,37 @@ static func find_valid_swap(board: Array) -> Dictionary:
 				board[r][c] = t2
 				board[r2][c2] = t1
 				var result := analyze_matches(board, {"r": r2, "c": c2})
+				# Checked BEFORE reverting the swap below, so board[rr][cc]
+				# below still reflects the post-swap values analyze_matches
+				# actually scored.
+				var has_broken := false
+				if avoid_broken and not result.matched_cells.is_empty():
+					for key in result.matched_cells.keys():
+						var parts: PackedStringArray = String(key).split(",")
+						var rr := int(parts[0])
+						var cc := int(parts[1])
+						if board[rr][cc] == BROKEN_IDX:
+							has_broken = true
+							break
 				board[r][c] = t1
 				board[r2][c2] = t2
-				if not result.matched_cells.is_empty():
+				if result.matched_cells.is_empty():
+					continue
+				if not avoid_broken or not has_broken:
 					return {"r1": r, "c1": c, "r2": r2, "c2": c2}
-	return {}
+				elif fallback.is_empty():
+					fallback = {"r1": r, "c1": c, "r2": r2, "c2": c2}
+	return fallback
 
 
 ## True if any legal move exists anywhere on the board.
 static func has_valid_move(board: Array) -> bool:
+	# Any special on the board is a move in itself — swapping it with any
+	# neighbour detonates it (PuzzleScreen._attempt_swap()). Ignoring that used
+	# to treat a board whose only moves were specials as dead and rebuild it,
+	# deleting the specials (a paid Starburst Starter included).
+	for r in range(SIZE):
+		for c in range(SIZE):
+			if is_special(board[r][c]):
+				return true
 	return not find_valid_swap(board).is_empty()

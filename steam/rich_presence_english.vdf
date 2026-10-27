@@ -1,0 +1,11 @@
+"lang"
+{
+	"Language"	"english"
+	"Tokens"
+	{
+		"#Status_Menu"		"Wandering Duskhaven"
+		"#Status_Chapter"	"Chapter %chapter% of %girl%'s story"
+		"#Status_Story"		"Talking with %girl%"
+		"#Status_Ending"	"Seeing %girl%'s story to its end"
+	}
+}

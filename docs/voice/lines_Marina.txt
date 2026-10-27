@@ -1,0 +1,406 @@
+MARINA WAVERLY (Mermaid of Saltwick Cove)
+
+Voice: Marina Waverly, mermaid, the eldest of four sisters. Quick, blunt, sarcastic; talks faster when she's flustered and goes very short when she's hurt. Competent, proud, embarrassed by needing help. Calls you 'lifeguard' to needle you. No pirate voice, no sea-shanty accent.
+Say it: Marina = muh-REE-nuh · Waverly = WAY-vur-lee · Mari (her family's nickname) = MAH-ree · Nerissa = neh-RISS-uh · Saltwick = SALT-wick · Pellow = PELL-oh
+
+82 lines. Emotion = the portrait she shows; after it, how to deliver the line.
+
+
+== MEETING HER ==
+
+1. I was floating. On my back. I'm a mermaid, if you didn't notice, and you just dragged me out of my own cove in front of my entire family.
+   Emotion: angry. Angry: a stranger has just 'rescued' her from her own cove in front of her family. Furious, but it turns into embarrassment.
+   File: marina_intro_01.wav
+
+2. Nerissa. Don't. Don't you dare.
+   Emotion: angry. Hissed at her sister. Mortified.
+   File: marina_intro_02.wav
+
+3. Gran, I'm fine. I was resting. I always rest like that.
+   Emotion: angry. Defensive and too fast. Nobody believes her, including her.
+   File: marina_intro_03.wav
+
+4. Twenty minutes?
+   Emotion: surprised. Caught off guard. Quiet.
+   File: marina_intro_04.wav
+
+5. You... jumped in your clothes. For someone you'd never met.
+   Emotion: shy. Shy: she's just learned you jumped in because her family panicked for her. Quieter and slower, as if she's confused why you'd do it.
+   File: marina_intro_05.wav
+
+6. I wasn't resting. I was looking for something. Gran's pearl comb. It's the only thing she brought with her when she came to this cove, and she wears it every Midsummer Tide.
+   Emotion: neutral. Low and quick, checking nobody's listening.
+   File: marina_intro_06.wav
+
+7. I was meant to get it cleaned. I dropped it off the pier a week ago. Nobody knows.
+   Emotion: sad. Flat and ashamed. She hasn't said it out loud to anyone.
+   File: marina_intro_07.wav
+
+8. And you're not going to tell anyone either, are you, lifeguard.
+   Emotion: angry. Sounds like a threat. It's really a plea.
+   File: marina_intro_08.wav
+
+
+== MEETING HER: REPLY 1 ==
+
+9. You've helped enough for one day, lifeguard.
+   Emotion: angry. Snappish; embarrassed.
+   File: marina_intro_r1_01.wav
+
+10. Low tide's at six. If you happen to be on the pier, you're on the pier, I'm not asking, I'm just saying when low tide is.
+   Emotion: neutral. Grudging, looking anywhere but at you.
+   File: marina_intro_r1_02.wav
+
+
+== MEETING HER: REPLY 2 ==
+
+11. You want a thank-you? For that?
+   Emotion: angry. Incredulous, rising.
+   File: marina_intro_r2_01.wav
+
+12. There. Now we're even. Low tide's at six. Bring your other shoe.
+   Emotion: teasing. Smug, with a sneaky bit of warmth at the end.
+   File: marina_intro_r2_02.wav
+
+
+== AFTER CHAPTER 1 ==
+
+13. That's off the comb's box. So it went in right here.
+   Emotion: surprised. Quick intake of breath; hope she doesn't want to show.
+   File: marina_ch1_01.wav
+
+14. Fine. You're not a menace anymore. You can help me. Don't get excited.
+   Emotion: teasing. Classic tsundere delivery.
+   File: marina_ch1_02.wav
+
+15. I'll pay you, obviously. A reward, when we find it. It's a business arrangement, so you can stop smiling like that.
+   Emotion: angry. Tsundere: brisk and businesslike, flustered underneath. She's offering it so it can't look like a favour.
+   File: marina_ch1_03.wav
+
+
+== AFTER CHAPTER 1: REPLY 1 ==
+
+16. Don't say it like that. Like it matters.
+   Emotion: shy. Flustered, almost cross about it.
+   File: marina_ch1_r1_01.wav
+
+17. Six tomorrow, lifeguard.
+   Emotion: happy. Called over the water; she's smiling and you can hear it.
+   File: marina_ch1_r1_02.wav
+
+
+== AFTER CHAPTER 1: REPLY 2 ==
+
+18. I like having someone to hold the bucket.
+   Emotion: teasing. Dry, instant.
+   File: marina_ch1_r2_01.wav
+
+19. You hold it very well. That's all I'm admitting.
+   Emotion: happy. Teasing, warmer than she means it to be.
+   File: marina_ch1_r2_02.wav
+
+
+== AFTER CHAPTER 2 ==
+
+20. I'm fine. Midsummer Tide's in nine days, and I've checked maybe a third of the cove.
+   Emotion: angry. Snappish. Exhausted and refusing to show it.
+   File: marina_ch2_01.wav
+
+21. Huh. Nobody's ever told me to slow down. They just assume I've got it handled.
+   Emotion: sad. She's just been told she doesn't have to do everything herself. More serious. Short pause after 'Huh.'
+   File: marina_ch2_02.wav
+
+22. Nerissa keeps asking about the comb. I keep saying it's at the jeweller's. I'm running out of jewellers.
+   Emotion: shy. Tired joke; trying to keep it light.
+   File: marina_ch2_03.wav
+
+
+== AFTER CHAPTER 2: REPLY 1 ==
+
+23. She won't even be angry. She'll just say 'oh, Mari', the way Mum does.
+   Emotion: sad. Quiet. Dreading it.
+   File: marina_ch2_r1_01.wav
+
+24. Nine days. If we haven't found it by then, I'll tell her. Deal?
+   Emotion: neutral. Steadying herself; offering a handshake in a voice.
+   File: marina_ch2_r1_02.wav
+
+
+== AFTER CHAPTER 2: REPLY 2 ==
+
+25. That's actually good. She'd believe that.
+   Emotion: happy. Startled into laughing.
+   File: marina_ch2_r2_01.wav
+
+26. You're a terrible influence. Keep going.
+   Emotion: teasing. Fond, still giggling a little.
+   File: marina_ch2_r2_02.wav
+
+
+== AFTER CHAPTER 3 ==
+
+27. It's down there! I've checked everywhere else, it has to be down there!
+   Emotion: angry. Shouting over the storm. Frightened underneath.
+   File: marina_ch3_01.wav
+
+28. Their net. It went right through where I dropped it.
+   Emotion: surprised. The realisation lands. Breath caught.
+   File: marina_ch3_02.wav
+
+29. You're a genius, you're a soaked genius with one shoe, come here.
+   Emotion: happy. Giddy relief, half laughing.
+   File: marina_ch3_03.wav
+
+30. That was the storm. Don't make it a thing.
+   Emotion: shy. Flustered, too fast, cheeks burning.
+   File: marina_ch3_04.wav
+
+
+== AFTER CHAPTER 3: REPLY 1 ==
+
+31. Okay. A small thing.
+   Emotion: shy. Very quiet; can't look at you.
+   File: marina_ch3_r1_01.wav
+
+32. After the comb, it can be a big thing.
+   Emotion: happy. A shy grin breaking through.
+   File: marina_ch3_r1_02.wav
+
+
+== AFTER CHAPTER 3: REPLY 2 ==
+
+33. It was an excellent storm.
+   Emotion: teasing. Low, playful; she's recovered.
+   File: marina_ch3_r2_01.wav
+
+
+== AFTER CHAPTER 4 (LAST SCENE) ==
+
+34. It's not even scratched.
+   Emotion: happy. Barely holding it together. Small.
+   File: marina_ch4_01.wav
+
+35. Gran's going to wear it at the Tide and never know. Nobody's ever going to know you did this.
+   Emotion: shy. Quiet, a little wondering.
+   File: marina_ch4_02.wav
+
+36. I still owe you a reward. I haven't decided what it is yet. Don't look at me like that, I'm deciding.
+   Emotion: angry. Tsundere: snappish to cover how much she means it, and she already knows what she's going to offer.
+   File: marina_ch4_06.wav
+
+37. Most people come down here for the game. You keep coming back for me, don't you?
+   Emotion: teasing. Flirty, late at night, the two of you alone on the dock. Soft, half-teasing and half-hoping.
+   File: marina_ch4_03.wav
+
+38. The water's warm tonight.
+   Emotion: shy. Casual on purpose. It isn't casual.
+   File: marina_ch4_04.wav
+
+39. And this time, take your clothes off before you jump in.
+   Emotion: teasing. Bold, then she can't quite look at you.
+   File: marina_ch4_05.wav
+
+
+== HER NIGHT SCENE (FULL-SCREEN CG) ==
+
+40. You can actually swim. The first time, you looked like a coat someone had thrown off a pier.
+   Emotion: teasing. Fast and teasing, nerves underneath.
+   File: marina_night_01.wav
+
+41. Okay. I'm going to say something and you're not allowed to be nice about it.
+   Emotion: shy. Rushed. Bracing herself.
+   File: marina_night_02.wav
+
+42. I've thought about this. Not a lot. A normal amount. Every day since the pier.
+   Emotion: shy. Run-on and mortified, and completely honest.
+   File: marina_night_03.wav
+
+43. There. Now you can't go anywhere. That's a mermaid thing. It's very old. I just made it up.
+   Emotion: teasing. Laughing at herself; flirty.
+   File: marina_night_04.wav
+
+44. Boathouse. It's got a door. Gran can't see through doors. Probably.
+   Emotion: shy. Breathless. Half joking, completely serious about the door.
+   File: marina_night_05.wav
+
+45. That was. Okay. I don't have a word. I always have a word.
+   Emotion: happy. Breathless and giddy, lost for words for once.
+   File: marina_night_21.wav
+
+46. You've got sand on you. Everywhere. That's your problem, I'm not helping.
+   Emotion: teasing. Lazy, smug, fond.
+   File: marina_night_22.wav
+
+47. Don't go before morning. I'll know if you do. I'll hear the door.
+   Emotion: shy. Quiet and sleepy, meaning it.
+   File: marina_night_23.wav
+
+
+== WARM ENDING: THE MORNING AFTER ==
+
+48. Morning. Your clothes are on the rail. I wrung them out myself, so you can thank me.
+   Emotion: shy. Soft, pleased with herself, a bit shy that she's been watching.
+   File: marina_warm_01.wav
+
+49. Gran's going to know. She always knows. She's going to look at me over breakfast and just know.
+   Emotion: happy. Mock dread, mostly giddy.
+   File: marina_warm_02.wav
+
+50. Gran's asked you to the family dinner, which is not a small thing, people have married into this family and never been asked to the family dinner.
+   Emotion: shy. Low, quick, moved and trying to hide it.
+   File: marina_warm_03.wav
+
+51. Dance with me later. Badly. I've got a tail, so we'll be bad at it together.
+   Emotion: happy. Warm, laughing.
+   File: marina_warm_04.wav
+
+52. So. Are you telling them how we met, or am I?
+   Emotion: teasing. Teasing, already planning to embarrass you.
+   File: marina_warm_05.wav
+
+
+== WARM ENDING: FINAL REPLY 1 ==
+
+53. I'm going to make you sound very brave. And very wet.
+   Emotion: happy. Gleeful.
+   File: marina_warm_r1_01.wav
+
+
+== WARM ENDING: FINAL REPLY 2 ==
+
+54. You can't leave out the shoe. The shoe's the best part.
+   Emotion: teasing. Outraged on the shoe's behalf.
+   File: marina_warm_r2_01.wav
+
+
+== TEASING ENDING: THE MORNING AFTER ==
+
+55. I'll be honest, I thought you'd be shyer. You jumped into the sea fully dressed. I assumed that made you a shy person.
+   Emotion: teasing. Delighted, teasing, very pleased with last night.
+   File: marina_spark_01.wav
+
+56. Mum's going to ask where I was. I'm going to say I was checking nets. Technically true. Look at you.
+   Emotion: happy. Wicked little laugh.
+   File: marina_spark_02.wav
+
+57. That's one rescue each. Write it down. Nerissa will want the numbers.
+   Emotion: teasing. Smug.
+   File: marina_spark_03.wav
+
+58. You can stay in a bit longer. I'm holding you up. It's fine.
+   Emotion: shy. Softer; she likes holding on.
+   File: marina_spark_04.wav
+
+59. Swimming lessons every night, or do I just keep rescuing you?
+   Emotion: teasing. Playful, a little challenging.
+   File: marina_spark_05.wav
+
+
+== TEASING ENDING: FINAL REPLY 1 ==
+
+60. Good answer. You'll never keep up. But good answer.
+   Emotion: happy. Fond, cocky.
+   File: marina_spark_r1_01.wav
+
+
+== TEASING ENDING: FINAL REPLY 2 ==
+
+61. Lazy. Fine. I'm keeping score.
+   Emotion: teasing. Mock-disapproving, pleased.
+   File: marina_spark_r2_01.wav
+
+
+== GIFT SCENE (FROSTED SEA-GLASS PENDANT) ==
+
+62. That's real. The sea made that. People tumble old bottles in a barrel and sell it as sea glass.
+   Emotion: surprised. Impressed despite herself; expert, a little indignant on its behalf.
+   File: marina_gift_01.wav
+
+63. I lose things. You've noticed. I'm not losing this one.
+   Emotion: shy. Soft and self-aware; half a joke.
+   File: marina_gift_02.wav
+
+
+== PUZZLE QUIP: YOU MATCHED HER FAVOURITE GEM ==
+
+64. Pearls. Gran would approve.
+   Emotion: neutral. Pleased, a little smug.
+   File: marina_fav_01.wav
+
+65. Nine of those and I'm off the hook.
+   Emotion: neutral. Wry, under her breath.
+   File: marina_fav_02.wav
+
+66. That's the good stuff. Again.
+   Emotion: neutral. Bright, bossy.
+   File: marina_fav_03.wav
+
+67. Pretty. Don't tell my sisters I said that.
+   Emotion: neutral. Quick, embarrassed.
+   File: marina_fav_04.wav
+
+68. Okay, that one was nice.
+   Emotion: neutral. Grudging praise.
+   File: marina_fav_05.wav
+
+69. Oh, that's smooth, why can't anything else this week be smooth?
+   Emotion: neutral. Fast, run-on, half laughing.
+   File: marina_fav_06.wav
+
+
+== PUZZLE QUIP: YOU MATCHED A GEM SHE DISLIKES ==
+
+70. Who brings fire to a pier?
+   Emotion: neutral. Sarcastic, baffled.
+   File: marina_least_01.wav
+
+71. Ugh. That's drier than Gran's sponge.
+   Emotion: neutral. Disgusted, then guilty about Gran.
+   File: marina_least_02.wav
+
+72. No. Absolutely not.
+   Emotion: neutral. Flat refusal.
+   File: marina_least_03.wav
+
+73. Who even likes those?
+   Emotion: neutral. Genuinely baffled.
+   File: marina_least_04.wav
+
+74. That's a dry-land gem. Put it back.
+   Emotion: neutral. Bossy.
+   File: marina_least_05.wav
+
+
+== PUZZLE QUIP: CHATTER WHILE YOU PLAY ==
+
+75. Nine days. Keep going.
+   Emotion: neutral. Tense, focused.
+   File: marina_chat_01.wav
+
+76. You're getting good at this. It's annoying.
+   Emotion: neutral. Grudging, a bit flirty.
+   File: marina_chat_02.wav
+
+77. Gran says hello. Gran says a lot of things.
+   Emotion: neutral. Long-suffering.
+   File: marina_chat_03.wav
+
+78. If Nerissa asks, we're friends. Who swim. At night.
+   Emotion: neutral. Fast, flustered.
+   File: marina_chat_04.wav
+
+79. Board, lifeguard. Not me.
+   Emotion: neutral. Teasing; caught you looking.
+   File: marina_chat_05.wav
+
+80. You still only have one shoe, you know.
+   Emotion: neutral. Deadpan.
+   File: marina_chat_06.wav
+
+81. Mum wants to feed you. Consider yourself warned.
+   Emotion: neutral. Wry.
+   File: marina_chat_07.wav
+
+82. Faster. Tide's turning.
+   Emotion: neutral. Brisk, urgent.
+   File: marina_chat_08.wav

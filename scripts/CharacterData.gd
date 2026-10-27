@@ -12,6 +12,28 @@ extends RefCounted
 const PATH := "res://data/characters.json"
 
 static var _cache: Array = []
+static var _error := ""
+static var _source := ""
+
+
+## Where the dialogue comes from. Normally the built-in data/characters.json.
+## Test builds only (GameState.ALLOW_TESTING_MODE, so never a release build):
+## a characters.json placed next to the game's .exe is used instead, so lines
+## can be edited and tried straight away without re-exporting from Godot
+## (docs/EDITING_DIALOGUE.md). Running from the Godot editor always uses the
+## project's own file.
+static func source_path() -> String:
+	if GameState.ALLOW_TESTING_MODE and not OS.has_feature("editor") and not OS.has_feature("web"):
+		var p := OS.get_executable_path().get_base_dir().path_join("characters.json")
+		if FileAccess.file_exists(p):
+			return p
+	return PATH
+
+
+## True when the edited copy next to the .exe is in use (the menu says so).
+static func using_override() -> bool:
+	all()
+	return _source != "" and _source != PATH
 
 
 static func all() -> Array:
@@ -21,17 +43,32 @@ static func all() -> Array:
 
 
 static func _load() -> Array:
-	if not FileAccess.file_exists(PATH):
-		push_error("CharacterData: missing " + PATH)
+	_source = source_path()
+	var label := "data/characters.json" if _source == PATH else "characters.json (next to the game)"
+	if not FileAccess.file_exists(_source):
+		push_error("CharacterData: missing " + _source)
 		return []
-	var f := FileAccess.open(PATH, FileAccess.READ)
+	var f := FileAccess.open(_source, FileAccess.READ)
 	var text := f.get_as_text()
 	f.close()
-	var parsed = JSON.parse_string(text)
+	var json := JSON.new()
+	if json.parse(text) != OK:
+		_error = "%s, line %d: %s" % [label, json.get_error_line(), json.get_error_message()]
+		push_error("CharacterData: " + _error)
+		return []
+	var parsed = json.data
 	if typeof(parsed) != TYPE_ARRAY:
-		push_error("CharacterData: characters.json did not parse to an array")
+		_error = label + " should start with [ and end with ] (a list of the four characters)."
+		push_error("CharacterData: " + _error)
 		return []
 	return parsed
+
+
+## "" when data/characters.json loaded fine; otherwise where it went wrong
+## (Main shows it on screen instead of starting the game).
+static func load_error() -> String:
+	all()
+	return _error
 
 
 static func by_id(char_id: String) -> Dictionary:
@@ -45,8 +82,8 @@ static func by_id(char_id: String) -> Dictionary:
 ## ordering as before — indices 0..5 are the "normal" pickable gem types a
 ## character can name as her fav/least, index 6 is the un-favoritable
 ## "cursed" piece). Renamed from the original generic heart/star/leaf/drop/
-## note/gem set to a fantasy-flavored one for the succubus/mermaid/lamia/
-## cat-girl cast — see the "puzzle pieces" note in README.md.
+## note/gem set to a fantasy-flavored one for the succubus/mermaid/slime/
+## dryad cast — see the "puzzle pieces" note in README.md.
 static func gem_index_from_id(gem_id: String) -> int:
 	match gem_id:
 		"ember": return 0

@@ -11,15 +11,24 @@ config_version=5
 [application]
 
 config/name="Charm Combo"
-config/description="A cozy widescreen match-3 club story. Clear the board, get to know the club leads of Fernbrook High, and see where the friendship goes."
+config/description="A match-3 romance for adults, set in Duskhaven, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes."
+config/version="1.0.0"
 run/main_scene="res://scenes/Main.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://icon.svg"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="CharmCombo"
+boot_splash/bg_color=Color(0.984314, 0.960784, 0.945098, 1)
+boot_splash/show_image=false
 
 [autoload]
 
 GameState="*res://autoload/GameState.gd"
 SFX="*res://autoload/SFX.gd"
+Music="*res://autoload/Music.gd"
+Nav="*res://autoload/Nav.gd"
+Achievements="*res://autoload/Achievements.gd"
+Platform="*res://autoload/Platform.gd"
 
 [display]
 
@@ -33,3 +42,4 @@ window/stretch/aspect="keep"
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
 textures/canvas_textures/default_texture_filter=1
+textures/vram_compression/import_etc2_astc=true

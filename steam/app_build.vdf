@@ -1,0 +1,42 @@
+// SteamPipe build script for Charm Combo's Windows build.
+// Used by upload_to_steam.bat (docs/STEAM_SETUP.md, step 8).
+//
+// Before the first upload, replace:
+//   YOUR_APP_ID      with your App ID
+//   YOUR_DEPOT_ID    with your Windows depot's ID (Steamworks: your app >
+//                    SteamPipe > Depots; the first depot is usually App ID + 1)
+//
+// Paths are relative to this file: it uploads whatever the "Windows (Steam)"
+// export preset wrote to build\steam\windows\.
+"AppBuild"
+{
+	"AppID" "YOUR_APP_ID"
+	"Desc" "Charm Combo"
+
+	"ContentRoot" "..\build\steam\windows\"
+	"BuildOutput" "..\build\steam_output\"
+
+	// Put a beta branch name here to set each upload live on that branch
+	// automatically. The default (public) branch is always set live by hand,
+	// in Steamworks > SteamPipe > Builds.
+	"SetLive" ""
+
+	// "1" does a dry run: lists what would be uploaded, uploads nothing.
+	"Preview" "0"
+
+	"Depots"
+	{
+		"YOUR_DEPOT_ID"
+		{
+			"FileMapping"
+			{
+				"LocalPath" "*"
+				"DepotPath" "."
+				"recursive" "1"
+			}
+			// Only for testing on your own PC, never shipped to players.
+			"FileExclusion" "steam_appid.txt"
+			"FileExclusion" "*.pdb"
+		}
+	}
+}
