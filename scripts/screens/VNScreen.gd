@@ -71,6 +71,12 @@ static func line_key(char_id: String, line: Dictionary) -> String:
 	return "%s:%d" % [char_id, String(line.get("t", "")).hash()]
 
 
+## A line can carry "cg" (round 29, night scenes: night_lead / night_act /
+## night_after): when it shows, the full-screen picture crossfades to
+## art/characters/<id>/cg/<cg>.png (0.4 s, instant under Reduce Motion) and
+## stays until another line changes it. A missing file keeps the picture
+## that's up. Lines' "cg" only applies in a CG scene (cg_key set).
+##
 ## cg_key (round 22): play the scene over one of her full-screen CGs
 ## (ArtAssets.cg(): art/characters/<id>/cg/<cg_key>.png) instead of her
 ## portrait on a background — her night scene uses "night". With the art
@@ -178,7 +184,15 @@ static func build(main: Node, host: Control, char_id: String, lines: Array, choi
 			portrait_host.add_child(center)
 	set_portrait.call("neutral")
 
+	# The scene's first picture; its name falls back to the part before "_"
+	# (night_lead -> night.png), then to the dimmed stage below.
 	var cg_tex: Texture2D = ArtAssets.cg(char_id, cg_key) if cg_key != "" else null
+	# The picture layer, and the placeholder pieces (dim, tag) that a later
+	# real picture replaces.
+	var cg_layer := Control.new()
+	cg_layer.set_anchors_preset(Control.PRESET_FULL_RECT)
+	cg_layer.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	var cg_placeholder: Array = []
 	if cg_tex:
 		var cg_img := TextureRect.new()
 		cg_img.set_anchors_preset(Control.PRESET_FULL_RECT)
@@ -186,7 +200,7 @@ static func build(main: Node, host: Control, char_id: String, lines: Array, choi
 		cg_img.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 		cg_img.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
 		cg_img.mouse_filter = Control.MOUSE_FILTER_IGNORE
-		stage.add_child(cg_img)
+		cg_layer.add_child(cg_img)
 		portrait_host.visible = false
 	elif cg_key != "":
 		var dim := ColorRect.new()
@@ -194,7 +208,43 @@ static func build(main: Node, host: Control, char_id: String, lines: Array, choi
 		dim.color = Color(0.12, 0.04, 0.14, 0.45)
 		dim.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		stage.add_child(dim)
-		stage.add_child(UITheme.corner_tag("CG placeholder · cg/%s.png" % cg_key))
+		var tag := UITheme.corner_tag("CG placeholder · cg/%s.png" % cg_key)
+		stage.add_child(tag)
+		cg_placeholder = [dim, tag]
+	stage.add_child(cg_layer)
+
+	# Switches the full-screen picture (a line's "cg"); exact file only, so a
+	# missing one keeps what's showing.
+	var set_cg := func(key: String):
+		if cg_key == "" or key == "" or cg_layer.get_meta("cg", cg_key) == key:
+			return
+		var tex := ArtAssets.cg_exact(char_id, key)
+		if tex == null:
+			return
+		cg_layer.set_meta("cg", key)
+		var img := TextureRect.new()
+		img.set_anchors_preset(Control.PRESET_FULL_RECT)
+		img.texture = tex
+		img.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+		img.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
+		img.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		var old := cg_layer.get_children()
+		cg_layer.add_child(img)
+		var drop_old := func():
+			for o in old:
+				if is_instance_valid(o):
+					o.queue_free()
+			for p in cg_placeholder:
+				if is_instance_valid(p):
+					p.queue_free()
+			portrait_host.visible = false
+		if GameState.settings.get("reduce_motion", false):
+			drop_old.call()
+		else:
+			img.modulate.a = 0.0
+			var tw := img.create_tween()
+			tw.tween_property(img, "modulate:a", 1.0, 0.4)
+			tw.tween_callback(drop_old)
 
 	if not bg_tex and cg_key == "":
 		# Inside the top-right corner (it used to be anchored so it hung off
@@ -403,6 +453,7 @@ static func build(main: Node, host: Control, char_id: String, lines: Array, choi
 		text_lbl.text = text
 		text_lbl.add_theme_color_override("font_color", UITheme.INK_ON_DARK_SOFT if is_narration else UITheme.INK_ON_DARK)
 		set_portrait.call(String(line.get("e", "neutral")))
+		set_cg.call(String(line.get("cg", "")))
 		backlog.append({"name": who, "text": text})
 		while backlog.size() > LOG_MAX:
 			backlog.pop_front()

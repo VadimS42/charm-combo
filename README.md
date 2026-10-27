@@ -17,6 +17,26 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-29 — three pictures per night scene; .exe icon
+
+- **Night scenes** switch between three full-screen pictures in
+  `art/characters/<id>/cg/`: `night_lead.png` (from the start), `night_act.png`
+  (from the line with `"cg": "night_act"`: put it on the first line of your
+  own part when you replace the slot; the slot carries it as a reminder) and
+  `night_after.png` (from the "Later." / "Afterwards" line, which carries
+  `"cg": "night_after"`). Any line in a CG scene can carry `"cg"`; the picture
+  crossfades in 0.4 s (instant with Reduce Motion) and stays until another
+  line changes it. Missing 2nd/3rd picture: the one showing stays. Missing
+  `night_lead.png`: `night.png`, then the dimmed-stage placeholder. Hide text /
+  H work on all three; quitting mid-scene replays it from the first picture.
+  Tested with stand-in pictures for Hazel (switches at the right lines, with
+  and without Reduce Motion), `night.png` only for Opal, and none for Marina.
+- The pictures fill the area under the top bar (about 1280 × 737, nearly
+  16:9): only ~20 px comes off each side of a 1920 × 1080 picture.
+- The Windows .exe now carries the app icon (rcedit through Wine on the build
+  machine; on Windows, set Editor Settings → Export → Windows → rcedit).
+- Docs: `docs/EDITING_DIALOGUE.md` ("Her night scene"), `docs/ART_LIST.md`.
+
 ## ✅ Status: round-28 — skip unread, menu slideshow, app icon, voice notice
 
 - **Dialogue:** a "Skip unread" button next to Skip races through every line,

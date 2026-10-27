@@ -661,7 +661,7 @@
     }
    ],
    "night": {
-    "cg": "night",
+    "cg": "night_lead",
     "lines": [
      {
       "k": "n",
@@ -727,11 +727,13 @@
      },
      {
       "k": "slot",
-      "t": "YOUR SCENE GOES HERE (never shown in the game). Replace this line with your own lines, written like the ones around it: the sex starts, her talk during it, and the finish. Her spoken lines need ids amara_night_10 to amara_night_19 (add letters if you need more, e.g. amara_night_19b). See docs/EDITING_DIALOGUE.md, 'Her night scene'."
+      "t": "YOUR SCENE GOES HERE (never shown in the game). Put \"cg\": \"night_act\" on the first line of your part, so the second picture shows from there. Replace this line with your own lines, written like the ones around it: the sex starts, her talk during it, and the finish. Her spoken lines need ids amara_night_10 to amara_night_19 (add letters if you need more, e.g. amara_night_19b). See docs/EDITING_DIALOGUE.md, 'Her night scene'.",
+      "cg": "night_act"
      },
      {
       "k": "n",
-      "t": "Later. The candle is down to a stub. She's lying across you on the reading room rug with one wing folded over you both like a blanket."
+      "t": "Later. The candle is down to a stub. She's lying across you on the reading room rug with one wing folded over you both like a blanket.",
+      "cg": "night_after"
      },
      {
       "k": "s",
@@ -1570,7 +1572,7 @@
     }
    ],
    "night": {
-    "cg": "night",
+    "cg": "night_lead",
     "lines": [
      {
       "k": "n",
@@ -1625,11 +1627,13 @@
      },
      {
       "k": "slot",
-      "t": "YOUR SCENE GOES HERE (never shown in the game). Replace this line with your own lines, written like the ones around it: the sex starts, her talk during it, and the finish. Her spoken lines need ids marina_night_10 to marina_night_19 (add letters if you need more, e.g. marina_night_19b). See docs/EDITING_DIALOGUE.md, 'Her night scene'."
+      "t": "YOUR SCENE GOES HERE (never shown in the game). Put \"cg\": \"night_act\" on the first line of your part, so the second picture shows from there. Replace this line with your own lines, written like the ones around it: the sex starts, her talk during it, and the finish. Her spoken lines need ids marina_night_10 to marina_night_19 (add letters if you need more, e.g. marina_night_19b). See docs/EDITING_DIALOGUE.md, 'Her night scene'.",
+      "cg": "night_act"
      },
      {
       "k": "n",
-      "t": "Afterwards she lies with her head on your chest, her tail curled down the slipway into the water, flicking now and then."
+      "t": "Afterwards she lies with her head on your chest, her tail curled down the slipway into the water, flicking now and then.",
+      "cg": "night_after"
      },
      {
       "k": "s",
@@ -2470,7 +2474,7 @@
     }
    ],
    "night": {
-    "cg": "night",
+    "cg": "night_lead",
     "lines": [
      {
       "k": "n",
@@ -2518,11 +2522,13 @@
      },
      {
       "k": "slot",
-      "t": "YOUR SCENE GOES HERE (never shown in the game). Replace this line with your own lines, written like the ones around it: the sex starts, her talk during it, and the finish. Her spoken lines need ids opal_night_10 to opal_night_19 (add letters if you need more, e.g. opal_night_19b). See docs/EDITING_DIALOGUE.md, 'Her night scene'."
+      "t": "YOUR SCENE GOES HERE (never shown in the game). Put \"cg\": \"night_act\" on the first line of your part, so the second picture shows from there. Replace this line with your own lines, written like the ones around it: the sex starts, her talk during it, and the finish. Her spoken lines need ids opal_night_10 to opal_night_19 (add letters if you need more, e.g. opal_night_19b). See docs/EDITING_DIALOGUE.md, 'Her night scene'.",
+      "cg": "night_act"
      },
      {
       "k": "n",
-      "t": "Afterwards she's spread across most of the bed and some of you, glowing faintly, humming something Ambrose used to whistle."
+      "t": "Afterwards she's spread across most of the bed and some of you, glowing faintly, humming something Ambrose used to whistle.",
+      "cg": "night_after"
      },
      {
       "k": "s",
@@ -3323,7 +3329,7 @@
     }
    ],
    "night": {
-    "cg": "night",
+    "cg": "night_lead",
     "lines": [
      {
       "k": "n",
@@ -3374,11 +3380,13 @@
      },
      {
       "k": "slot",
-      "t": "YOUR SCENE GOES HERE (never shown in the game). Replace this line with your own lines, written like the ones around it: the sex starts, her talk during it, and the finish. Her spoken lines need ids hazel_night_10 to hazel_night_19 (add letters if you need more, e.g. hazel_night_19b). See docs/EDITING_DIALOGUE.md, 'Her night scene'."
+      "t": "YOUR SCENE GOES HERE (never shown in the game). Put \"cg\": \"night_act\" on the first line of your part, so the second picture shows from there. Replace this line with your own lines, written like the ones around it: the sex starts, her talk during it, and the finish. Her spoken lines need ids hazel_night_10 to hazel_night_19 (add letters if you need more, e.g. hazel_night_19b). See docs/EDITING_DIALOGUE.md, 'Her night scene'.",
+      "cg": "night_act"
      },
      {
       "k": "n",
-      "t": "Afterwards you lie in the moss with her hair across your chest. Overhead, every leaf on her east side has turned pale side up, the way they do before a storm. There's no storm."
+      "t": "Afterwards you lie in the moss with her hair across your chest. Overhead, every leaf on her east side has turned pale side up, the way they do before a storm. There's no storm.",
+      "cg": "night_after"
      },
      {
       "k": "s",

@@ -181,6 +181,14 @@ static func cg(char_id: String, cg_key: String) -> Texture2D:
 	return null
 
 
+## Exactly art/characters/<id>/cg/<cg_key>.png, no fallback (a night scene's
+## later pictures: missing = keep the one showing).
+static func cg_exact(char_id: String, cg_key: String) -> Texture2D:
+	if cg_key == "":
+		return null
+	return _try_load(CHAR_DIR + char_id + "/cg/" + cg_key + ".png")
+
+
 ## res://art/gifts/<gift_id>.png — the roster's gift button icon (gift ids are
 ## in characters.json, e.g. "pocketSundial"). Falls back to a 🎁 emoji.
 static func gift_icon(gift_id: String) -> Texture2D:
