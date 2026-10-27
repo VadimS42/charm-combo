@@ -11,7 +11,7 @@ Character folders use the story ids: `succubus` (Amara), `mermaid` (Marina), `sl
 1. Each girl's `neutral.png` — one file puts her on every screen.
 2. The other six expressions per girl.
 3. Backgrounds: library, woods, grove.
-4. Logo + the ten small icons.
+4. Logo + the small icons (art/ui).
 5. Story CGs (or first a `cg/warmth.png` per girl, which stands in for the rest).
 6. Puzzle frames, gift icons, menu illustration.
 7. Achievement icons.
@@ -198,6 +198,12 @@ Her **night CG** fills the screen behind the dialogue box for her whole night sc
 | Icon — credits | `art/ui/credits.png` | Main menu: Credits. 128 × 128 px, transparent PNG, simple bold shape. Shown at 16–26 px. | To make |
 | Icon — quit | `art/ui/quit.png` | Main menu: Quit. 128 × 128 px, transparent PNG, simple bold shape. Shown at 16–26 px. | To make |
 | Icon — achievements | `art/ui/achievements.png` | Main menu: Achievements. 128 × 128 px, transparent PNG, simple bold shape. Shown at 16–26 px. | To make |
+| Icon — how to play | `art/ui/howto.png` | Main menu, chapter top bar and Settings: How to Play (a question mark in a speech bubble or a little book). 128 × 128 px, transparent PNG. Shown at 16–20 px. | To make |
+| Icon — log | `art/ui/log.png` | Dialogue box: Log, read back earlier lines (a scroll or stacked lines). 128 × 128 px, transparent PNG, light-coloured: it sits on the dark box. Shown at 16–20 px. | To make |
+| Icon — auto | `art/ui/auto.png` | Dialogue box: Auto, lines play on by themselves (a play arrow in a loop). Same spec as Log. | To make |
+| Icon — skip | `art/ui/skip.png` | Dialogue box: Skip lines already read (fast-forward ▶▶). Same spec as Log. | To make |
+| Icon — hide | `art/ui/hide.png` | Dialogue box on full-screen pictures: Hide text (an eye). Same spec as Log. | To make |
+| Icon — next | `art/ui/next.png` | Dialogue box: the little bouncing "next line" marker (a down arrow, heart or leaf). 64 × 64 px, transparent PNG, light-coloured. Shown at 16 px. | To make |
 
 ## Achievement icons (16)
 

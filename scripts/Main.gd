@@ -108,6 +108,7 @@ func _build_chrome() -> void:
 	# Round 19: plum-to-berry, with light text and glass pills on it.
 	topbar.add_theme_stylebox_override("panel", UITheme.topbar_style())
 	root_v.add_child(topbar)
+	topbar.visible = not Platform.trailer
 	var top_h := HBoxContainer.new()
 	top_h.add_theme_constant_override("separation", 10)
 	topbar.add_child(top_h)
@@ -213,6 +214,7 @@ func _build_chrome() -> void:
 	seam.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	seam.texture = UITheme.gradient_texture([UITheme.ACCENT, UITheme.ACCENT_2, UITheme.VIOLET], Vector2(0, 0.5), Vector2(1, 0.5))
 	root_v.add_child(seam)
+	seam.visible = not Platform.trailer
 
 	# ---- screen area: the current screen, with the overlay layer above it ----
 	var screen_area := Control.new()
@@ -749,6 +751,47 @@ func close_modal() -> void:
 
 func modal_open() -> bool:
 	return is_instance_valid(_confirm_box)
+
+
+## The end of the demo (Platform.demo): thanks, and a wishlist button.
+func show_demo_end() -> void:
+	clear_screen()
+	Music.play(["menu"])
+	screen_host.add_child(UITheme.make_screen_backdrop(UITheme.ACCENT, UITheme.VIOLET))
+	var center := CenterContainer.new()
+	center.set_anchors_preset(Control.PRESET_FULL_RECT)
+	screen_host.add_child(center)
+	var card := PanelContainer.new()
+	card.add_theme_stylebox_override("panel", UITheme.window_style())
+	card.custom_minimum_size = Vector2(560, 0)
+	center.add_child(card)
+	var v := VBoxContainer.new()
+	v.add_theme_constant_override("separation", 14)
+	card.add_child(v)
+	v.add_child(UITheme.heading("Thanks for playing the demo!", 24))
+	var t := UITheme.body("The full game has four stories: Hazel's, and three more women of Duskhaven to meet in the worst way possible. Each has four chapters, her night scene and her ending.", 14, UITheme.INK_SOFT)
+	t.custom_minimum_size = Vector2(500, 0)
+	v.add_child(t)
+	var row := HBoxContainer.new()
+	row.add_theme_constant_override("separation", 10)
+	row.alignment = BoxContainer.ALIGNMENT_END
+	v.add_child(row)
+	var menu_btn := UITheme.make_ghost_button("Main menu")
+	menu_btn.pressed.connect(func():
+		SFX.nav()
+		show_menu()
+	)
+	row.add_child(menu_btn)
+	var url := Platform.wishlist_url()
+	var wish := UITheme.make_primary_button("♥  Wishlist on Steam")
+	wish.disabled = url == ""
+	wish.tooltip_text = "" if url != "" else "Store page address not set yet (Platform.STORE_URL)."
+	wish.pressed.connect(func():
+		SFX.nav()
+		OS.shell_open(url)
+	)
+	row.add_child(wish)
+	nav_setup(wish if url != "" else menu_btn, func(): show_menu())
 
 
 func show_how_to_play() -> void:

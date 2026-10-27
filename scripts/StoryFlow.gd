@@ -28,6 +28,11 @@ static func enter_character(main: Node, char_id: String) -> void:
 		return
 	var progress := GameState.progress_for(char_id)
 
+	# The demo has one girl's start only.
+	if Platform.demo and (char_id != Platform.DEMO_CHAR or int(progress.get("level_index", 0)) > 0):
+		main.show_demo_end()
+		return
+
 	if not progress.endings_unlocked.is_empty():
 		reopen_ending(main, char_id)
 		return
@@ -115,7 +120,10 @@ static func _play_win_scene(main: Node, ch: Dictionary, level_index: int) -> voi
 			progress.erase("scene_pending")
 			progress["level_index"] = level_index + 1
 			GameState.save_state()
-			main.show_puzzle(ch.id)
+			if Platform.demo:
+				main.show_demo_end()
+			else:
+				main.show_puzzle(ch.id)
 	)
 
 

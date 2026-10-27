@@ -537,6 +537,10 @@ func _build_ui() -> void:
 	chapter_pill.add_child(pill_row)
 	top_row.add_child(chapter_pill)
 	root.add_child(top_row)
+	# Trailer capture: just the board, her and the pop-ups.
+	if Platform.trailer:
+		top_row.modulate.a = 0.0
+		top_row.mouse_filter = Control.MOUSE_FILTER_IGNORE
 
 	var layout := HBoxContainer.new()
 	layout.add_theme_constant_override("separation", 18)
@@ -550,7 +554,7 @@ func _build_ui() -> void:
 	layout.add_child(board_col)
 
 	var board_area := Control.new()
-	board_area.custom_minimum_size = Vector2(0, 480)
+	board_area.custom_minimum_size = Vector2(0, 520)
 	board_area.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	board_col.add_child(board_area)
 
@@ -568,7 +572,7 @@ func _build_ui() -> void:
 	# res://art/frames/<char_id>.png exists; until then, a plain bordered
 	# placeholder so it reads as an honest stand-in rather than a missing
 	# asset (same pattern used for portraits/backgrounds elsewhere).
-	var cell_size := 48.0
+	var cell_size := 54.0
 	var cell_gap := 4.0
 	var cells_span: float = MatchEngine.SIZE * cell_size + (MatchEngine.SIZE - 1) * cell_gap
 	# +28/+24 accounts for board_panel's own left+right / top+bottom content
@@ -628,7 +632,7 @@ func _build_ui() -> void:
 		var row: Array = []
 		for c in range(MatchEngine.SIZE):
 			var btn := Button.new()
-			btn.custom_minimum_size = Vector2(48, 48)
+			btn.custom_minimum_size = Vector2(54, 54)
 			btn.add_theme_font_size_override("font_size", 22)
 			# Focusable for keyboard/controller play (round 16): the ring moves
 			# over the gems, A/Enter picks one up, a direction then swaps it
@@ -647,7 +651,10 @@ func _build_ui() -> void:
 	toast_layer.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	board_area.add_child(toast_layer)
 
-	board_col.add_child(_build_hud_bar())
+	var hud := _build_hud_bar()
+	board_col.add_child(hud)
+	if Platform.trailer:
+		hud.modulate.a = 0.0
 
 	# ---- her side: her sprite (on its own layer above) and her speech box ----
 	var sidebar_root := Control.new()

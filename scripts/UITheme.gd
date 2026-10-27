@@ -662,6 +662,7 @@ static func apply_icon(b: Button, icon_name: String, plain_text: String = "") ->
 ## clipped out of sight — which is what happened on the VN screen.
 static func corner_tag(text: String = "Art placeholder", margin: int = 12) -> Control:
 	var box := MarginContainer.new()
+	box.visible = not Platform.trailer
 	box.set_anchors_preset(Control.PRESET_FULL_RECT)
 	box.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	box.add_theme_constant_override("margin_top", margin)
@@ -682,6 +683,7 @@ static func corner_tag(text: String = "Art placeholder", margin: int = 12) -> Co
 ## honest about which visuals are stand-ins.
 static func placeholder_tag(text: String = "Art placeholder") -> PanelContainer:
 	var p := PanelContainer.new()
+	p.visible = not Platform.trailer
 	var style := StyleBoxFlat.new()
 	style.bg_color = Color(0, 0, 0, 0.4)
 	style.set_corner_radius_all(999)

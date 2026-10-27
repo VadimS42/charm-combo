@@ -17,6 +17,72 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-27 — polish from the market research list
+
+From the research task list (scope: polish only, no new girls or systems).
+
+- **Dialogue controls** (`VNScreen.gd`): text types out (Settings: Slow /
+  Normal / Fast / Instant; a click finishes the line first); **Skip** (hold
+  Ctrl / RB, or the button) races through lines already read, stops at unread
+  ones unless "Skip Unread Lines" is on, and always at a reply; **Auto** (A /
+  Y, or the button) waits for her voice line, then a pause (Settings: Auto
+  Speed); **Log** (L / LB, the button, or scrolling up) shows the last 60
+  lines. Read lines are saved (`GameState.seen_lines`). Replies are a stack
+  of pills over the stage, she stands a little right of centre.
+- **How to Play** (`scripts/HowToPlay.gd`): a page (main menu, the chapter's
+  top bar, Settings) and a one-time tip for each rule the first time it comes
+  up (swap, goal, specials, combos, cursed shards, Charm, items, replies,
+  out of moves, dialogue controls). The rules strip under the board is gone.
+- **Puzzle HUD**, HuniePop-style: one bar under the board (moves, goal bar,
+  Charm ring, items), bigger gems, her quips in a speech box at her side.
+  Each quip plays at most once per attempt; laughs / sighs are rare (8%, 25 s
+  cooldown, none repeated) and only once recorded.
+- **Never stuck**: three losses in a row on a chapter add "Continue the
+  story" to the loss screen (no stars, no chapter achievement).
+- **Gallery** replays night scenes once seen (`GameState.replays`).
+- **Stability**: Godot's log file is on (`user://logs`, Settings → Open log
+  folder); story scenes, CGs and epilogue art have Back = Settings, which
+  now offers "Leave to Roster" there (the scene plays again next time);
+  Settings scrolls.
+- **Balance check** (`tools/balance_bot.gd`, greedy one-move-ahead bot, no
+  items, 300 runs a chapter, the starting bonus from a warm or a teasing
+  reply). Nothing under 60%, so no targets changed:
+
+| Girl | Ch | Target | Moves | Win % (warm reply) | Win % (teasing reply) | Avg score (warm) |
+|---|---|---|---|---|---|---|
+| Amara | 1 | 700 | 15 | 100% | 100% | 817 |
+| Amara | 2 | 1030 | 15 | 97% | 91% | 1093 |
+| Amara | 3 | 1250 | 16 | 90% | 74% | 1325 |
+| Amara | 4 | 1350 | 18 | 84% | 64% | 1391 |
+| Marina | 1 | 700 | 15 | 100% | 100% | 812 |
+| Marina | 2 | 1030 | 15 | 98% | 91% | 1102 |
+| Marina | 3 | 1250 | 16 | 89% | 73% | 1322 |
+| Marina | 4 | 1350 | 18 | 82% | 63% | 1381 |
+| Opal | 1 | 700 | 15 | 100% | 100% | 812 |
+| Opal | 2 | 1030 | 15 | 96% | 93% | 1104 |
+| Opal | 3 | 1250 | 16 | 89% | 74% | 1322 |
+| Opal | 4 | 1350 | 18 | 83% | 65% | 1378 |
+| Hazel | 1 | 700 | 15 | 100% | 100% | 811 |
+| Hazel | 2 | 1030 | 15 | 98% | 92% | 1100 |
+| Hazel | 3 | 1250 | 16 | 90% | 75% | 1322 |
+| Hazel | 4 | 1350 | 18 | 88% | 71% | 1393 |
+
+  Board fuzz, 10,000 boards across chapters 1-4: 0 with a ready-made match;
+  1 with no legal move as built, which the game rebuilds (0 still stuck).
+- **Smoke test** (`tools/smoke_test.gd`): all four stories intro → ending,
+  every night replay, and the continue-the-story path: passes, no errors.
+- **Demo build**: export preset "Windows (Demo)" (feature `demo`, or run with
+  `-- --demo`): Hazel's intro and first chapter, then a thanks / "Wishlist
+  on Steam" screen (set `Platform.STORE_URL` or `STEAM_APP_ID`). Night art
+  and music are left out of its files.
+- **Trailer capture**: run with `-- --trailer` (plus Godot's `--write-movie`)
+  to hide the top bar, chapter HUD and placeholder tags.
+- Round-24 leftovers: spark / finale CG rows dropped from the art list (each
+  girl's `cg/warmth.png` is her final picture); laugh / sigh clips play on
+  puzzle reactions once recorded.
+- New icon slots for the artist (`docs/ART_LIST.md`): howto, log, auto,
+  skip, hide, next.
+
 ## ✅ Status: round-26 — the soundtrack is in
 
 - All seven music tracks in `audio/music/` (menu, each girl, night, ending),
