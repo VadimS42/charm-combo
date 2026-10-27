@@ -32,6 +32,11 @@ var roster_selected_id: String = ""
 ## epilogue runs (StoryFlow sets it), so the epilogue's dialogue, art beats and
 ## final CG all share one track instead of flipping back and forth.
 var story_music: String = ""
+## True while a story scene (dialogue, CG, epilogue art) is on screen:
+## Settings then offers "Leave to Roster" (round 25), since those screens have
+## no back button of their own. Leaving is safe: an unfinished scene plays
+## again next time.
+var story_scene := false
 
 ## The current screen's controller object, when it has one that needs a
 ## teardown() before its nodes are freed (PuzzleScreen). See clear_screen().
@@ -252,6 +257,7 @@ func clear_screen() -> void:
 	if _screen_obj != null and _screen_obj.has_method("teardown"):
 		_screen_obj.teardown()
 	_screen_obj = null
+	story_scene = false
 	_rebuild_route = Callable()
 	_focus_default = null
 	_back_action = Callable()
@@ -536,6 +542,7 @@ func show_vn_scene(char_id: String, lines: Array, choice_data, on_done: Callable
 	else:
 		Music.play([char_id, "menu"])
 	Platform.set_presence("ending" if story_music == "ending" else "story", _girl_name(char_id))
+	story_scene = true
 	VNScreen.build(self, screen_host, char_id, lines, choice_data, on_done, cg_key)
 
 
@@ -543,6 +550,7 @@ func show_ending_cg(char_id: String, ending: Dictionary, on_continue: Callable) 
 	clear_screen()
 	Music.play(["ending", char_id, "menu"])
 	Platform.set_presence("ending", _girl_name(char_id))
+	story_scene = true
 	EndingCGScreen.build(self, screen_host, char_id, ending, on_continue)
 
 
@@ -553,6 +561,7 @@ func show_ending_art_beat(char_id: String, caption: String, on_continue: Callabl
 	clear_screen()
 	Music.play(["ending", char_id, "menu"])
 	Platform.set_presence("ending", _girl_name(char_id))
+	story_scene = true
 	EndingArtBeatScreen.build(self, screen_host, char_id, caption, on_continue, cg_key)
 
 
@@ -716,6 +725,34 @@ func confirm(title: String, message: String, confirm_label: String, on_confirm: 
 	_refresh_hints()
 	if Nav.nav_mode:
 		_focus_now.call_deferred()
+
+
+## A popup of the caller's own making (HowToPlay's page and tips) in the same
+## slot as confirm(): one at a time, Esc / Backspace / B close it, and focus
+## goes back where it was afterwards.
+func open_modal(shade: Control, default_focus: Control) -> void:
+	_close_confirm()
+	_focus_before_overlay = get_viewport().gui_get_focus_owner()
+	overlay_host.add_child(shade)
+	_confirm_box = shade
+	_confirm_default = default_focus
+	_refresh_hints()
+	if Nav.nav_mode:
+		_focus_now.call_deferred()
+	elif default_focus:
+		default_focus.grab_focus.call_deferred()
+
+
+func close_modal() -> void:
+	_close_confirm()
+
+
+func modal_open() -> bool:
+	return is_instance_valid(_confirm_box)
+
+
+func show_how_to_play() -> void:
+	HowToPlay.show_page(self)
 
 
 func _close_confirm() -> void:

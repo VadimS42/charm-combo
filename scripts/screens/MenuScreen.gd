@@ -102,6 +102,15 @@ static func build(main: Node, host: Control) -> void:
 	)
 	row.add_child(ach_btn)
 
+	var howto_btn := UITheme.make_ghost_button("?  How to Play")
+	UITheme.apply_icon(howto_btn, "howto", "How to Play")
+	howto_btn.pressed.connect(func():
+		SFX.nav()
+		main.menu_focus = "howto"
+		HowToPlay.show_page(main)
+	)
+	row.add_child(howto_btn)
+
 	var credits_btn := UITheme.make_ghost_button("✦  Credits")
 	UITheme.apply_icon(credits_btn, "credits", "Credits")
 	credits_btn.pressed.connect(func():
@@ -141,5 +150,5 @@ static func build(main: Node, host: Control) -> void:
 
 	# Keys / a pad land on the button you left the menu through (Play at first).
 	var by_name := {"play": play_btn, "store": store_btn, "gallery": gallery_btn,
-		"achievements": ach_btn, "credits": credits_btn}
+		"achievements": ach_btn, "howto": howto_btn, "credits": credits_btn}
 	main.nav_setup(by_name.get(main.menu_focus, play_btn))

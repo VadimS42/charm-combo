@@ -42,6 +42,12 @@ const DEFAULT_SETTINGS := {
 	"music_volume": 0.7,  # 0..1, background music only (Music.gd)
 	"voice": true,  # voice acting on/off (Voice.gd)
 	"voice_volume": 1.0,  # 0..1, voice lines only (Voice.gd)
+	# Dialogue (VNScreen): how fast text types out ("slow" | "normal" | "fast"
+	# | "instant"), whether Skip also skips lines you haven't read, and how
+	# long Auto waits after a line (0..1: quick .. slow).
+	"text_speed": "normal",
+	"skip_unseen": false,
+	"auto_delay": 0.5,
 	"reduce_motion": false,
 	"theme": "system",  # "system" | "light" | "dark" (not ported yet)
 	"test_mode": false,
@@ -69,6 +75,16 @@ var gallery: Array = []
 ## Achievement ids unlocked (Achievements.gd). Like the gallery, kept through
 ## Reset Progress — Steam never takes an achievement back either.
 var achievements: Array = []
+
+## Dialogue lines already read (VNScreen.line_key() -> true), for Skip; and
+## the How to Play tips already shown once (HowToPlay.gd). Both survive Reset
+## Progress: you've still read those lines and learned those rules.
+var seen_lines: Dictionary = {}
+## Scenes the Gallery can replay (round 25): "<char id>|night" once her
+## night scene has played through. Kept through Reset Progress like the
+## gallery.
+var replays: Array = []
+var tips_seen: Array = []
 
 ## In-memory only (not persisted): the "key" of whichever option was just
 ## picked in a character's epilogue choice (see StoryFlow's _play_epilogue()/
@@ -120,6 +136,11 @@ static func _new_progress() -> Dictionary:
 		# the conversation choice's starting-score bonus for the next chapter,
 		# kept until that chapter is won (see PuzzleScreen.setup()).
 		"next_bonus": 0,
+		# chapter index (as text) -> times lost in a row; after 3 the loss
+		# screen offers "Continue the story" (round 25).
+		"losses": {},
+		# chapters passed that way: no stars, no chapter achievement.
+		"skipped_levels": [],
 	}
 
 
@@ -138,6 +159,9 @@ func save_state() -> void:
 		"items": items,
 		"gallery": gallery,
 		"achievements": achievements,
+		"seen_lines": seen_lines.keys(),
+		"tips_seen": tips_seen,
+		"replays": replays,
 	}
 	var f := FileAccess.open(TEMP_PATH, FileAccess.WRITE)
 	if f == null:
@@ -209,6 +233,19 @@ func load_state() -> void:
 			if not achievements.has(String(a)):
 				achievements.append(String(a))
 
+	seen_lines = {}
+	if typeof(parsed.get("seen_lines")) == TYPE_ARRAY:
+		for k in parsed.seen_lines:
+			seen_lines[String(k)] = true
+	replays = []
+	if typeof(parsed.get("replays")) == TYPE_ARRAY:
+		for k in parsed.replays:
+			replays.append(String(k))
+	tips_seen = []
+	if typeof(parsed.get("tips_seen")) == TYPE_ARRAY:
+		for k in parsed.tips_seen:
+			tips_seen.append(String(k))
+
 	gallery = []
 	if typeof(parsed.get("gallery")) == TYPE_ARRAY:
 		for e in parsed.gallery:
@@ -234,10 +271,13 @@ static func _normalize_progress(char_id: String, raw: Dictionary) -> Dictionary:
 	var ch := CharacterData.by_id(char_id)
 	var level_count: int = ch.story.levels.size() if not ch.is_empty() else 99
 	p.level_index = clampi(int(raw.get("level_index", 0)), 0, maxi(0, level_count - 1))
-	for key in ["endings_unlocked", "gifts_given", "won_levels"]:
+	for key in ["endings_unlocked", "gifts_given", "won_levels", "skipped_levels"]:
 		if typeof(raw.get(key)) == TYPE_ARRAY:
 			for v in raw[key]:
-				p[key].append(int(v) if key == "won_levels" else String(v))
+				p[key].append(int(v) if key.ends_with("_levels") else String(v))
+	if typeof(raw.get("losses")) == TYPE_DICTIONARY:
+		for k in raw.losses.keys():
+			p.losses[String(k)] = maxi(0, int(raw.losses[k]))
 	if not ch.is_empty():
 		p.endings_unlocked = p.endings_unlocked.filter(func(k): return ch.story.endings.has(k))
 	if typeof(raw.get("choices")) == TYPE_DICTIONARY:

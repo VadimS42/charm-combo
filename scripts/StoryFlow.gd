@@ -71,10 +71,29 @@ static func on_chapter_won(main: Node, char_id: String) -> void:
 		progress["won_levels"] = won
 	progress["next_bonus"] = 0
 	progress["scene_pending"] = level_index
+	(progress.get("losses", {}) as Dictionary).erase(str(level_index))
 	GameState.save_state()
 	main.refresh_topbar()
 	Achievements.check_story()
 
+	_play_win_scene(main, ch, level_index)
+
+
+## "Continue the story" after losing a chapter three times in a row (round
+## 25): her scene plays as if you'd won, but without the stars or the
+## chapter's achievement.
+static func skip_chapter(main: Node, char_id: String) -> void:
+	var ch := CharacterData.by_id(char_id)
+	var progress := GameState.progress_for(char_id)
+	var level_index: int = int(progress.get("level_index", 0))
+	var skipped: Array = progress.get("skipped_levels", [])
+	if not skipped.has(level_index) and not (progress.get("won_levels", []) as Array).has(level_index):
+		skipped.append(level_index)
+	progress["skipped_levels"] = skipped
+	(progress.get("losses", {}) as Dictionary).erase(str(level_index))
+	progress["next_bonus"] = 0
+	progress["scene_pending"] = level_index
+	GameState.save_state()
 	_play_win_scene(main, ch, level_index)
 
 
@@ -111,7 +130,24 @@ static func _play_night(main: Node, ch: Dictionary, then: Callable) -> void:
 		then.call()
 		return
 	main.story_music = "night"
-	main.show_vn_scene(ch.id, night.lines, null, then, String(night.get("cg", "night")))
+	main.show_vn_scene(ch.id, night.lines, null, func():
+		# Now the Gallery can replay it.
+		var key := "%s|night" % ch.id
+		if not GameState.replays.has(key):
+			GameState.replays.append(key)
+			GameState.save_state()
+		then.call()
+	, String(night.get("cg", "night")))
+
+
+## Replays her night scene from the Gallery, then goes back there.
+static func replay_night(main: Node, char_id: String) -> void:
+	var ch := CharacterData.by_id(char_id)
+	var night = ch.story.get("night")
+	if typeof(night) != TYPE_DICTIONARY:
+		return
+	main.story_music = "night"
+	main.show_vn_scene(char_id, night.lines, null, func(): main.show_gallery(), String(night.get("cg", "night")))
 
 
 ## A shallow copy of a choice block tagged with which story slot it belongs

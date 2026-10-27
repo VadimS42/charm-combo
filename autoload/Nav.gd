@@ -42,6 +42,11 @@ func _setup_actions() -> void:
 	_add_action("cc_item_moves", [_key(KEY_1), _joy(JOY_BUTTON_RIGHT_SHOULDER)])
 	_add_action("cc_item_hammer", [_key(KEY_2), _joy(JOY_BUTTON_X)])
 	_add_action("cc_item_shuffle", [_key(KEY_3), _joy(JOY_BUTTON_Y)])
+	# Dialogue (VNScreen): hold to skip read lines, Auto, the Log, hide text.
+	_add_action("cc_skip", [_key(KEY_CTRL), _joy(JOY_BUTTON_RIGHT_SHOULDER)])
+	_add_action("cc_auto", [_key(KEY_A), _joy(JOY_BUTTON_Y)])
+	_add_action("cc_log", [_key(KEY_L), _joy(JOY_BUTTON_LEFT_SHOULDER)])
+	_add_action("cc_hide", [_key(KEY_H), _joy(JOY_BUTTON_X)])
 	_add_action("cc_scroll_up", [_key(KEY_PAGEUP), _axis(JOY_AXIS_RIGHT_Y, -1.0)])
 	_add_action("cc_scroll_down", [_key(KEY_PAGEDOWN), _axis(JOY_AXIS_RIGHT_Y, 1.0)])
 
@@ -167,4 +172,8 @@ func glyph(what: String) -> String:
 		"hammer": return "X" if gamepad else "2"
 		"shuffle": return "Y" if gamepad else "3"
 		"scroll": return "Right stick" if gamepad else "PgUp/PgDn"
+		"skip": return "RB (hold)" if gamepad else "Ctrl (hold)"
+		"auto": return "Y" if gamepad else "A"
+		"log": return "LB" if gamepad else "L"
+		"hide": return "X" if gamepad else "H"
 	return what

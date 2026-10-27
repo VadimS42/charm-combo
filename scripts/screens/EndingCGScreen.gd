@@ -53,7 +53,7 @@ static func build(main: Node, host: Control, char_id: String, ending: Dictionary
 	var cont_center := CenterContainer.new()
 	cont_center.add_child(cont_btn)
 	v.add_child(cont_center)
-	main.nav_setup(cont_btn)
+	main.nav_setup(cont_btn, func(): main.toggle_settings())
 
 
 ## The framed picture shared by this screen, EndingArtBeatScreen and the

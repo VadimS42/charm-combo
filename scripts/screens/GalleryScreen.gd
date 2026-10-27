@@ -15,7 +15,7 @@ extends RefCounted
 const THUMB := Vector2(252, 142)
 const CARD_PAD := 10.0
 
-const ROUTE_NAMES := {"warmth": "Warm route", "spark": "Spark route", "balanced": "Balanced route"}
+const ROUTE_NAMES := {"warmth": "Her ending", "spark": "Spark route", "balanced": "Balanced route", "night": "Night scene"}
 
 
 static func build(main: Node, host: Control) -> void:
@@ -157,8 +157,44 @@ static func _section(main: Node, ch: Dictionary, slots: Array) -> Control:
 			flow.add_child(_found_card(main, ch, s, accent))
 		else:
 			flow.add_child(_locked_card(s, accent))
+	# Her night scene, replayable once seen (round 25).
+	if typeof(ch.story.get("night")) == TYPE_DICTIONARY:
+		if GameState.replays.has("%s|night" % ch.id):
+			flow.add_child(_night_card(main, ch, accent))
+		else:
+			flow.add_child(_locked_card({"ending": "night"}, accent))
 	v.add_child(flow)
 	return v
+
+
+static func _night_card(main: Node, ch: Dictionary, accent: Color) -> Button:
+	var char_id := String(ch.id)
+	var b := UITheme.make_card_button("", accent)
+	b.custom_minimum_size = _card_size()
+	b.tooltip_text = "Replay her night scene."
+	var inner := VBoxContainer.new()
+	inner.set_anchors_preset(Control.PRESET_FULL_RECT)
+	inner.offset_left = CARD_PAD
+	inner.offset_top = CARD_PAD
+	inner.offset_right = -CARD_PAD
+	inner.offset_bottom = -CARD_PAD
+	inner.add_theme_constant_override("separation", 4)
+	inner.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	b.add_child(inner)
+	inner.add_child(EndingCGScreen.art_frame(char_id, String(ch.story.night.get("cg", "night")), THUMB, "", "🌙"))
+	var t := UITheme.body("Her night scene", 13)
+	t.autowrap_mode = TextServer.AUTOWRAP_OFF
+	t.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	inner.add_child(t)
+	var sub := UITheme.accent_label("Replay", accent.darkened(0.2), 10)
+	sub.autowrap_mode = TextServer.AUTOWRAP_OFF
+	sub.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	inner.add_child(sub)
+	b.pressed.connect(func():
+		SFX.nav()
+		StoryFlow.replay_night(main, char_id)
+	)
+	return b
 
 
 static func _card_size() -> Vector2:
@@ -207,7 +243,7 @@ static func _locked_card(slot: Dictionary, accent: Color) -> Control:
 	p.custom_minimum_size = _card_size()
 	var ps := UITheme.panel_style(Color(UITheme.SURFACE_2, 0.6), 18, UITheme.LINE)
 	p.add_theme_stylebox_override("panel", ps)
-	p.tooltip_text = "Not found yet — somewhere on her " + String(ROUTE_NAMES.get(slot.ending, "story")).to_lower() + "."
+	p.tooltip_text = "Not found yet: finish her story to unlock it."
 
 	var inner := VBoxContainer.new()
 	inner.set_anchors_preset(Control.PRESET_FULL_RECT)

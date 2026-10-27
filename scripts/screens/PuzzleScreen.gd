@@ -245,6 +245,16 @@ func setup(p_main: Node, p_host: Control, p_char_id: String) -> void:
 
 	for msg in applied_msgs:
 		_toast(String(msg))
+	# First-time tips (each shown once per save, see HowToPlay.gd).
+	HowToPlay.tip(main, "swap")
+	HowToPlay.tip(main, "goal")
+	if level_index >= 1:
+		HowToPlay.tip(main, "favorite")
+	for item_id in ["moves", "hammer", "shuffle"]:
+		if int(GameState.items.get(item_id, 0)) > 0:
+			HowToPlay.tip(main, "items")
+			break
+	_tip_for_board()
 	if score > 0:
 		_toast("+%d pts — great answer!" % score)
 	elif score < 0:
@@ -268,7 +278,18 @@ func setup(p_main: Node, p_host: Control, p_char_id: String) -> void:
 ## buttons themselves, so Godot auto-kills them when those buttons are
 ## freed) — calling this explicitly also stops the idle_timer from firing
 ## the instant before it too gets freed.
+## The cursed-shard tip, the first time one is on the board.
+func _tip_for_board() -> void:
+	if GameState.tips_seen.has("cursed"):
+		return
+	for row in board:
+		if (row as Array).has(MatchEngine.BROKEN_IDX):
+			HowToPlay.tip(main, "cursed")
+			return
+
+
 func teardown() -> void:
+	HowToPlay.clear_queue()
 	_torn_down = true
 	# Cancels any pending "back to neutral" expression timer (_react_sprite()),
 	# which would otherwise fire on a sidebar that's already been freed.
@@ -471,32 +492,50 @@ func _build_ui() -> void:
 	root.add_theme_constant_override("separation", 12)
 	margin.add_child(root)
 
+	# ---- top row: back, and which girl / chapter this is ----
+	# Round 25 (HuniePop-style pass): the score, moves, Charm and items all
+	# live in one bar under the board; her quips show in a speech box over
+	# her; the long rules strip moved to How to Play and first-time tips.
 	var top_row := HBoxContainer.new()
 	top_row.add_theme_constant_override("separation", 10)
-	# A plain ghost button (transparent, muted-gray text) reads fine over an
-	# opaque card, but this row sits directly on top of the chapter's photo
-	# background — which can be light in one spot and dark in another within
-	# the SAME image (see the mermaid cove screenshot: pale cliffside behind
-	# the button, dark rock elsewhere). No single text/border color survives
-	# that, so this — like the moves badge and the legend/item-count labels
-	# below — gets a small translucent dark "glass" backdrop instead, which
-	# guarantees contrast no matter what's behind it.
+	# Glass backdrops on everything that sits straight on the background
+	# photo, which can be light in one spot and dark in another.
 	var back := _photo_nav_button("←  Roster")
 	back.pressed.connect(func():
 		SFX.nav()
 		# Stop the idle-hint countdown and kill any looping hint tween BEFORE
-		# screen_host's children (including the cell buttons a hint tween may
-		# still be animating) get freed by clear_screen() — leaving that
-		# behind was causing a freeze when leaving mid-hint (see teardown()).
+		# screen_host's children get freed by clear_screen() (see teardown()).
 		teardown()
 		GameState.save_state()
 		main.show_roster()
 	)
 	top_row.add_child(back)
+	var how_btn := _photo_nav_button("?  How to Play")
+	how_btn.pressed.connect(func():
+		SFX.nav()
+		HowToPlay.show_page(main)
+	)
+	top_row.add_child(how_btn)
 	var spacer := Control.new()
 	spacer.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	top_row.add_child(spacer)
-	top_row.add_child(_glass_label(String(ch.name), 12))
+	var chapter_pill := PanelContainer.new()
+	var pill_style := _glass_style(999)
+	pill_style.content_margin_left = 14
+	pill_style.content_margin_right = 14
+	pill_style.content_margin_top = 5
+	pill_style.content_margin_bottom = 6
+	chapter_pill.add_theme_stylebox_override("panel", pill_style)
+	var pill_row := HBoxContainer.new()
+	pill_row.add_theme_constant_override("separation", 8)
+	var name_l := UITheme.body(String(ch.name), 13, Color.WHITE)
+	name_l.autowrap_mode = TextServer.AUTOWRAP_OFF
+	pill_row.add_child(name_l)
+	chapter_lbl = UITheme.accent_label("", _accent().lightened(0.35), 12)
+	chapter_lbl.autowrap_mode = TextServer.AUTOWRAP_OFF
+	pill_row.add_child(chapter_lbl)
+	chapter_pill.add_child(pill_row)
+	top_row.add_child(chapter_pill)
 	root.add_child(top_row)
 
 	var layout := HBoxContainer.new()
@@ -504,72 +543,11 @@ func _build_ui() -> void:
 	layout.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	root.add_child(layout)
 
-	# ---- board column ----
+	# ---- board column: the board, then the HUD bar under it ----
 	var board_col := VBoxContainer.new()
 	board_col.add_theme_constant_override("separation", 10)
 	board_col.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	layout.add_child(board_col)
-
-	# ---- top bar: moves badge + score/goal bar ----
-	# A normal row living in board_col's own flow, ABOVE board_area — this
-	# used to float as an absolute overlay anchored INSIDE board_area, on top
-	# of the CenterContainer-centered board panel, with only a few px of
-	# built-in clearance from the panel's own top edge. That's exactly what
-	# read as "points overlap with puzzle": depending on window size the
-	# overlay could land right on — or inside — the panel. Giving it its own
-	# dedicated row means it always has its own vertical space and can never
-	# overlap the board again, regardless of board or window size.
-	var board_top_row := HBoxContainer.new()
-	board_top_row.add_theme_constant_override("separation", 10)
-	board_col.add_child(board_top_row)
-
-	var moves_badge := PanelContainer.new()
-	var badge_style := StyleBoxFlat.new()
-	badge_style.bg_color = Color(0, 0, 0, 0.55)
-	badge_style.set_corner_radius_all(999)
-	badge_style.content_margin_left = 12
-	badge_style.content_margin_right = 12
-	badge_style.content_margin_top = 5
-	badge_style.content_margin_bottom = 5
-	moves_badge.add_theme_stylebox_override("panel", badge_style)
-	moves_badge.tooltip_text = "Moves left this chapter"
-	var moves_row := HBoxContainer.new()
-	moves_row.add_theme_constant_override("separation", 5)
-	moves_row.mouse_filter = Control.MOUSE_FILTER_IGNORE
-	# art/ui/hourglass.png when it exists, else the ⏳ emoji.
-	moves_row.add_child(UITheme.icon_or_emoji("hourglass", "⏳", 16, Color.WHITE))
-	moves_lbl = Label.new()
-	moves_lbl.add_theme_font_size_override("font_size", 13)
-	moves_lbl.add_theme_color_override("font_color", Color.WHITE)
-	moves_row.add_child(moves_lbl)
-	moves_badge.add_child(moves_row)
-	board_top_row.add_child(moves_badge)
-
-	var score_wrap := Control.new()
-	score_wrap.custom_minimum_size = Vector2(0, 26)
-	score_wrap.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	goal_bar = ProgressBar.new()
-	goal_bar.set_anchors_preset(Control.PRESET_FULL_RECT)
-	goal_bar.show_percentage = false
-	var track := StyleBoxFlat.new()
-	track.bg_color = Color(0, 0, 0, 0.35)
-	track.set_corner_radius_all(999)
-	var fill := StyleBoxFlat.new()
-	fill.bg_color = UITheme.ACCENT_2
-	fill.set_corner_radius_all(999)
-	goal_bar.add_theme_stylebox_override("background", track)
-	goal_bar.add_theme_stylebox_override("fill", fill)
-	score_wrap.add_child(goal_bar)
-	score_lbl = Label.new()
-	score_lbl.set_anchors_preset(Control.PRESET_FULL_RECT)
-	score_lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	score_lbl.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
-	score_lbl.add_theme_font_size_override("font_size", 12)
-	score_lbl.add_theme_color_override("font_color", Color.WHITE)
-	score_lbl.add_theme_color_override("font_outline_color", Color(0, 0, 0, 0.6))
-	score_lbl.add_theme_constant_override("outline_size", 3)
-	score_wrap.add_child(score_lbl)
-	board_top_row.add_child(score_wrap)
 
 	var board_area := Control.new()
 	board_area.custom_minimum_size = Vector2(0, 480)
@@ -669,41 +647,9 @@ func _build_ui() -> void:
 	toast_layer.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	board_area.add_child(toast_layer)
 
-	# ---- item slots: a row of round icon buttons under the board, instead
-	# of a vertical list of wide rectangular buttons in the sidebar ----
-	var item_row := HBoxContainer.new()
-	item_row.alignment = BoxContainer.ALIGNMENT_CENTER
-	item_row.add_theme_constant_override("separation", 20)
-	item_row.add_child(_item_slot("moves"))
-	item_row.add_child(_item_slot("hammer"))
-	item_row.add_child(_item_slot("shuffle"))
-	board_col.add_child(item_row)
+	board_col.add_child(_build_hud_bar())
 
-	# On a glass bar rather than bare over the background for the same
-	# reason as the top-bar name label above — a muted-gray soft_label reads
-	# fine on an opaque card, but was unreadable wherever this photo
-	# background happened to be light-toned too.
-	var legend := UITheme.body(
-		"Match 4 → Rocket · Match 5 / L·T shape → Starburst · swap a special to trigger it · cursed shards cost points (a Hammer clears one free) · 💗 Charm ring fills as you match gems (her favorite fills it fastest) — max it out for a +150 Charm Burst!",
-		11, Color(1, 1, 1, 0.92))
-	legend.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	var legend_bar := PanelContainer.new()
-	var legend_style := _glass_style(12)
-	legend_style.content_margin_left = 14
-	legend_style.content_margin_right = 14
-	legend_style.content_margin_top = 6
-	legend_style.content_margin_bottom = 6
-	legend_bar.add_theme_stylebox_override("panel", legend_style)
-	legend_bar.add_child(legend)
-	board_col.add_child(legend_bar)
-
-	# ---- sidebar ----
-	# Her portrait used to sit boxed up in its own small ~170px-tall card
-	# above the HUD. Per feedback, she now stands large behind the whole
-	# sidebar instead: sidebar_root layers sprite_host (added first, so it
-	# renders behind) with the actual HUD/items VBox on top of it. Since the
-	# portrait art is transparent around her, nothing needs an opaque panel
-	# behind it — the puzzle's own backdrop just shows through the gaps.
+	# ---- her side: her sprite (on its own layer above) and her speech box ----
 	var sidebar_root := Control.new()
 	sidebar_root.custom_minimum_size = Vector2(SIDEBAR_W, 0)
 	sidebar_root.clip_contents = true
@@ -715,44 +661,27 @@ func _build_ui() -> void:
 	sidebar_root.add_child(sprite_host)
 	_set_sprite_expr("neutral")
 
-	var sidebar := VBoxContainer.new()
-	sidebar.set_anchors_preset(Control.PRESET_FULL_RECT)
-	sidebar.add_theme_constant_override("separation", 10)
-	sidebar_root.add_child(sidebar)
-
-	var name_card := UITheme.panel(UITheme.SURFACE_2, 14, UITheme.LINE)
-	var name_v := VBoxContainer.new()
-	name_v.add_child(UITheme.body(String(ch.name), 14))
-	chapter_lbl = UITheme.accent_label("", _accent(), 11)
-	name_v.add_child(chapter_lbl)
-	name_card.add_child(name_v)
-	sidebar.add_child(name_card)
-
-	# Charm ring, pinned to the bottom-left corner of the sidebar so it reads
-	# as sitting over her portrait's corner — moves/score live on the board
-	# overlay above and items are the row of slots under the board, so this
-	# is the only thing left in the sidebar besides her name.
-	var charm_ring_inst := CharmRing.new()
-	charm_ring_inst.custom_minimum_size = Vector2(58, 58)
-	charm_ring_inst.ring_color = UITheme.SPECIAL_PINK
-	charm_ring_inst.anchor_left = 0.0
-	charm_ring_inst.anchor_top = 1.0
-	charm_ring_inst.anchor_right = 0.0
-	charm_ring_inst.anchor_bottom = 1.0
-	charm_ring_inst.offset_left = 14.0
-	charm_ring_inst.offset_right = 14.0 + 58.0
-	charm_ring_inst.offset_top = -72.0
-	charm_ring_inst.offset_bottom = -14.0
-	sidebar_root.add_child(charm_ring_inst)
-	charm_ring = charm_ring_inst
-
-	charm_ring_inst.tooltip_text = "Charm — fills as you match (her favorite gem fastest). Full = +150 Charm Burst."
-	# art/ui/heart.png in the middle of the ring when it exists, else 💗.
-	var charm_icon_center := CenterContainer.new()
-	charm_icon_center.set_anchors_preset(Control.PRESET_FULL_RECT)
-	charm_icon_center.mouse_filter = Control.MOUSE_FILTER_IGNORE
-	charm_icon_center.add_child(UITheme.icon_or_emoji("heart", "💗", 26))
-	charm_ring_inst.add_child(charm_icon_center)
+	# Her quips (and voice lines) in a speech box at the bottom of her side,
+	# like a dialogue box, instead of floating text over the board.
+	_speech_box = PanelContainer.new()
+	_speech_box.add_theme_stylebox_override("panel", UITheme.dialogue_style(_accent()))
+	_speech_box.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	_speech_box.anchor_left = 0.0
+	_speech_box.anchor_right = 1.0
+	_speech_box.anchor_top = 1.0
+	_speech_box.anchor_bottom = 1.0
+	_speech_box.offset_top = -120.0
+	_speech_box.grow_vertical = Control.GROW_DIRECTION_BEGIN
+	_speech_box.modulate.a = 0.0
+	sidebar_root.add_child(_speech_box)
+	var speech_v := VBoxContainer.new()
+	speech_v.add_theme_constant_override("separation", 4)
+	_speech_box.add_child(speech_v)
+	var speech_name := UITheme.accent_label(String(ch.name).split(" ")[0], _accent().lightened(0.3), 12)
+	speech_v.add_child(speech_name)
+	_speech_lbl = UITheme.body("", 14, UITheme.INK_ON_DARK)
+	_speech_lbl.autowrap_mode = TextServer.AUTOWRAP_WORD
+	speech_v.add_child(_speech_lbl)
 
 	overlay = PanelContainer.new()
 	overlay.visible = false
@@ -765,6 +694,135 @@ func _build_ui() -> void:
 	idle_timer.one_shot = true
 	idle_timer.timeout.connect(_on_idle_timeout)
 	host.add_child(idle_timer)
+
+
+## The bar under the board (round 25): moves on the left, the score bar
+## filling towards the chapter's target, the Charm ring, then the items.
+func _build_hud_bar() -> PanelContainer:
+	var bar := PanelContainer.new()
+	var st := _glass_style(18)
+	st.bg_color = Color(0.13, 0.06, 0.16, 0.72)
+	st.border_color = Color(_accent(), 0.7)
+	st.set_border_width_all(2)
+	st.content_margin_left = 14
+	st.content_margin_right = 14
+	st.content_margin_top = 8
+	st.content_margin_bottom = 8
+	bar.add_theme_stylebox_override("panel", st)
+	var row := HBoxContainer.new()
+	row.add_theme_constant_override("separation", 16)
+	bar.add_child(row)
+
+	# Moves: a big number with its label under it.
+	var moves_v := VBoxContainer.new()
+	moves_v.add_theme_constant_override("separation", 0)
+	moves_v.alignment = BoxContainer.ALIGNMENT_CENTER
+	moves_v.tooltip_text = "Moves left this chapter"
+	moves_v.mouse_filter = Control.MOUSE_FILTER_PASS
+	var moves_row := HBoxContainer.new()
+	moves_row.add_theme_constant_override("separation", 6)
+	moves_row.alignment = BoxContainer.ALIGNMENT_CENTER
+	moves_row.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	# art/ui/hourglass.png when it exists, else the ⏳ emoji.
+	moves_row.add_child(UITheme.icon_or_emoji("hourglass", "⏳", 20, Color.WHITE))
+	moves_lbl = Label.new()
+	moves_lbl.add_theme_font_size_override("font_size", 26)
+	moves_lbl.add_theme_color_override("font_color", Color.WHITE)
+	moves_row.add_child(moves_lbl)
+	moves_v.add_child(moves_row)
+	var moves_cap := UITheme.body("MOVES", 10, UITheme.INK_ON_DARK_SOFT)
+	moves_cap.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	moves_v.add_child(moves_cap)
+	row.add_child(moves_v)
+
+	# Score bar with the points written on it.
+	var score_v := VBoxContainer.new()
+	score_v.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	score_v.alignment = BoxContainer.ALIGNMENT_CENTER
+	score_v.add_theme_constant_override("separation", 3)
+	var score_wrap := Control.new()
+	score_wrap.custom_minimum_size = Vector2(0, 30)
+	goal_bar = ProgressBar.new()
+	goal_bar.set_anchors_preset(Control.PRESET_FULL_RECT)
+	goal_bar.show_percentage = false
+	var track := StyleBoxFlat.new()
+	track.bg_color = Color(0, 0, 0, 0.45)
+	track.set_corner_radius_all(999)
+	track.border_color = Color(1, 1, 1, 0.18)
+	track.set_border_width_all(1)
+	var fill := StyleBoxFlat.new()
+	fill.bg_color = _accent().lightened(0.1)
+	fill.set_corner_radius_all(999)
+	goal_bar.add_theme_stylebox_override("background", track)
+	goal_bar.add_theme_stylebox_override("fill", fill)
+	score_wrap.add_child(goal_bar)
+	score_lbl = Label.new()
+	score_lbl.set_anchors_preset(Control.PRESET_FULL_RECT)
+	score_lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	score_lbl.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
+	score_lbl.add_theme_font_size_override("font_size", 15)
+	score_lbl.add_theme_color_override("font_color", Color.WHITE)
+	score_lbl.add_theme_color_override("font_outline_color", Color(0, 0, 0, 0.6))
+	score_lbl.add_theme_constant_override("outline_size", 4)
+	score_wrap.add_child(score_lbl)
+	score_v.add_child(score_wrap)
+	var score_cap := UITheme.body("CHAPTER GOAL", 10, UITheme.INK_ON_DARK_SOFT)
+	score_cap.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	score_v.add_child(score_cap)
+	row.add_child(score_v)
+
+	var charm_ring_inst := CharmRing.new()
+	charm_ring_inst.custom_minimum_size = Vector2(54, 54)
+	charm_ring_inst.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+	charm_ring_inst.ring_color = UITheme.SPECIAL_PINK
+	charm_ring_inst.tooltip_text = "Charm — fills as you match (her favorite gem fastest). Full = +150 Charm Burst."
+	# art/ui/heart.png in the middle of the ring when it exists, else 💗.
+	var charm_icon_center := CenterContainer.new()
+	charm_icon_center.set_anchors_preset(Control.PRESET_FULL_RECT)
+	charm_icon_center.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	charm_icon_center.add_child(UITheme.icon_or_emoji("heart", "💗", 24))
+	charm_ring_inst.add_child(charm_icon_center)
+	row.add_child(charm_ring_inst)
+	charm_ring = charm_ring_inst
+
+	var sep := VSeparator.new()
+	var sep_line := StyleBoxLine.new()
+	sep_line.color = Color(1, 1, 1, 0.18)
+	sep_line.vertical = true
+	sep_line.thickness = 1
+	sep.add_theme_stylebox_override("separator", sep_line)
+	row.add_child(sep)
+
+	for item_id in ["moves", "hammer", "shuffle"]:
+		row.add_child(_item_slot(item_id))
+	return bar
+
+
+var _speech_box: PanelContainer
+var _speech_lbl: Label
+var _speech_tw: Tween
+var _speech_token := 0
+
+## Shows `text` in her speech box for a while (as long as her recording of it
+## plays, at least), then fades it.
+func _say(text: String) -> void:
+	if _speech_box == null:
+		return
+	_speech_token += 1
+	var token := _speech_token
+	_speech_lbl.text = text
+	if _speech_tw and _speech_tw.is_valid():
+		_speech_tw.kill()
+	_speech_tw = _speech_box.create_tween()
+	_speech_tw.tween_property(_speech_box, "modulate:a", 1.0, 0.15)
+	var hold := maxf(2.8, 1.2 + text.length() * 0.05)
+	await main.get_tree().create_timer(hold).timeout
+	while is_instance_valid(_speech_box) and Voice.is_playing() and token == _speech_token:
+		await main.get_tree().create_timer(0.25).timeout
+	if _torn_down or token != _speech_token or not is_instance_valid(_speech_box):
+		return
+	_speech_tw = _speech_box.create_tween()
+	_speech_tw.tween_property(_speech_box, "modulate:a", 0.0, 0.4)
 
 
 ## A round icon "slot" (icon button + a small count label underneath),
@@ -1468,6 +1526,7 @@ func _on_idle_timeout() -> void:
 
 
 func _react_sprite(expr: String, hold_sec: float) -> void:
+	_react_sound(expr)
 	if _live_sprite != null:
 		_live_sprite.react(expr)
 		return
@@ -1482,6 +1541,35 @@ func _react_sprite(expr: String, hold_sec: float) -> void:
 		if token == _sprite_token:
 			_set_sprite_expr("neutral")
 	)
+
+
+## Once in a while she laughs at a good move or tuts at a bad one: her
+## "sounds" in characters.json (kind "laugh" / "unhappy"), once they're
+## recorded. Rare on purpose: a small chance, a cooldown, never the same one
+## twice in an attempt, and never over a line she's still saying.
+const SOUND_CHANCE := 0.08
+const SOUND_COOLDOWN_MS := 25000
+var _last_sound_ms := -SOUND_COOLDOWN_MS
+
+func _react_sound(expr: String) -> void:
+	var kind := ""
+	if expr == "happy":
+		kind = "laugh"
+	elif expr == "angry" or expr == "sad":
+		kind = "unhappy"
+	if kind == "" or Voice.is_playing() or randf() > SOUND_CHANCE \
+			or Time.get_ticks_msec() - _last_sound_ms < SOUND_COOLDOWN_MS:
+		return
+	var pool: Array = (ch.get("sounds", []) as Array).filter(func(snd):
+		return String(snd.get("kind", "")) == kind and not _said.has(String(snd.get("id", ""))))
+	if pool.is_empty():
+		return
+	var snd: Dictionary = pool[randi() % pool.size()]
+	if Voice.clip_path(char_id, String(snd.get("id", ""))) == "":
+		return
+	_said[String(snd.get("id", ""))] = true
+	_last_sound_ms = Time.get_ticks_msec()
+	Voice.play_line(char_id, snd)
 
 
 ## Reaction on the idle animation, standing in for the expression-portrait
@@ -1786,13 +1874,16 @@ func _resolve_loop(match_result: Dictionary, combo_index: int) -> void:
 			changed[str(spot.x) + "," + str(spot.y)] = true
 			if board[spot.x][spot.y] == MatchEngine.STARBURST:
 				Achievements.unlock("MAKE_STARBURST")
+			HowToPlay.tip(main, "specials")
 	_render_board(changed)
+	_tip_for_board()
 	if not GameState.settings.get("reduce_motion", false):
 		await main.get_tree().create_timer(0.22).timeout
 	if _torn_down:
 		return
 	var next: Dictionary = MatchEngine.analyze_matches(board)
 	if not next.matched_cells.is_empty():
+		HowToPlay.tip(main, "combos")
 		await _resolve_loop(next, combo_index + 1)
 
 
@@ -1866,15 +1957,18 @@ func _score_and_clear(matched: Dictionary, combo_index: int) -> void:
 	var fav_quips: Array = ch.get("favQuips", [])
 	var least_quips: Array = ch.get("leastQuips", [])
 	var chat_quips: Array = ch.get("chatQuips", [])
-	# While she's still saying the last one, she doesn't start another.
+	# While she's still saying the last one, she doesn't start another, and
+	# each quip is said at most once per attempt at a chapter.
 	if not Voice.is_playing():
-		if fav_hit and randf() < 0.4 and not fav_quips.is_empty():
-			_say_quip(fav_quips[randi() % fav_quips.size()])
-		elif least_hit and randf() < 0.4 and not least_quips.is_empty():
-			_say_quip(least_quips[randi() % least_quips.size()])
-		elif randf() < 0.12 and not chat_quips.is_empty():
-			_say_quip(chat_quips[randi() % chat_quips.size()])
+		if fav_hit and randf() < 0.4:
+			_say_fresh_quip(fav_quips)
+		elif least_hit and randf() < 0.4:
+			_say_fresh_quip(least_quips)
+		elif randf() < 0.12:
+			_say_fresh_quip(chat_quips)
 
+	if charm * 2 >= MatchEngine.CHARM_MAX:
+		HowToPlay.tip(main, "charm")
 	if charm >= MatchEngine.CHARM_MAX:
 		charm = 0
 		score += 150
@@ -1884,9 +1978,20 @@ func _score_and_clear(matched: Dictionary, combo_index: int) -> void:
 	_update_hud()
 
 
+## Quips (and laughs / sighs) already used this attempt, by text.
+var _said := {}
+
+## One she hasn't said yet this attempt, if any are left.
+func _say_fresh_quip(pool: Array) -> void:
+	var fresh := pool.filter(func(q): return not _said.has(_quip_text(q)))
+	if not fresh.is_empty():
+		_say_quip(fresh[randi() % fresh.size()])
+
+
 ## Shows a quip and plays her recording of it, if there is one.
 func _say_quip(q) -> void:
-	_toast(_quip_text(q))
+	_said[_quip_text(q)] = true
+	_say(_quip_text(q))
 	Voice.play_line(char_id, q)
 
 
@@ -1924,8 +2029,20 @@ static func consolation_stars(final_score: int) -> int:
 	return maxi(3, floori(float(final_score) / 100.0))
 
 
+## This attempt's loss is already counted (running out again after +3 Moves
+## is the same attempt).
+var _loss_counted := false
+
 func _show_lose_overlay() -> void:
 	SFX.lose()
+	HowToPlay.tip(main, "out_of_moves")
+	var progress := GameState.progress_for(char_id)
+	var losses: Dictionary = progress.get("losses", {})
+	if not _loss_counted:
+		_loss_counted = true
+		losses[str(level_index)] = int(losses.get(str(level_index), 0)) + 1
+		progress["losses"] = losses
+		GameState.save_state()
 	_clear_hint()
 	# Losing still pays a little, so you can save up for power-ups and come
 	# back for another go (topped up, never paid twice, if +3 Moves keeps the
@@ -1997,6 +2114,24 @@ func _show_lose_overlay() -> void:
 		main.open_store_from_chapter(char_id)
 	)
 	row.add_child(shop_btn)
+
+	# Stuck? After three losses in a row the story can carry on anyway, so
+	# the puzzle never walls it off (no stars or achievement for this one).
+	if int(losses.get(str(level_index), 0)) >= 3:
+		var cont := UITheme.make_ghost_button("Continue the story  ▸")
+		cont.tooltip_text = "Carry on without clearing this chapter (no stars for it)."
+		cont.pressed.connect(func():
+			SFX.nav()
+			teardown()
+			StoryFlow.skip_chapter(main, char_id)
+		)
+		var cont_row := HBoxContainer.new()
+		cont_row.alignment = BoxContainer.ALIGNMENT_CENTER
+		cont_row.add_child(cont)
+		v.add_child(cont_row)
+		var note := UITheme.soft_label("Skips this chapter's puzzle: no stars for it.", 11)
+		note.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+		v.add_child(note)
 	# Keys / a pad: onto the overlay's first button (the board is locked).
 	if Nav.nav_mode:
 		(row.get_child(0) as Control).grab_focus.call_deferred()

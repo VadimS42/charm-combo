@@ -97,8 +97,10 @@ func check_story() -> void:
 	var won: Array = p.get("won_levels", [])
 	if bool(p.get("_intro_done", false)) or level > 0 or ended:
 		unlock("HAZEL_MEET")
+	# A chapter passed with "Continue the story" doesn't count.
+	var skipped: Array = p.get("skipped_levels", [])
 	for i in range(3):
-		if won.has(i) or won.has(float(i)) or level > i or ended:
+		if (won.has(i) or level > i or ended) and not skipped.has(i):
 			unlock("HAZEL_CH%d" % (i + 1))
 	if ended:
 		# Her four replies (intro and chapters 1-3), all one way.

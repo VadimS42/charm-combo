@@ -395,6 +395,44 @@ static func make_card_button(text: String, accent: Color) -> Button:
 	return _add_hover_lift(b, 1.02)
 
 
+## A reply choice in a dialogue scene (round 25, HuniePop-style): a wide
+## glassy pill over the stage, light text, edged in her color, filling with it
+## on hover / focus.
+static func make_choice_button(text: String, accent: Color) -> Button:
+	var b := Button.new()
+	b.text = text
+	b.custom_minimum_size = Vector2(560, 54)
+	b.autowrap_mode = TextServer.AUTOWRAP_WORD
+	b.add_theme_font_size_override("font_size", 16)
+	for k in ["font_color", "font_hover_color", "font_focus_color", "font_pressed_color"]:
+		b.add_theme_color_override(k, INK_ON_DARK)
+	b.add_theme_color_override("font_outline_color", Color(0, 0, 0, 0.35))
+	b.add_theme_constant_override("outline_size", 2)
+	var normal := StyleBoxFlat.new()
+	normal.bg_color = Color(0.16, 0.07, 0.2, 0.78)
+	normal.border_color = Color(accent.r, accent.g, accent.b, 0.9)
+	normal.set_border_width_all(2)
+	normal.set_corner_radius_all(999)
+	normal.content_margin_left = 28
+	normal.content_margin_right = 28
+	normal.content_margin_top = 10
+	normal.content_margin_bottom = 10
+	normal.shadow_color = Color(0, 0, 0, 0.25)
+	normal.shadow_size = 8
+	normal.shadow_offset = Vector2(0, 3)
+	var hover := normal.duplicate() as StyleBoxFlat
+	hover.bg_color = Color(accent.r, accent.g, accent.b, 0.92).darkened(0.12)
+	hover.border_color = accent.lightened(0.4)
+	hover.shadow_color = Color(accent.r, accent.g, accent.b, 0.4)
+	hover.shadow_size = 14
+	b.add_theme_stylebox_override("normal", normal)
+	b.add_theme_stylebox_override("hover", hover)
+	b.add_theme_stylebox_override("pressed", hover)
+	b.add_theme_stylebox_override("focus", hover)
+	b.mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
+	return _add_hover_lift(b, 1.025)
+
+
 static func heading(text: String, size: int = 24) -> Label:
 	var l := Label.new()
 	l.text = text
