@@ -1,0 +1,14 @@
+# Godot 4 generated cache/import files
+.godot/
+.import/
+export.cfg
+export_presets.cfg
+*.translation
+
+# Build output
+/builds/
+/exports/
+
+# OS cruft
+.DS_Store
+Thumbs.db

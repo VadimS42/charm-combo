@@ -1,0 +1,562 @@
+[
+  {
+    "id": "succubus",
+    "name": "Amara Duskrose",
+    "role": "Star of the Ashen Stage",
+    "c": "#FF5FA8",
+    "hair": "#3A1F33",
+    "hairShade": "#241220",
+    "skin": "#F3D2C9",
+    "eye": "#FF8FCE",
+    "outfit": "#2B1730",
+    "trim": "#FF5FA8",
+    "accessory": "small curled horns, a heart-tipped tail, folded bat-like wing motif on her stage cape — fully clothed in a high-collar gothic stage costume",
+    "tagline": "\"Everyone thinks succubi cast love spells. I just really, really commit to a bit.\"",
+    "bg": "succubus_stage",
+    "fav": "rune",
+    "least": "moonstone",
+    "favQuips": [
+      "Ooh, that one's got a nice charge to it.",
+      "Mmm, I can feel that one.",
+      "Now THAT'S a good prop.",
+      "Perfect. Absolutely theatrical."
+    ],
+    "leastQuips": [
+      "Ugh, too cold for me.",
+      "That one always kills my glow.",
+      "Moonlight's for amateurs."
+    ],
+    "chatQuips": [
+      "Darling, your technique is improving.",
+      "Is it hot in here or is that just me?",
+      "Don't tell the director I skipped warmups to hang out with you instead.",
+      "You're staring. I don't mind, for the record."
+    ],
+    "gift": {
+      "id": "stagePin",
+      "name": "Vintage Enamel Star Pin",
+      "price": 22,
+      "desc": "A tiny, tarnished star-shaped pin that looks like it fell off someone's costume decades ago."
+    },
+    "giftLine": [
+      {"k": "n", "e": "surprised", "t": "She goes very still when she sees what's in your hand — an actual, genuine still, not a performance of one."},
+      {"k": "s", "e": "happy", "t": "\"You found this backstage? I've been looking for a good luck charm for the equinox premiere for WEEKS.\""},
+      {"k": "n", "e": "shy", "t": "She pins it to her collar immediately, then catches herself checking her reflection in a nearby window."},
+      {"k": "s", "e": "shy", "t": "\"Okay. This is now permanently part of the costume. No notes. No further discussion.\""}
+    ],
+    "story": {
+      "intro": [
+        {"k": "n", "t": "The Ashen Stage's amphitheater is empty except for one girl rehearsing a monologue to a room full of nobody, her small curled horns catching the light from a single work lamp."},
+        {"k": "s", "e": "teasing", "t": "Oh — an audience. Don't worry, I won't charge admission. Yet."},
+        {"k": "n", "t": "Amara Duskrose hops off the stage edge, tail flicking behind her like a metronome that's decided to have opinions."},
+        {"k": "s", "t": "I'm supposed to be blocking Act Two, but honestly? I've been staring at this prop table for twenty minutes instead. Tell me these charm tiles aren't cursed."},
+        {"k": "n", "t": "She gestures at a battered folding table covered in small painted tiles — the kind you'd find in a fortune-teller's booth, or a very theatrical board game."},
+        {"k": "s", "t": "They came with the building, apparently. Whoever ran this stage before the current company left half their trinkets behind, and nobody's brave enough to throw a succubus's inherited props in the bin."},
+        {"k": "n", "t": "She flips a tile between clawed fingers, entirely too pleased with the drama of that sentence."},
+        {"k": "s", "e": "happy", "t": "Match a few with me. I promise the only spell involved is the one where you start actually paying attention to me."}
+      ],
+      "introChoice": {"options": [
+        {"label": "A succubus asking ME for help? Sure, why not.", "stat": "spark", "bonus": -40, "resp": [
+          {"k": "s", "e": "teasing", "t": "\"Bold. I like bold. Most people flinch when I say the word out loud.\""},
+          {"k": "n", "t": "She grins, all easy confidence, and flips a tile between her fingers like a coin."}
+        ]},
+        {"label": "I don't scare that easily. Let's see what you've got.", "stat": "warmth", "bonus": 110, "resp": [
+          {"k": "s", "e": "shy", "t": "\"...Huh. Most people either run or start performing FOR me. You're just... normal about it.\""},
+          {"k": "n", "t": "For a second the stage-persona flickers, and something quieter shows through before she catches it."}
+        ]}
+      ]},
+      "levels": [
+        {"target": 650, "moves": 16,
+          "win": [
+            {"k": "n", "t": "The last tiles click together and Amara actually claps, once, sharp and delighted."},
+            {"k": "s", "e": "surprised", "t": "Okay, you're better at this than the last three people who tried. They usually just stare at me instead of the table."},
+            {"k": "n", "t": "She hops up to sit on the prop table, swinging her legs, tail curling loosely around one ankle."},
+            {"k": "s", "t": "Can I ask you something, actually?"}
+          ],
+          "choice": {"options": [
+            {"label": "You don't have to perform for me, you know.", "stat": "warmth", "bonus": 110, "resp": [
+              {"k": "s", "e": "shy", "t": "\"I— that's annoyingly perceptive of you.\""},
+              {"k": "n", "t": "She picks at the edge of a tile, not quite meeting your eyes for once."},
+              {"k": "s", "e": "happy", "t": "\"It's just easier. If I'm always 'on,' nobody gets close enough to be disappointed by the version that isn't.\""},
+              {"k": "n", "t": "The work lamp hums. Somewhere backstage, something falls over, and neither of you moves to check on it."}
+            ]},
+            {"label": "Careful, I might steal your spotlight.", "stat": "spark", "bonus": -40, "resp": [
+              {"k": "s", "e": "teasing", "t": "\"Oh, it is SO on. Prepare to be theatrically, dramatically defeated.\""},
+              {"k": "n", "t": "She cracks her knuckles with way more flourish than the action requires."},
+              {"k": "s", "e": "happy", "t": "\"I haven't had a real rival in ages. This is the most fun I've had backstage in a long time.\""}
+            ]}
+          ]}
+        },
+        {"target": 950, "moves": 16,
+          "win": [
+            {"k": "s", "e": "surprised", "t": "You beat your own score. Are you SURE you're not secretly cursed with good luck? Because that would explain a lot."},
+            {"k": "s", "e": "teasing", "t": "I'm half convinced you're doing this on purpose just to make my dramatic monologue about 'the fickle hand of fate' look ridiculous."},
+            {"k": "n", "t": "She flops backward across the prop table, staring at the rafters, entirely unbothered by the dust."},
+            {"k": "s", "t": "Ask me anything. I'm too comfortable to lie right now."}
+          ],
+          "choice": {"options": [
+            {"label": "Maybe fate's just rooting for you.", "stat": "warmth", "bonus": 110, "resp": [
+              {"k": "s", "e": "shy", "t": "\"Don't— don't say things like that when I'm lying down, it's unfair, I can't compose myself properly.\""},
+              {"k": "n", "t": "A tail-tip taps rapidly against the table, the world's least subtle tell."},
+              {"k": "s", "e": "happy", "t": "\"Okay. Noted. Filing that away for later, when I've recovered.\""}
+            ]},
+            {"label": "Nah, I just really like winning.", "stat": "spark", "bonus": -40, "resp": [
+              {"k": "s", "e": "teasing", "t": "\"A woman after my own cursed heart. Rematch. Right now. Winner picks the next scene partner.\""},
+              {"k": "n", "t": "She's already sitting back up, tiles reset, entirely too invested in a game she made up an hour ago."}
+            ]}
+          ]}
+        },
+        {"target": 1150, "moves": 17,
+          "win": [
+            {"k": "n", "t": "The last tile clicks into place just as backstage chaos erupts — a stagehand knocks over an entire rack of costumes with a resounding crash."},
+            {"k": "s", "e": "surprised", "t": "Okay, ignore that! Everything is fine! ...Someone go check if everything is fine."},
+            {"k": "n", "t": "Amara doesn't even flinch, sliding off her stool to survey the wreckage with the practiced calm of someone who has seen far worse the night before opening."},
+            {"k": "s", "t": "Actually, since you're here — help me hang these back up? I promise the moth-eaten cape isn't cursed. Probably."}
+          ],
+          "choice": {"options": [
+            {"label": "You're surprisingly calm about all this chaos.", "stat": "warmth", "bonus": 120, "resp": [
+              {"k": "s", "e": "shy", "t": "\"Comes with the territory. If I panicked every time something caught fire back here, I'd never get anything done.\""},
+              {"k": "n", "t": "She says 'caught fire' with the weary ease of someone who means it literally, at least once."},
+              {"k": "s", "e": "happy", "t": "\"Having someone who doesn't panic WITH me, though? That part's new. I like it a lot.\""}
+            ]},
+            {"label": "Only because I get to watch you handle it, obviously.", "stat": "spark", "bonus": -45, "resp": [
+              {"k": "s", "e": "teasing", "t": "\"Flattery, backstage, during a minor crisis. Bold strategy. I respect it entirely too much.\""},
+              {"k": "n", "t": "She tosses you a costume piece to hang, grinning despite the mess, clearly enjoying the audience regardless of the circumstances."}
+            ]}
+          ]}
+        },
+        {"target": 1350, "moves": 18,
+          "win": [
+            {"k": "n", "t": "The work lamp finally clicks off on its timer, leaving the two of you lit only by the exit sign's dim red glow."},
+            {"k": "s", "e": "happy", "t": "Thanks for actually showing up. Not just today — every single time, actually."},
+            {"k": "s", "e": "shy", "t": "I don't usually mean things this plainly. Let me have this one, okay?"},
+            {"k": "n", "t": "She tucks a loose curl behind one small horn, looking, for once, entirely unrehearsed."}
+          ],
+          "choice": null
+        }
+      ],
+      "endings": {
+        "warmth": {"title": "Backstage, For Real", "text": "Amara hands you a spare key to the props closet — the unglamorous, unlit, entirely un-theatrical heart of the whole stage. \"Everyone gets the stage version of me,\" she says. \"This is the one who forgets her lines and eats crackers over the script. You get this one now, if you want her.\" You do. She still performs for full houses every season, but there's always one seat, off to the side, that she checks for before the curtain rises — and it's always for you."},
+        "spark": {"title": "Leading Lady's Rival", "text": "A hand-lettered sign appears on the props closet door: RIVALRY HALL OF FAME — POPULATION: TWO. Amara considers you her official nemesis now, in the specific, deeply affectionate way that only she could make sound like the highest compliment in the building. You two spend the rest of the season in an escalating, gleeful competition over absolutely everything — who can improvise better, who gets the bigger laugh, who wins the tile game between rehearsals — and somehow it's the closest either of you has ever let anyone get."}
+      }
+    }
+  },
+  {
+    "id": "mermaid",
+    "name": "Marina Waverly",
+    "role": "Captain of the Tidewatch",
+    "c": "#2FB6C9",
+    "hair": "#0E5C73",
+    "hairShade": "#083E4D",
+    "skin": "#F6DFCB",
+    "eye": "#2FB6C9",
+    "outfit": "#0E5C73",
+    "trim": "#7FE8D6",
+    "accessory": "faintly iridescent fin-shaped ear fins and a translucent fin-fringe running down her forearms — otherwise dresses in an ordinary (fully covering) Tidewatch tracksuit on land",
+    "tagline": "\"The cove's just a puddle to me — but I like watching you flail around in it.\"",
+    "bg": "mermaid_cove",
+    "fav": "pearl",
+    "least": "ember",
+    "favQuips": [
+      "Oh, now THAT'S a good one.",
+      "Smooth as sea glass.",
+      "That one's basically my resting heart rate.",
+      "Nailed it. Obviously."
+    ],
+    "leastQuips": [
+      "Ugh, too dry for me.",
+      "That one makes my fins itch.",
+      "No thank you, absolutely not."
+    ],
+    "chatQuips": [
+      "Kick harder next lap, landlubber.",
+      "You're getting better. Don't let it go to your head.",
+      "I timed that. You're improving.",
+      "Careful — I splash when I'm impressed."
+    ],
+    "gift": {
+      "id": "seaGlass",
+      "name": "Frosted Sea-Glass Pendant",
+      "price": 22,
+      "desc": "A smooth chip of sea glass, worn soft by years of tide, on a plain cord."
+    },
+    "giftLine": [
+      {"k": "n", "e": "surprised", "t": "She goes uncharacteristically quiet, turning the pendant over in her palm like she's checking it's real."},
+      {"k": "s", "e": "happy", "t": "\"This is REAL sea glass. Not the tumbled craft-store kind. Someone let the actual ocean do this.\""},
+      {"k": "n", "e": "shy", "t": "She puts it on immediately and then very deliberately does not make eye contact for a solid ten seconds."},
+      {"k": "s", "e": "shy", "t": "\"I'm not going to make a big deal out of this. I'm simply never taking it off. That's all. Not a big deal.\""}
+    ],
+    "story": {
+      "intro": [
+        {"k": "n", "t": "The Tidewatch cove smells like salt and ambition. Marina Waverly is doing lazy backstroke laps alone after her patrol shift, the fin-fringe on her forearms catching the lantern-light every time she surfaces."},
+        {"k": "s", "e": "happy", "t": "Hey! Perfect timing. Everyone else already headed back to the harbor and I need someone to judge my form. Preferably someone who won't just say 'looks great' to get out of here faster."},
+        {"k": "n", "t": "She hauls herself up onto the dock in one smooth motion and pads over, dripping, to a folding table someone's set up with a grid of small glass tiles shaped like shells and droplets."},
+        {"k": "s", "t": "This is the crew's post-watch ritual. Match the tiles, lose gracefully, buy the winner a smoothie from the dockside stall. I haven't lost in three weeks. Fair warning."},
+        {"k": "n", "t": "She slides into the seat across from you, still toweling off one arm, entirely unbothered by the puddle forming under her chair."},
+        {"k": "s", "t": "The tiles came off a wreck we salvaged last spring. Nobody could identify the ship, but the game works fine, so nobody's asked too many questions."},
+        {"k": "n", "t": "She taps one shell-shaped tile against the table like she's testing an old superstition, then shrugs it off."},
+        {"k": "s", "e": "teasing", "t": "Don't worry. I'll go easy on you. Probably."}
+      ],
+      "introChoice": {"options": [
+        {"label": "Three weeks unbeaten? That's about to change.", "stat": "spark", "bonus": -40, "resp": [
+          {"k": "s", "e": "teasing", "t": "\"OH, it's like that. I respect the confidence. I will still destroy you.\""},
+          {"k": "n", "t": "She cracks her knuckles, grinning, entirely delighted by the challenge."}
+        ]},
+        {"label": "I'll try not to embarrass myself.", "stat": "warmth", "bonus": 110, "resp": [
+          {"k": "s", "e": "happy", "t": "\"Modest. I like that. Most people who challenge me are insufferable about it.\""},
+          {"k": "n", "t": "She flicks a stray drop of water at you, which is apparently her version of a handshake."}
+        ]}
+      ]},
+      "levels": [
+        {"target": 650, "moves": 16,
+          "win": [
+            {"k": "n", "t": "The last tile settles into place and Marina lets out a long, theatrical groan, flopping face-down onto the table."},
+            {"k": "s", "e": "surprised", "t": "Okay. Okay! Nobody's beaten my streak all season. I don't know whether to be impressed or start training harder."},
+            {"k": "n", "t": "She peels herself off the table, hair still dripping, and studies you with new interest."},
+            {"k": "s", "t": "Can I ask you something?"}
+          ],
+          "choice": {"options": [
+            {"label": "You're a lot more fun out of the water than I expected.", "stat": "warmth", "bonus": 110, "resp": [
+              {"k": "s", "e": "shy", "t": "\"Wait, what did you expect? Cold and aloof? I get that a lot. It's the whole— \" she gestures vaguely at her fins \"—thing.\""},
+              {"k": "n", "t": "She laughs, and it's warmer than the dock lanterns have any right to make it look."},
+              {"k": "s", "e": "happy", "t": "\"I'm glad I get to be the surprising kind of mermaid instead of the mysterious kind. Mysterious sounds exhausting.\""}
+            ]},
+            {"label": "Streak's over. Get used to losing to me.", "stat": "spark", "bonus": -40, "resp": [
+              {"k": "s", "e": "teasing", "t": "\"Absolutely not. Rematch tomorrow. And the day after. I will win my streak back if it takes all season.\""},
+              {"k": "n", "t": "She's already resetting the tiles, entirely too invested for someone claiming this is 'no big deal.'"}
+            ]}
+          ]}
+        },
+        {"target": 950, "moves": 16,
+          "win": [
+            {"k": "s", "e": "surprised", "t": "You beat your own score AGAIN. Are you secretly part fish? Because I would know, and you're not, so this is just annoying now."},
+            {"k": "s", "e": "teasing", "t": "I'm going to start bringing a whistle just to psych you out. Full drill-captain mode. New rules."},
+            {"k": "n", "t": "She's grinning too hard for the threat to land, tapping a shell-shaped tile against the table like a tiny gavel."},
+            {"k": "s", "t": "Seriously though — question, while I have you."}
+          ],
+          "choice": {"options": [
+            {"label": "Bring the whistle. I'm not scared.", "stat": "spark", "bonus": -40, "resp": [
+              {"k": "s", "e": "teasing", "t": "\"Famous last words. I'm timing our NEXT rematch. Down to the second.\""},
+              {"k": "n", "t": "She's already digging through her bag for an actual stopwatch, dead serious about this now."}
+            ]},
+            {"label": "Only if you promise to actually use it on yourself sometimes too.", "stat": "warmth", "bonus": 110, "resp": [
+              {"k": "s", "e": "shy", "t": "\"...Huh. Nobody usually tells the crew captain to slow down. Everyone just expects me to have it together.\""},
+              {"k": "n", "t": "She goes quiet for a second, turning the stopwatch over in her hands like it's suddenly heavier."},
+              {"k": "s", "e": "happy", "t": "\"Thanks. I mean it. I'll — try. No promises on the whistle, though.\""}
+            ]}
+          ]}
+        },
+        {"target": 1150, "moves": 17,
+          "win": [
+            {"k": "n", "t": "The last tile clicks into place right as a sudden squall rolls over the cove, sending everyone else's gear scattering across the dock."},
+            {"k": "s", "e": "surprised", "t": "Storm chores! Grab whatever's blowing away, I'll get the lantern lines — this happens like twice a season, we've got a system."},
+            {"k": "n", "t": "She's already moving, hauling a loose sail flat with the easy competence of someone who's done this a hundred times, rain plastering her hair to her face."},
+            {"k": "s", "t": "You're actually helping instead of standing there watching. Noted, by the way."}
+          ],
+          "choice": {"options": [
+            {"label": "Of course I'm helping. What kind of question is that?", "stat": "warmth", "bonus": 120, "resp": [
+              {"k": "s", "e": "shy", "t": "\"You'd be surprised. A lot of people just... watch me handle things. Like it's a show.\""},
+              {"k": "n", "t": "She ties off the last line and finally straightens, rain still dripping off her chin, something unguarded crossing her face."},
+              {"k": "s", "e": "happy", "t": "\"This is better. I like this a lot more, actually.\""}
+            ]},
+            {"label": "Just returning the favor — you've bailed me out plenty at that table.", "stat": "spark", "bonus": -45, "resp": [
+              {"k": "s", "e": "teasing", "t": "\"Oh, keeping score now? Careful, I ALWAYS win the actual scorekeeping.\""},
+              {"k": "n", "t": "She laughs into the rain, hauling the last crate under cover with you, utterly unbothered by the storm."}
+            ]}
+          ]}
+        },
+        {"target": 1350, "moves": 18,
+          "win": [
+            {"k": "n", "t": "The cove lanterns dim to their after-hours setting, throwing long blue reflections across the water."},
+            {"k": "s", "e": "happy", "t": "Hey. Thanks for actually sticking around for these. Most people do one match and head home."},
+            {"k": "s", "e": "shy", "t": "It's nice having someone show up who isn't just here for the streak. Or the whistle."},
+            {"k": "n", "t": "She traces a finger through a puddle on the table, not quite looking up, fin-fringe catching the last of the blue light."}
+          ],
+          "choice": null
+        }
+      ],
+      "endings": {
+        "warmth": {"title": "Low Tide", "text": "Marina hands you a spare key to the boathouse — after-hours access, captain's privilege, the kind of thing she doesn't extend to just anyone. \"You've seen the version of me that's not performing for a scoreboard,\" she says. \"Figured you should get to come back to her.\" The crew still doesn't know how she smiles a little differently these days when someone's late arrival isn't actually late — it's exactly on time, for the two of you."},
+        "spark": {"title": "Undefeated (Mostly)", "text": "A laminated scoreboard appears taped to the boathouse door, tracking your ongoing, wildly uneven, deeply cherished rivalry. Marina refuses to admit the tally is close to even now, insisting loudly to anyone who'll listen that she's 'clearly still ahead, obviously, don't check the actual numbers.' Every rematch somehow runs long, every loss gets immediately re-litigated, and neither of you has ever once actually wanted it to stop."}
+      }
+    }
+  },
+  {
+    "id": "lamia",
+    "name": "Sable Thornscale",
+    "role": "Keeper of the Sunken Archive",
+    "c": "#8B5CF6",
+    "hair": "#1C1626",
+    "hairShade": "#100C18",
+    "skin": "#E7D6C9",
+    "eye": "#FFD166",
+    "outfit": "#2A1F3D",
+    "trim": "#FFD166",
+    "accessory": "a long serpentine lower body in place of legs, dark scales with a faint violet sheen, worn openly and without embarrassment — upper half in a modest, high-necked scholar's vest",
+    "tagline": "\"I've been alive since before this town had a name. Try to keep up.\"",
+    "bg": "lamia_archive",
+    "fav": "crystal",
+    "least": "petal",
+    "favQuips": [
+      "Now that's a find worth cataloguing.",
+      "Exquisite. Truly.",
+      "That one belongs in a display case.",
+      "Add it to the collection."
+    ],
+    "leastQuips": [
+      "How dreadfully delicate.",
+      "That one wilts if you look at it wrong.",
+      "Not to my taste. At all."
+    ],
+    "chatQuips": [
+      "Careful with the antiques, hatchling.",
+      "You're developing an eye for this. Slowly.",
+      "Hm. Acceptable technique.",
+      "I've seen worse. Rarely, but I've seen it."
+    ],
+    "gift": {
+      "id": "oldCoin",
+      "name": "Unidentified Antique Coin",
+      "price": 22,
+      "desc": "A tarnished coin with worn, illegible markings — old enough that even the archive's own records don't mention it."
+    },
+    "giftLine": [
+      {"k": "n", "e": "surprised", "t": "For once, she doesn't have a dry remark ready. She just holds the coin up to the light, turning it slowly."},
+      {"k": "s", "e": "happy", "t": "\"This predates half of my collection. Do you have ANY idea what this is worth to me right now?\""},
+      {"k": "n", "e": "shy", "t": "She sets it in a small velvet-lined box she produces from seemingly nowhere, handling it like something precious."},
+      {"k": "s", "e": "shy", "t": "\"I don't say this often. Thank you. Genuinely. This earns you unrestricted archive access — a privilege I extend to exactly no one.\""}
+    ],
+    "story": {
+      "intro": [
+        {"k": "n", "t": "The Sunken Archive is a converted cellar beneath the old quarter, smelling of old paper and older dust, lit by a single hanging lantern. A lamia is coiled comfortably atop a reading chair, cataloguing a drawer of mismatched trinkets with the patience of someone who has genuinely seen centuries pass."},
+        {"k": "s", "t": "You're new. Or new enough that I haven't catalogued you yet. Sable Thornscale — curator, historian, and the only reason this archive still stays open to visitors."},
+        {"k": "n", "t": "She doesn't look up from the drawer, sliding a small painted tile between two clawed fingers, inspecting it under the lantern's dim light."},
+        {"k": "s", "e": "teasing", "t": "These charm tiles are older than most of the artifacts down here, if you can believe the paperwork. I've been sorting them for an hour. Care to make yourself useful?"},
+        {"k": "n", "t": "She uncoils slightly, gesturing to a low table where dozens of the tiles are arranged in a loose grid, waiting."},
+        {"k": "s", "t": "Don't touch anything without asking first. That's rule one. There will be more rules. Try to keep up."},
+        {"k": "n", "t": "A shelf somewhere in the dark creaks under its own weight, and Sable doesn't so much as glance at it — apparently a familiar, unbothered sound down here."}
+      ],
+      "introChoice": {"options": [
+        {"label": "Rule one, noted. What's rule two?", "stat": "warmth", "bonus": 110, "resp": [
+          {"k": "s", "e": "surprised", "t": "\"...Huh. Most people just start touching things immediately. You actually asked. That's rule two, by the way — always ask.\""},
+          {"k": "n", "t": "Something in her posture eases, just slightly, the guarded curl of her tail relaxing a fraction."}
+        ]},
+        {"label": "A hundred years of sorting and you're still not done?", "stat": "spark", "bonus": -40, "resp": [
+          {"k": "s", "e": "teasing", "t": "\"Cute. I've catalogued civilizations that didn't survive as long as I've been alive. Sit down and match tiles with me, hatchling.\""},
+          {"k": "n", "t": "She flicks her tail, unbothered, entirely amused by the nerve of it."}
+        ]}
+      ]},
+      "levels": [
+        {"target": 650, "moves": 16,
+          "win": [
+            {"k": "n", "t": "The last tiles slot into their proper pairs and Sable actually sets down her ledger to watch."},
+            {"k": "s", "e": "surprised", "t": "Efficient. I don't say that lightly — I've watched years' worth of visitors fumble through this drawer."},
+            {"k": "n", "t": "She coils closer, tail settling in a loose spiral beside the table, gold eyes studying you with new curiosity."},
+            {"k": "s", "t": "May I ask you something?"}
+          ],
+          "choice": {"options": [
+            {"label": "You don't scare me, you know. Even the ancient-and-mysterious act.", "stat": "warmth", "bonus": 110, "resp": [
+              {"k": "s", "e": "shy", "t": "\"...It isn't entirely an act. But I'll admit it's easier to maintain around people who flinch.\""},
+              {"k": "n", "t": "She uncoils a little further, an unmistakable, rare softening at the edges of her usual composure."},
+              {"k": "s", "e": "happy", "t": "\"You're an unusual one. I mean that as the compliment it is, in case that wasn't clear.\""}
+            ]},
+            {"label": "So what's the oldest thing you've actually got down here?", "stat": "spark", "bonus": -40, "resp": [
+              {"k": "s", "e": "teasing", "t": "\"Now THAT is the right question. Come here — I'll show you something that would get this whole archive shut down if the town council knew we had it.\""},
+              {"k": "n", "t": "She's already sliding open a locked drawer with theatrical relish, delighted to have an actual audience for once."}
+            ]}
+          ]}
+        },
+        {"target": 950, "moves": 16,
+          "win": [
+            {"k": "s", "e": "surprised", "t": "Beating your own record. Twice. I'm updating my assessment of you from 'promising' to 'genuinely interesting,' which I don't hand out freely."},
+            {"k": "s", "e": "teasing", "t": "Careful — keep this up and I might actually trust you around the fragile artifacts. That's a very short list."},
+            {"k": "n", "t": "She taps a claw against the ledger, marking something down with what might, on anyone else, be called a smile."},
+            {"k": "s", "t": "While you're feeling accomplished — humor me with a question."}
+          ],
+          "choice": {"options": [
+            {"label": "Put me on the list, then.", "stat": "spark", "bonus": -40, "resp": [
+              {"k": "s", "e": "teasing", "t": "\"Bold request. Granted, conditionally, pending further review. I'll be watching closely.\""},
+              {"k": "n", "t": "She's already unlocking a second drawer, feigning reluctance she clearly doesn't feel."}
+            ]},
+            {"label": "That list matters more to you than you let on.", "stat": "warmth", "bonus": 110, "resp": [
+              {"k": "s", "e": "shy", "t": "\"...It's the only thing in this room I actually chose to keep close. Centuries of collecting things, and hardly any of it was ever by choice.\""},
+              {"k": "n", "t": "For once her tail goes very still, coiled loosely, the closest thing to vulnerable her whole bearing allows."},
+              {"k": "s", "e": "happy", "t": "\"Don't make this sentimental. I'll deny saying any of it.\""}
+            ]}
+          ]}
+        },
+        {"target": 1150, "moves": 17,
+          "win": [
+            {"k": "n", "t": "The last tile settles just as a stack of unsorted ledgers slides off a high shelf, scattering loose pages across half the room."},
+            {"k": "s", "e": "surprised", "t": "Oh, for— that shelf has had it out for me for a decade. Grab whatever's within reach, I'll sort the rest before the ink smears."},
+            {"k": "n", "t": "She moves fast for something without legs, coiling low to gather pages with quick, careful hands, entirely unbothered by the mess."},
+            {"k": "s", "t": "You didn't have to help with that. Most people would've just watched."}
+          ],
+          "choice": {"options": [
+            {"label": "I wasn't about to let centuries of your work end up scattered on the floor.", "stat": "warmth", "bonus": 120, "resp": [
+              {"k": "s", "e": "shy", "t": "\"...That's a remarkably kind way to put it. Most people see clutter. Not work.\""},
+              {"k": "n", "t": "She sorts the last page into place, then holds your gaze a beat longer than strictly necessary."},
+              {"k": "s", "e": "happy", "t": "\"Noted, hatchling. Filed under things I won't easily forget.\""}
+            ]},
+            {"label": "I mostly just wanted an excuse to see the restricted shelves.", "stat": "spark", "bonus": -45, "resp": [
+              {"k": "s", "e": "teasing", "t": "\"Transparent. Effective, but transparent. Fine — help me finish and I'll show you exactly one restricted shelf.\""},
+              {"k": "n", "t": "She's already sorting faster, clearly entertained by the bargain she just struck against her own better judgment."}
+            ]}
+          ]}
+        },
+        {"target": 1350, "moves": 18,
+          "win": [
+            {"k": "n", "t": "The single lantern flickers once, and Sable finally sets the ledger aside entirely, coiling to rest beside the table instead of behind it."},
+            {"k": "s", "e": "happy", "t": "I don't often let people stay this long down here. You've earned a certain... standing exception."},
+            {"k": "s", "e": "shy", "t": "I've catalogued a great many things in my very long life. I'm not sure I ever bothered cataloguing a person before you."},
+            {"k": "n", "t": "She studies you for a long moment, gold eyes unreadable in the dim light, then looks away first — a small, rare concession."}
+          ],
+          "choice": null
+        }
+      ],
+      "endings": {
+        "warmth": {"title": "Standing Exception", "text": "Sable presses a small brass key into your palm — the archive's actual, physical, no-copies-exist key. \"I don't extend that trust,\" she says, \"as a rule. Consider yourself the exception the rule was apparently always waiting for.\" She still guards her centuries of collected things fiercely from everyone else. For you, the drawers simply stay unlocked, and somehow that says more than anything she'd ever put in the ledger."},
+        "spark": {"title": "The Restricted Collection", "text": "A hand-written placard appears on the locked back drawer: ACCESS GRANTED — PROVISIONALLY, PENDING FURTHER REVIEW (REVIEW ONGOING, INDEFINITELY). Sable maintains, with great dignity, that your access remains entirely conditional and closely monitored. She also, somehow, always seems to already have the good artifacts laid out before you arrive. The 'review' has been ongoing for months. Neither of you has any plans to conclude it."}
+      }
+    }
+  },
+  {
+    "id": "catgirl",
+    "name": "Momo Nekoyama",
+    "role": "Baker of the Ember Hearth",
+    "c": "#FF9F45",
+    "hair": "#F2C79A",
+    "hairShade": "#D9A876",
+    "skin": "#FBE3D0",
+    "eye": "#7A4B2E",
+    "outfit": "#FFE3C2",
+    "trim": "#FF9F45",
+    "accessory": "fuzzy cream-and-caramel cat ears and a matching tail, worn over a full apron-covered bakery uniform",
+    "tagline": "\"I made extra. Don't tell anyone I said this, but you're my favorite taste-tester.\"",
+    "bg": "catgirl_kitchen",
+    "fav": "moonstone",
+    "least": "rune",
+    "favQuips": [
+      "Ooh, shiny! I mean — nice match!",
+      "That one's the good one, I can just tell.",
+      "Purr-fect!",
+      "My favorite, my favorite!"
+    ],
+    "leastQuips": [
+      "Ugh, that one's boring.",
+      "Too much bookkeeping energy.",
+      "Nooo not that one."
+    ],
+    "chatQuips": [
+      "You're getting good at this! Sit, stay, good job — wait, that's for cats, sorry.",
+      "Ooh, ooh, do that again!",
+      "Careful, I get distracted by shiny things easily.",
+      "Focus, Momo. FOCUS. ...okay I'm focused."
+    ],
+    "gift": {
+      "id": "ribbonWhisk",
+      "name": "Ribbon-Tied Wooden Whisk",
+      "price": 22,
+      "desc": "A hand-carved whisk with a little bell tied to the handle with orange ribbon — mostly decorative, extremely charming."
+    },
+    "giftLine": [
+      {"k": "n", "e": "surprised", "t": "Her ears perk straight up the moment she sees it, tail going stiff with excitement."},
+      {"k": "s", "e": "happy", "t": "\"A whisk with a BELL on it?! This is the single greatest kitchen tool I have ever been given, no notes, no contest.\""},
+      {"k": "n", "e": "shy", "t": "She immediately starts whisking imaginary batter just to hear the little jingle, entirely delighted with herself."},
+      {"k": "s", "e": "shy", "t": "\"Okay, this officially makes you an honorary Ember Hearth regular. There's no ceremony. I just decided. It's official now.\""}
+    ],
+    "story": {
+      "intro": [
+        {"k": "n", "t": "The Ember Hearth's kitchen smells like brown sugar and slightly-too-much cinnamon. A girl with cat ears and an apron dusted in flour is very seriously arguing with a stand mixer that has apparently jammed."},
+        {"k": "s", "e": "surprised", "t": "Oh! Hi! Perfect timing, actually — I need a taste-tester and everyone else who usually stops by already 'had somewhere to be' today."},
+        {"k": "n", "t": "Momo Nekoyama abandons the mixer entirely, wiping flour-dusted hands on her apron, tail swishing with barely-contained energy."},
+        {"k": "s", "t": "While the next batch bakes, wanna play the tile game with me? I invented it. Well — I found the tiles in a drawer under the ovens and decided they were a game now. Same thing."},
+        {"k": "n", "t": "She clears a space on the flour-dusted counter, sliding a grid of small painted tiles into a rough square, several of them slightly sticky."},
+        {"k": "s", "e": "happy", "t": "Winner gets first pick of whatever comes out of the oven. Loser has to admit my baking is better than they expected. Deal?"},
+        {"k": "n", "t": "She's already elbow-deep in a second bowl of batter while she waits for your answer, entirely unable to sit still."}
+      ],
+      "introChoice": {"options": [
+        {"label": "Deal. I'm pretty competitive about snacks.", "stat": "spark", "bonus": -40, "resp": [
+          {"k": "s", "e": "teasing", "t": "\"Oh, a worthy opponent! I respect that. I will still absolutely win, but I respect it.\""},
+          {"k": "n", "t": "Her tail puffs slightly with excitement, ears swiveling toward you like satellite dishes."}
+        ]},
+        {"label": "Sure — but only if I get to try the batter first.", "stat": "warmth", "bonus": 110, "resp": [
+          {"k": "s", "e": "happy", "t": "\"See, THIS is why you're my favorite already. Nobody else asks for batter privileges. Deal sealed.\""},
+          {"k": "n", "t": "She hands over a spoon with the easy, immediate trust of someone who has decided you're friends now, no further discussion needed."}
+        ]}
+      ]},
+      "levels": [
+        {"target": 650, "moves": 16,
+          "win": [
+            {"k": "n", "t": "The oven timer dings at almost the exact same moment the last tiles click together, and Momo gasps like both events are equally miraculous."},
+            {"k": "s", "e": "surprised", "t": "You WON?! Okay, respect, actual respect. Most people lose to me immediately, it's a whole thing."},
+            {"k": "n", "t": "She pulls a tray of slightly lopsided cookies from the oven, setting it down between you with visible pride despite the uneven shapes."},
+            {"k": "s", "t": "Since you won, pick first. But — can I ask you something while you decide?"}
+          ],
+          "choice": {"options": [
+            {"label": "These are really good, Momo. You should be proud.", "stat": "warmth", "bonus": 110, "resp": [
+              {"k": "s", "e": "shy", "t": "\"Wait, really? I always worry they're too lopsided to actually taste good. That means a lot, actually.\""},
+              {"k": "n", "t": "Her ears go flat with shyness for just a second before flicking back up, tail curling happily around her own ankle."},
+              {"k": "s", "e": "happy", "t": "\"Okay you're definitely getting the biggest cookie now. That's just facts.\""}
+            ]},
+            {"label": "Good, but you're still losing the rematch.", "stat": "spark", "bonus": -40, "resp": [
+              {"k": "s", "e": "teasing", "t": "\"Rude! Delicious, but rude! Rematch after the next batch. I'm baking specifically to fuel my comeback now.\""},
+              {"k": "n", "t": "She's already scraping a fresh bowl of batter together, entirely too invested in this new grudge."}
+            ]}
+          ]}
+        },
+        {"target": 950, "moves": 16,
+          "win": [
+            {"k": "s", "e": "surprised", "t": "You beat your score AGAIN?! Are you secretly part cat? Because I would know, we'd recognize each other, that's how it works."},
+            {"k": "s", "e": "teasing", "t": "I'm going to have to start hiding my good ingredients from you out of spite. Mostly loving spite. Mostly."},
+            {"k": "n", "t": "She's balancing a mixing spoon on her nose for absolutely no reason other than it makes her happy, tail swishing with the effort of concentrating."},
+            {"k": "s", "t": "Okay, question, before I lose the nerve to ask it."}
+          ],
+          "choice": {"options": [
+            {"label": "Hide them if you want. I'll find the good stuff anyway.", "stat": "spark", "bonus": -40, "resp": [
+              {"k": "s", "e": "teasing", "t": "\"Challenge accepted?? Challenge accepted. This is now a whole heist situation. I'm building defenses.\""},
+              {"k": "n", "t": "The spoon clatters off her nose as she gets way too excited planning imaginary pantry security."}
+            ]},
+            {"label": "You don't have to compete for everything, you know.", "stat": "warmth", "bonus": 110, "resp": [
+              {"k": "s", "e": "shy", "t": "\"...Yeah, probably. It's easier than admitting I just really like having someone to share the good batches with.\""},
+              {"k": "n", "t": "Her ears droop slightly, tail stilling, some of the performative bounce fading into something quieter and more honest."},
+              {"k": "s", "e": "happy", "t": "\"Okay. New rule. We just share stuff now. Way less pressure. I like this rule.\""}
+            ]}
+          ]}
+        },
+        {"target": 1150, "moves": 17,
+          "win": [
+            {"k": "n", "t": "The last tile clicks into place right as a whole tray of pastries slides off the cooling rack, scattering crumbs across half the kitchen floor."},
+            {"k": "s", "e": "surprised", "t": "Nooo, the good batch! Okay, five-second rule does not apply to an entire tray, but grab what you can, quick!"},
+            {"k": "n", "t": "She's already on her knees rescuing salvageable pastries with the focused urgency of someone defusing something, tail flicking anxiously behind her."},
+            {"k": "s", "t": "You're actually helping instead of laughing at me. That's — new. Good new. But new."}
+          ],
+          "choice": {"options": [
+            {"label": "Of course. Watching you panic alone isn't nearly as fun as helping.", "stat": "warmth", "bonus": 120, "resp": [
+              {"k": "s", "e": "shy", "t": "\"Okay that's — surprisingly sweet, coming from you. Most people just laugh AT the disaster.\""},
+              {"k": "n", "t": "She sits back on her heels, cradling a rescued pastry like a tiny wounded bird, ears slowly unflattening."},
+              {"k": "s", "e": "happy", "t": "\"You get the biggest rescued one. Hero's tax. Non-negotiable.\""}
+            ]},
+            {"label": "Relax, it's just pastries. There's always another batch.", "stat": "spark", "bonus": -45, "resp": [
+              {"k": "s", "e": "teasing", "t": "\"'Just pastries' — the last words of someone who has never tasted my caramel batch. Help me grieve properly.\""},
+              {"k": "n", "t": "She's laughing despite herself, sweeping crumbs into a pile with theatrical, mournful flair."}
+            ]}
+          ]}
+        },
+        {"target": 1350, "moves": 18,
+          "win": [
+            {"k": "n", "t": "The kitchen's gone quiet except for the low hum of the cooling oven, flour still dusting the counter like fresh snow."},
+            {"k": "s", "e": "happy", "t": "Hey. Thanks for actually hanging out here so much. Most people just grab a cookie and bail."},
+            {"k": "s", "e": "shy", "t": "It's nice having someone around who wants to be here, not just here for the snacks. Even though the snacks are also great."},
+            {"k": "n", "t": "She leans against the counter beside you, tail curling loosely around your ankle, entirely unselfconscious about it."}
+          ],
+          "choice": null
+        }
+      ],
+      "endings": {
+        "warmth": {"title": "The Good Batch", "text": "Momo presses a spare key to the Ember Hearth's kitchen into your hand — after-hours baking rights, head-baker privilege, extended to exactly one person outside the regulars. \"Everyone gets the cookies,\" she says. \"You get to be here for the part where they're just batter and bad decisions and me arguing with the mixer.\" The regulars still don't know why the best batches always seem to happen on the days you show up — but you both do."},
+        "spark": {"title": "The Great Pantry Heist", "text": "A hand-drawn 'WANTED' poster appears on the pantry door, starring you, drawn by Momo in gel pen with alarming attention to detail. Your ongoing rivalry over the good ingredients has become Ember Hearth legend, complete with elaborate hidden stashes, counter-heists, and a scoreboard that's somehow always tied no matter who actually wins. Neither of you has ever wanted to declare a real winner — the rematch is always the best part."}
+      }
+    }
+  }
+]
