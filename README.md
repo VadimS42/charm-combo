@@ -17,6 +17,22 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-25 — Hazel's achievements, see-through dialogue box
+
+- **Achievements are Hazel-only for now** (16): meeting her, each chapter,
+  her ending, her gift, all-warm and all-teasing playthroughs, plus the eight
+  puzzle ones. The other girls' story achievements, ALL_FOUR, BOTH_ROUTES and
+  the gallery ones are gone; old saves keep working (retired ids are ignored).
+  Update the list in Steamworks to match (`docs/STEAM_SETUP.md`).
+- **Icons:** `art/achievements/*.png`, her face zoomed in with a fitting
+  expression, a colour frame and a small badge, made by
+  `tools/achievement_icons/make_hazel_icons.py`.
+- **Dialogue box** is see-through (62% instead of 88%).
+- **Hazel's conversation sprite** sits lower and fades out at the bottom
+  (`"portraitFade"` in `characters.json`, `scripts/fade_bottom.gdshader`), so
+  the place her art is cut off never shows, even through the see-through box.
+  Marina got the same fade, since the new box showed her cut edge too.
+
 ## ✅ Status: round-24 — Amara speaks, Hazel only blinks, bug fixes
 
 - **Voice acting** (`autoload/Voice.gd`): a spoken line plays its clip from

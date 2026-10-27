@@ -30,9 +30,12 @@ const EXPR_ICON := {
 ## chest sits just above the dialogue box (round 19; it used to stand on the
 ## bottom edge, hiding everything below her shoulders behind the box). The
 ## box is ~185 px tall; the last few pixels of the picture tuck behind it.
-## A character can set her own lift with "portraitLift" in characters.json:
-## Hazel's art ends at her chest, so she sits higher, clear of the box.
+## A character can set her own lift with "portraitLift" in characters.json,
+## and "portraitFade" (a fraction of the picture's height) fades the bottom of
+## her picture out, so art that's cut off there never shows a hard edge
+## through the see-through dialogue box (Hazel's ends at her chest).
 const PORTRAIT_H := 548.0
+const FADE_SHADER := preload("res://scripts/fade_bottom.gdshader")
 const PORTRAIT_LIFT := 178.0
 ## On-screen height of a full-body sprite (the screen area is ~732px tall), and
 ## how far below the top of the screen her head sits.
@@ -129,6 +132,12 @@ static func build(main: Node, host: Control, char_id: String, lines: Array, choi
 				t.offset_right = w / 2.0
 				t.offset_top = -lift - PORTRAIT_H
 				t.offset_bottom = -lift
+				var fade: float = float(ch.get("portraitFade", 0.0))
+				if fade > 0.0:
+					var mat := ShaderMaterial.new()
+					mat.shader = FADE_SHADER
+					mat.set_shader_parameter("fade", fade)
+					t.material = mat
 			portrait_host.add_child(t)
 		else:
 			var center := CenterContainer.new()

@@ -193,12 +193,13 @@ static func window_style() -> StyleBoxFlat:
 ## The dark glass card the dialogue sits in, edged in her color.
 static func dialogue_style(accent: Color) -> StyleBoxFlat:
 	var s := StyleBoxFlat.new()
-	s.bg_color = Color(0.17, 0.08, 0.21, 0.88)
+	# See-through (round 25): the stage shows through the box.
+	s.bg_color = Color(0.17, 0.08, 0.21, 0.62)
 	s.set_corner_radius_all(20)
 	s.border_color = Color(accent.r, accent.g, accent.b, 0.85)
 	s.set_border_width_all(2)
 	s.border_width_top = 3
-	s.shadow_color = Color(0.1, 0.03, 0.12, 0.35)
+	s.shadow_color = Color(0.1, 0.03, 0.12, 0.22)
 	s.shadow_size = 14
 	s.shadow_offset = Vector2(0, 4)
 	s.anti_aliasing = true

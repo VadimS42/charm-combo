@@ -926,6 +926,7 @@
   "accessory": "long wavy teal hair with coral-red streaks and a few tiny shells tucked in it, pointed ears, amber eyes, freckles; a shell necklace and scallop-shell top; a teal-scaled tail with a coral-pink tail fin (see her existing art in art/characters/mermaid)",
   "tagline": "\"I was floating. On my back.\"",
   "bg": "mermaid_cove",
+  "portraitFade": 0.12,
   "fav": "pearl",
   "least": "ember",
   "favQuips": [
@@ -2708,7 +2709,8 @@
   "tagline": "\"Don't even think about it.\"",
   "bg": "dryad_grove",
   "portraitFocus": 0.45,
-  "portraitLift": 214,
+  "portraitLift": 150,
+  "portraitFade": 0.16,
   "fav": "petal",
   "least": "ember",
   "favQuips": [

@@ -73,24 +73,21 @@ in the game window.
 
 In Steamworks: your app > **Edit Steamworks Settings** > **Stats &
 Achievements** > **Achievements**. Click **New Achievement** for each row
-below and copy the **API name** exactly (capitals and underscores included:
+below (Hazel only for now; delete any older ones you already entered, such as
+FIRST_MEETING or ENDING_AMARA) and copy the **API name** exactly (capitals and underscores included:
 it's how the game finds each one). Leave "Set By" on **Client**. None of them
 need to be hidden.
 
 | API name | Name | Description |
 | --- | --- | --- |
-| FIRST_MEETING | Welcome to Duskhaven | Get off on the wrong foot with someone. |
-| FIRST_CHAPTER | Opening Move | Clear your first chapter. |
-| FIRST_GIFT | A Little Something | Give someone a gift. |
-| ALL_GIFTS | Thoughtful | Give all four gifts. |
-| ENDING_AMARA | Left the Candle Lit | Reach an ending with Amara. |
-| ENDING_MARINA | High Tide | Reach an ending with Marina. |
-| ENDING_OPAL | Out of the Jar | Reach an ending with Opal. |
-| ENDING_HAZEL | Putting Down Roots | Reach an ending with Hazel. |
-| ALL_FOUR | The Whole Circle | Reach an ending with all four of them. |
-| BOTH_ROUTES | Two Sides of Her | See a warm and a spark ending with the same woman. |
-| GALLERY_HALF | Collector | Find half of the endings. |
-| GALLERY_FULL | Complete Gallery | Find every ending. |
+| HAZEL_MEET | Don't Even Think About It | Meet Hazel instead of cutting her tree down. |
+| HAZEL_CH1 | A Lovely Trench | Clear Hazel's first chapter. |
+| HAZEL_CH2 | Leaves Going Red | Clear Hazel's second chapter. |
+| HAZEL_CH3 | Out in the Storm | Clear Hazel's third chapter. |
+| ENDING_HAZEL | Putting Down Roots | Reach Hazel's ending. |
+| HAZEL_GIFT | Keeping Time | Give Hazel the Brass Pocket Sundial. |
+| HAZEL_SWEET | Soft as Moss | Finish Hazel's story picking every warm reply. |
+| HAZEL_TEASE | Splinters | Finish Hazel's story teasing her in every reply. |
 | COMBO_3 | Chain Reaction | Set off a x3 combo. |
 | COMBO_5 | Avalanche | Set off a x5 combo. |
 | MAKE_STARBURST | Starstruck | Make a Starburst. |
@@ -103,12 +100,13 @@ need to be hidden.
 **Icons.** Steam wants two per achievement, 256x256 PNG or JPG: an "achieved"
 one and an "unachieved" (usually grey) one. You only need to draw the achieved
 ones: save them as `art/achievements/<api name in lowercase>.png` (for
-example `art/achievements/first_meeting.png`) and the game's Achievements
+example `art/achievements/hazel_meet.png`; Hazel's set is already there, made
+by `tools/achievement_icons/make_hazel_icons.py`) and the game's Achievements
 screen uses them right away. Then open `tools/make_steam_achievement_icons.gd`
 in Godot's Script editor and choose **File > Run**: it writes both versions
 of every icon, at 256x256, to `steam/achievement_icons/`, ready to upload.
 
-When all 20 are in, go to the **Publish** tab and publish. Achievement
+When all 16 are in, go to the **Publish** tab and publish. Achievement
 changes don't reach the game until they're published.
 
 **Changing or adding achievements later:** edit the list in

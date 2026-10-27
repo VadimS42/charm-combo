@@ -52,7 +52,7 @@ out" to "stay".
   head start. Running out of moves still pays a few stars, so you can grind.
 - Choices in conversation lean each story warm or teasing, with an ending
   for each of them and a Gallery to keep them in.
-- A gift for each of them, and 20 achievements.
+- A gift for each of them, and 16 achievements.
 - Full controller support. (Steam page: add "Steam Deck ready".)
 - (itch.io page: add "Play in your browser, or download for Windows, Mac and
   Linux.")

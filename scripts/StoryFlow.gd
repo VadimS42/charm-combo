@@ -51,7 +51,7 @@ static func play_intro(main: Node, ch: Dictionary) -> void:
 		var progress := GameState.progress_for(ch.id)
 		progress["_intro_done"] = true
 		GameState.save_state()
-		Achievements.unlock("FIRST_MEETING")
+		Achievements.check_story()
 		main.show_puzzle(ch.id)
 	)
 
@@ -73,7 +73,7 @@ static func on_chapter_won(main: Node, char_id: String) -> void:
 	progress["scene_pending"] = level_index
 	GameState.save_state()
 	main.refresh_topbar()
-	Achievements.unlock("FIRST_CHAPTER")
+	Achievements.check_story()
 
 	_play_win_scene(main, ch, level_index)
 
@@ -197,7 +197,7 @@ static func _play_epilogue(main: Node, ch: Dictionary, key: String) -> void:
 	if typeof(epilogue) != TYPE_DICTIONARY or epilogue.is_empty():
 		GameState.add_to_gallery(ch.id, key, "")
 		GameState.save_state()
-		Achievements.check_gallery()
+		Achievements.check_story()
 		main.show_ending_cg(ch.id, _with_cg(ending, key), func(): main.show_roster())
 		return
 
@@ -238,7 +238,7 @@ static func _resolve_epilogue_finale(main: Node, ch: Dictionary, ending_key: Str
 	progress["epilogue_finale"] = {"ending": ending_key, "key": finale_key}
 	GameState.add_to_gallery(ch.id, ending_key, finale_key)
 	GameState.save_state()
-	Achievements.check_gallery()
+	Achievements.check_story()
 
 	main.show_ending_cg(ch.id, shown, func(): main.show_roster())
 

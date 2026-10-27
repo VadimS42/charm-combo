@@ -223,32 +223,28 @@ Fallbacks: `art/characters/dryad/cg/warmth.png` and `cg/spark.png` cover every m
 | Icon — quit | `art/ui/quit.png` | Main menu: Quit. 128 × 128 px, transparent PNG, simple bold shape. Shown at 16–26 px. | To make |
 | Icon — achievements | `art/ui/achievements.png` | Main menu: Achievements. 128 × 128 px, transparent PNG, simple bold shape. Shown at 16–26 px. | To make |
 
-## Achievement icons (20)
+## Achievement icons (16)
 
-Named after each achievement's Steam API name, in lowercase. Until an icon exists the game shows a plain medal.
+Hazel only for now, made from her expression art (her face, zoomed in) by `tools/achievement_icons/make_hazel_icons.py`. Re-run it after changing her expressions.
 
-| Achievement | Unlocks when | File | What to draw | Status |
+| Achievement | Unlocks when | File | Icon | Status |
 |---|---|---|---|---|
-| Welcome to Duskhaven | Get off on the wrong foot with someone. | `art/achievements/first_meeting.png` | Duskhaven's lantern-lit gate under a violet dusk sky. | To make |
-| Opening Move | Clear your first chapter. | `art/achievements/first_chapter.png` | A single gem mid-sparkle, the first match. | To make |
-| A Little Something | Give someone a gift. | `art/achievements/first_gift.png` | A small wrapped present with a ribbon bow. | To make |
-| Thoughtful | Give all four gifts. | `art/achievements/all_gifts.png` | The four gifts together: beeswax candle, sea-glass pendant, glass marble, pocket sundial. | To make |
-| Left the Candle Lit | Reach an ending with Amara. | `art/achievements/ending_amara.png` | A candle burning in the middle of a neatly drawn chalk circle (Amara's colors). | To make |
-| High Tide | Reach an ending with Marina. | `art/achievements/ending_marina.png` | A nine-pearl comb on a cresting wave (Marina's colors). | To make |
-| Out of the Jar | Reach an ending with Opal. | `art/achievements/ending_opal.png` | An open, empty jar with its lid off, one button beside it (Opal's colors). | To make |
-| Putting Down Roots | Reach an ending with Hazel. | `art/achievements/ending_hazel.png` | A sapling with deep roots and one white blossom (Hazel's colors). | To make |
-| The Whole Circle | Reach an ending with all four of them. | `art/achievements/all_four.png` | Four small motifs in a ring: candle, pearl comb, button, blossom. | To make |
-| Two Sides of Her | See a warm and a spark ending with the same woman. | `art/achievements/both_routes.png` | A heart in two halves: one soft and glowing (warm), one crackling with a spark. | To make |
-| Collector | Find half of the endings. | `art/achievements/gallery_half.png` | A picture wall with half its little frames filled. | To make |
-| Complete Gallery | Find every ending. | `art/achievements/gallery_full.png` | A picture wall, every frame filled, edged in gold. | To make |
-| Chain Reaction | Set off a x3 combo. | `art/achievements/combo_3.png` | Three gems chaining into each other with motion trails. | To make |
-| Avalanche | Set off a x5 combo. | `art/achievements/combo_5.png` | A tumbling avalanche of gems. | To make |
-| Starstruck | Make a Starburst. | `art/achievements/make_starburst.png` | The Starburst gem, glowing (match the in-game gem). | To make |
-| Mega Blast | Swap two special gems together. | `art/achievements/mega_blast.png` | Two special gems colliding in a burst of light. | To make |
-| Irresistible | Fill the Charm ring for a Charm Burst. | `art/achievements/charm_burst.png` | The Charm ring fully lit around its heart. | To make |
-| With Moves to Spare | Clear a chapter with 5 or more moves left. | `art/achievements/moves_left_5.png` | An hourglass with plenty of sand still at the top. | To make |
-| Shard Smasher | Clear a cursed shard with the Hammer. | `art/achievements/shard_smash.png` | A small hammer cracking a dark cursed shard. | To make |
-| Window Shopping | Buy something in the Item Shop. | `art/achievements/first_purchase.png` | A little shop bag with a star-shaped tag. | To make |
+| Don't Even Think About It | Meet Hazel instead of cutting her tree down. | `art/achievements/hazel_meet.png` | angry, moss green | Done |
+| A Lovely Trench | Clear Hazel's first chapter. | `art/achievements/hazel_ch1.png` | teasing, leaf green, badge I | Done |
+| Leaves Going Red | Clear Hazel's second chapter. | `art/achievements/hazel_ch2.png` | shy, autumn red, badge II | Done |
+| Out in the Storm | Clear Hazel's third chapter. | `art/achievements/hazel_ch3.png` | sad, storm blue, badge III | Done |
+| Putting Down Roots | Reach Hazel's ending. | `art/achievements/ending_hazel.png` | happy, gold | Done |
+| Keeping Time | Give Hazel the Brass Pocket Sundial. | `art/achievements/hazel_gift.png` | surprised, brass | Done |
+| Soft as Moss | Finish Hazel's story picking every warm reply. | `art/achievements/hazel_sweet.png` | shy, rose pink | Done |
+| Splinters | Finish Hazel's story teasing her in every reply. | `art/achievements/hazel_tease.png` | angry, plum | Done |
+| Chain Reaction | Set off a x3 combo. | `art/achievements/combo_3.png` | happy, teal, badge x3 | Done |
+| Avalanche | Set off a x5 combo. | `art/achievements/combo_5.png` | surprised, deep teal, badge x5 | Done |
+| Starstruck | Make a Starburst. | `art/achievements/make_starburst.png` | surprised, amber, star badge | Done |
+| Mega Blast | Swap two special gems together. | `art/achievements/mega_blast.png` | surprised, orange, burst badge | Done |
+| Irresistible | Fill the Charm ring for a Charm Burst. | `art/achievements/charm_burst.png` | shy, pink, heart badge | Done |
+| With Moves to Spare | Clear a chapter with 5 or more moves left. | `art/achievements/moves_left_5.png` | teasing, blue, badge +5 | Done |
+| Shard Smasher | Clear a cursed shard with the Hammer. | `art/achievements/shard_smash.png` | angry, violet, cross badge | Done |
+| Window Shopping | Buy something in the Item Shop. | `art/achievements/first_purchase.png` | happy, lilac, star badge | Done |
 
 ## Launch
 
