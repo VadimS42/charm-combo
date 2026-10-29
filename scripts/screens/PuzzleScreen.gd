@@ -208,6 +208,8 @@ func setup(p_main: Node, p_host: Control, p_char_id: String, p_replay: int = -1)
 		applied_msgs.append("💗 Favor Charm active!")
 	if used_heart_mender:
 		applied_msgs.append("💚 Heart Mender active!")
+	if CharacterData.has_gift(ch):
+		applied_msgs.append("🎁 Her gift: more of her favourite gem")
 
 	_build_ui()
 	# Wait one frame so the grid has actually laid out (button .size is
@@ -255,6 +257,8 @@ func setup(p_main: Node, p_host: Control, p_char_id: String, p_replay: int = -1)
 	HowToPlay.tip(main, "goal")
 	if level_index >= 1:
 		HowToPlay.tip(main, "favorite")
+		if not CharacterData.has_gift(ch):
+			HowToPlay.tip(main, "gift")
 	for item_id in ["moves", "hammer", "shuffle"]:
 		if int(GameState.items.get(item_id, 0)) > 0:
 			HowToPlay.tip(main, "items")

@@ -117,6 +117,9 @@ msgstr "После закрытия"
 msgid "After each chapter you pick a reply. A warm one starts her next chapter with bonus points; a teasing one costs a few, but she likes those too."
 msgstr "После каждой главы ты выбираешь ответ. Тёплый даёт бонусные очки в начале её следующей главы; дразнящий отнимает несколько, но ей это тоже нравится."
 
+msgid "After that, her favourite gem shows up more often in all her chapters, for good."
+msgstr "После этого её любимый камень будет выпадать чаще во всех её главах, навсегда."
+
 msgid "After the comb, it can be a big thing."
 msgstr "После гребня можно и побольше."
 
@@ -611,6 +614,9 @@ msgstr "Её семья по одному соскальзывает с края
 
 msgid "Her father came by too. You've got till the end of the month. Then he hires someone with a saw."
 msgstr "Её отец тоже заходил. У тебя время до конца месяца. Потом он наймёт кого-нибудь с пилой."
+
+msgid "Her gift"
+msgstr "Её подарок"
 
 msgid "Her grandmother says, mildly, that they'd been calling her for twenty minutes, that the tide's on the turn, and that this nice person was the only one who did anything about it."
 msgstr "Бабушка мягко замечает, что они звали её двадцать минут, что прилив разворачивается и что этот славный человек — единственный, кто хоть что-то сделал."
@@ -1124,6 +1130,9 @@ msgstr "Старый стеклянный шарик"
 
 msgid "On the way back there's a notice nailed to the Mill Bridge. The town has sold the north woods to an alchemist, for his workshop. Clearing starts on quarter day."
 msgstr "На обратном пути на Мельничном мосту прибито объявление. Город продал северный лес алхимику под мастерскую. Расчистка начнётся в квартальный день."
+
+msgid "Once you've cleared her first chapter, her card on the roster has a gift for her. Give it and her favourite gem shows up more often in all her chapters, for good."
+msgstr "Когда пройдёшь её первую главу, на её карточке в списке появится подарок для неё. Подари его — и её любимый камень будет выпадать чаще во всех её главах, навсегда."
 
 msgid "Ooh. That's going in the... sorry. Habit."
 msgstr "Ой. Это отправится в... прости. Привычка."
@@ -2255,6 +2264,9 @@ msgstr "♥  Добавить в список желаемого в Steam"
 
 msgid "✨ Starburst Starter active!"
 msgstr "✨ Звёздный старт активен!"
+
+msgid "🎁 Her gift: more of her favourite gem"
+msgstr "🎁 Её подарок: больше её любимых камней"
 
 msgid "💗 Favor Charm active!"
 msgstr "💗 Расположение активно!"

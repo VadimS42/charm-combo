@@ -55,6 +55,9 @@ const KITS := [
 	["Favor + Mender", {"favorCharm": 1, "heartMender": 1}],
 	["Favor + Mender + Moves", {"favorCharm": 1, "heartMender": 1, "moves": 1}],
 	["Favor + Mender + Moves x2", {"favorCharm": 1, "heartMender": 1, "moves": 2}],
+	["her gift", {"gift": 1}],
+	["gift + Favor", {"gift": 1, "favorCharm": 1}],
+	["gift + Favor + Mender", {"gift": 1, "favorCharm": 1, "heartMender": 1}],
 	["one of everything", {"moves": 1, "hammer": 1, "shuffle": 1, "colorBomb": 1, "favorCharm": 1, "heartMender": 1}],
 ]
 
@@ -149,7 +152,7 @@ func _items_table() -> void:
 	for kit in KITS:
 		var cost := 0
 		for k in kit[1].keys():
-			cost += int(PRICES[k]) * int(kit[1][k])
+			cost += int(PRICES.get(k, int(ch.gift.price))) * int(kit[1][k])
 		var row := "| %s | %d |" % [kit[0], cost]
 		for i in range(levels.size()):
 			row += " %d%% |" % roundi(_win_rate(ch, i, kit[1], "casual", -1) * 100.0)
@@ -285,6 +288,7 @@ func _play(ch: Dictionary, i: int, kit: Dictionary, skill: String, bonus: int, t
 	# CharacterData.compute_weights reads the one-chapter boosts from items.
 	var gs = root.get_node("GameState")
 	gs.items = {"favorCharm": int(kit.get("favorCharm", 0)), "heartMender": int(kit.get("heartMender", 0))}
+	gs.progress_for(String(ch.id))["gifts_given"] = [String(ch.gift.id)] if int(kit.get("gift", 0)) > 0 else []
 	_weights = CharacterData.compute_weights(ch, i)
 	gs.items = {}
 	_board = _fresh_board()

@@ -17,6 +17,18 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-34 — her gift is a permanent boost
+
+- A girl's gift (her roster card, 22 stars) is offered once her **first
+  chapter is cleared** (it was any time after meeting her). Given, it makes her
+  favourite gem turn up 1.5x as often in all her chapters for good
+  (`CharacterData.GIFT_FAV_WEIGHT`), a weaker, permanent Favor Charm that stacks
+  with it. Her chapters say "🎁 Her gift" at the start; the gift's tooltip and
+  a one-time tip (from her chapter 2, until it's given) explain it.
+- Casual bot, Hazel: gift alone takes chapter 3 from 26% to 36% and chapter 4
+  from 9% to 17%; gift + Favor Charm 84% / 79% (Favor alone 60% / 41%).
+  `balance_bot.gd mode=items` has gift rows now.
+
 ## ✅ Status: round-33 — balance: easy start, power-ups for the second half
 
 Asked for: simulate the puzzles; the first chapters easy, the later ones

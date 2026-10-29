@@ -452,10 +452,12 @@ static func _card(main: Node, ch: Dictionary, state: Dictionary) -> PanelContain
 		)
 		v.add_child(again_btn)
 
-	# Gifts come after you've met her — her thank-you scene talks about things
-	# you only know once you have (it used to be offered before her intro).
+	# Gifts come once her first chapter is behind you (round 34; it was any
+	# time after meeting her) — her thank-you scene talks about things you
+	# only know by then, and the gift's boost is for the harder chapters.
 	var gifts_given: Array = progress.get("gifts_given", [])
-	if met and not gifts_given.has(ch.gift.id):
+	var past_first: bool = finished or level_idx > 0 or won.has(0)
+	if past_first and not gifts_given.has(ch.gift.id):
 		v.add_child(_gift_button(main, ch, accent, progress, gifts_given))
 
 	state.cards[id] = {"card": card, "frame": plate.get_node("Frame"), "accent": accent, "on": false, "open_btn": open_btn}
@@ -722,7 +724,8 @@ static func _gift_button(main: Node, ch: Dictionary, accent: Color, progress: Di
 	var price := int(ch.gift.price)
 	var gift_btn := UITheme.make_card_button("", accent)
 	gift_btn.custom_minimum_size = Vector2(0, 40)
-	gift_btn.tooltip_text = UITheme.t("Give her the %s") % UITheme.t(String(ch.gift.name)) + " — " + UITheme.t(String(ch.gift.get("desc", "")))
+	gift_btn.tooltip_text = UITheme.t("Give her the %s") % UITheme.t(String(ch.gift.name)) + " — " + UITheme.t(String(ch.gift.get("desc", ""))) \
+		+ "\n" + UITheme.t("After that, her favourite gem shows up more often in all her chapters, for good.")
 	gift_btn.disabled = GameState.stars < price
 	if gift_btn.disabled:
 		gift_btn.tooltip_text += "\n" + UITheme.t("(You need %d more stars.)") % (price - GameState.stars)

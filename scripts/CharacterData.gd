@@ -131,9 +131,26 @@ static func gem_color(type_index: int) -> Color:
 ## effects, so the difficulty curve matches what was already tuned/playtested
 ## there. See PuzzleScreen.setup() for where this gets called and the boosts
 ## actually get consumed.
+## Her gift, once given, makes her favourite gem turn up this much more often
+## in all her chapters for good (round 34): a weaker, permanent Favor Charm
+## (that one is x2.2 for one chapter, and the two stack).
+const GIFT_FAV_WEIGHT := 1.5
+
+
+static func has_gift(ch: Dictionary) -> bool:
+	var gift = ch.get("gift")
+	if typeof(gift) != TYPE_DICTIONARY:
+		return false
+	return (GameState.progress_for(String(ch.id)).get("gifts_given", []) as Array).has(String(gift.id))
+
+
 static func compute_weights(ch: Dictionary, chapter_idx: int) -> Array:
 	var w: Array = MatchEngine.DEFAULT_WEIGHTS.duplicate()
 	w[MatchEngine.BROKEN_IDX] = 2.0 + float(chapter_idx) * 1.2
+	if has_gift(ch):
+		var gift_fav := gem_index_from_id(String(ch.fav))
+		if gift_fav >= 0:
+			w[gift_fav] *= GIFT_FAV_WEIGHT
 	if int(GameState.items.get("favorCharm", 0)) > 0:
 		var fav_i := gem_index_from_id(String(ch.fav))
 		var least_i := gem_index_from_id(String(ch.least))

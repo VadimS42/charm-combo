@@ -16,6 +16,8 @@ const TOPICS := [
 		"text": "Each chapter has a points goal and a number of moves. Reach the goal before your moves run out and the story carries on. There's no timer: take as long as you like."},
 	{"key": "favorite", "title": "What she likes", "icon": "", "emoji": "💚",
 		"text": "Every girl has a favourite gem and one she dislikes (it's on her card in the roster). Matching her favourite fills the Charm ring faster."},
+	{"key": "gift", "title": "Her gift", "icon": "", "emoji": "🎁",
+		"text": "Once you've cleared her first chapter, her card on the roster has a gift for her. Give it and her favourite gem shows up more often in all her chapters, for good."},
 	{"key": "charm", "title": "Charm Burst", "icon": "", "emoji": "💗",
 		"text": "Every match fills the Charm ring. When it's full you get a Charm Burst: +150 points."},
 	{"key": "specials", "title": "Special gems", "icon": "starburst", "emoji": "✦",

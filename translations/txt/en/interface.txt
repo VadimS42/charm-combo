@@ -50,707 +50,719 @@ What she likes
 Every girl has a favourite gem and one she dislikes (it's on her card in the roster). Matching her favourite fills the Charm ring faster.
 
 @@ ui-0014
-Charm Burst
+Her gift
 
 @@ ui-0015
-Every match fills the Charm ring. When it's full you get a Charm Burst: +150 points.
+Once you've cleared her first chapter, her card on the roster has a gift for her. Give it and her favourite gem shows up more often in all her chapters, for good.
 
 @@ ui-0016
-Special gems
+Charm Burst
 
 @@ ui-0017
-Match 4 in a row to make a Rocket, which clears its row or column. Match 5, or an L or T shape, to make a Starburst. Swap a special gem to set it off; swap two together for a Mega Blast.
+Every match fills the Charm ring. When it's full you get a Charm Burst: +150 points.
 
 @@ ui-0018
-Combos
+Special gems
 
 @@ ui-0019
-When falling gems make new matches on their own, that's a combo. Each link in the chain scores more than the last.
+Match 4 in a row to make a Rocket, which clears its row or column. Match 5, or an L or T shape, to make a Starburst. Swap a special gem to set it off; swap two together for a Mega Blast.
 
 @@ ui-0020
-Cursed shards
+Combos
 
 @@ ui-0021
-Dark, cracked shards cost you points when they're part of a match. The Hammer smashes one for free.
+When falling gems make new matches on their own, that's a combo. Each link in the chain scores more than the last.
 
 @@ ui-0022
-Items
+Cursed shards
 
 @@ ui-0023
-+3 Moves, the Hammer (smash any one gem) and Shuffle (new board) sit under the board. Buy them, and one-chapter boosts, in the Item Shop with the stars you earn.
+Dark, cracked shards cost you points when they're part of a match. The Hammer smashes one for free.
 
 @@ ui-0024
-Your replies
+Items
 
 @@ ui-0025
-After each chapter you pick a reply. A warm one starts her next chapter with bonus points; a teasing one costs a few, but she likes those too.
++3 Moves, the Hammer (smash any one gem) and Shuffle (new board) sit under the board. Buy them, and one-chapter boosts, in the Item Shop with the stars you earn.
 
 @@ ui-0026
-Out of moves
+Your replies
 
 @@ ui-0027
-Running out still pays you a few stars. Try again, use +3 Moves, or visit the shop. Later chapters are hard without power-ups: short on stars, replay a chapter you've cleared from her card on the roster. Lose three times in a row and you can carry on with the story anyway.
+After each chapter you pick a reply. A warm one starts her next chapter with bonus points; a teasing one costs a few, but she likes those too.
 
 @@ ui-0028
-Dialogue controls
+Out of moves
 
 @@ ui-0029
-Click, Space or Enter: next line. Hold Ctrl or press Skip: skip lines you've read. A or Auto: lines play on by themselves. L, Log or scroll up: read back. H: hide the text on full-screen pictures. Text speed is in Settings.
+Running out still pays you a few stars. Try again, use +3 Moves, or visit the shop. Later chapters are hard without power-ups: short on stars, replay a chapter you've cleared from her card on the roster. Lose three times in a row and you can carry on with the story anyway.
 
 @@ ui-0030
-How to Play
+Dialogue controls
 
 @@ ui-0031
-Got it
+Click, Space or Enter: next line. Hold Ctrl or press Skip: skip lines you've read. A or Auto: lines play on by themselves. L, Log or scroll up: read back. H: hide the text on full-screen pictures. Text speed is in Settings.
 
 @@ ui-0032
-All rules
+How to Play
 
 @@ ui-0033
-Stars — earned by clearing chapters, spent in the Item Shop and on gifts.
+Got it
 
 @@ ui-0034
-Settings
+All rules
 
 @@ ui-0035
-Move
+Stars — earned by clearing chapters, spent in the Item Shop and on gifts.
 
 @@ ui-0036
-Choose
+Settings
 
 @@ ui-0037
-Cancel
+Move
 
 @@ ui-0038
-Toggle
+Choose
 
 @@ ui-0039
-Close
+Cancel
 
 @@ ui-0040
-Select
+Toggle
 
 @@ ui-0041
-Back
+Close
 
 @@ ui-0042
-Close settings
+Select
 
 @@ ui-0043
-Thanks for playing the demo!
+Back
 
 @@ ui-0044
-The full game has four stories: Hazel's, and three more women of Millbrook to meet in the worst way possible. Each has four chapters, her night scene and her ending.
+Close settings
 
 @@ ui-0045
-Main menu
+Thanks for playing the demo!
 
 @@ ui-0046
-♥  Wishlist on Steam
+The full game has four stories: Hazel's, and three more women of Millbrook to meet in the worst way possible. Each has four chapters, her night scene and her ending.
 
 @@ ui-0047
-ACHIEVEMENT UNLOCKED
+Main menu
 
 @@ ui-0048
-←  Back
+♥  Wishlist on Steam
 
 @@ ui-0049
-Achievements
+ACHIEVEMENT UNLOCKED
 
 @@ ui-0050
-These unlock on Steam too.
+←  Back
 
 @@ ui-0051
-Scroll
+Achievements
 
 @@ ui-0052
-Charm Combo is for adults
+These unlock on Steam too.
 
 @@ ui-0053
+Scroll
+
+@@ ui-0054
+Charm Combo is for adults
+
+@@ ui-0055
 It has sexual content, including intimate scenes, and suggestive art. All characters are adults.
 
 Please only continue if you're 18 or older, or the age of majority where you live.
 
-@@ ui-0054
+@@ ui-0056
 Leave
 
-@@ ui-0055
+@@ ui-0057
 You can close this tab now.
 
-@@ ui-0056
+@@ ui-0058
 I'm 18 or older
 
-@@ ui-0057
+@@ ui-0059
 About the voices
 
-@@ ui-0058
+@@ ui-0060
 The girls are voiced by amateur voice actresses, recorded at home. We love how they turned out, but they aren't studio recordings, and not every line is voiced yet.
 
 If you'd rather read in your own head, turn the voices off. You can change this any time in Settings.
 
-@@ ui-0059
+@@ ui-0061
 Turn voices off
 
-@@ ui-0060
+@@ ui-0062
 Keep voices on
 
-@@ ui-0061
+@@ ui-0063
 Language · 语言 · Язык
 
-@@ ui-0062
+@@ ui-0064
 Credits
 
-@@ ui-0063
+@@ ui-0065
 Made with Godot Engine
 
-@@ ui-0064
+@@ ui-0066
 Continue
 
-@@ ui-0065
+@@ ui-0067
 Her ending
 
-@@ ui-0066
+@@ ui-0068
 Spark route
 
-@@ ui-0067
+@@ ui-0069
 Balanced route
 
-@@ ui-0068
+@@ ui-0070
 Night scene
 
-@@ ui-0069
+@@ ui-0071
 Ending Gallery
 
-@@ ui-0070
+@@ ui-0072
 Nothing here yet — finish a girl's story to add her ending.
 
-@@ ui-0071
+@@ ui-0073
 Replay her night scene.
 
-@@ ui-0072
+@@ ui-0074
 Her night scene
 
-@@ ui-0073
+@@ ui-0075
 Replay
 
-@@ ui-0074
+@@ ui-0076
 Click to view.
 
-@@ ui-0075
+@@ ui-0077
 Not found yet: finish her story to unlock it.
 
-@@ ui-0076
+@@ ui-0078
 Not found yet
 
-@@ ui-0077
+@@ ui-0079
 A match-3 romance for adults, set in Millbrook, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes.
 
-@@ ui-0078
+@@ ui-0080
 Play
 
-@@ ui-0079
+@@ ui-0081
 Store
 
-@@ ui-0080
+@@ ui-0082
 Gallery
 
-@@ ui-0081
+@@ ui-0083
 Quit
 
-@@ ui-0082
+@@ ui-0084
 18+ · original characters · all characters are adults.
 
-@@ ui-0083
+@@ ui-0085
 ✨ Starburst Starter active!
 
-@@ ui-0084
+@@ ui-0086
 💗 Favor Charm active!
 
-@@ ui-0085
+@@ ui-0087
 💚 Heart Mender active!
 
-@@ ui-0086
-+%d pts — great answer!
-
-@@ ui-0087
-Pick up
-
 @@ ui-0088
-Swap
+🎁 Her gift: more of her favourite gem
 
 @@ ui-0089
-Hammer
++%d pts — great answer!
 
 @@ ui-0090
-Shuffle
+Pick up
 
 @@ ui-0091
-+3 Moves
+Swap
 
 @@ ui-0092
-←  Roster
+Hammer
 
 @@ ui-0093
-Moves left this chapter
+Shuffle
 
 @@ ui-0094
-CHAPTER GOAL
++3 Moves
 
 @@ ui-0095
-Charm — fills as you match (her favorite gem fastest). Full = +150 Charm Burst.
+←  Roster
 
 @@ ui-0096
-Tap a gem!
+Moves left this chapter
 
 @@ ui-0097
-Pick a gem to pop.
+CHAPTER GOAL
 
 @@ ui-0098
-Chapter %d / %d
+Charm — fills as you match (her favorite gem fastest). Full = +150 Charm Burst.
 
 @@ ui-0099
-Boom!
+Tap a gem!
 
 @@ ui-0100
-Shard smashed!
+Pick a gem to pop.
 
 @@ ui-0101
-Mega Blast!
+Chapter %d / %d
 
 @@ ui-0102
-No moves left — reshuffling!
+Boom!
 
 @@ ui-0103
-Ouch!
+Shard smashed!
 
 @@ ui-0104
-Combo x%d!
+Mega Blast!
 
 @@ ui-0105
-Charm Burst! +150
+No moves left — reshuffling!
 
 @@ ui-0106
-Chapter cleared!
+Ouch!
 
 @@ ui-0107
-Play it again
+Combo x%d!
 
 @@ ui-0108
-Item Shop
+Charm Burst! +150
 
 @@ ui-0109
-Back to the roster
+Chapter cleared!
 
 @@ ui-0110
-Out of Moves
+Play it again
 
 @@ ui-0111
-You needed %d more points.
+Item Shop
 
 @@ ui-0112
-+%d ⭐ for trying
+Back to the roster
 
 @@ ui-0113
-1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!
+Out of Moves
 
 @@ ui-0114
-Use +3 Moves
+You needed %d more points.
 
 @@ ui-0115
-Retry Chapter
++%d ⭐ for trying
 
 @@ ui-0116
-Continue the story  ▸
+1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!
 
 @@ ui-0117
-Carry on without clearing this chapter (no stars for it).
+Use +3 Moves
 
 @@ ui-0118
-Skips this chapter's puzzle: no stars for it.
+Retry Chapter
 
 @@ ui-0119
-←  Menu
+Continue the story  ▸
 
 @@ ui-0120
-Millbrook Circle
+Carry on without clearing this chapter (no stars for it).
 
 @@ ui-0121
-Loves
+Skips this chapter's puzzle: no stars for it.
 
 @@ ui-0122
-Dislikes
+←  Menu
 
 @@ ui-0123
-Not met yet
+Millbrook Circle
 
 @@ ui-0124
-Ending: %s
+Loves
 
 @@ ui-0125
-Meet her
+Dislikes
 
 @@ ui-0126
-Revisit
+Not met yet
 
 @@ ui-0127
-Start her story over from the beginning
+Ending: %s
 
 @@ ui-0128
-Replay %s's story?
+Meet her
 
 @@ ui-0129
-Her story starts over from your first meeting, so you can make different choices. Endings you've found stay in the Gallery, your gift stays given, and her chapters pay out stars again.
+Revisit
 
 @@ ui-0130
-Replay story
+Start her story over from the beginning
 
 @@ ui-0131
-Replay a chapter
+Replay %s's story?
 
 @@ ui-0132
-Play a chapter you've cleared again, for stars. Her story stays where it is.
+Her story starts over from your first meeting, so you can make different choices. Endings you've found stay in the Gallery, your gift stays given, and her chapters pay out stars again.
 
 @@ ui-0133
-Play a chapter you've cleared again, for stars. No story scenes, and her story stays where it is.
+Replay story
 
 @@ ui-0134
-Chapter %d · +%d ⭐
+Replay a chapter
 
 @@ ui-0135
-Chapter %d · +%d
+Play a chapter you've cleared again, for stars. Her story stays where it is.
 
 @@ ui-0136
-Give her the %s
+Play a chapter you've cleared again, for stars. No story scenes, and her story stays where it is.
 
 @@ ui-0137
-(You need %d more stars.)
+Chapter %d · +%d ⭐
 
 @@ ui-0138
-Language
+Chapter %d · +%d
 
 @@ ui-0139
-The game's text. Voices stay in English.
+Give her the %s
 
 @@ ui-0140
-Sound Effects
+After that, her favourite gem shows up more often in all her chapters, for good.
 
 @@ ui-0141
-Chimes for matches, combos, and menus.
+(You need %d more stars.)
 
 @@ ui-0142
-Master Volume
+Language
 
 @@ ui-0143
-Everything — music and sound effects.
+The game's text. Voices stay in English.
 
 @@ ui-0144
-Music
+Sound Effects
 
 @@ ui-0145
-How loud the background music plays.
+Chimes for matches, combos, and menus.
 
 @@ ui-0146
-Voice Acting
+Master Volume
 
 @@ ui-0147
-Hear the girls speak their lines.
+Everything — music and sound effects.
 
 @@ ui-0148
-Voice Volume
+Music
 
 @@ ui-0149
-How loud their voices play.
+How loud the background music plays.
 
 @@ ui-0150
-Text Speed
+Voice Acting
 
 @@ ui-0151
-How fast dialogue types out.
+Hear the girls speak their lines.
 
 @@ ui-0152
-Slow
+Voice Volume
 
 @@ ui-0153
-Normal
+How loud their voices play.
 
 @@ ui-0154
-Fast
+Text Speed
 
 @@ ui-0155
-Instant
+How fast dialogue types out.
 
 @@ ui-0156
-Auto Speed
+Slow
 
 @@ ui-0157
-How long Auto waits after each line (left = quicker).
+Normal
 
 @@ ui-0158
-Skip Unread Lines
+Fast
 
 @@ ui-0159
-Let Skip race through lines you haven't read yet, too.
+Instant
 
 @@ ui-0160
-Reduce Motion
+Auto Speed
 
 @@ ui-0161
-Shorter animations, calmer feedback.
+How long Auto waits after each line (left = quicker).
 
 @@ ui-0162
-Fullscreen
+Skip Unread Lines
 
 @@ ui-0163
-Fill the whole screen. F11 toggles it anywhere.
+Let Skip race through lines you haven't read yet, too.
 
 @@ ui-0164
-Testing Mode
+Reduce Motion
 
 @@ ui-0165
-Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing.
+Shorter animations, calmer feedback.
 
 @@ ui-0166
-Leave to Roster
+Fullscreen
 
 @@ ui-0167
-Stop here. This scene plays again next time you visit her.
+Fill the whole screen. F11 toggles it anywhere.
 
 @@ ui-0168
-Open log folder
+Testing Mode
 
 @@ ui-0169
-For bug reports: send the newest godot.log from this folder.
+Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing.
 
 @@ ui-0170
-Reset Progress
+Leave to Roster
 
 @@ ui-0171
-Reset all progress?
+Stop here. This scene plays again next time you visit her.
 
 @@ ui-0172
-This erases every girl's story progress, your stars, items, gifts and the whole Gallery. Your settings and achievements are kept. This can't be undone.
+Open log folder
 
 @@ ui-0173
-Reset everything
+For bug reports: send the newest godot.log from this folder.
 
 @@ ui-0174
-Adds three moves to the chapter you're playing. Use it from the item row under the board — it also gets you out of an Out of Moves screen.
+Reset Progress
 
 @@ ui-0175
-Pop any one gem, no match needed. Arm it from the item row, then tap a gem.
+Reset all progress?
 
 @@ ui-0176
-Reshuffles the whole board into a fresh one that always has a move.
+This erases every girl's story progress, your stars, items, gifts and the whole Gallery. Your settings and achievements are kept. This can't be undone.
 
 @@ ui-0177
-Starburst Starter
+Reset everything
 
 @@ ui-0178
-Your next chapter begins with a free Starburst gem already on the board.
+Adds three moves to the chapter you're playing. Use it from the item row under the board — it also gets you out of an Out of Moves screen.
 
 @@ ui-0179
-Favor Charm
+Pop any one gem, no match needed. Arm it from the item row, then tap a gem.
 
 @@ ui-0180
-Your next chapter: her favorite gem shows up more often, her least favorite less.
+Reshuffles the whole board into a fresh one that always has a move.
 
 @@ ui-0181
-Heart Mender
+Starburst Starter
 
 @@ ui-0182
-Your next chapter: far fewer cursed shards appear on the board.
+Your next chapter begins with a free Starburst gem already on the board.
 
 @@ ui-0183
-←  Back to the chapter
+Favor Charm
 
 @@ ui-0184
-Stars come from clearing chapters: 15 for a girl's first and 5 more for each one after it.
+Your next chapter: her favorite gem shows up more often, her least favorite less.
 
 @@ ui-0185
-Running out of moves still pays 1 star for every 200 points you scored (at least 3).
+Heart Mender
 
 @@ ui-0186
-Short on stars? Replay a chapter you've cleared, from her card on the roster: it pays half.
+Your next chapter: far fewer cursed shards appear on the board.
 
 @@ ui-0187
-The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts.
+←  Back to the chapter
 
 @@ ui-0188
-Owned: %d
+Stars come from clearing chapters: 15 for a girl's first and 5 more for each one after it.
 
 @@ ui-0189
-Buy · %d ⭐
+Running out of moves still pays 1 star for every 200 points you scored (at least 3).
 
 @@ ui-0190
-Buy · %d
+Short on stars? Replay a chapter you've cleared, from her card on the roster: it pays half.
 
 @@ ui-0191
-You need %d more stars.
+The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts.
 
 @@ ui-0192
-Log
+Owned: %d
 
 @@ ui-0193
-Read back (L, or scroll up)
+Buy · %d ⭐
 
 @@ ui-0194
-Auto
+Buy · %d
 
 @@ ui-0195
-Lines carry on by themselves (A)
+You need %d more stars.
 
 @@ ui-0196
-Skip
+Log
 
 @@ ui-0197
-Skip lines you've read (hold Ctrl)
+Read back (L, or scroll up)
 
 @@ ui-0198
-Skip unread
+Auto
 
 @@ ui-0199
-Skip every line up to the next reply, read or not
+Lines carry on by themselves (A)
 
 @@ ui-0200
-Hide text
+Skip
 
 @@ ui-0201
-See the whole picture (H)
+Skip lines you've read (hold Ctrl)
 
 @@ ui-0202
-What do you say?
+Skip unread
 
 @@ ui-0203
-You
+Skip every line up to the next reply, read or not
 
 @@ ui-0204
-Reply
+Hide text
 
 @@ ui-0205
-Next
+See the whole picture (H)
 
 @@ ui-0206
-Nothing yet.
+What do you say?
 
 @@ ui-0207
-Don't Even Think About It
+You
 
 @@ ui-0208
-Meet Hazel instead of cutting her tree down.
+Reply
 
 @@ ui-0209
-A Lovely Trench
+Next
 
 @@ ui-0210
-Clear Hazel's first chapter.
+Nothing yet.
 
 @@ ui-0211
-Leaves Going Red
+Don't Even Think About It
 
 @@ ui-0212
-Clear Hazel's second chapter.
+Meet Hazel instead of cutting her tree down.
 
 @@ ui-0213
-Out in the Storm
+A Lovely Trench
 
 @@ ui-0214
-Clear Hazel's third chapter.
+Clear Hazel's first chapter.
 
 @@ ui-0215
-Putting Down Roots
+Leaves Going Red
 
 @@ ui-0216
-Reach Hazel's ending.
+Clear Hazel's second chapter.
 
 @@ ui-0217
-Keeping Time
+Out in the Storm
 
 @@ ui-0218
-Give Hazel the Brass Pocket Sundial.
+Clear Hazel's third chapter.
 
 @@ ui-0219
-Soft as Moss
+Putting Down Roots
 
 @@ ui-0220
-Finish Hazel's story picking every warm reply.
+Reach Hazel's ending.
 
 @@ ui-0221
-Splinters
+Keeping Time
 
 @@ ui-0222
-Finish Hazel's story teasing her in every reply.
+Give Hazel the Brass Pocket Sundial.
 
 @@ ui-0223
-Chain Reaction
+Soft as Moss
 
 @@ ui-0224
-Set off a x3 combo.
+Finish Hazel's story picking every warm reply.
 
 @@ ui-0225
-Avalanche
+Splinters
 
 @@ ui-0226
-Set off a x5 combo.
+Finish Hazel's story teasing her in every reply.
 
 @@ ui-0227
-Starstruck
+Chain Reaction
 
 @@ ui-0228
-Make a Starburst.
+Set off a x3 combo.
 
 @@ ui-0229
-Mega Blast
+Avalanche
 
 @@ ui-0230
-Swap two special gems together.
+Set off a x5 combo.
 
 @@ ui-0231
-Irresistible
+Starstruck
 
 @@ ui-0232
-Fill the Charm ring for a Charm Burst.
+Make a Starburst.
 
 @@ ui-0233
-With Moves to Spare
+Mega Blast
 
 @@ ui-0234
-Clear a chapter with 5 or more moves left.
+Swap two special gems together.
 
 @@ ui-0235
-Shard Smasher
+Irresistible
 
 @@ ui-0236
-Clear a cursed shard with the Hammer.
+Fill the Charm ring for a Charm Burst.
 
 @@ ui-0237
-Window Shopping
+With Moves to Spare
 
 @@ ui-0238
-Buy something in the Item Shop.
+Clear a chapter with 5 or more moves left.
 
 @@ ui-0239
-English
+Shard Smasher
 
 @@ ui-0240
-%d / %d unlocked
+Clear a cursed shard with the Hammer.
 
 @@ ui-0241
-%d / %d endings found
+Window Shopping
 
 @@ ui-0242
-%d pts — rough start...
+Buy something in the Item Shop.
 
 @@ ui-0243
-%d / %d pts
+English
 
 @@ ui-0244
-%d pts...
+%d / %d unlocked
 
 @@ ui-0245
-MOVES
+%d / %d endings found
 
 @@ ui-0246
-TIP
+%d pts — rough start...
 
 @@ ui-0247
+%d / %d pts
+
+@@ ui-0248
+%d pts...
+
+@@ ui-0249
+MOVES
+
+@@ ui-0250
+TIP
+
+@@ ui-0251
 +%d ⭐
