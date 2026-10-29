@@ -45,6 +45,10 @@ var ch: Dictionary
 var char_id: String
 var level_index: int
 var level: Dictionary
+## >= 0 when this is a replay of a chapter she's already cleared, for stars
+## (roster "Replay a chapter", round 33): no story, no reply bonus, her
+## progress stays where it is, and a clear pays StoryFlow.replay_stars().
+var replay := -1
 
 var board: Array = []
 var selected := Vector2i(-1, -1)
@@ -156,13 +160,14 @@ var hint_tweens: Array = []
 var hint_cells: Array = []
 
 
-func setup(p_main: Node, p_host: Control, p_char_id: String) -> void:
+func setup(p_main: Node, p_host: Control, p_char_id: String, p_replay: int = -1) -> void:
 	main = p_main
 	host = p_host
 	char_id = p_char_id
 	ch = CharacterData.by_id(char_id)
 	var progress := GameState.progress_for(char_id)
-	level_index = int(progress.get("level_index", 0))
+	replay = p_replay
+	level_index = replay if replay >= 0 else int(progress.get("level_index", 0))
 	level = ch.story.levels[level_index]
 
 	moves_left = int(level.moves)
@@ -171,7 +176,7 @@ func setup(p_main: Node, p_host: Control, p_char_id: String) -> void:
 	# so a retry, leaving mid-chapter or relaunching the game still starts with
 	# the same +bonus / −penalty. It used to live only in memory and was
 	# zeroed on first use, so any retry dropped it.
-	score = int(progress.get("next_bonus", 0))
+	score = 0 if replay >= 0 else int(progress.get("next_bonus", 0))
 	charm = 0
 	busy = false
 	hammer_mode = false
@@ -982,7 +987,7 @@ func _on_item_pressed(item_id: String) -> void:
 		_reset_idle_timer()
 		return
 	var count := int(GameState.items.get(item_id, 0))
-	if count <= 0 or busy or _torn_down:
+	if count <= 0 or busy or _torn_down or _replay_cleared:
 		return
 	if overlay != null and overlay.visible and item_id != "moves":
 		return
@@ -2024,16 +2029,80 @@ func _check_outcome() -> void:
 	if score >= target:
 		if moves_left >= 5:
 			Achievements.unlock("MOVES_LEFT_5")
-		StoryFlow.on_chapter_won(main, char_id)
+		if replay >= 0:
+			_show_replay_win()
+		else:
+			StoryFlow.on_chapter_won(main, char_id)
 	elif moves_left <= 0:
 		_show_lose_overlay()
 
 
-## Stars for running out of moves: 1 for every 100 points scored, at least 3.
-## Enough that a few tries buy a power-up (the cheapest, +3 Moves, is 12), but
-## always well under what winning the chapter pays (15 to 30).
+## Stars for running out of moves: 1 for every 200 points scored, at least 3
+## (round 33: it was 1 per 100, which with the higher targets paid a lost
+## chapter 4 more than replaying chapter 1). A loss pays about 5 to 9, under
+## a replayed chapter (8 to 15) and well under a first clear (15 to 30).
 static func consolation_stars(final_score: int) -> int:
-	return maxi(3, floori(float(final_score) / 100.0))
+	return maxi(3, floori(float(final_score) / 200.0))
+
+
+## A replayed chapter was cleared and paid: the board stays locked under the
+## overlay (+3 Moves can't reopen it to be paid twice).
+var _replay_cleared := false
+
+## A replayed chapter is cleared: its stars, then again or back to her card.
+func _show_replay_win() -> void:
+	if _replay_cleared:
+		return
+	_replay_cleared = true
+	SFX.win()
+	var earned := StoryFlow.replay_stars(level_index)
+	GameState.stars += earned
+	GameState.save_state()
+	main.refresh_topbar()
+	_clear_hint()
+	if idle_timer:
+		idle_timer.stop()
+	for c in overlay.get_children():
+		c.queue_free()
+	overlay.visible = true
+	hammer_mode = false
+	_refresh_all_items()
+	var v := VBoxContainer.new()
+	v.set_anchors_preset(Control.PRESET_CENTER)
+	v.alignment = BoxContainer.ALIGNMENT_CENTER
+	v.add_theme_constant_override("separation", 10)
+	overlay.add_child(v)
+	var title := UITheme.heading("Chapter cleared!", 20)
+	title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	v.add_child(title)
+	var reward := UITheme.body(UITheme.t("+%d ⭐") % earned, 15, UITheme.INK)
+	reward.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	v.add_child(reward)
+	var row := HBoxContainer.new()
+	row.alignment = BoxContainer.ALIGNMENT_CENTER
+	row.add_theme_constant_override("separation", 10)
+	v.add_child(row)
+	var again := UITheme.make_primary_button("Play it again")
+	again.pressed.connect(func():
+		main.show_puzzle(char_id, replay)
+	)
+	row.add_child(again)
+	var shop_btn := UITheme.make_ghost_button("Item Shop")
+	shop_btn.pressed.connect(func():
+		SFX.nav()
+		main.store_return_char = ""
+		main.show_store()
+	)
+	row.add_child(shop_btn)
+	var back := UITheme.make_ghost_button("Back to the roster")
+	back.pressed.connect(func():
+		SFX.nav()
+		main.roster_selected_id = char_id
+		main.show_roster()
+	)
+	row.add_child(back)
+	if Nav.nav_mode:
+		again.grab_focus.call_deferred()
 
 
 ## This attempt's loss is already counted (running out again after +3 Moves
@@ -2045,7 +2114,7 @@ func _show_lose_overlay() -> void:
 	HowToPlay.tip(main, "out_of_moves")
 	var progress := GameState.progress_for(char_id)
 	var losses: Dictionary = progress.get("losses", {})
-	if not _loss_counted:
+	if not _loss_counted and replay < 0:
 		_loss_counted = true
 		losses[str(level_index)] = int(losses.get(str(level_index), 0)) + 1
 		progress["losses"] = losses
@@ -2085,7 +2154,7 @@ func _show_lose_overlay() -> void:
 	var reward := UITheme.body(UITheme.t("+%d ⭐ for trying") % earned, 15, UITheme.INK)
 	reward.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	v.add_child(reward)
-	var hint := UITheme.soft_label("1 star for every 100 points. Save up for power-ups in the Item Shop, then try again!", 12)
+	var hint := UITheme.soft_label("1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!", 12)
 	hint.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	hint.custom_minimum_size = Vector2(380, 0)
 	v.add_child(hint)
@@ -2108,7 +2177,7 @@ func _show_lose_overlay() -> void:
 		# place, so the screen_host is properly cleared first (a fresh
 		# PuzzleScreen instance also means no stale signal connections from
 		# this attempt's buttons linger around).
-		main.show_puzzle(char_id)
+		main.show_puzzle(char_id, replay)
 	)
 	row.add_child(retry_btn)
 
@@ -2117,13 +2186,13 @@ func _show_lose_overlay() -> void:
 	var shop_btn := UITheme.make_ghost_button("Item Shop")
 	shop_btn.pressed.connect(func():
 		SFX.nav()
-		main.open_store_from_chapter(char_id)
+		main.open_store_from_chapter(char_id, replay)
 	)
 	row.add_child(shop_btn)
 
 	# Stuck? After three losses in a row the story can carry on anyway, so
 	# the puzzle never walls it off (no stars or achievement for this one).
-	if int(losses.get(str(level_index), 0)) >= 3:
+	if replay < 0 and int(losses.get(str(level_index), 0)) >= 3:
 		var cont := UITheme.make_ghost_button("Continue the story  ▸")
 		cont.tooltip_text = "Carry on without clearing this chapter (no stars for it)."
 		cont.pressed.connect(func():

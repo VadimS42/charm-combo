@@ -36,6 +36,9 @@ msgstr "(还差%d颗星星。)"
 msgid "+%d pts — great answer!"
 msgstr "+%d分——回答得好!"
 
+msgid "+%d ⭐"
+msgstr "+%d ⭐"
+
 msgid "+%d ⭐ for trying"
 msgstr "+%d ⭐ 鼓励奖"
 
@@ -45,8 +48,8 @@ msgstr "+3步"
 msgid "+3 Moves, the Hammer (smash any one gem) and Shuffle (new board) sit under the board. Buy them, and one-chapter boosts, in the Item Shop with the stars you earn."
 msgstr "+3步、锤子(砸碎任意一个宝石)和洗牌(换一块新棋盘)都在棋盘下方。用通关赚到的星星,可以在道具商店购买它们以及单章增益。"
 
-msgid "1 star for every 100 points. Save up for power-ups in the Item Shop, then try again!"
-msgstr "每100分得1颗星星。去道具商店攒钱买增益,然后再试一次!"
+msgid "1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!"
+msgstr "每200分得1颗星星。去道具商店攒钱买增益,然后再试一次!"
 
 msgid "18+ · original characters · all characters are adults."
 msgstr "18+ · 原创角色 · 所有角色均为成年人。"
@@ -177,6 +180,9 @@ msgstr "雪崩"
 msgid "Back"
 msgstr "返回"
 
+msgid "Back to the roster"
+msgstr "返回名册"
+
 msgid "Balanced route"
 msgstr "平衡路线"
 
@@ -248,6 +254,15 @@ msgstr "连锁反应"
 
 msgid "Chapter %d / %d"
 msgstr "第%d / %d章"
+
+msgid "Chapter %d · +%d"
+msgstr "第%d章 · +%d"
+
+msgid "Chapter %d · +%d ⭐"
+msgstr "第%d章 · +%d ⭐"
+
+msgid "Chapter cleared!"
+msgstr "章节通关!"
 
 msgid "Charm Burst"
 msgstr "魅力爆发"
@@ -1170,6 +1185,15 @@ msgstr "在我旁边种点什么。要每天浇水的那种,这样你就有理�
 msgid "Play"
 msgstr "开始游戏"
 
+msgid "Play a chapter you've cleared again, for stars. Her story stays where it is."
+msgstr "再玩一次已通关的章节来赚星星。她的故事进度不会改变。"
+
+msgid "Play a chapter you've cleared again, for stars. No story scenes, and her story stays where it is."
+msgstr "再玩一次已通关的章节来赚星星。没有剧情场景,她的故事进度也不会改变。"
+
+msgid "Play it again"
+msgstr "再玩一次"
+
 msgid "Pop any one gem, no match needed. Arm it from the item row, then tap a gem."
 msgstr "砸碎任意一颗宝石,无需消除。从道具栏中选取,然后点一颗宝石。"
 
@@ -1205,6 +1229,9 @@ msgstr "重播"
 
 msgid "Replay %s's story?"
 msgstr "重玩%s的故事?"
+
+msgid "Replay a chapter"
+msgstr "重玩章节"
 
 msgid "Replay her night scene."
 msgstr "重温她的夜晚场景。"
@@ -1245,11 +1272,11 @@ msgstr "符文。这个镇上总算有人会画了。"
 msgid "Runes. Like on the alchemists' jars."
 msgstr "符文。像炼金术士的罐子上那种。"
 
-msgid "Running out of moves still pays 1 star for every 100 points you scored (at least 3)."
-msgstr "步数用完时,你每得100分仍可获得1颗星星(至少3颗)。"
+msgid "Running out of moves still pays 1 star for every 200 points you scored (at least 3)."
+msgstr "步数用完时,你每得200分仍可获得1颗星星(至少3颗)。"
 
-msgid "Running out still pays you a few stars. Try again, use +3 Moves, or visit the shop. Lose three times in a row and you can carry on with the story anyway."
-msgstr "步数用完也会给你几颗星星。你可以重试、使用+3步,或去商店逛逛。连续失败三次后,你可以直接继续故事。"
+msgid "Running out still pays you a few stars. Try again, use +3 Moves, or visit the shop. Later chapters are hard without power-ups: short on stars, replay a chapter you've cleared from her card on the roster. Lose three times in a row and you can carry on with the story anyway."
+msgstr "步数用完也会给你几颗星星。你可以重试、使用+3步,或去商店逛逛。后面的章节没有增益很难通过:星星不够时,可以在名册中她的卡片上重玩已通关的章节。连续失败三次后,你可以直接继续故事。"
 
 msgid "Saltwick Cove, an hour before sunset. You're on the cliff path when the shouting starts."
 msgstr "索尔特威克湾,日落前一小时。你正走在悬崖小路上,下面传来喊叫声。"
@@ -1415,6 +1442,9 @@ msgstr "她不肯把蜡烛留下。她双手捧着它走到烛芯街,还让你�
 
 msgid "She's tall, horned and dressed for somewhere much nicer than a library. She crouches to look at your circle, and tuts."
 msgstr "她高挑,有角,穿着适合更高档场所的衣服。她蹲下来看你的圈,啧了一声。"
+
+msgid "Short on stars? Replay a chapter you've cleared, from her card on the roster: it pays half."
+msgstr "星星不够?在名册中她的卡片上重玩已通关的章节,可获得一半的奖励。"
 
 msgid "Shorter animations, calmer feedback."
 msgstr "动画更短,反馈更平静。"

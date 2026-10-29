@@ -29,7 +29,7 @@ const TOPICS := [
 	{"key": "replies", "title": "Your replies", "icon": "", "emoji": "💬",
 		"text": "After each chapter you pick a reply. A warm one starts her next chapter with bonus points; a teasing one costs a few, but she likes those too."},
 	{"key": "out_of_moves", "title": "Out of moves", "icon": "", "emoji": "⏳",
-		"text": "Running out still pays you a few stars. Try again, use +3 Moves, or visit the shop. Lose three times in a row and you can carry on with the story anyway."},
+		"text": "Running out still pays you a few stars. Try again, use +3 Moves, or visit the shop. Later chapters are hard without power-ups: short on stars, replay a chapter you've cleared from her card on the roster. Lose three times in a row and you can carry on with the story anyway."},
 	{"key": "dialogue", "title": "Dialogue controls", "icon": "", "emoji": "📜",
 		"text": "Click, Space or Enter: next line. Hold Ctrl or press Skip: skip lines you've read. A or Auto: lines play on by themselves. L, Log or scroll up: read back. H: hide the text on full-screen pictures. Text speed is in Settings."},
 ]

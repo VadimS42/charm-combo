@@ -30,7 +30,7 @@ HEADER = """# Charm Combo: {what}
 # - Keep every "@@ ..." line exactly as it is (the game finds the text by it).
 # - Keep %d and %s where they are (the game puts numbers and names there).
 # - Keep the names the same everywhere: Amara Duskrose, Marina Waverly, Opal,
-#   Hazel Mossgrove, Duskhaven (transliterate them once and stay consistent).
+#   Hazel Mossgrove, Millbrook (transliterate them once and stay consistent).
 # - An 18+ romance with dry humour; keep the tone, not word-for-word.
 # - Lines starting with "#" are notes; they can be left out.
 """
@@ -54,9 +54,11 @@ UI_SKIP_STARTS = ("Open that file, fix the line",)
 UI_EXTRA = ["%d / %d unlocked", "%d / %d endings found", "Click to view.", "%d pts — rough start...",
             "%d / %d pts", "%d pts...", "Ending: %s", "Give her the %s", "(You need %d more stars.)",
             "Stars come from clearing chapters: 15 for a girl's first and 5 more for each one after it.",
-            "Running out of moves still pays 1 star for every 100 points you scored (at least 3).",
+            "Running out of moves still pays 1 star for every 200 points you scored (at least 3).",
+            "Short on stars? Replay a chapter you've cleared, from her card on the roster: it pays half.",
             "The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts.",
-            "Language", "The game's text. Voices stay in English.", "MOVES", "TIP"]
+            "Language", "The game's text. Voices stay in English.", "MOVES", "TIP",
+            "+%d ⭐", "Chapter %d · +%d ⭐", "Chapter %d · +%d"]
 
 
 def ui_strings():

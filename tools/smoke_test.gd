@@ -76,6 +76,22 @@ func _go() -> void:
 		var moved := await _drive(func(): return int(gs.progress_for("dryad").level_index) == 1, 400)
 		print("continue-the-story moved on to chapter 2: %s, stars for it: %s" % [moved, (gs.progress_for("dryad").won_levels as Array).has(0)])
 		ok = ok and moved
+	# Replay a cleared chapter for stars (round 33): pays, story stays put.
+	p = gs.progress_for("dryad")
+	p["level_index"] = 2
+	p["won_levels"] = [0, 1]
+	var before := int(gs.stars)
+	main.show_puzzle("dryad", 0)
+	await create_timer(0.3).timeout
+	pz = main._screen_obj
+	pz.score = int(pz.level.target)
+	pz._check_outcome()
+	await create_timer(0.2).timeout
+	var again := _find_button(main.screen_host, "Play it again")
+	var paid := int(gs.stars) - before
+	var kept := int(gs.progress_for("dryad").level_index) == 2
+	print("replay a chapter: cleared screen %s, paid %d stars, story kept at chapter 3: %s" % [again != null, paid, kept])
+	ok = ok and again != null and paid == StoryFlow.replay_stars(0) and kept
 	print("SMOKE TEST %s" % ("PASSED" if ok else "FAILED"))
 	quit()
 

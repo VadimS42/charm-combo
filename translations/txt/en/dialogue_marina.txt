@@ -6,7 +6,7 @@
 # - Keep every "@@ ..." line exactly as it is (the game finds the text by it).
 # - Keep %d and %s where they are (the game puts numbers and names there).
 # - Keep the names the same everywhere: Amara Duskrose, Marina Waverly, Opal,
-#   Hazel Mossgrove, Duskhaven (transliterate them once and stay consistent).
+#   Hazel Mossgrove, Millbrook (transliterate them once and stay consistent).
 # - An 18+ romance with dry humour; keep the tone, not word-for-word.
 # - Lines starting with "#" are notes; they can be left out.
 

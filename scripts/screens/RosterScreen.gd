@@ -440,6 +440,18 @@ static func _card(main: Node, ch: Dictionary, state: Dictionary) -> PanelContain
 	else:
 		v.add_child(open_btn)
 
+	# Chapters she's already cleared can be played again for stars (round
+	# 33), the way to save up for power-ups before a hard chapter.
+	if not won.is_empty():
+		var again_btn := UITheme.make_ghost_button("Replay a chapter")
+		again_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		again_btn.tooltip_text = "Play a chapter you've cleared again, for stars. Her story stays where it is."
+		again_btn.pressed.connect(func():
+			SFX.nav()
+			_chapter_picker(main, ch, won)
+		)
+		v.add_child(again_btn)
+
 	# Gifts come after you've met her — her thank-you scene talks about things
 	# you only know once you have (it used to be offered before her intro).
 	var gifts_given: Array = progress.get("gifts_given", [])
@@ -458,6 +470,63 @@ static func _card(main: Node, ch: Dictionary, state: Dictionary) -> PanelContain
 			_commit(state, id)
 	)
 	return card
+
+
+## Which cleared chapter to replay, and what each one pays.
+static func _chapter_picker(main: Node, ch: Dictionary, won: Array) -> void:
+	var shade := ColorRect.new()
+	shade.name = "ConfirmBox"
+	shade.set_anchors_preset(Control.PRESET_FULL_RECT)
+	shade.color = Color(0.1, 0.07, 0.12, 0.45)
+	shade.mouse_filter = Control.MOUSE_FILTER_STOP
+	shade.gui_input.connect(func(ev: InputEvent):
+		if ev is InputEventMouseButton and ev.pressed:
+			main.close_modal()
+	)
+	var center := CenterContainer.new()
+	center.set_anchors_preset(Control.PRESET_FULL_RECT)
+	center.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	shade.add_child(center)
+	var card := PanelContainer.new()
+	card.add_theme_stylebox_override("panel", UITheme.window_style())
+	card.custom_minimum_size = Vector2(420, 0)
+	center.add_child(card)
+	var v := VBoxContainer.new()
+	v.add_theme_constant_override("separation", 12)
+	card.add_child(v)
+	v.add_child(UITheme.heading("Replay a chapter", 18))
+	var msg := UITheme.body("Play a chapter you've cleared again, for stars. No story scenes, and her story stays where it is.", 13, UITheme.INK_SOFT)
+	msg.custom_minimum_size = Vector2(390, 0)
+	v.add_child(msg)
+	var first: Control = null
+	var sorted := won.duplicate()
+	sorted.sort()
+	for i in sorted:
+		var idx := int(i)
+		if idx < 0 or idx >= (ch.story.levels as Array).size():
+			continue
+		var stars := StoryFlow.replay_stars(idx)
+		var b := UITheme.make_primary_button(UITheme.t("Chapter %d · +%d ⭐") % [idx + 1, stars])
+		UITheme.apply_icon(b, "star", UITheme.t("Chapter %d · +%d") % [idx + 1, stars])
+		b.pressed.connect(func():
+			SFX.nav()
+			main.close_modal()
+			main.roster_selected_id = String(ch.id)
+			main.show_puzzle(String(ch.id), idx)
+		)
+		v.add_child(b)
+		if first == null:
+			first = b
+	var row := HBoxContainer.new()
+	row.alignment = BoxContainer.ALIGNMENT_END
+	v.add_child(row)
+	var cancel := UITheme.make_ghost_button("Cancel")
+	cancel.pressed.connect(func():
+		SFX.nav()
+		main.close_modal()
+	)
+	row.add_child(cancel)
+	main.open_modal(shade, first if first else cancel)
 
 
 ## "💚 Loves [gem] Rune" — the gem's own icon (art/gems/<gem>.png) between
@@ -677,7 +746,7 @@ static func _gift_button(main: Node, ch: Dictionary, accent: Color, progress: Di
 		gicon.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 		gicon.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		gh.add_child(gicon)
-	var gname := UITheme.body(("" if gift_tex else "🎁  ") + String(ch.gift.name), 13)
+	var gname := UITheme.body(("" if gift_tex else "🎁  ") + UITheme.t(String(ch.gift.name)), 13)
 	gname.autowrap_mode = TextServer.AUTOWRAP_OFF
 	gname.clip_text = true
 	gname.text_overrun_behavior = TextServer.OVERRUN_TRIM_ELLIPSIS

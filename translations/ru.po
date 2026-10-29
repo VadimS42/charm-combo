@@ -36,6 +36,9 @@ msgstr "(Не хватает звёзд: %d.)"
 msgid "+%d pts — great answer!"
 msgstr "+%d очк. — отличный ответ!"
 
+msgid "+%d ⭐"
+msgstr "+%d ⭐"
+
 msgid "+%d ⭐ for trying"
 msgstr "+%d ⭐ за старание"
 
@@ -45,8 +48,8 @@ msgstr "+3 хода"
 msgid "+3 Moves, the Hammer (smash any one gem) and Shuffle (new board) sit under the board. Buy them, and one-chapter boosts, in the Item Shop with the stars you earn."
 msgstr "+3 хода, Молоток (разбивает любой один камень) и Перемешивание (новое поле) находятся под полем. Покупай их, а также усиления на одну главу, в Магазине предметов за заработанные звёзды."
 
-msgid "1 star for every 100 points. Save up for power-ups in the Item Shop, then try again!"
-msgstr "1 звезда за каждые 100 очков. Накопи на усиления в Магазине предметов и попробуй снова!"
+msgid "1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!"
+msgstr "1 звезда за каждые 200 очков. Накопи на усиления в Магазине предметов и попробуй снова!"
 
 msgid "18+ · original characters · all characters are adults."
 msgstr "18+ · оригинальные персонажи · все персонажи совершеннолетние."
@@ -177,6 +180,9 @@ msgstr "Лавина"
 msgid "Back"
 msgstr "Назад"
 
+msgid "Back to the roster"
+msgstr "Назад к списку"
+
 msgid "Balanced route"
 msgstr "Уравновешенный путь"
 
@@ -248,6 +254,15 @@ msgstr "Цепная реакция"
 
 msgid "Chapter %d / %d"
 msgstr "Глава %d / %d"
+
+msgid "Chapter %d · +%d"
+msgstr "Глава %d · +%d"
+
+msgid "Chapter %d · +%d ⭐"
+msgstr "Глава %d · +%d ⭐"
+
+msgid "Chapter cleared!"
+msgstr "Глава пройдена!"
 
 msgid "Charm Burst"
 msgstr "Всплеск обаяния"
@@ -1170,6 +1185,15 @@ msgstr "Посади что-нибудь возле меня. Что-нибуд�
 msgid "Play"
 msgstr "Играть"
 
+msgid "Play a chapter you've cleared again, for stars. Her story stays where it is."
+msgstr "Сыграй пройденную главу ещё раз ради звёзд. Её история останется на том же месте."
+
+msgid "Play a chapter you've cleared again, for stars. No story scenes, and her story stays where it is."
+msgstr "Сыграй пройденную главу ещё раз ради звёзд. Без сюжетных сцен, а её история останется на том же месте."
+
+msgid "Play it again"
+msgstr "Сыграть ещё раз"
+
 msgid "Pop any one gem, no match needed. Arm it from the item row, then tap a gem."
 msgstr "Лопни любой камень без совпадения. Выбери его в ряду предметов, затем нажми на камень."
 
@@ -1205,6 +1229,9 @@ msgstr "Повторить"
 
 msgid "Replay %s's story?"
 msgstr "Переиграть историю: %s?"
+
+msgid "Replay a chapter"
+msgstr "Сыграть главу снова"
 
 msgid "Replay her night scene."
 msgstr "Пересмотреть её ночную сцену."
@@ -1245,11 +1272,11 @@ msgstr "Руны. Наконец-то в этом городе нашёлся к
 msgid "Runes. Like on the alchemists' jars."
 msgstr "Руны. Как на банках алхимиков."
 
-msgid "Running out of moves still pays 1 star for every 100 points you scored (at least 3)."
-msgstr "Если ходы закончились, ты всё равно получишь 1 звезду за каждые 100 набранных очков (не меньше 3)."
+msgid "Running out of moves still pays 1 star for every 200 points you scored (at least 3)."
+msgstr "Если ходы закончились, ты всё равно получишь 1 звезду за каждые 200 набранных очков (не меньше 3)."
 
-msgid "Running out still pays you a few stars. Try again, use +3 Moves, or visit the shop. Lose three times in a row and you can carry on with the story anyway."
-msgstr "Даже если ходы закончились, ты получишь несколько звёзд. Попробуй снова, используй +3 хода или загляни в магазин. Если проиграть три раза подряд, можно всё равно продолжить историю."
+msgid "Running out still pays you a few stars. Try again, use +3 Moves, or visit the shop. Later chapters are hard without power-ups: short on stars, replay a chapter you've cleared from her card on the roster. Lose three times in a row and you can carry on with the story anyway."
+msgstr "Даже если ходы закончились, ты получишь несколько звёзд. Попробуй снова, используй +3 хода или загляни в магазин. Поздние главы трудно пройти без усилений: если не хватает звёзд, сыграй снова пройденную главу с её карточки в списке. Если проиграть три раза подряд, можно всё равно продолжить историю."
 
 msgid "Saltwick Cove, an hour before sunset. You're on the cliff path when the shouting starts."
 msgstr "Бухта Солтвик, за час до заката. Ты идёшь по тропе над обрывом, когда внизу начинаются крики."
@@ -1415,6 +1442,9 @@ msgstr "Она не оставляет свечу. Она несёт её по �
 
 msgid "She's tall, horned and dressed for somewhere much nicer than a library. She crouches to look at your circle, and tuts."
 msgstr "Она высокая, рогатая, одета для места получше библиотеки. Она приседает рассмотреть твой круг и цокает языком."
+
+msgid "Short on stars? Replay a chapter you've cleared, from her card on the roster: it pays half."
+msgstr "Не хватает звёзд? Сыграй снова уже пройденную главу — с её карточки в списке. Это даёт половину награды."
 
 msgid "Shorter animations, calmer feedback."
 msgstr "Короче анимации, спокойнее отклик."

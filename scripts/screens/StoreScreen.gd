@@ -4,11 +4,11 @@ class_name StoreScreen
 extends RefCounted
 
 const ITEMS := [
-	{"id": "moves", "name": "+3 Moves", "desc": "Adds three moves to the chapter you're playing. Use it from the item row under the board — it also gets you out of an Out of Moves screen.", "price": 12, "icon": "⏱"},
-	{"id": "hammer", "name": "Hammer", "desc": "Pop any one gem, no match needed. Arm it from the item row, then tap a gem.", "price": 18, "icon": "🔨"},
-	{"id": "shuffle", "name": "Shuffle", "desc": "Reshuffles the whole board into a fresh one that always has a move.", "price": 15, "icon": "🔀"},
-	{"id": "colorBomb", "name": "Starburst Starter", "desc": "Your next chapter begins with a free Starburst gem already on the board.", "price": 25, "icon": "✨"},
-	{"id": "favorCharm", "name": "Favor Charm", "desc": "Your next chapter: her favorite gem shows up more often, her least favorite less.", "price": 18, "icon": "💗"},
+	{"id": "moves", "name": "+3 Moves", "desc": "Adds three moves to the chapter you're playing. Use it from the item row under the board — it also gets you out of an Out of Moves screen.", "price": 15, "icon": "⏱"},
+	{"id": "hammer", "name": "Hammer", "desc": "Pop any one gem, no match needed. Arm it from the item row, then tap a gem.", "price": 12, "icon": "🔨"},
+	{"id": "shuffle", "name": "Shuffle", "desc": "Reshuffles the whole board into a fresh one that always has a move.", "price": 8, "icon": "🔀"},
+	{"id": "colorBomb", "name": "Starburst Starter", "desc": "Your next chapter begins with a free Starburst gem already on the board.", "price": 15, "icon": "✨"},
+	{"id": "favorCharm", "name": "Favor Charm", "desc": "Your next chapter: her favorite gem shows up more often, her least favorite less.", "price": 22, "icon": "💗"},
 	{"id": "heartMender", "name": "Heart Mender", "desc": "Your next chapter: far fewer cursed shards appear on the board.", "price": 20, "icon": "💚"},
 ]
 
@@ -50,7 +50,8 @@ static func build(main: Node, host: Control) -> void:
 	v.add_child(UITheme.heading("Item Shop", 22))
 	var sub := UITheme.soft_label(
 		UITheme.t("Stars come from clearing chapters: 15 for a girl's first and 5 more for each one after it.") + " " +
-		UITheme.t("Running out of moves still pays 1 star for every 100 points you scored (at least 3).") + " " +
+		UITheme.t("Running out of moves still pays 1 star for every 200 points you scored (at least 3).") + " " +
+		UITheme.t("Short on stars? Replay a chapter you've cleared, from her card on the roster: it pays half.") + " " +
 		UITheme.t("The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts."), 12)
 	sub.custom_minimum_size = Vector2(CARD_W * 3.0 + 24.0, 0)
 	v.add_child(sub)

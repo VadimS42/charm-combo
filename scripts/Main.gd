@@ -440,13 +440,16 @@ func show_roster() -> void:
 	RosterScreen.build(self, screen_host)
 
 
-func show_puzzle(char_id: String) -> void:
+## replay >= 0 replays that already-cleared chapter for stars instead of
+## playing her current one (round 33, see PuzzleScreen.replay).
+func show_puzzle(char_id: String, replay: int = -1) -> void:
 	current_char_id = char_id
 	clear_screen()
 	refresh_topbar()
 	story_music = ""
 	Music.play([char_id, "menu"])
-	Platform.set_presence("chapter", _girl_name(char_id), int(GameState.progress_for(char_id).get("level_index", 0)) + 1)
+	Platform.set_presence("chapter", _girl_name(char_id),
+		(replay if replay >= 0 else int(GameState.progress_for(char_id).get("level_index", 0))) + 1)
 	# PuzzleScreen (unlike the other screens) is instantiated rather than a
 	# static builder, since it owns a lot of mutable per-chapter state
 	# (board, score, moves, selection...) referenced across many button
@@ -455,7 +458,7 @@ func show_puzzle(char_id: String) -> void:
 	# and holding it here lets clear_screen() tear it down on ANY exit.
 	var puzzle := PuzzleScreen.new()
 	_screen_obj = puzzle
-	puzzle.setup(self, screen_host, char_id)
+	puzzle.setup(self, screen_host, char_id, replay)
 
 
 # ---- Settings (an overlay, not a screen — see overlay_host) ----
@@ -622,6 +625,8 @@ func leave_gallery() -> void:
 ## the shop's Back then goes straight back into that chapter for a fresh try
 ## (round 17). Cleared whenever the main menu opens.
 var store_return_char := ""
+## ...and which cleared chapter, when that was a replay (-1: her current one).
+var store_return_replay := -1
 
 func show_store() -> void:
 	clear_screen()
@@ -631,8 +636,9 @@ func show_store() -> void:
 	StoreScreen.build(self, screen_host)
 
 
-func open_store_from_chapter(char_id: String) -> void:
+func open_store_from_chapter(char_id: String, replay: int = -1) -> void:
 	store_return_char = char_id
+	store_return_replay = replay
 	show_store()
 
 
@@ -641,7 +647,7 @@ func leave_store() -> void:
 	var cid := store_return_char
 	store_return_char = ""
 	if cid != "":
-		show_puzzle(cid)
+		show_puzzle(cid, store_return_replay)
 	else:
 		show_menu()
 

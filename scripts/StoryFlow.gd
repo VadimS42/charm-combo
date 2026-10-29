@@ -61,6 +61,18 @@ static func play_intro(main: Node, ch: Dictionary) -> void:
 	)
 
 
+## Stars for clearing a chapter the first time on a playthrough: 15, 20, 25, 30.
+static func clear_stars(level_index: int) -> int:
+	return 15 + level_index * 5
+
+
+## Stars for replaying a chapter already cleared (roster "Replay a chapter",
+## round 33): half the first clear, rounded up, so 8, 10, 13, 15. Chapter 1
+## is the quick, sure one to replay when you're saving up for power-ups.
+static func replay_stars(level_index: int) -> int:
+	return ceili(clear_stars(level_index) / 2.0)
+
+
 ## Called by PuzzleScreen once a chapter's target score is reached. The win is
 ## recorded (stars paid once, this chapter's bonus spent, its scene marked as
 ## owed) and saved before the scene starts.
@@ -71,7 +83,7 @@ static func on_chapter_won(main: Node, char_id: String) -> void:
 
 	var won: Array = progress.get("won_levels", [])
 	if not won.has(level_index):
-		GameState.stars += 15 + level_index * 5
+		GameState.stars += clear_stars(level_index)
 		won.append(level_index)
 		progress["won_levels"] = won
 	progress["next_bonus"] = 0

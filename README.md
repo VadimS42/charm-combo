@@ -6,7 +6,7 @@ same match-3 rules, same story-flow architecture — just running on a real
 engine instead of a browser tab, so it can actually be built and shipped to
 Steam.
 
-The whole game is set in **Duskhaven**, an original fantasy town where
+The whole game is set in **Millbrook**, an original fantasy town where
 fantastical folk live openly among everyone else. It's an **18+** romance
 (round 21): a succubus you summon by accident in the library, a mermaid you
 "rescue" from her own cove, a slime hiding in a jar you open, and a dryad whose
@@ -16,6 +16,48 @@ is the complete list of art the game still needs — every file path, size and
 scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
+
+## ✅ Status: round-33 — balance: easy start, power-ups for the second half
+
+Asked for: simulate the puzzles; the first chapters easy, the later ones
+needing power-ups, with replays of the early chapters as the way to earn them.
+
+- **`tools/balance_bot.gd` rewritten.** Two bots ("careful" always takes the
+  best swap; "casual" only 55% of the time, nearer a real player), every
+  power-up applied the way `PuzzleScreen` applies it, and modes `plain`,
+  `items`, `dist` (score spread) and `campaign` (a player going through a
+  story from 0 stars, buying power-ups and replaying chapter 1 when short).
+  `targets=` / `moves=` try numbers without editing the data.
+- **Targets** (all four girls): 700 / 1030 / 1250 / 1350 → **900 / 1200 /
+  1700 / 2000** (moves unchanged, 15 / 15 / 16 / 18). The old ones were cleared
+  by the casual bot about 65% of the time even in chapter 4 with nothing.
+- **Shop prices** follow what each item is worth in the simulation: +3 Moves
+  12 → 15, Hammer 18 → 12, Shuffle 15 → 8, Starburst Starter 25 → 15, Favor
+  Charm 18 → 22, Heart Mender 20 (same).
+- **Replay a chapter** (her roster card, once she has a cleared chapter): plays
+  it again with no story and no reply bonus, her progress stays put, and a
+  clear pays half the first clear: 8 / 10 / 13 / 15 stars
+  (`StoryFlow.replay_stars`). "Play it again", "Item Shop" or "Back to the roster".
+- **Losing** now pays 1 star per 200 points (was 100), at least 3: about 7 for
+  a lost chapter 3, so replaying chapter 1 (8, nearly sure) is the better way
+  to save up. Shop and How to Play texts say so; Russian and Chinese added.
+- Gift names on roster cards are translated now (they stayed English).
+
+Casual bot, Hazel, reply bonus at random (200 runs each):
+
+| Power-ups | Stars | Ch1 | Ch2 | Ch3 | Ch4 |
+|---|---|---|---|---|---|
+| none | 0 | 100% | 81% | 28% | 8% |
+| +3 Moves | 15 | 100% | 96% | 55% | 23% |
+| Favor Charm | 22 | 100% | 95% | 60% | 43% |
+| Heart Mender | 20 | 100% | 94% | 56% | 33% |
+| Favor + Mender | 42 | 100% | 99% | 87% | 78% |
+| Favor + Mender + Moves | 57 | 100% | 100% | 98% | 91% |
+
+Campaign (200 casual players, 0 stars, one girl): chapter 1 cleared first try
+98%, chapter 2 77%; chapters 3 and 4 take about 2 power-ups and 2 replays of
+chapter 1 each, and 6% still lean on "Continue the story" in chapter 4.
+Meeting the other girls (their chapters 1 and 2 pay 35 stars each) also funds it.
 
 ## ✅ Status: round-32 — expressions match the lines
 
