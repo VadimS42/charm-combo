@@ -164,7 +164,7 @@ Low tide. You spend two hours turning over rocks in the pools while she works th
 You also find a little brass clasp wedged under the pier. She takes it from you and turns it over for a long time.
 
 @@ marina-0052
-That's off the comb's box. So it went in right here.
+That's off the comb's box. So it went right in there.
 
 @@ marina-0053
 Fine. You're not a menace anymore. You can help me. Don't get excited.
@@ -320,7 +320,7 @@ I've thought about this. Not a lot. A normal amount. Every day since the pier.
 She pulls your arms round her neck so you don't have to tread water, and holds you up with her tail.
 
 @@ marina-0104
-There. Now you can't go anywhere. That's a mermaid thing. It's very old. I just made it up.
+There. Now you can't go anywhere. It's a mermaid thing. It's very old. I just made it up.
 
 @@ marina-0105
 She kisses you, slower than in the storm. When she pulls back she's breathing hard, and it isn't from swimming.

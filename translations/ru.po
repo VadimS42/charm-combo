@@ -54,8 +54,8 @@ msgstr "Чудесная канава"
 msgid "A Quiet Place"
 msgstr "Тихое место"
 
-msgid "A clock that only works when the sun's out. Someone finally made one that keeps sensible hours."
-msgstr "Часы, которые работают, только когда светит солнце. Наконец-то кто-то сделал часы с разумным режимом."
+msgid "A clock that only works when the sun's out."
+msgstr "Часы, которые работают только когда светит солнце."
 
 msgid "A folding brass sundial small enough for a pocket. It only tells the time on sunny days, which as far as she's concerned are the only days that need it."
 msgstr "Складные латунные солнечные часы, такие маленькие, что помещаются в карман. Показывают время только в солнечные дни, а по её мнению, только такие дни и заслуживают того, чтобы знать время."
@@ -68,9 +68,6 @@ msgstr "Тебе в волосы падает лист. Ветра нет."
 
 msgid "A match-3 romance for adults, set in Millbrook, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes."
 msgstr "Роман в жанре «три в ряд» для взрослых, действие которого происходит в Миллбруке, сумеречном городке, где обосновался волшебный народ. Познакомься с четырьмя женщинами хуже некуда, помоги им с тем, что им нужно, и посмотри, куда заведёт ночь."
-
-msgid "A neighbour. I've never had a neighbour."
-msgstr "Соседка. У меня никогда не было соседки."
 
 msgid "A sapling beside the new millrace, a ribbon tied round it."
 msgstr "Саженец у нового лотка, обвязанный лентой."
@@ -132,6 +129,9 @@ msgstr "Алхимики вываривают слизей на клей. Ты �
 msgid "All rules"
 msgstr "Все правила"
 
+msgid "All spring, by hand? I guess I'll have to get used to you."
+msgstr "Всю весну, вручную? Видимо, придётся к тебе привыкнуть."
+
 msgid "Amara Duskrose"
 msgstr "Амара Даскроуз"
 
@@ -143,9 +143,6 @@ msgstr "Амброузу ты бы понравился. Он любил люд�
 
 msgid "Ambrose wrote that label. He was the forester. When the alchemists came round buying slimes, he hid me out here. It worked for thirty-one years."
 msgstr "Это Амброуз написал. Он был лесничим. Когда алхимики стали скупать слизей, он спрятал меня здесь. Это работало тридцать один год."
-
-msgid "And don't tell the ferns. They'll want details."
-msgstr "И не говори папоротникам. Они потребуют подробностей."
 
 msgid "And this time, take your clothes off before you jump in."
 msgstr "И на этот раз сними одежду, прежде чем прыгать."
@@ -180,8 +177,8 @@ msgstr "Назад к списку"
 msgid "Balanced route"
 msgstr "Уравновешенный путь"
 
-msgid "Better than the last one Aldous sent. Prettier, too."
-msgstr "Лучше, чем тот, которого прислал Олдос. И красивее."
+msgid "Better than the last one the miller sent."
+msgstr "Лучше, чем прошлый, которого прислал мельник."
 
 msgid "Between the roots of an old oak, someone has dug a little hollow and lined it with moss. In it sits a big glass jar, sealed with wax. The label says PICKLED NEWTS, DO NOT OPEN, in handwriting that's trying to be funny."
 msgstr "Между корнями старого дуба кто-то вырыл небольшую ямку и выстлал её мхом. В ней стоит большая стеклянная банка, запечатанная воском. На этикетке написано: «МАРИНОВАННЫЕ ТРИТОНЫ, НЕ ОТКРЫВАТЬ» — почерком, который пытается быть смешным."
@@ -189,8 +186,8 @@ msgstr "Между корнями старого дуба кто-то вырыл
 msgid "Black cover. No title. It'll feel warm. Don't open it."
 msgstr "Чёрная обложка. Без названия. Будет тёплой. Не открывай."
 
-msgid "Blossom. You have my attention."
-msgstr "Цветение. Моё внимание — твоё."
+msgid "Blossom."
+msgstr "Цветение."
 
 msgid "Board, lifeguard. Not me."
 msgstr "Доска — для спасателя. Не для меня."
@@ -204,6 +201,9 @@ msgstr "Бум!"
 msgid "Brass Pocket Sundial"
 msgstr "Латунные карманные солнечные часы"
 
+msgid "But I'll allow it. Bring the shovel tomorrow though."
+msgstr "Но так и быть. Только завтра принеси лопату."
+
 msgid "But she's a little pinker than she was."
 msgstr "Но она стала немного розовее, чем была."
 
@@ -215,9 +215,6 @@ msgstr "Купить · %d"
 
 msgid "Buy · %d ⭐"
 msgstr "Купить · %d ⭐"
-
-msgid "By hand? You'll be at it till midsummer. I suppose I'll have to put up with you all spring."
-msgstr "Руками? Будешь копать до середины лета. Видимо, мне придётся терпеть тебя всю весну."
 
 msgid "By the end of the month the old wall has stopped cracking. The new millrace runs clean, and Aldous Brock stands on the bank for a long time with his hat in his hands."
 msgstr "К концу месяца старая стена перестаёт трескаться. Новый лоток течёт чисто, и Олдос Брок долго стоит на берегу, теребя шляпу в руках."
@@ -321,9 +318,6 @@ msgstr "Комбо x%d!"
 msgid "Combos"
 msgstr "Комбо"
 
-msgid "Come back tomorrow. Bring the shovel, leave the axe, and wear that shirt again."
-msgstr "Приходи завтра. Захвати лопату, топор оставь и надень ту же рубашку."
-
 msgid "Come here. That's an order, and I'm only giving it once before I come over there and get you."
 msgstr "Иди сюда. Это приказ, и повторять я не буду: сама подойду и заберу."
 
@@ -363,8 +357,11 @@ msgstr "Третий день. Она в воде с рассвета и два�
 msgid "Dialogue controls"
 msgstr "Управление диалогами"
 
-msgid "Dig your trench. And stop looking at my leaves."
-msgstr "Копай свою канаву. И перестань смотреть на мои листья."
+msgid "Dig faster. I'd like to see another spring."
+msgstr "Копай быстрее. Я бы хотела увидеть ещё одну весну."
+
+msgid "Dig your trench. Sleeves up!"
+msgstr "Копай свою канаву. Рукава закатай!"
 
 msgid "Dislikes"
 msgstr "Не любит"
@@ -381,9 +378,6 @@ msgstr "Даже не думай."
 msgid "Don't go before morning. I'll know if you do. I'll hear the door."
 msgstr "Не уходи до утра. Я пойму, если уйдёшь. Я услышу дверь."
 
-msgid "Don't look at the leaves. They're being ridiculous."
-msgstr "Не смотри на листья. Они ведут себя нелепо."
-
 msgid "Don't look at them. They're not for you. They're seasonal."
 msgstr "Не смотри на них. Они не для тебя. Они сезонные."
 
@@ -396,14 +390,14 @@ msgstr "Пока не клади меня в банку. Я хочу домой 
 msgid "Don't say it like that. Like it matters."
 msgstr "Не говори так. Как будто это важно."
 
-msgid "Don't stop on my account."
-msgstr "Не останавливайся из-за меня."
-
 msgid "Don't. Don't you dare."
 msgstr "Не смей. Даже не думай."
 
 msgid "Don't. Just don't."
 msgstr "Не надо. Просто не надо."
+
+msgid "Don't... look at me like that."
+msgstr "Не... смотри на меня так."
 
 msgid "Down on the pier, a whole family is yelling at the water. Out past the rocks, a woman is floating face up, perfectly still, her hair spread out round her."
 msgstr "Внизу на пирсе целая семья кричит на воду. За камнями лицом вверх неподвижно лежит на воде женщина, волосы раскинуты вокруг неё."
@@ -414,14 +408,11 @@ msgstr "Дриада старой лещины"
 msgid "Each chapter has a points goal and a number of moves. Reach the goal before your moves run out and the story carries on. There's no timer: take as long as you like."
 msgstr "В каждой главе есть цель по очкам и ограниченное число ходов. Набери нужное число очков до того, как кончатся ходы, и история продолжится. Таймера нет: не торопись."
 
-msgid "Eat your lunch. She makes good bread, apparently. Nobody's ever walked me to a footbridge."
-msgstr "Ешь свой обед. Говорят, у неё хороший хлеб. Меня никто никогда не провожал до мостика."
+msgid "Eat your lunch. I'm sure her bread is very good. I wouldn't know."
+msgstr "Ешь свой обед. Уверена, хлеб у неё очень вкусный. Мне-то откуда знать."
 
 msgid "Ember"
 msgstr "Уголёк"
-
-msgid "Embers. I'll pretend I didn't see that."
-msgstr "Угольки. Сделаю вид, что не заметила."
 
 msgid "Ending Gallery"
 msgstr "Галерея концовок"
@@ -471,8 +462,8 @@ msgstr "Заполни кольцо Обаяния и получи Всплес�
 msgid "Fill the whole screen. F11 toggles it anywhere."
 msgstr "Занять весь экран. F11 переключает режим в любом месте."
 
-msgid "Fine. They're for you. I haven't flowered out of season since before the mill was built. People are going to talk."
-msgstr "Ладно. Они для тебя. Я не цвела вне сезона ещё с тех времён, до постройки мельницы. Люди будут судачить."
+msgid "Fine. They're for you. I haven't flowered out of season since before the mill was built. The animals are going to talk."
+msgstr "Ладно. Они для тебя. Я не цвела не в сезон с тех пор, как построили мельницу. Звери начнут болтать."
 
 msgid "Fine. You're not a menace anymore. You can help me. Don't get excited."
 msgstr "Ладно. Ты больше не бедствие. Можешь мне помогать. Только не радуйся."
@@ -497,9 +488,6 @@ msgstr "Для гроз. Хорошо. Только для гроз."
 
 msgid "For the record: four hundred-odd summonings, several kings and one very enthusiastic bishop. None of them came close. I'm only telling you once."
 msgstr "К сведению: четыреста с лишним вызовов, несколько королей и один очень пылкий епископ. Никто и близко не подошёл. Говорю только раз."
-
-msgid "Forty springs he's sent people with axes. That's the first time he's ever touched me."
-msgstr "Сорок весен он присылал людей с топорами. Он впервые до меня дотронулся."
 
 msgid "Forty years, I said. Mind where you swing."
 msgstr "Сорок лет, я же сказала. Следи, куда машешь."
@@ -537,9 +525,6 @@ msgstr "Подари Хейзел латунные карманные солне
 msgid "Give her the %s"
 msgstr "Подарить ей: %s"
 
-msgid "Go on, then. What are you planting? It'll outlast both of us. Well. It'll outlast you."
-msgstr "Ну давай. Что сажаешь? Оно переживёт нас обоих. Ладно. Тебя оно переживёт."
-
 msgid "Gold swirl. They stopped making these before I went in the jar. Where did you even find it?"
 msgstr "Золотая спираль. Их перестали делать до того, как я попала в банку. Откуда он у тебя вообще?"
 
@@ -564,6 +549,9 @@ msgstr "Бабуля наденет его на Прилив и ничего н�
 msgid "Gran, I'm fine. I'm always like that."
 msgstr "Бабуль, я в порядке. Я всегда такая."
 
+msgid "Greedy. Oh, so you'll make him pay you to help me? I like that."
+msgstr "Жадный. О, так ты заставишь его платить тебе за то, что помогаешь мне? Мне это нравится."
+
 msgid "Hammer"
 msgstr "Молоток"
 
@@ -582,6 +570,9 @@ msgstr "Он разобрал её. Чтобы продавать по стра�
 msgid "He used to tap on the glass every morning twice so I'd know it was him."
 msgstr "Он каждое утро дважды стучал по стеклу, чтобы я знала, что это он."
 
+msgid "He's never done that. Forty springs, and he's never once done that."
+msgstr "Он никогда так не делал. Сорок вёсен — и ни разу так не делал."
+
 msgid "Hear the girls speak their lines."
 msgstr "Слушай, как девушки произносят свои реплики."
 
@@ -597,8 +588,8 @@ msgstr "Вся её семья, на самом деле, тут же. Бабу�
 msgid "Her family slips off the end of the pier one by one and swims home round the point, very slowly, looking back the whole way. She waits until they're out of earshot."
 msgstr "Её семья по одному соскальзывает с края пирса и медленно уплывает за мыс, оглядываясь всю дорогу. Она ждёт, пока они уйдут за пределы слышимости."
 
-msgid "Her father came by too. You've got till the end of the month. Then he hires someone with a saw."
-msgstr "Её отец тоже заходил. У тебя время до конца месяца. Потом он наймёт кого-нибудь с пилой."
+msgid "Her father came by this morning. He'll give you until the end of the month. Then he hires someone with a saw."
+msgstr "Утром заходил её отец. Даёт тебе срок до конца месяца. Потом наймёт кого-нибудь с пилой."
 
 msgid "Her gift"
 msgstr "Её подарок"
@@ -648,8 +639,8 @@ msgstr "Как играть"
 msgid "Huh. Nobody's ever told me to slow down. They just assume I've got it handled."
 msgstr "Ха. Никто никогда не говорил мне сбавить обороты. Все просто считают, что я справляюсь."
 
-msgid "I can go as far as my roots do. Thanks to someone, that's quite far now. Far enough to follow you home, if I felt like it."
-msgstr "Я могу уйти настолько, насколько простираются мои корни. Благодаря кое-кому, это теперь довольно далеко. Достаточно, чтобы дойти за тобой до дома, если захочется."
+msgid "I can walk as far as my roots go. They go a long way now. Thanks to someone."
+msgstr "Я могу ходить так далеко, как тянутся мои корни. Теперь они тянутся далеко. Благодаря кое-кому."
 
 msgid "I destroyed kingdoms, and you're making me wait?!"
 msgstr "Я разрушала королевства, а ты заставляешь меня ждать?!"
@@ -660,14 +651,17 @@ msgstr "Это сделала я. Видишь? Я это сделала. Всл
 msgid "I don't like those. Sorry."
 msgstr "Мне такие не нравятся. Прости."
 
+msgid "I had to drop a branch on the last guy, but don't worry, your face is too nice."
+msgstr "На прошлого пришлось уронить ветку, но не волнуйся, у тебя слишком милое лицо."
+
 msgid "I have to tell you something. I kept something of yours. On the first day."
 msgstr "Мне надо тебе кое-что сказать. Я оставила у себя кое-что твоё. В первый день."
 
-msgid "I know about the wall. My roots go where the water is, and they've never once asked my opinion."
-msgstr "Я знаю про стену. Мои корни идут туда, где вода, и ни разу не спросили моего мнения."
+msgid "I know about the wall. My roots go where the water is. I can't control it."
+msgstr "Я знаю про стену. Мои корни идут туда, где вода. Я не могу этим управлять."
 
-msgid "I know. The ferns mentioned that too."
-msgstr "Я знаю. Папоротники и об этом упомянули."
+msgid "I know. You were still gone forty minutes, not that I was counting."
+msgstr "Знаю. И всё же тебя не было сорок минут, не то чтобы я считала."
 
 msgid "I like having someone to hold the bucket."
 msgstr "Мне нравится, что есть кому держать ведро."
@@ -717,14 +711,17 @@ msgstr "Я пророю. Покажи где."
 msgid "I'll dig. I'm keeping the miller's money, though."
 msgstr "Я пророю. Но деньги мельника оставлю себе."
 
-msgid "I'll hang it on the low branch. You can see the path from there, which is where you come from. Not that I watch it."
-msgstr "Повешу их на нижнюю ветку. Оттуда видна тропинка, по которой ты приходишь. Не то чтобы я за ней следила."
+msgid "I'll keep it on a low branch where I can see it. No, I won't use it to count time until our next meeting."
+msgstr "Повешу их на нижнюю ветку, чтобы видеть. Нет, я не буду считать по ним время до нашей следующей встречи."
 
 msgid "I'll list everyone in town you'd like to drop a branch on."
 msgstr "Составлю список всех в городе, на кого ты хочешь уронить ветку."
 
 msgid "I'll pay you, obviously. A reward, when we find it. It's a business arrangement, so you can stop smiling like that."
 msgstr "Я тебе заплачу, разумеется. Вознаграждение, когда найдём. Это деловое соглашение, так что хватит так улыбаться."
+
+msgid "I'll pretend I didn't see that."
+msgstr "Сделаю вид, что я этого не видела."
 
 msgid "I'm 18 or older"
 msgstr "Мне 18 лет или больше"
@@ -783,17 +780,14 @@ msgstr "Раз тебе это нравится, буду заходить по�
 msgid "If anyone asks, we're friends. Who swim. At night."
 msgstr "Если кто спросит — мы друзья. Которые плавают. Ночью."
 
-msgid "If someone dug him a new channel further out, my roots would follow the water. It would take a season. Nobody's ever offered. It's a lot of digging."
-msgstr "Если бы ему прорыли новое русло подальше, мои корни пошли бы за водой. Это заняло бы сезон. Никто никогда не предлагал. Это очень много копать."
+msgid "If someone dug him a new channel, further out, I could follow it. It would take a season."
+msgstr "Если кто-нибудь выкопает ему новый канал, подальше, я смогу пойти за ним. Это займёт сезон."
 
 msgid "If you drop anything, I'll find it."
 msgstr "Если что-нибудь уронишь, я найду."
 
 msgid "If you find it before I do, don't open it."
 msgstr "Если найдёшь её раньше меня, не открывай."
-
-msgid "If you see the miller, wave. It makes him nervous."
-msgstr "Увидишь мельника — помаши. Он от этого нервничает."
 
 msgid "If you're going to draw these, you'll draw them properly. Nobody else is coming through a circle this pathetic."
 msgstr "Раз уж ты рисуешь такие, рисуй как следует. Через такой жалкий круг больше никто не придёт."
@@ -815,6 +809,9 @@ msgstr "Неотразимо"
 
 msgid "It has sexual content, including intimate scenes, and suggestive art. All characters are adults.\n\nPlease only continue if you're 18 or older, or the age of majority where you live."
 msgstr "В игре есть сексуальное содержание, включая интимные сцены, и откровенные изображения. Все персонажи совершеннолетние.\n\nПродолжай, только если тебе исполнилось 18 лет либо возраст совершеннолетия, установленный там, где ты живёшь."
+
+msgid "It isn't so bad, but some animals are... Barely tolerable company."
+msgstr "Не так уж плохо, но некоторые звери... еле терпимая компания."
 
 msgid "It rains all night. None of it reaches you."
 msgstr "Дождь идёт всю ночь. Ни капли не долетает до вас."
@@ -840,8 +837,8 @@ msgstr "Всё здесь. Всё. Я пересчитала три раза."
 msgid "It's down there! I've checked everywhere else, it has to be down there!"
 msgstr "Он там! Я проверила везде, он должен быть там!"
 
-msgid "It's fine. It's the roots letting go of the old wall. They've held it forty years. They're making a fuss."
-msgstr "Всё хорошо. Это корни отпускают старую стену. Они держали её сорок лет. Шумят."
+msgid "It's fine. It's just roots. They have to let go of the old wall even if it hurts."
+msgstr "Всё в порядке. Это просто корни. Им нужно отпустить старую стену, даже если больно."
 
 msgid "It's going to need a very long card."
 msgstr "Ей понадобится очень длинная карточка."
@@ -870,9 +867,6 @@ msgstr "Магазин предметов"
 msgid "Items"
 msgstr "Предметы"
 
-msgid "Keep it. Buy yourself a better axe and never use it."
-msgstr "Оставь. Купи себе топор получше и никогда им не пользуйся."
-
 msgid "Keep voices on"
 msgstr "Оставить голоса"
 
@@ -894,8 +888,8 @@ msgstr "Позже. Свеча догорела до огарка. Она леж
 msgid "Leave"
 msgstr "Выйти"
 
-msgid "Leave it. Bit lower, if you like. The bark's softer."
-msgstr "Оставь. Чуть ниже, если хочешь. Кора там мягче."
+msgid "Leave it there a minute. It's been a long time."
+msgstr "Оставь её там на минутку. Давно такого не было."
 
 msgid "Leave to Roster"
 msgstr "Выйти в список"
@@ -905,9 +899,6 @@ msgstr "Листья краснеют"
 
 msgid "Let Skip race through lines you haven't read yet, too."
 msgstr "Позволить пропуску мчаться и по ещё не прочитанным репликам."
-
-msgid "Let me guess. Aldous paid you half up front."
-msgstr "Дай угадаю. Олдос заплатил тебе половину вперёд."
 
 msgid "Lines carry on by themselves (A)"
 msgstr "Реплики идут сами (A)"
@@ -1071,6 +1062,9 @@ msgstr "Здесь пока пусто: пройди историю девушк
 msgid "Nothing yet."
 msgstr "Пока ничего."
 
+msgid "Now start at the alder and sleeves up."
+msgstr "А теперь начинай у ольхи, и рукава закатай."
+
 msgid "Now that's a circle I'd step out of."
 msgstr "А вот из такого круга я бы шагнула."
 
@@ -1089,14 +1083,14 @@ msgstr "О, я собираюсь."
 msgid "Oh, that's smooth, why can't anything else this week be smooth?"
 msgstr "Ох, как гладко. Почему на этой неделе ничего другого не гладко?"
 
+msgid "Oh, you're putting it down. Most argue first."
+msgstr "О, ты его опускаешь. Большинство сначала спорят."
+
+msgid "Oh, you're warm... No one's touched me without an axe in years."
+msgstr "О, ты тёплый... Уже много лет никто не касался меня без топора."
+
 msgid "Oh. I didn't know I did that. That's embarrassing. Do it again."
 msgstr "Ох. Я не знала, что так умею. Это неловко. Повтори."
-
-msgid "Oh. You're putting it down. Most of them argue first."
-msgstr "О. Ты его опускаешь. Большинство сначала спорит."
-
-msgid "Oh. You're warm. Nobody's put a hand on me in years, unless they were measuring where to cut."
-msgstr "О. Ты тёплый. Никто не клал на меня руку годами, если не считать тех, кто прикидывал, где рубить."
 
 msgid "Okay, that one was nice."
 msgstr "Ладно, этот был хорош."
@@ -1176,8 +1170,8 @@ msgstr "Взять"
 msgid "Pickled newts don't usually have a date pencilled on the wax: the second of January. You open it anyway."
 msgstr "Обычно на воске у маринованных тритонов не пишут карандашом дату: второе января. Но ты всё равно открываешь."
 
-msgid "Plant something near me. Something that needs watering every day, so you've got a reason to come by."
-msgstr "Посади что-нибудь возле меня. Что-нибудь, что нужно поливать каждый день, чтобы у тебя был повод приходить."
+msgid "Plant something near me. So there's something of yours here when you're not."
+msgstr "Посади что-нибудь рядом со мной. Чтобы здесь было что-то твоё, когда тебя нет."
 
 msgid "Play"
 msgstr "Играть"
@@ -1473,9 +1467,6 @@ msgstr "Пропуск непрочитанного"
 msgid "Skips this chapter's puzzle: no stars for it."
 msgstr "Пропускает головоломку этой главы: звёзд за неё не будет."
 
-msgid "Sleep. I'll wake you if the miller comes. I might not."
-msgstr "Спи. Разбужу, если придёт мельник. А может, и нет."
-
 msgid "Slime, formerly of a jar"
 msgstr "Слизь, бывшая обитательница банки"
 
@@ -1485,14 +1476,11 @@ msgstr "Медленно"
 msgid "Slower. I can hear you panicking."
 msgstr "Медленнее. Я слышу, как ты паникуешь."
 
-msgid "Slowly. I've had two hundred years of nothing happening. I'd like this to take a while."
-msgstr "Медленно. У меня было двести лет, когда ничего не происходило. Хочу, чтобы это длилось подольше."
+msgid "Slowly. I've got all the time in the world, and I'd like to spend some of it on this."
+msgstr "Медленно. У меня в запасе всё время мира, и я хочу потратить часть его на это."
 
 msgid "Smart. Unspent wishes don't expire. I knew a man who sat on one until he died."
 msgstr "Умно. Непотраченные желания не истекают. Я знала человека, который просидел на одном до самой смерти."
-
-msgid "So dig faster. I've started making plans for summer, and you're in most of them."
-msgstr "Так что копай быстрее. Я начала строить планы на лето, и ты почти во всех."
 
 msgid "So she climbs out of her jar in the middle of the shop, in front of everyone, and asks for it herself."
 msgstr "Тогда она вылезает из банки прямо посреди лавки, на глазах у всех, и просит его сама."
@@ -1551,11 +1539,8 @@ msgstr "Звёзды — награда за пройденные главы; и
 msgid "Starstruck"
 msgstr "Звёздный час"
 
-msgid "Start by the alder, the ground's soft there. And roll your sleeves up. For the digging."
-msgstr "Начни у ольхи, там земля мягкая. И закатай рукава. Для копания."
-
-msgid "Start by the alder. If you hit a root, say sorry. It's me, and I'll be listening."
-msgstr "Начни у ольхи. Если наткнёшься на корень, скажи «прости». Это я, и я слушаю."
+msgid "Start at the alder. I'll enjoy the view."
+msgstr "Начинай у ольхи. А я полюбуюсь видом."
 
 msgid "Start her story over from the beginning"
 msgstr "Начать её историю заново с самого начала"
@@ -1566,8 +1551,8 @@ msgstr "Начни с пекаря. Он опирается на меня, ко�
 msgid "Stay till the candle goes. Then stay anyway."
 msgstr "Останься, пока не погаснет свеча. А потом останься всё равно."
 
-msgid "Stay tonight. I'll keep the rain off. I'm not promising anything else."
-msgstr "Останься сегодня. Я прикрою от дождя. Больше ничего не обещаю."
+msgid "Stay tonight. I'll keep the rain off."
+msgstr "Останься сегодня. Я укрою тебя от дождя."
 
 msgid "Stay where you are. Don't break the circle. If that candle goes out, I go home, and I'm not done with you."
 msgstr "Стой, где стоишь. Не нарушай круг. Если эта свеча погаснет, я вернусь домой, а я с тобой ещё не закончила."
@@ -1611,11 +1596,11 @@ msgstr "Поплавай со мной потом. И не позорь меня
 msgid "TIP"
 msgstr "СОВЕТ"
 
-msgid "Take your time. I've got a few hundred years."
-msgstr "Не торопись. У меня в запасе пара сотен лет."
+msgid "Take your time. I've got about three hundred years."
+msgstr "Не торопись. У меня лет триста в запасе."
 
-msgid "Talk to me. About anything. What did you have for breakfast?"
-msgstr "Говори со мной. О чём угодно. Что ты ел на завтрак?"
+msgid "Talk to me. About anything. Your voice helps me get through it."
+msgstr "Говори со мной. О чём угодно. Твой голос помогает мне это пережить."
 
 msgid "Tap a gem!"
 msgstr "Нажми на камень!"
@@ -1686,8 +1671,8 @@ msgstr "Это было. Ну. У меня нет слова. У меня все
 msgid "That's a dry-land gem. Put it back."
 msgstr "Это камень для суши. Положи на место."
 
-msgid "That's a lovely trench, if you're planning to bury somebody. For a millrace it's a start."
-msgstr "Прекрасная канава, если собираешься кого-нибудь похоронить. Для мельничного лотка — начало."
+msgid "That's a good trench, for a grave."
+msgstr "Хорошая канава. Для могилы."
 
 msgid "That's actually good. She'd believe that."
 msgstr "А это неплохо. Она поверит."
@@ -1698,11 +1683,14 @@ msgstr "Это все. Я свободна. Больше никаких круг
 msgid "That's autumn."
 msgstr "Это осень."
 
+msgid "That's lovely. Keep going."
+msgstr "Прелесть. Продолжай."
+
 msgid "That's nine more hours you can't get rid of me. You did that on purpose."
 msgstr "Это ещё девять часов, когда тебе от меня не избавиться. Это было сделано нарочно."
 
-msgid "That's off the comb's box. So it went in right here."
-msgstr "Это от коробки для гребня. Значит, он упал именно здесь."
+msgid "That's off the comb's box. So it went right in there."
+msgstr "Это от шкатулки гребня. Значит, он упал прямо туда."
 
 msgid "That's real. The sea made that. People tumble old bottles in a barrel and sell it as sea glass."
 msgstr "Настоящее. Это море сделало. А бывает, что старые бутылки гоняют в барабане и продают как морское стекло."
@@ -1722,14 +1710,8 @@ msgstr "Это твоя вина. Прошу занести в протокол.
 msgid "The Time Scroll (three more moves), the Hammer (smash any one gem) and the Shuffle Wand (a new board) sit under the board. Buy them, and potions that help a whole chapter, in the Item Shop with the stars you earn."
 msgstr "Свиток времени (ещё три хода), Молоток (разбивает любой один камень) и Волшебная палочка (новое поле) находятся под полем. Покупай их, а также зелья, помогающие на целую главу, в Магазине предметов за заработанные звёзды."
 
-msgid "The badgers are watching. I told them to go away. Nobody in this grove listens to me."
-msgstr "Барсуки смотрят. Я велела им уйти. В этой роще меня никто не слушает."
-
-msgid "The badgers think you're doing well. They're wrong, but it's sweet."
-msgstr "Барсуки считают, что у тебя всё хорошо. Они ошибаются, но это мило."
-
-msgid "The badgers visit. They don't talk much, and none of them has ever leaned on me like that."
-msgstr "Барсуки заходят. Разговорчивостью не отличаются, и ни один из них никогда так на меня не опирался."
+msgid "The animals are watching. I told them to go away. Nobody in this grove listens to me."
+msgstr "Звери смотрят. Я велела им уйти. В этой роще меня никто не слушает."
 
 msgid "The baker asked my name. I told him. Then I told him about buttons for a while. He was very patient."
 msgstr "Пекарь спросил, как меня зовут. Я сказала. Потом я какое-то время рассказывала ему про пуговицы. Он был очень терпелив."
@@ -1755,11 +1737,8 @@ msgstr "В каталожном ящике пустое место, где до�
 msgid "The comb is in a tin of odds and ends on the Pellow brothers' boat: fishing weights, a doll's head, and nine pearls on a silver spine. It costs you two weeks' pay and a lot of explaining."
 msgstr "Гребень находится в жестянке с мелочами на лодке братьев Пеллоу: грузила, голова куклы и девять жемчужин на серебряной основе. Это обходится тебе в двухнедельный заработок и много объяснений."
 
-msgid "The ferns are watching. Give them something to talk about."
-msgstr "Папоротники наблюдают. Дай им повод посплетничать."
-
-msgid "The ferns say you walked the miller's daughter to the footbridge. That's fine. I'm sure no branch will fall on her. Fairly sure."
-msgstr "Папоротники говорят, что дочь мельника проводили до мостика. Ничего страшного. Уверена, на неё не упадёт ни одна ветка. Почти уверена."
+msgid "The ferns tell me you were talking to the miller's daughter. I'm not jealous. But I might drop a branch near her, that's all."
+msgstr "Папоротники говорят, ты болтал с дочкой мельника. Я не ревную. Просто могу уронить ветку рядом с ней, вот и всё."
 
 msgid "The flame leans sideways. Then it goes green. Smoke fills the circle, smelling of struck matches and expensive perfume, and someone steps out of it, coughing."
 msgstr "Пламя клонится набок. Потом становится зелёным. Круг заполняет дым, пахнущий горелыми спичками и дорогими духами, и из него кто-то выходит, кашляя."
@@ -1788,9 +1767,6 @@ msgstr "Банка. Оставить её? Я не была в ней уже н�
 msgid "The keys went to a locksmith, he says. And the glass eye went to someone who needed a glass eye, I suppose."
 msgstr "Ключи ушли к слесарю, говорит он. А стеклянный глаз ушёл к тому, кому нужен был стеклянный глаз, наверное."
 
-msgid "The last one argued with the axe still in his hands, so I dropped a beehive on him. I wouldn't do that to you. Your face is too nice to waste on bees."
-msgstr "Последний спорил, держа топор в руках, так что я уронила на него улей. С тобой я бы так не поступила. Твоё лицо слишком красивое, чтобы тратить его на пчёл."
-
 msgid "The ledger leads you straight back to your own library. The last pages were sold to it in March as loose leaves, assorted, and filed in the rare books vault under Miscellaneous, Infernal."
 msgstr "Журнал ведёт прямиком обратно в твою же библиотеку. Последние страницы были проданы ей в марте как россыпь, разное, и подшиты в хранилище редких книг под рубрикой «Разное, адское»."
 
@@ -1800,14 +1776,17 @@ msgstr "Слесарь с Зольного ряда держит её ключи
 msgid "The mermaid looks at you properly for the first time. You're dripping. You've lost a shoe."
 msgstr "Русалка впервые внимательно смотрит на тебя. С тебя течёт вода. Одного ботинка нет."
 
+msgid "The miller sent you? He sends someone every spring."
+msgstr "Тебя прислал мельник? Он каждую весну кого-нибудь присылает."
+
 msgid "The millrace runs and the old hazel keeps her roots. You plant another hazel beside the new channel, and it grows faster than it has any right to, leaning towards the old tree as if it's listening. You sleep in the grove more nights than not, and the old hazel blossoms in the wrong season, every season, which the miller now tells people is good luck."
 msgstr "Мельничный лоток течёт, а старая лещина сохраняет корни. Ты сажаешь рядом с новым руслом ещё одну лещину, и она растёт быстрее, чем положено, наклоняясь к старому дереву, будто прислушивается. Ты ночуешь в роще чаще, чем нет, а старая лещина цветёт не в сезон, каждый сезон, и мельник теперь говорит всем, что это к удаче."
 
+msgid "The moss on the east side is softer than it looks."
+msgstr "Мох с восточной стороны мягче, чем кажется."
+
 msgid "The moss on the east side is softer than it looks. Above you her branches have spread and knitted together, and the first rain ticks against the leaves without coming through."
 msgstr "Мох на восточной стороне мягче, чем кажется. Над тобой её ветви разрослись и сплелись, и первый дождь постукивает по листьям, не проникая вниз."
-
-msgid "The moss on the east side is softer than it looks. I've been meaning to mention that for about a week."
-msgstr "Мох на восточной стороне мягче, чем кажется. Я уже неделю собираюсь тебе об этом сказать."
 
 msgid "The name on the slip belongs to a bookbinder who died in the spring. His shop is still full of loose pages."
 msgstr "Имя на карточке принадлежит переплётчику, умершему весной. Его мастерская всё ещё полна россыпей страниц."
@@ -1893,8 +1872,8 @@ msgstr "Вот. Теперь посмотри мне в глаза и скажи
 msgid "There. Now we're even. Low tide's at six."
 msgstr "Вот. Теперь мы квиты. Отлив в шесть."
 
-msgid "There. Now you can't go anywhere. That's a mermaid thing. It's very old. I just made it up."
-msgstr "Вот. Теперь тебе некуда деваться. Это русалочье. Очень древнее. Я только что выдумала."
+msgid "There. Now you can't go anywhere. It's a mermaid thing. It's very old. I just made it up."
+msgstr "Вот. Теперь ты никуда не денешься. Это русалочье. Очень древнее. Я только что придумала."
 
 msgid "These unlock on Steam too."
 msgstr "Они разблокируются и в Steam."
@@ -1941,11 +1920,11 @@ msgstr "Отключить голоса"
 msgid "Twenty minutes?"
 msgstr "Двадцать минут?"
 
-msgid "Two hundred years people have walked past this tree. Not one of them ever lay down under it. Shift over, you're on a root."
-msgstr "Двести лет люди проходили мимо этого дерева. Ни один не лёг под ним. Подвинься, ты на корне."
+msgid "Two hundred springs I've watched people walk past this tree. Not one of them ever lay down under it."
+msgstr "Двести вёсен я смотрела, как люди проходят мимо этого дерева. Ни один из них ни разу не лёг под ним."
 
-msgid "Two hundred years, and nobody told me it could feel like that. I'd like it noted that I'm saying this very calmly."
-msgstr "Двести лет, и никто не говорил мне, что это может быть так. Прошу отметить, что говорю это очень спокойно."
+msgid "Two hundred years, and nobody told me a spirit could feel like that. I'd like it noted that I'm saying this very calmly."
+msgstr "Двести лет, и никто не сказал мне, что дух может так чувствовать. Прошу заметить, что я говорю это очень спокойно."
 
 msgid "Ugh. That's drier than a sponge."
 msgstr "Фу. Суше, чем бисквит."
@@ -2052,9 +2031,6 @@ msgstr "Ты можешь оставить одну, знаешь ли. Всег
 msgid "You didn't ask what you get out of it."
 msgstr "А что ты получишь взамен, не спрашиваешь."
 
-msgid "You didn't have to stay. You're soaked. You'll get ill, and then I'll have to look after you, and I've no idea how."
-msgstr "Тебе не обязательно было оставаться. Ты промок. Заболеешь, и мне придётся о тебе заботиться, а я понятия не имею как."
-
 msgid "You dig until sunset. The trench ends up about the length of a coffin, which she points out twice."
 msgstr "Ты копаешь до заката. Канава получается длиной примерно с гроб, на что она дважды указывает."
 
@@ -2157,14 +2133,14 @@ msgstr "Ты ждёшь благодарности? За это?"
 msgid "You want to hear about buttons?"
 msgstr "Ты хочешь послушать про пуговицы?"
 
-msgid "You were aiming just below my heart. That takes forty years or so to heal."
-msgstr "Удар пришёлся бы прямо под моё сердце. Такое заживает лет сорок."
-
 msgid "You were incredible."
 msgstr "Ты была невероятной."
 
 msgid "You'd burn it."
 msgstr "Сожжёшь."
+
+msgid "You'd have struck just below my heart. It would take... forty years or so to heal."
+msgstr "Ты бы ударил чуть ниже моего сердца. Заживало бы... лет сорок или около того."
 
 msgid "You're a genius, you're a soaked genius."
 msgstr "Ты гений, ты промокший гений."
@@ -2190,8 +2166,11 @@ msgstr "Ты не ревнуешь? У тебя краснеют листья."
 msgid "You're quicker than you look. You look quite slow."
 msgstr "Ты проворнее, чем выглядишь. А выглядишь ты довольно медлительным."
 
-msgid "You're still warm. I'll keep you."
-msgstr "Ты всё ещё тёплый. Я тебя оставлю себе."
+msgid "You're shaking. Come in closer, there's a hollow in the trunk that fits you."
+msgstr "Ты дрожишь. Иди поближе, в стволе есть дупло как раз под тебя."
+
+msgid "You're still warm. Good."
+msgstr "Ты всё ещё тёплый. Хорошо."
 
 msgid "You're the best thing I've found in this library."
 msgstr "Ты — лучшее, что мне попалось в этой библиотеке."

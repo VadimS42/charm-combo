@@ -1229,7 +1229,7 @@
       },
       {
        "k": "s",
-       "t": "That's off the comb's box. So it went in right here.",
+       "t": "That's off the comb's box. So it went right in there.",
        "e": "surprised",
        "d": "Quick intake of breath; hope she doesn't want to show.",
        "id": "marina_ch1_01"
@@ -1587,7 +1587,7 @@
      },
      {
       "k": "s",
-      "t": "There. Now you can't go anywhere. That's a mermaid thing. It's very old. I just made it up.",
+      "t": "There. Now you can't go anywhere. It's a mermaid thing. It's very old. I just made it up.",
       "e": "teasing",
       "d": "Laughing at herself; flirty.",
       "id": "marina_night_04"
@@ -2690,70 +2690,70 @@
   "favQuips": [
    {
     "t": "Petals. Good. Those I understand.",
-    "e": "neutral",
-    "d": "Content.",
+    "e": "happy",
+    "d": "Happy.",
     "id": "hazel_fav_01"
    },
    {
     "t": "Mm. That one smells like April.",
-    "e": "neutral",
-    "d": "Dreamy, slow.",
+    "e": "happy",
+    "d": "Happy.",
     "id": "hazel_fav_02"
    },
    {
     "t": "Gently. Like that.",
-    "e": "neutral",
-    "d": "Low, approving.",
+    "e": "teasing",
+    "d": "Flirting.",
     "id": "hazel_fav_03"
    },
    {
     "t": "You're good with soft things.",
-    "e": "neutral",
-    "d": "Fond, a little suggestive.",
+    "e": "teasing",
+    "d": "Flirting.",
     "id": "hazel_fav_04"
    },
    {
-    "t": "Blossom. You have my attention.",
-    "e": "neutral",
-    "d": "Dry, pleased.",
+    "t": "Blossom.",
+    "e": "happy",
+    "d": "Happy.",
     "id": "hazel_fav_05"
    },
    {
-    "t": "Don't stop on my account.",
-    "e": "neutral",
-    "d": "Warm.",
+    "t": "That's lovely. Keep going.",
+    "e": "happy",
+    "d": "Happy.",
     "id": "hazel_fav_06"
    }
   ],
   "leastQuips": [
    {
     "t": "Fire. In a grove. Really?",
-    "e": "neutral",
-    "d": "Calm disapproval.",
+    "e": "angry",
+    "d": "Annoyed.",
     "id": "hazel_least_01"
    },
    {
     "t": "Put that out.",
-    "e": "neutral",
-    "d": "Quiet order.",
+    "e": "angry",
+    "d": "Angry.",
     "id": "hazel_least_02"
    },
    {
     "t": "No. I've seen what those do.",
     "e": "neutral",
-    "d": "Grim, short.",
+    "d": "Serious.",
     "id": "hazel_least_03"
    },
    {
-    "t": "Embers. I'll pretend I didn't see that.",
-    "e": "neutral",
-    "d": "Dry.",
+    "t": "I'll pretend I didn't see that.",
+    "e": "angry",
+    "d": "Annoyed.",
     "id": "hazel_least_04"
    },
    {
     "t": "Mind my leaves with that.",
     "e": "neutral",
-    "d": "Calm warning.",
+    "d": "Serious.",
     "id": "hazel_least_05"
    }
   ],
@@ -2761,56 +2761,38 @@
    {
     "t": "Slower. I can hear you panicking.",
     "e": "neutral",
-    "d": "Patient, dry.",
+    "d": "Teasing.",
     "id": "hazel_chat_01"
    },
    {
     "t": "Forty years, I said. Mind where you swing.",
     "e": "neutral",
-    "d": "Dry reminder.",
+    "d": "Teasing.",
     "id": "hazel_chat_02"
    },
    {
-    "t": "The ferns are watching. Give them something to talk about.",
-    "e": "neutral",
-    "d": "Sly.",
-    "id": "hazel_chat_03"
-   },
-   {
     "t": "You've got mud on your face. Leave it. It suits you.",
-    "e": "neutral",
-    "d": "Fond.",
+    "e": "teasing",
+    "d": "Flirting.",
     "id": "hazel_chat_04"
    },
    {
-    "t": "Better than the last one Aldous sent. Prettier, too.",
+    "t": "Better than the last one the miller sent.",
     "e": "neutral",
-    "d": "Dry, fond.",
+    "d": "Teasing.",
     "id": "hazel_chat_05"
    },
    {
     "t": "I'm not watching you. I'm photosynthesising.",
     "e": "neutral",
-    "d": "Deadpan lie.",
+    "d": "Teasing.",
     "id": "hazel_chat_06"
    },
    {
-    "t": "Take your time. I've got a few hundred years.",
+    "t": "Take your time. I've got about three hundred years.",
     "e": "neutral",
-    "d": "Unhurried.",
+    "d": "Calm.",
     "id": "hazel_chat_07"
-   },
-   {
-    "t": "If you see the miller, wave. It makes him nervous.",
-    "e": "neutral",
-    "d": "Mischievous.",
-    "id": "hazel_chat_08"
-   },
-   {
-    "t": "The badgers think you're doing well. They're wrong, but it's sweet.",
-    "e": "neutral",
-    "d": "Teasing.",
-    "id": "hazel_chat_09"
    }
   ],
   "gift": {
@@ -2827,9 +2809,9 @@
    },
    {
     "k": "s",
-    "t": "A clock that only works when the sun's out. Someone finally made one that keeps sensible hours.",
-    "e": "surprised",
-    "d": "Delighted, dry. A rare open smile in the voice.",
+    "t": "A clock that only works when the sun's out.",
+    "e": "happy",
+    "d": "Happy.",
     "id": "hazel_gift_01"
    },
    {
@@ -2839,9 +2821,9 @@
    },
    {
     "k": "s",
-    "t": "I'll hang it on the low branch. You can see the path from there, which is where you come from. Not that I watch it.",
+    "t": "I'll keep it on a low branch where I can see it. No, I won't use it to count time until our next meeting.",
     "e": "shy",
-    "d": "Quiet, shy, saying more than she planned to.",
+    "d": "Shy.",
     "id": "hazel_gift_02"
    }
   ],
@@ -2858,8 +2840,8 @@
     {
      "k": "s",
      "t": "Don't even think about it.",
-     "e": "angry",
-     "d": "You're about to cut her tree. Calm, but threatening.",
+     "e": "neutral",
+     "d": "Calm.",
      "id": "hazel_intro_01"
     },
     {
@@ -2873,16 +2855,16 @@
     },
     {
      "k": "s",
-     "t": "You were aiming just below my heart. That takes forty years or so to heal.",
-     "e": "sad",
-     "d": "Calm, not angry, a little sad.",
+     "t": "You'd have struck just below my heart. It would take... forty years or so to heal.",
+     "e": "neutral",
+     "d": "Serious.",
      "id": "hazel_intro_02"
     },
     {
      "k": "s",
-     "t": "Let me guess. Aldous paid you half up front.",
-     "e": "neutral",
-     "d": "Dry, tired more than cross. Aldous the miller sends someone every spring.",
+     "t": "The miller sent you? He sends someone every spring.",
+     "e": "angry",
+     "d": "Annoyed.",
      "id": "hazel_intro_03"
     },
     {
@@ -2892,16 +2874,16 @@
     },
     {
      "k": "s",
-     "t": "Oh. You're putting it down. Most of them argue first.",
+     "t": "Oh, you're putting it down. Most argue first.",
      "e": "surprised",
-     "d": "Mildly surprised. A little disarmed.",
+     "d": "Surprised.",
      "id": "hazel_intro_04"
     },
     {
      "k": "s",
-     "t": "The last one argued with the axe still in his hands, so I dropped a beehive on him. I wouldn't do that to you. Your face is too nice to waste on bees.",
-     "e": "neutral",
-     "d": "Bone-dry, perfectly pleasant. The compliment comes out in the same flat tone.",
+     "t": "I had to drop a branch on the last guy, but don't worry, your face is too nice.",
+     "e": "teasing",
+     "d": "Flirting.",
      "id": "hazel_intro_05"
     },
     {
@@ -2910,16 +2892,16 @@
     },
     {
      "k": "s",
-     "t": "I know about the wall. My roots go where the water is, and they've never once asked my opinion.",
+     "t": "I know about the wall. My roots go where the water is. I can't control it.",
      "e": "sad",
-     "d": "Tired. She's had this argument with herself for years.",
+     "d": "Tired.",
      "id": "hazel_intro_06"
     },
     {
      "k": "s",
-     "t": "If someone dug him a new channel further out, my roots would follow the water. It would take a season. Nobody's ever offered. It's a lot of digging.",
-     "e": "neutral",
-     "d": "Plain. A small hope she won't admit to; the last sentence is a hint.",
+     "t": "If someone dug him a new channel, further out, I could follow it. It would take a season.",
+     "e": "happy",
+     "d": "Hopeful.",
      "id": "hazel_intro_07"
     }
    ],
@@ -2932,9 +2914,9 @@
       "resp": [
        {
         "k": "s",
-        "t": "By hand? You'll be at it till midsummer. I suppose I'll have to put up with you all spring.",
-        "e": "surprised",
-        "d": "Slow disbelief, touched. The second sentence pretends to be a complaint.",
+        "t": "All spring, by hand? I guess I'll have to get used to you.",
+        "e": "happy",
+        "d": "Happy.",
         "id": "hazel_intro_r1_01"
        },
        {
@@ -2944,9 +2926,9 @@
        },
        {
         "k": "s",
-        "t": "Start by the alder, the ground's soft there. And roll your sleeves up. For the digging.",
-        "e": "happy",
-        "d": "Practical, then a short pause before the excuse at the end.",
+        "t": "Now start at the alder and sleeves up.",
+        "e": "teasing",
+        "d": "Flirting.",
         "id": "hazel_intro_r1_02"
        }
       ]
@@ -2958,16 +2940,16 @@
       "resp": [
        {
         "k": "s",
-        "t": "Keep it. Buy yourself a better axe and never use it.",
-        "e": "neutral",
-        "d": "Dry, amused.",
+        "t": "Greedy. Oh, so you'll make him pay you to help me? I like that.",
+        "e": "happy",
+        "d": "Happy.",
         "id": "hazel_intro_r2_01"
        },
        {
         "k": "s",
-        "t": "Start by the alder. If you hit a root, say sorry. It's me, and I'll be listening.",
+        "t": "Start at the alder. I'll enjoy the view.",
         "e": "neutral",
-        "d": "Deadpan. She means the apology.",
+        "d": "Teasing.",
         "id": "hazel_intro_r2_02"
        }
       ]
@@ -2985,9 +2967,9 @@
       },
       {
        "k": "s",
-       "t": "That's a lovely trench, if you're planning to bury somebody. For a millrace it's a start.",
+       "t": "That's a good trench, for a grave.",
        "e": "neutral",
-       "d": "Teasing, unhurried.",
+       "d": "Teasing.",
        "id": "hazel_ch1_01"
       },
       {
@@ -2997,9 +2979,9 @@
       },
       {
        "k": "s",
-       "t": "Oh. You're warm. Nobody's put a hand on me in years, unless they were measuring where to cut.",
+       "t": "Oh, you're warm... No one's touched me without an axe in years.",
        "e": "surprised",
-       "d": "Surprised, caught off guard.",
+       "d": "Surprised.",
        "id": "hazel_ch1_02"
       },
       {
@@ -3009,9 +2991,9 @@
       },
       {
        "k": "s",
-       "t": "Leave it. Bit lower, if you like. The bark's softer.",
+       "t": "Leave it there a minute. It's been a long time.",
        "e": "shy",
-       "d": "Quiet and low; a little embarrassed she said it.",
+       "d": "Shy.",
        "id": "hazel_ch1_03"
       }
      ],
@@ -3026,14 +3008,14 @@
           "k": "s",
           "t": "Since the grove was a forest. Two hundred years, give or take a drought.",
           "e": "sad",
-          "d": "Matter-of-fact, the sadness well buried.",
+          "d": "Sad.",
           "id": "hazel_ch1_r1_01"
          },
          {
           "k": "s",
-          "t": "The badgers visit. They don't talk much, and none of them has ever leaned on me like that.",
-          "e": "happy",
-          "d": "Dry joke, then fond.",
+          "t": "It isn't so bad, but some animals are... Barely tolerable company.",
+          "e": "neutral",
+          "d": "Teasing.",
           "id": "hazel_ch1_r1_02"
          }
         ]
@@ -3047,14 +3029,14 @@
           "k": "s",
           "t": "You came by with an axe.",
           "e": "neutral",
-          "d": "Instant, deadpan.",
+          "d": "Teasing.",
           "id": "hazel_ch1_r2_01"
          },
          {
           "k": "s",
-          "t": "Come back tomorrow. Bring the shovel, leave the axe, and wear that shirt again.",
+          "t": "But I'll allow it. Bring the shovel tomorrow though.",
           "e": "happy",
-          "d": "Warm, playful; the last part comes quickly, before she can take it back.",
+          "d": "Happy.",
           "id": "hazel_ch1_r2_02"
          }
         ]
@@ -3077,9 +3059,9 @@
       },
       {
        "k": "s",
-       "t": "The ferns say you walked the miller's daughter to the footbridge. That's fine. I'm sure no branch will fall on her. Fairly sure.",
+       "t": "The ferns tell me you were talking to the miller's daughter. I'm not jealous. But I might drop a branch near her, that's all.",
        "e": "angry",
-       "d": "Calm and pleasant, and jealous. The threat is polite.",
+       "d": "Jealous.",
        "id": "hazel_ch2_01"
       },
       {
@@ -3088,16 +3070,16 @@
       },
       {
        "k": "s",
-       "t": "Her father came by too. You've got till the end of the month. Then he hires someone with a saw.",
-       "e": "sad",
-       "d": "Calm on the surface; worry underneath.",
+       "t": "Her father came by this morning. He'll give you until the end of the month. Then he hires someone with a saw.",
+       "e": "neutral",
+       "d": "Serious.",
        "id": "hazel_ch2_02"
       },
       {
        "k": "s",
-       "t": "So dig faster. I've started making plans for summer, and you're in most of them.",
-       "e": "shy",
-       "d": "Light on top, real fear underneath; the second half is softer.",
+       "t": "Dig faster. I'd like to see another spring.",
+       "e": "sad",
+       "d": "Scared.",
        "id": "hazel_ch2_03"
       }
      ],
@@ -3110,16 +3092,16 @@
         "resp": [
          {
           "k": "s",
-          "t": "I know. The ferns mentioned that too.",
-          "e": "shy",
-          "d": "Soft, caught out.",
+          "t": "I know. You were still gone forty minutes, not that I was counting.",
+          "e": "angry",
+          "d": "Jealous.",
           "id": "hazel_ch2_r1_01"
          },
          {
           "k": "s",
-          "t": "Eat your lunch. She makes good bread, apparently. Nobody's ever walked me to a footbridge.",
-          "e": "happy",
-          "d": "A tiny bit petty, mostly wistful.",
+          "t": "Eat your lunch. I'm sure her bread is very good. I wouldn't know.",
+          "e": "angry",
+          "d": "Jealous.",
           "id": "hazel_ch2_r1_02"
          }
         ]
@@ -3132,8 +3114,8 @@
          {
           "k": "s",
           "t": "That's autumn.",
-          "e": "angry",
-          "d": "Clipped, flustered.",
+          "e": "shy",
+          "d": "Flustered.",
           "id": "hazel_ch2_r2_01"
          },
          {
@@ -3142,9 +3124,9 @@
          },
          {
           "k": "s",
-          "t": "Dig your trench. And stop looking at my leaves.",
+          "t": "Dig your trench. Sleeves up!",
           "e": "shy",
-          "d": "Mortified, very dignified about it.",
+          "d": "Flustered.",
           "id": "hazel_ch2_r2_02"
          }
         ]
@@ -3163,9 +3145,9 @@
       },
       {
        "k": "s",
-       "t": "It's fine. It's the roots letting go of the old wall. They've held it forty years. They're making a fuss.",
+       "t": "It's fine. It's just roots. They have to let go of the old wall even if it hurts.",
        "e": "sad",
-       "d": "Strained. Trying to sound calm and not quite managing.",
+       "d": "Sad.",
        "id": "hazel_ch3_01"
       },
       {
@@ -3174,16 +3156,16 @@
       },
       {
        "k": "s",
-       "t": "You didn't have to stay. You're soaked. You'll get ill, and then I'll have to look after you, and I've no idea how.",
+       "t": "You're shaking. Come in closer, there's a hollow in the trunk that fits you.",
        "e": "shy",
-       "d": "Gruff, grateful underneath.",
+       "d": "Caring.",
        "id": "hazel_ch3_02"
       },
       {
        "k": "s",
-       "t": "Talk to me. About anything. What did you have for breakfast?",
+       "t": "Talk to me. About anything. Your voice helps me get through it.",
        "e": "sad",
-       "d": "Small, strained; asking for help is hard for her, so she makes it about breakfast.",
+       "d": "Scared.",
        "id": "hazel_ch3_03"
       }
      ],
@@ -3198,7 +3180,7 @@
           "k": "s",
           "t": "There were wolves. And a family of woodcutters who sang while they worked. I liked them, even though they were woodcutters.",
           "e": "happy",
-          "d": "Drifting into a memory; fond, a little wry.",
+          "d": "Happy.",
           "id": "hazel_ch3_r1_01"
          },
          {
@@ -3207,9 +3189,9 @@
          },
          {
           "k": "s",
-          "t": "You're still warm. I'll keep you.",
+          "t": "You're still warm. Good.",
           "e": "shy",
-          "d": "Barely a murmur, to herself as much as to you.",
+          "d": "Shy.",
           "id": "hazel_ch3_r1_02"
          }
         ]
@@ -3222,8 +3204,8 @@
          {
           "k": "s",
           "t": "Start with the baker. He leans on me when he smokes.",
-          "e": "happy",
-          "d": "Perking up, wicked.",
+          "e": "neutral",
+          "d": "Teasing.",
           "id": "hazel_ch3_r2_01"
          },
          {
@@ -3234,7 +3216,7 @@
           "k": "s",
           "t": "Then the miller. Then the miller again.",
           "e": "happy",
-          "d": "Laughing through the pain.",
+          "d": "Laughing.",
           "id": "hazel_ch3_r2_02"
          }
         ]
@@ -3257,9 +3239,9 @@
       },
       {
        "k": "s",
-       "t": "Forty springs he's sent people with axes. That's the first time he's ever touched me.",
-       "e": "surprised",
-       "d": "Quietly moved. Almost a whisper.",
+       "t": "He's never done that. Forty springs, and he's never once done that.",
+       "e": "happy",
+       "d": "Happy.",
        "id": "hazel_ch4_01"
       },
       {
@@ -3269,23 +3251,23 @@
       },
       {
        "k": "s",
-       "t": "I can go as far as my roots do. Thanks to someone, that's quite far now. Far enough to follow you home, if I felt like it.",
+       "t": "I can walk as far as my roots go. They go a long way now. Thanks to someone.",
        "e": "shy",
-       "d": "Shy and warm; won't say your name. The last part is a test.",
+       "d": "Shy.",
        "id": "hazel_ch4_02"
       },
       {
        "k": "s",
-       "t": "The moss on the east side is softer than it looks. I've been meaning to mention that for about a week.",
+       "t": "The moss on the east side is softer than it looks.",
        "e": "teasing",
-       "d": "Low and slow. An invitation she's pretending is a fact about moss.",
+       "d": "Flirting.",
        "id": "hazel_ch4_03"
       },
       {
        "k": "s",
-       "t": "Stay tonight. I'll keep the rain off. I'm not promising anything else.",
-       "e": "happy",
-       "d": "Warm, certain, a little wicked at the end.",
+       "t": "Stay tonight. I'll keep the rain off.",
+       "e": "teasing",
+       "d": "Flirting.",
        "id": "hazel_ch4_04"
       },
       {
@@ -3305,16 +3287,16 @@
      },
      {
       "k": "s",
-      "t": "Two hundred years people have walked past this tree. Not one of them ever lay down under it. Shift over, you're on a root.",
-      "e": "neutral",
-      "d": "Slow and calm, quietly amazed, then practical.",
+      "t": "Two hundred springs I've watched people walk past this tree. Not one of them ever lay down under it.",
+      "e": "surprised",
+      "d": "Surprised.",
       "id": "hazel_night_01"
      },
      {
       "k": "s",
-      "t": "The badgers are watching. I told them to go away. Nobody in this grove listens to me.",
-      "e": "neutral",
-      "d": "Bone-dry, a little shy under it.",
+      "t": "The animals are watching. I told them to go away. Nobody in this grove listens to me.",
+      "e": "shy",
+      "d": "Shy.",
       "id": "hazel_night_02"
      },
      {
@@ -3324,8 +3306,8 @@
      {
       "k": "s",
       "t": "That's you. You did that. A month of you leaning on me with your sleeves rolled up.",
-      "e": "shy",
-      "d": "Soft, almost accusing. Fond.",
+      "e": "teasing",
+      "d": "Flirting.",
       "id": "hazel_night_03"
      },
      {
@@ -3336,14 +3318,14 @@
       "k": "s",
       "t": "Tell me if I get this wrong. I've read about it in exactly one book, and a woodcutter dropped it here before the mill was built.",
       "e": "shy",
-      "d": "Deadpan joke; nervous underneath.",
+      "d": "Nervous.",
       "id": "hazel_night_04"
      },
      {
       "k": "s",
-      "t": "Slowly. I've had two hundred years of nothing happening. I'd like this to take a while.",
-      "e": "shy",
-      "d": "Calm, warm, certain.",
+      "t": "Slowly. I've got all the time in the world, and I'd like to spend some of it on this.",
+      "e": "teasing",
+      "d": "Flirting.",
       "id": "hazel_night_05"
      },
      {
@@ -3358,24 +3340,10 @@
      },
      {
       "k": "s",
-      "t": "Don't look at the leaves. They're being ridiculous.",
+      "t": "Don't... look at me like that.",
       "e": "shy",
-      "d": "Embarrassed. She can't control them and she knows you know.",
+      "d": "Flustered.",
       "id": "hazel_night_21"
-     },
-     {
-      "k": "s",
-      "t": "And don't tell the ferns. They'll want details.",
-      "e": "happy",
-      "d": "Hushed, smiling.",
-      "id": "hazel_night_22"
-     },
-     {
-      "k": "s",
-      "t": "Sleep. I'll wake you if the miller comes. I might not.",
-      "e": "happy",
-      "d": "Warm and drowsy, a little wicked.",
-      "id": "hazel_night_23"
      },
      {
       "k": "n",
@@ -3395,23 +3363,23 @@
        },
        {
         "k": "s",
-        "t": "Two hundred years, and nobody told me it could feel like that. I'd like it noted that I'm saying this very calmly.",
-        "e": "shy",
-        "d": "Calm voice, completely undone underneath.",
+        "t": "Two hundred years, and nobody told me a spirit could feel like that. I'd like it noted that I'm saying this very calmly.",
+        "e": "happy",
+        "d": "Happy.",
         "id": "hazel_end_01"
        },
        {
         "k": "s",
         "t": "Don't look at them. They're not for you. They're seasonal.",
         "e": "shy",
-        "d": "Flustered and a terrible liar, deadpan anyway.",
+        "d": "Flustered.",
         "id": "hazel_end_02"
        },
        {
         "k": "s",
-        "t": "Fine. They're for you. I haven't flowered out of season since before the mill was built. People are going to talk.",
+        "t": "Fine. They're for you. I haven't flowered out of season since before the mill was built. The animals are going to talk.",
         "e": "happy",
-        "d": "Giving in; fond and a bit exasperated with herself.",
+        "d": "Happy.",
         "id": "hazel_end_03"
        }
       ],
@@ -3424,37 +3392,23 @@
        {
         "k": "s",
         "t": "That one's fine. That one's fine. Not that one. I mean it. Don't.",
-        "e": "happy",
-        "d": "Escalating warning, trying not to laugh.",
+        "e": "neutral",
+        "d": "Teasing.",
         "id": "hazel_end_04"
        },
        {
         "k": "s",
-        "t": "Plant something near me. Something that needs watering every day, so you've got a reason to come by.",
+        "t": "Plant something near me. So there's something of yours here when you're not.",
         "e": "shy",
-        "d": "Simple, a little shy; she's thought about it.",
+        "d": "Shy.",
         "id": "hazel_end_05"
        }
       ],
       "beat2_caption": "A sapling beside the new millrace, a ribbon tied round it.",
       "choice_lines": [
        {
-        "k": "s",
-        "t": "Go on, then. What are you planting? It'll outlast both of us. Well. It'll outlast you.",
-        "e": "neutral",
-        "d": "Gentle, dry correction at the end.",
-        "id": "hazel_end_06"
-       },
-       {
         "k": "n",
         "t": "You say another hazel, so she isn't the only one."
-       },
-       {
-        "k": "s",
-        "t": "A neighbour. I've never had a neighbour.",
-        "e": "shy",
-        "d": "Quiet wonder.",
-        "id": "hazel_end_07"
        }
       ],
       "choice": null,
@@ -3468,42 +3422,42 @@
     "kind": "laugh",
     "t": "(Laughs: low and quiet, mostly breath.)",
     "e": "happy",
-    "d": "Amused, quiet.",
+    "d": "Laughing.",
     "id": "hazel_laugh_01"
    },
    {
     "kind": "laugh",
     "t": "(Laughs: warm and slow.)",
     "e": "happy",
-    "d": "Warm, fond.",
+    "d": "Laughing.",
     "id": "hazel_laugh_02"
    },
    {
     "kind": "laugh",
     "t": "(Hums: a dry 'mm' of amusement.)",
     "e": "teasing",
-    "d": "Dry.",
+    "d": "Teasing.",
     "id": "hazel_laugh_03"
    },
    {
     "kind": "unhappy",
     "t": "(Hmph.)",
     "e": "angry",
-    "d": "Disapproving.",
+    "d": "Annoyed.",
     "id": "hazel_unhappy_01"
    },
    {
     "kind": "unhappy",
     "t": "(Sighs: like wind through leaves.)",
     "e": "sad",
-    "d": "Tired, sad.",
+    "d": "Sad.",
     "id": "hazel_unhappy_02"
    },
    {
     "kind": "unhappy",
     "t": "(Tuts: calm and cold.)",
     "e": "angry",
-    "d": "Cold, warning.",
+    "d": "Annoyed.",
     "id": "hazel_unhappy_03"
    }
   ]

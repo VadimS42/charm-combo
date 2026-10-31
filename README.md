@@ -17,6 +17,23 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-38 — Hazel speaks; every clip checked by ear (Whisper)
+
+- **Hazel's lines** are the script her actor recorded: most lines reworded,
+  her night scene down to six lines and the morning after to five, three
+  chatter quips dropped. Her portraits follow the actor's directions now
+  (flirting = the lip-bite, dry teasing = calm, jealous = gritted teeth...),
+  and the delivery notes are those directions. Russian and Chinese for every
+  changed line.
+- **72 Hazel clips** (66 lines and her 6 sounds) in `audio/voice/dryad`.
+- **`tools/voice_import/check_clips.py`**: transcribes every clip with Whisper
+  (small.en, run locally through sherpa-onnx; the model is a GitHub download,
+  see the file) and lists clips whose words differ from the line on screen.
+  Hazel: 3 left, all mishearings ("older" for alder). Marina: 7 left, mostly
+  mishearings. From it: four lines now say exactly what was recorded ("So it
+  went right in there", "It's a mermaid thing", "you'll make him pay", "on a
+  low branch"), and one Marina clip that began with a stray half-take is recut.
+
 ## ✅ Status: round-37 — Marina speaks; gameplay badges from the packs
 
 - **Marina's lines** match the script her actor recorded

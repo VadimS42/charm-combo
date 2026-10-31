@@ -65,7 +65,7 @@ Say it: Marina = muh-REE-nuh · Waverly = WAY-vur-lee · Mari (her family's nick
 
 == AFTER CHAPTER 1 ==
 
-13. That's off the comb's box. So it went in right here.
+13. That's off the comb's box. So it went right in there.
    Emotion: surprised. Quick intake of breath; hope she doesn't want to show.
    File: marina_ch1_01.wav
 
@@ -215,7 +215,7 @@ Say it: Marina = muh-REE-nuh · Waverly = WAY-vur-lee · Mari (her family's nick
    Emotion: shy. Run-on and mortified, and completely honest.
    File: marina_night_03.wav
 
-43. There. Now you can't go anywhere. That's a mermaid thing. It's very old. I just made it up.
+43. There. Now you can't go anywhere. It's a mermaid thing. It's very old. I just made it up.
    Emotion: teasing. Laughing at herself; flirty.
    File: marina_night_04.wav
 

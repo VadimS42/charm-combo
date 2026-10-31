@@ -3,353 +3,325 @@ HAZEL MOSSGROVE (Dryad of the old hazel)
 Voice: Hazel Mossgrove, dryad, bound to an old hazel tree for about two hundred years. Slow, calm, warm, few words. Her threats are polite and her jokes are bone-dry; she rarely raises her voice. Lonely underneath and not used to company. Jealousy comes out as calm, playful menace.
 Say it: Hazel Mossgrove = HAY-zul MOSS-grove · Aldous Brock = ALL-dus BROCK
 
-73 lines. Emotion = the portrait she shows; after it, how to deliver the line.
+66 lines. Emotion = the portrait she shows; after it, how to deliver the line.
 
 
 == MEETING HER ==
 
 1. Don't even think about it.
-   Emotion: angry. You're about to cut her tree. Calm, but threatening.
+   Emotion: neutral. Calm.
    File: hazel_intro_01.wav
 
-2. You were aiming just below my heart. That takes forty years or so to heal.
-   Emotion: sad. Calm, not angry, a little sad.
+2. You'd have struck just below my heart. It would take... forty years or so to heal.
+   Emotion: neutral. Serious.
    File: hazel_intro_02.wav
 
-3. Let me guess. Aldous paid you half up front.
-   Emotion: neutral. Dry, tired more than cross. Aldous the miller sends someone every spring.
+3. The miller sent you? He sends someone every spring.
+   Emotion: angry. Annoyed.
    File: hazel_intro_03.wav
 
-4. Oh. You're putting it down. Most of them argue first.
-   Emotion: surprised. Mildly surprised. A little disarmed.
+4. Oh, you're putting it down. Most argue first.
+   Emotion: surprised. Surprised.
    File: hazel_intro_04.wav
 
-5. The last one argued with the axe still in his hands, so I dropped a beehive on him. I wouldn't do that to you. Your face is too nice to waste on bees.
-   Emotion: neutral. Bone-dry, perfectly pleasant. The compliment comes out in the same flat tone.
+5. I had to drop a branch on the last guy, but don't worry, your face is too nice.
+   Emotion: teasing. Flirting.
    File: hazel_intro_05.wav
 
-6. I know about the wall. My roots go where the water is, and they've never once asked my opinion.
-   Emotion: sad. Tired. She's had this argument with herself for years.
+6. I know about the wall. My roots go where the water is. I can't control it.
+   Emotion: sad. Tired.
    File: hazel_intro_06.wav
 
-7. If someone dug him a new channel further out, my roots would follow the water. It would take a season. Nobody's ever offered. It's a lot of digging.
-   Emotion: neutral. Plain. A small hope she won't admit to; the last sentence is a hint.
+7. If someone dug him a new channel, further out, I could follow it. It would take a season.
+   Emotion: happy. Hopeful.
    File: hazel_intro_07.wav
 
 
 == MEETING HER: REPLY 1 ==
 
-8. By hand? You'll be at it till midsummer. I suppose I'll have to put up with you all spring.
-   Emotion: surprised. Slow disbelief, touched. The second sentence pretends to be a complaint.
+8. All spring, by hand? I guess I'll have to get used to you.
+   Emotion: happy. Happy.
    File: hazel_intro_r1_01.wav
 
-9. Start by the alder, the ground's soft there. And roll your sleeves up. For the digging.
-   Emotion: happy. Practical, then a short pause before the excuse at the end.
+9. Now start at the alder and sleeves up.
+   Emotion: teasing. Flirting.
    File: hazel_intro_r1_02.wav
 
 
 == MEETING HER: REPLY 2 ==
 
-10. Keep it. Buy yourself a better axe and never use it.
-   Emotion: neutral. Dry, amused.
+10. Greedy. Oh, so you'll make him pay you to help me? I like that.
+   Emotion: happy. Happy.
    File: hazel_intro_r2_01.wav
 
-11. Start by the alder. If you hit a root, say sorry. It's me, and I'll be listening.
-   Emotion: neutral. Deadpan. She means the apology.
+11. Start at the alder. I'll enjoy the view.
+   Emotion: neutral. Teasing.
    File: hazel_intro_r2_02.wav
 
 
 == AFTER CHAPTER 1 ==
 
-12. That's a lovely trench, if you're planning to bury somebody. For a millrace it's a start.
-   Emotion: neutral. Teasing, unhurried.
+12. That's a good trench, for a grave.
+   Emotion: neutral. Teasing.
    File: hazel_ch1_01.wav
 
-13. Oh. You're warm. Nobody's put a hand on me in years, unless they were measuring where to cut.
-   Emotion: surprised. Surprised, caught off guard.
+13. Oh, you're warm... No one's touched me without an axe in years.
+   Emotion: surprised. Surprised.
    File: hazel_ch1_02.wav
 
-14. Leave it. Bit lower, if you like. The bark's softer.
-   Emotion: shy. Quiet and low; a little embarrassed she said it.
+14. Leave it there a minute. It's been a long time.
+   Emotion: shy. Shy.
    File: hazel_ch1_03.wav
 
 
 == AFTER CHAPTER 1: REPLY 1 ==
 
 15. Since the grove was a forest. Two hundred years, give or take a drought.
-   Emotion: sad. Matter-of-fact, the sadness well buried.
+   Emotion: sad. Sad.
    File: hazel_ch1_r1_01.wav
 
-16. The badgers visit. They don't talk much, and none of them has ever leaned on me like that.
-   Emotion: happy. Dry joke, then fond.
+16. It isn't so bad, but some animals are... Barely tolerable company.
+   Emotion: neutral. Teasing.
    File: hazel_ch1_r1_02.wav
 
 
 == AFTER CHAPTER 1: REPLY 2 ==
 
 17. You came by with an axe.
-   Emotion: neutral. Instant, deadpan.
+   Emotion: neutral. Teasing.
    File: hazel_ch1_r2_01.wav
 
-18. Come back tomorrow. Bring the shovel, leave the axe, and wear that shirt again.
-   Emotion: happy. Warm, playful; the last part comes quickly, before she can take it back.
+18. But I'll allow it. Bring the shovel tomorrow though.
+   Emotion: happy. Happy.
    File: hazel_ch1_r2_02.wav
 
 
 == AFTER CHAPTER 2 ==
 
-19. The ferns say you walked the miller's daughter to the footbridge. That's fine. I'm sure no branch will fall on her. Fairly sure.
-   Emotion: angry. Calm and pleasant, and jealous. The threat is polite.
+19. The ferns tell me you were talking to the miller's daughter. I'm not jealous. But I might drop a branch near her, that's all.
+   Emotion: angry. Jealous.
    File: hazel_ch2_01.wav
 
-20. Her father came by too. You've got till the end of the month. Then he hires someone with a saw.
-   Emotion: sad. Calm on the surface; worry underneath.
+20. Her father came by this morning. He'll give you until the end of the month. Then he hires someone with a saw.
+   Emotion: neutral. Serious.
    File: hazel_ch2_02.wav
 
-21. So dig faster. I've started making plans for summer, and you're in most of them.
-   Emotion: shy. Light on top, real fear underneath; the second half is softer.
+21. Dig faster. I'd like to see another spring.
+   Emotion: sad. Scared.
    File: hazel_ch2_03.wav
 
 
 == AFTER CHAPTER 2: REPLY 1 ==
 
-22. I know. The ferns mentioned that too.
-   Emotion: shy. Soft, caught out.
+22. I know. You were still gone forty minutes, not that I was counting.
+   Emotion: angry. Jealous.
    File: hazel_ch2_r1_01.wav
 
-23. Eat your lunch. She makes good bread, apparently. Nobody's ever walked me to a footbridge.
-   Emotion: happy. A tiny bit petty, mostly wistful.
+23. Eat your lunch. I'm sure her bread is very good. I wouldn't know.
+   Emotion: angry. Jealous.
    File: hazel_ch2_r1_02.wav
 
 
 == AFTER CHAPTER 2: REPLY 2 ==
 
 24. That's autumn.
-   Emotion: angry. Clipped, flustered.
+   Emotion: shy. Flustered.
    File: hazel_ch2_r2_01.wav
 
-25. Dig your trench. And stop looking at my leaves.
-   Emotion: shy. Mortified, very dignified about it.
+25. Dig your trench. Sleeves up!
+   Emotion: shy. Flustered.
    File: hazel_ch2_r2_02.wav
 
 
 == AFTER CHAPTER 3 ==
 
-26. It's fine. It's the roots letting go of the old wall. They've held it forty years. They're making a fuss.
-   Emotion: sad. Strained. Trying to sound calm and not quite managing.
+26. It's fine. It's just roots. They have to let go of the old wall even if it hurts.
+   Emotion: sad. Sad.
    File: hazel_ch3_01.wav
 
-27. You didn't have to stay. You're soaked. You'll get ill, and then I'll have to look after you, and I've no idea how.
-   Emotion: shy. Gruff, grateful underneath.
+27. You're shaking. Come in closer, there's a hollow in the trunk that fits you.
+   Emotion: shy. Caring.
    File: hazel_ch3_02.wav
 
-28. Talk to me. About anything. What did you have for breakfast?
-   Emotion: sad. Small, strained; asking for help is hard for her, so she makes it about breakfast.
+28. Talk to me. About anything. Your voice helps me get through it.
+   Emotion: sad. Scared.
    File: hazel_ch3_03.wav
 
 
 == AFTER CHAPTER 3: REPLY 1 ==
 
 29. There were wolves. And a family of woodcutters who sang while they worked. I liked them, even though they were woodcutters.
-   Emotion: happy. Drifting into a memory; fond, a little wry.
+   Emotion: happy. Happy.
    File: hazel_ch3_r1_01.wav
 
-30. You're still warm. I'll keep you.
-   Emotion: shy. Barely a murmur, to herself as much as to you.
+30. You're still warm. Good.
+   Emotion: shy. Shy.
    File: hazel_ch3_r1_02.wav
 
 
 == AFTER CHAPTER 3: REPLY 2 ==
 
 31. Start with the baker. He leans on me when he smokes.
-   Emotion: happy. Perking up, wicked.
+   Emotion: neutral. Teasing.
    File: hazel_ch3_r2_01.wav
 
 32. Then the miller. Then the miller again.
-   Emotion: happy. Laughing through the pain.
+   Emotion: happy. Laughing.
    File: hazel_ch3_r2_02.wav
 
 
 == AFTER CHAPTER 4 (LAST SCENE) ==
 
-33. Forty springs he's sent people with axes. That's the first time he's ever touched me.
-   Emotion: surprised. Quietly moved. Almost a whisper.
+33. He's never done that. Forty springs, and he's never once done that.
+   Emotion: happy. Happy.
    File: hazel_ch4_01.wav
 
-34. I can go as far as my roots do. Thanks to someone, that's quite far now. Far enough to follow you home, if I felt like it.
-   Emotion: shy. Shy and warm; won't say your name. The last part is a test.
+34. I can walk as far as my roots go. They go a long way now. Thanks to someone.
+   Emotion: shy. Shy.
    File: hazel_ch4_02.wav
 
-35. The moss on the east side is softer than it looks. I've been meaning to mention that for about a week.
-   Emotion: teasing. Low and slow. An invitation she's pretending is a fact about moss.
+35. The moss on the east side is softer than it looks.
+   Emotion: teasing. Flirting.
    File: hazel_ch4_03.wav
 
-36. Stay tonight. I'll keep the rain off. I'm not promising anything else.
-   Emotion: happy. Warm, certain, a little wicked at the end.
+36. Stay tonight. I'll keep the rain off.
+   Emotion: teasing. Flirting.
    File: hazel_ch4_04.wav
 
 
 == HER NIGHT SCENE (FULL-SCREEN CG) ==
 
-37. Two hundred years people have walked past this tree. Not one of them ever lay down under it. Shift over, you're on a root.
-   Emotion: neutral. Slow and calm, quietly amazed, then practical.
+37. Two hundred springs I've watched people walk past this tree. Not one of them ever lay down under it.
+   Emotion: surprised. Surprised.
    File: hazel_night_01.wav
 
-38. The badgers are watching. I told them to go away. Nobody in this grove listens to me.
-   Emotion: neutral. Bone-dry, a little shy under it.
+38. The animals are watching. I told them to go away. Nobody in this grove listens to me.
+   Emotion: shy. Shy.
    File: hazel_night_02.wav
 
 39. That's you. You did that. A month of you leaning on me with your sleeves rolled up.
-   Emotion: shy. Soft, almost accusing. Fond.
+   Emotion: teasing. Flirting.
    File: hazel_night_03.wav
 
 40. Tell me if I get this wrong. I've read about it in exactly one book, and a woodcutter dropped it here before the mill was built.
-   Emotion: shy. Deadpan joke; nervous underneath.
+   Emotion: shy. Nervous.
    File: hazel_night_04.wav
 
-41. Slowly. I've had two hundred years of nothing happening. I'd like this to take a while.
-   Emotion: shy. Calm, warm, certain.
+41. Slowly. I've got all the time in the world, and I'd like to spend some of it on this.
+   Emotion: teasing. Flirting.
    File: hazel_night_05.wav
 
-42. Don't look at the leaves. They're being ridiculous.
-   Emotion: shy. Embarrassed. She can't control them and she knows you know.
+42. Don't... look at me like that.
+   Emotion: shy. Flustered.
    File: hazel_night_21.wav
-
-43. And don't tell the ferns. They'll want details.
-   Emotion: happy. Hushed, smiling.
-   File: hazel_night_22.wav
-
-44. Sleep. I'll wake you if the miller comes. I might not.
-   Emotion: happy. Warm and drowsy, a little wicked.
-   File: hazel_night_23.wav
 
 
 == HER ENDING: THE MORNING AFTER ==
 
-45. Two hundred years, and nobody told me it could feel like that. I'd like it noted that I'm saying this very calmly.
-   Emotion: shy. Calm voice, completely undone underneath.
+43. Two hundred years, and nobody told me a spirit could feel like that. I'd like it noted that I'm saying this very calmly.
+   Emotion: happy. Happy.
    File: hazel_end_01.wav
 
-46. Don't look at them. They're not for you. They're seasonal.
-   Emotion: shy. Flustered and a terrible liar, deadpan anyway.
+44. Don't look at them. They're not for you. They're seasonal.
+   Emotion: shy. Flustered.
    File: hazel_end_02.wav
 
-47. Fine. They're for you. I haven't flowered out of season since before the mill was built. People are going to talk.
-   Emotion: happy. Giving in; fond and a bit exasperated with herself.
+45. Fine. They're for you. I haven't flowered out of season since before the mill was built. The animals are going to talk.
+   Emotion: happy. Happy.
    File: hazel_end_03.wav
 
-48. That one's fine. That one's fine. Not that one. I mean it. Don't.
-   Emotion: happy. Escalating warning, trying not to laugh.
+46. That one's fine. That one's fine. Not that one. I mean it. Don't.
+   Emotion: neutral. Teasing.
    File: hazel_end_04.wav
 
-49. Plant something near me. Something that needs watering every day, so you've got a reason to come by.
-   Emotion: shy. Simple, a little shy; she's thought about it.
+47. Plant something near me. So there's something of yours here when you're not.
+   Emotion: shy. Shy.
    File: hazel_end_05.wav
-
-50. Go on, then. What are you planting? It'll outlast both of us. Well. It'll outlast you.
-   Emotion: neutral. Gentle, dry correction at the end.
-   File: hazel_end_06.wav
-
-51. A neighbour. I've never had a neighbour.
-   Emotion: shy. Quiet wonder.
-   File: hazel_end_07.wav
 
 
 == GIFT SCENE (BRASS POCKET SUNDIAL) ==
 
-52. A clock that only works when the sun's out. Someone finally made one that keeps sensible hours.
-   Emotion: surprised. Delighted, dry. A rare open smile in the voice.
+48. A clock that only works when the sun's out.
+   Emotion: happy. Happy.
    File: hazel_gift_01.wav
 
-53. I'll hang it on the low branch. You can see the path from there, which is where you come from. Not that I watch it.
-   Emotion: shy. Quiet, shy, saying more than she planned to.
+49. I'll keep it on a low branch where I can see it. No, I won't use it to count time until our next meeting.
+   Emotion: shy. Shy.
    File: hazel_gift_02.wav
 
 
 == PUZZLE QUIP: YOU MATCHED HER FAVOURITE GEM ==
 
-54. Petals. Good. Those I understand.
-   Emotion: neutral. Content.
+50. Petals. Good. Those I understand.
+   Emotion: happy. Happy.
    File: hazel_fav_01.wav
 
-55. Mm. That one smells like April.
-   Emotion: neutral. Dreamy, slow.
+51. Mm. That one smells like April.
+   Emotion: happy. Happy.
    File: hazel_fav_02.wav
 
-56. Gently. Like that.
-   Emotion: neutral. Low, approving.
+52. Gently. Like that.
+   Emotion: teasing. Flirting.
    File: hazel_fav_03.wav
 
-57. You're good with soft things.
-   Emotion: neutral. Fond, a little suggestive.
+53. You're good with soft things.
+   Emotion: teasing. Flirting.
    File: hazel_fav_04.wav
 
-58. Blossom. You have my attention.
-   Emotion: neutral. Dry, pleased.
+54. Blossom.
+   Emotion: happy. Happy.
    File: hazel_fav_05.wav
 
-59. Don't stop on my account.
-   Emotion: neutral. Warm.
+55. That's lovely. Keep going.
+   Emotion: happy. Happy.
    File: hazel_fav_06.wav
 
 
 == PUZZLE QUIP: YOU MATCHED A GEM SHE DISLIKES ==
 
-60. Fire. In a grove. Really?
-   Emotion: neutral. Calm disapproval.
+56. Fire. In a grove. Really?
+   Emotion: angry. Annoyed.
    File: hazel_least_01.wav
 
-61. Put that out.
-   Emotion: neutral. Quiet order.
+57. Put that out.
+   Emotion: angry. Angry.
    File: hazel_least_02.wav
 
-62. No. I've seen what those do.
-   Emotion: neutral. Grim, short.
+58. No. I've seen what those do.
+   Emotion: neutral. Serious.
    File: hazel_least_03.wav
 
-63. Embers. I'll pretend I didn't see that.
-   Emotion: neutral. Dry.
+59. I'll pretend I didn't see that.
+   Emotion: angry. Annoyed.
    File: hazel_least_04.wav
 
-64. Mind my leaves with that.
-   Emotion: neutral. Calm warning.
+60. Mind my leaves with that.
+   Emotion: neutral. Serious.
    File: hazel_least_05.wav
 
 
 == PUZZLE QUIP: CHATTER WHILE YOU PLAY ==
 
-65. Slower. I can hear you panicking.
-   Emotion: neutral. Patient, dry.
+61. Slower. I can hear you panicking.
+   Emotion: neutral. Teasing.
    File: hazel_chat_01.wav
 
-66. Forty years, I said. Mind where you swing.
-   Emotion: neutral. Dry reminder.
+62. Forty years, I said. Mind where you swing.
+   Emotion: neutral. Teasing.
    File: hazel_chat_02.wav
 
-67. The ferns are watching. Give them something to talk about.
-   Emotion: neutral. Sly.
-   File: hazel_chat_03.wav
-
-68. You've got mud on your face. Leave it. It suits you.
-   Emotion: neutral. Fond.
+63. You've got mud on your face. Leave it. It suits you.
+   Emotion: teasing. Flirting.
    File: hazel_chat_04.wav
 
-69. Better than the last one Aldous sent. Prettier, too.
-   Emotion: neutral. Dry, fond.
+64. Better than the last one the miller sent.
+   Emotion: neutral. Teasing.
    File: hazel_chat_05.wav
 
-70. I'm not watching you. I'm photosynthesising.
-   Emotion: neutral. Deadpan lie.
+65. I'm not watching you. I'm photosynthesising.
+   Emotion: neutral. Teasing.
    File: hazel_chat_06.wav
 
-71. Take your time. I've got a few hundred years.
-   Emotion: neutral. Unhurried.
+66. Take your time. I've got about three hundred years.
+   Emotion: neutral. Calm.
    File: hazel_chat_07.wav
-
-72. If you see the miller, wave. It makes him nervous.
-   Emotion: neutral. Mischievous.
-   File: hazel_chat_08.wav
-
-73. The badgers think you're doing well. They're wrong, but it's sweet.
-   Emotion: neutral. Teasing.
-   File: hazel_chat_09.wav
