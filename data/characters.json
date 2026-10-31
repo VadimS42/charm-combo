@@ -890,6 +890,11 @@
    "zoom": 3.0,
    "x": 0.34,
    "y": 0.2
+  },
+  "puzzleSprite": {
+   "height": 500,
+   "lift": 150,
+   "right": 20
   }
  },
  {

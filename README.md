@@ -27,6 +27,9 @@ Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.m
   a girl's main sprite): her roster card and her conversations show it instead
   of the "A" and the emoji. `characters.json` "cardCrop" (zoom and the face's
   position) frames her face on the card.
+- On the puzzle screen she's smaller and raised so her feet and the dagger
+  clear the speech box: `characters.json` "puzzleSprite" (height, lift and
+  right margin in px) places any girl's figure there.
 
 ## ✅ Status: round-38 — Hazel speaks; every clip checked by ear (Whisper)
 

@@ -448,6 +448,11 @@ func _build_ui() -> void:
 		host.add_child(layer)
 		var first: Texture2D = idle.frames[0]
 		var h := IDLE_ANIM_H
+		# characters.json "puzzleSprite" (round 39): {"height", "lift",
+		# "right"} in px, for a figure that would otherwise sink behind her
+		# speech box (Amara crouches, so her feet were hidden).
+		var place: Dictionary = ch.get("puzzleSprite", {})
+		h = float(place.get("height", h))
 		var w := h * float(first.get_width()) / float(maxi(1, first.get_height()))
 		var anim := FrameAnimation.new().setup(idle)
 		anim.anchor_left = 1.0
@@ -458,8 +463,8 @@ func _build_ui() -> void:
 		# off the page at the right and bottom (Hazel's tree), so it sits
 		# flush in the corner and the screen edge hides the cut.
 		var still := bool(idle.get("still", false))
-		anim.offset_right = 0.0 if still else -16.0
-		anim.offset_bottom = 0.0 if still else -18.0
+		anim.offset_right = (0.0 if still else -16.0) - float(place.get("right", 0.0))
+		anim.offset_bottom = (0.0 if still else -18.0) - float(place.get("lift", 0.0))
 		anim.offset_left = anim.offset_right - w
 		anim.offset_top = anim.offset_bottom - h
 		# Reactions (see _anim_react()) scale from her base, like a hop.
