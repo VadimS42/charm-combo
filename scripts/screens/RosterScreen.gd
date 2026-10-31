@@ -633,6 +633,18 @@ static func _plate(ch: Dictionary, accent: Color) -> Control:
 		# is, 0-1) overrides them (round 18: Hazel's busts, face at ~0.45).
 		if ch.has("portraitFocus"):
 			focus = clampf(float(ch.portraitFocus), 0.0, 1.0)
+		# "cardCrop": {"zoom", "x", "y"} (round 38) for a picture whose face
+		# isn't centred sideways, like Amara's crouching main sprite: zoom
+		# in, and put the point (x, y) (fractions of the picture) in the
+		# middle of the card's window.
+		var crop = ch.get("cardCrop")
+		if typeof(crop) == TYPE_DICTIONARY:
+			art_w = CARD_CONTENT_W * float(crop.get("zoom", 1.0))
+			var cx: float = float(crop.get("x", 0.5)) * art_w
+			art.offset_left = CARD_CONTENT_W / 2.0 - cx
+			art.offset_right = art.offset_left + art_w - CARD_CONTENT_W
+			full_h = art_w * aspect
+			focus = float(crop.get("y", focus))
 		var top_crop: float = clamp(
 			focus * full_h - PORTRAIT_STRIP_H / 2.0,
 			0.0, max(0.0, full_h - PORTRAIT_STRIP_H))

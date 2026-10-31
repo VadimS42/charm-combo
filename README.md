@@ -17,6 +17,17 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-39 — Amara's main sprite
+
+- `art/characters/succubus/main.png`: her artist's full figure, cut out of its
+  white background with `tools/sprites/cut_white_bg.py` (keeps the white in her
+  eyes and on the dagger, clears the white inside her tail loop, no halo).
+- It's her puzzle-screen figure, and until her expression pictures exist it
+  stands in for all of them (`ArtAssets.character_portrait()` now falls back to
+  a girl's main sprite): her roster card and her conversations show it instead
+  of the "A" and the emoji. `characters.json` "cardCrop" (zoom and the face's
+  position) frames her face on the card.
+
 ## ✅ Status: round-38 — Hazel speaks; every clip checked by ear (Whisper)
 
 - **Hazel's lines** are the script her actor recorded: most lines reworded,

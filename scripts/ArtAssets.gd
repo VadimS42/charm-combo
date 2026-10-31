@@ -36,14 +36,17 @@ static func _try_load(path: String) -> Texture2D:
 ## res://art/characters/<char_id>/<expression>.png — falls back to
 ## "neutral.png" for that character if the specific expression is missing
 ## (so a first art pass can ship one pose and still look correct everywhere),
-## then to null (caller shows its emoji/placeholder).
+## then to her main sprite (round 38: Amara has only that so far), then to
+## null (caller shows its emoji/placeholder).
 static func character_portrait(char_id: String, expression: String) -> Texture2D:
 	var tex := _try_load(CHAR_DIR + char_id + "/" + expression + ".png")
 	if tex:
 		return tex
 	if expression != "neutral":
-		return _try_load(CHAR_DIR + char_id + "/neutral.png")
-	return null
+		tex = _try_load(CHAR_DIR + char_id + "/neutral.png")
+		if tex:
+			return tex
+	return main_sprite(char_id)
 
 
 static var _idle_cache := {}

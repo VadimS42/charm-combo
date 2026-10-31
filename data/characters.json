@@ -885,7 +885,12 @@
     "d": "Offended, recoiling.",
     "id": "amara_unhappy_03"
    }
-  ]
+  ],
+  "cardCrop": {
+   "zoom": 3.0,
+   "x": 0.34,
+   "y": 0.2
+  }
  },
  {
   "id": "mermaid",
