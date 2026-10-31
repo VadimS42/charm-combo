@@ -67,6 +67,7 @@ static func build(main: Node, host: Control) -> void:
 	v.add_child(UITheme.spacer(6))
 
 	var play_btn := UITheme.make_primary_button("Play")
+	UITheme.add_icon(play_btn, "play")
 	play_btn.custom_minimum_size = Vector2(280, 52)
 	play_btn.pressed.connect(func():
 		SFX.nav()
@@ -83,6 +84,7 @@ static func build(main: Node, host: Control) -> void:
 	v.add_child(row)
 
 	var store_btn := UITheme.make_ghost_button("Store")
+	UITheme.add_icon(store_btn, "store")
 	store_btn.pressed.connect(func():
 		SFX.nav()
 		main.menu_focus = "store"
@@ -91,6 +93,7 @@ static func build(main: Node, host: Control) -> void:
 	row.add_child(store_btn)
 
 	var gallery_btn := UITheme.make_ghost_button("Gallery")
+	UITheme.add_icon(gallery_btn, "gallery")
 	gallery_btn.pressed.connect(func():
 		SFX.nav()
 		main.menu_focus = "gallery"
@@ -99,6 +102,7 @@ static func build(main: Node, host: Control) -> void:
 	row.add_child(gallery_btn)
 
 	var ach_btn := UITheme.make_ghost_button("Achievements")
+	UITheme.add_icon(ach_btn, "achievements")
 	ach_btn.pressed.connect(func():
 		SFX.nav()
 		main.menu_focus = "achievements"
@@ -107,6 +111,7 @@ static func build(main: Node, host: Control) -> void:
 	row.add_child(ach_btn)
 
 	var howto_btn := UITheme.make_ghost_button("How to Play")
+	UITheme.add_icon(howto_btn, "help")
 	howto_btn.pressed.connect(func():
 		SFX.nav()
 		main.menu_focus = "howto"
@@ -115,6 +120,7 @@ static func build(main: Node, host: Control) -> void:
 	row.add_child(howto_btn)
 
 	var credits_btn := UITheme.make_ghost_button("Credits")
+	UITheme.add_icon(credits_btn, "credits")
 	credits_btn.pressed.connect(func():
 		SFX.nav()
 		main.menu_focus = "credits"
@@ -127,6 +133,7 @@ static func build(main: Node, host: Control) -> void:
 	# out and "quitting" would just freeze the page.
 	if not OS.has_feature("web"):
 		var quit_btn := UITheme.make_ghost_button("Quit")
+		UITheme.add_icon(quit_btn, "quit")
 		quit_btn.pressed.connect(func():
 			SFX.nav()
 			GameState.quit_game()

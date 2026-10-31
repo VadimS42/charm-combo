@@ -680,6 +680,24 @@ static func apply_icon(b: Button, icon_name: String, plain_text: String = "") ->
 	b.add_theme_constant_override("icon_max_width", 20)
 
 
+## Puts art/ui/<icon_name>.png in front of a button's word, keeping the word
+## (round 35). The icons are white glyphs, so they're tinted to the button's
+## own text colour and read the same on light and dark buttons. Call it after
+## any font colour overrides. No file: the button stays as it was.
+static func add_icon(b: Button, icon_name: String, px: int = 18) -> void:
+	var tex := ArtAssets.ui_icon(icon_name)
+	if tex == null:
+		return
+	b.icon = tex
+	b.expand_icon = false
+	b.add_theme_constant_override("icon_max_width", px)
+	b.add_theme_constant_override("h_separation", 8)
+	for state in ["normal", "hover", "pressed", "focus", "hover_pressed", "disabled"]:
+		var font_key := "font_color" if state == "normal" else "font_%s_color" % state
+		if b.has_theme_color(font_key):
+			b.add_theme_color_override("icon_%s_color" % state, b.get_theme_color(font_key))
+
+
 ## A placeholder_tag() pinned inside the top-right corner of whatever it's
 ## added to (a full-rect, click-through wrapper). Anchoring the tag itself
 ## to PRESET_TOP_RIGHT without offsets leaves it hanging off the right edge,

@@ -17,6 +17,30 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-35 — painted gems, her colour on every frame, icons
+
+From the free packs sent this round (`tools/icon_packs/make_game_art.py`
+rebuilds all of it; sources and licences in `tools/icon_packs/src/`):
+
+- **Gems** (`art/gems`): painted "MIX gems", each type its own colour and
+  shape: ember red teardrop, moonstone silver round, petal pink lozenge, pearl
+  blue shield, rune purple tablet, crystal green shard. Cursed shards are a dark
+  gem with glowing red cracks. Rockets are a gold shard laid along their row or
+  column with speed streaks; the Starburst is the shop's Starburst picture.
+  `CharacterData.gem_color` matches the new colours (crystal is green now).
+- **Her colour** (Ravenmore's square and round frames, recoloured per girl):
+  every board cell (`art/tiles/<girl>.png`), the item slots under the board
+  (`<girl>_slot.png`) and the border around the board (`art/frames/<girl>.png`,
+  nine-sliced, replacing the "Frame placeholder"). A picked-up gem's cell lights up.
+- **Icons** (`art/ui`, Kenney, CC0): next to the words on Settings, the main
+  menu (Play, Store, Gallery, Achievements, How to Play, Credits, Quit), the
+  dialogue controls (Log, Auto, Skip, Skip unread, Hide text), Gallery, How to
+  Play, Retry, Item Shop, Play it again. `UITheme.add_icon()` tints them to
+  each button's text colour. Painted star (stars everywhere), heart (Charm
+  ring) and hourglass (moves).
+- Power-up pictures (`art/store`) were already painted and stay.
+- `data/credits.txt` credits the packs; the MIX gems author still needs filling in.
+
 ## ✅ Status: round-34 — her gift is a permanent boost
 
 - A girl's gift (her roster card, 22 stars) is offered once her **first

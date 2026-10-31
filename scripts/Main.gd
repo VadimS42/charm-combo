@@ -186,6 +186,7 @@ func _build_chrome() -> void:
 	# the thing to press to get back out. Esc does the same (_unhandled_input).
 	# A word, not a gear icon (round 28: words wherever a word works).
 	var settings_btn := UITheme.make_glass_button("Settings")
+	UITheme.add_icon(settings_btn, "settings")
 	settings_btn.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 	settings_btn.tooltip_text = "Settings"
 	# Start / Esc open Settings with keys or a pad, so focus navigation stays
@@ -813,6 +814,7 @@ func show_demo_end() -> void:
 	row.alignment = BoxContainer.ALIGNMENT_END
 	v.add_child(row)
 	var menu_btn := UITheme.make_ghost_button("Main menu")
+	UITheme.add_icon(menu_btn, "menu")
 	menu_btn.pressed.connect(func():
 		SFX.nav()
 		show_menu()

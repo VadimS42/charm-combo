@@ -114,23 +114,17 @@ static func gem_label(gem_id: String) -> String:
 ## res://art/gems/<name>.png (see ArtAssets.gd).
 static func gem_color(type_index: int) -> Color:
 	match type_index:
-		0: return Color("#FF7A4D")  # ember
-		1: return Color("#C9B6FF")  # moonstone
-		2: return Color("#FF8FB3")  # petal
-		3: return Color("#4FD0E0")  # pearl
-		4: return Color("#7C6BFF")  # rune
-		5: return Color("#3FC9BE")  # crystal
-		6: return Color("#5B5560")  # cursed shard
+		# Round 35: matched to the painted gems (art/gems).
+		0: return Color("#F0582E")  # ember, red
+		1: return Color("#CFCBE0")  # moonstone, silver
+		2: return Color("#F04FB0")  # petal, pink
+		3: return Color("#2FA8E0")  # pearl, blue
+		4: return Color("#9A5CF0")  # rune, purple
+		5: return Color("#8BD534")  # crystal, green
+		6: return Color("#4A3346")  # cursed shard
 	return Color.WHITE
 
 
-## Builds this chapter's gem weights: a baseline color spread, a "cursed
-## shard" (broken-heart-equivalent) weight that climbs with chapter
-## difficulty, and any active store boosts. Direct port of the original HTML
-## prototype's computeWeights(ch, chapterIdx) — same formula, same store item
-## effects, so the difficulty curve matches what was already tuned/playtested
-## there. See PuzzleScreen.setup() for where this gets called and the boosts
-## actually get consumed.
 ## Her gift, once given, makes her favourite gem turn up this much more often
 ## in all her chapters for good (round 34): a weaker, permanent Favor Charm
 ## (that one is x2.2 for one chapter, and the two stack).
@@ -144,6 +138,13 @@ static func has_gift(ch: Dictionary) -> bool:
 	return (GameState.progress_for(String(ch.id)).get("gifts_given", []) as Array).has(String(gift.id))
 
 
+## Builds this chapter's gem weights: a baseline color spread, a "cursed
+## shard" (broken-heart-equivalent) weight that climbs with chapter
+## difficulty, and any active store boosts. Direct port of the original HTML
+## prototype's computeWeights(ch, chapterIdx) — same formula, same store item
+## effects, so the difficulty curve matches what was already tuned/playtested
+## there. See PuzzleScreen.setup() for where this gets called and the boosts
+## actually get consumed.
 static func compute_weights(ch: Dictionary, chapter_idx: int) -> Array:
 	var w: Array = MatchEngine.DEFAULT_WEIGHTS.duplicate()
 	w[MatchEngine.BROKEN_IDX] = 2.0 + float(chapter_idx) * 1.2

@@ -319,21 +319,22 @@ static func build(main: Node, host: Control, char_id: String, lines: Array, choi
 	ctrl_row.add_theme_constant_override("separation", 8)
 	ctrl_row.mouse_filter = Control.MOUSE_FILTER_PASS
 	box_v.add_child(ctrl_row)
-	var mk := func(label: String, tip: String) -> Button:
+	var mk := func(label: String, tip: String, icon: String = "") -> Button:
 		var b := UITheme.make_glass_button(label)
 		b.focus_mode = Control.FOCUS_NONE
 		b.toggle_mode = false
 		b.tooltip_text = tip
 		b.add_theme_font_size_override("font_size", 12)
+		UITheme.add_icon(b, icon, 14)
 		ctrl_row.add_child(b)
 		return b
-	var log_btn: Button = mk.call("Log", "Read back (L, or scroll up)")
-	var auto_btn: Button = mk.call("Auto", "Lines carry on by themselves (A)")
-	var skip_btn: Button = mk.call("Skip", "Skip lines you've read (hold Ctrl)")
-	var skip_all_btn: Button = mk.call("Skip unread", "Skip every line up to the next reply, read or not")
+	var log_btn: Button = mk.call("Log", "Read back (L, or scroll up)", "log")
+	var auto_btn: Button = mk.call("Auto", "Lines carry on by themselves (A)", "auto")
+	var skip_btn: Button = mk.call("Skip", "Skip lines you've read (hold Ctrl)", "skip")
+	var skip_all_btn: Button = mk.call("Skip unread", "Skip every line up to the next reply, read or not", "skip_all")
 	var hide_btn: Button = null
 	if cg_key != "":
-		hide_btn = mk.call("Hide text", "See the whole picture (H)")
+		hide_btn = mk.call("Hide text", "See the whole picture (H)", "hide")
 	var row_sp := Control.new()
 	row_sp.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	row_sp.mouse_filter = Control.MOUSE_FILTER_IGNORE

@@ -187,6 +187,7 @@ static func build(main: Node, host: Control) -> void:
 	extra_row.add_theme_constant_override("separation", 10)
 	v.add_child(extra_row)
 	var howto := UITheme.make_ghost_button("How to Play")
+	UITheme.add_icon(howto, "help")
 	howto.pressed.connect(func():
 		SFX.nav()
 		HowToPlay.show_page(main)

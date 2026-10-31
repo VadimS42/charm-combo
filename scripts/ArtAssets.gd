@@ -229,6 +229,18 @@ static func store_icon(item_id: String) -> Texture2D:
 	return _try_load(STORE_DIR + item_id + ".png")
 
 
+## res://art/tiles/<char_id>.png — one board cell, a square frame in her
+## colour (round 35, tools/icon_packs/make_game_art.py). Null: flat tiles.
+static func board_tile(char_id: String) -> Texture2D:
+	return _try_load("res://art/tiles/" + char_id + ".png")
+
+
+## res://art/tiles/<char_id>_slot.png — the round frame behind each item
+## under the board, in her colour. Null: the plain white coin.
+static func item_slot(char_id: String) -> Texture2D:
+	return _try_load("res://art/tiles/" + char_id + "_slot.png")
+
+
 ## res://art/frames/<char_id>.png — a decorative border themed to each
 ## heroine, drawn behind the puzzle board itself (see PuzzleScreen.gd) so
 ## the board reads as sitting inside something that belongs to her chapter

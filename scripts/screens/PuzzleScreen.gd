@@ -141,8 +141,12 @@ class CharmRing extends Control:
 ## to lose track of, especially once the text-contrast bug (see UITheme.gd)
 ## made every item button look the same washed-out gray regardless of state.
 ## These hold the two looks so _refresh_item_button() can swap between them.
-var _hammer_unarmed_style: StyleBoxFlat
-var _hammer_armed_style: StyleBoxFlat
+var _hammer_unarmed_style: StyleBox
+var _hammer_armed_style: StyleBox
+## Her board cell and item slot frames (art/tiles, round 35); null = the
+## flat coloured tiles and white coins.
+var _tile_tex: Texture2D
+var _slot_tex: Texture2D
 
 ## This chapter's gem weights (baseline + difficulty ramp + any store boosts
 ## consumed at chapter start) — see CharacterData.compute_weights(). Held for
@@ -165,6 +169,8 @@ func setup(p_main: Node, p_host: Control, p_char_id: String, p_replay: int = -1)
 	host = p_host
 	char_id = p_char_id
 	ch = CharacterData.by_id(char_id)
+	_tile_tex = ArtAssets.board_tile(char_id)
+	_slot_tex = ArtAssets.item_slot(char_id)
 	var progress := GameState.progress_for(char_id)
 	replay = p_replay
 	level_index = replay if replay >= 0 else int(progress.get("level_index", 0))
@@ -520,6 +526,7 @@ func _build_ui() -> void:
 	)
 	top_row.add_child(back)
 	var how_btn := _photo_nav_button("How to Play")
+	UITheme.add_icon(how_btn, "help")
 	how_btn.pressed.connect(func():
 		SFX.nav()
 		HowToPlay.show_page(main)
@@ -591,11 +598,16 @@ func _build_ui() -> void:
 	var frame_margin := 36.0
 	var frame_tex := ArtAssets.puzzle_frame(char_id)
 	if frame_tex:
-		var frame_img := TextureRect.new()
+		# Nine-sliced (round 35): the rim keeps its drawn width however big
+		# the board is, and only the face stretches.
+		var frame_img := NinePatchRect.new()
 		frame_img.texture = frame_tex
+		var patch := int(frame_tex.get_width() / 6)
+		frame_img.patch_margin_left = patch
+		frame_img.patch_margin_top = patch
+		frame_img.patch_margin_right = patch
+		frame_img.patch_margin_bottom = patch
 		frame_img.custom_minimum_size = Vector2(board_w + frame_margin * 2.0, board_h + frame_margin * 2.0)
-		frame_img.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
-		frame_img.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 		frame_img.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		board_center.add_child(frame_img)
 	else:
@@ -897,11 +909,23 @@ func _item_slot(item_id: String) -> Control:
 	disabled_style.border_color = UITheme.LINE
 	disabled_style.shadow_size = 0
 
-	b.add_theme_stylebox_override("normal", normal)
-	b.add_theme_stylebox_override("hover", hover)
-	b.add_theme_stylebox_override("pressed", hover)
+	var normal_box: StyleBox = normal
+	var armed_box: StyleBox = null
+	if _slot_tex:
+		# Her round frame instead of the white coin; the painted item
+		# pictures are bright enough to read on its dark face.
+		normal_box = _slot_style(Color.WHITE)
+		hover = null
+		armed_box = _slot_style(Color(1.8, 0.9, 1.5))
+		b.add_theme_stylebox_override("hover", _slot_style(Color(1.25, 1.25, 1.25)))
+		b.add_theme_stylebox_override("pressed", _slot_style(Color(1.25, 1.25, 1.25)))
+		b.add_theme_stylebox_override("disabled", _slot_style(Color(0.6, 0.6, 0.6, 0.8)))
+	else:
+		b.add_theme_stylebox_override("hover", hover)
+		b.add_theme_stylebox_override("pressed", hover)
+		b.add_theme_stylebox_override("disabled", disabled_style)
+	b.add_theme_stylebox_override("normal", normal_box)
 	b.add_theme_stylebox_override("focus", UITheme.focus_ring(28))
-	b.add_theme_stylebox_override("disabled", disabled_style)
 
 	var icon_tex := ArtAssets.store_icon(item_id)
 	if icon_tex:
@@ -917,7 +941,10 @@ func _item_slot(item_id: String) -> Control:
 	b.pressed.connect(_on_item_pressed.bind(item_id))
 	item_btns[item_id] = b
 
-	if item_id == "hammer":
+	if item_id == "hammer" and armed_box:
+		_hammer_unarmed_style = normal_box
+		_hammer_armed_style = armed_box
+	elif item_id == "hammer":
 		_hammer_unarmed_style = normal
 		var armed: StyleBoxFlat = normal.duplicate()
 		armed.border_color = UITheme.SPECIAL_PINK
@@ -950,6 +977,14 @@ func _item_slot(item_id: String) -> Control:
 
 	_refresh_item_button(item_id)
 	return wrap
+
+
+## An item slot: her round frame, tinted (hover, off, the armed Hammer).
+func _slot_style(tint: Color) -> StyleBoxTexture:
+	var st := StyleBoxTexture.new()
+	st.texture = _slot_tex
+	st.modulate_color = tint
+	return st
 
 
 func _refresh_item_button(item_id: String) -> void:
@@ -1137,6 +1172,18 @@ func _color_for(t: int) -> Color:
 	return CharacterData.gem_color(t)
 
 
+## A board cell: her square frame, lit up when it's the picked-up gem.
+func _tile_style(selected_cell: bool) -> StyleBoxTexture:
+	var st := StyleBoxTexture.new()
+	st.texture = _tile_tex
+	for side in [SIDE_LEFT, SIDE_TOP, SIDE_RIGHT, SIDE_BOTTOM]:
+		st.set_texture_margin(side, 14)
+		st.set_content_margin(side, 3)
+	if selected_cell:
+		st.modulate_color = Color(1.9, 1.75, 1.3)
+	return st
+
+
 ## pop_cells (Dictionary<"r,c" -> true>) marks cells that just changed —
 ## newly dropped-in gems after a match, or the whole board on chapter start
 ## — and get a staggered scale pop-in. Cells not in pop_cells are re-styled
@@ -1162,6 +1209,9 @@ func _render_board(pop_cells: Dictionary = {}) -> void:
 				# be told apart by shape, not only by similar hues (pearl vs.
 				# crystal, moonstone vs. rune).
 				var tint := ICON_TINT_ON_DARK if t == MatchEngine.BROKEN_IDX else ICON_TINT
+				# Painted gems on her framed cells keep their own colours.
+				if _tile_tex:
+					tint = Color.WHITE
 				for key in ["icon_normal_color", "icon_hover_color", "icon_pressed_color", "icon_focus_color"]:
 					btn.add_theme_color_override(key, tint)
 			else:
@@ -1169,6 +1219,14 @@ func _render_board(pop_cells: Dictionary = {}) -> void:
 				btn.text = _glyph(t)
 			var bg := _color_for(t)
 			var is_sel := selected == Vector2i(r, c)
+			if _tile_tex:
+				var tile := _tile_style(is_sel)
+				btn.add_theme_stylebox_override("normal", tile)
+				btn.add_theme_stylebox_override("hover", tile)
+				btn.add_theme_stylebox_override("pressed", tile)
+				btn.disabled = false
+				btn.add_theme_color_override("font_color", Color.WHITE)
+				continue
 			var radius := 22 if is_sel else 13
 			var style := UITheme.button_style(bg, radius)
 			# button_style()'s padding (20px sides, 12px top/bottom) is sized for
@@ -2087,11 +2145,13 @@ func _show_replay_win() -> void:
 	row.add_theme_constant_override("separation", 10)
 	v.add_child(row)
 	var again := UITheme.make_primary_button("Play it again")
+	UITheme.add_icon(again, "play")
 	again.pressed.connect(func():
 		main.show_puzzle(char_id, replay)
 	)
 	row.add_child(again)
 	var shop_btn := UITheme.make_ghost_button("Item Shop")
+	UITheme.add_icon(shop_btn, "store")
 	shop_btn.pressed.connect(func():
 		SFX.nav()
 		main.store_return_char = ""
@@ -2176,6 +2236,7 @@ func _show_lose_overlay() -> void:
 		row.add_child(use_btn)
 
 	var retry_btn := UITheme.make_ghost_button("Retry Chapter")
+	UITheme.add_icon(retry_btn, "back")
 	retry_btn.pressed.connect(func():
 		# Re-enter through Main's router rather than re-running setup() in
 		# place, so the screen_host is properly cleared first (a fresh
@@ -2188,6 +2249,7 @@ func _show_lose_overlay() -> void:
 	# Straight to the shop; its Back button brings you back into this chapter
 	# for a fresh try (Main.open_store_from_chapter()).
 	var shop_btn := UITheme.make_ghost_button("Item Shop")
+	UITheme.add_icon(shop_btn, "store")
 	shop_btn.pressed.connect(func():
 		SFX.nav()
 		main.open_store_from_chapter(char_id, replay)

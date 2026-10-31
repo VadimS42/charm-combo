@@ -96,6 +96,7 @@ static func build(main: Node, host: Control) -> void:
 	spacer.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	top_row.add_child(spacer)
 	var gallery_btn := UITheme.make_glass_button("Gallery")
+	UITheme.add_icon(gallery_btn, "gallery")
 	gallery_btn.pressed.connect(func():
 		SFX.nav()
 		main.show_gallery()
