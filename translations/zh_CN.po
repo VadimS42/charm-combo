@@ -36,11 +36,20 @@ msgstr "(还差%d颗星星。)"
 msgid "+%d pts — great answer!"
 msgstr "+%d分——回答得好!"
 
+msgid "+%d to win her over"
+msgstr "赢得她的心还需+%d"
+
 msgid "+%d ⭐"
 msgstr "+%d ⭐"
 
 msgid "+%d ⭐ for trying"
 msgstr "+%d ⭐ 鼓励奖"
+
+msgid "+%d ⭐ towards it"
+msgstr "+%d ⭐ 助你一臂之力"
+
+msgid "-1 move"
+msgstr "-1步"
 
 msgid "1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!"
 msgstr "每200分得1颗星星。去道具商店攒钱买增益,然后再试一次!"
@@ -57,6 +66,9 @@ msgstr "一个安静的地方"
 msgid "A clock that only works when the sun's out."
 msgstr "一个只有出太阳时才走的钟。"
 
+msgid "A cold breeze"
+msgstr "一阵冷风"
+
 msgid "A folding brass sundial small enough for a pocket. It only tells the time on sunny days, which as far as she's concerned are the only days that need it."
 msgstr "一只折叠式黄铜日晷,小得能放进口袋。只有晴天才能报时,而在她看来,只有晴天才值得报时。"
 
@@ -68,6 +80,9 @@ msgstr "一片叶子落进你的头发里。没有风。"
 
 msgid "A match-3 romance for adults, set in Millbrook, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes."
 msgstr "一款面向成年人的三消恋爱游戏,故事发生在暮色小镇米尔布鲁克,奇幻种族在这里安家。用最糟糕的方式结识四位女子,帮她们解决所需,看看这一夜会走向何方。"
+
+msgid "A reader shushes you"
+msgstr "有位读者冲你们嘘了一声"
 
 msgid "A sapling beside the new millrace, a ribbon tied round it."
 msgstr "新水道边的一棵小树苗,系着一条丝带。"
@@ -81,8 +96,14 @@ msgstr "一阵暴风袭来,吹过海湾。她偏要潜水。你抓着绳梯,在�
 msgid "A tall beeswax candle with a nine-hour wick. It burns longer if nobody blows it out."
 msgstr "一支高高的蜂蜡蜡烛,烛芯能烧九个小时。没人吹灭的话,烧得更久。"
 
+msgid "A tip"
+msgstr "小提示"
+
 msgid "A twig drops, very precisely, into your lunch."
 msgstr "一根小树枝,不偏不倚落进你的午饭里。"
+
+msgid "A wave over the pier"
+msgstr "一道浪打上码头"
 
 msgid "ACHIEVEMENT UNLOCKED"
 msgstr "成就解锁"
@@ -144,6 +165,9 @@ msgstr "安布罗斯会喜欢你的。他喜欢会道歉的人。"
 msgid "Ambrose wrote that label. He was the forester. When the alchemists came round buying slimes, he hid me out here. It worked for thirty-one years."
 msgstr "那标签是安布罗斯写的。他是护林员。炼金术士们来收购史莱姆的时候,他把我藏在这里。这招管用了三十一年。"
 
+msgid "An owl startles her"
+msgstr "一只猫头鹰吓了她一跳"
+
 msgid "And this time, take your clothes off before you jump in."
 msgstr "这一次,跳下去之前先把衣服脱了。"
 
@@ -198,6 +222,9 @@ msgstr "船屋。那里有门。奶奶看不穿门。大概吧。"
 msgid "Boom!"
 msgstr "嘭!"
 
+msgid "Brambles underfoot"
+msgstr "脚下的荆棘"
+
 msgid "Brass Pocket Sundial"
 msgstr "黄铜袖珍日晷"
 
@@ -227,6 +254,9 @@ msgstr "我、我今晚能睡在你房间吗?不是罐子里。和你一起。"
 
 msgid "CHAPTER GOAL"
 msgstr "章节目标"
+
+msgid "COMING UP"
+msgstr "即将发生"
 
 msgid "Can we not? Please?"
 msgstr "能不能别这样?拜托?"
@@ -263,6 +293,9 @@ msgstr "魅力爆发!+150"
 
 msgid "Charm Combo is for adults"
 msgstr "Charm Combo 仅限成年人"
+
+msgid "Charm halved"
+msgstr "魅力减半"
 
 msgid "Charm — fills as you match (her favorite gem fastest). Full = +150 Charm Burst."
 msgstr "魅力——随消除充能(她最爱的宝石充得最快)。充满 = 魅力爆发 +150。"
@@ -354,8 +387,14 @@ msgstr "第四天。消息传开了,有人在老榛树旁挖土而不是砍树�
 msgid "Day three. She's been in the water since dawn, and she misses the rope ladder twice trying to climb onto the pier. At the far end, three old fishermen are setting out their Thursday tile game by lamplight."
 msgstr "第三天。她从黎明起就在水里,两次爬码头的绳梯都没抓住。码头尽头,三位老渔夫正就着灯光摆开他们周四的骨牌游戏。"
 
+msgid "Dead leaves come down"
+msgstr "枯叶纷纷落下"
+
 msgid "Dialogue controls"
 msgstr "对话操作"
+
+msgid "Difficulty"
+msgstr "难度"
 
 msgid "Dig faster. I'd like to see another spring."
 msgstr "挖快点。我还想再看到一个春天。"
@@ -405,8 +444,14 @@ msgstr "下面的码头上,一整家人正对着水面大喊。礁石外面,一�
 msgid "Dryad of the old hazel"
 msgstr "老榛树的树精"
 
+msgid "Dust off the top shelf"
+msgstr "顶层书架落下的灰尘"
+
 msgid "Each chapter has a points goal and a number of moves. Reach the goal before your moves run out and the story carries on. There's no timer: take as long as you like."
 msgstr "每个章节都有分数目标和步数限制。在步数用完前达到目标,故事就会继续。没有计时器,慢慢来。"
+
+msgid "Easy"
+msgstr "简单"
 
 msgid "Eat your lunch. I'm sure her bread is very good. I wouldn't know."
 msgstr "吃你的午饭吧。我相信她的面包很好吃。我可不知道。"
@@ -422,6 +467,9 @@ msgstr "结局:%s"
 
 msgid "English"
 msgstr "English"
+
+msgid "Every few moves something happens around you: the panel on her side says what and when. It might raise what it takes to win her over, turn gems into cursed shards, cost you a move or halve your Charm ring. Matching her favourite gem holds it off a move; a Charm Burst clears it."
+msgstr "每走几步,你们身边就会发生点什么:她那一侧的面板会告诉你是什么、何时发生。它可能提高赢得她的心所需的分数、把宝石变成诅咒碎片、让你少一步,或让魅力环减半。消除她最爱的宝石能推迟一步;魅力爆发能把它化解。"
 
 msgid "Every girl has a favourite gem and one she dislikes (it's on her card in the roster). Matching her favourite fills the Charm ring faster."
 msgstr "每位女孩都有一种最爱的宝石和一种讨厌的宝石(在名册中她的卡片上可以看到)。消除她最爱的宝石,魅力环会充得更快。"
@@ -558,6 +606,15 @@ msgstr "锤子"
 msgid "Hand-Dipped Beeswax Candle"
 msgstr "手工蘸制蜂蜡蜡烛"
 
+msgid "Hard"
+msgstr "困难"
+
+msgid "Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Takes effect from the next chapter."
+msgstr "困难:每走几步,约会中就会发生点什么(浪打上码头、蜡烛摇曳将熄),并会提前显示。从下一章开始生效。"
+
+msgid "Hard: things happen on your date"
+msgstr "困难:约会中的意外"
+
 msgid "Hazel Mossgrove"
 msgstr "黑泽尔·莫斯格罗夫"
 
@@ -611,6 +668,9 @@ msgstr "她的借书证上写着你的地址,字迹细小而愤怒。她带着�
 
 msgid "Her night scene"
 msgstr "她的夜晚场景"
+
+msgid "Her sisters start watching"
+msgstr "她的姐妹们开始围观"
 
 msgid "Her story starts over from your first meeting, so you can make different choices. Endings you've found stay in the Gallery, your gift stays given, and her chapters pay out stars again."
 msgstr "她的故事会从你们初次相遇重新开始,这样你可以做出不同的选择。你已找到的结局会保留在图鉴中,送出的礼物依然算送出,她的章节也会再次给予星星。"
@@ -819,6 +879,9 @@ msgstr "也没那么糟,不过有些动物……勉强算是能忍的伙伴。"
 msgid "It rains all night. None of it reaches you."
 msgstr "雨下了一整夜。一滴也没落到你们身上。"
 
+msgid "It starts to rain"
+msgstr "开始下雨了"
+
 msgid "It was a joke. He laughed at it every single morning for thirty-one years."
 msgstr "那是个玩笑。他每天早上都为它笑,笑了三十一年。"
 
@@ -951,6 +1014,18 @@ msgstr "主音量"
 msgid "Match 4 in a row to make a Rocket, which clears its row or column. Match 5, or an L or T shape, to make a Starburst. Swap a special gem to set it off; swap two together for a Mega Blast."
 msgstr "一行连成4个会生成火箭,清除所在的行或列。连成5个,或连成L形、T形,会生成星爆。交换特殊宝石即可引爆;把两个特殊宝石交换在一起,则触发超级爆破。"
 
+msgid "Match crystals, Opal's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Love Potion brings more of them."
+msgstr "消除水晶,欧泊最爱的宝石:它们让魅力环充得快一倍,在困难模式下还能推迟即将发生的事。爱情药水会带来更多水晶。"
+
+msgid "Match pearls, Marina's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Time Scroll buys back lost moves."
+msgstr "消除珍珠,玛丽娜最爱的宝石:它们让魅力环充得快一倍,在困难模式下还能推迟即将发生的事。时间卷轴能补回失去的步数。"
+
+msgid "Match petals, Hazel's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards."
+msgstr "消除花瓣,黑泽尔最爱的宝石:它们让魅力环充得快一倍,在困难模式下还能推迟即将发生的事。疗愈药水能减少诅咒碎片。"
+
+msgid "Match runes, Amara's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards."
+msgstr "消除符文,阿玛拉最爱的宝石:它们让魅力环充得快一倍,在困难模式下还能推迟即将发生的事。疗愈药水能减少诅咒碎片。"
+
 msgid "Maybe I'm saving my wish for something good."
 msgstr "也许我是在把愿望留给更好的事。"
 
@@ -1025,6 +1100,9 @@ msgstr "妈妈想喂你吃饭。你已经被警告了。"
 
 msgid "Music"
 msgstr "音乐"
+
+msgid "Neither of you notices what was coming."
+msgstr "你们俩谁都没注意到即将发生的事。"
 
 msgid "Next"
 msgstr "下一步"
@@ -1509,6 +1587,9 @@ msgstr "这是从市集摊子上买的。我闻得出来。"
 msgid "Someone in this town knows exactly what that book is."
 msgstr "这座镇上有人确切知道那本书是什么。"
 
+msgid "Something about to happen on your date. Matching her favourite gem holds it off a move; a Charm Burst clears it."
+msgstr "约会中即将发生的事。消除她最爱的宝石能推迟一步;魅力爆发能把它化解。"
+
 msgid "Something cool and slightly heavy is draped over you like a blanket. It turns out to be her."
 msgstr "有什么清凉而微重的东西像毯子一样盖在你身上。原来是她。"
 
@@ -1743,6 +1824,9 @@ msgstr "蜡烛烧尽了,你们两个都没留意它是什么时候熄灭的。"
 msgid "The candle in your chalk circle, the fourth one this week, is nearly gone. She watches it gutter and doesn't go anywhere."
 msgstr "你粉笔圈里的蜡烛,这周的第四支,快烧尽了。她看着它摇曳,却没有离开。"
 
+msgid "The candles gutter"
+msgstr "蜡烛摇曳将熄"
+
 msgid "The card catalogue has a gap where the book should be. Someone has left a slip in the drawer instead: OUT FOR REBINDING, and a name."
 msgstr "卡片目录里有一处空缺,该放那本书的地方。有人在抽屉里放了一张便条:“送去重新装订”,后面还有一个名字。"
 
@@ -1791,6 +1875,9 @@ msgstr "美人鱼第一次认真地看着你。你浑身滴水。还丢了一只
 msgid "The miller sent you? He sends someone every spring."
 msgstr "磨坊主派你来的?他每年春天都派人来。"
 
+msgid "The miller walks past"
+msgstr "磨坊主路过"
+
 msgid "The millrace runs and the old hazel keeps her roots. You plant another hazel beside the new channel, and it grows faster than it has any right to, leaning towards the old tree as if it's listening. You sleep in the grove more nights than not, and the old hazel blossoms in the wrong season, every season, which the miller now tells people is good luck."
 msgstr "水道流淌,老榛树保住了它的根。你在新水道边又种下一棵榛树,它长得快得离谱,朝着老树倾斜,仿佛在聆听。你在树林里过夜的日子比不过夜的多,老榛树每个季节都在不合时令地开花,磨坊主现在逢人便说这是好运。"
 
@@ -1829,6 +1916,9 @@ msgstr "小溪通向镇上。我们走吧。你要抱着我!可以吗?"
 
 msgid "The taxidermist is so startled he gives her the eye, the owl, and a discount on a second owl."
 msgstr "标本师惊得把眼珠、猫头鹰,还有第二只猫头鹰的折扣都给了她。"
+
+msgid "The tide turns"
+msgstr "潮水转向"
 
 msgid "The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts."
 msgstr "上面一排在章节中使用;下面一排会在你的下一章开始时自动生效。"
@@ -1922,6 +2012,9 @@ msgstr "时间卷轴"
 
 msgid "Toggle"
 msgstr "切换"
+
+msgid "Try: %s"
+msgstr "试试:%s"
 
 msgid "Turn the lamp down a bit? Everything shows, with me."
 msgstr "把灯调暗一点好吗?在我身上,什么都看得见。"
@@ -2231,6 +2324,12 @@ msgstr "你的第二个环没闭合。那个符号是倒的。这个压根不是
 
 msgid "Yours. Fine. I'm bringing my own candles."
 msgstr "你的。好吧。我自己带蜡烛来。"
+
+msgid "after your next move"
+msgstr "在你下一步之后"
+
+msgid "in %d moves"
+msgstr "%d步后"
 
 msgid "←  Back"
 msgstr "←  返回"

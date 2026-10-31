@@ -381,3 +381,12 @@ You tell her to keep it. For storms.
 
 @@ opal-0124
 For storms. Okay. Just for storms.
+
+@@ opal-0125
+A cold breeze
+
+@@ opal-0126
+Brambles underfoot
+
+@@ opal-0127
+An owl startles her

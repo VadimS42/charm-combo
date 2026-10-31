@@ -354,3 +354,12 @@ A sapling beside the new millrace, a ribbon tied round it.
 
 @@ hazel-0115
 You say another hazel, so she isn't the only one.
+
+@@ hazel-0116
+Dead leaves come down
+
+@@ hazel-0117
+The miller walks past
+
+@@ hazel-0118
+It starts to rain

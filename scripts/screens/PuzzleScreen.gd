@@ -71,6 +71,26 @@ var goal_bar: ProgressBar
 var charm_ring: Control
 var toast_layer: Control
 var overlay: PanelContainer
+
+# ---- the date's events (round 41; Hard difficulty only) ----
+# After Mirror's telegraphed turns, but nobody fights you: every few of your
+# moves something happens on the date (a wave over the pier, the candles
+# gutter), and the panel on her side says what's coming and when. Matching
+# her favourite gem holds it off a move; a Charm Burst clears it. EVENT_KINDS
+# has what each kind does; each girl's events are characters.json
+# "dateEvents". On Easy (the default) there are none: the classic puzzle.
+var _events: Array = []
+var _event_every := 4
+var _event_i := 0
+var _event_count := 0
+## Points "guard" events have added to this chapter's target.
+var _guard_extra := 0
+## Her favourite gem already held the next event off during this move.
+var _held_off := false
+var _event_pill: PanelContainer
+var _event_pill_icon: TextureRect
+var _event_pill_name: Label
+var _event_pill_when: Label
 var item_btns: Dictionary = {}
 var item_count_lbls: Dictionary = {}
 var _sprite_token := 0
@@ -177,6 +197,10 @@ func setup(p_main: Node, p_host: Control, p_char_id: String, p_replay: int = -1)
 	level = ch.story.levels[level_index]
 
 	moves_left = int(level.moves)
+	var rot := event_rotation(ch, level_index)
+	_events = rot.moves
+	_event_every = int(rot.every)
+	_event_count = _event_every
 	# The conversation choice's starting-score bonus for THIS chapter. Kept in
 	# her saved progress until the chapter is won (StoryFlow.on_chapter_won()),
 	# so a retry, leaving mid-chapter or relaunching the game still starts with
@@ -715,6 +739,7 @@ func _build_ui() -> void:
 	_speech_lbl = UITheme.body("", 14, UITheme.INK_ON_DARK)
 	_speech_lbl.autowrap_mode = TextServer.AUTOWRAP_WORD
 	speech_v.add_child(_speech_lbl)
+	_build_event_pill(sidebar_root)
 
 	overlay = PanelContainer.new()
 	overlay.visible = false
@@ -1399,6 +1424,168 @@ func _pop_out(matched: Dictionary) -> void:
 		btn.modulate = Color.WHITE
 
 
+## What it takes to win her over this chapter: its target, plus whatever
+## "guard" events have added.
+func _target() -> int:
+	return int(level.target) + _guard_extra
+
+
+## What each kind of event does: its picture, and her face when it happens.
+const EVENT_KINDS := {
+	"guard": {"icon": "guard", "face": "surprised"},  # the mood dips: the target goes up
+	"shards": {"icon": "cursed", "face": "surprised"},  # a few gems turn into cursed shards
+	"fluster": {"icon": "hourglass", "face": "shy"},  # you lose your train of thought: -1 move
+	"cool": {"icon": "heart_empty", "face": "sad"},  # your Charm ring halves
+}
+
+
+## Hard difficulty (Settings): the date's events are on.
+static func hard_mode() -> bool:
+	return String(GameState.settings.get("difficulty", "easy")) == "hard"
+
+
+## This chapter's events and how often one happens (none on Easy): chapter 1
+## only her first event every 5 of your moves, then two, then all three every
+## 4, and in the last chapter every 3.
+static func event_rotation(c: Dictionary, chapter: int) -> Dictionary:
+	if not hard_mode():
+		return {"moves": [], "every": 0}
+	var all: Array = c.get("dateEvents", [])
+	var n := mini(all.size(), [1, 2, 3, 3][mini(chapter, 3)])
+	return {"moves": all.slice(0, n), "every": [5, 4, 4, 3][mini(chapter, 3)]}
+
+
+## How hard an event hits in this chapter: points added to the target for
+## "guard" (5% of it, +2% a chapter), gems turned for "shards" (2, +1 a
+## chapter).
+static func event_strength(kind: String, chapter: int, target: int) -> int:
+	match kind:
+		"guard":
+			return roundi(target * (0.05 + 0.02 * chapter) / 10.0) * 10
+		"shards":
+			return 2 + chapter
+	return 1
+
+
+func _event_icon(kind: String) -> Texture2D:
+	var name := String(EVENT_KINDS.get(kind, {}).get("icon", ""))
+	return ArtAssets.gem_icon(name) if name == "cursed" else ArtAssets.ui_icon(name)
+
+
+## After each of your moves: the countdown ticks, and at zero the event happens.
+func _event_turn() -> void:
+	_held_off = false
+	if _events.is_empty() or score >= _target():
+		return
+	_event_count -= 1
+	if _event_count > 0:
+		_refresh_event_pill()
+		return
+	var mv: Dictionary = _events[_event_i]
+	_event_i = (_event_i + 1) % _events.size()
+	_event_count = _event_every
+	var kind := String(mv.get("kind", ""))
+	var strength := event_strength(kind, level_index, int(level.target))
+	var msg := UITheme.t(String(mv.get("name", "")))
+	match kind:
+		"guard":
+			_guard_extra += strength
+			msg += "  " + UITheme.t("+%d to win her over") % strength
+		"shards":
+			var turned := _event_shards(strength)
+			if not turned.is_empty():
+				_render_board(turned)
+		"fluster":
+			moves_left = maxi(0, moves_left - 1)
+			msg += "  " + UITheme.t("-1 move")
+		"cool":
+			charm = charm / 2
+			msg += "  " + UITheme.t("Charm halved")
+	_toast(msg, _event_icon(kind))
+	_react_sprite(String(EVENT_KINDS.get(kind, {}).get("face", "angry")), 1.4)
+	HowToPlay.tip(main, "date_events")
+	_update_hud()
+	_refresh_event_pill(true)
+	if not GameState.settings.get("reduce_motion", false):
+		await main.get_tree().create_timer(0.35).timeout
+
+
+## Turns up to n ordinary gems into cursed shards, never into a ready-made
+## match (a shard row would score against you with no move of yours).
+func _event_shards(n: int) -> Dictionary:
+	var changed := {}
+	var tries := 0
+	while changed.size() < n and tries < 60:
+		tries += 1
+		var r := randi() % MatchEngine.SIZE
+		var c := randi() % MatchEngine.SIZE
+		var t: int = board[r][c]
+		if not MatchEngine.is_normal(t) or t == MatchEngine.BROKEN_IDX:
+			continue
+		board[r][c] = MatchEngine.BROKEN_IDX
+		if not MatchEngine.analyze_matches(board).matched_cells.is_empty():
+			board[r][c] = t
+			continue
+		changed[str(r) + "," + str(c)] = true
+	if not MatchEngine.has_valid_move(board):
+		board = _fresh_playable_board()
+		return {}
+	return changed
+
+
+## The panel on her side: what's coming and how soon.
+func _refresh_event_pill(pulse: bool = false) -> void:
+	if _event_pill == null or _events.is_empty():
+		return
+	var mv: Dictionary = _events[_event_i]
+	_event_pill_icon.texture = _event_icon(String(mv.get("kind", "")))
+	_event_pill_name.text = UITheme.t(String(mv.get("name", "")))
+	_event_pill_when.text = UITheme.t("after your next move") if _event_count <= 1 \
+		else UITheme.t("in %d moves") % _event_count
+	if pulse and not GameState.settings.get("reduce_motion", false):
+		_event_pill.pivot_offset = _event_pill.size / 2.0
+		var tw := _event_pill.create_tween()
+		tw.tween_property(_event_pill, "scale", Vector2(1.08, 1.08), 0.1)
+		tw.tween_property(_event_pill, "scale", Vector2.ONE, 0.15)
+
+
+func _build_event_pill(parent: Control) -> void:
+	if _events.is_empty():
+		return
+	_event_pill = PanelContainer.new()
+	var st := _glass_style(14)
+	st.content_margin_left = 10
+	st.content_margin_right = 12
+	st.content_margin_top = 6
+	st.content_margin_bottom = 6
+	_event_pill.add_theme_stylebox_override("panel", st)
+	_event_pill.mouse_filter = Control.MOUSE_FILTER_PASS
+	_event_pill.tooltip_text = UITheme.t("Something about to happen on your date. Matching her favourite gem holds it off a move; a Charm Burst clears it.")
+	_event_pill.anchor_left = 1.0
+	_event_pill.anchor_right = 1.0
+	_event_pill.offset_top = 8.0
+	_event_pill.offset_right = -10.0
+	_event_pill.grow_horizontal = Control.GROW_DIRECTION_BEGIN
+	parent.add_child(_event_pill)
+	var h := HBoxContainer.new()
+	h.add_theme_constant_override("separation", 8)
+	_event_pill.add_child(h)
+	_event_pill_icon = UITheme.picture(null, 28)
+	h.add_child(_event_pill_icon)
+	var v := VBoxContainer.new()
+	v.add_theme_constant_override("separation", 0)
+	h.add_child(v)
+	var cap := UITheme.body("COMING UP", 9, UITheme.INK_ON_DARK_SOFT)
+	v.add_child(cap)
+	_event_pill_name = UITheme.body("", 13, Color.WHITE)
+	_event_pill_name.autowrap_mode = TextServer.AUTOWRAP_OFF
+	v.add_child(_event_pill_name)
+	_event_pill_when = UITheme.body("", 11, _accent().lightened(0.35))
+	_event_pill_when.autowrap_mode = TextServer.AUTOWRAP_OFF
+	v.add_child(_event_pill_when)
+	_refresh_event_pill()
+
+
 func _update_hud() -> void:
 	# Defensive: every caller of this already sits behind an await in the
 	# match-resolution chain (_attempt_swap/_on_cell_pressed/_score_and_clear),
@@ -1408,7 +1595,7 @@ func _update_hud() -> void:
 	if _torn_down:
 		return
 	moves_lbl.text = "%d" % moves_left
-	var target := int(level.target)
+	var target := _target()
 	score_lbl.text = UITheme.t("%d / %d pts") % [score, target]
 	goal_bar.max_value = target
 	goal_bar.value = clamp(score, 0, target)
@@ -1789,7 +1976,7 @@ func _on_cell_pressed(r: int, c: int) -> void:
 			return
 		# Testing Mode clears the chapter on a Hammer too, like on a swap.
 		if GameState.settings.test_mode:
-			score = int(level.target)
+			score = _target()
 		GameState.save_state()
 		busy = false
 		_update_hud()
@@ -1849,8 +2036,11 @@ func _attempt_swap(r1: int, c1: int, r2: int, c2: int) -> void:
 		await _settle_and_chain()
 		if _torn_down:
 			return
+		await _event_turn()
+		if _torn_down:
+			return
 		if GameState.settings.test_mode:
-			score = int(level.target)
+			score = _target()
 		GameState.save_state()
 		busy = false
 		_update_hud()
@@ -1893,8 +2083,11 @@ func _attempt_swap(r1: int, c1: int, r2: int, c2: int) -> void:
 		await _reshuffle_no_move()
 		if _torn_down:
 			return
+	await _event_turn()
+	if _torn_down:
+		return
 	if GameState.settings.test_mode:
-		score = int(level.target)
+		score = _target()
 	GameState.save_state()
 	busy = false
 	# After busy is cleared, not before: _refresh_item_button() disables every
@@ -2065,11 +2258,22 @@ func _score_and_clear(matched: Dictionary, combo_index: int) -> void:
 
 	if charm * 2 >= MatchEngine.CHARM_MAX:
 		HowToPlay.tip(main, "charm")
+	if fav_hit and not _held_off and not _events.is_empty() and _event_count < _event_every:
+		# She's enjoying herself: the next event waits a turn.
+		_held_off = true
+		_event_count += 1
+		_refresh_event_pill(true)
 	if charm >= MatchEngine.CHARM_MAX:
 		charm = 0
 		score += 150
 		_toast("Charm Burst! +150")
 		Achievements.unlock("CHARM_BURST")
+		if not _events.is_empty():
+			# The moment carries you both past what was coming.
+			_event_i = (_event_i + 1) % _events.size()
+			_event_count = _event_every
+			_toast("Neither of you notices what was coming.")
+			_refresh_event_pill(true)
 
 	_update_hud()
 
@@ -2109,7 +2313,7 @@ func _check_outcome() -> void:
 	# of them is ever missed.
 	if _torn_down:
 		return
-	var target := int(level.target)
+	var target := _target()
 	if score >= target:
 		if moves_left >= 5:
 			Achievements.unlock("MOVES_LEFT_5")
@@ -2233,7 +2437,7 @@ func _show_lose_overlay() -> void:
 	var title := UITheme.heading("Out of Moves", 20)
 	title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	v.add_child(title)
-	var needed := UITheme.soft_label(UITheme.t("You needed %d more points.") % max(0, int(level.target) - score), 12)
+	var needed := UITheme.soft_label(UITheme.t("You needed %d more points.") % max(0, _target() - score), 12)
 	needed.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	v.add_child(needed)
 	var reward := UITheme.rich_icons(UITheme.t("+%d ⭐ for trying") % earned, 15, UITheme.INK)
@@ -2242,6 +2446,43 @@ func _show_lose_overlay() -> void:
 	hint.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	hint.custom_minimum_size = Vector2(380, 0)
 	v.add_child(hint)
+
+	# Lost twice in a row (round 41, after Mirror): a tip about her, the
+	# power-up that suits her chapters, and once per chapter a few stars
+	# towards it.
+	if replay < 0 and int(losses.get(str(level_index), 0)) >= 2 and String(ch.get("herTip", "")) != "":
+		var helped: Array = progress.get("helped", [])
+		var tip_box := PanelContainer.new()
+		tip_box.add_theme_stylebox_override("panel", UITheme.panel_style(Color(UITheme.SURFACE, 0.9), 12, _accent()))
+		tip_box.custom_minimum_size = Vector2(440, 0)
+		var tv := VBoxContainer.new()
+		tv.add_theme_constant_override("separation", 4)
+		tip_box.add_child(tv)
+		tv.add_child(UITheme.accent_label(UITheme.t("A tip"), _accent().darkened(0.2), 12))
+		var tip := UITheme.body(UITheme.t(String(ch.herTip)), 12, UITheme.INK)
+		tip.autowrap_mode = TextServer.AUTOWRAP_WORD
+		tv.add_child(tip)
+		var pick := String(ch.get("herPick", ""))
+		for it in StoreScreen.ITEMS:
+			if String(it.id) == pick:
+				var ph := HBoxContainer.new()
+				ph.add_theme_constant_override("separation", 6)
+				var ptex := ArtAssets.store_icon(pick)
+				if ptex:
+					ph.add_child(UITheme.picture(ptex, 22))
+				ph.add_child(UITheme.body(UITheme.t("Try: %s") % UITheme.t(String(it.name)), 12, UITheme.INK))
+				tv.add_child(ph)
+		if not helped.has(level_index):
+			helped.append(level_index)
+			progress["helped"] = helped
+			GameState.stars += 10
+			GameState.save_state()
+			main.refresh_topbar()
+			tv.add_child(UITheme.rich_icons(UITheme.t("+%d ⭐ towards it") % 10, 12, UITheme.INK))
+		var tip_row := HBoxContainer.new()
+		tip_row.alignment = BoxContainer.ALIGNMENT_CENTER
+		tip_row.add_child(tip_box)
+		v.add_child(tip_row)
 
 	var row := HBoxContainer.new()
 	row.alignment = BoxContainer.ALIGNMENT_CENTER

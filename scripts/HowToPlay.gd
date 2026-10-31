@@ -30,6 +30,8 @@ const TOPICS := [
 		"text": "Dark, cracked shards cost you points when they're part of a match. The Hammer smashes one for free."},
 	{"key": "items", "title": "Items", "icon": "", "emoji": "🔨", "pic": "store:hammer",
 		"text": "The Time Scroll (three more moves), the Hammer (smash any one gem) and the Shuffle Wand (a new board) sit under the board. Buy them, and potions that help a whole chapter, in the Item Shop with the stars you earn."},
+	{"key": "date_events", "title": "Hard: things happen on your date", "icon": "", "emoji": "⏳", "pic": "guard",
+		"text": "Every few moves something happens around you: the panel on her side says what and when. It might raise what it takes to win her over, turn gems into cursed shards, cost you a move or halve your Charm ring. Matching her favourite gem holds it off a move; a Charm Burst clears it."},
 	{"key": "replies", "title": "Your replies", "icon": "", "emoji": "💬", "pic": "letter",
 		"text": "After each chapter you pick a reply. A warm one starts her next chapter with bonus points; a teasing one costs a few, but she likes those too."},
 	{"key": "out_of_moves", "title": "Out of moves", "icon": "", "emoji": "⏳", "pic": "scroll",

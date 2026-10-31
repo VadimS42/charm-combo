@@ -36,11 +36,20 @@ msgstr "(Не хватает звёзд: %d.)"
 msgid "+%d pts — great answer!"
 msgstr "+%d очк. — отличный ответ!"
 
+msgid "+%d to win her over"
+msgstr "+%d, чтобы покорить её"
+
 msgid "+%d ⭐"
 msgstr "+%d ⭐"
 
 msgid "+%d ⭐ for trying"
 msgstr "+%d ⭐ за старание"
+
+msgid "+%d ⭐ towards it"
+msgstr "+%d ⭐ на это"
+
+msgid "-1 move"
+msgstr "-1 ход"
 
 msgid "1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!"
 msgstr "1 звезда за каждые 200 очков. Накопи на усиления в Магазине предметов и попробуй снова!"
@@ -57,6 +66,9 @@ msgstr "Тихое место"
 msgid "A clock that only works when the sun's out."
 msgstr "Часы, которые работают только когда светит солнце."
 
+msgid "A cold breeze"
+msgstr "Холодный ветерок"
+
 msgid "A folding brass sundial small enough for a pocket. It only tells the time on sunny days, which as far as she's concerned are the only days that need it."
 msgstr "Складные латунные солнечные часы, такие маленькие, что помещаются в карман. Показывают время только в солнечные дни, а по её мнению, только такие дни и заслуживают того, чтобы знать время."
 
@@ -68,6 +80,9 @@ msgstr "Тебе в волосы падает лист. Ветра нет."
 
 msgid "A match-3 romance for adults, set in Millbrook, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes."
 msgstr "Роман в жанре «три в ряд» для взрослых, действие которого происходит в Миллбруке, сумеречном городке, где обосновался волшебный народ. Познакомься с четырьмя женщинами хуже некуда, помоги им с тем, что им нужно, и посмотри, куда заведёт ночь."
+
+msgid "A reader shushes you"
+msgstr "Читатель шикает на вас"
 
 msgid "A sapling beside the new millrace, a ribbon tied round it."
 msgstr "Саженец у нового лотка, обвязанный лентой."
@@ -81,8 +96,14 @@ msgstr "Над бухтой налетает шквал. Она всё равн�
 msgid "A tall beeswax candle with a nine-hour wick. It burns longer if nobody blows it out."
 msgstr "Высокая свеча из пчелиного воска с фитилём на девять часов. Горит дольше, если её никто не задувает."
 
+msgid "A tip"
+msgstr "Совет"
+
 msgid "A twig drops, very precisely, into your lunch."
 msgstr "Тонкая веточка падает точно в твой обед."
+
+msgid "A wave over the pier"
+msgstr "Волна через пирс"
 
 msgid "ACHIEVEMENT UNLOCKED"
 msgstr "ДОСТИЖЕНИЕ ПОЛУЧЕНО"
@@ -144,6 +165,9 @@ msgstr "Амброузу ты бы понравился. Он любил люд�
 msgid "Ambrose wrote that label. He was the forester. When the alchemists came round buying slimes, he hid me out here. It worked for thirty-one years."
 msgstr "Это Амброуз написал. Он был лесничим. Когда алхимики стали скупать слизей, он спрятал меня здесь. Это работало тридцать один год."
 
+msgid "An owl startles her"
+msgstr "Её пугает сова"
+
 msgid "And this time, take your clothes off before you jump in."
 msgstr "И на этот раз сними одежду, прежде чем прыгать."
 
@@ -198,6 +222,9 @@ msgstr "Лодочный сарай. Там есть дверь. Бабуля н
 msgid "Boom!"
 msgstr "Бум!"
 
+msgid "Brambles underfoot"
+msgstr "Ежевика под ногами"
+
 msgid "Brass Pocket Sundial"
 msgstr "Латунные карманные солнечные часы"
 
@@ -227,6 +254,9 @@ msgstr "М-можно мне сегодня спать в твоей комна�
 
 msgid "CHAPTER GOAL"
 msgstr "ЦЕЛЬ ГЛАВЫ"
+
+msgid "COMING UP"
+msgstr "СКОРО"
 
 msgid "Can we not? Please?"
 msgstr "Можно без них? Пожалуйста?"
@@ -263,6 +293,9 @@ msgstr "Всплеск обаяния! +150"
 
 msgid "Charm Combo is for adults"
 msgstr "Charm Combo — игра для взрослых"
+
+msgid "Charm halved"
+msgstr "Обаяние вдвое меньше"
 
 msgid "Charm — fills as you match (her favorite gem fastest). Full = +150 Charm Burst."
 msgstr "Обаяние — растёт с каждым совпадением (быстрее всего — на её любимом камне). Полное = Всплеск обаяния +150."
@@ -354,8 +387,14 @@ msgstr "Четвёртый день. По округе разнеслось, ч�
 msgid "Day three. She's been in the water since dawn, and she misses the rope ladder twice trying to climb onto the pier. At the far end, three old fishermen are setting out their Thursday tile game by lamplight."
 msgstr "Третий день. Она в воде с рассвета и дважды промахивается мимо верёвочной лестницы, пытаясь влезть на пирс. На дальнем конце трое старых рыбаков при свете лампы раскладывают свою четверговую игру в домино."
 
+msgid "Dead leaves come down"
+msgstr "Падают сухие листья"
+
 msgid "Dialogue controls"
 msgstr "Управление диалогами"
+
+msgid "Difficulty"
+msgstr "Сложность"
 
 msgid "Dig faster. I'd like to see another spring."
 msgstr "Копай быстрее. Я бы хотела увидеть ещё одну весну."
@@ -405,8 +444,14 @@ msgstr "Внизу на пирсе целая семья кричит на во�
 msgid "Dryad of the old hazel"
 msgstr "Дриада старой лещины"
 
+msgid "Dust off the top shelf"
+msgstr "Пыль с верхней полки"
+
 msgid "Each chapter has a points goal and a number of moves. Reach the goal before your moves run out and the story carries on. There's no timer: take as long as you like."
 msgstr "В каждой главе есть цель по очкам и ограниченное число ходов. Набери нужное число очков до того, как кончатся ходы, и история продолжится. Таймера нет: не торопись."
+
+msgid "Easy"
+msgstr "Легко"
 
 msgid "Eat your lunch. I'm sure her bread is very good. I wouldn't know."
 msgstr "Ешь свой обед. Уверена, хлеб у неё очень вкусный. Мне-то откуда знать."
@@ -422,6 +467,9 @@ msgstr "Концовка: %s"
 
 msgid "English"
 msgstr "English"
+
+msgid "Every few moves something happens around you: the panel on her side says what and when. It might raise what it takes to win her over, turn gems into cursed shards, cost you a move or halve your Charm ring. Matching her favourite gem holds it off a move; a Charm Burst clears it."
+msgstr "Каждые несколько ходов вокруг что-то происходит: панель с её стороны говорит, что и когда. Это может поднять планку, чтобы покорить её, превратить камни в проклятые осколки, отнять ход или вдвое уменьшить кольцо Обаяния. Её любимый камень откладывает это на ход; Взрыв обаяния отменяет."
 
 msgid "Every girl has a favourite gem and one she dislikes (it's on her card in the roster). Matching her favourite fills the Charm ring faster."
 msgstr "У каждой девушки есть любимый камень и нелюбимый (он указан на её карточке в списке). Если собрать её любимый, кольцо Обаяния заполняется быстрее."
@@ -558,6 +606,15 @@ msgstr "Молоток"
 msgid "Hand-Dipped Beeswax Candle"
 msgstr "Ручная свеча из пчелиного воска"
 
+msgid "Hard"
+msgstr "Сложно"
+
+msgid "Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Takes effect from the next chapter."
+msgstr "Сложно: каждые несколько ходов на свидании что-то происходит (волна через пирс, гаснут свечи), и это видно заранее. Действует со следующей главы."
+
+msgid "Hard: things happen on your date"
+msgstr "Сложно: на свидании что-то происходит"
+
 msgid "Hazel Mossgrove"
 msgstr "Хейзел Моссгроув"
 
@@ -611,6 +668,9 @@ msgstr "На её читательском билете твой адрес, в�
 
 msgid "Her night scene"
 msgstr "Её ночная сцена"
+
+msgid "Her sisters start watching"
+msgstr "Её сёстры начинают подглядывать"
 
 msgid "Her story starts over from your first meeting, so you can make different choices. Endings you've found stay in the Gallery, your gift stays given, and her chapters pay out stars again."
 msgstr "Её история начнётся заново с вашей первой встречи, так что ты сможешь делать другой выбор. Найденные концовки останутся в Галерее, подаренный подарок останется подаренным, а за её главы снова дадут звёзды."
@@ -819,6 +879,9 @@ msgstr "Не так уж плохо, но некоторые звери... ел�
 msgid "It rains all night. None of it reaches you."
 msgstr "Дождь идёт всю ночь. Ни капли не долетает до вас."
 
+msgid "It starts to rain"
+msgstr "Начинается дождь"
+
 msgid "It was a joke. He laughed at it every single morning for thirty-one years."
 msgstr "Это была шутка. Он смеялся над ней каждое утро тридцать один год."
 
@@ -951,6 +1014,18 @@ msgstr "Общая громкость"
 msgid "Match 4 in a row to make a Rocket, which clears its row or column. Match 5, or an L or T shape, to make a Starburst. Swap a special gem to set it off; swap two together for a Mega Blast."
 msgstr "Собери 4 в ряд, чтобы получить Ракету: она очищает свою строку или столбец. Собери 5 или фигуру в виде L или T, чтобы получить Звёздный взрыв. Поменяй особый камень с соседним, чтобы активировать его; поменяй два особых вместе — получишь Мегавзрыв."
 
+msgid "Match crystals, Opal's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Love Potion brings more of them."
+msgstr "Собирай кристаллы, любимые камни Опал: они заполняют кольцо Обаяния вдвое быстрее, а на «Сложно» откладывают то, что надвигается. Любовное зелье даёт их больше."
+
+msgid "Match pearls, Marina's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Time Scroll buys back lost moves."
+msgstr "Собирай жемчуг, любимые камни Марины: они заполняют кольцо Обаяния вдвое быстрее, а на «Сложно» откладывают то, что надвигается. Свиток времени возвращает потерянные ходы."
+
+msgid "Match petals, Hazel's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards."
+msgstr "Собирай лепестки, любимые камни Хейзел: они заполняют кольцо Обаяния вдвое быстрее, а на «Сложно» откладывают то, что надвигается. Целебное зелье — меньше проклятых осколков."
+
+msgid "Match runes, Amara's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards."
+msgstr "Собирай руны, любимые камни Амары: они заполняют кольцо Обаяния вдвое быстрее, а на «Сложно» откладывают то, что надвигается. Целебное зелье — меньше проклятых осколков."
+
 msgid "Maybe I'm saving my wish for something good."
 msgstr "Может, приберегу своё желание для чего-нибудь стоящего."
 
@@ -1025,6 +1100,9 @@ msgstr "Мама хочет тебя накормить. Считай, что я
 
 msgid "Music"
 msgstr "Музыка"
+
+msgid "Neither of you notices what was coming."
+msgstr "Никто из вас не замечает, что надвигалось."
 
 msgid "Next"
 msgstr "Далее"
@@ -1509,6 +1587,9 @@ msgstr "Это купили на рыночном лотке. Я чувству�
 msgid "Someone in this town knows exactly what that book is."
 msgstr "Кто-то в этом городе точно знает, что это за книга."
 
+msgid "Something about to happen on your date. Matching her favourite gem holds it off a move; a Charm Burst clears it."
+msgstr "Что-то вот-вот случится на свидании. Её любимый камень откладывает это на ход; Взрыв обаяния отменяет."
+
 msgid "Something cool and slightly heavy is draped over you like a blanket. It turns out to be her."
 msgstr "Что-то прохладное и слегка тяжёлое накинуто на тебя, как одеяло. Оказывается, это она."
 
@@ -1743,6 +1824,9 @@ msgstr "Свеча догорает дотла, и никто из вас не �
 msgid "The candle in your chalk circle, the fourth one this week, is nearly gone. She watches it gutter and doesn't go anywhere."
 msgstr "Свеча в твоём меловом круге, четвёртая за эту неделю, почти догорела. Она смотрит, как она оплывает, и никуда не уходит."
 
+msgid "The candles gutter"
+msgstr "Свечи гаснут"
+
 msgid "The card catalogue has a gap where the book should be. Someone has left a slip in the drawer instead: OUT FOR REBINDING, and a name."
 msgstr "В каталожном ящике пустое место, где должна стоять книга. Вместо неё кто-то оставил карточку: «ОТДАНО В ПЕРЕПЛЁТ» — и имя."
 
@@ -1791,6 +1875,9 @@ msgstr "Русалка впервые внимательно смотрит на
 msgid "The miller sent you? He sends someone every spring."
 msgstr "Тебя прислал мельник? Он каждую весну кого-нибудь присылает."
 
+msgid "The miller walks past"
+msgstr "Мимо проходит мельник"
+
 msgid "The millrace runs and the old hazel keeps her roots. You plant another hazel beside the new channel, and it grows faster than it has any right to, leaning towards the old tree as if it's listening. You sleep in the grove more nights than not, and the old hazel blossoms in the wrong season, every season, which the miller now tells people is good luck."
 msgstr "Мельничный лоток течёт, а старая лещина сохраняет корни. Ты сажаешь рядом с новым руслом ещё одну лещину, и она растёт быстрее, чем положено, наклоняясь к старому дереву, будто прислушивается. Ты ночуешь в роще чаще, чем нет, а старая лещина цветёт не в сезон, каждый сезон, и мельник теперь говорит всем, что это к удаче."
 
@@ -1829,6 +1916,9 @@ msgstr "Ручей течёт в город. Мы идём. Ты меня пон
 
 msgid "The taxidermist is so startled he gives her the eye, the owl, and a discount on a second owl."
 msgstr "Чучельник так поражён, что отдаёт ей глаз, сову и скидку на вторую сову."
+
+msgid "The tide turns"
+msgstr "Начинается отлив"
 
 msgid "The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts."
 msgstr "Верхний ряд применяется во время главы; нижний срабатывает сам, когда начинается следующая глава."
@@ -1922,6 +2012,9 @@ msgstr "Свиток времени"
 
 msgid "Toggle"
 msgstr "Переключить"
+
+msgid "Try: %s"
+msgstr "Попробуй: %s"
 
 msgid "Turn the lamp down a bit? Everything shows, with me."
 msgstr "Приглушишь лампу? Рядом со мной всё просвечивает."
@@ -2231,6 +2324,12 @@ msgstr "Второе кольцо не замкнуто. Эта печать п�
 
 msgid "Yours. Fine. I'm bringing my own candles."
 msgstr "Твой. Хорошо. Свои свечи принесу сама."
+
+msgid "after your next move"
+msgstr "после твоего следующего хода"
+
+msgid "in %d moves"
+msgstr "через %d хода"
 
 msgid "←  Back"
 msgstr "←  Назад"

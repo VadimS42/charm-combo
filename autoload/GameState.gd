@@ -46,6 +46,9 @@ const DEFAULT_SETTINGS := {
 	# | "instant"), whether Skip also skips lines you haven't read, and how
 	# long Auto waits after a line (0..1: quick .. slow).
 	"text_speed": "normal",
+	# Puzzle difficulty (round 41): "easy" (the classic puzzle) or "hard"
+	# (the date's events, PuzzleScreen.EVENT_KINDS).
+	"difficulty": "easy",
 	"skip_unseen": false,
 	"auto_delay": 0.5,
 	"reduce_motion": false,
@@ -147,6 +150,8 @@ static func _new_progress() -> Dictionary:
 		"losses": {},
 		# chapters passed that way: no stars, no chapter achievement.
 		"skipped_levels": [],
+		# chapters whose lost-twice tip already paid its stars (round 41).
+		"helped": [],
 	}
 
 
@@ -281,6 +286,9 @@ static func _normalize_progress(char_id: String, raw: Dictionary) -> Dictionary:
 		if typeof(raw.get(key)) == TYPE_ARRAY:
 			for v in raw[key]:
 				p[key].append(int(v) if key.ends_with("_levels") else String(v))
+	if typeof(raw.get("helped")) == TYPE_ARRAY:
+		for v in raw.helped:
+			p.helped.append(int(v))
 	if typeof(raw.get("losses")) == TYPE_DICTIONARY:
 		for k in raw.losses.keys():
 			p.losses[String(k)] = maxi(0, int(raw.losses[k]))

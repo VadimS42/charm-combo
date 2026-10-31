@@ -186,6 +186,9 @@ def ui_icons():
     fit(load("TomeRed"), SIZE, 4).save(os.path.join(ui, "book.png"))       # dialogue controls
     fit(load("X"), SIZE, 4).save(os.path.join(ui, "no.png"))               # "Dislikes"
     fit(load("Scroll"), SIZE, 4).save(os.path.join(ui, "scroll.png"))      # out of moves
+    # Her moves (round 41): her guard going up, and her looking away.
+    fit(load("ShieldSmallT2"), SIZE, 4).save(os.path.join(ui, "guard.png"))
+    fit(load("HeartEmpty"), SIZE, 4).save(os.path.join(ui, "heart_empty.png"))
     gems = [Image.open(os.path.join(GEMS, g + ".png")).convert("RGBA") for g in ("ember", "pearl", "crystal")]
     combo = Image.new("RGBA", (SIZE, SIZE))
     for g, (x, y) in zip(gems, [(-30, 18), (0, -20), (30, 18)]):

@@ -63,7 +63,10 @@ UI_EXTRA = ["%d / %d unlocked", "%d / %d endings found", "Click to view.", "%d p
 
 def ui_strings():
     items = []
-    for s in extract.ui() + UI_EXTRA:
+    # Each girl's lost-twice tip (round 41), shown through UITheme.t().
+    data = json.load(open(os.path.join(ROOT, "data", "characters.json"), encoding="utf-8"))
+    tips = [c["herTip"] for c in (data if isinstance(data, list) else data["characters"]) if c.get("herTip")]
+    for s in extract.ui() + UI_EXTRA + tips:
         if s in items or s in UI_SKIP or s.startswith(UI_SKIP_PREFIX) or s.startswith(UI_SKIP_STARTS):
             continue
         if s.startswith("Stars come from clearing") and s.endswith(" "):

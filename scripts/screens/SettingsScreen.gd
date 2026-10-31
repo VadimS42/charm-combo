@@ -123,6 +123,18 @@ static func build(main: Node, host: Control) -> void:
 				GameState.save_state()
 		))
 
+	# Puzzle difficulty (round 41): Easy is the classic puzzle; Hard adds the
+	# date's events (PuzzleScreen.EVENT_KINDS). Takes effect from the next
+	# chapter started.
+	v.add_child(_choice_row(
+		"Difficulty", "Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Takes effect from the next chapter.",
+		[["easy", "Easy"], ["hard", "Hard"]],
+		String(GameState.settings.get("difficulty", "easy")),
+		func(key: String):
+			GameState.settings.difficulty = key
+			GameState.save_state()
+	))
+
 	# Dialogue (round 25): how text appears, Auto's pace, what Skip skips.
 	v.add_child(_choice_row(
 		"Text Speed", "How fast dialogue types out.",

@@ -31,6 +31,8 @@ extends SceneTree
 var runs := 300
 var fuzz := 10000
 var mode := "all"
+## easy | hard: Hard plays the date's events like PuzzleScreen (round 41).
+var difficulty := "easy"
 var girl := "dryad"
 var targets: Array = []
 var move_counts: Array = []
@@ -70,6 +72,7 @@ func _initialize() -> void:
 				"runs": runs = int(kv[1])
 				"fuzz": fuzz = int(kv[1])
 				"seed": seed(int(kv[1]))
+				"difficulty": difficulty = kv[1]
 				"mode": mode = kv[1]
 				"girl": girl = kv[1]
 				"targets": targets = Array(kv[1].split(",")).map(func(x): return int(x))
@@ -80,6 +83,8 @@ func _initialize() -> void:
 func _main() -> void:
 	var gs = root.get_node("GameState")
 	gs.items = {}
+	gs.settings.difficulty = difficulty
+	print("Difficulty: %s" % difficulty)
 	var store = load("res://scripts/screens/StoreScreen.gd")
 	store.reload(true)
 	_story = load("res://scripts/StoryFlow.gd")
@@ -278,6 +283,8 @@ var _score: int
 var _charm: int
 var _fav: int
 var _weights: Array
+var _fav_hit := false
+var _burst := false
 
 
 ## Plays chapter i once. kit = power-ups bought for it (as in GameState.items).
@@ -300,6 +307,13 @@ func _play(ch: Dictionary, i: int, kit: Dictionary, skill: String, bonus: int, t
 	var extra := int(kit.get("moves", 0))
 	var hammers := int(kit.get("hammer", 0))
 	var shuffles := int(kit.get("shuffle", 0))
+	# The date's events (Hard), as PuzzleScreen._event_turn() plays them.
+	var rot: Dictionary = _puzzle.event_rotation(ch, i)
+	var events: Array = rot.moves
+	var every := int(rot.every)
+	var count := every
+	var ev_i := 0
+	var base_target := target
 	var m := 0
 	while true:
 		if _score >= target:
@@ -325,8 +339,35 @@ func _play(ch: Dictionary, i: int, kit: Dictionary, skill: String, bonus: int, t
 			shuffles -= 1
 			_board = _fresh_board()
 			continue
+		_fav_hit = false
+		_burst = false
 		_do_move(mv)
 		m += 1
+		if not events.is_empty() and _score < target:
+			if _burst:
+				ev_i = (ev_i + 1) % events.size()
+				count = every
+			elif _fav_hit and count < every:
+				count += 1
+			count -= 1
+			if count <= 0:
+				var kind := String(events[ev_i].kind)
+				var strength: int = _puzzle.event_strength(kind, i, base_target)
+				ev_i = (ev_i + 1) % events.size()
+				count = every
+				match kind:
+					"guard":
+						target += strength
+					"shards":
+						for n in range(strength):
+							var r := randi() % MatchEngine.SIZE
+							var c := randi() % MatchEngine.SIZE
+							if MatchEngine.is_normal(_board[r][c]):
+								_board[r][c] = MatchEngine.BROKEN_IDX
+					"fluster":
+						moves -= 1
+					"cool":
+						_charm = _charm / 2
 		if not MatchEngine.has_valid_move(_board):
 			_board = _fresh_board()
 	return {"won": _score >= target, "score": _score}
@@ -531,10 +572,13 @@ func _score_cells(cells: Dictionary, combo: int) -> void:
 		else:
 			gain += 10
 			_charm = mini(MatchEngine.CHARM_MAX, _charm + (2 if t == _fav else 1))
+			if t == _fav:
+				_fav_hit = true
 	_score += roundi(gain * (1.0 + 0.5 * (combo - 1)))
 	if _charm >= MatchEngine.CHARM_MAX:
 		_charm = 0
 		_score += 150
+		_burst = true
 
 
 # ---------------------------------------------------------------- board fuzz

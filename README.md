@@ -17,6 +17,28 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-41 — Hard difficulty: things happen on your date
+
+Inspired by Mirror's telegraphed turns, but nobody fights you. The classic
+puzzle is backed up in `backup/puzzle_classic/` (Godot ignores it) and is
+still the game on **Easy** (the default). **Settings → Difficulty → Hard**
+adds the date's events:
+
+- Every few moves something happens around you (characters.json
+  "dateEvents"; Marina: a wave over the pier, her sisters start watching, the
+  tide turns). A "Coming up" panel on her side shows what and in how many
+  moves. Four kinds (PuzzleScreen.EVENT_KINDS): raise the target, turn gems into
+  cursed shards, cost a move, halve the Charm ring. Chapter 1: one event every
+  5 moves; then two, three every 4; chapter 4 every 3.
+- Counter-play: matching her favourite gem holds the next event off a move;
+  a Charm Burst clears it. The Love Potion is the strongest pick on Hard.
+- Both difficulties: lose a chapter twice and the Out of Moves screen gives a
+  tip about her ("herTip"), her best power-up ("herPick") and, once per
+  chapter, 10 stars towards it.
+- Her lines are unchanged. Balance (casual bot, Hazel, no power-ups): Easy
+  98 / 83 / 18 / 12%, Hard 98 / 65 / 18 / 4%; Love + Mending Potion on
+  chapter 4: Easy 80%, Hard 62%. `balance_bot.gd difficulty=hard`.
+
 ## ✅ Status: round-40 — no emoji left as pictures
 
 Every emoji the game showed as a picture now comes from the packs

@@ -895,7 +895,23 @@
    "height": 500,
    "lift": 150,
    "right": 20
-  }
+  },
+  "herTip": "Match runes, Amara's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards.",
+  "herPick": "heartMender",
+  "dateEvents": [
+   {
+    "kind": "cool",
+    "name": "The candles gutter"
+   },
+   {
+    "kind": "shards",
+    "name": "Dust off the top shelf"
+   },
+   {
+    "kind": "guard",
+    "name": "A reader shushes you"
+   }
+  ]
  },
  {
   "id": "mermaid",
@@ -1776,6 +1792,22 @@
     "e": "sad",
     "d": "Exasperated.",
     "id": "marina_unhappy_03"
+   }
+  ],
+  "herTip": "Match pearls, Marina's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Time Scroll buys back lost moves.",
+  "herPick": "moves",
+  "dateEvents": [
+   {
+    "kind": "shards",
+    "name": "A wave over the pier"
+   },
+   {
+    "kind": "fluster",
+    "name": "Her sisters start watching"
+   },
+   {
+    "kind": "guard",
+    "name": "The tide turns"
    }
   ]
  },
@@ -2665,6 +2697,22 @@
     "d": "Alarmed.",
     "id": "opal_unhappy_03"
    }
+  ],
+  "herTip": "Match crystals, Opal's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Love Potion brings more of them.",
+  "herPick": "favorCharm",
+  "dateEvents": [
+   {
+    "kind": "cool",
+    "name": "A cold breeze"
+   },
+   {
+    "kind": "shards",
+    "name": "Brambles underfoot"
+   },
+   {
+    "kind": "guard",
+    "name": "An owl startles her"
+   }
   ]
  },
  {
@@ -3469,6 +3517,22 @@
     "e": "angry",
     "d": "Annoyed.",
     "id": "hazel_unhappy_03"
+   }
+  ],
+  "herTip": "Match petals, Hazel's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards.",
+  "herPick": "heartMender",
+  "dateEvents": [
+   {
+    "kind": "shards",
+    "name": "Dead leaves come down"
+   },
+   {
+    "kind": "guard",
+    "name": "The miller walks past"
+   },
+   {
+    "kind": "fluster",
+    "name": "It starts to rain"
    }
   ]
  }

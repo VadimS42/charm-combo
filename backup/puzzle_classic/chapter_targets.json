@@ -1,0 +1,74 @@
+{
+ "succubus": [
+  {
+   "target": 900,
+   "moves": 15
+  },
+  {
+   "target": 1200,
+   "moves": 15
+  },
+  {
+   "target": 1700,
+   "moves": 16
+  },
+  {
+   "target": 2000,
+   "moves": 18
+  }
+ ],
+ "mermaid": [
+  {
+   "target": 900,
+   "moves": 15
+  },
+  {
+   "target": 1200,
+   "moves": 15
+  },
+  {
+   "target": 1700,
+   "moves": 16
+  },
+  {
+   "target": 2000,
+   "moves": 18
+  }
+ ],
+ "slime": [
+  {
+   "target": 900,
+   "moves": 15
+  },
+  {
+   "target": 1200,
+   "moves": 15
+  },
+  {
+   "target": 1700,
+   "moves": 16
+  },
+  {
+   "target": 2000,
+   "moves": 18
+  }
+ ],
+ "dryad": [
+  {
+   "target": 900,
+   "moves": 15
+  },
+  {
+   "target": 1200,
+   "moves": 15
+  },
+  {
+   "target": 1700,
+   "moves": 16
+  },
+  {
+   "target": 2000,
+   "moves": 18
+  }
+ ]
+}
