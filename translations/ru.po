@@ -153,8 +153,8 @@ msgstr "И на этот раз сними одежду, прежде чем п�
 msgid "And you still haven't asked me for anything."
 msgstr "А ты всё ещё ни о чём не просишь."
 
-msgid "And you're not going to tell anyone either, are you, lifeguard."
-msgstr "И ты тоже никому не скажешь, правда, спасатель."
+msgid "And you're not going to tell anyone either, are you, lifeguard?"
+msgstr "И ты тоже никому не скажешь, правда, спасатель?"
 
 msgid "Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing."
 msgstr "Любое допустимое совпадение сразу выполняет цель главы и даёт 99 звёзд — для тестировщиков, а не для настоящей игры."
@@ -351,9 +351,6 @@ msgstr "Проклятый осколок"
 msgid "Cursed shards"
 msgstr "Проклятые осколки"
 
-msgid "Dance with me later. Badly. I've got a tail, so we'll be bad at it together."
-msgstr "Потанцуй со мной потом. Плохо. У меня хвост, так что мы будем плохи вместе."
-
 msgid "Dark, cracked shards cost you points when they're part of a match. The Hammer smashes one for free."
 msgstr "Тёмные треснувшие осколки отнимают очки, если входят в совпадение. Молоток разбивает такой осколок бесплатно."
 
@@ -402,6 +399,9 @@ msgstr "Не говори так. Как будто это важно."
 msgid "Don't stop on my account."
 msgstr "Не останавливайся из-за меня."
 
+msgid "Don't. Don't you dare."
+msgstr "Не смей. Даже не думай."
+
 msgid "Don't. Just don't."
 msgstr "Не надо. Просто не надо."
 
@@ -443,6 +443,9 @@ msgstr "Каждая из этих страниц — часть моей при
 
 msgid "Every one? That's four hundred and twelve buttons."
 msgstr "Каждую? Это же четыреста двенадцать пуговиц."
+
+msgid "Everyone keeps asking about the comb and I'm running out of excuses."
+msgstr "Все только и спрашивают про гребень, а отговорки у меня заканчиваются."
 
 msgid "Everything — music and sound effects."
 msgstr "Всё сразу — музыка и звуковые эффекты."
@@ -546,9 +549,6 @@ msgstr "Понятно"
 msgid "Gran at the Midsummer Tide, her pearl comb in her hair."
 msgstr "Бабуля на Летнем Приливе, в волосах жемчужный гребень."
 
-msgid "Gran says hello. Gran says a lot of things."
-msgstr "Бабуля передаёт привет. Бабуля много чего передаёт."
-
 msgid "Gran wears the comb at the Midsummer Tide and never finds out it was lost. Marina tells her anyway, a month later, and Gran laughs so hard she has to be helped onto a rock. Marina tells the story of how you met at every family dinner after that, and it gets bigger every time. Gran corrects her every time, and every time she sets a place for you without asking."
 msgstr "Бабуля надевает гребень на Летний Прилив и так и не узнаёт, что он терялся. Марина всё равно рассказывает ей через месяц, и бабуля хохочет так, что её приходится усаживать на камень. После этого Марина рассказывает историю вашей встречи на каждом семейном ужине, и с каждым разом она становится больше. Бабуля каждый раз поправляет её, и каждый раз без просьб накрывает для тебя место."
 
@@ -561,8 +561,8 @@ msgstr "Бабуля узнает. Она всегда узнаёт. Посмо�
 msgid "Gran's going to wear it at the Tide and never know. Nobody's ever going to know you did this."
 msgstr "Бабуля наденет его на Прилив и ничего не узнает. Никто никогда не узнает, что это твоя работа."
 
-msgid "Gran, I'm fine. I was resting. I always rest like that."
-msgstr "Бабуль, я в порядке. Я отдыхала. Я всегда так отдыхаю."
+msgid "Gran, I'm fine. I'm always like that."
+msgstr "Бабуль, я в порядке. Я всегда такая."
 
 msgid "Hammer"
 msgstr "Молоток"
@@ -780,8 +780,8 @@ msgstr "Если найду, сожгу."
 msgid "If I'd known you liked it, I'd have come by sooner."
 msgstr "Раз тебе это нравится, буду заходить почаще."
 
-msgid "If Nerissa asks, we're friends. Who swim. At night."
-msgstr "Если Нерисса спросит — мы друзья. Которые плавают. Ночью."
+msgid "If anyone asks, we're friends. Who swim. At night."
+msgstr "Если кто спросит — мы друзья. Которые плавают. Ночью."
 
 msgid "If someone dug him a new channel further out, my roots would follow the water. It would take a season. Nobody's ever offered. It's a lot of digging."
 msgstr "Если бы ему прорыли новое русло подальше, мои корни пошли бы за водой. Это заняло бы сезон. Никто никогда не предлагал. Это очень много копать."
@@ -1025,12 +1025,6 @@ msgstr "Мама хочет тебя накормить. Считай, что я
 
 msgid "Music"
 msgstr "Музыка"
-
-msgid "Nerissa keeps asking about the comb. I keep saying it's at the jeweller's. I'm running out of jewellers."
-msgstr "Нерисса всё спрашивает про гребень. Я всё говорю, что он у ювелира. Ювелиры у меня заканчиваются."
-
-msgid "Nerissa. Don't. Don't you dare."
-msgstr "Нерисса. Не смей. Даже не думай."
 
 msgid "Next"
 msgstr "Далее"
@@ -1506,8 +1500,8 @@ msgstr "Тогда она вылезает из банки прямо посре
 msgid "So. Are you telling them how we met, or am I?"
 msgstr "Так. Рассказываешь им, как мы познакомились, ты или я?"
 
-msgid "So. Last night. I've been floating here trying to think of a word for it, and I've got it down to three, and they're all very rude."
-msgstr "Так. Прошлая ночь. Я плавала тут и пыталась придумать для неё слово, сократила до трёх, и все они очень неприличные."
+msgid "So. Last night. I've been floating close by trying to think of a word for it, and I've got it down to three, and they're all very rude."
+msgstr "Так. Прошлая ночь. Я плавала неподалёку и пыталась придумать для неё слово, сократила до трёх, и все они очень неприличные."
 
 msgid "Soft as Moss"
 msgstr "Мягче мха"
@@ -1610,6 +1604,9 @@ msgstr "Поменяй местами два соседних камня, что
 
 msgid "Swap two special gems together."
 msgstr "Поменяй местами два особых камня."
+
+msgid "Swim with me later. Don't embarrass me again."
+msgstr "Поплавай со мной потом. И не позорь меня снова."
 
 msgid "TIP"
 msgstr "СОВЕТ"
@@ -1893,8 +1890,8 @@ msgstr "На самой нижней ветке сидит женщина, хо�
 msgid "There. Now look me in the eye and tell me you'd rather be shelving."
 msgstr "Вот. Теперь посмотри мне в глаза и скажи, что тебе милее расставлять книги."
 
-msgid "There. Now we're even. Low tide's at six. Bring your other shoe."
-msgstr "Вот. Теперь мы квиты. Отлив в шесть. Принеси второй ботинок."
+msgid "There. Now we're even. Low tide's at six."
+msgstr "Вот. Теперь мы квиты. Отлив в шесть."
 
 msgid "There. Now you can't go anywhere. That's a mermaid thing. It's very old. I just made it up."
 msgstr "Вот. Теперь тебе некуда деваться. Это русалочье. Очень древнее. Я только что выдумала."
@@ -1950,8 +1947,8 @@ msgstr "Двести лет люди проходили мимо этого де
 msgid "Two hundred years, and nobody told me it could feel like that. I'd like it noted that I'm saying this very calmly."
 msgstr "Двести лет, и никто не говорил мне, что это может быть так. Прошу отметить, что говорю это очень спокойно."
 
-msgid "Ugh. That's drier than Gran's sponge."
-msgstr "Фу. Суше, чем бабулин бисквит."
+msgid "Ugh. That's drier than a sponge."
+msgstr "Фу. Суше, чем бисквит."
 
 msgid "Use a Time Scroll"
 msgstr "Прочитать Свиток времени"
@@ -1997,9 +1994,6 @@ msgstr "Откуда это у тебя?"
 
 msgid "While you fetch coffee from the staff room, she takes a red pencil from your desk and starts correcting the page that started all this."
 msgstr "Пока ты ходишь за кофе в комнату персонала, она берёт с твоего стола красный карандаш и начинает править страницу, с которой всё началось."
-
-msgid "Who brings fire to a pier?"
-msgstr "Кто приносит огонь на пирс?"
 
 msgid "Who even likes those?"
 msgstr "Да кому вообще такие нравятся?"
@@ -2121,9 +2115,6 @@ msgstr "Ты хочешь убрать руку. Она говорит, что �
 msgid "You stay."
 msgstr "Ты остаёшься."
 
-msgid "You still only have one shoe, you know."
-msgstr "У тебя, между прочим, по-прежнему один ботинок."
-
 msgid "You summoned me with that pathetic chalk circle? Where did you even copy it from? Ugh, I was in the middle of something."
 msgstr "Меня вызвали этим жалким меловым кругом? И откуда его вообще срисовали? Ох, я как раз была занята."
 
@@ -2175,8 +2166,8 @@ msgstr "Ты была невероятной."
 msgid "You'd burn it."
 msgstr "Сожжёшь."
 
-msgid "You're a genius, you're a soaked genius with one shoe, come here."
-msgstr "Ты гений, ты промокший гений в одном ботинке, иди сюда."
+msgid "You're a genius, you're a soaked genius."
+msgstr "Ты гений, ты промокший гений."
 
 msgid "You're a terrible influence. Keep going."
 msgstr "Ты ужасно на меня влияешь. Продолжай."

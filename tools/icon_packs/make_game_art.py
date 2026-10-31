@@ -55,7 +55,9 @@ def load(name):
 
 def fit(im, size=SIZE, pad=5):
     """Trims, then centres im in a size x size square with pad px around."""
-    im = im.crop(im.getbbox())
+    # By the alpha channel: invisible pixels with a colour still count for
+    # getbbox() on RGBA, which left some pictures tiny in their square.
+    im = im.crop(im.getchannel("A").getbbox())
     box = size - pad * 2
     im.thumbnail((box, box), Image.LANCZOS)
     out = Image.new("RGBA", (size, size))
@@ -231,7 +233,69 @@ def main():
         tint_frame("FrameRound", ch["c"], SIZE).save(os.path.join(TILES, ch["id"] + "_slot.png"))
         tint_frame("FrameSquare", ch["c"], 192, face_alpha=0.7).save(os.path.join(FRAMES, ch["id"] + ".png"))
     ui_icons()
+    achievements()
     print("gems, specials, interface icons and %d girls' tiles written" % len(chars))
+
+
+
+# ---------------------------------------------------------------- achievements
+# Round 36: the gameplay achievements' badges, from the same packs (Hazel's
+# story achievements keep her face, tools/achievement_icons). 256 x 256: the
+# square frame in a colour of its own, the picture inside.
+
+def _badge(colour, picture, extra=None):
+    out = tint_frame("FrameSquare", colour, 256)
+    pic = picture.crop(picture.getchannel("A").getbbox())
+    scale = 176 / max(pic.size)
+    pic = pic.resize((round(pic.width * scale), round(pic.height * scale)), Image.LANCZOS)
+    shadow = Image.new("RGBA", out.size)
+    shadow.paste(Image.new("RGBA", pic.size, (0, 0, 0, 120)), ((256 - pic.width) // 2 + 4, (256 - pic.height) // 2 + 6),
+                 pic.getchannel("A"))
+    out = Image.alpha_composite(out, shadow.filter(ImageFilter.GaussianBlur(5)))
+    out.paste(pic, ((256 - pic.width) // 2, (256 - pic.height) // 2), pic)
+    if extra:
+        d = ImageDraw.Draw(out)
+        d.ellipse([168, 168, 236, 236], fill=colour, outline=(255, 255, 255), width=4)
+        d.text((202, 202), extra, fill=(255, 255, 255), anchor="mm", font=_font(30))
+    return out
+
+
+def _font(px):
+    from PIL import ImageFont
+    for path in ["/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", "C:/Windows/Fonts/arialbd.ttf",
+                 "/Library/Fonts/Arial Bold.ttf"]:
+        if os.path.exists(path):
+            return ImageFont.truetype(path, px)
+    return ImageFont.load_default(px)
+
+
+def _group(images, offsets, size=256, scale=0.55):
+    canvas = Image.new("RGBA", (size, size))
+    for im, (dx, dy) in zip(images, offsets):
+        g = im.copy()
+        g.thumbnail((int(size * scale), int(size * scale)), Image.LANCZOS)
+        canvas.alpha_composite(g, (size // 2 - g.width // 2 + dx, size // 2 - g.height // 2 + dy))
+    return canvas.crop(canvas.getchannel("A").getbbox())
+
+
+def achievements():
+    out = os.path.join(ROOT, "art", "achievements")
+    gem = lambda n: Image.open(os.path.join(GEMS, n + ".png")).convert("RGBA")
+    big = lambda n: fit(load(n), 256, 6)
+    badges = {
+        "combo_3": ("#3FA9C9", _group([gem("ember"), gem("pearl"), gem("crystal")],
+                                      [(-50, 30), (0, -30), (50, 30)]), "x3"),
+        "combo_5": ("#2F7FB0", _group([gem("petal"), gem("rune"), gem("ember"), gem("pearl"), gem("crystal")],
+                                      [(-72, 30), (-38, -20), (0, -45), (38, -20), (72, 30)], scale=0.42), "x5"),
+        "make_starburst": ("#D9A21E", starburst(), None),
+        "mega_blast": ("#E0602E", _group([starburst(), rocket(False), rocket(True)], [(0, 0), (0, 0), (0, 0)], scale=0.8), None),
+        "charm_burst": ("#E0457B", big("HeartFull"), None),
+        "moves_left_5": ("#6F8FD8", big("Scroll"), "+5"),
+        "shard_smash": ("#5B4A78", _group([cursed(), big("HammerT2")], [(-28, 30), (30, -24)], scale=0.6), None),
+        "first_purchase": ("#B07A3A", _group([big("Backpack"), big("Coin")], [(-14, -6), (52, 52)], scale=0.6), None),
+    }
+    for name, (colour, pic, extra) in badges.items():
+        _badge(colour, pic, extra).save(os.path.join(out, name + ".png"))
 
 
 if __name__ == "__main__":

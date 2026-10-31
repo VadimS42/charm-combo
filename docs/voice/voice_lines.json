@@ -787,7 +787,7 @@
    },
    "levels": [
     {
-     "target": 700,
+     "target": 900,
      "moves": 15,
      "win": [
       {
@@ -869,7 +869,7 @@
      }
     },
     {
-     "target": 1030,
+     "target": 1200,
      "moves": 15,
      "win": [
       {
@@ -958,7 +958,7 @@
      }
     },
     {
-     "target": 1250,
+     "target": 1700,
      "moves": 16,
      "win": [
       {
@@ -1048,7 +1048,7 @@
      }
     },
     {
-     "target": 1350,
+     "target": 2000,
      "moves": 18,
      "win": [
       {
@@ -1475,15 +1475,15 @@
     "id": "marina_intro_02",
     "scene": "Meeting her",
     "context": "Her entire family is, in fact, right there. A grandmother, a mother, three sisters. One of the sisters is laughing so hard she can barely ask, out loud, whether Mari is going to thank her lifeguard.",
-    "line": "Nerissa. Don't. Don't you dare.",
+    "line": "Don't. Don't you dare.",
     "emotion": "angry",
     "note": "Hissed at her sister. Mortified."
    },
    {
     "id": "marina_intro_03",
     "scene": "Meeting her",
-    "context": "Her previous line: Nerissa. Don't. Don't you dare.",
-    "line": "Gran, I'm fine. I was resting. I always rest like that.",
+    "context": "Her previous line: Don't. Don't you dare.",
+    "line": "Gran, I'm fine. I'm always like that.",
     "emotion": "shy",
     "note": "Defensive and too fast. Nobody believes her, including her."
    },
@@ -1523,7 +1523,7 @@
     "id": "marina_intro_08",
     "scene": "Meeting her",
     "context": "Her previous line: I was meant to get it cleaned. I dropped it off the pier a week ago. Nobody knows.",
-    "line": "And you're not going to tell anyone either, are you, lifeguard.",
+    "line": "And you're not going to tell anyone either, are you, lifeguard?",
     "emotion": "angry",
     "note": "Sounds like a threat. It's really a plea."
    },
@@ -1555,7 +1555,7 @@
     "id": "marina_intro_r2_02",
     "scene": "Meeting her: reply 2",
     "context": "She flicks her tail and soaks you a second time, very deliberately.",
-    "line": "There. Now we're even. Low tide's at six. Bring your other shoe.",
+    "line": "There. Now we're even. Low tide's at six.",
     "emotion": "teasing",
     "note": "Smug, with a sneaky bit of warmth at the end."
    },
@@ -1635,7 +1635,7 @@
     "id": "marina_ch2_03",
     "scene": "After chapter 2",
     "context": "She sits on the end of the pier with her tail in the water. After a while she leans on your shoulder, as if by accident.",
-    "line": "Nerissa keeps asking about the comb. I keep saying it's at the jeweller's. I'm running out of jewellers.",
+    "line": "Everyone keeps asking about the comb and I'm running out of excuses.",
     "emotion": "shy",
     "note": "Tired joke; trying to keep it light."
    },
@@ -1691,7 +1691,7 @@
     "id": "marina_ch3_03",
     "scene": "After chapter 3",
     "context": "Her previous line: Their net. It went right through where I dropped it.",
-    "line": "You're a genius, you're a soaked genius with one shoe, come here.",
+    "line": "You're a genius, you're a soaked genius.",
     "emotion": "happy",
     "note": "Giddy relief, half laughing."
    },
@@ -1851,14 +1851,14 @@
     "id": "marina_end_02",
     "scene": "Her ending: the morning after",
     "context": "Her previous line: Morning. Your clothes are on the rail. I wrung them out myself, so you can thank me.",
-    "line": "So. Last night. I've been floating here trying to think of a word for it, and I've got it down to three, and they're all very rude.",
+    "line": "So. Last night. I've been floating close by trying to think of a word for it, and I've got it down to three, and they're all very rude.",
     "emotion": "teasing",
     "note": "Fast, giddy, very pleased with herself."
    },
    {
     "id": "marina_end_03",
     "scene": "Her ending: the morning after",
-    "context": "Her previous line: So. Last night. I've been floating here trying to think of a word for it, and I've got it down to three, and they're all very rude.",
+    "context": "Her previous line: So. Last night. I've been floating close by trying to think of a word for it, and I've got it down to three, and they're all very rude.",
     "line": "Gran's going to know. She always knows. She's going to look at me over breakfast and just know.",
     "emotion": "happy",
     "note": "Mock dread, mostly giddy."
@@ -1875,14 +1875,14 @@
     "id": "marina_end_05",
     "scene": "Her ending: the morning after",
     "context": "Her previous line: Gran's asked you to the family dinner, which is not a small thing, people have married into this family and never been asked to the family dinner.",
-    "line": "Dance with me later. Badly. I've got a tail, so we'll be bad at it together.",
+    "line": "Swim with me later. Don't embarrass me again.",
     "emotion": "happy",
     "note": "Warm, laughing."
    },
    {
     "id": "marina_end_06",
     "scene": "Her ending: the morning after",
-    "context": "Her previous line: Dance with me later. Badly. I've got a tail, so we'll be bad at it together.",
+    "context": "Her previous line: Swim with me later. Don't embarrass me again.",
     "line": "About your reward. Last night was not the reward. I need you to understand that. Last night was separate.",
     "emotion": "angry",
     "note": "Tsundere: flustered and very firm about it."
@@ -1976,18 +1976,10 @@
     "note": "Fast, run-on, half laughing."
    },
    {
-    "id": "marina_least_01",
-    "scene": "Puzzle quip: you matched a gem she dislikes",
-    "context": "Short bark, shown as a pop-up while you play.",
-    "line": "Who brings fire to a pier?",
-    "emotion": "neutral",
-    "note": "Sarcastic, baffled."
-   },
-   {
     "id": "marina_least_02",
     "scene": "Puzzle quip: you matched a gem she dislikes",
     "context": "Short bark, shown as a pop-up while you play.",
-    "line": "Ugh. That's drier than Gran's sponge.",
+    "line": "Ugh. That's drier than a sponge.",
     "emotion": "neutral",
     "note": "Disgusted, then guilty about Gran."
    },
@@ -2032,18 +2024,10 @@
     "note": "Grudging, a bit flirty."
    },
    {
-    "id": "marina_chat_03",
-    "scene": "Puzzle quip: chatter while you play",
-    "context": "Short bark, shown as a pop-up while you play.",
-    "line": "Gran says hello. Gran says a lot of things.",
-    "emotion": "neutral",
-    "note": "Long-suffering."
-   },
-   {
     "id": "marina_chat_04",
     "scene": "Puzzle quip: chatter while you play",
     "context": "Short bark, shown as a pop-up while you play.",
-    "line": "If Nerissa asks, we're friends. Who swim. At night.",
+    "line": "If anyone asks, we're friends. Who swim. At night.",
     "emotion": "neutral",
     "note": "Fast, flustered."
    },
@@ -2054,14 +2038,6 @@
     "line": "Board, lifeguard. Not me.",
     "emotion": "neutral",
     "note": "Teasing; caught you looking."
-   },
-   {
-    "id": "marina_chat_06",
-    "scene": "Puzzle quip: chatter while you play",
-    "context": "Short bark, shown as a pop-up while you play.",
-    "line": "You still only have one shoe, you know.",
-    "emotion": "neutral",
-    "note": "Deadpan."
    },
    {
     "id": "marina_chat_07",
@@ -2113,14 +2089,14 @@
     },
     {
      "k": "s",
-     "t": "Nerissa. Don't. Don't you dare.",
+     "t": "Don't. Don't you dare.",
      "e": "angry",
      "d": "Hissed at her sister. Mortified.",
      "id": "marina_intro_02"
     },
     {
      "k": "s",
-     "t": "Gran, I'm fine. I was resting. I always rest like that.",
+     "t": "Gran, I'm fine. I'm always like that.",
      "e": "shy",
      "d": "Defensive and too fast. Nobody believes her, including her.",
      "id": "marina_intro_03"
@@ -2168,7 +2144,7 @@
     },
     {
      "k": "s",
-     "t": "And you're not going to tell anyone either, are you, lifeguard.",
+     "t": "And you're not going to tell anyone either, are you, lifeguard?",
      "e": "angry",
      "d": "Sounds like a threat. It's really a plea.",
      "id": "marina_intro_08"
@@ -2219,7 +2195,7 @@
        },
        {
         "k": "s",
-        "t": "There. Now we're even. Low tide's at six. Bring your other shoe.",
+        "t": "There. Now we're even. Low tide's at six.",
         "e": "teasing",
         "d": "Smug, with a sneaky bit of warmth at the end.",
         "id": "marina_intro_r2_02"
@@ -2230,7 +2206,7 @@
    },
    "levels": [
     {
-     "target": 700,
+     "target": 900,
      "moves": 15,
      "win": [
       {
@@ -2316,7 +2292,7 @@
      }
     },
     {
-     "target": 1030,
+     "target": 1200,
      "moves": 15,
      "win": [
       {
@@ -2348,7 +2324,7 @@
       },
       {
        "k": "s",
-       "t": "Nerissa keeps asking about the comb. I keep saying it's at the jeweller's. I'm running out of jewellers.",
+       "t": "Everyone keeps asking about the comb and I'm running out of excuses.",
        "e": "shy",
        "d": "Tired joke; trying to keep it light.",
        "id": "marina_ch2_03"
@@ -2406,7 +2382,7 @@
      }
     },
     {
-     "target": 1250,
+     "target": 1700,
      "moves": 16,
      "win": [
       {
@@ -2434,7 +2410,7 @@
       },
       {
        "k": "s",
-       "t": "You're a genius, you're a soaked genius with one shoe, come here.",
+       "t": "You're a genius, you're a soaked genius.",
        "e": "happy",
        "d": "Giddy relief, half laughing.",
        "id": "marina_ch3_03"
@@ -2497,7 +2473,7 @@
      }
     },
     {
-     "target": 1350,
+     "target": 2000,
      "moves": 18,
      "win": [
       {
@@ -2678,7 +2654,7 @@
        },
        {
         "k": "s",
-        "t": "So. Last night. I've been floating here trying to think of a word for it, and I've got it down to three, and they're all very rude.",
+        "t": "So. Last night. I've been floating close by trying to think of a word for it, and I've got it down to three, and they're all very rude.",
         "e": "teasing",
         "d": "Fast, giddy, very pleased with herself.",
         "id": "marina_end_02"
@@ -2706,7 +2682,7 @@
        },
        {
         "k": "s",
-        "t": "Dance with me later. Badly. I've got a tail, so we'll be bad at it together.",
+        "t": "Swim with me later. Don't embarrass me again.",
         "e": "happy",
         "d": "Warm, laughing.",
         "id": "marina_end_05"
@@ -2826,13 +2802,7 @@
    ],
    "leastQuips": [
     {
-     "t": "Who brings fire to a pier?",
-     "e": "neutral",
-     "d": "Sarcastic, baffled.",
-     "id": "marina_least_01"
-    },
-    {
-     "t": "Ugh. That's drier than Gran's sponge.",
+     "t": "Ugh. That's drier than a sponge.",
      "e": "neutral",
      "d": "Disgusted, then guilty about Gran.",
      "id": "marina_least_02"
@@ -2870,13 +2840,7 @@
      "id": "marina_chat_02"
     },
     {
-     "t": "Gran says hello. Gran says a lot of things.",
-     "e": "neutral",
-     "d": "Long-suffering.",
-     "id": "marina_chat_03"
-    },
-    {
-     "t": "If Nerissa asks, we're friends. Who swim. At night.",
+     "t": "If anyone asks, we're friends. Who swim. At night.",
      "e": "neutral",
      "d": "Fast, flustered.",
      "id": "marina_chat_04"
@@ -2886,12 +2850,6 @@
      "e": "neutral",
      "d": "Teasing; caught you looking.",
      "id": "marina_chat_05"
-    },
-    {
-     "t": "You still only have one shoe, you know.",
-     "e": "neutral",
-     "d": "Deadpan.",
-     "id": "marina_chat_06"
     },
     {
      "t": "Mum wants to feed you. Consider yourself warned.",
@@ -3667,7 +3625,7 @@
    },
    "levels": [
     {
-     "target": 700,
+     "target": 900,
      "moves": 15,
      "win": [
       {
@@ -3761,7 +3719,7 @@
      }
     },
     {
-     "target": 1030,
+     "target": 1200,
      "moves": 15,
      "win": [
       {
@@ -3855,7 +3813,7 @@
      }
     },
     {
-     "target": 1250,
+     "target": 1700,
      "moves": 16,
      "win": [
       {
@@ -3946,7 +3904,7 @@
      }
     },
     {
-     "target": 1350,
+     "target": 2000,
      "moves": 18,
      "win": [
       {
@@ -5072,7 +5030,7 @@
    },
    "levels": [
     {
-     "target": 700,
+     "target": 900,
      "moves": 15,
      "win": [
       {
@@ -5159,7 +5117,7 @@
      }
     },
     {
-     "target": 1030,
+     "target": 1200,
      "moves": 15,
      "win": [
       {
@@ -5249,7 +5207,7 @@
      }
     },
     {
-     "target": 1250,
+     "target": 1700,
      "moves": 16,
      "win": [
       {
@@ -5339,7 +5297,7 @@
      }
     },
     {
-     "target": 1350,
+     "target": 2000,
      "moves": 18,
      "win": [
       {

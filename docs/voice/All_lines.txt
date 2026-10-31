@@ -365,7 +365,7 @@ MARINA WAVERLY (Mermaid of Saltwick Cove)
 Voice: Marina Waverly, mermaid, the eldest of four sisters. Quick, blunt, sarcastic; talks faster when she's flustered and goes very short when she's hurt. Competent, proud, embarrassed by needing help. Calls you 'lifeguard' to needle you. No pirate voice, no sea-shanty accent.
 Say it: Marina = muh-REE-nuh · Waverly = WAY-vur-lee · Mari (her family's nickname) = MAH-ree · Nerissa = neh-RISS-uh · Saltwick = SALT-wick · Pellow = PELL-oh
 
-77 lines. Emotion = the portrait she shows; after it, how to deliver the line.
+74 lines. Emotion = the portrait she shows; after it, how to deliver the line.
 
 
 == MEETING HER ==
@@ -374,11 +374,11 @@ Say it: Marina = muh-REE-nuh · Waverly = WAY-vur-lee · Mari (her family's nick
    Emotion: angry. Angry: a stranger has just 'rescued' her from her own cove in front of her family. Furious, but it turns into embarrassment.
    File: marina_intro_01.wav
 
-2. Nerissa. Don't. Don't you dare.
+2. Don't. Don't you dare.
    Emotion: angry. Hissed at her sister. Mortified.
    File: marina_intro_02.wav
 
-3. Gran, I'm fine. I was resting. I always rest like that.
+3. Gran, I'm fine. I'm always like that.
    Emotion: shy. Defensive and too fast. Nobody believes her, including her.
    File: marina_intro_03.wav
 
@@ -398,7 +398,7 @@ Say it: Marina = muh-REE-nuh · Waverly = WAY-vur-lee · Mari (her family's nick
    Emotion: sad. Flat and ashamed. She hasn't said it out loud to anyone.
    File: marina_intro_07.wav
 
-8. And you're not going to tell anyone either, are you, lifeguard.
+8. And you're not going to tell anyone either, are you, lifeguard?
    Emotion: angry. Sounds like a threat. It's really a plea.
    File: marina_intro_08.wav
 
@@ -420,7 +420,7 @@ Say it: Marina = muh-REE-nuh · Waverly = WAY-vur-lee · Mari (her family's nick
    Emotion: angry. Incredulous, rising.
    File: marina_intro_r2_01.wav
 
-12. There. Now we're even. Low tide's at six. Bring your other shoe.
+12. There. Now we're even. Low tide's at six.
    Emotion: teasing. Smug, with a sneaky bit of warmth at the end.
    File: marina_intro_r2_02.wav
 
@@ -472,7 +472,7 @@ Say it: Marina = muh-REE-nuh · Waverly = WAY-vur-lee · Mari (her family's nick
    Emotion: sad. She's just been told she doesn't have to do everything herself. More serious. Short pause after 'Huh.'
    File: marina_ch2_02.wav
 
-22. Nerissa keeps asking about the comb. I keep saying it's at the jeweller's. I'm running out of jewellers.
+22. Everyone keeps asking about the comb and I'm running out of excuses.
    Emotion: shy. Tired joke; trying to keep it light.
    File: marina_ch2_03.wav
 
@@ -509,7 +509,7 @@ Say it: Marina = muh-REE-nuh · Waverly = WAY-vur-lee · Mari (her family's nick
    Emotion: surprised. The realisation lands. Breath caught.
    File: marina_ch3_02.wav
 
-29. You're a genius, you're a soaked genius with one shoe, come here.
+29. You're a genius, you're a soaked genius.
    Emotion: happy. Giddy relief, half laughing.
    File: marina_ch3_03.wav
 
@@ -604,7 +604,7 @@ Say it: Marina = muh-REE-nuh · Waverly = WAY-vur-lee · Mari (her family's nick
    Emotion: shy. Soft, pleased with herself, a bit shy that she's been watching.
    File: marina_end_01.wav
 
-49. So. Last night. I've been floating here trying to think of a word for it, and I've got it down to three, and they're all very rude.
+49. So. Last night. I've been floating close by trying to think of a word for it, and I've got it down to three, and they're all very rude.
    Emotion: teasing. Fast, giddy, very pleased with herself.
    File: marina_end_02.wav
 
@@ -616,7 +616,7 @@ Say it: Marina = muh-REE-nuh · Waverly = WAY-vur-lee · Mari (her family's nick
    Emotion: shy. Low, quick, moved and trying to hide it.
    File: marina_end_04.wav
 
-52. Dance with me later. Badly. I've got a tail, so we'll be bad at it together.
+52. Swim with me later. Don't embarrass me again.
    Emotion: happy. Warm, laughing.
    File: marina_end_05.wav
 
@@ -677,58 +677,46 @@ Say it: Marina = muh-REE-nuh · Waverly = WAY-vur-lee · Mari (her family's nick
 
 == PUZZLE QUIP: YOU MATCHED A GEM SHE DISLIKES ==
 
-65. Who brings fire to a pier?
-   Emotion: neutral. Sarcastic, baffled.
-   File: marina_least_01.wav
-
-66. Ugh. That's drier than Gran's sponge.
+65. Ugh. That's drier than a sponge.
    Emotion: neutral. Disgusted, then guilty about Gran.
    File: marina_least_02.wav
 
-67. No. Absolutely not.
+66. No. Absolutely not.
    Emotion: neutral. Flat refusal.
    File: marina_least_03.wav
 
-68. Who even likes those?
+67. Who even likes those?
    Emotion: neutral. Genuinely baffled.
    File: marina_least_04.wav
 
-69. That's a dry-land gem. Put it back.
+68. That's a dry-land gem. Put it back.
    Emotion: neutral. Bossy.
    File: marina_least_05.wav
 
 
 == PUZZLE QUIP: CHATTER WHILE YOU PLAY ==
 
-70. Nine days. Keep going.
+69. Nine days. Keep going.
    Emotion: neutral. Tense, focused.
    File: marina_chat_01.wav
 
-71. You're getting good at this. It's annoying.
+70. You're getting good at this. It's annoying.
    Emotion: neutral. Grudging, a bit flirty.
    File: marina_chat_02.wav
 
-72. Gran says hello. Gran says a lot of things.
-   Emotion: neutral. Long-suffering.
-   File: marina_chat_03.wav
-
-73. If Nerissa asks, we're friends. Who swim. At night.
+71. If anyone asks, we're friends. Who swim. At night.
    Emotion: neutral. Fast, flustered.
    File: marina_chat_04.wav
 
-74. Board, lifeguard. Not me.
+72. Board, lifeguard. Not me.
    Emotion: neutral. Teasing; caught you looking.
    File: marina_chat_05.wav
 
-75. You still only have one shoe, you know.
-   Emotion: neutral. Deadpan.
-   File: marina_chat_06.wav
-
-76. Mum wants to feed you. Consider yourself warned.
+73. Mum wants to feed you. Consider yourself warned.
    Emotion: neutral. Wry.
    File: marina_chat_07.wav
 
-77. Faster. Tide's turning.
+74. Faster. Tide's turning.
    Emotion: neutral. Brisk, urgent.
    File: marina_chat_08.wav
 

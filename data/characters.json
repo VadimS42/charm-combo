@@ -971,13 +971,7 @@
   ],
   "leastQuips": [
    {
-    "t": "Who brings fire to a pier?",
-    "e": "neutral",
-    "d": "Sarcastic, baffled.",
-    "id": "marina_least_01"
-   },
-   {
-    "t": "Ugh. That's drier than Gran's sponge.",
+    "t": "Ugh. That's drier than a sponge.",
     "e": "neutral",
     "d": "Disgusted, then guilty about Gran.",
     "id": "marina_least_02"
@@ -1015,13 +1009,7 @@
     "id": "marina_chat_02"
    },
    {
-    "t": "Gran says hello. Gran says a lot of things.",
-    "e": "neutral",
-    "d": "Long-suffering.",
-    "id": "marina_chat_03"
-   },
-   {
-    "t": "If Nerissa asks, we're friends. Who swim. At night.",
+    "t": "If anyone asks, we're friends. Who swim. At night.",
     "e": "neutral",
     "d": "Fast, flustered.",
     "id": "marina_chat_04"
@@ -1031,12 +1019,6 @@
     "e": "neutral",
     "d": "Teasing; caught you looking.",
     "id": "marina_chat_05"
-   },
-   {
-    "t": "You still only have one shoe, you know.",
-    "e": "neutral",
-    "d": "Deadpan.",
-    "id": "marina_chat_06"
    },
    {
     "t": "Mum wants to feed you. Consider yourself warned.",
@@ -1116,14 +1098,14 @@
     },
     {
      "k": "s",
-     "t": "Nerissa. Don't. Don't you dare.",
+     "t": "Don't. Don't you dare.",
      "e": "angry",
      "d": "Hissed at her sister. Mortified.",
      "id": "marina_intro_02"
     },
     {
      "k": "s",
-     "t": "Gran, I'm fine. I was resting. I always rest like that.",
+     "t": "Gran, I'm fine. I'm always like that.",
      "e": "shy",
      "d": "Defensive and too fast. Nobody believes her, including her.",
      "id": "marina_intro_03"
@@ -1171,7 +1153,7 @@
     },
     {
      "k": "s",
-     "t": "And you're not going to tell anyone either, are you, lifeguard.",
+     "t": "And you're not going to tell anyone either, are you, lifeguard?",
      "e": "angry",
      "d": "Sounds like a threat. It's really a plea.",
      "id": "marina_intro_08"
@@ -1222,7 +1204,7 @@
        },
        {
         "k": "s",
-        "t": "There. Now we're even. Low tide's at six. Bring your other shoe.",
+        "t": "There. Now we're even. Low tide's at six.",
         "e": "teasing",
         "d": "Smug, with a sneaky bit of warmth at the end.",
         "id": "marina_intro_r2_02"
@@ -1351,7 +1333,7 @@
       },
       {
        "k": "s",
-       "t": "Nerissa keeps asking about the comb. I keep saying it's at the jeweller's. I'm running out of jewellers.",
+       "t": "Everyone keeps asking about the comb and I'm running out of excuses.",
        "e": "shy",
        "d": "Tired joke; trying to keep it light.",
        "id": "marina_ch2_03"
@@ -1437,7 +1419,7 @@
       },
       {
        "k": "s",
-       "t": "You're a genius, you're a soaked genius with one shoe, come here.",
+       "t": "You're a genius, you're a soaked genius.",
        "e": "happy",
        "d": "Giddy relief, half laughing.",
        "id": "marina_ch3_03"
@@ -1681,7 +1663,7 @@
        },
        {
         "k": "s",
-        "t": "So. Last night. I've been floating here trying to think of a word for it, and I've got it down to three, and they're all very rude.",
+        "t": "So. Last night. I've been floating close by trying to think of a word for it, and I've got it down to three, and they're all very rude.",
         "e": "teasing",
         "d": "Fast, giddy, very pleased with herself.",
         "id": "marina_end_02"
@@ -1709,7 +1691,7 @@
        },
        {
         "k": "s",
-        "t": "Dance with me later. Badly. I've got a tail, so we'll be bad at it together.",
+        "t": "Swim with me later. Don't embarrass me again.",
         "e": "happy",
         "d": "Warm, laughing.",
         "id": "marina_end_05"
@@ -1759,24 +1741,10 @@
   "sounds": [
    {
     "kind": "laugh",
-    "t": "(Laughs: a snort she tries to swallow.)",
+    "t": "(Laughs.)",
     "e": "happy",
-    "d": "Startled, laughing.",
+    "d": "Laughing.",
     "id": "marina_laugh_01"
-   },
-   {
-    "kind": "laugh",
-    "t": "(Laughs: big and loud, can't stop.)",
-    "e": "happy",
-    "d": "Giddy.",
-    "id": "marina_laugh_02"
-   },
-   {
-    "kind": "laugh",
-    "t": "(Laughs: a smug little 'ha'.)",
-    "e": "teasing",
-    "d": "Smug.",
-    "id": "marina_laugh_03"
    },
    {
     "kind": "unhappy",
@@ -1794,7 +1762,7 @@
    },
    {
     "kind": "unhappy",
-    "t": "(Huffs: blows a wet strand of hair off her face.)",
+    "t": "(Huffs.)",
     "e": "sad",
     "d": "Exasperated.",
     "id": "marina_unhappy_03"

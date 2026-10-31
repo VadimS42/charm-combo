@@ -17,6 +17,27 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-37 — Marina speaks; gameplay badges from the packs
+
+- **Marina's lines** match the script her actor recorded
+  (`docs/voice/lines_Marina.txt`): ten lines reworded, the shoe gag and
+  Nerissa gone from what she says (two narration lines still mention the lost
+  shoe), one dislike quip and two chatter quips dropped, her sounds cut to the
+  four recorded (a laugh, a groan, an "ugh", a huff). Sprites unchanged.
+  Russian and Chinese updated for the reworded lines.
+- **78 voice clips** in `audio/voice/mermaid` from the three sessions
+  (MARINA_S1-S4, NIGHT, MA, GIFT, PMATCH, NMATCH, CHATTER and the sounds),
+  cut with `tools/voice_import/import_voice.py`. The two meeting replies were
+  recorded as one file each and are split by hand in `takes.json`, as are
+  "It was an excellent storm" and "very brave. And very wet." Every voiced
+  Marina line has a clip.
+- **Achievements**: the eight gameplay badges (combos, Starburst, Mega Blast,
+  Charm Burst, moves to spare, Shard Smasher, Window Shopping) are rebuilt from
+  the packs in coloured Ravenmore frames (`make_game_art.py`). Hazel's eight
+  story badges keep her face.
+- `make_game_art.py` now trims pictures by their alpha, so gems and power-ups
+  fill their space better.
+
 ## ✅ Status: round-36 — the AI power-up pictures are gone
 
 - Power-ups (`art/store`) now come from the Ravenmore pack, and their names

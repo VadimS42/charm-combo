@@ -153,8 +153,8 @@ msgstr "这一次,跳下去之前先把衣服脱了。"
 msgid "And you still haven't asked me for anything."
 msgstr "而你还是什么都没向我要。"
 
-msgid "And you're not going to tell anyone either, are you, lifeguard."
-msgstr "你也不会告诉任何人的,对吧,救生员。"
+msgid "And you're not going to tell anyone either, are you, lifeguard?"
+msgstr "你也不会告诉任何人的,对吧,救生员?"
 
 msgid "Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing."
 msgstr "任何有效的消除都会立即达成章节目标,并奖励99颗星星——仅供QA测试,不适合正常游玩。"
@@ -351,9 +351,6 @@ msgstr "诅咒碎片"
 msgid "Cursed shards"
 msgstr "诅咒碎片"
 
-msgid "Dance with me later. Badly. I've got a tail, so we'll be bad at it together."
-msgstr "一会儿陪我跳舞。跳得很烂。我有尾巴,所以我们会一起跳得很烂。"
-
 msgid "Dark, cracked shards cost you points when they're part of a match. The Hammer smashes one for free."
 msgstr "暗色的裂开碎片如果被消除,会扣分。锤子可以免费砸碎一个。"
 
@@ -402,6 +399,9 @@ msgstr "别那样说。好像这很重要似的。"
 msgid "Don't stop on my account."
 msgstr "别因为我就停下来。"
 
+msgid "Don't. Don't you dare."
+msgstr "别说。你敢说。"
+
 msgid "Don't. Just don't."
 msgstr "别。千万别。"
 
@@ -443,6 +443,9 @@ msgstr "那里每一页都是我束缚的一部分。有人一直在收购。"
 
 msgid "Every one? That's four hundred and twelve buttons."
 msgstr "每一样?那可是四百一十二颗纽扣。"
+
+msgid "Everyone keeps asking about the comb and I'm running out of excuses."
+msgstr "大家一直问梳子的事,我的借口快用光了。"
 
 msgid "Everything — music and sound effects."
 msgstr "全部——音乐和音效。"
@@ -546,9 +549,6 @@ msgstr "知道了"
 msgid "Gran at the Midsummer Tide, her pearl comb in her hair."
 msgstr "仲夏潮汛上的奶奶,头发里戴着她的珍珠梳子。"
 
-msgid "Gran says hello. Gran says a lot of things."
-msgstr "奶奶向你问好。奶奶什么话都说。"
-
 msgid "Gran wears the comb at the Midsummer Tide and never finds out it was lost. Marina tells her anyway, a month later, and Gran laughs so hard she has to be helped onto a rock. Marina tells the story of how you met at every family dinner after that, and it gets bigger every time. Gran corrects her every time, and every time she sets a place for you without asking."
 msgstr "奶奶在仲夏潮汛上戴着梳子,始终不知道它曾经丢过。一个月后玛丽娜还是告诉了她,奶奶笑得不得不被人扶到一块岩石上。从那以后,每次家庭晚餐玛丽娜都要讲你们怎么认识的,每次都讲得更夸张。奶奶每次都纠正她,每次也都不等人开口就为你摆好一个座位。"
 
@@ -561,8 +561,8 @@ msgstr "奶奶会知道的。她总是知道。她会在早餐时看着我,然�
 msgid "Gran's going to wear it at the Tide and never know. Nobody's ever going to know you did this."
 msgstr "奶奶会在潮汛上戴着它,永远不会知道。没人会知道这是你做的。"
 
-msgid "Gran, I'm fine. I was resting. I always rest like that."
-msgstr "奶奶,我没事。我在休息。我总是这样休息。"
+msgid "Gran, I'm fine. I'm always like that."
+msgstr "奶奶,我没事。我一直都这样。"
 
 msgid "Hammer"
 msgstr "锤子"
@@ -780,8 +780,8 @@ msgstr "要是我找到一页,我就烧了它。"
 msgid "If I'd known you liked it, I'd have come by sooner."
 msgstr "早知道你喜欢,我早就来了。"
 
-msgid "If Nerissa asks, we're friends. Who swim. At night."
-msgstr "要是内丽莎问起,我们就是朋友。会游泳的那种。在晚上。"
+msgid "If anyone asks, we're friends. Who swim. At night."
+msgstr "要是有人问起,我们就是朋友。会游泳的那种。在晚上。"
 
 msgid "If someone dug him a new channel further out, my roots would follow the water. It would take a season. Nobody's ever offered. It's a lot of digging."
 msgstr "要是有人在更远处给他挖一条新水道,我的根就会跟着水走。要一个季节。从没人提过。要挖的活儿太多了。"
@@ -1025,12 +1025,6 @@ msgstr "妈妈想喂你吃饭。你已经被警告了。"
 
 msgid "Music"
 msgstr "音乐"
-
-msgid "Nerissa keeps asking about the comb. I keep saying it's at the jeweller's. I'm running out of jewellers."
-msgstr "内丽莎一直问梳子的事。我一直说在珠宝商那里。我的珠宝商快用光了。"
-
-msgid "Nerissa. Don't. Don't you dare."
-msgstr "内丽莎。别说。你敢说。"
 
 msgid "Next"
 msgstr "下一步"
@@ -1506,8 +1500,8 @@ msgstr "于是她在店中央当着所有人的面从罐子里爬出来,亲自�
 msgid "So. Are you telling them how we met, or am I?"
 msgstr "那么。你来跟他们讲我们怎么认识的,还是我来?"
 
-msgid "So. Last night. I've been floating here trying to think of a word for it, and I've got it down to three, and they're all very rude."
-msgstr "那么。昨晚。我一直漂在这儿想找个词来形容,已经缩小到三个了,而且全都很粗鲁。"
+msgid "So. Last night. I've been floating close by trying to think of a word for it, and I've got it down to three, and they're all very rude."
+msgstr "那么。昨晚。我一直漂在附近想找个词来形容,已经缩小到三个了,而且全都很粗鲁。"
 
 msgid "Soft as Moss"
 msgstr "柔软如苔"
@@ -1610,6 +1604,9 @@ msgstr "交换两个相邻的宝石,连成三个或更多同类宝石。消除�
 
 msgid "Swap two special gems together."
 msgstr "把两个特殊宝石交换在一起。"
+
+msgid "Swim with me later. Don't embarrass me again."
+msgstr "一会儿陪我游泳。别再让我丢脸了。"
 
 msgid "TIP"
 msgstr "提示"
@@ -1893,8 +1890,8 @@ msgstr "最低的那根树枝上坐着一个女人,可你确信一秒钟前那�
 msgid "There. Now look me in the eye and tell me you'd rather be shelving."
 msgstr "这样。现在看着我的眼睛,告诉我你宁愿去整理书架。"
 
-msgid "There. Now we're even. Low tide's at six. Bring your other shoe."
-msgstr "好了。现在我们扯平了。退潮是六点。把你另一只鞋带来。"
+msgid "There. Now we're even. Low tide's at six."
+msgstr "好了。现在我们扯平了。退潮是六点。"
 
 msgid "There. Now you can't go anywhere. That's a mermaid thing. It's very old. I just made it up."
 msgstr "好了。现在你哪儿也去不了。这是美人鱼的事。非常古老。我刚编的。"
@@ -1950,8 +1947,8 @@ msgstr "两百年来,人们从这棵树旁走过。没有一个躺在它下面�
 msgid "Two hundred years, and nobody told me it could feel like that. I'd like it noted that I'm saying this very calmly."
 msgstr "两百年了,没人告诉过我可以是这种感觉。我想声明一下,我说这话的时候非常平静。"
 
-msgid "Ugh. That's drier than Gran's sponge."
-msgstr "呃。比奶奶做的海绵蛋糕还干。"
+msgid "Ugh. That's drier than a sponge."
+msgstr "呃。比海绵蛋糕还干。"
 
 msgid "Use a Time Scroll"
 msgstr "使用时间卷轴"
@@ -1997,9 +1994,6 @@ msgstr "你从哪儿弄来的。"
 
 msgid "While you fetch coffee from the staff room, she takes a red pencil from your desk and starts correcting the page that started all this."
 msgstr "你去员工休息室拿咖啡的时候,她从你桌上拿起一支红铅笔,开始修改引发这一切的那张散页。"
-
-msgid "Who brings fire to a pier?"
-msgstr "谁会带火来码头?"
 
 msgid "Who even likes those?"
 msgstr "谁会喜欢那种东西?"
@@ -2121,9 +2115,6 @@ msgstr "你想把手拿开。她说不用。"
 msgid "You stay."
 msgstr "你留了下来。"
 
-msgid "You still only have one shoe, you know."
-msgstr "你知道吗,你还是只有一只鞋。"
-
 msgid "You summoned me with that pathetic chalk circle? Where did you even copy it from? Ugh, I was in the middle of something."
 msgstr "你就用那个可怜的粉笔圈召唤了我?你到底是从哪儿抄来的?唉,我正做到一半呢。"
 
@@ -2175,8 +2166,8 @@ msgstr "你太了不起了。"
 msgid "You'd burn it."
 msgstr "你会烧掉。"
 
-msgid "You're a genius, you're a soaked genius with one shoe, come here."
-msgstr "你是天才,你是个浑身湿透、只有一只鞋的天才,过来。"
+msgid "You're a genius, you're a soaked genius."
+msgstr "你是天才,你是个浑身湿透的天才。"
 
 msgid "You're a terrible influence. Keep going."
 msgstr "你的影响太坏了。继续。"
