@@ -96,7 +96,12 @@ static func _row(a: Dictionary) -> Control:
 		ms.set_corner_radius_all(28)
 		medal.add_theme_stylebox_override("panel", ms)
 		var glyph := Label.new()
-		glyph.text = "🏆" if got else "?"
+		glyph.text = "" if got and ArtAssets.ui_icon("achievements") else ("🏆" if got else "?")
+		if got and ArtAssets.ui_icon("achievements"):
+			var tr := UITheme.picture(ArtAssets.ui_icon("achievements"), 30)
+			tr.set_anchors_preset(Control.PRESET_CENTER)
+			tr.position = Vector2(-15, -15)
+			medal.add_child(tr)
 		glyph.set_anchors_preset(Control.PRESET_FULL_RECT)
 		glyph.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 		glyph.vertical_alignment = VERTICAL_ALIGNMENT_CENTER

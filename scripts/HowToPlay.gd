@@ -8,31 +8,33 @@
 class_name HowToPlay
 extends RefCounted
 
-## key, title, text, picture (gem icon name in art/gems, else an emoji).
+## key, title, text, picture: "icon" names a gem (art/gems), "pic" an
+## interface picture (art/ui, or "store:<item>" for art/store, round 40); the
+## emoji only shows if neither file exists.
 const TOPICS := [
 	{"key": "swap", "title": "Swap and match", "icon": "petal", "emoji": "🔄",
 		"text": "Swap two gems next to each other to line up three or more of the same kind. Matched gems pop and score points; new ones fall in from the top."},
-	{"key": "goal", "title": "Reach her goal", "icon": "", "emoji": "🎯",
+	{"key": "goal", "title": "Reach her goal", "icon": "", "emoji": "🎯", "pic": "star",
 		"text": "Each chapter has a points goal and a number of moves. Reach the goal before your moves run out and the story carries on. There's no timer: take as long as you like."},
-	{"key": "favorite", "title": "What she likes", "icon": "", "emoji": "💚",
+	{"key": "favorite", "title": "What she likes", "icon": "", "emoji": "💚", "pic": "heart",
 		"text": "Every girl has a favourite gem and one she dislikes (it's on her card in the roster). Matching her favourite fills the Charm ring faster."},
-	{"key": "gift", "title": "Her gift", "icon": "", "emoji": "🎁",
+	{"key": "gift", "title": "Her gift", "icon": "", "emoji": "🎁", "pic": "gift",
 		"text": "Once you've cleared her first chapter, her card on the roster has a gift for her. Give it and her favourite gem shows up more often in all her chapters, for good."},
-	{"key": "charm", "title": "Charm Burst", "icon": "", "emoji": "💗",
+	{"key": "charm", "title": "Charm Burst", "icon": "", "emoji": "💗", "pic": "heart",
 		"text": "Every match fills the Charm ring. When it's full you get a Charm Burst: +150 points."},
 	{"key": "specials", "title": "Special gems", "icon": "starburst", "emoji": "✦",
 		"text": "Match 4 in a row to make a Rocket, which clears its row or column. Match 5, or an L or T shape, to make a Starburst. Swap a special gem to set it off; swap two together for a Mega Blast."},
-	{"key": "combos", "title": "Combos", "icon": "", "emoji": "✨",
+	{"key": "combos", "title": "Combos", "icon": "", "emoji": "✨", "pic": "combo",
 		"text": "When falling gems make new matches on their own, that's a combo. Each link in the chain scores more than the last."},
 	{"key": "cursed", "title": "Cursed shards", "icon": "cursed", "emoji": "💔",
 		"text": "Dark, cracked shards cost you points when they're part of a match. The Hammer smashes one for free."},
-	{"key": "items", "title": "Items", "icon": "", "emoji": "🔨",
+	{"key": "items", "title": "Items", "icon": "", "emoji": "🔨", "pic": "store:hammer",
 		"text": "The Time Scroll (three more moves), the Hammer (smash any one gem) and the Shuffle Wand (a new board) sit under the board. Buy them, and potions that help a whole chapter, in the Item Shop with the stars you earn."},
-	{"key": "replies", "title": "Your replies", "icon": "", "emoji": "💬",
+	{"key": "replies", "title": "Your replies", "icon": "", "emoji": "💬", "pic": "letter",
 		"text": "After each chapter you pick a reply. A warm one starts her next chapter with bonus points; a teasing one costs a few, but she likes those too."},
-	{"key": "out_of_moves", "title": "Out of moves", "icon": "", "emoji": "⏳",
+	{"key": "out_of_moves", "title": "Out of moves", "icon": "", "emoji": "⏳", "pic": "scroll",
 		"text": "Running out still pays you a few stars. Try again, read a Time Scroll, or visit the shop. Later chapters are hard without power-ups: short on stars, replay a chapter you've cleared from her card on the roster. Lose three times in a row and you can carry on with the story anyway."},
-	{"key": "dialogue", "title": "Dialogue controls", "icon": "", "emoji": "📜",
+	{"key": "dialogue", "title": "Dialogue controls", "icon": "", "emoji": "📜", "pic": "book",
 		"text": "Click, Space or Enter: next line. Hold Ctrl or press Skip: skip lines you've read. A or Auto: lines play on by themselves. L, Log or scroll up: read back. H: hide the text on full-screen pictures. Text speed is in Settings."},
 ]
 
@@ -46,6 +48,11 @@ static func topic(key: String) -> Dictionary:
 
 static func _picture(t: Dictionary, px: int) -> Control:
 	var tex: Texture2D = ArtAssets.gem_icon(String(t.icon)) if String(t.icon) != "" else null
+	var pic := String(t.get("pic", ""))
+	if tex == null and pic.begins_with("store:"):
+		tex = ArtAssets.store_icon(pic.substr(6))
+	elif tex == null and pic != "":
+		tex = ArtAssets.ui_icon(pic)
 	if tex:
 		var r := TextureRect.new()
 		r.texture = tex

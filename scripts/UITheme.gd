@@ -698,6 +698,77 @@ static func add_icon(b: Button, icon_name: String, px: int = 18) -> void:
 			b.add_theme_color_override("icon_%s_color" % state, b.get_theme_color(font_key))
 
 
+## Round 40: pictures from the packs where the game used to show an emoji.
+## The emoji (still in the code as a key, and as the fallback if the file is
+## missing) -> its picture.
+static func emoji_art(emoji: String) -> Texture2D:
+	match emoji:
+		"💞", "💗", "💚", "♥":
+			return ArtAssets.ui_icon("heart")
+		"💫", "✨", "⭐":
+			return ArtAssets.ui_icon("star")
+		"🌙":
+			return ArtAssets.gem_icon("moonstone")
+		"🎁":
+			return ArtAssets.ui_icon("gift")
+		"🚫":
+			return ArtAssets.ui_icon("no")
+	return null
+
+
+## A picture at px x px, centred, ignoring the mouse.
+static func picture(tex: Texture2D, px: float) -> TextureRect:
+	var r := TextureRect.new()
+	r.texture = tex
+	r.custom_minimum_size = Vector2(px, px)
+	r.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	r.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	r.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+	r.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	return r
+
+
+## A one-line label whose ⭐ is drawn as the star picture (the text, and so
+## its translations, keep the ⭐ as the marker).
+static func rich_icons(text: String, size: int = 14, color: Color = INK) -> RichTextLabel:
+	var r := RichTextLabel.new()
+	r.bbcode_enabled = true
+	r.fit_content = true
+	r.scroll_active = false
+	r.autowrap_mode = TextServer.AUTOWRAP_OFF
+	r.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	r.add_theme_font_size_override("normal_font_size", size)
+	r.add_theme_color_override("default_color", color)
+	var star := "⭐"
+	if ArtAssets.ui_icon("star"):
+		star = "[img=%dx%d]res://art/ui/star.png[/img]" % [size + 4, size + 4]
+	r.text = "[center]" + text.replace("[", "[lb]").replace("⭐", star) + "[/center]"
+	return r
+
+
+## Stand-in for a girl with no picture yet (Opal): her initial on her own
+## round frame (art/tiles/<id>_slot.png), in place of an emoji face.
+static func placeholder_portrait(char_id: String, initial: String, px: float = 220.0) -> Control:
+	var box := Control.new()
+	box.custom_minimum_size = Vector2(px, px)
+	box.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	var slot := ArtAssets.item_slot(char_id)
+	if slot:
+		var r := picture(slot, px)
+		r.set_anchors_preset(Control.PRESET_FULL_RECT)
+		box.add_child(r)
+	var l := Label.new()
+	l.text = initial
+	l.set_anchors_preset(Control.PRESET_FULL_RECT)
+	l.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	l.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
+	l.add_theme_font_size_override("font_size", int(px * 0.45))
+	l.add_theme_color_override("font_color", Color(1, 1, 1, 0.92))
+	l.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	box.add_child(l)
+	return box
+
+
 ## A placeholder_tag() pinned inside the top-right corner of whatever it's
 ## added to (a full-rect, click-through wrapper). Anchoring the tag itself
 ## to PRESET_TOP_RIGHT without offsets leaves it hanging off the right edge,

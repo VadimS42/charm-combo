@@ -152,7 +152,7 @@ The full game has four stories: Hazel's, and three more women of Millbrook to me
 Main menu
 
 @@ ui-0048
-♥  Wishlist on Steam
+Wishlist on Steam
 
 @@ ui-0049
 ACHIEVEMENT UNLOCKED
@@ -267,16 +267,16 @@ Quit
 18+ · original characters · all characters are adults.
 
 @@ ui-0085
-✨ Starburst Starter active!
+Starburst Starter active!
 
 @@ ui-0086
-💗 Love Potion active!
+Love Potion active!
 
 @@ ui-0087
-💚 Mending Potion active!
+Mending Potion active!
 
 @@ ui-0088
-🎁 Her gift: more of her favourite gem
+Her gift: more of her favourite gem
 
 @@ ui-0089
 +%d pts — great answer!

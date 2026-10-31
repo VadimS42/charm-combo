@@ -594,6 +594,9 @@ msgstr "她父亲今早来过。他给你到月底的时间。之后他就雇个
 msgid "Her gift"
 msgstr "她的礼物"
 
+msgid "Her gift: more of her favourite gem"
+msgstr "她的礼物:更多她最爱的宝石"
+
 msgid "Her grandmother says, mildly, that they'd been calling her for twenty minutes, that the tide's on the turn, and that this nice person was the only one who did anything about it."
 msgstr "她的奶奶温和地说,她们叫了她二十分钟,潮水就要转向了,而这位好心人是唯一采取行动的。"
 
@@ -909,6 +912,9 @@ msgstr "记录"
 msgid "Love Potion"
 msgstr "爱情药水"
 
+msgid "Love Potion active!"
+msgstr "爱情药水已生效!"
+
 msgid "Loves"
 msgstr "喜欢"
 
@@ -962,6 +968,9 @@ msgstr "超级爆破!"
 
 msgid "Mending Potion"
 msgstr "疗愈药水"
+
+msgid "Mending Potion active!"
+msgstr "疗愈药水已生效!"
 
 msgid "Mermaid of Saltwick Cove"
 msgstr "索尔特威克湾的美人鱼"
@@ -1530,6 +1539,9 @@ msgstr "木刺"
 msgid "Starburst Starter"
 msgstr "星爆开局"
 
+msgid "Starburst Starter active!"
+msgstr "星爆开局已生效!"
+
 msgid "Stars come from clearing chapters: 15 for a girl's first and 5 more for each one after it."
 msgstr "星星来自通关章节:每位女孩的第一章15颗,之后每多一章再加5颗。"
 
@@ -1983,6 +1995,9 @@ msgstr "你为什么要这样做?"
 msgid "Window Shopping"
 msgstr "橱窗购物"
 
+msgid "Wishlist on Steam"
+msgstr "在Steam上加入愿望单"
+
 msgid "With Moves to Spare"
 msgstr "步数绰绰有余"
 
@@ -2228,18 +2243,3 @@ msgstr "←  菜单"
 
 msgid "←  Roster"
 msgstr "←  名册"
-
-msgid "♥  Wishlist on Steam"
-msgstr "♥  在Steam上加入愿望单"
-
-msgid "✨ Starburst Starter active!"
-msgstr "✨ 星爆开局已生效!"
-
-msgid "🎁 Her gift: more of her favourite gem"
-msgstr "🎁 她的礼物:更多她最爱的宝石"
-
-msgid "💗 Love Potion active!"
-msgstr "💗 爱情药水已生效!"
-
-msgid "💚 Mending Potion active!"
-msgstr "💚 疗愈药水已生效!"

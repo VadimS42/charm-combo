@@ -181,6 +181,114 @@ def ui_icons():
     white = Image.new("RGBA", hg.size, (255, 255, 255, 255))
     white.putalpha(hg.getchannel("A"))
     fit(white, 64, 4).save(os.path.join(ui, "hourglass.png"))
+    # Round 40: the last emoji. Painted pictures for light backgrounds.
+    fit(load("Letter"), SIZE, 4).save(os.path.join(ui, "letter.png"))      # your replies
+    fit(load("TomeRed"), SIZE, 4).save(os.path.join(ui, "book.png"))       # dialogue controls
+    fit(load("X"), SIZE, 4).save(os.path.join(ui, "no.png"))               # "Dislikes"
+    fit(load("Scroll"), SIZE, 4).save(os.path.join(ui, "scroll.png"))      # out of moves
+    gems = [Image.open(os.path.join(GEMS, g + ".png")).convert("RGBA") for g in ("ember", "pearl", "crystal")]
+    combo = Image.new("RGBA", (SIZE, SIZE))
+    for g, (x, y) in zip(gems, [(-30, 18), (0, -20), (30, 18)]):
+        g = g.resize((70, 70), Image.LANCZOS)
+        combo.alpha_composite(g, (SIZE // 2 - 35 + x, SIZE // 2 - 35 + y))
+    fit(combo, SIZE, 4).save(os.path.join(ui, "combo.png"))                 # combos
+    painted_glyph("present", "#FF8FB8", "#D9346E", "#7A1238").save(os.path.join(ui, "gift.png"))
+    # Each girl's gift, for the roster's gift button (game-icons.net, CC BY 3.0).
+    gifts = os.path.join(ROOT, "art", "gifts")
+    os.makedirs(gifts, exist_ok=True)
+    for gift, (src, top, bottom, rim) in {
+        "seaGlass": ("gem-pendant", "#B8F2E6", "#3FB7A8", "#145A52"),
+        "pocketSundial": ("sundial", "#F5D58A", "#B07A2A", "#5A3A0E"),
+    }.items():
+        painted_glyph(src, top, bottom, rim).save(os.path.join(gifts, gift + ".png"))
+    # These two read badly as filled silhouettes (their detail is cut-outs),
+    # so they're drawn here.
+    candle().save(os.path.join(gifts, "beeswaxCandle.png"))
+    marble().save(os.path.join(gifts, "goldMarble.png"))
+
+
+def _shade(size, top, bottom):
+    g = Image.new("RGBA", size)
+    d = ImageDraw.Draw(g)
+    for x in range(size[0]):
+        k = abs(x / max(1, size[0] - 1) - 0.35) / 0.65
+        d.line([(x, 0), (x, size[1])], fill=tuple(int(top[i] + (bottom[i] - top[i]) * k) for i in range(3)) + (255,))
+    return g
+
+
+def candle():
+    """A tall beeswax candle, a drip down its side, lit."""
+    out = Image.new("RGBA", (SIZE, SIZE))
+    body = Image.new("L", (SIZE, SIZE))
+    d = ImageDraw.Draw(body)
+    d.rounded_rectangle([44, 46, 84, 120], radius=6, fill=255)
+    d.ellipse([40, 40, 88, 54], fill=255)
+    d.rounded_rectangle([78, 50, 88, 82], radius=5, fill=255)  # drip
+    wax = _shade((SIZE, SIZE), (255, 236, 170), (214, 150, 52))
+    out.paste((110, 66, 14, 255), (0, 0), body.filter(ImageFilter.MaxFilter(5)))
+    out.paste(wax, (0, 0), body)
+    d2 = ImageDraw.Draw(out)
+    d2.line([(64, 30), (64, 46)], fill=(60, 40, 30, 255), width=3)  # wick
+    glow = Image.new("L", (SIZE, SIZE))
+    ImageDraw.Draw(glow).ellipse([38, 2, 90, 50], fill=150)
+    out.paste((255, 200, 90, 255), (0, 0), glow.filter(ImageFilter.GaussianBlur(10)))
+    flame = Image.new("L", (SIZE, SIZE))
+    ImageDraw.Draw(flame).polygon([(64, 6), (76, 28), (70, 38), (58, 38), (52, 28)], fill=255)
+    out.paste((255, 150, 40, 255), (0, 0), flame.filter(ImageFilter.GaussianBlur(1)))
+    core = Image.new("L", (SIZE, SIZE))
+    ImageDraw.Draw(core).ellipse([59, 22, 69, 37], fill=255)
+    out.paste((255, 250, 210, 255), (0, 0), core.filter(ImageFilter.GaussianBlur(1)))
+    return out
+
+
+def marble():
+    """A glass marble with a twist of gold through it."""
+    out = Image.new("RGBA", (SIZE, SIZE))
+    ball = Image.new("L", (SIZE, SIZE))
+    ImageDraw.Draw(ball).ellipse([14, 14, SIZE - 14, SIZE - 14], fill=255)
+    glass = Image.new("RGBA", (SIZE, SIZE))
+    gd = ImageDraw.Draw(glass)
+    for r in range(50, 0, -1):
+        k = r / 50
+        gd.ellipse([64 - r - 8, 64 - r - 8, 64 + r + 8, 64 + r + 8],
+                   fill=(int(150 + 70 * (1 - k)), int(200 + 40 * (1 - k)), int(225 + 25 * (1 - k)), 255))
+    out.paste((40, 90, 110, 255), (0, 0), ball.filter(ImageFilter.MaxFilter(5)))
+    out.paste(glass, (0, 0), ball)
+    ribbon = Image.new("L", (SIZE, SIZE))
+    rd = ImageDraw.Draw(ribbon)
+    rd.arc([22, 30, 106, 98], 200, 340, fill=255, width=12)
+    rd.arc([22, 30, 106, 98], 20, 160, fill=255, width=12)
+    ribbon = ImageChops.multiply(ribbon, ball.filter(ImageFilter.MinFilter(9)))
+    out.paste((230, 170, 40, 255), (0, 0), ribbon)
+    out.paste((255, 225, 120, 255), (0, 0), ribbon.filter(ImageFilter.MinFilter(5)))
+    shine = Image.new("L", (SIZE, SIZE))
+    ImageDraw.Draw(shine).ellipse([34, 26, 62, 48], fill=200)
+    out.paste((255, 255, 255, 255), (0, 0), ImageChops.multiply(shine.filter(ImageFilter.GaussianBlur(5)), ball))
+    return out
+
+
+def painted_glyph(name, top, bottom, rim):
+    """A black game-icons.net silhouette painted like the pack art: a
+    top-to-bottom gradient, a dark rim and a soft shine."""
+    shape = Image.open(os.path.join(SRC, "game-icons", name + ".png")).convert("RGBA").getchannel("A")
+    shape = shape.crop(shape.getbbox()).resize((SIZE - 20, SIZE - 20), Image.LANCZOS)
+    mask = Image.new("L", (SIZE, SIZE))
+    mask.paste(shape, (10, 10))
+    hexrgb = lambda h: tuple(int(h[i:i + 2], 16) for i in (1, 3, 5))
+    t, b = hexrgb(top), hexrgb(bottom)
+    grad = Image.new("RGBA", (SIZE, SIZE))
+    d = ImageDraw.Draw(grad)
+    for y in range(SIZE):
+        k = y / SIZE
+        d.line([(0, y), (SIZE, y)], fill=tuple(int(t[i] + (b[i] - t[i]) * k) for i in range(3)) + (255,))
+    out = Image.new("RGBA", (SIZE, SIZE))
+    out.paste(Image.new("RGBA", (SIZE, SIZE), hexrgb(rim) + (255,)), (0, 0), mask.filter(ImageFilter.MaxFilter(5)))
+    out.paste(grad, (0, 0), mask)
+    shine = Image.new("L", (SIZE, SIZE))
+    ImageDraw.Draw(shine).ellipse([24, 14, 74, 50], fill=110)
+    shine = ImageChops.multiply(shine.filter(ImageFilter.GaussianBlur(8)), mask)
+    out.paste(Image.new("RGBA", (SIZE, SIZE), (255, 255, 255, 255)), (0, 0), shine)
+    return out
 
 
 def starburst():

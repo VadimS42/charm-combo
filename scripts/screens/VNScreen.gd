@@ -177,10 +177,9 @@ static func build(main: Node, host: Control, char_id: String, lines: Array, choi
 			var center := CenterContainer.new()
 			center.set_anchors_preset(Control.PRESET_FULL_RECT)
 			center.mouse_filter = Control.MOUSE_FILTER_IGNORE
-			var lbl := Label.new()
-			lbl.add_theme_font_size_override("font_size", 120)
-			lbl.text = EXPR_ICON.get(expr, "🙂")
-			center.add_child(lbl)
+			# No picture of her yet (Opal): her initial on her own frame
+			# (round 40; it was an emoji face).
+			center.add_child(UITheme.placeholder_portrait(char_id, String(ch.name).substr(0, 1), 240.0))
 			portrait_host.add_child(center)
 	set_portrait.call("neutral")
 

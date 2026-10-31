@@ -594,6 +594,9 @@ msgstr "Утром заходил её отец. Даёт тебе срок до
 msgid "Her gift"
 msgstr "Её подарок"
 
+msgid "Her gift: more of her favourite gem"
+msgstr "Её подарок: больше её любимых камней"
+
 msgid "Her grandmother says, mildly, that they'd been calling her for twenty minutes, that the tide's on the turn, and that this nice person was the only one who did anything about it."
 msgstr "Бабушка мягко замечает, что они звали её двадцать минут, что прилив разворачивается и что этот славный человек — единственный, кто хоть что-то сделал."
 
@@ -909,6 +912,9 @@ msgstr "Журнал"
 msgid "Love Potion"
 msgstr "Любовное зелье"
 
+msgid "Love Potion active!"
+msgstr "Любовное зелье действует!"
+
 msgid "Loves"
 msgstr "Любит"
 
@@ -962,6 +968,9 @@ msgstr "Мегавзрыв!"
 
 msgid "Mending Potion"
 msgstr "Целебное зелье"
+
+msgid "Mending Potion active!"
+msgstr "Целебное зелье действует!"
 
 msgid "Mermaid of Saltwick Cove"
 msgstr "Русалка из бухты Солтвик"
@@ -1530,6 +1539,9 @@ msgstr "Занозы"
 msgid "Starburst Starter"
 msgstr "Звёздный старт"
 
+msgid "Starburst Starter active!"
+msgstr "Звёздный старт активен!"
+
 msgid "Stars come from clearing chapters: 15 for a girl's first and 5 more for each one after it."
 msgstr "Звёзды дают за пройденные главы: 15 за первую главу девушки и по 5 за каждую следующую."
 
@@ -1983,6 +1995,9 @@ msgstr "Зачем было это делать?"
 msgid "Window Shopping"
 msgstr "Только посмотреть"
 
+msgid "Wishlist on Steam"
+msgstr "Добавить в список желаемого в Steam"
+
 msgid "With Moves to Spare"
 msgstr "С запасом ходов"
 
@@ -2228,18 +2243,3 @@ msgstr "←  Меню"
 
 msgid "←  Roster"
 msgstr "←  Список"
-
-msgid "♥  Wishlist on Steam"
-msgstr "♥  Добавить в список желаемого в Steam"
-
-msgid "✨ Starburst Starter active!"
-msgstr "✨ Звёздный старт активен!"
-
-msgid "🎁 Her gift: more of her favourite gem"
-msgstr "🎁 Её подарок: больше её любимых камней"
-
-msgid "💗 Love Potion active!"
-msgstr "💗 Любовное зелье действует!"
-
-msgid "💚 Mending Potion active!"
-msgstr "💚 Целебное зелье действует!"

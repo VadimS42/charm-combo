@@ -17,6 +17,25 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-40 — no emoji left as pictures
+
+Every emoji the game showed as a picture now comes from the packs
+(`make_game_art.py`; the emoji stay in the code only as a fallback if a file
+is missing):
+
+- **How to Play**: each topic has a picture (gem, star, heart, gift, the
+  combo gems, hammer, letter, scroll, book).
+- **Top bar**: the heart before "Charm Combo". **Roster cards**: heart for
+  Loves, Ravenmore's X for Dislikes. **Gift buttons**: each girl's gift has an
+  icon (`art/gifts`: a drawn candle and marble, game-icons.net's pendant and
+  sundial, painted).
+- **Power-up toasts** show the power-up's picture ("Love Potion active!"),
+  and are now centred (the chapter-start ones used to land off to the left).
+- **"+8 ⭐" rewards** draw the star picture (`UITheme.rich_icons`).
+- **Opal** (no art yet): her initial on her round frame instead of emoji faces.
+- Gallery stand-ins, the achievement fallback and the demo's Wishlist button
+  use pictures too. Credits list the game-icons.net artists.
+
 ## ✅ Status: round-39 — Amara's main sprite
 
 - `art/characters/succubus/main.png`: her artist's full figure, cut out of its

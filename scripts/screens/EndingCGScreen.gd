@@ -113,10 +113,14 @@ static func art_frame(char_id: String, cg_key: String, frame_size: Vector2, tag_
 			p.mouse_filter = Control.MOUSE_FILTER_IGNORE
 			center.add_child(p)
 		else:
-			var lbl := Label.new()
-			lbl.text = emoji
-			lbl.add_theme_font_size_override("font_size", mini(96, int(frame_size.y * 0.4)))
-			center.add_child(lbl)
+			var art := UITheme.emoji_art(emoji)
+			if art:
+				center.add_child(UITheme.picture(art, mini(110, int(frame_size.y * 0.45))))
+			else:
+				var lbl := Label.new()
+				lbl.text = emoji
+				lbl.add_theme_font_size_override("font_size", mini(96, int(frame_size.y * 0.4)))
+				center.add_child(lbl)
 		frame.add_child(center)
 		if tag_text != "":
 			frame.add_child(UITheme.corner_tag(tag_text))

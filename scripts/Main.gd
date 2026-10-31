@@ -124,7 +124,11 @@ func _build_chrome() -> void:
 		logo.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 		top_h.add_child(logo)
 	else:
-		var brand := UITheme.heading("💞 Charm Combo", 18)
+		# The heart picture before the name, where the 💞 emoji was.
+		var heart := UITheme.emoji_art("💞")
+		if heart:
+			top_h.add_child(UITheme.picture(heart, 24))
+		var brand := UITheme.heading("Charm Combo" if heart else "💞 Charm Combo", 18)
 		brand.add_theme_color_override("font_color", UITheme.INK_ON_DARK)
 		brand.add_theme_color_override("font_shadow_color", Color(0, 0, 0, 0.25))
 		brand.add_theme_constant_override("shadow_offset_y", 1)
@@ -821,7 +825,8 @@ func show_demo_end() -> void:
 	)
 	row.add_child(menu_btn)
 	var url := Platform.wishlist_url()
-	var wish := UITheme.make_primary_button("♥  Wishlist on Steam")
+	var wish := UITheme.make_primary_button("Wishlist on Steam")
+	UITheme.add_icon(wish, "heart", 20)
 	wish.disabled = url == ""
 	wish.tooltip_text = "" if url != "" else "Store page address not set yet (Platform.STORE_URL)."
 	wish.pressed.connect(func():
@@ -882,11 +887,17 @@ func show_achievement_toast(id: String) -> void:
 		t.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 		h.add_child(t)
 	else:
-		var trophy := Label.new()
-		trophy.text = "🏆"
-		trophy.add_theme_font_size_override("font_size", 26)
-		trophy.add_theme_color_override("font_color", UITheme.ACCENT_2)
-		h.add_child(trophy)
+		var trophy_tex := ArtAssets.ui_icon("achievements")
+		if trophy_tex:
+			var tr := UITheme.picture(trophy_tex, 34)
+			tr.modulate = UITheme.ACCENT_2
+			h.add_child(tr)
+		else:
+			var trophy := Label.new()
+			trophy.text = "🏆"
+			trophy.add_theme_font_size_override("font_size", 26)
+			trophy.add_theme_color_override("font_color", UITheme.ACCENT_2)
+			h.add_child(trophy)
 	var v := VBoxContainer.new()
 	v.add_theme_constant_override("separation", 0)
 	h.add_child(v)

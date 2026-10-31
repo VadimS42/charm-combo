@@ -538,7 +538,10 @@ static func _pref_row(emoji: String, verb: String, gem_id: String) -> HBoxContai
 	var row := HBoxContainer.new()
 	row.add_theme_constant_override("separation", 4)
 	row.mouse_filter = Control.MOUSE_FILTER_PASS
-	var lead := UITheme.soft_label(emoji + " " + UITheme.t(verb), 10)
+	var art := UITheme.emoji_art(emoji)
+	if art:
+		row.add_child(UITheme.picture(art, 13))
+	var lead := UITheme.soft_label((UITheme.t(verb)) if art else (emoji + " " + UITheme.t(verb)), 10)
 	lead.autowrap_mode = TextServer.AUTOWRAP_OFF
 	row.add_child(lead)
 	var tex := ArtAssets.gem_icon(gem_id)

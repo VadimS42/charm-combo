@@ -209,13 +209,13 @@ func setup(p_main: Node, p_host: Control, p_char_id: String, p_replay: int = -1)
 	# once the board's on screen (queued below, after _render_board()).
 	var applied_msgs: Array = []
 	if use_color_bomb:
-		applied_msgs.append("✨ Starburst Starter active!")
+		applied_msgs.append(["Starburst Starter active!", ArtAssets.store_icon("colorBomb")])
 	if used_favor_charm:
-		applied_msgs.append("💗 Love Potion active!")
+		applied_msgs.append(["Love Potion active!", ArtAssets.store_icon("favorCharm")])
 	if used_heart_mender:
-		applied_msgs.append("💚 Mending Potion active!")
+		applied_msgs.append(["Mending Potion active!", ArtAssets.store_icon("heartMender")])
 	if CharacterData.has_gift(ch):
-		applied_msgs.append("🎁 Her gift: more of her favourite gem")
+		applied_msgs.append(["Her gift: more of her favourite gem", ArtAssets.gift_icon(String(ch.gift.id))])
 
 	_build_ui()
 	# Wait one frame so the grid has actually laid out (button .size is
@@ -257,7 +257,7 @@ func setup(p_main: Node, p_host: Control, p_char_id: String, p_replay: int = -1)
 	_reset_idle_timer()
 
 	for msg in applied_msgs:
-		_toast(String(msg))
+		_toast(String(msg[0]), msg[1])
 	# First-time tips (each shown once per save, see HowToPlay.gd).
 	HowToPlay.tip(main, "swap")
 	HowToPlay.tip(main, "goal")
@@ -1125,10 +1125,7 @@ func _set_sprite_expr(expr: String) -> void:
 		var center := CenterContainer.new()
 		center.set_anchors_preset(Control.PRESET_FULL_RECT)
 		center.mouse_filter = Control.MOUSE_FILTER_IGNORE
-		var lbl := Label.new()
-		lbl.text = VNScreen.EXPR_ICON.get(expr, "🙂")
-		lbl.add_theme_font_size_override("font_size", 120)
-		center.add_child(lbl)
+		center.add_child(UITheme.placeholder_portrait(char_id, String(ch.name).substr(0, 1), 240.0))
 		sprite_host.add_child(center)
 
 
@@ -1428,7 +1425,9 @@ func _update_hud() -> void:
 ## of printing exactly on top of it.
 var _toast_stack: Array = []
 
-func _toast(text: String) -> void:
+## icon (round 40): a picture before the text, e.g. the power-up that just
+## kicked in (those used to start with an emoji).
+func _toast(text: String, icon: Texture2D = null) -> void:
 	# Under Reduce Motion the text still appears (it's information — "Pick a
 	# gem to pop.", "No moves left — reshuffling!", boost confirmations); it
 	# just doesn't fade. It used to be skipped entirely.
@@ -1445,9 +1444,27 @@ func _toast(text: String) -> void:
 	toast_layer.add_child(lbl)
 	# Centered on its REAL width: a fixed 180px box with position -90 meant any
 	# line longer than that (most of her quips) grew to the right, off-center.
+	# Round 40: grows out from the middle on its own, so it stays centred
+	# even when it's made before the board has its width (the "power-up
+	# active" toasts at chapter start used to land off to the left).
 	var sz := lbl.get_combined_minimum_size()
-	lbl.size = sz
-	lbl.position = Vector2(-sz.x / 2.0, 8 + _toast_stack.size() * 26)
+	var y := 8.0 + _toast_stack.size() * 26
+	lbl.anchor_left = 0.5
+	lbl.anchor_right = 0.5
+	lbl.offset_left = 0.0
+	lbl.offset_right = 0.0
+	lbl.offset_top = y
+	lbl.offset_bottom = y + sz.y
+	lbl.grow_horizontal = Control.GROW_DIRECTION_BOTH
+	if icon:
+		# Hung just left of the text (a child, so it fades with it), and the
+		# pair nudged right to stay centred.
+		var pic := UITheme.picture(icon, 24)
+		pic.position = Vector2(-28, (sz.y - 24) / 2.0)
+		pic.size = Vector2(24, 24)
+		lbl.add_child(pic)
+		lbl.offset_left = 14.0
+		lbl.offset_right = 14.0
 	_toast_stack.append(lbl)
 	if still:
 		var hold := lbl.create_tween()
@@ -2142,8 +2159,7 @@ func _show_replay_win() -> void:
 	var title := UITheme.heading("Chapter cleared!", 20)
 	title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	v.add_child(title)
-	var reward := UITheme.body(UITheme.t("+%d ⭐") % earned, 15, UITheme.INK)
-	reward.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	var reward := UITheme.rich_icons(UITheme.t("+%d ⭐") % earned, 15, UITheme.INK)
 	v.add_child(reward)
 	var row := HBoxContainer.new()
 	row.alignment = BoxContainer.ALIGNMENT_CENTER
@@ -2220,8 +2236,7 @@ func _show_lose_overlay() -> void:
 	var needed := UITheme.soft_label(UITheme.t("You needed %d more points.") % max(0, int(level.target) - score), 12)
 	needed.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	v.add_child(needed)
-	var reward := UITheme.body(UITheme.t("+%d ⭐ for trying") % earned, 15, UITheme.INK)
-	reward.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	var reward := UITheme.rich_icons(UITheme.t("+%d ⭐ for trying") % earned, 15, UITheme.INK)
 	v.add_child(reward)
 	var hint := UITheme.soft_label("1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!", 12)
 	hint.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
