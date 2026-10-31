@@ -17,6 +17,18 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-36 — the AI power-up pictures are gone
+
+- Power-ups (`art/store`) now come from the Ravenmore pack, and their names
+  follow the pictures: **+3 Moves → Time Scroll**, **Shuffle → Shuffle Wand**,
+  **Favor Charm → Love Potion**, **Heart Mender → Mending Potion**; Hammer
+  keeps its name (a new hammer picture) and the **Starburst Starter** is a gold
+  MIX gem in a burst of light, which is also the Starburst on the board. What
+  each one does and costs is unchanged.
+- The moves hourglass is game-icons.net's (Lorc, CC BY 3.0, credited).
+- Shop, How to Play, Out of Moves and chapter-start texts use the new names;
+  Russian and Chinese updated. The balance bot's tables use them too.
+
 ## ✅ Status: round-35 — painted gems, her colour on every frame, icons
 
 From the free packs sent this round (`tools/icon_packs/make_game_art.py`

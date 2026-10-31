@@ -42,12 +42,6 @@ msgstr "+%d ⭐"
 msgid "+%d ⭐ for trying"
 msgstr "+%d ⭐ за старание"
 
-msgid "+3 Moves"
-msgstr "+3 хода"
-
-msgid "+3 Moves, the Hammer (smash any one gem) and Shuffle (new board) sit under the board. Buy them, and one-chapter boosts, in the Item Shop with the stars you earn."
-msgstr "+3 хода, Молоток (разбивает любой один камень) и Перемешивание (новое поле) находятся под полем. Покупай их, а также усиления на одну главу, в Магазине предметов за заработанные звёзды."
-
 msgid "1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!"
 msgstr "1 звезда за каждые 200 очков. Накопи на усиления в Магазине предметов и попробуй снова!"
 
@@ -104,9 +98,6 @@ msgstr "Про твою награду. Прошлая ночь наградой
 
 msgid "Achievements"
 msgstr "Достижения"
-
-msgid "Adds three moves to the chapter you're playing. Use it from the item row under the board — it also gets you out of an Out of Moves screen."
-msgstr "Добавляет три хода в текущую главу. Используй из ряда предметов под полем — это также выводит с экрана «Ходы закончились»."
 
 msgid "Admit it. You like having me around."
 msgstr "Признай. Тебе нравится, что я рядом."
@@ -471,9 +462,6 @@ msgstr "Быстрее. И расставляй по алфавиту как с�
 msgid "Faster. Tide's turning."
 msgstr "Быстрее. Прилив поворачивает."
 
-msgid "Favor Charm"
-msgstr "Расположение"
-
 msgid "Fill the Charm ring for a Charm Burst."
 msgstr "Заполни кольцо Обаяния и получи Всплеск обаяния."
 
@@ -596,9 +584,6 @@ msgstr "Он каждое утро дважды стучал по стеклу, 
 
 msgid "Hear the girls speak their lines."
 msgstr "Слушай, как девушки произносят свои реплики."
-
-msgid "Heart Mender"
-msgstr "Целитель сердец"
 
 msgid "Her corrections in red pencil, all over the loose page that started it."
 msgstr "Её правки красным карандашом по всей той странице, с которой всё началось."
@@ -930,6 +915,9 @@ msgstr "Реплики идут сами (A)"
 msgid "Log"
 msgstr "Журнал"
 
+msgid "Love Potion"
+msgstr "Любовное зелье"
+
 msgid "Loves"
 msgstr "Любит"
 
@@ -980,6 +968,9 @@ msgstr "Мегавзрыв"
 
 msgid "Mega Blast!"
 msgstr "Мегавзрыв!"
+
+msgid "Mending Potion"
+msgstr "Целебное зелье"
 
 msgid "Mermaid of Saltwick Cove"
 msgstr "Русалка из бухты Солтвик"
@@ -1134,6 +1125,9 @@ msgstr "На обратном пути на Мельничном мосту пр
 msgid "Once you've cleared her first chapter, her card on the roster has a gift for her. Give it and her favourite gem shows up more often in all her chapters, for good."
 msgstr "Когда пройдёшь её первую главу, на её карточке в списке появится подарок для неё. Подари его — и её любимый камень будет выпадать чаще во всех её главах, навсегда."
 
+msgid "One wave and the whole board is dealt again, always with a move to make."
+msgstr "Один взмах — и всё поле раскладывается заново, причём ход всегда найдётся."
+
 msgid "Ooh. That's going in the... sorry. Habit."
 msgstr "Ой. Это отправится в... прости. Привычка."
 
@@ -1230,6 +1224,9 @@ msgstr "Достигни её цели"
 msgid "Read back (L, or scroll up)"
 msgstr "Перечитать (L или прокрутка вверх)"
 
+msgid "Read it for three more moves in the chapter you're playing. Use it from the item row under the board — it also gets you out of an Out of Moves screen."
+msgstr "Прочитай его — и получишь ещё три хода в текущей главе. Используй его из ряда предметов под полем — он также выручит на экране «Ходы закончились»."
+
 msgid "Reduce Motion"
 msgstr "Меньше анимации"
 
@@ -1260,9 +1257,6 @@ msgstr "Сбросить весь прогресс?"
 msgid "Reset everything"
 msgstr "Сбросить всё"
 
-msgid "Reshuffles the whole board into a fresh one that always has a move."
-msgstr "Перемешивает всё поле в новое, где всегда есть ход."
-
 msgid "Retry Chapter"
 msgstr "Переиграть главу"
 
@@ -1284,8 +1278,8 @@ msgstr "Руны. Как на банках алхимиков."
 msgid "Running out of moves still pays 1 star for every 200 points you scored (at least 3)."
 msgstr "Если ходы закончились, ты всё равно получишь 1 звезду за каждые 200 набранных очков (не меньше 3)."
 
-msgid "Running out still pays you a few stars. Try again, use +3 Moves, or visit the shop. Later chapters are hard without power-ups: short on stars, replay a chapter you've cleared from her card on the roster. Lose three times in a row and you can carry on with the story anyway."
-msgstr "Даже если ходы закончились, ты получишь несколько звёзд. Попробуй снова, используй +3 хода или загляни в магазин. Поздние главы трудно пройти без усилений: если не хватает звёзд, сыграй снова пройденную главу с её карточки в списке. Если проиграть три раза подряд, можно всё равно продолжить историю."
+msgid "Running out still pays you a few stars. Try again, read a Time Scroll, or visit the shop. Later chapters are hard without power-ups: short on stars, replay a chapter you've cleared from her card on the roster. Lose three times in a row and you can carry on with the story anyway."
+msgstr "Даже если ходы закончились, ты получишь несколько звёзд. Попробуй снова, прочитай Свиток времени или загляни в магазин. Поздние главы трудно пройти без усилений: если не хватает звёзд, сыграй снова пройденную главу с её карточки в списке. Если проиграть три раза подряд, можно всё равно продолжить историю."
 
 msgid "Saltwick Cove, an hour before sunset. You're on the cliff path when the shouting starts."
 msgstr "Бухта Солтвик, за час до заката. Ты идёшь по тропе над обрывом, когда внизу начинаются крики."
@@ -1458,8 +1452,8 @@ msgstr "Не хватает звёзд? Сыграй снова уже прой�
 msgid "Shorter animations, calmer feedback."
 msgstr "Короче анимации, спокойнее отклик."
 
-msgid "Shuffle"
-msgstr "Перемешать"
+msgid "Shuffle Wand"
+msgstr "Волшебная палочка"
 
 msgid "Since the grove was a forest. Two hundred years, give or take a drought."
 msgstr "Со времён, когда роща была лесом. Двести лет, плюс-минус засуха."
@@ -1728,6 +1722,9 @@ msgstr "Это твоя работа. Целый месяц ты опираеш�
 msgid "That's your fault. I'd like that on record."
 msgstr "Это твоя вина. Прошу занести в протокол."
 
+msgid "The Time Scroll (three more moves), the Hammer (smash any one gem) and the Shuffle Wand (a new board) sit under the board. Buy them, and potions that help a whole chapter, in the Item Shop with the stars you earn."
+msgstr "Свиток времени (ещё три хода), Молоток (разбивает любой один камень) и Волшебная палочка (новое поле) находятся под полем. Покупай их, а также зелья, помогающие на целую главу, в Магазине предметов за заработанные звёзды."
+
 msgid "The badgers are watching. I told them to go away. Nobody in this grove listens to me."
 msgstr "Барсуки смотрят. Я велела им уйти. В этой роще меня никто не слушает."
 
@@ -1932,6 +1929,9 @@ msgstr "Эта страница — из моей привязки. Книги, 
 msgid "Those are mine. I-I've been collecting them for years."
 msgstr "Это мои. Я-я собирала их годами."
 
+msgid "Time Scroll"
+msgstr "Свиток времени"
+
 msgid "Toggle"
 msgstr "Переключить"
 
@@ -1953,8 +1953,8 @@ msgstr "Двести лет, и никто не говорил мне, что э
 msgid "Ugh. That's drier than Gran's sponge."
 msgstr "Фу. Суше, чем бабулин бисквит."
 
-msgid "Use +3 Moves"
-msgstr "Использовать +3 хода"
+msgid "Use a Time Scroll"
+msgstr "Прочитать Свиток времени"
 
 msgid "Voice Acting"
 msgstr "Озвучка"
@@ -2268,8 +2268,8 @@ msgstr "✨ Звёздный старт активен!"
 msgid "🎁 Her gift: more of her favourite gem"
 msgstr "🎁 Её подарок: больше её любимых камней"
 
-msgid "💗 Favor Charm active!"
-msgstr "💗 Расположение активно!"
+msgid "💗 Love Potion active!"
+msgstr "💗 Любовное зелье действует!"
 
-msgid "💚 Heart Mender active!"
-msgstr "💚 Целитель сердец активен!"
+msgid "💚 Mending Potion active!"
+msgstr "💚 Целебное зелье действует!"

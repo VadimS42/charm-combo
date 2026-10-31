@@ -17,8 +17,9 @@ CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
 
 Icons and gems
 Gems: "MIX gems" (author: fill in, with the licence from where it was downloaded)
-Board and item frames, heart: Ravenmore Icon Pack 2023 by Ravenmore (ravenmore.itch.io)
+Power-ups, board and item frames, heart: Ravenmore Icon Pack 2023 by Ravenmore (ravenmore.itch.io)
 Interface icons: Game Icons by Kenney (www.kenney.nl), CC0
+Hourglass: "Hourglass" by Lorc, game-icons.net, CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/)
 
 Special thanks — (everyone who playtested)
 

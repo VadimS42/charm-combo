@@ -10,7 +10,11 @@ Writes:
   art/gems/<gem>.png           the six gems and the cursed shard (128 x 128)
   art/gems/rocket_h.png, rocket_v.png   a gold shard laid flat / upright with
                                         motion streaks
-  art/gems/starburst.png       the Item Shop's Starburst Starter picture
+  art/gems/starburst.png       a gold gem with a burst of light (also the
+                               Starburst Starter's shop picture)
+  art/store/<item>.png         the power-ups (round 36, replacing AI art):
+                               Time Scroll, Hammer, Shuffle Wand, Starburst
+                               Starter, Love Potion, Mending Potion
   art/tiles/<girl>.png         a board cell: the square frame in her colour
   art/tiles/<girl>_slot.png    an item slot: the round frame in her colour
   art/frames/<girl>.png        the border around her board: the square frame
@@ -18,7 +22,8 @@ Writes:
   art/ui/<name>.png            interface icons: white glyphs from Kenney's
                                Game Icons (tinted to each button's text
                                colour in the game), a painted gold star, a
-                               painted heart (Ravenmore) and the hourglass
+                               painted heart (Ravenmore) and an hourglass
+                               (game-icons.net, Lorc, CC BY 3.0)
 """
 import json
 import os
@@ -168,8 +173,44 @@ def ui_icons():
             .save(os.path.join(ui, name + ".png"))
     gold_star().save(os.path.join(ui, "star.png"))
     fit(load("HeartFull"), SIZE, 4).save(os.path.join(ui, "heart.png"))
-    hourglass = Image.open(os.path.join(ROOT, "art", "store", "moves.png")).convert("RGBA")
-    fit(hourglass, SIZE, 4).save(os.path.join(ui, "hourglass.png"))
+    # game-icons.net "hourglass" by Lorc (CC BY 3.0), black: made white
+    # like the other glyphs.
+    hg = load("hourglass_lorc")
+    white = Image.new("RGBA", hg.size, (255, 255, 255, 255))
+    white.putalpha(hg.getchannel("A"))
+    fit(white, 64, 4).save(os.path.join(ui, "hourglass.png"))
+
+
+def starburst():
+    """A gold gem with a four-pointed burst of light behind it."""
+    out = Image.new("RGBA", (SIZE, SIZE))
+    rays = Image.new("L", (SIZE, SIZE))
+    d = ImageDraw.Draw(rays)
+    c = SIZE / 2
+    for dx, dy in [(1, 0), (0, 1), (0.7, 0.7), (0.7, -0.7)]:
+        long = 62 if dx == 0 or dy == 0 else 40
+        px, py = -dy, dx
+        d.polygon([(c + dx * long, c + dy * long), (c + px * 9, c + py * 9),
+                   (c - dx * long, c - dy * long), (c - px * 9, c - py * 9)], fill=255)
+    glow = Image.new("RGBA", (SIZE, SIZE), (255, 236, 150, 255))
+    out.paste(glow, (0, 0), rays.filter(ImageFilter.GaussianBlur(2)))
+    halo = Image.new("L", (SIZE, SIZE))
+    ImageDraw.Draw(halo).ellipse([24, 24, SIZE - 24, SIZE - 24], fill=200)
+    out.paste(Image.new("RGBA", (SIZE, SIZE), (255, 210, 90, 255)), (0, 0), halo.filter(ImageFilter.GaussianBlur(10)))
+    gem = fit(load("yg_19"), SIZE, 20)
+    return Image.alpha_composite(out, gem)
+
+
+# The Item Shop's power-ups (round 36): id -> Ravenmore picture.
+STORE = {"moves": "Scroll", "hammer": "HammerT2", "shuffle": "WandT2",
+         "favorCharm": "PotionRed", "heartMender": "PotionGreen"}
+
+
+def store_icons():
+    store = os.path.join(ROOT, "art", "store")
+    for item, src in STORE.items():
+        fit(load(src), SIZE, 4).save(os.path.join(store, item + ".png"))
+    starburst().save(os.path.join(store, "colorBomb.png"))
 
 
 def main():
@@ -181,8 +222,8 @@ def main():
     cursed().save(os.path.join(GEMS, "cursed.png"))
     rocket(False).save(os.path.join(GEMS, "rocket_h.png"))
     rocket(True).save(os.path.join(GEMS, "rocket_v.png"))
-    star = Image.open(os.path.join(ROOT, "art", "store", "colorBomb.png")).convert("RGBA")
-    fit(star, pad=4).save(os.path.join(GEMS, "starburst.png"))
+    starburst().save(os.path.join(GEMS, "starburst.png"))
+    store_icons()
     data = json.load(open(os.path.join(ROOT, "data", "characters.json"), encoding="utf-8"))
     chars = data if isinstance(data, list) else data["characters"]
     for ch in chars:

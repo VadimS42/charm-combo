@@ -42,12 +42,6 @@ msgstr "+%d ⭐"
 msgid "+%d ⭐ for trying"
 msgstr "+%d ⭐ 鼓励奖"
 
-msgid "+3 Moves"
-msgstr "+3步"
-
-msgid "+3 Moves, the Hammer (smash any one gem) and Shuffle (new board) sit under the board. Buy them, and one-chapter boosts, in the Item Shop with the stars you earn."
-msgstr "+3步、锤子(砸碎任意一个宝石)和洗牌(换一块新棋盘)都在棋盘下方。用通关赚到的星星,可以在道具商店购买它们以及单章增益。"
-
 msgid "1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!"
 msgstr "每200分得1颗星星。去道具商店攒钱买增益,然后再试一次!"
 
@@ -104,9 +98,6 @@ msgstr "说到你的报酬。昨晚不是报酬。我需要你明白这一点。
 
 msgid "Achievements"
 msgstr "成就"
-
-msgid "Adds three moves to the chapter you're playing. Use it from the item row under the board — it also gets you out of an Out of Moves screen."
-msgstr "为你正在玩的章节增加三步。从棋盘下方的道具栏使用——它还能让你摆脱“步数用完”界面。"
 
 msgid "Admit it. You like having me around."
 msgstr "承认吧。你喜欢有我在身边。"
@@ -471,9 +462,6 @@ msgstr "快点。还要按字母顺序排好。我见过你画的圈。"
 msgid "Faster. Tide's turning."
 msgstr "快点。潮水要转向了。"
 
-msgid "Favor Charm"
-msgstr "好感符"
-
 msgid "Fill the Charm ring for a Charm Burst."
 msgstr "充满魅力环,触发魅力爆发。"
 
@@ -596,9 +584,6 @@ msgstr "他每天早上都会敲两下玻璃,让我知道是他。"
 
 msgid "Hear the girls speak their lines."
 msgstr "听女孩们说出她们的台词。"
-
-msgid "Heart Mender"
-msgstr "疗心者"
 
 msgid "Her corrections in red pencil, all over the loose page that started it."
 msgstr "她用红铅笔在那张引发一切的散页上做的修改。"
@@ -930,6 +915,9 @@ msgstr "台词自动继续(A)"
 msgid "Log"
 msgstr "记录"
 
+msgid "Love Potion"
+msgstr "爱情药水"
+
 msgid "Loves"
 msgstr "喜欢"
 
@@ -980,6 +968,9 @@ msgstr "超级爆破"
 
 msgid "Mega Blast!"
 msgstr "超级爆破!"
+
+msgid "Mending Potion"
+msgstr "疗愈药水"
 
 msgid "Mermaid of Saltwick Cove"
 msgstr "索尔特威克湾的美人鱼"
@@ -1134,6 +1125,9 @@ msgstr "回去的路上,磨坊桥上钉着一张告示。镇上把北边的树�
 msgid "Once you've cleared her first chapter, her card on the roster has a gift for her. Give it and her favourite gem shows up more often in all her chapters, for good."
 msgstr "通关她的第一章后,名册中她的卡片上会出现一份给她的礼物。送给她之后,她最爱的宝石在她的所有章节中都会更常出现,永久有效。"
 
+msgid "One wave and the whole board is dealt again, always with a move to make."
+msgstr "挥一下,整个棋盘就会重新发牌,而且总有一步可走。"
+
 msgid "Ooh. That's going in the... sorry. Habit."
 msgstr "哦。这个要放进……抱歉。习惯了。"
 
@@ -1230,6 +1224,9 @@ msgstr "达成她的目标"
 msgid "Read back (L, or scroll up)"
 msgstr "回看(L,或向上滚动)"
 
+msgid "Read it for three more moves in the chapter you're playing. Use it from the item row under the board — it also gets you out of an Out of Moves screen."
+msgstr "读一读,就能在当前章节多走三步。在棋盘下方的道具栏使用——在“步数用完”界面也能用它脱身。"
+
 msgid "Reduce Motion"
 msgstr "减少动态效果"
 
@@ -1260,9 +1257,6 @@ msgstr "重置所有进度?"
 msgid "Reset everything"
 msgstr "全部重置"
 
-msgid "Reshuffles the whole board into a fresh one that always has a move."
-msgstr "把整块棋盘重新洗成一块新的,并保证一定有可走的步。"
-
 msgid "Retry Chapter"
 msgstr "重试本章"
 
@@ -1284,8 +1278,8 @@ msgstr "符文。像炼金术士的罐子上那种。"
 msgid "Running out of moves still pays 1 star for every 200 points you scored (at least 3)."
 msgstr "步数用完时,你每得200分仍可获得1颗星星(至少3颗)。"
 
-msgid "Running out still pays you a few stars. Try again, use +3 Moves, or visit the shop. Later chapters are hard without power-ups: short on stars, replay a chapter you've cleared from her card on the roster. Lose three times in a row and you can carry on with the story anyway."
-msgstr "步数用完也会给你几颗星星。你可以重试、使用+3步,或去商店逛逛。后面的章节没有增益很难通过:星星不够时,可以在名册中她的卡片上重玩已通关的章节。连续失败三次后,你可以直接继续故事。"
+msgid "Running out still pays you a few stars. Try again, read a Time Scroll, or visit the shop. Later chapters are hard without power-ups: short on stars, replay a chapter you've cleared from her card on the roster. Lose three times in a row and you can carry on with the story anyway."
+msgstr "步数用完也会给你几颗星星。你可以重试、读一张时间卷轴,或去商店逛逛。后面的章节没有增益很难通过:星星不够时,可以在名册中她的卡片上重玩已通关的章节。连续失败三次后,你可以直接继续故事。"
 
 msgid "Saltwick Cove, an hour before sunset. You're on the cliff path when the shouting starts."
 msgstr "索尔特威克湾,日落前一小时。你正走在悬崖小路上,下面传来喊叫声。"
@@ -1458,8 +1452,8 @@ msgstr "星星不够?在名册中她的卡片上重玩已通关的章节,可获�
 msgid "Shorter animations, calmer feedback."
 msgstr "动画更短,反馈更平静。"
 
-msgid "Shuffle"
-msgstr "洗牌"
+msgid "Shuffle Wand"
+msgstr "洗牌魔杖"
 
 msgid "Since the grove was a forest. Two hundred years, give or take a drought."
 msgstr "从这里还是一片森林的时候就在。两百年,上下差个旱灾。"
@@ -1728,6 +1722,9 @@ msgstr "这是你。是你做到的。一个月来,你挽着袖子靠在我身�
 msgid "That's your fault. I'd like that on record."
 msgstr "这是你的错。我希望这一点记录在案。"
 
+msgid "The Time Scroll (three more moves), the Hammer (smash any one gem) and the Shuffle Wand (a new board) sit under the board. Buy them, and potions that help a whole chapter, in the Item Shop with the stars you earn."
+msgstr "时间卷轴(多三步)、锤子(砸碎任意一颗宝石)和洗牌魔杖(换一个新棋盘)都在棋盘下方。在道具商店里用赚到的星星购买它们,以及能帮你一整章的药水。"
+
 msgid "The badgers are watching. I told them to go away. Nobody in this grove listens to me."
 msgstr "獾们在看。我叫它们走开。这片树林里没人听我的。"
 
@@ -1932,6 +1929,9 @@ msgstr "这一页来自我的束缚之书。那本书把我绑在每一个任何
 msgid "Those are mine. I-I've been collecting them for years."
 msgstr "那些是我的。我、我收集了好多年。"
 
+msgid "Time Scroll"
+msgstr "时间卷轴"
+
 msgid "Toggle"
 msgstr "切换"
 
@@ -1953,8 +1953,8 @@ msgstr "两百年了,没人告诉过我可以是这种感觉。我想声明一�
 msgid "Ugh. That's drier than Gran's sponge."
 msgstr "呃。比奶奶做的海绵蛋糕还干。"
 
-msgid "Use +3 Moves"
-msgstr "使用+3步"
+msgid "Use a Time Scroll"
+msgstr "使用时间卷轴"
 
 msgid "Voice Acting"
 msgstr "语音配音"
@@ -2268,8 +2268,8 @@ msgstr "✨ 星爆开局已生效!"
 msgid "🎁 Her gift: more of her favourite gem"
 msgstr "🎁 她的礼物:更多她最爱的宝石"
 
-msgid "💗 Favor Charm active!"
-msgstr "💗 好感符已生效!"
+msgid "💗 Love Potion active!"
+msgstr "💗 爱情药水已生效!"
 
-msgid "💚 Heart Mender active!"
-msgstr "💚 疗心者已生效!"
+msgid "💚 Mending Potion active!"
+msgstr "💚 疗愈药水已生效!"

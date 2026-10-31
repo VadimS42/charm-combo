@@ -27,11 +27,11 @@ const TOPICS := [
 	{"key": "cursed", "title": "Cursed shards", "icon": "cursed", "emoji": "💔",
 		"text": "Dark, cracked shards cost you points when they're part of a match. The Hammer smashes one for free."},
 	{"key": "items", "title": "Items", "icon": "", "emoji": "🔨",
-		"text": "+3 Moves, the Hammer (smash any one gem) and Shuffle (new board) sit under the board. Buy them, and one-chapter boosts, in the Item Shop with the stars you earn."},
+		"text": "The Time Scroll (three more moves), the Hammer (smash any one gem) and the Shuffle Wand (a new board) sit under the board. Buy them, and potions that help a whole chapter, in the Item Shop with the stars you earn."},
 	{"key": "replies", "title": "Your replies", "icon": "", "emoji": "💬",
 		"text": "After each chapter you pick a reply. A warm one starts her next chapter with bonus points; a teasing one costs a few, but she likes those too."},
 	{"key": "out_of_moves", "title": "Out of moves", "icon": "", "emoji": "⏳",
-		"text": "Running out still pays you a few stars. Try again, use +3 Moves, or visit the shop. Later chapters are hard without power-ups: short on stars, replay a chapter you've cleared from her card on the roster. Lose three times in a row and you can carry on with the story anyway."},
+		"text": "Running out still pays you a few stars. Try again, read a Time Scroll, or visit the shop. Later chapters are hard without power-ups: short on stars, replay a chapter you've cleared from her card on the roster. Lose three times in a row and you can carry on with the story anyway."},
 	{"key": "dialogue", "title": "Dialogue controls", "icon": "", "emoji": "📜",
 		"text": "Click, Space or Enter: next line. Hold Ctrl or press Skip: skip lines you've read. A or Auto: lines play on by themselves. L, Log or scroll up: read back. H: hide the text on full-screen pictures. Text speed is in Settings."},
 ]

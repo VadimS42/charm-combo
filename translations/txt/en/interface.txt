@@ -83,7 +83,7 @@ Dark, cracked shards cost you points when they're part of a match. The Hammer sm
 Items
 
 @@ ui-0025
-+3 Moves, the Hammer (smash any one gem) and Shuffle (new board) sit under the board. Buy them, and one-chapter boosts, in the Item Shop with the stars you earn.
+The Time Scroll (three more moves), the Hammer (smash any one gem) and the Shuffle Wand (a new board) sit under the board. Buy them, and potions that help a whole chapter, in the Item Shop with the stars you earn.
 
 @@ ui-0026
 Your replies
@@ -95,7 +95,7 @@ After each chapter you pick a reply. A warm one starts her next chapter with bon
 Out of moves
 
 @@ ui-0029
-Running out still pays you a few stars. Try again, use +3 Moves, or visit the shop. Later chapters are hard without power-ups: short on stars, replay a chapter you've cleared from her card on the roster. Lose three times in a row and you can carry on with the story anyway.
+Running out still pays you a few stars. Try again, read a Time Scroll, or visit the shop. Later chapters are hard without power-ups: short on stars, replay a chapter you've cleared from her card on the roster. Lose three times in a row and you can carry on with the story anyway.
 
 @@ ui-0030
 Dialogue controls
@@ -270,10 +270,10 @@ Quit
 ✨ Starburst Starter active!
 
 @@ ui-0086
-💗 Favor Charm active!
+💗 Love Potion active!
 
 @@ ui-0087
-💚 Heart Mender active!
+💚 Mending Potion active!
 
 @@ ui-0088
 🎁 Her gift: more of her favourite gem
@@ -291,10 +291,10 @@ Swap
 Hammer
 
 @@ ui-0093
-Shuffle
+Shuffle Wand
 
 @@ ui-0094
-+3 Moves
+Time Scroll
 
 @@ ui-0095
 ←  Roster
@@ -363,7 +363,7 @@ You needed %d more points.
 1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!
 
 @@ ui-0117
-Use +3 Moves
+Use a Time Scroll
 
 @@ ui-0118
 Retry Chapter
@@ -546,13 +546,13 @@ This erases every girl's story progress, your stars, items, gifts and the whole 
 Reset everything
 
 @@ ui-0178
-Adds three moves to the chapter you're playing. Use it from the item row under the board — it also gets you out of an Out of Moves screen.
+Read it for three more moves in the chapter you're playing. Use it from the item row under the board — it also gets you out of an Out of Moves screen.
 
 @@ ui-0179
 Pop any one gem, no match needed. Arm it from the item row, then tap a gem.
 
 @@ ui-0180
-Reshuffles the whole board into a fresh one that always has a move.
+One wave and the whole board is dealt again, always with a move to make.
 
 @@ ui-0181
 Starburst Starter
@@ -561,13 +561,13 @@ Starburst Starter
 Your next chapter begins with a free Starburst gem already on the board.
 
 @@ ui-0183
-Favor Charm
+Love Potion
 
 @@ ui-0184
 Your next chapter: her favorite gem shows up more often, her least favorite less.
 
 @@ ui-0185
-Heart Mender
+Mending Potion
 
 @@ ui-0186
 Your next chapter: far fewer cursed shards appear on the board.

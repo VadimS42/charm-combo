@@ -211,9 +211,9 @@ func setup(p_main: Node, p_host: Control, p_char_id: String, p_replay: int = -1)
 	if use_color_bomb:
 		applied_msgs.append("✨ Starburst Starter active!")
 	if used_favor_charm:
-		applied_msgs.append("💗 Favor Charm active!")
+		applied_msgs.append("💗 Love Potion active!")
 	if used_heart_mender:
-		applied_msgs.append("💚 Heart Mender active!")
+		applied_msgs.append("💚 Mending Potion active!")
 	if CharacterData.has_gift(ch):
 		applied_msgs.append("🎁 Her gift: more of her favourite gem")
 
@@ -281,8 +281,8 @@ func setup(p_main: Node, p_host: Control, p_char_id: String, p_replay: int = -1)
 		"cc_item_moves": func(): _on_item_pressed("moves"),
 		"cc_item_hammer": func(): _on_item_pressed("hammer"),
 		"cc_item_shuffle": func(): _on_item_pressed("shuffle"),
-	}, [["accept", "Pick up"], ["move", "Swap"], ["hammer", "Hammer"], ["shuffle", "Shuffle"],
-		["moves", "+3 Moves"], ["pause", "Settings"]])
+	}, [["accept", "Pick up"], ["move", "Swap"], ["hammer", "Hammer"], ["shuffle", "Shuffle Wand"],
+		["moves", "Time Scroll"], ["pause", "Settings"]])
 
 
 ## Called before this screen is torn down by any navigation away from it —
@@ -2229,7 +2229,7 @@ func _show_lose_overlay() -> void:
 	v.add_child(row)
 
 	if int(GameState.items.get("moves", 0)) > 0:
-		var use_btn := UITheme.make_primary_button("Use +3 Moves")
+		var use_btn := UITheme.make_primary_button("Use a Time Scroll")
 		use_btn.pressed.connect(func():
 			_on_item_pressed("moves")
 		)
