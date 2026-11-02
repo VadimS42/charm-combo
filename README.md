@@ -17,6 +17,15 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-42 — Amara blinks; no strip under the top bar
+
+- Amara blinks in her chapters, like Hazel (`art/characters/succubus/live/`,
+  made by `tools/live_rig/blink_simple.py` from `tools/live_rig/amara_eyes.json`:
+  skin over each eye and a lid line, half-shut and shut frames; "motion":
+  false, so only the blink). The blinking sprite keeps her "puzzleSprite" place.
+- The thin pink-orange-violet strip under the top bar is hidden (Main.gd, one
+  line to bring back).
+
 ## ✅ Status: round-41 — Hard difficulty: things happen on your date
 
 Inspired by Mirror's telegraphed turns, but nobody fights you. The classic

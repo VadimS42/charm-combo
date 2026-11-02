@@ -438,8 +438,14 @@ func _build_ui() -> void:
 		layer.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		host.add_child(layer)
 		var base_tex: Texture2D = rig.base
-		var h := IDLE_ANIM_H
+		# "puzzleSprite" (height / lift / right) places her like the still
+		# sprite below (round 42: Amara blinks now, and stays clear of the
+		# speech box).
+		var rig_place: Dictionary = ch.get("puzzleSprite", {})
+		var h := float(rig_place.get("height", IDLE_ANIM_H))
 		var w := h * float(base_tex.get_width()) / float(maxi(1, base_tex.get_height()))
+		var lift := float(rig_place.get("lift", 0.0))
+		var right := float(rig_place.get("right", 0.0))
 		var live := LiveSprite.new().setup(rig)
 		# Flush in the corner like her still main sprite: the art runs off
 		# the page at the right and bottom, and the screen edge hides the cut.
@@ -447,10 +453,10 @@ func _build_ui() -> void:
 		live.anchor_right = 1.0
 		live.anchor_top = 1.0
 		live.anchor_bottom = 1.0
-		live.offset_left = -w
-		live.offset_top = -h
-		live.offset_right = 0.0
-		live.offset_bottom = 0.0
+		live.offset_left = -w - right
+		live.offset_top = -h - lift
+		live.offset_right = -right
+		live.offset_bottom = -lift
 		layer.add_child(live)
 		_live_sprite = live
 		if String(rig.config.get("ambient", "")) == "leaves":

@@ -219,7 +219,9 @@ func _build_chrome() -> void:
 	seam.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	seam.texture = UITheme.gradient_texture([UITheme.ACCENT, UITheme.ACCENT_2, UITheme.VIOLET], Vector2(0, 0.5), Vector2(1, 0.5))
 	root_v.add_child(seam)
-	seam.visible = not Platform.trailer
+	# Off since round 42 (the user asked for it gone); kept so it's one line
+	# to bring back.
+	seam.visible = false
 
 	# ---- screen area: the current screen, with the overlay layer above it ----
 	var screen_area := Control.new()
