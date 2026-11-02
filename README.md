@@ -23,8 +23,11 @@ Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.m
   made by `tools/live_rig/blink_simple.py` from `tools/live_rig/amara_eyes.json`:
   skin over each eye and a lid line, half-shut and shut frames; "motion":
   false, so only the blink). The blinking sprite keeps her "puzzleSprite" place.
-- The thin pink-orange-violet strip under the top bar is hidden (Main.gd, one
-  line to bring back).
+- **No top bar.** The purple bar (and the name on it) is gone; every screen
+  has the whole window. Your stars and the Settings button float in the
+  top-right corner, and rows along the top of a screen end with
+  `UITheme.corner_gap()` (Roster, Puzzle, Gallery, Achievements, the dialogue's
+  placeholder tags) so nothing sits under them.
 
 ## ✅ Status: round-41 — Hard difficulty: things happen on your date
 

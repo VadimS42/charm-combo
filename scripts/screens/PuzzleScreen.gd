@@ -587,6 +587,7 @@ func _build_ui() -> void:
 	pill_row.add_child(chapter_lbl)
 	chapter_pill.add_child(pill_row)
 	top_row.add_child(chapter_pill)
+	top_row.add_child(UITheme.corner_gap())
 	root.add_child(top_row)
 	# Trailer capture: just the board, her and the pop-ups.
 	if Platform.trailer:

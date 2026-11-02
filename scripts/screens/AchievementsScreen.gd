@@ -43,6 +43,7 @@ static func build(main: Node, host: Control) -> void:
 	count.autowrap_mode = TextServer.AUTOWRAP_OFF
 	count.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 	top_row.add_child(count)
+	top_row.add_child(UITheme.corner_gap())
 	outer.add_child(top_row)
 
 	if Platform.steam_active():

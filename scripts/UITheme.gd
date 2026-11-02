@@ -773,13 +773,29 @@ static func placeholder_portrait(char_id: String, initial: String, px: float = 2
 ## added to (a full-rect, click-through wrapper). Anchoring the tag itself
 ## to PRESET_TOP_RIGHT without offsets leaves it hanging off the right edge,
 ## clipped out of sight — which is what happened on the VN screen.
-static func corner_tag(text: String = "Art placeholder", margin: int = 12) -> Control:
+## Room the stars and Settings take in the window's top-right corner (round
+## 42: they float over the screen now there's no top bar). Rows along the
+## top of a screen end with corner_gap() so nothing sits under them.
+const CORNER_W := 200.0
+
+
+static func corner_gap() -> Control:
+	var c := Control.new()
+	c.custom_minimum_size = Vector2(CORNER_W, 0)
+	c.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	c.visible = not Platform.trailer
+	return c
+
+
+## clear_corner: true for a tag in the window's top-right corner, so it sits
+## left of the stars and Settings.
+static func corner_tag(text: String = "Art placeholder", margin: int = 12, clear_corner: bool = false) -> Control:
 	var box := MarginContainer.new()
 	box.visible = not Platform.trailer
 	box.set_anchors_preset(Control.PRESET_FULL_RECT)
 	box.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	box.add_theme_constant_override("margin_top", margin)
-	box.add_theme_constant_override("margin_right", margin)
+	box.add_theme_constant_override("margin_right", margin + (int(CORNER_W) if clear_corner else 0))
 	var row := HBoxContainer.new()
 	row.alignment = BoxContainer.ALIGNMENT_END
 	row.size_flags_vertical = Control.SIZE_SHRINK_BEGIN

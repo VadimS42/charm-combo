@@ -102,6 +102,7 @@ static func build(main: Node, host: Control) -> void:
 		main.show_gallery()
 	)
 	top_row.add_child(gallery_btn)
+	top_row.add_child(UITheme.corner_gap())
 	v.add_child(top_row)
 
 	# The open "hero" area between the top row and the cards: this is where

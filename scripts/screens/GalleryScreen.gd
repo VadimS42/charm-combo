@@ -58,6 +58,7 @@ static func build(main: Node, host: Control) -> void:
 	counter.autowrap_mode = TextServer.AUTOWRAP_OFF
 	counter.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 	top_row.add_child(counter)
+	top_row.add_child(UITheme.corner_gap())
 	outer.add_child(top_row)
 
 	if found == 0:

@@ -207,7 +207,7 @@ static func build(main: Node, host: Control, char_id: String, lines: Array, choi
 		dim.color = Color(0.12, 0.04, 0.14, 0.45)
 		dim.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		stage.add_child(dim)
-		var tag := UITheme.corner_tag("CG placeholder · cg/%s.png" % cg_key)
+		var tag := UITheme.corner_tag("CG placeholder · cg/%s.png" % cg_key, 12, true)
 		stage.add_child(tag)
 		cg_placeholder = [dim, tag]
 	stage.add_child(cg_layer)
@@ -248,7 +248,7 @@ static func build(main: Node, host: Control, char_id: String, lines: Array, choi
 	if not bg_tex and cg_key == "":
 		# Inside the top-right corner (it used to be anchored so it hung off
 		# the screen's right edge and got clipped out of sight).
-		stage.add_child(UITheme.corner_tag("Art placeholder"))
+		stage.add_child(UITheme.corner_tag("Art placeholder", 12, true))
 
 	# ---- dialogue box: docked to the bottom of the screen ----
 	var dock := VBoxContainer.new()

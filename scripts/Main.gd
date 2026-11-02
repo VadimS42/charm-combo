@@ -104,40 +104,26 @@ func _build_chrome() -> void:
 	add_child(root_v)
 
 	# ---- top bar ----
+	# Round 42: no bar any more (the user asked for the purple bar gone). Its
+	# stars and Settings button float in the top-right corner over the
+	# screen, which now has the whole window; the name is gone. It's added
+	# to the window after the screen area (below), so it draws on top.
 	var topbar := PanelContainer.new()
-	# Round 19: plum-to-berry, with light text and glass pills on it.
-	topbar.add_theme_stylebox_override("panel", UITheme.topbar_style())
-	root_v.add_child(topbar)
+	var bar_style := StyleBoxEmpty.new()
+	bar_style.content_margin_left = 16
+	bar_style.content_margin_right = 14
+	bar_style.content_margin_top = 12
+	topbar.add_theme_stylebox_override("panel", bar_style)
+	topbar.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	topbar.anchor_left = 1.0
+	topbar.anchor_right = 1.0
+	topbar.grow_horizontal = Control.GROW_DIRECTION_BEGIN
 	topbar.visible = not Platform.trailer
 	var top_h := HBoxContainer.new()
 	top_h.add_theme_constant_override("separation", 10)
 	topbar.add_child(top_h)
 
-	# The game's logo (art/ui/logo.png) when it exists, else the text brand.
-	var logo_tex := ArtAssets.ui_icon("logo")
-	if logo_tex:
-		var logo := TextureRect.new()
-		logo.texture = logo_tex
-		logo.custom_minimum_size = Vector2(0, 36)
-		logo.expand_mode = TextureRect.EXPAND_FIT_WIDTH_PROPORTIONAL
-		logo.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
-		logo.size_flags_vertical = Control.SIZE_SHRINK_CENTER
-		top_h.add_child(logo)
-	else:
-		# The heart picture before the name, where the 💞 emoji was.
-		var heart := UITheme.emoji_art("💞")
-		if heart:
-			top_h.add_child(UITheme.picture(heart, 24))
-		var brand := UITheme.heading("Charm Combo" if heart else "💞 Charm Combo", 18)
-		brand.add_theme_color_override("font_color", UITheme.INK_ON_DARK)
-		brand.add_theme_color_override("font_shadow_color", Color(0, 0, 0, 0.25))
-		brand.add_theme_constant_override("shadow_offset_y", 1)
-		# heading() word-wraps by default, and a wrapping Label only asks an
-		# HBoxContainer for the width of its longest word — so the brand was
-		# squeezed into three stacked lines, stretching the whole top bar.
-		brand.autowrap_mode = TextServer.AUTOWRAP_OFF
-		brand.size_flags_vertical = Control.SIZE_SHRINK_CENTER
-		top_h.add_child(brand)
+	# (The name on the bar, "Charm Combo", went with the bar in round 42.)
 
 	var top_spacer := Control.new()
 	top_spacer.size_flags_horizontal = Control.SIZE_EXPAND_FILL
@@ -237,6 +223,8 @@ func _build_chrome() -> void:
 	overlay_host.set_anchors_preset(Control.PRESET_FULL_RECT)
 	overlay_host.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	screen_area.add_child(overlay_host)
+	# The stars and Settings, over the screen (see "top bar" above).
+	add_child(topbar)
 
 	_toast_host = Control.new()
 	_toast_host.set_anchors_preset(Control.PRESET_FULL_RECT)
