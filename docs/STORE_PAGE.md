@@ -8,7 +8,7 @@ voice; it's here so you're not starting from a blank box.
 
 For Steam's short description (300 characters max) and the itch.io tagline:
 
-> A match-3 romance for adults. In Duskhaven you summon a succubus by mistake,
+> A match-3 romance for adults. In Millbrook you summon a succubus by mistake,
 > "rescue" a mermaid who didn't need it, nearly chop down a dryad's tree and
 > let a shy slime out of her jar. Help each of them with what she needs, and
 > see where the night goes. 18+.
@@ -19,7 +19,7 @@ Shorter, for the itch.io tagline if you want one line:
 
 ## About the game
 
-Duskhaven is a town that wakes up at dusk, where succubi, mermaids, dryads and
+Millbrook is a town that wakes up at dusk, where succubi, mermaids, dryads and
 slimes live next door to everyone else. You're new here, doing whatever work
 pays, and you manage to meet four women in the worst way possible. Every
 chapter is a match-3 puzzle; every puzzle cleared moves her a step from "get
@@ -50,9 +50,9 @@ out" to "stay".
   ring that fills up for a Charm Burst.
 - Hammer, Shuffle and +3 Moves when a board gets tough, and an Item Shop for a
   head start. Running out of moves still pays a few stars, so you can grind.
-- Choices in conversation lean each story warm or teasing, with 16 endings to
-  find and a Gallery to keep them in.
-- A gift for each of them, and 20 achievements.
+- Choices in conversation lean each story warm or teasing, with an ending
+  for each of them and a Gallery to keep them in.
+- A gift for each of them, and 16 achievements.
 - Full controller support. (Steam page: add "Steam Deck ready".)
 - (itch.io page: add "Play in your browser, or download for Windows, Mac and
   Linux.")

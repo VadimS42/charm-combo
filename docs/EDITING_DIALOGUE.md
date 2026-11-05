@@ -58,6 +58,21 @@ A line she speaks:
 | `"d"` | delivery note for the voice actor. The game never shows it |
 | `"id"` | the voice file name for this line. Leave it alone when you reword a line |
 
+Pick `"e"` by what the picture actually shows, not by the word (round 32). In
+the art that exists:
+
+| `"e"` | Hazel | Marina | Use it for |
+|---|---|---|---|
+| `neutral` | calm, level | cool, hand at her chin | plain lines, dry or deadpan jokes, sarcasm |
+| `happy` | soft smile | big fanged grin | warmth, laughing, playful mischief |
+| `shy` | worried brows, blush | looking away, biting a finger | flustered, tender, confessions, nervous |
+| `surprised` | wide eyes, open mouth | shocked | surprise, being thrown |
+| `teasing` | sultry, biting her lip | wink and grin | Hazel: flirting only. Marina: any playful teasing |
+| `sad` | frown | pouting, looking down | hurt, worry, dread |
+| `angry` | gritted teeth | furious blush | anger, jealousy, tsundere snaps |
+
+Narration with no `"e"` shows her neutral picture.
+
 Narration looks the same without `"d"` and `"id"` (its `"e"` is optional):
 
 ```json
@@ -89,16 +104,32 @@ Inside each girl's block:
 
 ## Her night scene
 
-Right after her last chapter's scene, her night scene plays over a full-screen
-picture, `art/characters/<her id>/cg/night.png` (1920 × 1080). Until that file
-exists, the game shows her usual background and portrait, dimmed, with a
-"CG placeholder" tag. Players can press H (or the Hide text button) to see the
-whole picture.
+Right after her last chapter's scene, her night scene plays over full-screen
+pictures, three of them (round 29), in `art/characters/<her id>/cg/` (1920 × 1080).
+They fill the area under the top bar, about 1280 × 737 in the 1280 × 800 window,
+nearly 16:9, so only about 20 px comes off each side of a 1920 × 1080 picture (a
+1920 × 1200 one would lose about 75 px top and bottom instead):
+
+| File | Shows during |
+|---|---|
+| `night_lead.png` | the lead-in: from the start of the scene |
+| `night_act.png` | your part: from the line that says `"cg": "night_act"` |
+| `night_after.png` | the afterwards: from the line that says `"cg": "night_after"` (the "Later." / "Afterwards ..." narration) |
+
+Any line in the scene can carry `"cg": "<file name without .png>"`. When that line
+shows, the picture crossfades to that file and stays until another line changes it
+(instantly with Reduce Motion on). The scene starts on `"night"` → `"cg"`. If a
+picture is missing, the one already showing stays; if `night_lead.png` is missing,
+`night.png` is used, and with neither, her usual background and portrait, dimmed,
+with a "CG placeholder" tag. Players can press H (or the Hide text button) to see the
+whole picture. Closing the game mid-scene replays it from the first picture.
 
 ```json
 "night": {
- "cg": "night",
- "lines": [ ...lead-in lines..., { "k": "slot", "t": "YOUR SCENE GOES HERE ..." }, ...afterwards... ]
+ "cg": "night_lead",
+ "lines": [ ...lead-in lines...,
+   { "k": "slot", "cg": "night_act", "t": "YOUR SCENE GOES HERE ..." },
+   { "k": "n", "cg": "night_after", "t": "Afterwards ..." }, ...afterwards... ]
 }
 ```
 
@@ -108,7 +139,9 @@ scene goes: the sex itself, her talk during it, and the finish. The game never s
 a slot line, so the scene already plays from the lead-in straight to the afterwards.
 
 To write it, replace the slot line with ordinary lines, exactly like the ones around
-it (`"k": "n"` for narration, `"k": "s"` for her lines). Give her spoken lines the ids
+it (`"k": "n"` for narration, `"k": "s"` for her lines), and put `"cg": "night_act"`
+on your FIRST line (the slot's own `"cg"` is only a reminder: the game skips slot
+lines, so until your lines are in, `night_act.png` never shows). Give her spoken lines the ids
 the slot suggests, for example `amara_night_10`, `amara_night_11` and so on, so they
 fit between the lead-in (01 to 09) and the afterwards (21 to 29). Need more than ten?
 Use `amara_night_19b`, `amara_night_19c`. The voice tools pick the new lines up

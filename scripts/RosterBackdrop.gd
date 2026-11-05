@@ -95,6 +95,26 @@ func show_character(ch: Dictionary, instant: bool = false) -> void:
 	_start_camera.call_deferred(shot)
 
 
+## Slideshow (round 28, the main menu): shows each girl's place in turn,
+## crossfading to the next every `every_sec` seconds while its camera drifts.
+## The timer is a child, so it stops with the screen.
+func cycle(chars: Array, every_sec: float = 9.0) -> void:
+	if chars.is_empty():
+		return
+	var i := [randi() % chars.size()]
+	show_character(chars[i[0]], true)
+	if chars.size() < 2:
+		return
+	var t := Timer.new()
+	t.wait_time = every_sec
+	t.autostart = true
+	t.timeout.connect(func():
+		i[0] = (i[0] + 1) % chars.size()
+		show_character(chars[i[0]])
+	)
+	add_child(t)
+
+
 ## Quick zoom-in "punch" on the current shot, played when a girl is opened,
 ## right before RosterScreen hands off to her story. Returns the tween (bound
 ## to the camera node, so it dies with the screen) for the caller to chain

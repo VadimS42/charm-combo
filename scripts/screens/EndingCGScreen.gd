@@ -34,7 +34,7 @@ static func build(main: Node, host: Control, char_id: String, ending: Dictionary
 	title_lbl.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
 	v.add_child(title_lbl)
 
-	var name_lbl := UITheme.accent_label(String(ch.get("name", "")).to_upper(), accent.darkened(0.15), 12)
+	var name_lbl := UITheme.accent_label(UITheme.t(String(ch.get("name", ""))).to_upper(), accent.darkened(0.15), 12)
 	name_lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	name_lbl.add_theme_font_override("font", UITheme.tracked_font(2))
 	v.add_child(name_lbl)
@@ -53,7 +53,7 @@ static func build(main: Node, host: Control, char_id: String, ending: Dictionary
 	var cont_center := CenterContainer.new()
 	cont_center.add_child(cont_btn)
 	v.add_child(cont_center)
-	main.nav_setup(cont_btn)
+	main.nav_setup(cont_btn, func(): main.toggle_settings())
 
 
 ## The framed picture shared by this screen, EndingArtBeatScreen and the
@@ -113,10 +113,14 @@ static func art_frame(char_id: String, cg_key: String, frame_size: Vector2, tag_
 			p.mouse_filter = Control.MOUSE_FILTER_IGNORE
 			center.add_child(p)
 		else:
-			var lbl := Label.new()
-			lbl.text = emoji
-			lbl.add_theme_font_size_override("font_size", mini(96, int(frame_size.y * 0.4)))
-			center.add_child(lbl)
+			var art := UITheme.emoji_art(emoji)
+			if art:
+				center.add_child(UITheme.picture(art, mini(110, int(frame_size.y * 0.45))))
+			else:
+				var lbl := Label.new()
+				lbl.text = emoji
+				lbl.add_theme_font_size_override("font_size", mini(96, int(frame_size.y * 0.4)))
+				center.add_child(lbl)
 		frame.add_child(center)
 		if tag_text != "":
 			frame.add_child(UITheme.corner_tag(tag_text))

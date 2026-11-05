@@ -5,8 +5,9 @@ extends RefCounted
 
 static func build(main: Node, host: Control) -> void:
 	# Real hero art the moment res://art/menu_illustration.png exists (see
-	# ArtAssets.gd); until then, the same soft accent-blob placeholder as
-	# every other screen.
+	# ArtAssets.gd); until then (round 28) a slideshow of the girls' places,
+	# each slowly zooming and drifting, crossfading to the next, under the
+	# same light scrim the illustration gets.
 	var illo := ArtAssets.menu_illustration()
 	if illo:
 		var img := TextureRect.new()
@@ -20,7 +21,14 @@ static func build(main: Node, host: Control) -> void:
 		scrim.color = Color(UITheme.BG.r, UITheme.BG.g, UITheme.BG.b, 0.55)
 		host.add_child(scrim)
 	else:
-		host.add_child(UITheme.make_screen_backdrop())
+		var shows := RosterBackdrop.new()
+		host.add_child(shows)
+		shows.cycle(CharacterData.all())
+		var scrim := ColorRect.new()
+		scrim.set_anchors_preset(Control.PRESET_FULL_RECT)
+		scrim.color = Color(UITheme.BG.r, UITheme.BG.g, UITheme.BG.b, 0.55)
+		scrim.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		host.add_child(scrim)
 
 	var v := VBoxContainer.new()
 	v.set_anchors_preset(Control.PRESET_FULL_RECT)
@@ -48,7 +56,7 @@ static func build(main: Node, host: Control) -> void:
 		v.add_child(title)
 
 	var tag := UITheme.body(
-		"A match-3 romance for adults, set in Duskhaven, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes.",
+		"A match-3 romance for adults, set in Millbrook, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes.",
 		14, UITheme.INK_SOFT)
 	tag.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	tag.custom_minimum_size = Vector2(460, 0)
@@ -58,8 +66,8 @@ static func build(main: Node, host: Control) -> void:
 
 	v.add_child(UITheme.spacer(6))
 
-	var play_btn := UITheme.make_primary_button("▶  Play")
-	UITheme.apply_icon(play_btn, "play", "Play")
+	var play_btn := UITheme.make_primary_button("Play")
+	UITheme.add_icon(play_btn, "play")
 	play_btn.custom_minimum_size = Vector2(280, 52)
 	play_btn.pressed.connect(func():
 		SFX.nav()
@@ -75,8 +83,8 @@ static func build(main: Node, host: Control) -> void:
 	row.add_theme_constant_override("separation", 12)
 	v.add_child(row)
 
-	var store_btn := UITheme.make_ghost_button("🛍  Store")
-	UITheme.apply_icon(store_btn, "store", "Store")
+	var store_btn := UITheme.make_ghost_button("Store")
+	UITheme.add_icon(store_btn, "store")
 	store_btn.pressed.connect(func():
 		SFX.nav()
 		main.menu_focus = "store"
@@ -84,8 +92,8 @@ static func build(main: Node, host: Control) -> void:
 	)
 	row.add_child(store_btn)
 
-	var gallery_btn := UITheme.make_ghost_button("🖼  Gallery")
-	UITheme.apply_icon(gallery_btn, "gallery", "Gallery")
+	var gallery_btn := UITheme.make_ghost_button("Gallery")
+	UITheme.add_icon(gallery_btn, "gallery")
 	gallery_btn.pressed.connect(func():
 		SFX.nav()
 		main.menu_focus = "gallery"
@@ -93,8 +101,8 @@ static func build(main: Node, host: Control) -> void:
 	)
 	row.add_child(gallery_btn)
 
-	var ach_btn := UITheme.make_ghost_button("🏆  Achievements")
-	UITheme.apply_icon(ach_btn, "achievements", "Achievements")
+	var ach_btn := UITheme.make_ghost_button("Achievements")
+	UITheme.add_icon(ach_btn, "achievements")
 	ach_btn.pressed.connect(func():
 		SFX.nav()
 		main.menu_focus = "achievements"
@@ -102,8 +110,17 @@ static func build(main: Node, host: Control) -> void:
 	)
 	row.add_child(ach_btn)
 
-	var credits_btn := UITheme.make_ghost_button("✦  Credits")
-	UITheme.apply_icon(credits_btn, "credits", "Credits")
+	var howto_btn := UITheme.make_ghost_button("How to Play")
+	UITheme.add_icon(howto_btn, "help")
+	howto_btn.pressed.connect(func():
+		SFX.nav()
+		main.menu_focus = "howto"
+		HowToPlay.show_page(main)
+	)
+	row.add_child(howto_btn)
+
+	var credits_btn := UITheme.make_ghost_button("Credits")
+	UITheme.add_icon(credits_btn, "credits")
 	credits_btn.pressed.connect(func():
 		SFX.nav()
 		main.menu_focus = "credits"
@@ -115,8 +132,8 @@ static func build(main: Node, host: Control) -> void:
 	# fullscreen has none). Not in the browser build, where the tab is the way
 	# out and "quitting" would just freeze the page.
 	if not OS.has_feature("web"):
-		var quit_btn := UITheme.make_ghost_button("✕  Quit")
-		UITheme.apply_icon(quit_btn, "quit", "Quit")
+		var quit_btn := UITheme.make_ghost_button("Quit")
+		UITheme.add_icon(quit_btn, "quit")
 		quit_btn.pressed.connect(func():
 			SFX.nav()
 			GameState.quit_game()
@@ -141,5 +158,5 @@ static func build(main: Node, host: Control) -> void:
 
 	# Keys / a pad land on the button you left the menu through (Play at first).
 	var by_name := {"play": play_btn, "store": store_btn, "gallery": gallery_btn,
-		"achievements": ach_btn, "credits": credits_btn}
+		"achievements": ach_btn, "howto": howto_btn, "credits": credits_btn}
 	main.nav_setup(by_name.get(main.menu_focus, play_btn))

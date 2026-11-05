@@ -1,4 +1,4 @@
-## RosterScreen.gd — the character-select screen (the "Duskhaven Circle" of
+## RosterScreen.gd — the character-select screen (the "Millbrook Circle" of
 ## love interests), equivalent to #screen-select in the HTML prototype. Each
 ## card shows her favorite and least-favorite gem (task: "girls page should
 ## say which her favorites are"), chapter progress dots, and — once
@@ -88,7 +88,7 @@ static func build(main: Node, host: Control) -> void:
 		main.show_menu()
 	)
 	top_row.add_child(back)
-	var title := UITheme.glass_label("Duskhaven Circle", 16)
+	var title := UITheme.glass_label("Millbrook Circle", 16)
 	title.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 	top_row.add_child(title)
 	var spacer := Control.new()
@@ -96,11 +96,13 @@ static func build(main: Node, host: Control) -> void:
 	spacer.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	top_row.add_child(spacer)
 	var gallery_btn := UITheme.make_glass_button("Gallery")
+	UITheme.add_icon(gallery_btn, "gallery")
 	gallery_btn.pressed.connect(func():
 		SFX.nav()
 		main.show_gallery()
 	)
 	top_row.add_child(gallery_btn)
+	top_row.add_child(UITheme.corner_gap())
 	v.add_child(top_row)
 
 	# The open "hero" area between the top row and the cards: this is where
@@ -246,9 +248,9 @@ static func _make_caption(state: Dictionary) -> PanelContainer:
 static func _update_caption(state: Dictionary, ch: Dictionary, instant: bool) -> void:
 	var accent := Color(String(ch.get("c", "#FF6F91")))
 	state.caption_name.text = String(ch.get("name", ""))
-	state.caption_role.text = String(ch.get("role", "")).to_upper()
+	state.caption_role.text = UITheme.t(String(ch.get("role", ""))).to_upper()
 	state.caption_role.add_theme_color_override("font_color", accent.lightened(0.45))
-	state.caption_tagline.text = String(ch.get("tagline", "")).trim_prefix("\"").trim_suffix("\"")
+	state.caption_tagline.text = UITheme.unquote(String(ch.get("tagline", "")))
 	state.caption_tag.visible = ArtAssets.background_for(String(ch.get("bg", ""))) == null
 	var caption: Control = state.caption
 	if instant or GameState.settings.get("reduce_motion", false):
@@ -392,11 +394,11 @@ static func _card(main: Node, ch: Dictionary, state: Dictionary) -> PanelContain
 	if finished:
 		# Whichever finale she actually reached (round 12's epilogue choice),
 		# same as the Gallery and the reopened CG — not just the flat ending.
-		status_text = "Ending: " + String(StoryFlow.display_ending_for(id).get("title", ""))
+		status_text = UITheme.t("Ending: %s") % UITheme.t(String(StoryFlow.display_ending_for(id).get("title", "")))
 	elif met:
 		# (It used to say "Not started" until chapter 1 was WON, even after
 		# her whole introduction.)
-		status_text = "Chapter %d / %d" % [level_idx + 1, levels.size()]
+		status_text = UITheme.t("Chapter %d / %d") % [level_idx + 1, levels.size()]
 	var status_lbl := UITheme.soft_label(status_text, 11)
 	status_lbl.autowrap_mode = TextServer.AUTOWRAP_OFF
 	status_lbl.clip_text = true
@@ -427,7 +429,7 @@ static func _card(main: Node, ch: Dictionary, state: Dictionary) -> PanelContain
 		replay_btn.tooltip_text = "Start her story over from the beginning"
 		replay_btn.pressed.connect(func():
 			SFX.nav()
-			main.confirm("Replay %s's story?" % String(ch.name),
+			main.confirm(UITheme.t("Replay %s's story?") % UITheme.t(String(ch.name)),
 				"Her story starts over from your first meeting, so you can make different choices. Endings you've found stay in the Gallery, your gift stays given, and her chapters pay out stars again.",
 				"Replay story", func():
 					StoryFlow.restart_character(id)
@@ -440,10 +442,24 @@ static func _card(main: Node, ch: Dictionary, state: Dictionary) -> PanelContain
 	else:
 		v.add_child(open_btn)
 
-	# Gifts come after you've met her — her thank-you scene talks about things
-	# you only know once you have (it used to be offered before her intro).
+	# Chapters she's already cleared can be played again for stars (round
+	# 33), the way to save up for power-ups before a hard chapter.
+	if not won.is_empty():
+		var again_btn := UITheme.make_ghost_button("Replay a chapter")
+		again_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		again_btn.tooltip_text = "Play a chapter you've cleared again, for stars. Her story stays where it is."
+		again_btn.pressed.connect(func():
+			SFX.nav()
+			_chapter_picker(main, ch, won)
+		)
+		v.add_child(again_btn)
+
+	# Gifts come once her first chapter is behind you (round 34; it was any
+	# time after meeting her) — her thank-you scene talks about things you
+	# only know by then, and the gift's boost is for the harder chapters.
 	var gifts_given: Array = progress.get("gifts_given", [])
-	if met and not gifts_given.has(ch.gift.id):
+	var past_first: bool = finished or level_idx > 0 or won.has(0)
+	if past_first and not gifts_given.has(ch.gift.id):
 		v.add_child(_gift_button(main, ch, accent, progress, gifts_given))
 
 	state.cards[id] = {"card": card, "frame": plate.get_node("Frame"), "accent": accent, "on": false, "open_btn": open_btn}
@@ -460,13 +476,73 @@ static func _card(main: Node, ch: Dictionary, state: Dictionary) -> PanelContain
 	return card
 
 
+## Which cleared chapter to replay, and what each one pays.
+static func _chapter_picker(main: Node, ch: Dictionary, won: Array) -> void:
+	var shade := ColorRect.new()
+	shade.name = "ConfirmBox"
+	shade.set_anchors_preset(Control.PRESET_FULL_RECT)
+	shade.color = Color(0.1, 0.07, 0.12, 0.45)
+	shade.mouse_filter = Control.MOUSE_FILTER_STOP
+	shade.gui_input.connect(func(ev: InputEvent):
+		if ev is InputEventMouseButton and ev.pressed:
+			main.close_modal()
+	)
+	var center := CenterContainer.new()
+	center.set_anchors_preset(Control.PRESET_FULL_RECT)
+	center.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	shade.add_child(center)
+	var card := PanelContainer.new()
+	card.add_theme_stylebox_override("panel", UITheme.window_style())
+	card.custom_minimum_size = Vector2(420, 0)
+	center.add_child(card)
+	var v := VBoxContainer.new()
+	v.add_theme_constant_override("separation", 12)
+	card.add_child(v)
+	v.add_child(UITheme.heading("Replay a chapter", 18))
+	var msg := UITheme.body("Play a chapter you've cleared again, for stars. No story scenes, and her story stays where it is.", 13, UITheme.INK_SOFT)
+	msg.custom_minimum_size = Vector2(390, 0)
+	v.add_child(msg)
+	var first: Control = null
+	var sorted := won.duplicate()
+	sorted.sort()
+	for i in sorted:
+		var idx := int(i)
+		if idx < 0 or idx >= (ch.story.levels as Array).size():
+			continue
+		var stars := StoryFlow.replay_stars(idx)
+		var b := UITheme.make_primary_button(UITheme.t("Chapter %d · +%d ⭐") % [idx + 1, stars])
+		UITheme.apply_icon(b, "star", UITheme.t("Chapter %d · +%d") % [idx + 1, stars])
+		b.pressed.connect(func():
+			SFX.nav()
+			main.close_modal()
+			main.roster_selected_id = String(ch.id)
+			main.show_puzzle(String(ch.id), idx)
+		)
+		v.add_child(b)
+		if first == null:
+			first = b
+	var row := HBoxContainer.new()
+	row.alignment = BoxContainer.ALIGNMENT_END
+	v.add_child(row)
+	var cancel := UITheme.make_ghost_button("Cancel")
+	cancel.pressed.connect(func():
+		SFX.nav()
+		main.close_modal()
+	)
+	row.add_child(cancel)
+	main.open_modal(shade, first if first else cancel)
+
+
 ## "💚 Loves [gem] Rune" — the gem's own icon (art/gems/<gem>.png) between
 ## the words when it exists, so the player learns which piece to look for.
 static func _pref_row(emoji: String, verb: String, gem_id: String) -> HBoxContainer:
 	var row := HBoxContainer.new()
 	row.add_theme_constant_override("separation", 4)
 	row.mouse_filter = Control.MOUSE_FILTER_PASS
-	var lead := UITheme.soft_label(emoji + " " + verb, 10)
+	var art := UITheme.emoji_art(emoji)
+	if art:
+		row.add_child(UITheme.picture(art, 13))
+	var lead := UITheme.soft_label((UITheme.t(verb)) if art else (emoji + " " + UITheme.t(verb)), 10)
 	lead.autowrap_mode = TextServer.AUTOWRAP_OFF
 	row.add_child(lead)
 	var tex := ArtAssets.gem_icon(gem_id)
@@ -561,6 +637,18 @@ static func _plate(ch: Dictionary, accent: Color) -> Control:
 		# is, 0-1) overrides them (round 18: Hazel's busts, face at ~0.45).
 		if ch.has("portraitFocus"):
 			focus = clampf(float(ch.portraitFocus), 0.0, 1.0)
+		# "cardCrop": {"zoom", "x", "y"} (round 38) for a picture whose face
+		# isn't centred sideways, like Amara's crouching main sprite: zoom
+		# in, and put the point (x, y) (fractions of the picture) in the
+		# middle of the card's window.
+		var crop = ch.get("cardCrop")
+		if typeof(crop) == TYPE_DICTIONARY:
+			art_w = CARD_CONTENT_W * float(crop.get("zoom", 1.0))
+			var cx: float = float(crop.get("x", 0.5)) * art_w
+			art.offset_left = CARD_CONTENT_W / 2.0 - cx
+			art.offset_right = art.offset_left + art_w - CARD_CONTENT_W
+			full_h = art_w * aspect
+			focus = float(crop.get("y", focus))
 		var top_crop: float = clamp(
 			focus * full_h - PORTRAIT_STRIP_H / 2.0,
 			0.0, max(0.0, full_h - PORTRAIT_STRIP_H))
@@ -626,7 +714,7 @@ static func _plate(ch: Dictionary, accent: Color) -> Control:
 	name_lbl.text_overrun_behavior = TextServer.OVERRUN_TRIM_ELLIPSIS
 	name_lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	nv.add_child(name_lbl)
-	var role_lbl := UITheme.accent_label(String(ch.role).to_upper(), accent.darkened(0.22), 10)
+	var role_lbl := UITheme.accent_label(UITheme.t(String(ch.role)).to_upper(), accent.darkened(0.22), 10)
 	role_lbl.autowrap_mode = TextServer.AUTOWRAP_OFF
 	role_lbl.clip_text = true
 	role_lbl.text_overrun_behavior = TextServer.OVERRUN_TRIM_ELLIPSIS
@@ -653,10 +741,11 @@ static func _gift_button(main: Node, ch: Dictionary, accent: Color, progress: Di
 	var price := int(ch.gift.price)
 	var gift_btn := UITheme.make_card_button("", accent)
 	gift_btn.custom_minimum_size = Vector2(0, 40)
-	gift_btn.tooltip_text = "Give her the " + String(ch.gift.name) + " — " + String(ch.gift.get("desc", ""))
+	gift_btn.tooltip_text = UITheme.t("Give her the %s") % UITheme.t(String(ch.gift.name)) + " — " + UITheme.t(String(ch.gift.get("desc", ""))) \
+		+ "\n" + UITheme.t("After that, her favourite gem shows up more often in all her chapters, for good.")
 	gift_btn.disabled = GameState.stars < price
 	if gift_btn.disabled:
-		gift_btn.tooltip_text += "\n(You need %d more stars.)" % (price - GameState.stars)
+		gift_btn.tooltip_text += "\n" + UITheme.t("(You need %d more stars.)") % (price - GameState.stars)
 
 	var gh := HBoxContainer.new()
 	gh.set_anchors_preset(Control.PRESET_FULL_RECT)
@@ -677,7 +766,7 @@ static func _gift_button(main: Node, ch: Dictionary, accent: Color, progress: Di
 		gicon.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 		gicon.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		gh.add_child(gicon)
-	var gname := UITheme.body(("" if gift_tex else "🎁  ") + String(ch.gift.name), 13)
+	var gname := UITheme.body(("" if gift_tex else "🎁  ") + UITheme.t(String(ch.gift.name)), 13)
 	gname.autowrap_mode = TextServer.AUTOWRAP_OFF
 	gname.clip_text = true
 	gname.text_overrun_behavior = TextServer.OVERRUN_TRIM_ELLIPSIS

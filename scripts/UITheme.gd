@@ -42,13 +42,37 @@ static var _rings := {}
 ## showed as empty boxes. Small subsets of Noto Color Emoji and DejaVu Sans
 ## (assets/fonts/, licenses in data/font_licenses.txt), added once as
 ## fallbacks of the default font, so every label picks them up.
+## `s` in the player's language (translations/<locale>.po; round 30). Labels
+## and buttons translate their own text already, so this is only for text
+## built from pieces: translate the English pattern FIRST, then fill it in
+## (UITheme.t("Chapter %d / %d") % [a, b]), or the whole won't match.
+static func t(s: String) -> String:
+	return String(TranslationServer.translate(s))
+
+
+## A translated line without its outer quote marks ("…", «…» or “…”).
+static func unquote(s: String) -> String:
+	var out := t(s).strip_edges()
+	for pair in [["\"", "\""], ["«", "»"], ["“", "”"]]:
+		if out.begins_with(pair[0]) and out.ends_with(pair[1]) and out.length() >= 2:
+			out = out.substr(1, out.length() - 2)
+	return out
+
+
+## The first part of a (translated) name: "Hazel Mossgrove" -> "Hazel",
+## "黑泽尔·莫斯格罗夫" -> "黑泽尔".
+static func first_name(s: String) -> String:
+	return t(s).split(" ")[0].split("·")[0]
+
+
 static func install_fonts() -> void:
 	var base := ThemeDB.fallback_font
 	if base == null or base.has_meta("cc_fonts"):
 		return
 	var fb: Array[Font] = []
 	fb.assign(base.fallbacks)
-	for path in ["res://assets/fonts/CharmComboSymbols.ttf", "res://assets/fonts/CharmComboEmoji.ttf"]:
+	# CJK (round 30): Simplified Chinese for the translation.
+	for path in ["res://assets/fonts/CharmComboSymbols.ttf", "res://assets/fonts/CharmComboCJK.otf", "res://assets/fonts/CharmComboEmoji.ttf"]:
 		if ResourceLoader.exists(path):
 			var f = load(path)
 			if f is FontFile:
@@ -193,12 +217,13 @@ static func window_style() -> StyleBoxFlat:
 ## The dark glass card the dialogue sits in, edged in her color.
 static func dialogue_style(accent: Color) -> StyleBoxFlat:
 	var s := StyleBoxFlat.new()
-	s.bg_color = Color(0.17, 0.08, 0.21, 0.88)
+	# See-through (round 25): the stage shows through the box.
+	s.bg_color = Color(0.17, 0.08, 0.21, 0.62)
 	s.set_corner_radius_all(20)
 	s.border_color = Color(accent.r, accent.g, accent.b, 0.85)
 	s.set_border_width_all(2)
 	s.border_width_top = 3
-	s.shadow_color = Color(0.1, 0.03, 0.12, 0.35)
+	s.shadow_color = Color(0.1, 0.03, 0.12, 0.22)
 	s.shadow_size = 14
 	s.shadow_offset = Vector2(0, 4)
 	s.anti_aliasing = true
@@ -392,6 +417,44 @@ static func make_card_button(text: String, accent: Color) -> Button:
 	b.add_theme_stylebox_override("focus", focus_ring(18))
 	b.add_theme_stylebox_override("disabled", disabled_style)
 	return _add_hover_lift(b, 1.02)
+
+
+## A reply choice in a dialogue scene (round 25, HuniePop-style): a wide
+## glassy pill over the stage, light text, edged in her color, filling with it
+## on hover / focus.
+static func make_choice_button(text: String, accent: Color) -> Button:
+	var b := Button.new()
+	b.text = text
+	b.custom_minimum_size = Vector2(560, 54)
+	b.autowrap_mode = TextServer.AUTOWRAP_WORD
+	b.add_theme_font_size_override("font_size", 16)
+	for k in ["font_color", "font_hover_color", "font_focus_color", "font_pressed_color"]:
+		b.add_theme_color_override(k, INK_ON_DARK)
+	b.add_theme_color_override("font_outline_color", Color(0, 0, 0, 0.35))
+	b.add_theme_constant_override("outline_size", 2)
+	var normal := StyleBoxFlat.new()
+	normal.bg_color = Color(0.16, 0.07, 0.2, 0.78)
+	normal.border_color = Color(accent.r, accent.g, accent.b, 0.9)
+	normal.set_border_width_all(2)
+	normal.set_corner_radius_all(999)
+	normal.content_margin_left = 28
+	normal.content_margin_right = 28
+	normal.content_margin_top = 10
+	normal.content_margin_bottom = 10
+	normal.shadow_color = Color(0, 0, 0, 0.25)
+	normal.shadow_size = 8
+	normal.shadow_offset = Vector2(0, 3)
+	var hover := normal.duplicate() as StyleBoxFlat
+	hover.bg_color = Color(accent.r, accent.g, accent.b, 0.92).darkened(0.12)
+	hover.border_color = accent.lightened(0.4)
+	hover.shadow_color = Color(accent.r, accent.g, accent.b, 0.4)
+	hover.shadow_size = 14
+	b.add_theme_stylebox_override("normal", normal)
+	b.add_theme_stylebox_override("hover", hover)
+	b.add_theme_stylebox_override("pressed", hover)
+	b.add_theme_stylebox_override("focus", hover)
+	b.mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
+	return _add_hover_lift(b, 1.025)
 
 
 static func heading(text: String, size: int = 24) -> Label:
@@ -617,16 +680,122 @@ static func apply_icon(b: Button, icon_name: String, plain_text: String = "") ->
 	b.add_theme_constant_override("icon_max_width", 20)
 
 
+## Puts art/ui/<icon_name>.png in front of a button's word, keeping the word
+## (round 35). The icons are white glyphs, so they're tinted to the button's
+## own text colour and read the same on light and dark buttons. Call it after
+## any font colour overrides. No file: the button stays as it was.
+static func add_icon(b: Button, icon_name: String, px: int = 18) -> void:
+	var tex := ArtAssets.ui_icon(icon_name)
+	if tex == null:
+		return
+	b.icon = tex
+	b.expand_icon = false
+	b.add_theme_constant_override("icon_max_width", px)
+	b.add_theme_constant_override("h_separation", 8)
+	for state in ["normal", "hover", "pressed", "focus", "hover_pressed", "disabled"]:
+		var font_key := "font_color" if state == "normal" else "font_%s_color" % state
+		if b.has_theme_color(font_key):
+			b.add_theme_color_override("icon_%s_color" % state, b.get_theme_color(font_key))
+
+
+## Round 40: pictures from the packs where the game used to show an emoji.
+## The emoji (still in the code as a key, and as the fallback if the file is
+## missing) -> its picture.
+static func emoji_art(emoji: String) -> Texture2D:
+	match emoji:
+		"💞", "💗", "💚", "♥":
+			return ArtAssets.ui_icon("heart")
+		"💫", "✨", "⭐":
+			return ArtAssets.ui_icon("star")
+		"🌙":
+			return ArtAssets.gem_icon("moonstone")
+		"🎁":
+			return ArtAssets.ui_icon("gift")
+		"🚫":
+			return ArtAssets.ui_icon("no")
+	return null
+
+
+## A picture at px x px, centred, ignoring the mouse.
+static func picture(tex: Texture2D, px: float) -> TextureRect:
+	var r := TextureRect.new()
+	r.texture = tex
+	r.custom_minimum_size = Vector2(px, px)
+	r.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	r.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	r.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+	r.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	return r
+
+
+## A one-line label whose ⭐ is drawn as the star picture (the text, and so
+## its translations, keep the ⭐ as the marker).
+static func rich_icons(text: String, size: int = 14, color: Color = INK) -> RichTextLabel:
+	var r := RichTextLabel.new()
+	r.bbcode_enabled = true
+	r.fit_content = true
+	r.scroll_active = false
+	r.autowrap_mode = TextServer.AUTOWRAP_OFF
+	r.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	r.add_theme_font_size_override("normal_font_size", size)
+	r.add_theme_color_override("default_color", color)
+	var star := "⭐"
+	if ArtAssets.ui_icon("star"):
+		star = "[img=%dx%d]res://art/ui/star.png[/img]" % [size + 4, size + 4]
+	r.text = "[center]" + text.replace("[", "[lb]").replace("⭐", star) + "[/center]"
+	return r
+
+
+## Stand-in for a girl with no picture yet (Opal): her initial on her own
+## round frame (art/tiles/<id>_slot.png), in place of an emoji face.
+static func placeholder_portrait(char_id: String, initial: String, px: float = 220.0) -> Control:
+	var box := Control.new()
+	box.custom_minimum_size = Vector2(px, px)
+	box.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	var slot := ArtAssets.item_slot(char_id)
+	if slot:
+		var r := picture(slot, px)
+		r.set_anchors_preset(Control.PRESET_FULL_RECT)
+		box.add_child(r)
+	var l := Label.new()
+	l.text = initial
+	l.set_anchors_preset(Control.PRESET_FULL_RECT)
+	l.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	l.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
+	l.add_theme_font_size_override("font_size", int(px * 0.45))
+	l.add_theme_color_override("font_color", Color(1, 1, 1, 0.92))
+	l.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	box.add_child(l)
+	return box
+
+
 ## A placeholder_tag() pinned inside the top-right corner of whatever it's
 ## added to (a full-rect, click-through wrapper). Anchoring the tag itself
 ## to PRESET_TOP_RIGHT without offsets leaves it hanging off the right edge,
 ## clipped out of sight — which is what happened on the VN screen.
-static func corner_tag(text: String = "Art placeholder", margin: int = 12) -> Control:
+## Room the stars and Settings take in the window's top-right corner (round
+## 42: they float over the screen now there's no top bar). Rows along the
+## top of a screen end with corner_gap() so nothing sits under them.
+const CORNER_W := 200.0
+
+
+static func corner_gap() -> Control:
+	var c := Control.new()
+	c.custom_minimum_size = Vector2(CORNER_W, 0)
+	c.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	c.visible = not Platform.trailer
+	return c
+
+
+## clear_corner: true for a tag in the window's top-right corner, so it sits
+## left of the stars and Settings.
+static func corner_tag(text: String = "Art placeholder", margin: int = 12, clear_corner: bool = false) -> Control:
 	var box := MarginContainer.new()
+	box.visible = not Platform.trailer
 	box.set_anchors_preset(Control.PRESET_FULL_RECT)
 	box.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	box.add_theme_constant_override("margin_top", margin)
-	box.add_theme_constant_override("margin_right", margin)
+	box.add_theme_constant_override("margin_right", margin + (int(CORNER_W) if clear_corner else 0))
 	var row := HBoxContainer.new()
 	row.alignment = BoxContainer.ALIGNMENT_END
 	row.size_flags_vertical = Control.SIZE_SHRINK_BEGIN
@@ -643,6 +812,7 @@ static func corner_tag(text: String = "Art placeholder", margin: int = 12) -> Co
 ## honest about which visuals are stand-ins.
 static func placeholder_tag(text: String = "Art placeholder") -> PanelContainer:
 	var p := PanelContainer.new()
+	p.visible = not Platform.trailer
 	var style := StyleBoxFlat.new()
 	style.bg_color = Color(0, 0, 0, 0.4)
 	style.set_corner_radius_all(999)

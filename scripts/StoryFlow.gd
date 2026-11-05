@@ -28,6 +28,11 @@ static func enter_character(main: Node, char_id: String) -> void:
 		return
 	var progress := GameState.progress_for(char_id)
 
+	# The demo has one girl's start only.
+	if Platform.demo and (char_id != Platform.DEMO_CHAR or int(progress.get("level_index", 0)) > 0):
+		main.show_demo_end()
+		return
+
 	if not progress.endings_unlocked.is_empty():
 		reopen_ending(main, char_id)
 		return
@@ -51,9 +56,21 @@ static func play_intro(main: Node, ch: Dictionary) -> void:
 		var progress := GameState.progress_for(ch.id)
 		progress["_intro_done"] = true
 		GameState.save_state()
-		Achievements.unlock("FIRST_MEETING")
+		Achievements.check_story()
 		main.show_puzzle(ch.id)
 	)
+
+
+## Stars for clearing a chapter the first time on a playthrough: 15, 20, 25, 30.
+static func clear_stars(level_index: int) -> int:
+	return 15 + level_index * 5
+
+
+## Stars for replaying a chapter already cleared (roster "Replay a chapter",
+## round 33): half the first clear, rounded up, so 8, 10, 13, 15. Chapter 1
+## is the quick, sure one to replay when you're saving up for power-ups.
+static func replay_stars(level_index: int) -> int:
+	return ceili(clear_stars(level_index) / 2.0)
 
 
 ## Called by PuzzleScreen once a chapter's target score is reached. The win is
@@ -66,15 +83,34 @@ static func on_chapter_won(main: Node, char_id: String) -> void:
 
 	var won: Array = progress.get("won_levels", [])
 	if not won.has(level_index):
-		GameState.stars += 15 + level_index * 5
+		GameState.stars += clear_stars(level_index)
 		won.append(level_index)
 		progress["won_levels"] = won
 	progress["next_bonus"] = 0
 	progress["scene_pending"] = level_index
+	(progress.get("losses", {}) as Dictionary).erase(str(level_index))
 	GameState.save_state()
 	main.refresh_topbar()
-	Achievements.unlock("FIRST_CHAPTER")
+	Achievements.check_story()
 
+	_play_win_scene(main, ch, level_index)
+
+
+## "Continue the story" after losing a chapter three times in a row (round
+## 25): her scene plays as if you'd won, but without the stars or the
+## chapter's achievement.
+static func skip_chapter(main: Node, char_id: String) -> void:
+	var ch := CharacterData.by_id(char_id)
+	var progress := GameState.progress_for(char_id)
+	var level_index: int = int(progress.get("level_index", 0))
+	var skipped: Array = progress.get("skipped_levels", [])
+	if not skipped.has(level_index) and not (progress.get("won_levels", []) as Array).has(level_index):
+		skipped.append(level_index)
+	progress["skipped_levels"] = skipped
+	(progress.get("losses", {}) as Dictionary).erase(str(level_index))
+	progress["next_bonus"] = 0
+	progress["scene_pending"] = level_index
+	GameState.save_state()
 	_play_win_scene(main, ch, level_index)
 
 
@@ -96,7 +132,10 @@ static func _play_win_scene(main: Node, ch: Dictionary, level_index: int) -> voi
 			progress.erase("scene_pending")
 			progress["level_index"] = level_index + 1
 			GameState.save_state()
-			main.show_puzzle(ch.id)
+			if Platform.demo:
+				main.show_demo_end()
+			else:
+				main.show_puzzle(ch.id)
 	)
 
 
@@ -111,7 +150,24 @@ static func _play_night(main: Node, ch: Dictionary, then: Callable) -> void:
 		then.call()
 		return
 	main.story_music = "night"
-	main.show_vn_scene(ch.id, night.lines, null, then, String(night.get("cg", "night")))
+	main.show_vn_scene(ch.id, night.lines, null, func():
+		# Now the Gallery can replay it.
+		var key := "%s|night" % ch.id
+		if not GameState.replays.has(key):
+			GameState.replays.append(key)
+			GameState.save_state()
+		then.call()
+	, String(night.get("cg", "night")))
+
+
+## Replays her night scene from the Gallery, then goes back there.
+static func replay_night(main: Node, char_id: String) -> void:
+	var ch := CharacterData.by_id(char_id)
+	var night = ch.story.get("night")
+	if typeof(night) != TYPE_DICTIONARY:
+		return
+	main.story_music = "night"
+	main.show_vn_scene(char_id, night.lines, null, func(): main.show_gallery(), String(night.get("cg", "night")))
 
 
 ## A shallow copy of a choice block tagged with which story slot it belongs
@@ -170,6 +226,11 @@ static func _finish_character(main: Node, ch: Dictionary) -> void:
 	elif not ch.story.endings.has("balanced"):
 		# No "balanced" ending defined: a tie leans warmth.
 		key = "warmth"
+	# A route with no ending written for it (right now every girl only has
+	# "warmth") falls back to one she has, instead of crashing the epilogue
+	# and leaving her stuck replaying chapter 4 forever.
+	if not ch.story.endings.has(key):
+		key = "warmth" if ch.story.endings.has("warmth") else String(ch.story.endings.keys()[0])
 
 	progress["endings_unlocked"] = [key]
 	progress.erase("epilogue_finale")
@@ -192,7 +253,7 @@ static func _play_epilogue(main: Node, ch: Dictionary, key: String) -> void:
 	if typeof(epilogue) != TYPE_DICTIONARY or epilogue.is_empty():
 		GameState.add_to_gallery(ch.id, key, "")
 		GameState.save_state()
-		Achievements.check_gallery()
+		Achievements.check_story()
 		main.show_ending_cg(ch.id, _with_cg(ending, key), func(): main.show_roster())
 		return
 
@@ -233,7 +294,7 @@ static func _resolve_epilogue_finale(main: Node, ch: Dictionary, ending_key: Str
 	progress["epilogue_finale"] = {"ending": ending_key, "key": finale_key}
 	GameState.add_to_gallery(ch.id, ending_key, finale_key)
 	GameState.save_state()
-	Achievements.check_gallery()
+	Achievements.check_story()
 
 	main.show_ending_cg(ch.id, shown, func(): main.show_roster())
 

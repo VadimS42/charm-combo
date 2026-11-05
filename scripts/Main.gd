@@ -32,6 +32,11 @@ var roster_selected_id: String = ""
 ## epilogue runs (StoryFlow sets it), so the epilogue's dialogue, art beats and
 ## final CG all share one track instead of flipping back and forth.
 var story_music: String = ""
+## True while a story scene (dialogue, CG, epilogue art) is on screen:
+## Settings then offers "Leave to Roster" (round 25), since those screens have
+## no back button of their own. Leaving is safe: an unfinished scene plays
+## again next time.
+var story_scene := false
 
 ## The current screen's controller object, when it has one that needs a
 ## teardown() before its nodes are freed (PuzzleScreen). See clear_screen().
@@ -81,10 +86,10 @@ func _ready() -> void:
 	Achievements.unlocked.connect(_on_achievement_unlocked)
 	if CharacterData.load_error() != "":
 		show_data_error()
-	elif not GameState.settings.get("age_confirmed", false):
-		show_age_gate()
+	elif String(GameState.settings.get("language", "")) == "":
+		show_language_picker()
 	else:
-		show_menu()
+		after_language()
 
 
 func _build_chrome() -> void:
@@ -99,35 +104,26 @@ func _build_chrome() -> void:
 	add_child(root_v)
 
 	# ---- top bar ----
+	# Round 42: no bar any more (the user asked for the purple bar gone). Its
+	# stars and Settings button float in the top-right corner over the
+	# screen, which now has the whole window; the name is gone. It's added
+	# to the window after the screen area (below), so it draws on top.
 	var topbar := PanelContainer.new()
-	# Round 19: plum-to-berry, with light text and glass pills on it.
-	topbar.add_theme_stylebox_override("panel", UITheme.topbar_style())
-	root_v.add_child(topbar)
+	var bar_style := StyleBoxEmpty.new()
+	bar_style.content_margin_left = 16
+	bar_style.content_margin_right = 14
+	bar_style.content_margin_top = 12
+	topbar.add_theme_stylebox_override("panel", bar_style)
+	topbar.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	topbar.anchor_left = 1.0
+	topbar.anchor_right = 1.0
+	topbar.grow_horizontal = Control.GROW_DIRECTION_BEGIN
+	topbar.visible = not Platform.trailer
 	var top_h := HBoxContainer.new()
 	top_h.add_theme_constant_override("separation", 10)
 	topbar.add_child(top_h)
 
-	# The game's logo (art/ui/logo.png) when it exists, else the text brand.
-	var logo_tex := ArtAssets.ui_icon("logo")
-	if logo_tex:
-		var logo := TextureRect.new()
-		logo.texture = logo_tex
-		logo.custom_minimum_size = Vector2(0, 36)
-		logo.expand_mode = TextureRect.EXPAND_FIT_WIDTH_PROPORTIONAL
-		logo.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
-		logo.size_flags_vertical = Control.SIZE_SHRINK_CENTER
-		top_h.add_child(logo)
-	else:
-		var brand := UITheme.heading("💞 Charm Combo", 18)
-		brand.add_theme_color_override("font_color", UITheme.INK_ON_DARK)
-		brand.add_theme_color_override("font_shadow_color", Color(0, 0, 0, 0.25))
-		brand.add_theme_constant_override("shadow_offset_y", 1)
-		# heading() word-wraps by default, and a wrapping Label only asks an
-		# HBoxContainer for the width of its longest word — so the brand was
-		# squeezed into three stacked lines, stretching the whole top bar.
-		brand.autowrap_mode = TextServer.AUTOWRAP_OFF
-		brand.size_flags_vertical = Control.SIZE_SHRINK_CENTER
-		top_h.add_child(brand)
+	# (The name on the bar, "Charm Combo", went with the bar in round 42.)
 
 	var top_spacer := Control.new()
 	top_spacer.size_flags_horizontal = Control.SIZE_EXPAND_FILL
@@ -178,8 +174,9 @@ func _build_chrome() -> void:
 	# does exactly what Settings' own "← Back" does (close_settings()). It
 	# stays lit in the accent color while Settings is open, so it reads as
 	# the thing to press to get back out. Esc does the same (_unhandled_input).
-	var settings_btn := UITheme.make_glass_button("⚙")
-	UITheme.apply_icon(settings_btn, "settings")
+	# A word, not a gear icon (round 28: words wherever a word works).
+	var settings_btn := UITheme.make_glass_button("Settings")
+	UITheme.add_icon(settings_btn, "settings")
 	settings_btn.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 	settings_btn.tooltip_text = "Settings"
 	# Start / Esc open Settings with keys or a pad, so focus navigation stays
@@ -208,6 +205,9 @@ func _build_chrome() -> void:
 	seam.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	seam.texture = UITheme.gradient_texture([UITheme.ACCENT, UITheme.ACCENT_2, UITheme.VIOLET], Vector2(0, 0.5), Vector2(1, 0.5))
 	root_v.add_child(seam)
+	# Off since round 42 (the user asked for it gone); kept so it's one line
+	# to bring back.
+	seam.visible = false
 
 	# ---- screen area: the current screen, with the overlay layer above it ----
 	var screen_area := Control.new()
@@ -223,6 +223,8 @@ func _build_chrome() -> void:
 	overlay_host.set_anchors_preset(Control.PRESET_FULL_RECT)
 	overlay_host.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	screen_area.add_child(overlay_host)
+	# The stars and Settings, over the screen (see "top bar" above).
+	add_child(topbar)
 
 	_toast_host = Control.new()
 	_toast_host.set_anchors_preset(Control.PRESET_FULL_RECT)
@@ -252,6 +254,7 @@ func clear_screen() -> void:
 	if _screen_obj != null and _screen_obj.has_method("teardown"):
 		_screen_obj.teardown()
 	_screen_obj = null
+	story_scene = false
 	_rebuild_route = Callable()
 	_focus_default = null
 	_back_action = Callable()
@@ -344,6 +347,36 @@ func show_age_gate() -> void:
 	AgeGateScreen.build(self, screen_host)
 
 
+## First launch: the language picker (round 30), before the age notice.
+func show_language_picker() -> void:
+	clear_screen()
+	_rebuild_route = show_language_picker
+	refresh_topbar()
+	_menu_music()
+	AgeGateScreen.build_language_picker(self, screen_host)
+
+
+## After the language: the age notice once, then the voice notice / menu.
+func after_language() -> void:
+	if not GameState.settings.get("age_confirmed", false):
+		show_age_gate()
+	else:
+		show_start()
+
+
+## After the age notice: the one-time voice notice (when the game has voice
+## clips and it hasn't been shown yet), else the main menu.
+func show_start() -> void:
+	if Voice.any_clips() and not GameState.settings.get("voice_notice_seen", false):
+		clear_screen()
+		_rebuild_route = show_start
+		refresh_topbar()
+		_menu_music()
+		AgeGateScreen.build_voice_notice(self, screen_host)
+	else:
+		show_menu()
+
+
 ## data/characters.json didn't load (most likely a typo made while editing the
 ## dialogue, see docs/EDITING_DIALOGUE.md): say where, instead of opening a
 ## game with nobody in it.
@@ -402,13 +435,16 @@ func show_roster() -> void:
 	RosterScreen.build(self, screen_host)
 
 
-func show_puzzle(char_id: String) -> void:
+## replay >= 0 replays that already-cleared chapter for stars instead of
+## playing her current one (round 33, see PuzzleScreen.replay).
+func show_puzzle(char_id: String, replay: int = -1) -> void:
 	current_char_id = char_id
 	clear_screen()
 	refresh_topbar()
 	story_music = ""
 	Music.play([char_id, "menu"])
-	Platform.set_presence("chapter", _girl_name(char_id), int(GameState.progress_for(char_id).get("level_index", 0)) + 1)
+	Platform.set_presence("chapter", _girl_name(char_id),
+		(replay if replay >= 0 else int(GameState.progress_for(char_id).get("level_index", 0))) + 1)
 	# PuzzleScreen (unlike the other screens) is instantiated rather than a
 	# static builder, since it owns a lot of mutable per-chapter state
 	# (board, score, moves, selection...) referenced across many button
@@ -417,7 +453,7 @@ func show_puzzle(char_id: String) -> void:
 	# and holding it here lets clear_screen() tear it down on ANY exit.
 	var puzzle := PuzzleScreen.new()
 	_screen_obj = puzzle
-	puzzle.setup(self, screen_host, char_id)
+	puzzle.setup(self, screen_host, char_id, replay)
 
 
 # ---- Settings (an overlay, not a screen — see overlay_host) ----
@@ -536,6 +572,7 @@ func show_vn_scene(char_id: String, lines: Array, choice_data, on_done: Callable
 	else:
 		Music.play([char_id, "menu"])
 	Platform.set_presence("ending" if story_music == "ending" else "story", _girl_name(char_id))
+	story_scene = true
 	VNScreen.build(self, screen_host, char_id, lines, choice_data, on_done, cg_key)
 
 
@@ -543,6 +580,7 @@ func show_ending_cg(char_id: String, ending: Dictionary, on_continue: Callable) 
 	clear_screen()
 	Music.play(["ending", char_id, "menu"])
 	Platform.set_presence("ending", _girl_name(char_id))
+	story_scene = true
 	EndingCGScreen.build(self, screen_host, char_id, ending, on_continue)
 
 
@@ -553,6 +591,7 @@ func show_ending_art_beat(char_id: String, caption: String, on_continue: Callabl
 	clear_screen()
 	Music.play(["ending", char_id, "menu"])
 	Platform.set_presence("ending", _girl_name(char_id))
+	story_scene = true
 	EndingArtBeatScreen.build(self, screen_host, char_id, caption, on_continue, cg_key)
 
 
@@ -581,6 +620,8 @@ func leave_gallery() -> void:
 ## the shop's Back then goes straight back into that chapter for a fresh try
 ## (round 17). Cleared whenever the main menu opens.
 var store_return_char := ""
+## ...and which cleared chapter, when that was a replay (-1: her current one).
+var store_return_replay := -1
 
 func show_store() -> void:
 	clear_screen()
@@ -590,8 +631,9 @@ func show_store() -> void:
 	StoreScreen.build(self, screen_host)
 
 
-func open_store_from_chapter(char_id: String) -> void:
+func open_store_from_chapter(char_id: String, replay: int = -1) -> void:
 	store_return_char = char_id
+	store_return_replay = replay
 	show_store()
 
 
@@ -600,7 +642,7 @@ func leave_store() -> void:
 	var cid := store_return_char
 	store_return_char = ""
 	if cid != "":
-		show_puzzle(cid)
+		show_puzzle(cid, store_return_replay)
 	else:
 		show_menu()
 
@@ -718,6 +760,77 @@ func confirm(title: String, message: String, confirm_label: String, on_confirm: 
 		_focus_now.call_deferred()
 
 
+## A popup of the caller's own making (HowToPlay's page and tips) in the same
+## slot as confirm(): one at a time, Esc / Backspace / B close it, and focus
+## goes back where it was afterwards.
+func open_modal(shade: Control, default_focus: Control) -> void:
+	_close_confirm()
+	_focus_before_overlay = get_viewport().gui_get_focus_owner()
+	overlay_host.add_child(shade)
+	_confirm_box = shade
+	_confirm_default = default_focus
+	_refresh_hints()
+	if Nav.nav_mode:
+		_focus_now.call_deferred()
+	elif default_focus:
+		default_focus.grab_focus.call_deferred()
+
+
+func close_modal() -> void:
+	_close_confirm()
+
+
+func modal_open() -> bool:
+	return is_instance_valid(_confirm_box)
+
+
+## The end of the demo (Platform.demo): thanks, and a wishlist button.
+func show_demo_end() -> void:
+	clear_screen()
+	Music.play(["menu"])
+	screen_host.add_child(UITheme.make_screen_backdrop(UITheme.ACCENT, UITheme.VIOLET))
+	var center := CenterContainer.new()
+	center.set_anchors_preset(Control.PRESET_FULL_RECT)
+	screen_host.add_child(center)
+	var card := PanelContainer.new()
+	card.add_theme_stylebox_override("panel", UITheme.window_style())
+	card.custom_minimum_size = Vector2(560, 0)
+	center.add_child(card)
+	var v := VBoxContainer.new()
+	v.add_theme_constant_override("separation", 14)
+	card.add_child(v)
+	v.add_child(UITheme.heading("Thanks for playing the demo!", 24))
+	var t := UITheme.body("The full game has four stories: Hazel's, and three more women of Millbrook to meet in the worst way possible. Each has four chapters, her night scene and her ending.", 14, UITheme.INK_SOFT)
+	t.custom_minimum_size = Vector2(500, 0)
+	v.add_child(t)
+	var row := HBoxContainer.new()
+	row.add_theme_constant_override("separation", 10)
+	row.alignment = BoxContainer.ALIGNMENT_END
+	v.add_child(row)
+	var menu_btn := UITheme.make_ghost_button("Main menu")
+	UITheme.add_icon(menu_btn, "menu")
+	menu_btn.pressed.connect(func():
+		SFX.nav()
+		show_menu()
+	)
+	row.add_child(menu_btn)
+	var url := Platform.wishlist_url()
+	var wish := UITheme.make_primary_button("Wishlist on Steam")
+	UITheme.add_icon(wish, "heart", 20)
+	wish.disabled = url == ""
+	wish.tooltip_text = "" if url != "" else "Store page address not set yet (Platform.STORE_URL)."
+	wish.pressed.connect(func():
+		SFX.nav()
+		OS.shell_open(url)
+	)
+	row.add_child(wish)
+	nav_setup(wish if url != "" else menu_btn, func(): show_menu())
+
+
+func show_how_to_play() -> void:
+	HowToPlay.show_page(self)
+
+
 func _close_confirm() -> void:
 	var had := is_instance_valid(_confirm_box)
 	if had:
@@ -764,11 +877,17 @@ func show_achievement_toast(id: String) -> void:
 		t.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 		h.add_child(t)
 	else:
-		var trophy := Label.new()
-		trophy.text = "🏆"
-		trophy.add_theme_font_size_override("font_size", 26)
-		trophy.add_theme_color_override("font_color", UITheme.ACCENT_2)
-		h.add_child(trophy)
+		var trophy_tex := ArtAssets.ui_icon("achievements")
+		if trophy_tex:
+			var tr := UITheme.picture(trophy_tex, 34)
+			tr.modulate = UITheme.ACCENT_2
+			h.add_child(tr)
+		else:
+			var trophy := Label.new()
+			trophy.text = "🏆"
+			trophy.add_theme_font_size_override("font_size", 26)
+			trophy.add_theme_color_override("font_color", UITheme.ACCENT_2)
+			h.add_child(trophy)
 	var v := VBoxContainer.new()
 	v.add_theme_constant_override("separation", 0)
 	h.add_child(v)

@@ -36,14 +36,17 @@ static func _try_load(path: String) -> Texture2D:
 ## res://art/characters/<char_id>/<expression>.png — falls back to
 ## "neutral.png" for that character if the specific expression is missing
 ## (so a first art pass can ship one pose and still look correct everywhere),
-## then to null (caller shows its emoji/placeholder).
+## then to her main sprite (round 38: Amara has only that so far), then to
+## null (caller shows its emoji/placeholder).
 static func character_portrait(char_id: String, expression: String) -> Texture2D:
 	var tex := _try_load(CHAR_DIR + char_id + "/" + expression + ".png")
 	if tex:
 		return tex
 	if expression != "neutral":
-		return _try_load(CHAR_DIR + char_id + "/neutral.png")
-	return null
+		tex = _try_load(CHAR_DIR + char_id + "/neutral.png")
+		if tex:
+			return tex
+	return main_sprite(char_id)
 
 
 static var _idle_cache := {}
@@ -181,6 +184,14 @@ static func cg(char_id: String, cg_key: String) -> Texture2D:
 	return null
 
 
+## Exactly art/characters/<id>/cg/<cg_key>.png, no fallback (a night scene's
+## later pictures: missing = keep the one showing).
+static func cg_exact(char_id: String, cg_key: String) -> Texture2D:
+	if cg_key == "":
+		return null
+	return _try_load(CHAR_DIR + char_id + "/cg/" + cg_key + ".png")
+
+
 ## res://art/gifts/<gift_id>.png — the roster's gift button icon (gift ids are
 ## in characters.json, e.g. "pocketSundial"). Falls back to a 🎁 emoji.
 static func gift_icon(gift_id: String) -> Texture2D:
@@ -219,6 +230,18 @@ static func gem_icon(name: String) -> Texture2D:
 ## colorBomb/favorCharm/heartMender). Falls back to the item's emoji.
 static func store_icon(item_id: String) -> Texture2D:
 	return _try_load(STORE_DIR + item_id + ".png")
+
+
+## res://art/tiles/<char_id>.png — one board cell, a square frame in her
+## colour (round 35, tools/icon_packs/make_game_art.py). Null: flat tiles.
+static func board_tile(char_id: String) -> Texture2D:
+	return _try_load("res://art/tiles/" + char_id + ".png")
+
+
+## res://art/tiles/<char_id>_slot.png — the round frame behind each item
+## under the board, in her colour. Null: the plain white coin.
+static func item_slot(char_id: String) -> Texture2D:
+	return _try_load("res://art/tiles/" + char_id + "_slot.png")
 
 
 ## res://art/frames/<char_id>.png — a decorative border themed to each

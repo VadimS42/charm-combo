@@ -41,14 +41,35 @@ static func build(main: Node, host: Control) -> void:
 	top_row.add_child(back)
 	outer.add_child(top_row)
 
+	# Scrolls once the rows outgrow the window (round 25 added several).
+	var scroll := ScrollContainer.new()
+	scroll.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	scroll.follow_focus = true
+	UITheme.make_scroll_navigable(scroll)
+	outer.add_child(scroll)
 	var center := CenterContainer.new()
-	outer.add_child(center)
+	center.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	scroll.add_child(center)
 	var v := VBoxContainer.new()
 	v.custom_minimum_size = Vector2(COLUMN_W, 0)
 	v.add_theme_constant_override("separation", 14)
 	center.add_child(v)
 
 	v.add_child(UITheme.heading("Settings", 22))
+
+	# Language (round 30). Text on screen switches at once; anything built
+	# from pieces catches up when Settings closes (mark_settings_dirty).
+	var lang_row := _choice_row(
+		"Language", "The game's text. Voices stay in English.",
+		GameState.LANGUAGES, String(GameState.settings.get("language", "en")) if String(GameState.settings.get("language", "")) != "" else "en",
+		func(code: String):
+			GameState.set_language(code)
+			main.mark_settings_dirty()
+	)
+	for b in (lang_row.get_meta("control") as Control).get_parent().get_children():
+		(b as Control).auto_translate_mode = Node.AUTO_TRANSLATE_MODE_DISABLED
+	v.add_child(lang_row)
 
 	var sound_row := _row(
 		"Sound Effects", "Chimes for matches, combos, and menus.",
@@ -81,6 +102,62 @@ static func build(main: Node, host: Control) -> void:
 				Music.apply_volume()
 				GameState.save_state()
 		))
+
+	# Same idea for voice acting: only once some lines are recorded.
+	if Voice.any_clips():
+		v.add_child(_row(
+			"Voice Acting", "Hear the girls speak their lines.",
+			GameState.settings.get("voice", true),
+			func(on: bool):
+				GameState.settings.voice = on
+				if not on:
+					Voice.stop()
+				GameState.save_state()
+		))
+		v.add_child(_slider_row(
+			"Voice Volume", "How loud their voices play.",
+			float(GameState.settings.get("voice_volume", Voice.DEFAULT_VOLUME)),
+			func(val: float):
+				GameState.settings.voice_volume = val
+				Voice.apply_volume()
+				GameState.save_state()
+		))
+
+	# Puzzle difficulty (round 41): Easy is the classic puzzle; Hard adds the
+	# date's events (PuzzleScreen.EVENT_KINDS). Takes effect from the next
+	# chapter started.
+	v.add_child(_choice_row(
+		"Difficulty", "Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Takes effect from the next chapter.",
+		[["easy", "Easy"], ["hard", "Hard"]],
+		String(GameState.settings.get("difficulty", "easy")),
+		func(key: String):
+			GameState.settings.difficulty = key
+			GameState.save_state()
+	))
+
+	# Dialogue (round 25): how text appears, Auto's pace, what Skip skips.
+	v.add_child(_choice_row(
+		"Text Speed", "How fast dialogue types out.",
+		[["slow", "Slow"], ["normal", "Normal"], ["fast", "Fast"], ["instant", "Instant"]],
+		String(GameState.settings.get("text_speed", "normal")),
+		func(key: String):
+			GameState.settings.text_speed = key
+			GameState.save_state()
+	))
+	v.add_child(_slider_row(
+		"Auto Speed", "How long Auto waits after each line (left = quicker).",
+		float(GameState.settings.get("auto_delay", 0.5)),
+		func(val: float):
+			GameState.settings.auto_delay = val
+			GameState.save_state()
+	))
+	v.add_child(_row(
+		"Skip Unread Lines", "Let Skip race through lines you haven't read yet, too.",
+		bool(GameState.settings.get("skip_unseen", false)),
+		func(on: bool):
+			GameState.settings.skip_unseen = on
+			GameState.save_state()
+	))
 
 	v.add_child(_row(
 		"Reduce Motion", "Shorter animations, calmer feedback.",
@@ -116,6 +193,40 @@ static func build(main: Node, host: Control) -> void:
 
 	v.add_child(UITheme.spacer(6))
 
+	# How to Play, and the log folder for bug reports (Godot writes
+	# user://logs/godot.log on desktop; the newest few are kept).
+	var extra_row := HBoxContainer.new()
+	extra_row.add_theme_constant_override("separation", 10)
+	v.add_child(extra_row)
+	var howto := UITheme.make_ghost_button("How to Play")
+	UITheme.add_icon(howto, "help")
+	howto.pressed.connect(func():
+		SFX.nav()
+		HowToPlay.show_page(main)
+	)
+	extra_row.add_child(howto)
+	# Story scenes have no back button of their own (round 25).
+	if main.story_scene:
+		var leave := UITheme.make_ghost_button("Leave to Roster")
+		leave.tooltip_text = "Stop here. This scene plays again next time you visit her."
+		leave.pressed.connect(func():
+			SFX.nav()
+			Voice.stop()
+			main.close_settings()
+			main.show_roster()
+		)
+		extra_row.add_child(leave)
+	if not OS.has_feature("web"):
+		var logs := UITheme.make_ghost_button("Open log folder")
+		logs.tooltip_text = "For bug reports: send the newest godot.log from this folder."
+		logs.pressed.connect(func():
+			SFX.nav()
+			var dir := ProjectSettings.globalize_path("user://logs")
+			DirAccess.make_dir_recursive_absolute(dir)
+			OS.shell_open(dir)
+		)
+		extra_row.add_child(logs)
+
 	var reset_btn := Button.new()
 	reset_btn.text = "Reset Progress"
 	reset_btn.add_theme_color_override("font_color", Color("#E0576F"))
@@ -148,6 +259,63 @@ static func build(main: Node, host: Control) -> void:
 		)
 	)
 	v.add_child(reset_btn)
+
+
+## A row of options to pick one from (segmented buttons).
+static func _choice_row(title: String, desc: String, options: Array, current: String, on_pick: Callable) -> PanelContainer:
+	var p := UITheme.panel(UITheme.SURFACE_2, 16, UITheme.LINE)
+	var h := HBoxContainer.new()
+	h.add_theme_constant_override("separation", 14)
+	p.add_child(h)
+	var text_v := VBoxContainer.new()
+	text_v.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	text_v.add_child(UITheme.body(title, 14))
+	var d := UITheme.soft_label(desc, 11)
+	d.custom_minimum_size = Vector2(260, 0)
+	text_v.add_child(d)
+	h.add_child(text_v)
+	var seg := HBoxContainer.new()
+	seg.add_theme_constant_override("separation", 4)
+	seg.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+	h.add_child(seg)
+	var group := ButtonGroup.new()
+	var on_style := UITheme.button_style(UITheme.ACCENT, 999)
+	on_style.content_margin_left = 12
+	on_style.content_margin_right = 12
+	on_style.content_margin_top = 6
+	on_style.content_margin_bottom = 6
+	var off_style := on_style.duplicate() as StyleBoxFlat
+	off_style.bg_color = UITheme.SURFACE
+	off_style.border_color = UITheme.LINE
+	off_style.set_border_width_all(1)
+	var first: Button = null
+	for o in options:
+		var b := Button.new()
+		b.text = String(o[1])
+		b.toggle_mode = true
+		b.button_group = group
+		b.button_pressed = String(o[0]) == current
+		b.add_theme_font_size_override("font_size", 12)
+		b.add_theme_stylebox_override("normal", off_style)
+		b.add_theme_stylebox_override("hover", off_style)
+		b.add_theme_stylebox_override("pressed", on_style)
+		b.add_theme_stylebox_override("hover_pressed", on_style)
+		b.add_theme_stylebox_override("focus", UITheme.focus_ring(999))
+		b.add_theme_color_override("font_color", UITheme.INK)
+		b.add_theme_color_override("font_hover_color", UITheme.INK)
+		b.add_theme_color_override("font_pressed_color", Color.WHITE)
+		b.add_theme_color_override("font_hover_pressed_color", Color.WHITE)
+		b.mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
+		var key := String(o[0])
+		b.pressed.connect(func():
+			SFX.nav()
+			on_pick.call(key)
+		)
+		seg.add_child(b)
+		if first == null:
+			first = b
+	p.set_meta("control", first)
+	return p
 
 
 static func _slider_row(title: String, desc: String, initial: float, on_change: Callable) -> PanelContainer:

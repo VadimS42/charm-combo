@@ -6,7 +6,7 @@ same match-3 rules, same story-flow architecture — just running on a real
 engine instead of a browser tab, so it can actually be built and shipped to
 Steam.
 
-The whole game is set in **Duskhaven**, an original fantasy town where
+The whole game is set in **Millbrook**, an original fantasy town where
 fantastical folk live openly among everyone else. It's an **18+** romance
 (round 21): a succubus you summon by accident in the library, a mermaid you
 "rescue" from her own cove, a slime hiding in a jar you open, and a dryad whose
@@ -16,6 +16,396 @@ is the complete list of art the game still needs — every file path, size and
 scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
+
+## ✅ Status: round-42 — Amara blinks; no strip under the top bar
+
+- Amara blinks in her chapters, like Hazel (`art/characters/succubus/live/`,
+  made by `tools/live_rig/blink_simple.py` from `tools/live_rig/amara_eyes.json`:
+  skin over each eye and a lid line, half-shut and shut frames; "motion":
+  false, so only the blink). The blinking sprite keeps her "puzzleSprite" place.
+- **No top bar.** The purple bar (and the name on it) is gone; every screen
+  has the whole window. Your stars and the Settings button float in the
+  top-right corner, and rows along the top of a screen end with
+  `UITheme.corner_gap()` (Roster, Puzzle, Gallery, Achievements, the dialogue's
+  placeholder tags) so nothing sits under them.
+
+## ✅ Status: round-41 — Hard difficulty: things happen on your date
+
+Inspired by Mirror's telegraphed turns, but nobody fights you. The classic
+puzzle is backed up in `backup/puzzle_classic/` (Godot ignores it) and is
+still the game on **Easy** (the default). **Settings → Difficulty → Hard**
+adds the date's events:
+
+- Every few moves something happens around you (characters.json
+  "dateEvents"; Marina: a wave over the pier, her sisters start watching, the
+  tide turns). A "Coming up" panel on her side shows what and in how many
+  moves. Four kinds (PuzzleScreen.EVENT_KINDS): raise the target, turn gems into
+  cursed shards, cost a move, halve the Charm ring. Chapter 1: one event every
+  5 moves; then two, three every 4; chapter 4 every 3.
+- Counter-play: matching her favourite gem holds the next event off a move;
+  a Charm Burst clears it. The Love Potion is the strongest pick on Hard.
+- Both difficulties: lose a chapter twice and the Out of Moves screen gives a
+  tip about her ("herTip"), her best power-up ("herPick") and, once per
+  chapter, 10 stars towards it.
+- Her lines are unchanged. Balance (casual bot, Hazel, no power-ups): Easy
+  98 / 83 / 18 / 12%, Hard 98 / 65 / 18 / 4%; Love + Mending Potion on
+  chapter 4: Easy 80%, Hard 62%. `balance_bot.gd difficulty=hard`.
+
+## ✅ Status: round-40 — no emoji left as pictures
+
+Every emoji the game showed as a picture now comes from the packs
+(`make_game_art.py`; the emoji stay in the code only as a fallback if a file
+is missing):
+
+- **How to Play**: each topic has a picture (gem, star, heart, gift, the
+  combo gems, hammer, letter, scroll, book).
+- **Top bar**: the heart before "Charm Combo". **Roster cards**: heart for
+  Loves, Ravenmore's X for Dislikes. **Gift buttons**: each girl's gift has an
+  icon (`art/gifts`: a drawn candle and marble, game-icons.net's pendant and
+  sundial, painted).
+- **Power-up toasts** show the power-up's picture ("Love Potion active!"),
+  and are now centred (the chapter-start ones used to land off to the left).
+- **"+8 ⭐" rewards** draw the star picture (`UITheme.rich_icons`).
+- **Opal** (no art yet): her initial on her round frame instead of emoji faces.
+- Gallery stand-ins, the achievement fallback and the demo's Wishlist button
+  use pictures too. Credits list the game-icons.net artists.
+
+## ✅ Status: round-39 — Amara's main sprite
+
+- `art/characters/succubus/main.png`: her artist's full figure, cut out of its
+  white background with `tools/sprites/cut_white_bg.py` (keeps the white in her
+  eyes and on the dagger, clears the white inside her tail loop, no halo).
+- It's her puzzle-screen figure, and until her expression pictures exist it
+  stands in for all of them (`ArtAssets.character_portrait()` now falls back to
+  a girl's main sprite): her roster card and her conversations show it instead
+  of the "A" and the emoji. `characters.json` "cardCrop" (zoom and the face's
+  position) frames her face on the card.
+- On the puzzle screen she's smaller and raised so her feet and the dagger
+  clear the speech box: `characters.json` "puzzleSprite" (height, lift and
+  right margin in px) places any girl's figure there.
+
+## ✅ Status: round-38 — Hazel speaks; every clip checked by ear (Whisper)
+
+- **Hazel's lines** are the script her actor recorded: most lines reworded,
+  her night scene down to six lines and the morning after to five, three
+  chatter quips dropped. Her portraits follow the actor's directions now
+  (flirting = the lip-bite, dry teasing = calm, jealous = gritted teeth...),
+  and the delivery notes are those directions. Russian and Chinese for every
+  changed line.
+- **72 Hazel clips** (66 lines and her 6 sounds) in `audio/voice/dryad`.
+- **`tools/voice_import/check_clips.py`**: transcribes every clip with Whisper
+  (small.en, run locally through sherpa-onnx; the model is a GitHub download,
+  see the file) and lists clips whose words differ from the line on screen.
+  Hazel: 3 left, all mishearings ("older" for alder). Marina: 7 left, mostly
+  mishearings. From it: four lines now say exactly what was recorded ("So it
+  went right in there", "It's a mermaid thing", "you'll make him pay", "on a
+  low branch"), and one Marina clip that began with a stray half-take is recut.
+
+## ✅ Status: round-37 — Marina speaks; gameplay badges from the packs
+
+- **Marina's lines** match the script her actor recorded
+  (`docs/voice/lines_Marina.txt`): ten lines reworded, the shoe gag and
+  Nerissa gone from what she says (two narration lines still mention the lost
+  shoe), one dislike quip and two chatter quips dropped, her sounds cut to the
+  four recorded (a laugh, a groan, an "ugh", a huff). Sprites unchanged.
+  Russian and Chinese updated for the reworded lines.
+- **78 voice clips** in `audio/voice/mermaid` from the three sessions
+  (MARINA_S1-S4, NIGHT, MA, GIFT, PMATCH, NMATCH, CHATTER and the sounds),
+  cut with `tools/voice_import/import_voice.py`. The two meeting replies were
+  recorded as one file each and are split by hand in `takes.json`, as are
+  "It was an excellent storm" and "very brave. And very wet." Every voiced
+  Marina line has a clip.
+- **Achievements**: the eight gameplay badges (combos, Starburst, Mega Blast,
+  Charm Burst, moves to spare, Shard Smasher, Window Shopping) are rebuilt from
+  the packs in coloured Ravenmore frames (`make_game_art.py`). Hazel's eight
+  story badges keep her face.
+- `make_game_art.py` now trims pictures by their alpha, so gems and power-ups
+  fill their space better.
+
+## ✅ Status: round-36 — the AI power-up pictures are gone
+
+- Power-ups (`art/store`) now come from the Ravenmore pack, and their names
+  follow the pictures: **+3 Moves → Time Scroll**, **Shuffle → Shuffle Wand**,
+  **Favor Charm → Love Potion**, **Heart Mender → Mending Potion**; Hammer
+  keeps its name (a new hammer picture) and the **Starburst Starter** is a gold
+  MIX gem in a burst of light, which is also the Starburst on the board. What
+  each one does and costs is unchanged.
+- The moves hourglass is game-icons.net's (Lorc, CC BY 3.0, credited).
+- Shop, How to Play, Out of Moves and chapter-start texts use the new names;
+  Russian and Chinese updated. The balance bot's tables use them too.
+
+## ✅ Status: round-35 — painted gems, her colour on every frame, icons
+
+From the free packs sent this round (`tools/icon_packs/make_game_art.py`
+rebuilds all of it; sources and licences in `tools/icon_packs/src/`):
+
+- **Gems** (`art/gems`): painted "MIX gems", each type its own colour and
+  shape: ember red teardrop, moonstone silver round, petal pink lozenge, pearl
+  blue shield, rune purple tablet, crystal green shard. Cursed shards are a dark
+  gem with glowing red cracks. Rockets are a gold shard laid along their row or
+  column with speed streaks; the Starburst is the shop's Starburst picture.
+  `CharacterData.gem_color` matches the new colours (crystal is green now).
+- **Her colour** (Ravenmore's square and round frames, recoloured per girl):
+  every board cell (`art/tiles/<girl>.png`), the item slots under the board
+  (`<girl>_slot.png`) and the border around the board (`art/frames/<girl>.png`,
+  nine-sliced, replacing the "Frame placeholder"). A picked-up gem's cell lights up.
+- **Icons** (`art/ui`, Kenney, CC0): next to the words on Settings, the main
+  menu (Play, Store, Gallery, Achievements, How to Play, Credits, Quit), the
+  dialogue controls (Log, Auto, Skip, Skip unread, Hide text), Gallery, How to
+  Play, Retry, Item Shop, Play it again. `UITheme.add_icon()` tints them to
+  each button's text colour. Painted star (stars everywhere), heart (Charm
+  ring) and hourglass (moves).
+- Power-up pictures (`art/store`) were already painted and stay.
+- `data/credits.txt` credits the packs; the MIX gems author still needs filling in.
+
+## ✅ Status: round-34 — her gift is a permanent boost
+
+- A girl's gift (her roster card, 22 stars) is offered once her **first
+  chapter is cleared** (it was any time after meeting her). Given, it makes her
+  favourite gem turn up 1.5x as often in all her chapters for good
+  (`CharacterData.GIFT_FAV_WEIGHT`), a weaker, permanent Favor Charm that stacks
+  with it. Her chapters say "🎁 Her gift" at the start; the gift's tooltip and
+  a one-time tip (from her chapter 2, until it's given) explain it.
+- Casual bot, Hazel: gift alone takes chapter 3 from 26% to 36% and chapter 4
+  from 9% to 17%; gift + Favor Charm 84% / 79% (Favor alone 60% / 41%).
+  `balance_bot.gd mode=items` has gift rows now.
+
+## ✅ Status: round-33 — balance: easy start, power-ups for the second half
+
+Asked for: simulate the puzzles; the first chapters easy, the later ones
+needing power-ups, with replays of the early chapters as the way to earn them.
+
+- **`tools/balance_bot.gd` rewritten.** Two bots ("careful" always takes the
+  best swap; "casual" only 55% of the time, nearer a real player), every
+  power-up applied the way `PuzzleScreen` applies it, and modes `plain`,
+  `items`, `dist` (score spread) and `campaign` (a player going through a
+  story from 0 stars, buying power-ups and replaying chapter 1 when short).
+  `targets=` / `moves=` try numbers without editing the data.
+- **Targets** (all four girls): 700 / 1030 / 1250 / 1350 → **900 / 1200 /
+  1700 / 2000** (moves unchanged, 15 / 15 / 16 / 18). The old ones were cleared
+  by the casual bot about 65% of the time even in chapter 4 with nothing.
+- **Shop prices** follow what each item is worth in the simulation: +3 Moves
+  12 → 15, Hammer 18 → 12, Shuffle 15 → 8, Starburst Starter 25 → 15, Favor
+  Charm 18 → 22, Heart Mender 20 (same).
+- **Replay a chapter** (her roster card, once she has a cleared chapter): plays
+  it again with no story and no reply bonus, her progress stays put, and a
+  clear pays half the first clear: 8 / 10 / 13 / 15 stars
+  (`StoryFlow.replay_stars`). "Play it again", "Item Shop" or "Back to the roster".
+- **Losing** now pays 1 star per 200 points (was 100), at least 3: about 7 for
+  a lost chapter 3, so replaying chapter 1 (8, nearly sure) is the better way
+  to save up. Shop and How to Play texts say so; Russian and Chinese added.
+- Gift names on roster cards are translated now (they stayed English).
+
+Casual bot, Hazel, reply bonus at random (200 runs each):
+
+| Power-ups | Stars | Ch1 | Ch2 | Ch3 | Ch4 |
+|---|---|---|---|---|---|
+| none | 0 | 100% | 81% | 28% | 8% |
+| +3 Moves | 15 | 100% | 96% | 55% | 23% |
+| Favor Charm | 22 | 100% | 95% | 60% | 43% |
+| Heart Mender | 20 | 100% | 94% | 56% | 33% |
+| Favor + Mender | 42 | 100% | 99% | 87% | 78% |
+| Favor + Mender + Moves | 57 | 100% | 100% | 98% | 91% |
+
+Campaign (200 casual players, 0 stars, one girl): chapter 1 cleared first try
+98%, chapter 2 77%; chapters 3 and 4 take about 2 power-ups and 2 replays of
+chapter 1 each, and 6% still lean on "Continue the story" in chapter 4.
+Meeting the other girls (their chapters 1 and 2 pay 35 stars each) also funds it.
+
+## ✅ Status: round-32 — expressions match the lines
+
+- Every line's `"e"` checked against what Hazel's and Marina's pictures
+  actually show. Hazel's `teasing` is a sultry lip-bite, so it now marks only
+  flirting: 12 of her lines moved (dry jokes such as the beehive/axe line and
+  "a lovely trench" to `neutral`, jealousy to `angry`, mischief to `happy`,
+  nervous or tender lines to `shy`). Marina: 5 lines (a defensive line to
+  `shy`, a quiet tearful moment off her big grin, narration off the wink).
+- `docs/EDITING_DIALOGUE.md` has a table of what each expression looks like
+  for both girls. Voice script regenerated (it lists the portraits).
+
+## ✅ Status: round-31 — Russian and Chinese are in; Millbrook; click finishes text
+
+- **Translations:** all 743 pieces in Russian (`translations/ru.po`) and
+  Simplified Chinese (`translations/zh_CN.po`), translated in a separate chat
+  from the `.txt` files and imported with `tools/i18n/import_txt.py`. Checked on
+  screen: picker, menu, roster, dialogue, replies, chapter, Settings.
+- Text the game changes before showing (capitalised roles, quotes stripped
+  off taglines, her first name in the speech box) is now translated first
+  (`UITheme.unquote()`, `UITheme.first_name()`); "MOVES" and "TIP" added.
+- **The town is Millbrook** (was Duskhaven) in the story, menus, docs, store
+  page text and both translations (Миллбрук, 米尔布鲁克). No recorded voice line
+  named it.
+- **Dialogue:** a click while a line is typing now shows it whole (the typing
+  tween used to keep running and undo it); the next click moves on.
+
+## ✅ Status: round-30 — Chinese and Russian (text ready for translation)
+
+- **Language picker** on first launch (before the age notice: English, 简体中文,
+  Русский), and a Language row at the top of Settings. Voices stay English.
+- **Plumbing:** Godot's translation files `translations/ru.po` and
+  `translations/zh_CN.po` (empty for now); labels and buttons translate by their
+  English text, text built in code goes through `UITheme.t()`.
+- **Text for translators:** `translations/txt/en/` (each girl's dialogue, about
+  1,850 words apiece, and the interface, about 1,400), made by
+  `tools/i18n/make_txt.py`; `tools/i18n/import_txt.py` reads the translated
+  files back. See `docs/TRANSLATING.md`.
+- **Chinese font:** `assets/fonts/CharmComboCJK.otf` (Noto Sans CJK SC, GB2312
+  subset, 3 MB, OFL). Tested with the system's Chinese fonts removed.
+
+## ✅ Status: round-29 — three pictures per night scene; .exe icon
+
+- **Night scenes** switch between three full-screen pictures in
+  `art/characters/<id>/cg/`: `night_lead.png` (from the start), `night_act.png`
+  (from the line with `"cg": "night_act"`: put it on the first line of your
+  own part when you replace the slot; the slot carries it as a reminder) and
+  `night_after.png` (from the "Later." / "Afterwards" line, which carries
+  `"cg": "night_after"`). Any line in a CG scene can carry `"cg"`; the picture
+  crossfades in 0.4 s (instant with Reduce Motion) and stays until another
+  line changes it. Missing 2nd/3rd picture: the one showing stays. Missing
+  `night_lead.png`: `night.png`, then the dimmed-stage placeholder. Hide text /
+  H work on all three; quitting mid-scene replays it from the first picture.
+  Tested with stand-in pictures for Hazel (switches at the right lines, with
+  and without Reduce Motion), `night.png` only for Opal, and none for Marina.
+- The pictures fill the area under the top bar (about 1280 × 737, nearly
+  16:9): only ~20 px comes off each side of a 1920 × 1080 picture.
+- The Windows .exe now carries the app icon (rcedit through Wine on the build
+  machine; on Windows, set Editor Settings → Export → Windows → rcedit).
+- Docs: `docs/EDITING_DIALOGUE.md` ("Her night scene"), `docs/ART_LIST.md`.
+
+## ✅ Status: round-28 — skip unread, menu slideshow, app icon, voice notice
+
+- **Dialogue:** a "Skip unread" button next to Skip races through every line,
+  read or not, up to the next reply (Skip still stops at unread lines).
+- **Main menu:** until `art/menu_illustration.png` exists, a slideshow of the
+  girls' places, each slowly zooming and drifting, crossfading every 9 s
+  (`RosterBackdrop.cycle()`). The roster already did this for the selected
+  girl.
+- **App icon:** Hazel's face biting her lip (`icon.png`, `icon.ico`, from
+  `tools/achievement_icons/make_app_icon.py`); the Windows presets now write
+  it into the .exe (`application/modify_resources`).
+- **Voice notice:** once, after the age notice (and once for existing saves):
+  the voices are by amateur voice actresses, with "Turn voices off" / "Keep
+  voices on" (`settings.voice_notice_seen`).
+- **Words, not icons:** menu buttons, Settings, Item Shop and the dialogue
+  controls are plain words; only the star, hourglass and Charm heart keep
+  icon slots. The art list was trimmed to match.
+
+## ✅ Status: round-27 — polish from the market research list
+
+From the research task list (scope: polish only, no new girls or systems).
+
+- **Dialogue controls** (`VNScreen.gd`): text types out (Settings: Slow /
+  Normal / Fast / Instant; a click finishes the line first); **Skip** (hold
+  Ctrl / RB, or the button) races through lines already read, stops at unread
+  ones unless "Skip Unread Lines" is on, and always at a reply; **Auto** (A /
+  Y, or the button) waits for her voice line, then a pause (Settings: Auto
+  Speed); **Log** (L / LB, the button, or scrolling up) shows the last 60
+  lines. Read lines are saved (`GameState.seen_lines`). Replies are a stack
+  of pills over the stage, she stands a little right of centre.
+- **How to Play** (`scripts/HowToPlay.gd`): a page (main menu, the chapter's
+  top bar, Settings) and a one-time tip for each rule the first time it comes
+  up (swap, goal, specials, combos, cursed shards, Charm, items, replies,
+  out of moves, dialogue controls). The rules strip under the board is gone.
+- **Puzzle HUD**, HuniePop-style: one bar under the board (moves, goal bar,
+  Charm ring, items), bigger gems, her quips in a speech box at her side.
+  Each quip plays at most once per attempt; laughs / sighs are rare (8%, 25 s
+  cooldown, none repeated) and only once recorded.
+- **Never stuck**: three losses in a row on a chapter add "Continue the
+  story" to the loss screen (no stars, no chapter achievement).
+- **Gallery** replays night scenes once seen (`GameState.replays`).
+- **Stability**: Godot's log file is on (`user://logs`, Settings → Open log
+  folder); story scenes, CGs and epilogue art have Back = Settings, which
+  now offers "Leave to Roster" there (the scene plays again next time);
+  Settings scrolls.
+- **Balance check** (`tools/balance_bot.gd`, greedy one-move-ahead bot, no
+  items, 300 runs a chapter, the starting bonus from a warm or a teasing
+  reply). Nothing under 60%, so no targets changed:
+
+| Girl | Ch | Target | Moves | Win % (warm reply) | Win % (teasing reply) | Avg score (warm) |
+|---|---|---|---|---|---|---|
+| Amara | 1 | 700 | 15 | 100% | 100% | 817 |
+| Amara | 2 | 1030 | 15 | 97% | 91% | 1093 |
+| Amara | 3 | 1250 | 16 | 90% | 74% | 1325 |
+| Amara | 4 | 1350 | 18 | 84% | 64% | 1391 |
+| Marina | 1 | 700 | 15 | 100% | 100% | 812 |
+| Marina | 2 | 1030 | 15 | 98% | 91% | 1102 |
+| Marina | 3 | 1250 | 16 | 89% | 73% | 1322 |
+| Marina | 4 | 1350 | 18 | 82% | 63% | 1381 |
+| Opal | 1 | 700 | 15 | 100% | 100% | 812 |
+| Opal | 2 | 1030 | 15 | 96% | 93% | 1104 |
+| Opal | 3 | 1250 | 16 | 89% | 74% | 1322 |
+| Opal | 4 | 1350 | 18 | 83% | 65% | 1378 |
+| Hazel | 1 | 700 | 15 | 100% | 100% | 811 |
+| Hazel | 2 | 1030 | 15 | 98% | 92% | 1100 |
+| Hazel | 3 | 1250 | 16 | 90% | 75% | 1322 |
+| Hazel | 4 | 1350 | 18 | 88% | 71% | 1393 |
+
+  Board fuzz, 10,000 boards across chapters 1-4: 0 with a ready-made match;
+  1 with no legal move as built, which the game rebuilds (0 still stuck).
+- **Smoke test** (`tools/smoke_test.gd`): all four stories intro → ending,
+  every night replay, and the continue-the-story path: passes, no errors.
+- **Demo build**: export preset "Windows (Demo)" (feature `demo`, or run with
+  `-- --demo`): Hazel's intro and first chapter, then a thanks / "Wishlist
+  on Steam" screen (set `Platform.STORE_URL` or `STEAM_APP_ID`). Night art
+  and music are left out of its files.
+- **Trailer capture**: run with `-- --trailer` (plus Godot's `--write-movie`)
+  to hide the top bar, chapter HUD and placeholder tags.
+- Round-24 leftovers: spark / finale CG rows dropped from the art list (each
+  girl's `cg/warmth.png` is her final picture); laugh / sigh clips play on
+  puzzle reactions once recorded.
+- New icon slots for the artist (`docs/ART_LIST.md`): howto, log, auto,
+  skip, hide, next.
+
+## ✅ Status: round-26 — the soundtrack is in
+
+- All seven music tracks in `audio/music/` (menu, each girl, night, ending),
+  converted to .ogg and evened out to the same loudness (-20 LUFS, a little
+  under the voice lines). Marina's track got a 30 ms fade at the end to stop
+  the click where it loops. Composers and licences are in `data/credits.txt`
+  (shown on the Credits screen; the CC BY tracks need it) and
+  `docs/ART_LIST.md`. The ending track's composer still needs filling in.
+
+## ✅ Status: round-25 — Hazel's achievements, see-through dialogue box
+
+- **Achievements are Hazel-only for now** (16): meeting her, each chapter,
+  her ending, her gift, all-warm and all-teasing playthroughs, plus the eight
+  puzzle ones. The other girls' story achievements, ALL_FOUR, BOTH_ROUTES and
+  the gallery ones are gone; old saves keep working (retired ids are ignored).
+  Update the list in Steamworks to match (`docs/STEAM_SETUP.md`).
+- **Icons:** `art/achievements/*.png`, her face zoomed in with a fitting
+  expression, a colour frame and a small badge, made by
+  `tools/achievement_icons/make_hazel_icons.py`.
+- **Dialogue box** is see-through (62% instead of 88%).
+- **Hazel's conversation sprite** sits lower and fades out at the bottom
+  (`"portraitFade"` in `characters.json`, `scripts/fade_bottom.gdshader`), so
+  the place her art is cut off never shows, even through the see-through box.
+  Marina got the same fade, since the new box showed her cut edge too.
+
+## ✅ Status: round-24 — Amara speaks, Hazel only blinks, bug fixes
+
+- **Voice acting** (`autoload/Voice.gd`): a spoken line plays its clip from
+  `audio/voice/<char id>/<line id>.ogg` the moment the file exists, in dialogue
+  scenes and for puzzle quips (she won't start a new quip while still saying the
+  last one). Narration stops her voice, and the music dips while she talks.
+  Settings has **Voice Acting** (on/off) and **Voice Volume**, shown once any
+  clips exist. Amara has 72 of her 80 lines; missing: `amara_end_06`/`07` and
+  her laughs and sighs.
+- **Recordings → clips:** `tools/voice_import/import_voice.py` finds the takes
+  in each raw .wav, keeps the last one, trims it, evens the loudness and writes
+  the .ogg. Hand-picked cuts are listed in `tools/voice_import/takes.json`.
+- Amara's line text now matches what was recorded (10 lines), and the two unrecorded
+  chatter lines (`amara_chat_04`/`05`) are gone.
+- **Hazel** only blinks in her chapters (`"motion": false` and `"ambient":
+  "none"` in her `live.json`). In conversations she sits higher, so her chest is
+  above the dialogue box (`"portraitLift"` in `characters.json`).
+- **Fixes:** a mostly-teasing playthrough crashed at the ending and replayed
+  chapter 4 forever (no spark ending exists; it now falls back to hers);
+  quitting mid-epilogue counted the ending on the next launch; Collector /
+  Complete Gallery used fixed 8/16 counts; one-chapter power-ups were spent
+  even when you left on the first frame; Testing Mode didn't clear a chapter
+  on a Hammer; the voice script generator crashed on the current data.
+- `BOTH_ROUTES` ("see a warm and a spark ending") can't be earned until spark
+  endings exist again.
 
 ## ✅ Status: round-23 verified — Opal in the woods, Marina's reward, Amara's freedom
 

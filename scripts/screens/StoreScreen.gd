@@ -4,12 +4,12 @@ class_name StoreScreen
 extends RefCounted
 
 const ITEMS := [
-	{"id": "moves", "name": "+3 Moves", "desc": "Adds three moves to the chapter you're playing. Use it from the item row under the board — it also gets you out of an Out of Moves screen.", "price": 12, "icon": "⏱"},
-	{"id": "hammer", "name": "Hammer", "desc": "Pop any one gem, no match needed. Arm it from the item row, then tap a gem.", "price": 18, "icon": "🔨"},
-	{"id": "shuffle", "name": "Shuffle", "desc": "Reshuffles the whole board into a fresh one that always has a move.", "price": 15, "icon": "🔀"},
-	{"id": "colorBomb", "name": "Starburst Starter", "desc": "Your next chapter begins with a free Starburst gem already on the board.", "price": 25, "icon": "✨"},
-	{"id": "favorCharm", "name": "Favor Charm", "desc": "Your next chapter: her favorite gem shows up more often, her least favorite less.", "price": 18, "icon": "💗"},
-	{"id": "heartMender", "name": "Heart Mender", "desc": "Your next chapter: far fewer cursed shards appear on the board.", "price": 20, "icon": "💚"},
+	{"id": "moves", "name": "Time Scroll", "desc": "Read it for three more moves in the chapter you're playing. Use it from the item row under the board — it also gets you out of an Out of Moves screen.", "price": 15, "icon": "⏱"},
+	{"id": "hammer", "name": "Hammer", "desc": "Pop any one gem, no match needed. Arm it from the item row, then tap a gem.", "price": 12, "icon": "🔨"},
+	{"id": "shuffle", "name": "Shuffle Wand", "desc": "One wave and the whole board is dealt again, always with a move to make.", "price": 8, "icon": "🔀"},
+	{"id": "colorBomb", "name": "Starburst Starter", "desc": "Your next chapter begins with a free Starburst gem already on the board.", "price": 15, "icon": "✨"},
+	{"id": "favorCharm", "name": "Love Potion", "desc": "Your next chapter: her favorite gem shows up more often, her least favorite less.", "price": 22, "icon": "💗"},
+	{"id": "heartMender", "name": "Mending Potion", "desc": "Your next chapter: far fewer cursed shards appear on the board.", "price": 20, "icon": "💚"},
 ]
 
 const CARD_W := 330.0
@@ -49,9 +49,10 @@ static func build(main: Node, host: Control) -> void:
 
 	v.add_child(UITheme.heading("Item Shop", 22))
 	var sub := UITheme.soft_label(
-		"Stars come from clearing chapters: 15 for a girl's first and 5 more for each one after it. " +
-		"Running out of moves still pays 1 star for every 100 points you scored (at least 3). " +
-		"The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts.", 12)
+		UITheme.t("Stars come from clearing chapters: 15 for a girl's first and 5 more for each one after it.") + " " +
+		UITheme.t("Running out of moves still pays 1 star for every 200 points you scored (at least 3).") + " " +
+		UITheme.t("Short on stars? Replay a chapter you've cleared, from her card on the roster: it pays half.") + " " +
+		UITheme.t("The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts."), 12)
 	sub.custom_minimum_size = Vector2(CARD_W * 3.0 + 24.0, 0)
 	v.add_child(sub)
 
@@ -108,17 +109,17 @@ static func _card(main: Node, item: Dictionary) -> PanelContainer:
 	v.add_child(d)
 
 	var owned := int(GameState.items.get(item.id, 0))
-	v.add_child(UITheme.soft_label("Owned: %d" % owned, 11))
+	v.add_child(UITheme.soft_label(UITheme.t("Owned: %d") % owned, 11))
 
 	var price := int(item.price)
-	var buy_btn := UITheme.make_primary_button("Buy · %d ⭐" % price)
+	var buy_btn := UITheme.make_primary_button(UITheme.t("Buy · %d ⭐") % price)
 	# art/ui/star.png after the price when it exists, in place of the emoji.
-	UITheme.apply_icon(buy_btn, "star", "Buy · %d" % price)
+	UITheme.apply_icon(buy_btn, "star", UITheme.t("Buy · %d") % price)
 	if buy_btn.icon != null:
 		buy_btn.icon_alignment = HORIZONTAL_ALIGNMENT_RIGHT
 	buy_btn.disabled = GameState.stars < price
 	if buy_btn.disabled:
-		buy_btn.tooltip_text = "You need %d more stars." % (price - GameState.stars)
+		buy_btn.tooltip_text = UITheme.t("You need %d more stars.") % (price - GameState.stars)
 	buy_btn.pressed.connect(func():
 		if GameState.stars < price:
 			return

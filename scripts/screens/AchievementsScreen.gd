@@ -39,10 +39,11 @@ static func build(main: Node, host: Control) -> void:
 	var spacer := Control.new()
 	spacer.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	top_row.add_child(spacer)
-	var count := UITheme.body("%d / %d unlocked" % [Achievements.count_unlocked(), Achievements.LIST.size()], 13, UITheme.INK_SOFT)
+	var count := UITheme.body(UITheme.t("%d / %d unlocked") % [Achievements.count_unlocked(), Achievements.LIST.size()], 13, UITheme.INK_SOFT)
 	count.autowrap_mode = TextServer.AUTOWRAP_OFF
 	count.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 	top_row.add_child(count)
+	top_row.add_child(UITheme.corner_gap())
 	outer.add_child(top_row)
 
 	if Platform.steam_active():
@@ -72,7 +73,7 @@ static func _row(a: Dictionary) -> Control:
 	var p := UITheme.panel(UITheme.SURFACE if got else UITheme.SURFACE_2, 16,
 		UITheme.ACCENT_2 if got else UITheme.LINE)
 	p.custom_minimum_size = Vector2(ROW_W, 0)
-	p.tooltip_text = String(a.name) + " — " + String(a.desc)
+	p.tooltip_text = UITheme.t(String(a.name)) + " — " + UITheme.t(String(a.desc))
 	var h := HBoxContainer.new()
 	h.add_theme_constant_override("separation", 14)
 	p.add_child(h)
@@ -96,7 +97,12 @@ static func _row(a: Dictionary) -> Control:
 		ms.set_corner_radius_all(28)
 		medal.add_theme_stylebox_override("panel", ms)
 		var glyph := Label.new()
-		glyph.text = "🏆" if got else "?"
+		glyph.text = "" if got and ArtAssets.ui_icon("achievements") else ("🏆" if got else "?")
+		if got and ArtAssets.ui_icon("achievements"):
+			var tr := UITheme.picture(ArtAssets.ui_icon("achievements"), 30)
+			tr.set_anchors_preset(Control.PRESET_CENTER)
+			tr.position = Vector2(-15, -15)
+			medal.add_child(tr)
 		glyph.set_anchors_preset(Control.PRESET_FULL_RECT)
 		glyph.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 		glyph.vertical_alignment = VERTICAL_ALIGNMENT_CENTER

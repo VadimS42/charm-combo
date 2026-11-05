@@ -1,0 +1,11 @@
+{
+ "blink_rect": [
+  388,
+  322,
+  154,
+  59
+ ],
+ "blink_frames": 2,
+ "motion": false,
+ "ambient": "none"
+}

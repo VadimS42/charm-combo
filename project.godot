@@ -15,7 +15,7 @@ config/description="A match-3 romance for adults, set in Duskhaven, a twilight t
 config/version="1.0.0"
 run/main_scene="res://scenes/Main.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://icon.png"
 config/use_custom_user_dir=true
 config/custom_user_dir_name="CharmCombo"
 boot_splash/bg_color=Color(0.984314, 0.960784, 0.945098, 1)
@@ -29,6 +29,12 @@ Music="*res://autoload/Music.gd"
 Nav="*res://autoload/Nav.gd"
 Achievements="*res://autoload/Achievements.gd"
 Platform="*res://autoload/Platform.gd"
+Voice="*res://autoload/Voice.gd"
+
+[debug]
+
+file_logging/enable_file_logging=true
+file_logging/max_log_files=5
 
 [display]
 
@@ -36,6 +42,11 @@ window/size/viewport_width=1280
 window/size/viewport_height=800
 window/stretch/mode="canvas_items"
 window/stretch/aspect="keep"
+
+[internationalization]
+
+locale/translations=PackedStringArray("res://translations/ru.po", "res://translations/zh_CN.po")
+locale/fallback="en"
 
 [rendering]
 

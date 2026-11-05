@@ -32,6 +32,19 @@ const RESTART_THROUGH_STEAM := true
 
 signal steam_ready
 
+## Demo build (round 25): the "demo" export feature (preset "Windows (Demo)")
+## or `-- --demo` on the command line. Only DEMO_CHAR's intro and first
+## chapter play, then a "thanks for playing / wishlist" screen; nothing
+## adult is reachable.
+const DEMO_CHAR := "dryad"
+## Where "Wishlist on Steam" goes. With a STEAM_APP_ID set, its store page;
+## otherwise this (fill in your page's address once it exists).
+const STORE_URL := ""
+var demo := false
+## Trailer capture (`-- --trailer`): chapters hide the HUD and the top bar,
+## leaving the board, her and the combo pop-ups (record with --write-movie).
+var trailer := false
+
 ## "steam", "itch" or "none" (editor / untagged build).
 var store := "none"
 ## The GodotSteam singleton once Steam started successfully, else null.
@@ -42,6 +55,9 @@ var steam_status := "not used"
 
 func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS
+	var args := OS.get_cmdline_user_args()
+	demo = OS.has_feature("demo") or args.has("--demo")
+	trailer = args.has("--trailer")
 	if OS.has_feature("steam"):
 		store = "steam"
 	elif OS.has_feature("itch"):
@@ -53,6 +69,13 @@ func _ready() -> void:
 	else:
 		start_steam(Engine.get_singleton("Steam"))
 	print("Charm Combo %s — %s build, Steam: %s" % [ProjectSettings.get_setting("application/config/version", ""), store, steam_status])
+
+
+## The store page to wishlist the game on ("" if there isn't one yet).
+func wishlist_url() -> String:
+	if STEAM_APP_ID > 0:
+		return "https://store.steampowered.com/app/%d/" % STEAM_APP_ID
+	return STORE_URL
 
 
 ## Initializes Steam through the given GodotSteam singleton (Steam's own, or

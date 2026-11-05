@@ -18,6 +18,9 @@ const DIR := "res://audio/music/"
 const EXTENSIONS := ["ogg", "mp3", "wav"]
 const FADE_SEC := 1.2
 const DEFAULT_VOLUME := 0.7
+## How loud the music stays while a voice line plays (Voice.gd).
+const DUCK_LEVEL := 0.45
+const DUCK_SEC := 0.25
 
 var _players: Array[AudioStreamPlayer] = []
 var _levels: Array[float] = [0.0, 0.0]
@@ -25,6 +28,8 @@ var _tweens: Array = [null, null]
 var _active := 0
 ## res:// path of the track playing (or fading in); "" when silent.
 var current_path := ""
+var _duck := 1.0
+var _duck_tween: Tween
 
 
 func _ready() -> void:
@@ -105,6 +110,19 @@ func stop() -> void:
 	_fade(_active, 0.0)
 
 
+## Dips the music under a voice line (on), or brings it back (off).
+func set_duck(on: bool) -> void:
+	var to := DUCK_LEVEL if on else 1.0
+	if is_equal_approx(_duck, to):
+		return
+	if _duck_tween and _duck_tween.is_valid():
+		_duck_tween.kill()
+	_duck_tween = create_tween()
+	_duck_tween.tween_method(func(v: float):
+		_duck = v
+		apply_volume(), _duck, to, DUCK_SEC)
+
+
 ## Re-reads the Music volume setting (the Settings slider).
 func apply_volume() -> void:
 	for i in range(_players.size()):
@@ -133,7 +151,7 @@ func _set_level(v: float, i: int) -> void:
 
 func _apply(i: int) -> void:
 	var vol: float = clampf(float(GameState.settings.get("music_volume", DEFAULT_VOLUME)), 0.0, 1.0)
-	_players[i].volume_db = linear_to_db(maxf(vol * _levels[i], 0.0001))
+	_players[i].volume_db = linear_to_db(maxf(vol * _levels[i] * _duck, 0.0001))
 
 
 func _on_finished(i: int) -> void:
