@@ -144,6 +144,9 @@ msgstr "事后,你躺在苔藓里,她的头发铺在你胸口。头顶上,东侧
 msgid "Against an alchemist? You kicked my buttons into a stream and then paid six coppers to get them back."
 msgstr "对付一个炼金术士?你把我的纽扣踢进了小溪,然后又花六个铜板买回来。"
 
+msgid "Against an alchemist? You sold my buttons for two coppers and bought them back for six."
+msgstr "对付炼金术士?你把我的纽扣两个铜板卖了,又花六个铜板买回来。"
+
 msgid "Alchemists boil slimes down for glue. Did you know that? Twelve shillings a pound."
 msgstr "炼金术士会把史莱姆熬成胶水。你知道吗?一磅十二先令。"
 
@@ -260,6 +263,9 @@ msgstr "即将发生"
 
 msgid "Can we not? Please?"
 msgstr "能不能别这样?拜托?"
+
+msgid "Can you... turn the lamp down a bit?"
+msgstr "你能……把灯调暗一点吗?"
 
 msgid "Cancel"
 msgstr "取消"
@@ -488,6 +494,9 @@ msgstr "大家一直问梳子的事,我的借口快用光了。"
 
 msgid "Everything — music and sound effects."
 msgstr "全部——音乐和音效。"
+
+msgid "Ex-excuse me. That's my eye. I mean... It's in my collection. I'd like it back, please."
+msgstr "不、不好意思。那是我的眼睛。我是说……它是我收藏里的。请还给我。"
 
 msgid "Ex-excuse me. That's my eye. Not my eye. It's in my collection. I'd like it back, please."
 msgstr "打、打扰一下。那是我的眼珠。不是我的眼珠。它在我的收藏里。请还给我。"
@@ -948,6 +957,9 @@ msgstr "Language · 语言 · Язык"
 msgid "Last night was the best thing that's happened to me in thirty-one years. Possibly ever. I'm not exaggerating. I've had a lot of time to compare."
 msgstr "昨晚是我三十一年来发生过的最好的事。也许是有史以来。我没有夸张。我有很多时间可以比较。"
 
+msgid "Last night was the best thing that's happened to me in thirty-one years. Possibly... ever."
+msgstr "昨晚是我三十一年来遇到的最好的事。也许……是有生以来。"
+
 msgid "Later. The candle is down to a stub. She's lying across you on the reading room rug with one wing folded over you both like a blanket."
 msgstr "后来。蜡烛烧到只剩一截。她横躺在阅览室的地毯上,压在你身上,一只翅膀像毯子一样盖住你们两个。"
 
@@ -1089,6 +1101,9 @@ msgstr "大多数召唤在有人得到所求之物的那一刻就结束了。你
 msgid "Mostly couples who thought they'd found somewhere private. So I know a lot about not lying down in nettles."
 msgstr "大多是以为找到了隐蔽地方的情侣。所以我对怎么避免躺进荨麻丛里懂得很多。"
 
+msgid "Mostly couples who thought they'd found somewhere private. So I know a lot about... you know."
+msgstr "大多是以为找到了僻静地方的情侣。所以我对……那个,知道得挺多。"
+
 msgid "Move"
 msgstr "移动"
 
@@ -1202,6 +1217,9 @@ msgstr "通关她的第一章后,名册中她的卡片上会出现一份给她�
 
 msgid "One wave and the whole board is dealt again, always with a move to make."
 msgstr "挥一下,整个棋盘就会重新发牌,而且总有一步可走。"
+
+msgid "Ooh. That's going in the... sorry."
+msgstr "哦。这个要放进……抱歉。"
 
 msgid "Ooh. That's going in the... sorry. Habit."
 msgstr "哦。这个要放进……抱歉。习惯了。"
@@ -1860,6 +1878,9 @@ msgstr "罐子整夜都是空的。"
 msgid "The jar. Should I keep it? I haven't been in it for a week. I still check it's there."
 msgstr "罐子。我该留着吗?我已经一个星期没进去了。我还是会检查它在不在。"
 
+msgid "The jar... Should I keep it?"
+msgstr "那个罐子……我该留着吗?"
+
 msgid "The keys went to a locksmith, he says. And the glass eye went to someone who needed a glass eye, I suppose."
 msgstr "他说钥匙去了锁匠那里。至于玻璃眼珠,我猜是去了需要玻璃眼珠的人那里。"
 
@@ -1910,6 +1931,9 @@ msgstr "报酬是,从现在起每年的潮汛你都要来。没得商量。别�
 
 msgid "The stream comes out under the Mill Bridge, where Coombs the rag-and-bone man fishes for anything that floats. He's netted most of the buttons and wants six coppers for them, which he finds very funny."
 msgstr "小溪在磨坊桥下流出来,收破烂的库姆斯在那里钓一切能漂的东西。他捞到了大部分纽扣,要价六个铜板,还觉得这特别好笑。"
+
+msgid "The stream comes out under the Mill Bridge, where Coombs the rag-and-bone man fishes for anything that floats. You get there ahead of her and sell him a handful of buttons off the bank for two coppers before you realise whose they are. He's netted the rest too. Buying the lot back costs six coppers, which he finds very funny."
+msgstr "小溪从磨坊桥下流出,收破烂的库姆斯在那儿捞一切漂着的东西。你比她先到,还没意识到那是谁的,就把岸边捡的一把纽扣以两个铜板卖给了他。剩下的他也都用网捞起来了。全部买回来要六个铜板,他觉得这非常好笑。"
 
 msgid "The stream goes to town. We're going. You're carrying me! Please?"
 msgstr "小溪通向镇上。我们走吧。你要抱着我!可以吗?"
@@ -2000,6 +2024,9 @@ msgstr "这一条线。你会把我的名字放在这儿。要是你想叫我的
 
 msgid "This one's my favourite. Brass, four holes, off a very handsome coat. You have a very handsome coat too. That's all. Coats."
 msgstr "这颗是我最喜欢的。黄铜的,四个孔,来自一件非常帅气的外套。你的外套也很帅。就是这样。外套而已。"
+
+msgid "This one's my favourite. Brass, four holes, off a very handsome coat. You have a very handsome... coat too."
+msgstr "这颗是我最喜欢的。黄铜的,四个孔,来自一件很好看的外套。你也有一件很好看的……外套。"
 
 msgid "This page is from my binding. The book that ties me to every circle anyone draws, however badly. Find all of it, burn it, and I'm free."
 msgstr "这一页来自我的束缚之书。那本书把我绑在每一个任何人画出的圈上,不管画得多烂。把它全部找到,烧掉,我就自由了。"
@@ -2163,6 +2190,9 @@ msgstr "你笑了。她从里到外变粉,然后也笑了。"
 msgid "You leave your shoes on the pier, both of them."
 msgstr "你把鞋子留在了码头上,两只都留下了。"
 
+msgid "You look from her to the trunk and back. Her heart is in the tree, then. So what's in her chest? Does she feel every woodpecker? Is the tree her, or is she the tree's way of talking? It doesn't feel like the moment to ask."
+msgstr "你的目光在她和树干之间来回。原来她的心在树里。那她胸口里是什么?每只啄木鸟她都感觉得到吗?树就是她,还是她只是这棵树说话的方式?现在好像不是问这个的时候。"
+
 msgid "You lower the axe. After a moment, you put it down on the grass."
 msgstr "你放下斧头。过了一会儿,你把它放在了草地上。"
 
@@ -2192,6 +2222,9 @@ msgstr "你摇了摇头。"
 
 msgid "You sit with your back against the trunk while it rains. Every so often she makes a small sound, and you put your hand flat on the bark."
 msgstr "下雨时你背靠树干坐着。她时不时发出一声轻响,你便把手平放在树皮上。"
+
+msgid "You sit with your back against the trunk while it rains. Every so often she makes a small sound, and you put your hand flat on the bark. Under your palm, right about where you'd have swung the axe, something in the wood is beating. So that answers that."
+msgstr "下雨时你背靠树干坐着。她时不时发出一声轻响,你便把手平放在树皮上。就在你当初要下斧的地方,掌心下,木头里有什么在跳动。这下有答案了。"
 
 msgid "You start to take your hand away. She says you don't have to."
 msgstr "你想把手拿开。她说不用。"

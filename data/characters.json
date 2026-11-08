@@ -1844,7 +1844,7 @@
   "least": "rune",
   "favQuips": [
    {
-    "t": "Ooh. That's going in the... sorry. Habit.",
+    "t": "Ooh. That's going in the... sorry.",
     "e": "neutral",
     "d": "Delighted, then embarrassed.",
     "id": "opal_fav_01"
@@ -1854,12 +1854,6 @@
     "e": "neutral",
     "d": "Soft, covetous.",
     "id": "opal_fav_02"
-   },
-   {
-    "t": "Pretty. Like a button, but better.",
-    "e": "neutral",
-    "d": "Earnest.",
-    "id": "opal_fav_03"
    },
    {
     "t": "That catches the light. Do another.",
@@ -1894,12 +1888,6 @@
     "id": "opal_least_02"
    },
    {
-    "t": "Th-that's a sealing mark. Please don't.",
-    "e": "neutral",
-    "d": "Nervous stutter.",
-    "id": "opal_least_03"
-   },
-   {
     "t": "Can we not? Please?",
     "e": "neutral",
     "d": "Quiet plea.",
@@ -1926,12 +1914,6 @@
     "id": "opal_chat_02"
    },
    {
-    "t": "Four hundred and twelve. I check every night.",
-    "e": "neutral",
-    "d": "Proud, matter-of-fact.",
-    "id": "opal_chat_03"
-   },
-   {
     "t": "It's loud out here. You're the good kind of loud.",
     "e": "neutral",
     "d": "Soft, fond.",
@@ -1954,12 +1936,6 @@
     "e": "neutral",
     "d": "Flustered.",
     "id": "opal_chat_07"
-   },
-   {
-    "t": "Ambrose would have liked you. He liked people who apologise.",
-    "e": "neutral",
-    "d": "Warm, a little sad.",
-    "id": "opal_chat_08"
    },
    {
     "t": "Th-that was good. That was really good.",
@@ -2149,7 +2125,7 @@
      "win": [
       {
        "k": "n",
-       "t": "The stream comes out under the Mill Bridge, where Coombs the rag-and-bone man fishes for anything that floats. He's netted most of the buttons and wants six coppers for them, which he finds very funny."
+       "t": "The stream comes out under the Mill Bridge, where Coombs the rag-and-bone man fishes for anything that floats. You get there ahead of her and sell him a handful of buttons off the bank for two coppers before you realise whose they are. He's netted the rest too. Buying the lot back costs six coppers, which he finds very funny."
       },
       {
        "k": "n",
@@ -2166,7 +2142,7 @@
       },
       {
        "k": "s",
-       "t": "This one's my favourite. Brass, four holes, off a very handsome coat. You have a very handsome coat too. That's all. Coats.",
+       "t": "This one's my favourite. Brass, four holes, off a very handsome coat. You have a very handsome... coat too.",
        "e": "shy",
        "d": "Starting to flirt and immediately regretting it. Rushed at the end.",
        "id": "opal_ch1_02",
@@ -2307,7 +2283,7 @@
         "resp": [
          {
           "k": "s",
-          "t": "Against an alchemist? You kicked my buttons into a stream and then paid six coppers to get them back.",
+          "t": "Against an alchemist? You sold my buttons for two coppers and bought them back for six.",
           "e": "surprised",
           "d": "Startled into teasing.",
           "id": "opal_ch2_r2_01",
@@ -2346,7 +2322,7 @@
       },
       {
        "k": "s",
-       "t": "Ex-excuse me. That's my eye. Not my eye. It's in my collection. I'd like it back, please.",
+       "t": "Ex-excuse me. That's my eye. I mean... It's in my collection. I'd like it back, please.",
        "e": "shy",
        "d": "Terrified and stammering, then firm on 'please'.",
        "id": "opal_ch3_01"
@@ -2470,7 +2446,7 @@
       },
       {
        "k": "s",
-       "t": "Turn the lamp down a bit? Everything shows, with me.",
+       "t": "Can you... turn the lamp down a bit?",
        "e": "shy",
        "d": "Embarrassed, with a small laugh.",
        "id": "opal_ch4_05"
@@ -2506,7 +2482,7 @@
      },
      {
       "k": "s",
-      "t": "Mostly couples who thought they'd found somewhere private. So I know a lot about not lying down in nettles.",
+      "t": "Mostly couples who thought they'd found somewhere private. So I know a lot about... you know.",
       "e": "neutral",
       "d": "Deadpan, testing whether you'll laugh.",
       "id": "opal_night_03"
@@ -2542,20 +2518,6 @@
      },
      {
       "k": "s",
-      "t": "There are four hundred and forty-one things in my collection. I'm trying to work out how to write a card for tonight.",
-      "e": "happy",
-      "d": "Drowsy, shy, delighted.",
-      "id": "opal_night_21"
-     },
-     {
-      "k": "s",
-      "t": "It's going to need a very long card.",
-      "e": "shy",
-      "d": "A small, pleased laugh.",
-      "id": "opal_night_22"
-     },
-     {
-      "k": "s",
       "t": "Th-thank you. Sorry. No. Not sorry. Thank you.",
       "e": "shy",
       "d": "Her first thank-you again, but this time she catches the 'sorry' and takes it back. She means it.",
@@ -2586,7 +2548,7 @@
        },
        {
         "k": "s",
-        "t": "Last night was the best thing that's happened to me in thirty-one years. Possibly ever. I'm not exaggerating. I've had a lot of time to compare.",
+        "t": "Last night was the best thing that's happened to me in thirty-one years. Possibly... ever.",
         "e": "shy",
         "d": "Shy and glowing, completely sincere.",
         "id": "opal_end_02"
@@ -2597,13 +2559,6 @@
         "e": "happy",
         "d": "Flustered, then brave, then delighted with herself.",
         "id": "opal_end_03"
-       },
-       {
-        "k": "s",
-        "t": "I've started a card for last night. For the collection. I'm on my fourth draft.",
-        "e": "happy",
-        "d": "Pleased with herself, shy about it.",
-        "id": "opal_end_04"
        }
       ],
       "beat1_caption": "Morning light through the bedroom curtains, and someone translucent and lilac curled over the covers.",
@@ -2611,27 +2566,13 @@
        {
         "k": "n",
         "t": "She goes outside on her own for the first time to buy bread. She's gone twenty minutes. You both pretend you weren't worried."
-       },
-       {
-        "k": "s",
-        "t": "The baker asked my name. I told him. Then I told him about buttons for a while. He was very patient.",
-        "e": "happy",
-        "d": "Proud, breathless.",
-        "id": "opal_end_05"
-       },
-       {
-        "k": "s",
-        "t": "I'm going back tomorrow. He does a seeded loaf on Thursdays.",
-        "e": "shy",
-        "d": "Quietly determined, trying to make it sound ordinary.",
-        "id": "opal_end_06"
        }
       ],
       "beat2_caption": "Opal at the baker's counter, a loaf under one arm and a stray button in her hand.",
       "choice_lines": [
        {
         "k": "s",
-        "t": "The jar. Should I keep it? I haven't been in it for a week. I still check it's there.",
+        "t": "The jar... Should I keep it?",
         "e": "neutral",
         "d": "Thoughtful, a little vulnerable.",
         "id": "opal_end_07"
@@ -2639,13 +2580,6 @@
        {
         "k": "n",
         "t": "You tell her to keep it. For storms."
-       },
-       {
-        "k": "s",
-        "t": "For storms. Okay. Just for storms.",
-        "e": "shy",
-        "d": "Relieved.",
-        "id": "opal_end_08"
        }
       ],
       "choice": null,
@@ -2917,6 +2851,10 @@
      "e": "neutral",
      "d": "Serious.",
      "id": "hazel_intro_02"
+    },
+    {
+     "k": "n",
+     "t": "You look from her to the trunk and back. Her heart is in the tree, then. So what's in her chest? Does she feel every woodpecker? Is the tree her, or is she the tree's way of talking? It doesn't feel like the moment to ask."
     },
     {
      "k": "s",
@@ -3210,7 +3148,7 @@
       },
       {
        "k": "n",
-       "t": "You sit with your back against the trunk while it rains. Every so often she makes a small sound, and you put your hand flat on the bark."
+       "t": "You sit with your back against the trunk while it rains. Every so often she makes a small sound, and you put your hand flat on the bark. Under your palm, right about where you'd have swung the axe, something in the wood is beating. So that answers that."
       },
       {
        "k": "s",

@@ -17,6 +17,26 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-43 — Opal speaks; Hazel's heart is in the tree
+
+- **Opal's voice**: 64 lines and 6 sounds in `audio/voice/slime/`. They were
+  recorded as five long files (lines 1–14, 15–23, 24–39, 40–74, sounds). The
+  takes were found with Whisper, the last good take of each line kept, and
+  cut by `tools/voice_import/cut_takes.py` with the times in
+  `tools/voice_import/opal_cuts.json`. `check_clips.py` passes them (the
+  differences left are Whisper mishearing: "Bristol" for "Crystal", dropped
+  stutters).
+- Her text now matches the script the actor was given (lines 13, 24, 26, 37,
+  40, 46, 51 and 55 shortened or changed). Lines that weren't recorded are cut:
+  night_21/22, end_04/05/06/08, fav_03, least_03, chat_03, chat_08. Her
+  line 24 ("You sold my buttons for two coppers and bought them back for six")
+  is set up in the chapter-1 narration: you sell Coombs a handful of buttons
+  before you realise whose they are.
+- Hazel: after "You'd have struck just below my heart" you wonder whether her
+  heart is in the tree, and in the storm you feel it beating under the bark
+  (narration only; her recorded lines are unchanged).
+- Voice script docs and translations (Russian, Chinese) updated.
+
 ## ✅ Status: round-42 — Amara blinks; no strip under the top bar
 
 - Amara blinks in her chapters, like Hazel (`art/characters/succubus/live/`,

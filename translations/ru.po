@@ -144,6 +144,9 @@ msgstr "Потом вы лежите во мху, её волосы раскин
 msgid "Against an alchemist? You kicked my buttons into a stream and then paid six coppers to get them back."
 msgstr "Против алхимика? Мои пуговицы улетели в ручей от твоего пинка, а потом пришлось платить шесть медяков, чтобы вернуть их."
 
+msgid "Against an alchemist? You sold my buttons for two coppers and bought them back for six."
+msgstr "Против алхимика? Ты продал мои пуговицы за два медяка и выкупил за шесть."
+
 msgid "Alchemists boil slimes down for glue. Did you know that? Twelve shillings a pound."
 msgstr "Алхимики вываривают слизей на клей. Ты в курсе? Двенадцать шиллингов за фунт."
 
@@ -260,6 +263,9 @@ msgstr "СКОРО"
 
 msgid "Can we not? Please?"
 msgstr "Можно без них? Пожалуйста?"
+
+msgid "Can you... turn the lamp down a bit?"
+msgstr "Можешь... чуть притушить лампу?"
 
 msgid "Cancel"
 msgstr "Отмена"
@@ -488,6 +494,9 @@ msgstr "Все только и спрашивают про гребень, а о
 
 msgid "Everything — music and sound effects."
 msgstr "Всё сразу — музыка и звуковые эффекты."
+
+msgid "Ex-excuse me. That's my eye. I mean... It's in my collection. I'd like it back, please."
+msgstr "И-извините. Это мой глаз. То есть... он из моей коллекции. Верните его, пожалуйста."
 
 msgid "Ex-excuse me. That's my eye. Not my eye. It's in my collection. I'd like it back, please."
 msgstr "Из-извините. Это мой глаз. То есть не мой глаз. Он из моей коллекции. Верните его, пожалуйста."
@@ -948,6 +957,9 @@ msgstr "Language · 语言 · Язык"
 msgid "Last night was the best thing that's happened to me in thirty-one years. Possibly ever. I'm not exaggerating. I've had a lot of time to compare."
 msgstr "Прошлая ночь — лучшее, что случалось со мной за тридцать один год. Возможно, вообще. Я не преувеличиваю. У меня было много времени на сравнения."
 
+msgid "Last night was the best thing that's happened to me in thirty-one years. Possibly... ever."
+msgstr "Прошлая ночь — лучшее, что случилось со мной за тридцать один год. Может быть... вообще."
+
 msgid "Later. The candle is down to a stub. She's lying across you on the reading room rug with one wing folded over you both like a blanket."
 msgstr "Позже. Свеча догорела до огарка. Она лежит поперёк тебя на ковре читального зала, одно крыло накинуто на вас обоих, как одеяло."
 
@@ -1089,6 +1101,9 @@ msgstr "Большинство вызовов заканчивается, как
 msgid "Mostly couples who thought they'd found somewhere private. So I know a lot about not lying down in nettles."
 msgstr "В основном парочки, решившие, что нашли уединённое место. Так что я очень много знаю о том, как не ложиться в крапиву."
 
+msgid "Mostly couples who thought they'd found somewhere private. So I know a lot about... you know."
+msgstr "В основном парочки, которые думали, что нашли укромное местечко. Так что я много знаю про... ну, ты понял."
+
 msgid "Move"
 msgstr "Перемещение"
 
@@ -1202,6 +1217,9 @@ msgstr "Когда пройдёшь её первую главу, на её ка
 
 msgid "One wave and the whole board is dealt again, always with a move to make."
 msgstr "Один взмах — и всё поле раскладывается заново, причём ход всегда найдётся."
+
+msgid "Ooh. That's going in the... sorry."
+msgstr "Ох. Это пойдёт в... прости."
 
 msgid "Ooh. That's going in the... sorry. Habit."
 msgstr "Ой. Это отправится в... прости. Привычка."
@@ -1860,6 +1878,9 @@ msgstr "Банка всю ночь пустует."
 msgid "The jar. Should I keep it? I haven't been in it for a week. I still check it's there."
 msgstr "Банка. Оставить её? Я не была в ней уже неделю. Но всё равно проверяю, на месте ли."
 
+msgid "The jar... Should I keep it?"
+msgstr "Банка... Мне её оставить?"
+
 msgid "The keys went to a locksmith, he says. And the glass eye went to someone who needed a glass eye, I suppose."
 msgstr "Ключи ушли к слесарю, говорит он. А стеклянный глаз ушёл к тому, кому нужен был стеклянный глаз, наверное."
 
@@ -1910,6 +1931,9 @@ msgstr "Награда — ты приходишь на каждый Прили�
 
 msgid "The stream comes out under the Mill Bridge, where Coombs the rag-and-bone man fishes for anything that floats. He's netted most of the buttons and wants six coppers for them, which he finds very funny."
 msgstr "Ручей выходит под Мельничным мостом, где старьёвщик Кумбс вылавливает сачком всё, что плавает. Большую часть пуговиц он выловил и просит за них шесть медяков, что кажется ему очень смешным."
+
+msgid "The stream comes out under the Mill Bridge, where Coombs the rag-and-bone man fishes for anything that floats. You get there ahead of her and sell him a handful of buttons off the bank for two coppers before you realise whose they are. He's netted the rest too. Buying the lot back costs six coppers, which he finds very funny."
+msgstr "Ручей выходит из-под Мельничного моста, где старьёвщик Кумбс вылавливает всё, что плывёт. Ты добираешься туда раньше неё и, не сообразив, чьи они, продаёшь ему горсть пуговиц с берега за два медяка. Остальные он тоже выловил сетью. Выкупить всё обратно стоит шесть медяков, и ему это кажется очень смешным."
 
 msgid "The stream goes to town. We're going. You're carrying me! Please?"
 msgstr "Ручей течёт в город. Мы идём. Ты меня понесёшь! Пожалуйста?"
@@ -2000,6 +2024,9 @@ msgstr "Вот эта линия. Сюда ты поставишь моё имя
 
 msgid "This one's my favourite. Brass, four holes, off a very handsome coat. You have a very handsome coat too. That's all. Coats."
 msgstr "Эта моя любимая. Латунная, четыре дырочки, с очень красивого пальто. У тебя тоже очень красивое пальто. Это всё. Пальто."
+
+msgid "This one's my favourite. Brass, four holes, off a very handsome coat. You have a very handsome... coat too."
+msgstr "Эта моя любимая. Латунная, четыре дырочки, с очень красивого пальто. У тебя тоже очень красивое... пальто."
 
 msgid "This page is from my binding. The book that ties me to every circle anyone draws, however badly. Find all of it, burn it, and I'm free."
 msgstr "Эта страница — из моей привязки. Книги, которая привязывает меня к каждому кругу, нарисованному кем угодно, как бы плохо он ни был нарисован. Найдём всё, сожжём — и я свободна."
@@ -2163,6 +2190,9 @@ msgstr "Ты смеёшься. Она розовеет насквозь, а по
 msgid "You leave your shoes on the pier, both of them."
 msgstr "Ты оставляешь на пирсе оба ботинка."
 
+msgid "You look from her to the trunk and back. Her heart is in the tree, then. So what's in her chest? Does she feel every woodpecker? Is the tree her, or is she the tree's way of talking? It doesn't feel like the moment to ask."
+msgstr "Ты переводишь взгляд с неё на ствол и обратно. Значит, сердце у неё в дереве. А что тогда у неё в груди? Она чувствует каждого дятла? Дерево — это она, или она — это то, как дерево разговаривает? Сейчас, кажется, не лучший момент спрашивать."
+
 msgid "You lower the axe. After a moment, you put it down on the grass."
 msgstr "Ты опускаешь топор. Спустя мгновение кладёшь его на траву."
 
@@ -2192,6 +2222,9 @@ msgstr "Ты качаешь головой."
 
 msgid "You sit with your back against the trunk while it rains. Every so often she makes a small sound, and you put your hand flat on the bark."
 msgstr "Ты сидишь, прислонившись спиной к стволу, пока идёт дождь. Время от времени она тихо вздыхает, и ты кладёшь ладонь на кору."
+
+msgid "You sit with your back against the trunk while it rains. Every so often she makes a small sound, and you put your hand flat on the bark. Under your palm, right about where you'd have swung the axe, something in the wood is beating. So that answers that."
+msgstr "Ты сидишь под дождём, прислонившись спиной к стволу. Время от времени она тихо вскрикивает, и ты кладёшь ладонь на кору. Под ладонью, примерно там, куда ты собирался ударить топором, в дереве что-то бьётся. Что ж, вопрос снят."
 
 msgid "You start to take your hand away. She says you don't have to."
 msgstr "Ты хочешь убрать руку. Она говорит, что не надо."
