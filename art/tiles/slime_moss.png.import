@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cma34ukeuhmdp"
-path="res://.godot/imported/wax-seal.png-099bdec5da2fd548bb643e5aaf04b069.ctex"
+uid="uid://dw3tt8f1x3t2x"
+path="res://.godot/imported/slime_moss.png-39179c41b38a9ede693c3d4e3d8c7bb3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tools/icon_packs/src/game-icons/wax-seal.png"
-dest_files=["res://.godot/imported/wax-seal.png-099bdec5da2fd548bb643e5aaf04b069.ctex"]
+source_file="res://art/tiles/slime_moss.png"
+dest_files=["res://.godot/imported/slime_moss.png-39179c41b38a9ede693c3d4e3d8c7bb3.ctex"]
 
 [params]
 

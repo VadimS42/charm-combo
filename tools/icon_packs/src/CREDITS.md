@@ -8,12 +8,13 @@
 | `hourglass_lorc.png` | "Hourglass" by Lorc, game-icons.net | CC BY 3.0, credited in `data/credits.txt` |
 | `game-icons/gem-pendant.png`, `sundial.png`, `candle-light.png` | Lorc, game-icons.net | CC BY 3.0, credited (the candle isn't used: it's drawn) |
 | `game-icons/present.png`, `marbles.png` | Delapouite, game-icons.net | CC BY 3.0, credited (the marble isn't used: it's drawn) |
-| `game-icons/wax-seal.png`, `comb.png`, `key.png`, `eyeball.png`, `sprout.png`, `daisy.png`, `quill-ink.png`, `wave-crest.png`, `sun.png` | Lorc, game-icons.net | CC BY 3.0, credited (round 44: board pieces and Charm powers) |
-| `game-icons/grass.png`, `shirt-button.png`, `plant-seed.png`, `slime.png` | Delapouite, game-icons.net | CC BY 3.0, credited (round 44) |
+| `celyanae/lock_l.png`, `floor_sl.png` | Match-3 Assets by Celyanae | credited in `data/credits.txt` (round 44: Amara's seal, Opal's moss) |
+| `game-icons/comb.png`, `key.png`, `eyeball.png`, `sprout.png`, `daisy.png`, `quill-ink.png`, `wave-crest.png`, `sun.png` | Lorc, game-icons.net | CC BY 3.0, credited (round 44: board pieces and Charm powers) |
+| `game-icons/shirt-button.png`, `plant-seed.png`, `slime.png` | Delapouite, game-icons.net | CC BY 3.0, credited (round 44) |
 | `Letter.png`, `TomeRed.png`, `X.png` | Ravenmore | as above |
 | `yg_19.png` (Starburst) | "MIX gems" | as above |
 
 `tools/icon_packs/make_game_art.py` turns these into `art/gems`, `art/tiles`,
-`art/frames` and `art/ui`. Not used (yet): the Celyanae Match-3 set (flat
-style, doesn't match the painted gems) and the rest of game-icons.net (CC BY 3.0,
+`art/frames` and `art/ui`. The Celyanae Match-3 set is used only for its lock and floor blockers (its flat
+gems don't match the painted ones) and the rest of game-icons.net (CC BY 3.0,
 each icon used needs its author credited).

@@ -167,6 +167,8 @@ var _hammer_armed_style: StyleBox
 ## flat coloured tiles and white coins.
 var _tile_tex: Texture2D
 var _slot_tex: Texture2D
+## Opal's cell with moss growing in it (art/tiles/slime_moss.png, round 44).
+var _moss_tile_tex: Texture2D
 
 ## This chapter's gem weights (baseline + difficulty ramp + any store boosts
 ## consumed at chapter start) — see CharacterData.compute_weights(). Held for
@@ -212,6 +214,7 @@ func setup(p_main: Node, p_host: Control, p_char_id: String, p_replay: int = -1)
 	ch = CharacterData.by_id(char_id)
 	_tile_tex = ArtAssets.board_tile(char_id)
 	_slot_tex = ArtAssets.item_slot(char_id)
+	_moss_tile_tex = ArtAssets.board_tile(char_id + "_moss")
 	var progress := GameState.progress_for(char_id)
 	replay = p_replay
 	level_index = replay if replay >= 0 else int(progress.get("level_index", 0))
@@ -1374,12 +1377,13 @@ func _color_for(t: int) -> Color:
 
 
 ## A board cell: her square frame, lit up when it's the picked-up gem.
-func _tile_style(selected_cell: bool) -> StyleBoxTexture:
+func _tile_style(selected_cell: bool, mossy := false) -> StyleBoxTexture:
 	var st := StyleBoxTexture.new()
-	st.texture = _tile_tex
+	st.texture = _moss_tile_tex if mossy and _moss_tile_tex else _tile_tex
 	for side in [SIDE_LEFT, SIDE_TOP, SIDE_RIGHT, SIDE_BOTTOM]:
 		st.set_texture_margin(side, 14)
-		st.set_content_margin(side, 3)
+		# A mossy cell's gem sits a little smaller, so the moss shows round it.
+		st.set_content_margin(side, 10 if mossy and _moss_tile_tex else 3)
 	if selected_cell:
 		st.modulate_color = Color(1.9, 1.75, 1.3)
 	return st
@@ -1392,16 +1396,21 @@ func _dress_cell(btn: Button, r: int, c: int) -> void:
 	var mossy: bool = rules.moss[r][c] > 0
 	var seal_pic: TextureRect = btn.get_node_or_null("Seal")
 	if sealed and seal_pic == null:
-		seal_pic = _corner_pic(btn, "Seal", ArtAssets.piece_icon("seal"), 0.56, true)
+		# The lock's chains across the whole gem (Celyanae Match-3 pack).
+		seal_pic = _corner_pic(btn, "Seal", ArtAssets.piece_icon("seal"), 1.0, true)
+		seal_pic.modulate.a = 0.9
 	if seal_pic:
 		seal_pic.visible = sealed
 	var moss_pic: TextureRect = btn.get_node_or_null("Moss")
+	# With her framed cells the moss is the cell's floor (_tile_style); the
+	# corner picture is only for the plain coloured tiles.
+	if _moss_tile_tex:
+		mossy = false
 	if mossy and moss_pic == null:
 		moss_pic = _corner_pic(btn, "Moss", ArtAssets.piece_icon("moss"), 0.46, false)
 	if moss_pic:
 		moss_pic.visible = mossy
-	# A sealed gem is a little dimmer: it can't be picked up.
-	btn.self_modulate = Color(0.8, 0.8, 0.85) if sealed else Color.WHITE
+	btn.self_modulate = Color.WHITE
 
 
 func _corner_pic(btn: Button, node_name: String, tex: Texture2D, frac: float, right: bool) -> TextureRect:
@@ -1456,9 +1465,7 @@ func _render_board(pop_cells: Dictionary = {}) -> void:
 			var is_sel := selected == Vector2i(r, c)
 			_dress_cell(btn, r, c)
 			if _tile_tex:
-				var tile := _tile_style(is_sel)
-				if rules.moss[r][c] > 0:
-					tile.modulate_color = tile.modulate_color * Color(0.62, 1.05, 0.55)
+				var tile := _tile_style(is_sel, rules.moss[r][c] > 0)
 				btn.add_theme_stylebox_override("normal", tile)
 				btn.add_theme_stylebox_override("hover", tile)
 				btn.add_theme_stylebox_override("pressed", tile)

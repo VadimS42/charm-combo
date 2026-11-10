@@ -58,7 +58,8 @@ the bot can't drift from the game. All the numbers are per level in
 
 **Other changes:**
 - **Teaching:** a first-time tip for each piece, goal and power, all of them also on the How to Play page.
-- **Art:** the art is painted from game-icons.net silhouettes (Lorc, Delapouite; CC BY 3.0, credited). It's in `art/pieces/` and `art/ui/power_*.png`, built by `make_game_art.py`.
+- **Art:** everything is from the free packs, so there are no new sprites or art to commission. Amara's seal is the Celyanae lock, with its chains across the gem. Opal's moss is the Celyanae stone floor inside her cell (`art/tiles/slime_moss.png`). The comb pieces, seeds, her things and the power buttons are painted game-icons.net shapes (Lorc, Delapouite; CC BY 3.0, credited). All of it is built by `make_game_art.py`.
+- **Voice:** no new voice lines are needed. The girls only say lines that are already recorded: their quips and reaction sounds. Everything new is on-screen text (tips, toasts, counters).
 - **Saves:** old saves need no change. The progress format is the same, so won chapters stay won.
 - **Tests:**
   - `tools/mechanics_test.gd` plays every girl's chapters on the real screen with swaps, the Hammer, Shuffle, her power and the hint.

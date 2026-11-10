@@ -356,9 +356,8 @@ def main():
 # art/pieces/<name>.png (128) and art/ui/power_<id>.png (128).
 
 PIECES = {
-    "seal": ("wax-seal", "#C8324A", "#6E1028", "#3A0614"),        # Amara's ink seal
+    # seal and moss: from the Celyanae Match-3 pack instead (celyanae_pieces)
     "comb": ("comb", "#FFF6E6", "#D9C2A0", "#6E5A3C"),            # Marina's pearl comb piece
-    "moss": ("grass", "#9BE06A", "#3F8A2E", "#1F4416"),           # Opal's moss
     "item_button": ("shirt-button", "#F2C46A", "#A8742A", "#4A3010"),
     "item_key": ("key", "#F4D27A", "#B08A2E", "#4A3A10"),
     "item_eye": ("eyeball", "#FFFFFF", "#9CC8E8", "#2E4A6A"),
@@ -374,11 +373,43 @@ POWERS = {
 }
 
 
+def _tinted(path, dark, light, alpha=1.0):
+    """A grey Celyanae blocker, its greys mapped from `dark` to `light`."""
+    im = Image.open(path).convert("RGBA")
+    g = ImageOps.grayscale(im)
+    col = ImageOps.colorize(g, dark, light)
+    col.putalpha(im.getchannel("A").point(lambda v: int(v * alpha)))
+    return col
+
+
+def celyanae_pieces(out):
+    """Amara's seal: the pack's lock, chains across the gem, in wine red.
+    Opal's moss: the pack's stone floor in moss greens, inside her cell frame
+    (art/tiles/slime_moss.png), so it reads as a layer under the gem."""
+    cel = os.path.join(SRC, "celyanae")
+    seal = _tinted(os.path.join(cel, "lock_l.png"), "#3A0614", "#E0607A")
+    fit(seal, SIZE, 2).save(os.path.join(out, "seal.png"))
+    moss = _tinted(os.path.join(cel, "floor_sl.png"), "#1F4A16", "#9BD66A")
+    moss.resize((SIZE, SIZE), Image.LANCZOS).save(os.path.join(out, "moss.png"))
+    data = json.load(open(os.path.join(ROOT, "data", "characters.json"), encoding="utf-8"))
+    for ch in (data if isinstance(data, list) else data["characters"]):
+        if ch["id"] != "slime":
+            continue
+        tile = tint_frame("FrameSquare", ch["c"], SIZE)
+        face = moss.resize((SIZE - 16, SIZE - 16), Image.LANCZOS)
+        top = Image.new("RGBA", (SIZE, SIZE))
+        top.paste(face, (8, 8), face)
+        Image.alpha_composite(tile, top).save(os.path.join(TILES, "slime_moss.png"))
+
+
 def pieces():
     out = os.path.join(ROOT, "art", "pieces")
     os.makedirs(out, exist_ok=True)
     for name, (src, top, bottom, rim) in PIECES.items():
+        if name in ("seal", "moss"):
+            continue
         painted_glyph(src, top, bottom, rim).save(os.path.join(out, name + ".png"))
+    celyanae_pieces(out)
     marble().save(os.path.join(out, "item_marble.png"))
     ui = os.path.join(ROOT, "art", "ui")
     for pid, (src, top, bottom, rim) in POWERS.items():
