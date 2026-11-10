@@ -360,3 +360,9 @@ Brambles underfoot
 
 @@ opal-0117
 An owl startles her
+
+@@ opal-0118
+Absorb
+
+@@ opal-0119
+Pick a gem: every gem of that colour is cleared.

@@ -405,3 +405,9 @@ Dust off the top shelf
 
 @@ amara-0132
 A reader shushes you
+
+@@ amara-0133
+Correct Lines
+
+@@ amara-0134
+Pick a gem: its whole row and column clear.

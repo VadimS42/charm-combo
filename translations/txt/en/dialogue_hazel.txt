@@ -366,3 +366,9 @@ The miller walks past
 
 @@ hazel-0119
 It starts to rain
+
+@@ hazel-0120
+Summer
+
+@@ hazel-0121
+Every seed and sprout on the board grows one stage.

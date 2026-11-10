@@ -30,6 +30,12 @@ msgstr "%d分——开局不顺……"
 msgid "%d pts..."
 msgstr "%d分……"
 
+msgid "%s is ready!"
+msgstr "%s 已就绪!"
+
+msgid "%s: pick a gem."
+msgstr "%s:选一颗宝石。"
+
 msgid "(You need %d more stars.)"
 msgstr "(还差%d颗星星。)"
 
@@ -47,6 +53,9 @@ msgstr "+%d ⭐ 鼓励奖"
 
 msgid "+%d ⭐ towards it"
 msgstr "+%d ⭐ 助你一臂之力"
+
+msgid "+2 moves — great answer!"
+msgstr "+2 步——回答得好!"
 
 msgid "-1 move"
 msgstr "-1步"
@@ -69,6 +78,12 @@ msgstr "一个只有出太阳时才走的钟。"
 msgid "A cold breeze"
 msgstr "一阵冷风"
 
+msgid "A comb piece!"
+msgstr "一块梳子碎片!"
+
+msgid "A comb piece! %d / %d"
+msgstr "一块梳子碎片!%d / %d"
+
 msgid "A folding brass sundial small enough for a pocket. It only tells the time on sunny days, which as far as she's concerned are the only days that need it."
 msgstr "一只折叠式黄铜日晷,小得能放进口袋。只有晴天才能报时,而在她看来,只有晴天才值得报时。"
 
@@ -80,6 +95,9 @@ msgstr "一片叶子落进你的头发里。没有风。"
 
 msgid "A match-3 romance for adults, set in Millbrook, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes."
 msgstr "一款面向成年人的三消恋爱游戏,故事发生在暮色小镇米尔布鲁克,奇幻种族在这里安家。用最糟糕的方式结识四位女子,帮她们解决所需,看看这一夜会走向何方。"
+
+msgid "A new seed drops in."
+msgstr "落下了一颗新种子。"
 
 msgid "A reader shushes you"
 msgstr "有位读者冲你们嘘了一声"
@@ -114,6 +132,12 @@ msgstr "关于配音"
 msgid "About your reward. Last night was not the reward. I need you to understand that. Last night was separate."
 msgstr "说到你的报酬。昨晚不是报酬。我需要你明白这一点。昨晚是另一回事。"
 
+msgid "Absorb"
+msgstr "吸收"
+
+msgid "Absorb!"
+msgstr "吸收!"
+
 msgid "Achievements"
 msgstr "成就"
 
@@ -122,6 +146,9 @@ msgstr "承认吧。你喜欢有我在身边。"
 
 msgid "After Hours"
 msgstr "闭馆之后"
+
+msgid "After each chapter you pick a reply. A warm one starts her next chapter with bonus points (two extra moves when the chapter is only her goal); a teasing one costs a few points, but she likes those too."
+msgstr "每章结束后你要选择一个回答。温柔的回答让她的下一章以奖励分开局(如果那一章只有她的目标,则是多两步);调侃的回答会扣一点分,不过她也喜欢。"
 
 msgid "After each chapter you pick a reply. A warm one starts her next chapter with bonus points; a teasing one costs a few, but she likes those too."
 msgstr "每章结束后,你要选择一句回应。温柔的回应会让她的下一章以奖励分开场;调侃的回应会扣几分,不过她也挺喜欢。"
@@ -159,8 +186,17 @@ msgstr "整个春天,用手挖?看来我得习惯你了。"
 msgid "Amara Duskrose"
 msgstr "阿玛拉·达斯克罗斯"
 
+msgid "Amara's power: Correct Lines"
+msgstr "阿玛拉的能力:校正行列"
+
 msgid "Amara. It's the one I use. The real one is in the book, along with everything else that keeps me on a leash."
 msgstr "阿玛拉。这是我用的名字。真名在那本书里,连同其他所有拴着我的东西。"
+
+msgid "Amara: break every seal"
+msgstr "阿玛拉:打破所有封印"
+
+msgid "Amara: sealed pages"
+msgstr "阿玛拉:封印的书页"
 
 msgid "Ambrose would have liked you. He liked people who apologise."
 msgstr "安布罗斯会喜欢你的。他喜欢会道歉的人。"
@@ -195,6 +231,9 @@ msgstr "自动速度"
 msgid "Avalanche"
 msgstr "雪崩"
 
+msgid "BLOSSOMS"
+msgstr "花朵"
+
 msgid "Back"
 msgstr "返回"
 
@@ -213,8 +252,14 @@ msgstr "一棵老橡树的树根之间,有人挖了一个小凹坑,铺上了苔�
 msgid "Black cover. No title. It'll feel warm. Don't open it."
 msgstr "黑色封面。没有书名。摸起来是温的。别打开。"
 
+msgid "Blossom! +%d"
+msgstr "开花了!+%d"
+
 msgid "Blossom."
 msgstr "开花了。"
+
+msgid "Blossoms"
+msgstr "花朵"
 
 msgid "Board, lifeguard. Not me."
 msgstr "板子是给救生员的。不是给我的。"
@@ -257,6 +302,9 @@ msgstr "我、我今晚能睡在你房间吗?不是罐子里。和你一起。"
 
 msgid "CHAPTER GOAL"
 msgstr "章节目标"
+
+msgid "COMB PIECES"
+msgstr "梳子碎片"
 
 msgid "COMING UP"
 msgstr "即将发生"
@@ -306,6 +354,9 @@ msgstr "魅力减半"
 msgid "Charm — fills as you match (her favorite gem fastest). Full = +150 Charm Burst."
 msgstr "魅力——随消除充能(她最爱的宝石充得最快)。充满 = 魅力爆发 +150。"
 
+msgid "Charm — fills as you match (her favourite gem fastest). Full = one use of her power: %s"
+msgstr "魅力——消除时填充(她最爱的宝石最快)。满了 = 可使用一次她的能力:%s"
+
 msgid "Chimes for matches, combos, and menus."
 msgstr "消除、连锁和菜单的提示音。"
 
@@ -333,6 +384,9 @@ msgstr "用锤子清除一个诅咒碎片。"
 msgid "Clear all the way through. Like me."
 msgstr "从里到外都是透明的。像我一样。"
 
+msgid "Clear the moss to find her things: buttons, marbles, keys, the glass eye. Find enough of them to win."
+msgstr "清掉苔藓找回她的东西:纽扣、弹珠、钥匙、玻璃眼。找到足够多就能过关。"
+
 msgid "Click to view."
 msgstr "点击查看。"
 
@@ -351,6 +405,12 @@ msgstr "差不多。你可以继续用。"
 msgid "Close settings"
 msgstr "关闭设置"
 
+msgid "Comb pieces"
+msgstr "梳子碎片"
+
+msgid "Comb pieces rise when the gems above them clear."
+msgstr "上方的宝石被清除时,梳子碎片就会上浮。"
+
 msgid "Combo x%d!"
 msgstr "连锁 x%d!"
 
@@ -368,6 +428,12 @@ msgstr "继续"
 
 msgid "Continue the story  ▸"
 msgstr "继续故事  ▸"
+
+msgid "Correct Lines"
+msgstr "校正行列"
+
+msgid "Correct Lines!"
+msgstr "校正行列!"
 
 msgid "Credits"
 msgstr "制作人员"
@@ -453,6 +519,9 @@ msgstr "老榛树的树精"
 msgid "Dust off the top shelf"
 msgstr "顶层书架落下的灰尘"
 
+msgid "Each chapter has a goal and a number of moves. At first it's points; from her third chapter it's something of hers to do on the board, and in her last both. Reach it before your moves run out and the story carries on. There's no timer: take as long as you like."
+msgstr "每一章都有一个目标和固定步数。起初是分数;从她的第三章起,是棋盘上与她有关的一件事;最后一章两者都要。在步数用完前完成,故事就会继续。没有计时器:慢慢来。"
+
 msgid "Each chapter has a points goal and a number of moves. Reach the goal before your moves run out and the story carries on. There's no timer: take as long as you like."
 msgstr "每个章节都有分数目标和步数限制。在步数用完前达到目标,故事就会继续。没有计时器,慢慢来。"
 
@@ -480,6 +549,12 @@ msgstr "每走几步,你们身边就会发生点什么:她那一侧的面板会�
 msgid "Every girl has a favourite gem and one she dislikes (it's on her card in the roster). Matching her favourite fills the Charm ring faster."
 msgstr "每位女孩都有一种最爱的宝石和一种讨厌的宝石(在名册中她的卡片上可以看到)。消除她最爱的宝石,魅力环会充得更快。"
 
+msgid "Every girl has a favourite gem and one she dislikes (on her card in the roster, and at the top of her side in a chapter). Her favourite scores double and fills the Charm ring faster; the one she dislikes scores half."
+msgstr "每个女孩都有一种最爱的宝石和一种讨厌的宝石(写在名册里她的卡片上,章节中也显示在她那一侧的顶部)。最爱的宝石得分翻倍,魅力环涨得更快;讨厌的那种得分减半。"
+
+msgid "Every match fills the Charm ring. In a girl's first chapter a full ring is a Charm Burst: +150 points. From her second chapter it's one use of her own power instead: its button lights up next to the ring, use it when you like. The ring fills again after."
+msgstr "每次消除都会填充魅力环。在女孩的第一章,魅力环满了就是一次魅力爆发:+150 分。从她的第二章开始,改为可以使用一次她自己的能力:魅力环旁的按钮会亮起,想用时再用。之后魅力环会重新填充。"
+
 msgid "Every match fills the Charm ring. When it's full you get a Charm Burst: +150 points."
 msgstr "每次消除都会为魅力环充能。充满时触发魅力爆发:+150分。"
 
@@ -488,6 +563,9 @@ msgstr "那里每一页都是我束缚的一部分。有人一直在收购。"
 
 msgid "Every one? That's four hundred and twelve buttons."
 msgstr "每一样?那可是四百一十二颗纽扣。"
+
+msgid "Every seed and sprout on the board grows one stage."
+msgstr "棋盘上每颗种子和嫩芽都长大一个阶段。"
 
 msgid "Everyone keeps asking about the comb and I'm running out of excuses."
 msgstr "大家一直问梳子的事,我的借口快用光了。"
@@ -515,6 +593,9 @@ msgstr "快点。潮水要转向了。"
 
 msgid "Fill the Charm ring for a Charm Burst."
 msgstr "充满魅力环,触发魅力爆发。"
+
+msgid "Fill the ring"
+msgstr "填满魅力环"
 
 msgid "Fill the whole screen. F11 toggles it anywhere."
 msgstr "铺满整个屏幕。F11可随时切换。"
@@ -548,6 +629,9 @@ msgstr "声明一下:四百多次召唤,好几位国王,还有一位非常热情
 
 msgid "Forty years, I said. Mind where you swing."
 msgstr "我说了,四十年。挥的时候当心点。"
+
+msgid "Found under the moss: %s"
+msgstr "在苔藓下找到:%s"
 
 msgid "Four hundred and twelve buttons, twenty-six keys, a glass eye and two owls. The alchemist's men are felling the north woods now, so Opal is staying with you, and her collection takes up a whole shelf in your front room. She rearranges it twice."
 msgstr "四百一十二颗纽扣,二十六把钥匙,一只玻璃眼珠,还有两只猫头鹰。炼金术士的人正在砍伐北边的树林,所以欧泊住在了你家,她的收藏占满了你客厅的整整一个架子。她重新摆了两次。"
@@ -609,6 +693,9 @@ msgstr "奶奶,我没事。我一直都这样。"
 msgid "Greedy. Oh, so you'll make him pay you to help me? I like that."
 msgstr "贪心。哦,所以你要让他付钱给你来帮我?我喜欢。"
 
+msgid "Grow enough seeds into blossoms to win. A new seed drops in every few moves."
+msgstr "把足够多的种子种成花朵就能过关。每隔几步会落下一颗新种子。"
+
 msgid "Hammer"
 msgstr "锤子"
 
@@ -626,6 +713,15 @@ msgstr "困难:约会中的意外"
 
 msgid "Hazel Mossgrove"
 msgstr "黑泽尔·莫斯格罗夫"
+
+msgid "Hazel's power: Summer"
+msgstr "黑泽尔的能力:盛夏"
+
+msgid "Hazel: grow blossoms"
+msgstr "黑泽尔:种出花朵"
+
+msgid "Hazel: seeds"
+msgstr "黑泽尔:种子"
 
 msgid "He tells you to keep the money. Then he walks over and pats the hazel's trunk, awkwardly, like a man apologising to a horse."
 msgstr "他让你留着那笔钱。然后他走过去,笨拙地拍了拍榛树的树干,像一个向马道歉的人。"
@@ -657,6 +753,9 @@ msgstr "她的家人一个接一个从码头边滑进水里,慢慢游向岬角�
 msgid "Her father came by this morning. He'll give you until the end of the month. Then he hires someone with a saw."
 msgstr "她父亲今早来过。他给你到月底的时间。之后他就雇个带锯子的人来。"
 
+msgid "Her favourite gem scores double and fills Charm faster; the one she dislikes scores half."
+msgstr "她最爱的宝石得分翻倍、魅力涨得更快;她讨厌的那种得分减半。"
+
 msgid "Her gift"
 msgstr "她的礼物"
 
@@ -678,6 +777,9 @@ msgstr "她的借书证上写着你的地址,字迹细小而愤怒。她带着�
 msgid "Her night scene"
 msgstr "她的夜晚场景"
 
+msgid "Her power"
+msgstr "她的能力"
+
 msgid "Her sisters start watching"
 msgstr "她的姐妹们开始围观"
 
@@ -686,6 +788,12 @@ msgstr "她的故事会从你们初次相遇重新开始,这样你可以做出�
 
 msgid "Hide text"
 msgstr "隐藏文字"
+
+msgid "High Tide"
+msgstr "涨潮"
+
+msgid "High Tide!"
+msgstr "涨潮!"
 
 msgid "High Water"
 msgstr "满潮时分"
@@ -864,6 +972,9 @@ msgstr "要是你比我先找到,别打开。"
 msgid "If you're going to draw these, you'll draw them properly. Nobody else is coming through a circle this pathetic."
 msgstr "你要是打算画这些,就好好画。这么可怜的圈,没人会再进来了。"
 
+msgid "In her chapters everything floats: gems rise, and new ones come up from the bottom."
+msgstr "在她的章节里一切都会漂浮:宝石向上浮,新的宝石从底部冒出来。"
+
 msgid "In my defence, the label said newts."
 msgstr "我要辩解一句:标签上写的是蝾螈。"
 
@@ -1020,6 +1131,15 @@ msgstr "来逼我啊。"
 msgid "Marina Waverly"
 msgstr "玛丽娜·韦弗利"
 
+msgid "Marina's power: High Tide"
+msgstr "玛丽娜的能力:涨潮"
+
+msgid "Marina: the pearl comb"
+msgstr "玛丽娜:珍珠梳子"
+
+msgid "Marina: the tide"
+msgstr "玛丽娜:潮水"
+
 msgid "Master Volume"
 msgstr "主音量"
 
@@ -1091,6 +1211,9 @@ msgstr "晨光透过卧室窗帘,一个半透明的淡紫色身影蜷在被子�
 
 msgid "Morning. Your clothes are on the rail. I wrung them out myself, so you can thank me."
 msgstr "早上好。你的衣服在栏杆上。我亲手拧干的,所以你可以谢我。"
+
+msgid "Moss grows under some cells. A match, blast or Hammer on the cell clears it, and some moss hides one of her lost things."
+msgstr "有些格子下长着苔藓。在那格上消除、爆炸或用锤子都能清掉它,有些苔藓下藏着她丢失的东西。"
 
 msgid "Most people come down here for the game. You keep coming back for me, don't you?"
 msgstr "大多数人来这儿是为了看游戏。你一直回来是为了我,对吧?"
@@ -1233,6 +1356,15 @@ msgstr "欧泊站在面包师的柜台前,一条面包夹在腋下,手里拿着�
 msgid "Opal moves in properly. Her collection grows a second shelf, then a third: things you've dropped, things your friends have dropped, the ticket from your first evening out together. The jar lives under the bed. She uses it twice that year, both times in thunderstorms, and both times you sit on the floor beside it while she tells you, through the glass, which of the neighbours owe each other money. She climbs out on her own before the storm is over."
 msgstr "欧泊正式搬了进来。她的收藏长出了第二个架子,然后是第三个:你掉的东西,你朋友们掉的东西,你们第一次一起出门那晚的票根。罐子放在床底下。那一年她用了两次,两次都是在雷暴中,两次你都坐在地板上陪着,她隔着玻璃告诉你哪几户邻居互相欠钱。风暴没结束,她就自己爬了出来。"
 
+msgid "Opal's power: Absorb"
+msgstr "欧泊的能力:吸收"
+
+msgid "Opal: her lost collection"
+msgstr "欧泊:她丢失的收藏"
+
+msgid "Opal: moss"
+msgstr "欧泊:苔藓"
+
 msgid "Open log folder"
 msgstr "打开日志文件夹"
 
@@ -1269,11 +1401,26 @@ msgstr "花瓣。好。这个我懂。"
 msgid "Pick a gem to pop."
 msgstr "选一颗宝石来砸碎。"
 
+msgid "Pick a gem!"
+msgstr "选一颗宝石!"
+
+msgid "Pick a gem."
+msgstr "选一颗宝石。"
+
+msgid "Pick a gem: every gem of that colour is cleared."
+msgstr "选一颗宝石:所有同色的宝石都会被清除。"
+
+msgid "Pick a gem: its whole row and column clear."
+msgstr "选一颗宝石:它所在的整行和整列都会被清除。"
+
 msgid "Pick up"
 msgstr "拿起"
 
 msgid "Pickled newts don't usually have a date pencilled on the wax: the second of January. You open it anyway."
 msgstr "腌蝾螈的蜡封上通常不会用铅笔写日期:一月二日。你还是打开了。"
+
+msgid "Pieces of Gran's comb start near the bottom. They can't be matched or moved: clear the gems above them and they rise. One that reaches the top row is yours."
+msgstr "奶奶梳子的碎片一开始在底部附近。它们不能消除也不能移动:清除它们上方的宝石,它们就会上浮。到达最上面一行的碎片就归你了。"
 
 msgid "Plant something near me. So there's something of yours here when you're not."
 msgstr "在我旁边种点什么吧。这样你不在的时候,这里也有你的东西。"
@@ -1292,6 +1439,18 @@ msgstr "再玩一次"
 
 msgid "Pop any one gem, no match needed. Arm it from the item row, then tap a gem."
 msgstr "砸碎任意一颗宝石,无需消除。从道具栏中选取,然后点一颗宝石。"
+
+msgid "Press her power button (or 4), then pick a gem: every gem of that colour is cleared, and the moss under them."
+msgstr "按下她的能力按钮(或 4),再选一颗宝石:所有同色宝石都会清除,连同它们下面的苔藓。"
+
+msgid "Press her power button (or 4), then pick a gem: its whole row and column clear. Seals in them break."
+msgstr "按下她的能力按钮(或 4),再选一颗宝石:它所在的整行和整列都会清除,其中的封印也会打破。"
+
+msgid "Press her power button (or 4): every seed and sprout on the board grows one stage."
+msgstr "按下她的能力按钮(或 4):棋盘上每颗种子和嫩芽都长大一个阶段。"
+
+msgid "Press her power button (or 4): the two rows nearest the surface clear, and everything rises two rows."
+msgstr "按下她的能力按钮(或 4):最靠近水面的两行被清除,所有东西上升两行。"
 
 msgid "Pretty. Don't tell my sisters I said that."
 msgstr "好看。别告诉我姐妹们我这么说。"
@@ -1319,6 +1478,9 @@ msgstr "回看(L,或向上滚动)"
 
 msgid "Read it for three more moves in the chapter you're playing. Use it from the item row under the board — it also gets you out of an Out of Moves screen."
 msgstr "读一读,就能在当前章节多走三步。在棋盘下方的道具栏使用——在“步数用完”界面也能用它脱身。"
+
+msgid "Ready!"
+msgstr "就绪!"
 
 msgid "Reduce Motion"
 msgstr "减少动态效果"
@@ -1374,6 +1536,9 @@ msgstr "步数用完时,你每得200分仍可获得1颗星星(至少3颗)。"
 msgid "Running out still pays you a few stars. Try again, read a Time Scroll, or visit the shop. Later chapters are hard without power-ups: short on stars, replay a chapter you've cleared from her card on the roster. Lose three times in a row and you can carry on with the story anyway."
 msgstr "步数用完也会给你几颗星星。你可以重试、读一张时间卷轴,或去商店逛逛。后面的章节没有增益很难通过:星星不够时,可以在名册中她的卡片上重玩已通关的章节。连续失败三次后,你可以直接继续故事。"
 
+msgid "SEALS BROKEN"
+msgstr "已破封印"
+
 msgid "Saltwick Cove, an hour before sunset. You're on the cliff path when the shouting starts."
 msgstr "索尔特威克湾,日落前一小时。你正走在悬崖小路上,下面传来喊叫声。"
 
@@ -1386,11 +1551,23 @@ msgstr "说出来。我给你的那个名字。"
 msgid "Scroll"
 msgstr "滚动"
 
+msgid "Sealed. Match it by moving the gems beside it."
+msgstr "已封印。移动旁边的宝石来消除它。"
+
+msgid "Seals broken"
+msgstr "已破封印"
+
 msgid "See the whole picture (H)"
 msgstr "查看完整画面(H)"
 
 msgid "See? Closed rings. It isn't hard."
 msgstr "看见没?闭合的圈。并不难。"
+
+msgid "Seeds can't be moved. Make matches next to them to make them grow."
+msgstr "种子不能移动。在它旁边消除来让它长大。"
+
+msgid "Seeds sit on the board and fall like gems, but can't be moved or matched. Every match right next to one grows it: seed, sprout, blossom. A blossom pops: +100 and the cells around it clear. Ember matches don't count: she dislikes ember."
+msgstr "种子待在棋盘上,像宝石一样下落,但不能移动也不能消除。紧挨着它的每次消除都会让它长大:种子、嫩芽、花朵。花朵绽放:+100 分,周围的格子被清除。余烬的消除不算:她讨厌余烬。"
 
 msgid "Select"
 msgstr "确定"
@@ -1599,6 +1776,9 @@ msgstr "那么。昨晚。我一直漂在附近想找个词来形容,已经缩�
 msgid "Soft as Moss"
 msgstr "柔软如苔"
 
+msgid "Some gems carry her ink seal. A sealed gem can't be picked up, but it still counts in a match you make by moving the gems beside it. The first match, blast or Hammer breaks the seal and the gem stays."
+msgstr "有些宝石上盖着她的墨印。被封印的宝石不能拿起,但移动它旁边的宝石凑成消除时它仍然算数。第一次消除、爆炸或锤子会打破封印,宝石留在原处。"
+
 msgid "Someone bought that off a market stall. I can tell."
 msgstr "这是从市集摊子上买的。我闻得出来。"
 
@@ -1686,6 +1866,12 @@ msgstr "商店"
 msgid "Succubus, summoned by mistake"
 msgstr "被误召唤的魅魔"
 
+msgid "Summer"
+msgstr "盛夏"
+
+msgid "Summer!"
+msgstr "盛夏!"
+
 msgid "Sure. After I've shelved these returns."
 msgstr "好的。等我把这些还书上架之后。"
 
@@ -1703,6 +1889,9 @@ msgstr "把两个特殊宝石交换在一起。"
 
 msgid "Swim with me later. Don't embarrass me again."
 msgstr "一会儿陪我游泳。别再让我丢脸了。"
+
+msgid "THINGS FOUND"
+msgstr "已找到的东西"
 
 msgid "TIP"
 msgstr "提示"
@@ -1851,6 +2040,9 @@ msgstr "卡片目录里有一处空缺,该放那本书的地方。有人在抽�
 msgid "The comb is in a tin of odds and ends on the Pellow brothers' boat: fishing weights, a doll's head, and nine pearls on a silver spine. It costs you two weeks' pay and a lot of explaining."
 msgstr "梳子在佩洛兄弟的船上一只装杂物的铁盒里:渔网坠子、一个娃娃头,还有银脊上的九颗珍珠。这花掉了你两周的工钱,还有一大堆解释。"
 
+msgid "The comb piece can't be hammered. Bring it up to the surface."
+msgstr "梳子碎片不能用锤子敲。把它送到水面上去。"
+
 msgid "The ferns tell me you were talking to the miller's daughter. I'm not jealous. But I might drop a branch near her, that's all."
 msgstr "蕨草告诉我你在跟磨坊主的女儿说话。我不嫉妒。不过我可能会在她旁边掉根树枝,仅此而已。"
 
@@ -1950,6 +2142,9 @@ msgstr "上面一排在章节中使用;下面一排会在你的下一章开始�
 msgid "The trench reaches the river on the night of a storm. Water floods into the new channel, and the whole tree shudders."
 msgstr "壕沟在暴风雨的那晚挖到了河边。水涌进新水道,整棵树都颤抖起来。"
 
+msgid "The two rows nearest the surface clear, and everything rises two rows."
+msgstr "最靠近水面的两行被清除,所有东西上升两行。"
+
 msgid "The water in the cove is warm and black and full of moonlight. She surfaces right in front of you, close enough that her hair brushes your face."
 msgstr "海湾的水温暖、漆黑,盈满月光。她就在你面前浮出水面,近得头发拂过你的脸。"
 
@@ -2016,6 +2211,9 @@ msgstr "它们是一对。我不会拆散一对。"
 msgid "They're not strangers. I heard every one of them go by. From the jar."
 msgstr "它们不是陌生人。每一颗经过的时候我都听到了。在罐子里。"
 
+msgid "Things found"
+msgstr "已找到的东西"
+
 msgid "This erases every girl's story progress, your stars, items, gifts and the whole Gallery. Your settings and achievements are kept. This can't be undone."
 msgstr "这会清除每位女孩的故事进度、你的星星、道具、礼物以及整个图鉴。设置和成就会保留。此操作无法撤销。"
 
@@ -2036,6 +2234,9 @@ msgstr "那些是我的。我、我收集了好多年。"
 
 msgid "Time Scroll"
 msgstr "时间卷轴"
+
+msgid "To find the book, break every seal on the board. The counter under the board shows how many are done."
+msgstr "要找到那本书,就打破棋盘上的所有封印。棋盘下方的计数器显示已经完成了多少。"
 
 msgid "Toggle"
 msgstr "切换"
@@ -2358,11 +2559,23 @@ msgstr "你的第二个环没闭合。那个符号是倒的。这个压根不是
 msgid "Yours. Fine. I'm bringing my own candles."
 msgstr "你的。好吧。我自己带蜡烛来。"
 
+msgid "a button"
+msgstr "一颗纽扣"
+
+msgid "a key"
+msgstr "一把钥匙"
+
+msgid "a marble"
+msgstr "一颗弹珠"
+
 msgid "after your next move"
 msgstr "在你下一步之后"
 
 msgid "in %d moves"
 msgstr "%d步后"
+
+msgid "the glass eye"
+msgstr "那只玻璃眼"
 
 msgid "←  Back"
 msgstr "←  返回"

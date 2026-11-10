@@ -226,6 +226,12 @@ static func gem_icon(name: String) -> Texture2D:
 	return _try_load(GEM_DIR + name + ".png")
 
 
+## res://art/pieces/<name>.png — each girl's board piece and goal (round 44):
+## seal, comb, moss, item_<thing>, seed, sprout, blossom.
+static func piece_icon(name: String) -> Texture2D:
+	return _try_load("res://art/pieces/" + name + ".png")
+
+
 ## res://art/store/<item_id>.png — Item Shop icons (moves/hammer/shuffle/
 ## colorBomb/favorCharm/heartMender). Falls back to the item's emoji.
 static func store_icon(item_id: String) -> Texture2D:

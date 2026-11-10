@@ -47,7 +47,7 @@ UI_SKIP = {"Camera", "Motes", "Enter", "Backspace", "Start", "Esc", "Arrows", "R
            " should start with [ and end with ] (a list of the four characters).", "\n    License: ",
            "This game uses Godot Engine, available under the following license:", "Third-party components",
            "License texts", "Bundled fonts", "💞 Charm Combo", "Charm Combo", "Frame",
-           "\nTest build: using your edited characters.json from the game's folder."}
+           "\nTest build: using your edited characters.json from the game's folder.", "Seal", "Moss"}
 UI_SKIP_STARTS = ("Open that file, fix the line",)
 
 # Pieces the game builds at runtime (UITheme.t()) that the extractor can't see.
@@ -58,14 +58,26 @@ UI_EXTRA = ["%d / %d unlocked", "%d / %d endings found", "Click to view.", "%d p
             "Short on stars? Replay a chapter you've cleared, from her card on the roster: it pays half.",
             "The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts.",
             "Language", "The game's text. Voices stay in English.", "MOVES", "TIP",
-            "+%d ⭐", "Chapter %d · +%d ⭐", "Chapter %d · +%d"]
+            "+%d ⭐", "Chapter %d · +%d ⭐", "Chapter %d · +%d",
+            # Round 44: each girl's piece, goal and power.
+            "Seals broken", "Comb pieces", "Things found", "Blossoms", "SEALS BROKEN", "COMB PIECES",
+            "THINGS FOUND", "BLOSSOMS", "%s is ready!", "%s: pick a gem.", "A comb piece! %d / %d", "A comb piece!",
+            "Blossom! +%d", "Found under the moss: %s", "a button", "a marble", "a key", "the glass eye",
+            "+2 moves — great answer!", "Pick a gem!", "Ready!", "Fill the ring",
+            "Charm — fills as you match (her favourite gem fastest). Full = one use of her power: %s",
+            "Her favourite gem scores double and fills Charm faster; the one she dislikes scores half."]
 
 
 def ui_strings():
     items = []
     # Each girl's lost-twice tip (round 41), shown through UITheme.t().
     data = json.load(open(os.path.join(ROOT, "data", "characters.json"), encoding="utf-8"))
-    tips = [c["herTip"] for c in (data if isinstance(data, list) else data["characters"]) if c.get("herTip")]
+    chars = data if isinstance(data, list) else data["characters"]
+    tips = [c["herTip"] for c in chars if c.get("herTip")]
+    # Her Charm power's name and what it does (round 44).
+    for c in chars:
+        if c.get("power"):
+            tips += [c["power"]["name"], c["power"]["desc"], c["power"]["name"] + "!"]
     for s in extract.ui() + UI_EXTRA + tips:
         if s in items or s in UI_SKIP or s.startswith(UI_SKIP_PREFIX) or s.startswith(UI_SKIP_STARTS):
             continue

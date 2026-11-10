@@ -15,13 +15,13 @@ const TOPICS := [
 	{"key": "swap", "title": "Swap and match", "icon": "petal", "emoji": "🔄",
 		"text": "Swap two gems next to each other to line up three or more of the same kind. Matched gems pop and score points; new ones fall in from the top."},
 	{"key": "goal", "title": "Reach her goal", "icon": "", "emoji": "🎯", "pic": "star",
-		"text": "Each chapter has a points goal and a number of moves. Reach the goal before your moves run out and the story carries on. There's no timer: take as long as you like."},
+		"text": "Each chapter has a goal and a number of moves. At first it's points; from her third chapter it's something of hers to do on the board, and in her last both. Reach it before your moves run out and the story carries on. There's no timer: take as long as you like."},
 	{"key": "favorite", "title": "What she likes", "icon": "", "emoji": "💚", "pic": "heart",
-		"text": "Every girl has a favourite gem and one she dislikes (it's on her card in the roster). Matching her favourite fills the Charm ring faster."},
+		"text": "Every girl has a favourite gem and one she dislikes (on her card in the roster, and at the top of her side in a chapter). Her favourite scores double and fills the Charm ring faster; the one she dislikes scores half."},
 	{"key": "gift", "title": "Her gift", "icon": "", "emoji": "🎁", "pic": "gift",
 		"text": "Once you've cleared her first chapter, her card on the roster has a gift for her. Give it and her favourite gem shows up more often in all her chapters, for good."},
 	{"key": "charm", "title": "Charm Burst", "icon": "", "emoji": "💗", "pic": "heart",
-		"text": "Every match fills the Charm ring. When it's full you get a Charm Burst: +150 points."},
+		"text": "Every match fills the Charm ring. In a girl's first chapter a full ring is a Charm Burst: +150 points. From her second chapter it's one use of her own power instead: its button lights up next to the ring, use it when you like. The ring fills again after."},
 	{"key": "specials", "title": "Special gems", "icon": "starburst", "emoji": "✦",
 		"text": "Match 4 in a row to make a Rocket, which clears its row or column. Match 5, or an L or T shape, to make a Starburst. Swap a special gem to set it off; swap two together for a Mega Blast."},
 	{"key": "combos", "title": "Combos", "icon": "", "emoji": "✨", "pic": "combo",
@@ -32,8 +32,33 @@ const TOPICS := [
 		"text": "The Time Scroll (three more moves), the Hammer (smash any one gem) and the Shuffle Wand (a new board) sit under the board. Buy them, and potions that help a whole chapter, in the Item Shop with the stars you earn."},
 	{"key": "date_events", "title": "Hard: things happen on your date", "icon": "", "emoji": "⏳", "pic": "guard",
 		"text": "Every few moves something happens around you: the panel on her side says what and when. It might raise what it takes to win her over, turn gems into cursed shards, cost you a move or halve your Charm ring. Matching her favourite gem holds it off a move; a Charm Burst clears it."},
+	# Round 44: each girl's piece (her chapter 2 on), goal (3 and 4) and power.
+	{"key": "piece_seal", "title": "Amara: sealed pages", "icon": "", "emoji": "🔏", "pic": "piece:seal",
+		"text": "Some gems carry her ink seal. A sealed gem can't be picked up, but it still counts in a match you make by moving the gems beside it. The first match, blast or Hammer breaks the seal and the gem stays."},
+	{"key": "goal_seals", "title": "Amara: break every seal", "icon": "", "emoji": "🔏", "pic": "piece:seal",
+		"text": "To find the book, break every seal on the board. The counter under the board shows how many are done."},
+	{"key": "power_lines", "title": "Amara's power: Correct Lines", "icon": "", "emoji": "🖋", "pic": "power_lines",
+		"text": "Press her power button (or 4), then pick a gem: its whole row and column clear. Seals in them break."},
+	{"key": "piece_tide", "title": "Marina: the tide", "icon": "", "emoji": "🌊", "pic": "piece:comb",
+		"text": "In her chapters everything floats: gems rise, and new ones come up from the bottom."},
+	{"key": "goal_combs", "title": "Marina: the pearl comb", "icon": "", "emoji": "🌊", "pic": "piece:comb",
+		"text": "Pieces of Gran's comb start near the bottom. They can't be matched or moved: clear the gems above them and they rise. One that reaches the top row is yours."},
+	{"key": "power_tide", "title": "Marina's power: High Tide", "icon": "", "emoji": "🌊", "pic": "power_tide",
+		"text": "Press her power button (or 4): the two rows nearest the surface clear, and everything rises two rows."},
+	{"key": "piece_moss", "title": "Opal: moss", "icon": "", "emoji": "🌿", "pic": "piece:moss",
+		"text": "Moss grows under some cells. A match, blast or Hammer on the cell clears it, and some moss hides one of her lost things."},
+	{"key": "goal_items", "title": "Opal: her lost collection", "icon": "", "emoji": "🌿", "pic": "piece:item_button",
+		"text": "Clear the moss to find her things: buttons, marbles, keys, the glass eye. Find enough of them to win."},
+	{"key": "power_absorb", "title": "Opal's power: Absorb", "icon": "", "emoji": "💧", "pic": "power_absorb",
+		"text": "Press her power button (or 4), then pick a gem: every gem of that colour is cleared, and the moss under them."},
+	{"key": "piece_seed", "title": "Hazel: seeds", "icon": "", "emoji": "🌱", "pic": "piece:seed",
+		"text": "Seeds sit on the board and fall like gems, but can't be moved or matched. Every match right next to one grows it: seed, sprout, blossom. A blossom pops: +100 and the cells around it clear. Ember matches don't count: she dislikes ember."},
+	{"key": "goal_blossoms", "title": "Hazel: grow blossoms", "icon": "", "emoji": "🌸", "pic": "piece:blossom",
+		"text": "Grow enough seeds into blossoms to win. A new seed drops in every few moves."},
+	{"key": "power_summer", "title": "Hazel's power: Summer", "icon": "", "emoji": "☀", "pic": "power_summer",
+		"text": "Press her power button (or 4): every seed and sprout on the board grows one stage."},
 	{"key": "replies", "title": "Your replies", "icon": "", "emoji": "💬", "pic": "letter",
-		"text": "After each chapter you pick a reply. A warm one starts her next chapter with bonus points; a teasing one costs a few, but she likes those too."},
+		"text": "After each chapter you pick a reply. A warm one starts her next chapter with bonus points (two extra moves when the chapter is only her goal); a teasing one costs a few points, but she likes those too."},
 	{"key": "out_of_moves", "title": "Out of moves", "icon": "", "emoji": "⏳", "pic": "scroll",
 		"text": "Running out still pays you a few stars. Try again, read a Time Scroll, or visit the shop. Later chapters are hard without power-ups: short on stars, replay a chapter you've cleared from her card on the roster. Lose three times in a row and you can carry on with the story anyway."},
 	{"key": "dialogue", "title": "Dialogue controls", "icon": "", "emoji": "📜", "pic": "book",
@@ -53,6 +78,8 @@ static func _picture(t: Dictionary, px: int) -> Control:
 	var pic := String(t.get("pic", ""))
 	if tex == null and pic.begins_with("store:"):
 		tex = ArtAssets.store_icon(pic.substr(6))
+	elif tex == null and pic.begins_with("piece:"):
+		tex = ArtAssets.piece_icon(pic.substr(6))
 	elif tex == null and pic != "":
 		tex = ArtAssets.ui_icon(pic)
 	if tex:

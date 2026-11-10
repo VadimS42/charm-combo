@@ -42,6 +42,8 @@ func _setup_actions() -> void:
 	_add_action("cc_item_moves", [_key(KEY_1), _joy(JOY_BUTTON_RIGHT_SHOULDER)])
 	_add_action("cc_item_hammer", [_key(KEY_2), _joy(JOY_BUTTON_X)])
 	_add_action("cc_item_shuffle", [_key(KEY_3), _joy(JOY_BUTTON_Y)])
+	# Her Charm power (round 44), once the ring is full.
+	_add_action("cc_power", [_key(KEY_4), _joy(JOY_BUTTON_LEFT_SHOULDER)])
 	# Dialogue (VNScreen): hold to skip read lines, Auto, the Log, hide text.
 	_add_action("cc_skip", [_key(KEY_CTRL), _joy(JOY_BUTTON_RIGHT_SHOULDER)])
 	_add_action("cc_auto", [_key(KEY_A), _joy(JOY_BUTTON_Y)])
@@ -171,6 +173,7 @@ func glyph(what: String) -> String:
 		"moves": return "RB" if gamepad else "1"
 		"hammer": return "X" if gamepad else "2"
 		"shuffle": return "Y" if gamepad else "3"
+		"power": return "LB" if gamepad else "4"
 		"scroll": return "Right stick" if gamepad else "PgUp/PgDn"
 		"skip": return "RB (hold)" if gamepad else "Ctrl (hold)"
 		"auto": return "Y" if gamepad else "A"

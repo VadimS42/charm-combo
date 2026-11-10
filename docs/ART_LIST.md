@@ -278,6 +278,8 @@ An .ogg (or .mp3/.wav) at `audio/music/<track>.ogg` loops on its screens with a 
 ## Already in the game
 
 - Gems (10): `art/gems/ember.png`, `art/gems/moonstone.png`, `art/gems/petal.png`, `art/gems/pearl.png`, `art/gems/rune.png`, `art/gems/crystal.png`, `art/gems/cursed.png`, `art/gems/rocket_h.png`, `art/gems/rocket_v.png`, `art/gems/starburst.png`
+- Board pieces and goals (round 44, painted from game-icons.net by `tools/icon_packs/make_game_art.py`; replace any with your own at the same path): `art/pieces/seal.png` (Amara's ink seal, drawn in a gem's corner), `art/pieces/comb.png` (Marina's comb piece), `art/pieces/moss.png` (Opal's moss, drawn in a cell's corner), `art/pieces/item_button.png`, `item_marble.png`, `item_key.png`, `item_eye.png` (Opal's things under the moss), `art/pieces/seed.png`, `sprout.png`, `blossom.png` (Hazel's seeds); all 128 x 128, transparent
+- Charm power buttons (round 44): `art/ui/power_lines.png` (Amara: Correct Lines), `power_tide.png` (Marina: High Tide), `power_absorb.png` (Opal: Absorb), `power_summer.png` (Hazel: Summer); 128 x 128
 - Item Shop icons (6): `art/store/moves.png`, `art/store/hammer.png`, `art/store/shuffle.png`, `art/store/colorBomb.png`, `art/store/favorCharm.png`, `art/store/heartMender.png`
 - Marina: 7 waist-up expressions, `ending.png`, 60-frame idle swim loop, `art/backgrounds/mermaid_cove.png`
 - Hazel: 7 waist-up expressions (`art/characters/dryad/<expression>.png`), `art/characters/dryad/main.png` (full figure on her tree), `art/characters/dryad/live/` (that figure as a live sprite: breathing, hair sway, blinking)

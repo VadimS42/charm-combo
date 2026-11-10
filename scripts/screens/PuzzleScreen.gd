@@ -175,6 +175,27 @@ var _slot_tex: Texture2D
 ## finish, and reshuffles don't quietly reset to the easy default spread.
 var weights: Array = []
 
+## Her board piece, goal and Charm power this chapter (round 44,
+## PuzzleRules.gd). `board` is always rules.board.
+var rules: PuzzleRules
+## Her Charm power: the ring filled and the charge is waiting to be used.
+var power_charged := false
+## Her power is armed and waiting for a gem to be picked (like the Hammer).
+var power_mode := false
+## Her power's own clears (and the cascades after) don't fill the ring again.
+var _power_resolving := false
+var _power_btn: Button
+var _power_lbl: Label
+var _goal_v: Control
+var _goal_lbl: Label
+## What each goal is called on the HUD, and its picture (art/pieces).
+const GOALS := {
+	"seals": {"name": "Seals broken", "icon": "seal"},
+	"combs": {"name": "Comb pieces", "icon": "comb"},
+	"items": {"name": "Things found", "icon": "item_button"},
+	"blossoms": {"name": "Blossoms", "icon": "blossom"},
+}
+
 ## Idle-hint system (new feature, not in the original HTML prototype): after
 ## a few seconds without a move, nudge the player toward a real legal swap
 ## instead of leaving them stuck staring at the board.
@@ -217,7 +238,16 @@ func setup(p_main: Node, p_host: Control, p_char_id: String, p_replay: int = -1)
 	# Favor Charm/Heart Mender you just bought actually applies to the very
 	# next chapter you play.
 	weights = CharacterData.compute_weights(ch, level_index)
-	board = MatchEngine.build_board(weights)
+	rules = PuzzleRules.new()
+	rules.setup(ch, level_index, weights)
+	board = rules.board
+	# A chapter with only her goal has no score to start ahead on: the warm
+	# reply's head start is +2 moves there instead (round 44).
+	if rules.target <= 0:
+		if score > 0:
+			moves_left += 2
+		score = 0
+		_events = _events.filter(func(e): return String(e.get("kind", "")) != "guard")
 
 	# Consumed here, but the actual Starburst is seeded AFTER the no-valid-
 	# move retry loop below — otherwise a retry-rebuild (rare, but possible)
@@ -263,12 +293,12 @@ func setup(p_main: Node, p_host: Control, p_char_id: String, p_replay: int = -1)
 	# Guard against the vanishingly rare case where a freshly built board
 	# happens to have no legal move at all (build_board only forbids
 	# pre-existing 3-runs, it doesn't guarantee a move exists).
-	if not MatchEngine.has_valid_move(board):
+	if not rules.has_move():
 		board = _fresh_playable_board()
 	if use_color_bomb:
-		var br := 2 + randi() % 4
-		var bc := 2 + randi() % 4
-		board[br][bc] = MatchEngine.STARBURST
+		var spot := rules.special_spot(2 + randi() % 4, 2 + randi() % 4)
+		if spot.x >= 0:
+			board[spot.x][spot.y] = MatchEngine.STARBURST
 	# "Deal in" every cell on chapter start — a small, cheap bit of flair
 	# (staggered pop-in, see _render_board) rather than the board just
 	# snapping into existence.
@@ -294,6 +324,13 @@ func setup(p_main: Node, p_host: Control, p_char_id: String, p_replay: int = -1)
 			HowToPlay.tip(main, "items")
 			break
 	_tip_for_board()
+	# Her piece, goal and power: one short tip each, the first time.
+	if rules.mech != "":
+		HowToPlay.tip(main, "piece_" + rules.mech)
+	if rules.goal_kind != "":
+		HowToPlay.tip(main, "goal_" + rules.goal_kind)
+	if rules.target <= 0 and int(progress.get("next_bonus", 0)) > 0 and replay < 0:
+		_toast(UITheme.t("+2 moves — great answer!"))
 	if score > 0:
 		_toast(UITheme.t("+%d pts — great answer!") % score)
 	elif score < 0:
@@ -305,8 +342,9 @@ func setup(p_main: Node, p_host: Control, p_char_id: String, p_replay: int = -1)
 		"cc_item_moves": func(): _on_item_pressed("moves"),
 		"cc_item_hammer": func(): _on_item_pressed("hammer"),
 		"cc_item_shuffle": func(): _on_item_pressed("shuffle"),
+		"cc_power": _on_power_pressed,
 	}, [["accept", "Pick up"], ["move", "Swap"], ["hammer", "Hammer"], ["shuffle", "Shuffle Wand"],
-		["moves", "Time Scroll"], ["pause", "Settings"]])
+		["moves", "Time Scroll"]] + ([["power", "Her power"]] if rules.power_id != "" else []) + [["pause", "Settings"]])
 
 
 ## Called before this screen is torn down by any navigation away from it —
@@ -746,7 +784,10 @@ func _build_ui() -> void:
 	_speech_lbl = UITheme.body("", 14, UITheme.INK_ON_DARK)
 	_speech_lbl.autowrap_mode = TextServer.AUTOWRAP_WORD
 	speech_v.add_child(_speech_lbl)
+	_build_legend(sidebar_root)
 	_build_event_pill(sidebar_root)
+	if _event_pill:
+		_event_pill.offset_top = 48.0
 
 	overlay = PanelContainer.new()
 	overlay.visible = false
@@ -849,6 +890,38 @@ func _build_hud_bar() -> PanelContainer:
 	charm_ring_inst.add_child(charm_icon_center)
 	row.add_child(charm_ring_inst)
 	charm_ring = charm_ring_inst
+	if rules.power_id != "":
+		charm_ring_inst.tooltip_text = UITheme.t("Charm — fills as you match (her favourite gem fastest). Full = one use of her power: %s") \
+			% UITheme.t(String(ch.power.name))
+		row.add_child(_power_slot())
+	# Her goal this chapter (round 44), next to the score when there's both.
+	if rules.goal_kind != "":
+		var g: Dictionary = GOALS.get(rules.goal_kind, {})
+		var gv := VBoxContainer.new()
+		gv.alignment = BoxContainer.ALIGNMENT_CENTER
+		gv.add_theme_constant_override("separation", 0)
+		gv.tooltip_text = UITheme.t(String(g.get("name", "")))
+		gv.mouse_filter = Control.MOUSE_FILTER_PASS
+		var gh := HBoxContainer.new()
+		gh.add_theme_constant_override("separation", 6)
+		gh.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		gh.add_child(UITheme.picture(ArtAssets.piece_icon(String(g.get("icon", ""))), 30))
+		_goal_lbl = Label.new()
+		_goal_lbl.add_theme_font_size_override("font_size", 22)
+		_goal_lbl.add_theme_color_override("font_color", Color.WHITE)
+		gh.add_child(_goal_lbl)
+		gv.add_child(gh)
+		var gcap := UITheme.body(String(g.get("name", "")).to_upper(), 10, UITheme.INK_ON_DARK_SOFT)
+		gcap.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+		gv.add_child(gcap)
+		# With only her goal (no score to reach) the bar shows the goal itself.
+		if rules.target > 0:
+			_goal_v = gv
+			row.add_child(gv)
+			row.move_child(gv, 1)
+		else:
+			gv.free()
+			_goal_lbl = null
 
 	var sep := VSeparator.new()
 	var sep_line := StyleBoxLine.new()
@@ -888,6 +961,89 @@ func _say(text: String) -> void:
 		return
 	_speech_tw = _speech_box.create_tween()
 	_speech_tw.tween_property(_speech_box, "modulate:a", 0.0, 0.4)
+
+
+## Her Charm power's button (round 44): her round frame with the power's
+## picture; lit once the Charm ring is full.
+func _power_slot() -> Control:
+	var wrap := VBoxContainer.new()
+	wrap.alignment = BoxContainer.ALIGNMENT_CENTER
+	wrap.add_theme_constant_override("separation", 2)
+	var b := Button.new()
+	b.custom_minimum_size = Vector2(56, 56)
+	b.focus_mode = Control.FOCUS_ALL
+	b.mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
+	b.expand_icon = true
+	b.icon_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	b.vertical_icon_alignment = VERTICAL_ALIGNMENT_CENTER
+	b.icon = ArtAssets.ui_icon("power_" + rules.power_id)
+	b.add_theme_constant_override("icon_max_width", 36)
+	b.tooltip_text = UITheme.t(String(ch.power.name)) + "\n" + UITheme.t(String(ch.power.get("desc", "")))
+	if _slot_tex:
+		b.add_theme_stylebox_override("normal", _slot_style(Color(1.5, 1.3, 1.6)))
+		b.add_theme_stylebox_override("hover", _slot_style(Color(1.8, 1.6, 1.9)))
+		b.add_theme_stylebox_override("pressed", _slot_style(Color(1.8, 1.6, 1.9)))
+		b.add_theme_stylebox_override("disabled", _slot_style(Color(0.55, 0.55, 0.55, 0.8)))
+	else:
+		var st := UITheme.button_style(UITheme.SPECIAL_PINK, 999)
+		b.add_theme_stylebox_override("normal", st)
+		b.add_theme_stylebox_override("hover", st)
+		b.add_theme_stylebox_override("pressed", st)
+	b.add_theme_stylebox_override("focus", UITheme.focus_ring(28))
+	b.pressed.connect(_on_power_pressed)
+	_power_btn = b
+	wrap.add_child(b)
+	_power_lbl = Label.new()
+	_power_lbl.add_theme_font_size_override("font_size", 10)
+	_power_lbl.add_theme_color_override("font_color", Color.WHITE)
+	_power_lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	var lw := PanelContainer.new()
+	var ls := _glass_style()
+	ls.content_margin_left = 8
+	ls.content_margin_right = 8
+	ls.content_margin_top = 2
+	ls.content_margin_bottom = 2
+	lw.add_theme_stylebox_override("panel", ls)
+	lw.add_child(_power_lbl)
+	wrap.add_child(lw)
+	_refresh_power()
+	return wrap
+
+
+## Her likes on the board (round 44): her favourite gem scores double, the
+## one she dislikes half. A small panel at the top of her side.
+func _build_legend(parent: Control) -> void:
+	var fav_i := CharacterData.gem_index_from_id(String(ch.get("fav", "")))
+	var least_i := CharacterData.gem_index_from_id(String(ch.get("least", "")))
+	if fav_i < 0:
+		return
+	var p := PanelContainer.new()
+	var st := _glass_style(14)
+	st.content_margin_left = 10
+	st.content_margin_right = 10
+	st.content_margin_top = 4
+	st.content_margin_bottom = 4
+	p.add_theme_stylebox_override("panel", st)
+	p.mouse_filter = Control.MOUSE_FILTER_PASS
+	p.tooltip_text = UITheme.t("Her favourite gem scores double and fills Charm faster; the one she dislikes scores half.")
+	p.offset_left = 8.0
+	p.offset_top = 8.0
+	parent.add_child(p)
+	var h := HBoxContainer.new()
+	h.add_theme_constant_override("separation", 6)
+	p.add_child(h)
+	h.add_child(UITheme.picture(ArtAssets.gem_icon(CharacterData.gem_name(fav_i)), 24))
+	for l in [UITheme.body("×2", 14, Color("#FFE08A"))]:
+		(l as Label).autowrap_mode = TextServer.AUTOWRAP_OFF
+		h.add_child(l)
+	if least_i >= 0:
+		h.add_child(UITheme.body("  ", 14, Color.WHITE))
+		h.add_child(UITheme.picture(ArtAssets.gem_icon(CharacterData.gem_name(least_i)), 24))
+		var half := UITheme.body("×½", 14, UITheme.INK_ON_DARK_SOFT)
+		half.autowrap_mode = TextServer.AUTOWRAP_OFF
+		h.add_child(half)
+	# Sized to its contents once the labels have laid out (it isn't in a container).
+	p.reset_size.call_deferred()
 
 
 ## A round icon "slot" (icon button + a small count label underneath),
@@ -1072,6 +1228,9 @@ func _on_item_pressed(item_id: String) -> void:
 	if hammer_mode and item_id != "hammer":
 		hammer_mode = false
 		_refresh_item_button("hammer")
+	if power_mode:
+		power_mode = false
+		_refresh_power()
 	match item_id:
 		"moves":
 			GameState.items.moves = count - 1
@@ -1099,12 +1258,10 @@ func _on_item_pressed(item_id: String) -> void:
 ## move (build_board() only forbids ready-made matches) — used by Shuffle and
 ## the free no-move reshuffle, so neither can hand back another dead board.
 func _fresh_playable_board() -> Array:
-	var b: Array = MatchEngine.build_board(weights)
-	for i in range(20):
-		if MatchEngine.has_valid_move(b):
-			break
-		b = MatchEngine.build_board(weights)
-	return b
+	# Her pieces (seals, seeds, comb pieces) and the moss stay where they are.
+	rules.board = rules.fresh_board()
+	board = rules.board
+	return board
 
 
 ## Swaps the sidebar sprite to a real portrait the moment
@@ -1183,6 +1340,12 @@ func _icon_for(t: int) -> Texture2D:
 		icon_name = "rocket_v"
 	elif t == MatchEngine.STARBURST:
 		icon_name = "starburst"
+	elif t == PuzzleRules.SEED:
+		return ArtAssets.piece_icon("seed")
+	elif t == PuzzleRules.SPROUT:
+		return ArtAssets.piece_icon("sprout")
+	elif t == PuzzleRules.COMB:
+		return ArtAssets.piece_icon("comb")
 	else:
 		icon_name = CharacterData.gem_name(t)
 	return ArtAssets.gem_icon(icon_name)
@@ -1203,6 +1366,10 @@ func _color_for(t: int) -> Color:
 		return Color("#5B7CFA")
 	if t == MatchEngine.STARBURST:
 		return Color("#FF4FD8")
+	if t == PuzzleRules.SEED or t == PuzzleRules.SPROUT:
+		return Color("#7FB24A")
+	if t == PuzzleRules.COMB:
+		return Color("#E8DCC4")
 	return CharacterData.gem_color(t)
 
 
@@ -1216,6 +1383,40 @@ func _tile_style(selected_cell: bool) -> StyleBoxTexture:
 	if selected_cell:
 		st.modulate_color = Color(1.9, 1.75, 1.3)
 	return st
+
+
+## Her piece on a cell (round 44): a seal in the gem's corner, moss in the
+## other. Small pictures on the cell button, made once and shown or hidden.
+func _dress_cell(btn: Button, r: int, c: int) -> void:
+	var sealed: bool = rules.seal[r][c]
+	var mossy: bool = rules.moss[r][c] > 0
+	var seal_pic: TextureRect = btn.get_node_or_null("Seal")
+	if sealed and seal_pic == null:
+		seal_pic = _corner_pic(btn, "Seal", ArtAssets.piece_icon("seal"), 0.56, true)
+	if seal_pic:
+		seal_pic.visible = sealed
+	var moss_pic: TextureRect = btn.get_node_or_null("Moss")
+	if mossy and moss_pic == null:
+		moss_pic = _corner_pic(btn, "Moss", ArtAssets.piece_icon("moss"), 0.46, false)
+	if moss_pic:
+		moss_pic.visible = mossy
+	# A sealed gem is a little dimmer: it can't be picked up.
+	btn.self_modulate = Color(0.8, 0.8, 0.85) if sealed else Color.WHITE
+
+
+func _corner_pic(btn: Button, node_name: String, tex: Texture2D, frac: float, right: bool) -> TextureRect:
+	var t := TextureRect.new()
+	t.name = node_name
+	t.texture = tex
+	t.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	t.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	t.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	t.anchor_left = (1.0 - frac) if right else 0.0
+	t.anchor_right = 1.0 if right else frac
+	t.anchor_top = 1.0 - frac
+	t.anchor_bottom = 1.0
+	btn.add_child(t)
+	return t
 
 
 ## pop_cells (Dictionary<"r,c" -> true>) marks cells that just changed —
@@ -1253,8 +1454,11 @@ func _render_board(pop_cells: Dictionary = {}) -> void:
 				btn.text = _glyph(t)
 			var bg := _color_for(t)
 			var is_sel := selected == Vector2i(r, c)
+			_dress_cell(btn, r, c)
 			if _tile_tex:
 				var tile := _tile_style(is_sel)
+				if rules.moss[r][c] > 0:
+					tile.modulate_color = tile.modulate_color * Color(0.62, 1.05, 0.55)
 				btn.add_theme_stylebox_override("normal", tile)
 				btn.add_theme_stylebox_override("hover", tile)
 				btn.add_theme_stylebox_override("pressed", tile)
@@ -1351,9 +1555,8 @@ func _shake(r: int, c: int) -> void:
 ## separate from the cell Button they came from, so they keep animating (and
 ## clean themselves up via queue_free) long after _pop_out()'s own await
 ## returns and the board underneath has already moved on.
-func _spawn_shatter(r: int, c: int) -> void:
+func _spawn_shatter(r: int, c: int, col: Color) -> void:
 	var btn: Button = cell_buttons[r][c]
-	var col := _color_for(board[r][c])
 	var center: Vector2 = btn.global_position + btn.size / 2.0 - toast_layer.global_position
 	# Bumped up across the board (more pieces, bigger shards, farther/faster
 	# fall) per feedback that the original break was too subtle to notice —
@@ -1397,7 +1600,7 @@ func _spawn_shatter(r: int, c: int) -> void:
 ## Animates matched cells shattering away BEFORE the board data is mutated,
 ## so the player sees the actual gems they matched break apart instead of
 ## the whole board silently snapping to its post-clear state.
-func _pop_out(matched: Dictionary) -> void:
+func _pop_out(matched: Dictionary, colours: Dictionary = {}) -> void:
 	if matched.is_empty():
 		return
 	if GameState.settings.get("reduce_motion", false):
@@ -1409,7 +1612,7 @@ func _pop_out(matched: Dictionary) -> void:
 		var c := int(parts[1])
 		if r < 0 or r >= MatchEngine.SIZE or c < 0 or c >= MatchEngine.SIZE:
 			continue
-		_spawn_shatter(r, c)
+		_spawn_shatter(r, c, colours.get(key, _color_for(board[r][c])))
 		var btn: Button = cell_buttons[r][c]
 		btn.pivot_offset = btn.size / 2.0
 		tw.tween_property(btn, "scale", Vector2(0.0, 0.0), 0.12).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_IN)
@@ -1434,7 +1637,7 @@ func _pop_out(matched: Dictionary) -> void:
 ## What it takes to win her over this chapter: its target, plus whatever
 ## "guard" events have added.
 func _target() -> int:
-	return int(level.target) + _guard_extra
+	return rules.target
 
 
 ## What each kind of event does: its picture, and her face when it happens.
@@ -1482,7 +1685,7 @@ func _event_icon(kind: String) -> Texture2D:
 ## After each of your moves: the countdown ticks, and at zero the event happens.
 func _event_turn() -> void:
 	_held_off = false
-	if _events.is_empty() or score >= _target():
+	if _events.is_empty() or rules.won(score):
 		return
 	_event_count -= 1
 	if _event_count > 0:
@@ -1497,6 +1700,7 @@ func _event_turn() -> void:
 	match kind:
 		"guard":
 			_guard_extra += strength
+			rules.target += strength
 			msg += "  " + UITheme.t("+%d to win her over") % strength
 		"shards":
 			var turned := _event_shards(strength)
@@ -1527,14 +1731,14 @@ func _event_shards(n: int) -> Dictionary:
 		var r := randi() % MatchEngine.SIZE
 		var c := randi() % MatchEngine.SIZE
 		var t: int = board[r][c]
-		if not MatchEngine.is_normal(t) or t == MatchEngine.BROKEN_IDX:
+		if not MatchEngine.is_normal(t) or t == MatchEngine.BROKEN_IDX or rules.seal[r][c]:
 			continue
 		board[r][c] = MatchEngine.BROKEN_IDX
 		if not MatchEngine.analyze_matches(board).matched_cells.is_empty():
 			board[r][c] = t
 			continue
 		changed[str(r) + "," + str(c)] = true
-	if not MatchEngine.has_valid_move(board):
+	if not rules.has_move():
 		board = _fresh_playable_board()
 		return {}
 	return changed
@@ -1603,9 +1807,19 @@ func _update_hud() -> void:
 		return
 	moves_lbl.text = "%d" % moves_left
 	var target := _target()
-	score_lbl.text = UITheme.t("%d / %d pts") % [score, target]
-	goal_bar.max_value = target
-	goal_bar.value = clamp(score, 0, target)
+	if target > 0:
+		score_lbl.text = UITheme.t("%d / %d pts") % [score, target]
+		goal_bar.max_value = target
+		goal_bar.value = clamp(score, 0, target)
+	else:
+		# Only her goal this chapter: the bar fills towards it.
+		score_lbl.text = "%s  %d / %d" % [UITheme.t(String(GOALS.get(rules.goal_kind, {}).get("name", ""))),
+			rules.goal_progress(), rules.goal_n]
+		goal_bar.max_value = maxi(1, rules.goal_n)
+		goal_bar.value = clampi(rules.goal_progress(), 0, rules.goal_n)
+	if _goal_lbl:
+		_goal_lbl.text = "%d / %d" % [mini(rules.goal_progress(), rules.goal_n), rules.goal_n]
+	_refresh_power()
 	if charm_ring:
 		charm_ring.set_progress(charm, MatchEngine.CHARM_MAX)
 	chapter_lbl.text = UITheme.t("Chapter %d / %d") % [level_index + 1, ch.story.levels.size()]
@@ -1774,11 +1988,11 @@ func _clear_hint() -> void:
 ## two cells so a stuck player has somewhere obvious to look, instead of
 ## guessing at an 8x8 board with no clue where a match is available.
 func _on_idle_timeout() -> void:
-	if busy or overlay.visible or hammer_mode:
+	if busy or overlay.visible or hammer_mode or power_mode:
 		return
 	# avoid_broken=true: a stuck player doesn't need to be nudged toward the
 	# one swap that costs them points — see MatchEngine.find_valid_swap().
-	var hint: Dictionary = MatchEngine.find_valid_swap(board, true)
+	var hint: Dictionary = rules.find_swap(true)
 	if hint.is_empty():
 		return
 	var r1: int = hint.r1
@@ -1920,6 +2134,9 @@ func _on_cell_gui_input(ev: InputEvent, r: int, c: int) -> void:
 	if r2 < 0 or r2 >= MatchEngine.SIZE or c2 < 0 or c2 >= MatchEngine.SIZE:
 		return
 	_reset_idle_timer()
+	if not rules.swappable(r2, c2):
+		_can_pick(r2, c2)
+		return
 	selected = Vector2i(-1, -1)
 	(cell_buttons[r2][c2] as Button).grab_focus()
 	call("_attempt_swap", r, c, r2, c2)
@@ -1936,6 +2153,9 @@ func _on_back() -> void:
 	elif hammer_mode:
 		hammer_mode = false
 		_refresh_item_button("hammer")
+	elif power_mode:
+		power_mode = false
+		_refresh_power()
 
 
 func _on_cell_pressed(r: int, c: int) -> void:
@@ -1947,7 +2167,22 @@ func _on_cell_pressed(r: int, c: int) -> void:
 	if busy or _torn_down or moves_left <= 0 or (overlay != null and overlay.visible):
 		return
 
+	if power_mode:
+		if not rules.power_can_pick(r, c):
+			_shake(r, c)
+			_toast("Pick a gem.")
+			return
+		power_mode = false
+		_fire_power(r, c)
+		return
+
 	if hammer_mode:
+		var hit: int = board[r][c]
+		if hit == PuzzleRules.COMB:
+			# Comb pieces can't be hammered: they have to be brought up.
+			_shake(r, c)
+			_toast("The comb piece can't be hammered. Bring it up to the surface.")
+			return
 		hammer_mode = false
 		# The Hammer is charged here, when it actually pops a gem — not when
 		# it's armed — so arming and then changing your mind costs nothing.
@@ -1955,7 +2190,6 @@ func _on_cell_pressed(r: int, c: int) -> void:
 		_refresh_item_button("hammer")
 		busy = true
 		_refresh_all_items()
-		var hit: int = board[r][c]
 		var cells := {str(r) + "," + str(c): true}
 		# A hammered special still goes off, same as swapping it would (it
 		# used to just vanish for +25).
@@ -1964,34 +2198,25 @@ func _on_cell_pressed(r: int, c: int) -> void:
 			SFX.special_()
 			_react_sprite("surprised", 1.1)
 			_toast("Boom!")
-		await _pop_out(cells)
+		# Smashing a cursed shard is what the Hammer is FOR — it's cleared
+		# for free instead of costing the -15 (and the angry face) a shard
+		# costs when it's caught up in a match.
+		var shard := hit == MatchEngine.BROKEN_IDX
+		await _clear_and_drop(cells, 1, false, [], shard)
 		if _torn_down:
 			return
-		if hit == MatchEngine.BROKEN_IDX:
-			# Smashing a cursed shard is what the Hammer is FOR — it's cleared
-			# for free instead of costing the -15 (and the angry face) a shard
-			# costs when it's caught up in a match.
-			SFX.match_()
+		if shard:
 			_toast("Shard smashed!")
 			Achievements.unlock("SHARD_SMASH")
-		else:
-			_score_and_clear(cells, 1)
-		var changed := MatchEngine.collapse_and_refill(board, cells, weights)
-		_render_board(changed)
 		await _settle_and_chain()
 		if _torn_down:
 			return
-		# Testing Mode clears the chapter on a Hammer too, like on a swap.
-		if GameState.settings.test_mode:
-			score = _target()
-		GameState.save_state()
-		busy = false
-		_update_hud()
-		_reset_idle_timer()
-		_check_outcome()
+		_end_turn(false)
 		return
 
 	if selected == Vector2i(-1, -1):
+		if not _can_pick(r, c):
+			return
 		selected = Vector2i(r, c)
 		_render_board()
 		return
@@ -2002,7 +2227,9 @@ func _on_cell_pressed(r: int, c: int) -> void:
 		return
 
 	var adjacent: bool = abs(selected.x - r) + abs(selected.y - c) == 1
-	if not adjacent:
+	if not adjacent or not rules.swappable(r, c):
+		if not _can_pick(r, c):
+			return
 		selected = Vector2i(r, c)
 		_render_board()
 		return
@@ -2011,6 +2238,26 @@ func _on_cell_pressed(r: int, c: int) -> void:
 	var c1 := selected.y
 	selected = Vector2i(-1, -1)
 	_attempt_swap(r1, c1, r, c)
+
+
+## Whether (r, c) can be picked up; if not, a shake and (the first time) why.
+func _can_pick(r: int, c: int) -> bool:
+	if rules.swappable(r, c):
+		return true
+	_shake(r, c)
+	SFX.invalid()
+	var t: int = board[r][c]
+	var why := ""
+	if rules.seal[r][c]:
+		why = "Sealed. Match it by moving the gems beside it."
+	elif t == PuzzleRules.SEED or t == PuzzleRules.SPROUT:
+		why = "Seeds can't be moved. Make matches next to them to make them grow."
+	elif t == PuzzleRules.COMB:
+		why = "Comb pieces rise when the gems above them clear."
+	if why != "" and not _said.has(why):
+		_said[why] = true
+		_toast(why)
+	return false
 
 
 func _attempt_swap(r1: int, c1: int, r2: int, c2: int) -> void:
@@ -2034,25 +2281,16 @@ func _attempt_swap(r1: int, c1: int, r2: int, c2: int) -> void:
 		_toast("Mega Blast!" if MatchEngine.is_special(t1) and MatchEngine.is_special(t2) else "Boom!")
 		if MatchEngine.is_special(t1) and MatchEngine.is_special(t2):
 			Achievements.unlock("MEGA_BLAST")
-		await _pop_out(cells)
+		await _clear_and_drop(cells, 1, false)
 		if _torn_down:
 			return
-		_score_and_clear(cells, 1)
-		var changed := MatchEngine.collapse_and_refill(board, cells, weights)
-		_render_board(changed)
 		await _settle_and_chain()
 		if _torn_down:
 			return
-		await _event_turn()
+		await _after_move()
 		if _torn_down:
 			return
-		if GameState.settings.test_mode:
-			score = _target()
-		GameState.save_state()
-		busy = false
-		_update_hud()
-		_reset_idle_timer()
-		_check_outcome()
+		_end_turn(true)
 		return
 
 	board[r1][c1] = t2
@@ -2086,15 +2324,32 @@ func _attempt_swap(r1: int, c1: int, r2: int, c2: int) -> void:
 	# _settle_and_chain): a normal swap whose cascades leave no legal move used
 	# to leave the board stuck with moves still on the clock — no hint, no
 	# lose screen, only "← Roster" out.
-	if not MatchEngine.has_valid_move(board):
+	if not rules.has_move():
 		await _reshuffle_no_move()
 		if _torn_down:
 			return
-	await _event_turn()
+	await _after_move()
 	if _torn_down:
 		return
+	_end_turn(true)
+
+
+## After one of the player's moves: Hazel's next seed, then the date's event.
+func _after_move() -> void:
+	var seed_at := rules.after_move()
+	if seed_at.x >= 0:
+		_render_board({str(seed_at.x) + "," + str(seed_at.y): true})
+		if not _said.has("seed_drop"):
+			_said["seed_drop"] = true
+			_toast("A new seed drops in.", ArtAssets.piece_icon("seed"))
+	await _event_turn()
+
+
+## The end of a move, Hammer or power: save, unlock the board, check the result.
+func _end_turn(_was_move: bool) -> void:
+	# Testing Mode clears the chapter on any move.
 	if GameState.settings.test_mode:
-		score = _target()
+		_debug_complete()
 	GameState.save_state()
 	busy = false
 	# After busy is cleared, not before: _refresh_item_button() disables every
@@ -2103,6 +2358,16 @@ func _attempt_swap(r1: int, c1: int, r2: int, c2: int) -> void:
 	_update_hud()
 	_reset_idle_timer()
 	_check_outcome()
+
+
+## Testing Mode and the smoke test: the chapter's score and goal, done.
+func _debug_complete() -> void:
+	score = maxi(score, rules.target)
+	match rules.goal_kind:
+		"seals": rules.seals_broken = maxi(rules.seals_broken, rules.goal_n)
+		"combs": rules.combs_up = maxi(rules.combs_up, rules.goal_n)
+		"items": rules.items_found = maxi(rules.items_found, rules.goal_n)
+		"blossoms": rules.blossoms = maxi(rules.blossoms, rules.goal_n)
 
 
 func _settle_and_chain() -> void:
@@ -2119,19 +2384,15 @@ func _settle_and_chain() -> void:
 	# fully settled after a move, make sure the player isn't left stuck —
 	# if there's genuinely no legal swap left anywhere, reshuffle for free
 	# rather than softlocking them.
-	if not MatchEngine.has_valid_move(board):
+	if not rules.has_move():
 		await _reshuffle_no_move()
 	# NOTE: the idle-hint countdown is armed by the caller once `busy` is
-	# actually back to false (see the end of _attempt_swap()/_on_cell_pressed's
-	# hammer branch) — arming it here would be a no-op, since _reset_idle_timer()
-	# refuses to start the timer while busy is still true, and busy doesn't
-	# flip back to false until after this coroutine returns.
+	# actually back to false (see _end_turn()) — arming it here would be a
+	# no-op, since _reset_idle_timer() refuses to start the timer while busy.
 
 
 ## Silently reshuffles the board when no legal move remains — doesn't cost a
-## move or a turn, just like the Item Shop's manual Shuffle. A few retries
-## guard against the (astronomically unlikely) case where the reshuffle
-## itself lands on another dead board.
+## move or a turn, just like the Item Shop's manual Shuffle. Her pieces stay.
 func _reshuffle_no_move() -> void:
 	board = _fresh_playable_board()
 	_toast("No moves left — reshuffling!")
@@ -2148,30 +2409,9 @@ func _resolve_loop(match_result: Dictionary, combo_index: int) -> void:
 	var matched: Dictionary = match_result.matched_cells
 	if matched.is_empty():
 		return
-	await _pop_out(matched)
+	await _clear_and_drop(matched, combo_index, true, match_result.specials)
 	if _torn_down:
 		return
-	_score_and_clear(matched, combo_index)
-	var changed: Dictionary = MatchEngine.collapse_and_refill(board, matched, weights)
-	# Specials spawn at their designated cell after the collapse settles —
-	# a small, deliberate simplification vs. the original's pre-collapse
-	# placement that keeps this port's cascade logic straightforward.
-	for sp in match_result.specials:
-		var rr: int = int(sp.r)
-		var cc: int = int(sp.c)
-		if rr >= 0 and rr < MatchEngine.SIZE and cc >= 0 and cc < MatchEngine.SIZE:
-			# Never overwrite a special that has fallen into this cell (it would
-			# silently vanish, a paid Starburst Starter included) — drop the new
-			# one into the nearest plain gem instead.
-			var spot := _special_spot(rr, cc)
-			if spot.x < 0:
-				continue
-			board[spot.x][spot.y] = MatchEngine.special_code(String(sp.type))
-			changed[str(spot.x) + "," + str(spot.y)] = true
-			if board[spot.x][spot.y] == MatchEngine.STARBURST:
-				Achievements.unlock("MAKE_STARBURST")
-			HowToPlay.tip(main, "specials")
-	_render_board(changed)
 	_tip_for_board()
 	if not GameState.settings.get("reduce_motion", false):
 		await main.get_tree().create_timer(0.22).timeout
@@ -2183,54 +2423,95 @@ func _resolve_loop(match_result: Dictionary, combo_index: int) -> void:
 		await _resolve_loop(next, combo_index + 1)
 
 
-## Where a newly earned special should go: its own cell, unless a special
-## already sits there — then the closest cell holding a plain (non-special,
-## non-cursed) gem. Vector2i(-1, -1) if the whole board is somehow specials.
-func _special_spot(r: int, c: int) -> Vector2i:
-	if not MatchEngine.is_special(board[r][c]):
-		return Vector2i(r, c)
-	var best := Vector2i(-1, -1)
-	var best_d := 999
-	for rr in range(MatchEngine.SIZE):
-		for cc in range(MatchEngine.SIZE):
-			var t: int = board[rr][cc]
-			if MatchEngine.is_special(t) or t == MatchEngine.BROKEN_IDX:
-				continue
-			var dist: int = absi(rr - r) + absi(cc - c)
-			if dist < best_d:
-				best_d = dist
-				best = Vector2i(rr, cc)
-	return best
+## One clearing step (round 44): PuzzleRules clears `cells` (a match when
+## is_match, else a blast: special, Hammer, her power), the gems that really
+## go shatter, the score and Charm count, gravity drops (or lifts) the rest,
+## new specials land. hammer_shard: a hammered cursed shard costs nothing.
+func _clear_and_drop(cells: Dictionary, combo_index: int, is_match: bool, specials: Array = [],
+		hammer_shard := false) -> void:
+	var colours := {}
+	for k in cells.keys():
+		var v := PuzzleRules.unkey(k)
+		colours[k] = _color_for(board[v.x][v.y])
+	var rep := rules.clear_cells(cells, is_match)
+	_piece_feedback(rep)
+	await _pop_out(rep.cleared, colours)
+	if _torn_down:
+		return
+	if hammer_shard:
+		rep.gain -= PuzzleRules.SHARD_POINTS * int(rep.shards)
+		rep.shards = 0
+	_score_and_clear(rep, combo_index, cells)
+	var drop := rules.collapse()
+	var changed: Dictionary = drop.changed
+	var placed := rules.place_specials(specials)
+	for k in placed.keys():
+		changed[k] = true
+		var v := PuzzleRules.unkey(k)
+		if board[v.x][v.y] == MatchEngine.STARBURST:
+			Achievements.unlock("MAKE_STARBURST")
+		HowToPlay.tip(main, "specials")
+	for c in drop.combs:
+		_fly_to_goal(Vector2i(0, c), "comb")
+		_toast(UITheme.t("A comb piece! %d / %d") % [rules.combs_up, rules.goal_n] if rules.goal_n > 0
+			else UITheme.t("A comb piece!"), ArtAssets.piece_icon("comb"))
+	_render_board(changed)
 
 
-func _score_and_clear(matched: Dictionary, combo_index: int) -> void:
-	var gain := 0
-	var broken_hit := 0
-	var fav_hit := false
-	var least_hit := false
-	for key in matched.keys():
-		var parts: PackedStringArray = String(key).split(",")
-		var r := int(parts[0])
-		var c := int(parts[1])
-		var t: int = board[r][c]
-		if t == MatchEngine.BROKEN_IDX:
-			broken_hit += 1
-			gain -= 15
-		elif MatchEngine.is_special(t):
-			gain += 25
-		else:
-			gain += 10
-			var gname := CharacterData.gem_name(t)
-			if gname == String(ch.fav):
-				charm = min(MatchEngine.CHARM_MAX, charm + 2)
-				fav_hit = true
-			else:
-				charm = min(MatchEngine.CHARM_MAX, charm + 1)
-				if gname == String(ch.least):
-					least_hit = true
+## What her pieces did in a clearing step: seals cracked, seeds grew,
+## blossoms popped, things found under the moss.
+func _piece_feedback(rep: Dictionary) -> void:
+	for v in rep.seals:
+		_bounce(v.x, v.y, 1.3)
+	for v in rep.grown:
+		_bounce(v.x, v.y, 1.35)
+	if not rep.blossoms.is_empty():
+		SFX.special_()
+		var pop := {}
+		for v in rep.blossoms:
+			pop[str(v.x) + "," + str(v.y)] = true
+		_combo_popup(UITheme.t("Blossom! +%d") % (PuzzleRules.BLOSSOM_POINTS * rep.blossoms.size()), pop)
+		_react_sprite("happy", 1.0)
+	for it in rep.items:
+		var v: Vector2i = it[0]
+		_fly_to_goal(v, "item_" + String(it[1]))
+	if not rep.items.is_empty():
+		_toast(UITheme.t("Found under the moss: %s") % UITheme.t(ITEM_NAMES.get(String(rep.items[0][1]), "")),
+			ArtAssets.piece_icon("item_" + String(rep.items[0][1])))
+		_react_sprite("happy", 1.0)
 
-	var combo_mult := 1.0 + 0.5 * float(combo_index - 1)
-	gain = int(round(float(gain) * combo_mult))
+
+const ITEM_NAMES := {"button": "a button", "marble": "a marble", "key": "a key", "eye": "the glass eye"}
+
+
+## A found thing flies from its cell to the goal counter (not with Reduce
+## Motion: then it's just counted).
+func _fly_to_goal(v: Vector2i, icon: String) -> void:
+	if GameState.settings.get("reduce_motion", false) or toast_layer == null or score_lbl == null:
+		return
+	var btn: Button = cell_buttons[v.x][v.y]
+	var pic := UITheme.picture(ArtAssets.piece_icon(icon), 40)
+	pic.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	toast_layer.add_child(pic)
+	pic.position = btn.global_position - toast_layer.global_position
+	var target_node: Control = _goal_v if _goal_v != null else score_lbl
+	var to: Vector2 = target_node.global_position + target_node.size / 2.0 - Vector2(20, 20) - toast_layer.global_position
+	var tw := pic.create_tween()
+	tw.tween_property(pic, "position", to, 0.6).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_IN_OUT)
+	tw.parallel().tween_property(pic, "scale", Vector2(0.6, 0.6), 0.6)
+	tw.tween_callback(pic.queue_free)
+
+
+## Scores one clearing step from PuzzleRules' report: her favourite gem x2,
+## her disliked one x0.5 (round 44), the combo multiplier, blossoms and found
+## things on top; then Charm, her reactions and quips.
+func _score_and_clear(rep: Dictionary, combo_index: int, cells: Dictionary) -> void:
+	var gain := PuzzleRules.combo_points(int(rep.gain), combo_index) + int(rep.bonus)
+	var broken_hit := int(rep.shards)
+	var fav_hit: bool = rep.fav_hit
+	var least_hit: bool = rep.least_hit
+	if not power_charged and not _power_resolving:
+		charm = mini(MatchEngine.CHARM_MAX, charm + int(rep.charm))
 	score += gain
 	if combo_index >= 3:
 		Achievements.unlock("COMBO_3")
@@ -2245,7 +2526,7 @@ func _score_and_clear(matched: Dictionary, combo_index: int) -> void:
 		# Floats up from the actual matched gems (angled, see _combo_popup)
 		# instead of the generic top-center toast, which used to land right
 		# on top of the score/quip toast fired from this same match.
-		_combo_popup(UITheme.t("Combo x%d!") % combo_index, matched)
+		_combo_popup(UITheme.t("Combo x%d!") % combo_index, cells)
 		_react_sprite("happy", 1.0)
 	else:
 		SFX.match_()
@@ -2270,11 +2551,19 @@ func _score_and_clear(matched: Dictionary, combo_index: int) -> void:
 		_held_off = true
 		_event_count += 1
 		_refresh_event_pill(true)
-	if charm >= MatchEngine.CHARM_MAX:
-		charm = 0
-		score += 150
-		_toast("Charm Burst! +150")
-		Achievements.unlock("CHARM_BURST")
+	if charm >= MatchEngine.CHARM_MAX and not power_charged:
+		if rules.power_id != "":
+			# Round 44: from chapter 2 a full ring is one charge of her power,
+			# used from its button; the ring stays full until it's used.
+			power_charged = true
+			_toast(UITheme.t("%s is ready!") % UITheme.t(String(ch.power.name)), ArtAssets.ui_icon("power_" + rules.power_id))
+			HowToPlay.tip(main, "power_" + rules.power_id)
+			_pulse_power()
+		else:
+			charm = 0
+			score += 150
+			_toast("Charm Burst! +150")
+			Achievements.unlock("CHARM_BURST")
 		if not _events.is_empty():
 			# The moment carries you both past what was coming.
 			_event_i = (_event_i + 1) % _events.size()
@@ -2283,6 +2572,80 @@ func _score_and_clear(matched: Dictionary, combo_index: int) -> void:
 			_refresh_event_pill(true)
 
 	_update_hud()
+
+
+# ---- her Charm power (round 44) ----
+
+func _on_power_pressed() -> void:
+	if _torn_down or busy or not power_charged or _replay_cleared:
+		return
+	if overlay != null and overlay.visible:
+		return
+	if power_mode:
+		power_mode = false
+		_refresh_power()
+		_reset_idle_timer()
+		return
+	if hammer_mode:
+		hammer_mode = false
+		_refresh_item_button("hammer")
+	selected = Vector2i(-1, -1)
+	if rules.power_needs_pick():
+		power_mode = true
+		_render_board()
+		_toast(UITheme.t("%s: pick a gem.") % UITheme.t(String(ch.power.name)))
+		_refresh_power()
+		return
+	_fire_power(-1, -1)
+
+
+## Uses her power (at (r, c) when it needs a gem picked). Doesn't cost a move.
+func _fire_power(r: int, c: int) -> void:
+	busy = true
+	power_charged = false
+	power_mode = false
+	charm = 0
+	_refresh_power()
+	_refresh_all_items()
+	Achievements.unlock("CHARM_BURST")
+	SFX.special_()
+	_react_sprite("happy", 1.2)
+	_toast(UITheme.t(String(ch.power.name)) + "!", ArtAssets.ui_icon("power_" + rules.power_id))
+	var cells := {}
+	if rules.power_id == "summer":
+		for rr in range(MatchEngine.SIZE):
+			for cc in range(MatchEngine.SIZE):
+				if board[rr][cc] == PuzzleRules.SEED or board[rr][cc] == PuzzleRules.SPROUT:
+					cells[str(rr) + "," + str(cc)] = true
+	else:
+		cells = rules.power_cells(r, c)
+	_power_resolving = true
+	await _clear_and_drop(cells, 1, false)
+	if _torn_down:
+		return
+	await _settle_and_chain()
+	_power_resolving = false
+	if _torn_down:
+		return
+	_end_turn(false)
+
+
+func _refresh_power() -> void:
+	if _power_btn == null:
+		return
+	_power_btn.disabled = not power_charged or busy
+	if _power_lbl:
+		_power_lbl.text = UITheme.t("Pick a gem!") if power_mode else (UITheme.t("Ready!") if power_charged else UITheme.t("Fill the ring"))
+
+
+func _pulse_power() -> void:
+	_refresh_power()
+	if _power_btn == null or GameState.settings.get("reduce_motion", false):
+		return
+	_power_btn.pivot_offset = _power_btn.size / 2.0
+	var tw := _power_btn.create_tween()
+	tw.tween_property(_power_btn, "scale", Vector2(1.2, 1.2), 0.15)
+	tw.tween_property(_power_btn, "scale", Vector2.ONE, 0.2)
 
 
 ## Quips (and laughs / sighs) already used this attempt, by text.
@@ -2320,8 +2683,7 @@ func _check_outcome() -> void:
 	# of them is ever missed.
 	if _torn_down:
 		return
-	var target := _target()
-	if score >= target:
+	if rules.won(score):
 		if moves_left >= 5:
 			Achievements.unlock("MOVES_LEFT_5")
 		if replay >= 0:

@@ -343,7 +343,7 @@
    },
    "levels": [
     {
-     "target": 900,
+     "target": 1200,
      "moves": 15,
      "win": [
       {
@@ -511,11 +511,15 @@
         ]
        }
       ]
+     },
+     "mech": "seal",
+     "pieces": {
+      "start": 6
      }
     },
     {
-     "target": 1700,
-     "moves": 16,
+     "target": 0,
+     "moves": 13,
      "win": [
       {
        "k": "n",
@@ -601,11 +605,19 @@
         ]
        }
       ]
+     },
+     "mech": "seal",
+     "pieces": {
+      "start": 12
+     },
+     "goal": {
+      "kind": "seals",
+      "n": 12
      }
     },
     {
-     "target": 2000,
-     "moves": 18,
+     "target": 1500,
+     "moves": 19,
      "win": [
       {
        "k": "n",
@@ -657,7 +669,15 @@
        "t": "You close the door."
       }
      ],
-     "choice": null
+     "choice": null,
+     "mech": "seal",
+     "pieces": {
+      "start": 12
+     },
+     "goal": {
+      "kind": "seals",
+      "n": 12
+     }
     }
    ],
    "night": {
@@ -911,7 +931,12 @@
     "kind": "guard",
     "name": "A reader shushes you"
    }
-  ]
+  ],
+  "power": {
+   "id": "lines",
+   "name": "Correct Lines",
+   "desc": "Pick a gem: its whole row and column clear."
+  }
  },
  {
   "id": "mermaid",
@@ -1241,7 +1266,7 @@
    },
    "levels": [
     {
-     "target": 900,
+     "target": 1200,
      "moves": 15,
      "win": [
       {
@@ -1327,7 +1352,7 @@
      }
     },
     {
-     "target": 1200,
+     "target": 1350,
      "moves": 15,
      "win": [
       {
@@ -1414,11 +1439,15 @@
         ]
        }
       ]
+     },
+     "mech": "tide",
+     "pieces": {
+      "combs": 0
      }
     },
     {
-     "target": 1700,
-     "moves": 16,
+     "target": 0,
+     "moves": 14,
      "win": [
       {
        "k": "n",
@@ -1505,11 +1534,19 @@
         ]
        }
       ]
+     },
+     "mech": "tide",
+     "pieces": {
+      "combs": 3
+     },
+     "goal": {
+      "kind": "combs",
+      "n": 3
      }
     },
     {
-     "target": 2000,
-     "moves": 18,
+     "target": 1500,
+     "moves": 19,
      "win": [
       {
        "k": "n",
@@ -1576,7 +1613,15 @@
        "t": "You leave your shoes on the pier, both of them."
       }
      ],
-     "choice": null
+     "choice": null,
+     "mech": "tide",
+     "pieces": {
+      "combs": 4
+     },
+     "goal": {
+      "kind": "combs",
+      "n": 4
+     }
     }
    ],
    "night": {
@@ -1809,7 +1854,12 @@
     "kind": "guard",
     "name": "The tide turns"
    }
-  ]
+  ],
+  "power": {
+   "id": "tide",
+   "name": "High Tide",
+   "desc": "The two rows nearest the surface clear, and everything rises two rows."
+  }
  },
  {
   "id": "slime",
@@ -2120,7 +2170,7 @@
    },
    "levels": [
     {
-     "target": 900,
+     "target": 1250,
      "moves": 15,
      "win": [
       {
@@ -2214,7 +2264,7 @@
      }
     },
     {
-     "target": 1200,
+     "target": 1600,
      "moves": 15,
      "win": [
       {
@@ -2305,11 +2355,17 @@
         ]
        }
       ]
+     },
+     "mech": "moss",
+     "pieces": {
+      "cells": 12,
+      "items": 4,
+      "itemScore": 40
      }
     },
     {
-     "target": 1700,
-     "moves": 16,
+     "target": 0,
+     "moves": 13,
      "win": [
       {
        "k": "n",
@@ -2396,10 +2452,19 @@
         ]
        }
       ]
+     },
+     "mech": "moss",
+     "pieces": {
+      "cells": 16,
+      "items": 8
+     },
+     "goal": {
+      "kind": "items",
+      "n": 8
      }
     },
     {
-     "target": 2000,
+     "target": 1500,
      "moves": 18,
      "win": [
       {
@@ -2456,7 +2521,16 @@
        "t": "You turn the lamp down."
       }
      ],
-     "choice": null
+     "choice": null,
+     "mech": "moss",
+     "pieces": {
+      "cells": 18,
+      "items": 10
+     },
+     "goal": {
+      "kind": "items",
+      "n": 10
+     }
     }
    ],
    "night": {
@@ -2647,7 +2721,12 @@
     "kind": "guard",
     "name": "An owl startles her"
    }
-  ]
+  ],
+  "power": {
+   "id": "absorb",
+   "name": "Absorb",
+   "desc": "Pick a gem: every gem of that colour is cleared."
+  }
  },
  {
   "id": "dryad",
@@ -2954,7 +3033,7 @@
    },
    "levels": [
     {
-     "target": 900,
+     "target": 1200,
      "moves": 15,
      "win": [
       {
@@ -3041,7 +3120,7 @@
      }
     },
     {
-     "target": 1200,
+     "target": 1600,
      "moves": 15,
      "win": [
       {
@@ -3128,11 +3207,17 @@
         ]
        }
       ]
+     },
+     "mech": "seed",
+     "pieces": {
+      "start": 3,
+      "every": 4,
+      "max": 3
      }
     },
     {
-     "target": 1700,
-     "moves": 16,
+     "target": 0,
+     "moves": 15,
      "win": [
       {
        "k": "n",
@@ -3218,11 +3303,21 @@
         ]
        }
       ]
+     },
+     "mech": "seed",
+     "pieces": {
+      "start": 3,
+      "every": 4,
+      "max": 3
+     },
+     "goal": {
+      "kind": "blossoms",
+      "n": 5
      }
     },
     {
-     "target": 2000,
-     "moves": 18,
+     "target": 1500,
+     "moves": 19,
      "win": [
       {
        "k": "n",
@@ -3271,7 +3366,17 @@
        "t": "You stay."
       }
      ],
-     "choice": null
+     "choice": null,
+     "mech": "seed",
+     "pieces": {
+      "start": 3,
+      "every": 4,
+      "max": 3
+     },
+     "goal": {
+      "kind": "blossoms",
+      "n": 6
+     }
     }
    ],
    "night": {
@@ -3472,6 +3577,11 @@
     "kind": "fluster",
     "name": "It starts to rain"
    }
-  ]
+  ],
+  "power": {
+   "id": "summer",
+   "name": "Summer",
+   "desc": "Every seed and sprout on the board grows one stage."
+  }
  }
 ]

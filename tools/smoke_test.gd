@@ -84,7 +84,7 @@ func _go() -> void:
 	main.show_puzzle("dryad", 0)
 	await create_timer(0.3).timeout
 	pz = main._screen_obj
-	pz.score = int(pz.level.target)
+	pz._debug_complete()
 	pz._check_outcome()
 	await create_timer(0.2).timeout
 	var again := _find_button(main.screen_host, "Play it again")
@@ -110,7 +110,7 @@ func _drive(until: Callable, max_steps: int) -> bool:
 		var scr = main._screen_obj
 		if scr is PuzzleScreen:
 			if not scr.busy and not scr._torn_down:
-				scr.score = int(scr.level.target)
+				scr._debug_complete()
 				scr._check_outcome()
 		else:
 			var choice := _find_choice(main.screen_host)

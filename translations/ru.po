@@ -30,6 +30,12 @@ msgstr "%d очк. — неудачное начало..."
 msgid "%d pts..."
 msgstr "%d очк..."
 
+msgid "%s is ready!"
+msgstr "%s — готово!"
+
+msgid "%s: pick a gem."
+msgstr "%s: выбери камень."
+
 msgid "(You need %d more stars.)"
 msgstr "(Не хватает звёзд: %d.)"
 
@@ -47,6 +53,9 @@ msgstr "+%d ⭐ за старание"
 
 msgid "+%d ⭐ towards it"
 msgstr "+%d ⭐ на это"
+
+msgid "+2 moves — great answer!"
+msgstr "+2 хода — отличный ответ!"
 
 msgid "-1 move"
 msgstr "-1 ход"
@@ -69,6 +78,12 @@ msgstr "Часы, которые работают только когда све
 msgid "A cold breeze"
 msgstr "Холодный ветерок"
 
+msgid "A comb piece!"
+msgstr "Кусочек гребня!"
+
+msgid "A comb piece! %d / %d"
+msgstr "Кусочек гребня! %d / %d"
+
 msgid "A folding brass sundial small enough for a pocket. It only tells the time on sunny days, which as far as she's concerned are the only days that need it."
 msgstr "Складные латунные солнечные часы, такие маленькие, что помещаются в карман. Показывают время только в солнечные дни, а по её мнению, только такие дни и заслуживают того, чтобы знать время."
 
@@ -80,6 +95,9 @@ msgstr "Тебе в волосы падает лист. Ветра нет."
 
 msgid "A match-3 romance for adults, set in Millbrook, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes."
 msgstr "Роман в жанре «три в ряд» для взрослых, действие которого происходит в Миллбруке, сумеречном городке, где обосновался волшебный народ. Познакомься с четырьмя женщинами хуже некуда, помоги им с тем, что им нужно, и посмотри, куда заведёт ночь."
+
+msgid "A new seed drops in."
+msgstr "Падает новое семечко."
 
 msgid "A reader shushes you"
 msgstr "Читатель шикает на вас"
@@ -114,6 +132,12 @@ msgstr "О голосах"
 msgid "About your reward. Last night was not the reward. I need you to understand that. Last night was separate."
 msgstr "Про твою награду. Прошлая ночь наградой не была. Мне нужно, чтобы это было ясно. Прошлая ночь — это отдельно."
 
+msgid "Absorb"
+msgstr "Поглощение"
+
+msgid "Absorb!"
+msgstr "Поглощение!"
+
 msgid "Achievements"
 msgstr "Достижения"
 
@@ -122,6 +146,9 @@ msgstr "Признай. Тебе нравится, что я рядом."
 
 msgid "After Hours"
 msgstr "После закрытия"
+
+msgid "After each chapter you pick a reply. A warm one starts her next chapter with bonus points (two extra moves when the chapter is only her goal); a teasing one costs a few points, but she likes those too."
+msgstr "После каждой главы ты выбираешь ответ. Тёплый даёт бонусные очки в начале следующей главы (два лишних хода, если в главе только её цель); дразнящий стоит нескольких очков, но такие ей тоже нравятся."
 
 msgid "After each chapter you pick a reply. A warm one starts her next chapter with bonus points; a teasing one costs a few, but she likes those too."
 msgstr "После каждой главы ты выбираешь ответ. Тёплый даёт бонусные очки в начале её следующей главы; дразнящий отнимает несколько, но ей это тоже нравится."
@@ -159,8 +186,17 @@ msgstr "Всю весну, вручную? Видимо, придётся к т�
 msgid "Amara Duskrose"
 msgstr "Амара Даскроуз"
 
+msgid "Amara's power: Correct Lines"
+msgstr "Сила Амары: Правка строк"
+
 msgid "Amara. It's the one I use. The real one is in the book, along with everything else that keeps me on a leash."
 msgstr "Амара. Это то, которым я пользуюсь. Настоящее — в книге, вместе со всем остальным, что держит меня на поводке."
+
+msgid "Amara: break every seal"
+msgstr "Амара: сломай все печати"
+
+msgid "Amara: sealed pages"
+msgstr "Амара: запечатанные страницы"
 
 msgid "Ambrose would have liked you. He liked people who apologise."
 msgstr "Амброузу ты бы понравился. Он любил людей, которые извиняются."
@@ -195,6 +231,9 @@ msgstr "Скорость «Авто»"
 msgid "Avalanche"
 msgstr "Лавина"
 
+msgid "BLOSSOMS"
+msgstr "ЦВЕТЫ"
+
 msgid "Back"
 msgstr "Назад"
 
@@ -213,8 +252,14 @@ msgstr "Между корнями старого дуба кто-то вырыл
 msgid "Black cover. No title. It'll feel warm. Don't open it."
 msgstr "Чёрная обложка. Без названия. Будет тёплой. Не открывай."
 
+msgid "Blossom! +%d"
+msgstr "Цветок! +%d"
+
 msgid "Blossom."
 msgstr "Цветение."
+
+msgid "Blossoms"
+msgstr "Цветы"
 
 msgid "Board, lifeguard. Not me."
 msgstr "Доска — для спасателя. Не для меня."
@@ -257,6 +302,9 @@ msgstr "М-можно мне сегодня спать в твоей комна�
 
 msgid "CHAPTER GOAL"
 msgstr "ЦЕЛЬ ГЛАВЫ"
+
+msgid "COMB PIECES"
+msgstr "КУСОЧКИ ГРЕБНЯ"
 
 msgid "COMING UP"
 msgstr "СКОРО"
@@ -306,6 +354,9 @@ msgstr "Обаяние вдвое меньше"
 msgid "Charm — fills as you match (her favorite gem fastest). Full = +150 Charm Burst."
 msgstr "Обаяние — растёт с каждым совпадением (быстрее всего — на её любимом камне). Полное = Всплеск обаяния +150."
 
+msgid "Charm — fills as you match (her favourite gem fastest). Full = one use of her power: %s"
+msgstr "Обаяние — наполняется от совпадений (быстрее всего от её любимого камня). Полное = одно применение её силы: %s"
+
 msgid "Chimes for matches, combos, and menus."
 msgstr "Звонкие сигналы для совпадений, комбо и меню."
 
@@ -333,6 +384,9 @@ msgstr "Разбей проклятый осколок Молотком."
 msgid "Clear all the way through. Like me."
 msgstr "Прозрачный насквозь. Как я."
 
+msgid "Clear the moss to find her things: buttons, marbles, keys, the glass eye. Find enough of them to win."
+msgstr "Очищай мох, чтобы найти её вещи: пуговицы, шарики, ключи, стеклянный глаз. Найди достаточно, чтобы победить."
+
 msgid "Click to view."
 msgstr "Нажми, чтобы посмотреть."
 
@@ -351,6 +405,12 @@ msgstr "Сойдёт. Можешь пользоваться."
 msgid "Close settings"
 msgstr "Закрыть настройки"
 
+msgid "Comb pieces"
+msgstr "Кусочки гребня"
+
+msgid "Comb pieces rise when the gems above them clear."
+msgstr "Кусочки гребня поднимаются, когда очищаются камни над ними."
+
 msgid "Combo x%d!"
 msgstr "Комбо x%d!"
 
@@ -368,6 +428,12 @@ msgstr "Продолжить"
 
 msgid "Continue the story  ▸"
 msgstr "Продолжить историю  ▸"
+
+msgid "Correct Lines"
+msgstr "Правка строк"
+
+msgid "Correct Lines!"
+msgstr "Правка строк!"
 
 msgid "Credits"
 msgstr "Авторы"
@@ -453,6 +519,9 @@ msgstr "Дриада старой лещины"
 msgid "Dust off the top shelf"
 msgstr "Пыль с верхней полки"
 
+msgid "Each chapter has a goal and a number of moves. At first it's points; from her third chapter it's something of hers to do on the board, and in her last both. Reach it before your moves run out and the story carries on. There's no timer: take as long as you like."
+msgstr "У каждой главы есть цель и число ходов. Сначала это очки; с её третьей главы — её особое дело на поле, а в последней — и то и другое. Успей до конца ходов, и история продолжится. Таймера нет: не торопись."
+
 msgid "Each chapter has a points goal and a number of moves. Reach the goal before your moves run out and the story carries on. There's no timer: take as long as you like."
 msgstr "В каждой главе есть цель по очкам и ограниченное число ходов. Набери нужное число очков до того, как кончатся ходы, и история продолжится. Таймера нет: не торопись."
 
@@ -480,6 +549,12 @@ msgstr "Каждые несколько ходов вокруг что-то пр
 msgid "Every girl has a favourite gem and one she dislikes (it's on her card in the roster). Matching her favourite fills the Charm ring faster."
 msgstr "У каждой девушки есть любимый камень и нелюбимый (он указан на её карточке в списке). Если собрать её любимый, кольцо Обаяния заполняется быстрее."
 
+msgid "Every girl has a favourite gem and one she dislikes (on her card in the roster, and at the top of her side in a chapter). Her favourite scores double and fills the Charm ring faster; the one she dislikes scores half."
+msgstr "У каждой девушки есть любимый камень и нелюбимый (на её карточке в списке и вверху её стороны в главе). Любимый приносит вдвое больше очков и быстрее заполняет кольцо Обаяния; нелюбимый — вдвое меньше."
+
+msgid "Every match fills the Charm ring. In a girl's first chapter a full ring is a Charm Burst: +150 points. From her second chapter it's one use of her own power instead: its button lights up next to the ring, use it when you like. The ring fills again after."
+msgstr "Каждое совпадение наполняет кольцо Обаяния. В первой главе девушки полное кольцо — это Всплеск обаяния: +150 очков. Со второй главы вместо него — одно применение её собственной силы: кнопка рядом с кольцом загорается, используй её когда захочешь. Потом кольцо наполняется снова."
+
 msgid "Every match fills the Charm ring. When it's full you get a Charm Burst: +150 points."
 msgstr "Каждое совпадение заполняет кольцо Обаяния. Когда оно заполнено, происходит Всплеск обаяния: +150 очков."
 
@@ -488,6 +563,9 @@ msgstr "Каждая из этих страниц — часть моей при
 
 msgid "Every one? That's four hundred and twelve buttons."
 msgstr "Каждую? Это же четыреста двенадцать пуговиц."
+
+msgid "Every seed and sprout on the board grows one stage."
+msgstr "Каждое семечко и росток на поле подрастают на одну ступень."
 
 msgid "Everyone keeps asking about the comb and I'm running out of excuses."
 msgstr "Все только и спрашивают про гребень, а отговорки у меня заканчиваются."
@@ -515,6 +593,9 @@ msgstr "Быстрее. Прилив поворачивает."
 
 msgid "Fill the Charm ring for a Charm Burst."
 msgstr "Заполни кольцо Обаяния и получи Всплеск обаяния."
+
+msgid "Fill the ring"
+msgstr "Наполни кольцо"
 
 msgid "Fill the whole screen. F11 toggles it anywhere."
 msgstr "Занять весь экран. F11 переключает режим в любом месте."
@@ -548,6 +629,9 @@ msgstr "К сведению: четыреста с лишним вызовов, 
 
 msgid "Forty years, I said. Mind where you swing."
 msgstr "Сорок лет, я же сказала. Следи, куда машешь."
+
+msgid "Found under the moss: %s"
+msgstr "Под мхом нашлось: %s"
 
 msgid "Four hundred and twelve buttons, twenty-six keys, a glass eye and two owls. The alchemist's men are felling the north woods now, so Opal is staying with you, and her collection takes up a whole shelf in your front room. She rearranges it twice."
 msgstr "Четыреста двенадцать пуговиц, двадцать шесть ключей, стеклянный глаз и две совы. Люди алхимика теперь валят северный лес, поэтому Опал живёт у тебя, а её коллекция занимает целую полку в твоей гостиной. Она переставляет её дважды."
@@ -609,6 +693,9 @@ msgstr "Бабуль, я в порядке. Я всегда такая."
 msgid "Greedy. Oh, so you'll make him pay you to help me? I like that."
 msgstr "Жадный. О, так ты заставишь его платить тебе за то, что помогаешь мне? Мне это нравится."
 
+msgid "Grow enough seeds into blossoms to win. A new seed drops in every few moves."
+msgstr "Вырасти достаточно цветов из семян, чтобы победить. Каждые несколько ходов падает новое семечко."
+
 msgid "Hammer"
 msgstr "Молоток"
 
@@ -626,6 +713,15 @@ msgstr "Сложно: на свидании что-то происходит"
 
 msgid "Hazel Mossgrove"
 msgstr "Хейзел Моссгроув"
+
+msgid "Hazel's power: Summer"
+msgstr "Сила Хейзел: Лето"
+
+msgid "Hazel: grow blossoms"
+msgstr "Хейзел: вырасти цветы"
+
+msgid "Hazel: seeds"
+msgstr "Хейзел: семена"
 
 msgid "He tells you to keep the money. Then he walks over and pats the hazel's trunk, awkwardly, like a man apologising to a horse."
 msgstr "Он велит тебе оставить деньги. Потом подходит и неловко хлопает по стволу лещины, как человек, извиняющийся перед лошадью."
@@ -657,6 +753,9 @@ msgstr "Её семья по одному соскальзывает с края
 msgid "Her father came by this morning. He'll give you until the end of the month. Then he hires someone with a saw."
 msgstr "Утром заходил её отец. Даёт тебе срок до конца месяца. Потом наймёт кого-нибудь с пилой."
 
+msgid "Her favourite gem scores double and fills Charm faster; the one she dislikes scores half."
+msgstr "Её любимый камень приносит вдвое больше очков и быстрее наполняет Обаяние; нелюбимый — вдвое меньше."
+
 msgid "Her gift"
 msgstr "Её подарок"
 
@@ -678,6 +777,9 @@ msgstr "На её читательском билете твой адрес, в�
 msgid "Her night scene"
 msgstr "Её ночная сцена"
 
+msgid "Her power"
+msgstr "Её сила"
+
 msgid "Her sisters start watching"
 msgstr "Её сёстры начинают подглядывать"
 
@@ -686,6 +788,12 @@ msgstr "Её история начнётся заново с вашей перв
 
 msgid "Hide text"
 msgstr "Скрыть текст"
+
+msgid "High Tide"
+msgstr "Прилив"
+
+msgid "High Tide!"
+msgstr "Прилив!"
 
 msgid "High Water"
 msgstr "Большая вода"
@@ -864,6 +972,9 @@ msgstr "Если найдёшь её раньше меня, не открыва�
 msgid "If you're going to draw these, you'll draw them properly. Nobody else is coming through a circle this pathetic."
 msgstr "Раз уж ты рисуешь такие, рисуй как следует. Через такой жалкий круг больше никто не придёт."
 
+msgid "In her chapters everything floats: gems rise, and new ones come up from the bottom."
+msgstr "В её главах всё всплывает: камни поднимаются, а новые приходят снизу."
+
 msgid "In my defence, the label said newts."
 msgstr "В своё оправдание: на этикетке было написано «тритоны»."
 
@@ -1020,6 +1131,15 @@ msgstr "Заставь меня."
 msgid "Marina Waverly"
 msgstr "Марина Уэйверли"
 
+msgid "Marina's power: High Tide"
+msgstr "Сила Марины: Прилив"
+
+msgid "Marina: the pearl comb"
+msgstr "Марина: жемчужный гребень"
+
+msgid "Marina: the tide"
+msgstr "Марина: прилив"
+
 msgid "Master Volume"
 msgstr "Общая громкость"
 
@@ -1091,6 +1211,9 @@ msgstr "Утренний свет сквозь шторы спальни и кт
 
 msgid "Morning. Your clothes are on the rail. I wrung them out myself, so you can thank me."
 msgstr "Доброе утро. Твоя одежда на перилах. Я сама её отжала, так что можешь сказать спасибо."
+
+msgid "Moss grows under some cells. A match, blast or Hammer on the cell clears it, and some moss hides one of her lost things."
+msgstr "Под некоторыми клетками растёт мох. Совпадение, взрыв или Молоток на клетке убирают его, а под частью мха спрятаны её потерянные вещи."
 
 msgid "Most people come down here for the game. You keep coming back for me, don't you?"
 msgstr "Большинство приходит сюда ради игры. А ты всё возвращаешься ради меня, да?"
@@ -1233,6 +1356,15 @@ msgstr "Опал у прилавка пекаря: под мышкой буха�
 msgid "Opal moves in properly. Her collection grows a second shelf, then a third: things you've dropped, things your friends have dropped, the ticket from your first evening out together. The jar lives under the bed. She uses it twice that year, both times in thunderstorms, and both times you sit on the floor beside it while she tells you, through the glass, which of the neighbours owe each other money. She climbs out on her own before the storm is over."
 msgstr "Опал переезжает окончательно. Её коллекция обзаводится второй полкой, потом третьей: вещи, которые ты уронил, вещи, которые уронили твои друзья, билет с вашего первого совместного выхода в город. Банка живёт под кроватью. За тот год Опал пользуется ею дважды, оба раза во время гроз, и оба раза ты сидишь на полу рядом, пока она рассказывает тебе сквозь стекло, кто из соседей кому должен денег. Она вылезает сама ещё до конца грозы."
 
+msgid "Opal's power: Absorb"
+msgstr "Сила Опал: Поглощение"
+
+msgid "Opal: her lost collection"
+msgstr "Опал: её потерянная коллекция"
+
+msgid "Opal: moss"
+msgstr "Опал: мох"
+
 msgid "Open log folder"
 msgstr "Открыть папку журнала"
 
@@ -1269,11 +1401,26 @@ msgstr "Лепестки. Хорошо. Это я понимаю."
 msgid "Pick a gem to pop."
 msgstr "Выбери камень, чтобы лопнуть."
 
+msgid "Pick a gem!"
+msgstr "Выбери камень!"
+
+msgid "Pick a gem."
+msgstr "Выбери камень."
+
+msgid "Pick a gem: every gem of that colour is cleared."
+msgstr "Выбери камень: все камни этого цвета исчезнут."
+
+msgid "Pick a gem: its whole row and column clear."
+msgstr "Выбери камень: вся его строка и весь столбец очистятся."
+
 msgid "Pick up"
 msgstr "Взять"
 
 msgid "Pickled newts don't usually have a date pencilled on the wax: the second of January. You open it anyway."
 msgstr "Обычно на воске у маринованных тритонов не пишут карандашом дату: второе января. Но ты всё равно открываешь."
+
+msgid "Pieces of Gran's comb start near the bottom. They can't be matched or moved: clear the gems above them and they rise. One that reaches the top row is yours."
+msgstr "Кусочки бабулиного гребня лежат внизу. Их нельзя собрать или сдвинуть: очищай камни над ними, и они поднимутся. Тот, что дошёл до верхнего ряда, твой."
 
 msgid "Plant something near me. So there's something of yours here when you're not."
 msgstr "Посади что-нибудь рядом со мной. Чтобы здесь было что-то твоё, когда тебя нет."
@@ -1292,6 +1439,18 @@ msgstr "Сыграть ещё раз"
 
 msgid "Pop any one gem, no match needed. Arm it from the item row, then tap a gem."
 msgstr "Лопни любой камень без совпадения. Выбери его в ряду предметов, затем нажми на камень."
+
+msgid "Press her power button (or 4), then pick a gem: every gem of that colour is cleared, and the moss under them."
+msgstr "Нажми кнопку её силы (или 4) и выбери камень: все камни этого цвета исчезнут вместе с мхом под ними."
+
+msgid "Press her power button (or 4), then pick a gem: its whole row and column clear. Seals in them break."
+msgstr "Нажми кнопку её силы (или 4) и выбери камень: вся его строка и столбец очистятся. Печати в них ломаются."
+
+msgid "Press her power button (or 4): every seed and sprout on the board grows one stage."
+msgstr "Нажми кнопку её силы (или 4): каждое семечко и росток на поле подрастают на одну ступень."
+
+msgid "Press her power button (or 4): the two rows nearest the surface clear, and everything rises two rows."
+msgstr "Нажми кнопку её силы (или 4): два ряда у поверхности очищаются, и всё поднимается на два ряда."
 
 msgid "Pretty. Don't tell my sisters I said that."
 msgstr "Красиво. Только сёстрам не говори."
@@ -1319,6 +1478,9 @@ msgstr "Перечитать (L или прокрутка вверх)"
 
 msgid "Read it for three more moves in the chapter you're playing. Use it from the item row under the board — it also gets you out of an Out of Moves screen."
 msgstr "Прочитай его — и получишь ещё три хода в текущей главе. Используй его из ряда предметов под полем — он также выручит на экране «Ходы закончились»."
+
+msgid "Ready!"
+msgstr "Готово!"
 
 msgid "Reduce Motion"
 msgstr "Меньше анимации"
@@ -1374,6 +1536,9 @@ msgstr "Если ходы закончились, ты всё равно пол�
 msgid "Running out still pays you a few stars. Try again, read a Time Scroll, or visit the shop. Later chapters are hard without power-ups: short on stars, replay a chapter you've cleared from her card on the roster. Lose three times in a row and you can carry on with the story anyway."
 msgstr "Даже если ходы закончились, ты получишь несколько звёзд. Попробуй снова, прочитай Свиток времени или загляни в магазин. Поздние главы трудно пройти без усилений: если не хватает звёзд, сыграй снова пройденную главу с её карточки в списке. Если проиграть три раза подряд, можно всё равно продолжить историю."
 
+msgid "SEALS BROKEN"
+msgstr "ПЕЧАТЕЙ СЛОМАНО"
+
 msgid "Saltwick Cove, an hour before sunset. You're on the cliff path when the shouting starts."
 msgstr "Бухта Солтвик, за час до заката. Ты идёшь по тропе над обрывом, когда внизу начинаются крики."
 
@@ -1386,11 +1551,23 @@ msgstr "Скажи. Имя, которое я тебе дала."
 msgid "Scroll"
 msgstr "Прокрутка"
 
+msgid "Sealed. Match it by moving the gems beside it."
+msgstr "Запечатано. Собери его, двигая камни рядом."
+
+msgid "Seals broken"
+msgstr "Печатей сломано"
+
 msgid "See the whole picture (H)"
 msgstr "Посмотреть картинку целиком (H)"
 
 msgid "See? Closed rings. It isn't hard."
 msgstr "Видишь? Замкнутые кольца. Это не трудно."
+
+msgid "Seeds can't be moved. Make matches next to them to make them grow."
+msgstr "Семена нельзя двигать. Собирай совпадения рядом, чтобы они росли."
+
+msgid "Seeds sit on the board and fall like gems, but can't be moved or matched. Every match right next to one grows it: seed, sprout, blossom. A blossom pops: +100 and the cells around it clear. Ember matches don't count: she dislikes ember."
+msgstr "Семена лежат на поле и падают как камни, но их нельзя двигать или собирать. Каждое совпадение прямо рядом выращивает семечко: семя, росток, цветок. Цветок раскрывается: +100, и клетки вокруг очищаются. Угольки не считаются: она их не любит."
 
 msgid "Select"
 msgstr "Выбрать"
@@ -1599,6 +1776,9 @@ msgstr "Так. Прошлая ночь. Я плавала неподалёку 
 msgid "Soft as Moss"
 msgstr "Мягче мха"
 
+msgid "Some gems carry her ink seal. A sealed gem can't be picked up, but it still counts in a match you make by moving the gems beside it. The first match, blast or Hammer breaks the seal and the gem stays."
+msgstr "На некоторых камнях её чернильная печать. Запечатанный камень нельзя взять, но он засчитывается в совпадение, если двигать камни рядом. Первое совпадение, взрыв или Молоток ломают печать, а камень остаётся."
+
 msgid "Someone bought that off a market stall. I can tell."
 msgstr "Это купили на рыночном лотке. Я чувствую."
 
@@ -1686,6 +1866,12 @@ msgstr "Магазин"
 msgid "Succubus, summoned by mistake"
 msgstr "Суккуб, вызванная по ошибке"
 
+msgid "Summer"
+msgstr "Лето"
+
+msgid "Summer!"
+msgstr "Лето!"
+
 msgid "Sure. After I've shelved these returns."
 msgstr "Конечно. Как только расставлю возвраты по полкам."
 
@@ -1703,6 +1889,9 @@ msgstr "Поменяй местами два особых камня."
 
 msgid "Swim with me later. Don't embarrass me again."
 msgstr "Поплавай со мной потом. И не позорь меня снова."
+
+msgid "THINGS FOUND"
+msgstr "ВЕЩЕЙ НАЙДЕНО"
 
 msgid "TIP"
 msgstr "СОВЕТ"
@@ -1851,6 +2040,9 @@ msgstr "В каталожном ящике пустое место, где до�
 msgid "The comb is in a tin of odds and ends on the Pellow brothers' boat: fishing weights, a doll's head, and nine pearls on a silver spine. It costs you two weeks' pay and a lot of explaining."
 msgstr "Гребень находится в жестянке с мелочами на лодке братьев Пеллоу: грузила, голова куклы и девять жемчужин на серебряной основе. Это обходится тебе в двухнедельный заработок и много объяснений."
 
+msgid "The comb piece can't be hammered. Bring it up to the surface."
+msgstr "Кусочек гребня нельзя разбить молотком. Подними его на поверхность."
+
 msgid "The ferns tell me you were talking to the miller's daughter. I'm not jealous. But I might drop a branch near her, that's all."
 msgstr "Папоротники говорят, ты болтал с дочкой мельника. Я не ревную. Просто могу уронить ветку рядом с ней, вот и всё."
 
@@ -1950,6 +2142,9 @@ msgstr "Верхний ряд применяется во время главы;
 msgid "The trench reaches the river on the night of a storm. Water floods into the new channel, and the whole tree shudders."
 msgstr "Канава доходит до реки в ночь грозы. Вода устремляется в новое русло, и всё дерево содрогается."
 
+msgid "The two rows nearest the surface clear, and everything rises two rows."
+msgstr "Два ряда у поверхности очищаются, и всё поднимается на два ряда."
+
 msgid "The water in the cove is warm and black and full of moonlight. She surfaces right in front of you, close enough that her hair brushes your face."
 msgstr "Вода в бухте тёплая, чёрная и полна лунного света. Она всплывает прямо перед тобой, так близко, что волосы касаются твоего лица."
 
@@ -2016,6 +2211,9 @@ msgstr "Они пара. Я не стану разлучать пару."
 msgid "They're not strangers. I heard every one of them go by. From the jar."
 msgstr "Они не чужие. Я слышала, как каждая проходила мимо. Из банки."
 
+msgid "Things found"
+msgstr "Вещей найдено"
+
 msgid "This erases every girl's story progress, your stars, items, gifts and the whole Gallery. Your settings and achievements are kept. This can't be undone."
 msgstr "Это сотрёт прогресс историй всех девушек, твои звёзды, предметы, подарки и всю Галерею. Настройки и достижения сохранятся. Это нельзя отменить."
 
@@ -2036,6 +2234,9 @@ msgstr "Это мои. Я-я собирала их годами."
 
 msgid "Time Scroll"
 msgstr "Свиток времени"
+
+msgid "To find the book, break every seal on the board. The counter under the board shows how many are done."
+msgstr "Чтобы найти книгу, сломай все печати на поле. Счётчик под полем показывает, сколько уже готово."
 
 msgid "Toggle"
 msgstr "Переключить"
@@ -2358,11 +2559,23 @@ msgstr "Второе кольцо не замкнуто. Эта печать п�
 msgid "Yours. Fine. I'm bringing my own candles."
 msgstr "Твой. Хорошо. Свои свечи принесу сама."
 
+msgid "a button"
+msgstr "пуговица"
+
+msgid "a key"
+msgstr "ключ"
+
+msgid "a marble"
+msgstr "стеклянный шарик"
+
 msgid "after your next move"
 msgstr "после твоего следующего хода"
 
 msgid "in %d moves"
 msgstr "через %d хода"
+
+msgid "the glass eye"
+msgstr "стеклянный глаз"
 
 msgid "←  Back"
 msgstr "←  Назад"

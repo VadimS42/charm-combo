@@ -18,6 +18,11 @@
 ##   mode=dist      casual bot's final score (all moves played, no reply
 ##                  bonus) at the 10th..90th percentile, per chapter and
 ##                  power-up: a target at the 70th percentile = 30% win
+##   mode=girls     round 44: each girl's piece, goal and power (PuzzleRules),
+##                  win % per chapter, no power-ups (girl=all for everyone)
+##   mode=girldist  round 44: score spread (ch 1-2) / moves needed (ch 3-4)
+##   mode=girlfuzz  round 44: 10k starting boards per girl and chapter
+##   (plain/items/campaign/dist still play the classic round-33 scoring)
 ##   runs=300 fuzz=10000 seed=1 girl=dryad
 ##   targets=700,1000,1300,1500 moves=15,15,16,18   try numbers without
 ##                  editing data/characters.json
@@ -103,6 +108,12 @@ func _main() -> void:
 		_campaign()
 	if mode == "dist":
 		_dist_table()
+	if mode in ["girls"]:
+		_girls_table()
+	if mode in ["girldist"]:
+		_girls_dist()
+	if mode in ["girlfuzz"]:
+		_girls_fuzz()
 	quit()
 
 
@@ -607,3 +618,242 @@ func _fuzz_boards() -> void:
 	print("  pre-made matches: %d" % premade)
 	print("  no valid move as built: %d (rebuilt by the game)" % no_move)
 	print("  no valid move even after rebuilding: %d" % no_move_after_retry)
+
+
+# ---------------------------------------------------------------- round 44
+# Each girl's own piece, goal and Charm power (scripts/PuzzleRules.gd). These
+# two modes play PuzzleRules itself, so they always match the game:
+#   mode=girls      win % per girl and chapter, no power-ups, no reply bonus
+#   mode=girlfuzz   10k starting boards per girl and chapter
+# (The older modes above still play the classic scoring of round 33.)
+
+var _rules_script
+
+
+func _rules(ch: Dictionary, i: int) -> PuzzleRules:
+	if _rules_script == null:
+		_rules_script = load("res://scripts/PuzzleRules.gd")
+		_rules_script.reload(true)
+	var gs = root.get_node("GameState")
+	gs.items = {}
+	gs.progress_for(String(ch.id))["gifts_given"] = []
+	var r = _rules_script.new()
+	r.setup(ch, i, CharacterData.compute_weights(ch, i))
+	return r
+
+
+## One chapter, played like the game: {won, moves_left, score, goal}.
+func _play_girl(ch: Dictionary, i: int, greedy: float, moves_cap := -1, no_target := false) -> Dictionary:
+	var rules := _rules(ch, i)
+	var level: Dictionary = ch.story.levels[i]
+	var moves := _moves(ch, i) if moves_cap < 0 else moves_cap
+	var start_moves := moves
+	if no_target:
+		rules.target = 1 << 30
+	elif i < targets.size():
+		rules.target = int(targets[i])
+	var score := 0
+	var charm := 0
+	var charged := false
+	var power_on := rules.power_id != ""
+	while not rules.won(score) and moves > 0:
+		if charged:
+			charged = false
+			charm = 0
+			score += _use_power(rules)
+			if rules.won(score):
+				break
+		var swaps := rules.all_swaps()
+		if swaps.is_empty():
+			rules.board = rules.fresh_board()
+			continue
+		var mv: Dictionary
+		if randf() < greedy:
+			var best := -1e9
+			for s in swaps:
+				var v := _girl_value(rules, s)
+				if v > best:
+					best = v
+					mv = s
+		else:
+			mv = swaps[randi() % swaps.size()]
+		var out := rules.play_swap(mv.r1, mv.c1, mv.r2, mv.c2)
+		moves -= 1
+		score += int(out.points)
+		charm += int(out.charm)
+		if charm >= MatchEngine.CHARM_MAX:
+			if power_on:
+				charged = true
+				charm = MatchEngine.CHARM_MAX
+			else:
+				charm = 0
+				score += 150
+		rules.after_move()
+		if not rules.has_move():
+			rules.board = rules.fresh_board()
+	return {"won": rules.won(score), "moves_left": moves, "score": score, "goal": rules.goal_progress(),
+		"used": start_moves - moves}
+
+
+## How good a swap looks one step ahead: points, plus progress toward her goal.
+func _girl_value(rules: PuzzleRules, s: Dictionary) -> float:
+	var t: PuzzleRules = rules.copy()
+	var before := t.goal_progress()
+	var cells: Dictionary
+	var t1: int = t.board[s.r1][s.c1]
+	var t2: int = t.board[s.r2][s.c2]
+	var is_match := true
+	var specials := 0
+	if MatchEngine.is_special(t1) or MatchEngine.is_special(t2):
+		is_match = false
+		cells = {}
+		for p in [[t1, s.r1, s.c1], [t2, s.r2, s.c2]]:
+			if MatchEngine.is_special(p[0]):
+				cells.merge(MatchEngine.detonation_cells(MatchEngine.special_kind(p[0]), p[1], p[2]))
+	else:
+		t.board[s.r1][s.c1] = t2
+		t.board[s.r2][s.c2] = t1
+		var res := MatchEngine.analyze_matches(t.board, {"r": s.r2, "c": s.c2})
+		cells = res.matched_cells
+		specials = res.specials.size()
+	var moss_before := _count_moss(t)
+	var rep := t.clear_cells(cells, is_match)
+	var v: float = float(rep.gain + rep.bonus) + 30.0 * specials
+	v += 25.0 * rep.grown.size() + 12.0 * (moss_before - _count_moss(t))
+	if t.mech == "tide":
+		# Cells cleared above a comb piece lift it.
+		for k in rep.cleared.keys():
+			var p := PuzzleRules.unkey(k)
+			for r in range(p.x + 1, PuzzleRules.SIZE):
+				if t.board[r][p.y] == PuzzleRules.COMB:
+					v += 14.0 + 6.0 * (PuzzleRules.SIZE - r)
+	return v + 80.0 * (t.goal_progress() - before)
+
+
+func _count_moss(t: PuzzleRules) -> int:
+	var n := 0
+	for row in t.moss:
+		for m in row:
+			if m > 0:
+				n += 1
+	return n
+
+
+## Her power, used as well as the bot can: returns the points it made.
+func _use_power(rules: PuzzleRules) -> int:
+	if rules.power_id == "summer":
+		var rep := rules.summer()
+		var pts := int(rep.gain) + int(rep.bonus)
+		rules.collapse()
+		return pts + int(rules.play_blast({}).points)
+	var best := -1e9
+	var pick := Vector2i(0, 0)
+	if rules.power_needs_pick():
+		for r in range(PuzzleRules.SIZE):
+			for c in range(PuzzleRules.SIZE):
+				if not rules.power_can_pick(r, c):
+					continue
+				var t: PuzzleRules = rules.copy()
+				var b: int = t.goal_progress()
+				var rep := t.clear_cells(t.power_cells(r, c), false)
+				var v: float = float(rep.gain + rep.bonus) + 80.0 * (t.goal_progress() - b) + 4.0 * rep.hit.size()
+				if v > best:
+					best = v
+					pick = Vector2i(r, c)
+	return int(rules.play_blast(rules.power_cells(pick.x, pick.y)).points)
+
+
+func _girls_table() -> void:
+	print("")
+	print("Each girl's piece, goal and power (round 44). No power-ups, no reply bonus, casual bot (%d%% greedy), %d runs." % [int(CASUAL_GREEDY * 100), runs])
+	print("girl      ch  goal              target  moves   win %%  moves left (wins)")
+	var who: Array = CharacterData.all() if girl == "all" else [CharacterData.by_id(girl)]
+	for ch in who:
+		for i in range(ch.story.levels.size()):
+			var level: Dictionary = ch.story.levels[i]
+			var wins := 0
+			var left := 0
+			for n in range(runs):
+				var res := _play_girl(ch, i, CASUAL_GREEDY)
+				if res.won:
+					wins += 1
+					left += int(res.moves_left)
+			var g: Dictionary = level.get("goal", {})
+			var goal := ("%s %d" % [g.kind, g.n]) if not g.is_empty() else "-"
+			print("%-9s %d   %-16s  %6d  %5d  %5.0f%%  %4.1f" % [ch.id, i + 1, goal, _target(ch, i), _moves(ch, i),
+				100.0 * wins / runs, float(left) / maxi(1, wins)])
+
+
+func _girls_fuzz() -> void:
+	print("")
+	print("Starting-board fuzz, %d boards per girl and chapter (round 44)." % fuzz)
+	for ch in CharacterData.all():
+		for i in range(ch.story.levels.size()):
+			var level: Dictionary = ch.story.levels[i]
+			var p: Dictionary = level.get("pieces", {})
+			var bad := {"no move": 0, "pre-made match": 0, "pieces missing": 0, "unreachable": 0}
+			for n in range(fuzz):
+				var r := _rules(ch, i)
+				if not r.has_move():
+					bad["no move"] += 1
+				if not MatchEngine.analyze_matches(r.board).matched_cells.is_empty():
+					bad["pre-made match"] += 1
+				match r.mech:
+					"seal":
+						if r.seals_left() != int(p.get("start", 0)):
+							bad["pieces missing"] += 1
+					"tide":
+						if r.count(PuzzleRules.COMB) != int(p.get("combs", 0)):
+							bad["pieces missing"] += 1
+						# Every comb piece can rise: nothing but gems above it.
+						for c in range(PuzzleRules.SIZE):
+							for rr in range(PuzzleRules.SIZE):
+								if r.board[rr][c] == PuzzleRules.COMB and rr < 6:
+									bad["unreachable"] += 1
+					"moss":
+						var items := 0
+						var cells := 0
+						for row in r.moss:
+							for m in row:
+								cells += 1 if m > 0 else 0
+								items += 1 if m >= 2 else 0
+						if cells != int(p.get("cells", 0)) or items != int(p.get("items", 0)):
+							bad["pieces missing"] += 1
+					"seed":
+						if r.count(PuzzleRules.SEED) != int(p.get("start", 0)):
+							bad["pieces missing"] += 1
+				var g: Dictionary = level.get("goal", {})
+				if not g.is_empty() and r.mech == "seal" and r.seals_left() < int(g.n):
+					bad["unreachable"] += 1
+				if not g.is_empty() and r.mech == "moss":
+					var it := 0
+					for row in r.moss:
+						for m in row:
+							it += 1 if m >= 2 else 0
+					if it < int(g.n):
+						bad["unreachable"] += 1
+			print("%-9s ch%d  %s" % [ch.id, i + 1, ", ".join(bad.keys().map(func(k): return "%s %d" % [k, bad[k]]))])
+
+
+## For tuning: chapters 1-2, the score after all their moves (a target at the
+## Nth percentile wins 100-N %); chapters 3-4, the moves it took to reach the
+## goal (and the score target in 4) with up to 60 moves (moves at the Nth
+## percentile win about N %).
+func _girls_dist() -> void:
+	print("")
+	print("Score after all moves (ch 1-2) / moves needed (ch 3-4), percentiles 15 25 35 45 55 65 75 85, %d runs" % runs)
+	var who: Array = CharacterData.all() if girl == "all" else [CharacterData.by_id(girl)]
+	for ch in who:
+		for i in range(ch.story.levels.size()):
+			var vals: Array = []
+			for n in range(runs):
+				if i < 2:
+					vals.append(int(_play_girl(ch, i, CASUAL_GREEDY, -1, true).score))
+				else:
+					var res := _play_girl(ch, i, CASUAL_GREEDY, 60)
+					vals.append(int(res.used) if res.won else 99)
+			vals.sort()
+			var row: Array = []
+			for q in [15, 25, 35, 45, 55, 65, 75, 85]:
+				row.append(str(vals[mini(vals.size() - 1, vals.size() * q / 100)]))
+			print("%-9s %d  %s" % [ch.id, i + 1, "  ".join(row)])

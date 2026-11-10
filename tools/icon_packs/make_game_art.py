@@ -344,9 +344,45 @@ def main():
         tint_frame("FrameRound", ch["c"], SIZE).save(os.path.join(TILES, ch["id"] + "_slot.png"))
         tint_frame("FrameSquare", ch["c"], 192, face_alpha=0.7).save(os.path.join(FRAMES, ch["id"] + ".png"))
     ui_icons()
+    pieces()
     achievements()
     print("gems, specials, interface icons and %d girls' tiles written" % len(chars))
 
+
+
+# ---------------------------------------------------------------- pieces
+# Round 44: each girl's board piece, goal and Charm power, painted from
+# game-icons.net silhouettes (CC BY 3.0, credited) like the rest of the art.
+# art/pieces/<name>.png (128) and art/ui/power_<id>.png (128).
+
+PIECES = {
+    "seal": ("wax-seal", "#C8324A", "#6E1028", "#3A0614"),        # Amara's ink seal
+    "comb": ("comb", "#FFF6E6", "#D9C2A0", "#6E5A3C"),            # Marina's pearl comb piece
+    "moss": ("grass", "#9BE06A", "#3F8A2E", "#1F4416"),           # Opal's moss
+    "item_button": ("shirt-button", "#F2C46A", "#A8742A", "#4A3010"),
+    "item_key": ("key", "#F4D27A", "#B08A2E", "#4A3A10"),
+    "item_eye": ("eyeball", "#FFFFFF", "#9CC8E8", "#2E4A6A"),
+    "seed": ("plant-seed", "#C99A62", "#7A5230", "#3A2410"),      # Hazel's seed
+    "sprout": ("sprout", "#B6F07A", "#4E9E34", "#20461A"),
+    "blossom": ("daisy", "#FFE0F0", "#F06AB0", "#7A1E50"),
+}
+POWERS = {
+    "lines": ("quill-ink", "#E8D9FF", "#9A5CF0", "#3A1E66"),     # Amara: Correct Lines
+    "tide": ("wave-crest", "#C8F0FF", "#2FA8E0", "#0E3E5A"),     # Marina: High Tide
+    "absorb": ("slime", "#F0D8FF", "#B57AE6", "#4A2466"),        # Opal: Absorb
+    "summer": ("sun", "#FFF2A0", "#F0A030", "#6A3A0A"),          # Hazel: Summer
+}
+
+
+def pieces():
+    out = os.path.join(ROOT, "art", "pieces")
+    os.makedirs(out, exist_ok=True)
+    for name, (src, top, bottom, rim) in PIECES.items():
+        painted_glyph(src, top, bottom, rim).save(os.path.join(out, name + ".png"))
+    marble().save(os.path.join(out, "item_marble.png"))
+    ui = os.path.join(ROOT, "art", "ui")
+    for pid, (src, top, bottom, rim) in POWERS.items():
+        painted_glyph(src, top, bottom, rim).save(os.path.join(ui, "power_" + pid + ".png"))
 
 
 # ---------------------------------------------------------------- achievements

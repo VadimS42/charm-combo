@@ -17,6 +17,55 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-44 — each girl plays differently
+
+Each girl now has her own board piece, goal and Charm power. The rules live in
+`scripts/PuzzleRules.gd`, which both the puzzle screen and the bot play, so
+the bot can't drift from the game. All the numbers are per level in
+`data/characters.json`:
+
+| Field | What it sets |
+|---|---|
+| `"mech"` | Which piece the chapter uses |
+| `"pieces"` | How many pieces, and their settings |
+| `"goal"` | The goal's kind and count |
+| `"target"` | The score target; 0 means her goal only |
+| `"moves"` | Moves for the chapter |
+| `"power"` (per girl) | Her Charm power's name and description |
+
+**For every girl:**
+- **Scoring:** her favourite gem scores double and her disliked gem half. A legend at the top of her side shows which is which.
+- **Chapter order:**
+  - Chapter 1 plays as before. A full Charm ring is a Charm Burst (+150).
+  - Chapter 2 brings in her piece, and a full ring becomes one charge of her power. You use it from a button next to the ring, or with 4 / LB. You hold at most one charge, and the ring refills after use. What the power clears doesn't fill the ring again. The first use unlocks the Charm Burst achievement.
+  - Chapter 3 is her goal only. The warm reply's head start there is +2 moves.
+  - Chapter 4 is her goal plus a score target.
+- **Hard:** the "guard" date event (it raises the score target) is skipped on goal-only chapters. Cursed-shard events never land on a sealed gem.
+
+**Her piece, goal and power:**
+
+| | Piece | Goal | Power |
+|---|---|---|---|
+| **Amara** | Ink seals on gems. A sealed gem can't be picked up but still matches. A match, blast or Hammer breaks the seal and the gem stays. | Break every seal | Correct Lines: pick a gem, and its row and column clear |
+| **Marina** | The tide: gems rise and new ones come up from the bottom. | Comb pieces. They start at the bottom, rise as the gems above them clear, and are collected at the top row. They can't be hammered. | High Tide: the top two rows clear |
+| **Opal** | Moss under cells, cleared by a match, blast or Hammer on that cell. Some moss hides a button, marble, key or the glass eye, which flies to the counter. | Find her things | Absorb: pick a gem, and every gem of that colour clears |
+| **Hazel** | Seeds. They can't be moved or matched. A match beside one grows it: seed, sprout, then blossom. A blossom pops for +100 and clears the 8 cells around it. Ember matches don't count. A new seed drops in every 4 moves while there are fewer than 3. | Grow blossoms | Summer: every seed and sprout grows one stage |
+
+**What still works with the new pieces:**
+- **Items:** Shuffle and the free reshuffle keep the pieces where they are. The Hammer works on her pieces; the shake-and-say-why answers when you try to pick up a sealed gem, seed or comb piece.
+- **Starts and hints:** the idle hint, the Starburst Starter and keyboard/pad play all handle the pieces.
+- **Reduce Motion:** turns off the fly-to-counter animation.
+
+**Other changes:**
+- **Teaching:** a first-time tip for each piece, goal and power, all of them also on the How to Play page.
+- **Art:** the art is painted from game-icons.net silhouettes (Lorc, Delapouite; CC BY 3.0, credited). It's in `art/pieces/` and `art/ui/power_*.png`, built by `make_game_art.py`.
+- **Saves:** old saves need no change. The progress format is the same, so won chapters stay won.
+- **Tests:**
+  - `tools/mechanics_test.gd` plays every girl's chapters on the real screen with swaps, the Hammer, Shuffle, her power and the hint.
+  - The smoke test now finishes goal chapters too.
+  - Two new bot modes: `mode=girls` (win %), `mode=girldist` (score / moves-needed spread for tuning) and `mode=girlfuzz`.
+- **Balance:** casual bot, no items, no reply bonus, 300 runs per chapter. Chapters 1–2 win 73–87%, chapters 3–4 win 57–76%. The 10k-board fuzz per girl and chapter found no dead boards, no ready-made matches and no missing or unreachable pieces.
+
 ## ✅ Status: round-43 — Opal speaks; Hazel's heart is in the tree
 
 - **Opal's voice**: 64 lines and 6 sounds in `audio/voice/slime/`. They were

@@ -8,6 +8,8 @@
 | `hourglass_lorc.png` | "Hourglass" by Lorc, game-icons.net | CC BY 3.0, credited in `data/credits.txt` |
 | `game-icons/gem-pendant.png`, `sundial.png`, `candle-light.png` | Lorc, game-icons.net | CC BY 3.0, credited (the candle isn't used: it's drawn) |
 | `game-icons/present.png`, `marbles.png` | Delapouite, game-icons.net | CC BY 3.0, credited (the marble isn't used: it's drawn) |
+| `game-icons/wax-seal.png`, `comb.png`, `key.png`, `eyeball.png`, `sprout.png`, `daisy.png`, `quill-ink.png`, `wave-crest.png`, `sun.png` | Lorc, game-icons.net | CC BY 3.0, credited (round 44: board pieces and Charm powers) |
+| `game-icons/grass.png`, `shirt-button.png`, `plant-seed.png`, `slime.png` | Delapouite, game-icons.net | CC BY 3.0, credited (round 44) |
 | `Letter.png`, `TomeRed.png`, `X.png` | Ravenmore | as above |
 | `yg_19.png` (Starburst) | "MIX gems" | as above |
 
