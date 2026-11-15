@@ -187,6 +187,10 @@ var power_mode := false
 ## Her power's own clears (and the cascades after) don't fill the ring again.
 var _power_resolving := false
 var _power_btn: Button
+## Buttons that show their pad button / key in a corner while playing with a
+## controller or keys: [Button, Nav.glyph() name] (round 45).
+var _glyph_btns: Array = []
+var _nav_cb: Callable
 var _power_lbl: Label
 var _goal_v: Control
 var _goal_lbl: Label
@@ -346,8 +350,12 @@ func setup(p_main: Node, p_host: Control, p_char_id: String, p_replay: int = -1)
 		"cc_item_hammer": func(): _on_item_pressed("hammer"),
 		"cc_item_shuffle": func(): _on_item_pressed("shuffle"),
 		"cc_power": _on_power_pressed,
-	}, [["accept", "Pick up"], ["move", "Swap"], ["hammer", "Hammer"], ["shuffle", "Shuffle Wand"],
-		["moves", "Time Scroll"]] + ([["power", "Her power"]] if rules.power_id != "" else []) + [["pause", "Settings"]])
+	}, [["accept", "Pick up"], ["move", "Swap"], ["back", "Put down"], ["pause", "Settings"]])
+	# The item and power buttons show their own pad button / key (round 45),
+	# instead of a long hint row.
+	_nav_cb = func(_on: bool): _refresh_glyphs()
+	Nav.mode_changed.connect(_nav_cb)
+	_refresh_glyphs()
 
 
 ## Called before this screen is torn down by any navigation away from it —
@@ -371,6 +379,8 @@ func _tip_for_board() -> void:
 func teardown() -> void:
 	HowToPlay.clear_queue()
 	_torn_down = true
+	if _nav_cb.is_valid() and Nav.mode_changed.is_connected(_nav_cb):
+		Nav.mode_changed.disconnect(_nav_cb)
 	# Cancels any pending "back to neutral" expression timer (_react_sprite()),
 	# which would otherwise fire on a sidebar that's already been freed.
 	_sprite_token += 1
@@ -995,6 +1005,7 @@ func _power_slot() -> Control:
 	b.add_theme_stylebox_override("focus", UITheme.focus_ring(28))
 	b.pressed.connect(_on_power_pressed)
 	_power_btn = b
+	_glyph_btns.append([b, "power"])
 	wrap.add_child(b)
 	_power_lbl = Label.new()
 	_power_lbl.add_theme_font_size_override("font_size", 10)
@@ -1011,6 +1022,25 @@ func _power_slot() -> Control:
 	wrap.add_child(lw)
 	_refresh_power()
 	return wrap
+
+
+## The pad button / key on each item and power button, only in nav mode.
+func _refresh_glyphs() -> void:
+	if _torn_down:
+		return
+	for pair in _glyph_btns:
+		var b: Button = pair[0]
+		if not is_instance_valid(b):
+			continue
+		var old := b.get_node_or_null("Glyph")
+		if old:
+			old.queue_free()
+		if not Nav.nav_mode:
+			continue
+		var cap := UITheme.keycap(Nav.glyph(String(pair[1])), true)
+		cap.name = "Glyph"
+		cap.position = Vector2(-6, -8)
+		b.add_child(cap)
 
 
 ## Her likes on the board (round 44): her favourite gem scores double, the
@@ -1136,6 +1166,7 @@ func _item_slot(item_id: String) -> Control:
 
 	b.pressed.connect(_on_item_pressed.bind(item_id))
 	item_btns[item_id] = b
+	_glyph_btns.append([b, item_id])
 
 	if item_id == "hammer" and armed_box:
 		_hammer_unarmed_style = normal_box
@@ -1240,6 +1271,7 @@ func _on_item_pressed(item_id: String) -> void:
 			moves_left += 3
 			var was_locked := overlay.visible
 			overlay.visible = false
+			_set_board_focus(true)
 			_update_hud()
 			if was_locked and Nav.nav_mode:
 				cell_buttons[3][3].grab_focus.call_deferred()
@@ -1517,6 +1549,15 @@ func _render_board(pop_cells: Dictionary = {}) -> void:
 		tw.tween_interval(randf() * 0.06)
 		tw.tween_property(btn, "scale", Vector2.ONE, 0.22) \
 			.set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+
+
+## The board's cells can't take the focus ring while the out-of-moves (or
+## replay-cleared) panel covers them, so the D-pad reaches that panel's
+## buttons instead of wandering under it (round 45).
+func _set_board_focus(on: bool) -> void:
+	for row in cell_buttons:
+		for b in row:
+			(b as Button).focus_mode = Control.FOCUS_ALL if on else Control.FOCUS_NONE
 
 
 ## A quick, satisfying scale-punch on one cell — used for "you just swapped
@@ -2729,6 +2770,7 @@ func _show_replay_win() -> void:
 	for c in overlay.get_children():
 		c.queue_free()
 	overlay.visible = true
+	_set_board_focus(false)
 	hammer_mode = false
 	_refresh_all_items()
 	var v := VBoxContainer.new()
@@ -2800,6 +2842,7 @@ func _show_lose_overlay() -> void:
 	for c in overlay.get_children():
 		c.queue_free()
 	overlay.visible = true
+	_set_board_focus(false)
 	hammer_mode = false
 	# Hammer/Shuffle go dark under the overlay (see _refresh_item_button()).
 	_refresh_all_items()

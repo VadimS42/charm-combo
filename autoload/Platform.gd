@@ -173,6 +173,8 @@ func set_presence(status: String, girl: String = "", chapter: int = 0) -> void:
 
 
 func is_steam_deck() -> bool:
+	if OS.get_environment("SteamDeck") == "1":
+		return true
 	return steam != null and steam.has_method("isSteamRunningOnSteamDeck") and bool(steam.isSteamRunningOnSteamDeck())
 
 

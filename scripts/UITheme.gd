@@ -122,6 +122,13 @@ static func make_scroll_navigable(scroll: ScrollContainer) -> void:
 			step = 90
 		elif ev.is_action_pressed("ui_up") or ev.is_action_pressed("cc_scroll_up"):
 			step = -90
+		# At the top (or bottom) the D-pad moves on to the control above (or
+		# below) instead, e.g. the Back button (round 45: it was unreachable).
+		var bar := scroll.get_v_scroll_bar()
+		var at_top := scroll.scroll_vertical <= 0
+		var at_end := scroll.scroll_vertical >= int(bar.max_value - bar.page) - 1
+		if ev.is_action_pressed("ui_up") and at_top or ev.is_action_pressed("ui_down") and at_end:
+			return
 		if step != 0:
 			scroll.scroll_vertical += step
 			scroll.accept_event()

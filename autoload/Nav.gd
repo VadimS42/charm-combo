@@ -8,8 +8,12 @@
 ##   Backspace / B                 back (close a dialog or Settings, leave a list)
 ##   Esc / Start                   open or close Settings
 ##   1 / RB, 2 / X, 3 / Y          +3 Moves, Hammer, Shuffle in a chapter
+##   4 / LB                        her Charm power, once the ring is full (round 44)
 ##   Page Up/Down / right stick    scroll long pages (Credits, Achievements)
-## The focus ring and the button hints in the top bar only show while you're
+## Steam Deck (round 45): starts in pad mode with the focus ring showing, the
+## first launch is fullscreen, and the bumpers are named L1/R1 as on the Deck.
+## The focus ring and the button hints (a pill at the top centre; in a chapter
+## each item shows its own button) only show while you're
 ## using keys or a pad ("nav mode"). The moment the mouse moves, clicks or the
 ## screen is touched, they disappear again, so mouse play looks exactly as it
 ## did before.
@@ -29,9 +33,20 @@ var gamepad := false
 const JOY_DEADZONE := 0.5
 
 
+## Running on a Steam Deck (round 45): SteamOS sets SteamDeck=1 for games;
+## Steam's own check is used too when Steam is running.
+var deck := false
+
+
 func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS
 	_setup_actions()
+	deck = OS.get_environment("SteamDeck") == "1"
+	if deck:
+		# The Deck is a controller: start with the focus ring and pad hints
+		# showing, no pointer; touching the screen still switches to touch.
+		_set_mode.call_deferred(true, true)
+		focus_default.call_deferred()
 
 
 func _setup_actions() -> void:
@@ -152,7 +167,7 @@ func _set_mode(on: bool, pad: bool) -> void:
 
 static func _is_nav_key(code: int) -> bool:
 	return code in [KEY_UP, KEY_DOWN, KEY_LEFT, KEY_RIGHT, KEY_TAB, KEY_ENTER, KEY_KP_ENTER,
-		KEY_SPACE, KEY_BACKSPACE, KEY_PAGEUP, KEY_PAGEDOWN, KEY_1, KEY_2, KEY_3]
+		KEY_SPACE, KEY_BACKSPACE, KEY_PAGEUP, KEY_PAGEDOWN, KEY_1, KEY_2, KEY_3, KEY_4]
 
 
 static func _is_direction(event: InputEvent) -> bool:
@@ -170,13 +185,13 @@ func glyph(what: String) -> String:
 		"back": return "B" if gamepad else "Backspace"
 		"pause": return "Start" if gamepad else "Esc"
 		"move": return "D-pad" if gamepad else "Arrows"
-		"moves": return "RB" if gamepad else "1"
+		"moves": return ("R1" if deck else "RB") if gamepad else "1"
 		"hammer": return "X" if gamepad else "2"
 		"shuffle": return "Y" if gamepad else "3"
-		"power": return "LB" if gamepad else "4"
+		"power": return ("L1" if deck else "LB") if gamepad else "4"
 		"scroll": return "Right stick" if gamepad else "PgUp/PgDn"
-		"skip": return "RB (hold)" if gamepad else "Ctrl (hold)"
+		"skip": return ("R1 (hold)" if deck else "RB (hold)") if gamepad else "Ctrl (hold)"
 		"auto": return "Y" if gamepad else "A"
-		"log": return "LB" if gamepad else "L"
+		"log": return ("L1" if deck else "LB") if gamepad else "L"
 		"hide": return "X" if gamepad else "H"
 	return what

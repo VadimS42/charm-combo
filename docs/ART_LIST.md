@@ -103,7 +103,7 @@ Her **night scene** plays over three full-screen pictures (round 29), switching 
 
 | Asset | File | What to draw / spec | Status |
 |---|---|---|---|
-| Background | `art/backgrounds/mermaid_cove.png` | Saltwick Cove: the pier, lanterns, rocks and water at dusk. Have (1280 × 800). Optional: a 2560 × 1600 version would stay sharper under the roster's zoom. | Have |
+| Background | `art/backgrounds/mermaid_cove.png` | Saltwick Cove: the beach, the sea and the castle on the cliff (round 45, 1920 × 1200). | Have |
 | Puzzle frame | `art/frames/mermaid.png` | Driftwood and rope, with shells, sea glass and a bit of net. 1024 × 1016 px, transparent PNG, shown at 512 × 508 behind the gem board. Put the ornament in the outer 72 px band; the middle 880 × 872 must stay transparent (or a very faint texture), because it shows between the gems. | To make |
 | Gift icon — Frosted Sea-Glass Pendant | `art/gifts/seaGlass.png` | A frosted chip of sea glass on a plain cord. 256 × 256 px, transparent PNG. Shown at 24 px on her gift button, so keep the silhouette bold. | To make |
 | Idle animation | `art/characters/mermaid/idle/idle_000.png …` | A gentle looping idle (breathing, hair or tail sway). Have — 60 frames, 576 × 720, looping (round 14). | Have |

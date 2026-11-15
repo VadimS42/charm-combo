@@ -17,6 +17,31 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-45 — Steam Deck / controller pass, Marina's beach, handover
+
+- **Marina's background** is the new painted beach with the castle on the cliff
+  (`art/backgrounds/mermaid_cove.png`, 1920 × 1200).
+- **Controller / Steam Deck:**
+  - `tools/pad_test.gd` walks every screen with the D-pad and lists anything
+    unreachable. It found and fixed:
+    - the Back button on Achievements and Credits (the scroll area swallowed
+      up/down, so now it lets go at the top and bottom);
+    - "Hard" in Settings (choice rows now have explicit left/right
+      neighbours);
+    - the out-of-moves and replay panels, where the focus wandered onto the
+      board underneath (the board can't take focus while a panel covers it).
+  - The button hints moved off the floating corner cluster, where they
+    overlapped each screen's own buttons, into a dark pill at the top centre.
+  - In a chapter the hint list is short, and the Time Scroll, Hammer, Shuffle
+    and her power each show their own button (R1, X, Y, L1) while you play
+    with a pad.
+  - Steam Deck detection doesn't need Steam: SteamOS sets `SteamDeck=1`. On a
+    Deck the game starts in pad mode with the focus ring showing, the first
+    launch is fullscreen, and the bumpers are named L1/R1.
+  - Key 4 counts as a nav key.
+- **`docs/HANDOVER.md`:** how to run, build and test the game, how the code
+  and data fit together, the content pipelines, what's done and what's open.
+
 ## ✅ Status: round-44 — each girl plays differently
 
 Each girl now has her own board piece, goal and Charm power. The rules live in

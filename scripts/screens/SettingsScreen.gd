@@ -314,6 +314,15 @@ static func _choice_row(title: String, desc: String, options: Array, current: St
 		seg.add_child(b)
 		if first == null:
 			first = b
+	# Left/right step through the options (round 45: the D-pad's own guess
+	# skipped "Hard").
+	var opts := seg.get_children()
+	for i in range(opts.size()):
+		var ob: Button = opts[i]
+		if i > 0:
+			ob.focus_neighbor_left = ob.get_path_to(opts[i - 1])
+		if i < opts.size() - 1:
+			ob.focus_neighbor_right = ob.get_path_to(opts[i + 1])
 	p.set_meta("control", first)
 	return p
 

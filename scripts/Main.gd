@@ -66,6 +66,7 @@ var _screen_actions: Dictionary = {}
 var _screen_hints: Array = []
 ## Top-bar hint row ("A Select · B Back · Start Settings"), nav mode only.
 var _hint_row: HBoxContainer
+var _hint_bar: PanelContainer
 ## Which main-menu button you last left the menu through ("play", "store",
 ## "gallery", "achievements", "credits"), so coming back with B / Backspace
 ## puts the focus back on it instead of always on Play.
@@ -129,13 +130,28 @@ func _build_chrome() -> void:
 	top_spacer.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	top_h.add_child(top_spacer)
 
-	# Button hints for keyboard/controller play — only shown in nav mode.
+	# Button hints for keyboard/controller play — only shown in nav mode. On
+	# their own dark pill at the top centre (round 45): next to Settings they
+	# overlapped each screen's own top-right buttons once the bar was gone.
+	_hint_bar = PanelContainer.new()
+	var hb_style := StyleBoxFlat.new()
+	hb_style.bg_color = Color(0.1, 0.05, 0.13, 0.78)
+	hb_style.set_corner_radius_all(999)
+	hb_style.content_margin_left = 12
+	hb_style.content_margin_right = 12
+	hb_style.content_margin_top = 4
+	hb_style.content_margin_bottom = 4
+	_hint_bar.add_theme_stylebox_override("panel", hb_style)
+	_hint_bar.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	_hint_bar.anchor_left = 0.5
+	_hint_bar.anchor_right = 0.5
+	_hint_bar.offset_top = 16.0
+	_hint_bar.grow_horizontal = Control.GROW_DIRECTION_BOTH
+	_hint_bar.visible = false
 	_hint_row = HBoxContainer.new()
 	_hint_row.add_theme_constant_override("separation", 6)
-	_hint_row.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 	_hint_row.mouse_filter = Control.MOUSE_FILTER_IGNORE
-	_hint_row.visible = false
-	top_h.add_child(_hint_row)
+	_hint_bar.add_child(_hint_row)
 
 	test_badge = Label.new()
 	test_badge.text = "TEST MODE"
@@ -225,6 +241,7 @@ func _build_chrome() -> void:
 	screen_area.add_child(overlay_host)
 	# The stars and Settings, over the screen (see "top bar" above).
 	add_child(topbar)
+	add_child(_hint_bar)
 
 	_toast_host = Control.new()
 	_toast_host.set_anchors_preset(Control.PRESET_FULL_RECT)
@@ -313,8 +330,10 @@ func _refresh_hints() -> void:
 	if _hint_row == null:
 		return
 	for c in _hint_row.get_children():
+		# Out of the row right away, so its width is the new hints' only.
+		_hint_row.remove_child(c)
 		c.queue_free()
-	_hint_row.visible = Nav.nav_mode
+	_hint_bar.visible = Nav.nav_mode and not Platform.trailer
 	if not Nav.nav_mode:
 		return
 	var hints: Array
@@ -335,6 +354,16 @@ func _refresh_hints() -> void:
 		l.autowrap_mode = TextServer.AUTOWRAP_OFF
 		l.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 		_hint_row.add_child(l)
+	# Re-centred on its new width.
+	_center_hint_bar.call_deferred()
+
+
+func _center_hint_bar() -> void:
+	if _hint_bar == null:
+		return
+	var w := _hint_bar.get_combined_minimum_size().x
+	_hint_bar.offset_left = -w / 2.0
+	_hint_bar.offset_right = w / 2.0
 
 
 ## First launch only: the 18+ notice (round 21). Confirming it leads on to

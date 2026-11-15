@@ -103,6 +103,9 @@ var pending_epilogue_key: String = ""
 
 func _ready() -> void:
 	_migrate_old_save_location()
+	# Steam Deck (round 45): the first launch starts fullscreen.
+	if OS.get_environment("SteamDeck") == "1" and not FileAccess.file_exists(SAVE_PATH):
+		settings.fullscreen = true
 	load_state()
 	apply_volume()
 	apply_language()
