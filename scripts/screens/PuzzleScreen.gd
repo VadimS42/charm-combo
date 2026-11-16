@@ -350,17 +350,21 @@ func setup(p_main: Node, p_host: Control, p_char_id: String, p_replay: int = -1)
 
 	# Keys / a pad: the ring starts in the middle of the board. B cancels a
 	# picked-up gem or an armed Hammer; the item shortcuts work anywhere.
+	_setup_nav()
+	# The item and power buttons show their own pad button / key (round 45),
+	# instead of a long hint row.
+	_nav_cb = func(_on: bool): _refresh_glyphs()
+	Nav.mode_changed.connect(_nav_cb)
+	_refresh_glyphs()
+
+
+func _setup_nav() -> void:
 	main.nav_setup(cell_buttons[3][3], _on_back, {
 		"cc_item_moves": func(): _on_item_pressed("moves"),
 		"cc_item_hammer": func(): _on_item_pressed("hammer"),
 		"cc_item_shuffle": func(): _on_item_pressed("shuffle"),
 		"cc_power": _on_power_pressed,
 	}, [["accept", "Pick up"], ["move", "Swap"], ["back", "Put down"], ["pause", "Settings"]])
-	# The item and power buttons show their own pad button / key (round 45),
-	# instead of a long hint row.
-	_nav_cb = func(_on: bool): _refresh_glyphs()
-	Nav.mode_changed.connect(_nav_cb)
-	_refresh_glyphs()
 
 
 ## Called before this screen is torn down by any navigation away from it —
@@ -456,7 +460,358 @@ func _photo_nav_button(text: String) -> Button:
 	return b
 
 
+# ---- phones and tablets (round 47) ----
+# Platform.mobile builds this layout instead of the desktop one: the same
+# board, HUD pieces, items, her power, speech and overlays (so every rule and
+# animation above works unchanged), arranged for the phone's shape.
+#   upright:  the top row, her face and speech, the board as wide as the
+#             screen, then the HUD in two rows
+#   sideways: the board on the left as tall as the screen, everything else
+#             in a column on the right
+# relayout() builds it again when the phone turns, keeping the game as it is.
+var _mobile_layout := false
+const M_PAD := 10.0
+
+
+func _build_ui_mobile() -> void:
+	_mobile_layout = true
+	var vs: Vector2 = main.get_viewport().get_visible_rect().size
+	var up := vs.y > vs.x
+	var bg_tex := ArtAssets.background_for(String(ch.get("bg", "")))
+	if bg_tex:
+		var bg_img := TextureRect.new()
+		bg_img.texture = bg_tex
+		bg_img.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+		bg_img.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
+		bg_img.set_anchors_preset(Control.PRESET_FULL_RECT)
+		host.add_child(bg_img)
+		var scrim := ColorRect.new()
+		scrim.color = Color(UITheme.BG.r, UITheme.BG.g, UITheme.BG.b, 0.4)
+		scrim.set_anchors_preset(Control.PRESET_FULL_RECT)
+		host.add_child(scrim)
+	else:
+		host.add_child(UITheme.make_screen_backdrop(_accent(), _accent().lightened(0.4)))
+
+	var margin := MarginContainer.new()
+	margin.set_anchors_preset(Control.PRESET_FULL_RECT)
+	for side in ["left", "right", "top", "bottom"]:
+		margin.add_theme_constant_override("margin_" + side, int(M_PAD))
+	host.add_child(margin)
+	var root: BoxContainer = VBoxContainer.new() if up else HBoxContainer.new()
+	root.add_theme_constant_override("separation", 10)
+	margin.add_child(root)
+
+	# The board: a square as big as the shape allows.
+	var side: float
+	if up:
+		side = minf(vs.x - 2.0 * M_PAD, vs.y * 0.56)
+	else:
+		side = minf(vs.y - 2.0 * M_PAD, vs.x * 0.56)
+	var gap := 3.0
+	var cell := floorf((side - 16.0 - gap * (MatchEngine.SIZE - 1)) / MatchEngine.SIZE)
+	var board_area := Control.new()
+	board_area.custom_minimum_size = Vector2(side, side)
+	board_area.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
+	var frame_tex := ArtAssets.puzzle_frame(char_id)
+	if frame_tex:
+		var frame := NinePatchRect.new()
+		frame.texture = frame_tex
+		for m in ["patch_margin_left", "patch_margin_top", "patch_margin_right", "patch_margin_bottom"]:
+			frame.set(m, 40)
+		frame.set_anchors_preset(Control.PRESET_FULL_RECT)
+		frame.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		board_area.add_child(frame)
+	var center := CenterContainer.new()
+	center.set_anchors_preset(Control.PRESET_FULL_RECT)
+	board_area.add_child(center)
+	var grid := GridContainer.new()
+	grid.columns = MatchEngine.SIZE
+	grid.add_theme_constant_override("h_separation", int(gap))
+	grid.add_theme_constant_override("v_separation", int(gap))
+	center.add_child(grid)
+	cell_buttons = []
+	for r in range(MatchEngine.SIZE):
+		var row: Array = []
+		for c in range(MatchEngine.SIZE):
+			var btn := Button.new()
+			btn.custom_minimum_size = Vector2(cell, cell)
+			btn.add_theme_font_size_override("font_size", int(cell * 0.4))
+			btn.focus_mode = Control.FOCUS_ALL
+			btn.add_theme_stylebox_override("focus", UITheme.focus_ring(10))
+			btn.pressed.connect(_on_cell_pressed.bind(r, c))
+			btn.gui_input.connect(_on_cell_gui_input.bind(r, c))
+			grid.add_child(btn)
+			row.append(btn)
+		cell_buttons.append(row)
+	toast_layer = Control.new()
+	toast_layer.set_anchors_preset(Control.PRESET_FULL_RECT)
+	toast_layer.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	board_area.add_child(toast_layer)
+	overlay = PanelContainer.new()
+	overlay.visible = false
+	overlay.set_anchors_preset(Control.PRESET_FULL_RECT)
+	overlay.add_theme_stylebox_override("panel", UITheme.panel_style(Color(UITheme.BG, 0.94), 16, UITheme.LINE))
+	board_area.add_child(overlay)
+
+	# Top row: back, her name and chapter (clear of the floating stars/Settings).
+	var top := HBoxContainer.new()
+	top.add_theme_constant_override("separation", 8)
+	var back := _photo_nav_button("←")
+	back.custom_minimum_size = Vector2(48, 40)
+	back.pressed.connect(func():
+		SFX.nav()
+		teardown()
+		GameState.save_state()
+		main.show_roster())
+	top.add_child(back)
+	var how := _photo_nav_button("?")
+	how.custom_minimum_size = Vector2(44, 40)
+	how.pressed.connect(func():
+		SFX.nav()
+		HowToPlay.show_page(main))
+	top.add_child(how)
+	var pill := PanelContainer.new()
+	var ps := _glass_style(999)
+	ps.content_margin_left = 12
+	ps.content_margin_right = 12
+	ps.content_margin_top = 4
+	ps.content_margin_bottom = 5
+	pill.add_theme_stylebox_override("panel", ps)
+	var pv := VBoxContainer.new()
+	pv.add_theme_constant_override("separation", 0)
+	var nl := UITheme.body(UITheme.first_name(String(ch.name)), 13, Color.WHITE)
+	nl.autowrap_mode = TextServer.AUTOWRAP_OFF
+	pv.add_child(nl)
+	chapter_lbl = UITheme.accent_label("", _accent().lightened(0.35), 10)
+	chapter_lbl.autowrap_mode = TextServer.AUTOWRAP_OFF
+	pv.add_child(chapter_lbl)
+	pill.add_child(pv)
+	top.add_child(pill)
+	var sp := Control.new()
+	sp.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	top.add_child(sp)
+	top.add_child(UITheme.corner_gap())
+
+	# Her: a framed face that reacts, her speech next to it, her likes.
+	var her := HBoxContainer.new()
+	her.add_theme_constant_override("separation", 8)
+	var face_box := PanelContainer.new()
+	# Upright phones have height to spare: she gets a bigger frame.
+	var fsize := Vector2(110, 128) if up else Vector2(96, 110)
+	face_box.custom_minimum_size = fsize
+	face_box.clip_contents = true
+	var fst := StyleBoxFlat.new()
+	fst.bg_color = _accent().darkened(0.3)
+	fst.set_corner_radius_all(14)
+	fst.border_color = _accent().lightened(0.2)
+	fst.set_border_width_all(2)
+	face_box.add_theme_stylebox_override("panel", fst)
+	sprite_host = Control.new()
+	sprite_host.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	face_box.add_child(sprite_host)
+	her.add_child(face_box)
+	var right := VBoxContainer.new()
+	right.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	right.add_theme_constant_override("separation", 6)
+	her.add_child(right)
+	_build_legend(right)
+	_speech_box = PanelContainer.new()
+	_speech_box.add_theme_stylebox_override("panel", UITheme.dialogue_style(_accent()))
+	_speech_box.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	_speech_box.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	_speech_box.modulate.a = 0.0
+	_speech_lbl = UITheme.body("", 13, UITheme.INK_ON_DARK)
+	_speech_lbl.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	_speech_box.add_child(_speech_lbl)
+	right.add_child(_speech_box)
+	_build_event_pill(right)
+	_set_sprite_expr("neutral")
+
+	var hud := _build_hud_mobile()
+	if up:
+		root.add_child(top)
+		root.add_child(her)
+		var gap1 := Control.new()
+		gap1.size_flags_vertical = Control.SIZE_EXPAND_FILL
+		root.add_child(gap1)
+		root.add_child(board_area)
+		var gap2 := Control.new()
+		gap2.size_flags_vertical = Control.SIZE_EXPAND_FILL
+		gap2.size_flags_stretch_ratio = 0.5
+		root.add_child(gap2)
+		root.add_child(hud)
+	else:
+		root.add_child(board_area)
+		var col := VBoxContainer.new()
+		col.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		col.add_theme_constant_override("separation", 10)
+		root.add_child(col)
+		col.add_child(top)
+		col.add_child(her)
+		var fill := Control.new()
+		fill.size_flags_vertical = Control.SIZE_EXPAND_FILL
+		col.add_child(fill)
+		col.add_child(hud)
+
+	idle_timer = Timer.new()
+	idle_timer.wait_time = IDLE_HINT_SECONDS
+	idle_timer.one_shot = true
+	idle_timer.timeout.connect(_on_idle_timeout)
+	host.add_child(idle_timer)
+
+
+## The HUD in two rows: moves, the goal bar (and her goal), then Charm, her
+## power and the items.
+func _build_hud_mobile() -> PanelContainer:
+	var bar := PanelContainer.new()
+	var st := _glass_style(18)
+	st.bg_color = Color(0.13, 0.06, 0.16, 0.78)
+	st.border_color = Color(_accent(), 0.7)
+	st.set_border_width_all(2)
+	st.content_margin_left = 12
+	st.content_margin_right = 12
+	st.content_margin_top = 8
+	st.content_margin_bottom = 8
+	bar.add_theme_stylebox_override("panel", st)
+	var v := VBoxContainer.new()
+	v.add_theme_constant_override("separation", 8)
+	bar.add_child(v)
+	var r1 := HBoxContainer.new()
+	r1.add_theme_constant_override("separation", 10)
+	v.add_child(r1)
+	var mv := VBoxContainer.new()
+	mv.add_theme_constant_override("separation", 0)
+	var mrow := HBoxContainer.new()
+	mrow.add_theme_constant_override("separation", 4)
+	mrow.add_child(UITheme.icon_or_emoji("hourglass", "⏳", 18, Color.WHITE))
+	moves_lbl = Label.new()
+	moves_lbl.add_theme_font_size_override("font_size", 24)
+	moves_lbl.add_theme_color_override("font_color", Color.WHITE)
+	mrow.add_child(moves_lbl)
+	mv.add_child(mrow)
+	var mcap := UITheme.body("MOVES", 9, UITheme.INK_ON_DARK_SOFT)
+	mcap.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	mv.add_child(mcap)
+	r1.add_child(mv)
+	var wrap := Control.new()
+	wrap.custom_minimum_size = Vector2(0, 30)
+	wrap.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	wrap.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+	goal_bar = ProgressBar.new()
+	goal_bar.set_anchors_preset(Control.PRESET_FULL_RECT)
+	goal_bar.show_percentage = false
+	var track := StyleBoxFlat.new()
+	track.bg_color = Color(0, 0, 0, 0.45)
+	track.set_corner_radius_all(999)
+	var fill := StyleBoxFlat.new()
+	fill.bg_color = _accent().lightened(0.1)
+	fill.set_corner_radius_all(999)
+	goal_bar.add_theme_stylebox_override("background", track)
+	goal_bar.add_theme_stylebox_override("fill", fill)
+	wrap.add_child(goal_bar)
+	score_lbl = Label.new()
+	score_lbl.set_anchors_preset(Control.PRESET_FULL_RECT)
+	score_lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	score_lbl.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
+	score_lbl.add_theme_font_size_override("font_size", 13)
+	score_lbl.add_theme_color_override("font_color", Color.WHITE)
+	score_lbl.add_theme_color_override("font_outline_color", Color(0, 0, 0, 0.6))
+	score_lbl.add_theme_constant_override("outline_size", 4)
+	wrap.add_child(score_lbl)
+	r1.add_child(wrap)
+	if rules.goal_kind != "" and rules.target > 0:
+		var g: Dictionary = GOALS.get(rules.goal_kind, {})
+		var gh := HBoxContainer.new()
+		gh.add_theme_constant_override("separation", 4)
+		gh.tooltip_text = UITheme.t(String(g.get("name", "")))
+		gh.add_child(UITheme.picture(ArtAssets.piece_icon(String(g.get("icon", ""))), 26))
+		_goal_lbl = Label.new()
+		_goal_lbl.add_theme_font_size_override("font_size", 18)
+		_goal_lbl.add_theme_color_override("font_color", Color.WHITE)
+		gh.add_child(_goal_lbl)
+		_goal_v = gh
+		r1.add_child(gh)
+	var r2 := HBoxContainer.new()
+	r2.alignment = BoxContainer.ALIGNMENT_CENTER
+	r2.add_theme_constant_override("separation", 12)
+	v.add_child(r2)
+	var ring := CharmRing.new()
+	ring.custom_minimum_size = Vector2(50, 50)
+	ring.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+	ring.ring_color = UITheme.SPECIAL_PINK
+	var rc := CenterContainer.new()
+	rc.set_anchors_preset(Control.PRESET_FULL_RECT)
+	rc.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	rc.add_child(UITheme.icon_or_emoji("heart", "💗", 22))
+	ring.add_child(rc)
+	r2.add_child(ring)
+	charm_ring = ring
+	if rules.power_id != "":
+		r2.add_child(_power_slot())
+	for item_id in ["moves", "hammer", "shuffle"]:
+		r2.add_child(_item_slot(item_id))
+	return bar
+
+
+## Her face in the frame, for an expression (mobile layout).
+func _mobile_face(expr: String) -> void:
+	for c in sprite_host.get_children():
+		c.queue_free()
+	var tex := ArtAssets.character_portrait(char_id, expr)
+	if tex == null:
+		tex = ArtAssets.main_sprite(char_id)
+	if tex:
+		sprite_host.add_child(MobileShell.face_rect(ch, tex, sprite_host.get_parent().custom_minimum_size))
+	else:
+		var c := CenterContainer.new()
+		c.set_anchors_preset(Control.PRESET_FULL_RECT)
+		c.add_child(UITheme.placeholder_portrait(char_id, String(ch.name).substr(0, 1), 70.0))
+		sprite_host.add_child(c)
+
+
+## The phone turned: the same chapter, laid out for the new shape.
+func relayout() -> void:
+	if _torn_down or not Platform.mobile:
+		return
+	while busy and not _torn_down:
+		await main.get_tree().create_timer(0.1).timeout
+	if _torn_down:
+		return
+	var was_over: bool = overlay != null and overlay.visible
+	for c in host.get_children():
+		c.queue_free()
+	cell_buttons = []
+	item_btns = {}
+	item_count_lbls = {}
+	_glyph_btns = []
+	_power_btn = null
+	_power_lbl = null
+	_goal_v = null
+	_goal_lbl = null
+	_event_pill = null
+	_toast_stack = []
+	_build_ui()
+	await main.get_tree().process_frame
+	if _torn_down:
+		return
+	_render_board()
+	_update_hud()
+	_refresh_glyphs()
+	_refresh_event_pill()
+	if was_over:
+		if _replay_cleared:
+			_replay_cleared = false
+			_show_replay_win()
+		else:
+			_show_lose_overlay()
+	_setup_nav()
+	_reset_idle_timer()
+
+
 func _build_ui() -> void:
+	if Platform.mobile:
+		_build_ui_mobile()
+		return
 	# Full-bleed backdrop behind the whole screen — the puzzle "takes place"
 	# somewhere, and her sprite stands over it to the side, rather than
 	# everything sitting on a flat neutral panel. Uses real art the moment
@@ -1314,6 +1669,9 @@ func _set_sprite_expr(expr: String) -> void:
 	# animation instead — see _react_sprite()); swapping in a static
 	# waist-up expression portrait over a full-body animation would jump.
 	if _anim_sprite != null or _live_sprite != null:
+		return
+	if _mobile_layout:
+		_mobile_face(expr)
 		return
 	# Full-body art: same figure, same spot, just a different face.
 	if _tall_sprite != null:

@@ -144,8 +144,10 @@ static func build(main: Node, host: Control, char_id: String, lines: Array, choi
 			t.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 			t.mouse_filter = Control.MOUSE_FILTER_IGNORE
 			var aspect: float = float(tex.get_height()) / float(max(1, tex.get_width()))
-			t.anchor_left = PORTRAIT_X
-			t.anchor_right = PORTRAIT_X
+			# On an upright phone she stands in the middle (round 47).
+			var px := 0.5 if Platform.mobile and main.get_viewport().get_visible_rect().size.x < 640.0 else PORTRAIT_X
+			t.anchor_left = px
+			t.anchor_right = px
 			if ArtAssets.is_full_body(tex):
 				# Full-body sprite: sized by height, hung from near the top.
 				var w: float = FULL_BODY_H / aspect
@@ -260,14 +262,14 @@ static func build(main: Node, host: Control, char_id: String, lines: Array, choi
 	# Reply choices: a stack of pills over the left of the stage.
 	var choice_area := MarginContainer.new()
 	choice_area.size_flags_vertical = Control.SIZE_EXPAND_FILL
-	choice_area.add_theme_constant_override("margin_left", 40)
+	choice_area.add_theme_constant_override("margin_left", 24 if Platform.mobile else 40)
 	choice_area.add_theme_constant_override("margin_bottom", 18)
 	choice_area.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	dock.add_child(choice_area)
 	var choice_col := VBoxContainer.new()
 	choice_col.alignment = BoxContainer.ALIGNMENT_END
 	choice_col.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
-	choice_col.custom_minimum_size = Vector2(560, 0)
+	choice_col.custom_minimum_size = Vector2(minf(560.0, main.get_viewport().get_visible_rect().size.x - 56.0), 0)
 	choice_col.add_theme_constant_override("separation", 12)
 	choice_col.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	choice_area.add_child(choice_col)
@@ -318,8 +320,12 @@ static func build(main: Node, host: Control, char_id: String, lines: Array, choi
 	ctrl_row.add_theme_constant_override("separation", 8)
 	ctrl_row.mouse_filter = Control.MOUSE_FILTER_PASS
 	box_v.add_child(ctrl_row)
+	# A phone held upright (round 47): icons only, so the row fits.
+	var narrow := Platform.mobile and main.get_viewport().get_visible_rect().size.x < 640.0
 	var mk := func(label: String, tip: String, icon: String = "") -> Button:
-		var b := UITheme.make_glass_button(label)
+		var b := UITheme.make_glass_button("" if narrow and icon != "" else label)
+		if narrow:
+			b.custom_minimum_size = Vector2(48, 40)
 		b.focus_mode = Control.FOCUS_NONE
 		b.toggle_mode = false
 		b.tooltip_text = tip
@@ -636,7 +642,7 @@ static func show_log(main: Node) -> void:
 	shade.add_child(center)
 	var card := PanelContainer.new()
 	card.add_theme_stylebox_override("panel", UITheme.dialogue_style(UITheme.ACCENT))
-	card.custom_minimum_size = Vector2(820, 0)
+	card.custom_minimum_size = Vector2(minf(820.0, main.get_viewport().get_visible_rect().size.x - 24.0), 0)
 	center.add_child(card)
 	var v := VBoxContainer.new()
 	v.add_theme_constant_override("separation", 10)
@@ -661,7 +667,7 @@ static func show_log(main: Node) -> void:
 		if String(e.name) != "":
 			row.add_child(UITheme.accent_label(String(e.name), UITheme.ACCENT.lightened(0.3), 12))
 		var t := UITheme.body(String(e.text), 15, UITheme.INK_ON_DARK if String(e.name) != "" else UITheme.INK_ON_DARK_SOFT)
-		t.custom_minimum_size = Vector2(760, 0)
+		t.custom_minimum_size = Vector2(minf(760.0, main.get_viewport().get_visible_rect().size.x - 84.0), 0)
 		row.add_child(t)
 		list.add_child(row)
 	var close_row := HBoxContainer.new()

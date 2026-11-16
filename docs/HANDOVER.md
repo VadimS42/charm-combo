@@ -242,7 +242,8 @@ The gems, items, frames, pieces, powers, achievement badges and app icon are in 
 
 **Safe-for-work version (Epic, Android)**
 - Write the safe-for-work night scenes / epilogues / lines and add the `_sfw` pictures: `docs/SFW_CONTENT.md`.
-- Android needs a larger interface scale on phones: `docs/ANDROID_SETUP.md`, "Not done yet".
+- Mobile interface (round 47): the menus, chapters, dialogue and Settings are redesigned for phones, portrait and landscape. The ending screens, age gate and language picker are still the desktop ones, made to fit (`docs/ANDROID_SETUP.md`, "Not done yet").
+- Main focus stays the Windows / Steam build; every mobile change is behind `Platform.mobile`.
 
 **Release**
 - **Steam:** set `Platform.STEAM_APP_ID` (now 0) and the store URL, add GodotSteam for the Steam build, and upload the achievement icons. `docs/STEAM_SETUP.md` has the steps; the store page text is in `docs/STORE_PAGE.md`.

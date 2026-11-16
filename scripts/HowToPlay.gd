@@ -108,7 +108,7 @@ static func _row(t: Dictionary) -> Control:
 	v.add_theme_constant_override("separation", 2)
 	v.add_child(UITheme.body(String(t.title), 15))
 	var txt := UITheme.body(String(t.text), 13, UITheme.INK_SOFT)
-	txt.custom_minimum_size = Vector2(520, 0)
+	txt.custom_minimum_size = Vector2(UITheme.fit_w(630.0) - 110.0, 0)
 	v.add_child(txt)
 	h.add_child(v)
 	return h
@@ -126,7 +126,7 @@ static func _shell(main: Node, width: float) -> Array:
 	shade.add_child(center)
 	var card := PanelContainer.new()
 	card.add_theme_stylebox_override("panel", UITheme.window_style())
-	card.custom_minimum_size = Vector2(width, 0)
+	card.custom_minimum_size = Vector2(UITheme.fit_w(width), 0)
 	center.add_child(card)
 	var v := VBoxContainer.new()
 	v.add_theme_constant_override("separation", 12)
@@ -212,7 +212,7 @@ static func _open_tip(main: Node, key: String) -> void:
 	tv.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	tv.add_child(UITheme.heading(String(t.title), 18))
 	var txt := UITheme.body(String(t.text), 13, UITheme.INK_SOFT)
-	txt.custom_minimum_size = Vector2(340, 0)
+	txt.custom_minimum_size = Vector2(UITheme.fit_w(440.0) - 100.0, 0)
 	tv.add_child(txt)
 	h.add_child(tv)
 	v.add_child(h)

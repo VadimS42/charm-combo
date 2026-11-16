@@ -14,6 +14,8 @@ extends RefCounted
 ## Settings is a short list of rows — a centered column reads better than
 ## rows stretched edge to edge across a 1280px window.
 const COLUMN_W := 720.0
+## An upright phone (round 47): rows stack their control under the text.
+static var _narrow := false
 
 static func build(main: Node, host: Control) -> void:
 	host.add_child(UITheme.make_screen_backdrop(UITheme.SPECIAL_PINK, UITheme.ACCENT_2))
@@ -52,7 +54,9 @@ static func build(main: Node, host: Control) -> void:
 	center.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	scroll.add_child(center)
 	var v := VBoxContainer.new()
-	v.custom_minimum_size = Vector2(COLUMN_W, 0)
+	var vw: float = main.get_viewport().get_visible_rect().size.x
+	_narrow = Platform.mobile and vw < 640.0
+	v.custom_minimum_size = Vector2(minf(COLUMN_W, vw - 48.0), 0)
 	v.add_theme_constant_override("separation", 14)
 	center.add_child(v)
 
@@ -266,14 +270,14 @@ static func build(main: Node, host: Control) -> void:
 ## A row of options to pick one from (segmented buttons).
 static func _choice_row(title: String, desc: String, options: Array, current: String, on_pick: Callable) -> PanelContainer:
 	var p := UITheme.panel(UITheme.SURFACE_2, 16, UITheme.LINE)
-	var h := HBoxContainer.new()
-	h.add_theme_constant_override("separation", 14)
+	var h: BoxContainer = VBoxContainer.new() if _narrow else HBoxContainer.new()
+	h.add_theme_constant_override("separation", 8 if _narrow else 14)
 	p.add_child(h)
 	var text_v := VBoxContainer.new()
 	text_v.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	text_v.add_child(UITheme.body(title, 14))
 	var d := UITheme.soft_label(desc, 11)
-	d.custom_minimum_size = Vector2(260, 0)
+	d.custom_minimum_size = Vector2(0 if _narrow else 260, 0)
 	text_v.add_child(d)
 	h.add_child(text_v)
 	var seg := HBoxContainer.new()
@@ -331,15 +335,15 @@ static func _choice_row(title: String, desc: String, options: Array, current: St
 
 static func _slider_row(title: String, desc: String, initial: float, on_change: Callable) -> PanelContainer:
 	var p := UITheme.panel(UITheme.SURFACE_2, 16, UITheme.LINE)
-	var h := HBoxContainer.new()
-	h.add_theme_constant_override("separation", 14)
+	var h: BoxContainer = VBoxContainer.new() if _narrow else HBoxContainer.new()
+	h.add_theme_constant_override("separation", 8 if _narrow else 14)
 	p.add_child(h)
 
 	var text_v := VBoxContainer.new()
 	text_v.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	text_v.add_child(UITheme.body(title, 14))
 	var d := UITheme.soft_label(desc, 11)
-	d.custom_minimum_size = Vector2(360, 0)
+	d.custom_minimum_size = Vector2(0 if _narrow else 360, 0)
 	text_v.add_child(d)
 	h.add_child(text_v)
 
@@ -392,7 +396,7 @@ static func _row(title: String, desc: String, initial: bool, on_toggle: Callable
 	text_v.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	text_v.add_child(UITheme.body(title, 14))
 	var d := UITheme.soft_label(desc, 11)
-	d.custom_minimum_size = Vector2(360, 0)
+	d.custom_minimum_size = Vector2(0 if _narrow else 360, 0)
 	text_v.add_child(d)
 	h.add_child(text_v)
 

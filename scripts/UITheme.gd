@@ -834,3 +834,14 @@ static func placeholder_tag(text: String = "Art placeholder") -> PanelContainer:
 	l.add_theme_color_override("font_color", Color.WHITE)
 	p.add_child(l)
 	return p
+
+
+## A fixed width (a dialog, a paragraph) narrowed to fit a phone's screen
+## (round 47). On the desktop it's always the width asked for.
+static func fit_w(w: float) -> float:
+	if not Platform.mobile:
+		return w
+	var tree := Engine.get_main_loop() as SceneTree
+	if tree == null:
+		return w
+	return minf(w, tree.root.get_visible_rect().size.x - 40.0)

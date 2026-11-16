@@ -96,6 +96,9 @@ msgstr "Тебе в волосы падает лист. Ветра нет."
 msgid "A match-3 romance for adults, set in Millbrook, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes."
 msgstr "Роман в жанре «три в ряд» для взрослых, действие которого происходит в Миллбруке, сумеречном городке, где обосновался волшебный народ. Познакомься с четырьмя женщинами хуже некуда, помоги им с тем, что им нужно, и посмотри, куда заведёт ночь."
 
+msgid "A match-3 romance in Millbrook. Meet four women in the worst way possible, help them with what they need, and see where it goes."
+msgstr "Романтическая «три в ряд» в Миллбруке. Познакомься с четырьмя женщинами самым неудачным образом, помоги им с тем, что им нужно, и посмотри, к чему это приведёт."
+
 msgid "A new seed drops in."
 msgstr "Падает новое семечко."
 
@@ -429,6 +432,9 @@ msgstr "Продолжить"
 msgid "Continue the story  ▸"
 msgstr "Продолжить историю  ▸"
 
+msgid "Continue with %s"
+msgstr "Продолжить: %s"
+
 msgid "Correct Lines"
 msgstr "Правка строк"
 
@@ -539,6 +545,9 @@ msgstr "Галерея концовок"
 
 msgid "Ending: %s"
 msgstr "Концовка: %s"
+
+msgid "Endings"
+msgstr "Концовки"
 
 msgid "English"
 msgstr "English"
@@ -659,6 +668,9 @@ msgstr "Осторожнее. Вот так."
 
 msgid "Get that holy rock away from me."
 msgstr "Убери от меня этот святой булыжник."
+
+msgid "Girls"
+msgstr "Девушки"
 
 msgid "Give Hazel the Brass Pocket Sundial."
 msgstr "Подари Хейзел латунные карманные солнечные часы."
@@ -797,6 +809,9 @@ msgstr "Прилив!"
 
 msgid "High Water"
 msgstr "Большая вода"
+
+msgid "Home"
+msgstr "Главная"
 
 msgid "How fast dialogue types out."
 msgstr "Как быстро печатаются диалоги."
@@ -1200,6 +1215,9 @@ msgstr "Лунный камень"
 msgid "Moonstone. It smells like a church."
 msgstr "Лунный камень. Пахнет церковью."
 
+msgid "More"
+msgstr "Ещё"
+
 msgid "Morning comes in through the reading room windows. Somebody has folded your jacket into a very neat square."
 msgstr "Утро заходит в окна читального зала. Кто-то сложил твою куртку в очень аккуратный квадрат."
 
@@ -1368,6 +1386,9 @@ msgstr "Опал: мох"
 msgid "Open log folder"
 msgstr "Открыть папку журнала"
 
+msgid "Original characters · all characters are adults."
+msgstr "Оригинальные персонажи · все персонажи взрослые."
+
 msgid "Ouch!"
 msgstr "Ой!"
 
@@ -1457,6 +1478,9 @@ msgstr "Красиво. Только сёстрам не говори."
 
 msgid "Pretty. Like a button, but better."
 msgstr "Красиво. Как пуговица, только лучше."
+
+msgid "Put down"
+msgstr "Положить"
 
 msgid "Put that out."
 msgstr "Потуши это."
@@ -1715,6 +1739,9 @@ msgstr "Она не оставляет свечу. Она несёт её по �
 
 msgid "She's tall, horned and dressed for somewhere much nicer than a library. She crouches to look at your circle, and tuts."
 msgstr "Она высокая, рогатая, одета для места получше библиотеки. Она приседает рассмотреть твой круг и цокает языком."
+
+msgid "Shop"
+msgstr "Магазин"
 
 msgid "Short on stars? Replay a chapter you've cleared, from her card on the roster: it pays half."
 msgstr "Не хватает звёзд? Сыграй снова уже пройденную главу — с её карточки в списке. Это даёт половину награды."
@@ -2378,6 +2405,9 @@ msgstr "Ты торопишься. Она смеётся над тобой, ни
 
 msgid "You don't think about it. You run down the steps, jump off the end of the pier in your clothes, get an arm round her and drag her back."
 msgstr "Ты не раздумываешь. Бежишь вниз по ступеням, прыгаешь с края пирса прямо в одежде, обхватываешь её рукой и тащишь назад."
+
+msgid "You have %d"
+msgstr "У тебя: %d"
 
 msgid "You hold it very well. That's all I'm admitting."
 msgstr "Ты держишь его очень хорошо. Это всё, что я признаю."

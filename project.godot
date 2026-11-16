@@ -44,7 +44,7 @@ window/size/viewport_height=800
 window/stretch/mode="canvas_items"
 window/stretch/aspect="keep"
 window/stretch/aspect.mobile="expand"
-window/handheld/orientation=4
+window/handheld/orientation=6
 
 [internationalization]
 

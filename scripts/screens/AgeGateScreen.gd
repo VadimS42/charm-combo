@@ -16,7 +16,7 @@ static func build(main: Node, host: Control) -> void:
 
 	var card := PanelContainer.new()
 	card.add_theme_stylebox_override("panel", UITheme.window_style())
-	card.custom_minimum_size = Vector2(560, 0)
+	card.custom_minimum_size = Vector2(UITheme.fit_w(560.0), 0)
 	center.add_child(card)
 
 	var pad := MarginContainer.new()
@@ -42,7 +42,7 @@ static func build(main: Node, host: Control) -> void:
 		"It has sexual content, including intimate scenes, and suggestive art. All characters are adults.\n\nPlease only continue if you're 18 or older, or the age of majority where you live.",
 		15, UITheme.INK)
 	text.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	text.custom_minimum_size = Vector2(480, 0)
+	text.custom_minimum_size = Vector2(UITheme.fit_w(480.0), 0)
 	col.add_child(text)
 
 	col.add_child(UITheme.spacer(4))
@@ -88,7 +88,7 @@ static func build_voice_notice(main: Node, host: Control) -> void:
 	host.add_child(center)
 	var card := PanelContainer.new()
 	card.add_theme_stylebox_override("panel", UITheme.window_style())
-	card.custom_minimum_size = Vector2(560, 0)
+	card.custom_minimum_size = Vector2(UITheme.fit_w(560.0), 0)
 	center.add_child(card)
 	var pad := MarginContainer.new()
 	for side in ["left", "right"]:
@@ -106,7 +106,7 @@ static func build_voice_notice(main: Node, host: Control) -> void:
 		"The girls are voiced by amateur voice actresses, recorded at home. We love how they turned out, but they aren't studio recordings, and not every line is voiced yet.\n\nIf you'd rather read in your own head, turn the voices off. You can change this any time in Settings.",
 		15, UITheme.INK)
 	text.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	text.custom_minimum_size = Vector2(480, 0)
+	text.custom_minimum_size = Vector2(UITheme.fit_w(480.0), 0)
 	col.add_child(text)
 	col.add_child(UITheme.spacer(4))
 	var row := HBoxContainer.new()
@@ -137,7 +137,7 @@ static func build_language_picker(main: Node, host: Control) -> void:
 	host.add_child(center)
 	var card := PanelContainer.new()
 	card.add_theme_stylebox_override("panel", UITheme.window_style())
-	card.custom_minimum_size = Vector2(420, 0)
+	card.custom_minimum_size = Vector2(UITheme.fit_w(420.0), 0)
 	center.add_child(card)
 	var pad := MarginContainer.new()
 	for side in ["left", "right"]:

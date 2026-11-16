@@ -27,7 +27,7 @@ static func build(main: Node, host: Control, char_id: String, caption: String, o
 
 	if not caption.is_empty():
 		var caption_lbl := UITheme.body(caption, 13, UITheme.INK_SOFT)
-		caption_lbl.custom_minimum_size = Vector2(700, 0)
+		caption_lbl.custom_minimum_size = Vector2(UITheme.fit_w(700.0), 0)
 		caption_lbl.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
 		caption_lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 		v.add_child(caption_lbl)

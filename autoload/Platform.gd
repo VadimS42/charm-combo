@@ -73,7 +73,8 @@ func _ready() -> void:
 	var args := OS.get_cmdline_user_args()
 	demo = OS.has_feature("demo") or args.has("--demo")
 	trailer = args.has("--trailer")
-	mobile = OS.has_feature("mobile")
+	# `-- --mobile` tries the phone layout on PC (round 47).
+	mobile = OS.has_feature("mobile") or args.has("--mobile")
 	if OS.has_feature("steam"):
 		store = "steam"
 	elif OS.has_feature("itch"):

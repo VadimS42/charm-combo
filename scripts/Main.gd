@@ -81,7 +81,10 @@ var _toast_host: Control
 
 
 func _ready() -> void:
-	custom_minimum_size = Vector2(1280, 800)
+	# The desktop layout is built for at least 1280 x 800; phones (round 47)
+	# lay out for whatever shape the screen is.
+	if not Platform.mobile:
+		custom_minimum_size = Vector2(1280, 800)
 	UITheme.install_fonts()
 	_build_chrome()
 	Nav.mode_changed.connect(func(_on): _refresh_hints())
@@ -106,6 +109,7 @@ func _build_chrome() -> void:
 	add_child(root_v)
 	_root_v = root_v
 	if Platform.mobile:
+		_apply_mobile_scale()
 		_fit_safe_area.call_deferred()
 
 	# ---- top bar ----
@@ -433,15 +437,27 @@ func show_data_error() -> void:
 	pad.add_child(col)
 	col.add_child(UITheme.heading("The dialogue file has a mistake in it", 22))
 	var msg := UITheme.body(CharacterData.load_error(), 14, UITheme.INK)
-	msg.custom_minimum_size = Vector2(620, 0)
+	msg.custom_minimum_size = Vector2(fit_w(620.0), 0)
 	col.add_child(msg)
 	var hint := UITheme.body("Open that file, fix the line (usually a missing comma, quote mark or bracket, often at the end of the line before), save, and start the game again. docs/EDITING_DIALOGUE.md has the rules.", 13, UITheme.INK_SOFT)
-	hint.custom_minimum_size = Vector2(620, 0)
+	hint.custom_minimum_size = Vector2(fit_w(620.0), 0)
 	col.add_child(hint)
+
+
+## Phones and tablets (round 47): the menus are MobileShell's tabs instead.
+func show_mobile(tab: String, sub: String = "") -> void:
+	clear_screen()
+	_rebuild_route = func(): show_mobile(tab, sub)
+	refresh_topbar()
+	_menu_music()
+	MobileShell.show(self, tab, sub)
 
 
 func show_menu() -> void:
 	store_return_char = ""
+	if Platform.mobile:
+		show_mobile("home")
+		return
 	clear_screen()
 	_rebuild_route = show_menu
 	refresh_topbar()
@@ -462,6 +478,9 @@ static func _girl_name(char_id: String) -> String:
 
 
 func show_roster() -> void:
+	if Platform.mobile:
+		show_mobile("girls")
+		return
 	clear_screen()
 	_rebuild_route = show_roster
 	refresh_topbar()
@@ -639,6 +658,9 @@ func show_ending_art_beat(char_id: String, caption: String, on_continue: Callabl
 var _gallery_return: Callable = Callable()
 
 func show_gallery() -> void:
+	if Platform.mobile:
+		show_mobile("gallery")
+		return
 	if _rebuild_route.is_valid() and _rebuild_route != show_gallery:
 		_gallery_return = _rebuild_route
 	clear_screen()
@@ -662,6 +684,9 @@ var store_return_char := ""
 var store_return_replay := -1
 
 func show_store() -> void:
+	if Platform.mobile:
+		show_mobile("shop")
+		return
 	clear_screen()
 	_rebuild_route = show_store
 	refresh_topbar()
@@ -686,6 +711,9 @@ func leave_store() -> void:
 
 
 func show_credits() -> void:
+	if Platform.mobile:
+		show_mobile("more", "credits")
+		return
 	clear_screen()
 	_rebuild_route = show_credits
 	_menu_music()
@@ -693,6 +721,9 @@ func show_credits() -> void:
 
 
 func show_achievements() -> void:
+	if Platform.mobile:
+		show_mobile("gallery", "achievements")
+		return
 	clear_screen()
 	_rebuild_route = show_achievements
 	_menu_music()
@@ -728,7 +759,47 @@ func _notification(what: int) -> void:
 		if not go_back() and Platform.mobile:
 			GameState.quit_game()
 	elif what == NOTIFICATION_WM_SIZE_CHANGED and Platform.mobile:
+		_apply_mobile_scale()
 		_fit_safe_area.call_deferred()
+
+
+## A fixed width for a dialog or message, narrowed to fit a phone's screen
+## (round 47; on the desktop it's always the width asked for).
+func fit_w(w: float) -> float:
+	if not Platform.mobile:
+		return w
+	return minf(w, get_viewport().get_visible_rect().size.x - 40.0)
+
+
+## Phones and tablets (round 47): the screen's short side is always
+## MOBILE_SHORT game units, whichever way it's held, so text and buttons come
+## out phone-sized (the desktop's 800 units tall made them tiny). Turning the
+## phone rebuilds the current screen for the new shape.
+const MOBILE_SHORT := 480.0
+var _mobile_portrait := -1
+
+
+func _apply_mobile_scale() -> void:
+	var win := get_window()
+	var sz := Vector2(win.size)
+	if sz.x <= 0 or sz.y <= 0:
+		return
+	var k := MOBILE_SHORT / minf(sz.x, sz.y)
+	win.content_scale_aspect = Window.CONTENT_SCALE_ASPECT_EXPAND
+	win.content_scale_size = Vector2i(roundi(sz.x * k), roundi(sz.y * k))
+	var up := 1 if sz.y > sz.x else 0
+	if _mobile_portrait != -1 and up != _mobile_portrait:
+		_relayout.call_deferred()
+	_mobile_portrait = up
+
+
+## The phone turned: the same screen, laid out again.
+func _relayout() -> void:
+	if _screen_obj != null and _screen_obj.has_method("relayout"):
+		_screen_obj.relayout()
+	elif _rebuild_route.is_valid():
+		_rebuild_route.call()
+	_refresh_hints()
 
 
 ## Phones: keep everything inside the display's safe area (camera notch,
@@ -797,14 +868,14 @@ func confirm(title: String, message: String, confirm_label: String, on_confirm: 
 	shade.add_child(center)
 	var card := PanelContainer.new()
 	card.add_theme_stylebox_override("panel", UITheme.window_style())
-	card.custom_minimum_size = Vector2(420, 0)
+	card.custom_minimum_size = Vector2(fit_w(420.0), 0)
 	center.add_child(card)
 	var v := VBoxContainer.new()
 	v.add_theme_constant_override("separation", 12)
 	card.add_child(v)
 	v.add_child(UITheme.heading(title, 18))
 	var msg := UITheme.body(message, 13, UITheme.INK_SOFT)
-	msg.custom_minimum_size = Vector2(390, 0)
+	msg.custom_minimum_size = Vector2(fit_w(390.0), 0)
 	v.add_child(msg)
 	var row := HBoxContainer.new()
 	row.alignment = BoxContainer.ALIGNMENT_END
@@ -868,14 +939,14 @@ func show_demo_end() -> void:
 	screen_host.add_child(center)
 	var card := PanelContainer.new()
 	card.add_theme_stylebox_override("panel", UITheme.window_style())
-	card.custom_minimum_size = Vector2(560, 0)
+	card.custom_minimum_size = Vector2(fit_w(560.0), 0)
 	center.add_child(card)
 	var v := VBoxContainer.new()
 	v.add_theme_constant_override("separation", 14)
 	card.add_child(v)
 	v.add_child(UITheme.heading("Thanks for playing the demo!", 24))
 	var t := UITheme.body("The full game has four stories: Hazel's, and three more women of Millbrook to meet in the worst way possible. Each has four chapters, her night scene and her ending.", 14, UITheme.INK_SOFT)
-	t.custom_minimum_size = Vector2(500, 0)
+	t.custom_minimum_size = Vector2(fit_w(500.0), 0)
 	v.add_child(t)
 	var row := HBoxContainer.new()
 	row.add_theme_constant_override("separation", 10)

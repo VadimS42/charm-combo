@@ -7,7 +7,8 @@ because it can never change after that.
 
 ## What the game does on phones and tablets
 
-- **Screen:** landscape only (either way up). On wide phones (19.5:9, 20:9) the screen fills the extra width instead of showing black bars, and everything stays inside the display's safe area (camera notch, rounded corners).
+- **Screen:** portrait and landscape; the game follows the phone as it turns (round 47). Everything stays inside the display's safe area (camera notch, rounded corners).
+- **Its own interface (round 47):** phone-sized text and buttons, and menus as a tab bar (Home, Girls, Shop, Gallery, More) with big cards. Chapters and dialogue are laid out for whichever way the phone is held (`scripts/mobile/MobileShell.gd`, `PuzzleScreen._build_ui_mobile()`). Try it on PC with `-- --mobile` and a tall or wide window.
 - **Swapping:** tap a gem then its neighbour, or swipe a gem towards it.
 - **Back button / gesture:** works like B. It closes a dialog, closes Settings or goes back a screen; on the main menu it leaves the game.
 - **Desktop-only parts hidden:** the Quit button, Fullscreen and "Open log folder".
@@ -35,6 +36,6 @@ because it can never change after that.
 
 ## Not done yet (next steps for the port)
 
-- **Text size on phones:** the game is laid out for a 1280 × 800 screen. On a phone, text and buttons come out smaller than Google recommends. Tablets are fine. Planned: a larger interface scale on small screens, bigger gem cells and tap targets.
+- **Finishing the mobile interface:** the ending screens, the age gate and the language picker still use the desktop layout, made to fit; they work but aren't redesigned yet. Her full sprite in chapters is just her face in a frame on phones.
 - **Touch extras:** long-press for tooltips (hover text doesn't exist on touch screens) and vibration on matches.
 - **Store integration:** Google Play Games achievements and in-app purchases, if wanted.

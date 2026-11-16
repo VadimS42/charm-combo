@@ -17,6 +17,40 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-47 — phone menus redesigned, portrait and landscape
+
+Only on phones and tablets (`Platform.mobile`; `-- --mobile` tries it on PC).
+The Windows / Steam game is unchanged, which the desktop tests and screenshots
+confirm.
+
+- **Phone sizing:** the screen's short side is 480 game units, whichever way
+  it's held, so text and buttons are phone-sized (`Main._apply_mobile_scale()`).
+  Turning the phone rebuilds the screen for the new shape. The game rotates
+  freely (`orientation=6`).
+- **Menus:** `scripts/mobile/MobileShell.gd` is one shell with a tab bar —
+  Home, Girls, Shop, Gallery, More. The bar sits at the bottom upright and on
+  the left sideways. Each tab is a column of big cards:
+  - **Home:** Continue with her / Play, How to Play.
+  - **Girls:** her face, likes, progress, Meet / Continue, Replay a chapter,
+    gift. One column upright, two sideways.
+  - **Shop.**
+  - **Gallery:** endings and achievements.
+  - **More:** Settings, How to Play, Credits.
+  Main's show_menu / roster / store / gallery / achievements / credits route
+  there on mobile.
+- **Chapters** (`PuzzleScreen._build_ui_mobile()`):
+  - **Upright:** her framed face and speech, the board as wide as the screen,
+    then the HUD in two rows at the bottom.
+  - **Sideways:** the board on the left as tall as the screen, the rest in a
+    column.
+  - Turning the phone mid-chapter keeps the game as it is (`relayout()`,
+    tested).
+- **Dialogue, Settings and dialogs:**
+  - Upright, the dialogue buttons are icon-only and she stands in the middle.
+  - Settings rows stack their controls under the text.
+  - Every dialog, tip and How to Play page narrows to fit the screen
+    (`UITheme.fit_w()`, `Main.fit_w()`).
+
 ## ✅ Status: round-46 — safe-for-work version, Epic build, Android port started
 
 - **Safe-for-work version** (`Platform.sfw`): the Epic and Android presets'

@@ -47,7 +47,8 @@ UI_SKIP = {"Camera", "Motes", "Enter", "Backspace", "Start", "Esc", "Arrows", "R
            " should start with [ and end with ] (a list of the four characters).", "\n    License: ",
            "This game uses Godot Engine, available under the following license:", "Third-party components",
            "License texts", "Bundled fonts", "💞 Charm Combo", "Charm Combo", "Frame",
-           "\nTest build: using your edited characters.json from the game's folder.", "Seal", "Moss"}
+           "\nTest build: using your edited characters.json from the game's folder.", "Seal", "Moss", "Glyph", "R1 (hold)", "Epic build", "Android build",
+           "Epic build (no EOS bridge: achievements stay in the game)"}
 UI_SKIP_STARTS = ("Open that file, fix the line",)
 
 # Pieces the game builds at runtime (UITheme.t()) that the extractor can't see.
@@ -65,7 +66,11 @@ UI_EXTRA = ["%d / %d unlocked", "%d / %d endings found", "Click to view.", "%d p
             "Blossom! +%d", "Found under the moss: %s", "a button", "a marble", "a key", "the glass eye",
             "+2 moves — great answer!", "Pick a gem!", "Ready!", "Fill the ring",
             "Charm — fills as you match (her favourite gem fastest). Full = one use of her power: %s",
-            "Her favourite gem scores double and fills Charm faster; the one she dislikes scores half."]
+            "Her favourite gem scores double and fills Charm faster; the one she dislikes scores half.",
+            # Round 47: the phone menus (MobileShell).
+            "Home", "Girls", "Shop", "Gallery", "More", "Continue with %s", "You have %d", "Endings",
+            "A match-3 romance in Millbrook. Meet four women in the worst way possible, help them with what they need, and see where it goes.",
+            "Original characters · all characters are adults.", "18+ · original characters · all characters are adults."]
 
 
 def ui_strings():

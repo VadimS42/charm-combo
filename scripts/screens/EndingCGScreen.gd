@@ -30,7 +30,7 @@ static func build(main: Node, host: Control, char_id: String, ending: Dictionary
 	title_lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	# A word-wrapping Label in a centered column only gets its longest word's
 	# width unless it's given a real one (titles used to break per word).
-	title_lbl.custom_minimum_size = Vector2(720, 0)
+	title_lbl.custom_minimum_size = Vector2(UITheme.fit_w(720.0), 0)
 	title_lbl.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
 	v.add_child(title_lbl)
 
@@ -40,7 +40,7 @@ static func build(main: Node, host: Control, char_id: String, ending: Dictionary
 	v.add_child(name_lbl)
 
 	var text_lbl := UITheme.body(String(ending.get("text", "")), 13, UITheme.INK_SOFT)
-	text_lbl.custom_minimum_size = Vector2(680, 0)
+	text_lbl.custom_minimum_size = Vector2(UITheme.fit_w(680.0), 0)
 	text_lbl.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
 	text_lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	v.add_child(text_lbl)

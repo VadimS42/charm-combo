@@ -64,6 +64,15 @@ func _go() -> void:
 				await _idle(pz)
 				moves += 1
 			line += " %d moves;" % moves
+			# Phone layout (`-- --mobile`, round 47): turning the phone rebuilds
+			# the screen mid-chapter; the game must carry on as it was.
+			if root.get_node("Platform").mobile and main._screen_obj == pz:
+				var before_score: int = pz.score
+				await pz.relayout()
+				await create_timer(0.1).timeout
+				var ok_re: bool = pz.cell_buttons.size() == 8 and pz.score == before_score and pz.rules.has_move()
+				line += " relayout %s;" % ok_re
+				ok = ok and ok_re
 			# Her power, charged by hand.
 			if pz.rules.power_id != "" and main._screen_obj == pz:
 				await _idle(pz)
