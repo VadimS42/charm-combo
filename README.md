@@ -17,6 +17,34 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-46 — safe-for-work version, Epic build, Android port started
+
+- **Safe-for-work version** (`Platform.sfw`): the Epic and Android presets'
+  "sfw" feature, or `-- --sfw`.
+  - No night scenes, night pictures, night music or 18+ notice.
+  - Safe-for-work night scenes, epilogues, ending cards, single lines and
+    pictures are used wherever you add them (`night_sfw`, `epilogue_sfw`,
+    `"sfw"` on a line, `*_sfw.png`; see `docs/SFW_CONTENT.md`).
+  - `tools/make_sfw_data.py` writes `data/characters_sfw.json`. Those builds
+    ship it instead of `characters.json` and leave out every night file and
+    `ending.png`. Checked by listing the packages: no adult files in either.
+- **Epic build** (preset "Windows (Epic)", `docs/EPIC_SETUP.md`):
+  - safe for work;
+  - no Steam links or mentions;
+  - Epic launcher arguments are tolerated;
+  - achievements reach Epic through an optional `addons/epic/epic_bridge.gd`
+    (EOS).
+- **Android port** (preset "Android", `docs/ANDROID_SETUP.md`):
+  - safe for work, landscape only;
+  - wide screens fill out (`window/stretch/aspect.mobile="expand"`) and the
+    safe area is kept;
+  - the Back button acts as B;
+  - Quit, Fullscreen and "Open log folder" are hidden;
+  - swipe-to-swap, for everyone;
+  - a debug APK built and signed here. Next: a larger interface scale for
+    phones.
+- **Tests:** the smoke test checks that `-- --sfw` plays no night scene.
+
 ## ✅ Status: round-45 — Steam Deck / controller pass, Marina's beach, handover
 
 - **Marina's background** is the new painted beach with the castle on the cliff

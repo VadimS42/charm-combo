@@ -145,11 +145,11 @@ static func _play_win_scene(main: Node, ch: Dictionary, level_index: int) -> voi
 ## mark where the writer's own lines go and are skipped. Music: a "night"
 ## track if there is one, else hers. No night block = straight on.
 static func _play_night(main: Node, ch: Dictionary, then: Callable) -> void:
-	var night = ch.story.get("night")
+	var night = night_for(ch)
 	if typeof(night) != TYPE_DICTIONARY or (night.get("lines", []) as Array).is_empty():
 		then.call()
 		return
-	main.story_music = "night"
+	main.story_music = "" if Platform.sfw else "night"
 	main.show_vn_scene(ch.id, night.lines, null, func():
 		# Now the Gallery can replay it.
 		var key := "%s|night" % ch.id
@@ -160,13 +160,73 @@ static func _play_night(main: Node, ch: Dictionary, then: Callable) -> void:
 	, String(night.get("cg", "night")))
 
 
+# ---- the safe-for-work version (round 46: Epic, Android) ----
+# With Platform.sfw on, everything here reads her safe-for-work content from
+# characters.json where it exists and falls back sensibly where it doesn't:
+#   story.night_sfw            {"lines": [...]} replaces her night scene; no
+#                              night_sfw = no night scene at all (straight
+#                              from her last chapter to her epilogue)
+#   endings.<key>.epilogue_sfw replaces that ending's epilogue (same shape)
+#   endings.<key>.text_sfw / title_sfw   the ending card's text / title
+#   any line: "sfw": "other text"   said instead (silent unless it also has
+#                                   "sfw_id", a voice clip for the new text)
+#             "sfw": false          left out
+# Pictures: art/characters/<id>/cg/<key>_sfw.png and ending_sfw.png are used
+# when they exist; night pictures never show (ArtAssets.cg()).
+
+## Her night scene for this build (null = none).
+static func night_for(ch: Dictionary):
+	return ch.story.get("night_sfw") if Platform.sfw else ch.story.get("night")
+
+
+## An ending's epilogue for this build.
+static func epilogue_for(ending: Dictionary):
+	if Platform.sfw and typeof(ending.get("epilogue_sfw")) == TYPE_DICTIONARY:
+		return ending.epilogue_sfw
+	return ending.get("epilogue")
+
+
+## An ending's title/text card for this build.
+static func ending_card_for(ending: Dictionary) -> Dictionary:
+	if not Platform.sfw:
+		return ending
+	var e := ending.duplicate()
+	for k in ["text", "title"]:
+		if ending.has(k + "_sfw"):
+			e[k] = ending[k + "_sfw"]
+	return e
+
+
+## Lines for this build: each line's "sfw" replacement or omission applied.
+static func sfw_lines(lines: Array) -> Array:
+	if not Platform.sfw:
+		return lines
+	var out: Array = []
+	for l in lines:
+		if typeof(l) != TYPE_DICTIONARY or not l.has("sfw"):
+			out.append(l)
+			continue
+		var alt = l.sfw
+		if typeof(alt) == TYPE_BOOL and not alt:
+			continue
+		var c: Dictionary = l.duplicate()
+		c.t = String(alt)
+		c.erase("sfw")
+		if l.has("sfw_id"):
+			c.id = l.sfw_id
+		else:
+			c.erase("id")  # the recording says the other text
+		out.append(c)
+	return out
+
+
 ## Replays her night scene from the Gallery, then goes back there.
 static func replay_night(main: Node, char_id: String) -> void:
 	var ch := CharacterData.by_id(char_id)
-	var night = ch.story.get("night")
+	var night = night_for(ch)
 	if typeof(night) != TYPE_DICTIONARY:
 		return
-	main.story_music = "night"
+	main.story_music = "" if Platform.sfw else "night"
 	main.show_vn_scene(char_id, night.lines, null, func(): main.show_gallery(), String(night.get("cg", "night")))
 
 
@@ -249,7 +309,7 @@ static func _play_epilogue(main: Node, ch: Dictionary, key: String) -> void:
 	# The whole epilogue shares the "ending" track (see Main.story_music).
 	main.story_music = "ending"
 	var ending: Dictionary = ch.story.endings[key]
-	var epilogue = ending.get("epilogue")
+	var epilogue = epilogue_for(ending)
 	if typeof(epilogue) != TYPE_DICTIONARY or epilogue.is_empty():
 		GameState.add_to_gallery(ch.id, key, "")
 		GameState.save_state()
@@ -313,11 +373,12 @@ static func ending_for_entry(char_id: String, ending_key: String, finale_key: St
 	if ch.is_empty() or not ch.story.endings.has(ending_key):
 		return {}
 	var ending: Dictionary = ch.story.endings[ending_key]
-	if finale_key != "" and typeof(ending.get("epilogue")) == TYPE_DICTIONARY:
-		var f: Dictionary = ending.epilogue.get("finales", {}).get(finale_key, {})
+	var ep = epilogue_for(ending)
+	if finale_key != "" and typeof(ep) == TYPE_DICTIONARY:
+		var f: Dictionary = ep.get("finales", {}).get(finale_key, {})
 		if not f.is_empty():
-			return _with_cg(f, ending_key + "_" + finale_key)
-	return _with_cg(ending, ending_key)
+			return _with_cg(ending_card_for(f), ending_key + "_" + finale_key)
+	return _with_cg(ending_card_for(ending), ending_key)
 
 
 ## Whichever ending dict should be DISPLAYED for an already-finished

@@ -73,6 +73,11 @@ Export presets are in `export_presets.cfg`:
 | macOS (itch.io) | |
 | Web (itch.io) | |
 | Windows (Demo) | Hazel only |
+| Windows (Epic) | Safe for work, no Steam (round 46): `docs/EPIC_SETUP.md` |
+| Android | Safe for work (round 46): `docs/ANDROID_SETUP.md` |
+
+The Epic and Android builds play the safe-for-work version. Run
+`python3 tools/make_sfw_data.py` before exporting them (`docs/SFW_CONTENT.md`).
 
 To build, install Godot's export templates once (Editor → Manage Export Templates), then use either:
 - **The editor:** Project → Export → pick a preset → Export Project.
@@ -234,6 +239,10 @@ The gems, items, frames, pieces, powers, achievement badges and app icon are in 
 - Your name / studio and the artists' names.
 - The composer of "morning_2d".
 - The author and licence of "MIX gems".
+
+**Safe-for-work version (Epic, Android)**
+- Write the safe-for-work night scenes / epilogues / lines and add the `_sfw` pictures: `docs/SFW_CONTENT.md`.
+- Android needs a larger interface scale on phones: `docs/ANDROID_SETUP.md`, "Not done yet".
 
 **Release**
 - **Steam:** set `Platform.STEAM_APP_ID` (now 0) and the store URL, add GodotSteam for the Steam build, and upload the achievement icons. `docs/STEAM_SETUP.md` has the steps; the store page text is in `docs/STORE_PAGE.md`.

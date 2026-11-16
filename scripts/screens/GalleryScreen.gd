@@ -112,7 +112,7 @@ static func all_slots() -> Array:
 		var id := String(ch.id)
 		var endings: Dictionary = ch.story.endings
 		for ek in endings.keys():
-			var ep = endings[ek].get("epilogue")
+			var ep = StoryFlow.epilogue_for(endings[ek])
 			var finales: Dictionary = {}
 			if typeof(ep) == TYPE_DICTIONARY and typeof(ep.get("finales")) == TYPE_DICTIONARY:
 				finales = ep.finales
@@ -159,7 +159,7 @@ static func _section(main: Node, ch: Dictionary, slots: Array) -> Control:
 		else:
 			flow.add_child(_locked_card(s, accent))
 	# Her night scene, replayable once seen (round 25).
-	if typeof(ch.story.get("night")) == TYPE_DICTIONARY:
+	if typeof(StoryFlow.night_for(ch)) == TYPE_DICTIONARY:
 		if GameState.replays.has("%s|night" % ch.id):
 			flow.add_child(_night_card(main, ch, accent))
 		else:
@@ -182,7 +182,7 @@ static func _night_card(main: Node, ch: Dictionary, accent: Color) -> Button:
 	inner.add_theme_constant_override("separation", 4)
 	inner.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	b.add_child(inner)
-	inner.add_child(EndingCGScreen.art_frame(char_id, String(ch.story.night.get("cg", "night")), THUMB, "", "🌙"))
+	inner.add_child(EndingCGScreen.art_frame(char_id, String(StoryFlow.night_for(ch).get("cg", "night")), THUMB, "", "🌙"))
 	var t := UITheme.body("Her night scene", 13)
 	t.autowrap_mode = TextServer.AUTOWRAP_OFF
 	t.mouse_filter = Control.MOUSE_FILTER_IGNORE

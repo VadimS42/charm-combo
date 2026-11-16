@@ -150,6 +150,10 @@ static func main_sprite(char_id: String) -> Texture2D:
 ## for the Ending screen / Gallery. Falls back to her neutral portrait, then
 ## to null.
 static func ending_cg(char_id: String) -> Texture2D:
+	# Safe-for-work build (round 46): ending_sfw.png, else her portrait.
+	if Platform.sfw:
+		var safe := _try_load(CHAR_DIR + char_id + "/ending_sfw.png")
+		return safe if safe else character_portrait(char_id, "neutral")
 	var tex := _try_load(CHAR_DIR + char_id + "/ending.png")
 	if tex:
 		return tex
@@ -175,6 +179,16 @@ static func cg(char_id: String, cg_key: String) -> Texture2D:
 	if cg_key == "":
 		return null
 	var dir := CHAR_DIR + char_id + "/cg/"
+	# Safe-for-work build (round 46): <key>_sfw.png only (else the screen's
+	# stand-in), and never a night picture.
+	if Platform.sfw:
+		if cg_key.begins_with("night"):
+			return null
+		var safe := _try_load(dir + cg_key + "_sfw.png")
+		if safe:
+			return safe
+		var ek := cg_key.get_slice("_", 0)
+		return _try_load(dir + ek + "_sfw.png") if ek != cg_key else null
 	var tex := _try_load(dir + cg_key + ".png")
 	if tex:
 		return tex
@@ -187,8 +201,10 @@ static func cg(char_id: String, cg_key: String) -> Texture2D:
 ## Exactly art/characters/<id>/cg/<cg_key>.png, no fallback (a night scene's
 ## later pictures: missing = keep the one showing).
 static func cg_exact(char_id: String, cg_key: String) -> Texture2D:
-	if cg_key == "":
+	if cg_key == "" or (Platform.sfw and cg_key.begins_with("night")):
 		return null
+	if Platform.sfw:
+		return _try_load(CHAR_DIR + char_id + "/cg/" + cg_key + "_sfw.png")
 	return _try_load(CHAR_DIR + char_id + "/cg/" + cg_key + ".png")
 
 

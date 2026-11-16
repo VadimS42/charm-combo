@@ -10,6 +10,11 @@ class_name CharacterData
 extends RefCounted
 
 const PATH := "res://data/characters.json"
+## The safe-for-work builds' copy (round 46), made by
+## tools/make_sfw_data.py: no night scenes, the "sfw" versions of lines,
+## epilogues and ending cards already applied. The Epic and Android presets
+## ship it instead of characters.json, so the adult text isn't in the package.
+const SFW_PATH := "res://data/characters_sfw.json"
 
 static var _cache: Array = []
 static var _error := ""
@@ -27,13 +32,15 @@ static func source_path() -> String:
 		var p := OS.get_executable_path().get_base_dir().path_join("characters.json")
 		if FileAccess.file_exists(p):
 			return p
+	if Platform.sfw and FileAccess.file_exists(SFW_PATH):
+		return SFW_PATH
 	return PATH
 
 
 ## True when the edited copy next to the .exe is in use (the menu says so).
 static func using_override() -> bool:
 	all()
-	return _source != "" and _source != PATH
+	return _source != "" and _source != PATH and _source != SFW_PATH
 
 
 static func all() -> Array:
@@ -44,7 +51,8 @@ static func all() -> Array:
 
 static func _load() -> Array:
 	_source = source_path()
-	var label := "data/characters.json" if _source == PATH else "characters.json (next to the game)"
+	var label := "data/characters.json" if _source == PATH else ("data/characters_sfw.json" if _source == SFW_PATH \
+		else "characters.json (next to the game)")
 	if not FileAccess.file_exists(_source):
 		push_error("CharacterData: missing " + _source)
 		return []

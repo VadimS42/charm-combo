@@ -187,6 +187,11 @@ var power_mode := false
 ## Her power's own clears (and the cascades after) don't fill the ring again.
 var _power_resolving := false
 var _power_btn: Button
+## Swipe to swap (round 46).
+const DRAG_PX := 22.0
+var _drag_from := Vector2i(-1, -1)
+var _drag_start := Vector2.ZERO
+var _drag_swapped := false
 ## Buttons that show their pad button / key in a corner while playing with a
 ## controller or keys: [Button, Nav.glyph() name] (round 45).
 var _glyph_btns: Array = []
@@ -2161,6 +2166,39 @@ func _anim_react(expr: String) -> void:
 ## with its neighbour that way — "pick up and push" — and the ring follows
 ## the gem. Without one, directions just move the ring (Godot's own focus).
 func _on_cell_gui_input(ev: InputEvent, r: int, c: int) -> void:
+	# Swipe to swap (round 46, for phones; works with a mouse drag too): press
+	# on a gem and drag it towards a neighbour. Tapping both still works.
+	if ev is InputEventKey or ev is InputEventJoypadButton or ev is InputEventAction:
+		_drag_swapped = false
+	if ev is InputEventMouseButton and (ev as InputEventMouseButton).button_index == MOUSE_BUTTON_LEFT:
+		if ev.pressed:
+			_drag_from = Vector2i(r, c)
+			_drag_start = (ev as InputEventMouseButton).global_position
+			_drag_swapped = false
+		return
+	if ev is InputEventMouseMotion:
+		var mm := ev as InputEventMouseMotion
+		if _drag_from != Vector2i(r, c) or _drag_swapped or not (mm.button_mask & MOUSE_BUTTON_MASK_LEFT) \
+				or hammer_mode or power_mode:
+			return
+		var dv := mm.global_position - _drag_start
+		if dv.length() < DRAG_PX:
+			return
+		_drag_swapped = true
+		var dir := Vector2i(0, 1 if dv.x > 0 else -1) if absf(dv.x) > absf(dv.y) else Vector2i(1 if dv.y > 0 else -1, 0)
+		var r2 := r + dir.x
+		var c2 := c + dir.y
+		if busy or _torn_down or moves_left <= 0 or (overlay != null and overlay.visible) \
+				or not PuzzleRules.in_board(r2, c2):
+			return
+		_reset_idle_timer()
+		if not _can_pick(r, c) or not rules.swappable(r2, c2):
+			if rules.swappable(r, c):
+				_can_pick(r2, c2)
+			return
+		selected = Vector2i(-1, -1)
+		_attempt_swap(r, c, r2, c2)
+		return
 	if selected != Vector2i(r, c):
 		return
 	var d := Vector2i.ZERO
@@ -2207,6 +2245,10 @@ func _on_back() -> void:
 
 
 func _on_cell_pressed(r: int, c: int) -> void:
+	# The release at the end of a swipe isn't also a tap.
+	if _drag_swapped:
+		_drag_swapped = false
+		return
 	_reset_idle_timer()
 	# The Out-of-Moves overlay only blocks the MOUSE; a keyboard/controller
 	# press could still reach a cell under it (moves going negative, and a

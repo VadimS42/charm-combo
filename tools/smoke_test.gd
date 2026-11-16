@@ -42,6 +42,10 @@ func _go() -> void:
 		var done := await _drive(func(): return not gs.progress_for(id).endings_unlocked.is_empty() and not StoryFlow.epilogue_unfinished(id), 4000)
 		print("%-9s ending reached: %s  (gallery %s, night replay unlocked %s)" % [id, done,
 			gs.gallery.any(func(e): return String(e).begins_with(id + "|")), gs.replays.has(id + "|night")])
+		# Safe-for-work run (`-- --sfw`, round 46): no night scene may play.
+		if root.get_node("Platform").sfw and gs.replays.has(id + "|night"):
+			print("   SFW: her night scene played!")
+			ok = false
 		if not done:
 			var scr = main._screen_obj
 			print("   stuck: screen=%s progress=%s modal=%s settings=%s" % [scr, gs.progress_for(id), main.modal_open(), main.is_settings_open()])
@@ -50,7 +54,7 @@ func _go() -> void:
 	# The gallery and each night replay.
 	main.show_gallery()
 	await create_timer(0.2).timeout
-	for ch in CharacterData.all():
+	for ch in (CharacterData.all() if not root.get_node("Platform").sfw else []):
 		var n := [0]
 		StoryFlow.replay_night(main, String(ch.id))
 		var done := await _drive(func():

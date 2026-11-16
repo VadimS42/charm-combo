@@ -131,7 +131,8 @@ static func build(main: Node, host: Control) -> void:
 	# Desktop builds need a way out besides the window's close button (and
 	# fullscreen has none). Not in the browser build, where the tab is the way
 	# out and "quitting" would just freeze the page.
-	if not OS.has_feature("web"):
+	# Not on phones either (round 46): Android apps are left with Home/Back.
+	if not OS.has_feature("web") and not Platform.mobile:
 		var quit_btn := UITheme.make_ghost_button("Quit")
 		UITheme.add_icon(quit_btn, "quit")
 		quit_btn.pressed.connect(func():
@@ -141,7 +142,8 @@ static func build(main: Node, host: Control) -> void:
 		row.add_child(quit_btn)
 
 	v.add_child(UITheme.spacer(10))
-	var foot_text := "18+ · original characters · all characters are adults."
+	var foot_text := "Original characters · all characters are adults." if Platform.sfw \
+		else "18+ · original characters · all characters are adults."
 	if CharacterData.using_override():
 		foot_text += "\nTest build: using your edited characters.json from the game's folder."
 	var footnote := UITheme.soft_label(foot_text, 11)

@@ -6,7 +6,13 @@
 ## Store builds are told apart by an export feature tag (export_presets.cfg):
 ##   "steam"  Windows (Steam) — talks to Steam through the GodotSteam plug-in
 ##   "itch"   the itch.io builds (Windows, Linux, macOS, Web) — never touch Steam
-##   neither  running from the editor
+##   "epic"   Windows (Epic) (round 46) — safe for work, no Steam anywhere;
+##            achievements go to Epic through addons/epic/epic_bridge.gd if
+##            it's there (docs/EPIC_SETUP.md)
+##   Android  (round 46) — the "android" platform: safe for work, touch
+##   none of these: running from the editor
+## The "sfw" feature (Epic and Android presets) or `-- --sfw` turns on the
+## safe-for-work version of the story (sfw, StoryFlow.gd).
 ## Steam is optional everywhere: the GodotSteam plug-in (addons/godotsteam/,
 ## see docs/STEAM_SETUP.md) is looked up by name at runtime instead of being
 ## referenced in code, so the game compiles and runs the same without it —
@@ -45,8 +51,17 @@ var demo := false
 ## leaving the board, her and the combo pop-ups (record with --write-movie).
 var trailer := false
 
-## "steam", "itch" or "none" (editor / untagged build).
+## "steam", "itch", "epic", "android" or "none" (editor / untagged build).
 var store := "none"
+## The safe-for-work version (round 46): no night scenes or their pictures,
+## no 18+ notice, and her safe-for-work lines, epilogues and pictures where
+## characters.json / the art folders have them (see StoryFlow.sfw_lines()).
+var sfw := false
+## A phone or tablet (Android): touch, no window, no quitting by button.
+var mobile := false
+## Epic Online Services, through the optional bridge script (null without it).
+var epic: Object = null
+const EPIC_BRIDGE := "res://addons/epic/epic_bridge.gd"
 ## The GodotSteam singleton once Steam started successfully, else null.
 var steam: Object = null
 ## Why Steam is or isn't running, for the log and the Credits screen.
@@ -58,11 +73,22 @@ func _ready() -> void:
 	var args := OS.get_cmdline_user_args()
 	demo = OS.has_feature("demo") or args.has("--demo")
 	trailer = args.has("--trailer")
+	mobile = OS.has_feature("mobile")
 	if OS.has_feature("steam"):
 		store = "steam"
 	elif OS.has_feature("itch"):
 		store = "itch"
-	if store == "itch":
+	elif OS.has_feature("epic"):
+		store = "epic"
+	elif OS.has_feature("android"):
+		store = "android"
+	sfw = OS.has_feature("sfw") or args.has("--sfw") or store == "epic" or store == "android"
+	if store == "epic":
+		steam_status = "Epic build"
+		_start_epic()
+	elif store == "android":
+		steam_status = "Android build"
+	elif store == "itch":
 		steam_status = "itch.io build"
 	elif not Engine.has_singleton("Steam"):
 		steam_status = "GodotSteam plug-in not installed" if store == "steam" else "not used"
@@ -71,8 +97,37 @@ func _ready() -> void:
 	print("Charm Combo %s — %s build, Steam: %s" % [ProjectSettings.get_setting("application/config/version", ""), store, steam_status])
 
 
+## Whether this build may point players at Steam (wishlist button, "unlocks on
+## Steam too"). Never on Epic (its rules forbid links to other stores) or
+## Android (round 46).
+func links_to_steam() -> bool:
+	return store == "steam" or store == "itch" or store == "none"
+
+
+## Epic: the launcher starts the game with -AUTH_PASSWORD=, -epicapp= and so
+## on (Godot leaves those alone); the bridge, if installed, signs in with them.
+func _start_epic() -> void:
+	if not ResourceLoader.exists(EPIC_BRIDGE):
+		steam_status = "Epic build (no EOS bridge: achievements stay in the game)"
+		return
+	epic = load(EPIC_BRIDGE).new()
+	add_child(epic)
+	if epic.has_method("start"):
+		epic.start(OS.get_cmdline_args())
+
+
+## The language the Epic launcher asks for (-epiclocale=ru), or "".
+static func store_locale() -> String:
+	for a in OS.get_cmdline_args():
+		if String(a).begins_with("-epiclocale="):
+			return String(a).get_slice("=", 1).get_slice("-", 0).to_lower()
+	return ""
+
+
 ## The store page to wishlist the game on ("" if there isn't one yet).
 func wishlist_url() -> String:
+	if not links_to_steam():
+		return ""
 	if STEAM_APP_ID > 0:
 		return "https://store.steampowered.com/app/%d/" % STEAM_APP_ID
 	return STORE_URL
@@ -150,7 +205,11 @@ func steam_active() -> bool:
 ## Unlocks an achievement on Steam (API name = our achievement id). Skipped in
 ## Testing Mode so QA runs don't unlock them on your real account.
 func set_achievement(id: String, store_now: bool = true) -> void:
-	if steam == null or bool(GameState.settings.get("test_mode", false)):
+	if bool(GameState.settings.get("test_mode", false)):
+		return
+	if epic != null and epic.has_method("unlock_achievement"):
+		epic.unlock_achievement(id)
+	if steam == null:
 		return
 	steam.setAchievement(id)
 	if store_now:

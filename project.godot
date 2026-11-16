@@ -14,6 +14,7 @@ config/name="Charm Combo"
 config/description="A match-3 romance for adults, set in Duskhaven, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes."
 config/version="1.0.0"
 run/main_scene="res://scenes/Main.tscn"
+config/quit_on_go_back=false
 config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://icon.png"
 config/use_custom_user_dir=true
@@ -42,6 +43,8 @@ window/size/viewport_width=1280
 window/size/viewport_height=800
 window/stretch/mode="canvas_items"
 window/stretch/aspect="keep"
+window/stretch/aspect.mobile="expand"
+window/handheld/orientation=4
 
 [internationalization]
 

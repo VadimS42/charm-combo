@@ -169,12 +169,14 @@ static func build(main: Node, host: Control) -> void:
 			main.mark_settings_dirty()
 	))
 
-	v.add_child(_row(
-		"Fullscreen", "Fill the whole screen. F11 toggles it anywhere.",
-		GameState.settings.get("fullscreen", false),
-		func(on: bool):
-			GameState.set_fullscreen(on)
-	))
+	# A phone is always full screen (round 46).
+	if not Platform.mobile:
+		v.add_child(_row(
+			"Fullscreen", "Fill the whole screen. F11 toggles it anywhere.",
+			GameState.settings.get("fullscreen", false),
+			func(on: bool):
+				GameState.set_fullscreen(on)
+		))
 
 	# QA only — hidden entirely once GameState.ALLOW_TESTING_MODE is switched
 	# off for release.
@@ -216,7 +218,7 @@ static func build(main: Node, host: Control) -> void:
 			main.show_roster()
 		)
 		extra_row.add_child(leave)
-	if not OS.has_feature("web"):
+	if not OS.has_feature("web") and not Platform.mobile:
 		var logs := UITheme.make_ghost_button("Open log folder")
 		logs.tooltip_text = "For bug reports: send the newest godot.log from this folder."
 		logs.pressed.connect(func():

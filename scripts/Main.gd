@@ -67,6 +67,7 @@ var _screen_hints: Array = []
 ## Top-bar hint row ("A Select · B Back · Start Settings"), nav mode only.
 var _hint_row: HBoxContainer
 var _hint_bar: PanelContainer
+var _root_v: VBoxContainer
 ## Which main-menu button you last left the menu through ("play", "store",
 ## "gallery", "achievements", "credits"), so coming back with B / Backspace
 ## puts the focus back on it instead of always on Play.
@@ -103,6 +104,9 @@ func _build_chrome() -> void:
 	root_v.set_anchors_preset(Control.PRESET_FULL_RECT)
 	root_v.add_theme_constant_override("separation", 0)
 	add_child(root_v)
+	_root_v = root_v
+	if Platform.mobile:
+		_fit_safe_area.call_deferred()
 
 	# ---- top bar ----
 	# Round 42: no bar any more (the user asked for the purple bar gone). Its
@@ -386,8 +390,9 @@ func show_language_picker() -> void:
 
 
 ## After the language: the age notice once, then the voice notice / menu.
+## The safe-for-work build has no 18+ notice (round 46).
 func after_language() -> void:
-	if not GameState.settings.get("age_confirmed", false):
+	if not GameState.settings.get("age_confirmed", false) and not Platform.sfw:
 		show_age_gate()
 	else:
 		show_start()
@@ -595,6 +600,10 @@ func _set_settings_btn_active(on: bool) -> void:
 ## already do) and setting current_char_id from it fixes this at the root.
 func show_vn_scene(char_id: String, lines: Array, choice_data, on_done: Callable, cg_key: String = "") -> void:
 	current_char_id = char_id
+	# The safe-for-work build's version of each line (round 46).
+	lines = StoryFlow.sfw_lines(lines)
+	if Platform.sfw and cg_key.begins_with("night"):
+		cg_key = ""
 	clear_screen()
 	if story_music != "":
 		Music.play([story_music, char_id, "menu"])
@@ -610,7 +619,7 @@ func show_ending_cg(char_id: String, ending: Dictionary, on_continue: Callable) 
 	Music.play(["ending", char_id, "menu"])
 	Platform.set_presence("ending", _girl_name(char_id))
 	story_scene = true
-	EndingCGScreen.build(self, screen_host, char_id, ending, on_continue)
+	EndingCGScreen.build(self, screen_host, char_id, StoryFlow.ending_card_for(ending), on_continue)
 
 
 ## One "big art reveal" beat of a character's post-story epilogue — see
@@ -696,6 +705,48 @@ func show_achievements() -> void:
 ## open confirm box). Backspace / B goes back: confirm box, then Settings, then
 ## the screen's own Back. F11 toggles fullscreen. Screen actions (the
 ## chapter's item shortcuts) come last.
+## Back: the open confirm box, then Settings, then the screen's own Back.
+## Returns false if there was nothing to go back from.
+func go_back() -> bool:
+	if is_instance_valid(_confirm_box):
+		SFX.nav()
+		_close_confirm()
+	elif is_settings_open():
+		toggle_settings()
+	elif _back_action.is_valid():
+		_back_action.call()
+	else:
+		return false
+	return true
+
+
+## Android's Back button / gesture (round 46; project setting
+## quit_on_go_back is off): same as B. With nothing to go back from (the main
+## menu), it leaves the game the way Android apps do.
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_WM_GO_BACK_REQUEST:
+		if not go_back() and Platform.mobile:
+			GameState.quit_game()
+	elif what == NOTIFICATION_WM_SIZE_CHANGED and Platform.mobile:
+		_fit_safe_area.call_deferred()
+
+
+## Phones: keep everything inside the display's safe area (camera notch,
+## rounded corners), as margins in game units.
+func _fit_safe_area() -> void:
+	if _root_v == null or not Platform.mobile:
+		return
+	var safe := DisplayServer.get_display_safe_area()
+	var screen := DisplayServer.screen_get_size()
+	if safe.size.x <= 0 or screen.x <= 0:
+		return
+	var k: float = get_viewport().get_visible_rect().size.x / float(screen.x)
+	_root_v.offset_left = safe.position.x * k
+	_root_v.offset_top = safe.position.y * k
+	_root_v.offset_right = -(screen.x - safe.end.x) * k
+	_root_v.offset_bottom = -(screen.y - safe.end.y) * k
+
+
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventKey and (event.echo or not event.pressed):
 		return
@@ -706,13 +757,7 @@ func _unhandled_input(event: InputEvent) -> void:
 			toggle_settings()
 		get_viewport().set_input_as_handled()
 	elif event.is_action_pressed("cc_back"):
-		if is_instance_valid(_confirm_box):
-			SFX.nav()
-			_close_confirm()
-		elif is_settings_open():
-			toggle_settings()
-		elif _back_action.is_valid():
-			_back_action.call()
+		go_back()
 		get_viewport().set_input_as_handled()
 	elif event is InputEventKey and event.keycode == KEY_F11:
 		GameState.set_fullscreen(not bool(GameState.settings.get("fullscreen", false)))
@@ -852,7 +897,12 @@ func show_demo_end() -> void:
 		SFX.nav()
 		OS.shell_open(url)
 	)
-	row.add_child(wish)
+	# Epic and Android builds don't point at Steam at all (round 46).
+	if Platform.links_to_steam():
+		row.add_child(wish)
+	else:
+		wish.queue_free()
+		url = ""
 	nav_setup(wish if url != "" else menu_btn, func(): show_menu())
 
 
