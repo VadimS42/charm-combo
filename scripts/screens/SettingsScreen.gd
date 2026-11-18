@@ -163,6 +163,17 @@ static func build(main: Node, host: Control) -> void:
 			GameState.save_state()
 	))
 
+	if Platform.mobile:
+		v.add_child(_row(
+			"Vibration", "A little buzz when gems match.",
+			bool(GameState.settings.get("vibration", true)),
+			func(on: bool):
+				GameState.settings.vibration = on
+				GameState.save_state()
+				if on:
+					SFX.buzz(30)
+		))
+
 	v.add_child(_row(
 		"Reduce Motion", "Shorter animations, calmer feedback.",
 		GameState.settings.reduce_motion,

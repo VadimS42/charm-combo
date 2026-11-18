@@ -818,6 +818,69 @@ func _fit_safe_area() -> void:
 	_root_v.offset_bottom = -(screen.y - safe.end.y) * k
 
 
+# ---- long-press tooltips on phones (round 47) ----
+# Touch screens have no hover, so the tooltips (what an item does, her
+# power, the goal...) never showed. Holding a finger still on anything that
+# has one for half a second shows it in a bubble; lifting the finger then
+# closes it without also pressing the button underneath.
+const LONG_PRESS_S := 0.5
+var _lp_pos := Vector2.ZERO
+var _lp_token := 0
+var _lp_bubble: Control = null
+
+
+func _input(event: InputEvent) -> void:
+	if not Platform.mobile:
+		return
+	if event is InputEventMouseButton and (event as InputEventMouseButton).button_index == MOUSE_BUTTON_LEFT:
+		_lp_token += 1
+		if event.pressed:
+			_lp_pos = (event as InputEventMouseButton).position
+			var tok := _lp_token
+			get_tree().create_timer(LONG_PRESS_S).timeout.connect(func():
+				if tok == _lp_token:
+					_long_press())
+		elif is_instance_valid(_lp_bubble):
+			_lp_bubble.queue_free()
+			_lp_bubble = null
+			get_viewport().set_input_as_handled()
+	elif event is InputEventMouseMotion and ((event as InputEventMouseMotion).button_mask & MOUSE_BUTTON_MASK_LEFT):
+		if (event as InputEventMouseMotion).position.distance_to(_lp_pos) > 12.0:
+			_lp_token += 1
+
+
+func _long_press() -> void:
+	var tip := ""
+	for c in find_children("*", "Control", true, false):
+		var ctl := c as Control
+		if ctl.tooltip_text != "" and ctl.is_visible_in_tree() and ctl.get_global_rect().has_point(_lp_pos):
+			tip = ctl.tooltip_text  # the last match is the one drawn on top
+	if tip == "":
+		return
+	var vs := get_viewport().get_visible_rect().size
+	var bubble := PanelContainer.new()
+	var st := StyleBoxFlat.new()
+	st.bg_color = Color(0.12, 0.06, 0.15, 0.94)
+	st.set_corner_radius_all(12)
+	st.content_margin_left = 12
+	st.content_margin_right = 12
+	st.content_margin_top = 8
+	st.content_margin_bottom = 8
+	bubble.add_theme_stylebox_override("panel", st)
+	bubble.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	var l := UITheme.body(UITheme.t(tip), 13, Color.WHITE)
+	l.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	l.custom_minimum_size = Vector2(minf(300.0, vs.x - 40.0), 0)
+	bubble.add_child(l)
+	_toast_host.add_child(bubble)
+	bubble.reset_size()
+	var sz := bubble.get_combined_minimum_size()
+	bubble.position = Vector2(clampf(_lp_pos.x - sz.x / 2.0, 12.0, vs.x - sz.x - 12.0),
+		clampf(_lp_pos.y - sz.y - 40.0, 12.0, vs.y - sz.y - 12.0))
+	_lp_bubble = bubble
+	SFX.buzz(20)
+
+
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventKey and (event.echo or not event.pressed):
 		return

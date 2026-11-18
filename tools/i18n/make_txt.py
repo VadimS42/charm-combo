@@ -47,7 +47,7 @@ UI_SKIP = {"Camera", "Motes", "Enter", "Backspace", "Start", "Esc", "Arrows", "R
            " should start with [ and end with ] (a list of the four characters).", "\n    License: ",
            "This game uses Godot Engine, available under the following license:", "Third-party components",
            "License texts", "Bundled fonts", "💞 Charm Combo", "Charm Combo", "Frame",
-           "\nTest build: using your edited characters.json from the game's folder.", "Seal", "Moss", "Glyph", "R1 (hold)", "Epic build", "Android build",
+           "\nTest build: using your edited characters.json from the game's folder.", "Seal", "Moss", "Glyph", "Control", "R1 (hold)", "Epic build", "Android build",
            "Epic build (no EOS bridge: achievements stay in the game)"}
 UI_SKIP_STARTS = ("Open that file, fix the line",)
 

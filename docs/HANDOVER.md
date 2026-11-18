@@ -242,7 +242,7 @@ The gems, items, frames, pieces, powers, achievement badges and app icon are in 
 
 **Safe-for-work version (Epic, Android)**
 - Write the safe-for-work night scenes / epilogues / lines and add the `_sfw` pictures: `docs/SFW_CONTENT.md`.
-- Mobile interface (round 47): the menus, chapters, dialogue and Settings are redesigned for phones, portrait and landscape. The ending screens, age gate and language picker are still the desktop ones, made to fit (`docs/ANDROID_SETUP.md`, "Not done yet").
+- Mobile interface (rounds 47–48): every screen is laid out for phones, portrait and landscape. Tabs for the menus, mobile chapter and dialogue layouts, long-press tooltips and vibration. Next: test on real phones, and add Play Games / purchases if wanted (`docs/ANDROID_SETUP.md`).
 - Main focus stays the Windows / Steam build; every mobile change is behind `Platform.mobile`.
 
 **Release**

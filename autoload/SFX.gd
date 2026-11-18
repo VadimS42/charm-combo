@@ -68,15 +68,25 @@ func _tone(freq: float, duration: float, volume: float = 0.15, wave: String = "s
 		phase += increment
 
 
+## A short buzz on phones (round 47; Settings → Vibration). Each game sound
+## below that marks something happening on the board has one.
+func buzz(ms: int) -> void:
+	if Platform.mobile and bool(GameState.settings.get("vibration", true)):
+		Input.vibrate_handheld(ms)
+
+
 func match_() -> void:
 	_tone(520.0, 0.09, 0.14)
+	buzz(15)
 
 
 func combo(n: int) -> void:
 	_tone(520.0 + 40.0 * n, 0.1, 0.16)
+	buzz(20 + 5 * mini(n, 5))
 
 
 func special_() -> void:
+	buzz(45)
 	_tone(660.0, 0.12, 0.18)
 	_tone(880.0, 0.14, 0.16, "sine", 0.06)
 
@@ -86,6 +96,7 @@ func invalid() -> void:
 
 
 func win() -> void:
+	buzz(90)
 	_tone(660.0, 0.15, 0.16)
 	_tone(880.0, 0.2, 0.16, "sine", 0.12)
 

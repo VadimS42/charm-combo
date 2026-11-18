@@ -93,6 +93,9 @@ msgstr "一颗扭着金色丝带的玻璃弹珠,是几十年前就没人做的�
 msgid "A leaf drops into your hair. There's no wind."
 msgstr "一片叶子落进你的头发里。没有风。"
 
+msgid "A little buzz when gems match."
+msgstr "宝石消除时轻轻振动一下。"
+
 msgid "A match-3 romance for adults, set in Millbrook, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes."
 msgstr "一款面向成年人的三消恋爱游戏,故事发生在暮色小镇米尔布鲁克,奇幻种族在这里安家。用最糟糕的方式结识四位女子,帮她们解决所需,看看这一夜会走向何方。"
 
@@ -2291,6 +2294,9 @@ msgstr "呃。比海绵蛋糕还干。"
 
 msgid "Use a Time Scroll"
 msgstr "使用时间卷轴"
+
+msgid "Vibration"
+msgstr "振动"
 
 msgid "Voice Acting"
 msgstr "语音配音"

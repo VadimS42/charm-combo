@@ -342,7 +342,7 @@ static func _girl_card(main: Node, ch: Dictionary, parent: Control) -> Button:
 ## Her picture filling a box of `box` size: zoomed in on her face the way her
 ## roster card is (characters.json "cardCrop"), else the whole picture
 ## covering the box. Used by the Girls tab and the mobile chapter screen.
-static func face_rect(ch: Dictionary, tex: Texture2D, box: Vector2) -> TextureRect:
+static func face_rect(ch: Dictionary, tex: Texture2D, box: Vector2, zoom_scale: float = 1.0) -> TextureRect:
 	var t := TextureRect.new()
 	t.texture = tex
 	t.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
@@ -351,7 +351,8 @@ static func face_rect(ch: Dictionary, tex: Texture2D, box: Vector2) -> TextureRe
 	t.set_anchors_preset(Control.PRESET_FULL_RECT)
 	var crop: Dictionary = ch.get("cardCrop", {})
 	if not crop.is_empty():
-		var z := float(crop.get("zoom", 1.0))
+		# zoom_scale < 1 shows more of her (the chapter's bigger frame).
+		var z := maxf(1.0, float(crop.get("zoom", 1.0)) * zoom_scale)
 		var cw := tex.get_width() / z
 		var chh := cw * box.y / box.x
 		var at := AtlasTexture.new()

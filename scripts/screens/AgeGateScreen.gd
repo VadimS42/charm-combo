@@ -42,7 +42,7 @@ static func build(main: Node, host: Control) -> void:
 		"It has sexual content, including intimate scenes, and suggestive art. All characters are adults.\n\nPlease only continue if you're 18 or older, or the age of majority where you live.",
 		15, UITheme.INK)
 	text.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	text.custom_minimum_size = Vector2(UITheme.fit_w(480.0), 0)
+	text.custom_minimum_size = Vector2(UITheme.fit_w(560.0) - 80.0, 0)
 	col.add_child(text)
 
 	col.add_child(UITheme.spacer(4))
@@ -106,7 +106,7 @@ static func build_voice_notice(main: Node, host: Control) -> void:
 		"The girls are voiced by amateur voice actresses, recorded at home. We love how they turned out, but they aren't studio recordings, and not every line is voiced yet.\n\nIf you'd rather read in your own head, turn the voices off. You can change this any time in Settings.",
 		15, UITheme.INK)
 	text.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	text.custom_minimum_size = Vector2(UITheme.fit_w(480.0), 0)
+	text.custom_minimum_size = Vector2(UITheme.fit_w(560.0) - 80.0, 0)
 	col.add_child(text)
 	col.add_child(UITheme.spacer(4))
 	var row := HBoxContainer.new()

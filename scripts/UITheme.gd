@@ -845,3 +845,17 @@ static func fit_w(w: float) -> float:
 	if tree == null:
 		return w
 	return minf(w, tree.root.get_visible_rect().size.x - 40.0)
+
+
+## A story picture's size on a phone (round 47): the asked-for size, scaled
+## down (keeping its shape) to fit the screen's width and to leave `room`
+## units of height for the text and buttons under it. Desktop: unchanged.
+static func fit_art(size: Vector2, room: float) -> Vector2:
+	if not Platform.mobile:
+		return size
+	var tree := Engine.get_main_loop() as SceneTree
+	if tree == null:
+		return size
+	var vs := tree.root.get_visible_rect().size
+	var k := minf(1.0, minf((vs.x - 24.0) / size.x, maxf(120.0, vs.y - room) / size.y))
+	return (size * k).floor()

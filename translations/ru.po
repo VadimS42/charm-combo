@@ -93,6 +93,9 @@ msgstr "Стеклянный шарик с закрученной внутри �
 msgid "A leaf drops into your hair. There's no wind."
 msgstr "Тебе в волосы падает лист. Ветра нет."
 
+msgid "A little buzz when gems match."
+msgstr "Лёгкая вибрация, когда камни совпадают."
+
 msgid "A match-3 romance for adults, set in Millbrook, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes."
 msgstr "Роман в жанре «три в ряд» для взрослых, действие которого происходит в Миллбруке, сумеречном городке, где обосновался волшебный народ. Познакомься с четырьмя женщинами хуже некуда, помоги им с тем, что им нужно, и посмотри, куда заведёт ночь."
 
@@ -2291,6 +2294,9 @@ msgstr "Фу. Суше, чем бисквит."
 
 msgid "Use a Time Scroll"
 msgstr "Прочитать Свиток времени"
+
+msgid "Vibration"
+msgstr "Вибрация"
 
 msgid "Voice Acting"
 msgstr "Озвучка"

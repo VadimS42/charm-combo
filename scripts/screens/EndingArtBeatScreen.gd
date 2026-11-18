@@ -22,7 +22,7 @@ static func build(main: Node, host: Control, char_id: String, caption: String, o
 	v.add_theme_constant_override("separation", 16)
 	host.add_child(v)
 
-	v.add_child(EndingCGScreen.art_frame(char_id, cg_key, Vector2(900, 506),
+	v.add_child(EndingCGScreen.art_frame(char_id, cg_key, UITheme.fit_art(Vector2(900, 506), 170.0),
 		"Epilogue art · placeholder", "💫"))
 
 	if not caption.is_empty():

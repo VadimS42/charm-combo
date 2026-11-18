@@ -596,8 +596,13 @@ func _build_ui_mobile() -> void:
 	var her := HBoxContainer.new()
 	her.add_theme_constant_override("separation", 8)
 	var face_box := PanelContainer.new()
-	# Upright phones have height to spare: she gets a bigger frame.
-	var fsize := Vector2(110, 128) if up else Vector2(96, 110)
+	# Upright phones have height to spare: she gets the room left over by
+	# the board and the HUD, showing more of her than just her face.
+	var fsize := Vector2(96, 110)
+	if up:
+		var spare := vs.y - 2.0 * M_PAD - 44.0 - side - 150.0 - 40.0
+		var fh := clampf(spare, 128.0, 260.0)
+		fsize = Vector2(roundf(fh * 0.82), fh)
 	face_box.custom_minimum_size = fsize
 	face_box.clip_contents = true
 	var fst := StyleBoxFlat.new()
@@ -761,7 +766,8 @@ func _mobile_face(expr: String) -> void:
 	if tex == null:
 		tex = ArtAssets.main_sprite(char_id)
 	if tex:
-		sprite_host.add_child(MobileShell.face_rect(ch, tex, sprite_host.get_parent().custom_minimum_size))
+		var box: Vector2 = sprite_host.get_parent().custom_minimum_size
+		sprite_host.add_child(MobileShell.face_rect(ch, tex, box, 110.0 / box.y))
 	else:
 		var c := CenterContainer.new()
 		c.set_anchors_preset(Control.PRESET_FULL_RECT)

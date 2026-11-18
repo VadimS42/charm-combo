@@ -17,6 +17,22 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-48 — mobile finished: every screen fits, long-press, vibration
+
+- **Fitting every screen:** the ending cards, the epilogue story pictures, the
+  18+ notice and the language picker now fit a phone in both orientations
+  (`UITheme.fit_art()`, `UITheme.fit_w()`).
+- **Her picture in chapters:** on an upright phone she fills the space left
+  above the board, showing more of her than just her face.
+- **Long-press tooltips** (`Main._input()`): holding a finger on anything
+  with a tooltip shows it in a bubble, and lifting the finger doesn't press
+  the button.
+- **Vibration** (`SFX.buzz()`): a short buzz on matches, combos, specials and
+  a won chapter. It has a switch in Settings (phones only) and turns on the
+  Android vibrate permission.
+- **Tests:** the desktop, mobile (`--mobile`) and safe-for-work (`--sfw`)
+  tests all pass.
+
 ## ✅ Status: round-47 — phone menus redesigned, portrait and landscape
 
 Only on phones and tablets (`Platform.mobile`; `-- --mobile` tries it on PC).

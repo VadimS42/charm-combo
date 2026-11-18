@@ -23,7 +23,7 @@ static func build(main: Node, host: Control, char_id: String, ending: Dictionary
 	v.add_theme_constant_override("separation", 10)
 	host.add_child(v)
 
-	v.add_child(art_frame(char_id, String(ending.get("cg", "")), Vector2(760, 400),
+	v.add_child(art_frame(char_id, String(ending.get("cg", "")), UITheme.fit_art(Vector2(760, 400), 250.0),
 		"Ending CG · placeholder art", "💞"))
 
 	var title_lbl := UITheme.heading(String(ending.get("title", "")), 26)

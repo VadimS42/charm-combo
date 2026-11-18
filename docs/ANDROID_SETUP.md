@@ -10,6 +10,9 @@ because it can never change after that.
 - **Screen:** portrait and landscape; the game follows the phone as it turns (round 47). Everything stays inside the display's safe area (camera notch, rounded corners).
 - **Its own interface (round 47):** phone-sized text and buttons, and menus as a tab bar (Home, Girls, Shop, Gallery, More) with big cards. Chapters and dialogue are laid out for whichever way the phone is held (`scripts/mobile/MobileShell.gd`, `PuzzleScreen._build_ui_mobile()`). Try it on PC with `-- --mobile` and a tall or wide window.
 - **Swapping:** tap a gem then its neighbour, or swipe a gem towards it.
+- **Tooltips:** hold a finger on anything with one (items, her power, the goal) for half a second to see it.
+- **Vibration:** a short buzz on matches, combos, special gems and a won chapter (Settings → Vibration).
+- **Every screen fits:** the 18+ notice, the language picker, the ending cards and the story pictures scale to the phone in both orientations. In chapters, an upright phone shows her large in the spare space above the board.
 - **Back button / gesture:** works like B. It closes a dialog, closes Settings or goes back a screen; on the main menu it leaves the game.
 - **Desktop-only parts hidden:** the Quit button, Fullscreen and "Open log folder".
 - **Saves:** the game saves when it's sent to the background.
@@ -36,6 +39,5 @@ because it can never change after that.
 
 ## Not done yet (next steps for the port)
 
-- **Finishing the mobile interface:** the ending screens, the age gate and the language picker still use the desktop layout, made to fit; they work but aren't redesigned yet. Her full sprite in chapters is just her face in a frame on phones.
-- **Touch extras:** long-press for tooltips (hover text doesn't exist on touch screens) and vibration on matches.
 - **Store integration:** Google Play Games achievements and in-app purchases, if wanted.
+- **Real-device testing:** everything above was checked in simulated phone screens (portrait and landscape) and with the headless tests; try it on a few real phones before release.

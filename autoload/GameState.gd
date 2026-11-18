@@ -52,6 +52,7 @@ const DEFAULT_SETTINGS := {
 	"skip_unseen": false,
 	"auto_delay": 0.5,
 	"reduce_motion": false,
+	"vibration": true,  # phones: a buzz on matches (SFX.buzz)
 	"theme": "system",  # "system" | "light" | "dark" (not ported yet)
 	"test_mode": false,
 	"fullscreen": false,

@@ -696,364 +696,370 @@ Skip Unread Lines
 Let Skip race through lines you haven't read yet, too.
 
 @@ ui-0228
-Reduce Motion
+Vibration
 
 @@ ui-0229
-Shorter animations, calmer feedback.
+A little buzz when gems match.
 
 @@ ui-0230
-Fullscreen
+Reduce Motion
 
 @@ ui-0231
-Fill the whole screen. F11 toggles it anywhere.
+Shorter animations, calmer feedback.
 
 @@ ui-0232
-Testing Mode
+Fullscreen
 
 @@ ui-0233
-Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing.
+Fill the whole screen. F11 toggles it anywhere.
 
 @@ ui-0234
-Leave to Roster
+Testing Mode
 
 @@ ui-0235
-Stop here. This scene plays again next time you visit her.
+Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing.
 
 @@ ui-0236
-Open log folder
+Leave to Roster
 
 @@ ui-0237
-For bug reports: send the newest godot.log from this folder.
+Stop here. This scene plays again next time you visit her.
 
 @@ ui-0238
-Reset Progress
+Open log folder
 
 @@ ui-0239
-Reset all progress?
+For bug reports: send the newest godot.log from this folder.
 
 @@ ui-0240
-This erases every girl's story progress, your stars, items, gifts and the whole Gallery. Your settings and achievements are kept. This can't be undone.
+Reset Progress
 
 @@ ui-0241
-Reset everything
+Reset all progress?
 
 @@ ui-0242
-Time Scroll
+This erases every girl's story progress, your stars, items, gifts and the whole Gallery. Your settings and achievements are kept. This can't be undone.
 
 @@ ui-0243
-Read it for three more moves in the chapter you're playing. Use it from the item row under the board — it also gets you out of an Out of Moves screen.
+Reset everything
 
 @@ ui-0244
-Hammer
+Time Scroll
 
 @@ ui-0245
-Pop any one gem, no match needed. Arm it from the item row, then tap a gem.
+Read it for three more moves in the chapter you're playing. Use it from the item row under the board — it also gets you out of an Out of Moves screen.
 
 @@ ui-0246
-Shuffle Wand
+Hammer
 
 @@ ui-0247
-One wave and the whole board is dealt again, always with a move to make.
+Pop any one gem, no match needed. Arm it from the item row, then tap a gem.
 
 @@ ui-0248
-Starburst Starter
+Shuffle Wand
 
 @@ ui-0249
-Your next chapter begins with a free Starburst gem already on the board.
+One wave and the whole board is dealt again, always with a move to make.
 
 @@ ui-0250
-Love Potion
+Starburst Starter
 
 @@ ui-0251
-Your next chapter: her favorite gem shows up more often, her least favorite less.
+Your next chapter begins with a free Starburst gem already on the board.
 
 @@ ui-0252
-Mending Potion
+Love Potion
 
 @@ ui-0253
-Your next chapter: far fewer cursed shards appear on the board.
+Your next chapter: her favorite gem shows up more often, her least favorite less.
 
 @@ ui-0254
-←  Back to the chapter
+Mending Potion
 
 @@ ui-0255
-Stars come from clearing chapters: 15 for a girl's first and 5 more for each one after it.
+Your next chapter: far fewer cursed shards appear on the board.
 
 @@ ui-0256
-Running out of moves still pays 1 star for every 200 points you scored (at least 3).
+←  Back to the chapter
 
 @@ ui-0257
-Short on stars? Replay a chapter you've cleared, from her card on the roster: it pays half.
+Stars come from clearing chapters: 15 for a girl's first and 5 more for each one after it.
 
 @@ ui-0258
-The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts.
+Running out of moves still pays 1 star for every 200 points you scored (at least 3).
 
 @@ ui-0259
-Owned: %d
+Short on stars? Replay a chapter you've cleared, from her card on the roster: it pays half.
 
 @@ ui-0260
-Buy · %d ⭐
+The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts.
 
 @@ ui-0261
-Buy · %d
+Owned: %d
 
 @@ ui-0262
-You need %d more stars.
+Buy · %d ⭐
 
 @@ ui-0263
-Log
+Buy · %d
 
 @@ ui-0264
-Read back (L, or scroll up)
+You need %d more stars.
 
 @@ ui-0265
-Auto
+Log
 
 @@ ui-0266
-Lines carry on by themselves (A)
+Read back (L, or scroll up)
 
 @@ ui-0267
-Skip
+Auto
 
 @@ ui-0268
-Skip lines you've read (hold Ctrl)
+Lines carry on by themselves (A)
 
 @@ ui-0269
-Skip unread
+Skip
 
 @@ ui-0270
-Skip every line up to the next reply, read or not
+Skip lines you've read (hold Ctrl)
 
 @@ ui-0271
-Hide text
+Skip unread
 
 @@ ui-0272
-See the whole picture (H)
+Skip every line up to the next reply, read or not
 
 @@ ui-0273
-What do you say?
+Hide text
 
 @@ ui-0274
-You
+See the whole picture (H)
 
 @@ ui-0275
-Reply
+What do you say?
 
 @@ ui-0276
-Next
+You
 
 @@ ui-0277
-Nothing yet.
+Reply
 
 @@ ui-0278
-Don't Even Think About It
+Next
 
 @@ ui-0279
-Meet Hazel instead of cutting her tree down.
+Nothing yet.
 
 @@ ui-0280
-A Lovely Trench
+Don't Even Think About It
 
 @@ ui-0281
-Clear Hazel's first chapter.
+Meet Hazel instead of cutting her tree down.
 
 @@ ui-0282
-Leaves Going Red
+A Lovely Trench
 
 @@ ui-0283
-Clear Hazel's second chapter.
+Clear Hazel's first chapter.
 
 @@ ui-0284
-Out in the Storm
+Leaves Going Red
 
 @@ ui-0285
-Clear Hazel's third chapter.
+Clear Hazel's second chapter.
 
 @@ ui-0286
-Putting Down Roots
+Out in the Storm
 
 @@ ui-0287
-Reach Hazel's ending.
+Clear Hazel's third chapter.
 
 @@ ui-0288
-Keeping Time
+Putting Down Roots
 
 @@ ui-0289
-Give Hazel the Brass Pocket Sundial.
+Reach Hazel's ending.
 
 @@ ui-0290
-Soft as Moss
+Keeping Time
 
 @@ ui-0291
-Finish Hazel's story picking every warm reply.
+Give Hazel the Brass Pocket Sundial.
 
 @@ ui-0292
-Splinters
+Soft as Moss
 
 @@ ui-0293
-Finish Hazel's story teasing her in every reply.
+Finish Hazel's story picking every warm reply.
 
 @@ ui-0294
-Chain Reaction
+Splinters
 
 @@ ui-0295
-Set off a x3 combo.
+Finish Hazel's story teasing her in every reply.
 
 @@ ui-0296
-Avalanche
+Chain Reaction
 
 @@ ui-0297
-Set off a x5 combo.
+Set off a x3 combo.
 
 @@ ui-0298
-Starstruck
+Avalanche
 
 @@ ui-0299
-Make a Starburst.
+Set off a x5 combo.
 
 @@ ui-0300
-Mega Blast
+Starstruck
 
 @@ ui-0301
-Swap two special gems together.
+Make a Starburst.
 
 @@ ui-0302
-Irresistible
+Mega Blast
 
 @@ ui-0303
-Fill the Charm ring for a Charm Burst.
+Swap two special gems together.
 
 @@ ui-0304
-With Moves to Spare
+Irresistible
 
 @@ ui-0305
-Clear a chapter with 5 or more moves left.
+Fill the Charm ring for a Charm Burst.
 
 @@ ui-0306
-Shard Smasher
+With Moves to Spare
 
 @@ ui-0307
-Clear a cursed shard with the Hammer.
+Clear a chapter with 5 or more moves left.
 
 @@ ui-0308
-Window Shopping
+Shard Smasher
 
 @@ ui-0309
-Buy something in the Item Shop.
+Clear a cursed shard with the Hammer.
 
 @@ ui-0310
-English
+Window Shopping
 
 @@ ui-0311
-%d / %d unlocked
+Buy something in the Item Shop.
 
 @@ ui-0312
-%d / %d endings found
+English
 
 @@ ui-0313
-%d pts — rough start...
+%d / %d unlocked
 
 @@ ui-0314
-%d / %d pts
+%d / %d endings found
 
 @@ ui-0315
-%d pts...
+%d pts — rough start...
 
 @@ ui-0316
-MOVES
+%d / %d pts
 
 @@ ui-0317
-TIP
+%d pts...
 
 @@ ui-0318
-+%d ⭐
+MOVES
 
 @@ ui-0319
-SEALS BROKEN
+TIP
 
 @@ ui-0320
-COMB PIECES
++%d ⭐
 
 @@ ui-0321
-THINGS FOUND
+SEALS BROKEN
 
 @@ ui-0322
-BLOSSOMS
+COMB PIECES
 
 @@ ui-0323
-%s is ready!
+THINGS FOUND
 
 @@ ui-0324
-%s: pick a gem.
+BLOSSOMS
 
 @@ ui-0325
-Home
+%s is ready!
 
 @@ ui-0326
-Girls
+%s: pick a gem.
 
 @@ ui-0327
-Shop
+Home
 
 @@ ui-0328
-More
+Girls
 
 @@ ui-0329
-Continue with %s
+Shop
 
 @@ ui-0330
-You have %d
+More
 
 @@ ui-0331
-Endings
+Continue with %s
 
 @@ ui-0332
-A match-3 romance in Millbrook. Meet four women in the worst way possible, help them with what they need, and see where it goes.
+You have %d
 
 @@ ui-0333
-Match runes, Amara's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards.
+Endings
 
 @@ ui-0334
-Match pearls, Marina's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Time Scroll buys back lost moves.
+A match-3 romance in Millbrook. Meet four women in the worst way possible, help them with what they need, and see where it goes.
 
 @@ ui-0335
-Match crystals, Opal's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Love Potion brings more of them.
+Match runes, Amara's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards.
 
 @@ ui-0336
-Match petals, Hazel's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards.
+Match pearls, Marina's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Time Scroll buys back lost moves.
 
 @@ ui-0337
-Correct Lines
+Match crystals, Opal's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Love Potion brings more of them.
 
 @@ ui-0338
-Pick a gem: its whole row and column clear.
+Match petals, Hazel's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards.
 
 @@ ui-0339
-Correct Lines!
+Correct Lines
 
 @@ ui-0340
-High Tide
+Pick a gem: its whole row and column clear.
 
 @@ ui-0341
-The two rows nearest the surface clear, and everything rises two rows.
+Correct Lines!
 
 @@ ui-0342
-High Tide!
+High Tide
 
 @@ ui-0343
-Absorb
+The two rows nearest the surface clear, and everything rises two rows.
 
 @@ ui-0344
-Pick a gem: every gem of that colour is cleared.
+High Tide!
 
 @@ ui-0345
-Absorb!
+Absorb
 
 @@ ui-0346
-Summer
+Pick a gem: every gem of that colour is cleared.
 
 @@ ui-0347
-Every seed and sprout on the board grows one stage.
+Absorb!
 
 @@ ui-0348
+Summer
+
+@@ ui-0349
+Every seed and sprout on the board grows one stage.
+
+@@ ui-0350
 Summer!
