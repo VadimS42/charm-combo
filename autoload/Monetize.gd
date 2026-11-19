@@ -20,18 +20,38 @@ signal changed
 
 # ---------------------------------------------------------------- tuning
 
-## Hearts: losing a chapter costs one; one comes back every HEART_MINUTES.
+## The Google Play build is rated PG-13 (Play target audience 13+): ads are
+## capped at Google's "T" (teen) content rating and aren't child-directed.
+## true = made for children too: child-directed, G-rated, never-personalised
+## ads and no consent form (AdMobBridge._configure_requests()); Google Play's
+## Families policy then applies. Every power-up can be earned with stars from
+## play and free videos either way, never only with money.
+const KIDS := false
+
+## Hearts (lives), as in other mobile puzzle games: losing or leaving a started
+## chapter costs one; one comes back every HEART_MINUTES up to MAX_HEARTS.
+## Hearts bought or won can go over the maximum (up to HEART_CAP); they don't
+## regrow past it.
 const MAX_HEARTS := 5
 const PASS_MAX_HEARTS := 8
-const HEART_MINUTES := 25
+const HEART_MINUTES := 30
+const HEART_CAP := 99
 ## A full refill, paid in stars.
 const REFILL_STARS := 60
-## The hardest tuning: chapters 2-4 give this share of their moves...
-const MOVES_FACTOR := 0.8
+## The hardest tuning: each chapter's share of its moves. The last chapter is
+## out of reach without several power-ups, each one before it a step easier.
+## Casual bot, % cleared (balance_bot.gd mode=girlkits, 60 runs a girl):
+##   chapter          none   1 Time Scroll   2 Scrolls   2 Scrolls + both potions
+##   1 (x0.75)      35-45%        72-82%       95-98%       100%
+##   2 (x0.65)      12-30%        52-75%       80-95%       100%
+##   3 (x0.55)       0-15%        25-48%       45-70%       88-100%
+##   4 (x0.45)        0-3%         0-8%        20-28%       48-98%   (full kit 77-100%)
+## (Normally, with all the moves: 59-88% with none, 95-100% with 2 Scrolls.)
+const CHAPTER_MOVES := [0.75, 0.65, 0.55, 0.45]
 ## ...and the Item Shop's star prices go up by this much.
 const PRICE_FACTOR := 1.5
 ## Rewarded videos: what each pays and how many a day.
-const VIDEO_MOVES := 5
+const VIDEO_MOVES := 3  # once per attempt: worth one Time Scroll
 const VIDEO_STARS := 15
 const DAILY_CAPS := {"moves": 6, "double": 6, "stars": 5, "heart": 5, "daily": 1}
 ## Between-chapter ads: never before the GRACE-th chapter end, then at most
@@ -60,6 +80,8 @@ const PRODUCTS := [
 		"desc": "No ads between chapters or under the menus, ever. Reward videos become one tap: the reward, no video."},
 	{"id": "story_pass", "kind": "once", "name": "Story Pass", "price": "$4.99",
 		"desc": "Skip any chapter, carry on after any loss, and 8 hearts instead of 5."},
+	{"id": "hearts_5", "kind": "consumable", "name": "5 Extra Hearts", "price": "$0.99",
+		"desc": "5 hearts right now, on top of the ones you have.", "grant": {"hearts": 5}},
 	{"id": "hearts_24h", "kind": "consumable", "name": "Unlimited Hearts", "price": "$1.99",
 		"desc": "Play as much as you like for 24 hours.", "grant": {"unlimited_h": 24}},
 	{"id": "item_bundle", "kind": "consumable", "name": "Item Bundle", "price": "$2.99",
@@ -104,7 +126,7 @@ func _ready() -> void:
 	var test_ok := OS.is_debug_build() or OS.get_cmdline_user_args().has("--ads-test")
 	if _has_global_class("MobileAds") and ResourceLoader.exists(ADMOB_BRIDGE):
 		_admob = load(ADMOB_BRIDGE).new()
-		_admob.start(AD_UNITS)
+		_admob.start(AD_UNITS, KIDS)
 		ad_provider = "admob"
 	elif test_ok:
 		ad_provider = "test"
@@ -172,14 +194,12 @@ func store_available() -> bool:
 
 # ---------------------------------------------------------------- hardest tuning
 
-## A chapter's moves in this build. Each girl's first chapter keeps all its
-## moves (the bot clears it ~90% of the time) so players get hooked before
-## it bites; chapters 2-4 at 80% take the bot's clear rate from 56-84% down
-## to 24-55% (balance_bot.gd mode=girls scale=0.8, round 50).
+## A chapter's moves in this build (CHAPTER_MOVES).
 static func moves(base: int, chapter: int = 1) -> int:
-	if not Platform.ads or chapter == 0:
+	if not Platform.ads:
 		return base
-	return maxi(5, roundi(base * MOVES_FACTOR))
+	var f: float = CHAPTER_MOVES[clampi(chapter, 0, CHAPTER_MOVES.size() - 1)]
+	return maxi(5, roundi(base * f))
 
 
 ## An Item Shop star price in this build.
@@ -259,10 +279,12 @@ func spend_heart() -> void:
 	_save()
 
 
-func add_hearts(n: int) -> void:
+## Adds hearts: up to the maximum, or (bought hearts) past it.
+func add_hearts(n: int, past_max: bool = false) -> void:
 	_regen()
 	var s := _shop()
-	s.hearts = mini(max_hearts(), int(s.hearts) + n)
+	var cap := HEART_CAP if past_max else maxi(max_hearts(), int(s.hearts))
+	s.hearts = mini(cap, int(s.hearts) + n)
 	if int(s.hearts) >= max_hearts():
 		s.heart_t = _now()
 	_save()
@@ -478,6 +500,8 @@ func _grant(product_id: String) -> void:
 	if int(g.get("items", 0)) > 0:
 		for it in StoreScreen.ITEMS:
 			GameState.items[it.id] = int(GameState.items.get(it.id, 0)) + int(g.items)
+	if int(g.get("hearts", 0)) > 0:
+		add_hearts(int(g.hearts), true)
 	if int(g.get("unlimited_h", 0)) > 0:
 		s.unlimited_until = maxf(_now(), float(s.get("unlimited_until", 0.0))) + int(g.unlimited_h) * 3600.0
 	if product_id == "story_pass":

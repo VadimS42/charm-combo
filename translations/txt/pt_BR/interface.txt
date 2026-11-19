@@ -422,526 +422,536 @@ Loja
 @@ ui-0209
 Voltar ao elenco
 @@ ui-0210
-Sem jogadas
+Sair deste capítulo?
 @@ ui-0211
-Faltaram %d pontos.
+Sair de um capítulo já começado custa um coração.
 @@ ui-0212
-+%d ⭐ pela tentativa
+Sem jogadas
 @@ ui-0213
-1 estrela a cada 200 pontos. Junte para comprar ajudas na Loja e tente de novo!
+Faltaram %d pontos.
 @@ ui-0214
-Uma dica
++%d ⭐ pela tentativa
 @@ ui-0215
-Tente: %s
+1 estrela a cada 200 pontos. Junte para comprar ajudas na Loja e tente de novo!
 @@ ui-0216
-+%d ⭐ para isso
+Uma dica
 @@ ui-0217
-+%d jogadas
+Tente: %s
 @@ ui-0218
-Corações restantes: %d / %d
++%d ⭐ para isso
 @@ ui-0219
-Usar um Pergaminho do tempo
++%d jogadas
 @@ ui-0220
-Repetir capítulo
+Corações restantes: %d / %d
 @@ ui-0221
-Pule com o Passe da História  ▸
+Usar um Pergaminho do tempo
 @@ ui-0222
-Continuar a história  ▸
+Repetir capítulo
 @@ ui-0223
-Seguir sem vencer este capítulo (sem estrelas por ele).
+Pule com o Passe da História  ▸
 @@ ui-0224
-Pula o quebra-cabeça deste capítulo: sem estrelas por ele.
+Continuar a história  ▸
 @@ ui-0225
-←  Menu
+Seguir sem vencer este capítulo (sem estrelas por ele).
 @@ ui-0226
-O círculo de Millbrook
+Pula o quebra-cabeça deste capítulo: sem estrelas por ele.
 @@ ui-0227
-Adora
+←  Menu
 @@ ui-0228
-Não gosta
+O círculo de Millbrook
 @@ ui-0229
-Ainda não se conheceram
+Adora
 @@ ui-0230
-Final: %s
+Não gosta
 @@ ui-0231
-Conhecê-la
+Ainda não se conheceram
 @@ ui-0232
-Rever
+Final: %s
 @@ ui-0233
-Recomeçar a história dela do início
+Conhecê-la
 @@ ui-0234
-Jogar a história de %s de novo?
+Rever
 @@ ui-0235
-A história dela recomeça do primeiro encontro, para você fazer escolhas diferentes. Os finais encontrados ficam na Galeria, seu presente continua dado e os capítulos dela voltam a dar estrelas.
+Recomeçar a história dela do início
 @@ ui-0236
-Jogar história de novo
+Jogar a história de %s de novo?
 @@ ui-0237
-Encontro livre
+A história dela recomeça do primeiro encontro, para você fazer escolhas diferentes. Os finais encontrados ficam na Galeria, seu presente continua dado e os capítulos dela voltam a dar estrelas.
 @@ ui-0238
-O tabuleiro dela sem limite de jogadas, só por diversão e por um recorde.
+Jogar história de novo
 @@ ui-0239
-Repetir um capítulo
+Encontro livre
 @@ ui-0240
-Jogue de novo um capítulo vencido, para ganhar estrelas. A história dela fica onde está.
+O tabuleiro dela sem limite de jogadas, só por diversão e por um recorde.
 @@ ui-0241
-Jogue de novo um capítulo vencido, para ganhar estrelas. Sem cenas de história, e a história dela fica onde está.
+Repetir um capítulo
 @@ ui-0242
-Capítulo %d · +%d ⭐
+Jogue de novo um capítulo vencido, para ganhar estrelas. A história dela fica onde está.
 @@ ui-0243
-Capítulo %d · +%d
+Jogue de novo um capítulo vencido, para ganhar estrelas. Sem cenas de história, e a história dela fica onde está.
 @@ ui-0244
-Dar a ela: %s
+Capítulo %d · +%d ⭐
 @@ ui-0245
-Depois disso, a gema favorita dela aparece mais em todos os capítulos dela, para sempre.
+Capítulo %d · +%d
 @@ ui-0246
-(Faltam %d estrelas.)
+Dar a ela: %s
 @@ ui-0247
-Idioma
+Depois disso, a gema favorita dela aparece mais em todos os capítulos dela, para sempre.
 @@ ui-0248
-O texto do jogo. As vozes continuam em inglês.
+(Faltam %d estrelas.)
 @@ ui-0249
-Efeitos sonoros
+Idioma
 @@ ui-0250
-Sons para combinações, combos e menus.
+O texto do jogo. As vozes continuam em inglês.
 @@ ui-0251
-Volume geral
+Efeitos sonoros
 @@ ui-0252
-Tudo — música e efeitos sonoros.
+Sons para combinações, combos e menus.
 @@ ui-0253
-O volume da música de fundo.
+Volume geral
 @@ ui-0254
-Vozes
+Tudo — música e efeitos sonoros.
 @@ ui-0255
-Ouça as garotas dizerem as falas.
+O volume da música de fundo.
 @@ ui-0256
-Volume das vozes
+Vozes
 @@ ui-0257
-O volume das vozes delas.
+Ouça as garotas dizerem as falas.
 @@ ui-0258
-Dificuldade
+Volume das vozes
 @@ ui-0259
-História: o dobro de jogadas, e você pode pular qualquer capítulo. Difícil: a cada poucas jogadas algo acontece no seu encontro (uma onda passa pelo píer, as velas tremulam), avisado antes. Vale a partir do próximo capítulo.
+O volume das vozes delas.
 @@ ui-0260
-Difícil: a cada poucas jogadas algo acontece no seu encontro (uma onda passa pelo píer, as velas tremulam), avisado com antecedência. A dificuldade História vem com o Passe da História. Vale a partir do próximo capítulo.
+Dificuldade
 @@ ui-0261
-História
+História: o dobro de jogadas, e você pode pular qualquer capítulo. Difícil: a cada poucas jogadas algo acontece no seu encontro (uma onda passa pelo píer, as velas tremulam), avisado antes. Vale a partir do próximo capítulo.
 @@ ui-0262
-Fácil
+Difícil: a cada poucas jogadas algo acontece no seu encontro (uma onda passa pelo píer, as velas tremulam), avisado com antecedência. A dificuldade História vem com o Passe da História. Vale a partir do próximo capítulo.
 @@ ui-0263
-Difícil
+História
 @@ ui-0264
-Velocidade do texto
+Fácil
 @@ ui-0265
-A rapidez com que o diálogo aparece.
+Difícil
 @@ ui-0266
-Lenta
+Velocidade do texto
 @@ ui-0267
-Normal
+A rapidez com que o diálogo aparece.
 @@ ui-0268
-Rápida
+Lenta
 @@ ui-0269
-Instantânea
+Normal
 @@ ui-0270
-Velocidade do Auto
+Rápida
 @@ ui-0271
-Quanto o Auto espera depois de cada fala (esquerda = menos).
+Instantânea
 @@ ui-0272
-Pular não lidas
+Velocidade do Auto
 @@ ui-0273
-Deixa o Pular passar também pelas falas que você ainda não leu.
+Quanto o Auto espera depois de cada fala (esquerda = menos).
 @@ ui-0274
-Tamanho do texto
+Pular não lidas
 @@ ui-0275
-Texto maior em todo lugar: diálogo, menus e quebra-cabeça.
+Deixa o Pular passar também pelas falas que você ainda não leu.
 @@ ui-0276
-Grande
+Tamanho do texto
 @@ ui-0277
-Maior
+Texto maior em todo lugar: diálogo, menus e quebra-cabeça.
 @@ ui-0278
-Números nas gemas
+Grande
 @@ ui-0279
-Cada tipo de gema mostra um número, para diferenciá-las sem depender da cor.
+Maior
 @@ ui-0280
-Mensagens mais longas
+Números nas gemas
 @@ ui-0281
-As mensagens e o balão de fala dela no capítulo ficam mais tempo na tela. O diálogo sempre espera por você, a menos que o Auto esteja ligado.
+Cada tipo de gema mostra um número, para diferenciá-las sem depender da cor.
 @@ ui-0282
-Vibração
+Mensagens mais longas
 @@ ui-0283
-Uma vibração leve quando as gemas combinam.
+As mensagens e o balão de fala dela no capítulo ficam mais tempo na tela. O diálogo sempre espera por você, a menos que o Auto esteja ligado.
 @@ ui-0284
-Reduzir movimento
+Vibração
 @@ ui-0285
-Animações mais curtas, respostas mais calmas.
+Uma vibração leve quando as gemas combinam.
 @@ ui-0286
-Tela cheia
+Reduzir movimento
 @@ ui-0287
-Ocupa a tela toda. F11 alterna a qualquer momento.
+Animações mais curtas, respostas mais calmas.
 @@ ui-0288
-Modo de teste
+Tela cheia
 @@ ui-0289
-Qualquer combinação válida cumpre o objetivo na hora e dá 99 estrelas — para testes, não para jogar de verdade.
+Ocupa a tela toda. F11 alterna a qualquer momento.
 @@ ui-0290
-Sair para o elenco
+Modo de teste
 @@ ui-0291
-Parar aqui. Esta cena toca de novo na próxima visita a ela.
+Qualquer combinação válida cumpre o objetivo na hora e dá 99 estrelas — para testes, não para jogar de verdade.
 @@ ui-0292
-Abrir pasta de registros
+Sair para o elenco
 @@ ui-0293
-Para relatar erros: envie o godot.log mais recente desta pasta.
+Parar aqui. Esta cena toca de novo na próxima visita a ela.
 @@ ui-0294
-Redefinir progresso
+Abrir pasta de registros
 @@ ui-0295
-Redefinir todo o progresso?
+Para relatar erros: envie o godot.log mais recente desta pasta.
 @@ ui-0296
-Isso apaga o progresso de todas as histórias, suas estrelas, itens, presentes e toda a Galeria. As configurações e conquistas ficam. Não dá para desfazer.
+Redefinir progresso
 @@ ui-0297
-Redefinir tudo
+Redefinir todo o progresso?
 @@ ui-0298
-Pergaminho do tempo
+Isso apaga o progresso de todas as histórias, suas estrelas, itens, presentes e toda a Galeria. As configurações e conquistas ficam. Não dá para desfazer.
 @@ ui-0299
-Leia para ganhar três jogadas a mais no capítulo atual. Use pela fileira de itens embaixo do tabuleiro — ele também tira você da tela "Sem jogadas".
+Redefinir tudo
 @@ ui-0300
-Martelo
+Pergaminho do tempo
 @@ ui-0301
-Quebra qualquer gema, sem precisar combinar. Prepare-o na fileira de itens e toque numa gema.
+Leia para ganhar três jogadas a mais no capítulo atual. Use pela fileira de itens embaixo do tabuleiro — ele também tira você da tela "Sem jogadas".
 @@ ui-0302
-Varinha de embaralhar
+Martelo
 @@ ui-0303
-Um aceno e o tabuleiro todo é distribuído de novo, sempre com uma jogada possível.
+Quebra qualquer gema, sem precisar combinar. Prepare-o na fileira de itens e toque numa gema.
 @@ ui-0304
-Iniciador estelar
+Varinha de embaralhar
 @@ ui-0305
-Seu próximo capítulo começa com uma Explosão estelar grátis no tabuleiro.
+Um aceno e o tabuleiro todo é distribuído de novo, sempre com uma jogada possível.
 @@ ui-0306
-Poção do amor
+Iniciador estelar
 @@ ui-0307
-Seu próximo capítulo: a gema favorita dela aparece mais, e a que ela não gosta, menos.
+Seu próximo capítulo começa com uma Explosão estelar grátis no tabuleiro.
 @@ ui-0308
-Poção restauradora
+Poção do amor
 @@ ui-0309
-Seu próximo capítulo: bem menos estilhaços amaldiçoados no tabuleiro.
+Seu próximo capítulo: a gema favorita dela aparece mais, e a que ela não gosta, menos.
 @@ ui-0310
-←  Voltar ao capítulo
+Poção restauradora
 @@ ui-0311
-As estrelas vêm de vencer capítulos: 15 pelo primeiro de cada garota e 5 a mais por cada um depois.
+Seu próximo capítulo: bem menos estilhaços amaldiçoados no tabuleiro.
 @@ ui-0312
-Ficar sem jogadas ainda dá 1 estrela a cada 200 pontos (no mínimo 3).
+←  Voltar ao capítulo
 @@ ui-0313
-Faltam estrelas? Repita um capítulo vencido pelo cartão dela: rende metade.
+As estrelas vêm de vencer capítulos: 15 pelo primeiro de cada garota e 5 a mais por cada um depois.
 @@ ui-0314
-A fileira de cima é usada durante um capítulo; a de baixo age sozinha quando o próximo capítulo começa.
+Ficar sem jogadas ainda dá 1 estrela a cada 200 pontos (no mínimo 3).
 @@ ui-0315
-Você tem: %d
+Faltam estrelas? Repita um capítulo vencido pelo cartão dela: rende metade.
 @@ ui-0316
-Comprar · %d ⭐
+A fileira de cima é usada durante um capítulo; a de baixo age sozinha quando o próximo capítulo começa.
 @@ ui-0317
-Comprar · %d
+Você tem: %d
 @@ ui-0318
-Faltam %d estrelas.
+Comprar · %d ⭐
 @@ ui-0319
-Histórico
+Comprar · %d
 @@ ui-0320
-Reler (L, ou role para cima)
+Faltam %d estrelas.
 @@ ui-0321
-Auto
+Histórico
 @@ ui-0322
-As falas seguem sozinhas (A)
+Reler (L, ou role para cima)
 @@ ui-0323
-Pular
+Auto
 @@ ui-0324
-Pula o que já leu (segure Ctrl)
+As falas seguem sozinhas (A)
 @@ ui-0325
-Pular tudo
+Pular
 @@ ui-0326
-Pula todas as falas até a próxima resposta, lidas ou não
+Pula o que já leu (segure Ctrl)
 @@ ui-0327
-Esconder texto
+Pular tudo
 @@ ui-0328
-Ver a imagem inteira (H)
+Pula todas as falas até a próxima resposta, lidas ou não
 @@ ui-0329
-O que você diz?
+Esconder texto
 @@ ui-0330
-Você
+Ver a imagem inteira (H)
 @@ ui-0331
-Responder
+O que você diz?
 @@ ui-0332
-Próximo
+Você
 @@ ui-0333
-Nada ainda.
+Responder
 @@ ui-0334
-Início
+Próximo
 @@ ui-0335
-Garotas
+Nada ainda.
 @@ ui-0336
-Loja
+Início
 @@ ui-0337
-Mais
+Garotas
 @@ ui-0338
-Um romance de combinar três em Millbrook. Conheça quatro mulheres do pior jeito possível, ajude-as com o que precisam e veja aonde isso leva.
+Loja
 @@ ui-0339
-Continuar com %s
+Mais
 @@ ui-0340
-Todas as garotas
+Um romance de combinar três em Millbrook. Conheça quatro mulheres do pior jeito possível, ajude-as com o que precisam e veja aonde isso leva.
 @@ ui-0341
-Você tem %d
+Continuar com %s
 @@ ui-0342
-Voltar ao capítulo
+Todas as garotas
 @@ ui-0343
-Remover anúncios · %s
+Você tem %d
 @@ ui-0344
-Restaurar compras
+Voltar ao capítulo
 @@ ui-0345
-Tudo o que você comprou nesta conta do Google volta em um instante.
+Remover anúncios · %s
 @@ ui-0346
-Privacidade dos anúncios
+Restaurar compras
 @@ ui-0347
-Não comprado
+Tudo o que você comprou nesta conta do Google volta em um instante.
 @@ ui-0348
-Sem corações
+Privacidade dos anúncios
 @@ ui-0349
-Perder um capítulo custa um coração, e um volta a cada %d minutos.
+Não comprado
 @@ ui-0350
-Próximo coração em %s
+Sem corações
 @@ ui-0351
-+1 coração
+Perder um capítulo custa um coração, e um volta a cada %d minutos.
 @@ ui-0352
-Recarregar tudo · %d ⭐
+Próximo coração em %s
 @@ ui-0353
-Ilimitado por 24 horas · %s
++1 coração
 @@ ui-0354
-Passe da História: 8 corações e pulos livres · %s
+Recarregar tudo · %d ⭐
 @@ ui-0355
-Agora não
++5 corações · %s
 @@ ui-0356
-dobre para %d ⭐
+Ilimitado por 24 horas · %s
 @@ ui-0357
-Corações ilimitados: faltam %s
+Passe da História: 8 corações e pulos livres · %s
 @@ ui-0358
-Corações: %d / %d
+Agora não
 @@ ui-0359
-Estrelas grátis
+dobre para %d ⭐
 @@ ui-0360
-As ofertas aparecem aqui quando o Google Play estiver disponível.
+Corações ilimitados: faltam %s
 @@ ui-0361
-Comprado
+Corações: %d / %d
 @@ ui-0362
-Nem pense nisso
+Estrelas grátis
 @@ ui-0363
-Conheça Hazel em vez de cortar a árvore dela.
+As ofertas aparecem aqui quando o Google Play estiver disponível.
 @@ ui-0364
-Uma bela vala
+Comprado
 @@ ui-0365
-Vença o primeiro capítulo de Hazel.
+Nem pense nisso
 @@ ui-0366
-Folhas avermelhando
+Conheça Hazel em vez de cortar a árvore dela.
 @@ ui-0367
-Vença o segundo capítulo de Hazel.
+Uma bela vala
 @@ ui-0368
-Lá fora na tempestade
+Vença o primeiro capítulo de Hazel.
 @@ ui-0369
-Vença o terceiro capítulo de Hazel.
+Folhas avermelhando
 @@ ui-0370
-Criando raízes
+Vença o segundo capítulo de Hazel.
 @@ ui-0371
-Chegue ao final de Hazel.
+Lá fora na tempestade
 @@ ui-0372
-Marcando o tempo
+Vença o terceiro capítulo de Hazel.
 @@ ui-0373
-Dê a Hazel o relógio de sol de bolso de latão.
+Criando raízes
 @@ ui-0374
-Macia como musgo
+Chegue ao final de Hazel.
 @@ ui-0375
-Termine a história de Hazel escolhendo toda resposta carinhosa.
+Marcando o tempo
 @@ ui-0376
-Farpas
+Dê a Hazel o relógio de sol de bolso de latão.
 @@ ui-0377
-Termine a história de Hazel provocando-a em toda resposta.
+Macia como musgo
 @@ ui-0378
-Reação em cadeia
+Termine a história de Hazel escolhendo toda resposta carinhosa.
 @@ ui-0379
-Faça um combo x3.
+Farpas
 @@ ui-0380
-Avalanche
+Termine a história de Hazel provocando-a em toda resposta.
 @@ ui-0381
-Faça um combo x5.
+Reação em cadeia
 @@ ui-0382
-Deslumbrante
+Faça um combo x3.
 @@ ui-0383
-Crie uma Explosão estelar.
+Avalanche
 @@ ui-0384
-Megaexplosão
+Faça um combo x5.
 @@ ui-0385
-Troque duas gemas especiais entre si.
+Deslumbrante
 @@ ui-0386
-Irresistível
+Crie uma Explosão estelar.
 @@ ui-0387
-Encha o anel de Charme para uma Explosão de Charme.
+Megaexplosão
 @@ ui-0388
-Com jogadas de sobra
+Troque duas gemas especiais entre si.
 @@ ui-0389
-Vença um capítulo com 5 ou mais jogadas sobrando.
+Irresistível
 @@ ui-0390
-Quebra-estilhaços
+Encha o anel de Charme para uma Explosão de Charme.
 @@ ui-0391
-Elimine um estilhaço amaldiçoado com o Martelo.
+Com jogadas de sobra
 @@ ui-0392
-Só olhando a vitrine
+Vença um capítulo com 5 ou mais jogadas sobrando.
 @@ ui-0393
-Compre algo na Loja.
+Quebra-estilhaços
 @@ ui-0394
-Em plena flor
+Elimine um estilhaço amaldiçoado com o Martelo.
 @@ ui-0395
-Faça crescer 25 flores de Hazel.
+Só olhando a vitrine
 @@ ui-0396
-Encadernadora
+Compre algo na Loja.
 @@ ui-0397
-Quebre 50 selos de Amara.
+Em plena flor
 @@ ui-0398
-Achado não é roubado
+Faça crescer 25 flores de Hazel.
 @@ ui-0399
-Ache 30 coisas perdidas de Opal sob o musgo.
+Encadernadora
 @@ ui-0400
-Mergulhador de tesouros
+Quebre 50 selos de Amara.
 @@ ui-0401
-Resgate 10 pedaços de pente para Marina.
+Achado não é roubado
 @@ ui-0402
-Mil brilhos
+Ache 30 coisas perdidas de Opal sob o musgo.
 @@ ui-0403
-Faça 1000 combinações.
+Mergulhador de tesouros
 @@ ui-0404
-Só porque sim
+Resgate 10 pedaços de pente para Marina.
 @@ ui-0405
-Faça 2000 pontos num encontro livre.
+Mil brilhos
 @@ ui-0406
-Todo dia conta
+Faça 1000 combinações.
 @@ ui-0407
-Complete um desafio diário.
+Só porque sim
 @@ ui-0408
-English
+Faça 2000 pontos num encontro livre.
 @@ ui-0409
-Pacote inicial
+Todo dia conta
 @@ ui-0410
-Melhor oferta
+Complete um desafio diário.
 @@ ui-0411
-500 estrelas, 3 de cada item e 24 horas de corações ilimitados. Uma vez por jogador.
+English
 @@ ui-0412
-Sem anúncios
+Pacote inicial
 @@ ui-0413
-Nunca mais anúncios entre capítulos ou embaixo dos menus. Vídeos com recompensa viram um toque: a recompensa, sem vídeo.
+Melhor oferta
 @@ ui-0414
-Passe da História
+500 estrelas, 3 de cada item e 24 horas de corações ilimitados. Uma vez por jogador.
 @@ ui-0415
-Pule qualquer capítulo, continue depois de qualquer derrota e 8 corações em vez de 5.
+Sem anúncios
 @@ ui-0416
-Corações ilimitados
+Nunca mais anúncios entre capítulos ou embaixo dos menus. Vídeos com recompensa viram um toque: a recompensa, sem vídeo.
 @@ ui-0417
-Jogue o quanto quiser por 24 horas.
+Passe da História
 @@ ui-0418
-Pacote de itens
+Pule qualquer capítulo, continue depois de qualquer derrota e 8 corações em vez de 5.
 @@ ui-0419
-5 de cada item da loja.
+5 corações extras
 @@ ui-0420
-Punhado de estrelas
+5 corações agora mesmo, além dos que você já tem.
 @@ ui-0421
-150 estrelas.
+Corações ilimitados
 @@ ui-0422
-Bolsa de estrelas
+Jogue o quanto quiser por 24 horas.
 @@ ui-0423
-800 estrelas.
+Pacote de itens
 @@ ui-0424
-Baú de estrelas
+5 de cada item da loja.
 @@ ui-0425
-Popular
+Punhado de estrelas
 @@ ui-0426
-1.800 estrelas.
+150 estrelas.
 @@ ui-0427
-Tesouro de estrelas
+Bolsa de estrelas
 @@ ui-0428
-5.000 estrelas.
+800 estrelas.
 @@ ui-0429
-Grátis: %s
+Baú de estrelas
 @@ ui-0430
-Assistir a um vídeo: %s
+Popular
 @@ ui-0431
-Você já tem isso.
+1.800 estrelas.
 @@ ui-0432
-Compra de teste
+Tesouro de estrelas
 @@ ui-0433
-Esta é uma versão de teste: nenhum dinheiro é cobrado. Comprar %s por %s?
+5.000 estrelas.
 @@ ui-0434
-Comprar
+Grátis: %s
 @@ ui-0435
-O Google Play não está disponível agora. Tente de novo em instantes.
+Assistir a um vídeo: %s
 @@ ui-0436
-Não foi possível iniciar a compra (%s).
+Você já tem isso.
 @@ ui-0437
-A loja não está disponível nesta versão.
+Compra de teste
 @@ ui-0438
-A compra não foi concluída (%s).
+Esta é uma versão de teste: nenhum dinheiro é cobrado. Comprar %s por %s?
 @@ ui-0439
-Sua compra está pendente. Ela chega assim que o Google Play confirmar.
+Comprar
 @@ ui-0440
-%d / %d desbloqueadas
+O Google Play não está disponível agora. Tente de novo em instantes.
 @@ ui-0441
-%d / %d finais encontrados
+Não foi possível iniciar a compra (%s).
 @@ ui-0442
-%d pts — começo difícil...
+A loja não está disponível nesta versão.
 @@ ui-0443
-%d / %d pts
+A compra não foi concluída (%s).
 @@ ui-0444
-%d pts...
+Sua compra está pendente. Ela chega assim que o Google Play confirmar.
 @@ ui-0445
-JOGADAS
+%d / %d desbloqueadas
 @@ ui-0446
-DICA
+%d / %d finais encontrados
 @@ ui-0447
-+%d ⭐
+%d pts — começo difícil...
 @@ ui-0448
-SELOS QUEBRADOS
+%d / %d pts
 @@ ui-0449
-PEDAÇOS DE PENTE
+%d pts...
 @@ ui-0450
-COISAS ACHADAS
+JOGADAS
 @@ ui-0451
-FLORES
+DICA
 @@ ui-0452
-%s está pronto!
++%d ⭐
 @@ ui-0453
-%s: escolha uma gema.
+SELOS QUEBRADOS
 @@ ui-0454
-%d pts
+PEDAÇOS DE PENTE
 @@ ui-0455
-PONTOS
+COISAS ACHADAS
 @@ ui-0456
-Combine runas, as favoritas de Amara: elas enchem o anel de Charme duas vezes mais rápido e, no Difícil, adiam o que está por vir. Uma Poção restauradora significa menos estilhaços amaldiçoados.
+FLORES
 @@ ui-0457
-Combine pérolas, as favoritas de Marina: elas enchem o anel de Charme duas vezes mais rápido e, no Difícil, adiam o que está por vir. Um Pergaminho do tempo recupera jogadas perdidas.
+%s está pronto!
 @@ ui-0458
-Combine cristais, os favoritos de Opal: eles enchem o anel de Charme duas vezes mais rápido e, no Difícil, adiam o que está por vir. Uma Poção do amor traz mais deles.
+%s: escolha uma gema.
 @@ ui-0459
-Combine pétalas, as favoritas de Hazel: elas enchem o anel de Charme duas vezes mais rápido e, no Difícil, adiam o que está por vir. Uma Poção restauradora significa menos estilhaços amaldiçoados.
+%d pts
 @@ ui-0460
-Linhas corretas
+PONTOS
 @@ ui-0461
-Escolha uma gema: a linha e a coluna inteiras dela são limpas.
+Combine runas, as favoritas de Amara: elas enchem o anel de Charme duas vezes mais rápido e, no Difícil, adiam o que está por vir. Uma Poção restauradora significa menos estilhaços amaldiçoados.
 @@ ui-0462
-Linhas corretas!
+Combine pérolas, as favoritas de Marina: elas enchem o anel de Charme duas vezes mais rápido e, no Difícil, adiam o que está por vir. Um Pergaminho do tempo recupera jogadas perdidas.
 @@ ui-0463
-Maré alta
+Combine cristais, os favoritos de Opal: eles enchem o anel de Charme duas vezes mais rápido e, no Difícil, adiam o que está por vir. Uma Poção do amor traz mais deles.
 @@ ui-0464
-As duas linhas mais perto da superfície são limpas e tudo sobe duas linhas.
+Combine pétalas, as favoritas de Hazel: elas enchem o anel de Charme duas vezes mais rápido e, no Difícil, adiam o que está por vir. Uma Poção restauradora significa menos estilhaços amaldiçoados.
 @@ ui-0465
-Maré alta!
+Linhas corretas
 @@ ui-0466
-Absorver
+Escolha uma gema: a linha e a coluna inteiras dela são limpas.
 @@ ui-0467
-Escolha uma gema: todas as gemas dessa cor somem.
+Linhas corretas!
 @@ ui-0468
-Absorver!
+Maré alta
 @@ ui-0469
-Verão
+As duas linhas mais perto da superfície são limpas e tudo sobe duas linhas.
 @@ ui-0470
-Cada semente e broto do tabuleiro cresce um estágio.
+Maré alta!
 @@ ui-0471
+Absorver
+@@ ui-0472
+Escolha uma gema: todas as gemas dessa cor somem.
+@@ ui-0473
+Absorver!
+@@ ui-0474
+Verão
+@@ ui-0475
+Cada semente e broto do tabuleiro cresce um estágio.
+@@ ui-0476
 Verão!

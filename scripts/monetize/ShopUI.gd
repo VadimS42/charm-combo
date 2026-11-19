@@ -108,6 +108,11 @@ static func out_of_hearts(main: Node) -> void:
 			main.refresh_topbar())
 	v.add_child(refill)
 	if Monetize.store_available():
+		var five := _wide(UITheme.make_ghost_button(UITheme.t("+5 hearts · %s") % Monetize.price("hearts_5")))
+		five.pressed.connect(func(): buy(main, "hearts_5", func():
+			main.close_modal()
+			main.refresh_topbar()))
+		v.add_child(five)
 		var unl := _wide(UITheme.make_ghost_button(UITheme.t("Unlimited for 24 hours · %s") % Monetize.price("hearts_24h")))
 		unl.pressed.connect(func(): buy(main, "hearts_24h", func(): main.close_modal()))
 		v.add_child(unl)
@@ -189,6 +194,10 @@ static func shop_section(main: Node, refresh: Callable) -> VBoxContainer:
 				main.refresh_topbar()
 				refresh.call())
 		hv.add_child(refill)
+	if Monetize.store_available() and not Monetize.unlimited():
+		var five := _wide(UITheme.make_ghost_button(UITheme.t("+5 hearts · %s") % Monetize.price("hearts_5")))
+		five.pressed.connect(func(): buy(main, "hearts_5", refresh))
+		hv.add_child(five)
 	v.add_child(hc[0])
 	# Free stars for a video.
 	if Monetize.can_watch("stars"):

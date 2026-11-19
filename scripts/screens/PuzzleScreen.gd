@@ -248,6 +248,7 @@ func setup(p_main: Node, p_host: Control, p_char_id: String, p_replay: int = -1,
 		moves_left = FREE_MOVES
 	elif mode == "daily":
 		moves_left = DAILY_MOVES
+	_start_moves = moves_left
 	var rot := event_rotation(ch, level_index)
 	_events = rot.moves
 	_event_every = int(rot.every)
@@ -584,9 +585,7 @@ func _build_ui_mobile() -> void:
 	back.custom_minimum_size = Vector2(48, 40)
 	back.pressed.connect(func():
 		SFX.nav()
-		teardown()
-		GameState.save_state()
-		main.show_roster())
+		_leave_to_roster())
 	top.add_child(back)
 	var how := _photo_nav_button("?")
 	how.custom_minimum_size = Vector2(44, 40)
@@ -1125,11 +1124,7 @@ func _build_ui() -> void:
 	var back := _photo_nav_button("←  Roster")
 	back.pressed.connect(func():
 		SFX.nav()
-		# Stop the idle-hint countdown and kill any looping hint tween BEFORE
-		# screen_host's children get freed by clear_screen() (see teardown()).
-		teardown()
-		GameState.save_state()
-		main.show_roster()
+		_leave_to_roster()
 	)
 	top_row.add_child(back)
 	var how_btn := _photo_nav_button("How to Play")
@@ -3459,6 +3454,34 @@ func _add_moves(n: int) -> void:
 		cell_buttons[3][3].grab_focus.call_deferred()
 
 
+## Back to the roster. Google Play build: leaving a chapter you've started
+## (a move made, not yet won or lost) costs a heart, as in other mobile
+## puzzle games, and says so first.
+func _leave_to_roster() -> void:
+	var go := func():
+		# Stop the idle-hint countdown and kill any looping hint tween BEFORE
+		# screen_host's children get freed by clear_screen() (see teardown()).
+		teardown()
+		GameState.save_state()
+		main.show_roster()
+	var started: bool = mode == "" and moves_left < _start_moves and moves_left > 0 \
+		and not _loss_counted and not _won_pending and not _replay_cleared
+	if Monetize.active() and started and not Monetize.unlimited():
+		main.confirm(UITheme.t("Leave this chapter?"),
+			UITheme.t("Leaving a chapter you've started costs a heart."),
+			UITheme.t("Leave"), func():
+				Monetize.spend_heart()
+				go.call())
+		return
+	go.call()
+
+
+## Moves at the start of this attempt (to tell whether it's been started).
+var _start_moves := 0
+
+## Google Play build: this attempt already had its video moves.
+var _video_moves_used := false
+
 ## This attempt's loss is already counted (running out again after +3 Moves
 ## is the same attempt).
 var _loss_counted := false
@@ -3559,12 +3582,15 @@ func _show_lose_overlay() -> void:
 	v.add_child(row)
 
 	# Google Play build: a few more moves for a video.
-	if Monetize.can_watch("moves"):
+	# Once per attempt (it was once per out-of-moves, so six videos could add
+	# 30 moves and undo the whole difficulty curve).
+	if Monetize.can_watch("moves") and not _video_moves_used:
 		var vid := UITheme.make_primary_button(Monetize.watch_label(UITheme.t("+%d moves") % Monetize.VIDEO_MOVES))
 		UITheme.add_icon(vid, "play")
 		vid.pressed.connect(func():
 			Monetize.watch("moves", func():
 				if not _torn_down:
+					_video_moves_used = true
 					_add_moves(Monetize.VIDEO_MOVES)))
 		var vid_row := HBoxContainer.new()
 		vid_row.alignment = BoxContainer.ALIGNMENT_CENTER

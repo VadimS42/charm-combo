@@ -66,6 +66,9 @@ msgstr "ハート+1"
 msgid "+2 moves — great answer!"
 msgstr "手数+2 — いい返事!"
 
+msgid "+5 hearts · %s"
+msgstr "ハート+5 · %s"
+
 msgid "-1 move"
 msgstr "-1手"
 
@@ -80,6 +83,12 @@ msgstr "スター150個。"
 
 msgid "18+ · original characters · all characters are adults."
 msgstr "18+ · オリジナルキャラクター · 登場人物は全員成人です。"
+
+msgid "5 Extra Hearts"
+msgstr "追加ハート5個"
+
+msgid "5 hearts right now, on top of the ones you have."
+msgstr "今すぐハート5個。今あるハートに上乗せされます。"
 
 msgid "5 of every item in the Item Shop."
 msgstr "アイテムショップの全アイテムを5個ずつ。"
@@ -1237,16 +1246,22 @@ msgid "Later. The candle is down to a stub. She's lying across you on the readin
 msgstr "その後。ろうそくは燃えさしになっている。彼女は閲覧室の敷物の上であなたに覆いかぶさるように横たわり、片方の翼を毛布のように二人の上に畳んでいる。"
 
 msgid "Leave"
-msgstr "やめる"
+msgstr "抜ける"
 
 msgid "Leave it there a minute. It's been a long time."
 msgstr "少しそのままにしておいて。久しぶりなの。"
+
+msgid "Leave this chapter?"
+msgstr "この章を抜けますか？"
 
 msgid "Leave to Roster"
 msgstr "一覧に戻る"
 
 msgid "Leaves Going Red"
 msgstr "色づく葉"
+
+msgid "Leaving a chapter you've started costs a heart."
+msgstr "始めた章を抜けるとハートが1つ減ります。"
 
 msgid "Let Skip race through lines you haven't read yet, too."
 msgstr "スキップでまだ読んでいないセリフも飛ばす。"

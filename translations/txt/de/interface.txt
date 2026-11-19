@@ -422,526 +422,536 @@ Laden
 @@ ui-0209
 Zurück zur Übersicht
 @@ ui-0210
-Keine Züge mehr
+Kapitel verlassen?
 @@ ui-0211
-Dir haben %d Punkte gefehlt.
+Ein angefangenes Kapitel zu verlassen kostet ein Herz.
 @@ ui-0212
-+%d ⭐ fürs Versuchen
+Keine Züge mehr
 @@ ui-0213
-1 Stern pro 200 Punkte. Spar im Laden auf Hilfsmittel und versuch es dann noch einmal!
+Dir haben %d Punkte gefehlt.
 @@ ui-0214
-Ein Tipp
++%d ⭐ fürs Versuchen
 @@ ui-0215
-Versuch: %s
+1 Stern pro 200 Punkte. Spar im Laden auf Hilfsmittel und versuch es dann noch einmal!
 @@ ui-0216
-+%d ⭐ dafür
+Ein Tipp
 @@ ui-0217
-+%d Züge
+Versuch: %s
 @@ ui-0218
-Übrige Herzen: %d / %d
++%d ⭐ dafür
 @@ ui-0219
-Zeitrolle benutzen
++%d Züge
 @@ ui-0220
-Kapitel wiederholen
+Übrige Herzen: %d / %d
 @@ ui-0221
-Mit dem Story-Pass überspringen  ▸
+Zeitrolle benutzen
 @@ ui-0222
-Geschichte fortsetzen  ▸
+Kapitel wiederholen
 @@ ui-0223
-Weitermachen, ohne dieses Kapitel zu schaffen (keine Sterne dafür).
+Mit dem Story-Pass überspringen  ▸
 @@ ui-0224
-Überspringt das Rätsel dieses Kapitels: keine Sterne dafür.
+Geschichte fortsetzen  ▸
 @@ ui-0225
-←  Menü
+Weitermachen, ohne dieses Kapitel zu schaffen (keine Sterne dafür).
 @@ ui-0226
-Millbrooker Kreis
+Überspringt das Rätsel dieses Kapitels: keine Sterne dafür.
 @@ ui-0227
-Mag
+←  Menü
 @@ ui-0228
-Mag nicht
+Millbrooker Kreis
 @@ ui-0229
-Noch nicht getroffen
+Mag
 @@ ui-0230
-Ende: %s
+Mag nicht
 @@ ui-0231
-Kennenlernen
+Noch nicht getroffen
 @@ ui-0232
-Wieder besuchen
+Ende: %s
 @@ ui-0233
-Ihre Geschichte von vorn beginnen
+Kennenlernen
 @@ ui-0234
-%ss Geschichte neu spielen?
+Wieder besuchen
 @@ ui-0235
-Ihre Geschichte beginnt wieder bei eurem ersten Treffen, damit du andere Entscheidungen treffen kannst. Gefundene Enden bleiben in der Galerie, dein Geschenk bleibt gegeben, und ihre Kapitel bringen wieder Sterne.
+Ihre Geschichte von vorn beginnen
 @@ ui-0236
-Geschichte neu spielen
+%ss Geschichte neu spielen?
 @@ ui-0237
-Freies Date
+Ihre Geschichte beginnt wieder bei eurem ersten Treffen, damit du andere Entscheidungen treffen kannst. Gefundene Enden bleiben in der Galerie, dein Geschenk bleibt gegeben, und ihre Kapitel bringen wieder Sterne.
 @@ ui-0238
-Ihr Spielfeld ohne Zuglimit, einfach zum Spaß und für einen Rekord.
+Geschichte neu spielen
 @@ ui-0239
-Ein Kapitel wiederholen
+Freies Date
 @@ ui-0240
-Spiel ein geschafftes Kapitel noch einmal, für Sterne. Ihre Geschichte bleibt, wo sie ist.
+Ihr Spielfeld ohne Zuglimit, einfach zum Spaß und für einen Rekord.
 @@ ui-0241
-Spiel ein geschafftes Kapitel noch einmal, für Sterne. Keine Story-Szenen, und ihre Geschichte bleibt, wo sie ist.
+Ein Kapitel wiederholen
 @@ ui-0242
-Kapitel %d · +%d ⭐
+Spiel ein geschafftes Kapitel noch einmal, für Sterne. Ihre Geschichte bleibt, wo sie ist.
 @@ ui-0243
-Kapitel %d · +%d
+Spiel ein geschafftes Kapitel noch einmal, für Sterne. Keine Story-Szenen, und ihre Geschichte bleibt, wo sie ist.
 @@ ui-0244
-Gib ihr: %s
+Kapitel %d · +%d ⭐
 @@ ui-0245
-Danach taucht ihr Lieblingsstein in all ihren Kapiteln öfter auf, für immer.
+Kapitel %d · +%d
 @@ ui-0246
-(Dir fehlen %d Sterne.)
+Gib ihr: %s
 @@ ui-0247
-Sprache
+Danach taucht ihr Lieblingsstein in all ihren Kapiteln öfter auf, für immer.
 @@ ui-0248
-Der Text des Spiels. Die Stimmen bleiben Englisch.
+(Dir fehlen %d Sterne.)
 @@ ui-0249
-Soundeffekte
+Sprache
 @@ ui-0250
-Klänge für Reihen, Kombos und Menüs.
+Der Text des Spiels. Die Stimmen bleiben Englisch.
 @@ ui-0251
-Gesamtlautstärke
+Soundeffekte
 @@ ui-0252
-Alles — Musik und Soundeffekte.
+Klänge für Reihen, Kombos und Menüs.
 @@ ui-0253
-Wie laut die Hintergrundmusik spielt.
+Gesamtlautstärke
 @@ ui-0254
-Sprachausgabe
+Alles — Musik und Soundeffekte.
 @@ ui-0255
-Hör die Frauen ihre Zeilen sprechen.
+Wie laut die Hintergrundmusik spielt.
 @@ ui-0256
-Stimmlautstärke
+Sprachausgabe
 @@ ui-0257
-Wie laut ihre Stimmen sind.
+Hör die Frauen ihre Zeilen sprechen.
 @@ ui-0258
-Schwierigkeit
+Stimmlautstärke
 @@ ui-0259
-Story: doppelt so viele Züge, und du kannst jedes Kapitel überspringen. Schwer: Alle paar Züge passiert etwas auf deinem Date (eine Welle schwappt über den Steg, die Kerzen flackern), vorher angekündigt. Gilt ab dem nächsten Kapitel.
+Wie laut ihre Stimmen sind.
 @@ ui-0260
-Schwer: Alle paar Züge passiert etwas auf deinem Date (eine Welle schwappt über den Steg, die Kerzen flackern), vorher angekündigt. Der Story-Schwierigkeitsgrad gehört zum Story-Pass. Gilt ab dem nächsten Kapitel.
+Schwierigkeit
 @@ ui-0261
-Story
+Story: doppelt so viele Züge, und du kannst jedes Kapitel überspringen. Schwer: Alle paar Züge passiert etwas auf deinem Date (eine Welle schwappt über den Steg, die Kerzen flackern), vorher angekündigt. Gilt ab dem nächsten Kapitel.
 @@ ui-0262
-Leicht
+Schwer: Alle paar Züge passiert etwas auf deinem Date (eine Welle schwappt über den Steg, die Kerzen flackern), vorher angekündigt. Der Story-Schwierigkeitsgrad gehört zum Story-Pass. Gilt ab dem nächsten Kapitel.
 @@ ui-0263
-Schwer
+Story
 @@ ui-0264
-Textgeschwindigkeit
+Leicht
 @@ ui-0265
-Wie schnell der Dialog erscheint.
+Schwer
 @@ ui-0266
-Langsam
+Textgeschwindigkeit
 @@ ui-0267
-Normal
+Wie schnell der Dialog erscheint.
 @@ ui-0268
-Schnell
+Langsam
 @@ ui-0269
-Sofort
+Normal
 @@ ui-0270
-Auto-Tempo
+Schnell
 @@ ui-0271
-Wie lange Auto nach jeder Zeile wartet (links = schneller).
+Sofort
 @@ ui-0272
-Ungelesenes überspringen
+Auto-Tempo
 @@ ui-0273
-Überspringen rast auch durch Zeilen, die du noch nicht gelesen hast.
+Wie lange Auto nach jeder Zeile wartet (links = schneller).
 @@ ui-0274
-Textgröße
+Ungelesenes überspringen
 @@ ui-0275
-Größerer Text überall: Dialog, Menüs und Rätsel.
+Überspringen rast auch durch Zeilen, die du noch nicht gelesen hast.
 @@ ui-0276
-Groß
+Textgröße
 @@ ui-0277
-Größer
+Größerer Text überall: Dialog, Menüs und Rätsel.
 @@ ui-0278
-Steinnummern
+Groß
 @@ ui-0279
-Jede Steinart zeigt eine Nummer, damit du sie ohne Farbe unterscheiden kannst.
+Größer
 @@ ui-0280
-Meldungen länger zeigen
+Steinnummern
 @@ ui-0281
-Einblendungen und ihre Sprechblase im Kapitel bleiben länger stehen. Der Dialog wartet immer auf dich, außer Auto ist an.
+Jede Steinart zeigt eine Nummer, damit du sie ohne Farbe unterscheiden kannst.
 @@ ui-0282
-Vibration
+Meldungen länger zeigen
 @@ ui-0283
-Ein kleines Summen, wenn Steine eine Reihe bilden.
+Einblendungen und ihre Sprechblase im Kapitel bleiben länger stehen. Der Dialog wartet immer auf dich, außer Auto ist an.
 @@ ui-0284
-Weniger Bewegung
+Vibration
 @@ ui-0285
-Kürzere Animationen, ruhigere Rückmeldungen.
+Ein kleines Summen, wenn Steine eine Reihe bilden.
 @@ ui-0286
-Vollbild
+Weniger Bewegung
 @@ ui-0287
-Den ganzen Bildschirm füllen. F11 schaltet es überall um.
+Kürzere Animationen, ruhigere Rückmeldungen.
 @@ ui-0288
-Testmodus
+Vollbild
 @@ ui-0289
-Jede gültige Reihe schafft sofort das Kapitelziel und gibt 99 Sterne — zum Testen, nicht zum Spielen.
+Den ganzen Bildschirm füllen. F11 schaltet es überall um.
 @@ ui-0290
-Zur Übersicht
+Testmodus
 @@ ui-0291
-Hier aufhören. Diese Szene läuft beim nächsten Besuch erneut.
+Jede gültige Reihe schafft sofort das Kapitelziel und gibt 99 Sterne — zum Testen, nicht zum Spielen.
 @@ ui-0292
-Log-Ordner öffnen
+Zur Übersicht
 @@ ui-0293
-Für Fehlerberichte: Schick die neueste godot.log aus diesem Ordner.
+Hier aufhören. Diese Szene läuft beim nächsten Besuch erneut.
 @@ ui-0294
-Fortschritt zurücksetzen
+Log-Ordner öffnen
 @@ ui-0295
-Gesamten Fortschritt zurücksetzen?
+Für Fehlerberichte: Schick die neueste godot.log aus diesem Ordner.
 @@ ui-0296
-Das löscht den Fortschritt jeder Geschichte, deine Sterne, Gegenstände, Geschenke und die ganze Galerie. Einstellungen und Erfolge bleiben. Das lässt sich nicht rückgängig machen.
+Fortschritt zurücksetzen
 @@ ui-0297
-Alles zurücksetzen
+Gesamten Fortschritt zurücksetzen?
 @@ ui-0298
-Zeitrolle
+Das löscht den Fortschritt jeder Geschichte, deine Sterne, Gegenstände, Geschenke und die ganze Galerie. Einstellungen und Erfolge bleiben. Das lässt sich nicht rückgängig machen.
 @@ ui-0299
-Lies sie für drei Züge mehr im aktuellen Kapitel. Du nutzt sie über die Leiste unter dem Feld — sie holt dich auch aus dem Bildschirm „Keine Züge mehr“.
+Alles zurücksetzen
 @@ ui-0300
-Hammer
+Zeitrolle
 @@ ui-0301
-Zertrümmert einen beliebigen Stein, ganz ohne Reihe. Mach ihn in der Leiste bereit und tipp dann einen Stein an.
+Lies sie für drei Züge mehr im aktuellen Kapitel. Du nutzt sie über die Leiste unter dem Feld — sie holt dich auch aus dem Bildschirm „Keine Züge mehr“.
 @@ ui-0302
-Mischstab
+Hammer
 @@ ui-0303
-Ein Schwung, und das ganze Feld wird neu verteilt, immer mit einem möglichen Zug.
+Zertrümmert einen beliebigen Stein, ganz ohne Reihe. Mach ihn in der Leiste bereit und tipp dann einen Stein an.
 @@ ui-0304
-Sternenstoß-Starter
+Mischstab
 @@ ui-0305
-Dein nächstes Kapitel beginnt mit einem kostenlosen Sternenstoß auf dem Feld.
+Ein Schwung, und das ganze Feld wird neu verteilt, immer mit einem möglichen Zug.
 @@ ui-0306
-Liebestrank
+Sternenstoß-Starter
 @@ ui-0307
-Dein nächstes Kapitel: Ihr Lieblingsstein taucht öfter auf, der ungeliebte seltener.
+Dein nächstes Kapitel beginnt mit einem kostenlosen Sternenstoß auf dem Feld.
 @@ ui-0308
-Heiltrank
+Liebestrank
 @@ ui-0309
-Dein nächstes Kapitel: viel weniger verfluchte Splitter auf dem Feld.
+Dein nächstes Kapitel: Ihr Lieblingsstein taucht öfter auf, der ungeliebte seltener.
 @@ ui-0310
-←  Zurück zum Kapitel
+Heiltrank
 @@ ui-0311
-Sterne gibt es für geschaffte Kapitel: 15 für das erste einer Frau und 5 mehr für jedes weitere.
+Dein nächstes Kapitel: viel weniger verfluchte Splitter auf dem Feld.
 @@ ui-0312
-Gehen dir die Züge aus, gibt es trotzdem 1 Stern pro 200 Punkte (mindestens 3).
+←  Zurück zum Kapitel
 @@ ui-0313
-Zu wenig Sterne? Spiel ein geschafftes Kapitel über ihre Karte noch einmal: Es bringt die Hälfte.
+Sterne gibt es für geschaffte Kapitel: 15 für das erste einer Frau und 5 mehr für jedes weitere.
 @@ ui-0314
-Die obere Reihe wird während eines Kapitels benutzt; die untere wirkt von selbst, wenn dein nächstes Kapitel beginnt.
+Gehen dir die Züge aus, gibt es trotzdem 1 Stern pro 200 Punkte (mindestens 3).
 @@ ui-0315
-Im Besitz: %d
+Zu wenig Sterne? Spiel ein geschafftes Kapitel über ihre Karte noch einmal: Es bringt die Hälfte.
 @@ ui-0316
-Kaufen · %d ⭐
+Die obere Reihe wird während eines Kapitels benutzt; die untere wirkt von selbst, wenn dein nächstes Kapitel beginnt.
 @@ ui-0317
-Kaufen · %d
+Im Besitz: %d
 @@ ui-0318
-Dir fehlen %d Sterne.
+Kaufen · %d ⭐
 @@ ui-0319
-Verlauf
+Kaufen · %d
 @@ ui-0320
-Nachlesen (L oder hochscrollen)
+Dir fehlen %d Sterne.
 @@ ui-0321
-Auto
+Verlauf
 @@ ui-0322
-Zeilen laufen von selbst weiter (A)
+Nachlesen (L oder hochscrollen)
 @@ ui-0323
-Überspringen
+Auto
 @@ ui-0324
-Gelesene Zeilen überspringen (Strg halten)
+Zeilen laufen von selbst weiter (A)
 @@ ui-0325
-Alles überspringen
+Überspringen
 @@ ui-0326
-Jede Zeile bis zur nächsten Antwort überspringen, gelesen oder nicht
+Gelesene Zeilen überspringen (Strg halten)
 @@ ui-0327
-Text ausblenden
+Alles überspringen
 @@ ui-0328
-Das ganze Bild sehen (H)
+Jede Zeile bis zur nächsten Antwort überspringen, gelesen oder nicht
 @@ ui-0329
-Was sagst du?
+Text ausblenden
 @@ ui-0330
-Du
+Das ganze Bild sehen (H)
 @@ ui-0331
-Antworten
+Was sagst du?
 @@ ui-0332
-Weiter
+Du
 @@ ui-0333
-Noch nichts.
+Antworten
 @@ ui-0334
-Start
+Weiter
 @@ ui-0335
-Frauen
+Noch nichts.
 @@ ui-0336
-Laden
+Start
 @@ ui-0337
-Mehr
+Frauen
 @@ ui-0338
-Eine Match-3-Romanze in Millbrook. Lerne vier Frauen auf die denkbar schlechteste Art kennen, hilf ihnen bei dem, was sie brauchen, und sieh, wohin es führt.
+Laden
 @@ ui-0339
-Weiter mit %s
+Mehr
 @@ ui-0340
-Alle Frauen
+Eine Match-3-Romanze in Millbrook. Lerne vier Frauen auf die denkbar schlechteste Art kennen, hilf ihnen bei dem, was sie brauchen, und sieh, wohin es führt.
 @@ ui-0341
-Du hast %d
+Weiter mit %s
 @@ ui-0342
-Zurück zum Kapitel
+Alle Frauen
 @@ ui-0343
-Werbung entfernen · %s
+Du hast %d
 @@ ui-0344
-Käufe wiederherstellen
+Zurück zum Kapitel
 @@ ui-0345
-Alles, was du mit diesem Google-Konto gekauft hast, kommt gleich zurück.
+Werbung entfernen · %s
 @@ ui-0346
-Werbe-Datenschutz
+Käufe wiederherstellen
 @@ ui-0347
-Nicht gekauft
+Alles, was du mit diesem Google-Konto gekauft hast, kommt gleich zurück.
 @@ ui-0348
-Keine Herzen mehr
+Werbe-Datenschutz
 @@ ui-0349
-Ein verlorenes Kapitel kostet ein Herz, und alle %d Minuten kommt eins zurück.
+Nicht gekauft
 @@ ui-0350
-Nächstes Herz in %s
+Keine Herzen mehr
 @@ ui-0351
-+1 Herz
+Ein verlorenes Kapitel kostet ein Herz, und alle %d Minuten kommt eins zurück.
 @@ ui-0352
-Alle auffüllen · %d ⭐
+Nächstes Herz in %s
 @@ ui-0353
-24 Stunden unbegrenzt · %s
++1 Herz
 @@ ui-0354
-Story-Pass: 8 Herzen und freies Überspringen · %s
+Alle auffüllen · %d ⭐
 @@ ui-0355
-Jetzt nicht
++5 Herzen · %s
 @@ ui-0356
-verdopple auf %d ⭐
+24 Stunden unbegrenzt · %s
 @@ ui-0357
-Unbegrenzte Herzen: noch %s
+Story-Pass: 8 Herzen und freies Überspringen · %s
 @@ ui-0358
-Herzen: %d / %d
+Jetzt nicht
 @@ ui-0359
-Gratis-Sterne
+verdopple auf %d ⭐
 @@ ui-0360
-Angebote erscheinen hier, sobald Google Play erreichbar ist.
+Unbegrenzte Herzen: noch %s
 @@ ui-0361
-Gekauft
+Herzen: %d / %d
 @@ ui-0362
-Denk nicht mal dran
+Gratis-Sterne
 @@ ui-0363
-Lerne Hazel kennen, statt ihren Baum zu fällen.
+Angebote erscheinen hier, sobald Google Play erreichbar ist.
 @@ ui-0364
-Ein hübscher Graben
+Gekauft
 @@ ui-0365
-Schaff Hazels erstes Kapitel.
+Denk nicht mal dran
 @@ ui-0366
-Rotes Laub
+Lerne Hazel kennen, statt ihren Baum zu fällen.
 @@ ui-0367
-Schaff Hazels zweites Kapitel.
+Ein hübscher Graben
 @@ ui-0368
-Draußen im Sturm
+Schaff Hazels erstes Kapitel.
 @@ ui-0369
-Schaff Hazels drittes Kapitel.
+Rotes Laub
 @@ ui-0370
-Wurzeln schlagen
+Schaff Hazels zweites Kapitel.
 @@ ui-0371
-Erreiche Hazels Ende.
+Draußen im Sturm
 @@ ui-0372
-Die Zeit im Blick
+Schaff Hazels drittes Kapitel.
 @@ ui-0373
-Schenk Hazel die Taschensonnenuhr aus Messing.
+Wurzeln schlagen
 @@ ui-0374
-Weich wie Moos
+Erreiche Hazels Ende.
 @@ ui-0375
-Beende Hazels Geschichte mit lauter herzlichen Antworten.
+Die Zeit im Blick
 @@ ui-0376
-Splitter
+Schenk Hazel die Taschensonnenuhr aus Messing.
 @@ ui-0377
-Beende Hazels Geschichte und neck sie in jeder Antwort.
+Weich wie Moos
 @@ ui-0378
-Kettenreaktion
+Beende Hazels Geschichte mit lauter herzlichen Antworten.
 @@ ui-0379
-Löse eine x3-Kombo aus.
+Splitter
 @@ ui-0380
-Lawine
+Beende Hazels Geschichte und neck sie in jeder Antwort.
 @@ ui-0381
-Löse eine x5-Kombo aus.
+Kettenreaktion
 @@ ui-0382
-Sternenstaub
+Löse eine x3-Kombo aus.
 @@ ui-0383
-Erzeuge einen Sternenstoß.
+Lawine
 @@ ui-0384
-Mega-Explosion
+Löse eine x5-Kombo aus.
 @@ ui-0385
-Tausche zwei Spezialsteine miteinander.
+Sternenstaub
 @@ ui-0386
-Unwiderstehlich
+Erzeuge einen Sternenstoß.
 @@ ui-0387
-Fülle den Charme-Ring für eine Charme-Explosion.
+Mega-Explosion
 @@ ui-0388
-Züge übrig
+Tausche zwei Spezialsteine miteinander.
 @@ ui-0389
-Schaff ein Kapitel mit 5 oder mehr Zügen übrig.
+Unwiderstehlich
 @@ ui-0390
-Splitterbrecher
+Fülle den Charme-Ring für eine Charme-Explosion.
 @@ ui-0391
-Entferne einen verfluchten Splitter mit dem Hammer.
+Züge übrig
 @@ ui-0392
-Schaufensterbummel
+Schaff ein Kapitel mit 5 oder mehr Zügen übrig.
 @@ ui-0393
-Kauf etwas im Laden.
+Splitterbrecher
 @@ ui-0394
-In voller Blüte
+Entferne einen verfluchten Splitter mit dem Hammer.
 @@ ui-0395
-Lass 25 von Hazels Blüten wachsen.
+Schaufensterbummel
 @@ ui-0396
-Buchbinderin
+Kauf etwas im Laden.
 @@ ui-0397
-Brich 50 von Amaras Siegeln.
+In voller Blüte
 @@ ui-0398
-Wer's findet, darf's behalten
+Lass 25 von Hazels Blüten wachsen.
 @@ ui-0399
-Finde 30 von Opals verlorenen Dingen unter dem Moos.
+Buchbinderin
 @@ ui-0400
-Schatztaucher
+Brich 50 von Amaras Siegeln.
 @@ ui-0401
-Hol für Marina 10 Kammteile herauf.
+Wer's findet, darf's behalten
 @@ ui-0402
-Tausend Funken
+Finde 30 von Opals verlorenen Dingen unter dem Moos.
 @@ ui-0403
-Bilde 1000 Reihen.
+Schatztaucher
 @@ ui-0404
-Einfach so
+Hol für Marina 10 Kammteile herauf.
 @@ ui-0405
-Erreiche 2000 Punkte bei einem freien Date.
+Tausend Funken
 @@ ui-0406
-Jeder Tag zählt
+Bilde 1000 Reihen.
 @@ ui-0407
-Schließ eine tägliche Herausforderung ab.
+Einfach so
 @@ ui-0408
-English
+Erreiche 2000 Punkte bei einem freien Date.
 @@ ui-0409
-Starterpaket
+Jeder Tag zählt
 @@ ui-0410
-Bester Wert
+Schließ eine tägliche Herausforderung ab.
 @@ ui-0411
-500 Sterne, je 3 von jedem Gegenstand und 24 Stunden unbegrenzte Herzen. Einmal pro Person.
+English
 @@ ui-0412
-Keine Werbung
+Starterpaket
 @@ ui-0413
-Nie wieder Werbung zwischen Kapiteln oder unter den Menüs. Belohnungsvideos werden zu einem Tipp: die Belohnung ohne Video.
+Bester Wert
 @@ ui-0414
-Story-Pass
+500 Sterne, je 3 von jedem Gegenstand und 24 Stunden unbegrenzte Herzen. Einmal pro Person.
 @@ ui-0415
-Überspringe jedes Kapitel, mach nach jeder Niederlage weiter und 8 Herzen statt 5.
+Keine Werbung
 @@ ui-0416
-Unbegrenzte Herzen
+Nie wieder Werbung zwischen Kapiteln oder unter den Menüs. Belohnungsvideos werden zu einem Tipp: die Belohnung ohne Video.
 @@ ui-0417
-Spiel 24 Stunden lang so viel du willst.
+Story-Pass
 @@ ui-0418
-Gegenstandspaket
+Überspringe jedes Kapitel, mach nach jeder Niederlage weiter und 8 Herzen statt 5.
 @@ ui-0419
-Je 5 von jedem Gegenstand aus dem Laden.
+5 Extra-Herzen
 @@ ui-0420
-Handvoll Sterne
+Sofort 5 Herzen, zusätzlich zu deinen.
 @@ ui-0421
-150 Sterne.
+Unbegrenzte Herzen
 @@ ui-0422
-Beutel voller Sterne
+Spiel 24 Stunden lang so viel du willst.
 @@ ui-0423
-800 Sterne.
+Gegenstandspaket
 @@ ui-0424
-Truhe voller Sterne
+Je 5 von jedem Gegenstand aus dem Laden.
 @@ ui-0425
-Beliebt
+Handvoll Sterne
 @@ ui-0426
-1.800 Sterne.
+150 Sterne.
 @@ ui-0427
-Sternenschatz
+Beutel voller Sterne
 @@ ui-0428
-5.000 Sterne.
+800 Sterne.
 @@ ui-0429
-Gratis: %s
+Truhe voller Sterne
 @@ ui-0430
-Video ansehen: %s
+Beliebt
 @@ ui-0431
-Das hast du schon.
+1.800 Sterne.
 @@ ui-0432
-Testkauf
+Sternenschatz
 @@ ui-0433
-Das ist eine Testversion: Es fließt kein Geld. %s für %s kaufen?
+5.000 Sterne.
 @@ ui-0434
-Kaufen
+Gratis: %s
 @@ ui-0435
-Google Play ist gerade nicht erreichbar. Versuch es gleich noch einmal.
+Video ansehen: %s
 @@ ui-0436
-Der Kauf konnte nicht starten (%s).
+Das hast du schon.
 @@ ui-0437
-Der Shop ist in dieser Version nicht verfügbar.
+Testkauf
 @@ ui-0438
-Der Kauf ist nicht durchgegangen (%s).
+Das ist eine Testversion: Es fließt kein Geld. %s für %s kaufen?
 @@ ui-0439
-Dein Kauf ist ausstehend. Er kommt an, sobald Google Play ihn bestätigt.
+Kaufen
 @@ ui-0440
-%d / %d freigeschaltet
+Google Play ist gerade nicht erreichbar. Versuch es gleich noch einmal.
 @@ ui-0441
-%d / %d Enden gefunden
+Der Kauf konnte nicht starten (%s).
 @@ ui-0442
-%d Pkt. — holpriger Start...
+Der Shop ist in dieser Version nicht verfügbar.
 @@ ui-0443
-%d / %d Pkt.
+Der Kauf ist nicht durchgegangen (%s).
 @@ ui-0444
-%d Pkt....
+Dein Kauf ist ausstehend. Er kommt an, sobald Google Play ihn bestätigt.
 @@ ui-0445
-ZÜGE
+%d / %d freigeschaltet
 @@ ui-0446
-TIPP
+%d / %d Enden gefunden
 @@ ui-0447
-+%d ⭐
+%d Pkt. — holpriger Start...
 @@ ui-0448
-GEBROCHENE SIEGEL
+%d / %d Pkt.
 @@ ui-0449
-KAMMTEILE
+%d Pkt....
 @@ ui-0450
-GEFUNDENE DINGE
+ZÜGE
 @@ ui-0451
-BLÜTEN
+TIPP
 @@ ui-0452
-%s ist bereit!
++%d ⭐
 @@ ui-0453
-%s: Wähl einen Stein.
+GEBROCHENE SIEGEL
 @@ ui-0454
-%d Pkt.
+KAMMTEILE
 @@ ui-0455
-PUNKTE
+GEFUNDENE DINGE
 @@ ui-0456
-Kombiniere Runen, Amaras Lieblinge: Sie füllen den Charme-Ring doppelt so schnell und halten auf Schwer auf, was kommt. Ein Heiltrank bedeutet weniger verfluchte Splitter.
+BLÜTEN
 @@ ui-0457
-Kombiniere Perlen, Marinas Lieblinge: Sie füllen den Charme-Ring doppelt so schnell und halten auf Schwer auf, was kommt. Eine Zeitrolle holt verlorene Züge zurück.
+%s ist bereit!
 @@ ui-0458
-Kombiniere Kristalle, Opals Lieblinge: Sie füllen den Charme-Ring doppelt so schnell und halten auf Schwer auf, was kommt. Ein Liebestrank bringt mehr davon.
+%s: Wähl einen Stein.
 @@ ui-0459
-Kombiniere Blüten, Hazels Lieblinge: Sie füllen den Charme-Ring doppelt so schnell und halten auf Schwer auf, was kommt. Ein Heiltrank bedeutet weniger verfluchte Splitter.
+%d Pkt.
 @@ ui-0460
-Korrekte Zeilen
+PUNKTE
 @@ ui-0461
-Wähl einen Stein: Seine ganze Zeile und Spalte werden geräumt.
+Kombiniere Runen, Amaras Lieblinge: Sie füllen den Charme-Ring doppelt so schnell und halten auf Schwer auf, was kommt. Ein Heiltrank bedeutet weniger verfluchte Splitter.
 @@ ui-0462
-Korrekte Zeilen!
+Kombiniere Perlen, Marinas Lieblinge: Sie füllen den Charme-Ring doppelt so schnell und halten auf Schwer auf, was kommt. Eine Zeitrolle holt verlorene Züge zurück.
 @@ ui-0463
-Springflut
+Kombiniere Kristalle, Opals Lieblinge: Sie füllen den Charme-Ring doppelt so schnell und halten auf Schwer auf, was kommt. Ein Liebestrank bringt mehr davon.
 @@ ui-0464
-Die zwei Reihen nahe der Oberfläche werden geräumt, und alles steigt zwei Reihen auf.
+Kombiniere Blüten, Hazels Lieblinge: Sie füllen den Charme-Ring doppelt so schnell und halten auf Schwer auf, was kommt. Ein Heiltrank bedeutet weniger verfluchte Splitter.
 @@ ui-0465
-Springflut!
+Korrekte Zeilen
 @@ ui-0466
-Aufsaugen
+Wähl einen Stein: Seine ganze Zeile und Spalte werden geräumt.
 @@ ui-0467
-Wähl einen Stein: Jeder Stein dieser Farbe verschwindet.
+Korrekte Zeilen!
 @@ ui-0468
-Aufsaugen!
+Springflut
 @@ ui-0469
-Sommer
+Die zwei Reihen nahe der Oberfläche werden geräumt, und alles steigt zwei Reihen auf.
 @@ ui-0470
-Jeder Samen und Spross auf dem Feld wächst eine Stufe.
+Springflut!
 @@ ui-0471
+Aufsaugen
+@@ ui-0472
+Wähl einen Stein: Jeder Stein dieser Farbe verschwindet.
+@@ ui-0473
+Aufsaugen!
+@@ ui-0474
+Sommer
+@@ ui-0475
+Jeder Samen und Spross auf dem Feld wächst eine Stufe.
+@@ ui-0476
 Sommer!

@@ -25,6 +25,12 @@
 ##   (plain/items/campaign/dist still play the classic round-33 scoring)
 ##   runs=300 fuzz=10000 seed=1 girl=dryad
 ##   scale=0.8      the Google Play build's moves (round 50)
+##   mode=girlkits  round 50: win %% per chapter from no power-ups to a full kit
+##   scales=1,0.9,0.8,0.6  a move factor per chapter
+##   mode=lives     round 50: whole runs of the Google Play build with hearts,
+##                  stars, power-ups bought with stars and reward videos;
+##                  profile=free (never pays), starter (Starter Pack only),
+##                  spender (Starter Pack + Love/Mending on every last chapter)
 ##   targets=700,1000,1300,1500 moves=15,15,16,18   try numbers without
 ##                  editing data/characters.json
 ##
@@ -84,6 +90,10 @@ func _initialize() -> void:
 				"targets": targets = Array(kv[1].split(",")).map(func(x): return int(x))
 				"moves": move_counts = Array(kv[1].split(",")).map(func(x): return int(x))
 				"scale": move_scale = float(kv[1])
+				"scales": move_scales = Array(kv[1].split(",")).map(func(x): return float(x))
+				"profile": profile = kv[1]
+				"players": players = int(kv[1])
+				"only": only_chapters = Array(kv[1].split(",")).map(func(x): return int(x) - 1)
 	call_deferred("_main")
 
 
@@ -110,6 +120,14 @@ func _main() -> void:
 		_campaign()
 	if mode == "dist":
 		_dist_table()
+	if mode == "girlkits":
+		_girls_kits()
+		quit()
+		return
+	if mode == "lives":
+		_lives_sim()
+		quit()
+		return
 	if mode in ["girls"]:
 		_girls_table()
 	if mode in ["girldist"]:
@@ -125,10 +143,18 @@ func _target(ch: Dictionary, i: int) -> int:
 
 ## scale=0.8 plays the Google Play build's moves (Monetize.moves(), round 50).
 var move_scale := 1.0
+## scales=1,0.9,0.8,0.6: a factor per chapter (round 50, Monetize.CHAPTER_MOVES).
+var move_scales: Array = []
+## mode=lives: profile=free|starter|spender, players=60.
+var profile := "free"
+var players := 60
+## only=3,4: girlkits measures just these chapters.
+var only_chapters: Array = []
 
 func _moves(ch: Dictionary, i: int) -> int:
 	var m := int(move_counts[i]) if i < move_counts.size() else int(ch.story.levels[i].moves)
-	return m if move_scale == 1.0 else maxi(5, roundi(m * move_scale))
+	var f: float = float(move_scales[i]) if i < move_scales.size() else move_scale
+	return m if f == 1.0 else maxi(5, roundi(m * f))
 
 
 ## The starting bonus a chapter gets from the reply before it.
@@ -636,12 +662,13 @@ func _fuzz_boards() -> void:
 var _rules_script
 
 
-func _rules(ch: Dictionary, i: int) -> PuzzleRules:
+func _rules(ch: Dictionary, i: int, kit: Dictionary = {}) -> PuzzleRules:
 	if _rules_script == null:
 		_rules_script = load("res://scripts/PuzzleRules.gd")
 		_rules_script.reload(true)
 	var gs = root.get_node("GameState")
-	gs.items = {}
+	# Love Potion / Mending Potion change the gem mix, as in the game.
+	gs.items = {"favorCharm": int(kit.get("favorCharm", 0)), "heartMender": int(kit.get("heartMender", 0))}
 	gs.progress_for(String(ch.id))["gifts_given"] = []
 	var r = _rules_script.new()
 	r.setup(ch, i, CharacterData.compute_weights(ch, i))
@@ -649,8 +676,17 @@ func _rules(ch: Dictionary, i: int) -> PuzzleRules:
 
 
 ## One chapter, played like the game: {won, moves_left, score, goal}.
-func _play_girl(ch: Dictionary, i: int, greedy: float, moves_cap := -1, no_target := false) -> Dictionary:
-	var rules := _rules(ch, i)
+func _play_girl(ch: Dictionary, i: int, greedy: float, moves_cap := -1, no_target := false, kit: Dictionary = {}) -> Dictionary:
+	var rules := _rules(ch, i, kit)
+	# Starburst Starter: a Starburst on the board from the start.
+	if int(kit.get("colorBomb", 0)) > 0:
+		var spot := rules.special_spot(2 + randi() % 4, 2 + randi() % 4)
+		if spot.x >= 0:
+			rules.board[spot.x][spot.y] = MatchEngine.STARBURST
+	# Time Scrolls (+3 moves each) and Hammers are kept for when the moves
+	# run out, as a player would.
+	var scrolls := int(kit.get("moves", 0))
+	var hammers := int(kit.get("hammer", 0))
 	var level: Dictionary = ch.story.levels[i]
 	var moves := _moves(ch, i) if moves_cap < 0 else moves_cap
 	var start_moves := moves
@@ -662,7 +698,14 @@ func _play_girl(ch: Dictionary, i: int, greedy: float, moves_cap := -1, no_targe
 	var charm := 0
 	var charged := false
 	var power_on := rules.power_id != ""
-	while not rules.won(score) and moves > 0:
+	while not rules.won(score) and (moves > 0 or scrolls > 0 or hammers > 0):
+		if moves <= 0:
+			if hammers > 0:
+				hammers -= 1
+				score += _girl_hammer(rules)
+				continue
+			scrolls -= 1
+			moves += 3
 		if charged:
 			charged = false
 			charm = 0
@@ -698,7 +741,31 @@ func _play_girl(ch: Dictionary, i: int, greedy: float, moves_cap := -1, no_targe
 		if not rules.has_move():
 			rules.board = rules.fresh_board()
 	return {"won": rules.won(score), "moves_left": moves, "score": score, "goal": rules.goal_progress(),
-		"used": start_moves - moves}
+		"used": start_moves - moves, "scrolls_left": scrolls, "hammers_left": hammers}
+
+
+## The Hammer on the best gem for her goal (never a comb piece): its points.
+func _girl_hammer(rules: PuzzleRules) -> int:
+	var best := -1e9
+	var pick := Vector2i(-1, -1)
+	for r in range(PuzzleRules.SIZE):
+		for c in range(PuzzleRules.SIZE):
+			if rules.board[r][c] == PuzzleRules.COMB:
+				continue
+			var t: PuzzleRules = rules.copy()
+			var b: int = t.goal_progress()
+			var rep := t.clear_cells({PuzzleRules.key(r, c): true}, false)
+			var v: float = float(rep.gain + rep.bonus) + 80.0 * (t.goal_progress() - b) + 25.0 * rep.grown.size()
+			if v > best:
+				best = v
+				pick = Vector2i(r, c)
+	if pick.x < 0:
+		return 0
+	var out := rules.play_blast({PuzzleRules.key(pick.x, pick.y): true})
+	rules.after_move()
+	if not rules.has_move():
+		rules.board = rules.fresh_board()
+	return int(out.points)
 
 
 ## How good a swap looks one step ahead: points, plus progress toward her goal.
@@ -790,6 +857,39 @@ func _girls_table() -> void:
 				100.0 * wins / runs, float(left) / maxi(1, wins)])
 
 
+## round 50: each chapter's clear rate with no power-ups up to a full kit
+## (the Google Play build's tuning: the last chapter should need several).
+const GIRL_KITS := [
+	["none", {}],
+	["1 Time Scroll", {"moves": 1}],
+	["Love Potion", {"favorCharm": 1}],
+	["2 Time Scrolls", {"moves": 2}],
+	["Love + Mending + 2 Scrolls", {"favorCharm": 1, "heartMender": 1, "moves": 2}],
+	["full: + Starburst + 2 Hammers", {"favorCharm": 1, "heartMender": 1, "moves": 2, "colorBomb": 1, "hammer": 2}],
+]
+
+func _girls_kits() -> void:
+	print("")
+	print("Each chapter with power-ups (round 50), casual bot, %d runs. Moves per chapter: %s" % [runs, str(move_scales) if not move_scales.is_empty() else str(move_scale)])
+	var head := "girl      ch  moves"
+	for k in GIRL_KITS:
+		head += "  %28s" % k[0]
+	print(head)
+	var who: Array = CharacterData.all() if girl == "all" else [CharacterData.by_id(girl)]
+	for ch in who:
+		for i in range(ch.story.levels.size()):
+			if not only_chapters.is_empty() and not only_chapters.has(i):
+				continue
+			var row := "%-9s %d   %5d" % [ch.id, i + 1, _moves(ch, i)]
+			for k in GIRL_KITS:
+				var wins := 0
+				for n in range(runs):
+					if _play_girl(ch, i, CASUAL_GREEDY, -1, false, k[1]).won:
+						wins += 1
+				row += "  %27.0f%%" % (100.0 * wins / runs)
+			print(row)
+
+
 func _girls_fuzz() -> void:
 	print("")
 	print("Starting-board fuzz, %d boards per girl and chapter (round 44)." % fuzz)
@@ -863,3 +963,169 @@ func _girls_dist() -> void:
 			for q in [15, 25, 35, 45, 55, 65, 75, 85]:
 				row.append(str(vals[mini(vals.size() - 1, vals.size() * q / 100)]))
 			print("%-9s %d  %s" % [ch.id, i + 1, "  ".join(row)])
+
+
+# ---------------------------------------------------------------- round 50: lives economy
+
+## The Google Play build's numbers (Monetize.gd): keep these in step.
+const L_MAX_HEARTS := 5
+const L_HEART_MIN := 30.0
+const L_PRICE := 1.5
+const L_VIDEO_MOVES_PER_DAY := 6
+const L_VIDEO_STARS_PER_DAY := 5
+const L_VIDEO_STARS := 15
+const L_VIDEO_DOUBLE_PER_DAY := 6
+const L_VIDEO_HEART_PER_DAY := 5
+const L_ATTEMPT_MIN := 3.0
+## What a player buys with stars before a chapter, in order, as far as the
+## stars go (losing once makes them buy for chapters 1-2 too).
+const L_KIT_PLAN := [
+	[],
+	["moves"],
+	["favorCharm", "moves"],
+	["favorCharm", "heartMender", "moves", "moves", "colorBomb", "hammer"],
+]
+
+func _l_price(item: String) -> int:
+	for it in StoreScreen.ITEMS:
+		if String(it.id) == item:
+			return roundi(int(it.price) * L_PRICE)
+	return 999
+
+
+## One player through all four girls. Returns per-chapter stats.
+func _lives_player() -> Dictionary:
+	var t := 0.0  # minutes
+	var hearts := L_MAX_HEARTS
+	var heart_t := 0.0
+	var stars := 0
+	var inv := {}
+	var day := -1
+	var vids := {}
+	var unlimited_until := -1.0
+	var stats := {"attempts": [0, 0, 0, 0], "hearts": 0, "waited": 0.0, "videos": 0,
+		"stars_spent": 0, "replays": 0, "per_girl_min": []}
+	if profile in ["starter", "spender"]:
+		stars += 500
+		for it in StoreScreen.ITEMS:
+			inv[it.id] = 3
+		unlimited_until = 24 * 60.0
+	var regen := func():
+		if hearts >= L_MAX_HEARTS:
+			heart_t = t
+			return
+		var g := floori((t - heart_t) / L_HEART_MIN)
+		if g > 0:
+			hearts = mini(L_MAX_HEARTS, hearts + g)
+			heart_t = t if hearts >= L_MAX_HEARTS else heart_t + g * L_HEART_MIN
+	var new_day := func():
+		var d := floori(t / 1440.0)
+		if d != day:
+			day = d
+			vids = {}
+			# The day's free-stars videos.
+			stars += L_VIDEO_STARS * L_VIDEO_STARS_PER_DAY
+			stats.videos += L_VIDEO_STARS_PER_DAY
+	for ch in CharacterData.all():
+		var girl_start := t
+		for i in range(4):
+			var losses := 0
+			while true:
+				new_day.call()
+				regen.call()
+				var unl: bool = t < unlimited_until
+				if hearts <= 0 and not unl:
+					if int(vids.get("heart", 0)) < L_VIDEO_HEART_PER_DAY:
+						vids["heart"] = int(vids.get("heart", 0)) + 1
+						stats.videos += 1
+						hearts += 1
+					else:
+						# Wait for the next heart (or the next day's videos).
+						var wait := minf(L_HEART_MIN - fmod(t - heart_t, L_HEART_MIN), 1440.0 - fmod(t, 1440.0))
+						t += maxf(wait, 1.0)
+						stats.waited += maxf(wait, 1.0)
+						continue
+				# Buy the plan for this chapter with stars.
+				var plan: Array = L_KIT_PLAN[i] if (i >= 2 or losses > 0) else []
+				if profile == "spender" and i == 3:
+					inv["favorCharm"] = maxi(1, int(inv.get("favorCharm", 0)))
+					inv["heartMender"] = maxi(1, int(inv.get("heartMender", 0)))
+				var want := {}
+				for it in plan:
+					want[it] = int(want.get(it, 0)) + 1
+				for it in want.keys():
+					while int(inv.get(it, 0)) < int(want[it]) and stars >= _l_price(it):
+						stars -= _l_price(it)
+						stats.stars_spent += _l_price(it)
+						inv[it] = int(inv.get(it, 0)) + 1
+				var kit := {}
+				for it in ["favorCharm", "heartMender", "colorBomb"]:
+					if int(inv.get(it, 0)) > 0 and want.has(it):
+						kit[it] = 1
+						inv[it] -= 1
+				var own_scrolls := mini(int(inv.get("moves", 0)), int(want.get("moves", 0)) + (1 if losses >= 2 else 0))
+				var own_hammers := mini(int(inv.get("hammer", 0)), int(want.get("hammer", 0)))
+				# Free +3 moves video (one per attempt) counts as a scroll used first.
+				var video := 1 if int(vids.get("moves", 0)) < L_VIDEO_MOVES_PER_DAY else 0
+				kit["moves"] = own_scrolls + video
+				kit["hammer"] = own_hammers
+				var res := _play_girl(ch, i, CASUAL_GREEDY, -1, false, kit)
+				var scrolls_used := int(kit.moves) - int(res.scrolls_left)
+				if video and scrolls_used > 0:
+					vids["moves"] = int(vids.get("moves", 0)) + 1
+					stats.videos += 1
+					scrolls_used -= 1
+				inv["moves"] = int(inv.get("moves", 0)) - scrolls_used
+				inv["hammer"] = int(inv.get("hammer", 0)) - (own_hammers - int(res.hammers_left))
+				stats.attempts[i] += 1
+				t += L_ATTEMPT_MIN
+				if res.won:
+					var cs := StoryFlow.clear_stars(i)
+					stars += cs
+					if int(vids.get("double", 0)) < L_VIDEO_DOUBLE_PER_DAY:
+						vids["double"] = int(vids.get("double", 0)) + 1
+						stats.videos += 1
+						stars += cs
+					t += 4.0  # her scene
+					break
+				losses += 1
+				stars += maxi(3, floori(float(res.score) / 200.0))
+				if not unl:
+					if hearts >= L_MAX_HEARTS:
+						heart_t = t
+					hearts -= 1
+					stats.hearts += 1
+		stats.per_girl_min.append(t - girl_start)
+	stats["total_min"] = t
+	return stats
+
+
+func _lives_sim() -> void:
+	print("")
+	print("Lives economy (round 50), profile %s, %d players, casual bot. Moves per chapter %s." % [profile, players,
+		str(move_scales) if not move_scales.is_empty() else str(move_scale)])
+	var tot := {"attempts": [0, 0, 0, 0], "hearts": 0, "waited": 0.0, "videos": 0, "stars_spent": 0}
+	var girl_min := [0.0, 0.0, 0.0, 0.0]
+	var totals: Array = []
+	for n in range(players):
+		var r := _lives_player()
+		for i in 4:
+			tot.attempts[i] += r.attempts[i]
+			girl_min[i] += r.per_girl_min[i]
+		tot.hearts += r.hearts
+		tot.waited += r.waited
+		tot.videos += r.videos
+		tot.stars_spent += r.stars_spent
+		totals.append(float(r.total_min))
+	totals.sort()
+	var p := float(players)
+	print("attempts per chapter (all girls together): ch1 %.1f  ch2 %.1f  ch3 %.1f  ch4 %.1f" % [
+		tot.attempts[0] / p / 4.0, tot.attempts[1] / p / 4.0, tot.attempts[2] / p / 4.0, tot.attempts[3] / p / 4.0])
+	print("hearts lost %.0f, hours waiting for hearts %.1f, videos watched %.0f, stars spent on power-ups %.0f" % [
+		tot.hearts / p, tot.waited / p / 60.0, tot.videos / p, tot.stars_spent / p])
+	var names := CharacterData.all().map(func(c): return String(c.id))
+	var line := "hours per girl (incl. waiting):"
+	for i in 4:
+		line += "  %s %.1f" % [names[i], girl_min[i] / p / 60.0]
+	print(line)
+	print("whole game: median %.1f days, slowest 10%% %.1f days" % [totals[players / 2] / 1440.0, totals[int(players * 0.9)] / 1440.0])

@@ -137,4 +137,17 @@ T = {
     "Tu compra está pendiente. Llegará en cuanto Google Play la confirme.",
     "Sua compra está pendente. Ela chega assim que o Google Play confirmar.",
     "Dein Kauf ist ausstehend. Er kommt an, sobald Google Play ihn bestätigt."],
+
+"Leave this chapter?": ["要离开本章吗？", "Покинуть главу?", "この章を抜けますか？", "¿Salir de este capítulo?", "Sair deste capítulo?", "Kapitel verlassen?"],
+"Leaving a chapter you've started costs a heart.": [
+    "离开已开始的章节会消耗一颗爱心。", "Если выйти из начатой главы, вы потеряете сердце.",
+    "始めた章を抜けるとハートが1つ減ります。", "Salir de un capítulo empezado cuesta un corazón.",
+    "Sair de um capítulo já começado custa um coração.", "Ein angefangenes Kapitel zu verlassen kostet ein Herz."],
+"Leave": ["离开", "Выйти", "抜ける", "Salir", "Sair", "Verlassen"],
+"+5 hearts · %s": ["+5 爱心 · %s", "+5 сердец · %s", "ハート+5 · %s", "+5 corazones · %s", "+5 corações · %s", "+5 Herzen · %s"],
+"5 Extra Hearts": ["5 颗额外爱心", "5 дополнительных сердец", "追加ハート5個", "5 corazones extra", "5 corações extras", "5 Extra-Herzen"],
+"5 hearts right now, on top of the ones you have.": [
+    "立即获得 5 颗爱心，叠加在你现有的爱心之上。", "5 сердец прямо сейчас, сверх тех, что у вас есть.",
+    "今すぐハート5個。今あるハートに上乗せされます。", "5 corazones ahora mismo, además de los que tienes.",
+    "5 corações agora mesmo, além dos que você já tem.", "Sofort 5 Herzen, zusätzlich zu deinen."],
 }

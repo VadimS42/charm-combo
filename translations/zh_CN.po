@@ -66,6 +66,9 @@ msgstr "+1 爱心"
 msgid "+2 moves — great answer!"
 msgstr "+2 步——回答得好!"
 
+msgid "+5 hearts · %s"
+msgstr "+5 爱心 · %s"
+
 msgid "-1 move"
 msgstr "-1步"
 
@@ -80,6 +83,12 @@ msgstr "150 颗星星。"
 
 msgid "18+ · original characters · all characters are adults."
 msgstr "18+ · 原创角色 · 所有角色均为成年人。"
+
+msgid "5 Extra Hearts"
+msgstr "5 颗额外爱心"
+
+msgid "5 hearts right now, on top of the ones you have."
+msgstr "立即获得 5 颗爱心，叠加在你现有的爱心之上。"
 
 msgid "5 of every item in the Item Shop."
 msgstr "道具商店中每种道具各 5 个。"
@@ -1287,11 +1296,17 @@ msgstr "离开"
 msgid "Leave it there a minute. It's been a long time."
 msgstr "放在那儿一会儿。已经很久了。"
 
+msgid "Leave this chapter?"
+msgstr "要离开本章吗？"
+
 msgid "Leave to Roster"
 msgstr "退出到名册"
 
 msgid "Leaves Going Red"
 msgstr "叶子渐红"
+
+msgid "Leaving a chapter you've started costs a heart."
+msgstr "离开已开始的章节会消耗一颗爱心。"
 
 msgid "Let Skip race through lines you haven't read yet, too."
 msgstr "让“跳过”也能快速略过你还没读过的台词。"

@@ -66,6 +66,9 @@ msgstr "+1 corazón"
 msgid "+2 moves — great answer!"
 msgstr "+2 movimientos — ¡gran respuesta!"
 
+msgid "+5 hearts · %s"
+msgstr "+5 corazones · %s"
+
 msgid "-1 move"
 msgstr "-1 movimiento"
 
@@ -80,6 +83,12 @@ msgstr "150 estrellas."
 
 msgid "18+ · original characters · all characters are adults."
 msgstr "18+ · personajes originales · todos los personajes son adultos."
+
+msgid "5 Extra Hearts"
+msgstr "5 corazones extra"
+
+msgid "5 hearts right now, on top of the ones you have."
+msgstr "5 corazones ahora mismo, además de los que tienes."
 
 msgid "5 of every item in the Item Shop."
 msgstr "5 de cada objeto de la tienda."
@@ -1242,11 +1251,17 @@ msgstr "Salir"
 msgid "Leave it there a minute. It's been a long time."
 msgstr "Déjala ahí un minuto. Ha pasado mucho tiempo."
 
+msgid "Leave this chapter?"
+msgstr "¿Salir de este capítulo?"
+
 msgid "Leave to Roster"
 msgstr "Salir al elenco"
 
 msgid "Leaves Going Red"
 msgstr "Hojas que enrojecen"
+
+msgid "Leaving a chapter you've started costs a heart."
+msgstr "Salir de un capítulo empezado cuesta un corazón."
 
 msgid "Let Skip race through lines you haven't read yet, too."
 msgstr "Que Saltar también pase volando por las líneas que aún no has leído."

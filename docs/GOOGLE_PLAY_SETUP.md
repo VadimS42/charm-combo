@@ -15,18 +15,31 @@ Try it on a PC: `godot --path . -- --ads` (phone layout, test ads and purchases)
 
 ## What the Google Play build does
 
-**Harder:** chapters 2–4 give 80% of their moves (`MOVES_FACTOR`; each girl's
-first chapter keeps all of them, so players get hooked first), the Item Shop's
-star prices are 1.5x (`PRICE_FACTOR`), and Story difficulty, the Skip button and
-"Continue the story" after three losses come only with the Story Pass.
+**Harder:** each chapter gets a share of its moves (`CHAPTER_MOVES`): 75%,
+65%, 55%, 45%. A girl's last chapter can't be cleared without several
+power-ups; each one before it is a step easier. Casual bot, % cleared
+(`balance_bot.gd -- mode=girlkits scales=0.75,0.65,0.55,0.45`):
 
-**Hearts:** 5 (8 with the Story Pass). Losing a chapter costs one; one comes
-back every 25 minutes. With none left, a chapter won't start: the Out of hearts
+| Chapter | No power-ups | 1 Time Scroll | 2 Scrolls | 2 Scrolls + both potions |
+| --- | --- | --- | --- | --- |
+| 1 | 35–45% | 72–82% | 95–98% | 100% |
+| 2 | 12–30% | 52–75% | 80–95% | 100% |
+| 3 | 0–15% | 25–48% | 45–70% | 88–100% |
+| 4 | 0–3% | 0–8% | 20–28% | 48–98% |
+
+Every power-up can be bought with stars from play and free videos, never only
+with money. Item Shop star prices are 1.5x (`PRICE_FACTOR`), and Story
+difficulty, the Skip button and "Continue the story" come only with the Story
+Pass.
+
+**Hearts (lives):** 5 (8 with the Story Pass). Losing a chapter costs one, and
+so does leaving one after a move (it asks first); one comes back every 30
+minutes. Bought hearts can go past the maximum. With none left, a chapter won't start: the Out of hearts
 popup offers a video (+1), a refill for 60 stars, 24 hours unlimited, or the
 Story Pass. The hearts pill sits next to the stars at the top.
 
 **Reward videos** (each has a daily limit, `DAILY_CAPS`):
-- Out of moves: +5 moves (6 a day)
+- Out of moves: +3 moves, once per attempt (6 a day)
 - Chapter cleared: double its stars (6 a day)
 - Shop: +15 free stars (5 a day)
 - Out of hearts: +1 heart (5 a day)
@@ -46,6 +59,7 @@ More), with room left for it. Never on a chapter or in the story.
 | `starter_pack` | one-time | Starter Pack | $1.99 | 500 stars, 3 of every item, 24 h unlimited hearts |
 | `remove_ads` | one-time | No Ads | $3.99 | no banner or between-chapter ads; reward videos become one tap |
 | `story_pass` | one-time | Story Pass | $4.99 | skip any chapter, Story difficulty, 8 hearts |
+| `hearts_5` | consumable | 5 Extra Hearts | $0.99 | 5 hearts, past the maximum |
 | `hearts_24h` | consumable | Unlimited Hearts | $1.99 | 24 h unlimited hearts |
 | `item_bundle` | consumable | Item Bundle | $2.99 | 5 of every item |
 | `stars_150` | consumable | Handful of Stars | $0.99 | 150 stars |
@@ -66,10 +80,10 @@ treat them as gambling, and Google requires published odds), and subscriptions
 ## Setting it up
 
 ### 1. Google Play Console
-1. Create the app (Free). **Target audience: 13+** (or 16+/18+). If you pick
-   ages under 13, Google's Families policy applies: only certified ad networks,
-   no personalised ads, and stricter review. The romance theme fits 13+ at the
-   lowest. The content rating questionnaire will say it has ads and purchases.
+1. Create the app (Free). **Target audience: 13+** (the build is PG-13; ads
+   are capped at Google's "T" rating, `Monetize.KIDS = false`). Picking ages
+   under 13 brings Google's Families policy: set `KIDS = true` (child-directed,
+   G-rated, never-personalised ads) and expect stricter review. The content rating questionnaire will say it has ads and purchases.
 2. **Monetize > Products > In-app products:** create each product ID in the
    table above (exactly as written), with a name, description and price, and
    activate it.

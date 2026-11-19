@@ -50,7 +50,7 @@ UI_SKIP = {"Camera", "Motes", "Enter", "Backspace", "Start", "Esc", "Arrows", "R
            "\nTest build: using your edited characters.json from the game's folder.", "Seal", "Moss", "Glyph", "Control", "Num", "Sweet Serene", "Fablefly Music",
            "Sexy Scene Instrumentals Vol. 4", "Sascha Ende", "Underwater Theme II", "Cleyton Kauffman",
            "Binary Underwater Village", "Alex McCulloch", "Enchanted Hollow", "Eric Matyas", "Sexy Scene Vol. 3", "R1 (hold)", "Epic build", "Android build",
-           "Epic build (no EOS bridge: achievements stay in the game)", "Button", "Label", "Português (Brasil)", "Deutsch"}
+           "Epic build (no EOS bridge: achievements stay in the game)", "Button", "Label", "Português (Brasil)", "Deutsch", "Values"}
 UI_SKIP_STARTS = ("Open that file, fix the line",)
 
 # Pieces the game builds at runtime (UITheme.t()) that the extractor can't see.

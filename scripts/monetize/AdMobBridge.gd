@@ -20,30 +20,35 @@ var _interstitial = null
 var _banner = null
 var _banner_wanted := false
 var _started := false
+## Kid-friendly build (Monetize.KIDS): child-directed, G-rated, never
+## personalised ads, and no consent form (it's never shown to children).
+var _kids := true
 
 
 func _cls(cls_name: String) -> Variant:
 	return _c.get(cls_name)
 
 
-func start(units: Dictionary) -> void:
+func start(units: Dictionary, kids: bool = true) -> void:
 	_units = units
+	_kids = kids
 	for c in ProjectSettings.get_global_class_list():
 		var n := String(c.get("class", ""))
 		if n in ["MobileAds", "AdRequest", "AdSize", "AdPosition", "AdView", "RewardedAdLoader",
 				"RewardedAdLoadCallback", "InterstitialAdLoader", "InterstitialAdLoadCallback",
 				"FullScreenContentCallback", "OnUserEarnedRewardListener", "UserMessagingPlatform",
-				"ConsentInformation", "ConsentRequestParameters"]:
+				"ConsentInformation", "ConsentRequestParameters", "RequestConfiguration"]:
 			_c[n] = load(String(c.path))
+	_configure_requests()
 	var ump: Variant = _cls("UserMessagingPlatform")
 	var params_cls: Variant = _cls("ConsentRequestParameters")
 	if ump == null or params_cls == null:
 		_start_ads()
 		return
 	var params: Object = params_cls.new()
-	# The game isn't made for children (the Play listing's target audience is
-	# 13+), so no under-age tag. Change this if your listing says otherwise.
-	params.set("tag_for_under_age_of_consent", false)
+	# Kid-friendly build: players may be under the age of consent, so Google
+	# shows them no consent form and treats their ads as non-personalised.
+	params.set("tag_for_under_age_of_consent", _kids)
 	var info: Object = ump.get("consent_information")
 	info.call("update", params, func():
 		var required: int = int(_cls("ConsentInformation").get("ConsentStatus").get("REQUIRED", 2))
@@ -54,6 +59,22 @@ func start(units: Dictionary) -> void:
 		else:
 			_start_ads(),
 	func(_err): _start_ads())
+
+
+## Every ad request: for children, G-rated content only and child-directed
+## treatment (COPPA / Google Play Families policy), so no personalised ads.
+func _configure_requests() -> void:
+	var rc_cls: Variant = _cls("RequestConfiguration")
+	if rc_cls == null:
+		return
+	var rc: Object = rc_cls.new()
+	if _kids:
+		rc.set("tag_for_child_directed_treatment", 1)
+		rc.set("tag_for_under_age_of_consent", 1)
+		rc.set("max_ad_content_rating", "G")
+	else:
+		rc.set("max_ad_content_rating", "T")
+	_cls("MobileAds").call("set_request_configuration", rc)
 
 
 func _start_ads() -> void:

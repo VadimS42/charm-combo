@@ -45,8 +45,8 @@ func _go() -> void:
 	await create_timer(0.4).timeout
 
 	# Hardest tuning.
-	_ok("moves cut to 80%% from chapter 2 (20 -> %d)" % mz.moves(20, 1), mz.moves(20, 1) == 16)
-	_ok("a girl's first chapter keeps its moves", mz.moves(20, 0) == 20)
+	_ok("moves per chapter 75/65/55/45%% (20 -> %d, %d, %d, %d)" % [mz.moves(20, 0), mz.moves(20, 1), mz.moves(20, 2), mz.moves(20, 3)],
+		mz.moves(20, 0) == 15 and mz.moves(20, 1) == 13 and mz.moves(20, 2) == 11 and mz.moves(20, 3) == 9)
 	_ok("item prices up 50%% (12 -> %d)" % mz.item_price(12), mz.item_price(12) == 18)
 	gs.settings.difficulty = "story"
 	_ok("Story difficulty needs the Story Pass", not PuzzleScreen.story_mode())
@@ -79,7 +79,7 @@ func _go() -> void:
 	await create_timer(0.4).timeout
 	var pz = main._screen_obj
 	var lvl: Dictionary = CharacterData.by_id("dryad").story.levels[0]
-	_ok("chapter 1 keeps its %d moves" % int(lvl.moves), pz.moves_left == int(lvl.moves))
+	_ok("chapter 1: %d of its %d moves" % [pz.moves_left, int(lvl.moves)], pz.moves_left == mz.moves(int(lvl.moves), 0))
 	pz.moves_left = 0
 	pz._check_outcome()
 	await create_timer(0.3).timeout
@@ -97,6 +97,34 @@ func _go() -> void:
 	pz._check_outcome()
 	await create_timer(0.2).timeout
 	_ok("running out again is the same attempt (still 4)", mz.hearts() == 4)
+	var again := false
+	for b in pz.overlay.find_children("*", "Button", true, false):
+		if String((b as Button).text).begins_with("Watch a video"):
+			again = true
+	_ok("only one moves video per attempt", not again)
+
+	# Leaving a started chapter costs a heart (after a warning).
+	main.show_puzzle("dryad")
+	await create_timer(0.4).timeout
+	pz = main._screen_obj
+	pz.moves_left -= 1
+	pz._leave_to_roster()
+	await process_frame
+	_ok("leaving a started chapter asks first", main.modal_open() and mz.hearts() == 4)
+	var leave_btn: Button = null
+	for b in main._confirm_box.find_children("*", "Button", true, false):
+		if String((b as Button).text) == "Leave":
+			leave_btn = b
+	if leave_btn:
+		leave_btn.pressed.emit()
+	await create_timer(0.3).timeout
+	_ok("...and leaving costs a heart (3)", mz.hearts() == 3)
+	main.show_puzzle("dryad")
+	await create_timer(0.4).timeout
+	main._screen_obj._leave_to_roster()
+	await create_timer(0.3).timeout
+	_ok("leaving before a move is free", not main.modal_open() and mz.hearts() == 3)
+	mz.add_hearts(1)
 
 	# Winning: double the stars for a video.
 	main.show_puzzle("dryad")
@@ -159,6 +187,10 @@ func _go() -> void:
 	before = gs.stars
 	ShopUI.buy(main, "stars_150")
 	_ok("stars_150 gives 150 stars", gs.stars - before == 150)
+	var h0: int = mz.hearts()
+	ShopUI.buy(main, "hearts_5")
+	_ok("5 extra hearts, past the maximum (%d -> %d)" % [h0, mz.hearts()], mz.hearts() == h0 + 5 and mz.hearts() > mz.max_hearts())
+	gs.shop.hearts = mz.max_hearts()
 	ShopUI.buy(main, "starter_pack")
 	_ok("starter pack: stars, items, unlimited hearts", mz.owns("starter_pack") and mz.unlimited() and int(gs.items.get("hammer", 0)) >= 3)
 	var s2: int = gs.stars
