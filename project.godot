@@ -48,7 +48,7 @@ window/handheld/orientation=6
 
 [internationalization]
 
-locale/translations=PackedStringArray("res://translations/ru.po", "res://translations/zh_CN.po")
+locale/translations=PackedStringArray("res://translations/ru.po", "res://translations/zh_CN.po", "res://translations/ja.po", "res://translations/es.po", "res://translations/pt_BR.po", "res://translations/de.po")
 locale/fallback="en"
 
 [rendering]

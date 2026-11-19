@@ -319,8 +319,13 @@ static func _choice_row(title: String, desc: String, options: Array, current: St
 	d.custom_minimum_size = Vector2(0 if _narrow else 260, 0)
 	text_v.add_child(d)
 	h.add_child(text_v)
-	var seg := HBoxContainer.new()
+	# Many options (the languages) wrap onto more rows.
+	var seg: Container = HFlowContainer.new() if options.size() > 4 else HBoxContainer.new()
 	seg.add_theme_constant_override("separation", 4)
+	seg.add_theme_constant_override("h_separation", 4)
+	seg.add_theme_constant_override("v_separation", 4)
+	if seg is HFlowContainer:
+		seg.custom_minimum_size = Vector2(0 if _narrow else 300, 0)
 	seg.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 	h.add_child(seg)
 	var group := ButtonGroup.new()

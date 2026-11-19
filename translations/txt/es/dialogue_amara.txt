@@ -1,0 +1,269 @@
+# Amara — Español (borrador, round 49)
+@@ amara-0001
+Amara Duskrose
+@@ amara-0002
+Súcubo, invocada por error
+@@ amara-0003
+«¿Me has invocado con ese patético círculo de tiza?»
+@@ amara-0004
+Runas. Por fin alguien en este pueblo que sabe dibujar.
+@@ amara-0005
+Líneas limpias. Casi estoy orgullosa de ti.
+@@ amara-0006
+Ese sí que retendría a un demonio.
+@@ amara-0007
+Hazlo otra vez. Más despacio.
+@@ amara-0008
+¿Ves? Anillos cerrados. No es tan difícil.
+@@ amara-0009
+Ese sí es un círculo del que saldría encantada.
+@@ amara-0010
+Piedra lunar. Huele a iglesia.
+@@ amara-0011
+No. Simplemente no.
+@@ amara-0012
+Alguien compró eso en un puesto del mercado. Se nota.
+@@ amara-0013
+Tonterías lunares. Siguiente.
+@@ amara-0014
+Aparta esa piedra santa de mí.
+@@ amara-0015
+El libro está en este edificio. Sigue.
+@@ amara-0016
+Eres más rápido de lo que pareces. Y pareces bastante lento.
+@@ amara-0017
+Me han invocado reyes. Lo hacían peor que tú.
+@@ amara-0018
+Ojos en el tablero. Yo seguiré aquí.
+@@ amara-0019
+Si lo encuentras antes que yo, no lo abras.
+@@ amara-0020
+Cuidado con la vela.
+@@ amara-0021
+Vela de cera de abeja hecha a mano
+@@ amara-0022
+Una vela alta de cera de abeja con mecha de nueve horas. Dura más si nadie la apaga.
+@@ amara-0023
+Le da vueltas a la vela entre las manos y huele la cera, que por lo visto es la forma profesional de comprobarla.
+@@ amara-0024
+Mecha de nueve horas. Hecha a mano. Sabes para qué es esto, ¿verdad?
+@@ amara-0025
+La coloca junto al cabo de tu círculo de tiza y la enciende con la llama vieja antes de que se apague.
+@@ amara-0026
+Son nueve horas más en las que no podrás librarte de mí. Lo has hecho a propósito.
+@@ amara-0027
+Llevas tres semanas en Millbrook, aceptando cualquier trabajo que pague. Esta noche toca el turno de noche en la biblioteca pública. Son las doce y cuarto, las lámparas de gas llevan una hora apagadas, el carrito de devoluciones sigue lleno y has dibujado un círculo en el suelo de la sala de lectura con tiza de niños.
+@@ amara-0028
+Lo copiaste de una página suelta que se cayó de un libro devuelto. Quedaba bonito. Pusiste un cabo de vela en el centro porque parecía el tipo de cosa que pedía una vela.
+@@ amara-0029
+La llama se inclina hacia un lado. Luego se vuelve verde. El humo llena el círculo, con olor a cerilla recién encendida y a perfume caro, y alguien sale de él tosiendo.
+@@ amara-0030
+¿Me has invocado con ese patético círculo de tiza? ¿De dónde lo has copiado siquiera? Uf, estaba en medio de algo.
+@@ amara-0031
+Es alta, tiene cuernos y va vestida para un sitio mucho más elegante que una biblioteca. Se agacha para mirar tu círculo y chasquea la lengua.
+@@ amara-0032
+Tu segundo anillo no cierra. Ese sigilo está del revés. Y este ni siquiera es un sigilo, es una mancha de café que has calcado.
+@@ amara-0033
+En fin. Ha funcionado, lo cual es insultante a su manera. Venga. Pide.
+@@ amara-0034
+Le preguntas a qué se refiere.
+@@ amara-0035
+A lo que quieres. Oro. Venganza. Y tarde o temprano, sexo. Siempre se acaba ahí.
+@@ amara-0036
+No pides nada de eso. Le preguntas si está bien, porque salió del humo tosiendo.
+@@ amara-0037
+Es la tiza. La tiza barata se te mete en la garganta.
+@@ amara-0038
+Entonces ve la página suelta sobre tu mesa, la que copiaste, y se queda muy quieta.
+@@ amara-0039
+¿De dónde has sacado eso?
+@@ amara-0040
+Le cuentas que se cayó de un libro devuelto y que no miraste de cuál. Das un paso hacia la mesa para enseñársela.
+@@ amara-0041
+Quédate donde estás. No rompas el círculo. Si esa vela se apaga, me voy a casa, y no he terminado contigo.
+@@ amara-0042
+Ella misma cruza la línea de tiza, con cuidado de no emborronarla, y recoge la página. Te das cuenta de que te has quedado mirándola.
+@@ amara-0043
+Cuidado. Si sigues mirándome así, empezaré a pensar que me invocaste a propósito.
+@@ amara-0044
+Esta página es de mi vínculo. El libro que me ata a cada círculo que alguien dibuja, por mal que lo haga. Encuéntralo entero, quémalo y seré libre.
+@@ amara-0045
+Está en algún lugar de este edificio. Lo noto, como una corriente de aire. Vas a ayudarme a encontrarlo antes que nadie.
+@@ amara-0046
+Claro que te ayudo. ¿Cómo es?
+@@ amara-0047
+No has preguntado qué ganas tú.
+@@ amara-0048
+Entorna los ojos, buscando la trampa. No la hay.
+@@ amara-0049
+Tapa negra. Sin título. Se nota caliente. No lo abras.
+@@ amara-0050
+Claro. Cuando haya colocado estas devoluciones.
+@@ amara-0051
+¡He destruido reinos y tú me haces esperar!
+@@ amara-0052
+Aun así coge una pila de libros y pregunta dónde va la poesía.
+@@ amara-0053
+Más rápido. Y ordena bien alfabéticamente. He visto tu círculo.
+@@ amara-0054
+A las dos de la madrugada habéis revisado todos los libros devueltos este mes. Ninguna tapa negra. Un libro de cocina con muchísimo retraso, que ella abre, lee una página y cierra con asco.
+@@ amara-0055
+Estaba aquí. Alguien se lo llevó, y no hace mucho.
+@@ amara-0056
+Y sigues sin pedirme nada.
+@@ amara-0057
+Según mi experiencia, los que no piden quieren algo peor. Así que, ¿qué es?
+@@ amara-0058
+Tu nombre estaría bien.
+@@ amara-0059
+Amara. Es el que uso. El verdadero está en el libro, junto con todo lo demás que me tiene atada.
+@@ amara-0060
+Lo repites. Ella escucha como si comprobara tu pronunciación.
+@@ amara-0061
+Se acerca bastante. Puedes seguir usándolo.
+@@ amara-0062
+Quizá guardo mi deseo para algo bueno.
+@@ amara-0063
+Listo. Los deseos sin gastar no caducan. Conocí a un hombre que se quedó sentado sobre uno hasta que murió.
+@@ amara-0064
+Guárdalo, entonces. Te vigilaré muy de cerca hasta que lo gastes.
+@@ amara-0065
+El fichero tiene un hueco donde debería estar el libro. En su lugar alguien ha dejado una ficha en el cajón: FUERA PARA REENCUADERNAR, y un nombre.
+@@ amara-0066
+Alguien en este pueblo sabe exactamente qué es ese libro.
+@@ amara-0067
+Se sienta en la mesa de lectura, cosa que ya le has pedido dos veces que no haga, y mueve la vela para que no gotee sobre las devoluciones.
+@@ amara-0068
+Deja de fingir que buscas el libro. Has pasado junto a esta mesa once veces esta noche, y el libro no está encima. Yo sí.
+@@ amara-0069
+Ven aquí. Es una orden, y solo la doy una vez antes de ir yo a por ti.
+@@ amara-0070
+Eres lo mejor que he encontrado en esta biblioteca.
+@@ amara-0071
+Halagos. Bien. Sigue.
+@@ amara-0072
+Engancha un pie alrededor de tu tobillo y te arrastra el último paso.
+@@ amara-0073
+Ahora podemos dejar los dos de fingir que viniste a hablar de libros.
+@@ amara-0074
+Oblígame.
+@@ amara-0075
+Oh, pienso hacerlo.
+@@ amara-0076
+Engancha un dedo en tu cuello de la camisa y tira de ti hasta que estáis nariz con nariz sobre la mesa de lectura.
+@@ amara-0077
+Así. Ahora mírame a los ojos y dime que preferirías estar colocando libros.
+@@ amara-0078
+No piensa dejar la vela. La lleva hasta la calle de la Mecha protegida con las dos manos y te hace caminar por el lado del viento.
+@@ amara-0079
+El nombre de la ficha es de un encuadernador que murió en primavera. Su taller sigue lleno de páginas sueltas.
+@@ amara-0080
+Al fondo, bajo una sábana polvorienta, encontráis una tapa negra vacía. Han cortado las páginas con un cuchillo.
+@@ amara-0081
+Lo desmontó. Para venderlo página a página.
+@@ amara-0082
+Cada una de esas páginas es parte de mi vínculo. Alguien las ha estado comprando.
+@@ amara-0083
+Podrías quedarte una, ¿sabes? Solo una página. No podría negarte nada.
+@@ amara-0084
+Si encuentro una, la quemo.
+@@ amara-0085
+La quemarías.
+@@ amara-0086
+Coge la vela para tener algo que hacer con las manos.
+@@ amara-0087
+Entonces más vale que las encontremos antes que nadie.
+@@ amara-0088
+Tentador. Tendrías que colocar mis libros.
+@@ amara-0089
+Lo haría mal. Por despecho.
+@@ amara-0090
+Vamos. Los encuadernadores llevan libros de cuentas. Si las vendió, apuntó a quién.
+@@ amara-0091
+El libro de cuentas os lleva directos a tu propia biblioteca. Las últimas páginas se le vendieron en marzo como hojas sueltas, variadas, y se archivaron en la cámara de libros raros bajo «Varios, infernales».
+@@ amara-0092
+Las quema en la chimenea de la sala de lectura a las cuatro de la madrugada, una por una. Cada una arde en verde. La página suelta de tu mesa va la última: arranca su nombre de la esquina y quema solo eso.
+@@ amara-0093
+Ya están todas. Soy libre. Se acabaron los círculos. Nadie podrá arrastrarme a ningún sitio nunca más.
+@@ amara-0094
+La vela de tu círculo de tiza, la cuarta de la semana, está casi consumida. Ella la mira titilar y no se va a ninguna parte.
+@@ amara-0095
+La mayoría de las invocaciones terminan en cuanto alguien obtiene lo que pidió. Tú nunca pediste nada. Así que... me quedé.
+@@ amara-0096
+¿Todavía nada?
+@@ amara-0097
+Niegas con la cabeza.
+@@ amara-0098
+Entonces pido yo. Cierra la puerta de la sala de lectura. Deja la vela.
+@@ amara-0099
+Cierras la puerta.
+@@ amara-0100
+La sala de lectura con la puerta cerrada. La única luz es la vela de tu círculo de tiza, y ella vuelve a estar sentada en la mesa de lectura.
+@@ amara-0101
+Me has pedido dos veces que no me siente en esta mesa.
+@@ amara-0102
+Me han invocado cuatrocientas y pico veces. Nunca había visto a alguien tan caballeroso.
+@@ amara-0103
+Toma tu mano y la aprieta contra su pecho. Bajo la seda, algo late demasiado deprisa para alguien tan viejo.
+@@ amara-0104
+Es culpa tuya. Que conste en acta.
+@@ amara-0105
+Se da la vuelta y se aparta el pelo del cuello. El vestido se cierra con una hilera de corchetes diminutos, desde el cuello hasta donde nacen sus alas.
+@@ amara-0106
+Son cuarenta y uno. Los conté al ponérmelo. Tómate tu tiempo.
+@@ amara-0107
+No te tomas tu tiempo. Ella se ríe de ti, con una risa grave, y no se queja.
+@@ amara-0108
+Dilo. El nombre que te di.
+@@ amara-0109
+Lo dices. Amara. Cierra los ojos, como si comprobara tu pronunciación por última vez.
+@@ amara-0110
+Se acerca bastante.
+@@ amara-0111
+Más tarde. La vela es apenas un cabo. Está tumbada sobre ti en la alfombra de la sala de lectura, con un ala plegada sobre los dos como una manta.
+@@ amara-0112
+Llevo muchísimo tiempo haciendo esto, y eso no estaba en la lista de cosas que esperaba de una biblioteca.
+@@ amara-0113
+No pongas esa cara de satisfecho. Bueno, no. Pon exactamente esa cara.
+@@ amara-0114
+Quédate hasta que se apague la vela. Y luego quédate igualmente.
+@@ amara-0115
+La vela se consume del todo, y ninguno de los dos se da cuenta de cuándo se apaga.
+@@ amara-0116
+Fuera de horario
+@@ amara-0117
+Su carné de la biblioteca lleva tu dirección escrita con letra pequeña y furiosa. Se muda con cuarenta velas y opiniones sobre tu estantería, que reordena según lo mucho que le desagradó cada libro. Tu favorito acaba en el estante de abajo. Casi todas las noches sigue en el mostrador cuando termina tu turno, y te acompaña a casa junto al río aunque se tarde más.
+@@ amara-0118
+La mañana entra por las ventanas de la sala de lectura. Alguien ha doblado tu chaqueta en un cuadrado perfecto.
+@@ amara-0119
+Para que conste: unas cuatrocientas invocaciones, varios reyes y un obispo muy entusiasta. Ninguno se acercó siquiera. Solo te lo digo una vez.
+@@ amara-0120
+Ya puedes vestirte.
+@@ amara-0121
+Nunca había visto una mañana desde este lado de una invocación. Es muy luminosa. No la odio.
+@@ amara-0122
+La sala de lectura al amanecer: una vela consumida en un círculo de tiza emborronado, y tu chaqueta doblada en un cuadrado perfecto sobre el carrito de devoluciones.
+@@ amara-0123
+Mientras traes café de la sala del personal, ella coge un lápiz rojo de tu mesa y empieza a corregir la página con la que empezó todo.
+@@ amara-0124
+Si vas a dibujar estas cosas, las dibujarás bien. Nadie más va a cruzar un círculo tan patético.
+@@ amara-0125
+Esta línea de aquí. Ahí pondrías mi nombre. Si alguna vez quisieras llamarme. No te hará falta. Estaré contigo.
+@@ amara-0126
+Sus correcciones en lápiz rojo, por toda la página suelta con la que empezó todo.
+@@ amara-0127
+Me piden una dirección para el carné de la biblioteca. No tengo. ¿Qué pongo?
+@@ amara-0128
+Le dices que ponga la tuya.
+@@ amara-0129
+La tuya. Vale. Me traigo mis propias velas.
+@@ amara-0130
+Las velas titilan
+@@ amara-0131
+Polvo del estante de arriba
+@@ amara-0132
+Un lector te manda callar
+@@ amara-0133
+Líneas correctas
+@@ amara-0134
+Elige una gema: se limpian su fila y su columna enteras.

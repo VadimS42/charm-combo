@@ -1,0 +1,267 @@
+# Marina — Español (borrador, round 49)
+@@ marina-0001
+Marina Waverly
+@@ marina-0002
+Sirena de la cala de Saltwick
+@@ marina-0003
+«Estaba flotando. Boca arriba.»
+@@ marina-0004
+Perlas. La abuela daría su aprobación.
+@@ marina-0005
+Nueve de esas y me libro.
+@@ marina-0006
+Eso es lo bueno. Otra vez.
+@@ marina-0007
+Bonito. No les digas a mis hermanas que lo he dicho.
+@@ marina-0008
+Vale, esa ha estado bien.
+@@ marina-0009
+Oh, qué suave. ¿Por qué no puede salir algo más así de suave esta semana?
+@@ marina-0010
+Puaj. Más seco que una esponja.
+@@ marina-0011
+No. Ni hablar.
+@@ marina-0012
+¿A quién le gustan esas?
+@@ marina-0013
+Esa es una gema de tierra firme. Devuélvela.
+@@ marina-0014
+Nueve días. Sigue.
+@@ marina-0015
+Te estás volviendo bueno en esto. Es irritante.
+@@ marina-0016
+Si alguien pregunta, somos amigos. Que nadan. De noche.
+@@ marina-0017
+Al tablero, socorrista. No a mí.
+@@ marina-0018
+Mamá quiere darte de comer. Quedas avisado.
+@@ marina-0019
+Más rápido. La marea está cambiando.
+@@ marina-0020
+Colgante de vidrio marino esmerilado
+@@ marina-0021
+Un trozo liso de vidrio marino, suavizado por años de mareas, en un cordón sencillo.
+@@ marina-0022
+Muerde una esquina antes siquiera de darte las gracias.
+@@ marina-0023
+Es auténtico. Lo hizo el mar. Hay gente que hace rodar botellas viejas en un barril y lo vende como vidrio marino.
+@@ marina-0024
+Se ata el cordón al cuello con un nudo doble, para que no se suelte en el agua.
+@@ marina-0025
+Pierdo cosas. Ya te has dado cuenta. Esta no la voy a perder.
+@@ marina-0026
+La cala de Saltwick, una hora antes del atardecer. Vas por el sendero del acantilado cuando empiezan los gritos.
+@@ marina-0027
+Abajo, en el muelle, una familia entera le grita al agua. Más allá de las rocas, una mujer flota boca arriba, totalmente quieta, con el pelo extendido a su alrededor.
+@@ marina-0028
+No te lo piensas. Bajas corriendo las escaleras, saltas vestido desde el final del muelle, la rodeas con un brazo y la arrastras de vuelta.
+@@ marina-0029
+Solo cuando la estás subiendo a las tablas te fijas en la cola. Es larga, es verde azulada y golpea el muelle con tanta fuerza que empapa a todo el mundo.
+@@ marina-0030
+Estaba flotando. Boca arriba. Soy una sirena, por si no te habías dado cuenta, y me acabas de sacar a rastras de mi propia cala delante de toda mi familia.
+@@ marina-0031
+Toda su familia, en efecto, está justo ahí. Una abuela, una madre, tres hermanas. Una de las hermanas se ríe tanto que apenas puede preguntar en voz alta si Mari le va a dar las gracias a su socorrista.
+@@ marina-0032
+Ni se te ocurra. Ni se te ocurra.
+@@ marina-0033
+Abuela, estoy bien. Siempre estoy así.
+@@ marina-0034
+Su abuela dice, con suavidad, que llevaban veinte minutos llamándola, que la marea está a punto de cambiar y que esta persona tan amable fue la única que hizo algo.
+@@ marina-0035
+¿Veinte minutos?
+@@ marina-0036
+La sirena te mira de verdad por primera vez. Estás chorreando. Has perdido un zapato.
+@@ marina-0037
+Te... tiraste vestido. Por alguien a quien no conocías.
+@@ marina-0038
+Su familia se desliza uno a uno desde el final del muelle y nada hacia casa rodeando el cabo, muy despacio, mirando atrás todo el camino. Ella espera hasta que no pueden oírla.
+@@ marina-0039
+No estaba descansando. Estaba buscando algo. La peineta de perlas de la abuela. Es lo único que trajo cuando llegó a esta cala, y se la pone en cada Marea de San Juan.
+@@ marina-0040
+Se suponía que tenía que llevarla a limpiar. Se me cayó del muelle hace una semana. Nadie lo sabe.
+@@ marina-0041
+Y tú tampoco se lo vas a contar a nadie, ¿verdad, socorrista?
+@@ marina-0042
+No diré nada. Déjame ayudarte a buscar.
+@@ marina-0043
+Ya has ayudado bastante por hoy, socorrista.
+@@ marina-0044
+Lo dice, pero no se va nadando.
+@@ marina-0045
+La marea baja es a las seis. Si da la casualidad de que estás en el muelle, pues estás en el muelle, no te lo pido, solo digo cuándo es la marea baja.
+@@ marina-0046
+De nada, por cierto.
+@@ marina-0047
+¿Quieres que te dé las gracias? ¿Por eso?
+@@ marina-0048
+Sacude la cola y te empapa por segunda vez, muy a propósito.
+@@ marina-0049
+Ya está. Ahora estamos en paz. La marea baja es a las seis.
+@@ marina-0050
+Marea baja. Pasas dos horas levantando piedras en las pozas mientras ella revisa las aguas más hondas. Encuentras un tenedor y un cangrejo muy enfadado.
+@@ marina-0051
+También encuentras un pequeño cierre de latón encajado bajo el muelle. Ella te lo quita y le da vueltas durante un buen rato.
+@@ marina-0052
+Es de la caja de la peineta. Así que cayó justo ahí.
+@@ marina-0053
+Vale. Ya no eres un peligro público. Puedes ayudarme. No te emociones.
+@@ marina-0054
+Te pagaré, obviamente. Una recompensa, cuando la encontremos. Es un acuerdo de negocios, así que deja de sonreír así.
+@@ marina-0055
+Me alegra poder ayudar. De verdad.
+@@ marina-0056
+No lo digas así. Como si importara.
+@@ marina-0057
+Se sumerge antes de que puedas contestar y sale unos metros más allá, fingiendo que busca.
+@@ marina-0058
+Mañana a las seis, socorrista.
+@@ marina-0059
+Admítelo. Te gusta tenerme cerca.
+@@ marina-0060
+Me gusta tener a alguien que sujete el cubo.
+@@ marina-0061
+Lo sujetas muy bien. Es todo lo que admito.
+@@ marina-0062
+Tercer día. Lleva en el agua desde el amanecer y falla dos veces la escalerilla de cuerda al intentar subir al muelle. Al otro extremo, tres pescadores viejos preparan su partida de fichas de los jueves a la luz del farol.
+@@ marina-0063
+Estoy bien. La Marea de San Juan es dentro de nueve días y he revisado quizá un tercio de la cala.
+@@ marina-0064
+Le quitas el farol y le dices que se siente una hora. Tú te encargas de las rocas.
+@@ marina-0065
+Vaya. Nadie me ha dicho nunca que vaya más despacio. Todos dan por hecho que lo tengo controlado.
+@@ marina-0066
+Se sienta al final del muelle con la cola en el agua. Al cabo de un rato se apoya en tu hombro, como sin querer.
+@@ marina-0067
+Todos me preguntan por la peineta y me estoy quedando sin excusas.
+@@ marina-0068
+Dile la verdad. Lo entenderá.
+@@ marina-0069
+Ni siquiera se enfadará. Solo dirá «ay, Mari», como hace mamá.
+@@ marina-0070
+Nueve días. Si no la hemos encontrado para entonces, se lo digo. ¿Trato hecho?
+@@ marina-0071
+Dile que el joyero se fugó con un capitán de barco.
+@@ marina-0072
+Eso está bien, la verdad. Se lo creería.
+@@ marina-0073
+Se ríe contra tu hombro hasta que le da hipo.
+@@ marina-0074
+Eres una influencia terrible. Sigue.
+@@ marina-0075
+Un chubasco entra en la cala. Ella quiere bucear de todos modos. Tú sujetas la escalerilla de cuerda y discutes con ella a gritos contra el viento.
+@@ marina-0076
+¡Está ahí abajo! ¡He mirado en todas partes, tiene que estar ahí abajo!
+@@ marina-0077
+Entonces te acuerdas de los hermanos Pellow arrastrando sus redes por la cala la semana pasada. Todo el muelle se quejó.
+@@ marina-0078
+Su red. Pasó justo por donde se me cayó.
+@@ marina-0079
+Eres un genio, un genio empapado.
+@@ marina-0080
+Te agarra del cuello de la camisa y te besa, fuerte y rápido, y luego se horroriza de sí misma.
+@@ marina-0081
+Ha sido la tormenta. No le des importancia.
+@@ marina-0082
+Me gustaría darle importancia.
+@@ marina-0083
+Vale. Un poco de importancia.
+@@ marina-0084
+Después de la peineta, puede tener mucha importancia.
+@@ marina-0085
+Ha sido una tormenta muy buena.
+@@ marina-0086
+Ha sido una tormenta excelente.
+@@ marina-0087
+Te vuelve a besar, más despacio, solo para asegurarse.
+@@ marina-0088
+La peineta está en una lata de cachivaches en el barco de los hermanos Pellow: plomos de pesca, una cabeza de muñeca y nueve perlas sobre un lomo de plata. Te cuesta dos semanas de sueldo y muchas explicaciones.
+@@ marina-0089
+Se la llevas al muelle cuando ya ha anochecido. La sostiene un buen rato sin decir nada.
+@@ marina-0090
+Ni siquiera está rayada.
+@@ marina-0091
+La abuela se la pondrá en la Marea y nunca lo sabrá. Nadie sabrá nunca que hiciste esto.
+@@ marina-0092
+Todavía te debo una recompensa. Aún no he decidido cuál. No me mires así, lo estoy decidiendo.
+@@ marina-0093
+El muelle está en silencio salvo por la partida de los jueves al otro extremo, donde los tres pescadores viejos vuelven a discutir por la puntuación.
+@@ marina-0094
+La mayoría baja aquí por la partida. Tú sigues volviendo por mí, ¿verdad?
+@@ marina-0095
+Le dices que no has visto ni una sola partida.
+@@ marina-0096
+El agua está templada esta noche.
+@@ marina-0097
+Y esta vez, quítate la ropa antes de saltar.
+@@ marina-0098
+Dejas los zapatos en el muelle, los dos.
+@@ marina-0099
+El agua de la cala está templada, negra y llena de luz de luna. Ella sale justo delante de ti, tan cerca que su pelo te roza la cara.
+@@ marina-0100
+Pues sí que sabes nadar. La primera vez parecías un abrigo que alguien había tirado desde el muelle.
+@@ marina-0101
+Vale. Voy a decir algo y no tienes permitido ser amable al respecto.
+@@ marina-0102
+He pensado en esto. No mucho. Una cantidad normal. Cada día desde el muelle.
+@@ marina-0103
+Te pasa los brazos alrededor de su cuello para que no tengas que patalear, y te sostiene con la cola.
+@@ marina-0104
+Ya está. Ahora no puedes ir a ninguna parte. Es una cosa de sirenas. Muy antigua. Me la acabo de inventar.
+@@ marina-0105
+Te besa, más despacio que en la tormenta. Cuando se aparta respira con fuerza, y no es por nadar.
+@@ marina-0106
+Al cobertizo. Tiene puerta. La abuela no ve a través de las puertas. Probablemente.
+@@ marina-0107
+El cobertizo de botes huele a brea y a sal. Hay un montón de velas viejas en un rincón, y ella te arrastra encima tirando de tu camisa mojada.
+@@ marina-0108
+Después se queda con la cabeza sobre tu pecho, la cola enroscada por la rampa hasta el agua, sacudiéndose de vez en cuando.
+@@ marina-0109
+Eso ha sido. Vale. No tengo palabras. Yo siempre tengo palabras.
+@@ marina-0110
+Tienes arena encima. Por todas partes. Es tu problema, no pienso ayudarte.
+@@ marina-0111
+No te vayas antes del amanecer. Lo sabré si te vas. Oiré la puerta.
+@@ marina-0112
+Se duerme primero, cosa que negará. La marea entra bajo las puertas del cobertizo y vuelve a salir.
+@@ marina-0113
+Pleamar
+@@ marina-0114
+La abuela se pone la peineta en la Marea de San Juan y nunca se entera de que se perdió. Marina se lo cuenta de todos modos un mes después, y la abuela se ríe tanto que hay que ayudarla a subir a una roca. A partir de entonces Marina cuenta cómo os conocisteis en cada cena familiar, y la historia crece cada vez. La abuela la corrige cada vez, y cada vez te pone un plato sin preguntar.
+@@ marina-0115
+Te despiertas en el cobertizo sobre un montón de velas viejas, con arena en las orejas. Ella ya está en el agua, con los brazos cruzados sobre el borde de la rampa, mirándote.
+@@ marina-0116
+Buenos días. Tu ropa está en la barandilla. La he escurrido yo misma, así que puedes darme las gracias.
+@@ marina-0117
+Bueno. Lo de anoche. Llevo un rato flotando por aquí buscando una palabra para eso, y lo he reducido a tres, y las tres son muy groseras.
+@@ marina-0118
+La abuela lo va a saber. Siempre lo sabe. Me va a mirar en el desayuno y simplemente lo sabrá.
+@@ marina-0119
+La rampa del cobertizo al amanecer, dos mudas de ropa secándose en la barandilla.
+@@ marina-0120
+En la Marea de San Juan toda la familia nada hasta las rocas, y la abuela lleva nueve perlas en el pelo y finge no notar que todos la miran.
+@@ marina-0121
+La abuela te ha invitado a la cena familiar, y eso no es poca cosa: hay gente que se ha casado con alguien de esta familia y nunca la han invitado a la cena familiar.
+@@ marina-0122
+Nada conmigo luego. No me vuelvas a avergonzar.
+@@ marina-0123
+La abuela en la Marea de San Juan, con su peineta de perlas en el pelo.
+@@ marina-0124
+Sobre tu recompensa. Lo de anoche no fue la recompensa. Necesito que lo entiendas. Lo de anoche fue aparte.
+@@ marina-0125
+La recompensa es que vengas a todas las Mareas a partir de ahora. Innegociable. No sonrías, es un castigo.
+@@ marina-0126
+Bueno. ¿Les cuentas tú cómo nos conocimos, o lo cuento yo?
+@@ marina-0127
+Le dices que lo cuente ella.
+@@ marina-0128
+Voy a hacer que parezcas muy valiente. Y muy mojado.
+@@ marina-0129
+Una ola salta el muelle
+@@ marina-0130
+Sus hermanas empiezan a mirar
+@@ marina-0131
+La marea cambia
+@@ marina-0132
+Pleamar
+@@ marina-0133
+Se limpian las dos filas más cercanas a la superficie y todo sube dos filas.

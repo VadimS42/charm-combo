@@ -1,6 +1,7 @@
 # Translating Charm Combo
 
-The game has English, Simplified Chinese (`zh_CN`) and Russian (`ru`). Players
+The game has English, Simplified Chinese (`zh_CN`), Russian (`ru`), Japanese
+(`ja`), Spanish (`es`), Brazilian Portuguese (`pt_BR`) and German (`de`). Players
 pick a language on first launch, and can change it in Settings. Voices stay in
 English; only the text changes. Anything without a translation shows in English.
 
@@ -16,8 +17,8 @@ English; only the text changes. Anything without a translation shows in English.
    keep the `@@` lines, `%d` and `%s` as they are. Paste a file whole, ask for it
    back whole.
 3. **Import**: save the translated files anywhere, then
-   `python3 tools/i18n/import_txt.py ru <files...>` (or `zh_CN`). It merges them
-   into `translations/ru.po` / `translations/zh_CN.po`, keeps what's already
+   `python3 tools/i18n/import_txt.py ru <files...>` (or `zh_CN`, `ja`, `es`,
+   `pt_BR`, `de`). It merges them into `translations/<locale>.po`, keeps what's already
    there, and lists anything it skipped (an unknown `@@` key, or a line whose
    `%d` / `%s` don't match the English).
 4. Open the project in Godot (or rebuild): that's it.
@@ -34,3 +35,19 @@ longer matches: export, translate the changed lines, import.
 Chinese uses the bundled `assets/fonts/CharmComboCJK.otf`, a subset of Noto Sans
 CJK SC covering the 7,000-odd GB2312 characters (rare characters outside it fall
 back to the system font on Windows).
+
+Japanese uses the bundled `assets/fonts/CharmComboJP.otf` (a subset of Noto Sans
+JP). When the language is Japanese the game puts it ahead of the Chinese font,
+so shared characters get Japanese glyph shapes; in Chinese it's the other way
+round (`UITheme.install_fonts()`).
+
+## Machine drafts: please get them checked
+
+Japanese, Spanish, Brazilian Portuguese and German (round 49) are **drafts made
+with Claude, not by native speakers.** They are complete (every line, the
+interface and all four stories) and keep the girls' voices, but a native
+speaker should read them before release, the story files especially. The
+translator's copy is `translations/txt/<locale>/`: edit those files, then
+import them again (step 3 above). Names stay in English letters in Spanish,
+Portuguese and German; Japanese uses アマラ・ダスクローズ, マリーナ・ウェイヴァリー,
+オパール, ヘイゼル・モスグローヴ and ミルブルック.

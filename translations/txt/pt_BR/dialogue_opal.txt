@@ -1,0 +1,239 @@
+# Opal — Português (Brasil) (rascunho, round 49)
+@@ opal-0001
+Opal
+@@ opal-0002
+Gosma, ex-moradora de um pote
+@@ opal-0003
+"Eu estava bem. Era quieto lá dentro."
+@@ opal-0004
+Uuh. Isso vai pra... desculpa.
+@@ opal-0005
+Cristal. Esse eu guardaria.
+@@ opal-0006
+Isso pega a luz. Mais um.
+@@ opal-0007
+Transparente de ponta a ponta. Que nem eu.
+@@ opal-0008
+Isso foi muito bonito. Obrigada.
+@@ opal-0009
+Runas. Que nem nos potes dos alquimistas.
+@@ opal-0010
+Não gosto dessas. Desculpa.
+@@ opal-0011
+A gente pode não fazer isso? Por favor?
+@@ opal-0012
+Runas deixam minhas bordas efervescentes.
+@@ opal-0013
+Você tá indo bem. Tô contando.
+@@ opal-0014
+Desculpa. Tô olhando. Tudo bem?
+@@ opal-0015
+Aqui fora é barulhento. Você é o barulho do tipo bom.
+@@ opal-0016
+Se você deixar cair alguma coisa, eu acho.
+@@ opal-0017
+Você cantarola quando pensa. É bonito.
+@@ opal-0018
+Tô meio rosa agora. Ignora.
+@@ opal-0019
+I-isso foi bom. Isso foi muito bom.
+@@ opal-0020
+Bola de gude antiga
+@@ opal-0021
+Uma bola de gude de vidro com uma fita dourada torcida por dentro, do tipo que ninguém fabrica há décadas.
+@@ opal-0022
+Ela segura a bola de gude diante do olho e depois a pressiona de leve na própria palma. Ela afunda e fica flutuando ali, dentro da mão dela, onde ela pode ver.
+@@ opal-0023
+Redemoinho dourado. Pararam de fazer essas antes de eu entrar no pote. Onde você achou isso?
+@@ opal-0024
+Ela fica rosa, o que, na Opal, é muito fácil de ver.
+@@ opal-0025
+N-não vai pra prateleira. Fica comigo. Aqui dentro. Tudo bem?
+@@ opal-0026
+O bosque ao norte de Millbrook, fim do outono. Você saiu pra juntar lenha e qualquer coisa que dê pra vender, e seguiu o riacho mais pra dentro do que pretendia.
+@@ opal-0027
+Entre as raízes de um carvalho velho, alguém cavou um buraquinho e forrou de musgo. Dentro há um pote de vidro grande, lacrado com cera. O rótulo diz SALAMANDRAS EM CONSERVA, NÃO ABRA, numa letra que tenta ser engraçada.
+@@ opal-0028
+Salamandras em conserva normalmente não têm uma data escrita a lápis na cera: dois de janeiro. Você abre mesmo assim.
+@@ opal-0029
+Algo escorre pela borda, lento e brilhante, lilás-claro com lampejos de verde e rosa. Você pula pra trás tão rápido que chuta metade do buraco no riacho. A coisa se junta numa raiz em forma de mulher, e ela não parece feliz.
+@@ opal-0030
+Por que você faria isso?
+@@ opal-0031
+Você observa que o rótulo dizia salamandras.
+@@ opal-0032
+Eu estava bem. Era quieto lá dentro.
+@@ opal-0033
+O Ambrose escreveu esse rótulo. Ele era o guarda-florestal. Quando os alquimistas vieram comprando gosmas, ele me escondeu aqui. Funcionou por trinta e um anos.
+@@ opal-0034
+Ele batia no vidro duas vezes toda manhã pra eu saber que era ele.
+@@ opal-0035
+Ela olha além de você, pro buraco: pro musgo amassado em fileirinhas arrumadas onde algo costumava estar, e pro riacho correndo rápido e marrom.
+@@ opal-0036
+Cadê minhas coisas? Estavam aqui. Em fileiras. E-eu deixava em fileiras.
+@@ opal-0037
+Você conta pra ela. O riacho já levou quase tudo depois da curva, rumo à cidade.
+@@ opal-0038
+São minhas. E-eu coleciono há anos.
+@@ opal-0039
+Quatrocentos e doze botões. Vinte e seis chaves. Um olho de vidro. Todo mundo que passa por este bosque deixa cair alguma coisa, e eu guardava.
+@@ opal-0040
+Me desculpa mesmo. Vou recuperar cada um deles.
+@@ opal-0041
+Cada um? São quatrocentos e doze botões.
+@@ opal-0042
+Ela fica levemente rosa de ponta a ponta, como uma gota de corante num copo d'água.
+@@ opal-0043
+Tá. O riacho sai embaixo da Ponte do Moinho, na cidade. As coisas param lá. As pessoas pegam.
+@@ opal-0044
+Em minha defesa, o rótulo dizia salamandras.
+@@ opal-0045
+Era uma piada. Ele ria dela toda manhã, por trinta e um anos.
+@@ opal-0046
+O riacho vai pra cidade. A gente vai. Você me carrega! Por favor?
+@@ opal-0047
+O riacho sai embaixo da Ponte do Moinho, onde o Coombs, o ferro-velho, pesca tudo que boia. Você chega antes dela e vende pra ele um punhado de botões da margem por duas moedas de cobre antes de perceber de quem são. Ele já pescou o resto também. Comprar tudo de volta custa seis moedas de cobre, o que ele acha muito engraçado.
+@@ opal-0048
+Ela vai num pote de vidro grande nos seus braços, sem tampa, e conta cada botão que você joga dentro.
+@@ opal-0049
+O-obrigada. Desculpa. Obrigada.
+@@ opal-0050
+Esse é meu favorito. Latão, quatro furos, de um casaco muito bonito. Você também tem um... casaco muito bonito.
+@@ opal-0051
+Ele diz que as chaves foram pra um chaveiro. E o olho de vidro foi pra alguém que precisava de um olho de vidro, imagino.
+@@ opal-0052
+Me fala dos outros enquanto a gente procura.
+@@ opal-0053
+Você quer ouvir sobre botões?
+@@ opal-0054
+Você diz que sim. Ela fala por uma hora sem gaguejar nenhuma vez.
+@@ opal-0055
+Desculpa. Normalmente não tenho pra quem contar.
+@@ opal-0056
+Quatrocentos botões são muitos botões de estranhos.
+@@ opal-0057
+Não são estranhos. Eu ouvi cada um deles passar. De dentro do pote.
+@@ opal-0058
+Falando em voz alta parece esquisito. Não responde.
+@@ opal-0059
+O chaveiro da Rua Cinder está com as chaves dela num balde e quer um xelim por todas. Enquanto você pechincha, ela fica bem quietinha no pote embaixo do balcão.
+@@ opal-0060
+Na volta, há um aviso pregado na Ponte do Moinho. A cidade vendeu o bosque do norte pra um alquimista, pra oficina dele. O desmatamento começa no dia do trimestre.
+@@ opal-0061
+Os alquimistas fervem gosmas pra fazer cola. Sabia? Doze xelins a libra.
+@@ opal-0062
+Foi por isso que o Ambrose me pôs no pote. Ninguém olha dentro de um pote de salamandras em conserva. A gente tinha mais ou menos a mesma idade quando ele fez isso. Ele envelheceu.
+@@ opal-0063
+Eles começam a desmatar no dia do trimestre. Depois disso eu preciso de outro lugar quieto.
+@@ opal-0064
+Você pode ficar comigo. Minha casa é quieta.
+@@ opal-0065
+C-com você? Onde é que eu ia...
+@@ opal-0066
+Eu ia querer meu próprio pote. Só no começo. É esquisito?
+@@ opal-0067
+Então a gente garante que ninguém vai ferver ninguém.
+@@ opal-0068
+Contra um alquimista? Você vendeu meus botões por duas moedas de cobre e comprou de volta por seis.
+@@ opal-0069
+Mas ela está um pouco mais rosa do que antes.
+@@ opal-0070
+Eu até que queria ver isso.
+@@ opal-0071
+O olho de vidro aparece na vitrine do taxidermista da Rua da Lanterna, numa coruja empalhada. O taxidermista não quer vender. Diz que a coruja precisa dele.
+@@ opal-0072
+Então ela sai do pote no meio da loja, na frente de todo mundo, e pede ela mesma.
+@@ opal-0073
+C-com licença. Esse é meu olho. Quer dizer... É da minha coleção. Queria ele de volta, por favor.
+@@ opal-0074
+O taxidermista leva um susto tão grande que dá a ela o olho, a coruja e um desconto numa segunda coruja.
+@@ opal-0075
+Eu fiz isso. Você viu? Eu fiz isso em voz alta.
+@@ opal-0076
+Não me põe de volta no pote ainda. Quero ir pra casa sozinha. Bom. Não andando. Você entendeu.
+@@ opal-0077
+Você foi incrível.
+@@ opal-0078
+Para. Vou ficar turva.
+@@ opal-0079
+Ela fica turva.
+@@ opal-0080
+Você pode segurar minha mão. Se não se importar que ela seja meio... molhada.
+@@ opal-0081
+A gente vai levar a segunda coruja, né?
+@@ opal-0082
+É óbvio que a gente vai levar a segunda coruja.
+@@ opal-0083
+Elas são um par. Não vou separar um par.
+@@ opal-0084
+Quatrocentos e doze botões, vinte e seis chaves, um olho de vidro e duas corujas. Os homens do alquimista já estão derrubando o bosque do norte, então a Opal está morando com você, e a coleção dela ocupa uma prateleira inteira da sua sala. Ela reorganiza tudo duas vezes.
+@@ opal-0085
+Tá tudo aqui. Tudo. Contei três vezes.
+@@ opal-0086
+O pote dela fica no fim da prateleira, sem tampa. Faz três dias que ela não entra nele.
+@@ opal-0087
+Preciso te contar uma coisa. Eu guardei uma coisa sua. No primeiro dia.
+@@ opal-0088
+Ela estende um botão. É seu. Caiu da sua manga quando você enfiou a mão no buraco pra pegar o pote dela, e você nunca percebeu.
+@@ opal-0089
+É a primeira peça de uma coleção nova. Coisas que são suas.
+@@ opal-0090
+P-posso dormir no seu quarto hoje? Não no pote. Com você.
+@@ opal-0091
+Você pode... diminuir um pouco a lamparina?
+@@ opal-0092
+Você diminui a lamparina.
+@@ opal-0093
+Com a lamparina baixa, a única luz do seu quarto vem dela: um brilho lilás suave que fica mais forte onde você toca.
+@@ opal-0094
+Ah. Eu não sabia que fazia isso. Que vergonha. Faz de novo.
+@@ opal-0095
+Eu devia te dizer que não sei o que tô fazendo. Só ouvi falar disso. Através do vidro. As pessoas falam muita coisa numa trilha no bosque quando acham que ninguém tá ouvindo.
+@@ opal-0096
+Principalmente casais que achavam que tinham achado um cantinho reservado. Então eu sei muita coisa sobre... você sabe.
+@@ opal-0097
+Você ri. Ela fica rosa de ponta a ponta, e depois ri também.
+@@ opal-0098
+Ela pega sua mão e a pressiona de leve contra si. Ela afunda um pouco, fresca e macia, e ela estremece.
+@@ opal-0099
+T-tudo bem assim? Me diz se for esquisito. Pode dizer que é esquisito.
+@@ opal-0100
+Você diz que não é esquisito. Ela te puxa pra mais perto e, pela primeira vez, não pede desculpa por nada.
+@@ opal-0101
+Depois ela está espalhada pela maior parte da cama e por parte de você, brilhando de leve, cantarolando algo que o Ambrose costumava assobiar.
+@@ opal-0102
+O-obrigada. Desculpa. Não. Desculpa não. Obrigada.
+@@ opal-0103
+O pote fica vazio a noite toda.
+@@ opal-0104
+Um lugar quieto
+@@ opal-0105
+A Opal se muda de vez. A coleção dela ganha uma segunda prateleira, depois uma terceira: coisas que você deixou cair, coisas que seus amigos deixaram cair, o ingresso da primeira noite de vocês juntos. O pote mora embaixo da cama. Ela usa duas vezes naquele ano, as duas em tempestades, e nas duas vezes você senta no chão ao lado enquanto ela te conta, através do vidro, quais vizinhos devem dinheiro uns aos outros. Ela sai sozinha antes de a tempestade acabar.
+@@ opal-0106
+Algo fresco e um pouco pesado está estendido sobre você como um cobertor. Acaba que é ela.
+@@ opal-0107
+Desculpa. Eu me espalho dormindo. Não sabia disso. Nunca dormi num lugar grande o bastante pra descobrir.
+@@ opal-0108
+Ontem à noite foi a melhor coisa que me aconteceu em trinta e um anos. Talvez... na vida.
+@@ opal-0109
+Eu queria fazer de novo. Pode falar isso, né? Ótimo. Eu queria fazer de novo.
+@@ opal-0110
+Luz da manhã pelas cortinas do quarto, e alguém translúcido e lilás enrolado sobre as cobertas.
+@@ opal-0111
+Ela sai sozinha pela primeira vez pra comprar pão. Fica fora vinte minutos. Vocês dois fingem que não estavam preocupados.
+@@ opal-0112
+Opal no balcão da padaria, um pão debaixo do braço e um botão perdido na mão.
+@@ opal-0113
+O pote... Eu devo guardar?
+@@ opal-0114
+Você diz pra ela guardar. Pras tempestades.
+@@ opal-0115
+Uma brisa fria
+@@ opal-0116
+Espinhos no caminho
+@@ opal-0117
+Uma coruja a assusta
+@@ opal-0118
+Absorver
+@@ opal-0119
+Escolha uma gema: todas as gemas dessa cor são limpas.

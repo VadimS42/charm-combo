@@ -1,0 +1,239 @@
+# Opal — Deutsch (Entwurf, round 49)
+@@ opal-0001
+Opal
+@@ opal-0002
+Schleim, ehemals aus einem Glas
+@@ opal-0003
+„Mir ging's gut. Es war ruhig da drin.“
+@@ opal-0004
+Ooh. Das kommt in die... Entschuldigung.
+@@ opal-0005
+Kristall. Den würde ich behalten.
+@@ opal-0006
+Der fängt das Licht ein. Noch einen.
+@@ opal-0007
+Durch und durch klar. Wie ich.
+@@ opal-0008
+Das war sehr schön. Danke.
+@@ opal-0009
+Runen. Wie auf den Gläsern der Alchemisten.
+@@ opal-0010
+Die mag ich nicht. Entschuldigung.
+@@ opal-0011
+Können wir das lassen? Bitte?
+@@ opal-0012
+Bei Runen fangen meine Ränder an zu sprudeln.
+@@ opal-0013
+Du machst das gut. Ich zähle mit.
+@@ opal-0014
+Entschuldigung. Ich schaue zu. Ist das in Ordnung?
+@@ opal-0015
+Hier draußen ist es laut. Du bist die gute Sorte laut.
+@@ opal-0016
+Wenn du was fallen lässt, finde ich es.
+@@ opal-0017
+Du summst, wenn du nachdenkst. Das ist schön.
+@@ opal-0018
+Ich bin gerade ein bisschen rosa. Ignorier das.
+@@ opal-0019
+D-das war gut. Das war richtig gut.
+@@ opal-0020
+Alte Glasmurmel
+@@ opal-0021
+Eine Glasmurmel mit einem goldenen Band darin, von der Sorte, die seit Jahrzehnten niemand mehr herstellt.
+@@ opal-0022
+Sie hält die Murmel vors Auge und drückt sie dann sanft in ihre eigene Handfläche. Sie sinkt hinein und schwebt dort, in ihrer Hand, wo sie sie sehen kann.
+@@ opal-0023
+Goldwirbel. Die haben sie nicht mehr gemacht, schon bevor ich ins Glas kam. Wo hast du die überhaupt gefunden?
+@@ opal-0024
+Sie wird rosa, was man bei Opal sehr leicht sieht.
+@@ opal-0025
+D-die kommt nicht aufs Regal. Die bleibt bei mir. Hier drin. Ist das in Ordnung?
+@@ opal-0026
+Die Wälder nördlich von Millbrook, Spätherbst. Du sammelst Feuerholz und alles, was sich verkaufen lässt, und bist dem Bach weiter hinein gefolgt, als du wolltest.
+@@ opal-0027
+Zwischen den Wurzeln einer alten Eiche hat jemand eine kleine Mulde gegraben und mit Moos ausgelegt. Darin steht ein großes Glas, mit Wachs versiegelt. Auf dem Etikett steht EINGELEGTE MOLCHE, NICHT ÖFFNEN, in einer Handschrift, die witzig sein will.
+@@ opal-0028
+Eingelegte Molche haben normalerweise kein Datum mit Bleistift aufs Wachs geschrieben: der zweite Januar. Du öffnest es trotzdem.
+@@ opal-0029
+Etwas fließt über den Rand, langsam und schimmernd, blasslila mit grünen und rosa Lichtblitzen darin. Du springst so schnell zurück, dass du die halbe Mulde in den Bach trittst. Es sammelt sich auf einer Wurzel zur Gestalt einer Frau, und sie sieht nicht glücklich aus.
+@@ opal-0030
+Warum würdest du das tun?
+@@ opal-0031
+Du weist darauf hin, dass auf dem Etikett Molche stand.
+@@ opal-0032
+Mir ging's gut. Es war ruhig da drin.
+@@ opal-0033
+Ambrose hat das Etikett geschrieben. Er war der Förster. Als die Alchemisten herumkamen und Schleime aufkauften, hat er mich hier draußen versteckt. Das hat einunddreißig Jahre lang funktioniert.
+@@ opal-0034
+Er hat jeden Morgen zweimal ans Glas geklopft, damit ich weiß, dass er es ist.
+@@ opal-0035
+Sie schaut an dir vorbei auf die Mulde: auf das Moos, in ordentlichen kleinen Reihen plattgedrückt, wo einmal etwas ausgelegt war, und auf den Bach, der schnell und braun fließt.
+@@ opal-0036
+Wo sind meine Sachen? Die waren hier. In Reihen. I-ich hatte sie in Reihen.
+@@ opal-0037
+Du sagst es ihr. Der Bach hat das meiste schon um die Biegung getragen, Richtung Stadt.
+@@ opal-0038
+Die gehören mir. I-ich sammle sie seit Jahren.
+@@ opal-0039
+Vierhundertzwölf Knöpfe. Sechsundzwanzig Schlüssel. Ein Glasauge. Jeder, der durch diese Wälder kommt, verliert etwas, und ich hab es behalten.
+@@ opal-0040
+Es tut mir so leid. Ich hole dir jedes einzelne zurück.
+@@ opal-0041
+Jedes einzelne? Das sind vierhundertzwölf Knöpfe.
+@@ opal-0042
+Sie wird ganz leicht rosa, durch und durch, wie ein Tropfen Farbe in einem Glas Wasser.
+@@ opal-0043
+Okay. Der Bach kommt in der Stadt unter der Mühlenbrücke raus. Da wird Zeug angeschwemmt. Leute heben es auf.
+@@ opal-0044
+Zu meiner Verteidigung: Auf dem Etikett stand Molche.
+@@ opal-0045
+Das war ein Witz. Er hat einunddreißig Jahre lang jeden Morgen darüber gelacht.
+@@ opal-0046
+Der Bach fließt in die Stadt. Wir gehen hin. Du trägst mich! Bitte?
+@@ opal-0047
+Der Bach kommt unter der Mühlenbrücke heraus, wo Coombs der Lumpensammler nach allem fischt, was treibt. Du kommst vor ihr an und verkaufst ihm eine Handvoll Knöpfe vom Ufer für zwei Kupfermünzen, bevor dir klar wird, wem sie gehören. Den Rest hat er auch schon im Netz. Alles zurückzukaufen kostet sechs Kupfermünzen, was er sehr lustig findet.
+@@ opal-0048
+Sie fährt in einem großen Glas ohne Deckel in deinen Armen mit und zählt jeden Knopf, den du hineinfallen lässt.
+@@ opal-0049
+D-danke. Entschuldigung. Danke.
+@@ opal-0050
+Das ist mein Lieblingsknopf. Messing, vier Löcher, von einem sehr hübschen Mantel. Du hast auch einen sehr hübschen... Mantel.
+@@ opal-0051
+Die Schlüssel sind an einen Schlosser gegangen, sagt er. Und das Glasauge an jemanden, der ein Glasauge brauchte, nehme ich an.
+@@ opal-0052
+Erzähl mir von den anderen, während wir suchen.
+@@ opal-0053
+Du willst was über Knöpfe hören?
+@@ opal-0054
+Du sagst ja. Sie redet eine Stunde lang, ohne ein einziges Mal zu stottern.
+@@ opal-0055
+Entschuldigung. Ich kann das sonst nie jemandem erzählen.
+@@ opal-0056
+Vierhundert Knöpfe sind eine Menge Knöpfe von Fremden.
+@@ opal-0057
+Das sind keine Fremden. Ich habe jeden von ihnen vorbeigehen hören. Aus dem Glas.
+@@ opal-0058
+Laut klingt das komisch. Antworte nicht darauf.
+@@ opal-0059
+Der Schlosser in der Cinder Row hat ihre Schlüssel in einem Eimer und will einen Schilling für alle. Während du feilschst, bleibt sie ganz still in ihrem Glas unter der Theke.
+@@ opal-0060
+Auf dem Rückweg hängt eine Bekanntmachung an der Mühlenbrücke. Die Stadt hat die Nordwälder an einen Alchemisten verkauft, für seine Werkstatt. Die Rodung beginnt am Quartalstag.
+@@ opal-0061
+Alchemisten kochen Schleime zu Leim ein. Wusstest du das? Zwölf Schilling das Pfund.
+@@ opal-0062
+Deshalb hat Ambrose mich ins Glas gesteckt. Niemand schaut in ein Glas mit eingelegten Molchen. Wir waren ungefähr gleich alt, als er das gemacht hat. Er ist alt geworden.
+@@ opal-0063
+Am Quartalstag fangen sie mit der Rodung an. Danach brauche ich einen anderen Ort, wo es ruhig ist.
+@@ opal-0064
+Du kannst bei mir bleiben. Bei mir ist es ruhig.
+@@ opal-0065
+B-bei dir? Wo würde ich denn überhaupt...
+@@ opal-0066
+Ich hätte gern mein eigenes Glas. Nur am Anfang. Ist das komisch?
+@@ opal-0067
+Dann sorgen wir dafür, dass niemand irgendwen einkocht.
+@@ opal-0068
+Gegen einen Alchemisten? Du hast meine Knöpfe für zwei Kupfermünzen verkauft und für sechs zurückgekauft.
+@@ opal-0069
+Aber sie ist ein bisschen rosaner als vorher.
+@@ opal-0070
+Das würde ich eigentlich gern sehen.
+@@ opal-0071
+Das Glasauge taucht im Schaufenster des Präparators in der Lantern Street auf, in einer ausgestopften Eule. Der Präparator will es nicht verkaufen. Er sagt, die Eule braucht es.
+@@ opal-0072
+Also klettert sie mitten im Laden aus ihrem Glas, vor allen Leuten, und fragt selbst danach.
+@@ opal-0073
+E-entschuldigung. Das ist mein Auge. Ich meine... Es gehört zu meiner Sammlung. Ich hätte es gern zurück, bitte.
+@@ opal-0074
+Der Präparator ist so erschrocken, dass er ihr das Auge gibt, die Eule und einen Rabatt auf eine zweite Eule.
+@@ opal-0075
+Das hab ich gemacht. Hast du gesehen? Ich hab das laut gemacht.
+@@ opal-0076
+Steck mich noch nicht zurück ins Glas. Ich will allein nach Hause. Na ja. Nicht laufen. Du weißt schon.
+@@ opal-0077
+Du warst unglaublich.
+@@ opal-0078
+Hör auf. Sonst werde ich trüb.
+@@ opal-0079
+Sie wird trüb.
+@@ opal-0080
+Du kannst meine Hand halten. Wenn es dich nicht stört, dass sie ein bisschen... nass ist.
+@@ opal-0081
+Wir nehmen die zweite Eule, oder?
+@@ opal-0082
+Natürlich nehmen wir die zweite Eule.
+@@ opal-0083
+Die sind ein Paar. Ich trenne kein Paar.
+@@ opal-0084
+Vierhundertzwölf Knöpfe, sechsundzwanzig Schlüssel, ein Glasauge und zwei Eulen. Die Männer des Alchemisten fällen jetzt die Nordwälder, also wohnt Opal bei dir, und ihre Sammlung nimmt ein ganzes Regal in deiner Stube ein. Sie ordnet sie zweimal um.
+@@ opal-0085
+Es ist alles da. Alles. Ich hab dreimal gezählt.
+@@ opal-0086
+Ihr Glas steht ohne Deckel am Ende des Regals. Sie war seit drei Tagen nicht mehr drin.
+@@ opal-0087
+Ich muss dir was sagen. Ich hab was von dir behalten. Am ersten Tag.
+@@ opal-0088
+Sie hält dir einen Knopf hin. Er gehört dir. Er ist von deinem Ärmel abgegangen, als du in die Mulde nach ihrem Glas gegriffen hast, und du hast es nie bemerkt.
+@@ opal-0089
+Das ist das erste Stück einer neuen Sammlung. Dinge, die dir gehören.
+@@ opal-0090
+D-darf ich heute Nacht in deinem Zimmer schlafen? Nicht im Glas. Bei dir.
+@@ opal-0091
+Kannst du... die Lampe ein bisschen runterdrehen?
+@@ opal-0092
+Du drehst die Lampe herunter.
+@@ opal-0093
+Mit gedämpfter Lampe kommt das einzige Licht in deinem Zimmer von ihr: ein sanftes lila Leuchten, das überall heller wird, wo du sie berührst.
+@@ opal-0094
+Oh. Ich wusste nicht, dass ich das mache. Das ist peinlich. Mach das noch mal.
+@@ opal-0095
+Ich sollte dir sagen, dass ich nicht weiß, was ich tue. Ich hab nur davon gehört. Durch Glas. Die Leute sagen eine Menge auf einem Waldweg, wenn sie denken, dass keiner zuhört.
+@@ opal-0096
+Meistens Pärchen, die dachten, sie hätten ein ungestörtes Plätzchen gefunden. Ich weiß also eine Menge über... du weißt schon.
+@@ opal-0097
+Du lachst. Sie wird durch und durch rosa, und dann lacht sie auch.
+@@ opal-0098
+Sie nimmt deine Hand und drückt sie sanft an sich. Sie sinkt ein wenig ein, kühl und weich, und sie erschauert.
+@@ opal-0099
+I-ist das in Ordnung? Sag mir, wenn es komisch ist. Du darfst sagen, dass es komisch ist.
+@@ opal-0100
+Du sagst ihr, dass es nicht komisch ist. Sie zieht dich näher, und ausnahmsweise entschuldigt sie sich für gar nichts.
+@@ opal-0101
+Danach liegt sie über den größten Teil des Bettes und einen Teil von dir ausgebreitet, leuchtet schwach und summt etwas, das Ambrose immer gepfiffen hat.
+@@ opal-0102
+D-danke. Entschuldigung. Nein. Keine Entschuldigung. Danke.
+@@ opal-0103
+Das Glas bleibt die ganze Nacht leer.
+@@ opal-0104
+Ein ruhiger Ort
+@@ opal-0105
+Opal zieht richtig ein. Ihre Sammlung bekommt ein zweites Regal, dann ein drittes: Dinge, die du verloren hast, Dinge, die deine Freunde verloren haben, die Eintrittskarte von eurem ersten gemeinsamen Abend. Das Glas wohnt unter dem Bett. Sie benutzt es in diesem Jahr zweimal, beide Male bei Gewitter, und beide Male sitzt du daneben auf dem Boden, während sie dir durchs Glas erzählt, welche Nachbarn einander Geld schulden. Sie klettert von allein heraus, bevor das Gewitter vorbei ist.
+@@ opal-0106
+Etwas Kühles, etwas Schweres liegt wie eine Decke über dir. Es stellt sich heraus, dass sie es ist.
+@@ opal-0107
+Entschuldigung. Ich breite mich im Schlaf aus. Das wusste ich nicht. Ich hab noch nie irgendwo geschlafen, wo genug Platz war, um das herauszufinden.
+@@ opal-0108
+Letzte Nacht war das Schönste, was mir in einunddreißig Jahren passiert ist. Vielleicht... überhaupt.
+@@ opal-0109
+Ich würde das gern wieder machen. Das darf man sagen, oder? Gut. Ich würde das gern wieder machen.
+@@ opal-0110
+Morgenlicht durch die Schlafzimmervorhänge, und jemand Durchscheinendes, Lilafarbenes zusammengerollt auf der Decke.
+@@ opal-0111
+Sie geht zum ersten Mal allein raus, um Brot zu kaufen. Sie ist zwanzig Minuten weg. Ihr tut beide so, als hättet ihr euch keine Sorgen gemacht.
+@@ opal-0112
+Opal an der Bäckertheke, einen Laib unter dem Arm und einen verirrten Knopf in der Hand.
+@@ opal-0113
+Das Glas... Soll ich es behalten?
+@@ opal-0114
+Du sagst ihr, sie soll es behalten. Für Gewitter.
+@@ opal-0115
+Eine kalte Brise
+@@ opal-0116
+Dornen unter den Füßen
+@@ opal-0117
+Eine Eule erschreckt sie
+@@ opal-0118
+Absorbieren
+@@ opal-0119
+Wähle einen Edelstein: Alle Edelsteine dieser Farbe werden geräumt.

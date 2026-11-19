@@ -1,0 +1,269 @@
+# Amara — Deutsch (Entwurf, round 49)
+@@ amara-0001
+Amara Duskrose
+@@ amara-0002
+Sukkubus, versehentlich beschworen
+@@ amara-0003
+„Du hast mich mit diesem armseligen Kreidekreis beschworen?“
+@@ amara-0004
+Runen. Endlich jemand in dieser Stadt, der zeichnen kann.
+@@ amara-0005
+Saubere Linien. Ich bin fast stolz auf dich.
+@@ amara-0006
+Der würde tatsächlich einen Dämon halten.
+@@ amara-0007
+Mach das noch mal. Langsamer.
+@@ amara-0008
+Siehst du? Geschlossene Ringe. So schwer ist das nicht.
+@@ amara-0009
+Das ist mal ein Kreis, aus dem ich gern heraustreten würde.
+@@ amara-0010
+Mondstein. Riecht nach Kirche.
+@@ amara-0011
+Nicht. Einfach nicht.
+@@ amara-0012
+Den hat jemand an einem Marktstand gekauft. Das merke ich.
+@@ amara-0013
+Mondgefasel. Weiter.
+@@ amara-0014
+Nimm diesen heiligen Stein weg von mir.
+@@ amara-0015
+Das Buch ist in diesem Gebäude. Mach weiter.
+@@ amara-0016
+Du bist schneller, als du aussiehst. Du siehst ziemlich langsam aus.
+@@ amara-0017
+Mich haben schon Könige beschworen. Die waren schlechter darin.
+@@ amara-0018
+Augen aufs Spielfeld. Ich bin noch da.
+@@ amara-0019
+Wenn du es vor mir findest, schlag es nicht auf.
+@@ amara-0020
+Pass auf die Kerze auf.
+@@ amara-0021
+Handgezogene Bienenwachskerze
+@@ amara-0022
+Eine hohe Bienenwachskerze mit Neun-Stunden-Docht. Sie brennt länger, wenn niemand sie ausbläst.
+@@ amara-0023
+Sie dreht die Kerze in den Händen und schnuppert am Wachs, was offenbar die fachgerechte Prüfung ist.
+@@ amara-0024
+Neun-Stunden-Docht. Handgezogen. Du weißt, wofür die ist, oder?
+@@ amara-0025
+Sie stellt sie neben den Stummel in deinem Kreidekreis und zündet sie an der alten Flamme an, bevor die erlöschen kann.
+@@ amara-0026
+Das sind neun Stunden mehr, in denen du mich nicht loswirst. Das hast du mit Absicht gemacht.
+@@ amara-0027
+Du bist seit drei Wochen in Millbrook und nimmst jede Arbeit, die etwas bringt. Heute Nacht ist das die Spätschicht in der Stadtbibliothek. Es ist Viertel nach zwölf, die Gaslampen sind seit einer Stunde aus, der Rückgabewagen ist noch voll, und du hast mit Kinderkreide einen Kreis auf den Boden des Lesesaals gezeichnet.
+@@ amara-0028
+Du hast ihn von einer losen Seite abgezeichnet, die aus einem zurückgegebenen Buch gefallen ist. Er sah hübsch aus. In die Mitte hast du einen Kerzenstummel gestellt, weil es so aussah, als wollte er eine Kerze.
+@@ amara-0029
+Die Flamme neigt sich zur Seite. Dann wird sie grün. Rauch füllt den Kreis, er riecht nach angerissenen Streichhölzern und teurem Parfüm, und jemand tritt hustend heraus.
+@@ amara-0030
+Du hast mich mit diesem armseligen Kreidekreis beschworen? Wo hast du den überhaupt abgezeichnet? Ugh, ich war gerade mitten in etwas.
+@@ amara-0031
+Sie ist groß, gehörnt und für einen viel feineren Ort als eine Bibliothek gekleidet. Sie hockt sich hin, betrachtet deinen Kreis und schnalzt missbilligend.
+@@ amara-0032
+Dein zweiter Ring ist nicht geschlossen. Das Siegel steht auf dem Kopf. Und das hier ist gar kein Siegel, das ist ein Kaffeefleck, den du nachgezogen hast.
+@@ amara-0033
+Nun ja. Es hat funktioniert, was auf seine Art beleidigend ist. Also los. Frag.
+@@ amara-0034
+Du fragst, was sie meint.
+@@ amara-0035
+Was du willst. Gold. Rache. Und früher oder später Sex. Darauf läuft es immer hinaus.
+@@ amara-0036
+Du bittest um nichts davon. Du fragst, ob es ihr gut geht, weil sie hustend aus dem Rauch kam.
+@@ amara-0037
+Das ist die Kreide. Billige Kreide geht auf den Hals.
+@@ amara-0038
+Dann bemerkt sie die lose Seite auf deinem Schreibtisch, die, von der du abgezeichnet hast, und erstarrt.
+@@ amara-0039
+Woher hast du das.
+@@ amara-0040
+Du erzählst, dass sie aus einem zurückgegebenen Buch gefallen ist und du nicht nachgesehen hast, aus welchem. Du gehst einen Schritt zum Schreibtisch, um es ihr zu zeigen.
+@@ amara-0041
+Bleib, wo du bist. Unterbrich den Kreis nicht. Wenn die Kerze ausgeht, gehe ich nach Hause, und ich bin noch nicht fertig mit dir.
+@@ amara-0042
+Sie steigt selbst über die Kreidelinie, vorsichtig, um sie nicht zu verwischen, und hebt die Seite auf. Dir wird klar, dass du sie anstarrst.
+@@ amara-0043
+Vorsicht. Wenn du mich weiter so anstarrst, denke ich noch, du hättest mich absichtlich beschworen.
+@@ amara-0044
+Diese Seite stammt aus meiner Bindung. Dem Buch, das mich an jeden Kreis fesselt, den irgendwer zeichnet, egal wie schlecht. Finde alle Seiten, verbrenn sie, und ich bin frei.
+@@ amara-0045
+Es ist irgendwo in diesem Gebäude. Ich spüre es, wie einen Luftzug. Du wirst mir helfen, es zu finden, bevor es jemand anderes tut.
+@@ amara-0046
+Natürlich helfe ich. Wie sieht es aus?
+@@ amara-0047
+Du hast nicht gefragt, was du davon hast.
+@@ amara-0048
+Sie kneift die Augen zusammen und sucht den Haken. Es gibt keinen.
+@@ amara-0049
+Schwarzer Einband. Kein Titel. Es fühlt sich warm an. Schlag es nicht auf.
+@@ amara-0050
+Klar. Nachdem ich die Rückgaben einsortiert habe.
+@@ amara-0051
+Ich habe Königreiche zerstört, und du lässt mich warten?!
+@@ amara-0052
+Trotzdem nimmt sie einen Stapel Bücher und fragt, wo die Lyrik hingehört.
+@@ amara-0053
+Schneller. Und alphabetisier ordentlich. Ich habe deinen Kreis gesehen.
+@@ amara-0054
+Um zwei Uhr morgens habt ihr jedes Buch geprüft, das diesen Monat zurückgegeben wurde. Kein schwarzer Einband. Ein sehr überfälliges Kochbuch, das sie aufschlägt, eine Seite liest und angewidert zuklappt.
+@@ amara-0055
+Es war hier. Jemand hat es weggebracht, und das ist noch nicht lange her.
+@@ amara-0056
+Und du hast mich immer noch um nichts gebeten.
+@@ amara-0057
+Meiner Erfahrung nach wollen die, die nicht fragen, etwas Schlimmeres. Also. Was ist es?
+@@ amara-0058
+Dein Name wäre nett.
+@@ amara-0059
+Amara. Den benutze ich. Der echte steht im Buch, zusammen mit allem anderen, was mich an der Leine hält.
+@@ amara-0060
+Du sprichst ihn nach. Sie hört zu, als würde sie deine Aussprache prüfen.
+@@ amara-0061
+Nah genug dran. Du darfst ihn weiter benutzen.
+@@ amara-0062
+Vielleicht spare ich meinen Wunsch für etwas Gutes auf.
+@@ amara-0063
+Klug. Unverbrauchte Wünsche verfallen nicht. Ich kannte einen Mann, der auf einem saß, bis er starb.
+@@ amara-0064
+Dann spar ihn. Ich werde dich sehr genau beobachten, bis du ihn ausgibst.
+@@ amara-0065
+Im Zettelkatalog klafft eine Lücke, wo das Buch sein sollte. Stattdessen liegt ein Zettel in der Schublade: ZUM NEUBINDEN AUSGELIEHEN, und ein Name.
+@@ amara-0066
+Jemand in dieser Stadt weiß genau, was dieses Buch ist.
+@@ amara-0067
+Sie setzt sich auf den Lesetisch, worum du sie schon zweimal gebeten hast, es nicht zu tun, und rückt die Kerze, damit sie nicht auf die Rückgaben tropft.
+@@ amara-0068
+Hör auf, so zu tun, als würdest du das Buch suchen. Du bist heute Nacht elfmal an diesem Tisch vorbeigelaufen, und das Buch liegt nicht darauf. Ich schon.
+@@ amara-0069
+Komm her. Das ist ein Befehl, und ich gebe ihn nur einmal, bevor ich rüberkomme und dich hole.
+@@ amara-0070
+Du bist das Beste, was ich in dieser Bibliothek gefunden habe.
+@@ amara-0071
+Schmeichelei. Gut. Weiter.
+@@ amara-0072
+Sie hakt einen Fuß um deinen Knöchel und zieht dich den letzten Schritt heran.
+@@ amara-0073
+Jetzt können wir beide aufhören, so zu tun, als wärst du rübergekommen, um über Bücher zu reden.
+@@ amara-0074
+Zwing mich doch.
+@@ amara-0075
+Oh, das habe ich vor.
+@@ amara-0076
+Sie hakt einen Finger in deinen Kragen und zieht dich herunter, bis ihr euch über dem Lesetisch Nase an Nase gegenübersteht.
+@@ amara-0077
+So. Und jetzt sieh mir in die Augen und sag mir, dass du lieber Bücher einsortieren würdest.
+@@ amara-0078
+Die Kerze lässt sie nicht zurück. Sie trägt sie mit beiden Händen geschützt bis in die Dochtgasse und lässt dich auf der windigen Seite gehen.
+@@ amara-0079
+Der Name auf dem Zettel gehört einem Buchbinder, der im Frühjahr gestorben ist. Seine Werkstatt ist noch voller loser Seiten.
+@@ amara-0080
+Hinten, unter einem Staubtuch, findet ihr einen schwarzen Einband, in dem nichts mehr ist. Die Seiten wurden mit einem Messer herausgeschnitten.
+@@ amara-0081
+Er hat es zerlegt. Um es Seite für Seite zu verkaufen.
+@@ amara-0082
+Jede dieser Seiten ist Teil meiner Bindung. Jemand hat sie gekauft.
+@@ amara-0083
+Du könntest eine behalten, weißt du. Nur eine Seite. Ich könnte dir nichts mehr abschlagen.
+@@ amara-0084
+Wenn ich eine finde, verbrenne ich sie.
+@@ amara-0085
+Du würdest sie verbrennen.
+@@ amara-0086
+Sie nimmt die Kerze, damit ihre Hände etwas zu tun haben.
+@@ amara-0087
+Dann sollten wir sie lieber finden, bevor es jemand anderes tut.
+@@ amara-0088
+Verlockend. Du müsstest meine Bücher einsortieren.
+@@ amara-0089
+Ich würde es schlecht machen. Aus Trotz.
+@@ amara-0090
+Komm. Buchbinder führen Bücher. Wenn er sie verkauft hat, hat er aufgeschrieben, an wen.
+@@ amara-0091
+Das Kassenbuch führt euch geradewegs zurück in deine eigene Bibliothek. Die letzten Seiten wurden ihr im März als lose Blätter, gemischt, verkauft und im Tresor für seltene Bücher unter „Verschiedenes, höllisch“ abgelegt.
+@@ amara-0092
+Um vier Uhr morgens verbrennt sie sie im Kamin des Lesesaals, eine nach der anderen. Jede geht grün in Flammen auf. Die lose Seite von deinem Schreibtisch kommt zuletzt: Sie reißt ihren Namen aus der Ecke und verbrennt nur den.
+@@ amara-0093
+Das waren alle. Ich bin frei. Keine Kreise mehr. Niemand kann mich je wieder irgendwohin zerren.
+@@ amara-0094
+Die Kerze in deinem Kreidekreis, die vierte diese Woche, ist fast heruntergebrannt. Sie sieht zu, wie sie flackert, und geht nirgendwohin.
+@@ amara-0095
+Die meisten Beschwörungen enden in dem Moment, in dem jemand bekommt, worum er gebeten hat. Du hast um nichts gebeten. Also... bin ich geblieben.
+@@ amara-0096
+Immer noch nichts?
+@@ amara-0097
+Du schüttelst den Kopf.
+@@ amara-0098
+Dann frage ich. Mach die Tür zum Lesesaal zu. Lass die Kerze brennen.
+@@ amara-0099
+Du machst die Tür zu.
+@@ amara-0100
+Der Lesesaal bei geschlossener Tür. Das einzige Licht ist die Kerze in deinem Kreidekreis, und sie sitzt schon wieder auf dem Lesetisch.
+@@ amara-0101
+Du hast mich zweimal gebeten, mich nicht auf diesen Tisch zu setzen.
+@@ amara-0102
+Ich bin über vierhundertmal beschworen worden. So einen Gentleman habe ich noch nie gesehen.
+@@ amara-0103
+Sie nimmt deine Hand und drückt sie flach auf ihre Brust. Unter der Seide schlägt etwas viel zu schnell für jemanden, der so alt ist.
+@@ amara-0104
+Das ist deine Schuld. Ich möchte, dass das festgehalten wird.
+@@ amara-0105
+Sie dreht sich um und hebt ihr Haar vom Nacken. Das Kleid schließt mit einer Reihe winziger Haken, vom Kragen bis dorthin, wo ihre Flügel beginnen.
+@@ amara-0106
+Das sind einundvierzig. Ich habe beim Anziehen gezählt. Lass dir Zeit.
+@@ amara-0107
+Du lässt dir keine Zeit. Sie lacht dich aus, tief in der Kehle, und beschwert sich nicht.
+@@ amara-0108
+Sag ihn. Den Namen, den ich dir gegeben habe.
+@@ amara-0109
+Du sagst ihn. Amara. Sie schließt die Augen, als würde sie ein letztes Mal deine Aussprache prüfen.
+@@ amara-0110
+Nah genug dran.
+@@ amara-0111
+Später. Die Kerze ist nur noch ein Stummel. Sie liegt quer über dir auf dem Teppich des Lesesaals, einen Flügel wie eine Decke über euch beide gefaltet.
+@@ amara-0112
+Ich mache das schon sehr lange, und das stand nicht auf der Liste der Dinge, die ich von einer Bibliothek erwartet habe.
+@@ amara-0113
+Sieh nicht so zufrieden mit dir aus. Nein, warte. Sieh genau so zufrieden aus.
+@@ amara-0114
+Bleib, bis die Kerze ausgeht. Und dann bleib trotzdem.
+@@ amara-0115
+Die Kerze brennt ganz herunter, und keiner von euch merkt, wann sie erlischt.
+@@ amara-0116
+Nach Feierabend
+@@ amara-0117
+Auf ihrem Bibliotheksausweis steht deine Adresse, in kleiner, wütender Handschrift. Sie zieht mit vierzig Kerzen ein und mit Meinungen über dein Bücherregal, das sie danach neu ordnet, wie sehr ihr jedes Buch missfallen hat. Dein Lieblingsbuch kommt ins unterste Fach. An den meisten Abenden sitzt sie noch am Spätschalter, wenn deine Schicht endet, und begleitet dich am Fluss entlang nach Hause, obwohl das länger dauert.
+@@ amara-0118
+Der Morgen scheint durch die Fenster des Lesesaals. Jemand hat deine Jacke zu einem sehr ordentlichen Quadrat gefaltet.
+@@ amara-0119
+Fürs Protokoll: rund vierhundert Beschwörungen, mehrere Könige und ein sehr enthusiastischer Bischof. Keiner kam auch nur in die Nähe. Ich sage das nur einmal.
+@@ amara-0120
+Du kannst dich jetzt anziehen.
+@@ amara-0121
+Ich habe noch nie einen Morgen von dieser Seite einer Beschwörung gesehen. Er ist sehr hell. Ich hasse ihn nicht.
+@@ amara-0122
+Der Lesesaal im Morgengrauen: eine heruntergebrannte Kerze in einem verwischten Kreidekreis, deine Jacke ordentlich gefaltet auf dem Rückgabewagen.
+@@ amara-0123
+Während du Kaffee aus dem Personalraum holst, nimmt sie einen Rotstift von deinem Schreibtisch und korrigiert die Seite, mit der alles angefangen hat.
+@@ amara-0124
+Wenn du die schon zeichnest, dann richtig. Durch einen so armseligen Kreis kommt mir keiner mehr.
+@@ amara-0125
+Diese Linie hier. Da würdest du meinen Namen hinschreiben. Falls du mich je rufen willst. Das wirst du nicht müssen. Ich bin bei dir.
+@@ amara-0126
+Ihre Korrekturen in Rotstift, überall auf der losen Seite, mit der es angefangen hat.
+@@ amara-0127
+Sie wollen eine Adresse für meinen Bibliotheksausweis. Ich habe keine. Was soll ich eintragen?
+@@ amara-0128
+Du sagst ihr, sie soll deine eintragen.
+@@ amara-0129
+Deine. Gut. Ich bringe meine eigenen Kerzen mit.
+@@ amara-0130
+Die Kerzen flackern
+@@ amara-0131
+Staub vom obersten Regal
+@@ amara-0132
+Ein Leser macht „Psst“
+@@ amara-0133
+Korrekte Zeilen
+@@ amara-0134
+Wähl einen Stein: Seine ganze Zeile und Spalte werden geräumt.

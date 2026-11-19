@@ -9,6 +9,11 @@ Simplified Chinese translation), renamed.
 Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
 Licensed under the SIL Open Font License, Version 1.1 (full text below).
 
+Charm Combo JP is a subset of Noto Sans JP (the JIS X 0208 characters and kana,
+for the Japanese translation), renamed.
+Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+Licensed under the SIL Open Font License, Version 1.1 (full text below).
+
 Charm Combo Symbols is a subset of DejaVu Sans (arrows and symbols), renamed.
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. 
 Bitstream Vera is a trademark of Bitstream, Inc.

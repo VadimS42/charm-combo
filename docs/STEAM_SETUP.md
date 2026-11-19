@@ -96,6 +96,13 @@ need to be hidden.
 | MOVES_LEFT_5 | With Moves to Spare | Clear a chapter with 5 or more moves left. |
 | SHARD_SMASH | Shard Smasher | Clear a cursed shard with the Hammer. |
 | FIRST_PURCHASE | Window Shopping | Buy something in the Item Shop. |
+| BLOOMS_25 | In Full Bloom | Grow 25 of Hazel's blossoms. |
+| SEALS_50 | Bookbinder | Break 50 of Amara's seals. |
+| FINDS_30 | Finders Keepers | Find 30 of Opal's lost things under the moss. |
+| COMBS_10 | Treasure Diver | Bring 10 comb pieces up for Marina. |
+| MATCHES_1000 | A Thousand Sparkles | Make 1000 matches. |
+| FREE_DATE | Just Because | Score 2000 on a free date. |
+| DAILY_FIRST | Every Day Counts | Finish a daily challenge. |
 
 **Icons.** Steam wants two per achievement, 256x256 PNG or JPG: an "achieved"
 one and an "unachieved" (usually grey) one. You only need to draw the achieved
@@ -106,7 +113,7 @@ screen uses them right away. Then open `tools/make_steam_achievement_icons.gd`
 in Godot's Script editor and choose **File > Run**: it writes both versions
 of every icon, at 256x256, to `steam/achievement_icons/`, ready to upload.
 
-When all 16 are in, go to the **Publish** tab and publish. Achievement
+When all 23 are in, go to the **Publish** tab and publish. Achievement
 changes don't reach the game until they're published.
 
 **Changing or adding achievements later:** edit the list in
@@ -120,6 +127,21 @@ account's achievements after testing, paste `steam://open/console` into your
 browser's address bar (it opens Steam's console) and type
 `reset_all_stats <your App ID>`. Players never see Testing Mode once
 `ALLOW_TESTING_MODE` is off (see "Before you release").
+
+## 3b. Stats and leaderboards (optional)
+
+**Stats.** Same page, **Stats** tab. The game sends these as INT stats; add
+any you want to see in Steamworks (it skips ones that aren't set up):
+`matches`, `gems`, `specials`, `powers`, `chapters_won`, `best_combo`,
+`best_score`, `blossoms`, `seals`, `items`, `combs`, `play_seconds`.
+Set each to "Set By: Client", type INT, "Increment Only" except `best_combo`
+and `best_score`.
+
+**Leaderboards.** You don't need to make any: the game creates them itself the
+first time a score is posted (highest score wins, shown as a number):
+`free_succubus`, `free_mermaid`, `free_slime`, `free_dryad` (free dates, one per
+girl) and `daily_<yyyymmdd>` (one per daily challenge, e.g. `daily_20261119`).
+Each player only ever posts their own best.
 
 ## 4. Rich presence (what friends see)
 

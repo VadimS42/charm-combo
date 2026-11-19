@@ -17,6 +17,37 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-49 — free dates, daily challenge, Story difficulty, stats, accessibility, Gallery extras, four new languages
+
+- **Free dates** (after her story): a *Free date* button on her roster card
+  (and her phone card) starts an endless board with her own mechanic. No goal,
+  no move limit; seals, moss and the tide refill. *End date* banks the score,
+  pays stars and posts it to a Steam leaderboard (`free_<girl id>`). Best score
+  per girl is kept.
+- **Daily challenge** (main menu / phone home, once any story is finished):
+  the same seeded board for everyone that day, 20 moves, one try, its own
+  leaderboard (`daily_<yyyymmdd>`).
+- **Story difficulty** (Settings > Difficulty: Story / Normal / Hard): twice
+  the moves, a *Skip chapter* button from the start, and Continue on every loss.
+- **Stats page** (Gallery > Stats): matches, specials, best combo, best score,
+  time played and each girl's own counters. They go to Steam stats too, and
+  five new achievements count them, plus *Just Because* (free date) and
+  *Every Day Counts* (daily). `docs/STEAM_SETUP.md` lists all of them.
+- **Accessibility** (Settings): text size (Normal / Large / Larger), numbers
+  on the gems for colour-blind players, and messages that stay up longer.
+- **Gallery extras:** a *Pictures* tab (every unlocked picture, full screen on
+  click) and a *Music* tab (pick the menu music).
+- **Languages:** Japanese, Spanish, Brazilian Portuguese and German, complete.
+  They are machine drafts: get a native speaker to check them before release
+  (`docs/TRANSLATING.md`). Japanese comes with its own font.
+- **Safe-for-work fix:** the Epic / Android build now always reads the
+  safe-for-work story. Before, a player who already had a save could get the
+  full story, because the save was loaded before the build knew it was
+  safe-for-work (`Platform._init()`). *Reset progress* now also clears the
+  Gallery's scene replays.
+- **Tests:** desktop, mobile and safe-for-work tests pass; the mechanics test
+  also plays a free date for each girl and a full daily challenge.
+
 ## ✅ Status: round-48 — mobile finished: every screen fits, long-press, vibration
 
 - **Fitting every screen:** the ending cards, the epilogue story pictures, the

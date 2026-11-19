@@ -1,0 +1,243 @@
+# Hazel — Português (Brasil) (rascunho, round 49)
+@@ hazel-0001
+Hazel Mossgrove
+@@ hazel-0002
+Dríade da velha aveleira
+@@ hazel-0003
+"Nem pense nisso."
+@@ hazel-0004
+Pétalas. Bom. Essas eu entendo.
+@@ hazel-0005
+Hum. Essa tem cheiro de abril.
+@@ hazel-0006
+Com jeitinho. Assim.
+@@ hazel-0007
+Você leva jeito com coisas macias.
+@@ hazel-0008
+Flor.
+@@ hazel-0009
+Que lindo. Continua.
+@@ hazel-0010
+Fogo. Num bosque. Sério?
+@@ hazel-0011
+Apaga isso.
+@@ hazel-0012
+Não. Eu já vi o que essas fazem.
+@@ hazel-0013
+Vou fingir que não vi isso.
+@@ hazel-0014
+Cuidado com as minhas folhas.
+@@ hazel-0015
+Mais devagar. Tô ouvindo você entrar em pânico.
+@@ hazel-0016
+Quarenta anos, eu disse. Olha onde você bate.
+@@ hazel-0017
+Tem lama no seu rosto. Deixa. Combina com você.
+@@ hazel-0018
+Melhor que o último que o moleiro mandou.
+@@ hazel-0019
+Não tô te olhando. Tô fazendo fotossíntese.
+@@ hazel-0020
+Sem pressa. Eu tenho uns trezentos anos.
+@@ hazel-0021
+Relógio de sol de bolso de latão
+@@ hazel-0022
+Um relógio de sol dobrável de latão, pequeno o bastante pra caber no bolso. Só mostra as horas em dias de sol, que, pra ela, são os únicos dias em que isso importa.
+@@ hazel-0023
+Ela faz você segurá-lo no único ponto de sol que passa pelas folhas dela e observa a sombra por um bom tempo.
+@@ hazel-0024
+Um relógio que só funciona quando tem sol.
+@@ hazel-0025
+O verde nas pontas do cabelo dela fica um tom mais escuro. Ela percebe e decide não comentar.
+@@ hazel-0026
+Vou deixar num galho baixo onde eu possa ver. Não, não vou usar pra contar o tempo até a gente se ver de novo.
+@@ hazel-0027
+A velha aveleira fica onde o bosque encontra o canal do moinho. Ela é tão grande que a parede dos fundos do moinho começou a se curvar em volta das raízes dela.
+@@ hazel-0028
+Você é novo na cidade e aceita qualquer trabalho que pague. O moleiro te pagou metade adiantado pra derrubar a árvore. Você escolhe um ponto do tronco que parece certo, firma os pés e levanta o machado.
+@@ hazel-0029
+Nem pense nisso.
+@@ hazel-0030
+Há uma mulher sentada no galho mais baixo, onde você tem certeza de que não havia ninguém um segundo atrás. O cabelo dela vai do dourado ao verde, e abaixo do joelho as pernas viram casca de árvore.
+@@ hazel-0031
+Ela olha pro machado, depois pro ponto do tronco onde você estava mirando.
+@@ hazel-0032
+Você teria acertado logo abaixo do meu coração. Levaria... uns quarenta anos pra sarar.
+@@ hazel-0033
+Você olha dela pro tronco e de volta. Então o coração dela está na árvore. E o que tem no peito dela? Ela sente cada pica-pau? A árvore é ela, ou ela é o jeito da árvore falar? Não parece o momento de perguntar.
+@@ hazel-0034
+O moleiro te mandou? Ele manda alguém toda primavera.
+@@ hazel-0035
+Você abaixa o machado. Depois de um momento, deixa ele na grama.
+@@ hazel-0036
+Ah, você tá largando. A maioria discute primeiro.
+@@ hazel-0037
+No último eu tive que derrubar um galho, mas não se preocupa, seu rosto é bonito demais.
+@@ hazel-0038
+Você fala da parede. As raízes dela estão rachando a parede, e quando ela cair, o moleiro perde o moinho.
+@@ hazel-0039
+Eu sei da parede. Minhas raízes vão pra onde tem água. Não consigo controlar.
+@@ hazel-0040
+Se alguém cavasse um canal novo pra ele, mais longe, eu poderia seguir. Levaria uma estação.
+@@ hazel-0041
+Eu cavo. Me mostra onde.
+@@ hazel-0042
+A primavera toda, na mão? Acho que vou ter que me acostumar com você.
+@@ hazel-0043
+Uma folha cai no seu cabelo. Não tem vento.
+@@ hazel-0044
+Agora começa pelo amieiro, e arregaça as mangas.
+@@ hazel-0045
+Eu cavo. Mas vou ficar com o dinheiro do moleiro.
+@@ hazel-0046
+Ganancioso. Ah, então você vai fazer ele te pagar pra me ajudar? Gostei.
+@@ hazel-0047
+Começa pelo amieiro. Eu vou aproveitar a vista.
+@@ hazel-0048
+Você cava até o pôr do sol. A vala acaba ficando mais ou menos do tamanho de um caixão, o que ela aponta duas vezes.
+@@ hazel-0049
+Que bela vala. Pra uma cova.
+@@ hazel-0050
+Quando sai, você se encosta no tronco pra recuperar o fôlego. A casca é áspera e fresca sob sua mão.
+@@ hazel-0051
+Ah, você é quente... Faz anos que ninguém me toca sem um machado.
+@@ hazel-0052
+Você começa a tirar a mão. Ela diz que não precisa.
+@@ hazel-0053
+Deixa aí um minuto. Faz muito tempo.
+@@ hazel-0054
+Há quanto tempo você tá aqui sozinha?
+@@ hazel-0055
+Desde que o bosque era uma floresta. Duzentos anos, uma seca a mais ou a menos.
+@@ hazel-0056
+Não é tão ruim, mas alguns bichos são... uma companhia mal tolerável.
+@@ hazel-0057
+Se eu soubesse que você gostava, teria vindo antes.
+@@ hazel-0058
+Você veio com um machado.
+@@ hazel-0059
+Mas vou deixar passar. Traz a pá amanhã, hein.
+@@ hazel-0060
+Quarto dia. Correu a notícia de que alguém está cavando perto da velha aveleira em vez de derrubá-la. A filha do moleiro te traz almoço, e você a acompanha de volta até a passarela.
+@@ hazel-0061
+Quando você volta, um galho range lá em cima de um jeito que soa muito proposital.
+@@ hazel-0062
+As samambaias me contaram que você estava conversando com a filha do moleiro. Não tô com ciúme. Mas talvez eu derrube um galho perto dela, só isso.
+@@ hazel-0063
+Um graveto cai, com muita precisão, no seu almoço.
+@@ hazel-0064
+O pai dela passou aqui hoje de manhã. Ele te dá até o fim do mês. Depois contrata alguém com uma serra.
+@@ hazel-0065
+Cava mais rápido. Eu queria ver mais uma primavera.
+@@ hazel-0066
+Ela só estava sendo simpática. É por você que eu venho aqui.
+@@ hazel-0067
+Eu sei. Mesmo assim você sumiu por quarenta minutos, não que eu estivesse contando.
+@@ hazel-0068
+Come seu almoço. Tenho certeza que o pão dela é muito bom. Eu não saberia dizer.
+@@ hazel-0069
+Você não tá com ciúme? Suas folhas estão ficando vermelhas.
+@@ hazel-0070
+É o outono.
+@@ hazel-0071
+É abril.
+@@ hazel-0072
+Cava sua vala. Mangas pra cima!
+@@ hazel-0073
+A vala chega ao rio numa noite de tempestade. A água invade o canal novo, e a árvore inteira estremece.
+@@ hazel-0074
+Tá tudo bem. São só raízes. Elas precisam soltar a parede velha, mesmo que doa.
+@@ hazel-0075
+Você senta com as costas no tronco enquanto chove. De vez em quando ela faz um barulhinho, e você põe a mão espalmada na casca. Sob sua palma, bem onde você teria batido o machado, algo na madeira está pulsando. Pergunta respondida.
+@@ hazel-0076
+Você tá tremendo. Chega mais perto, tem um oco no tronco que serve em você.
+@@ hazel-0077
+Fala comigo. Sobre qualquer coisa. Sua voz me ajuda a aguentar.
+@@ hazel-0078
+Me conta do bosque quando ele era uma floresta.
+@@ hazel-0079
+Tinha lobos. E uma família de lenhadores que cantava enquanto trabalhava. Eu gostava deles, mesmo sendo lenhadores.
+@@ hazel-0080
+Ela fala até a tempestade passar. Você adormece encostado nela antes que ela termine, e ela não parece se importar.
+@@ hazel-0081
+Você ainda tá quente. Que bom.
+@@ hazel-0082
+Vou listar todo mundo na cidade em quem você gostaria de derrubar um galho.
+@@ hazel-0083
+Começa pelo padeiro. Ele se encosta em mim quando fuma.
+@@ hazel-0084
+Ela ri, e uma chuva de água cai das folhas dela na sua cabeça.
+@@ hazel-0085
+Depois o moleiro. Depois o moleiro de novo.
+@@ hazel-0086
+No fim do mês a parede velha parou de rachar. O canal novo corre limpo, e Aldous Brock fica muito tempo na margem com o chapéu nas mãos.
+@@ hazel-0087
+Ele te diz pra ficar com o dinheiro. Depois vai até lá e dá uns tapinhas no tronco da aveleira, sem jeito, como um homem pedindo desculpas a um cavalo.
+@@ hazel-0088
+Ele nunca fez isso. Quarenta primaveras, e ele nunca fez isso nem uma vez.
+@@ hazel-0089
+Naquela noite ela desce do galho e anda pela grama, mais longe do que você já a viu ir.
+@@ hazel-0090
+Eu posso andar até onde minhas raízes chegam. Agora elas chegam longe. Graças a alguém.
+@@ hazel-0091
+O musgo do lado leste é mais macio do que parece.
+@@ hazel-0092
+Fica esta noite. Eu seguro a chuva.
+@@ hazel-0093
+Você fica.
+@@ hazel-0094
+O musgo do lado leste é mais macio do que parece. Acima de você, os galhos dela se abriram e se entrelaçaram, e a primeira chuva tamborila nas folhas sem passar.
+@@ hazel-0095
+Duzentas primaveras vendo gente passar por esta árvore. Nem uma pessoa sequer deitou embaixo dela.
+@@ hazel-0096
+Os bichos estão olhando. Eu mandei eles irem embora. Ninguém neste bosque me escuta.
+@@ hazel-0097
+As mãos dela agora estão quentes. Estavam frias da primeira vez que você tocou a casca. Ela vê que você percebeu.
+@@ hazel-0098
+Isso é você. Foi você que fez isso. Um mês inteiro se encostando em mim com as mangas arregaçadas.
+@@ hazel-0099
+Ela te puxa pra baixo pela camisa. O cabelo dela cai em volta de vocês dois, dourado em cima e verde nas pontas, com cheiro de chuva.
+@@ hazel-0100
+Me diz se eu fizer errado. Eu li sobre isso em exatamente um livro, e um lenhador deixou ele cair aqui antes de construírem o moinho.
+@@ hazel-0101
+Devagar. Eu tenho todo o tempo do mundo e queria gastar um pouco dele com isso.
+@@ hazel-0102
+Depois você fica deitado no musgo com o cabelo dela sobre seu peito. Lá em cima, todas as folhas do lado leste dela viraram com o lado claro pra cima, como fazem antes de uma tempestade. Não tem tempestade.
+@@ hazel-0103
+Não... me olha assim.
+@@ hazel-0104
+Chove a noite toda. Nada disso chega até você.
+@@ hazel-0105
+Fora de época
+@@ hazel-0106
+O canal corre e a velha aveleira mantém suas raízes. Você planta outra aveleira ao lado do canal novo, e ela cresce mais rápido do que teria direito, inclinada pra árvore velha como se estivesse escutando. Você dorme no bosque na maioria das noites, e a velha aveleira floresce na estação errada, em todas as estações, o que o moleiro agora diz pras pessoas que dá sorte.
+@@ hazel-0107
+Manhã no bosque. Tem flores no lado leste da árvore que não estavam lá ontem à noite. Aveleiras florescem em fevereiro. É maio.
+@@ hazel-0108
+Duzentos anos, e ninguém me contou que um espírito podia sentir algo assim. Quero que fique registrado que estou dizendo isso com muita calma.
+@@ hazel-0109
+Não olha pra elas. Não são pra você. São sazonais.
+@@ hazel-0110
+Tá bom. São pra você. Eu não florescia fora de época desde antes de construírem o moinho. Os bichos vão comentar.
+@@ hazel-0111
+A velha aveleira ao amanhecer, toda florida, em maio.
+@@ hazel-0112
+Ela te mostra em quais galhos você pode sentar e em quais ela sente cócegas. A segunda lista é longa.
+@@ hazel-0113
+Esse pode. Esse pode. Esse não. É sério. Não.
+@@ hazel-0114
+Planta alguma coisa perto de mim. Pra ter algo seu aqui quando você não estiver.
+@@ hazel-0115
+Uma muda ao lado do canal novo, com uma fita amarrada.
+@@ hazel-0116
+Você diz outra aveleira, pra ela não ser a única.
+@@ hazel-0117
+Caem folhas secas
+@@ hazel-0118
+O moleiro passa
+@@ hazel-0119
+Começa a chover
+@@ hazel-0120
+Verão
+@@ hazel-0121
+Cada semente e broto do tabuleiro cresce um estágio.

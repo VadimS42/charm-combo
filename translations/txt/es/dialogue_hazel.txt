@@ -1,0 +1,243 @@
+# Hazel — Español (borrador, round 49)
+@@ hazel-0001
+Hazel Mossgrove
+@@ hazel-0002
+Dríade del viejo avellano
+@@ hazel-0003
+«Ni se te ocurra.»
+@@ hazel-0004
+Pétalos. Bien. Esos los entiendo.
+@@ hazel-0005
+Mm. Ese huele a abril.
+@@ hazel-0006
+Con cuidado. Así.
+@@ hazel-0007
+Se te dan bien las cosas suaves.
+@@ hazel-0008
+Flor.
+@@ hazel-0009
+Qué bonito. Sigue.
+@@ hazel-0010
+Fuego. En una arboleda. ¿En serio?
+@@ hazel-0011
+Apaga eso.
+@@ hazel-0012
+No. He visto lo que hacen esas.
+@@ hazel-0013
+Haré como que no lo he visto.
+@@ hazel-0014
+Cuidado con mis hojas.
+@@ hazel-0015
+Más despacio. Te oigo entrar en pánico.
+@@ hazel-0016
+Cuarenta años, he dicho. Mira dónde golpeas.
+@@ hazel-0017
+Tienes barro en la cara. Déjalo. Te queda bien.
+@@ hazel-0018
+Mejor que el último que mandó el molinero.
+@@ hazel-0019
+No te estoy mirando. Estoy haciendo la fotosíntesis.
+@@ hazel-0020
+Tómate tu tiempo. Me quedan unos trescientos años.
+@@ hazel-0021
+Reloj de sol de bolsillo de latón
+@@ hazel-0022
+Un reloj de sol plegable de latón, lo bastante pequeño para un bolsillo. Solo da la hora en días soleados, que para ella son los únicos días en que hace falta.
+@@ hazel-0023
+Te hace sostenerlo en la única mancha de sol que atraviesa sus hojas y observa la sombra durante un buen rato.
+@@ hazel-0024
+Un reloj que solo funciona cuando sale el sol.
+@@ hazel-0025
+El verde de las puntas de su pelo se oscurece un tono. Se da cuenta y decide no mencionarlo.
+@@ hazel-0026
+Lo pondré en una rama baja donde pueda verlo. No, no lo usaré para contar el tiempo hasta que volvamos a vernos.
+@@ hazel-0027
+El viejo avellano se alza donde la arboleda se junta con el caz del molino. Es tan grande que la pared trasera del molino ha empezado a doblarse alrededor de sus raíces.
+@@ hazel-0028
+Eres nuevo en el pueblo y aceptas cualquier trabajo que pague. El molinero te ha pagado la mitad por adelantado para talar el árbol. Eliges un punto del tronco que parece el adecuado, afianzas los pies y levantas el hacha.
+@@ hazel-0029
+Ni se te ocurra.
+@@ hazel-0030
+Hay una mujer sentada en la rama más baja, donde estás seguro de que hace un segundo no había nadie. Su pelo pasa del dorado al verde, y por debajo de la rodilla sus piernas se convierten en corteza.
+@@ hazel-0031
+Mira el hacha, y luego el punto del tronco al que apuntabas.
+@@ hazel-0032
+Me habrías dado justo debajo del corazón. Tardaría... unos cuarenta años en curarse.
+@@ hazel-0033
+Miras de ella al tronco y vuelta. Así que su corazón está en el árbol. Entonces, ¿qué tiene en el pecho? ¿Siente cada pájaro carpintero? ¿El árbol es ella, o ella es la forma que tiene el árbol de hablar? No parece el momento de preguntar.
+@@ hazel-0034
+¿Te ha mandado el molinero? Manda a alguien cada primavera.
+@@ hazel-0035
+Bajas el hacha. Al cabo de un momento, la dejas en la hierba.
+@@ hazel-0036
+Oh, la estás soltando. La mayoría discute primero.
+@@ hazel-0037
+Al último tuve que tirarle una rama encima, pero no te preocupes, tienes una cara demasiado bonita.
+@@ hazel-0038
+Le hablas de la pared. Sus raíces la están agrietando, y cuando ceda, el molinero perderá su molino.
+@@ hazel-0039
+Sé lo de la pared. Mis raíces van adonde está el agua. No puedo controlarlo.
+@@ hazel-0040
+Si alguien le cavara un canal nuevo, más lejos, podría seguirlo. Tardaría una estación.
+@@ hazel-0041
+Yo lo cavo. Enséñame dónde.
+@@ hazel-0042
+¿Toda la primavera, a mano? Supongo que tendré que acostumbrarme a ti.
+@@ hazel-0043
+Una hoja te cae en el pelo. No hace viento.
+@@ hazel-0044
+Empieza por el aliso, y arremángate.
+@@ hazel-0045
+Cavaré. Pero me quedo el dinero del molinero.
+@@ hazel-0046
+Codicioso. Oh, ¿así que vas a hacer que te pague por ayudarme? Me gusta.
+@@ hazel-0047
+Empieza por el aliso. Yo disfrutaré de las vistas.
+@@ hazel-0048
+Cavas hasta el atardecer. La zanja acaba teniendo más o menos el largo de un ataúd, cosa que ella señala dos veces.
+@@ hazel-0049
+Buena zanja. Para una tumba.
+@@ hazel-0050
+Al salir te apoyas en el tronco para recuperar el aliento. La corteza es áspera y fresca bajo tu mano.
+@@ hazel-0051
+Oh, estás caliente... Hace años que nadie me toca sin un hacha.
+@@ hazel-0052
+Empiezas a apartar la mano. Ella dice que no hace falta.
+@@ hazel-0053
+Déjala ahí un minuto. Ha pasado mucho tiempo.
+@@ hazel-0054
+¿Cuánto tiempo llevas aquí sola?
+@@ hazel-0055
+Desde que la arboleda era un bosque. Doscientos años, sequía arriba, sequía abajo.
+@@ hazel-0056
+No está tan mal, pero algunos animales son... una compañía apenas soportable.
+@@ hazel-0057
+Si hubiera sabido que te gustaba, habría venido antes.
+@@ hazel-0058
+Viniste con un hacha.
+@@ hazel-0059
+Pero te lo paso. Eso sí, mañana trae la pala.
+@@ hazel-0060
+Cuarto día. Se ha corrido la voz de que alguien está cavando junto al viejo avellano en vez de talarlo. La hija del molinero te trae la comida, y la acompañas de vuelta hasta la pasarela.
+@@ hazel-0061
+Cuando vuelves, una rama cruje sobre tu cabeza de una forma que suena muy deliberada.
+@@ hazel-0062
+Los helechos me dicen que estabas hablando con la hija del molinero. No estoy celosa. Pero puede que deje caer una rama cerca de ella, nada más.
+@@ hazel-0063
+Una ramita cae, con mucha precisión, en tu comida.
+@@ hazel-0064
+Su padre pasó esta mañana. Te da hasta final de mes. Luego contrata a alguien con una sierra.
+@@ hazel-0065
+Cava más rápido. Me gustaría ver otra primavera.
+@@ hazel-0066
+Solo estaba siendo amable. Es por ti por quien vengo aquí.
+@@ hazel-0067
+Lo sé. Aun así estuviste cuarenta minutos fuera, y no es que los contara.
+@@ hazel-0068
+Cómete la comida. Seguro que su pan está muy bueno. Yo no lo sabría.
+@@ hazel-0069
+¿No estás celosa? Se te están poniendo rojas las hojas.
+@@ hazel-0070
+Es el otoño.
+@@ hazel-0071
+Estamos en abril.
+@@ hazel-0072
+Cava tu zanja. ¡Arremángate!
+@@ hazel-0073
+La zanja llega al río una noche de tormenta. El agua inunda el canal nuevo y todo el árbol se estremece.
+@@ hazel-0074
+No pasa nada. Son solo raíces. Tienen que soltar la pared vieja aunque duela.
+@@ hazel-0075
+Te sientas con la espalda contra el tronco mientras llueve. De vez en cuando ella hace un ruidito, y tú pones la mano plana sobre la corteza. Bajo tu palma, justo donde habrías descargado el hacha, algo late en la madera. Pregunta respondida.
+@@ hazel-0076
+Estás temblando. Acércate, hay un hueco en el tronco en el que cabes.
+@@ hazel-0077
+Háblame. De lo que sea. Tu voz me ayuda a aguantarlo.
+@@ hazel-0078
+Cuéntame cómo era la arboleda cuando era un bosque.
+@@ hazel-0079
+Había lobos. Y una familia de leñadores que cantaba mientras trabajaba. Me caían bien, aunque fueran leñadores.
+@@ hazel-0080
+Habla hasta que pasa la tormenta. Te duermes apoyado en ella antes de que termine, y no parece importarle.
+@@ hazel-0081
+Sigues caliente. Bien.
+@@ hazel-0082
+Te haré una lista de toda la gente del pueblo a la que te gustaría tirarle una rama.
+@@ hazel-0083
+Empieza por el panadero. Se apoya en mí cuando fuma.
+@@ hazel-0084
+Se ríe, y una lluvia de agua cae de sus hojas sobre tu cabeza.
+@@ hazel-0085
+Luego el molinero. Luego el molinero otra vez.
+@@ hazel-0086
+A final de mes la pared vieja ha dejado de agrietarse. El caz nuevo corre limpio, y Aldous Brock se queda mucho rato en la orilla con el sombrero en las manos.
+@@ hazel-0087
+Te dice que te quedes el dinero. Luego se acerca y le da unas palmaditas al tronco del avellano, con torpeza, como un hombre que le pide perdón a un caballo.
+@@ hazel-0088
+Nunca había hecho eso. Cuarenta primaveras, y nunca jamás había hecho eso.
+@@ hazel-0089
+Esa noche baja de su rama y camina por la hierba, más lejos de lo que nunca la has visto ir.
+@@ hazel-0090
+Puedo caminar hasta donde llegan mis raíces. Ahora llegan muy lejos. Gracias a alguien.
+@@ hazel-0091
+El musgo del lado este es más blando de lo que parece.
+@@ hazel-0092
+Quédate esta noche. Yo te protejo de la lluvia.
+@@ hazel-0093
+Te quedas.
+@@ hazel-0094
+El musgo del lado este es más blando de lo que parece. Sobre ti, sus ramas se han extendido y entrelazado, y la primera lluvia repiquetea en las hojas sin atravesarlas.
+@@ hazel-0095
+Doscientas primaveras viendo pasar gente junto a este árbol. Ni una sola se tumbó nunca debajo.
+@@ hazel-0096
+Los animales están mirando. Les he dicho que se vayan. En esta arboleda nadie me hace caso.
+@@ hazel-0097
+Ahora sus manos están calientes. Estaban frías la primera vez que tocaste la corteza. Ve que te das cuenta.
+@@ hazel-0098
+Eso eres tú. Lo has hecho tú. Un mes entero apoyándote en mí con las mangas remangadas.
+@@ hazel-0099
+Te atrae hacia abajo tirando de tu camisa. Su pelo cae a vuestro alrededor, dorado arriba y verde en las puntas, y huele a lluvia.
+@@ hazel-0100
+Dime si lo hago mal. He leído sobre esto en exactamente un libro, y un leñador lo dejó caer aquí antes de que construyeran el molino.
+@@ hazel-0101
+Despacio. Tengo todo el tiempo del mundo y me gustaría dedicar un poco a esto.
+@@ hazel-0102
+Después te quedas tumbado en el musgo con su pelo sobre tu pecho. Arriba, todas las hojas de su lado este se han dado la vuelta con el envés hacia arriba, como hacen antes de una tormenta. No hay tormenta.
+@@ hazel-0103
+No me... mires así.
+@@ hazel-0104
+Llueve toda la noche. Ni una gota te alcanza.
+@@ hazel-0105
+Fuera de temporada
+@@ hazel-0106
+El caz corre y el viejo avellano conserva sus raíces. Plantas otro avellano junto al canal nuevo, y crece más rápido de lo que tendría derecho, inclinándose hacia el árbol viejo como si escuchara. Duermes en la arboleda más noches que no, y el viejo avellano florece en la estación equivocada, en todas las estaciones, cosa que el molinero ahora dice a la gente que trae buena suerte.
+@@ hazel-0107
+Mañana en la arboleda. Hay flores en el lado este del árbol que anoche no estaban. Los avellanos florecen en febrero. Estamos en mayo.
+@@ hazel-0108
+Doscientos años, y nadie me dijo que un espíritu pudiera sentir algo así. Que conste que lo digo con mucha calma.
+@@ hazel-0109
+No las mires. No son para ti. Son de temporada.
+@@ hazel-0110
+Vale. Son para ti. No florecía fuera de temporada desde antes de que construyeran el molino. Los animales van a hablar.
+@@ hazel-0111
+El viejo avellano al amanecer, en plena floración, en mayo.
+@@ hazel-0112
+Te enseña en qué ramas puedes sentarte y en cuáles tiene cosquillas. La segunda lista es larga.
+@@ hazel-0113
+Esa vale. Esa vale. Esa no. Lo digo en serio. No.
+@@ hazel-0114
+Planta algo cerca de mí. Para que haya algo tuyo aquí cuando no estés.
+@@ hazel-0115
+Un árbol joven junto al caz nuevo, con una cinta atada alrededor.
+@@ hazel-0116
+Dices que otro avellano, para que no sea la única.
+@@ hazel-0117
+Caen hojas secas
+@@ hazel-0118
+Pasa el molinero
+@@ hazel-0119
+Empieza a llover
+@@ hazel-0120
+Verano
+@@ hazel-0121
+Cada semilla y brote del tablero crece una etapa.

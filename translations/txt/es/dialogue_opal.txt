@@ -1,0 +1,239 @@
+# Opal — Español (borrador, round 49)
+@@ opal-0001
+Opal
+@@ opal-0002
+Limo, antes residente de un tarro
+@@ opal-0003
+«Estaba bien. Ahí dentro había silencio.»
+@@ opal-0004
+Uh. Eso va en la... perdón.
+@@ opal-0005
+Cristal. Ese me lo quedaría.
+@@ opal-0006
+Eso atrapa la luz. Otro.
+@@ opal-0007
+Transparente de lado a lado. Como yo.
+@@ opal-0008
+Eso ha sido muy bonito. Gracias.
+@@ opal-0009
+Runas. Como en los tarros de los alquimistas.
+@@ opal-0010
+Esas no me gustan. Perdón.
+@@ opal-0011
+¿Podemos no hacerlo? ¿Por favor?
+@@ opal-0012
+Las runas me hacen burbujear los bordes.
+@@ opal-0013
+Lo estás haciendo bien. Voy contando.
+@@ opal-0014
+Perdón. Estoy mirando. ¿Te parece bien?
+@@ opal-0015
+Aquí fuera hay mucho ruido. Tú eres del ruido bueno.
+@@ opal-0016
+Si se te cae algo, yo lo encuentro.
+@@ opal-0017
+Tarareas cuando piensas. Me gusta.
+@@ opal-0018
+Ahora mismo estoy un poco rosa. No le hagas caso.
+@@ opal-0019
+E-eso ha estado bien. Ha estado muy bien.
+@@ opal-0020
+Canica de cristal antigua
+@@ opal-0021
+Una canica de cristal con una cinta dorada retorcida dentro, de las que nadie fabrica desde hace décadas.
+@@ opal-0022
+Se acerca la canica al ojo y luego la presiona suavemente contra su propia palma. Se hunde y queda flotando ahí, dentro de su mano, donde puede verla.
+@@ opal-0023
+Remolino dorado. Dejaron de hacerlas antes de que me metieran en el tarro. ¿Dónde la has encontrado?
+@@ opal-0024
+Se pone rosa, cosa que en Opal se nota muchísimo.
+@@ opal-0025
+N-no va a ir a la estantería. Se queda conmigo. Aquí dentro. ¿Te parece bien?
+@@ opal-0026
+El bosque al norte de Millbrook, a finales de otoño. Has salido a por leña y cualquier cosa que se pueda vender, y has seguido el arroyo más adentro de lo que pretendías.
+@@ opal-0027
+Entre las raíces de un roble viejo, alguien ha cavado un pequeño hueco y lo ha forrado de musgo. Dentro hay un tarro de cristal grande, sellado con cera. La etiqueta dice TRITONES EN VINAGRE, NO ABRIR, con una letra que intenta tener gracia.
+@@ opal-0028
+Los tritones en vinagre no suelen tener una fecha escrita a lápiz en la cera: el dos de enero. Lo abres de todos modos.
+@@ opal-0029
+Algo se derrama por el borde, lento y brillante, de un lila pálido con destellos verdes y rosas. Das un salto atrás tan rápido que tiras medio hueco al arroyo de una patada. Se recompone sobre una raíz con forma de mujer, y no parece contenta.
+@@ opal-0030
+¿Por qué harías eso?
+@@ opal-0031
+Le señalas que la etiqueta decía tritones.
+@@ opal-0032
+Estaba bien. Ahí dentro había silencio.
+@@ opal-0033
+Esa etiqueta la escribió Ambrose. Era el guardabosques. Cuando los alquimistas vinieron comprando limos, me escondió aquí fuera. Funcionó durante treinta y un años.
+@@ opal-0034
+Todas las mañanas daba dos golpecitos en el cristal para que supiera que era él.
+@@ opal-0035
+Mira más allá de ti, al hueco: al musgo, aplastado en filitas ordenadas donde antes había algo colocado, y al arroyo, que corre rápido y marrón.
+@@ opal-0036
+¿Dónde están mis cosas? Estaban aquí. En filas. L-las tenía en filas.
+@@ opal-0037
+Se lo dices. El arroyo ya ha arrastrado casi todo más allá del recodo, hacia el pueblo.
+@@ opal-0038
+Son mías. L-las llevo años coleccionando.
+@@ opal-0039
+Cuatrocientos doce botones. Veintiséis llaves. Un ojo de cristal. Todo el que pasa por este bosque pierde algo, y yo me lo quedaba.
+@@ opal-0040
+Lo siento muchísimo. Te recuperaré hasta el último.
+@@ opal-0041
+¿Hasta el último? Son cuatrocientos doce botones.
+@@ opal-0042
+Se pone ligeramente rosa de lado a lado, como una gota de tinte en un vaso de agua.
+@@ opal-0043
+Vale. El arroyo sale bajo el Puente del Molino, en el pueblo. Allí van a parar cosas. La gente las recoge.
+@@ opal-0044
+En mi defensa, la etiqueta decía tritones.
+@@ opal-0045
+Era una broma. Se reía de ella todas las mañanas durante treinta y un años.
+@@ opal-0046
+El arroyo va al pueblo. Vamos. ¡Me llevas tú! ¿Por favor?
+@@ opal-0047
+El arroyo sale bajo el Puente del Molino, donde Coombs, el trapero, pesca todo lo que flota. Llegas antes que ella y le vendes un puñado de botones de la orilla por dos cobres antes de darte cuenta de quién son. También ha pescado el resto con su red. Recomprarlo todo cuesta seis cobres, cosa que a él le hace mucha gracia.
+@@ opal-0048
+Ella viaja en un tarro de cristal grande en tus brazos, sin tapa, y cuenta cada botón que dejas caer dentro.
+@@ opal-0049
+G-gracias. Perdón. Gracias.
+@@ opal-0050
+Este es mi favorito. Latón, cuatro agujeros, de un abrigo muy guapo. Tú también tienes un... abrigo muy guapo.
+@@ opal-0051
+Dice que las llaves fueron a un cerrajero. Y el ojo de cristal fue a alguien que necesitaba un ojo de cristal, supongo.
+@@ opal-0052
+Háblame de los demás mientras buscamos.
+@@ opal-0053
+¿Quieres que te hable de botones?
+@@ opal-0054
+Dices que sí. Habla durante una hora sin tartamudear ni una vez.
+@@ opal-0055
+Perdón. Normalmente no se lo puedo contar a nadie.
+@@ opal-0056
+Cuatrocientos botones son muchos botones de desconocidos.
+@@ opal-0057
+No son desconocidos. Los oí pasar a todos. Desde el tarro.
+@@ opal-0058
+Dicho en voz alta suena raro. No contestes.
+@@ opal-0059
+El cerrajero de la calle Cinder tiene sus llaves en un cubo y quiere un chelín por todas. Mientras regateas, ella se queda muy quieta en su tarro bajo el mostrador.
+@@ opal-0060
+De vuelta, hay un aviso clavado en el Puente del Molino. El pueblo ha vendido el bosque del norte a un alquimista para su taller. La tala empieza el día de trimestre.
+@@ opal-0061
+Los alquimistas hierven limos para hacer cola. ¿Lo sabías? Doce chelines la libra.
+@@ opal-0062
+Por eso Ambrose me metió en el tarro. Nadie mira dentro de un tarro de tritones en vinagre. Cuando lo hizo teníamos más o menos la misma edad. Él envejeció.
+@@ opal-0063
+Empiezan a talar el día de trimestre. Después necesito otro sitio donde estar tranquila.
+@@ opal-0064
+Puedes quedarte conmigo. Mi casa es tranquila.
+@@ opal-0065
+¿C-contigo? ¿Y dónde iba a...?
+@@ opal-0066
+Querría mi propio tarro. Solo al principio. ¿Es raro?
+@@ opal-0067
+Entonces nos aseguraremos de que nadie hierva a nadie.
+@@ opal-0068
+¿Contra un alquimista? Vendiste mis botones por dos cobres y los recompraste por seis.
+@@ opal-0069
+Pero está un poco más rosa que antes.
+@@ opal-0070
+Eso me gustaría verlo, la verdad.
+@@ opal-0071
+El ojo de cristal aparece en el escaparate del taxidermista de la calle del Farol, en un búho disecado. El taxidermista no quiere venderlo. Dice que el búho lo necesita.
+@@ opal-0072
+Así que ella sale de su tarro en medio de la tienda, delante de todo el mundo, y lo pide ella misma.
+@@ opal-0073
+P-perdone. Ese es mi ojo. Quiero decir... Es de mi colección. Me gustaría recuperarlo, por favor.
+@@ opal-0074
+El taxidermista se asusta tanto que le da el ojo, el búho y un descuento en un segundo búho.
+@@ opal-0075
+Lo he hecho yo. ¿Lo has visto? Lo he dicho en voz alta.
+@@ opal-0076
+No me vuelvas a meter en el tarro todavía. Quiero ir a casa por mi cuenta. Bueno. Sin andar. Ya sabes.
+@@ opal-0077
+Has estado increíble.
+@@ opal-0078
+Para. Me voy a poner turbia.
+@@ opal-0079
+Se pone turbia.
+@@ opal-0080
+Puedes darme la mano. Si no te importa que esté un poco... mojada.
+@@ opal-0081
+Nos llevamos el segundo búho, ¿no?
+@@ opal-0082
+Obviamente nos llevamos el segundo búho.
+@@ opal-0083
+Son pareja. No voy a separar una pareja.
+@@ opal-0084
+Cuatrocientos doce botones, veintiséis llaves, un ojo de cristal y dos búhos. Los hombres del alquimista ya están talando el bosque del norte, así que Opal se queda contigo, y su colección ocupa una estantería entera de tu salón. La reorganiza dos veces.
+@@ opal-0085
+Está todo. Todo. Lo he contado tres veces.
+@@ opal-0086
+Su tarro está al final de la estantería, sin tapa. Lleva tres días sin meterse dentro.
+@@ opal-0087
+Tengo que decirte algo. Me quedé con algo tuyo. El primer día.
+@@ opal-0088
+Te tiende un botón. Es tuyo. Se te soltó de la manga cuando metiste la mano en el hueco a por su tarro, y nunca te diste cuenta.
+@@ opal-0089
+Es lo primero de una colección nueva. Cosas que son tuyas.
+@@ opal-0090
+¿P-puedo dormir en tu habitación esta noche? No en el tarro. Contigo.
+@@ opal-0091
+¿Puedes... bajar un poco la lámpara?
+@@ opal-0092
+Bajas la lámpara.
+@@ opal-0093
+Con la lámpara baja, la única luz de tu habitación sale de ella: un suave resplandor lila que se aviva allí donde la tocas.
+@@ opal-0094
+Oh. No sabía que hacía eso. Qué vergüenza. Hazlo otra vez.
+@@ opal-0095
+Debería decirte que no sé lo que hago. Solo he oído hablar de esto. A través del cristal. La gente dice muchas cosas en un sendero del bosque cuando cree que nadie escucha.
+@@ opal-0096
+Sobre todo parejas que creían haber encontrado un sitio discreto. Así que sé mucho sobre... ya sabes.
+@@ opal-0097
+Te ríes. Ella se pone rosa de lado a lado, y luego se ríe también.
+@@ opal-0098
+Te coge la mano y la presiona suavemente contra sí. Se hunde un poco, fresca y suave, y ella se estremece.
+@@ opal-0099
+¿E-está bien así? Dime si es raro. Puedes decir que es raro.
+@@ opal-0100
+Le dices que no es raro. Te atrae hacia ella y, por una vez, no se disculpa por nada.
+@@ opal-0101
+Después está extendida por casi toda la cama y parte de ti, brillando débilmente, tarareando algo que Ambrose solía silbar.
+@@ opal-0102
+G-gracias. Perdón. No. Perdón no. Gracias.
+@@ opal-0103
+El tarro se queda vacío toda la noche.
+@@ opal-0104
+Un lugar tranquilo
+@@ opal-0105
+Opal se muda de verdad. Su colección crece a una segunda estantería, y luego a una tercera: cosas que se te han caído, cosas que se les han caído a tus amigos, la entrada de vuestra primera noche juntos. El tarro vive debajo de la cama. Lo usa dos veces ese año, las dos durante tormentas, y las dos veces te sientas en el suelo a su lado mientras te cuenta, a través del cristal, qué vecinos se deben dinero. Sale por su cuenta antes de que acabe la tormenta.
+@@ opal-0106
+Algo fresco y algo pesado te cubre como una manta. Resulta que es ella.
+@@ opal-0107
+Perdón. Me extiendo mientras duermo. No lo sabía. Nunca había dormido en un sitio lo bastante grande para descubrirlo.
+@@ opal-0108
+Lo de anoche es lo mejor que me ha pasado en treinta y un años. Quizá... en la vida.
+@@ opal-0109
+Me gustaría repetirlo. Eso se puede decir, ¿no? Bien. Me gustaría repetirlo.
+@@ opal-0110
+Luz de mañana entre las cortinas del dormitorio, y alguien translúcido y lila acurrucado sobre las sábanas.
+@@ opal-0111
+Sale sola por primera vez a comprar pan. Tarda veinte minutos. Los dos fingís que no estabais preocupados.
+@@ opal-0112
+Opal en el mostrador de la panadería, con una hogaza bajo el brazo y un botón perdido en la mano.
+@@ opal-0113
+El tarro... ¿Debería quedármelo?
+@@ opal-0114
+Le dices que se lo quede. Para las tormentas.
+@@ opal-0115
+Una brisa fría
+@@ opal-0116
+Zarzas bajo los pies
+@@ opal-0117
+Un búho la sobresalta
+@@ opal-0118
+Absorber
+@@ opal-0119
+Elige una gema: se eliminan todas las gemas de ese color.

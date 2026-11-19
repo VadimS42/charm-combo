@@ -68,8 +68,11 @@ var steam: Object = null
 var steam_status := "not used"
 
 
-func _ready() -> void:
-	process_mode = Node.PROCESS_MODE_ALWAYS
+## The build flags are read here, not in _ready(): every autoload is created
+## before any of them is ready, and GameState (which loads first) reads the
+## story data while loading a save. Reading `sfw` late meant a returning
+## player's safe-for-work build cached the full story (round 49 fix).
+func _init() -> void:
 	var args := OS.get_cmdline_user_args()
 	demo = OS.has_feature("demo") or args.has("--demo")
 	trailer = args.has("--trailer")
@@ -84,6 +87,10 @@ func _ready() -> void:
 	elif OS.has_feature("android"):
 		store = "android"
 	sfw = OS.has_feature("sfw") or args.has("--sfw") or store == "epic" or store == "android"
+
+
+func _ready() -> void:
+	process_mode = Node.PROCESS_MODE_ALWAYS
 	if store == "epic":
 		steam_status = "Epic build"
 		_start_epic()

@@ -1,0 +1,1244 @@
+# Charm Combo — Español (borrador, round 49: que lo revise un hablante nativo)
+
+@@ ui-0001
+Brasa
+
+@@ ui-0002
+Piedra lunar
+
+@@ ui-0003
+Pétalo
+
+@@ ui-0004
+Perla
+
+@@ ui-0005
+Runa
+
+@@ ui-0006
+Cristal
+
+@@ ui-0007
+Fragmento maldito
+
+@@ ui-0008
+Intercambia y combina
+
+@@ ui-0009
+Intercambia dos gemas vecinas para alinear tres o más iguales. Las gemas combinadas estallan y dan puntos; caen nuevas desde arriba.
+
+@@ ui-0010
+Alcanza su objetivo
+
+@@ ui-0011
+Cada capítulo tiene un objetivo y un número de movimientos. Al principio son puntos; desde su tercer capítulo es algo suyo en el tablero, y en el último, ambas cosas. Lógralo antes de quedarte sin movimientos y la historia sigue. No hay reloj: tómate tu tiempo.
+
+@@ ui-0012
+Lo que le gusta
+
+@@ ui-0013
+Cada chica tiene una gema favorita y otra que no le gusta (en su tarjeta del elenco y arriba de su lado en el capítulo). Su favorita vale el doble y llena antes el anillo de Encanto; la que no le gusta vale la mitad.
+
+@@ ui-0014
+Su regalo
+
+@@ ui-0015
+Cuando superes su primer capítulo, su tarjeta tendrá un regalo para ella. Dáselo y su gema favorita aparecerá más a menudo en todos sus capítulos, para siempre.
+
+@@ ui-0016
+Estallido de Encanto
+
+@@ ui-0017
+Cada combinación llena el anillo de Encanto. En el primer capítulo de una chica, el anillo lleno es un Estallido de Encanto: +150 puntos. Desde su segundo capítulo, en cambio, te da un uso de su propio poder: su botón se ilumina junto al anillo, úsalo cuando quieras. Luego el anillo se vuelve a llenar.
+
+@@ ui-0018
+Gemas especiales
+
+@@ ui-0019
+Combina 4 en línea para crear un Cohete, que limpia su fila o columna. Combina 5, o en forma de L o T, para crear un Estallido estelar. Intercambia una gema especial para activarla; intercambia dos juntas para una Megaexplosión.
+
+@@ ui-0020
+Combos
+
+@@ ui-0021
+Cuando las gemas que caen forman combinaciones solas, es un combo. Cada eslabón de la cadena puntúa más que el anterior.
+
+@@ ui-0022
+Fragmentos malditos
+
+@@ ui-0023
+Los fragmentos oscuros y agrietados te quitan puntos si forman parte de una combinación. El Martillo rompe uno gratis.
+
+@@ ui-0024
+Objetos
+
+@@ ui-0025
+El Pergamino del tiempo (tres movimientos más), el Martillo (rompe cualquier gema) y la Varita de barajar (un tablero nuevo) están bajo el tablero. Cómpralos, y pociones que ayudan todo un capítulo, en la Tienda con las estrellas que ganes.
+
+@@ ui-0026
+Difícil: pasan cosas en tu cita
+
+@@ ui-0027
+Cada pocos movimientos pasa algo a tu alrededor: el panel de su lado dice qué y cuándo. Puede ponértelo más difícil para conquistarla, convertir gemas en fragmentos malditos, costarte un movimiento o reducir tu anillo de Encanto a la mitad. Combinar su gema favorita lo retrasa un movimiento; un Estallido de Encanto lo anula.
+
+@@ ui-0028
+Amara: páginas selladas
+
+@@ ui-0029
+Algunas gemas llevan su sello de tinta. Una gema sellada no se puede mover, pero cuenta en una combinación que formes moviendo las gemas de al lado. La primera combinación, explosión o Martillo rompe el sello y la gema se queda.
+
+@@ ui-0030
+Amara: rompe todos los sellos
+
+@@ ui-0031
+Para encontrar el libro, rompe todos los sellos del tablero. El contador bajo el tablero muestra cuántos llevas.
+
+@@ ui-0032
+Poder de Amara: Líneas correctas
+
+@@ ui-0033
+Pulsa el botón de su poder (o 4) y elige una gema: se limpian su fila y su columna enteras. Los sellos que haya en ellas se rompen.
+
+@@ ui-0034
+Marina: la marea
+
+@@ ui-0035
+En sus capítulos todo flota: las gemas suben y las nuevas llegan desde abajo.
+
+@@ ui-0036
+Marina: la peineta de perlas
+
+@@ ui-0037
+Los trozos de la peineta de la abuela empiezan cerca del fondo. No se pueden combinar ni mover: limpia las gemas de encima y suben. El que llega a la fila de arriba es tuyo.
+
+@@ ui-0038
+Poder de Marina: Pleamar
+
+@@ ui-0039
+Pulsa el botón de su poder (o 4): se limpian las dos filas más cercanas a la superficie y todo sube dos filas.
+
+@@ ui-0040
+Opal: musgo
+
+@@ ui-0041
+Bajo algunas casillas crece musgo. Una combinación, explosión o Martillo en la casilla lo quita, y bajo parte del musgo se esconde una de sus cosas perdidas.
+
+@@ ui-0042
+Opal: su colección perdida
+
+@@ ui-0043
+Quita el musgo para encontrar sus cosas: botones, canicas, llaves, el ojo de cristal. Encuentra suficientes para ganar.
+
+@@ ui-0044
+Poder de Opal: Absorber
+
+@@ ui-0045
+Pulsa el botón de su poder (o 4) y elige una gema: desaparecen todas las gemas de ese color, y el musgo de debajo.
+
+@@ ui-0046
+Hazel: semillas
+
+@@ ui-0047
+Las semillas están en el tablero y caen como gemas, pero no se pueden mover ni combinar. Cada combinación justo al lado la hace crecer: semilla, brote, flor. La flor se abre: +100 y se limpian las casillas de alrededor. Las combinaciones de brasas no cuentan: no le gustan las brasas.
+
+@@ ui-0048
+Hazel: haz crecer flores
+
+@@ ui-0049
+Convierte suficientes semillas en flores para ganar. Cada pocos movimientos cae una semilla nueva.
+
+@@ ui-0050
+Poder de Hazel: Verano
+
+@@ ui-0051
+Pulsa el botón de su poder (o 4): cada semilla y brote del tablero crece una etapa.
+
+@@ ui-0052
+Tus respuestas
+
+@@ ui-0053
+Tras cada capítulo eliges una respuesta. Una cariñosa empieza su siguiente capítulo con puntos extra (dos movimientos más si el capítulo solo tiene su objetivo); una pícara cuesta unos puntos, pero también le gustan.
+
+@@ ui-0054
+Sin movimientos
+
+@@ ui-0055
+Quedarte sin movimientos aún te da algunas estrellas. Vuelve a intentarlo, lee un Pergamino del tiempo o pasa por la tienda. Los últimos capítulos son difíciles sin ayudas: si te faltan estrellas, repite un capítulo superado desde su tarjeta. Si pierdes tres veces seguidas, puedes seguir con la historia de todos modos.
+
+@@ ui-0056
+Controles del diálogo
+
+@@ ui-0057
+Clic, Espacio o Intro: siguiente línea. Mantén Ctrl o pulsa Saltar: salta lo ya leído. A o Auto: las líneas avanzan solas. L, Historial o rueda hacia arriba: releer. H: oculta el texto en las imágenes a pantalla completa. La velocidad del texto está en Ajustes.
+
+@@ ui-0058
+Cómo jugar
+
+@@ ui-0059
+Entendido
+
+@@ ui-0060
+Todas las reglas
+
+@@ ui-0061
+Estrellas — se ganan superando capítulos y se gastan en la Tienda y en regalos.
+
+@@ ui-0062
+Ajustes
+
+@@ ui-0063
+Mover
+
+@@ ui-0064
+Elegir
+
+@@ ui-0065
+Cancelar
+
+@@ ui-0066
+Cambiar
+
+@@ ui-0067
+Cerrar
+
+@@ ui-0068
+Seleccionar
+
+@@ ui-0069
+Atrás
+
+@@ ui-0070
+Desafío diario: %d ptos.
+
+@@ ui-0071
+Desafío diario
+
+@@ ui-0072
+Un tablero nuevo cada día, igual para todos: %d movimientos, un intento. Vuelve mañana para el siguiente.
+
+@@ ui-0073
+Supera cualquier capítulo para desbloquear el desafío diario.
+
+@@ ui-0074
+Cerrar ajustes
+
+@@ ui-0075
+¡Gracias por jugar la demo!
+
+@@ ui-0076
+El juego completo tiene cuatro historias: la de Hazel y tres mujeres más de Millbrook a las que conocer de la peor manera posible. Cada una tiene cuatro capítulos, su escena nocturna y su final.
+
+@@ ui-0077
+Menú principal
+
+@@ ui-0078
+Añadir a la lista de deseos de Steam
+
+@@ ui-0079
+LOGRO DESBLOQUEADO
+
+@@ ui-0080
+←  Atrás
+
+@@ ui-0081
+Logros
+
+@@ ui-0082
+También se desbloquean en Steam.
+
+@@ ui-0083
+Desplazar
+
+@@ ui-0084
+Charm Combo es para adultos
+
+@@ ui-0085
+Tiene contenido sexual, incluidas escenas íntimas, e imágenes sugerentes. Todos los personajes son adultos.
+
+Continúa solo si tienes 18 años o más, o la mayoría de edad donde vives.
+
+@@ ui-0086
+Salir
+
+@@ ui-0087
+Ya puedes cerrar esta pestaña.
+
+@@ ui-0088
+Tengo 18 años o más
+
+@@ ui-0089
+Sobre las voces
+
+@@ ui-0090
+Las chicas tienen la voz de actrices de doblaje aficionadas, grabadas en casa. Nos encanta el resultado, pero no son grabaciones de estudio y todavía no todas las líneas tienen voz.
+
+Si prefieres leer con tu propia voz interior, desactiva las voces. Puedes cambiarlo cuando quieras en Ajustes.
+
+@@ ui-0091
+Desactivar voces
+
+@@ ui-0092
+Mantener voces
+
+@@ ui-0093
+Language · 语言 · Язык
+
+@@ ui-0094
+Créditos
+
+@@ ui-0095
+Hecho con Godot Engine
+
+@@ ui-0096
+Continuar
+
+@@ ui-0097
+Tiempo de juego
+
+@@ ui-0098
+Capítulos superados
+
+@@ ui-0099
+Combinaciones hechas
+
+@@ ui-0100
+Gemas eliminadas
+
+@@ ui-0101
+Mejor combo
+
+@@ ui-0102
+Mejor puntuación en un capítulo
+
+@@ ui-0103
+Gemas especiales creadas
+
+@@ ui-0104
+Poderes usados
+
+@@ ui-0105
+Sellos de Amara rotos
+
+@@ ui-0106
+Trozos de peineta rescatados
+
+@@ ui-0107
+Cosas de Opal encontradas
+
+@@ ui-0108
+Flores de Hazel cultivadas
+
+@@ ui-0109
+Mejor cita con %s
+
+@@ ui-0110
+Mejor desafío diario
+
+@@ ui-0111
+Su escena nocturna
+
+@@ ui-0112
+Aquí aparecerán imágenes a medida que conozcas a las chicas y llegues a sus finales.
+
+@@ ui-0113
+Aún no desbloqueado
+
+@@ ui-0114
+Su final
+
+@@ ui-0115
+Ruta chispa
+
+@@ ui-0116
+Ruta equilibrada
+
+@@ ui-0117
+Escena nocturna
+
+@@ ui-0118
+Finales
+
+@@ ui-0119
+Imágenes
+
+@@ ui-0120
+Música
+
+@@ ui-0121
+Estadísticas
+
+@@ ui-0122
+Galería de finales
+
+@@ ui-0123
+Galería
+
+@@ ui-0124
+Aún no hay nada — termina la historia de una chica para añadir su final.
+
+@@ ui-0125
+Volver a ver su escena nocturna.
+
+@@ ui-0126
+Repetir
+
+@@ ui-0127
+Haz clic para ver.
+
+@@ ui-0128
+Aún no encontrado: termina su historia para desbloquearlo.
+
+@@ ui-0129
+Aún no encontrado
+
+@@ ui-0130
+Un romance de combinar tres para adultos, ambientado en Millbrook, un pueblo crepuscular donde viven seres fantásticos. Conoce a cuatro mujeres de la peor manera posible, ayúdalas con lo que necesitan y descubre adónde lleva la noche.
+
+@@ ui-0131
+Jugar
+
+@@ ui-0132
+Tienda
+
+@@ ui-0133
+Salir
+
+@@ ui-0134
+Personajes originales · todos los personajes son adultos.
+
+@@ ui-0135
+18+ · personajes originales · todos los personajes son adultos.
+
+@@ ui-0136
+Sellos rotos
+
+@@ ui-0137
+Trozos de peineta
+
+@@ ui-0138
+Cosas encontradas
+
+@@ ui-0139
+Flores
+
+@@ ui-0140
+¡Iniciador estelar activo!
+
+@@ ui-0141
+¡Poción de amor activa!
+
+@@ ui-0142
+¡Poción reparadora activa!
+
+@@ ui-0143
+Su regalo: más de su gema favorita
+
+@@ ui-0144
++2 movimientos — ¡gran respuesta!
+
+@@ ui-0145
++%d ptos. — ¡gran respuesta!
+
+@@ ui-0146
+Tomar
+
+@@ ui-0147
+Intercambiar
+
+@@ ui-0148
+Soltar
+
+@@ ui-0149
+Terminar la cita
+
+@@ ui-0150
+Termina esta cita y mira tu puntuación.
+
+@@ ui-0151
+¡Menuda cita!
+
+@@ ui-0152
+El desafío de hoy
+
+@@ ui-0153
+¡Nuevo récord!
+
+@@ ui-0154
+Tu récord: %d
+
+@@ ui-0155
+Otra cita
+
+@@ ui-0156
+Saltar capítulo  ▸
+
+@@ ui-0157
+Dificultad Historia: sigue con la historia sin jugar este capítulo (sin estrellas por él).
+
+@@ ui-0158
+¿Saltar este capítulo?
+
+@@ ui-0159
+Su historia sigue como si lo hubieras superado. No recibes sus estrellas.
+
+@@ ui-0160
+Saltar capítulo
+
+@@ ui-0161
+←  Elenco
+
+@@ ui-0162
+Movimientos que quedan en este capítulo
+
+@@ ui-0163
+OBJETIVO
+
+@@ ui-0164
+Encanto — se llena al combinar (más rápido con su gema favorita). Lleno = Estallido de Encanto de +150.
+
+@@ ui-0165
+Encanto — se llena al combinar (más rápido con su gema favorita). Lleno = un uso de su poder: %s
+
+@@ ui-0166
+Su gema favorita vale el doble y llena antes el Encanto; la que no le gusta vale la mitad.
+
+@@ ui-0167
+¡Toca una gema!
+
+@@ ui-0168
+Elige una gema para romper.
+
+@@ ui-0169
++%d para conquistarla
+
+@@ ui-0170
+-1 movimiento
+
+@@ ui-0171
+Encanto a la mitad
+
+@@ ui-0172
+tras tu próximo movimiento
+
+@@ ui-0173
+en %d movimientos
+
+@@ ui-0174
+Algo está a punto de pasar en tu cita. Combinar su gema favorita lo retrasa un movimiento; un Estallido de Encanto lo anula.
+
+@@ ui-0175
+A CONTINUACIÓN
+
+@@ ui-0176
+récord %d
+
+@@ ui-0177
+Capítulo %d / %d
+
+@@ ui-0178
+Una cita libre
+
+@@ ui-0179
+Elige una gema.
+
+@@ ui-0180
+El trozo de peineta no se puede romper con el martillo. Súbelo a la superficie.
+
+@@ ui-0181
+¡Bum!
+
+@@ ui-0182
+¡Fragmento roto!
+
+@@ ui-0183
+Sellada. Combínala moviendo las gemas de al lado.
+
+@@ ui-0184
+Las semillas no se mueven. Haz combinaciones junto a ellas para que crezcan.
+
+@@ ui-0185
+Los trozos de peineta suben cuando se limpian las gemas de encima.
+
+@@ ui-0186
+¡Megaexplosión!
+
+@@ ui-0187
+Cae una semilla nueva.
+
+@@ ui-0188
+Sin movimientos — ¡barajando!
+
+@@ ui-0189
+¡Un trozo de peineta! %d / %d
+
+@@ ui-0190
+¡Un trozo de peineta!
+
+@@ ui-0191
+¡Flor! +%d
+
+@@ ui-0192
+Encontrado bajo el musgo: %s
+
+@@ ui-0193
+un botón
+
+@@ ui-0194
+una canica
+
+@@ ui-0195
+una llave
+
+@@ ui-0196
+el ojo de cristal
+
+@@ ui-0197
+¡Ay!
+
+@@ ui-0198
+¡Combo x%d!
+
+@@ ui-0199
+¡Estallido de Encanto! +150
+
+@@ ui-0200
+Ninguno de los dos se da cuenta de lo que venía.
+
+@@ ui-0201
+¡Elige una gema!
+
+@@ ui-0202
+¡Listo!
+
+@@ ui-0203
+Llena el anillo
+
+@@ ui-0204
+¡Capítulo superado!
+
+@@ ui-0205
+Jugar otra vez
+
+@@ ui-0206
+Tienda
+
+@@ ui-0207
+Volver al elenco
+
+@@ ui-0208
+Sin movimientos
+
+@@ ui-0209
+Te faltaron %d puntos.
+
+@@ ui-0210
++%d ⭐ por intentarlo
+
+@@ ui-0211
+1 estrella por cada 200 puntos. ¡Ahorra para ayudas en la Tienda y vuelve a intentarlo!
+
+@@ ui-0212
+Un consejo
+
+@@ ui-0213
+Prueba: %s
+
+@@ ui-0214
++%d ⭐ para ello
+
+@@ ui-0215
+Usar un Pergamino del tiempo
+
+@@ ui-0216
+Repetir capítulo
+
+@@ ui-0217
+Seguir con la historia  ▸
+
+@@ ui-0218
+Seguir sin superar este capítulo (sin estrellas por él).
+
+@@ ui-0219
+Se salta el puzle de este capítulo: sin estrellas por él.
+
+@@ ui-0220
+←  Menú
+
+@@ ui-0221
+El círculo de Millbrook
+
+@@ ui-0222
+Le encanta
+
+@@ ui-0223
+No le gusta
+
+@@ ui-0224
+Aún no os conocéis
+
+@@ ui-0225
+Final: %s
+
+@@ ui-0226
+Conocerla
+
+@@ ui-0227
+Volver a verla
+
+@@ ui-0228
+Empezar su historia desde el principio
+
+@@ ui-0229
+¿Repetir la historia de %s?
+
+@@ ui-0230
+Su historia vuelve a empezar desde vuestro primer encuentro, para que puedas elegir distinto. Los finales encontrados se quedan en la Galería, tu regalo sigue dado y sus capítulos vuelven a dar estrellas.
+
+@@ ui-0231
+Repetir historia
+
+@@ ui-0232
+Cita libre
+
+@@ ui-0233
+Su tablero sin límite de movimientos, solo por diversión y por un récord.
+
+@@ ui-0234
+Repetir un capítulo
+
+@@ ui-0235
+Vuelve a jugar un capítulo superado, para ganar estrellas. Su historia se queda donde está.
+
+@@ ui-0236
+Vuelve a jugar un capítulo superado, para ganar estrellas. Sin escenas de historia, y su historia se queda donde está.
+
+@@ ui-0237
+Capítulo %d · +%d ⭐
+
+@@ ui-0238
+Capítulo %d · +%d
+
+@@ ui-0239
+Regálale: %s
+
+@@ ui-0240
+Después, su gema favorita aparecerá más a menudo en todos sus capítulos, para siempre.
+
+@@ ui-0241
+(Te faltan %d estrellas.)
+
+@@ ui-0242
+Idioma
+
+@@ ui-0243
+El texto del juego. Las voces siguen en inglés.
+
+@@ ui-0244
+Efectos de sonido
+
+@@ ui-0245
+Sonidos para combinaciones, combos y menús.
+
+@@ ui-0246
+Volumen general
+
+@@ ui-0247
+Todo — música y efectos de sonido.
+
+@@ ui-0248
+El volumen de la música de fondo.
+
+@@ ui-0249
+Voces
+
+@@ ui-0250
+Escucha a las chicas decir sus líneas.
+
+@@ ui-0251
+Volumen de voz
+
+@@ ui-0252
+El volumen de sus voces.
+
+@@ ui-0253
+Dificultad
+
+@@ ui-0254
+Historia: el doble de movimientos, y puedes saltarte cualquier capítulo. Difícil: cada pocos movimientos pasa algo en tu cita (una ola salta el muelle, las velas titilan), avisado de antemano. Se aplica desde el siguiente capítulo.
+
+@@ ui-0255
+Historia
+
+@@ ui-0256
+Fácil
+
+@@ ui-0257
+Difícil
+
+@@ ui-0258
+Velocidad del texto
+
+@@ ui-0259
+Lo rápido que aparece el diálogo.
+
+@@ ui-0260
+Lenta
+
+@@ ui-0261
+Normal
+
+@@ ui-0262
+Rápida
+
+@@ ui-0263
+Instantánea
+
+@@ ui-0264
+Velocidad de Auto
+
+@@ ui-0265
+Cuánto espera Auto tras cada línea (izquierda = menos).
+
+@@ ui-0266
+Saltar lo no leído
+
+@@ ui-0267
+Que Saltar también pase volando por las líneas que aún no has leído.
+
+@@ ui-0268
+Tamaño del texto
+
+@@ ui-0269
+Texto más grande en todas partes: diálogo, menús y puzle.
+
+@@ ui-0270
+Grande
+
+@@ ui-0271
+Más grande
+
+@@ ui-0272
+Números en las gemas
+
+@@ ui-0273
+Cada tipo de gema muestra un número, para distinguirlas sin depender del color.
+
+@@ ui-0274
+Mensajes más largos
+
+@@ ui-0275
+Los mensajes emergentes y su bocadillo en el capítulo se quedan más tiempo en pantalla. El diálogo siempre te espera salvo que actives Auto.
+
+@@ ui-0276
+Vibración
+
+@@ ui-0277
+Una pequeña vibración al combinar gemas.
+
+@@ ui-0278
+Reducir movimiento
+
+@@ ui-0279
+Animaciones más cortas, respuestas más tranquilas.
+
+@@ ui-0280
+Pantalla completa
+
+@@ ui-0281
+Ocupa toda la pantalla. F11 la activa en cualquier momento.
+
+@@ ui-0282
+Modo de prueba
+
+@@ ui-0283
+Cualquier combinación válida cumple al instante el objetivo y da 99 estrellas — para pruebas, no para jugar de verdad.
+
+@@ ui-0284
+Salir al elenco
+
+@@ ui-0285
+Para aquí. Esta escena se repetirá la próxima vez que la visites.
+
+@@ ui-0286
+Abrir carpeta de registros
+
+@@ ui-0287
+Para informar de errores: envía el godot.log más reciente de esta carpeta.
+
+@@ ui-0288
+Reiniciar progreso
+
+@@ ui-0289
+¿Reiniciar todo el progreso?
+
+@@ ui-0290
+Esto borra el progreso de todas las historias, tus estrellas, objetos, regalos y toda la Galería. Se conservan los ajustes y los logros. No se puede deshacer.
+
+@@ ui-0291
+Reiniciar todo
+
+@@ ui-0292
+Pergamino del tiempo
+
+@@ ui-0293
+Léelo para tener tres movimientos más en el capítulo que juegas. Úsalo desde la fila de objetos bajo el tablero — también te saca de la pantalla «Sin movimientos».
+
+@@ ui-0294
+Martillo
+
+@@ ui-0295
+Rompe cualquier gema, sin combinar. Prepáralo en la fila de objetos y toca una gema.
+
+@@ ui-0296
+Varita de barajar
+
+@@ ui-0297
+Un toque y todo el tablero se reparte de nuevo, siempre con algún movimiento posible.
+
+@@ ui-0298
+Iniciador estelar
+
+@@ ui-0299
+Tu próximo capítulo empieza con un Estallido estelar gratis en el tablero.
+
+@@ ui-0300
+Poción de amor
+
+@@ ui-0301
+Tu próximo capítulo: su gema favorita aparece más y la que no le gusta, menos.
+
+@@ ui-0302
+Poción reparadora
+
+@@ ui-0303
+Tu próximo capítulo: muchos menos fragmentos malditos en el tablero.
+
+@@ ui-0304
+←  Volver al capítulo
+
+@@ ui-0305
+Las estrellas salen de superar capítulos: 15 por el primero de cada chica y 5 más por cada uno siguiente.
+
+@@ ui-0306
+Quedarte sin movimientos aún da 1 estrella por cada 200 puntos (mínimo 3).
+
+@@ ui-0307
+¿Te faltan estrellas? Repite un capítulo superado desde su tarjeta: da la mitad.
+
+@@ ui-0308
+La fila de arriba se usa durante un capítulo; la de abajo actúa sola al empezar tu siguiente capítulo.
+
+@@ ui-0309
+Tienes: %d
+
+@@ ui-0310
+Comprar · %d ⭐
+
+@@ ui-0311
+Comprar · %d
+
+@@ ui-0312
+Te faltan %d estrellas.
+
+@@ ui-0313
+Historial
+
+@@ ui-0314
+Releer (L, o rueda hacia arriba)
+
+@@ ui-0315
+Auto
+
+@@ ui-0316
+Las líneas avanzan solas (A)
+
+@@ ui-0317
+Saltar
+
+@@ ui-0318
+Salta lo ya leído (mantén Ctrl)
+
+@@ ui-0319
+Saltar todo
+
+@@ ui-0320
+Salta todas las líneas hasta la próxima respuesta, leídas o no
+
+@@ ui-0321
+Ocultar texto
+
+@@ ui-0322
+Ver la imagen completa (H)
+
+@@ ui-0323
+¿Qué le dices?
+
+@@ ui-0324
+Tú
+
+@@ ui-0325
+Responder
+
+@@ ui-0326
+Siguiente
+
+@@ ui-0327
+Nada todavía.
+
+@@ ui-0328
+Ni se te ocurra
+
+@@ ui-0329
+Conoce a Hazel en vez de talar su árbol.
+
+@@ ui-0330
+Una zanja preciosa
+
+@@ ui-0331
+Supera el primer capítulo de Hazel.
+
+@@ ui-0332
+Hojas que enrojecen
+
+@@ ui-0333
+Supera el segundo capítulo de Hazel.
+
+@@ ui-0334
+En plena tormenta
+
+@@ ui-0335
+Supera el tercer capítulo de Hazel.
+
+@@ ui-0336
+Echar raíces
+
+@@ ui-0337
+Llega al final de Hazel.
+
+@@ ui-0338
+Llevar la hora
+
+@@ ui-0339
+Regálale a Hazel el reloj de sol de bolsillo de latón.
+
+@@ ui-0340
+Suave como el musgo
+
+@@ ui-0341
+Termina la historia de Hazel eligiendo siempre la respuesta cariñosa.
+
+@@ ui-0342
+Astillas
+
+@@ ui-0343
+Termina la historia de Hazel provocándola en cada respuesta.
+
+@@ ui-0344
+Reacción en cadena
+
+@@ ui-0345
+Provoca un combo x3.
+
+@@ ui-0346
+Avalancha
+
+@@ ui-0347
+Provoca un combo x5.
+
+@@ ui-0348
+Deslumbrante
+
+@@ ui-0349
+Crea un Estallido estelar.
+
+@@ ui-0350
+Megaexplosión
+
+@@ ui-0351
+Intercambia dos gemas especiales entre sí.
+
+@@ ui-0352
+Irresistible
+
+@@ ui-0353
+Llena el anillo de Encanto para un Estallido de Encanto.
+
+@@ ui-0354
+Con movimientos de sobra
+
+@@ ui-0355
+Supera un capítulo con 5 o más movimientos restantes.
+
+@@ ui-0356
+Rompefragmentos
+
+@@ ui-0357
+Elimina un fragmento maldito con el Martillo.
+
+@@ ui-0358
+Mirando escaparates
+
+@@ ui-0359
+Compra algo en la Tienda.
+
+@@ ui-0360
+En plena floración
+
+@@ ui-0361
+Haz crecer 25 flores de Hazel.
+
+@@ ui-0362
+Encuadernadora
+
+@@ ui-0363
+Rompe 50 sellos de Amara.
+
+@@ ui-0364
+El que lo encuentra se lo queda
+
+@@ ui-0365
+Encuentra 30 cosas perdidas de Opal bajo el musgo.
+
+@@ ui-0366
+Buceador de tesoros
+
+@@ ui-0367
+Rescata 10 trozos de peineta para Marina.
+
+@@ ui-0368
+Mil destellos
+
+@@ ui-0369
+Haz 1000 combinaciones.
+
+@@ ui-0370
+Porque sí
+
+@@ ui-0371
+Consigue 2000 puntos en una cita libre.
+
+@@ ui-0372
+Cada día cuenta
+
+@@ ui-0373
+Completa un desafío diario.
+
+@@ ui-0374
+English
+
+@@ ui-0375
+%d / %d desbloqueados
+
+@@ ui-0376
+%d / %d finales encontrados
+
+@@ ui-0377
+%d ptos. — mal comienzo...
+
+@@ ui-0378
+%d / %d ptos.
+
+@@ ui-0379
+%d ptos....
+
+@@ ui-0380
+MOVIMIENTOS
+
+@@ ui-0381
+CONSEJO
+
+@@ ui-0382
++%d ⭐
+
+@@ ui-0383
+SELLOS ROTOS
+
+@@ ui-0384
+TROZOS DE PEINETA
+
+@@ ui-0385
+COSAS ENCONTRADAS
+
+@@ ui-0386
+FLORES
+
+@@ ui-0387
+¡%s está listo!
+
+@@ ui-0388
+%s: elige una gema.
+
+@@ ui-0389
+Inicio
+
+@@ ui-0390
+Chicas
+
+@@ ui-0391
+Tienda
+
+@@ ui-0392
+Más
+
+@@ ui-0393
+Seguir con %s
+
+@@ ui-0394
+Tienes %d
+
+@@ ui-0395
+Un romance de combinar tres en Millbrook. Conoce a cuatro mujeres de la peor manera posible, ayúdalas con lo que necesitan y descubre adónde lleva.
+
+@@ ui-0396
+%d ptos.
+
+@@ ui-0397
+PUNTOS
+
+@@ ui-0398
+Combina runas, las favoritas de Amara: llenan el anillo de Encanto el doble de rápido y en Difícil retrasan lo que se avecina. Una Poción reparadora significa menos fragmentos malditos.
+
+@@ ui-0399
+Combina perlas, las favoritas de Marina: llenan el anillo de Encanto el doble de rápido y en Difícil retrasan lo que se avecina. Un Pergamino del tiempo recupera movimientos perdidos.
+
+@@ ui-0400
+Combina cristales, los favoritos de Opal: llenan el anillo de Encanto el doble de rápido y en Difícil retrasan lo que se avecina. Una Poción de amor trae más.
+
+@@ ui-0401
+Combina pétalos, los favoritos de Hazel: llenan el anillo de Encanto el doble de rápido y en Difícil retrasan lo que se avecina. Una Poción reparadora significa menos fragmentos malditos.
+
+@@ ui-0402
+Líneas correctas
+
+@@ ui-0403
+Elige una gema: se limpian su fila y su columna enteras.
+
+@@ ui-0404
+¡Líneas correctas!
+
+@@ ui-0405
+Pleamar
+
+@@ ui-0406
+Se limpian las dos filas más cercanas a la superficie y todo sube dos filas.
+
+@@ ui-0407
+¡Pleamar!
+
+@@ ui-0408
+Absorber
+
+@@ ui-0409
+Elige una gema: desaparecen todas las gemas de ese color.
+
+@@ ui-0410
+¡Absorber!
+
+@@ ui-0411
+Verano
+
+@@ ui-0412
+Cada semilla y brote del tablero crece una etapa.
+
+@@ ui-0413
+¡Verano!

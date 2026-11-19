@@ -1,0 +1,243 @@
+# Hazel — Deutsch (Entwurf, round 49)
+@@ hazel-0001
+Hazel Mossgrove
+@@ hazel-0002
+Dryade der alten Hasel
+@@ hazel-0003
+„Denk nicht mal dran.“
+@@ hazel-0004
+Blütenblätter. Gut. Die verstehe ich.
+@@ hazel-0005
+Mm. Die riecht nach April.
+@@ hazel-0006
+Sanft. So.
+@@ hazel-0007
+Du kannst gut mit weichen Dingen.
+@@ hazel-0008
+Blüte.
+@@ hazel-0009
+Das ist schön. Mach weiter.
+@@ hazel-0010
+Feuer. In einem Hain. Echt jetzt?
+@@ hazel-0011
+Mach das aus.
+@@ hazel-0012
+Nein. Ich hab gesehen, was die anrichten.
+@@ hazel-0013
+Ich tu so, als hätte ich das nicht gesehen.
+@@ hazel-0014
+Pass damit auf meine Blätter auf.
+@@ hazel-0015
+Langsamer. Ich hör dich in Panik geraten.
+@@ hazel-0016
+Vierzig Jahre, hab ich gesagt. Pass auf, wohin du schlägst.
+@@ hazel-0017
+Du hast Dreck im Gesicht. Lass ihn. Steht dir.
+@@ hazel-0018
+Besser als der Letzte, den der Müller geschickt hat.
+@@ hazel-0019
+Ich schaue dir nicht zu. Ich betreibe Photosynthese.
+@@ hazel-0020
+Lass dir Zeit. Ich hab noch ungefähr dreihundert Jahre.
+@@ hazel-0021
+Messing-Taschensonnenuhr
+@@ hazel-0022
+Eine klappbare Sonnenuhr aus Messing, klein genug für die Hosentasche. Sie zeigt die Zeit nur an sonnigen Tagen, und das sind, wenn es nach ihr geht, die einzigen Tage, an denen man sie braucht.
+@@ hazel-0023
+Sie lässt dich die Uhr in den einzigen Sonnenfleck halten, der durch ihre Blätter dringt, und beobachtet lange den Schatten.
+@@ hazel-0024
+Eine Uhr, die nur funktioniert, wenn die Sonne scheint.
+@@ hazel-0025
+Das Grün an ihren Haarspitzen wird eine Spur dunkler. Sie merkt es und beschließt, es nicht zu erwähnen.
+@@ hazel-0026
+Ich häng sie an einen niedrigen Ast, wo ich sie sehen kann. Nein, ich werde damit nicht die Zeit bis zu unserem nächsten Treffen zählen.
+@@ hazel-0027
+Die alte Hasel steht dort, wo der Hain auf den Mühlgraben trifft. Sie ist so groß, dass sich die Rückwand der Mühle um ihre Wurzeln zu biegen beginnt.
+@@ hazel-0028
+Du bist neu in der Stadt und nimmst jede Arbeit an, die Geld bringt. Der Müller hat dir die Hälfte im Voraus bezahlt, damit du den Baum fällst. Du suchst dir eine Stelle am Stamm aus, die richtig aussieht, stellst dich fest hin und hebst die Axt.
+@@ hazel-0029
+Denk nicht mal dran.
+@@ hazel-0030
+Auf dem untersten Ast sitzt eine Frau, wo du dir sicher bist, dass vor einer Sekunde noch niemand war. Ihr Haar geht von Gold in Grün über, und unterhalb der Knie werden ihre Beine zu Rinde.
+@@ hazel-0031
+Sie schaut auf die Axt, dann auf die Stelle am Stamm, auf die du gezielt hast.
+@@ hazel-0032
+Du hättest knapp unter meinem Herzen getroffen. Das hätte... so etwa vierzig Jahre gebraucht, um zu heilen.
+@@ hazel-0033
+Du schaust von ihr zum Stamm und zurück. Ihr Herz ist also im Baum. Was ist dann in ihrer Brust? Spürt sie jeden Specht? Ist der Baum sie, oder ist sie die Art, wie der Baum spricht? Es fühlt sich nicht nach dem richtigen Moment zum Fragen an.
+@@ hazel-0034
+Der Müller hat dich geschickt? Er schickt jeden Frühling jemanden.
+@@ hazel-0035
+Du senkst die Axt. Nach einem Moment legst du sie ins Gras.
+@@ hazel-0036
+Oh, du legst sie hin. Die meisten streiten erst.
+@@ hazel-0037
+Beim Letzten musste ich einen Ast fallen lassen, aber keine Sorge, dein Gesicht ist zu hübsch.
+@@ hazel-0038
+Du erzählst ihr von der Mauer. Ihre Wurzeln sprengen sie, und wenn sie einstürzt, verliert der Müller seine Mühle.
+@@ hazel-0039
+Ich weiß von der Mauer. Meine Wurzeln gehen dahin, wo das Wasser ist. Ich kann das nicht steuern.
+@@ hazel-0040
+Wenn ihm jemand einen neuen Graben graben würde, weiter draußen, könnte ich ihm folgen. Das würde eine Jahreszeit dauern.
+@@ hazel-0041
+Ich grab ihn. Zeig mir, wo.
+@@ hazel-0042
+Den ganzen Frühling, von Hand? Dann muss ich mich wohl an dich gewöhnen.
+@@ hazel-0043
+Ein Blatt fällt dir ins Haar. Es geht kein Wind.
+@@ hazel-0044
+Fang bei der Erle an, und Ärmel hoch.
+@@ hazel-0045
+Ich grabe. Das Geld vom Müller behalte ich aber.
+@@ hazel-0046
+Gierig. Oh, du lässt dich also von ihm dafür bezahlen, dass du mir hilfst? Das gefällt mir.
+@@ hazel-0047
+Fang bei der Erle an. Ich genieße die Aussicht.
+@@ hazel-0048
+Du gräbst bis Sonnenuntergang. Der Graben ist am Ende etwa so lang wie ein Sarg, worauf sie zweimal hinweist.
+@@ hazel-0049
+Das ist ein guter Graben. Für ein Grab.
+@@ hazel-0050
+Als du herauskletterst, lehnst du dich an den Stamm, um wieder zu Atem zu kommen. Die Rinde ist rau und kühl unter deiner Hand.
+@@ hazel-0051
+Oh, du bist warm... Mich hat seit Jahren niemand ohne Axt angefasst.
+@@ hazel-0052
+Du willst die Hand wegnehmen. Sie sagt, das musst du nicht.
+@@ hazel-0053
+Lass sie eine Minute da. Es ist lange her.
+@@ hazel-0054
+Wie lange bist du schon allein hier draußen?
+@@ hazel-0055
+Seit der Hain ein Wald war. Zweihundert Jahre, plus minus eine Dürre.
+@@ hazel-0056
+Es ist nicht so schlimm, aber manche Tiere sind... kaum erträgliche Gesellschaft.
+@@ hazel-0057
+Hätte ich gewusst, dass dir das gefällt, wäre ich früher vorbeigekommen.
+@@ hazel-0058
+Du bist mit einer Axt vorbeigekommen.
+@@ hazel-0059
+Aber ich lass es gelten. Bring morgen trotzdem die Schaufel mit.
+@@ hazel-0060
+Tag vier. Es hat sich herumgesprochen, dass jemand an der alten Hasel gräbt, statt sie zu fällen. Die Tochter des Müllers bringt dir Mittagessen, und du begleitest sie zurück bis zum Steg.
+@@ hazel-0061
+Als du zurückkommst, knarrt über dir ein Ast, und das klingt sehr absichtlich.
+@@ hazel-0062
+Die Farne erzählen mir, du hast mit der Tochter des Müllers geredet. Ich bin nicht eifersüchtig. Aber vielleicht lasse ich in ihrer Nähe einen Ast fallen, das ist alles.
+@@ hazel-0063
+Ein Zweig fällt, sehr präzise, in dein Mittagessen.
+@@ hazel-0064
+Ihr Vater war heute Morgen hier. Er gibt dir bis Ende des Monats. Dann heuert er jemanden mit einer Säge an.
+@@ hazel-0065
+Grab schneller. Ich würde gern noch einen Frühling sehen.
+@@ hazel-0066
+Sie war nur freundlich. Wegen dir komme ich her.
+@@ hazel-0067
+Ich weiß. Du warst trotzdem vierzig Minuten weg, nicht dass ich gezählt hätte.
+@@ hazel-0068
+Iss dein Mittagessen. Ihr Brot ist bestimmt sehr gut. Ich wüsste es nicht.
+@@ hazel-0069
+Du bist nicht eifersüchtig? Deine Blätter werden rot.
+@@ hazel-0070
+Das ist der Herbst.
+@@ hazel-0071
+Es ist April.
+@@ hazel-0072
+Grab deinen Graben. Ärmel hoch!
+@@ hazel-0073
+In einer Sturmnacht erreicht der Graben den Fluss. Wasser strömt in den neuen Kanal, und der ganze Baum erzittert.
+@@ hazel-0074
+Schon gut. Das sind nur Wurzeln. Sie müssen die alte Mauer loslassen, auch wenn es wehtut.
+@@ hazel-0075
+Du sitzt mit dem Rücken am Stamm, während es regnet. Ab und zu gibt sie ein leises Geräusch von sich, und du legst die Hand flach auf die Rinde. Unter deiner Handfläche, ungefähr dort, wo du mit der Axt zugeschlagen hättest, schlägt etwas im Holz. Das wäre also geklärt.
+@@ hazel-0076
+Du zitterst. Komm näher, im Stamm ist eine Höhlung, in die du passt.
+@@ hazel-0077
+Rede mit mir. Über irgendwas. Deine Stimme hilft mir durch.
+@@ hazel-0078
+Erzähl mir vom Hain, als er noch ein Wald war.
+@@ hazel-0079
+Es gab Wölfe. Und eine Holzfällerfamilie, die bei der Arbeit sang. Ich mochte sie, obwohl sie Holzfäller waren.
+@@ hazel-0080
+Sie redet, bis der Sturm vorüber ist. Du schläfst an sie gelehnt ein, bevor sie fertig ist, und es scheint sie nicht zu stören.
+@@ hazel-0081
+Du bist immer noch warm. Gut.
+@@ hazel-0082
+Ich zähl dir alle in der Stadt auf, denen du gern einen Ast auf den Kopf fallen lassen würdest.
+@@ hazel-0083
+Fang mit dem Bäcker an. Er lehnt sich an mich, wenn er raucht.
+@@ hazel-0084
+Sie lacht, und ein Schauer Regenwasser fällt von ihren Blättern auf deinen Kopf.
+@@ hazel-0085
+Dann der Müller. Dann noch mal der Müller.
+@@ hazel-0086
+Am Monatsende hat die alte Mauer aufgehört zu reißen. Der neue Mühlgraben fließt sauber, und Aldous Brock steht lange am Ufer, den Hut in den Händen.
+@@ hazel-0087
+Er sagt, du sollst das Geld behalten. Dann geht er hinüber und tätschelt den Stamm der Hasel, unbeholfen, wie ein Mann, der sich bei einem Pferd entschuldigt.
+@@ hazel-0088
+Das hat er noch nie gemacht. Vierzig Frühlinge, und er hat das noch nie gemacht.
+@@ hazel-0089
+In dieser Nacht klettert sie von ihrem Ast herunter und geht über das Gras hinaus, weiter, als du sie je hast gehen sehen.
+@@ hazel-0090
+Ich kann so weit gehen, wie meine Wurzeln reichen. Die reichen jetzt weit. Dank jemandem.
+@@ hazel-0091
+Das Moos auf der Ostseite ist weicher, als es aussieht.
+@@ hazel-0092
+Bleib heute Nacht. Ich halte den Regen ab.
+@@ hazel-0093
+Du bleibst.
+@@ hazel-0094
+Das Moos auf der Ostseite ist weicher, als es aussieht. Über dir haben sich ihre Äste ausgebreitet und ineinander verflochten, und der erste Regen tickt gegen die Blätter, ohne durchzukommen.
+@@ hazel-0095
+Zweihundert Frühlinge lang habe ich Leute an diesem Baum vorbeigehen sehen. Nicht einer hat sich je darunter hingelegt.
+@@ hazel-0096
+Die Tiere schauen zu. Ich hab ihnen gesagt, sie sollen weggehen. Niemand in diesem Hain hört auf mich.
+@@ hazel-0097
+Ihre Hände sind jetzt warm. Beim ersten Mal, als du die Rinde berührt hast, waren sie kalt. Sie sieht, dass es dir auffällt.
+@@ hazel-0098
+Das bist du. Das hast du gemacht. Ein Monat, in dem du dich mit hochgekrempelten Ärmeln an mich gelehnt hast.
+@@ hazel-0099
+Sie zieht dich am Hemd zu sich herunter. Ihr Haar fällt um euch beide, oben golden und an den Spitzen grün, und es riecht nach Regen.
+@@ hazel-0100
+Sag mir, wenn ich etwas falsch mache. Ich hab genau in einem Buch darüber gelesen, und das hat ein Holzfäller hier verloren, bevor die Mühle gebaut wurde.
+@@ hazel-0101
+Langsam. Ich hab alle Zeit der Welt, und ich würde gern einen Teil davon hierfür verwenden.
+@@ hazel-0102
+Danach liegst du im Moos, ihr Haar über deiner Brust. Über dir hat jedes Blatt auf ihrer Ostseite die helle Seite nach oben gedreht, wie vor einem Sturm. Es gibt keinen Sturm.
+@@ hazel-0103
+Sieh mich nicht... so an.
+@@ hazel-0104
+Es regnet die ganze Nacht. Nichts davon erreicht dich.
+@@ hazel-0105
+Außer der Zeit
+@@ hazel-0106
+Der Mühlgraben fließt, und die alte Hasel behält ihre Wurzeln. Du pflanzt eine zweite Hasel neben den neuen Kanal, und sie wächst schneller, als sie eigentlich dürfte, und neigt sich zum alten Baum, als würde sie lauschen. Du schläfst öfter im Hain als nicht, und die alte Hasel blüht zur falschen Jahreszeit, zu jeder Jahreszeit, was der Müller den Leuten inzwischen als gutes Omen verkauft.
+@@ hazel-0107
+Morgen im Hain. Auf der Ostseite des Baums sind Blüten, die letzte Nacht noch nicht da waren. Haseln blühen im Februar. Es ist Mai.
+@@ hazel-0108
+Zweihundert Jahre, und niemand hat mir gesagt, dass sich ein Geist so fühlen kann. Ich möchte festhalten, dass ich das sehr ruhig sage.
+@@ hazel-0109
+Schau sie nicht an. Die sind nicht für dich. Die sind saisonal.
+@@ hazel-0110
+Na gut. Sie sind für dich. Ich habe nicht mehr außerhalb der Saison geblüht, seit vor dem Bau der Mühle. Die Tiere werden reden.
+@@ hazel-0111
+Die alte Hasel im Morgengrauen, in voller Blüte, im Mai.
+@@ hazel-0112
+Sie zeigt dir, auf welchen Ästen du sitzen darfst und an welchen sie kitzlig ist. Die zweite Liste ist lang.
+@@ hazel-0113
+Der geht. Der geht. Der nicht. Ich mein's ernst. Lass es.
+@@ hazel-0114
+Pflanz etwas in meiner Nähe. Damit etwas von dir hier ist, wenn du es nicht bist.
+@@ hazel-0115
+Ein Setzling am neuen Mühlgraben, ein Band darum gebunden.
+@@ hazel-0116
+Du sagst, eine zweite Hasel, damit sie nicht die Einzige ist.
+@@ hazel-0117
+Welkes Laub fällt
+@@ hazel-0118
+Der Müller geht vorbei
+@@ hazel-0119
+Es beginnt zu regnen
+@@ hazel-0120
+Sommer
+@@ hazel-0121
+Jeder Samen und Spross auf dem Brett wächst eine Stufe.

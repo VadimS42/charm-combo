@@ -65,14 +65,22 @@ static func first_name(s: String) -> String:
 	return t(s).split(" ")[0].split("·")[0]
 
 
-static func install_fonts() -> void:
+static func install_fonts(reorder: bool = false) -> void:
 	var base := ThemeDB.fallback_font
-	if base == null or base.has_meta("cc_fonts"):
+	if base == null or (base.has_meta("cc_fonts") and not reorder):
 		return
 	var fb: Array[Font] = []
-	fb.assign(base.fallbacks)
-	# CJK (round 30): Simplified Chinese for the translation.
-	for path in ["res://assets/fonts/CharmComboSymbols.ttf", "res://assets/fonts/CharmComboCJK.otf", "res://assets/fonts/CharmComboEmoji.ttf"]:
+	if base.has_meta("cc_fonts"):
+		fb.assign(base.get_meta("cc_original", []))
+	else:
+		fb.assign(base.fallbacks)
+		base.set_meta("cc_original", base.fallbacks.duplicate())
+	# CJK (round 30): Simplified Chinese; Japanese (round 49) first when the
+	# game is in Japanese, so shared characters take their Japanese shapes.
+	var cjk := ["res://assets/fonts/CharmComboCJK.otf", "res://assets/fonts/CharmComboJP.otf"]
+	if TranslationServer.get_locale().begins_with("ja"):
+		cjk.reverse()
+	for path in ["res://assets/fonts/CharmComboSymbols.ttf"] + cjk + ["res://assets/fonts/CharmComboEmoji.ttf"]:
 		if ResourceLoader.exists(path):
 			var f = load(path)
 			if f is FontFile:

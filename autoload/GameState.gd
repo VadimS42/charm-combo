@@ -395,17 +395,24 @@ func reset_progress() -> void:
 	characters_progress = {}
 	items = DEFAULT_ITEMS.duplicate()
 	gallery = []
+	replays = []  # her replayable scenes go with the Gallery (round 49)
 	pending_epilogue_key = ""
 	save_state()
 
 
 ## The languages the game has (translations/<locale>.po), with their own names.
-const LANGUAGES := [["en", "English"], ["zh_CN", "简体中文"], ["ru", "Русский"]]
+## Round 49: Japanese, Spanish, Brazilian Portuguese and German (drafted,
+## for native speakers to check: docs/TRANSLATING.md).
+const LANGUAGES := [["en", "English"], ["zh_CN", "简体中文"], ["ru", "Русский"], ["ja", "日本語"],
+	["es", "Español"], ["pt_BR", "Português (Brasil)"], ["de", "Deutsch"]]
 
 
 func apply_language() -> void:
 	var lang := String(settings.get("language", ""))
 	TranslationServer.set_locale(lang if lang != "" else "en")
+	# Japanese and Chinese share characters but draw them differently: the
+	# font for the chosen language goes first (round 49).
+	UITheme.install_fonts(true)
 
 
 func set_language(lang: String) -> void:
