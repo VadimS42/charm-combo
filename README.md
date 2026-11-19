@@ -47,6 +47,11 @@ Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.m
   Gallery's scene replays.
 - **Tests:** desktop, mobile and safe-for-work tests pass; the mechanics test
   also plays a free date for each girl and a full daily challenge.
+- **Controller:** `tools/pad_test.gd` now also walks the daily challenge, the
+  Free date button, every Gallery tab, the picture viewer, a free date and its
+  score card, and a Story-difficulty chapter: every button is reachable with
+  the D-pad. The Android debug build exports cleanly with the new languages
+  and none of the night content.
 
 ## ✅ Status: round-48 — mobile finished: every screen fits, long-press, vibration
 

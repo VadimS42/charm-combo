@@ -80,8 +80,49 @@ func _go() -> void:
 		var pz = main._screen_obj
 		pz.moves_left = 0
 		pz._check_outcome())
+	if main.modal_open():
+		main.close_modal()
+	await _round49()
 	print("PAD TEST %s (%d problems)" % ["PASSED" if problems == 0 else "FAILED", problems])
 	quit()
+
+
+## Round 49's screens: daily challenge, free dates, Gallery tabs and picture
+## viewer, the score card after a free date, Story difficulty's skip button.
+func _round49() -> void:
+	# Opal's story finished, so Free date, the daily and the extras show.
+	var p = gs.progress_for("slime")
+	p["_intro_done"] = true
+	p["won_levels"] = [0, 1, 2, 3]
+	p["level_index"] = 3
+	p["endings_unlocked"] = ["warmth"]
+	gs.add_stat("chapters_won", 4)
+	gs.stats.erase("daily_" + PuzzleScreen.daily_key())
+	await _check("Main menu (daily on)", func(): main.show_menu())
+	await _check("Roster (Free date)", func():
+		main.roster_selected_id = "slime"
+		main.show_roster())
+	for page in GalleryScreen.PAGES:
+		await _check("Gallery: %s" % page[0], func(): main.show_gallery(String(page[0])))
+	var pics: Array = ExtrasScreen.unlocked_pictures()
+	if not pics.is_empty():
+		var tex = pics[0][1]
+		if tex is Texture2D:
+			await _check("Picture viewer", func():
+				main.show_gallery("pictures")
+				await create_timer(0.2).timeout
+				ExtrasScreen.view(main, tex))
+			main.close_modal()
+	await _check("Free date", func(): main.show_puzzle("slime", -1, "free"))
+	await _check("Free date: score card", func():
+		main.show_puzzle("slime", -1, "free")
+		await create_timer(0.3).timeout
+		main._screen_obj.score = 2400
+		main._screen_obj._show_mode_result())
+	await _check("Daily challenge", func(): main.show_daily())
+	gs.settings.difficulty = "story"
+	await _check("Chapter, Story difficulty", func(): main.show_puzzle("dryad"))
+	gs.settings.difficulty = "easy"
 
 
 ## Opens a screen, then walks it with the D-pad and reports what's unreachable.
