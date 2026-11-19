@@ -98,6 +98,40 @@ func _go() -> void:
 			print(line)
 			main.show_roster()
 			await create_timer(0.1).timeout
+	# Round 49: a free date with each girl (her pieces keep coming), and
+	# today's daily challenge played to the end.
+	for ch in CharacterData.all():
+		var id := String(ch.id)
+		main.show_puzzle(id, -1, "free")
+		await create_timer(0.2).timeout
+		var pz = main._screen_obj
+		for n in range(10):
+			var s: Dictionary = pz.rules.find_swap()
+			if s.is_empty():
+				break
+			pz._attempt_swap(s.r1, s.c1, s.r2, s.c2)
+			await _idle(pz)
+		var before_stars: int = gs.stars
+		pz._show_mode_result()
+		var fine: bool = pz.overlay.visible and pz.moves_left > 1000 and pz.rules.has_move()
+		print("%-9s free date: score %d, best %d, ended %s" % [id, pz.score, gs.stat("free_" + id), fine])
+		ok = ok and fine
+	gs.stats.erase("daily_" + PuzzleScreen.daily_key())
+	gs.progress_for("dryad")["won_levels"] = [0]
+	main.show_daily()
+	await create_timer(0.2).timeout
+	var dz = main._screen_obj
+	var guard := 0
+	while dz.moves_left > 0 and guard < 40 and main._screen_obj == dz:
+		guard += 1
+		var s2: Dictionary = dz.rules.find_swap()
+		if s2.is_empty():
+			break
+		dz._attempt_swap(s2.r1, s2.c1, s2.r2, s2.c2)
+		await _idle(dz)
+	var daily_ok: bool = dz._mode_done and gs.stats.has("daily_" + PuzzleScreen.daily_key()) and not main.daily_done_today() == false
+	print("daily challenge (%s): score %d, finished %s" % [dz.char_id, dz.score, daily_ok])
+	ok = ok and daily_ok
 	print("MECHANICS TEST %s" % ("PASSED" if ok else "FAILED"))
 	quit()
 

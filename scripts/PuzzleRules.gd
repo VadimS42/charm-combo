@@ -60,8 +60,15 @@ var combs_up := 0
 var moves_made := 0
 
 
-func setup(ch: Dictionary, level_index: int, p_weights: Array) -> void:
-	var level: Dictionary = ch.story.levels[level_index]
+## Free play and the daily challenge (round 49): her pieces keep coming back
+## (after_move()) and pay bonus points, since there's no goal to count.
+var endless := false
+const ENDLESS_SEAL_POINTS := 30
+const ENDLESS_COMB_POINTS := 150
+
+
+func setup(ch: Dictionary, level_index: int, p_weights: Array, level_override: Dictionary = {}) -> void:
+	var level: Dictionary = level_override if not level_override.is_empty() else ch.story.levels[level_index]
 	weights = p_weights
 	mech = String(level.get("mech", ""))
 	pieces = level.get("pieces", {})
@@ -343,6 +350,8 @@ func clear_cells(cells: Dictionary, is_match: bool) -> Dictionary:
 			seal[v.x][v.y] = false
 			seals_broken += 1
 			rep.seals.append(v)
+			if endless:
+				rep.bonus += ENDLESS_SEAL_POINTS
 			_score_gem(t, rep)
 			continue
 		_score_gem(t, rep)
@@ -487,6 +496,8 @@ func place_specials(specials: Array) -> Dictionary:
 ## new seed dropped into, or (-1, -1).
 func after_move() -> Vector2i:
 	moves_made += 1
+	if endless:
+		_refill_pieces()
 	if mech != "seed":
 		return Vector2i(-1, -1)
 	var every := int(pieces.get("every", 0))
@@ -503,6 +514,54 @@ func after_move() -> Vector2i:
 				continue
 			return Vector2i(0, c)
 	return Vector2i(-1, -1)
+
+
+## Endless play: a fresh batch of her pieces once they're nearly all used.
+func _refill_pieces() -> void:
+	var cells: Array = []
+	for r in range(SIZE):
+		for c in range(SIZE):
+			cells.append(Vector2i(r, c))
+	cells.shuffle()
+	match mech:
+		"seal":
+			if seals_left() < 2:
+				var n := 0
+				for v in cells:
+					if n >= 5:
+						break
+					if MatchEngine.is_normal(board[v.x][v.y]) and board[v.x][v.y] != MatchEngine.BROKEN_IDX and not seal[v.x][v.y]:
+						seal[v.x][v.y] = true
+						n += 1
+				if not has_move():
+					_fix_seals()
+					for v in cells:
+						seal[v.x][v.y] = false if not has_move() else seal[v.x][v.y]
+		"moss":
+			var left := 0
+			for row in moss:
+				for m in row:
+					left += 1 if m > 0 else 0
+			if left < 3:
+				var n := 0
+				for v in cells:
+					if n >= 10:
+						break
+					if moss[v.x][v.y] == 0:
+						moss[v.x][v.y] = (2 + randi() % ITEMS.size()) if n < 4 else 1
+						n += 1
+		"tide":
+			if count(COMB) == 0:
+				var cols := range(SIZE)
+				cols.shuffle()
+				for i in range(2):
+					var r := SIZE - 1
+					if MatchEngine.is_normal(board[r][cols[i]]):
+						board[r][cols[i]] = COMB
+				if not has_move():
+					for c in range(SIZE):
+						if board[SIZE - 1][c] == COMB:
+							board[SIZE - 1][c] = MatchEngine.weighted_rand_type(weights)
 
 
 func count(t: int) -> int:

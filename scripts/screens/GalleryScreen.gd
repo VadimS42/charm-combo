@@ -18,7 +18,19 @@ const CARD_PAD := 10.0
 const ROUTE_NAMES := {"warmth": "Her ending", "spark": "Spark route", "balanced": "Balanced route", "night": "Night scene"}
 
 
-static func build(main: Node, host: Control) -> void:
+## The Gallery's current route (Main uses it to tell a page switch from
+## arriving in the Gallery from elsewhere).
+static var route_tag: Callable
+
+
+static func is_route(c: Callable) -> bool:
+	return route_tag.is_valid() and c == route_tag
+
+
+const PAGES := [["endings", "Endings"], ["pictures", "Pictures"], ["music", "Music"], ["stats", "Stats"]]
+
+
+static func build(main: Node, host: Control, page: String = "endings") -> void:
 	host.add_child(UITheme.make_screen_backdrop(UITheme.SPECIAL_PINK, UITheme.ACCENT))
 
 	var margin := MarginContainer.new()
@@ -60,6 +72,50 @@ static func build(main: Node, host: Control) -> void:
 	top_row.add_child(counter)
 	top_row.add_child(UITheme.corner_gap())
 	outer.add_child(top_row)
+
+	# Round 49: Endings / Pictures / Music / Stats.
+	var tabs := HBoxContainer.new()
+	tabs.add_theme_constant_override("separation", 8)
+	var first_tab: Button = null
+	for pg in PAGES:
+		var key := String(pg[0])
+		var tb := UITheme.make_primary_button(String(pg[1])) if key == page else UITheme.make_ghost_button(String(pg[1]))
+		tb.pressed.connect(func():
+			SFX.nav()
+			main.show_gallery(key))
+		tabs.add_child(tb)
+		if key == page:
+			first_tab = tb
+	outer.add_child(tabs)
+	if page != "endings":
+		counter.visible = false
+		title.text = UITheme.t("Gallery")
+		var pscroll := ScrollContainer.new()
+		pscroll.size_flags_vertical = Control.SIZE_EXPAND_FILL
+		pscroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+		pscroll.follow_focus = true
+		outer.add_child(pscroll)
+		var pm := MarginContainer.new()
+		pm.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		pm.add_theme_constant_override("margin_right", 12)
+		pscroll.add_child(pm)
+		var content: Control
+		match page:
+			"pictures": content = ExtrasScreen.pictures_page(main)
+			"music": content = ExtrasScreen.music_page(main)
+			_: content = ExtrasScreen.stats_page(main)
+		if page == "stats" or page == "music":
+			var c := CenterContainer.new()
+			c.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+			content.custom_minimum_size.x = 560
+			c.add_child(content)
+			content = c
+		pm.add_child(content)
+		var firstb := _first_button(content)
+		main.nav_setup(firstb if firstb != null else first_tab, func():
+			SFX.nav()
+			main.leave_gallery())
+		return
 
 	if found == 0:
 		var hint := UITheme.soft_label(

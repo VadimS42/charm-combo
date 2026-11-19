@@ -77,6 +77,10 @@ static func build(main: Node, host: Control) -> void:
 	var play_center := CenterContainer.new()
 	play_center.add_child(play_btn)
 	v.add_child(play_center)
+	# Round 49: today's challenge.
+	var daily_center := CenterContainer.new()
+	daily_center.add_child(main.daily_button())
+	v.add_child(daily_center)
 
 	var row := HBoxContainer.new()
 	row.alignment = BoxContainer.ALIGNMENT_CENTER

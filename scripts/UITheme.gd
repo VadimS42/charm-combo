@@ -464,10 +464,25 @@ static func make_choice_button(text: String, accent: Color) -> Button:
 	return _add_hover_lift(b, 1.025)
 
 
+## Settings → Text size (round 49): every label made by heading() / body()
+## (nearly all of the game's text) is scaled by this.
+static func text_scale() -> float:
+	match String(GameState.settings.get("text_size", "normal")):
+		"large": return 1.15
+		"larger": return 1.3
+	return 1.0
+
+
+## Settings → Messages stay longer (round 49): pop-up messages and her speech
+## bubble stay this many times longer.
+static func message_time(sec: float) -> float:
+	return sec * (2.5 if bool(GameState.settings.get("long_messages", false)) else 1.0)
+
+
 static func heading(text: String, size: int = 24) -> Label:
 	var l := Label.new()
 	l.text = text
-	l.add_theme_font_size_override("font_size", size)
+	l.add_theme_font_size_override("font_size", roundi(size * text_scale()))
 	l.add_theme_color_override("font_color", INK)
 	l.autowrap_mode = TextServer.AUTOWRAP_WORD
 	return l
@@ -476,7 +491,7 @@ static func heading(text: String, size: int = 24) -> Label:
 static func body(text: String, size: int = 14, color: Color = INK) -> Label:
 	var l := Label.new()
 	l.text = text
-	l.add_theme_font_size_override("font_size", size)
+	l.add_theme_font_size_override("font_size", roundi(size * text_scale()))
 	l.add_theme_color_override("font_color", color)
 	l.autowrap_mode = TextServer.AUTOWRAP_WORD
 	return l

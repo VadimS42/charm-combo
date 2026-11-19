@@ -217,6 +217,39 @@ func set_achievement(id: String, store_now: bool = true) -> void:
 		_store_stats()
 
 
+## A Steam stat (round 49; API name = the key in GameState.stats, set up in
+## Steamworks as an INT stat: see docs/STEAM_SETUP.md). Stored with the next
+## achievement or on quit; skipped in Testing Mode.
+func set_stat(key: String, value: int) -> void:
+	if steam == null or bool(GameState.settings.get("test_mode", false)):
+		return
+	if steam.has_method("setStatInt"):
+		steam.setStatInt(key, value)
+	elif steam.has_method("setStat"):
+		steam.setStat(key, value)
+
+
+## A score on a Steam leaderboard (round 49: free play and the daily
+## challenge). Leaderboards are created in Steamworks with these names; the
+## upload keeps the player's best. No-op without Steam.
+func post_score(board: String, score: int) -> void:
+	if steam == null or bool(GameState.settings.get("test_mode", false)):
+		return
+	if not steam.has_signal("leaderboard_find_result"):
+		return
+	var cb := func(handle, found):
+		if int(found) == 1 and steam.has_method("uploadLeaderboardScore"):
+			steam.uploadLeaderboardScore(score, true, PackedInt32Array(), handle)
+	if not steam.is_connected("leaderboard_find_result", cb):
+		steam.connect("leaderboard_find_result", cb, CONNECT_ONE_SHOT)
+	# Created on first use (descending, numeric), so the daily boards don't
+	# each need setting up in Steamworks.
+	if steam.has_method("findOrCreateLeaderboard"):
+		steam.findOrCreateLeaderboard(board, 2, 1)
+	elif steam.has_method("findLeaderboard"):
+		steam.findLeaderboard(board)
+
+
 func _store_stats() -> void:
 	if steam != null:
 		steam.storeStats()

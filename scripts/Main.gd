@@ -449,7 +449,7 @@ func show_mobile(tab: String, sub: String = "") -> void:
 	clear_screen()
 	_rebuild_route = func(): show_mobile(tab, sub)
 	refresh_topbar()
-	_menu_music()
+	_menu_music(tab == "gallery")
 	MobileShell.show(self, tab, sub)
 
 
@@ -467,10 +467,23 @@ func show_menu() -> void:
 
 ## Menu-type screens (menu, roster, gallery, store, credits, achievements)
 ## share the menu theme (and tell Steam friends you're in the menus).
-func _menu_music() -> void:
+## The track picked in the Gallery's Music page (round 49): it keeps playing
+## while you stay in the Gallery, and the menu theme comes back after.
+var music_pick := ""
+
+
+func _menu_music(in_gallery: bool = false) -> void:
 	story_music = ""
-	Music.play(["menu"])
+	if not in_gallery:
+		music_pick = ""
+	Music.play([music_pick] if music_pick != "" else ["menu"])
 	Platform.set_presence("menu")
+
+
+## Rebuilds the Gallery page on screen (the Music page, after picking a track).
+func refresh_extras() -> void:
+	if _rebuild_route.is_valid():
+		_rebuild_route.call()
 
 
 static func _girl_name(char_id: String) -> String:
@@ -490,7 +503,8 @@ func show_roster() -> void:
 
 ## replay >= 0 replays that already-cleared chapter for stars instead of
 ## playing her current one (round 33, see PuzzleScreen.replay).
-func show_puzzle(char_id: String, replay: int = -1) -> void:
+## mode (round 49): "" her story, "free" a free date, "daily" today's challenge.
+func show_puzzle(char_id: String, replay: int = -1, mode: String = "") -> void:
 	current_char_id = char_id
 	clear_screen()
 	refresh_topbar()
@@ -506,7 +520,41 @@ func show_puzzle(char_id: String, replay: int = -1) -> void:
 	# and holding it here lets clear_screen() tear it down on ANY exit.
 	var puzzle := PuzzleScreen.new()
 	_screen_obj = puzzle
-	puzzle.setup(self, screen_host, char_id, replay)
+	puzzle.setup(self, screen_host, char_id, replay, mode)
+
+
+## Today's daily challenge (round 49): one scored try a day. Unlocked once any
+## chapter has been cleared (the boards use her last chapter's piece).
+static func daily_available() -> bool:
+	return GameState.stat("chapters_won") > 0 or CharacterData.all().any(func(c):
+		return not (GameState.progress_for(String(c.id)).get("won_levels", []) as Array).is_empty())
+
+
+static func daily_done_today() -> bool:
+	return GameState.stats.has("daily_" + PuzzleScreen.daily_key())
+
+
+func show_daily() -> void:
+	if daily_done_today():
+		return
+	GameState.stats["daily_" + PuzzleScreen.daily_key()] = 0
+	GameState.save_state()
+	show_puzzle(PuzzleScreen.daily_girl(), -1, "daily")
+
+
+## A button for the menu / Home: today's challenge, or today's score.
+func daily_button() -> Button:
+	var done := daily_done_today()
+	var b := UITheme.make_ghost_button(UITheme.t("Daily challenge: %d pts") % GameState.stat("daily_" + PuzzleScreen.daily_key())
+		if done else UITheme.t("Daily challenge"))
+	UITheme.add_icon(b, "star")
+	b.disabled = done or not daily_available()
+	b.tooltip_text = UITheme.t("A new board every day, the same for everyone: %d moves, one try. Come back tomorrow for the next.") % PuzzleScreen.DAILY_MOVES \
+		if daily_available() else UITheme.t("Clear any chapter to unlock the daily challenge.")
+	b.pressed.connect(func():
+		SFX.nav()
+		show_daily())
+	return b
 
 
 # ---- Settings (an overlay, not a screen — see overlay_host) ----
@@ -657,16 +705,18 @@ func show_ending_art_beat(char_id: String, caption: String, on_continue: Callabl
 ## keeps the original.
 var _gallery_return: Callable = Callable()
 
-func show_gallery() -> void:
+## page (round 49): "endings", "pictures", "music" or "stats".
+func show_gallery(page: String = "endings") -> void:
 	if Platform.mobile:
-		show_mobile("gallery")
+		show_mobile("gallery", "" if page == "endings" else page)
 		return
-	if _rebuild_route.is_valid() and _rebuild_route != show_gallery:
+	if _rebuild_route.is_valid() and not GalleryScreen.is_route(_rebuild_route):
 		_gallery_return = _rebuild_route
 	clear_screen()
-	_rebuild_route = show_gallery
-	_menu_music()
-	GalleryScreen.build(self, screen_host)
+	_rebuild_route = func(): show_gallery(page)
+	GalleryScreen.route_tag = _rebuild_route
+	_menu_music(true)
+	GalleryScreen.build(self, screen_host, page)
 
 
 func leave_gallery() -> void:

@@ -131,8 +131,8 @@ static func build(main: Node, host: Control) -> void:
 	# date's events (PuzzleScreen.EVENT_KINDS). Takes effect from the next
 	# chapter started.
 	v.add_child(_choice_row(
-		"Difficulty", "Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Takes effect from the next chapter.",
-		[["easy", "Easy"], ["hard", "Hard"]],
+		"Difficulty", "Story: twice the moves, and you can skip any chapter. Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Takes effect from the next chapter.",
+		[["story", "Story"], ["easy", "Easy"], ["hard", "Hard"]],
 		String(GameState.settings.get("difficulty", "easy")),
 		func(key: String):
 			GameState.settings.difficulty = key
@@ -160,6 +160,34 @@ static func build(main: Node, host: Control) -> void:
 		bool(GameState.settings.get("skip_unseen", false)),
 		func(on: bool):
 			GameState.settings.skip_unseen = on
+			GameState.save_state()
+	))
+
+	# Accessibility (round 49).
+	v.add_child(_choice_row(
+		"Text size", "Bigger text everywhere: dialogue, menus and the puzzle.",
+		[["normal", "Normal"], ["large", "Large"], ["larger", "Larger"]],
+		String(GameState.settings.get("text_size", "normal")),
+		func(key: String):
+			GameState.settings.text_size = key
+			GameState.save_state()
+			main.mark_settings_dirty()
+			main.close_settings()
+			main.show_settings()
+	))
+	v.add_child(_row(
+		"Gem numbers", "Each kind of gem shows a number, so you don't need colour to tell them apart.",
+		bool(GameState.settings.get("gem_symbols", false)),
+		func(on: bool):
+			GameState.settings.gem_symbols = on
+			GameState.save_state()
+			main.mark_settings_dirty()
+	))
+	v.add_child(_row(
+		"Messages stay longer", "Pop-up messages and her speech bubble in a chapter stay on screen longer. Dialogue always waits for you unless Auto is on.",
+		bool(GameState.settings.get("long_messages", false)),
+		func(on: bool):
+			GameState.settings.long_messages = on
 			GameState.save_state()
 	))
 

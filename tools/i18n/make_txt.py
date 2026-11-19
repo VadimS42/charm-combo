@@ -47,7 +47,9 @@ UI_SKIP = {"Camera", "Motes", "Enter", "Backspace", "Start", "Esc", "Arrows", "R
            " should start with [ and end with ] (a list of the four characters).", "\n    License: ",
            "This game uses Godot Engine, available under the following license:", "Third-party components",
            "License texts", "Bundled fonts", "💞 Charm Combo", "Charm Combo", "Frame",
-           "\nTest build: using your edited characters.json from the game's folder.", "Seal", "Moss", "Glyph", "Control", "R1 (hold)", "Epic build", "Android build",
+           "\nTest build: using your edited characters.json from the game's folder.", "Seal", "Moss", "Glyph", "Control", "Num", "Sweet Serene", "Fablefly Music",
+           "Sexy Scene Instrumentals Vol. 4", "Sascha Ende", "Underwater Theme II", "Cleyton Kauffman",
+           "Binary Underwater Village", "Alex McCulloch", "Enchanted Hollow", "Eric Matyas", "Sexy Scene Vol. 3", "R1 (hold)", "Epic build", "Android build",
            "Epic build (no EOS bridge: achievements stay in the game)"}
 UI_SKIP_STARTS = ("Open that file, fix the line",)
 
@@ -70,7 +72,17 @@ UI_EXTRA = ["%d / %d unlocked", "%d / %d endings found", "Click to view.", "%d p
             # Round 47: the phone menus (MobileShell).
             "Home", "Girls", "Shop", "Gallery", "More", "Continue with %s", "You have %d", "Endings",
             "A match-3 romance in Millbrook. Meet four women in the worst way possible, help them with what they need, and see where it goes.",
-            "Original characters · all characters are adults.", "18+ · original characters · all characters are adults."]
+            "Original characters · all characters are adults.", "18+ · original characters · all characters are adults.",
+            # Round 49: Story difficulty, stats, accessibility, extras, free play, daily.
+            "Play time", "Chapters cleared", "Matches made", "Gems cleared", "Best combo", "Best chapter score",
+            "Special gems made", "Her powers used", "Amara's seals broken", "Comb pieces brought up",
+            "Opal's things found", "Hazel's blossoms grown", "Best date with %s", "Best daily challenge",
+            "Pictures", "Music", "Stats", "Endings", "Not unlocked yet", "Her night scene",
+            "A free date", "Daily challenge", "Daily challenge: %d pts", "What a date!", "Today's challenge",
+            "%d pts", "A new best!", "Your best: %d", "best %d", "SCORE",
+            "A new board every day, the same for everyone: %d moves, one try. Come back tomorrow for the next.",
+            "Clear any chapter to unlock the daily challenge.",
+            "Her board with no move limit, just for fun and a high score."]
 
 
 def ui_strings():

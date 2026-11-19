@@ -46,13 +46,19 @@ const DEFAULT_SETTINGS := {
 	# | "instant"), whether Skip also skips lines you haven't read, and how
 	# long Auto waits after a line (0..1: quick .. slow).
 	"text_speed": "normal",
-	# Puzzle difficulty (round 41): "easy" (the classic puzzle) or "hard"
+	# Puzzle difficulty: "story" (round 49: twice the moves, skip any chapter),
+	# "easy" (round 41: the classic puzzle) or "hard"
 	# (the date's events, PuzzleScreen.EVENT_KINDS).
 	"difficulty": "easy",
 	"skip_unseen": false,
 	"auto_delay": 0.5,
 	"reduce_motion": false,
 	"vibration": true,  # phones: a buzz on matches (SFX.buzz)
+	# Accessibility (round 49): text size ("normal" / "large" / "larger"),
+	# a number on each gem, pop-ups and her speech bubble staying longer.
+	"text_size": "normal",
+	"gem_symbols": false,
+	"long_messages": false,
 	"theme": "system",  # "system" | "light" | "dark" (not ported yet)
 	"test_mode": false,
 	"fullscreen": false,
@@ -94,6 +100,11 @@ var seen_lines: Dictionary = {}
 ## gallery.
 var replays: Array = []
 var tips_seen: Array = []
+## Lifetime numbers (round 49) for the Gallery's Stats page, Steam stats and
+## the stat achievements: counts (add_stat) and bests (best_stat), plus free
+## play / daily challenge high scores ("free_<char id>", "daily_<yyyymmdd>").
+## Kept through Reset Progress, like the gallery.
+var stats: Dictionary = {}
 
 ## In-memory only (not persisted): the "key" of whichever option was just
 ## picked in a character's epilogue choice (see StoryFlow's _play_epilogue()/
@@ -114,6 +125,17 @@ func _ready() -> void:
 	get_tree().auto_accept_quit = false
 	process_mode = Node.PROCESS_MODE_ALWAYS
 	apply_window_mode()
+
+
+## Play time for the Stats page, counted in 10-second steps (round 49).
+var _play_acc := 0.0
+
+
+func _process(delta: float) -> void:
+	_play_acc += delta
+	if _play_acc >= 10.0:
+		_play_acc -= 10.0
+		add_stat("play_seconds", 10)
 
 
 func _notification(what: int) -> void:
@@ -177,6 +199,7 @@ func save_state() -> void:
 		"seen_lines": seen_lines.keys(),
 		"tips_seen": tips_seen,
 		"replays": replays,
+		"stats": stats,
 	}
 	var f := FileAccess.open(TEMP_PATH, FileAccess.WRITE)
 	if f == null:
@@ -252,6 +275,10 @@ func load_state() -> void:
 	if typeof(parsed.get("seen_lines")) == TYPE_ARRAY:
 		for k in parsed.seen_lines:
 			seen_lines[String(k)] = true
+	stats = {}
+	if typeof(parsed.get("stats")) == TYPE_DICTIONARY:
+		for k in parsed.stats.keys():
+			stats[String(k)] = parsed.stats[k]
 	replays = []
 	if typeof(parsed.get("replays")) == TYPE_ARRAY:
 		for k in parsed.replays:
@@ -340,6 +367,27 @@ static func _read_json(path: String):
 		return null
 	var parsed = json.data
 	return parsed if typeof(parsed) == TYPE_DICTIONARY else null
+
+
+## Adds n to a lifetime count (and Steam's stat of the same name).
+func add_stat(key: String, n: int = 1) -> void:
+	if n == 0:
+		return
+	stats[key] = int(stats.get(key, 0)) + n
+	Platform.set_stat(key, int(stats[key]))
+
+
+## Keeps the higher of the stored best and v. True if v is a new best.
+func best_stat(key: String, v: int) -> bool:
+	if v <= int(stats.get(key, 0)):
+		return false
+	stats[key] = v
+	Platform.set_stat(key, v)
+	return true
+
+
+func stat(key: String) -> int:
+	return int(stats.get(key, 0))
 
 
 func reset_progress() -> void:

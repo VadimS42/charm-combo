@@ -24,6 +24,9 @@ msgstr "%d / %d分"
 msgid "%d / %d unlocked"
 msgstr "已解锁 %d / %d"
 
+msgid "%d pts"
+msgstr "%d 分"
+
 msgid "%d pts — rough start..."
 msgstr "%d分——开局不顺……"
 
@@ -72,6 +75,9 @@ msgstr "一条可爱的壕沟"
 msgid "A Quiet Place"
 msgstr "一个安静的地方"
 
+msgid "A Thousand Sparkles"
+msgstr "千般闪耀"
+
 msgid "A clock that only works when the sun's out."
 msgstr "一个只有出太阳时才走的钟。"
 
@@ -87,6 +93,9 @@ msgstr "一块梳子碎片!%d / %d"
 msgid "A folding brass sundial small enough for a pocket. It only tells the time on sunny days, which as far as she's concerned are the only days that need it."
 msgstr "一只折叠式黄铜日晷,小得能放进口袋。只有晴天才能报时,而在她看来,只有晴天才值得报时。"
 
+msgid "A free date"
+msgstr "自由约会"
+
 msgid "A glass marble with a ribbon of gold twisted through it, the kind nobody's made for decades."
 msgstr "一颗扭着金色丝带的玻璃弹珠,是几十年前就没人做的那种。"
 
@@ -101,6 +110,12 @@ msgstr "一款面向成年人的三消恋爱游戏,故事发生在暮色小镇�
 
 msgid "A match-3 romance in Millbrook. Meet four women in the worst way possible, help them with what they need, and see where it goes."
 msgstr "发生在米尔布鲁克的三消恋爱游戏。以最糟糕的方式结识四位女性,帮她们解决所需,看看会走向何方。"
+
+msgid "A new best!"
+msgstr "新纪录!"
+
+msgid "A new board every day, the same for everyone: %d moves, one try. Come back tomorrow for the next."
+msgstr "每天一个新棋盘,所有人都一样:%d 步,一次机会。明天再来挑战下一个。"
 
 msgid "A new seed drops in."
 msgstr "落下了一颗新种子。"
@@ -195,6 +210,9 @@ msgstr "阿玛拉·达斯克罗斯"
 msgid "Amara's power: Correct Lines"
 msgstr "阿玛拉的能力:校正行列"
 
+msgid "Amara's seals broken"
+msgstr "打破阿玛拉的封印"
+
 msgid "Amara. It's the one I use. The real one is in the book, along with everything else that keeps me on a leash."
 msgstr "阿玛拉。这是我用的名字。真名在那本书里,连同其他所有拴着我的东西。"
 
@@ -221,6 +239,9 @@ msgstr "而你还是什么都没向我要。"
 
 msgid "And you're not going to tell anyone either, are you, lifeguard?"
 msgstr "你也不会告诉任何人的,对吧,救生员?"
+
+msgid "Another date"
+msgstr "再约一次"
 
 msgid "Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing."
 msgstr "任何有效的消除都会立即达成章节目标,并奖励99颗星星——仅供QA测试,不适合正常游玩。"
@@ -249,11 +270,26 @@ msgstr "返回名册"
 msgid "Balanced route"
 msgstr "平衡路线"
 
+msgid "Best chapter score"
+msgstr "章节最高分"
+
+msgid "Best combo"
+msgstr "最佳连击"
+
+msgid "Best daily challenge"
+msgstr "每日挑战最佳"
+
+msgid "Best date with %s"
+msgstr "与%s的最佳约会"
+
 msgid "Better than the last one the miller sent."
 msgstr "比磨坊主上次派来的那个强。"
 
 msgid "Between the roots of an old oak, someone has dug a little hollow and lined it with moss. In it sits a big glass jar, sealed with wax. The label says PICKLED NEWTS, DO NOT OPEN, in handwriting that's trying to be funny."
 msgstr "一棵老橡树的树根之间,有人挖了一个小凹坑,铺上了苔藓。里面放着一个蜡封的大玻璃罐。标签上写着“腌蝾螈,请勿打开”,字迹努力想显得好笑。"
+
+msgid "Bigger text everywhere: dialogue, menus and the puzzle."
+msgstr "所有地方的文字都更大:对话、菜单和谜题。"
 
 msgid "Black cover. No title. It'll feel warm. Don't open it."
 msgstr "黑色封面。没有书名。摸起来是温的。别打开。"
@@ -273,6 +309,9 @@ msgstr "板子是给救生员的。不是给我的。"
 msgid "Boathouse. It's got a door. Gran can't see through doors. Probably."
 msgstr "船屋。那里有门。奶奶看不穿门。大概吧。"
 
+msgid "Bookbinder"
+msgstr "装订师"
+
 msgid "Boom!"
 msgstr "嘭!"
 
@@ -281,6 +320,12 @@ msgstr "脚下的荆棘"
 
 msgid "Brass Pocket Sundial"
 msgstr "黄铜袖珍日晷"
+
+msgid "Break 50 of Amara's seals."
+msgstr "打破阿玛拉的 50 个封印。"
+
+msgid "Bring 10 comb pieces up for Marina."
+msgstr "为玛丽娜捞起 10 块梳子碎片。"
 
 msgid "But I'll allow it. Bring the shovel tomorrow though."
 msgstr "不过我准了。明天记得带铲子来。"
@@ -345,6 +390,9 @@ msgstr "第%d章 · +%d ⭐"
 msgid "Chapter cleared!"
 msgstr "章节通关!"
 
+msgid "Chapters cleared"
+msgstr "已通关章节"
+
 msgid "Charm Burst"
 msgstr "魅力爆发"
 
@@ -390,6 +438,9 @@ msgstr "用锤子清除一个诅咒碎片。"
 msgid "Clear all the way through. Like me."
 msgstr "从里到外都是透明的。像我一样。"
 
+msgid "Clear any chapter to unlock the daily challenge."
+msgstr "通关任意一章即可解锁每日挑战。"
+
 msgid "Clear the moss to find her things: buttons, marbles, keys, the glass eye. Find enough of them to win."
 msgstr "清掉苔藓找回她的东西:纽扣、弹珠、钥匙、玻璃眼。找到足够多就能过关。"
 
@@ -413,6 +464,9 @@ msgstr "关闭设置"
 
 msgid "Comb pieces"
 msgstr "梳子碎片"
+
+msgid "Comb pieces brought up"
+msgstr "捞起的梳子碎片"
 
 msgid "Comb pieces rise when the gems above them clear."
 msgstr "上方的宝石被清除时,梳子碎片就会上浮。"
@@ -458,6 +512,12 @@ msgstr "诅咒碎片"
 
 msgid "Cursed shards"
 msgstr "诅咒碎片"
+
+msgid "Daily challenge"
+msgstr "每日挑战"
+
+msgid "Daily challenge: %d pts"
+msgstr "每日挑战:%d 分"
 
 msgid "Dark, cracked shards cost you points when they're part of a match. The Hammer smashes one for free."
 msgstr "暗色的裂开碎片如果被消除,会扣分。锤子可以免费砸碎一个。"
@@ -534,6 +594,9 @@ msgstr "每一章都有一个目标和固定步数。起初是分数;从她的�
 msgid "Each chapter has a points goal and a number of moves. Reach the goal before your moves run out and the story carries on. There's no timer: take as long as you like."
 msgstr "每个章节都有分数目标和步数限制。在步数用完前达到目标,故事就会继续。没有计时器,慢慢来。"
 
+msgid "Each kind of gem shows a number, so you don't need colour to tell them apart."
+msgstr "每种宝石都显示一个数字,不靠颜色也能区分。"
+
 msgid "Easy"
 msgstr "简单"
 
@@ -542,6 +605,12 @@ msgstr "吃你的午饭吧。我相信她的面包很好吃。我可不知道。
 
 msgid "Ember"
 msgstr "余烬"
+
+msgid "End the date"
+msgstr "结束约会"
+
+msgid "End this date and see your score."
+msgstr "结束这次约会并查看得分。"
 
 msgid "Ending Gallery"
 msgstr "结局图鉴"
@@ -554,6 +623,9 @@ msgstr "结局"
 
 msgid "English"
 msgstr "English"
+
+msgid "Every Day Counts"
+msgstr "每天都算数"
 
 msgid "Every few moves something happens around you: the panel on her side says what and when. It might raise what it takes to win her over, turn gems into cursed shards, cost you a move or halve your Charm ring. Matching her favourite gem holds it off a move; a Charm Burst clears it."
 msgstr "每走几步,你们身边就会发生点什么:她那一侧的面板会告诉你是什么、何时发生。它可能提高赢得她的心所需的分数、把宝石变成诅咒碎片、让你少一步,或让魅力环减半。消除她最爱的宝石能推迟一步;魅力爆发能把它化解。"
@@ -612,6 +684,12 @@ msgstr "填满魅力环"
 msgid "Fill the whole screen. F11 toggles it anywhere."
 msgstr "铺满整个屏幕。F11可随时切换。"
 
+msgid "Find 30 of Opal's lost things under the moss."
+msgstr "在苔藓下找到欧泊的 30 件失物。"
+
+msgid "Finders Keepers"
+msgstr "捡到归我"
+
 msgid "Fine. They're for you. I haven't flowered out of season since before the mill was built. The animals are going to talk."
 msgstr "好吧。是为你开的。自从磨坊建起来,我就再没在不合季节的时候开过花。动物们要议论了。"
 
@@ -623,6 +701,9 @@ msgstr "通关黑泽尔的故事,并且每次都选择温柔的回应。"
 
 msgid "Finish Hazel's story teasing her in every reply."
 msgstr "通关黑泽尔的故事,并且每次回应都调侃她。"
+
+msgid "Finish a daily challenge."
+msgstr "完成一次每日挑战。"
 
 msgid "Fire. In a grove. Really?"
 msgstr "火。在树林里。认真的吗?"
@@ -657,6 +738,9 @@ msgstr "四百一十二。我每晚都会检查。"
 msgid "Four hundred buttons is a lot of strangers' buttons."
 msgstr "四百颗纽扣,可是很多陌生人的纽扣呢。"
 
+msgid "Free date"
+msgstr "自由约会"
+
 msgid "Frosted Sea-Glass Pendant"
 msgstr "磨砂海玻璃吊坠"
 
@@ -665,6 +749,12 @@ msgstr "全屏"
 
 msgid "Gallery"
 msgstr "图鉴"
+
+msgid "Gem numbers"
+msgstr "宝石编号"
+
+msgid "Gems cleared"
+msgstr "消除的宝石"
 
 msgid "Gently. Like that."
 msgstr "轻点。就这样。"
@@ -708,6 +798,9 @@ msgstr "奶奶,我没事。我一直都这样。"
 msgid "Greedy. Oh, so you'll make him pay you to help me? I like that."
 msgstr "贪心。哦,所以你要让他付钱给你来帮我?我喜欢。"
 
+msgid "Grow 25 of Hazel's blossoms."
+msgstr "种出黑泽尔的 25 朵花。"
+
 msgid "Grow enough seeds into blossoms to win. A new seed drops in every few moves."
 msgstr "把足够多的种子种成花朵就能过关。每隔几步会落下一颗新种子。"
 
@@ -728,6 +821,9 @@ msgstr "困难:约会中的意外"
 
 msgid "Hazel Mossgrove"
 msgstr "黑泽尔·莫斯格罗夫"
+
+msgid "Hazel's blossoms grown"
+msgstr "种出黑泽尔的花朵"
 
 msgid "Hazel's power: Summer"
 msgstr "黑泽尔的能力:盛夏"
@@ -752,6 +848,9 @@ msgstr "他从没这样做过。四十个春天,他一次都没这样做过。"
 
 msgid "Hear the girls speak their lines."
 msgstr "听女孩们说出她们的台词。"
+
+msgid "Her board with no move limit, just for fun and a high score."
+msgstr "她的棋盘,不限步数,纯粹为了好玩和高分。"
 
 msgid "Her corrections in red pencil, all over the loose page that started it."
 msgstr "她用红铅笔在那张引发一切的散页上做的修改。"
@@ -795,8 +894,14 @@ msgstr "她的夜晚场景"
 msgid "Her power"
 msgstr "她的能力"
 
+msgid "Her powers used"
+msgstr "使用她的能力次数"
+
 msgid "Her sisters start watching"
 msgstr "她的姐妹们开始围观"
+
+msgid "Her story carries on as if you'd cleared it. You don't get its stars."
+msgstr "她的故事会像你通关了一样继续。你拿不到这章的星星。"
 
 msgid "Her story starts over from your first meeting, so you can make different choices. Endings you've found stay in the Gallery, your gift stays given, and her chapters pay out stars again."
 msgstr "她的故事会从你们初次相遇重新开始,这样你可以做出不同的选择。你已找到的结局会保留在图鉴中,送出的礼物依然算送出,她的章节也会再次给予星星。"
@@ -990,6 +1095,9 @@ msgstr "要是你比我先找到,别打开。"
 msgid "If you're going to draw these, you'll draw them properly. Nobody else is coming through a circle this pathetic."
 msgstr "你要是打算画这些,就好好画。这么可怜的圈,没人会再进来了。"
 
+msgid "In Full Bloom"
+msgstr "盛放"
+
 msgid "In her chapters everything floats: gems rise, and new ones come up from the bottom."
 msgstr "在她的章节里一切都会漂浮:宝石向上浮,新的宝石从底部冒出来。"
 
@@ -1071,6 +1179,9 @@ msgstr "道具商店"
 msgid "Items"
 msgstr "道具"
 
+msgid "Just Because"
+msgstr "只是因为想"
+
 msgid "Keep voices on"
 msgstr "保持开启"
 
@@ -1082,6 +1193,12 @@ msgstr "语言"
 
 msgid "Language · 语言 · Язык"
 msgstr "Language · 语言 · Язык"
+
+msgid "Large"
+msgstr "大"
+
+msgid "Larger"
+msgstr "更大"
 
 msgid "Last night was the best thing that's happened to me in thirty-one years. Possibly ever. I'm not exaggerating. I've had a lot of time to compare."
 msgstr "昨晚是我三十一年来发生过的最好的事。也许是有史以来。我没有夸张。我有很多时间可以比较。"
@@ -1140,6 +1257,9 @@ msgstr "使用Godot引擎制作"
 msgid "Main menu"
 msgstr "主菜单"
 
+msgid "Make 1000 matches."
+msgstr "完成 1000 次消除。"
+
 msgid "Make a Starburst."
 msgstr "制造一个星爆。"
 
@@ -1176,6 +1296,9 @@ msgstr "消除花瓣,黑泽尔最爱的宝石:它们让魅力环充得快一倍,
 msgid "Match runes, Amara's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards."
 msgstr "消除符文,阿玛拉最爱的宝石:它们让魅力环充得快一倍,在困难模式下还能推迟即将发生的事。疗愈药水能减少诅咒碎片。"
 
+msgid "Matches made"
+msgstr "消除次数"
+
 msgid "Maybe I'm saving my wish for something good."
 msgstr "也许我是在把愿望留给更好的事。"
 
@@ -1199,6 +1322,9 @@ msgstr "疗愈药水已生效!"
 
 msgid "Mermaid of Saltwick Cove"
 msgstr "索尔特威克湾的美人鱼"
+
+msgid "Messages stay longer"
+msgstr "消息停留更久"
 
 msgid "Millbrook Circle"
 msgstr "米尔布鲁克圈子"
@@ -1302,6 +1428,9 @@ msgstr "尚未发现:完成她的故事即可解锁。"
 msgid "Not met yet"
 msgstr "尚未结识"
 
+msgid "Not unlocked yet"
+msgstr "尚未解锁"
+
 msgid "Nothing here yet — finish a girl's story to add her ending."
 msgstr "这里还空着——完成一位女孩的故事,即可加入她的结局。"
 
@@ -1380,6 +1509,9 @@ msgstr "欧泊正式搬了进来。她的收藏长出了第二个架子,然后�
 msgid "Opal's power: Absorb"
 msgstr "欧泊的能力:吸收"
 
+msgid "Opal's things found"
+msgstr "找到欧泊的东西"
+
 msgid "Opal: her lost collection"
 msgstr "欧泊:她丢失的收藏"
 
@@ -1443,6 +1575,12 @@ msgstr "拿起"
 msgid "Pickled newts don't usually have a date pencilled on the wax: the second of January. You open it anyway."
 msgstr "腌蝾螈的蜡封上通常不会用铅笔写日期:一月二日。你还是打开了。"
 
+msgid "Pictures"
+msgstr "图片"
+
+msgid "Pictures appear here as you meet the girls and reach their endings."
+msgstr "结识女孩们、达成她们的结局后,图片会出现在这里。"
+
 msgid "Pieces of Gran's comb start near the bottom. They can't be matched or moved: clear the gems above them and they rise. One that reaches the top row is yours."
 msgstr "奶奶梳子的碎片一开始在底部附近。它们不能消除也不能移动:清除它们上方的宝石,它们就会上浮。到达最上面一行的碎片就归你了。"
 
@@ -1461,8 +1599,14 @@ msgstr "再玩一次已通关的章节来赚星星。没有剧情场景,她的�
 msgid "Play it again"
 msgstr "再玩一次"
 
+msgid "Play time"
+msgstr "游戏时间"
+
 msgid "Pop any one gem, no match needed. Arm it from the item row, then tap a gem."
 msgstr "砸碎任意一颗宝石,无需消除。从道具栏中选取,然后点一颗宝石。"
+
+msgid "Pop-up messages and her speech bubble in a chapter stay on screen longer. Dialogue always waits for you unless Auto is on."
+msgstr "章节中的弹出消息和她的对话气泡会在屏幕上停留更久。除非开启自动,对话总会等你。"
 
 msgid "Press her power button (or 4), then pick a gem: every gem of that colour is cleared, and the moss under them."
 msgstr "按下她的能力按钮(或 4),再选一颗宝石:所有同色宝石都会清除,连同它们下面的苔藓。"
@@ -1563,6 +1707,9 @@ msgstr "步数用完时,你每得200分仍可获得1颗星星(至少3颗)。"
 msgid "Running out still pays you a few stars. Try again, read a Time Scroll, or visit the shop. Later chapters are hard without power-ups: short on stars, replay a chapter you've cleared from her card on the roster. Lose three times in a row and you can carry on with the story anyway."
 msgstr "步数用完也会给你几颗星星。你可以重试、读一张时间卷轴,或去商店逛逛。后面的章节没有增益很难通过:星星不够时,可以在名册中她的卡片上重玩已通关的章节。连续失败三次后,你可以直接继续故事。"
 
+msgid "SCORE"
+msgstr "得分"
+
 msgid "SEALS BROKEN"
 msgstr "已破封印"
 
@@ -1574,6 +1721,9 @@ msgstr "那就留着吧。在你许愿之前,我会非常仔细地盯着你。"
 
 msgid "Say it. The name I gave you."
 msgstr "说出来。我给你的那个名字。"
+
+msgid "Score 2000 on a free date."
+msgstr "在自由约会中得到 2000 分。"
 
 msgid "Scroll"
 msgstr "滚动"
@@ -1767,11 +1917,20 @@ msgstr "跳过"
 msgid "Skip Unread Lines"
 msgstr "跳过未读台词"
 
+msgid "Skip chapter"
+msgstr "跳过本章"
+
+msgid "Skip chapter  ▸"
+msgstr "跳过本章  ▸"
+
 msgid "Skip every line up to the next reply, read or not"
 msgstr "跳过所有台词直到下一次回应,无论是否已读"
 
 msgid "Skip lines you've read (hold Ctrl)"
 msgstr "跳过已读台词(按住Ctrl)"
+
+msgid "Skip this chapter?"
+msgstr "跳过这一章?"
 
 msgid "Skip unread"
 msgstr "跳过未读"
@@ -1842,6 +2001,9 @@ msgstr "火花路线"
 msgid "Special gems"
 msgstr "特殊宝石"
 
+msgid "Special gems made"
+msgstr "制造的特殊宝石"
+
 msgid "Splinters"
 msgstr "木刺"
 
@@ -1869,6 +2031,9 @@ msgstr "从头重新开始她的故事"
 msgid "Start with the baker. He leans on me when he smokes."
 msgstr "先从面包师开始。他抽烟的时候总靠着我。"
 
+msgid "Stats"
+msgstr "统计"
+
 msgid "Stay till the candle goes. Then stay anyway."
 msgstr "留到蜡烛熄灭。然后再继续留下。"
 
@@ -1892,6 +2057,15 @@ msgstr "别说了。我会变浑的。"
 
 msgid "Store"
 msgstr "商店"
+
+msgid "Story"
+msgstr "故事"
+
+msgid "Story difficulty: carry on with the story without playing this chapter (no stars for it)."
+msgstr "故事难度:不玩这一章直接继续故事(没有这章的星星)。"
+
+msgid "Story: twice the moves, and you can skip any chapter. Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Takes effect from the next chapter."
+msgstr "故事:步数翻倍,任何章节都可以跳过。困难:每隔几步约会中就会发生点什么(海浪漫过码头、蜡烛摇曳),会提前显示。从下一章开始生效。"
 
 msgid "Succubus, summoned by mistake"
 msgstr "被误召唤的魅魔"
@@ -1958,6 +2132,9 @@ msgstr "测试模式"
 
 msgid "Text Speed"
 msgstr "文字速度"
+
+msgid "Text size"
+msgstr "文字大小"
 
 msgid "Th-thank you. Sorry. No. Not sorry. Thank you."
 msgstr "谢、谢谢你。对不起。不。不是对不起。谢谢你。"
@@ -2268,8 +2445,14 @@ msgstr "时间卷轴"
 msgid "To find the book, break every seal on the board. The counter under the board shows how many are done."
 msgstr "要找到那本书,就打破棋盘上的所有封印。棋盘下方的计数器显示已经完成了多少。"
 
+msgid "Today's challenge"
+msgstr "今日挑战"
+
 msgid "Toggle"
 msgstr "切换"
+
+msgid "Treasure Diver"
+msgstr "寻宝潜水员"
 
 msgid "Try: %s"
 msgstr "试试:%s"
@@ -2312,6 +2495,9 @@ msgstr "我们要第二只猫头鹰,对吧?"
 
 msgid "Well. It worked, which is insulting in its own way. Go on, then. Ask."
 msgstr "好吧。它居然成功了,这从某种角度来说是种侮辱。来吧。许愿。"
+
+msgid "What a date!"
+msgstr "好棒的约会!"
 
 msgid "What do you say?"
 msgstr "你要说什么?"
@@ -2574,6 +2760,9 @@ msgstr "你今天帮得够多了,救生员。"
 msgid "You... jumped in your clothes. For someone you'd never met."
 msgstr "你……穿着衣服就跳了。为了一个你从没见过的人。"
 
+msgid "Your best: %d"
+msgstr "你的最佳:%d"
+
 msgid "Your name would be nice."
 msgstr "要是能知道你的名字就好了。"
 
@@ -2606,6 +2795,9 @@ msgstr "一颗弹珠"
 
 msgid "after your next move"
 msgstr "在你下一步之后"
+
+msgid "best %d"
+msgstr "最佳 %d"
 
 msgid "in %d moves"
 msgstr "%d步后"

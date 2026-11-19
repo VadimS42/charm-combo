@@ -216,7 +216,7 @@ var hint_tweens: Array = []
 var hint_cells: Array = []
 
 
-func setup(p_main: Node, p_host: Control, p_char_id: String, p_replay: int = -1) -> void:
+func setup(p_main: Node, p_host: Control, p_char_id: String, p_replay: int = -1, p_mode: String = "") -> void:
 	main = p_main
 	host = p_host
 	char_id = p_char_id
@@ -226,10 +226,27 @@ func setup(p_main: Node, p_host: Control, p_char_id: String, p_replay: int = -1)
 	_moss_tile_tex = ArtAssets.board_tile(char_id + "_moss")
 	var progress := GameState.progress_for(char_id)
 	replay = p_replay
+	mode = p_mode
 	level_index = replay if replay >= 0 else int(progress.get("level_index", 0))
 	level = ch.story.levels[level_index]
+	if mode != "":
+		# Free play / daily challenge (round 49): her last chapter's board and
+		# piece, no goal, no story.
+		replay = -1
+		level_index = ch.story.levels.size() - 1
+		level = (ch.story.levels[level_index] as Dictionary).duplicate(true)
+		level.erase("goal")
+		level["target"] = 0
+		if String(level.get("mech", "")) == "moss":
+			level.pieces["itemScore"] = 60
+		if mode == "daily":
+			seed(hash("charm-combo-daily-" + daily_key()))
 
-	moves_left = int(level.moves)
+	moves_left = int(level.moves) * (2 if story_mode() else 1)
+	if mode == "free":
+		moves_left = FREE_MOVES
+	elif mode == "daily":
+		moves_left = DAILY_MOVES
 	var rot := event_rotation(ch, level_index)
 	_events = rot.moves
 	_event_every = int(rot.every)
@@ -239,7 +256,9 @@ func setup(p_main: Node, p_host: Control, p_char_id: String, p_replay: int = -1)
 	# so a retry, leaving mid-chapter or relaunching the game still starts with
 	# the same +bonus / −penalty. It used to live only in memory and was
 	# zeroed on first use, so any retry dropped it.
-	score = 0 if replay >= 0 else int(progress.get("next_bonus", 0))
+	score = 0 if replay >= 0 or mode != "" else int(progress.get("next_bonus", 0))
+	if mode != "":
+		_events = []
 	charm = 0
 	busy = false
 	hammer_mode = false
@@ -251,7 +270,11 @@ func setup(p_main: Node, p_host: Control, p_char_id: String, p_replay: int = -1)
 	# next chapter you play.
 	weights = CharacterData.compute_weights(ch, level_index)
 	rules = PuzzleRules.new()
-	rules.setup(ch, level_index, weights)
+	rules.setup(ch, level_index, weights, level if mode != "" else {})
+	if mode != "":
+		rules.goal_kind = ""
+		rules.target = 0
+		rules.endless = true
 	board = rules.board
 	# A chapter with only her goal has no score to start ahead on: the warm
 	# reply's head start is +2 moves there instead (round 44).
@@ -570,6 +593,10 @@ func _build_ui_mobile() -> void:
 		SFX.nav()
 		HowToPlay.show_page(main))
 	top.add_child(how)
+	if story_mode() and replay < 0 and mode == "":
+		top.add_child(_skip_button(true))
+	if mode == "free":
+		top.add_child(_end_date_button(true))
 	var pill := PanelContainer.new()
 	var ps := _glass_style(999)
 	ps.content_margin_left = 12
@@ -663,6 +690,133 @@ func _build_ui_mobile() -> void:
 	idle_timer.one_shot = true
 	idle_timer.timeout.connect(_on_idle_timeout)
 	host.add_child(idle_timer)
+
+
+# ---- free play and the daily challenge (round 49) ----
+## "" (her story), "free" (a free date: no move limit, ends when you say)
+## or "daily" (today's challenge: DAILY_MOVES moves, one scored try a day).
+var mode := ""
+const FREE_MOVES := 1000000
+const DAILY_MOVES := 20
+var _mode_done := false
+
+
+## Today's date as yyyymmdd (the daily challenge's seed and save key).
+static func daily_key() -> String:
+	var d := Time.get_date_dict_from_system()
+	return "%04d%02d%02d" % [d.year, d.month, d.day]
+
+
+## Today's girl: a different one each day, in turn.
+static func daily_girl() -> String:
+	var days := int(Time.get_unix_time_from_system() / 86400.0)
+	var all := CharacterData.all()
+	return String(all[days % all.size()].id)
+
+
+## Free play: ends the date and shows how it went.
+func _end_date_button(compact: bool) -> Button:
+	var b := _photo_nav_button("✓" if compact else "End the date")
+	if compact:
+		b.custom_minimum_size = Vector2(48, 40)
+	b.tooltip_text = "End this date and see your score."
+	b.pressed.connect(func():
+		if busy or _mode_done:
+			return
+		SFX.nav()
+		_show_mode_result())
+	return b
+
+
+## The end of a free date or the daily challenge: the score, the best, a few
+## stars, the Steam leaderboard.
+func _show_mode_result() -> void:
+	if _mode_done:
+		return
+	_mode_done = true
+	_clear_hint()
+	if idle_timer:
+		idle_timer.stop()
+	var key := ("free_" + char_id) if mode == "free" else "daily_best"
+	var new_best := GameState.best_stat(key, score)
+	var stars := 0
+	if mode == "free":
+		stars = mini(10, score / 500)
+		Platform.post_score("free_" + char_id, score)
+		if score >= 2000:
+			Achievements.unlock("FREE_DATE")
+	else:
+		var today := "daily_" + daily_key()
+		GameState.stats[today] = score
+		stars = mini(15, score / 400)
+		Platform.post_score(today, score)
+		Achievements.unlock("DAILY_FIRST")
+	GameState.stars += stars
+	GameState.save_state()
+	main.refresh_topbar()
+	SFX.win()
+	for c in overlay.get_children():
+		c.queue_free()
+	overlay.visible = true
+	_set_board_focus(false)
+	_refresh_all_items()
+	var v := VBoxContainer.new()
+	v.alignment = BoxContainer.ALIGNMENT_CENTER
+	v.add_theme_constant_override("separation", 10)
+	overlay.add_child(v)
+	var title := UITheme.heading(UITheme.t("What a date!") if mode == "free" else UITheme.t("Today's challenge"), 24)
+	title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	v.add_child(title)
+	var sc := UITheme.heading(UITheme.t("%d pts") % score, 30)
+	sc.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	sc.add_theme_color_override("font_color", _accent().darkened(0.1))
+	v.add_child(sc)
+	var best_l := UITheme.body((UITheme.t("A new best!") if new_best else UITheme.t("Your best: %d") % GameState.stat(key)), 14, UITheme.INK_SOFT)
+	best_l.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	v.add_child(best_l)
+	if stars > 0:
+		var st_l := UITheme.body(UITheme.t("+%d ⭐") % stars, 16, UITheme.INK)
+		st_l.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+		v.add_child(st_l)
+	var row := HBoxContainer.new()
+	row.alignment = BoxContainer.ALIGNMENT_CENTER
+	row.add_theme_constant_override("separation", 10)
+	v.add_child(row)
+	var first: Button = null
+	if mode == "free":
+		var again := UITheme.make_primary_button("Another date")
+		again.pressed.connect(func():
+			SFX.nav()
+			main.show_puzzle(char_id, -1, "free"))
+		row.add_child(again)
+		first = again
+	var back := UITheme.make_ghost_button("Back")
+	back.pressed.connect(func():
+		SFX.nav()
+		teardown()
+		if mode == "free":
+			main.show_roster()
+		else:
+			main.show_menu())
+	row.add_child(back)
+	if first == null:
+		first = back
+	if Nav.nav_mode:
+		first.grab_focus.call_deferred()
+
+
+## Story difficulty: carry on with the story without playing this chapter.
+func _skip_button(compact: bool) -> Button:
+	var b := _photo_nav_button("▸▸" if compact else "Skip chapter  ▸")
+	if compact:
+		b.custom_minimum_size = Vector2(48, 40)
+	b.tooltip_text = "Story difficulty: carry on with the story without playing this chapter (no stars for it)."
+	b.pressed.connect(func():
+		SFX.nav()
+		main.confirm("Skip this chapter?", "Her story carries on as if you'd cleared it. You don't get its stars.", "Skip chapter", func():
+			teardown()
+			StoryFlow.skip_chapter(main, char_id)))
+	return b
 
 
 ## The HUD in two rows: moves, the goal bar (and her goal), then Charm, her
@@ -984,6 +1138,10 @@ func _build_ui() -> void:
 		HowToPlay.show_page(main)
 	)
 	top_row.add_child(how_btn)
+	if story_mode() and replay < 0 and mode == "":
+		top_row.add_child(_skip_button(false))
+	if mode == "free":
+		top_row.add_child(_end_date_button(false))
 	var spacer := Control.new()
 	spacer.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	top_row.add_child(spacer)
@@ -1251,7 +1409,7 @@ func _build_hud_bar() -> PanelContainer:
 	score_lbl.add_theme_constant_override("outline_size", 4)
 	score_wrap.add_child(score_lbl)
 	score_v.add_child(score_wrap)
-	var score_cap := UITheme.body("CHAPTER GOAL", 10, UITheme.INK_ON_DARK_SOFT)
+	var score_cap := UITheme.body("SCORE" if mode != "" else "CHAPTER GOAL", 10, UITheme.INK_ON_DARK_SOFT)
 	score_cap.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	score_v.add_child(score_cap)
 	row.add_child(score_v)
@@ -1332,7 +1490,7 @@ func _say(text: String) -> void:
 		_speech_tw.kill()
 	_speech_tw = _speech_box.create_tween()
 	_speech_tw.tween_property(_speech_box, "modulate:a", 1.0, 0.15)
-	var hold := maxf(2.8, 1.2 + text.length() * 0.05)
+	var hold := UITheme.message_time(maxf(2.8, 1.2 + text.length() * 0.05))
 	await main.get_tree().create_timer(hold).timeout
 	while is_instance_valid(_speech_box) and Voice.is_playing() and token == _speech_token:
 		await main.get_tree().create_timer(0.25).timeout
@@ -1812,6 +1970,26 @@ func _dress_cell(btn: Button, r: int, c: int) -> void:
 	if moss_pic:
 		moss_pic.visible = mossy
 	btn.self_modulate = Color.WHITE
+	# Settings → Gem numbers (round 49): each gem kind's number in a corner,
+	# so they can be told apart without colour (or shape).
+	var num: Label = btn.get_node_or_null("Num")
+	var t: int = board[r][c]
+	var want: bool = bool(GameState.settings.get("gem_symbols", false)) and MatchEngine.is_normal(t) \
+		and t != MatchEngine.BROKEN_IDX
+	if want and num == null:
+		num = Label.new()
+		num.name = "Num"
+		num.add_theme_font_size_override("font_size", 13)
+		num.add_theme_color_override("font_color", Color.WHITE)
+		num.add_theme_color_override("font_outline_color", Color(0, 0, 0, 0.85))
+		num.add_theme_constant_override("outline_size", 5)
+		num.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		num.position = Vector2(4, 1)
+		btn.add_child(num)
+	if num:
+		num.visible = want
+		if want:
+			num.text = str(t + 1)
 
 
 func _corner_pic(btn: Button, node_name: String, tex: Texture2D, frac: float, right: bool) -> TextureRect:
@@ -2066,6 +2244,13 @@ const EVENT_KINDS := {
 }
 
 
+## Story difficulty (round 49): for players here for the girls more than the
+## puzzles. Twice the moves, a "Skip chapter" button from the start, and the
+## out-of-moves panel always offers to carry on.
+static func story_mode() -> bool:
+	return String(GameState.settings.get("difficulty", "easy")) == "story"
+
+
 ## Hard difficulty (Settings): the date's events are on.
 static func hard_mode() -> bool:
 	return String(GameState.settings.get("difficulty", "easy")) == "hard"
@@ -2222,9 +2407,15 @@ func _update_hud() -> void:
 	# by forgetting to check _torn_down itself. See _torn_down's doc comment.
 	if _torn_down:
 		return
-	moves_lbl.text = "%d" % moves_left
+	moves_lbl.text = "∞" if mode == "free" else "%d" % moves_left
 	var target := _target()
-	if target > 0:
+	if mode != "":
+		# Free play / daily: the points, filling towards your best.
+		var best := GameState.stat(("free_" + char_id) if mode == "free" else "daily_best")
+		score_lbl.text = UITheme.t("%d pts") % score + ((" · " + UITheme.t("best %d") % best) if best > 0 else "")
+		goal_bar.max_value = maxi(best, 1000)
+		goal_bar.value = clampi(score, 0, int(goal_bar.max_value))
+	elif target > 0:
 		score_lbl.text = UITheme.t("%d / %d pts") % [score, target]
 		goal_bar.max_value = target
 		goal_bar.value = clamp(score, 0, target)
@@ -2240,6 +2431,10 @@ func _update_hud() -> void:
 	if charm_ring:
 		charm_ring.set_progress(charm, MatchEngine.CHARM_MAX)
 	chapter_lbl.text = UITheme.t("Chapter %d / %d") % [level_index + 1, ch.story.levels.size()]
+	if mode == "free":
+		chapter_lbl.text = UITheme.t("A free date")
+	elif mode == "daily":
+		chapter_lbl.text = UITheme.t("Daily challenge")
 	for item_id in item_btns.keys():
 		_refresh_item_button(item_id)
 
@@ -2293,7 +2488,7 @@ func _toast(text: String, icon: Texture2D = null) -> void:
 	_toast_stack.append(lbl)
 	if still:
 		var hold := lbl.create_tween()
-		hold.tween_interval(2.0)
+		hold.tween_interval(UITheme.message_time(2.0))
 		hold.tween_callback(func():
 			_toast_stack.erase(lbl)
 			lbl.queue_free()
@@ -2313,7 +2508,7 @@ func _toast(text: String, icon: Texture2D = null) -> void:
 	# enough time to read a short status line, let alone one of her actual
 	# reaction quips). Applies to every toast, quips included, since they all
 	# go through this one function.
-	tw.tween_interval(1.4)
+	tw.tween_interval(UITheme.message_time(1.4))
 	tw.tween_property(lbl, "modulate:a", 0.0, 0.6)
 	tw.tween_callback(func():
 		_toast_stack.erase(lbl)
@@ -2889,6 +3084,14 @@ func _clear_and_drop(cells: Dictionary, combo_index: int, is_match: bool, specia
 		colours[k] = _color_for(board[v.x][v.y])
 	var rep := rules.clear_cells(cells, is_match)
 	_piece_feedback(rep)
+	# Lifetime stats (round 49).
+	if is_match:
+		GameState.add_stat("matches")
+		GameState.best_stat("best_combo", combo_index)
+	GameState.add_stat("gems", rep.cleared.size())
+	GameState.add_stat("seals", rep.seals.size())
+	GameState.add_stat("blossoms", rep.blossoms.size())
+	GameState.add_stat("items", rep.items.size())
 	await _pop_out(rep.cleared, colours)
 	if _torn_down:
 		return
@@ -2899,12 +3102,17 @@ func _clear_and_drop(cells: Dictionary, combo_index: int, is_match: bool, specia
 	var drop := rules.collapse()
 	var changed: Dictionary = drop.changed
 	var placed := rules.place_specials(specials)
+	GameState.add_stat("specials", placed.size())
 	for k in placed.keys():
 		changed[k] = true
 		var v := PuzzleRules.unkey(k)
 		if board[v.x][v.y] == MatchEngine.STARBURST:
 			Achievements.unlock("MAKE_STARBURST")
 		HowToPlay.tip(main, "specials")
+	GameState.add_stat("combs", drop.combs.size())
+	if rules.endless and not drop.combs.is_empty():
+		score += PuzzleRules.ENDLESS_COMB_POINTS * drop.combs.size()
+	Achievements.check_stats()
 	for c in drop.combs:
 		_fly_to_goal(Vector2i(0, c), "comb")
 		_toast(UITheme.t("A comb piece! %d / %d") % [rules.combs_up, rules.goal_n] if rules.goal_n > 0
@@ -3062,6 +3270,7 @@ func _fire_power(r: int, c: int) -> void:
 	_refresh_power()
 	_refresh_all_items()
 	Achievements.unlock("CHARM_BURST")
+	GameState.add_stat("powers")
 	SFX.special_()
 	_react_sprite("happy", 1.2)
 	_toast(UITheme.t(String(ch.power.name)) + "!", ArtAssets.ui_icon("power_" + rules.power_id))
@@ -3137,7 +3346,15 @@ func _check_outcome() -> void:
 	# of them is ever missed.
 	if _torn_down:
 		return
+	if mode == "free":
+		return
+	if mode == "daily":
+		if moves_left <= 0:
+			_show_mode_result()
+		return
 	if rules.won(score):
+		GameState.add_stat("chapters_won")
+		GameState.best_stat("best_score", score)
 		if moves_left >= 5:
 			Achievements.unlock("MOVES_LEFT_5")
 		if replay >= 0:
@@ -3344,7 +3561,7 @@ func _show_lose_overlay() -> void:
 
 	# Stuck? After three losses in a row the story can carry on anyway, so
 	# the puzzle never walls it off (no stars or achievement for this one).
-	if replay < 0 and int(losses.get(str(level_index), 0)) >= 3:
+	if replay < 0 and (story_mode() or int(losses.get(str(level_index), 0)) >= 3):
 		var cont := UITheme.make_ghost_button("Continue the story  ▸")
 		cont.tooltip_text = "Carry on without clearing this chapter (no stars for it)."
 		cont.pressed.connect(func():

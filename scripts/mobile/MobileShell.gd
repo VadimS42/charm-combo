@@ -218,6 +218,7 @@ static func _home(main: Node, content: Control) -> Control:
 			SFX.nav()
 			main.show_mobile("girls"))
 		v.add_child(all)
+	v.add_child(_big(main.daily_button()))
 	var how := _big(UITheme.make_ghost_button("How to Play"))
 	UITheme.add_icon(how, "help")
 	how.pressed.connect(func():
@@ -319,6 +320,12 @@ static func _girl_card(main: Node, ch: Dictionary, parent: Control) -> Button:
 			RosterScreen._chapter_picker(main, ch, won))
 		row.add_child(again)
 	if finished:
+		var date := _big(UITheme.make_ghost_button("Free date"))
+		date.tooltip_text = UITheme.t("Her board with no move limit, just for fun and a high score.")
+		date.pressed.connect(func():
+			SFX.nav()
+			main.show_puzzle(id, -1, "free"))
+		row.add_child(date)
 		var restart := _big(UITheme.make_ghost_button("Replay"))
 		restart.pressed.connect(func():
 			SFX.nav()
@@ -425,16 +432,32 @@ static func _shop(main: Node, content: Control) -> Control:
 # ---------------------------------------------------------------- Gallery
 
 static func _gallery(main: Node, content: Control, sub: String) -> Control:
-	var v := _column(content, UITheme.t("Gallery") if sub != "achievements" else UITheme.t("Achievements"), 0.0 if sub != "achievements" else 620.0)
-	var seg := HBoxContainer.new()
-	seg.add_theme_constant_override("separation", 8)
-	var e_btn := _big(UITheme.make_primary_button("Endings") if sub != "achievements" else UITheme.make_ghost_button("Endings"))
-	e_btn.pressed.connect(func(): main.show_mobile("gallery"))
-	var a_btn := _big(UITheme.make_primary_button("Achievements") if sub == "achievements" else UITheme.make_ghost_button("Achievements"))
-	a_btn.pressed.connect(func(): main.show_mobile("gallery", "achievements"))
-	seg.add_child(e_btn)
-	seg.add_child(a_btn)
+	var v := _column(content, UITheme.t("Gallery") if sub != "achievements" else UITheme.t("Achievements"),
+		620.0 if sub in ["achievements", "stats", "music"] else 0.0)
+	# Endings, Achievements, Pictures, Music, Stats (round 49): wraps onto
+	# two rows on an upright phone.
+	var seg := HFlowContainer.new()
+	seg.add_theme_constant_override("h_separation", 8)
+	seg.add_theme_constant_override("v_separation", 8)
+	var e_btn: Button = null
+	for pg in [["", "Endings"], ["achievements", "Achievements"], ["pictures", "Pictures"], ["music", "Music"], ["stats", "Stats"]]:
+		var key := String(pg[0])
+		var sb := UITheme.make_primary_button(String(pg[1])) if key == sub else UITheme.make_ghost_button(String(pg[1]))
+		sb.custom_minimum_size = Vector2(0, 44)
+		sb.pressed.connect(func(): main.show_mobile("gallery", key))
+		seg.add_child(sb)
+		if e_btn == null:
+			e_btn = sb
 	v.add_child(seg)
+	if sub == "pictures":
+		v.add_child(ExtrasScreen.pictures_page(main))
+		return e_btn
+	if sub == "music":
+		v.add_child(ExtrasScreen.music_page(main))
+		return e_btn
+	if sub == "stats":
+		v.add_child(ExtrasScreen.stats_page(main))
+		return e_btn
 	if sub == "achievements":
 		v.add_child(_wrap(UITheme.t("%d / %d unlocked") % [Achievements.count_unlocked(), Achievements.LIST.size()], 13, Color.WHITE))
 		for a in Achievements.LIST:

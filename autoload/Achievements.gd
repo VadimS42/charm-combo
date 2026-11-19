@@ -34,7 +34,19 @@ const LIST := [
 	{"id": "MOVES_LEFT_5", "name": "With Moves to Spare", "desc": "Clear a chapter with 5 or more moves left."},
 	{"id": "SHARD_SMASH", "name": "Shard Smasher", "desc": "Clear a cursed shard with the Hammer."},
 	{"id": "FIRST_PURCHASE", "name": "Window Shopping", "desc": "Buy something in the Item Shop."},
+	# Round 49: lifetime stats (GameState.stats).
+	{"id": "BLOOMS_25", "name": "In Full Bloom", "desc": "Grow 25 of Hazel's blossoms."},
+	{"id": "SEALS_50", "name": "Bookbinder", "desc": "Break 50 of Amara's seals."},
+	{"id": "FINDS_30", "name": "Finders Keepers", "desc": "Find 30 of Opal's lost things under the moss."},
+	{"id": "COMBS_10", "name": "Treasure Diver", "desc": "Bring 10 comb pieces up for Marina."},
+	{"id": "MATCHES_1000", "name": "A Thousand Sparkles", "desc": "Make 1000 matches."},
+	{"id": "FREE_DATE", "name": "Just Because", "desc": "Score 2000 on a free date."},
+	{"id": "DAILY_FIRST", "name": "Every Day Counts", "desc": "Finish a daily challenge."},
 ]
+
+## Stat achievements: id -> [stat key, how many].
+const BY_STAT := {"BLOOMS_25": ["blossoms", 25], "SEALS_50": ["seals", 50], "FINDS_30": ["items", 30],
+	"COMBS_10": ["combs", 10], "MATCHES_1000": ["matches", 1000]}
 
 const HAZEL := "dryad"
 ## Which girl each ending achievement belongs to (character id -> achievement).
@@ -43,6 +55,13 @@ const ENDING_BY_CHAR := {"dryad": "ENDING_HAZEL"}
 
 func _ready() -> void:
 	sync()
+
+
+## Unlocks any stat achievement whose number has been reached.
+func check_stats() -> void:
+	for id in BY_STAT.keys():
+		if GameState.stat(String(BY_STAT[id][0])) >= int(BY_STAT[id][1]):
+			unlock(String(id))
 
 
 func info(id: String) -> Dictionary:

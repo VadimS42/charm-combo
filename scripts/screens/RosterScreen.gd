@@ -439,6 +439,15 @@ static func _card(main: Node, ch: Dictionary, state: Dictionary) -> PanelContain
 		)
 		btn_row.add_child(replay_btn)
 		v.add_child(btn_row)
+		# Round 49: free play once her story is done.
+		var date_btn := UITheme.make_ghost_button("Free date")
+		date_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		date_btn.tooltip_text = "Her board with no move limit, just for fun and a high score."
+		date_btn.pressed.connect(func():
+			SFX.nav()
+			main.show_puzzle(id, -1, "free")
+		)
+		v.add_child(date_btn)
 	else:
 		v.add_child(open_btn)
 

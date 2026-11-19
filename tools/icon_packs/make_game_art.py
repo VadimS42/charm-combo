@@ -460,6 +460,7 @@ def achievements():
     out = os.path.join(ROOT, "art", "achievements")
     gem = lambda n: Image.open(os.path.join(GEMS, n + ".png")).convert("RGBA")
     big = lambda n: fit(load(n), 256, 6)
+    piece = lambda n: Image.open(os.path.join(ROOT, "art", "pieces", n + ".png")).convert("RGBA").resize((256, 256), Image.LANCZOS)
     badges = {
         "combo_3": ("#3FA9C9", _group([gem("ember"), gem("pearl"), gem("crystal")],
                                       [(-50, 30), (0, -30), (50, 30)]), "x3"),
@@ -471,6 +472,16 @@ def achievements():
         "moves_left_5": ("#6F8FD8", big("Scroll"), "+5"),
         "shard_smash": ("#5B4A78", _group([cursed(), big("HammerT2")], [(-28, 30), (30, -24)], scale=0.6), None),
         "first_purchase": ("#B07A3A", _group([big("Backpack"), big("Coin")], [(-14, -6), (52, 52)], scale=0.6), None),
+        # Round 49: the stat achievements, from the piece art.
+        "blooms_25": ("#E06AA8", piece("blossom"), "25"),
+        "seals_50": ("#9A3A5A", piece("seal"), "50"),
+        "finds_30": ("#8A62C8", _group([piece("item_button"), piece("item_key"), piece("item_marble")],
+                                       [(-46, 26), (0, -30), (46, 26)]), "30"),
+        "combs_10": ("#2F8FB8", piece("comb"), "10"),
+        "free_date": ("#D04C8C", big("HeartFull"), "2000"),
+        "daily_first": ("#C8941E", gold_star(), None),
+        "matches_1000": ("#C9547A", _group([gem("petal"), gem("pearl"), gem("crystal"), gem("rune")],
+                                           [(-50, -30), (50, -30), (-50, 40), (50, 40)], scale=0.42), "1000"),
     }
     for name, (colour, pic, extra) in badges.items():
         _badge(colour, pic, extra).save(os.path.join(out, name + ".png"))
