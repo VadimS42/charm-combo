@@ -432,526 +432,528 @@ Te faltaron %d puntos.
 @@ ui-0214
 +%d ⭐ por intentarlo
 @@ ui-0215
-1 estrella por cada 200 puntos. ¡Ahorra para ayudas en la Tienda y vuelve a intentarlo!
+Por no rendirte: ¡un Pergamino del tiempo gratis!
 @@ ui-0216
-Un consejo
+1 estrella por cada 200 puntos. ¡Ahorra para ayudas en la Tienda y vuelve a intentarlo!
 @@ ui-0217
-Prueba: %s
+Un consejo
 @@ ui-0218
-+%d ⭐ para ello
+Prueba: %s
 @@ ui-0219
-+%d movimientos
++%d ⭐ para ello
 @@ ui-0220
-Corazones restantes: %d / %d
++%d movimientos
 @@ ui-0221
-Usar un Pergamino del tiempo
+Corazones restantes: %d / %d
 @@ ui-0222
-Repetir capítulo
+Usar un Pergamino del tiempo
 @@ ui-0223
-Sáltalo con el Pase de Historia  ▸
+Repetir capítulo
 @@ ui-0224
-Seguir con la historia  ▸
+Sáltalo con el Pase de Historia  ▸
 @@ ui-0225
-Seguir sin superar este capítulo (sin estrellas por él).
+Seguir con la historia  ▸
 @@ ui-0226
-Se salta el puzle de este capítulo: sin estrellas por él.
+Seguir sin superar este capítulo (sin estrellas por él).
 @@ ui-0227
-←  Menú
+Se salta el puzle de este capítulo: sin estrellas por él.
 @@ ui-0228
-El círculo de Millbrook
+←  Menú
 @@ ui-0229
-Le encanta
+El círculo de Millbrook
 @@ ui-0230
-No le gusta
+Le encanta
 @@ ui-0231
-Aún no os conocéis
+No le gusta
 @@ ui-0232
-Final: %s
+Aún no os conocéis
 @@ ui-0233
-Conocerla
+Final: %s
 @@ ui-0234
-Volver a verla
+Conocerla
 @@ ui-0235
-Empezar su historia desde el principio
+Volver a verla
 @@ ui-0236
-¿Repetir la historia de %s?
+Empezar su historia desde el principio
 @@ ui-0237
-Su historia vuelve a empezar desde vuestro primer encuentro, para que puedas elegir distinto. Los finales encontrados se quedan en la Galería, tu regalo sigue dado y sus capítulos vuelven a dar estrellas.
+¿Repetir la historia de %s?
 @@ ui-0238
-Repetir historia
+Su historia vuelve a empezar desde vuestro primer encuentro, para que puedas elegir distinto. Los finales encontrados se quedan en la Galería, tu regalo sigue dado y sus capítulos vuelven a dar estrellas.
 @@ ui-0239
-Cita libre
+Repetir historia
 @@ ui-0240
-Su tablero sin límite de movimientos, solo por diversión y por un récord.
+Cita libre
 @@ ui-0241
-Repetir un capítulo
+Su tablero sin límite de movimientos, solo por diversión y por un récord.
 @@ ui-0242
-Vuelve a jugar un capítulo superado, para ganar estrellas. Su historia se queda donde está.
+Repetir un capítulo
 @@ ui-0243
-Vuelve a jugar un capítulo superado, para ganar estrellas. Sin escenas de historia, y su historia se queda donde está.
+Vuelve a jugar un capítulo superado, para ganar estrellas. Su historia se queda donde está.
 @@ ui-0244
-Capítulo %d · +%d ⭐
+Vuelve a jugar un capítulo superado, para ganar estrellas. Sin escenas de historia, y su historia se queda donde está.
 @@ ui-0245
-Capítulo %d · +%d
+Capítulo %d · +%d ⭐
 @@ ui-0246
-Regálale: %s
+Capítulo %d · +%d
 @@ ui-0247
-Después, su gema favorita aparecerá más a menudo en todos sus capítulos, para siempre.
+Regálale: %s
 @@ ui-0248
-(Te faltan %d estrellas.)
+Después, su gema favorita aparecerá más a menudo en todos sus capítulos, para siempre.
 @@ ui-0249
-Idioma
+(Te faltan %d estrellas.)
 @@ ui-0250
-El texto del juego. Las voces siguen en inglés.
+Idioma
 @@ ui-0251
-Efectos de sonido
+El texto del juego. Las voces siguen en inglés.
 @@ ui-0252
-Sonidos para combinaciones, combos y menús.
+Efectos de sonido
 @@ ui-0253
-Volumen general
+Sonidos para combinaciones, combos y menús.
 @@ ui-0254
-Todo — música y efectos de sonido.
+Volumen general
 @@ ui-0255
-El volumen de la música de fondo.
+Todo — música y efectos de sonido.
 @@ ui-0256
-Voces
+El volumen de la música de fondo.
 @@ ui-0257
-Escucha a las chicas decir sus líneas.
+Voces
 @@ ui-0258
-Volumen de voz
+Escucha a las chicas decir sus líneas.
 @@ ui-0259
-El volumen de sus voces.
+Volumen de voz
 @@ ui-0260
-Dificultad
+El volumen de sus voces.
 @@ ui-0261
-Historia: el doble de movimientos, y puedes saltarte cualquier capítulo. Difícil: cada pocos movimientos pasa algo en tu cita (una ola salta el muelle, las velas titilan), avisado de antemano. Se aplica desde el siguiente capítulo.
+Dificultad
 @@ ui-0262
-Difícil: cada pocos movimientos pasa algo en tu cita (una ola salta el muelle, las velas titilan), avisado de antemano. La dificultad Historia viene con el Pase de Historia. Se aplica desde el siguiente capítulo.
+Historia: el doble de movimientos, y puedes saltarte cualquier capítulo. Difícil: cada pocos movimientos pasa algo en tu cita (una ola salta el muelle, las velas titilan), avisado de antemano. Se aplica desde el siguiente capítulo.
 @@ ui-0263
-Historia
+Difícil: cada pocos movimientos pasa algo en tu cita (una ola salta el muelle, las velas titilan), avisado de antemano. La dificultad Historia viene con el Pase de Historia. Se aplica desde el siguiente capítulo.
 @@ ui-0264
-Fácil
+Historia
 @@ ui-0265
-Difícil
+Fácil
 @@ ui-0266
-Velocidad del texto
+Difícil
 @@ ui-0267
-Lo rápido que aparece el diálogo.
+Velocidad del texto
 @@ ui-0268
-Lenta
+Lo rápido que aparece el diálogo.
 @@ ui-0269
-Normal
+Lenta
 @@ ui-0270
-Rápida
+Normal
 @@ ui-0271
-Instantánea
+Rápida
 @@ ui-0272
-Velocidad de Auto
+Instantánea
 @@ ui-0273
-Cuánto espera Auto tras cada línea (izquierda = menos).
+Velocidad de Auto
 @@ ui-0274
-Saltar lo no leído
+Cuánto espera Auto tras cada línea (izquierda = menos).
 @@ ui-0275
-Que Saltar también pase volando por las líneas que aún no has leído.
+Saltar lo no leído
 @@ ui-0276
-Tamaño del texto
+Que Saltar también pase volando por las líneas que aún no has leído.
 @@ ui-0277
-Texto más grande en todas partes: diálogo, menús y puzle.
+Tamaño del texto
 @@ ui-0278
-Grande
+Texto más grande en todas partes: diálogo, menús y puzle.
 @@ ui-0279
-Más grande
+Grande
 @@ ui-0280
-Números en las gemas
+Más grande
 @@ ui-0281
-Cada tipo de gema muestra un número, para distinguirlas sin depender del color.
+Números en las gemas
 @@ ui-0282
-Mensajes más largos
+Cada tipo de gema muestra un número, para distinguirlas sin depender del color.
 @@ ui-0283
-Los mensajes emergentes y su bocadillo en el capítulo se quedan más tiempo en pantalla. El diálogo siempre te espera salvo que actives Auto.
+Mensajes más largos
 @@ ui-0284
-Vibración
+Los mensajes emergentes y su bocadillo en el capítulo se quedan más tiempo en pantalla. El diálogo siempre te espera salvo que actives Auto.
 @@ ui-0285
-Una pequeña vibración al combinar gemas.
+Vibración
 @@ ui-0286
-Reducir movimiento
+Una pequeña vibración al combinar gemas.
 @@ ui-0287
-Animaciones más cortas, respuestas más tranquilas.
+Reducir movimiento
 @@ ui-0288
-Pantalla completa
+Animaciones más cortas, respuestas más tranquilas.
 @@ ui-0289
-Ocupa toda la pantalla. F11 la activa en cualquier momento.
+Pantalla completa
 @@ ui-0290
-Modo de prueba
+Ocupa toda la pantalla. F11 la activa en cualquier momento.
 @@ ui-0291
-Cualquier combinación válida cumple al instante el objetivo y da 99 estrellas — para pruebas, no para jugar de verdad.
+Modo de prueba
 @@ ui-0292
-Salir al elenco
+Cualquier combinación válida cumple al instante el objetivo y da 99 estrellas — para pruebas, no para jugar de verdad.
 @@ ui-0293
-Para aquí. Esta escena se repetirá la próxima vez que la visites.
+Salir al elenco
 @@ ui-0294
-Abrir carpeta de registros
+Para aquí. Esta escena se repetirá la próxima vez que la visites.
 @@ ui-0295
-Para informar de errores: envía el godot.log más reciente de esta carpeta.
+Abrir carpeta de registros
 @@ ui-0296
-Reiniciar progreso
+Para informar de errores: envía el godot.log más reciente de esta carpeta.
 @@ ui-0297
-¿Reiniciar todo el progreso?
+Reiniciar progreso
 @@ ui-0298
-Esto borra el progreso de todas las historias, tus estrellas, objetos, regalos y toda la Galería. Se conservan los ajustes y los logros. No se puede deshacer.
+¿Reiniciar todo el progreso?
 @@ ui-0299
-Reiniciar todo
+Esto borra el progreso de todas las historias, tus estrellas, objetos, regalos y toda la Galería. Se conservan los ajustes y los logros. No se puede deshacer.
 @@ ui-0300
-Pergamino del tiempo
+Reiniciar todo
 @@ ui-0301
-Léelo para tener tres movimientos más en el capítulo que juegas. Úsalo desde la fila de objetos bajo el tablero — también te saca de la pantalla «Sin movimientos».
+Pergamino del tiempo
 @@ ui-0302
-Martillo
+Léelo para tener tres movimientos más en el capítulo que juegas. Úsalo desde la fila de objetos bajo el tablero — también te saca de la pantalla «Sin movimientos».
 @@ ui-0303
-Rompe cualquier gema, sin combinar. Prepáralo en la fila de objetos y toca una gema.
+Martillo
 @@ ui-0304
-Varita de barajar
+Rompe cualquier gema, sin combinar. Prepáralo en la fila de objetos y toca una gema.
 @@ ui-0305
-Un toque y todo el tablero se reparte de nuevo, siempre con algún movimiento posible.
+Varita de barajar
 @@ ui-0306
-Iniciador estelar
+Un toque y todo el tablero se reparte de nuevo, siempre con algún movimiento posible.
 @@ ui-0307
-Tu próximo capítulo empieza con un Estallido estelar gratis en el tablero.
+Iniciador estelar
 @@ ui-0308
-Poción de amor
+Tu próximo capítulo empieza con un Estallido estelar gratis en el tablero.
 @@ ui-0309
-Tu próximo capítulo: su gema favorita aparece más y la que no le gusta, menos.
+Poción de amor
 @@ ui-0310
-Poción reparadora
+Tu próximo capítulo: su gema favorita aparece más y la que no le gusta, menos.
 @@ ui-0311
-Tu próximo capítulo: muchos menos fragmentos malditos en el tablero.
+Poción reparadora
 @@ ui-0312
-←  Volver al capítulo
+Tu próximo capítulo: muchos menos fragmentos malditos en el tablero.
 @@ ui-0313
-Las estrellas salen de superar capítulos: 15 por el primero de cada chica y 5 más por cada uno siguiente.
+←  Volver al capítulo
 @@ ui-0314
-Quedarte sin movimientos aún da 1 estrella por cada 200 puntos (mínimo 3).
+Las estrellas salen de superar capítulos: 15 por el primero de cada chica y 5 más por cada uno siguiente.
 @@ ui-0315
-¿Te faltan estrellas? Repite un capítulo superado desde su tarjeta: da la mitad.
+Quedarte sin movimientos aún da 1 estrella por cada 200 puntos (mínimo 3).
 @@ ui-0316
-La fila de arriba se usa durante un capítulo; la de abajo actúa sola al empezar tu siguiente capítulo.
+¿Te faltan estrellas? Repite un capítulo superado desde su tarjeta: da la mitad.
 @@ ui-0317
-Tienes: %d
+La fila de arriba se usa durante un capítulo; la de abajo actúa sola al empezar tu siguiente capítulo.
 @@ ui-0318
-Comprar · %d ⭐
+Tienes: %d
 @@ ui-0319
-Comprar · %d
+Comprar · %d ⭐
 @@ ui-0320
-Te faltan %d estrellas.
+Comprar · %d
 @@ ui-0321
-Historial
+Te faltan %d estrellas.
 @@ ui-0322
-Releer (L, o rueda hacia arriba)
+Historial
 @@ ui-0323
-Auto
+Releer (L, o rueda hacia arriba)
 @@ ui-0324
-Las líneas avanzan solas (A)
+Auto
 @@ ui-0325
-Saltar
+Las líneas avanzan solas (A)
 @@ ui-0326
-Salta lo ya leído (mantén Ctrl)
+Saltar
 @@ ui-0327
-Saltar todo
+Salta lo ya leído (mantén Ctrl)
 @@ ui-0328
-Salta todas las líneas hasta la próxima respuesta, leídas o no
+Saltar todo
 @@ ui-0329
-Ocultar texto
+Salta todas las líneas hasta la próxima respuesta, leídas o no
 @@ ui-0330
-Ver la imagen completa (H)
+Ocultar texto
 @@ ui-0331
-¿Qué le dices?
+Ver la imagen completa (H)
 @@ ui-0332
-Tú
+¿Qué le dices?
 @@ ui-0333
-Responder
+Tú
 @@ ui-0334
-Siguiente
+Responder
 @@ ui-0335
-Nada todavía.
+Siguiente
 @@ ui-0336
-Inicio
+Nada todavía.
 @@ ui-0337
-Chicas
+Inicio
 @@ ui-0338
-Tienda
+Chicas
 @@ ui-0339
-Más
+Tienda
 @@ ui-0340
-Un romance de combinar tres en Millbrook. Conoce a cuatro mujeres de la peor manera posible, ayúdalas con lo que necesitan y descubre adónde lleva.
+Más
 @@ ui-0341
-Seguir con %s
+Un romance de combinar tres en Millbrook. Conoce a cuatro mujeres de la peor manera posible, ayúdalas con lo que necesitan y descubre adónde lleva.
 @@ ui-0342
-Todas las chicas
+Seguir con %s
 @@ ui-0343
-Tienes %d
+Todas las chicas
 @@ ui-0344
-Volver al capítulo
+Tienes %d
 @@ ui-0345
-Quitar anuncios · %s
+Volver al capítulo
 @@ ui-0346
-Restaurar compras
+Quitar anuncios · %s
 @@ ui-0347
-Todo lo que compraste con esta cuenta de Google volverá en un momento.
+Restaurar compras
 @@ ui-0348
-Privacidad de anuncios
+Todo lo que compraste con esta cuenta de Google volverá en un momento.
 @@ ui-0349
-No comprado
+Privacidad de anuncios
 @@ ui-0350
-Sin corazones
+No comprado
 @@ ui-0351
-Perder un capítulo cuesta un corazón, y recuperas uno cada %d minutos.
+Sin corazones
 @@ ui-0352
-Próximo corazón en %s
+Perder un capítulo cuesta un corazón, y recuperas uno cada %d minutos.
 @@ ui-0353
-+1 corazón
+Próximo corazón en %s
 @@ ui-0354
-Rellenar todo · %d ⭐
++1 corazón
 @@ ui-0355
-+5 corazones · %s
+Rellenar todo · %d ⭐
 @@ ui-0356
-Ilimitado 24 horas · %s
++5 corazones · %s
 @@ ui-0357
-Pase de Historia: 8 corazones y saltos libres · %s
+Ilimitado 24 horas · %s
 @@ ui-0358
-Ahora no
+Pase de Historia: 8 corazones y saltos libres · %s
 @@ ui-0359
-duplícalo a %d ⭐
+Ahora no
 @@ ui-0360
-Corazones ilimitados: quedan %s
+duplícalo a %d ⭐
 @@ ui-0361
-Corazones: %d / %d
+Corazones ilimitados: quedan %s
 @@ ui-0362
-Estrellas gratis
+Corazones: %d / %d
 @@ ui-0363
-Las ofertas aparecen aquí cuando Google Play esté disponible.
+Estrellas gratis
 @@ ui-0364
-Comprado
+Las ofertas aparecen aquí cuando Google Play esté disponible.
 @@ ui-0365
-Ni se te ocurra
+Comprado
 @@ ui-0366
-Conoce a Hazel en vez de talar su árbol.
+Ni se te ocurra
 @@ ui-0367
-Una zanja preciosa
+Conoce a Hazel en vez de talar su árbol.
 @@ ui-0368
-Supera el primer capítulo de Hazel.
+Una zanja preciosa
 @@ ui-0369
-Hojas que enrojecen
+Supera el primer capítulo de Hazel.
 @@ ui-0370
-Supera el segundo capítulo de Hazel.
+Hojas que enrojecen
 @@ ui-0371
-En plena tormenta
+Supera el segundo capítulo de Hazel.
 @@ ui-0372
-Supera el tercer capítulo de Hazel.
+En plena tormenta
 @@ ui-0373
-Echar raíces
+Supera el tercer capítulo de Hazel.
 @@ ui-0374
-Llega al final de Hazel.
+Echar raíces
 @@ ui-0375
-Llevar la hora
+Llega al final de Hazel.
 @@ ui-0376
-Regálale a Hazel el reloj de sol de bolsillo de latón.
+Llevar la hora
 @@ ui-0377
-Suave como el musgo
+Regálale a Hazel el reloj de sol de bolsillo de latón.
 @@ ui-0378
-Termina la historia de Hazel eligiendo siempre la respuesta cariñosa.
+Suave como el musgo
 @@ ui-0379
-Astillas
+Termina la historia de Hazel eligiendo siempre la respuesta cariñosa.
 @@ ui-0380
-Termina la historia de Hazel provocándola en cada respuesta.
+Astillas
 @@ ui-0381
-Reacción en cadena
+Termina la historia de Hazel provocándola en cada respuesta.
 @@ ui-0382
-Provoca un combo x3.
+Reacción en cadena
 @@ ui-0383
-Avalancha
+Provoca un combo x3.
 @@ ui-0384
-Provoca un combo x5.
+Avalancha
 @@ ui-0385
-Deslumbrante
+Provoca un combo x5.
 @@ ui-0386
-Crea un Estallido estelar.
+Deslumbrante
 @@ ui-0387
-Megaexplosión
+Crea un Estallido estelar.
 @@ ui-0388
-Intercambia dos gemas especiales entre sí.
+Megaexplosión
 @@ ui-0389
-Irresistible
+Intercambia dos gemas especiales entre sí.
 @@ ui-0390
-Llena el anillo de Encanto para un Estallido de Encanto.
+Irresistible
 @@ ui-0391
-Con movimientos de sobra
+Llena el anillo de Encanto para un Estallido de Encanto.
 @@ ui-0392
-Supera un capítulo con 5 o más movimientos restantes.
+Con movimientos de sobra
 @@ ui-0393
-Rompefragmentos
+Supera un capítulo con 5 o más movimientos restantes.
 @@ ui-0394
-Elimina un fragmento maldito con el Martillo.
+Rompefragmentos
 @@ ui-0395
-Mirando escaparates
+Elimina un fragmento maldito con el Martillo.
 @@ ui-0396
-Compra algo en la Tienda.
+Mirando escaparates
 @@ ui-0397
-En plena floración
+Compra algo en la Tienda.
 @@ ui-0398
-Haz crecer 25 flores de Hazel.
+En plena floración
 @@ ui-0399
-Encuadernadora
+Haz crecer 25 flores de Hazel.
 @@ ui-0400
-Rompe 50 sellos de Amara.
+Encuadernadora
 @@ ui-0401
-El que lo encuentra se lo queda
+Rompe 50 sellos de Amara.
 @@ ui-0402
-Encuentra 30 cosas perdidas de Opal bajo el musgo.
+El que lo encuentra se lo queda
 @@ ui-0403
-Buceador de tesoros
+Encuentra 30 cosas perdidas de Opal bajo el musgo.
 @@ ui-0404
-Rescata 10 trozos de peineta para Marina.
+Buceador de tesoros
 @@ ui-0405
-Mil destellos
+Rescata 10 trozos de peineta para Marina.
 @@ ui-0406
-Haz 1000 combinaciones.
+Mil destellos
 @@ ui-0407
-Porque sí
+Haz 1000 combinaciones.
 @@ ui-0408
-Consigue 2000 puntos en una cita libre.
+Porque sí
 @@ ui-0409
-Cada día cuenta
+Consigue 2000 puntos en una cita libre.
 @@ ui-0410
-Completa un desafío diario.
+Cada día cuenta
 @@ ui-0411
-English
+Completa un desafío diario.
 @@ ui-0412
-Pack de inicio
+English
 @@ ui-0413
-Mejor oferta
+Pack de inicio
 @@ ui-0414
-500 estrellas, 3 de cada objeto y 24 horas de corazones ilimitados. Una vez por jugador.
+Mejor oferta
 @@ ui-0415
-Sin anuncios
+200 estrellas, 2 de cada objeto y 1 hora de corazones ilimitados. Una vez por jugador.
 @@ ui-0416
-Nunca más anuncios entre capítulos ni bajo los menús. Los vídeos con recompensa pasan a ser un toque: la recompensa, sin vídeo.
+Sin anuncios
 @@ ui-0417
-Pase de Historia
+Nunca más anuncios entre capítulos ni bajo los menús. Los vídeos con recompensa pasan a ser un toque: la recompensa, sin vídeo.
 @@ ui-0418
-Salta cualquier capítulo, sigue tras cualquier derrota y 8 corazones en vez de 5.
+Pase de Historia
 @@ ui-0419
-5 corazones extra
+Salta cualquier capítulo, sigue tras cualquier derrota y 8 corazones en vez de 5.
 @@ ui-0420
-5 corazones ahora mismo, además de los que tienes.
+5 corazones extra
 @@ ui-0421
-Corazones ilimitados
+5 corazones ahora mismo, además de los que tienes.
 @@ ui-0422
-Juega todo lo que quieras durante 24 horas.
+Corazones ilimitados
 @@ ui-0423
-Lote de objetos
+Juega todo lo que quieras durante 24 horas.
 @@ ui-0424
-5 de cada objeto de la tienda.
+Lote de objetos
 @@ ui-0425
-Puñado de estrellas
+5 de cada objeto de la tienda.
 @@ ui-0426
-150 estrellas.
+Puñado de estrellas
 @@ ui-0427
-Bolsa de estrellas
+150 estrellas.
 @@ ui-0428
-800 estrellas.
+Bolsa de estrellas
 @@ ui-0429
-Cofre de estrellas
+800 estrellas.
 @@ ui-0430
-Popular
+Cofre de estrellas
 @@ ui-0431
-1.800 estrellas.
+Popular
 @@ ui-0432
-Tesoro de estrellas
+1.800 estrellas.
 @@ ui-0433
-5.000 estrellas.
+Tesoro de estrellas
 @@ ui-0434
-Gratis: %s
+5.000 estrellas.
 @@ ui-0435
-Ver un vídeo: %s
+Gratis: %s
 @@ ui-0436
-Ya tienes esto.
+Ver un vídeo: %s
 @@ ui-0437
-Compra de prueba
+Ya tienes esto.
 @@ ui-0438
-Es una versión de prueba: no se cobra nada. ¿Comprar %s por %s?
+Compra de prueba
 @@ ui-0439
-Comprar
+Es una versión de prueba: no se cobra nada. ¿Comprar %s por %s?
 @@ ui-0440
-Ahora no se puede conectar con Google Play. Inténtalo en un momento.
+Comprar
 @@ ui-0441
-No se pudo iniciar la compra (%s).
+Ahora no se puede conectar con Google Play. Inténtalo en un momento.
 @@ ui-0442
-La tienda no está disponible en esta versión.
+No se pudo iniciar la compra (%s).
 @@ ui-0443
-La compra no se completó (%s).
+La tienda no está disponible en esta versión.
 @@ ui-0444
-Tu compra está pendiente. Llegará en cuanto Google Play la confirme.
+La compra no se completó (%s).
 @@ ui-0445
-%d / %d desbloqueados
+Tu compra está pendiente. Llegará en cuanto Google Play la confirme.
 @@ ui-0446
-%d / %d finales encontrados
+%d / %d desbloqueados
 @@ ui-0447
-%d ptos. — mal comienzo...
+%d / %d finales encontrados
 @@ ui-0448
-%d / %d ptos.
+%d ptos. — mal comienzo...
 @@ ui-0449
-%d ptos....
+%d / %d ptos.
 @@ ui-0450
-MOVIMIENTOS
+%d ptos....
 @@ ui-0451
-CONSEJO
+MOVIMIENTOS
 @@ ui-0452
-+%d ⭐
+CONSEJO
 @@ ui-0453
-SELLOS ROTOS
++%d ⭐
 @@ ui-0454
-TROZOS DE PEINETA
+SELLOS ROTOS
 @@ ui-0455
-COSAS ENCONTRADAS
+TROZOS DE PEINETA
 @@ ui-0456
-FLORES
+COSAS ENCONTRADAS
 @@ ui-0457
-¡%s está listo!
+FLORES
 @@ ui-0458
-%s: elige una gema.
+¡%s está listo!
 @@ ui-0459
-%d ptos.
+%s: elige una gema.
 @@ ui-0460
-PUNTOS
+%d ptos.
 @@ ui-0461
-Combina runas, las favoritas de Amara: llenan el anillo de Encanto el doble de rápido y en Difícil retrasan lo que se avecina. Una Poción reparadora significa menos fragmentos malditos.
+PUNTOS
 @@ ui-0462
-Combina perlas, las favoritas de Marina: llenan el anillo de Encanto el doble de rápido y en Difícil retrasan lo que se avecina. Un Pergamino del tiempo recupera movimientos perdidos.
+Combina runas, las favoritas de Amara: llenan el anillo de Encanto el doble de rápido y en Difícil retrasan lo que se avecina. Una Poción reparadora significa menos fragmentos malditos.
 @@ ui-0463
-Combina cristales, los favoritos de Opal: llenan el anillo de Encanto el doble de rápido y en Difícil retrasan lo que se avecina. Una Poción de amor trae más.
+Combina perlas, las favoritas de Marina: llenan el anillo de Encanto el doble de rápido y en Difícil retrasan lo que se avecina. Un Pergamino del tiempo recupera movimientos perdidos.
 @@ ui-0464
-Combina pétalos, los favoritos de Hazel: llenan el anillo de Encanto el doble de rápido y en Difícil retrasan lo que se avecina. Una Poción reparadora significa menos fragmentos malditos.
+Combina cristales, los favoritos de Opal: llenan el anillo de Encanto el doble de rápido y en Difícil retrasan lo que se avecina. Una Poción de amor trae más.
 @@ ui-0465
-Líneas correctas
+Combina pétalos, los favoritos de Hazel: llenan el anillo de Encanto el doble de rápido y en Difícil retrasan lo que se avecina. Una Poción reparadora significa menos fragmentos malditos.
 @@ ui-0466
-Elige una gema: se limpian su fila y su columna enteras.
+Líneas correctas
 @@ ui-0467
-¡Líneas correctas!
+Elige una gema: se limpian su fila y su columna enteras.
 @@ ui-0468
-Pleamar
+¡Líneas correctas!
 @@ ui-0469
-Se limpian las dos filas más cercanas a la superficie y todo sube dos filas.
+Pleamar
 @@ ui-0470
-¡Pleamar!
+Se limpian las dos filas más cercanas a la superficie y todo sube dos filas.
 @@ ui-0471
-Absorber
+¡Pleamar!
 @@ ui-0472
-Elige una gema: desaparecen todas las gemas de ese color.
+Absorber
 @@ ui-0473
-¡Absorber!
+Elige una gema: desaparecen todas las gemas de ese color.
 @@ ui-0474
-Verano
+¡Absorber!
 @@ ui-0475
-Cada semilla y brote del tablero crece una etapa.
+Verano
 @@ ui-0476
+Cada semilla y brote del tablero crece una etapa.
+@@ ui-0477
 ¡Verano!

@@ -17,6 +17,23 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-51 — Google Play build balanced: difficulty curve, mobile lives, economy simulation
+
+- **Difficulty curve** (power-ups measured, `balance_bot.gd mode=girlkits`):
+  chapters get 75/65/55/45% of their moves (Hazel 75/65/60/58%). Last
+  chapters are near impossible without power-ups (0–3%) and 76–98% with two
+  Time Scrolls and both potions; each earlier chapter a step easier.
+- **Lives like other mobile games:** 5 hearts, one back every 30 minutes,
+  losing or leaving a started chapter costs one (it asks first); *5 Extra
+  Hearts* ($0.99) can go past the maximum. The moves video is once per
+  attempt (+3; it could be watched six times in one attempt before).
+- **Never stuck:** a free Time Scroll every 3rd loss in a row on a chapter.
+- **Economy simulation** (`mode=lives`): a free player now needs ~6 tries per
+  last chapter and 29 hearts for the whole game, nobody stuck (was 2 in 24).
+  The Starter Pack is 200 stars, 2 of each item, 1 hour unlimited hearts.
+- **PG-13:** ads capped at Google's teen rating (`Monetize.KIDS = false`).
+- Full numbers in `docs/GOOGLE_PLAY_SETUP.md`. All tests pass.
+
 ## ✅ Status: round-50 — Google Play build: ads, in-app purchases, hearts, hardest tuning
 
 A free Google Play version (`Platform.ads`: the **Android (Google Play)**

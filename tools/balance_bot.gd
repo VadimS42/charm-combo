@@ -93,6 +93,12 @@ func _initialize() -> void:
 				"scales": move_scales = Array(kv[1].split(",")).map(func(x): return float(x))
 				"profile": profile = kv[1]
 				"players": players = int(kv[1])
+				"pity": pity = kv[1] != "0"
+				"girlscales":
+					# girlscales=dryad:0.75/0.65/0.6/0.5 (Monetize.GIRL_MOVES)
+					var gp := kv[1].split(":")
+					girl_scales[gp[0]] = Array(gp[1].split("/")).map(func(x): return float(x))
+				"starter": starter_pack = Array(kv[1].split(",")).map(func(x): return float(x))
 				"only": only_chapters = Array(kv[1].split(",")).map(func(x): return int(x) - 1)
 	call_deferred("_main")
 
@@ -148,12 +154,19 @@ var move_scales: Array = []
 ## mode=lives: profile=free|starter|spender, players=60.
 var profile := "free"
 var players := 60
+## pity=0 turns off the free Time Scroll every 3rd loss in a row.
+var pity := true
+var girl_scales := {}
+## starter=stars,items,hours: what the Starter Pack gives (Monetize.PRODUCTS).
+var starter_pack: Array = [500.0, 3.0, 24.0]
 ## only=3,4: girlkits measures just these chapters.
 var only_chapters: Array = []
 
 func _moves(ch: Dictionary, i: int) -> int:
 	var m := int(move_counts[i]) if i < move_counts.size() else int(ch.story.levels[i].moves)
 	var f: float = float(move_scales[i]) if i < move_scales.size() else move_scale
+	if girl_scales.has(String(ch.id)):
+		f = float(girl_scales[String(ch.id)][i])
 	return m if f == 1.0 else maxi(5, roundi(m * f))
 
 
@@ -994,56 +1007,40 @@ func _l_price(item: String) -> int:
 
 
 ## One player through all four girls. Returns per-chapter stats.
+## (State lives in one dictionary: GDScript lambdas copy local variables.)
 func _lives_player() -> Dictionary:
-	var t := 0.0  # minutes
-	var hearts := L_MAX_HEARTS
-	var heart_t := 0.0
-	var stars := 0
+	var st := {"t": 0.0, "hearts": L_MAX_HEARTS, "heart_t": 0.0, "stars": 0, "day": -1,
+		"vids": {}, "unlimited_until": -1.0}
 	var inv := {}
-	var day := -1
-	var vids := {}
-	var unlimited_until := -1.0
 	var stats := {"attempts": [0, 0, 0, 0], "hearts": 0, "waited": 0.0, "videos": 0,
-		"stars_spent": 0, "replays": 0, "per_girl_min": []}
+		"stars_spent": 0, "per_girl_min": []}
 	if profile in ["starter", "spender"]:
-		stars += 500
+		st.stars += int(starter_pack[0])
 		for it in StoreScreen.ITEMS:
-			inv[it.id] = 3
-		unlimited_until = 24 * 60.0
-	var regen := func():
-		if hearts >= L_MAX_HEARTS:
-			heart_t = t
-			return
-		var g := floori((t - heart_t) / L_HEART_MIN)
-		if g > 0:
-			hearts = mini(L_MAX_HEARTS, hearts + g)
-			heart_t = t if hearts >= L_MAX_HEARTS else heart_t + g * L_HEART_MIN
-	var new_day := func():
-		var d := floori(t / 1440.0)
-		if d != day:
-			day = d
-			vids = {}
-			# The day's free-stars videos.
-			stars += L_VIDEO_STARS * L_VIDEO_STARS_PER_DAY
-			stats.videos += L_VIDEO_STARS_PER_DAY
+			inv[it.id] = int(starter_pack[1])
+		st.unlimited_until = float(starter_pack[2]) * 60.0
 	for ch in CharacterData.all():
-		var girl_start := t
+		var girl_start: float = st.t
 		for i in range(4):
 			var losses := 0
 			while true:
-				new_day.call()
-				regen.call()
-				var unl: bool = t < unlimited_until
-				if hearts <= 0 and not unl:
-					if int(vids.get("heart", 0)) < L_VIDEO_HEART_PER_DAY:
-						vids["heart"] = int(vids.get("heart", 0)) + 1
+				if losses > 300:
+					stats["stuck"] = true
+					break
+				_l_new_day(st, stats)
+				_l_regen(st)
+				var unl: bool = st.t < st.unlimited_until
+				if st.hearts <= 0 and not unl:
+					if int(st.vids.get("heart", 0)) < L_VIDEO_HEART_PER_DAY:
+						st.vids["heart"] = int(st.vids.get("heart", 0)) + 1
 						stats.videos += 1
-						hearts += 1
+						st.hearts += 1
 					else:
 						# Wait for the next heart (or the next day's videos).
-						var wait := minf(L_HEART_MIN - fmod(t - heart_t, L_HEART_MIN), 1440.0 - fmod(t, 1440.0))
-						t += maxf(wait, 1.0)
-						stats.waited += maxf(wait, 1.0)
+						var wait := minf(L_HEART_MIN - fmod(st.t - st.heart_t, L_HEART_MIN), 1440.0 - fmod(st.t, 1440.0))
+						wait = maxf(wait, 1.0)
+						st.t += wait
+						stats.waited += wait
 						continue
 				# Buy the plan for this chapter with stars.
 				var plan: Array = L_KIT_PLAN[i] if (i >= 2 or losses > 0) else []
@@ -1053,51 +1050,75 @@ func _lives_player() -> Dictionary:
 				var want := {}
 				for it in plan:
 					want[it] = int(want.get(it, 0)) + 1
+				if losses >= 2 and i >= 1:
+					want["moves"] = int(want.get("moves", 0)) + 1
 				for it in want.keys():
-					while int(inv.get(it, 0)) < int(want[it]) and stars >= _l_price(it):
-						stars -= _l_price(it)
+					while int(inv.get(it, 0)) < int(want[it]) and st.stars >= _l_price(it):
+						st.stars -= _l_price(it)
 						stats.stars_spent += _l_price(it)
 						inv[it] = int(inv.get(it, 0)) + 1
 				var kit := {}
 				for it in ["favorCharm", "heartMender", "colorBomb"]:
-					if int(inv.get(it, 0)) > 0 and want.has(it):
+					if int(inv.get(it, 0)) > 0 and (want.has(it) or (profile == "spender" and i == 3 and it != "colorBomb")):
 						kit[it] = 1
 						inv[it] -= 1
-				var own_scrolls := mini(int(inv.get("moves", 0)), int(want.get("moves", 0)) + (1 if losses >= 2 else 0))
+				var own_scrolls := mini(int(inv.get("moves", 0)), int(want.get("moves", 0)))
 				var own_hammers := mini(int(inv.get("hammer", 0)), int(want.get("hammer", 0)))
-				# Free +3 moves video (one per attempt) counts as a scroll used first.
-				var video := 1 if int(vids.get("moves", 0)) < L_VIDEO_MOVES_PER_DAY else 0
+				# Free +3 moves video (one per attempt), used before own scrolls.
+				var video := 1 if int(st.vids.get("moves", 0)) < L_VIDEO_MOVES_PER_DAY else 0
 				kit["moves"] = own_scrolls + video
 				kit["hammer"] = own_hammers
 				var res := _play_girl(ch, i, CASUAL_GREEDY, -1, false, kit)
 				var scrolls_used := int(kit.moves) - int(res.scrolls_left)
 				if video and scrolls_used > 0:
-					vids["moves"] = int(vids.get("moves", 0)) + 1
+					st.vids["moves"] = int(st.vids.get("moves", 0)) + 1
 					stats.videos += 1
 					scrolls_used -= 1
 				inv["moves"] = int(inv.get("moves", 0)) - scrolls_used
 				inv["hammer"] = int(inv.get("hammer", 0)) - (own_hammers - int(res.hammers_left))
 				stats.attempts[i] += 1
-				t += L_ATTEMPT_MIN
+				st.t += L_ATTEMPT_MIN
 				if res.won:
 					var cs := StoryFlow.clear_stars(i)
-					stars += cs
-					if int(vids.get("double", 0)) < L_VIDEO_DOUBLE_PER_DAY:
-						vids["double"] = int(vids.get("double", 0)) + 1
+					st.stars += cs
+					if int(st.vids.get("double", 0)) < L_VIDEO_DOUBLE_PER_DAY:
+						st.vids["double"] = int(st.vids.get("double", 0)) + 1
 						stats.videos += 1
-						stars += cs
-					t += 4.0  # her scene
+						st.stars += cs
+					st.t += 4.0  # her scene
 					break
 				losses += 1
-				stars += maxi(3, floori(float(res.score) / 200.0))
+				st.stars += maxi(3, floori(float(res.score) / 200.0))
+				if pity and losses % 3 == 0:
+					inv["moves"] = int(inv.get("moves", 0)) + 1  # Monetize.PITY_EVERY
 				if not unl:
-					if hearts >= L_MAX_HEARTS:
-						heart_t = t
-					hearts -= 1
+					if st.hearts >= L_MAX_HEARTS:
+						st.heart_t = st.t
+					st.hearts -= 1
 					stats.hearts += 1
-		stats.per_girl_min.append(t - girl_start)
-	stats["total_min"] = t
+		stats.per_girl_min.append(st.t - girl_start)
+	stats["total_min"] = st.t
 	return stats
+
+
+func _l_regen(st: Dictionary) -> void:
+	if st.hearts >= L_MAX_HEARTS:
+		st.heart_t = st.t
+		return
+	var g := floori((st.t - st.heart_t) / L_HEART_MIN)
+	if g > 0:
+		st.hearts = mini(L_MAX_HEARTS, st.hearts + g)
+		st.heart_t = st.t if st.hearts >= L_MAX_HEARTS else st.heart_t + g * L_HEART_MIN
+
+
+func _l_new_day(st: Dictionary, stats: Dictionary) -> void:
+	var d := floori(st.t / 1440.0)
+	if d != st.day:
+		st.day = d
+		st.vids = {}
+		# The day's free-stars videos.
+		st.stars += L_VIDEO_STARS * L_VIDEO_STARS_PER_DAY
+		stats.videos += L_VIDEO_STARS_PER_DAY
 
 
 func _lives_sim() -> void:
@@ -1117,6 +1138,8 @@ func _lives_sim() -> void:
 		tot.videos += r.videos
 		tot.stars_spent += r.stars_spent
 		totals.append(float(r.total_min))
+		print("  player %d: %.1f days, attempts %s, hearts lost %d, videos %d%s" % [n + 1, r.total_min / 1440.0,
+			str(r.attempts), r.hearts, r.videos, " STUCK" if r.get("stuck", false) else ""])
 	totals.sort()
 	var p := float(players)
 	print("attempts per chapter (all girls together): ch1 %.1f  ch2 %.1f  ch3 %.1f  ch4 %.1f" % [

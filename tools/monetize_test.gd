@@ -45,6 +45,8 @@ func _go() -> void:
 	await create_timer(0.4).timeout
 
 	# Hardest tuning.
+	_ok("Hazel's last chapters get a little more (20 -> %d, %d)" % [mz.moves(20, 2, "dryad"), mz.moves(20, 3, "dryad")],
+		mz.moves(20, 2, "dryad") == 12 and mz.moves(20, 3, "dryad") == 12)
 	_ok("moves per chapter 75/65/55/45%% (20 -> %d, %d, %d, %d)" % [mz.moves(20, 0), mz.moves(20, 1), mz.moves(20, 2), mz.moves(20, 3)],
 		mz.moves(20, 0) == 15 and mz.moves(20, 1) == 13 and mz.moves(20, 2) == 11 and mz.moves(20, 3) == 9)
 	_ok("item prices up 50%% (12 -> %d)" % mz.item_price(12), mz.item_price(12) == 18)
@@ -102,6 +104,24 @@ func _go() -> void:
 		if String((b as Button).text).begins_with("Watch a video"):
 			again = true
 	_ok("only one moves video per attempt", not again)
+
+	# Every 3rd loss in a row on a chapter: a free Time Scroll.
+	var pp = gs.progress_for("dryad")
+	pp["losses"] = {str(int(pp.get("level_index", 0))): 1}
+	var scrolls0 := int(gs.items.get("moves", 0))
+	main.show_puzzle("dryad")
+	await create_timer(0.4).timeout
+	main._screen_obj.moves_left = 0
+	main._screen_obj._check_outcome()
+	await create_timer(0.3).timeout
+	_ok("2nd loss in a row: no gift yet", int(gs.items.get("moves", 0)) == scrolls0)
+	main.show_puzzle("dryad")
+	await create_timer(0.4).timeout
+	main._screen_obj.moves_left = 0
+	main._screen_obj._check_outcome()
+	await create_timer(0.3).timeout
+	_ok("3rd loss in a row: a free Time Scroll", int(gs.items.get("moves", 0)) == scrolls0 + 1)
+	mz.add_hearts(2)
 
 	# Leaving a started chapter costs a heart (after a warning).
 	main.show_puzzle("dryad")
@@ -192,7 +212,7 @@ func _go() -> void:
 	_ok("5 extra hearts, past the maximum (%d -> %d)" % [h0, mz.hearts()], mz.hearts() == h0 + 5 and mz.hearts() > mz.max_hearts())
 	gs.shop.hearts = mz.max_hearts()
 	ShopUI.buy(main, "starter_pack")
-	_ok("starter pack: stars, items, unlimited hearts", mz.owns("starter_pack") and mz.unlimited() and int(gs.items.get("hammer", 0)) >= 3)
+	_ok("starter pack: stars, items, unlimited hearts", mz.owns("starter_pack") and mz.unlimited() and int(gs.items.get("hammer", 0)) >= 2)
 	var s2: int = gs.stars
 	ShopUI.buy(main, "starter_pack")
 	await process_frame

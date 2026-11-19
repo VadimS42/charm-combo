@@ -84,6 +84,12 @@ msgstr "スター150個。"
 msgid "18+ · original characters · all characters are adults."
 msgstr "18+ · オリジナルキャラクター · 登場人物は全員成人です。"
 
+msgid "200 stars, 2 of every item and 1 hour of unlimited hearts. Once per player."
+msgstr "スター200個、全アイテム2個ずつ、1時間ハート無制限。お一人様1回限り。"
+
+msgid "200 stars, 2 of every item and 3 hours of unlimited hearts. Once per player."
+msgstr "スター200個、全アイテム2個ずつ、3時間ハート無制限。お一人様1回限り。"
+
 msgid "5 Extra Hearts"
 msgstr "追加ハート5個"
 
@@ -746,6 +752,9 @@ msgstr "お世辞ね。いいわ。続けて。"
 
 msgid "For bug reports: send the newest godot.log from this folder."
 msgstr "不具合報告用:このフォルダの一番新しいgodot.logを送ってください。"
+
+msgid "For sticking with it: a free Time Scroll!"
+msgstr "がんばったごほうび：時の巻物を1つプレゼント！"
 
 msgid "For the record: four hundred-odd summonings, several kings and one very enthusiastic bishop. None of them came close. I'm only telling you once."
 msgstr "記録のために言っておくわ。四百回ほどの召喚、何人もの王様、とても熱心な司教が一人。誰一人、足元にも及ばなかった。一度しか言わないからね。"

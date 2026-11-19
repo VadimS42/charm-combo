@@ -27,8 +27,13 @@ power-ups; each one before it is a step easier. Casual bot, % cleared
 | 3 | 0–15% | 25–48% | 45–70% | 88–100% |
 | 4 | 0–3% | 0–8% | 20–28% | 48–98% |
 
+Hazel's chapters 3 and 4 get 60% and 58% (`GIRL_MOVES`): her blossoms are the
+slowest goal, and at the shared numbers she took most of a free player's time.
+Her last chapter: 0% / 14% / 30% / 76% (none / 1 Scroll / 2 / 2 + potions).
+
 Every power-up can be bought with stars from play and free videos, never only
-with money. Item Shop star prices are 1.5x (`PRICE_FACTOR`), and Story
+with money. Every 3rd loss in a row on a chapter gives a free Time Scroll
+(`PITY_EVERY`), so nobody gets stuck for good. Item Shop star prices are 1.5x (`PRICE_FACTOR`), and Story
 difficulty, the Skip button and "Continue the story" come only with the Story
 Pass.
 
@@ -56,7 +61,7 @@ More), with room left for it. Never on a chapter or in the story.
 
 | Product ID | Type | Name | Suggested price | Gives |
 | --- | --- | --- | --- | --- |
-| `starter_pack` | one-time | Starter Pack | $1.99 | 500 stars, 3 of every item, 24 h unlimited hearts |
+| `starter_pack` | one-time | Starter Pack | $1.99 | 200 stars, 2 of every item, 1 h unlimited hearts |
 | `remove_ads` | one-time | No Ads | $3.99 | no banner or between-chapter ads; reward videos become one tap |
 | `story_pass` | one-time | Story Pass | $4.99 | skip any chapter, Story difficulty, 8 hearts |
 | `hearts_5` | consumable | 5 Extra Hearts | $0.99 | 5 hearts, past the maximum |
@@ -76,6 +81,26 @@ the constants at the top of `Monetize.gd`.
 Left out on purpose: loot boxes and random paid rewards (several countries
 treat them as gambling, and Google requires published odds), and subscriptions
 (they need a server to check renewals properly).
+
+## The economy, simulated
+
+`balance_bot.gd -- mode=lives` plays the whole game (all four girls) as a
+player with hearts, stars, power-ups bought with stars, the free videos and
+the pity Time Scroll, 24 players a profile, playing whenever they have a heart:
+
+| Profile | Tries per last chapter | Hearts lost | Hours waiting for hearts | Whole game (nonstop) | Stuck for good |
+| --- | --- | --- | --- | --- | --- |
+| Never pays | 5.7 | 29 | 7.6 | 0.3 days median, 1 day slowest 10% | 0 |
+| Starter Pack only | 1.3 | 8 | 0.4 | about 3 hours | 0 |
+| Starter Pack + potions for every last chapter | 1.1 | 0 | 0 | about 2.5 hours | 0 |
+
+With a few sessions a day, a free player takes 3–4 days. Before the tuning
+(shared numbers for Hazel, no pity scroll, a 500-star / 24-hour Starter Pack),
+free players took 2–5 days nonstop, lost 129 hearts and 2 in 24 got stuck for
+good, while a Starter Pack made the whole game a 2-hour stroll.
+
+Re-run it after changing any number: `mode=lives profile=free|starter|spender
+scales=0.75,0.65,0.55,0.45 girlscales=dryad:0.75/0.65/0.6/0.58 starter=200,2,1`.
 
 ## Setting it up
 

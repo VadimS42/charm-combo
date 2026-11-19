@@ -48,10 +48,20 @@ const REFILL_STARS := 60
 ##   4 (x0.45)        0-3%         0-8%        20-28%       48-98%   (full kit 77-100%)
 ## (Normally, with all the moves: 59-88% with none, 95-100% with 2 Scrolls.)
 const CHAPTER_MOVES := [0.75, 0.65, 0.55, 0.45]
+## Per-girl exceptions. Hazel's growing blossoms are the slowest goal: at the
+## shared numbers her last chapter was 48% with two Scrolls and both potions
+## (the others 92-98%), and the economy simulation spent 46 of a free
+## player's 50 hours on her. At these: chapter 3 5% / 36% / 71% / 96% and
+## chapter 4 0% / 14% / 30% / 76% (none / 1 Scroll / 2 / 2 + potions).
+const GIRL_MOVES := {"dryad": [0.75, 0.65, 0.6, 0.58]}
 ## ...and the Item Shop's star prices go up by this much.
 const PRICE_FACTOR := 1.5
 ## Rewarded videos: what each pays and how many a day.
 const VIDEO_MOVES := 3  # once per attempt: worth one Time Scroll
+## Every PITY_EVERY-th loss in a row on a chapter gives a free Time Scroll:
+## the economy simulation (balance_bot.gd mode=lives) had about one free player
+## in four stuck for good on a last chapter without it.
+const PITY_EVERY := 3
 const VIDEO_STARS := 15
 const DAILY_CAPS := {"moves": 6, "double": 6, "stars": 5, "heart": 5, "daily": 1}
 ## Between-chapter ads: never before the GRACE-th chapter end, then at most
@@ -74,8 +84,8 @@ const AD_UNITS := {
 ## until Google Play sends the real, local price.
 const PRODUCTS := [
 	{"id": "starter_pack", "kind": "once", "name": "Starter Pack", "price": "$1.99", "tag": "Best value",
-		"desc": "500 stars, 3 of every item and 24 hours of unlimited hearts. Once per player.",
-		"grant": {"stars": 500, "items": 3, "unlimited_h": 24}},
+		"desc": "200 stars, 2 of every item and 1 hour of unlimited hearts. Once per player.",
+		"grant": {"stars": 200, "items": 2, "unlimited_h": 1}},
 	{"id": "remove_ads", "kind": "once", "name": "No Ads", "price": "$3.99",
 		"desc": "No ads between chapters or under the menus, ever. Reward videos become one tap: the reward, no video."},
 	{"id": "story_pass", "kind": "once", "name": "Story Pass", "price": "$4.99",
@@ -194,11 +204,12 @@ func store_available() -> bool:
 
 # ---------------------------------------------------------------- hardest tuning
 
-## A chapter's moves in this build (CHAPTER_MOVES).
-static func moves(base: int, chapter: int = 1) -> int:
+## A chapter's moves in this build (CHAPTER_MOVES, GIRL_MOVES).
+static func moves(base: int, chapter: int = 1, girl: String = "") -> int:
 	if not Platform.ads:
 		return base
-	var f: float = CHAPTER_MOVES[clampi(chapter, 0, CHAPTER_MOVES.size() - 1)]
+	var table: Array = GIRL_MOVES.get(girl, CHAPTER_MOVES)
+	var f: float = table[clampi(chapter, 0, table.size() - 1)]
 	return maxi(5, roundi(base * f))
 
 

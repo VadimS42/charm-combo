@@ -84,6 +84,12 @@ msgstr "150 звёзд."
 msgid "18+ · original characters · all characters are adults."
 msgstr "18+ · оригинальные персонажи · все персонажи совершеннолетние."
 
+msgid "200 stars, 2 of every item and 1 hour of unlimited hearts. Once per player."
+msgstr "200 звёзд, по 2 каждого предмета и 1 час безлимитных сердец. Один раз на игрока."
+
+msgid "200 stars, 2 of every item and 3 hours of unlimited hearts. Once per player."
+msgstr "200 звёзд, по 2 каждого предмета и 3 часа безлимитных сердец. Один раз на игрока."
+
 msgid "5 Extra Hearts"
 msgstr "5 дополнительных сердец"
 
@@ -767,6 +773,9 @@ msgstr "Лесть. Хорошо. Продолжай."
 
 msgid "For bug reports: send the newest godot.log from this folder."
 msgstr "Для отчётов об ошибках: пришли самый свежий godot.log из этой папки."
+
+msgid "For sticking with it: a free Time Scroll!"
+msgstr "За упорство: бесплатный Свиток времени!"
 
 msgid "For storms. Okay. Just for storms."
 msgstr "Для гроз. Хорошо. Только для гроз."

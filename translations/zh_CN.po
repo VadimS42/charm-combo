@@ -84,6 +84,12 @@ msgstr "150 颗星星。"
 msgid "18+ · original characters · all characters are adults."
 msgstr "18+ · 原创角色 · 所有角色均为成年人。"
 
+msgid "200 stars, 2 of every item and 1 hour of unlimited hearts. Once per player."
+msgstr "200 颗星星、每种道具 2 个和 1 小时无限爱心。每位玩家限购一次。"
+
+msgid "200 stars, 2 of every item and 3 hours of unlimited hearts. Once per player."
+msgstr "200 颗星星、每种道具 2 个和 3 小时无限爱心。每位玩家限购一次。"
+
 msgid "5 Extra Hearts"
 msgstr "5 颗额外爱心"
 
@@ -767,6 +773,9 @@ msgstr "奉承。很好。继续。"
 
 msgid "For bug reports: send the newest godot.log from this folder."
 msgstr "提交错误报告时:请从此文件夹发送最新的godot.log。"
+
+msgid "For sticking with it: a free Time Scroll!"
+msgstr "坚持不懈的奖励：一张免费时间卷轴！"
 
 msgid "For storms. Okay. Just for storms."
 msgstr "为了风暴天。好。只为了风暴天。"

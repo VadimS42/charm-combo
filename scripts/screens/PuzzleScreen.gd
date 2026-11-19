@@ -243,7 +243,7 @@ func setup(p_main: Node, p_host: Control, p_char_id: String, p_replay: int = -1,
 			seed(hash("charm-combo-daily-" + daily_key()))
 
 	# Google Play build (round 50): fewer moves (Monetize.moves()).
-	moves_left = Monetize.moves(int(level.moves), level_index if mode == "" else 1) * (2 if story_mode() else 1)
+	moves_left = Monetize.moves(int(level.moves), level_index if mode == "" else 1, char_id) * (2 if story_mode() else 1)
 	if mode == "free":
 		moves_left = FREE_MOVES
 	elif mode == "daily":
@@ -3479,6 +3479,9 @@ func _leave_to_roster() -> void:
 ## Moves at the start of this attempt (to tell whether it's been started).
 var _start_moves := 0
 
+## Google Play build: this loss earned the free Time Scroll.
+var _pity_gift := false
+
 ## Google Play build: this attempt already had its video moves.
 var _video_moves_used := false
 
@@ -3498,6 +3501,11 @@ func _show_lose_overlay() -> void:
 		if replay < 0:
 			losses[str(level_index)] = int(losses.get(str(level_index), 0)) + 1
 			progress["losses"] = losses
+			# Google Play build: every 3rd loss in a row on a chapter, a free
+			# Time Scroll, so nobody is stuck for good (Monetize.PITY_EVERY).
+			if Monetize.active() and int(losses[str(level_index)]) % Monetize.PITY_EVERY == 0:
+				GameState.items.moves = int(GameState.items.get("moves", 0)) + 1
+				_pity_gift = true
 			GameState.save_state()
 	_clear_hint()
 	# Losing still pays a little, so you can save up for power-ups and come
@@ -3534,6 +3542,10 @@ func _show_lose_overlay() -> void:
 	v.add_child(needed)
 	var reward := UITheme.rich_icons(UITheme.t("+%d ⭐ for trying") % earned, 15, UITheme.INK)
 	v.add_child(reward)
+	if _pity_gift:
+		var gift := UITheme.body(UITheme.t("For sticking with it: a free Time Scroll!"), 13, _accent().darkened(0.25))
+		gift.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+		v.add_child(gift)
 	var hint := UITheme.soft_label("1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!", 12)
 	hint.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	hint.custom_minimum_size = Vector2(380, 0)

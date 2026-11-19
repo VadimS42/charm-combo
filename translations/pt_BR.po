@@ -84,6 +84,12 @@ msgstr "150 estrelas."
 msgid "18+ · original characters · all characters are adults."
 msgstr "18+ · personagens originais · todos os personagens são adultos."
 
+msgid "200 stars, 2 of every item and 1 hour of unlimited hearts. Once per player."
+msgstr "200 estrelas, 2 de cada item e 1 hora de corações ilimitados. Uma vez por jogador."
+
+msgid "200 stars, 2 of every item and 3 hours of unlimited hearts. Once per player."
+msgstr "200 estrelas, 2 de cada item e 3 horas de corações ilimitados. Uma vez por jogador."
+
 msgid "5 Extra Hearts"
 msgstr "5 corações extras"
 
@@ -746,6 +752,9 @@ msgstr "Bajulação. Ótimo. Continua."
 
 msgid "For bug reports: send the newest godot.log from this folder."
 msgstr "Para relatar erros: envie o godot.log mais recente desta pasta."
+
+msgid "For sticking with it: a free Time Scroll!"
+msgstr "Por não desistir: um Pergaminho do tempo grátis!"
 
 msgid "For the record: four hundred-odd summonings, several kings and one very enthusiastic bishop. None of them came close. I'm only telling you once."
 msgstr "Para constar: umas quatrocentas invocações, vários reis e um bispo muito empolgado. Nenhum chegou nem perto. Só vou dizer uma vez."

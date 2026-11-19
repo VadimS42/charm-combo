@@ -71,13 +71,13 @@ T = {
 "Owned": ["已拥有", "Куплено", "購入済み", "Comprado", "Comprado", "Gekauft"],
 "Starter Pack": ["新手礼包", "Стартовый набор", "スターターパック", "Pack de inicio", "Pacote inicial", "Starterpaket"],
 "Best value": ["最超值", "Выгоднее всего", "一番お得", "Mejor oferta", "Melhor oferta", "Bester Wert"],
-"500 stars, 3 of every item and 24 hours of unlimited hearts. Once per player.": [
-    "500 颗星星、每种道具 3 个和 24 小时无限爱心。每位玩家限购一次。",
-    "500 звёзд, по 3 каждого предмета и 24 часа безлимитных сердец. Один раз на игрока.",
-    "スター500個、全アイテム3個ずつ、24時間ハート無制限。お一人様1回限り。",
-    "500 estrellas, 3 de cada objeto y 24 horas de corazones ilimitados. Una vez por jugador.",
-    "500 estrelas, 3 de cada item e 24 horas de corações ilimitados. Uma vez por jogador.",
-    "500 Sterne, je 3 von jedem Gegenstand und 24 Stunden unbegrenzte Herzen. Einmal pro Person."],
+"200 stars, 2 of every item and 1 hour of unlimited hearts. Once per player.": [
+    "200 颗星星、每种道具 2 个和 1 小时无限爱心。每位玩家限购一次。",
+    "200 звёзд, по 2 каждого предмета и 1 час безлимитных сердец. Один раз на игрока.",
+    "スター200個、全アイテム2個ずつ、1時間ハート無制限。お一人様1回限り。",
+    "200 estrellas, 2 de cada objeto y 1 hora de corazones ilimitados. Una vez por jugador.",
+    "200 estrelas, 2 de cada item e 1 hora de corações ilimitados. Uma vez por jogador.",
+    "200 Sterne, je 2 von jedem Gegenstand und 1 Stunde unbegrenzte Herzen. Einmal pro Person."],
 "No Ads": ["无广告", "Без рекламы", "広告なし", "Sin anuncios", "Sem anúncios", "Keine Werbung"],
 "No ads between chapters or under the menus, ever. Reward videos become one tap: the reward, no video.": [
     "章节之间和菜单下方再也不会有广告。奖励视频变成一键领取：直接获得奖励，无需看视频。",
@@ -150,4 +150,8 @@ T = {
     "立即获得 5 颗爱心，叠加在你现有的爱心之上。", "5 сердец прямо сейчас, сверх тех, что у вас есть.",
     "今すぐハート5個。今あるハートに上乗せされます。", "5 corazones ahora mismo, además de los que tienes.",
     "5 corações agora mesmo, além dos que você já tem.", "Sofort 5 Herzen, zusätzlich zu deinen."],
+"For sticking with it: a free Time Scroll!": [
+    "坚持不懈的奖励：一张免费时间卷轴！", "За упорство: бесплатный Свиток времени!",
+    "がんばったごほうび：時の巻物を1つプレゼント！", "Por no rendirte: ¡un Pergamino del tiempo gratis!",
+    "Por não desistir: um Pergaminho do tempo grátis!", "Fürs Dranbleiben: eine Zeitrolle gratis!"],
 }
