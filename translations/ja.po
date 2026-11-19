@@ -42,6 +42,9 @@ msgstr "%s:宝石を選んで。"
 msgid "(You need %d more stars.)"
 msgstr "(星があと%d個必要)"
 
+msgid "+%d moves"
+msgstr "+%d手"
+
 msgid "+%d pts — great answer!"
 msgstr "+%dポイント — いい返事!"
 
@@ -57,6 +60,9 @@ msgstr "挑戦賞 +%d ⭐"
 msgid "+%d ⭐ towards it"
 msgstr "その分 +%d ⭐"
 
+msgid "+1 heart"
+msgstr "ハート+1"
+
 msgid "+2 moves — great answer!"
 msgstr "手数+2 — いい返事!"
 
@@ -66,8 +72,26 @@ msgstr "-1手"
 msgid "1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!"
 msgstr "200ポイントごとに星1つ。ショップでアイテムをためて、もう一度挑戦しよう!"
 
+msgid "1,800 stars."
+msgstr "スター1,800個。"
+
+msgid "150 stars."
+msgstr "スター150個。"
+
 msgid "18+ · original characters · all characters are adults."
 msgstr "18+ · オリジナルキャラクター · 登場人物は全員成人です。"
+
+msgid "5 of every item in the Item Shop."
+msgstr "アイテムショップの全アイテムを5個ずつ。"
+
+msgid "5,000 stars."
+msgstr "スター5,000個。"
+
+msgid "500 stars, 3 of every item and 24 hours of unlimited hearts. Once per player."
+msgstr "スター500個、全アイテム3個ずつ、24時間ハート無制限。お一人様1回限り。"
+
+msgid "800 stars."
+msgstr "スター800個。"
 
 msgid "A Lovely Trench"
 msgstr "素敵な溝"
@@ -162,6 +186,9 @@ msgstr "吸収!"
 msgid "Achievements"
 msgstr "実績"
 
+msgid "Ad privacy choices"
+msgstr "広告のプライバシー設定"
+
 msgid "Admit it. You like having me around."
 msgstr "認めなさいよ。私がそばにいると嬉しいんでしょ。"
 
@@ -197,6 +224,9 @@ msgstr "すべてのルール"
 
 msgid "All spring, by hand? I guess I'll have to get used to you."
 msgstr "春じゅう、手で?じゃあ、あなたに慣れるしかなさそうね。"
+
+msgid "All the girls"
+msgstr "女の子たち一覧"
 
 msgid "Amara Duskrose"
 msgstr "アマラ・ダスクローズ"
@@ -237,6 +267,9 @@ msgstr "もう一度デート"
 msgid "Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing."
 msgstr "どんなマッチでもすぐにチャプターの目標を達成し、星を99個もらえる — 動作確認用。普通に遊ぶためのものではない。"
 
+msgid "Anything you've bought on this Google account comes back in a moment."
+msgstr "このGoogleアカウントで購入したものは、まもなく復元されます。"
+
 msgid "At the Midsummer Tide the whole family swims out to the rocks, and Gran wears nine pearls in her hair and pretends not to notice everyone watching her."
 msgstr "夏至の大潮には家族みんなで岩場まで泳いでいき、おばあちゃんは髪に九つの真珠を挿して、みんなに見られているのに気づかないふりをする。"
 
@@ -255,6 +288,9 @@ msgstr "開花"
 msgid "Back"
 msgstr "戻る"
 
+msgid "Back to the chapter"
+msgstr "章に戻る"
+
 msgid "Back to the roster"
 msgstr "一覧に戻る"
 
@@ -272,6 +308,9 @@ msgstr "デイリーチャレンジ最高記録"
 
 msgid "Best date with %s"
 msgstr "%sとの最高のデート"
+
+msgid "Best value"
+msgstr "一番お得"
 
 msgid "Better than the last one the miller sent."
 msgstr "粉屋が前に寄こした人よりましね。"
@@ -323,6 +362,9 @@ msgstr "でも許してあげる。明日はシャベルを持ってきてね。
 
 msgid "But she's a little pinker than she was."
 msgstr "でも、さっきより少しだけピンクになっている。"
+
+msgid "Buy"
+msgstr "購入"
 
 msgid "Buy something in the Item Shop."
 msgstr "ショップで何か買う。"
@@ -401,6 +443,9 @@ msgstr "チャーム — そろえるとたまる(好きな宝石が一番早い
 
 msgid "Charm — fills as you match (her favourite gem fastest). Full = one use of her power: %s"
 msgstr "チャーム — そろえるとたまる(好きな宝石が一番早い)。満タンで彼女の力を1回:%s"
+
+msgid "Chest of Stars"
+msgstr "スターの宝箱"
 
 msgid "Chimes for matches, combos, and menus."
 msgstr "マッチ、コンボ、メニューの音。"
@@ -714,6 +759,12 @@ msgstr "ボタン400個って、知らない人のボタンがずいぶんある
 msgid "Free date"
 msgstr "自由なデート"
 
+msgid "Free stars"
+msgstr "無料のスター"
+
+msgid "Free: %s"
+msgstr "無料：%s"
+
 msgid "Frosted Sea-Glass Pendant"
 msgstr "すりガラスのシーグラスのペンダント"
 
@@ -746,6 +797,9 @@ msgstr "彼女に贈る:%s"
 
 msgid "Gold swirl. They stopped making these before I went in the jar. Where did you even find it?"
 msgstr "金のうず巻き。私が瓶に入る前に、もう作られなくなってたのに。いったいどこで見つけたの?"
+
+msgid "Google Play isn't reachable right now. Try again in a moment."
+msgstr "現在Google Playに接続できません。少し待ってからもう一度お試しください。"
 
 msgid "Got it"
 msgstr "わかった"
@@ -783,8 +837,14 @@ msgstr "ハンマー"
 msgid "Hand-Dipped Beeswax Candle"
 msgstr "手作りの蜜蝋ろうそく"
 
+msgid "Handful of Stars"
+msgstr "スターひとつかみ"
+
 msgid "Hard"
 msgstr "ハード"
+
+msgid "Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Story difficulty comes with the Story Pass. Takes effect from the next chapter."
+msgstr "ハード：数手ごとにデートで何かが起こります（桟橋に波がかかる、ろうそくが揺らぐなど）。事前に表示されます。ストーリー難易度はストーリーパスに含まれます。次の章から反映されます。"
 
 msgid "Hard: things happen on your date"
 msgstr "ハード:デート中にいろいろ起きる"
@@ -818,6 +878,15 @@ msgstr "あんなこと、一度もしたことなかったのに。四十回の
 
 msgid "Hear the girls speak their lines."
 msgstr "女の子たちがセリフをしゃべる。"
+
+msgid "Hearts left: %d / %d"
+msgstr "残りハート：%d / %d"
+
+msgid "Hearts: %d / %d"
+msgstr "ハート：%d / %d"
+
+msgid "Hearts: losing a chapter costs one, and they come back over time."
+msgstr "ハート：章に負けると1つ減り、時間とともに回復します。"
 
 msgid "Her board with no move limit, just for fun and a high score."
 msgstr "手数制限なしの彼女の盤面。気軽に遊んでハイスコアを狙おう。"
@@ -1131,6 +1200,9 @@ msgstr "チョークのせいよ。安いチョークは喉に来るの。"
 msgid "It's the first thing in a new collection. Things that are yours."
 msgstr "新しいコレクションの第一号。あなたの物のコレクション。"
 
+msgid "Item Bundle"
+msgstr "アイテムセット"
+
 msgid "Item Shop"
 msgstr "ショップ"
 
@@ -1184,6 +1256,9 @@ msgstr "セリフが自動で進む(A)"
 
 msgid "Log"
 msgstr "ログ"
+
+msgid "Losing a chapter costs a heart, and one comes back every %d minutes."
+msgstr "章に負けるとハートが1つ減り、%d分ごとに1つ回復します。"
 
 msgid "Love Potion"
 msgstr "惚れ薬"
@@ -1344,6 +1419,9 @@ msgstr "起きかけていたことに、二人とも気づかない。"
 msgid "Next"
 msgstr "次へ"
 
+msgid "Next heart in %s"
+msgstr "次のハートまで %s"
+
 msgid "Night scene"
 msgstr "夜のシーン"
 
@@ -1359,6 +1437,12 @@ msgstr "あれを9つで、私は解放される。"
 msgid "Nine-hour wick. Hand-dipped. You know what this is for, don't you."
 msgstr "9時間の芯。手作り。これが何のためのものか、わかってるでしょう。"
 
+msgid "No Ads"
+msgstr "広告なし"
+
+msgid "No ads between chapters or under the menus, ever. Reward videos become one tap: the reward, no video."
+msgstr "章の合間やメニューの下に広告が一切出なくなります。報酬動画はワンタップに：動画なしで報酬がもらえます。"
+
 msgid "No moves left — reshuffling!"
 msgstr "手がない — シャッフル!"
 
@@ -1371,6 +1455,9 @@ msgstr "だめ。あれが何をするか見てきたもの。"
 msgid "Normal"
 msgstr "普通"
 
+msgid "Not bought"
+msgstr "購入されませんでした"
+
 msgid "Not found yet"
 msgstr "未発見"
 
@@ -1379,6 +1466,9 @@ msgstr "未発見:彼女の物語を終えると解放される。"
 
 msgid "Not met yet"
 msgstr "まだ出会っていない"
+
+msgid "Not now"
+msgstr "今はいい"
 
 msgid "Not unlocked yet"
 msgstr "まだ解放されていない"
@@ -1403,6 +1493,9 @@ msgstr "もちろん2羽目も買うよ。"
 
 msgid "Of course I'll help. What does it look like?"
 msgstr "もちろん手伝うよ。どんな見た目?"
+
+msgid "Offers appear here once Google Play is reachable."
+msgstr "Google Playに接続すると、ここにオファーが表示されます。"
 
 msgid "Oh, I intend to."
 msgstr "あら、そのつもりよ。"
@@ -1485,8 +1578,14 @@ msgstr "手数切れ"
 msgid "Out of Season"
 msgstr "季節外れ"
 
+msgid "Out of hearts"
+msgstr "ハートがありません"
+
 msgid "Out of moves"
 msgstr "手数切れ"
+
+msgid "Owned"
+msgstr "購入済み"
 
 msgid "Owned: %d"
 msgstr "所持:%d"
@@ -1545,6 +1644,9 @@ msgstr "クリア済みのチャプターをもう一度遊んで星を稼ぐ。
 msgid "Play a chapter you've cleared again, for stars. No story scenes, and her story stays where it is."
 msgstr "クリア済みのチャプターをもう一度遊んで星を稼ぐ。ストーリーシーンはなく、彼女の物語はそのまま。"
 
+msgid "Play as much as you like for 24 hours."
+msgstr "24時間、好きなだけ遊べます。"
+
 msgid "Play it again"
 msgstr "もう一度遊ぶ"
 
@@ -1556,6 +1658,12 @@ msgstr "そろえなくても好きな宝石を1つ壊せる。アイテム欄�
 
 msgid "Pop-up messages and her speech bubble in a chapter stay on screen longer. Dialogue always waits for you unless Auto is on."
 msgstr "チャプター中のポップアップと彼女の吹き出しが長く表示される。会話はオートでない限り、いつでもあなたを待つ。"
+
+msgid "Popular"
+msgstr "人気"
+
+msgid "Pouch of Stars"
+msgstr "スターの小袋"
 
 msgid "Press her power button (or 4), then pick a gem: every gem of that colour is cleared, and the moss under them."
 msgstr "彼女の力のボタン(または4)を押して宝石を選ぶと、その色の宝石がすべて消え、下の苔も消える。"
@@ -1602,6 +1710,12 @@ msgstr "準備OK!"
 msgid "Reduce Motion"
 msgstr "動きを減らす"
 
+msgid "Refill all · %d ⭐"
+msgstr "全回復 · %d ⭐"
+
+msgid "Remove ads · %s"
+msgstr "広告を削除 · %s"
+
 msgid "Replay"
 msgstr "最初から"
 
@@ -1628,6 +1742,9 @@ msgstr "すべての進行状況をリセットする?"
 
 msgid "Reset everything"
 msgstr "すべてリセット"
+
+msgid "Restore purchases"
+msgstr "購入を復元"
 
 msgid "Retry Chapter"
 msgstr "チャプターをやり直す"
@@ -1863,6 +1980,9 @@ msgstr "スキップ"
 msgid "Skip Unread Lines"
 msgstr "未読もスキップ"
 
+msgid "Skip any chapter, carry on after any loss, and 8 hearts instead of 5."
+msgstr "どの章もスキップでき、負けても先に進め、ハートが5個から8個に。"
+
 msgid "Skip chapter"
 msgstr "スキップする"
 
@@ -1871,6 +1991,9 @@ msgstr "チャプターをスキップ  ▸"
 
 msgid "Skip every line up to the next reply, read or not"
 msgstr "次の返事まで、既読も未読もすべて飛ばす"
+
+msgid "Skip it with the Story Pass  ▸"
+msgstr "ストーリーパスでスキップ  ▸"
 
 msgid "Skip lines you've read (hold Ctrl)"
 msgstr "既読をスキップ(Ctrl長押し)"
@@ -1977,6 +2100,9 @@ msgstr "彼女の物語を最初からやり直す"
 msgid "Start with the baker. He leans on me when he smokes."
 msgstr "パン屋から始めて。たばこを吸うとき私にもたれるの。"
 
+msgid "Starter Pack"
+msgstr "スターターパック"
+
 msgid "Stats"
 msgstr "記録"
 
@@ -2006,6 +2132,12 @@ msgstr "ショップ"
 
 msgid "Story"
 msgstr "ストーリー"
+
+msgid "Story Pass"
+msgstr "ストーリーパス"
+
+msgid "Story Pass: 8 hearts and free skips · %s"
+msgstr "ストーリーパス：ハート8個とスキップ · %s"
 
 msgid "Story difficulty: carry on with the story without playing this chapter (no stars for it)."
 msgstr "ストーリー難易度:このチャプターを遊ばずに物語を進める(星はもらえない)。"
@@ -2072,6 +2204,9 @@ msgstr "間違えてたら言って。このことは本でたった一冊読ん
 
 msgid "Tempting. You'd have to do my shelving."
 msgstr "魅力的だね。そしたら君が本を棚に戻すことになるけど。"
+
+msgid "Test purchase"
+msgstr "テスト購入"
 
 msgid "Testing Mode"
 msgstr "テストモード"
@@ -2256,6 +2391,12 @@ msgstr "古いハシバミは、林が水車の水路と出会う場所に立っ
 msgid "The pier's quiet apart from the Thursday tile game at the far end, where the three old fishermen are arguing about the score again."
 msgstr "桟橋は静かだ。反対の端の木曜日の牌遊びだけが騒がしく、三人の年寄りの漁師がまた点数でもめている。"
 
+msgid "The purchase couldn't start (%s)."
+msgstr "購入を開始できませんでした（%s）。"
+
+msgid "The purchase didn't go through (%s)."
+msgstr "購入が完了しませんでした（%s）。"
+
 msgid "The reading room at dawn: a burnt-out candle in a smudged chalk circle, your jacket folded into a neat square on the returns cart."
 msgstr "夜明けの閲覧室。にじんだチョークの円の中に燃え尽きたろうそく、返却カートの上にはきちんと四角く畳まれたあなたの上着。"
 
@@ -2264,6 +2405,9 @@ msgstr "ドアを閉めた閲覧室。明かりはチョークの円のろうそ
 
 msgid "The reward is you come to every Tide from now on. Non-negotiable. Don't smile, it's a punishment."
 msgstr "報酬は、これから毎回の大潮に来ること。交渉の余地なし。笑わないで、罰なんだから。"
+
+msgid "The store isn't available in this build."
+msgstr "このバージョンではストアを利用できません。"
 
 msgid "The stream comes out under the Mill Bridge, where Coombs the rag-and-bone man fishes for anything that floats. You get there ahead of her and sell him a handful of buttons off the bank for two coppers before you realise whose they are. He's netted the rest too. Buying the lot back costs six coppers, which he finds very funny."
 msgstr "小川は水車橋の下に出る。そこではくず屋のクームズが、浮いているものを片っ端からすくっている。彼女より先に着いたあなたは、岸で拾ったボタンをひとつかみ銅貨2枚で彼に売ってから、それが誰の物か気づく。残りも彼がもう網ですくっていた。全部買い戻すのに銅貨6枚。彼はそれが大いに面白いらしい。"
@@ -2355,6 +2499,9 @@ msgstr "見つけた物"
 msgid "This erases every girl's story progress, your stars, items, gifts and the whole Gallery. Your settings and achievements are kept. This can't be undone."
 msgstr "全員の物語の進行状況、星、アイテム、贈り物、ギャラリーがすべて消える。設定と実績は残る。元には戻せない。"
 
+msgid "This is a test build: no money changes hands. Buy %s for %s?"
+msgstr "これはテスト版です：お金はかかりません。%sを%sで購入しますか？"
+
 msgid "This line here. That's where you'd put my name. If you ever wanted to call me. You won't need to. I'll be with you."
 msgstr "この線。ここに私の名前を書くの。もし私を呼びたくなったらね。そんな必要はないけど。私はあなたのそばにいるから。"
 
@@ -2382,6 +2529,9 @@ msgstr "切り替え"
 msgid "Treasure Diver"
 msgstr "宝探しダイバー"
 
+msgid "Treasury of Stars"
+msgstr "スターの宝物庫"
+
 msgid "Try: %s"
 msgstr "試してみて:%s"
 
@@ -2400,6 +2550,15 @@ msgstr "二百年生きて、精霊があんなふうに感じられるなんて
 msgid "Ugh. That's drier than a sponge."
 msgstr "うえっ。スポンジより乾いてる。"
 
+msgid "Unlimited Hearts"
+msgstr "ハート無制限"
+
+msgid "Unlimited for 24 hours · %s"
+msgstr "24時間無制限 · %s"
+
+msgid "Unlimited hearts: %s left"
+msgstr "ハート無制限：残り %s"
+
 msgid "Use a Time Scroll"
 msgstr "時の巻物を使う"
 
@@ -2414,6 +2573,9 @@ msgstr "ボイス音量"
 
 msgid "W-with you? Where would I even..."
 msgstr "あ、あなたのところに?私、どこに……"
+
+msgid "Watch a video: %s"
+msgstr "動画を見る：%s"
 
 msgid "We're getting the second owl, right?"
 msgstr "2羽目のフクロウも買うよね?"
@@ -2471,6 +2633,9 @@ msgstr "ランプを落とすと、部屋の明かりは彼女だけになる。
 
 msgid "You"
 msgstr "あなた"
+
+msgid "You already have this."
+msgstr "すでに持っています。"
 
 msgid "You also find a little brass clasp wedged under the pier. She takes it from you and turns it over for a long time."
 msgstr "桟橋の下に挟まった小さな真鍮の留め金も見つかる。彼女はそれを受け取り、長いこと手の中で回している。"
@@ -2697,6 +2862,9 @@ msgstr "次のチャプター:盤面の呪いの欠片がずっと少なくな�
 msgid "Your next chapter: her favorite gem shows up more often, her least favorite less."
 msgstr "次のチャプター:彼女の好きな宝石が増え、苦手な宝石が減る。"
 
+msgid "Your purchase is pending. It arrives as soon as Google Play confirms it."
+msgstr "購入は保留中です。Google Playが確認しだい届きます。"
+
 msgid "Your replies"
 msgstr "あなたの返事"
 
@@ -2721,8 +2889,14 @@ msgstr "次の手の後"
 msgid "best %d"
 msgstr "最高 %d"
 
+msgid "double it to %d ⭐"
+msgstr "2倍の%d ⭐に"
+
 msgid "in %d moves"
 msgstr "あと%d手"
+
+msgid "one more daily try"
+msgstr "デイリーをもう1回"
 
 msgid "the glass eye"
 msgstr "ガラスの目"

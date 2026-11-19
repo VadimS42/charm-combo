@@ -242,7 +242,8 @@ func setup(p_main: Node, p_host: Control, p_char_id: String, p_replay: int = -1,
 		if mode == "daily":
 			seed(hash("charm-combo-daily-" + daily_key()))
 
-	moves_left = int(level.moves) * (2 if story_mode() else 1)
+	# Google Play build (round 50): fewer moves (Monetize.moves()).
+	moves_left = Monetize.moves(int(level.moves), level_index if mode == "" else 1) * (2 if story_mode() else 1)
 	if mode == "free":
 		moves_left = FREE_MOVES
 	elif mode == "daily":
@@ -1792,13 +1793,7 @@ func _on_item_pressed(item_id: String) -> void:
 	match item_id:
 		"moves":
 			GameState.items.moves = count - 1
-			moves_left += 3
-			var was_locked := overlay.visible
-			overlay.visible = false
-			_set_board_focus(true)
-			_update_hud()
-			if was_locked and Nav.nav_mode:
-				cell_buttons[3][3].grab_focus.call_deferred()
+			_add_moves(3)
 		"hammer":
 			hammer_mode = true
 			selected = Vector2i(-1, -1)
@@ -2248,7 +2243,8 @@ const EVENT_KINDS := {
 ## puzzles. Twice the moves, a "Skip chapter" button from the start, and the
 ## out-of-moves panel always offers to carry on.
 static func story_mode() -> bool:
-	return String(GameState.settings.get("difficulty", "easy")) == "story"
+	# The Google Play build keeps Story difficulty for Story Pass owners.
+	return String(GameState.settings.get("difficulty", "easy")) == "story" and Monetize.free_skips()
 
 
 ## Hard difficulty (Settings): the date's events are on.
@@ -3352,6 +3348,8 @@ func _check_outcome() -> void:
 		if moves_left <= 0:
 			_show_mode_result()
 		return
+	if _won_pending:
+		return
 	if rules.won(score):
 		GameState.add_stat("chapters_won")
 		GameState.best_stat("best_score", score)
@@ -3359,10 +3357,24 @@ func _check_outcome() -> void:
 			Achievements.unlock("MOVES_LEFT_5")
 		if replay >= 0:
 			_show_replay_win()
+		elif Monetize.active():
+			# Google Play build: double the stars for a video, maybe an ad,
+			# then her scene.
+			_won_pending = true
+			_set_board_focus(false)
+			ShopUI.win_bonus(main, StoryFlow.clear_stars(level_index) if not _already_won() else 0, func():
+				Monetize.between_chapters(func(): StoryFlow.on_chapter_won(main, char_id)))
 		else:
 			StoryFlow.on_chapter_won(main, char_id)
 	elif moves_left <= 0:
 		_show_lose_overlay()
+
+
+## Google Play build: the win popup is up; nothing else may end the chapter.
+var _won_pending := false
+
+func _already_won() -> bool:
+	return (GameState.progress_for(char_id).get("won_levels", []) as Array).has(level_index)
 
 
 ## Stars for running out of moves: 1 for every 200 points scored, at least 3
@@ -3413,7 +3425,7 @@ func _show_replay_win() -> void:
 	var again := UITheme.make_primary_button("Play it again")
 	UITheme.add_icon(again, "play")
 	again.pressed.connect(func():
-		main.show_puzzle(char_id, replay)
+		Monetize.between_chapters(func(): main.show_puzzle(char_id, replay))
 	)
 	row.add_child(again)
 	var shop_btn := UITheme.make_ghost_button("Item Shop")
@@ -3435,6 +3447,18 @@ func _show_replay_win() -> void:
 		again.grab_focus.call_deferred()
 
 
+## More moves (a Time Scroll, or a rewarded video in the Google Play build):
+## off the Out of Moves screen and back onto the board.
+func _add_moves(n: int) -> void:
+	moves_left += n
+	var was_locked := overlay.visible
+	overlay.visible = false
+	_set_board_focus(true)
+	_update_hud()
+	if was_locked and Nav.nav_mode:
+		cell_buttons[3][3].grab_focus.call_deferred()
+
+
 ## This attempt's loss is already counted (running out again after +3 Moves
 ## is the same attempt).
 var _loss_counted := false
@@ -3444,11 +3468,14 @@ func _show_lose_overlay() -> void:
 	HowToPlay.tip(main, "out_of_moves")
 	var progress := GameState.progress_for(char_id)
 	var losses: Dictionary = progress.get("losses", {})
-	if not _loss_counted and replay < 0:
+	if not _loss_counted:
 		_loss_counted = true
-		losses[str(level_index)] = int(losses.get(str(level_index), 0)) + 1
-		progress["losses"] = losses
-		GameState.save_state()
+		# Google Play build: a lost chapter costs a heart (Monetize.gd).
+		Monetize.spend_heart()
+		if replay < 0:
+			losses[str(level_index)] = int(losses.get(str(level_index), 0)) + 1
+			progress["losses"] = losses
+			GameState.save_state()
 	_clear_hint()
 	# Losing still pays a little, so you can save up for power-ups and come
 	# back for another go (topped up, never paid twice, if +3 Moves keeps the
@@ -3531,6 +3558,25 @@ func _show_lose_overlay() -> void:
 	row.add_theme_constant_override("separation", 10)
 	v.add_child(row)
 
+	# Google Play build: a few more moves for a video.
+	if Monetize.can_watch("moves"):
+		var vid := UITheme.make_primary_button(Monetize.watch_label(UITheme.t("+%d moves") % Monetize.VIDEO_MOVES))
+		UITheme.add_icon(vid, "play")
+		vid.pressed.connect(func():
+			Monetize.watch("moves", func():
+				if not _torn_down:
+					_add_moves(Monetize.VIDEO_MOVES)))
+		var vid_row := HBoxContainer.new()
+		vid_row.alignment = BoxContainer.ALIGNMENT_CENTER
+		vid_row.add_child(vid)
+		v.add_child(vid_row)
+		v.move_child(vid_row, row.get_index())  # the first choice, above Retry
+	if Monetize.active() and not Monetize.unlimited():
+		var hl := UITheme.soft_label(UITheme.t("Hearts left: %d / %d") % [Monetize.hearts(), Monetize.max_hearts()], 12)
+		hl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+		v.add_child(hl)
+		v.move_child(hl, row.get_index())
+
 	if int(GameState.items.get("moves", 0)) > 0:
 		var use_btn := UITheme.make_primary_button("Use a Time Scroll")
 		use_btn.pressed.connect(func():
@@ -3545,7 +3591,7 @@ func _show_lose_overlay() -> void:
 		# place, so the screen_host is properly cleared first (a fresh
 		# PuzzleScreen instance also means no stale signal connections from
 		# this attempt's buttons linger around).
-		main.show_puzzle(char_id, replay)
+		Monetize.between_chapters(func(): main.show_puzzle(char_id, replay))
 	)
 	row.add_child(retry_btn)
 
@@ -3561,7 +3607,17 @@ func _show_lose_overlay() -> void:
 
 	# Stuck? After three losses in a row the story can carry on anyway, so
 	# the puzzle never walls it off (no stars or achievement for this one).
-	if replay < 0 and (story_mode() or int(losses.get(str(level_index), 0)) >= 3):
+	if replay < 0 and Monetize.active() and not Monetize.free_skips() and int(losses.get(str(level_index), 0)) >= 3:
+		# Google Play build: skipping is the Story Pass's.
+		var pass_btn := UITheme.make_ghost_button("Skip it with the Story Pass  ▸")
+		pass_btn.pressed.connect(func():
+			SFX.nav()
+			main.show_mobile("shop"))
+		var pass_row := HBoxContainer.new()
+		pass_row.alignment = BoxContainer.ALIGNMENT_CENTER
+		pass_row.add_child(pass_btn)
+		v.add_child(pass_row)
+	if replay < 0 and Monetize.free_skips() and (story_mode() or int(losses.get(str(level_index), 0)) >= 3):
 		var cont := UITheme.make_ghost_button("Continue the story  ▸")
 		cont.tooltip_text = "Carry on without clearing this chapter (no stars for it)."
 		cont.pressed.connect(func():

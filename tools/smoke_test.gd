@@ -24,6 +24,12 @@ func _initialize() -> void:
 func _go() -> void:
 	gs = root.get_node("GameState")
 	gs.reset_progress()
+	# Google Play build (`-- --ads`, round 50): test ads finish at once, and
+	# the Story Pass + unlimited hearts so the losses below can carry on.
+	if root.get_node("Platform").ads:
+		var mz = root.get_node("Monetize")
+		mz.test_instant = true
+		gs.shop = {"owned": ["story_pass"], "unlimited_until": Time.get_unix_time_from_system() + 86400.0}
 	gs.settings.age_confirmed = true
 	gs.settings.text_speed = "instant"
 	gs.settings.reduce_motion = true

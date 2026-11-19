@@ -105,6 +105,10 @@ var tips_seen: Array = []
 ## play / daily challenge high scores ("free_<char id>", "daily_<yyyymmdd>").
 ## Kept through Reset Progress, like the gallery.
 var stats: Dictionary = {}
+## Google Play build only (Platform.ads, round 50): hearts, what's been bought,
+## today's rewarded-video counts and ad pacing. Monetize.gd owns its keys.
+## Kept apart from story progress: Reset progress never takes a purchase away.
+var shop: Dictionary = {}
 
 ## In-memory only (not persisted): the "key" of whichever option was just
 ## picked in a character's epilogue choice (see StoryFlow's _play_epilogue()/
@@ -200,6 +204,7 @@ func save_state() -> void:
 		"tips_seen": tips_seen,
 		"replays": replays,
 		"stats": stats,
+		"shop": shop,
 	}
 	var f := FileAccess.open(TEMP_PATH, FileAccess.WRITE)
 	if f == null:
@@ -279,6 +284,9 @@ func load_state() -> void:
 	if typeof(parsed.get("stats")) == TYPE_DICTIONARY:
 		for k in parsed.stats.keys():
 			stats[String(k)] = parsed.stats[k]
+	shop = {}
+	if typeof(parsed.get("shop")) == TYPE_DICTIONARY:
+		shop = parsed.shop
 	replays = []
 	if typeof(parsed.get("replays")) == TYPE_ARRAY:
 		for k in parsed.replays:

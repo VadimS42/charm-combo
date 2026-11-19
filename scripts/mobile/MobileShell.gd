@@ -50,6 +50,12 @@ static func show(main: Node, tab: String, sub: String = "") -> void:
 	else:
 		box.add_child(bar)
 		box.add_child(content)
+	# Google Play build (round 50): a banner along the bottom, with room left
+	# for it so it never covers the tab bar or a button.
+	Monetize.show_banner(true)
+	var ad_room := Monetize.banner_space()
+	if ad_room > 0.0:
+		box.offset_bottom = -ad_room
 	var first: Control = null
 	match tab:
 		"home": first = _home(main, content)
@@ -380,9 +386,18 @@ static func face_rect(ch: Dictionary, tex: Texture2D, box: Vector2, zoom_scale: 
 # ---------------------------------------------------------------- Shop
 
 static func _shop(main: Node, content: Control) -> Control:
-	var v := _column(content, UITheme.t("Item Shop"))
-	v.add_child(_wrap(UITheme.t("Stars come from clearing chapters: 15 for a girl's first and 5 more for each one after it."), 12, Color.WHITE))
+	var v := _column(content, UITheme.t("Shop") if Monetize.active() else UITheme.t("Item Shop"))
 	var first: Control = null
+	# Google Play build (round 50): hearts, free stars and the offers first.
+	if Monetize.active():
+		var sec := ShopUI.shop_section(main, func(): main.show_mobile("shop"))
+		v.add_child(sec)
+		for b in sec.find_children("*", "Button", true, false):
+			if not (b as Button).disabled:
+				first = b
+				break
+		v.add_child(UITheme.heading(UITheme.t("Item Shop"), 20))
+	v.add_child(_wrap(UITheme.t("Stars come from clearing chapters: 15 for a girl's first and 5 more for each one after it."), 12, Color.WHITE))
 	for item in StoreScreen.ITEMS:
 		var pv := _card()
 		var card: PanelContainer = pv[0]
@@ -399,7 +414,7 @@ static func _shop(main: Node, content: Control) -> Control:
 		tv.add_child(_wrap(UITheme.t(String(item.desc)), 12, UITheme.INK_SOFT))
 		var owned := int(GameState.items.get(item.id, 0))
 		tv.add_child(UITheme.body(UITheme.t("You have %d") % owned, 12, UITheme.INK))
-		var price := int(item.price)
+		var price := Monetize.item_price(int(item.price))
 		var buy := _big(UITheme.make_primary_button(UITheme.t("Buy · %d ⭐") % price))
 		UITheme.apply_icon(buy, "star", UITheme.t("Buy · %d") % price)
 		buy.disabled = GameState.stars < price
@@ -503,6 +518,22 @@ static func _more(main: Node, content: Control, sub: String) -> Control:
 		SFX.nav()
 		HowToPlay.show_page(main))
 	v.add_child(how)
+	# Google Play build (round 50): No Ads, restoring purchases, ad privacy.
+	if Monetize.active():
+		if not Monetize.no_ads() and Monetize.store_available():
+			var na := _big(UITheme.make_primary_button(UITheme.t("Remove ads · %s") % Monetize.price("remove_ads")))
+			na.pressed.connect(func(): ShopUI.buy(main, "remove_ads", func(): main.show_mobile("more")))
+			v.add_child(na)
+		if Monetize.billing_provider == "play":
+			var rs := _big(UITheme.make_ghost_button("Restore purchases"))
+			rs.pressed.connect(func():
+				Monetize.restore_purchases()
+				ShopUI.message(main, UITheme.t("Restore purchases"), UITheme.t("Anything you've bought on this Google account comes back in a moment.")))
+			v.add_child(rs)
+		if Monetize.privacy_options_required():
+			var pr := _big(UITheme.make_ghost_button("Ad privacy choices"))
+			pr.pressed.connect(func(): Monetize.show_privacy_options())
+			v.add_child(pr)
 	var credits := _big(UITheme.make_ghost_button("Credits"))
 	UITheme.add_icon(credits, "credits")
 	credits.pressed.connect(func():

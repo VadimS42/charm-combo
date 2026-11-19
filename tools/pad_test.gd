@@ -83,6 +83,8 @@ func _go() -> void:
 	if main.modal_open():
 		main.close_modal()
 	await _round49()
+	if root.get_node("Platform").ads:
+		await _ads()
 	print("PAD TEST %s (%d problems)" % ["PASSED" if problems == 0 else "FAILED", problems])
 	quit()
 
@@ -215,3 +217,26 @@ func _name(c: Control) -> String:
 	if t == "" and c is Button and (c as Button).icon:
 		t = "icon " + (c as Button).icon.resource_path.get_file()
 	return "%s %s" % [c.get_class(), t.left(40).replace("\n", " ")]
+
+
+## Google Play build (`-- --ads`, round 50): its popups.
+func _ads() -> void:
+	var mz = root.get_node("Monetize")
+	mz.test_instant = true
+	await _check("Shop (offers)", func(): main.show_mobile("shop"))
+	await _check("More (Remove ads)", func(): main.show_mobile("more"))
+	gs.shop.hearts = 0
+	gs.shop.heart_t = Time.get_unix_time_from_system()
+	gs.shop.erase("unlimited_until")
+	await _check("Out of hearts", func(): main.show_puzzle("dryad"))
+	main.close_modal()
+	gs.shop.hearts = 5
+	var p = gs.progress_for("dryad")
+	p["level_index"] = 0
+	p["won_levels"] = []
+	await _check("Chapter cleared: double it", func():
+		main.show_puzzle("dryad")
+		await create_timer(0.3).timeout
+		main._screen_obj.score = 999999
+		main._screen_obj._check_outcome())
+	main.close_modal()

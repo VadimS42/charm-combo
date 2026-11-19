@@ -74,7 +74,9 @@ Export presets are in `export_presets.cfg`:
 | Web (itch.io) | |
 | Windows (Demo) | Hazel only |
 | Windows (Epic) | Safe for work, no Steam (round 46): `docs/EPIC_SETUP.md` |
-| Android | Safe for work (round 46): `docs/ANDROID_SETUP.md` |
+| Android (itch.io) | Safe for work, no ads (round 46): `docs/ANDROID_SETUP.md` |
+| Android (Google Play) | Free: ads, purchases, hearts, hardest tuning (round 50): `docs/GOOGLE_PLAY_SETUP.md` |
+| Android (Google Play preview) | The Google Play build with pretend ads and purchases, for a test phone |
 
 The Epic and Android builds play the safe-for-work version. Run
 `python3 tools/make_sfw_data.py` before exporting them (`docs/SFW_CONTENT.md`).
@@ -244,6 +246,7 @@ The gems, items, frames, pieces, powers, achievement badges and app icon are in 
 - Write the safe-for-work night scenes / epilogues / lines and add the `_sfw` pictures: `docs/SFW_CONTENT.md`.
 - Mobile interface (rounds 47–48): every screen is laid out for phones, portrait and landscape. Tabs for the menus, mobile chapter and dialogue layouts, long-press tooltips and vibration. Next: test on real phones, and add Play Games / purchases if wanted (`docs/ANDROID_SETUP.md`).
 - Main focus stays the Windows / Steam build; every mobile change is behind `Platform.mobile`.
+- **Google Play build (round 50):** ads, in-app purchases and hearts, all behind `Platform.ads` (`autoload/Monetize.gd`, `scripts/monetize/`). To release it: AdMob + Play Console accounts, the two plugins, the real ad unit IDs, and the products. `docs/GOOGLE_PLAY_SETUP.md` has every step. The new strings are machine-drafted in every language.
 
 **Release**
 - **Steam:** set `Platform.STEAM_APP_ID` (now 0) and the store URL, add GodotSteam for the Steam build, and upload the achievement icons. `docs/STEAM_SETUP.md` has the steps; the store page text is in `docs/STORE_PAGE.md`.

@@ -111,7 +111,7 @@ static func _card(main: Node, item: Dictionary) -> PanelContainer:
 	var owned := int(GameState.items.get(item.id, 0))
 	v.add_child(UITheme.soft_label(UITheme.t("Owned: %d") % owned, 11))
 
-	var price := int(item.price)
+	var price := Monetize.item_price(int(item.price))
 	var buy_btn := UITheme.make_primary_button(UITheme.t("Buy · %d ⭐") % price)
 	# art/ui/star.png after the price when it exists, in place of the emoji.
 	UITheme.apply_icon(buy_btn, "star", UITheme.t("Buy · %d") % price)

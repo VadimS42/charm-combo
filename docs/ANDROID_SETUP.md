@@ -1,7 +1,8 @@
 # Android
 
-The **Android** export preset makes an APK (or, later, an AAB for Google
-Play) with the safe-for-work story (`docs/SFW_CONTENT.md`). Package name:
+The **Android (itch.io)** export preset makes an APK with the safe-for-work
+story (`docs/SFW_CONTENT.md`), no ads and no purchases. The free Google Play
+version with ads and purchases is its own preset: `docs/GOOGLE_PLAY_SETUP.md`. Package name:
 `com.charmcombo.game`; change it in the preset before your first upload,
 because it can never change after that.
 

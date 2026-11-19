@@ -30,6 +30,7 @@ Music="*res://autoload/Music.gd"
 Nav="*res://autoload/Nav.gd"
 Achievements="*res://autoload/Achievements.gd"
 Platform="*res://autoload/Platform.gd"
+Monetize="*res://autoload/Monetize.gd"
 Voice="*res://autoload/Voice.gd"
 
 [debug]

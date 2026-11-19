@@ -57,6 +57,8 @@ var store := "none"
 ## no 18+ notice, and her safe-for-work lines, epilogues and pictures where
 ## characters.json / the art folders have them (see StoryFlow.sfw_lines()).
 var sfw := false
+## The free, ad-supported Google Play build (round 50; see Monetize.gd).
+var ads := false
 ## A phone or tablet (Android): touch, no window, no quitting by button.
 var mobile := false
 ## Epic Online Services, through the optional bridge script (null without it).
@@ -87,6 +89,13 @@ func _init() -> void:
 	elif OS.has_feature("android"):
 		store = "android"
 	sfw = OS.has_feature("sfw") or args.has("--sfw") or store == "epic" or store == "android"
+	# The free Google Play build (round 50): ads, in-app purchases, hearts and
+	# the hardest tuning (Monetize.gd). `-- --ads` tries it on PC, in the phone
+	# layout. The itch.io Android build has none of it.
+	ads = OS.has_feature("ads") or args.has("--ads")
+	if ads:
+		sfw = true
+		mobile = true
 
 
 func _ready() -> void:

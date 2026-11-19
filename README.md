@@ -17,6 +17,32 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-50 — Google Play build: ads, in-app purchases, hearts, hardest tuning
+
+A free Google Play version (`Platform.ads`: the **Android (Google Play)**
+preset, or `-- --ads` on PC). The paid itch.io Android build, Steam and Epic
+are unchanged. Full guide: **`docs/GOOGLE_PLAY_SETUP.md`**.
+- **Hardest tuning:** chapters 2–4 give 80% of their moves (first chapters keep
+  them all), Item Shop prices are 1.5x, and Story difficulty and skips need the
+  Story Pass.
+- **Hearts:** 5; losing a chapter costs one, one back every 25 minutes. With
+  none left: a video, 60 stars, 24 h unlimited, or the Story Pass.
+- **Reward videos:** +5 moves when out of moves, double a chapter's stars,
+  +15 free stars, +1 heart, another daily try (each limited per day).
+- **Ads:** between chapters (not before the 3rd, then every 2nd, at least
+  2.5 minutes apart) and a banner under the phone menus; never in the story.
+- **Purchases:** Starter Pack, No Ads, Story Pass, Unlimited Hearts, Item
+  Bundle and four star packs (Google Play Billing). *Reset progress* never
+  removes a purchase; *Restore purchases* is under More.
+- **Plugins:** AdMob (Poing Studios, `scripts/monetize/AdMobBridge.gd`, checked
+  against plugin 3.1.3) and GodotGooglePlayBilling. Without them a debug build
+  uses pretend ads and purchases (the **Android (Google Play preview)** preset),
+  and a release build hides those buttons.
+- **Controller:** Settings on phones was only 10/33 reachable with a D-pad;
+  rows now chain up/down. Every Google Play popup is reachable too.
+- **Tests:** `tools/monetize_test.gd -- --ads` (33 checks), and smoke, mechanics
+  and pad tests also run with `-- --ads`.
+
 ## ✅ Status: round-49 — free dates, daily challenge, Story difficulty, stats, accessibility, Gallery extras, four new languages
 
 - **Free dates** (after her story): a *Free date* button on her roster card

@@ -47,7 +47,7 @@ CALLS = re.compile(r'"((?:[^"\\]|\\.)*)"')
 
 def ui():
     seen, items = set(), []
-    for d in ("scripts", "scripts/screens", "autoload"):
+    for d in ("scripts", "scripts/screens", "scripts/mobile", "scripts/monetize", "autoload"):
         for f in sorted(os.listdir(os.path.join(ROOT, d))):
             if not f.endswith(".gd"):
                 continue

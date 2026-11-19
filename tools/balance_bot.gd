@@ -24,6 +24,7 @@
 ##   mode=girlfuzz  round 44: 10k starting boards per girl and chapter
 ##   (plain/items/campaign/dist still play the classic round-33 scoring)
 ##   runs=300 fuzz=10000 seed=1 girl=dryad
+##   scale=0.8      the Google Play build's moves (round 50)
 ##   targets=700,1000,1300,1500 moves=15,15,16,18   try numbers without
 ##                  editing data/characters.json
 ##
@@ -82,6 +83,7 @@ func _initialize() -> void:
 				"girl": girl = kv[1]
 				"targets": targets = Array(kv[1].split(",")).map(func(x): return int(x))
 				"moves": move_counts = Array(kv[1].split(",")).map(func(x): return int(x))
+				"scale": move_scale = float(kv[1])
 	call_deferred("_main")
 
 
@@ -121,8 +123,12 @@ func _target(ch: Dictionary, i: int) -> int:
 	return int(targets[i]) if i < targets.size() else int(ch.story.levels[i].target)
 
 
+## scale=0.8 plays the Google Play build's moves (Monetize.moves(), round 50).
+var move_scale := 1.0
+
 func _moves(ch: Dictionary, i: int) -> int:
-	return int(move_counts[i]) if i < move_counts.size() else int(ch.story.levels[i].moves)
+	var m := int(move_counts[i]) if i < move_counts.size() else int(ch.story.levels[i].moves)
+	return m if move_scale == 1.0 else maxi(5, roundi(m * move_scale))
 
 
 ## The starting bonus a chapter gets from the reply before it.

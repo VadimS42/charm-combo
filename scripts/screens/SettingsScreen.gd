@@ -48,7 +48,9 @@ static func build(main: Node, host: Control) -> void:
 	scroll.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
 	scroll.follow_focus = true
-	UITheme.make_scroll_navigable(scroll)
+	# Every row is a D-pad stop (_chain_rows()) and the list follows the focus,
+	# so the scroll area itself needn't be one (round 50).
+	scroll.focus_mode = Control.FOCUS_NONE
 	outer.add_child(scroll)
 	var center := CenterContainer.new()
 	center.size_flags_horizontal = Control.SIZE_EXPAND_FILL
@@ -130,9 +132,12 @@ static func build(main: Node, host: Control) -> void:
 	# Puzzle difficulty (round 41): Easy is the classic puzzle; Hard adds the
 	# date's events (PuzzleScreen.EVENT_KINDS). Takes effect from the next
 	# chapter started.
+	# The Google Play build (round 50) keeps Story for Story Pass owners.
+	var story_ok: bool = Monetize.free_skips()
 	v.add_child(_choice_row(
-		"Difficulty", "Story: twice the moves, and you can skip any chapter. Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Takes effect from the next chapter.",
-		[["story", "Story"], ["easy", "Easy"], ["hard", "Hard"]],
+		"Difficulty", "Story: twice the moves, and you can skip any chapter. Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Takes effect from the next chapter." if story_ok
+			else "Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Story difficulty comes with the Story Pass. Takes effect from the next chapter.",
+		[["story", "Story"], ["easy", "Easy"], ["hard", "Hard"]] if story_ok else [["easy", "Easy"], ["hard", "Hard"]],
 		String(GameState.settings.get("difficulty", "easy")),
 		func(key: String):
 			GameState.settings.difficulty = key
@@ -304,6 +309,36 @@ static func build(main: Node, host: Control) -> void:
 		)
 	)
 	v.add_child(reset_btn)
+	_chain_rows(v, back)
+
+
+## Up / down go row by row (round 50). The D-pad's own guess by position got
+## lost on a phone's narrow layout, reaching 10 of the 33 controls.
+static func _chain_rows(v: VBoxContainer, back: Control) -> void:
+	var groups: Array = []
+	for row in v.get_children():
+		var g: Array = []
+		if row.has_meta("control"):
+			var c: Control = row.get_meta("control")
+			# A row of options: every option in it.
+			g = c.get_parent().get_children().filter(func(b): return b is BaseButton) if c.get_parent() is Container and c is Button and (c as Button).toggle_mode else [c]
+		elif row is BaseButton:
+			g = [row]
+		elif row is Container:
+			g = row.get_children().filter(func(b): return b is BaseButton)
+		if not g.is_empty():
+			groups.append(g)
+	for i in groups.size():
+		for c in groups[i]:
+			var ctl := c as Control
+			if i > 0:
+				ctl.focus_neighbor_top = ctl.get_path_to(groups[i - 1][0])
+			elif back:
+				ctl.focus_neighbor_top = ctl.get_path_to(back)
+			if i < groups.size() - 1:
+				ctl.focus_neighbor_bottom = ctl.get_path_to(groups[i + 1][0])
+	if back and not groups.is_empty():
+		back.focus_neighbor_bottom = back.get_path_to(groups[0][0])
 
 
 ## A row of options to pick one from (segmented buttons).

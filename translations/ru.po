@@ -42,6 +42,9 @@ msgstr "%s: выбери камень."
 msgid "(You need %d more stars.)"
 msgstr "(Не хватает звёзд: %d.)"
 
+msgid "+%d moves"
+msgstr "+%d ходов"
+
 msgid "+%d pts — great answer!"
 msgstr "+%d очк. — отличный ответ!"
 
@@ -57,6 +60,9 @@ msgstr "+%d ⭐ за старание"
 msgid "+%d ⭐ towards it"
 msgstr "+%d ⭐ на это"
 
+msgid "+1 heart"
+msgstr "+1 сердце"
+
 msgid "+2 moves — great answer!"
 msgstr "+2 хода — отличный ответ!"
 
@@ -66,8 +72,26 @@ msgstr "-1 ход"
 msgid "1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!"
 msgstr "1 звезда за каждые 200 очков. Накопи на усиления в Магазине предметов и попробуй снова!"
 
+msgid "1,800 stars."
+msgstr "1 800 звёзд."
+
+msgid "150 stars."
+msgstr "150 звёзд."
+
 msgid "18+ · original characters · all characters are adults."
 msgstr "18+ · оригинальные персонажи · все персонажи совершеннолетние."
+
+msgid "5 of every item in the Item Shop."
+msgstr "По 5 каждого предмета из магазина."
+
+msgid "5,000 stars."
+msgstr "5 000 звёзд."
+
+msgid "500 stars, 3 of every item and 24 hours of unlimited hearts. Once per player."
+msgstr "500 звёзд, по 3 каждого предмета и 24 часа безлимитных сердец. Один раз на игрока."
+
+msgid "800 stars."
+msgstr "800 звёзд."
 
 msgid "A Lovely Trench"
 msgstr "Чудесная канава"
@@ -162,6 +186,9 @@ msgstr "Поглощение!"
 msgid "Achievements"
 msgstr "Достижения"
 
+msgid "Ad privacy choices"
+msgstr "Настройки конфиденциальности рекламы"
+
 msgid "Admit it. You like having me around."
 msgstr "Признай. Тебе нравится, что я рядом."
 
@@ -203,6 +230,9 @@ msgstr "Все правила"
 
 msgid "All spring, by hand? I guess I'll have to get used to you."
 msgstr "Всю весну, вручную? Видимо, придётся к тебе привыкнуть."
+
+msgid "All the girls"
+msgstr "Все девушки"
 
 msgid "Amara Duskrose"
 msgstr "Амара Даскроуз"
@@ -246,6 +276,9 @@ msgstr "Ещё свидание"
 msgid "Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing."
 msgstr "Любое допустимое совпадение сразу выполняет цель главы и даёт 99 звёзд — для тестировщиков, а не для настоящей игры."
 
+msgid "Anything you've bought on this Google account comes back in a moment."
+msgstr "Всё, что вы купили на этом аккаунте Google, вернётся через мгновение."
+
 msgid "At the Midsummer Tide the whole family swims out to the rocks, and Gran wears nine pearls in her hair and pretends not to notice everyone watching her."
 msgstr "На Летнем Приливе вся семья плывёт к скалам, а бабуля носит в волосах девять жемчужин и делает вид, что не замечает, как все на неё смотрят."
 
@@ -264,6 +297,9 @@ msgstr "ЦВЕТЫ"
 msgid "Back"
 msgstr "Назад"
 
+msgid "Back to the chapter"
+msgstr "Назад к главе"
+
 msgid "Back to the roster"
 msgstr "Назад к списку"
 
@@ -281,6 +317,9 @@ msgstr "Лучшее испытание дня"
 
 msgid "Best date with %s"
 msgstr "Лучшее свидание: %s"
+
+msgid "Best value"
+msgstr "Выгоднее всего"
 
 msgid "Better than the last one the miller sent."
 msgstr "Лучше, чем прошлый, которого прислал мельник."
@@ -332,6 +371,9 @@ msgstr "Но так и быть. Только завтра принеси лоп
 
 msgid "But she's a little pinker than she was."
 msgstr "Но она стала немного розовее, чем была."
+
+msgid "Buy"
+msgstr "Купить"
 
 msgid "Buy something in the Item Shop."
 msgstr "Купи что-нибудь в Магазине предметов."
@@ -410,6 +452,9 @@ msgstr "Обаяние — растёт с каждым совпадением (
 
 msgid "Charm — fills as you match (her favourite gem fastest). Full = one use of her power: %s"
 msgstr "Обаяние — наполняется от совпадений (быстрее всего от её любимого камня). Полное = одно применение её силы: %s"
+
+msgid "Chest of Stars"
+msgstr "Сундук звёзд"
 
 msgid "Chimes for matches, combos, and menus."
 msgstr "Звонкие сигналы для совпадений, комбо и меню."
@@ -741,6 +786,12 @@ msgstr "Четыреста пуговиц — это очень много чу�
 msgid "Free date"
 msgstr "Свободное свидание"
 
+msgid "Free stars"
+msgstr "Бесплатные звёзды"
+
+msgid "Free: %s"
+msgstr "Бесплатно: %s"
+
 msgid "Frosted Sea-Glass Pendant"
 msgstr "Матовая подвеска из морского стекла"
 
@@ -773,6 +824,9 @@ msgstr "Подарить ей: %s"
 
 msgid "Gold swirl. They stopped making these before I went in the jar. Where did you even find it?"
 msgstr "Золотая спираль. Их перестали делать до того, как я попала в банку. Откуда он у тебя вообще?"
+
+msgid "Google Play isn't reachable right now. Try again in a moment."
+msgstr "Google Play сейчас недоступен. Попробуйте чуть позже."
 
 msgid "Got it"
 msgstr "Понятно"
@@ -810,8 +864,14 @@ msgstr "Молоток"
 msgid "Hand-Dipped Beeswax Candle"
 msgstr "Ручная свеча из пчелиного воска"
 
+msgid "Handful of Stars"
+msgstr "Горсть звёзд"
+
 msgid "Hard"
 msgstr "Сложно"
+
+msgid "Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Story difficulty comes with the Story Pass. Takes effect from the next chapter."
+msgstr "Сложно: каждые несколько ходов на свидании что-то происходит (волна через пирс, свечи гаснут), об этом предупреждают заранее. Сюжетная сложность — в Сюжетном пропуске. Действует со следующей главы."
 
 msgid "Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Takes effect from the next chapter."
 msgstr "Сложно: каждые несколько ходов на свидании что-то происходит (волна через пирс, гаснут свечи), и это видно заранее. Действует со следующей главы."
@@ -848,6 +908,15 @@ msgstr "Он никогда так не делал. Сорок вёсен — и
 
 msgid "Hear the girls speak their lines."
 msgstr "Слушай, как девушки произносят свои реплики."
+
+msgid "Hearts left: %d / %d"
+msgstr "Осталось сердец: %d / %d"
+
+msgid "Hearts: %d / %d"
+msgstr "Сердца: %d / %d"
+
+msgid "Hearts: losing a chapter costs one, and they come back over time."
+msgstr "Сердца: проигрыш главы стоит одно сердце, со временем они восстанавливаются."
 
 msgid "Her board with no move limit, just for fun and a high score."
 msgstr "Её поле без ограничения ходов — просто для удовольствия и рекорда."
@@ -1173,6 +1242,9 @@ msgstr "Это мел. Дешёвый мел застревает в горле.
 msgid "It's the first thing in a new collection. Things that are yours."
 msgstr "Это первое в новой коллекции. Вещи, которые твои."
 
+msgid "Item Bundle"
+msgstr "Набор предметов"
+
 msgid "Item Shop"
 msgstr "Магазин предметов"
 
@@ -1229,6 +1301,9 @@ msgstr "Реплики идут сами (A)"
 
 msgid "Log"
 msgstr "Журнал"
+
+msgid "Losing a chapter costs a heart, and one comes back every %d minutes."
+msgstr "Проигрыш главы стоит сердце, и каждые %d минут одно возвращается."
 
 msgid "Love Potion"
 msgstr "Любовное зелье"
@@ -1392,6 +1467,9 @@ msgstr "Никто из вас не замечает, что надвигало�
 msgid "Next"
 msgstr "Далее"
 
+msgid "Next heart in %s"
+msgstr "Следующее сердце через %s"
+
 msgid "Night scene"
 msgstr "Ночная сцена"
 
@@ -1407,6 +1485,12 @@ msgstr "Девять таких, и я свободна."
 msgid "Nine-hour wick. Hand-dipped. You know what this is for, don't you."
 msgstr "Фитиль на девять часов. Ручная работа. Ты ведь знаешь, для чего это."
 
+msgid "No Ads"
+msgstr "Без рекламы"
+
+msgid "No ads between chapters or under the menus, ever. Reward videos become one tap: the reward, no video."
+msgstr "Больше никакой рекламы между главами и под меню. Видео за награду — в одно касание: награда без видео."
+
 msgid "No moves left — reshuffling!"
 msgstr "Ходов не осталось — перемешиваем!"
 
@@ -1419,6 +1503,9 @@ msgstr "Нет. Я видела, что они творят."
 msgid "Normal"
 msgstr "Нормально"
 
+msgid "Not bought"
+msgstr "Не куплено"
+
 msgid "Not found yet"
 msgstr "Пока не найдено"
 
@@ -1427,6 +1514,9 @@ msgstr "Пока не найдено: пройди её историю, чтоб
 
 msgid "Not met yet"
 msgstr "Пока не встречена"
+
+msgid "Not now"
+msgstr "Не сейчас"
 
 msgid "Not unlocked yet"
 msgstr "Ещё не открыто"
@@ -1451,6 +1541,9 @@ msgstr "Конечно, берём вторую сову."
 
 msgid "Of course I'll help. What does it look like?"
 msgstr "Конечно, помогу. Как она выглядит?"
+
+msgid "Offers appear here once Google Play is reachable."
+msgstr "Предложения появятся здесь, когда Google Play будет доступен."
 
 msgid "Oh, I intend to."
 msgstr "О, я собираюсь."
@@ -1536,8 +1629,14 @@ msgstr "Ходы закончились"
 msgid "Out of Season"
 msgstr "Вне сезона"
 
+msgid "Out of hearts"
+msgstr "Сердца закончились"
+
 msgid "Out of moves"
 msgstr "Ходы закончились"
+
+msgid "Owned"
+msgstr "Куплено"
 
 msgid "Owned: %d"
 msgstr "В наличии: %d"
@@ -1596,6 +1695,9 @@ msgstr "Сыграй пройденную главу ещё раз ради зв
 msgid "Play a chapter you've cleared again, for stars. No story scenes, and her story stays where it is."
 msgstr "Сыграй пройденную главу ещё раз ради звёзд. Без сюжетных сцен, а её история останется на том же месте."
 
+msgid "Play as much as you like for 24 hours."
+msgstr "Играйте сколько угодно 24 часа."
+
 msgid "Play it again"
 msgstr "Сыграть ещё раз"
 
@@ -1607,6 +1709,12 @@ msgstr "Лопни любой камень без совпадения. Выбе
 
 msgid "Pop-up messages and her speech bubble in a chapter stay on screen longer. Dialogue always waits for you unless Auto is on."
 msgstr "Всплывающие сообщения и её реплики в главе дольше остаются на экране. Диалог всегда ждёт тебя, если не включено «Авто»."
+
+msgid "Popular"
+msgstr "Популярное"
+
+msgid "Pouch of Stars"
+msgstr "Мешочек звёзд"
 
 msgid "Press her power button (or 4), then pick a gem: every gem of that colour is cleared, and the moss under them."
 msgstr "Нажми кнопку её силы (или 4) и выбери камень: все камни этого цвета исчезнут вместе с мхом под ними."
@@ -1656,6 +1764,12 @@ msgstr "Готово!"
 msgid "Reduce Motion"
 msgstr "Меньше анимации"
 
+msgid "Refill all · %d ⭐"
+msgstr "Восполнить все · %d ⭐"
+
+msgid "Remove ads · %s"
+msgstr "Убрать рекламу · %s"
+
 msgid "Replay"
 msgstr "Повторить"
 
@@ -1682,6 +1796,9 @@ msgstr "Сбросить весь прогресс?"
 
 msgid "Reset everything"
 msgstr "Сбросить всё"
+
+msgid "Restore purchases"
+msgstr "Восстановить покупки"
 
 msgid "Retry Chapter"
 msgstr "Переиграть главу"
@@ -1917,6 +2034,9 @@ msgstr "Пропуск"
 msgid "Skip Unread Lines"
 msgstr "Пропускать непрочитанное"
 
+msgid "Skip any chapter, carry on after any loss, and 8 hearts instead of 5."
+msgstr "Пропускайте любую главу, продолжайте после любого проигрыша и 8 сердец вместо 5."
+
 msgid "Skip chapter"
 msgstr "Пропустить главу"
 
@@ -1925,6 +2045,9 @@ msgstr "Пропустить главу  ▸"
 
 msgid "Skip every line up to the next reply, read or not"
 msgstr "Пропускать все реплики до следующего ответа, прочитанные или нет"
+
+msgid "Skip it with the Story Pass  ▸"
+msgstr "Пропустить с Сюжетным пропуском  ▸"
 
 msgid "Skip lines you've read (hold Ctrl)"
 msgstr "Пропускать прочитанное (удерживай Ctrl)"
@@ -2031,6 +2154,9 @@ msgstr "Начать её историю заново с самого начал
 msgid "Start with the baker. He leans on me when he smokes."
 msgstr "Начни с пекаря. Он опирается на меня, когда курит."
 
+msgid "Starter Pack"
+msgstr "Стартовый набор"
+
 msgid "Stats"
 msgstr "Статистика"
 
@@ -2060,6 +2186,12 @@ msgstr "Магазин"
 
 msgid "Story"
 msgstr "Сюжет"
+
+msgid "Story Pass"
+msgstr "Сюжетный пропуск"
+
+msgid "Story Pass: 8 hearts and free skips · %s"
+msgstr "Сюжетный пропуск: 8 сердец и пропуски · %s"
 
 msgid "Story difficulty: carry on with the story without playing this chapter (no stars for it)."
 msgstr "Сложность «Сюжет»: продолжить историю, не играя эту главу (без звёзд за неё)."
@@ -2126,6 +2258,9 @@ msgstr "Скажи, если я что-то делаю не так. Я чита�
 
 msgid "Tempting. You'd have to do my shelving."
 msgstr "Заманчиво. Тогда тебе пришлось бы расставлять мои книги."
+
+msgid "Test purchase"
+msgstr "Тестовая покупка"
 
 msgid "Testing Mode"
 msgstr "Режим тестирования"
@@ -2319,6 +2454,12 @@ msgstr "Старая лещина растёт там, где роща встр�
 msgid "The pier's quiet apart from the Thursday tile game at the far end, where the three old fishermen are arguing about the score again."
 msgstr "На пирсе тихо, только на дальнем конце идёт четверговая игра, где трое старых рыбаков опять спорят о счёте."
 
+msgid "The purchase couldn't start (%s)."
+msgstr "Не удалось начать покупку (%s)."
+
+msgid "The purchase didn't go through (%s)."
+msgstr "Покупка не прошла (%s)."
+
 msgid "The reading room at dawn: a burnt-out candle in a smudged chalk circle, your jacket folded into a neat square on the returns cart."
 msgstr "Читальный зал на рассвете: догоревшая свеча в смазанном меловом круге, твоя куртка, сложенная аккуратным квадратом, на тележке с возвратами."
 
@@ -2327,6 +2468,9 @@ msgstr "Читальный зал с закрытой дверью. Единст
 
 msgid "The reward is you come to every Tide from now on. Non-negotiable. Don't smile, it's a punishment."
 msgstr "Награда — ты приходишь на каждый Прилив отныне. Без обсуждений. Не улыбайся, это наказание."
+
+msgid "The store isn't available in this build."
+msgstr "Магазин недоступен в этой сборке."
 
 msgid "The stream comes out under the Mill Bridge, where Coombs the rag-and-bone man fishes for anything that floats. He's netted most of the buttons and wants six coppers for them, which he finds very funny."
 msgstr "Ручей выходит под Мельничным мостом, где старьёвщик Кумбс вылавливает сачком всё, что плавает. Большую часть пуговиц он выловил и просит за них шесть медяков, что кажется ему очень смешным."
@@ -2424,6 +2568,9 @@ msgstr "Вещей найдено"
 msgid "This erases every girl's story progress, your stars, items, gifts and the whole Gallery. Your settings and achievements are kept. This can't be undone."
 msgstr "Это сотрёт прогресс историй всех девушек, твои звёзды, предметы, подарки и всю Галерею. Настройки и достижения сохранятся. Это нельзя отменить."
 
+msgid "This is a test build: no money changes hands. Buy %s for %s?"
+msgstr "Это тестовая сборка: деньги не списываются. Купить %s за %s?"
+
 msgid "This line here. That's where you'd put my name. If you ever wanted to call me. You won't need to. I'll be with you."
 msgstr "Вот эта линия. Сюда ты поставишь моё имя. Если захочешь позвать. Не понадобится. Я буду с тобой."
 
@@ -2454,6 +2601,9 @@ msgstr "Переключить"
 msgid "Treasure Diver"
 msgstr "Ныряльщик за сокровищами"
 
+msgid "Treasury of Stars"
+msgstr "Сокровищница звёзд"
+
 msgid "Try: %s"
 msgstr "Попробуй: %s"
 
@@ -2475,6 +2625,15 @@ msgstr "Двести лет, и никто не сказал мне, что ду
 msgid "Ugh. That's drier than a sponge."
 msgstr "Фу. Суше, чем бисквит."
 
+msgid "Unlimited Hearts"
+msgstr "Безлимитные сердца"
+
+msgid "Unlimited for 24 hours · %s"
+msgstr "Безлимит на 24 часа · %s"
+
+msgid "Unlimited hearts: %s left"
+msgstr "Безлимитные сердца: осталось %s"
+
 msgid "Use a Time Scroll"
 msgstr "Прочитать Свиток времени"
 
@@ -2489,6 +2648,9 @@ msgstr "Громкость голосов"
 
 msgid "W-with you? Where would I even..."
 msgstr "У-у тебя? А где я вообще..."
+
+msgid "Watch a video: %s"
+msgstr "Смотреть видео: %s"
 
 msgid "We're getting the second owl, right?"
 msgstr "Мы же берём вторую сову, да?"
@@ -2546,6 +2708,9 @@ msgstr "Когда лампа приглушена, единственный с�
 
 msgid "You"
 msgstr "Ты"
+
+msgid "You already have this."
+msgstr "У вас это уже есть."
 
 msgid "You also find a little brass clasp wedged under the pier. She takes it from you and turns it over for a long time."
 msgstr "Находишь и небольшую латунную застёжку, застрявшую под пирсом. Она берёт её и долго вертит в руках."
@@ -2775,6 +2940,9 @@ msgstr "Твоя следующая глава: проклятых осколк�
 msgid "Your next chapter: her favorite gem shows up more often, her least favorite less."
 msgstr "Твоя следующая глава: её любимый камень выпадает чаще, нелюбимый — реже."
 
+msgid "Your purchase is pending. It arrives as soon as Google Play confirms it."
+msgstr "Покупка в обработке. Она придёт, как только Google Play её подтвердит."
+
 msgid "Your replies"
 msgstr "Твои ответы"
 
@@ -2799,8 +2967,14 @@ msgstr "после твоего следующего хода"
 msgid "best %d"
 msgstr "рекорд %d"
 
+msgid "double it to %d ⭐"
+msgstr "удвоить до %d ⭐"
+
 msgid "in %d moves"
 msgstr "через %d хода"
+
+msgid "one more daily try"
+msgstr "ещё одна попытка дня"
 
 msgid "the glass eye"
 msgstr "стеклянный глаз"

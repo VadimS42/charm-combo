@@ -42,6 +42,9 @@ msgstr "%s:选一颗宝石。"
 msgid "(You need %d more stars.)"
 msgstr "(还差%d颗星星。)"
 
+msgid "+%d moves"
+msgstr "+%d 步"
+
 msgid "+%d pts — great answer!"
 msgstr "+%d分——回答得好!"
 
@@ -57,6 +60,9 @@ msgstr "+%d ⭐ 鼓励奖"
 msgid "+%d ⭐ towards it"
 msgstr "+%d ⭐ 助你一臂之力"
 
+msgid "+1 heart"
+msgstr "+1 爱心"
+
 msgid "+2 moves — great answer!"
 msgstr "+2 步——回答得好!"
 
@@ -66,8 +72,26 @@ msgstr "-1步"
 msgid "1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!"
 msgstr "每200分得1颗星星。去道具商店攒钱买增益,然后再试一次!"
 
+msgid "1,800 stars."
+msgstr "1,800 颗星星。"
+
+msgid "150 stars."
+msgstr "150 颗星星。"
+
 msgid "18+ · original characters · all characters are adults."
 msgstr "18+ · 原创角色 · 所有角色均为成年人。"
+
+msgid "5 of every item in the Item Shop."
+msgstr "道具商店中每种道具各 5 个。"
+
+msgid "5,000 stars."
+msgstr "5,000 颗星星。"
+
+msgid "500 stars, 3 of every item and 24 hours of unlimited hearts. Once per player."
+msgstr "500 颗星星、每种道具 3 个和 24 小时无限爱心。每位玩家限购一次。"
+
+msgid "800 stars."
+msgstr "800 颗星星。"
 
 msgid "A Lovely Trench"
 msgstr "一条可爱的壕沟"
@@ -162,6 +186,9 @@ msgstr "吸收!"
 msgid "Achievements"
 msgstr "成就"
 
+msgid "Ad privacy choices"
+msgstr "广告隐私选项"
+
 msgid "Admit it. You like having me around."
 msgstr "承认吧。你喜欢有我在身边。"
 
@@ -203,6 +230,9 @@ msgstr "全部规则"
 
 msgid "All spring, by hand? I guess I'll have to get used to you."
 msgstr "整个春天,用手挖?看来我得习惯你了。"
+
+msgid "All the girls"
+msgstr "所有女孩"
 
 msgid "Amara Duskrose"
 msgstr "阿玛拉·达斯克罗斯"
@@ -246,6 +276,9 @@ msgstr "再约一次"
 msgid "Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing."
 msgstr "任何有效的消除都会立即达成章节目标,并奖励99颗星星——仅供QA测试,不适合正常游玩。"
 
+msgid "Anything you've bought on this Google account comes back in a moment."
+msgstr "你在此 Google 账号上购买的内容稍后就会恢复。"
+
 msgid "At the Midsummer Tide the whole family swims out to the rocks, and Gran wears nine pearls in her hair and pretends not to notice everyone watching her."
 msgstr "仲夏潮汛上,全家游到礁石那边,奶奶头发里戴着九颗珍珠,假装没注意到所有人都在看她。"
 
@@ -264,6 +297,9 @@ msgstr "花朵"
 msgid "Back"
 msgstr "返回"
 
+msgid "Back to the chapter"
+msgstr "返回本章"
+
 msgid "Back to the roster"
 msgstr "返回名册"
 
@@ -281,6 +317,9 @@ msgstr "每日挑战最佳"
 
 msgid "Best date with %s"
 msgstr "与%s的最佳约会"
+
+msgid "Best value"
+msgstr "最超值"
 
 msgid "Better than the last one the miller sent."
 msgstr "比磨坊主上次派来的那个强。"
@@ -332,6 +371,9 @@ msgstr "不过我准了。明天记得带铲子来。"
 
 msgid "But she's a little pinker than she was."
 msgstr "但她比刚才又粉了一点。"
+
+msgid "Buy"
+msgstr "购买"
 
 msgid "Buy something in the Item Shop."
 msgstr "在道具商店买点东西。"
@@ -410,6 +452,9 @@ msgstr "魅力——随消除充能(她最爱的宝石充得最快)。充满 = �
 
 msgid "Charm — fills as you match (her favourite gem fastest). Full = one use of her power: %s"
 msgstr "魅力——消除时填充(她最爱的宝石最快)。满了 = 可使用一次她的能力:%s"
+
+msgid "Chest of Stars"
+msgstr "一箱星星"
 
 msgid "Chimes for matches, combos, and menus."
 msgstr "消除、连锁和菜单的提示音。"
@@ -741,6 +786,12 @@ msgstr "四百颗纽扣,可是很多陌生人的纽扣呢。"
 msgid "Free date"
 msgstr "自由约会"
 
+msgid "Free stars"
+msgstr "免费星星"
+
+msgid "Free: %s"
+msgstr "免费：%s"
+
 msgid "Frosted Sea-Glass Pendant"
 msgstr "磨砂海玻璃吊坠"
 
@@ -773,6 +824,9 @@ msgstr "送她%s"
 
 msgid "Gold swirl. They stopped making these before I went in the jar. Where did you even find it?"
 msgstr "金色漩涡。我进罐子之前他们就不做这种了。你到底是在哪儿找到的?"
+
+msgid "Google Play isn't reachable right now. Try again in a moment."
+msgstr "暂时无法连接 Google Play，请稍后再试。"
 
 msgid "Got it"
 msgstr "知道了"
@@ -810,8 +864,14 @@ msgstr "锤子"
 msgid "Hand-Dipped Beeswax Candle"
 msgstr "手工蘸制蜂蜡蜡烛"
 
+msgid "Handful of Stars"
+msgstr "一把星星"
+
 msgid "Hard"
 msgstr "困难"
+
+msgid "Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Story difficulty comes with the Story Pass. Takes effect from the next chapter."
+msgstr "困难：每隔几步，约会中就会发生一些事（浪花打上码头、烛火摇曳），并会提前提示。故事难度随故事通行证提供。从下一章开始生效。"
 
 msgid "Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Takes effect from the next chapter."
 msgstr "困难:每走几步,约会中就会发生点什么(浪打上码头、蜡烛摇曳将熄),并会提前显示。从下一章开始生效。"
@@ -848,6 +908,15 @@ msgstr "他从没这样做过。四十个春天,他一次都没这样做过。"
 
 msgid "Hear the girls speak their lines."
 msgstr "听女孩们说出她们的台词。"
+
+msgid "Hearts left: %d / %d"
+msgstr "剩余爱心：%d / %d"
+
+msgid "Hearts: %d / %d"
+msgstr "爱心：%d / %d"
+
+msgid "Hearts: losing a chapter costs one, and they come back over time."
+msgstr "爱心：输掉一章会消耗一颗，之后会慢慢恢复。"
 
 msgid "Her board with no move limit, just for fun and a high score."
 msgstr "她的棋盘,不限步数,纯粹为了好玩和高分。"
@@ -1173,6 +1242,9 @@ msgstr "是粉笔。便宜的粉笔会呛嗓子。"
 msgid "It's the first thing in a new collection. Things that are yours."
 msgstr "这是新收藏里的第一件。属于你的东西。"
 
+msgid "Item Bundle"
+msgstr "道具礼包"
+
 msgid "Item Shop"
 msgstr "道具商店"
 
@@ -1229,6 +1301,9 @@ msgstr "台词自动继续(A)"
 
 msgid "Log"
 msgstr "记录"
+
+msgid "Losing a chapter costs a heart, and one comes back every %d minutes."
+msgstr "输掉一章会消耗一颗爱心，每 %d 分钟恢复一颗。"
 
 msgid "Love Potion"
 msgstr "爱情药水"
@@ -1392,6 +1467,9 @@ msgstr "你们俩谁都没注意到即将发生的事。"
 msgid "Next"
 msgstr "下一步"
 
+msgid "Next heart in %s"
+msgstr "下一颗爱心：%s"
+
 msgid "Night scene"
 msgstr "夜晚场景"
 
@@ -1407,6 +1485,12 @@ msgstr "九颗这样的,我就没事了。"
 msgid "Nine-hour wick. Hand-dipped. You know what this is for, don't you."
 msgstr "九小时的烛芯。手工蘸制。你知道这是做什么的,对吧。"
 
+msgid "No Ads"
+msgstr "无广告"
+
+msgid "No ads between chapters or under the menus, ever. Reward videos become one tap: the reward, no video."
+msgstr "章节之间和菜单下方再也不会有广告。奖励视频变成一键领取：直接获得奖励，无需看视频。"
+
 msgid "No moves left — reshuffling!"
 msgstr "没有可走的步数——重新洗牌!"
 
@@ -1419,6 +1503,9 @@ msgstr "不。我见过那东西干的好事。"
 msgid "Normal"
 msgstr "正常"
 
+msgid "Not bought"
+msgstr "未购买"
+
 msgid "Not found yet"
 msgstr "尚未发现"
 
@@ -1427,6 +1514,9 @@ msgstr "尚未发现:完成她的故事即可解锁。"
 
 msgid "Not met yet"
 msgstr "尚未结识"
+
+msgid "Not now"
+msgstr "以后再说"
 
 msgid "Not unlocked yet"
 msgstr "尚未解锁"
@@ -1451,6 +1541,9 @@ msgstr "当然要第二只猫头鹰。"
 
 msgid "Of course I'll help. What does it look like?"
 msgstr "我当然会帮忙。它长什么样?"
+
+msgid "Offers appear here once Google Play is reachable."
+msgstr "连上 Google Play 后，这里会显示优惠。"
 
 msgid "Oh, I intend to."
 msgstr "哦,我正有此意。"
@@ -1536,8 +1629,14 @@ msgstr "步数用完"
 msgid "Out of Season"
 msgstr "不合时令"
 
+msgid "Out of hearts"
+msgstr "爱心用完了"
+
 msgid "Out of moves"
 msgstr "步数用完"
+
+msgid "Owned"
+msgstr "已拥有"
 
 msgid "Owned: %d"
 msgstr "已拥有:%d"
@@ -1596,6 +1695,9 @@ msgstr "再玩一次已通关的章节来赚星星。她的故事进度不会改
 msgid "Play a chapter you've cleared again, for stars. No story scenes, and her story stays where it is."
 msgstr "再玩一次已通关的章节来赚星星。没有剧情场景,她的故事进度也不会改变。"
 
+msgid "Play as much as you like for 24 hours."
+msgstr "24 小时内想玩多久就玩多久。"
+
 msgid "Play it again"
 msgstr "再玩一次"
 
@@ -1607,6 +1709,12 @@ msgstr "砸碎任意一颗宝石,无需消除。从道具栏中选取,然后点�
 
 msgid "Pop-up messages and her speech bubble in a chapter stay on screen longer. Dialogue always waits for you unless Auto is on."
 msgstr "章节中的弹出消息和她的对话气泡会在屏幕上停留更久。除非开启自动,对话总会等你。"
+
+msgid "Popular"
+msgstr "热门"
+
+msgid "Pouch of Stars"
+msgstr "一袋星星"
 
 msgid "Press her power button (or 4), then pick a gem: every gem of that colour is cleared, and the moss under them."
 msgstr "按下她的能力按钮(或 4),再选一颗宝石:所有同色宝石都会清除,连同它们下面的苔藓。"
@@ -1656,6 +1764,12 @@ msgstr "就绪!"
 msgid "Reduce Motion"
 msgstr "减少动态效果"
 
+msgid "Refill all · %d ⭐"
+msgstr "全部补满 · %d ⭐"
+
+msgid "Remove ads · %s"
+msgstr "去除广告 · %s"
+
 msgid "Replay"
 msgstr "重播"
 
@@ -1682,6 +1796,9 @@ msgstr "重置所有进度?"
 
 msgid "Reset everything"
 msgstr "全部重置"
+
+msgid "Restore purchases"
+msgstr "恢复购买"
 
 msgid "Retry Chapter"
 msgstr "重试本章"
@@ -1917,6 +2034,9 @@ msgstr "跳过"
 msgid "Skip Unread Lines"
 msgstr "跳过未读台词"
 
+msgid "Skip any chapter, carry on after any loss, and 8 hearts instead of 5."
+msgstr "可跳过任何章节，输了也能继续，爱心上限从 5 颗变为 8 颗。"
+
 msgid "Skip chapter"
 msgstr "跳过本章"
 
@@ -1925,6 +2045,9 @@ msgstr "跳过本章  ▸"
 
 msgid "Skip every line up to the next reply, read or not"
 msgstr "跳过所有台词直到下一次回应,无论是否已读"
+
+msgid "Skip it with the Story Pass  ▸"
+msgstr "用故事通行证跳过  ▸"
 
 msgid "Skip lines you've read (hold Ctrl)"
 msgstr "跳过已读台词(按住Ctrl)"
@@ -2031,6 +2154,9 @@ msgstr "从头重新开始她的故事"
 msgid "Start with the baker. He leans on me when he smokes."
 msgstr "先从面包师开始。他抽烟的时候总靠着我。"
 
+msgid "Starter Pack"
+msgstr "新手礼包"
+
 msgid "Stats"
 msgstr "统计"
 
@@ -2060,6 +2186,12 @@ msgstr "商店"
 
 msgid "Story"
 msgstr "故事"
+
+msgid "Story Pass"
+msgstr "故事通行证"
+
+msgid "Story Pass: 8 hearts and free skips · %s"
+msgstr "故事通行证：8 颗爱心，随意跳过 · %s"
 
 msgid "Story difficulty: carry on with the story without playing this chapter (no stars for it)."
 msgstr "故事难度:不玩这一章直接继续故事(没有这章的星星)。"
@@ -2126,6 +2258,9 @@ msgstr "我要是做错了就告诉我。这事我只在一本书里读过,还�
 
 msgid "Tempting. You'd have to do my shelving."
 msgstr "很诱人。那样你就得替我整理书架了。"
+
+msgid "Test purchase"
+msgstr "测试购买"
 
 msgid "Testing Mode"
 msgstr "测试模式"
@@ -2319,6 +2454,12 @@ msgstr "老榛树长在树林与磨坊水道相接的地方。它大得磨坊的
 msgid "The pier's quiet apart from the Thursday tile game at the far end, where the three old fishermen are arguing about the score again."
 msgstr "码头很安静,只有远处那头的周四游戏,三位老渔夫又在为比分争吵。"
 
+msgid "The purchase couldn't start (%s)."
+msgstr "无法开始购买（%s）。"
+
+msgid "The purchase didn't go through (%s)."
+msgstr "购买未完成（%s）。"
+
 msgid "The reading room at dawn: a burnt-out candle in a smudged chalk circle, your jacket folded into a neat square on the returns cart."
 msgstr "黎明时分的阅览室:涂花的粉笔圈里一支烧尽的蜡烛,还书车上你的外套叠成了整齐的方块。"
 
@@ -2327,6 +2468,9 @@ msgstr "门关上的阅览室。唯一的光来自你粉笔圈里的蜡烛,而�
 
 msgid "The reward is you come to every Tide from now on. Non-negotiable. Don't smile, it's a punishment."
 msgstr "报酬是,从现在起每年的潮汛你都要来。没得商量。别笑,这是惩罚。"
+
+msgid "The store isn't available in this build."
+msgstr "此版本中无法使用商店。"
 
 msgid "The stream comes out under the Mill Bridge, where Coombs the rag-and-bone man fishes for anything that floats. He's netted most of the buttons and wants six coppers for them, which he finds very funny."
 msgstr "小溪在磨坊桥下流出来,收破烂的库姆斯在那里钓一切能漂的东西。他捞到了大部分纽扣,要价六个铜板,还觉得这特别好笑。"
@@ -2424,6 +2568,9 @@ msgstr "已找到的东西"
 msgid "This erases every girl's story progress, your stars, items, gifts and the whole Gallery. Your settings and achievements are kept. This can't be undone."
 msgstr "这会清除每位女孩的故事进度、你的星星、道具、礼物以及整个图鉴。设置和成就会保留。此操作无法撤销。"
 
+msgid "This is a test build: no money changes hands. Buy %s for %s?"
+msgstr "这是测试版本：不会产生任何费用。以 %s 的价格购买 %s？"
+
 msgid "This line here. That's where you'd put my name. If you ever wanted to call me. You won't need to. I'll be with you."
 msgstr "这一条线。你会把我的名字放在这儿。要是你想叫我的话。你不需要。我会和你在一起。"
 
@@ -2454,6 +2601,9 @@ msgstr "切换"
 msgid "Treasure Diver"
 msgstr "寻宝潜水员"
 
+msgid "Treasury of Stars"
+msgstr "星星宝库"
+
 msgid "Try: %s"
 msgstr "试试:%s"
 
@@ -2475,6 +2625,15 @@ msgstr "两百年了,没人告诉过我一个精灵也能有那样的感觉。�
 msgid "Ugh. That's drier than a sponge."
 msgstr "呃。比海绵蛋糕还干。"
 
+msgid "Unlimited Hearts"
+msgstr "无限爱心"
+
+msgid "Unlimited for 24 hours · %s"
+msgstr "24 小时无限 · %s"
+
+msgid "Unlimited hearts: %s left"
+msgstr "无限爱心：剩余 %s"
+
 msgid "Use a Time Scroll"
 msgstr "使用时间卷轴"
 
@@ -2489,6 +2648,9 @@ msgstr "语音音量"
 
 msgid "W-with you? Where would I even..."
 msgstr "和、和你?我要在哪儿……"
+
+msgid "Watch a video: %s"
+msgstr "看视频：%s"
 
 msgid "We're getting the second owl, right?"
 msgstr "我们要第二只猫头鹰,对吧?"
@@ -2546,6 +2708,9 @@ msgstr "灯调暗后,你房里唯一的光来自她:一团柔和的淡紫色光�
 
 msgid "You"
 msgstr "你"
+
+msgid "You already have this."
+msgstr "你已经拥有了。"
 
 msgid "You also find a little brass clasp wedged under the pier. She takes it from you and turns it over for a long time."
 msgstr "你还在码头下面找到一枚小小的黄铜搭扣。她从你手里接过去,翻来覆去看了很久。"
@@ -2775,6 +2940,9 @@ msgstr "你的下一章:棋盘上出现的诅咒碎片大大减少。"
 msgid "Your next chapter: her favorite gem shows up more often, her least favorite less."
 msgstr "你的下一章:她最爱的宝石出现得更频繁,她最不喜欢的出现得更少。"
 
+msgid "Your purchase is pending. It arrives as soon as Google Play confirms it."
+msgstr "你的购买正在处理中，Google Play 确认后就会到账。"
+
 msgid "Your replies"
 msgstr "你的回应"
 
@@ -2799,8 +2967,14 @@ msgstr "在你下一步之后"
 msgid "best %d"
 msgstr "最佳 %d"
 
+msgid "double it to %d ⭐"
+msgstr "翻倍至 %d ⭐"
+
 msgid "in %d moves"
 msgstr "%d步后"
+
+msgid "one more daily try"
+msgstr "再挑战一次每日挑战"
 
 msgid "the glass eye"
 msgstr "那只玻璃眼"

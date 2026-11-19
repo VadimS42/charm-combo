@@ -42,6 +42,9 @@ msgstr "%s: Wähl einen Stein."
 msgid "(You need %d more stars.)"
 msgstr "(Dir fehlen %d Sterne.)"
 
+msgid "+%d moves"
+msgstr "+%d Züge"
+
 msgid "+%d pts — great answer!"
 msgstr "+%d Pkt. — tolle Antwort!"
 
@@ -57,6 +60,9 @@ msgstr "+%d ⭐ fürs Versuchen"
 msgid "+%d ⭐ towards it"
 msgstr "+%d ⭐ dafür"
 
+msgid "+1 heart"
+msgstr "+1 Herz"
+
 msgid "+2 moves — great answer!"
 msgstr "+2 Züge — tolle Antwort!"
 
@@ -66,8 +72,26 @@ msgstr "-1 Zug"
 msgid "1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!"
 msgstr "1 Stern pro 200 Punkte. Spar im Laden auf Hilfsmittel und versuch es dann noch einmal!"
 
+msgid "1,800 stars."
+msgstr "1.800 Sterne."
+
+msgid "150 stars."
+msgstr "150 Sterne."
+
 msgid "18+ · original characters · all characters are adults."
 msgstr "18+ · eigene Figuren · alle Figuren sind erwachsen."
+
+msgid "5 of every item in the Item Shop."
+msgstr "Je 5 von jedem Gegenstand aus dem Laden."
+
+msgid "5,000 stars."
+msgstr "5.000 Sterne."
+
+msgid "500 stars, 3 of every item and 24 hours of unlimited hearts. Once per player."
+msgstr "500 Sterne, je 3 von jedem Gegenstand und 24 Stunden unbegrenzte Herzen. Einmal pro Person."
+
+msgid "800 stars."
+msgstr "800 Sterne."
 
 msgid "A Lovely Trench"
 msgstr "Ein hübscher Graben"
@@ -162,6 +186,9 @@ msgstr "Aufsaugen!"
 msgid "Achievements"
 msgstr "Erfolge"
 
+msgid "Ad privacy choices"
+msgstr "Werbe-Datenschutz"
+
 msgid "Admit it. You like having me around."
 msgstr "Gib's zu. Du hast mich gern um dich."
 
@@ -197,6 +224,9 @@ msgstr "Alle Regeln"
 
 msgid "All spring, by hand? I guess I'll have to get used to you."
 msgstr "Den ganzen Frühling, von Hand? Dann muss ich mich wohl an dich gewöhnen."
+
+msgid "All the girls"
+msgstr "Alle Frauen"
 
 msgid "Amara Duskrose"
 msgstr "Amara Duskrose"
@@ -237,6 +267,9 @@ msgstr "Noch ein Date"
 msgid "Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing."
 msgstr "Jede gültige Reihe schafft sofort das Kapitelziel und gibt 99 Sterne — zum Testen, nicht zum Spielen."
 
+msgid "Anything you've bought on this Google account comes back in a moment."
+msgstr "Alles, was du mit diesem Google-Konto gekauft hast, kommt gleich zurück."
+
 msgid "At the Midsummer Tide the whole family swims out to the rocks, and Gran wears nine pearls in her hair and pretends not to notice everyone watching her."
 msgstr "Zur Mittsommerflut schwimmt die ganze Familie zu den Felsen hinaus, und Oma trägt neun Perlen im Haar und tut so, als bemerke sie nicht, dass alle sie ansehen."
 
@@ -255,6 +288,9 @@ msgstr "BLÜTEN"
 msgid "Back"
 msgstr "Zurück"
 
+msgid "Back to the chapter"
+msgstr "Zurück zum Kapitel"
+
 msgid "Back to the roster"
 msgstr "Zurück zur Übersicht"
 
@@ -272,6 +308,9 @@ msgstr "Beste tägliche Herausforderung"
 
 msgid "Best date with %s"
 msgstr "Bestes Date mit %s"
+
+msgid "Best value"
+msgstr "Bester Wert"
 
 msgid "Better than the last one the miller sent."
 msgstr "Besser als der Letzte, den der Müller geschickt hat."
@@ -323,6 +362,9 @@ msgstr "Aber ich lass es gelten. Bring morgen trotzdem die Schaufel mit."
 
 msgid "But she's a little pinker than she was."
 msgstr "Aber sie ist ein bisschen rosaner als vorher."
+
+msgid "Buy"
+msgstr "Kaufen"
 
 msgid "Buy something in the Item Shop."
 msgstr "Kauf etwas im Laden."
@@ -401,6 +443,9 @@ msgstr "Charme — füllt sich mit jeder Reihe (am schnellsten mit ihrem Lieblin
 
 msgid "Charm — fills as you match (her favourite gem fastest). Full = one use of her power: %s"
 msgstr "Charme — füllt sich mit jeder Reihe (am schnellsten mit ihrem Lieblingsstein). Voll = einmal ihre Kraft: %s"
+
+msgid "Chest of Stars"
+msgstr "Truhe voller Sterne"
 
 msgid "Chimes for matches, combos, and menus."
 msgstr "Klänge für Reihen, Kombos und Menüs."
@@ -714,6 +759,12 @@ msgstr "Vierhundert Knöpfe sind eine Menge Knöpfe von Fremden."
 msgid "Free date"
 msgstr "Freies Date"
 
+msgid "Free stars"
+msgstr "Gratis-Sterne"
+
+msgid "Free: %s"
+msgstr "Gratis: %s"
+
 msgid "Frosted Sea-Glass Pendant"
 msgstr "Matter Meerglas-Anhänger"
 
@@ -746,6 +797,9 @@ msgstr "Gib ihr: %s"
 
 msgid "Gold swirl. They stopped making these before I went in the jar. Where did you even find it?"
 msgstr "Goldwirbel. Die haben sie nicht mehr gemacht, schon bevor ich ins Glas kam. Wo hast du die überhaupt gefunden?"
+
+msgid "Google Play isn't reachable right now. Try again in a moment."
+msgstr "Google Play ist gerade nicht erreichbar. Versuch es gleich noch einmal."
 
 msgid "Got it"
 msgstr "Verstanden"
@@ -783,8 +837,14 @@ msgstr "Hammer"
 msgid "Hand-Dipped Beeswax Candle"
 msgstr "Handgezogene Bienenwachskerze"
 
+msgid "Handful of Stars"
+msgstr "Handvoll Sterne"
+
 msgid "Hard"
 msgstr "Schwer"
+
+msgid "Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Story difficulty comes with the Story Pass. Takes effect from the next chapter."
+msgstr "Schwer: Alle paar Züge passiert etwas auf deinem Date (eine Welle schwappt über den Steg, die Kerzen flackern), vorher angekündigt. Der Story-Schwierigkeitsgrad gehört zum Story-Pass. Gilt ab dem nächsten Kapitel."
 
 msgid "Hard: things happen on your date"
 msgstr "Schwer: Auf deinem Date passiert etwas"
@@ -818,6 +878,15 @@ msgstr "Das hat er noch nie gemacht. Vierzig Frühlinge, und er hat das noch nie
 
 msgid "Hear the girls speak their lines."
 msgstr "Hör die Frauen ihre Zeilen sprechen."
+
+msgid "Hearts left: %d / %d"
+msgstr "Übrige Herzen: %d / %d"
+
+msgid "Hearts: %d / %d"
+msgstr "Herzen: %d / %d"
+
+msgid "Hearts: losing a chapter costs one, and they come back over time."
+msgstr "Herzen: Ein verlorenes Kapitel kostet eins, mit der Zeit kommen sie zurück."
 
 msgid "Her board with no move limit, just for fun and a high score."
 msgstr "Ihr Spielfeld ohne Zuglimit, einfach zum Spaß und für einen Rekord."
@@ -1131,6 +1200,9 @@ msgstr "Das ist die Kreide. Billige Kreide geht auf den Hals."
 msgid "It's the first thing in a new collection. Things that are yours."
 msgstr "Das ist das erste Stück einer neuen Sammlung. Dinge, die dir gehören."
 
+msgid "Item Bundle"
+msgstr "Gegenstandspaket"
+
 msgid "Item Shop"
 msgstr "Laden"
 
@@ -1184,6 +1256,9 @@ msgstr "Zeilen laufen von selbst weiter (A)"
 
 msgid "Log"
 msgstr "Verlauf"
+
+msgid "Losing a chapter costs a heart, and one comes back every %d minutes."
+msgstr "Ein verlorenes Kapitel kostet ein Herz, und alle %d Minuten kommt eins zurück."
 
 msgid "Love Potion"
 msgstr "Liebestrank"
@@ -1344,6 +1419,9 @@ msgstr "Keiner von euch bemerkt, was gekommen wäre."
 msgid "Next"
 msgstr "Weiter"
 
+msgid "Next heart in %s"
+msgstr "Nächstes Herz in %s"
+
 msgid "Night scene"
 msgstr "Nachtszene"
 
@@ -1359,6 +1437,12 @@ msgstr "Neun davon, und ich bin aus dem Schneider."
 msgid "Nine-hour wick. Hand-dipped. You know what this is for, don't you."
 msgstr "Neun-Stunden-Docht. Handgezogen. Du weißt, wofür die ist, oder?"
 
+msgid "No Ads"
+msgstr "Keine Werbung"
+
+msgid "No ads between chapters or under the menus, ever. Reward videos become one tap: the reward, no video."
+msgstr "Nie wieder Werbung zwischen Kapiteln oder unter den Menüs. Belohnungsvideos werden zu einem Tipp: die Belohnung ohne Video."
+
 msgid "No moves left — reshuffling!"
 msgstr "Keine Züge mehr — neu gemischt!"
 
@@ -1371,6 +1455,9 @@ msgstr "Nein. Ich hab gesehen, was die anrichten."
 msgid "Normal"
 msgstr "Normal"
 
+msgid "Not bought"
+msgstr "Nicht gekauft"
+
 msgid "Not found yet"
 msgstr "Noch nicht gefunden"
 
@@ -1379,6 +1466,9 @@ msgstr "Noch nicht gefunden: Beende ihre Geschichte, um es freizuschalten."
 
 msgid "Not met yet"
 msgstr "Noch nicht getroffen"
+
+msgid "Not now"
+msgstr "Jetzt nicht"
 
 msgid "Not unlocked yet"
 msgstr "Noch nicht freigeschaltet"
@@ -1403,6 +1493,9 @@ msgstr "Natürlich nehmen wir die zweite Eule."
 
 msgid "Of course I'll help. What does it look like?"
 msgstr "Natürlich helfe ich. Wie sieht es aus?"
+
+msgid "Offers appear here once Google Play is reachable."
+msgstr "Angebote erscheinen hier, sobald Google Play erreichbar ist."
 
 msgid "Oh, I intend to."
 msgstr "Oh, das habe ich vor."
@@ -1485,8 +1578,14 @@ msgstr "Keine Züge mehr"
 msgid "Out of Season"
 msgstr "Außer der Zeit"
 
+msgid "Out of hearts"
+msgstr "Keine Herzen mehr"
+
 msgid "Out of moves"
 msgstr "Keine Züge mehr"
+
+msgid "Owned"
+msgstr "Gekauft"
 
 msgid "Owned: %d"
 msgstr "Im Besitz: %d"
@@ -1545,6 +1644,9 @@ msgstr "Spiel ein geschafftes Kapitel noch einmal, für Sterne. Ihre Geschichte 
 msgid "Play a chapter you've cleared again, for stars. No story scenes, and her story stays where it is."
 msgstr "Spiel ein geschafftes Kapitel noch einmal, für Sterne. Keine Story-Szenen, und ihre Geschichte bleibt, wo sie ist."
 
+msgid "Play as much as you like for 24 hours."
+msgstr "Spiel 24 Stunden lang so viel du willst."
+
 msgid "Play it again"
 msgstr "Noch einmal spielen"
 
@@ -1556,6 +1658,12 @@ msgstr "Zertrümmert einen beliebigen Stein, ganz ohne Reihe. Mach ihn in der Le
 
 msgid "Pop-up messages and her speech bubble in a chapter stay on screen longer. Dialogue always waits for you unless Auto is on."
 msgstr "Einblendungen und ihre Sprechblase im Kapitel bleiben länger stehen. Der Dialog wartet immer auf dich, außer Auto ist an."
+
+msgid "Popular"
+msgstr "Beliebt"
+
+msgid "Pouch of Stars"
+msgstr "Beutel voller Sterne"
 
 msgid "Press her power button (or 4), then pick a gem: every gem of that colour is cleared, and the moss under them."
 msgstr "Drück ihren Kraft-Knopf (oder 4) und wähl einen Stein: Jeder Stein dieser Farbe verschwindet, samt dem Moos darunter."
@@ -1602,6 +1710,12 @@ msgstr "Bereit!"
 msgid "Reduce Motion"
 msgstr "Weniger Bewegung"
 
+msgid "Refill all · %d ⭐"
+msgstr "Alle auffüllen · %d ⭐"
+
+msgid "Remove ads · %s"
+msgstr "Werbung entfernen · %s"
+
 msgid "Replay"
 msgstr "Neu spielen"
 
@@ -1628,6 +1742,9 @@ msgstr "Gesamten Fortschritt zurücksetzen?"
 
 msgid "Reset everything"
 msgstr "Alles zurücksetzen"
+
+msgid "Restore purchases"
+msgstr "Käufe wiederherstellen"
 
 msgid "Retry Chapter"
 msgstr "Kapitel wiederholen"
@@ -1863,6 +1980,9 @@ msgstr "Überspringen"
 msgid "Skip Unread Lines"
 msgstr "Ungelesenes überspringen"
 
+msgid "Skip any chapter, carry on after any loss, and 8 hearts instead of 5."
+msgstr "Überspringe jedes Kapitel, mach nach jeder Niederlage weiter und 8 Herzen statt 5."
+
 msgid "Skip chapter"
 msgstr "Kapitel überspringen"
 
@@ -1871,6 +1991,9 @@ msgstr "Kapitel überspringen  ▸"
 
 msgid "Skip every line up to the next reply, read or not"
 msgstr "Jede Zeile bis zur nächsten Antwort überspringen, gelesen oder nicht"
+
+msgid "Skip it with the Story Pass  ▸"
+msgstr "Mit dem Story-Pass überspringen  ▸"
 
 msgid "Skip lines you've read (hold Ctrl)"
 msgstr "Gelesene Zeilen überspringen (Strg halten)"
@@ -1977,6 +2100,9 @@ msgstr "Ihre Geschichte von vorn beginnen"
 msgid "Start with the baker. He leans on me when he smokes."
 msgstr "Fang mit dem Bäcker an. Er lehnt sich an mich, wenn er raucht."
 
+msgid "Starter Pack"
+msgstr "Starterpaket"
+
 msgid "Stats"
 msgstr "Statistik"
 
@@ -2006,6 +2132,12 @@ msgstr "Laden"
 
 msgid "Story"
 msgstr "Story"
+
+msgid "Story Pass"
+msgstr "Story-Pass"
+
+msgid "Story Pass: 8 hearts and free skips · %s"
+msgstr "Story-Pass: 8 Herzen und freies Überspringen · %s"
 
 msgid "Story difficulty: carry on with the story without playing this chapter (no stars for it)."
 msgstr "Story-Schwierigkeit: Die Geschichte geht weiter, ohne dieses Kapitel zu spielen (keine Sterne dafür)."
@@ -2072,6 +2204,9 @@ msgstr "Sag mir, wenn ich etwas falsch mache. Ich hab genau in einem Buch darüb
 
 msgid "Tempting. You'd have to do my shelving."
 msgstr "Verlockend. Du müsstest meine Bücher einsortieren."
+
+msgid "Test purchase"
+msgstr "Testkauf"
 
 msgid "Testing Mode"
 msgstr "Testmodus"
@@ -2256,6 +2391,12 @@ msgstr "Die alte Hasel steht dort, wo der Hain auf den Mühlgraben trifft. Sie i
 msgid "The pier's quiet apart from the Thursday tile game at the far end, where the three old fishermen are arguing about the score again."
 msgstr "Auf dem Steg ist es still, bis auf das Donnerstagsspiel am anderen Ende, wo die drei alten Fischer schon wieder über den Punktestand streiten."
 
+msgid "The purchase couldn't start (%s)."
+msgstr "Der Kauf konnte nicht starten (%s)."
+
+msgid "The purchase didn't go through (%s)."
+msgstr "Der Kauf ist nicht durchgegangen (%s)."
+
 msgid "The reading room at dawn: a burnt-out candle in a smudged chalk circle, your jacket folded into a neat square on the returns cart."
 msgstr "Der Lesesaal im Morgengrauen: eine heruntergebrannte Kerze in einem verwischten Kreidekreis, deine Jacke ordentlich gefaltet auf dem Rückgabewagen."
 
@@ -2264,6 +2405,9 @@ msgstr "Der Lesesaal bei geschlossener Tür. Das einzige Licht ist die Kerze in 
 
 msgid "The reward is you come to every Tide from now on. Non-negotiable. Don't smile, it's a punishment."
 msgstr "Die Belohnung ist, dass du ab jetzt zu jeder Flut kommst. Nicht verhandelbar. Grins nicht, das ist eine Strafe."
+
+msgid "The store isn't available in this build."
+msgstr "Der Shop ist in dieser Version nicht verfügbar."
 
 msgid "The stream comes out under the Mill Bridge, where Coombs the rag-and-bone man fishes for anything that floats. You get there ahead of her and sell him a handful of buttons off the bank for two coppers before you realise whose they are. He's netted the rest too. Buying the lot back costs six coppers, which he finds very funny."
 msgstr "Der Bach kommt unter der Mühlenbrücke heraus, wo Coombs der Lumpensammler nach allem fischt, was treibt. Du kommst vor ihr an und verkaufst ihm eine Handvoll Knöpfe vom Ufer für zwei Kupfermünzen, bevor dir klar wird, wem sie gehören. Den Rest hat er auch schon im Netz. Alles zurückzukaufen kostet sechs Kupfermünzen, was er sehr lustig findet."
@@ -2355,6 +2499,9 @@ msgstr "Gefundene Dinge"
 msgid "This erases every girl's story progress, your stars, items, gifts and the whole Gallery. Your settings and achievements are kept. This can't be undone."
 msgstr "Das löscht den Fortschritt jeder Geschichte, deine Sterne, Gegenstände, Geschenke und die ganze Galerie. Einstellungen und Erfolge bleiben. Das lässt sich nicht rückgängig machen."
 
+msgid "This is a test build: no money changes hands. Buy %s for %s?"
+msgstr "Das ist eine Testversion: Es fließt kein Geld. %s für %s kaufen?"
+
 msgid "This line here. That's where you'd put my name. If you ever wanted to call me. You won't need to. I'll be with you."
 msgstr "Diese Linie hier. Da würdest du meinen Namen hinschreiben. Falls du mich je rufen willst. Das wirst du nicht müssen. Ich bin bei dir."
 
@@ -2382,6 +2529,9 @@ msgstr "Umschalten"
 msgid "Treasure Diver"
 msgstr "Schatztaucher"
 
+msgid "Treasury of Stars"
+msgstr "Sternenschatz"
+
 msgid "Try: %s"
 msgstr "Versuch: %s"
 
@@ -2400,6 +2550,15 @@ msgstr "Zweihundert Jahre, und niemand hat mir gesagt, dass sich ein Geist so f�
 msgid "Ugh. That's drier than a sponge."
 msgstr "Ugh. Trockener als ein Schwamm."
 
+msgid "Unlimited Hearts"
+msgstr "Unbegrenzte Herzen"
+
+msgid "Unlimited for 24 hours · %s"
+msgstr "24 Stunden unbegrenzt · %s"
+
+msgid "Unlimited hearts: %s left"
+msgstr "Unbegrenzte Herzen: noch %s"
+
 msgid "Use a Time Scroll"
 msgstr "Zeitrolle benutzen"
 
@@ -2414,6 +2573,9 @@ msgstr "Stimmlautstärke"
 
 msgid "W-with you? Where would I even..."
 msgstr "B-bei dir? Wo würde ich denn überhaupt..."
+
+msgid "Watch a video: %s"
+msgstr "Video ansehen: %s"
 
 msgid "We're getting the second owl, right?"
 msgstr "Wir nehmen die zweite Eule, oder?"
@@ -2471,6 +2633,9 @@ msgstr "Mit gedämpfter Lampe kommt das einzige Licht in deinem Zimmer von ihr: 
 
 msgid "You"
 msgstr "Du"
+
+msgid "You already have this."
+msgstr "Das hast du schon."
 
 msgid "You also find a little brass clasp wedged under the pier. She takes it from you and turns it over for a long time."
 msgstr "Außerdem findest du einen kleinen Messingverschluss, eingeklemmt unter dem Steg. Sie nimmt ihn dir ab und dreht ihn lange hin und her."
@@ -2697,6 +2862,9 @@ msgstr "Dein nächstes Kapitel: viel weniger verfluchte Splitter auf dem Feld."
 msgid "Your next chapter: her favorite gem shows up more often, her least favorite less."
 msgstr "Dein nächstes Kapitel: Ihr Lieblingsstein taucht öfter auf, der ungeliebte seltener."
 
+msgid "Your purchase is pending. It arrives as soon as Google Play confirms it."
+msgstr "Dein Kauf ist ausstehend. Er kommt an, sobald Google Play ihn bestätigt."
+
 msgid "Your replies"
 msgstr "Deine Antworten"
 
@@ -2721,8 +2889,14 @@ msgstr "nach deinem nächsten Zug"
 msgid "best %d"
 msgstr "Rekord %d"
 
+msgid "double it to %d ⭐"
+msgstr "verdopple auf %d ⭐"
+
 msgid "in %d moves"
 msgstr "in %d Zügen"
+
+msgid "one more daily try"
+msgstr "noch ein Tagesversuch"
 
 msgid "the glass eye"
 msgstr "das Glasauge"

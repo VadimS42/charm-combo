@@ -539,6 +539,13 @@ static func _chapter_picker(main: Node, ch: Dictionary, won: Array) -> void:
 		main.close_modal()
 	)
 	row.add_child(cancel)
+	# Down from the last chapter is Cancel (it sits off to the right, where
+	# the D-pad's guess could miss it).
+	var chapters := v.get_children().filter(func(c): return c is Button)
+	if not chapters.is_empty():
+		var last: Button = chapters[-1]
+		last.focus_neighbor_bottom = last.get_path_to(cancel)
+		cancel.focus_neighbor_top = cancel.get_path_to(last)
 	main.open_modal(shade, first if first else cancel)
 
 

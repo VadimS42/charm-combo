@@ -194,1061 +194,1235 @@ All rules
 Stars — earned by clearing chapters, spent in the Item Shop and on gifts.
 
 @@ ui-0062
-Settings
+Hearts: losing a chapter costs one, and they come back over time.
 
 @@ ui-0063
-Move
+Settings
 
 @@ ui-0064
-Choose
+Move
 
 @@ ui-0065
-Cancel
+Choose
 
 @@ ui-0066
-Toggle
+Cancel
 
 @@ ui-0067
-Close
+Toggle
 
 @@ ui-0068
-Select
+Close
 
 @@ ui-0069
-Back
+Select
 
 @@ ui-0070
-Daily challenge: %d pts
+Back
 
 @@ ui-0071
-Daily challenge
+Daily challenge: %d pts
 
 @@ ui-0072
-A new board every day, the same for everyone: %d moves, one try. Come back tomorrow for the next.
+Daily challenge
 
 @@ ui-0073
-Clear any chapter to unlock the daily challenge.
+one more daily try
 
 @@ ui-0074
-Close settings
+A new board every day, the same for everyone: %d moves, one try. Come back tomorrow for the next.
 
 @@ ui-0075
-Thanks for playing the demo!
+Clear any chapter to unlock the daily challenge.
 
 @@ ui-0076
-The full game has four stories: Hazel's, and three more women of Millbrook to meet in the worst way possible. Each has four chapters, her night scene and her ending.
+Close settings
 
 @@ ui-0077
-Main menu
+Thanks for playing the demo!
 
 @@ ui-0078
-Wishlist on Steam
+The full game has four stories: Hazel's, and three more women of Millbrook to meet in the worst way possible. Each has four chapters, her night scene and her ending.
 
 @@ ui-0079
-ACHIEVEMENT UNLOCKED
+Main menu
 
 @@ ui-0080
-←  Back
+Wishlist on Steam
 
 @@ ui-0081
-Achievements
+ACHIEVEMENT UNLOCKED
 
 @@ ui-0082
-These unlock on Steam too.
+←  Back
 
 @@ ui-0083
-Scroll
+Achievements
 
 @@ ui-0084
-Charm Combo is for adults
+These unlock on Steam too.
 
 @@ ui-0085
+Scroll
+
+@@ ui-0086
+Charm Combo is for adults
+
+@@ ui-0087
 It has sexual content, including intimate scenes, and suggestive art. All characters are adults.
 
 Please only continue if you're 18 or older, or the age of majority where you live.
 
-@@ ui-0086
+@@ ui-0088
 Leave
 
-@@ ui-0087
+@@ ui-0089
 You can close this tab now.
 
-@@ ui-0088
+@@ ui-0090
 I'm 18 or older
 
-@@ ui-0089
+@@ ui-0091
 About the voices
 
-@@ ui-0090
+@@ ui-0092
 The girls are voiced by amateur voice actresses, recorded at home. We love how they turned out, but they aren't studio recordings, and not every line is voiced yet.
 
 If you'd rather read in your own head, turn the voices off. You can change this any time in Settings.
 
-@@ ui-0091
+@@ ui-0093
 Turn voices off
 
-@@ ui-0092
+@@ ui-0094
 Keep voices on
 
-@@ ui-0093
+@@ ui-0095
 Language · 语言 · Язык
 
-@@ ui-0094
+@@ ui-0096
 Credits
 
-@@ ui-0095
+@@ ui-0097
 Made with Godot Engine
 
-@@ ui-0096
+@@ ui-0098
 Continue
 
-@@ ui-0097
+@@ ui-0099
 Play time
 
-@@ ui-0098
+@@ ui-0100
 Chapters cleared
 
-@@ ui-0099
+@@ ui-0101
 Matches made
 
-@@ ui-0100
+@@ ui-0102
 Gems cleared
 
-@@ ui-0101
+@@ ui-0103
 Best combo
 
-@@ ui-0102
+@@ ui-0104
 Best chapter score
 
-@@ ui-0103
+@@ ui-0105
 Special gems made
 
-@@ ui-0104
+@@ ui-0106
 Her powers used
 
-@@ ui-0105
+@@ ui-0107
 Amara's seals broken
 
-@@ ui-0106
+@@ ui-0108
 Comb pieces brought up
 
-@@ ui-0107
+@@ ui-0109
 Opal's things found
 
-@@ ui-0108
+@@ ui-0110
 Hazel's blossoms grown
 
-@@ ui-0109
+@@ ui-0111
 Best date with %s
 
-@@ ui-0110
+@@ ui-0112
 Best daily challenge
 
-@@ ui-0111
+@@ ui-0113
 Her night scene
 
-@@ ui-0112
+@@ ui-0114
 Pictures appear here as you meet the girls and reach their endings.
 
-@@ ui-0113
+@@ ui-0115
 Not unlocked yet
 
-@@ ui-0114
+@@ ui-0116
 Her ending
 
-@@ ui-0115
+@@ ui-0117
 Spark route
 
-@@ ui-0116
+@@ ui-0118
 Balanced route
 
-@@ ui-0117
+@@ ui-0119
 Night scene
 
-@@ ui-0118
+@@ ui-0120
 Endings
 
-@@ ui-0119
+@@ ui-0121
 Pictures
 
-@@ ui-0120
+@@ ui-0122
 Music
 
-@@ ui-0121
+@@ ui-0123
 Stats
 
-@@ ui-0122
+@@ ui-0124
 Ending Gallery
 
-@@ ui-0123
+@@ ui-0125
 Gallery
 
-@@ ui-0124
+@@ ui-0126
 Nothing here yet — finish a girl's story to add her ending.
 
-@@ ui-0125
+@@ ui-0127
 Replay her night scene.
 
-@@ ui-0126
+@@ ui-0128
 Replay
 
-@@ ui-0127
+@@ ui-0129
 Click to view.
 
-@@ ui-0128
+@@ ui-0130
 Not found yet: finish her story to unlock it.
 
-@@ ui-0129
+@@ ui-0131
 Not found yet
 
-@@ ui-0130
+@@ ui-0132
 A match-3 romance for adults, set in Millbrook, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes.
 
-@@ ui-0131
+@@ ui-0133
 Play
 
-@@ ui-0132
+@@ ui-0134
 Store
 
-@@ ui-0133
+@@ ui-0135
 Quit
 
-@@ ui-0134
+@@ ui-0136
 Original characters · all characters are adults.
 
-@@ ui-0135
+@@ ui-0137
 18+ · original characters · all characters are adults.
 
-@@ ui-0136
+@@ ui-0138
 Seals broken
 
-@@ ui-0137
+@@ ui-0139
 Comb pieces
 
-@@ ui-0138
+@@ ui-0140
 Things found
 
-@@ ui-0139
+@@ ui-0141
 Blossoms
 
-@@ ui-0140
+@@ ui-0142
 Starburst Starter active!
 
-@@ ui-0141
+@@ ui-0143
 Love Potion active!
 
-@@ ui-0142
+@@ ui-0144
 Mending Potion active!
 
-@@ ui-0143
+@@ ui-0145
 Her gift: more of her favourite gem
 
-@@ ui-0144
+@@ ui-0146
 +2 moves — great answer!
 
-@@ ui-0145
+@@ ui-0147
 +%d pts — great answer!
 
-@@ ui-0146
+@@ ui-0148
 Pick up
 
-@@ ui-0147
+@@ ui-0149
 Swap
 
-@@ ui-0148
+@@ ui-0150
 Put down
 
-@@ ui-0149
+@@ ui-0151
 End the date
 
-@@ ui-0150
+@@ ui-0152
 End this date and see your score.
 
-@@ ui-0151
+@@ ui-0153
 What a date!
 
-@@ ui-0152
+@@ ui-0154
 Today's challenge
 
-@@ ui-0153
+@@ ui-0155
 A new best!
 
-@@ ui-0154
+@@ ui-0156
 Your best: %d
 
-@@ ui-0155
+@@ ui-0157
 Another date
 
-@@ ui-0156
+@@ ui-0158
 Skip chapter  ▸
 
-@@ ui-0157
+@@ ui-0159
 Story difficulty: carry on with the story without playing this chapter (no stars for it).
 
-@@ ui-0158
+@@ ui-0160
 Skip this chapter?
 
-@@ ui-0159
+@@ ui-0161
 Her story carries on as if you'd cleared it. You don't get its stars.
 
-@@ ui-0160
+@@ ui-0162
 Skip chapter
 
-@@ ui-0161
+@@ ui-0163
 ←  Roster
 
-@@ ui-0162
+@@ ui-0164
 Moves left this chapter
 
-@@ ui-0163
+@@ ui-0165
 CHAPTER GOAL
 
-@@ ui-0164
+@@ ui-0166
 Charm — fills as you match (her favorite gem fastest). Full = +150 Charm Burst.
 
-@@ ui-0165
+@@ ui-0167
 Charm — fills as you match (her favourite gem fastest). Full = one use of her power: %s
 
-@@ ui-0166
+@@ ui-0168
 Her favourite gem scores double and fills Charm faster; the one she dislikes scores half.
 
-@@ ui-0167
+@@ ui-0169
 Tap a gem!
 
-@@ ui-0168
+@@ ui-0170
 Pick a gem to pop.
 
-@@ ui-0169
+@@ ui-0171
 +%d to win her over
 
-@@ ui-0170
+@@ ui-0172
 -1 move
 
-@@ ui-0171
+@@ ui-0173
 Charm halved
 
-@@ ui-0172
+@@ ui-0174
 after your next move
 
-@@ ui-0173
+@@ ui-0175
 in %d moves
 
-@@ ui-0174
+@@ ui-0176
 Something about to happen on your date. Matching her favourite gem holds it off a move; a Charm Burst clears it.
 
-@@ ui-0175
+@@ ui-0177
 COMING UP
 
-@@ ui-0176
+@@ ui-0178
 best %d
 
-@@ ui-0177
+@@ ui-0179
 Chapter %d / %d
 
-@@ ui-0178
+@@ ui-0180
 A free date
 
-@@ ui-0179
+@@ ui-0181
 Pick a gem.
 
-@@ ui-0180
+@@ ui-0182
 The comb piece can't be hammered. Bring it up to the surface.
 
-@@ ui-0181
+@@ ui-0183
 Boom!
 
-@@ ui-0182
+@@ ui-0184
 Shard smashed!
 
-@@ ui-0183
+@@ ui-0185
 Sealed. Match it by moving the gems beside it.
 
-@@ ui-0184
+@@ ui-0186
 Seeds can't be moved. Make matches next to them to make them grow.
 
-@@ ui-0185
+@@ ui-0187
 Comb pieces rise when the gems above them clear.
 
-@@ ui-0186
+@@ ui-0188
 Mega Blast!
 
-@@ ui-0187
+@@ ui-0189
 A new seed drops in.
 
-@@ ui-0188
+@@ ui-0190
 No moves left — reshuffling!
 
-@@ ui-0189
+@@ ui-0191
 A comb piece! %d / %d
 
-@@ ui-0190
+@@ ui-0192
 A comb piece!
 
-@@ ui-0191
+@@ ui-0193
 Blossom! +%d
 
-@@ ui-0192
+@@ ui-0194
 Found under the moss: %s
 
-@@ ui-0193
+@@ ui-0195
 a button
 
-@@ ui-0194
+@@ ui-0196
 a marble
 
-@@ ui-0195
+@@ ui-0197
 a key
 
-@@ ui-0196
+@@ ui-0198
 the glass eye
 
-@@ ui-0197
+@@ ui-0199
 Ouch!
 
-@@ ui-0198
+@@ ui-0200
 Combo x%d!
 
-@@ ui-0199
+@@ ui-0201
 Charm Burst! +150
 
-@@ ui-0200
+@@ ui-0202
 Neither of you notices what was coming.
 
-@@ ui-0201
+@@ ui-0203
 Pick a gem!
 
-@@ ui-0202
+@@ ui-0204
 Ready!
 
-@@ ui-0203
+@@ ui-0205
 Fill the ring
 
-@@ ui-0204
+@@ ui-0206
 Chapter cleared!
 
-@@ ui-0205
+@@ ui-0207
 Play it again
 
-@@ ui-0206
+@@ ui-0208
 Item Shop
 
-@@ ui-0207
+@@ ui-0209
 Back to the roster
 
-@@ ui-0208
+@@ ui-0210
 Out of Moves
 
-@@ ui-0209
+@@ ui-0211
 You needed %d more points.
 
-@@ ui-0210
+@@ ui-0212
 +%d ⭐ for trying
 
-@@ ui-0211
+@@ ui-0213
 1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!
 
-@@ ui-0212
+@@ ui-0214
 A tip
 
-@@ ui-0213
+@@ ui-0215
 Try: %s
 
-@@ ui-0214
+@@ ui-0216
 +%d ⭐ towards it
 
-@@ ui-0215
-Use a Time Scroll
-
-@@ ui-0216
-Retry Chapter
-
 @@ ui-0217
-Continue the story  ▸
++%d moves
 
 @@ ui-0218
-Carry on without clearing this chapter (no stars for it).
+Hearts left: %d / %d
 
 @@ ui-0219
-Skips this chapter's puzzle: no stars for it.
+Use a Time Scroll
 
 @@ ui-0220
-←  Menu
+Retry Chapter
 
 @@ ui-0221
-Millbrook Circle
+Skip it with the Story Pass  ▸
 
 @@ ui-0222
-Loves
+Continue the story  ▸
 
 @@ ui-0223
-Dislikes
+Carry on without clearing this chapter (no stars for it).
 
 @@ ui-0224
-Not met yet
+Skips this chapter's puzzle: no stars for it.
 
 @@ ui-0225
-Ending: %s
+←  Menu
 
 @@ ui-0226
-Meet her
+Millbrook Circle
 
 @@ ui-0227
-Revisit
+Loves
 
 @@ ui-0228
-Start her story over from the beginning
+Dislikes
 
 @@ ui-0229
-Replay %s's story?
+Not met yet
 
 @@ ui-0230
-Her story starts over from your first meeting, so you can make different choices. Endings you've found stay in the Gallery, your gift stays given, and her chapters pay out stars again.
+Ending: %s
 
 @@ ui-0231
-Replay story
+Meet her
 
 @@ ui-0232
-Free date
+Revisit
 
 @@ ui-0233
-Her board with no move limit, just for fun and a high score.
+Start her story over from the beginning
 
 @@ ui-0234
-Replay a chapter
+Replay %s's story?
 
 @@ ui-0235
-Play a chapter you've cleared again, for stars. Her story stays where it is.
+Her story starts over from your first meeting, so you can make different choices. Endings you've found stay in the Gallery, your gift stays given, and her chapters pay out stars again.
 
 @@ ui-0236
-Play a chapter you've cleared again, for stars. No story scenes, and her story stays where it is.
+Replay story
 
 @@ ui-0237
-Chapter %d · +%d ⭐
+Free date
 
 @@ ui-0238
-Chapter %d · +%d
+Her board with no move limit, just for fun and a high score.
 
 @@ ui-0239
-Give her the %s
+Replay a chapter
 
 @@ ui-0240
-After that, her favourite gem shows up more often in all her chapters, for good.
+Play a chapter you've cleared again, for stars. Her story stays where it is.
 
 @@ ui-0241
-(You need %d more stars.)
+Play a chapter you've cleared again, for stars. No story scenes, and her story stays where it is.
 
 @@ ui-0242
-Language
+Chapter %d · +%d ⭐
 
 @@ ui-0243
-The game's text. Voices stay in English.
+Chapter %d · +%d
 
 @@ ui-0244
-Sound Effects
+Give her the %s
 
 @@ ui-0245
-Chimes for matches, combos, and menus.
+After that, her favourite gem shows up more often in all her chapters, for good.
 
 @@ ui-0246
-Master Volume
+(You need %d more stars.)
 
 @@ ui-0247
-Everything — music and sound effects.
+Language
 
 @@ ui-0248
-How loud the background music plays.
+The game's text. Voices stay in English.
 
 @@ ui-0249
-Voice Acting
+Sound Effects
 
 @@ ui-0250
-Hear the girls speak their lines.
+Chimes for matches, combos, and menus.
 
 @@ ui-0251
-Voice Volume
+Master Volume
 
 @@ ui-0252
-How loud their voices play.
+Everything — music and sound effects.
 
 @@ ui-0253
-Difficulty
+How loud the background music plays.
 
 @@ ui-0254
-Story: twice the moves, and you can skip any chapter. Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Takes effect from the next chapter.
+Voice Acting
 
 @@ ui-0255
-Story
+Hear the girls speak their lines.
 
 @@ ui-0256
-Easy
+Voice Volume
 
 @@ ui-0257
-Hard
+How loud their voices play.
 
 @@ ui-0258
-Text Speed
+Difficulty
 
 @@ ui-0259
-How fast dialogue types out.
+Story: twice the moves, and you can skip any chapter. Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Takes effect from the next chapter.
 
 @@ ui-0260
-Slow
+Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Story difficulty comes with the Story Pass. Takes effect from the next chapter.
 
 @@ ui-0261
-Normal
+Story
 
 @@ ui-0262
-Fast
+Easy
 
 @@ ui-0263
-Instant
+Hard
 
 @@ ui-0264
-Auto Speed
+Text Speed
 
 @@ ui-0265
-How long Auto waits after each line (left = quicker).
+How fast dialogue types out.
 
 @@ ui-0266
-Skip Unread Lines
+Slow
 
 @@ ui-0267
-Let Skip race through lines you haven't read yet, too.
+Normal
 
 @@ ui-0268
-Text size
+Fast
 
 @@ ui-0269
-Bigger text everywhere: dialogue, menus and the puzzle.
+Instant
 
 @@ ui-0270
-Large
+Auto Speed
 
 @@ ui-0271
-Larger
+How long Auto waits after each line (left = quicker).
 
 @@ ui-0272
-Gem numbers
+Skip Unread Lines
 
 @@ ui-0273
-Each kind of gem shows a number, so you don't need colour to tell them apart.
+Let Skip race through lines you haven't read yet, too.
 
 @@ ui-0274
-Messages stay longer
+Text size
 
 @@ ui-0275
-Pop-up messages and her speech bubble in a chapter stay on screen longer. Dialogue always waits for you unless Auto is on.
+Bigger text everywhere: dialogue, menus and the puzzle.
 
 @@ ui-0276
-Vibration
+Large
 
 @@ ui-0277
-A little buzz when gems match.
+Larger
 
 @@ ui-0278
-Reduce Motion
+Gem numbers
 
 @@ ui-0279
-Shorter animations, calmer feedback.
+Each kind of gem shows a number, so you don't need colour to tell them apart.
 
 @@ ui-0280
-Fullscreen
+Messages stay longer
 
 @@ ui-0281
-Fill the whole screen. F11 toggles it anywhere.
+Pop-up messages and her speech bubble in a chapter stay on screen longer. Dialogue always waits for you unless Auto is on.
 
 @@ ui-0282
-Testing Mode
+Vibration
 
 @@ ui-0283
-Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing.
+A little buzz when gems match.
 
 @@ ui-0284
-Leave to Roster
+Reduce Motion
 
 @@ ui-0285
-Stop here. This scene plays again next time you visit her.
+Shorter animations, calmer feedback.
 
 @@ ui-0286
-Open log folder
+Fullscreen
 
 @@ ui-0287
-For bug reports: send the newest godot.log from this folder.
+Fill the whole screen. F11 toggles it anywhere.
 
 @@ ui-0288
-Reset Progress
+Testing Mode
 
 @@ ui-0289
-Reset all progress?
+Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing.
 
 @@ ui-0290
-This erases every girl's story progress, your stars, items, gifts and the whole Gallery. Your settings and achievements are kept. This can't be undone.
+Leave to Roster
 
 @@ ui-0291
-Reset everything
+Stop here. This scene plays again next time you visit her.
 
 @@ ui-0292
-Time Scroll
+Open log folder
 
 @@ ui-0293
-Read it for three more moves in the chapter you're playing. Use it from the item row under the board — it also gets you out of an Out of Moves screen.
+For bug reports: send the newest godot.log from this folder.
 
 @@ ui-0294
-Hammer
+Reset Progress
 
 @@ ui-0295
-Pop any one gem, no match needed. Arm it from the item row, then tap a gem.
+Reset all progress?
 
 @@ ui-0296
-Shuffle Wand
+This erases every girl's story progress, your stars, items, gifts and the whole Gallery. Your settings and achievements are kept. This can't be undone.
 
 @@ ui-0297
-One wave and the whole board is dealt again, always with a move to make.
+Reset everything
 
 @@ ui-0298
-Starburst Starter
+Time Scroll
 
 @@ ui-0299
-Your next chapter begins with a free Starburst gem already on the board.
+Read it for three more moves in the chapter you're playing. Use it from the item row under the board — it also gets you out of an Out of Moves screen.
 
 @@ ui-0300
-Love Potion
+Hammer
 
 @@ ui-0301
-Your next chapter: her favorite gem shows up more often, her least favorite less.
+Pop any one gem, no match needed. Arm it from the item row, then tap a gem.
 
 @@ ui-0302
-Mending Potion
+Shuffle Wand
 
 @@ ui-0303
-Your next chapter: far fewer cursed shards appear on the board.
+One wave and the whole board is dealt again, always with a move to make.
 
 @@ ui-0304
-←  Back to the chapter
+Starburst Starter
 
 @@ ui-0305
-Stars come from clearing chapters: 15 for a girl's first and 5 more for each one after it.
+Your next chapter begins with a free Starburst gem already on the board.
 
 @@ ui-0306
-Running out of moves still pays 1 star for every 200 points you scored (at least 3).
+Love Potion
 
 @@ ui-0307
-Short on stars? Replay a chapter you've cleared, from her card on the roster: it pays half.
+Your next chapter: her favorite gem shows up more often, her least favorite less.
 
 @@ ui-0308
-The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts.
+Mending Potion
 
 @@ ui-0309
-Owned: %d
+Your next chapter: far fewer cursed shards appear on the board.
 
 @@ ui-0310
-Buy · %d ⭐
+←  Back to the chapter
 
 @@ ui-0311
-Buy · %d
+Stars come from clearing chapters: 15 for a girl's first and 5 more for each one after it.
 
 @@ ui-0312
-You need %d more stars.
+Running out of moves still pays 1 star for every 200 points you scored (at least 3).
 
 @@ ui-0313
-Log
+Short on stars? Replay a chapter you've cleared, from her card on the roster: it pays half.
 
 @@ ui-0314
-Read back (L, or scroll up)
+The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts.
 
 @@ ui-0315
-Auto
+Owned: %d
 
 @@ ui-0316
-Lines carry on by themselves (A)
+Buy · %d ⭐
 
 @@ ui-0317
-Skip
+Buy · %d
 
 @@ ui-0318
-Skip lines you've read (hold Ctrl)
+You need %d more stars.
 
 @@ ui-0319
-Skip unread
+Log
 
 @@ ui-0320
-Skip every line up to the next reply, read or not
+Read back (L, or scroll up)
 
 @@ ui-0321
-Hide text
+Auto
 
 @@ ui-0322
-See the whole picture (H)
+Lines carry on by themselves (A)
 
 @@ ui-0323
-What do you say?
+Skip
 
 @@ ui-0324
-You
+Skip lines you've read (hold Ctrl)
 
 @@ ui-0325
-Reply
+Skip unread
 
 @@ ui-0326
-Next
+Skip every line up to the next reply, read or not
 
 @@ ui-0327
-Nothing yet.
+Hide text
 
 @@ ui-0328
-Don't Even Think About It
+See the whole picture (H)
 
 @@ ui-0329
-Meet Hazel instead of cutting her tree down.
+What do you say?
 
 @@ ui-0330
-A Lovely Trench
+You
 
 @@ ui-0331
-Clear Hazel's first chapter.
+Reply
 
 @@ ui-0332
-Leaves Going Red
+Next
 
 @@ ui-0333
-Clear Hazel's second chapter.
+Nothing yet.
 
 @@ ui-0334
-Out in the Storm
-
-@@ ui-0335
-Clear Hazel's third chapter.
-
-@@ ui-0336
-Putting Down Roots
-
-@@ ui-0337
-Reach Hazel's ending.
-
-@@ ui-0338
-Keeping Time
-
-@@ ui-0339
-Give Hazel the Brass Pocket Sundial.
-
-@@ ui-0340
-Soft as Moss
-
-@@ ui-0341
-Finish Hazel's story picking every warm reply.
-
-@@ ui-0342
-Splinters
-
-@@ ui-0343
-Finish Hazel's story teasing her in every reply.
-
-@@ ui-0344
-Chain Reaction
-
-@@ ui-0345
-Set off a x3 combo.
-
-@@ ui-0346
-Avalanche
-
-@@ ui-0347
-Set off a x5 combo.
-
-@@ ui-0348
-Starstruck
-
-@@ ui-0349
-Make a Starburst.
-
-@@ ui-0350
-Mega Blast
-
-@@ ui-0351
-Swap two special gems together.
-
-@@ ui-0352
-Irresistible
-
-@@ ui-0353
-Fill the Charm ring for a Charm Burst.
-
-@@ ui-0354
-With Moves to Spare
-
-@@ ui-0355
-Clear a chapter with 5 or more moves left.
-
-@@ ui-0356
-Shard Smasher
-
-@@ ui-0357
-Clear a cursed shard with the Hammer.
-
-@@ ui-0358
-Window Shopping
-
-@@ ui-0359
-Buy something in the Item Shop.
-
-@@ ui-0360
-In Full Bloom
-
-@@ ui-0361
-Grow 25 of Hazel's blossoms.
-
-@@ ui-0362
-Bookbinder
-
-@@ ui-0363
-Break 50 of Amara's seals.
-
-@@ ui-0364
-Finders Keepers
-
-@@ ui-0365
-Find 30 of Opal's lost things under the moss.
-
-@@ ui-0366
-Treasure Diver
-
-@@ ui-0367
-Bring 10 comb pieces up for Marina.
-
-@@ ui-0368
-A Thousand Sparkles
-
-@@ ui-0369
-Make 1000 matches.
-
-@@ ui-0370
-Just Because
-
-@@ ui-0371
-Score 2000 on a free date.
-
-@@ ui-0372
-Every Day Counts
-
-@@ ui-0373
-Finish a daily challenge.
-
-@@ ui-0374
-English
-
-@@ ui-0375
-%d / %d unlocked
-
-@@ ui-0376
-%d / %d endings found
-
-@@ ui-0377
-%d pts — rough start...
-
-@@ ui-0378
-%d / %d pts
-
-@@ ui-0379
-%d pts...
-
-@@ ui-0380
-MOVES
-
-@@ ui-0381
-TIP
-
-@@ ui-0382
-+%d ⭐
-
-@@ ui-0383
-SEALS BROKEN
-
-@@ ui-0384
-COMB PIECES
-
-@@ ui-0385
-THINGS FOUND
-
-@@ ui-0386
-BLOSSOMS
-
-@@ ui-0387
-%s is ready!
-
-@@ ui-0388
-%s: pick a gem.
-
-@@ ui-0389
 Home
 
-@@ ui-0390
+@@ ui-0335
 Girls
 
-@@ ui-0391
+@@ ui-0336
 Shop
 
-@@ ui-0392
+@@ ui-0337
 More
 
-@@ ui-0393
-Continue with %s
-
-@@ ui-0394
-You have %d
-
-@@ ui-0395
+@@ ui-0338
 A match-3 romance in Millbrook. Meet four women in the worst way possible, help them with what they need, and see where it goes.
 
+@@ ui-0339
+Continue with %s
+
+@@ ui-0340
+All the girls
+
+@@ ui-0341
+You have %d
+
+@@ ui-0342
+Back to the chapter
+
+@@ ui-0343
+Remove ads · %s
+
+@@ ui-0344
+Restore purchases
+
+@@ ui-0345
+Anything you've bought on this Google account comes back in a moment.
+
+@@ ui-0346
+Ad privacy choices
+
+@@ ui-0347
+Not bought
+
+@@ ui-0348
+Out of hearts
+
+@@ ui-0349
+Losing a chapter costs a heart, and one comes back every %d minutes.
+
+@@ ui-0350
+Next heart in %s
+
+@@ ui-0351
++1 heart
+
+@@ ui-0352
+Refill all · %d ⭐
+
+@@ ui-0353
+Unlimited for 24 hours · %s
+
+@@ ui-0354
+Story Pass: 8 hearts and free skips · %s
+
+@@ ui-0355
+Not now
+
+@@ ui-0356
+double it to %d ⭐
+
+@@ ui-0357
+Unlimited hearts: %s left
+
+@@ ui-0358
+Hearts: %d / %d
+
+@@ ui-0359
+Free stars
+
+@@ ui-0360
+Offers appear here once Google Play is reachable.
+
+@@ ui-0361
+Owned
+
+@@ ui-0362
+Don't Even Think About It
+
+@@ ui-0363
+Meet Hazel instead of cutting her tree down.
+
+@@ ui-0364
+A Lovely Trench
+
+@@ ui-0365
+Clear Hazel's first chapter.
+
+@@ ui-0366
+Leaves Going Red
+
+@@ ui-0367
+Clear Hazel's second chapter.
+
+@@ ui-0368
+Out in the Storm
+
+@@ ui-0369
+Clear Hazel's third chapter.
+
+@@ ui-0370
+Putting Down Roots
+
+@@ ui-0371
+Reach Hazel's ending.
+
+@@ ui-0372
+Keeping Time
+
+@@ ui-0373
+Give Hazel the Brass Pocket Sundial.
+
+@@ ui-0374
+Soft as Moss
+
+@@ ui-0375
+Finish Hazel's story picking every warm reply.
+
+@@ ui-0376
+Splinters
+
+@@ ui-0377
+Finish Hazel's story teasing her in every reply.
+
+@@ ui-0378
+Chain Reaction
+
+@@ ui-0379
+Set off a x3 combo.
+
+@@ ui-0380
+Avalanche
+
+@@ ui-0381
+Set off a x5 combo.
+
+@@ ui-0382
+Starstruck
+
+@@ ui-0383
+Make a Starburst.
+
+@@ ui-0384
+Mega Blast
+
+@@ ui-0385
+Swap two special gems together.
+
+@@ ui-0386
+Irresistible
+
+@@ ui-0387
+Fill the Charm ring for a Charm Burst.
+
+@@ ui-0388
+With Moves to Spare
+
+@@ ui-0389
+Clear a chapter with 5 or more moves left.
+
+@@ ui-0390
+Shard Smasher
+
+@@ ui-0391
+Clear a cursed shard with the Hammer.
+
+@@ ui-0392
+Window Shopping
+
+@@ ui-0393
+Buy something in the Item Shop.
+
+@@ ui-0394
+In Full Bloom
+
+@@ ui-0395
+Grow 25 of Hazel's blossoms.
+
 @@ ui-0396
-%d pts
+Bookbinder
 
 @@ ui-0397
-SCORE
+Break 50 of Amara's seals.
 
 @@ ui-0398
-Match runes, Amara's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards.
+Finders Keepers
 
 @@ ui-0399
-Match pearls, Marina's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Time Scroll buys back lost moves.
+Find 30 of Opal's lost things under the moss.
 
 @@ ui-0400
-Match crystals, Opal's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Love Potion brings more of them.
+Treasure Diver
 
 @@ ui-0401
-Match petals, Hazel's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards.
+Bring 10 comb pieces up for Marina.
 
 @@ ui-0402
-Correct Lines
+A Thousand Sparkles
 
 @@ ui-0403
-Pick a gem: its whole row and column clear.
+Make 1000 matches.
 
 @@ ui-0404
-Correct Lines!
+Just Because
 
 @@ ui-0405
-High Tide
+Score 2000 on a free date.
 
 @@ ui-0406
-The two rows nearest the surface clear, and everything rises two rows.
+Every Day Counts
 
 @@ ui-0407
-High Tide!
+Finish a daily challenge.
 
 @@ ui-0408
-Absorb
+English
 
 @@ ui-0409
-Pick a gem: every gem of that colour is cleared.
+Starter Pack
 
 @@ ui-0410
-Absorb!
+Best value
 
 @@ ui-0411
-Summer
+500 stars, 3 of every item and 24 hours of unlimited hearts. Once per player.
 
 @@ ui-0412
-Every seed and sprout on the board grows one stage.
+No Ads
 
 @@ ui-0413
+No ads between chapters or under the menus, ever. Reward videos become one tap: the reward, no video.
+
+@@ ui-0414
+Story Pass
+
+@@ ui-0415
+Skip any chapter, carry on after any loss, and 8 hearts instead of 5.
+
+@@ ui-0416
+Unlimited Hearts
+
+@@ ui-0417
+Play as much as you like for 24 hours.
+
+@@ ui-0418
+Item Bundle
+
+@@ ui-0419
+5 of every item in the Item Shop.
+
+@@ ui-0420
+Handful of Stars
+
+@@ ui-0421
+150 stars.
+
+@@ ui-0422
+Pouch of Stars
+
+@@ ui-0423
+800 stars.
+
+@@ ui-0424
+Chest of Stars
+
+@@ ui-0425
+Popular
+
+@@ ui-0426
+1,800 stars.
+
+@@ ui-0427
+Treasury of Stars
+
+@@ ui-0428
+5,000 stars.
+
+@@ ui-0429
+Free: %s
+
+@@ ui-0430
+Watch a video: %s
+
+@@ ui-0431
+You already have this.
+
+@@ ui-0432
+Test purchase
+
+@@ ui-0433
+This is a test build: no money changes hands. Buy %s for %s?
+
+@@ ui-0434
+Buy
+
+@@ ui-0435
+Google Play isn't reachable right now. Try again in a moment.
+
+@@ ui-0436
+The purchase couldn't start (%s).
+
+@@ ui-0437
+The store isn't available in this build.
+
+@@ ui-0438
+The purchase didn't go through (%s).
+
+@@ ui-0439
+Your purchase is pending. It arrives as soon as Google Play confirms it.
+
+@@ ui-0440
+%d / %d unlocked
+
+@@ ui-0441
+%d / %d endings found
+
+@@ ui-0442
+%d pts — rough start...
+
+@@ ui-0443
+%d / %d pts
+
+@@ ui-0444
+%d pts...
+
+@@ ui-0445
+MOVES
+
+@@ ui-0446
+TIP
+
+@@ ui-0447
++%d ⭐
+
+@@ ui-0448
+SEALS BROKEN
+
+@@ ui-0449
+COMB PIECES
+
+@@ ui-0450
+THINGS FOUND
+
+@@ ui-0451
+BLOSSOMS
+
+@@ ui-0452
+%s is ready!
+
+@@ ui-0453
+%s: pick a gem.
+
+@@ ui-0454
+%d pts
+
+@@ ui-0455
+SCORE
+
+@@ ui-0456
+Match runes, Amara's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards.
+
+@@ ui-0457
+Match pearls, Marina's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Time Scroll buys back lost moves.
+
+@@ ui-0458
+Match crystals, Opal's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Love Potion brings more of them.
+
+@@ ui-0459
+Match petals, Hazel's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards.
+
+@@ ui-0460
+Correct Lines
+
+@@ ui-0461
+Pick a gem: its whole row and column clear.
+
+@@ ui-0462
+Correct Lines!
+
+@@ ui-0463
+High Tide
+
+@@ ui-0464
+The two rows nearest the surface clear, and everything rises two rows.
+
+@@ ui-0465
+High Tide!
+
+@@ ui-0466
+Absorb
+
+@@ ui-0467
+Pick a gem: every gem of that colour is cleared.
+
+@@ ui-0468
+Absorb!
+
+@@ ui-0469
+Summer
+
+@@ ui-0470
+Every seed and sprout on the board grows one stage.
+
+@@ ui-0471
 Summer!

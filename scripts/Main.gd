@@ -18,6 +18,9 @@ var screen_host: Control
 ## chapter or mid-conversation included, with nothing rebuilt or lost.
 var overlay_host: Control
 var star_label: Label
+## Google Play build: the hearts pill next to the stars (round 50).
+var heart_label: Label = null
+var heart_panel: Control = null
 var test_badge: Label
 
 ## Whichever character the current/last screen was about (set by show_puzzle()
@@ -193,6 +196,43 @@ func _build_chrome() -> void:
 	star_row.add_child(star_label)
 	star_panel.add_child(star_row)
 	top_h.add_child(star_panel)
+	# Google Play build (round 50): hearts; tap for the out-of-hearts popup
+	# or the Shop.
+	if Monetize.active():
+		var hb := Button.new()
+		hb.flat = true
+		hb.focus_mode = Control.FOCUS_NONE
+		hb.add_theme_stylebox_override("normal", star_style)
+		hb.add_theme_stylebox_override("hover", star_style)
+		hb.add_theme_stylebox_override("pressed", star_style)
+		hb.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+		hb.tooltip_text = "Hearts: losing a chapter costs one, and they come back over time."
+		var hr := HBoxContainer.new()
+		hr.add_theme_constant_override("separation", 6)
+		hr.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		hr.set_anchors_preset(Control.PRESET_FULL_RECT)
+		hr.alignment = BoxContainer.ALIGNMENT_CENTER
+		hr.add_child(UITheme.icon_or_emoji("heart", "♥", 18))
+		heart_label = Label.new()
+		heart_label.add_theme_font_size_override("font_size", 14)
+		heart_label.add_theme_color_override("font_color", UITheme.INK_ON_DARK)
+		hr.add_child(heart_label)
+		hb.add_child(hr)
+		hb.custom_minimum_size = Vector2(68, 34)
+		hb.pressed.connect(func():
+			if Monetize.can_play():
+				show_mobile("shop")
+			else:
+				ShopUI.out_of_hearts(self))
+		top_h.add_child(hb)
+		top_h.move_child(hb, star_panel.get_index())
+		heart_panel = hb
+		Monetize.changed.connect(refresh_topbar)
+		var ht := Timer.new()
+		ht.wait_time = 5.0
+		ht.autostart = true
+		ht.timeout.connect(refresh_topbar)
+		add_child(ht)
 
 	# A toggle: opens Settings, and pressing it again while Settings is open
 	# does exactly what Settings' own "← Back" does (close_settings()). It
@@ -264,6 +304,8 @@ var _test_badge_container: Control
 
 func refresh_topbar() -> void:
 	star_label.text = "%d" % GameState.stars
+	if heart_label:
+		heart_label.text = ShopUI.hearts_text()
 	if _test_badge_container:
 		_test_badge_container.visible = GameState.settings.test_mode
 
@@ -279,6 +321,8 @@ func clear_screen() -> void:
 	if _screen_obj != null and _screen_obj.has_method("teardown"):
 		_screen_obj.teardown()
 	_screen_obj = null
+	# Banners only under the phone menus, which turn it back on (round 50).
+	Monetize.show_banner(false)
 	story_scene = false
 	_rebuild_route = Callable()
 	_focus_default = null
@@ -505,6 +549,10 @@ func show_roster() -> void:
 ## playing her current one (round 33, see PuzzleScreen.replay).
 ## mode (round 49): "" her story, "free" a free date, "daily" today's challenge.
 func show_puzzle(char_id: String, replay: int = -1, mode: String = "") -> void:
+	# Google Play build (round 50): story chapters and replays need a heart.
+	if mode == "" and not Monetize.can_play():
+		ShopUI.out_of_hearts(self)
+		return
 	current_char_id = char_id
 	clear_screen()
 	refresh_topbar()
@@ -549,6 +597,15 @@ func daily_button() -> Button:
 		if done else UITheme.t("Daily challenge"))
 	UITheme.add_icon(b, "star")
 	b.disabled = done or not daily_available()
+	# Google Play build: one more try at today's board for a video.
+	if done and Monetize.can_watch("daily"):
+		b.text = Monetize.watch_label(UITheme.t("one more daily try"))
+		b.disabled = false
+		b.pressed.connect(func():
+			Monetize.watch("daily", func():
+				GameState.stats.erase("daily_" + PuzzleScreen.daily_key())
+				show_daily()))
+		return b
 	b.tooltip_text = UITheme.t("A new board every day, the same for everyone: %d moves, one try. Come back tomorrow for the next.") % PuzzleScreen.DAILY_MOVES \
 		if daily_available() else UITheme.t("Clear any chapter to unlock the daily challenge.")
 	b.pressed.connect(func():
