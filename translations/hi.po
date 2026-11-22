@@ -3,6 +3,18 @@ msgstr ""
 "Language: hi\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 
+msgid "\"Don't even think about it.\""
+msgstr "\"सोचना भी मत।\""
+
+msgid "\"I was fine. It was quiet in there.\""
+msgstr "\"मैं ठीक थी। अंदर शांति थी।\""
+
+msgid "\"I was floating. On my back.\""
+msgstr "\"मैं तैर रही थी। पीठ के बल।\""
+
+msgid "\"You summoned me with that pathetic chalk circle?\""
+msgstr "\"तुमने मुझे उस बेचारे चॉक के घेरे से बुलाया?\""
+
 msgid "%d / %d endings found"
 msgstr "%d / %d अंत मिले"
 
@@ -93,8 +105,17 @@ msgstr "800 सितारे।"
 msgid "A Lovely Trench"
 msgstr "एक प्यारी खाई"
 
+msgid "A Quiet Place"
+msgstr "एक शांत जगह"
+
 msgid "A Thousand Sparkles"
 msgstr "हज़ार चमक"
+
+msgid "A clock that only works when the sun's out."
+msgstr "एक घड़ी जो बस तब चलती है जब सूरज निकला हो।"
+
+msgid "A cold breeze"
+msgstr "एक ठंडी हवा"
 
 msgid "A comb piece!"
 msgstr "कंघी का टुकड़ा!"
@@ -102,8 +123,17 @@ msgstr "कंघी का टुकड़ा!"
 msgid "A comb piece! %d / %d"
 msgstr "कंघी का टुकड़ा! %d / %d"
 
+msgid "A folding brass sundial small enough for a pocket. It only tells the time on sunny days, which as far as she's concerned are the only days that need it."
+msgstr "पीतल की एक मुड़ने वाली धूपघड़ी, जेब में आ जाए इतनी छोटी। यह सिर्फ़ धूप वाले दिनों में समय बताती है, और उसके हिसाब से बस उन्हीं दिनों इसकी ज़रूरत होती है।"
+
 msgid "A free date"
 msgstr "एक खुली डेट"
+
+msgid "A glass marble with a ribbon of gold twisted through it, the kind nobody's made for decades."
+msgstr "काँच का एक कंचा जिसके भीतर सोने की एक लहरदार पट्टी है, ऐसा जो दशकों से कोई नहीं बनाता।"
+
+msgid "A leaf drops into your hair. There's no wind."
+msgstr "तुम्हारे बालों में एक पत्ता गिरता है। हवा नहीं चल रही।"
 
 msgid "A little buzz when gems match."
 msgstr "रत्न मिलने पर हल्का कंपन।"
@@ -123,14 +153,38 @@ msgstr "हर दिन एक नया बोर्ड, सबके लि�
 msgid "A new seed drops in."
 msgstr "एक नया बीज गिरता है।"
 
+msgid "A reader shushes you"
+msgstr "एक पाठक तुम्हें चुप कराता है"
+
+msgid "A sapling beside the new millrace, a ribbon tied round it."
+msgstr "नई नहर के पास एक पौधा, चारों ओर रिबन बँधा।"
+
+msgid "A smooth chip of sea glass, worn soft by years of tide, on a plain cord."
+msgstr "समुद्री काँच का एक चिकना टुकड़ा, बरसों के ज्वार से नरम हुआ, एक सादी डोरी पर।"
+
+msgid "A squall comes in over the cove. She wants to dive anyway. You hold the rope ladder and argue with her over the wind."
+msgstr "खाड़ी में एक तूफ़ानी बौछार आती है। वह फिर भी गोता लगाना चाहती है। तुम रस्सी की सीढ़ी थामे हवा के ख़िलाफ़ चिल्लाकर उससे बहस करते हो।"
+
+msgid "A tall beeswax candle with a nine-hour wick. It burns longer if nobody blows it out."
+msgstr "नौ घंटे की बत्ती वाली एक लंबी मधुमोम की मोमबत्ती। अगर कोई उसे न बुझाए तो ज़्यादा देर जलती है।"
+
 msgid "A tip"
 msgstr "एक सुझाव"
+
+msgid "A twig drops, very precisely, into your lunch."
+msgstr "एक टहनी गिरती है, बहुत सटीक, सीधे तुम्हारे खाने में।"
+
+msgid "A wave over the pier"
+msgstr "घाट पर लहर"
 
 msgid "ACHIEVEMENT UNLOCKED"
 msgstr "उपलब्धि मिली"
 
 msgid "About the voices"
 msgstr "आवाज़ों के बारे में"
+
+msgid "About your reward. Last night was not the reward. I need you to understand that. Last night was separate."
+msgstr "तुम्हारे इनाम के बारे में। कल रात इनाम नहीं था। यह तुम्हें समझना होगा। कल रात कुछ और था।"
 
 msgid "Absorb"
 msgstr "सोखना"
@@ -144,17 +198,47 @@ msgstr "उपलब्धियाँ"
 msgid "Ad privacy choices"
 msgstr "विज्ञापन गोपनीयता विकल्प"
 
+msgid "Admit it. You like having me around."
+msgstr "मान लो। तुम्हें मेरा आसपास होना अच्छा लगता है।"
+
+msgid "After Hours"
+msgstr "बंद होने के बाद"
+
 msgid "After each chapter you pick a reply. A warm one starts her next chapter with bonus points (two extra moves when the chapter is only her goal); a teasing one costs a few points, but she likes those too."
 msgstr "हर अध्याय के बाद आप एक जवाब चुनते हैं। प्यार भरा जवाब उसके अगले अध्याय को बोनस अंकों से शुरू करता है (जब अध्याय में सिर्फ़ उसका लक्ष्य हो, तो दो अतिरिक्त चालें); छेड़ने वाला जवाब कुछ अंक घटाता है, पर उसे वे भी पसंद हैं।"
 
 msgid "After that, her favourite gem shows up more often in all her chapters, for good."
 msgstr "उसके बाद, उसका पसंदीदा रत्न उसके सभी अध्यायों में हमेशा के लिए ज़्यादा बार आता है।"
 
+msgid "After the comb, it can be a big thing."
+msgstr "कंघी के बाद यह बड़ी बात बन सकती है।"
+
+msgid "Afterwards she lies with her head on your chest, her tail curled down the slipway into the water, flicking now and then."
+msgstr "बाद में वह तुम्हारी छाती पर सिर रखे लेटी है, उसकी पूँछ ढलान से नीचे पानी तक कुंडली मारे, कभी-कभी फड़कती हुई।"
+
+msgid "Afterwards she's spread across most of the bed and some of you, glowing faintly, humming something Ambrose used to whistle."
+msgstr "बाद में वह बिस्तर के ज़्यादातर हिस्से और तुम्हारे कुछ हिस्से पर फैली है, हल्का चमकती हुई, कुछ गुनगुनाती हुई जो एम्ब्रोज़ सीटी में बजाया करता था।"
+
+msgid "Afterwards you lie in the moss with her hair across your chest. Overhead, every leaf on her east side has turned pale side up, the way they do before a storm. There's no storm."
+msgstr "बाद में तुम काई में लेटे हो, उसके बाल तुम्हारी छाती पर बिखरे। ऊपर, उसकी पूरब वाली तरफ़ का हर पत्ता पीला हिस्सा ऊपर करके पलट गया है, जैसे तूफ़ान से पहले होता है। कोई तूफ़ान नहीं है।"
+
+msgid "Against an alchemist? You sold my buttons for two coppers and bought them back for six."
+msgstr "एक कीमियागर के ख़िलाफ़? तुमने मेरे बटन दो सिक्कों में बेचे और छह में वापस ख़रीदे।"
+
+msgid "Alchemists boil slimes down for glue. Did you know that? Twelve shillings a pound."
+msgstr "कीमियागर स्लाइम को उबालकर गोंद बनाते हैं। तुम्हें पता था? बारह शिलिंग प्रति पाउंड।"
+
 msgid "All rules"
 msgstr "सारे नियम"
 
+msgid "All spring, by hand? I guess I'll have to get used to you."
+msgstr "पूरा वसंत, हाथ से? लगता है मुझे तुम्हारी आदत डालनी पड़ेगी।"
+
 msgid "All the girls"
 msgstr "सभी लड़कियाँ"
+
+msgid "Amara Duskrose"
+msgstr "अमारा डस्करोज़"
 
 msgid "Amara's power: Correct Lines"
 msgstr "अमारा की शक्ति: सही पंक्तियाँ"
@@ -162,11 +246,29 @@ msgstr "अमारा की शक्ति: सही पंक्तिय�
 msgid "Amara's seals broken"
 msgstr "अमारा की तोड़ी गई मुहरें"
 
+msgid "Amara. It's the one I use. The real one is in the book, along with everything else that keeps me on a leash."
+msgstr "अमारा। यही नाम मैं इस्तेमाल करती हूँ। असली नाम किताब में है, उन सब चीज़ों के साथ जो मुझे पट्टे से बाँधे रखती हैं।"
+
 msgid "Amara: break every seal"
 msgstr "अमारा: हर मुहर तोड़ें"
 
 msgid "Amara: sealed pages"
 msgstr "अमारा: मुहरबंद पन्ने"
+
+msgid "Ambrose wrote that label. He was the forester. When the alchemists came round buying slimes, he hid me out here. It worked for thirty-one years."
+msgstr "वह लेबल एम्ब्रोज़ ने लिखा था। वह वनरक्षक था। जब कीमियागर स्लाइम ख़रीदने आए, तो उसने मुझे यहाँ छिपा दिया। इकतीस साल तक यह चला।"
+
+msgid "An owl startles her"
+msgstr "एक उल्लू उसे चौंका देता है"
+
+msgid "And this time, take your clothes off before you jump in."
+msgstr "और इस बार कूदने से पहले कपड़े उतार लेना।"
+
+msgid "And you still haven't asked me for anything."
+msgstr "और तुमने अब भी मुझसे कुछ नहीं माँगा।"
+
+msgid "And you're not going to tell anyone either, are you, lifeguard?"
+msgstr "और तुम भी किसी को नहीं बताओगे, है न, जीवनरक्षक?"
 
 msgid "Another date"
 msgstr "एक और डेट"
@@ -176,6 +278,9 @@ msgstr "कोई भी सही मेल तुरंत अध्याय 
 
 msgid "Anything you've bought on this Google account comes back in a moment."
 msgstr "इस Google खाते पर ख़रीदी हर चीज़ कुछ ही पलों में लौट आएगी।"
+
+msgid "At the Midsummer Tide the whole family swims out to the rocks, and Gran wears nine pearls in her hair and pretends not to notice everyone watching her."
+msgstr "मध्य-ग्रीष्म ज्वार पर पूरा परिवार तैरकर चट्टानों तक जाता है, और दादी बालों में नौ मोती पहनती हैं और ऐसे जताती हैं जैसे उन्हें पता ही न हो कि सब उन्हें देख रहे हैं।"
 
 msgid "Auto"
 msgstr "ऑटो"
@@ -216,14 +321,32 @@ msgstr "%s के साथ सबसे अच्छी डेट"
 msgid "Best value"
 msgstr "सबसे फ़ायदेमंद"
 
+msgid "Better than the last one the miller sent."
+msgstr "चक्कीवाले ने पिछली बार जिसे भेजा था, उससे बेहतर।"
+
+msgid "Between the roots of an old oak, someone has dug a little hollow and lined it with moss. In it sits a big glass jar, sealed with wax. The label says PICKLED NEWTS, DO NOT OPEN, in handwriting that's trying to be funny."
+msgstr "एक पुराने बलूत की जड़ों के बीच किसी ने एक छोटा गड्ढा खोदकर उसमें काई बिछाई है। उसमें मोम से बंद काँच का एक बड़ा मर्तबान रखा है। लेबल पर लिखा है अचारी न्यूट, मत खोलो, ऐसी लिखावट में जो मज़ाकिया बनने की कोशिश कर रही है।"
+
 msgid "Bigger text everywhere: dialogue, menus and the puzzle."
 msgstr "हर जगह बड़ा पाठ: संवाद, मेन्यू और पहेली।"
+
+msgid "Black cover. No title. It'll feel warm. Don't open it."
+msgstr "काला जिल्द। कोई शीर्षक नहीं। छूने में गर्म लगेगी। खोलना मत।"
 
 msgid "Blossom! +%d"
 msgstr "फूल! +%d"
 
+msgid "Blossom."
+msgstr "बहार।"
+
 msgid "Blossoms"
 msgstr "फूल"
+
+msgid "Board, lifeguard. Not me."
+msgstr "नज़र बोर्ड पर, जीवनरक्षक। मुझ पर नहीं।"
+
+msgid "Boathouse. It's got a door. Gran can't see through doors. Probably."
+msgstr "नाव-घर। उसमें दरवाज़ा है। दादी दरवाज़ों के आर-पार नहीं देख सकतीं। शायद।"
 
 msgid "Bookbinder"
 msgstr "जिल्दसाज़"
@@ -231,11 +354,23 @@ msgstr "जिल्दसाज़"
 msgid "Boom!"
 msgstr "धमाका!"
 
+msgid "Brambles underfoot"
+msgstr "पैरों तले झाड़ियाँ"
+
+msgid "Brass Pocket Sundial"
+msgstr "पीतल की जेबी धूपघड़ी"
+
 msgid "Break 50 of Amara's seals."
 msgstr "अमारा की 50 मुहरें तोड़ें।"
 
 msgid "Bring 10 comb pieces up for Marina."
 msgstr "मरीना के लिए कंघी के 10 टुकड़े ऊपर लाएँ।"
+
+msgid "But I'll allow it. Bring the shovel tomorrow though."
+msgstr "पर मैं माफ़ करती हूँ। कल फावड़ा ज़रूर लाना।"
+
+msgid "But she's a little pinker than she was."
+msgstr "पर वह पहले से थोड़ी ज़्यादा गुलाबी है।"
 
 msgid "Buy"
 msgstr "ख़रीदें"
@@ -249,6 +384,15 @@ msgstr "ख़रीदें · %d"
 msgid "Buy · %d ⭐"
 msgstr "ख़रीदें · %d ⭐"
 
+msgid "By the end of the month the old wall has stopped cracking. The new millrace runs clean, and Aldous Brock stands on the bank for a long time with his hat in his hands."
+msgstr "महीने के आख़िर तक पुरानी दीवार में दरारें पड़नी बंद हो गई हैं। नई नहर साफ़ बहती है, और एल्डस ब्रॉक हाथ में टोपी लिए बहुत देर तक किनारे खड़ा रहता है।"
+
+msgid "By two in the morning you've checked every book returned this month. No black cover. One very overdue cookbook, which she opens, reads a page of, and closes in disgust."
+msgstr "रात के दो बजे तक तुम इस महीने लौटाई हर किताब देख चुके हो। कोई काला जिल्द नहीं। एक बहुत देर से लौटी पाक-कला की किताब, जिसे वह खोलती है, एक पन्ना पढ़ती है और घिन से बंद कर देती है।"
+
+msgid "C-can I sleep in your room tonight? Not in the jar. With you."
+msgstr "क-क्या मैं आज रात तुम्हारे कमरे में सो सकती हूँ? मर्तबान में नहीं। तुम्हारे साथ।"
+
 msgid "CHAPTER GOAL"
 msgstr "अध्याय का लक्ष्य"
 
@@ -258,8 +402,17 @@ msgstr "कंघी के टुकड़े"
 msgid "COMING UP"
 msgstr "आगे आने वाला"
 
+msgid "Can we not? Please?"
+msgstr "क्या हम न करें? प्लीज़?"
+
+msgid "Can you... turn the lamp down a bit?"
+msgstr "क्या तुम... दीया थोड़ा धीमा कर सकते हो?"
+
 msgid "Cancel"
 msgstr "रद्द करें"
+
+msgid "Careful. If you keep staring at me like that, I'll start thinking you summoned me on purpose."
+msgstr "सँभलकर। अगर ऐसे ही घूरते रहे, तो मैं सोचने लगूँगी कि तुमने मुझे जानबूझकर बुलाया।"
 
 msgid "Carry on without clearing this chapter (no stars for it)."
 msgstr "यह अध्याय पूरा किए बिना आगे बढ़ें (इसके सितारे नहीं मिलेंगे)।"
@@ -309,6 +462,9 @@ msgstr "मेल, कॉम्बो और मेन्यू के लिए
 msgid "Choose"
 msgstr "चुनें"
 
+msgid "Clean lines. I'm almost proud of you."
+msgstr "साफ़ लकीरें। मुझे तुम पर लगभग गर्व है।"
+
 msgid "Clear Hazel's first chapter."
 msgstr "हेज़ल का पहला अध्याय पूरा करें।"
 
@@ -324,6 +480,9 @@ msgstr "5 या ज़्यादा चालें बचाकर अध्
 msgid "Clear a cursed shard with the Hammer."
 msgstr "हथौड़े से एक शापित टुकड़ा तोड़ें।"
 
+msgid "Clear all the way through. Like me."
+msgstr "आर-पार साफ़। मेरी तरह।"
+
 msgid "Clear any chapter to unlock the daily challenge."
 msgstr "दैनिक चुनौती खोलने के लिए कोई भी अध्याय पूरा करें।"
 
@@ -338,6 +497,12 @@ msgstr "क्लिक, स्पेस या एंटर: अगली प�
 
 msgid "Close"
 msgstr "बंद करें"
+
+msgid "Close enough."
+msgstr "काफ़ी क़रीब।"
+
+msgid "Close enough. You can keep using it."
+msgstr "काफ़ी क़रीब। तुम इसे इस्तेमाल करते रह सकते हो।"
 
 msgid "Close settings"
 msgstr "सेटिंग्स बंद करें"
@@ -356,6 +521,12 @@ msgstr "कॉम्बो x%d!"
 
 msgid "Combos"
 msgstr "कॉम्बो"
+
+msgid "Come here. That's an order, and I'm only giving it once before I come over there and get you."
+msgstr "इधर आओ। यह हुक्म है, और मैं इसे बस एक बार दूँगी, फिर ख़ुद आकर तुम्हें ले जाऊँगी।"
+
+msgid "Come on. Binders keep ledgers. If he sold them, he wrote down who to."
+msgstr "चलो। जिल्दसाज़ बही रखते हैं। अगर उसने बेचे, तो लिखा होगा किसे।"
 
 msgid "Continue"
 msgstr "जारी रखें"
@@ -378,6 +549,9 @@ msgstr "श्रेय"
 msgid "Crystal"
 msgstr "स्फटिक"
 
+msgid "Crystal. I'd keep that one."
+msgstr "स्फटिक। यह मैं रख लेती।"
+
 msgid "Cursed Shard"
 msgstr "शापित टुकड़ा"
 
@@ -393,17 +567,71 @@ msgstr "दैनिक चुनौती: %d अंक"
 msgid "Dark, cracked shards cost you points when they're part of a match. The Hammer smashes one for free."
 msgstr "काले, दरके हुए टुकड़े मेल में आने पर आपके अंक घटाते हैं। हथौड़ा एक को मुफ़्त में तोड़ देता है।"
 
+msgid "Day four. Word's got round that someone is digging by the old hazel instead of cutting it down. The miller's daughter brings you lunch, and you walk her back as far as the footbridge."
+msgstr "चौथा दिन। ख़बर फैल गई है कि कोई पुराने हेज़ल को काटने के बजाय उसके पास खुदाई कर रहा है। चक्कीवाले की बेटी तुम्हारे लिए खाना लाती है, और तुम उसे पैदल पुल तक वापस छोड़ आते हो।"
+
+msgid "Day three. She's been in the water since dawn, and she misses the rope ladder twice trying to climb onto the pier. At the far end, three old fishermen are setting out their Thursday tile game by lamplight."
+msgstr "तीसरा दिन। वह भोर से पानी में है और घाट पर चढ़ने की कोशिश में दो बार रस्सी की सीढ़ी चूक जाती है। दूसरे सिरे पर तीन बूढ़े मछुआरे लालटेन की रोशनी में अपना गुरुवार वाला कंकड़ों का खेल जमा रहे हैं।"
+
+msgid "Dead leaves come down"
+msgstr "सूखे पत्ते गिरते हैं"
+
 msgid "Dialogue controls"
 msgstr "संवाद नियंत्रण"
 
 msgid "Difficulty"
 msgstr "कठिनाई"
 
+msgid "Dig faster. I'd like to see another spring."
+msgstr "तेज़ खोदो। मैं एक और वसंत देखना चाहूँगी।"
+
+msgid "Dig your trench. Sleeves up!"
+msgstr "अपनी खाई खोदो। आस्तीनें ऊपर!"
+
 msgid "Dislikes"
 msgstr "नापसंद"
 
+msgid "Do that again. Slower."
+msgstr "फिर से करो। धीरे।"
+
 msgid "Don't Even Think About It"
 msgstr "सोचना भी मत"
+
+msgid "Don't even think about it."
+msgstr "सोचना भी मत।"
+
+msgid "Don't go before morning. I'll know if you do. I'll hear the door."
+msgstr "सुबह से पहले मत जाना। तुम गए तो मुझे पता चल जाएगा। दरवाज़ा सुनूँगी।"
+
+msgid "Don't look at them. They're not for you. They're seasonal."
+msgstr "उन्हें मत देखो। वे तुम्हारे लिए नहीं हैं। वे मौसमी हैं।"
+
+msgid "Don't look so pleased with yourself. Actually, no. Look exactly that pleased."
+msgstr "अपने आप से इतने ख़ुश मत दिखो। नहीं, रहने दो। ठीक इतने ही ख़ुश दिखो।"
+
+msgid "Don't put me back in the jar yet. I want to go home on my own. Well. Not walk. You know."
+msgstr "मुझे अभी मर्तबान में वापस मत डालना। मैं अपने आप घर जाना चाहती हूँ। ख़ैर। पैदल नहीं। तुम समझते हो।"
+
+msgid "Don't say it like that. Like it matters."
+msgstr "ऐसे मत कहो। जैसे इसका कोई मतलब हो।"
+
+msgid "Don't. Don't you dare."
+msgstr "मत। ख़बरदार।"
+
+msgid "Don't. Just don't."
+msgstr "मत। बस मत।"
+
+msgid "Don't... look at me like that."
+msgstr "मुझे... ऐसे मत देखो।"
+
+msgid "Down on the pier, a whole family is yelling at the water. Out past the rocks, a woman is floating face up, perfectly still, her hair spread out round her."
+msgstr "नीचे घाट पर पूरा एक परिवार पानी की ओर चिल्ला रहा है। चट्टानों से परे एक औरत पीठ के बल तैर रही है, बिल्कुल स्थिर, बाल चारों ओर फैले।"
+
+msgid "Dryad of the old hazel"
+msgstr "पुराने हेज़ल की वनदेवी"
+
+msgid "Dust off the top shelf"
+msgstr "ऊपरी ताक से धूल"
 
 msgid "Each chapter has a goal and a number of moves. At first it's points; from her third chapter it's something of hers to do on the board, and in her last both. Reach it before your moves run out and the story carries on. There's no timer: take as long as you like."
 msgstr "हर अध्याय का एक लक्ष्य और चालों की एक संख्या होती है। पहले यह अंक होते हैं; उसके तीसरे अध्याय से बोर्ड पर उसके लिए कुछ करना होता है, और आख़िरी में दोनों। चालें ख़त्म होने से पहले लक्ष्य पूरा करें, तो कहानी आगे बढ़ती है। कोई टाइमर नहीं: आराम से खेलें।"
@@ -413,6 +641,9 @@ msgstr "हर तरह का रत्न एक नंबर दिखात
 
 msgid "Easy"
 msgstr "आसान"
+
+msgid "Eat your lunch. I'm sure her bread is very good. I wouldn't know."
+msgstr "खाना खाओ। उसकी रोटी ज़रूर बहुत अच्छी होगी। मुझे क्या पता।"
 
 msgid "Ember"
 msgstr "अंगारा"
@@ -444,14 +675,35 @@ msgstr "हर लड़की का एक पसंदीदा रत्न 
 msgid "Every match fills the Charm ring. In a girl's first chapter a full ring is a Charm Burst: +150 points. From her second chapter it's one use of her own power instead: its button lights up next to the ring, use it when you like. The ring fills again after."
 msgstr "हर मेल आकर्षण चक्र को भरता है। किसी लड़की के पहले अध्याय में भरा चक्र आकर्षण विस्फोट है: +150 अंक। उसके दूसरे अध्याय से यह उसकी अपनी शक्ति का एक उपयोग होता है: चक्र के पास उसका बटन जल उठता है, जब चाहें इस्तेमाल करें। उसके बाद चक्र फिर भरता है।"
 
+msgid "Every one of those pages is part of my binding. Somebody has been buying them."
+msgstr "इनमें से हर पन्ना मेरे बंधन का हिस्सा है। कोई उन्हें ख़रीद रहा है।"
+
+msgid "Every one? That's four hundred and twelve buttons."
+msgstr "हर एक? चार सौ बारह बटन हैं।"
+
 msgid "Every seed and sprout on the board grows one stage."
 msgstr "बोर्ड का हर बीज और अंकुर एक चरण बढ़ता है।"
+
+msgid "Everyone keeps asking about the comb and I'm running out of excuses."
+msgstr "सब कंघी के बारे में पूछते रहते हैं, और मेरे बहाने ख़त्म हो रहे हैं।"
 
 msgid "Everything — music and sound effects."
 msgstr "सब कुछ — संगीत और ध्वनि प्रभाव।"
 
+msgid "Ex-excuse me. That's my eye. I mean... It's in my collection. I'd like it back, please."
+msgstr "म-माफ़ कीजिए। वह मेरी आँख है। मेरा मतलब... वह मेरे संग्रह की है। मुझे वापस चाहिए, कृपया।"
+
+msgid "Eyes on the board. I'll still be here."
+msgstr "नज़र बोर्ड पर। मैं कहीं नहीं जा रही।"
+
 msgid "Fast"
 msgstr "तेज़"
+
+msgid "Faster. And alphabetise properly. I've seen your circle."
+msgstr "जल्दी। और वर्णक्रम ठीक से लगाओ। मैंने तुम्हारा घेरा देखा है।"
+
+msgid "Faster. Tide's turning."
+msgstr "जल्दी। ज्वार पलट रहा है।"
 
 msgid "Fill the Charm ring for a Charm Burst."
 msgstr "आकर्षण विस्फोट के लिए आकर्षण चक्र भरें।"
@@ -468,6 +720,12 @@ msgstr "काई के नीचे ओपल की 30 खोई चीज़
 msgid "Finders Keepers"
 msgstr "जो ढूँढे सो पाए"
 
+msgid "Fine. They're for you. I haven't flowered out of season since before the mill was built. The animals are going to talk."
+msgstr "ठीक है। वे तुम्हारे लिए हैं। चक्की बनने से पहले के बाद से मैं बेमौसम नहीं खिली। जानवर बातें बनाएँगे।"
+
+msgid "Fine. You're not a menace anymore. You can help me. Don't get excited."
+msgstr "ठीक है। अब तुम मुसीबत नहीं हो। तुम मेरी मदद कर सकते हो। ज़्यादा ख़ुश मत हो।"
+
 msgid "Finish Hazel's story picking every warm reply."
 msgstr "हर बार प्यार भरा जवाब चुनकर हेज़ल की कहानी पूरी करें।"
 
@@ -477,14 +735,35 @@ msgstr "हर जवाब में उसे छेड़ते हुए ह
 msgid "Finish a daily challenge."
 msgstr "एक दैनिक चुनौती पूरी करें।"
 
+msgid "Fire. In a grove. Really?"
+msgstr "आग। एक कुंज में। सच में?"
+
+msgid "Flattery. Good. Keep going."
+msgstr "चापलूसी। अच्छा। जारी रखो।"
+
 msgid "For bug reports: send the newest godot.log from this folder."
 msgstr "बग रिपोर्ट के लिए: इस फ़ोल्डर से सबसे नया godot.log भेजें।"
 
 msgid "For sticking with it: a free Time Scroll!"
 msgstr "हिम्मत न हारने के लिए: एक मुफ़्त काल-पत्र!"
 
+msgid "For the record: four hundred-odd summonings, several kings and one very enthusiastic bishop. None of them came close. I'm only telling you once."
+msgstr "रिकॉर्ड के लिए: चार सौ कुछ बुलावे, कई राजा और एक बहुत उत्साही बिशप। कोई पास तक नहीं आया। मैं बस एक बार कह रही हूँ।"
+
+msgid "Forty years, I said. Mind where you swing."
+msgstr "चालीस साल, मैंने कहा था। देखकर चलाओ।"
+
 msgid "Found under the moss: %s"
 msgstr "काई के नीचे मिला: %s"
+
+msgid "Four hundred and twelve buttons, twenty-six keys, a glass eye and two owls. The alchemist's men are felling the north woods now, so Opal is staying with you, and her collection takes up a whole shelf in your front room. She rearranges it twice."
+msgstr "चार सौ बारह बटन, छब्बीस चाबियाँ, एक काँच की आँख और दो उल्लू। कीमियागर के आदमी अब उत्तरी जंगल काट रहे हैं, तो ओपल तुम्हारे साथ रह रही है, और उसका संग्रह तुम्हारी बैठक की एक पूरी ताक घेरता है। वह उसे दो बार फिर से सजाती है।"
+
+msgid "Four hundred and twelve buttons. Twenty-six keys. A glass eye. Everyone who comes through these woods drops something, and I kept it."
+msgstr "चार सौ बारह बटन। छब्बीस चाबियाँ। एक काँच की आँख। इस जंगल से गुज़रने वाला हर कोई कुछ गिराता है, और मैं रख लेती थी।"
+
+msgid "Four hundred buttons is a lot of strangers' buttons."
+msgstr "चार सौ बटन यानी अजनबियों के ढेर सारे बटन।"
 
 msgid "Free date"
 msgstr "खुली डेट"
@@ -494,6 +773,9 @@ msgstr "मुफ़्त सितारे"
 
 msgid "Free: %s"
 msgstr "मुफ़्त: %s"
+
+msgid "Frosted Sea-Glass Pendant"
+msgstr "धुँधले समुद्री काँच का लॉकेट"
 
 msgid "Fullscreen"
 msgstr "पूर्ण स्क्रीन"
@@ -507,6 +789,12 @@ msgstr "रत्नों पर नंबर"
 msgid "Gems cleared"
 msgstr "साफ़ किए रत्न"
 
+msgid "Gently. Like that."
+msgstr "नरमी से। ऐसे।"
+
+msgid "Get that holy rock away from me."
+msgstr "वह पवित्र पत्थर मुझसे दूर रखो।"
+
 msgid "Girls"
 msgstr "लड़कियाँ"
 
@@ -516,11 +804,35 @@ msgstr "हेज़ल को पीतल की जेबी धूपघड�
 msgid "Give her the %s"
 msgstr "उसे दें: %s"
 
+msgid "Gold swirl. They stopped making these before I went in the jar. Where did you even find it?"
+msgstr "सोने की लहर। मेरे मर्तबान में जाने से पहले ही इन्हें बनाना बंद हो गया था। यह तुम्हें मिला कहाँ?"
+
 msgid "Google Play isn't reachable right now. Try again in a moment."
 msgstr "Google Play अभी उपलब्ध नहीं है। थोड़ी देर में फिर कोशिश करें।"
 
 msgid "Got it"
 msgstr "ठीक है"
+
+msgid "Gran at the Midsummer Tide, her pearl comb in her hair."
+msgstr "मध्य-ग्रीष्म ज्वार पर दादी, बालों में मोतियों वाली कंघी।"
+
+msgid "Gran wears the comb at the Midsummer Tide and never finds out it was lost. Marina tells her anyway, a month later, and Gran laughs so hard she has to be helped onto a rock. Marina tells the story of how you met at every family dinner after that, and it gets bigger every time. Gran corrects her every time, and every time she sets a place for you without asking."
+msgstr "दादी मध्य-ग्रीष्म ज्वार पर कंघी पहनती हैं और कभी नहीं जानतीं कि वह खो गई थी। फिर भी मरीना एक महीने बाद उन्हें बता देती है, और दादी इतना हँसती हैं कि उन्हें चट्टान पर चढ़ाने में मदद करनी पड़ती है। उसके बाद मरीना हर पारिवारिक भोज में बताती है कि तुम कैसे मिले, और हर बार कहानी बड़ी हो जाती है। हर बार दादी उसे सुधारती हैं, और हर बार बिना पूछे तुम्हारे लिए थाली लगा देती हैं।"
+
+msgid "Gran's asked you to the family dinner, which is not a small thing, people have married into this family and never been asked to the family dinner."
+msgstr "दादी ने तुम्हें पारिवारिक भोज पर बुलाया है, और यह छोटी बात नहीं, लोगों ने इस परिवार में शादी की और उन्हें कभी पारिवारिक भोज पर नहीं बुलाया गया।"
+
+msgid "Gran's going to know. She always knows. She's going to look at me over breakfast and just know."
+msgstr "दादी को पता चल जाएगा। उन्हें हमेशा पता चलता है। नाश्ते पर मुझे देखेंगी और बस जान जाएँगी।"
+
+msgid "Gran's going to wear it at the Tide and never know. Nobody's ever going to know you did this."
+msgstr "दादी इसे ज्वार पर पहनेंगी और कभी नहीं जानेंगी। कोई कभी नहीं जानेगा कि यह तुमने किया।"
+
+msgid "Gran, I'm fine. I'm always like that."
+msgstr "दादी, मैं ठीक हूँ। मैं हमेशा ऐसी ही हूँ।"
+
+msgid "Greedy. Oh, so you'll make him pay you to help me? I like that."
+msgstr "लालची। ओह, तो तुम मेरी मदद के लिए उससे पैसे वसूलोगे? मुझे पसंद आया।"
 
 msgid "Grow 25 of Hazel's blossoms."
 msgstr "हेज़ल के 25 फूल खिलाएँ।"
@@ -530,6 +842,9 @@ msgstr "जीतने के लिए काफ़ी बीजों को 
 
 msgid "Hammer"
 msgstr "हथौड़ा"
+
+msgid "Hand-Dipped Beeswax Candle"
+msgstr "हाथ से डुबोई मधुमोम की मोमबत्ती"
 
 msgid "Handful of Stars"
 msgstr "मुट्ठी भर सितारे"
@@ -543,6 +858,9 @@ msgstr "कठिन: हर कुछ चालों में डेट प�
 msgid "Hard: things happen on your date"
 msgstr "कठिन: डेट पर कुछ-न-कुछ होता है"
 
+msgid "Hazel Mossgrove"
+msgstr "हेज़ल मॉसग्रोव"
+
 msgid "Hazel's blossoms grown"
 msgstr "हेज़ल के खिलाए फूल"
 
@@ -554,6 +872,18 @@ msgstr "हेज़ल: फूल खिलाएँ"
 
 msgid "Hazel: seeds"
 msgstr "हेज़ल: बीज"
+
+msgid "He tells you to keep the money. Then he walks over and pats the hazel's trunk, awkwardly, like a man apologising to a horse."
+msgstr "वह तुमसे पैसे रखने को कहता है। फिर पास जाकर हेज़ल के तने को थपथपाता है, अटपटे ढंग से, जैसे कोई आदमी घोड़े से माफ़ी माँग रहा हो।"
+
+msgid "He took it apart. To sell it page by page."
+msgstr "उसने इसे खोल डाला। पन्ना-पन्ना बेचने के लिए।"
+
+msgid "He used to tap on the glass every morning twice so I'd know it was him."
+msgstr "वह हर सुबह काँच पर दो बार थपथपाता था ताकि मुझे पता चले कि वही है।"
+
+msgid "He's never done that. Forty springs, and he's never once done that."
+msgstr "उसने ऐसा कभी नहीं किया। चालीस वसंत, और एक बार भी नहीं।"
 
 msgid "Hear the girls speak their lines."
 msgstr "लड़कियों को अपनी पंक्तियाँ बोलते सुनें।"
@@ -570,8 +900,20 @@ msgstr "दिल: अध्याय हारने पर एक जाता
 msgid "Her board with no move limit, just for fun and a high score."
 msgstr "बिना चालों की सीमा वाला उसका बोर्ड, बस मज़े और ऊँचे स्कोर के लिए।"
 
+msgid "Her corrections in red pencil, all over the loose page that started it."
+msgstr "लाल पेंसिल में उसके सुधार, उस पूरे खुले पन्ने पर जिससे यह शुरू हुआ।"
+
 msgid "Her ending"
 msgstr "उसका अंत"
+
+msgid "Her entire family is, in fact, right there. A grandmother, a mother, three sisters. One of the sisters is laughing so hard she can barely ask, out loud, whether Mari is going to thank her lifeguard."
+msgstr "उसका पूरा परिवार सच में वहीं खड़ा है। एक दादी, एक माँ, तीन बहनें। एक बहन इतना हँस रही है कि मुश्किल से ज़ोर से पूछ पाती है कि क्या मारी अपने जीवनरक्षक को धन्यवाद कहेगी।"
+
+msgid "Her family slips off the end of the pier one by one and swims home round the point, very slowly, looking back the whole way. She waits until they're out of earshot."
+msgstr "उसका परिवार एक-एक कर घाट के सिरे से फिसलता है और अंतरीप के चारों ओर घर की ओर तैरता है, बहुत धीरे, पूरे रास्ते मुड़-मुड़कर देखते हुए। वह इंतज़ार करती है जब तक वे सुन न सकें।"
+
+msgid "Her father came by this morning. He'll give you until the end of the month. Then he hires someone with a saw."
+msgstr "उसके पिता आज सुबह आए थे। वह तुम्हें महीने के आख़िर तक का समय देंगे। फिर आरी वाले किसी को रख लेंगे।"
 
 msgid "Her favourite gem scores double and fills Charm faster; the one she dislikes scores half."
 msgstr "उसका पसंदीदा रत्न दोगुने अंक देता है और आकर्षण तेज़ी से भरता है; नापसंद वाला आधे अंक देता है।"
@@ -582,11 +924,26 @@ msgstr "उसका तोहफ़ा"
 msgid "Her gift: more of her favourite gem"
 msgstr "उसका तोहफ़ा: उसका पसंदीदा रत्न ज़्यादा"
 
+msgid "Her grandmother says, mildly, that they'd been calling her for twenty minutes, that the tide's on the turn, and that this nice person was the only one who did anything about it."
+msgstr "उसकी दादी नरमी से कहती हैं कि वे बीस मिनट से उसे पुकार रहे थे, ज्वार पलटने वाला है, और बस इसी भले इंसान ने कुछ किया।"
+
+msgid "Her hands are warm now. They were cold the first time you touched the bark. She sees you notice."
+msgstr "उसके हाथ अब गर्म हैं। जब तुमने पहली बार छाल छुई थी, तब ठंडे थे। वह देखती है कि तुमने ग़ौर किया।"
+
+msgid "Her jar sits at the end of the shelf with the lid off. She hasn't been in it for three days."
+msgstr "उसका मर्तबान ताक के सिरे पर बिना ढक्कन के रखा है। तीन दिन से वह उसमें नहीं गई।"
+
+msgid "Her library card has your address on it in small, furious handwriting. She moves in with forty candles and opinions about your bookshelf, which she reorganises by how much she disliked each book. Your favourite goes on the bottom shelf. Most nights she's still at the late desk when your shift ends, and she walks you home by the river even though it's longer."
+msgstr "उसके पुस्तकालय कार्ड पर छोटी, ग़ुस्सैल लिखावट में तुम्हारा पता है। वह चालीस मोमबत्तियों और तुम्हारी किताबों की अलमारी के बारे में ढेरों राय के साथ रहने आ जाती है, जिसे वह इस हिसाब से फिर से लगाती है कि उसे हर किताब कितनी नापसंद थी। तुम्हारी पसंदीदा सबसे निचली ताक पर जाती है। ज़्यादातर रातों जब तुम्हारी पाली ख़त्म होती है, वह अब भी देर वाली मेज़ पर होती है, और तुम्हें नदी के किनारे-किनारे घर छोड़ती है, भले वह रास्ता लंबा हो।"
+
 msgid "Her night scene"
 msgstr "उसका रात का दृश्य"
 
 msgid "Her powers used"
 msgstr "इस्तेमाल की गई शक्तियाँ"
+
+msgid "Her sisters start watching"
+msgstr "उसकी बहनें देखने लगती हैं"
 
 msgid "Her story carries on as if you'd cleared it. You don't get its stars."
 msgstr "उसकी कहानी ऐसे आगे बढ़ेगी जैसे आपने इसे पूरा किया हो। इसके सितारे नहीं मिलेंगे।"
@@ -603,6 +960,9 @@ msgstr "ऊँचा ज्वार"
 msgid "High Tide!"
 msgstr "ऊँचा ज्वार!"
 
+msgid "High Water"
+msgstr "भरा ज्वार"
+
 msgid "Home"
 msgstr "होम"
 
@@ -611,6 +971,9 @@ msgstr "संवाद कितनी तेज़ी से लिखा ज�
 
 msgid "How long Auto waits after each line (left = quicker)."
 msgstr "हर पंक्ति के बाद ऑटो कितनी देर रुके (बाएँ = जल्दी)।"
+
+msgid "How long have you been out here on your own?"
+msgstr "तुम यहाँ कब से अकेली हो?"
 
 msgid "How loud the background music plays."
 msgstr "पृष्ठभूमि संगीत कितना तेज़ बजे।"
@@ -621,14 +984,170 @@ msgstr "उनकी आवाज़ें कितनी तेज़ हो�
 msgid "How to Play"
 msgstr "कैसे खेलें"
 
+msgid "Huh. Nobody's ever told me to slow down. They just assume I've got it handled."
+msgstr "हम्म। मुझे कभी किसी ने धीमे होने को नहीं कहा। सब बस मान लेते हैं कि मैं सँभाल लूँगी।"
+
+msgid "I can walk as far as my roots go. They go a long way now. Thanks to someone."
+msgstr "मैं वहाँ तक चल सकती हूँ जहाँ तक मेरी जड़ें जाती हैं। अब वे दूर तक जाती हैं। किसी की बदौलत।"
+
+msgid "I destroyed kingdoms, and you're making me wait?!"
+msgstr "मैंने साम्राज्य मिटा दिए, और तुम मुझे इंतज़ार करवा रहे हो?!"
+
+msgid "I did that. Did you see? I did that out loud."
+msgstr "मैंने किया। तुमने देखा? मैंने ज़ोर से कहा।"
+
+msgid "I don't like those. Sorry."
+msgstr "मुझे वे पसंद नहीं। माफ़ करना।"
+
+msgid "I had to drop a branch on the last guy, but don't worry, your face is too nice."
+msgstr "पिछले वाले पर मुझे एक डाल गिरानी पड़ी थी, पर चिंता मत करो, तुम्हारा चेहरा बहुत अच्छा है।"
+
+msgid "I have to tell you something. I kept something of yours. On the first day."
+msgstr "मुझे तुम्हें कुछ बताना है। मैंने तुम्हारी एक चीज़ रख ली थी। पहले दिन।"
+
+msgid "I know about the wall. My roots go where the water is. I can't control it."
+msgstr "मुझे दीवार के बारे में पता है। मेरी जड़ें वहाँ जाती हैं जहाँ पानी है। मैं इसे रोक नहीं सकती।"
+
+msgid "I know. You were still gone forty minutes, not that I was counting."
+msgstr "मुझे पता है। फिर भी तुम चालीस मिनट ग़ायब रहे, ऐसा नहीं कि मैं गिन रही थी।"
+
+msgid "I like having someone to hold the bucket."
+msgstr "मुझे बाल्टी पकड़ने वाला कोई होना अच्छा लगता है।"
+
+msgid "I lose things. You've noticed. I'm not losing this one."
+msgstr "मैं चीज़ें खो देती हूँ। तुमने देखा है। यह नहीं खोऊँगी।"
+
+msgid "I should tell you I don't know what I'm doing. I've only heard about this. Through glass. People say a lot on a forest path when they think no one's listening."
+msgstr "मुझे बता देना चाहिए कि मुझे नहीं पता मैं क्या कर रही हूँ। मैंने बस इसके बारे में सुना है। काँच के आर-पार। लोग जंगल की पगडंडी पर बहुत कुछ कहते हैं जब उन्हें लगता है कोई सुन नहीं रहा।"
+
+msgid "I still owe you a reward. I haven't decided what it is yet. Don't look at me like that, I'm deciding."
+msgstr "मुझे तुम्हें अब भी इनाम देना है। अभी तय नहीं किया क्या। ऐसे मत देखो, मैं तय कर रही हूँ।"
+
+msgid "I was fine. It was quiet in there."
+msgstr "मैं ठीक थी। अंदर शांति थी।"
+
+msgid "I was floating. On my back. I'm a mermaid, if you didn't notice, and you just dragged me out of my own cove in front of my entire family."
+msgstr "मैं तैर रही थी। पीठ के बल। मैं जलपरी हूँ, अगर तुमने ध्यान नहीं दिया, और तुमने मुझे मेरे पूरे परिवार के सामने मेरी अपनी खाड़ी से घसीट निकाला।"
+
+msgid "I was meant to get it cleaned. I dropped it off the pier a week ago. Nobody knows."
+msgstr "मुझे उसे साफ़ करवाना था। एक हफ़्ते पहले वह मुझसे घाट से गिर गई। किसी को नहीं पता।"
+
+msgid "I wasn't resting. I was looking for something. Gran's pearl comb. It's the only thing she brought with her when she came to this cove, and she wears it every Midsummer Tide."
+msgstr "मैं आराम नहीं कर रही थी। कुछ ढूँढ रही थी। दादी की मोतियों वाली कंघी। जब वह इस खाड़ी में आईं, तो यही इकलौती चीज़ साथ लाई थीं, और हर साल मध्य-ग्रीष्म ज्वार पर पहनती हैं।"
+
+msgid "I won't tell. Let me help you look."
+msgstr "मैं नहीं बताऊँगा। मुझे ढूँढने में मदद करने दो।"
+
+msgid "I'd do it badly. Out of spite."
+msgstr "मैं बुरी तरह लगाऊँगा। चिढ़ाने के लिए।"
+
+msgid "I'd like to do it again. That's allowed to be said, isn't it? Good. I'd like to do it again."
+msgstr "मैं फिर से करना चाहूँगी। ऐसा कहा जा सकता है, है न? अच्छा। मैं फिर से करना चाहूँगी।"
+
+msgid "I'd like to make it a thing."
+msgstr "मैं इसे बड़ी बात बनाना चाहूँगा।"
+
+msgid "I'd like to see that, actually."
+msgstr "सच कहूँ तो मैं यह देखना चाहूँगी।"
+
+msgid "I'd want my own jar. Just to start. Is that strange?"
+msgstr "मुझे अपना मर्तबान चाहिए होगा। बस शुरू में। अजीब है न?"
+
+msgid "I'll dig it. Show me where."
+msgstr "मैं खोदूँगा। मुझे दिखाओ कहाँ।"
+
+msgid "I'll dig. I'm keeping the miller's money, though."
+msgstr "मैं खोदूँगा। पर चक्कीवाले के पैसे मैं रखूँगा।"
+
+msgid "I'll keep it on a low branch where I can see it. No, I won't use it to count time until our next meeting."
+msgstr "मैं इसे एक नीची डाल पर रखूँगी जहाँ देख सकूँ। नहीं, मैं इससे हमारी अगली मुलाक़ात तक का समय नहीं गिनूँगी।"
+
+msgid "I'll list everyone in town you'd like to drop a branch on."
+msgstr "मैं शहर के उन सब लोगों के नाम गिनाऊँगा जिन पर तुम डाल गिराना चाहोगी।"
+
+msgid "I'll pay you, obviously. A reward, when we find it. It's a business arrangement, so you can stop smiling like that."
+msgstr "मैं तुम्हें पैसे दूँगी, ज़ाहिर है। इनाम, जब हम उसे ढूँढ लें। यह कारोबारी सौदा है, तो ऐसे मुस्कुराना बंद करो।"
+
+msgid "I'll pretend I didn't see that."
+msgstr "मैं ऐसे जताऊँगी जैसे देखा ही नहीं।"
+
 msgid "I'm 18 or older"
 msgstr "मेरी उम्र 18 या उससे ज़्यादा है"
+
+msgid "I'm a bit pink right now. Ignore it."
+msgstr "मैं अभी थोड़ी गुलाबी हूँ। ध्यान मत दो।"
+
+msgid "I'm fine. Midsummer Tide's in nine days, and I've checked maybe a third of the cove."
+msgstr "मैं ठीक हूँ। मध्य-ग्रीष्म ज्वार नौ दिन में है, और मैंने शायद खाड़ी का एक-तिहाई देखा है।"
+
+msgid "I'm glad I can help. Really."
+msgstr "मुझे ख़ुशी है कि मैं मदद कर सकता हूँ। सच में।"
+
+msgid "I'm going to make you sound very brave. And very wet."
+msgstr "मैं तुम्हें बहुत बहादुर दिखाऊँगी। और बहुत भीगा हुआ।"
+
+msgid "I'm not watching you. I'm photosynthesising."
+msgstr "मैं तुम्हें नहीं देख रही। मैं प्रकाश-संश्लेषण कर रही हूँ।"
+
+msgid "I'm so sorry. I'll get every one of them back."
+msgstr "मुझे बहुत अफ़सोस है। मैं हर एक चीज़ वापस लाऊँगा।"
+
+msgid "I've been doing this for a very long time, and that was not on the list of things I expected from a library."
+msgstr "मैं यह बहुत लंबे समय से कर रही हूँ, और पुस्तकालय से जिन चीज़ों की उम्मीद थी, उनकी सूची में यह नहीं था।"
+
+msgid "I've been summoned by kings. They were worse at this."
+msgstr "मुझे राजाओं ने बुलाया है। वे इसमें तुमसे बुरे थे।"
+
+msgid "I've been summoned four hundred and some times. Never seen such gentleman."
+msgstr "मुझे चार सौ से ज़्यादा बार बुलाया गया है। ऐसा सज्जन कभी नहीं देखा।"
+
+msgid "I've never seen a morning from this side of a summoning. It's very bright. I don't hate it."
+msgstr "मैंने कभी किसी बुलावे के इस तरफ़ से सुबह नहीं देखी। बहुत चमकीली है। बुरी नहीं लगती।"
+
+msgid "I've thought about this. Not a lot. A normal amount. Every day since the pier."
+msgstr "मैंने इसके बारे में सोचा है। ज़्यादा नहीं। सामान्य मात्रा में। घाट वाले दिन से हर रोज़।"
+
+msgid "I-is that all right? Tell me if it's strange. You can say it's strange."
+msgstr "ठ-ठीक है न? अजीब लगे तो बताना। तुम कह सकते हो कि अजीब है।"
+
+msgid "I-it's not going on the shelf. It stays with me. In here. Is that all right?"
+msgstr "य-यह ताक पर नहीं जाएगा। यह मेरे पास रहेगा। यहाँ अंदर। ठीक है न?"
+
+msgid "If I find one, I'm burning it."
+msgstr "अगर मुझे एक मिला, तो मैं उसे जला दूँगा।"
+
+msgid "If I'd known you liked it, I'd have come by sooner."
+msgstr "अगर पता होता कि तुम्हें अच्छा लगता है, तो मैं पहले आ जाता।"
+
+msgid "If anyone asks, we're friends. Who swim. At night."
+msgstr "कोई पूछे तो, हम दोस्त हैं। जो तैरते हैं। रात में।"
+
+msgid "If someone dug him a new channel, further out, I could follow it. It would take a season."
+msgstr "अगर कोई उसके लिए नई नहर खोद दे, थोड़ा दूर, तो मैं उसके पीछे जा सकती हूँ। एक मौसम लगेगा।"
+
+msgid "If you drop anything, I'll find it."
+msgstr "अगर कुछ गिराओ, तो मैं ढूँढ लूँगी।"
+
+msgid "If you find it before I do, don't open it."
+msgstr "अगर तुम्हें मुझसे पहले मिले, तो उसे खोलना मत।"
+
+msgid "If you're going to draw these, you'll draw them properly. Nobody else is coming through a circle this pathetic."
+msgstr "अगर ये बनाने ही हैं, तो ठीक से बनाओगे। इतने बेचारे घेरे से अब कोई और नहीं आएगा।"
 
 msgid "In Full Bloom"
 msgstr "पूरी बहार"
 
 msgid "In her chapters everything floats: gems rise, and new ones come up from the bottom."
 msgstr "उसके अध्यायों में सब कुछ तैरता है: रत्न ऊपर उठते हैं, और नए नीचे से आते हैं।"
+
+msgid "In my defence, the label said newts."
+msgstr "अपनी सफ़ाई में कहूँ, लेबल पर न्यूट लिखा था।"
+
+msgid "In my experience, the people who don't ask want something worse. So. What is it?"
+msgstr "मेरे अनुभव में, जो नहीं माँगते वे कुछ और भी बुरा चाहते हैं। तो। क्या है?"
+
+msgid "In the back, under a dust sheet, you find a black cover with nothing in it. The pages have been cut out with a knife."
+msgstr "पीछे, धूल की चादर के नीचे, तुम्हें एक काला जिल्द मिलता है जिसमें कुछ नहीं। पन्ने चाकू से काट लिए गए हैं।"
 
 msgid "Instant"
 msgstr "तुरंत"
@@ -638,6 +1157,57 @@ msgstr "अनूठा आकर्षण"
 
 msgid "It has sexual content, including intimate scenes, and suggestive art. All characters are adults.\n\nPlease only continue if you're 18 or older, or the age of majority where you live."
 msgstr "इसमें यौन सामग्री है, जिसमें अंतरंग दृश्य शामिल हैं, और उत्तेजक चित्र। सभी पात्र वयस्क हैं।\n\nकृपया तभी आगे बढ़ें जब आप 18 या उससे ज़्यादा उम्र के हों, या आपके देश में वयस्कता की उम्र के हों।"
+
+msgid "It isn't so bad, but some animals are... Barely tolerable company."
+msgstr "इतना बुरा नहीं है, पर कुछ जानवर... मुश्किल से झेलने लायक साथी हैं।"
+
+msgid "It rains all night. None of it reaches you."
+msgstr "पूरी रात बारिश होती है। एक बूँद भी तुम तक नहीं पहुँचती।"
+
+msgid "It starts to rain"
+msgstr "बारिश शुरू होती है"
+
+msgid "It was a joke. He laughed at it every single morning for thirty-one years."
+msgstr "वह मज़ाक था। वह इकतीस साल हर सुबह उस पर हँसता था।"
+
+msgid "It was a very good storm."
+msgstr "बहुत अच्छा तूफ़ान था।"
+
+msgid "It was an excellent storm."
+msgstr "शानदार तूफ़ान था।"
+
+msgid "It was here. Someone moved it, and not long ago."
+msgstr "वह यहाँ थी। किसी ने उसे हटाया, और ज़्यादा देर नहीं हुई।"
+
+msgid "It's April."
+msgstr "अप्रैल है।"
+
+msgid "It's all here. All of it. I counted three times."
+msgstr "सब यहाँ है। सब कुछ। मैंने तीन बार गिना।"
+
+msgid "It's down there! I've checked everywhere else, it has to be down there!"
+msgstr "वह नीचे है! मैंने हर जगह देख लिया, उसे नीचे ही होना है!"
+
+msgid "It's fine. It's just roots. They have to let go of the old wall even if it hurts."
+msgstr "ठीक है। बस जड़ें हैं। उन्हें पुरानी दीवार छोड़नी होगी, भले ही दर्द हो।"
+
+msgid "It's loud out here. You're the good kind of loud."
+msgstr "बाहर बहुत शोर है। तुम अच्छे वाले शोर हो।"
+
+msgid "It's not even scratched."
+msgstr "इस पर एक खरोंच तक नहीं।"
+
+msgid "It's only when you're heaving her onto the boards that you notice the tail. It's long, it's teal, and it's slapping the pier hard enough to soak everyone."
+msgstr "जब तुम उसे तख़्तों पर चढ़ा रहे होते हो, तभी तुम्हें पूँछ दिखती है। लंबी, फ़ीरोज़ी, और घाट पर इतनी ज़ोर से पटकती है कि सब भीग जाते हैं।"
+
+msgid "It's somewhere in this building. I can feel it, like a draught. You're going to help me find it before anyone else does."
+msgstr "वह इसी इमारत में कहीं है। मैं उसे महसूस कर सकती हूँ, हवा के झोंके की तरह। तुम किसी और से पहले उसे ढूँढने में मेरी मदद करोगे।"
+
+msgid "It's the chalk. Cheap chalk gets in your throat."
+msgstr "चॉक है। सस्ती चॉक गले में अटकती है।"
+
+msgid "It's the first thing in a new collection. Things that are yours."
+msgstr "यह एक नए संग्रह की पहली चीज़ है। वे चीज़ें जो तुम्हारी हैं।"
 
 msgid "Item Bundle"
 msgstr "सामान का बंडल"
@@ -666,8 +1236,17 @@ msgstr "बड़ा"
 msgid "Larger"
 msgstr "और बड़ा"
 
+msgid "Last night was the best thing that's happened to me in thirty-one years. Possibly... ever."
+msgstr "कल रात इकतीस सालों में मेरे साथ हुई सबसे अच्छी चीज़ थी। शायद... कभी भी।"
+
+msgid "Later. The candle is down to a stub. She's lying across you on the reading room rug with one wing folded over you both like a blanket."
+msgstr "बाद में। मोमबत्ती ठूँठ भर रह गई है। वह वाचनालय के क़ालीन पर तुम्हारे ऊपर लेटी है, एक पंख तुम दोनों पर कंबल की तरह मोड़े।"
+
 msgid "Leave"
 msgstr "छोड़ें"
+
+msgid "Leave it there a minute. It's been a long time."
+msgstr "एक मिनट वहीं रहने दो। बहुत समय हो गया।"
 
 msgid "Leave this chapter?"
 msgstr "यह अध्याय छोड़ें?"
@@ -702,6 +1281,15 @@ msgstr "प्रेम औषधि चालू!"
 msgid "Loves"
 msgstr "पसंद"
 
+msgid "Low tide's at six. If you happen to be on the pier, you're on the pier, I'm not asking, I'm just saying when low tide is."
+msgstr "भाटा छह बजे है। अगर संयोग से तुम घाट पर हो, तो हो, मैं कह नहीं रही, बस बता रही हूँ कि भाटा कब है।"
+
+msgid "Low tide. You spend two hours turning over rocks in the pools while she works the deeper water. You find a fork and a very angry crab."
+msgstr "भाटा। तुम दो घंटे पोखरों में पत्थर पलटते हो जबकि वह गहरे पानी में खोजती है। तुम्हें एक काँटा और एक बहुत ग़ुस्सैल केकड़ा मिलता है।"
+
+msgid "Lunar nonsense. Next."
+msgstr "चाँद की बकवास। अगला।"
+
 msgid "MOVES"
 msgstr "चालें"
 
@@ -716,6 +1304,12 @@ msgstr "1000 मेल बनाएँ।"
 
 msgid "Make a Starburst."
 msgstr "एक तारा-विस्फोट बनाएँ।"
+
+msgid "Make me."
+msgstr "मजबूर करके दिखाओ।"
+
+msgid "Marina Waverly"
+msgstr "मरीना वेवर्ली"
 
 msgid "Marina's power: High Tide"
 msgstr "मरीना की शक्ति: ऊँचा ज्वार"
@@ -747,6 +1341,9 @@ msgstr "रून मिलाएँ, अमारा का पसंदीद�
 msgid "Matches made"
 msgstr "बनाए गए मेल"
 
+msgid "Maybe I'm saving my wish for something good."
+msgstr "शायद मैं अपनी इच्छा किसी अच्छी चीज़ के लिए बचा रहा हूँ।"
+
 msgid "Meet Hazel instead of cutting her tree down."
 msgstr "हेज़ल का पेड़ काटने के बजाय उससे मिलें।"
 
@@ -765,26 +1362,65 @@ msgstr "उपचार औषधि"
 msgid "Mending Potion active!"
 msgstr "उपचार औषधि चालू!"
 
+msgid "Mermaid of Saltwick Cove"
+msgstr "सॉल्टविक खाड़ी की जलपरी"
+
 msgid "Messages stay longer"
 msgstr "संदेश देर तक रहें"
 
 msgid "Millbrook Circle"
 msgstr "मिलब्रुक मंडली"
 
+msgid "Mind my leaves with that."
+msgstr "उससे मेरे पत्तों का ध्यान रखना।"
+
+msgid "Mind the candle."
+msgstr "मोमबत्ती का ध्यान रखना।"
+
+msgid "Mm. That one smells like April."
+msgstr "हम्म। इसमें अप्रैल की ख़ुशबू है।"
+
 msgid "Moonstone"
 msgstr "चंद्रमणि"
+
+msgid "Moonstone. It smells like a church."
+msgstr "चंद्रमणि। इसमें गिरजाघर की गंध है।"
 
 msgid "More"
 msgstr "और"
 
+msgid "Morning comes in through the reading room windows. Somebody has folded your jacket into a very neat square."
+msgstr "सुबह वाचनालय की खिड़कियों से भीतर आती है। किसी ने तुम्हारी जैकेट बहुत सलीक़े से चौकोर तह कर दी है।"
+
+msgid "Morning in the grove. There's blossom on the east side of the tree that wasn't there last night. Hazels flower in February. It's May."
+msgstr "कुंज में सुबह। पेड़ की पूरब वाली तरफ़ फूल हैं जो कल रात नहीं थे। हेज़ल फ़रवरी में खिलते हैं। अभी मई है।"
+
+msgid "Morning light through the bedroom curtains, and someone translucent and lilac curled over the covers."
+msgstr "शयनकक्ष के पर्दों से सुबह की रोशनी, और चादर पर सिमटा कोई पारभासी, बैंगनी।"
+
+msgid "Morning. Your clothes are on the rail. I wrung them out myself, so you can thank me."
+msgstr "सुप्रभात। तुम्हारे कपड़े रेलिंग पर हैं। मैंने ख़ुद निचोड़े, तो धन्यवाद कह सकते हो।"
+
 msgid "Moss grows under some cells. A match, blast or Hammer on the cell clears it, and some moss hides one of her lost things."
 msgstr "कुछ ख़ानों के नीचे काई उगती है। उस ख़ाने पर मेल, विस्फोट या हथौड़ा उसे साफ़ करता है, और कुछ काई के नीचे उसकी कोई खोई चीज़ छिपी होती है।"
+
+msgid "Most people come down here for the game. You keep coming back for me, don't you?"
+msgstr "ज़्यादातर लोग यहाँ खेल के लिए आते हैं। तुम मेरे लिए लौटते रहते हो, है न?"
+
+msgid "Most summonings end the moment someone gets what they asked for. You never asked for anything. So... I stayed."
+msgstr "ज़्यादातर बुलावे उसी पल ख़त्म हो जाते हैं जब किसी को वह मिल जाए जो उसने माँगा। तुमने कभी कुछ नहीं माँगा। तो... मैं रुक गई।"
+
+msgid "Mostly couples who thought they'd found somewhere private. So I know a lot about... you know."
+msgstr "ज़्यादातर जोड़े जिन्हें लगा कि उन्हें कोई एकांत जगह मिल गई। तो मुझे बहुत कुछ पता है... तुम समझते हो।"
 
 msgid "Move"
 msgstr "चलें"
 
 msgid "Moves left this chapter"
 msgstr "इस अध्याय में बची चालें"
+
+msgid "Mum wants to feed you. Consider yourself warned."
+msgstr "माँ तुम्हें खाना खिलाना चाहती हैं। समझो चेतावनी मिल गई।"
 
 msgid "Music"
 msgstr "संगीत"
@@ -801,6 +1437,18 @@ msgstr "अगला दिल %s में"
 msgid "Night scene"
 msgstr "रात का दृश्य"
 
+msgid "Nine days. If we haven't found it by then, I'll tell her. Deal?"
+msgstr "नौ दिन। अगर तब तक नहीं मिली, तो मैं उन्हें बता दूँगी। पक्का?"
+
+msgid "Nine days. Keep going."
+msgstr "नौ दिन। चलते रहो।"
+
+msgid "Nine of those and I'm off the hook."
+msgstr "ऐसे नौ, और मैं बच गई।"
+
+msgid "Nine-hour wick. Hand-dipped. You know what this is for, don't you."
+msgstr "नौ घंटे की बत्ती। हाथ से डुबोई हुई। तुम जानते हो यह किसलिए है, है न।"
+
 msgid "No Ads"
 msgstr "बिना विज्ञापन"
 
@@ -809,6 +1457,12 @@ msgstr "अध्यायों के बीच या मेन्यू क�
 
 msgid "No moves left — reshuffling!"
 msgstr "कोई चाल नहीं बची — फिर से फेंट रहे हैं!"
+
+msgid "No. Absolutely not."
+msgstr "नहीं। बिल्कुल नहीं।"
+
+msgid "No. I've seen what those do."
+msgstr "नहीं। मैंने देखा है वे क्या करती हैं।"
 
 msgid "Normal"
 msgstr "सामान्य"
@@ -837,14 +1491,74 @@ msgstr "अभी यहाँ कुछ नहीं — किसी लड़
 msgid "Nothing yet."
 msgstr "अभी कुछ नहीं।"
 
+msgid "Now start at the alder and sleeves up."
+msgstr "अब एल्डर के पेड़ से शुरू करो, और आस्तीनें चढ़ाओ।"
+
+msgid "Now that's a circle I'd step out of."
+msgstr "हाँ, ऐसे घेरे से तो मैं ख़ुद बाहर आना चाहूँगी।"
+
+msgid "Now we can both stop pretending you came over here to talk about books."
+msgstr "अब हम दोनों यह नाटक बंद कर सकते हैं कि तुम यहाँ किताबों की बात करने आए हो।"
+
+msgid "Obviously we're getting the second owl."
+msgstr "ज़ाहिर है हम दूसरा उल्लू ले रहे हैं।"
+
+msgid "Of course I'll help. What does it look like?"
+msgstr "ज़रूर मदद करूँगा। वह दिखती कैसी है?"
+
 msgid "Offers appear here once Google Play is reachable."
 msgstr "Google Play से जुड़ते ही ऑफ़र यहाँ दिखेंगे।"
+
+msgid "Oh, I intend to."
+msgstr "ओह, यही तो इरादा है।"
+
+msgid "Oh, that's smooth, why can't anything else this week be smooth?"
+msgstr "ओह, कितना चिकना। इस हफ़्ते और कुछ इतना आसानी से क्यों नहीं होता?"
+
+msgid "Oh, you're putting it down. Most argue first."
+msgstr "ओह, तुम उसे रख रहे हो। ज़्यादातर लोग पहले बहस करते हैं।"
+
+msgid "Oh, you're warm... No one's touched me without an axe in years."
+msgstr "ओह, तुम गर्म हो... बरसों से किसी ने मुझे बिना कुल्हाड़ी के नहीं छुआ।"
+
+msgid "Oh. I didn't know I did that. That's embarrassing. Do it again."
+msgstr "ओह। मुझे नहीं पता था कि मैं ऐसा करती हूँ। शर्मिंदगी है। फिर से करो।"
+
+msgid "Okay, that one was nice."
+msgstr "ठीक है, वह वाला अच्छा था।"
+
+msgid "Okay. A small thing."
+msgstr "ठीक है। छोटी-सी बात।"
+
+msgid "Okay. I'm going to say something and you're not allowed to be nice about it."
+msgstr "ठीक है। मैं कुछ कहने वाली हूँ और तुम्हें इस पर प्यारा होने की इजाज़त नहीं।"
+
+msgid "Okay. The stream comes out under the Mill Bridge, in town. Things wash up there. People pick them up."
+msgstr "ठीक है। धारा शहर में चक्की वाले पुल के नीचे निकलती है। चीज़ें वहाँ किनारे लगती हैं। लोग उठा लेते हैं।"
+
+msgid "Old Glass Marble"
+msgstr "काँच का पुराना कंचा"
+
+msgid "On the way back there's a notice nailed to the Mill Bridge. The town has sold the north woods to an alchemist, for his workshop. Clearing starts on quarter day."
+msgstr "वापसी में चक्की वाले पुल पर एक सूचना ठुकी है। शहर ने उत्तरी जंगल एक कीमियागर को उसकी कार्यशाला के लिए बेच दिए हैं। कटाई तिमाही के दिन से शुरू होगी।"
 
 msgid "Once you've cleared her first chapter, her card on the roster has a gift for her. Give it and her favourite gem shows up more often in all her chapters, for good."
 msgstr "उसका पहला अध्याय पूरा करने के बाद, मंडली में उसके कार्ड पर उसके लिए एक तोहफ़ा होता है। उसे दें, और उसका पसंदीदा रत्न उसके सभी अध्यायों में हमेशा के लिए ज़्यादा बार आएगा।"
 
 msgid "One wave and the whole board is dealt again, always with a move to make."
 msgstr "एक बार घुमाएँ और पूरा बोर्ड फिर से बँटता है, हमेशा किसी चाल के साथ।"
+
+msgid "Ooh. That's going in the... sorry."
+msgstr "ओह। यह जाएगा... माफ़ करना।"
+
+msgid "Opal"
+msgstr "ओपल"
+
+msgid "Opal at the baker's counter, a loaf under one arm and a stray button in her hand."
+msgstr "बेकरी के काउंटर पर ओपल, बग़ल में एक पावरोटी और हाथ में एक भटका हुआ बटन।"
+
+msgid "Opal moves in properly. Her collection grows a second shelf, then a third: things you've dropped, things your friends have dropped, the ticket from your first evening out together. The jar lives under the bed. She uses it twice that year, both times in thunderstorms, and both times you sit on the floor beside it while she tells you, through the glass, which of the neighbours owe each other money. She climbs out on her own before the storm is over."
+msgstr "ओपल सच में रहने आ जाती है। उसका संग्रह दूसरी ताक तक, फिर तीसरी तक फैल जाता है: वे चीज़ें जो तुमने गिराईं, वे चीज़ें जो तुम्हारे दोस्तों ने गिराईं, तुम दोनों की पहली शाम का टिकट। मर्तबान बिस्तर के नीचे रहता है। उस साल वह उसे दो बार इस्तेमाल करती है, दोनों बार आँधी-तूफ़ान में, और दोनों बार तुम उसके पास फ़र्श पर बैठे रहते हो जबकि वह काँच के आर-पार तुम्हें बताती है कि कौन-से पड़ोसी एक-दूसरे के कर्ज़दार हैं। तूफ़ान ख़त्म होने से पहले ही वह अपने आप बाहर आ जाती है।"
 
 msgid "Opal's power: Absorb"
 msgstr "ओपल की शक्ति: सोखना"
@@ -873,6 +1587,9 @@ msgstr "तूफ़ान में"
 msgid "Out of Moves"
 msgstr "चालें ख़त्म"
 
+msgid "Out of Season"
+msgstr "बेमौसम"
+
 msgid "Out of hearts"
 msgstr "दिल ख़त्म"
 
@@ -888,8 +1605,14 @@ msgstr "आपके पास: %d"
 msgid "Pearl"
 msgstr "मोती"
 
+msgid "Pearls. Gran would approve."
+msgstr "मोती। दादी को पसंद आते।"
+
 msgid "Petal"
 msgstr "पंखुड़ी"
+
+msgid "Petals. Good. Those I understand."
+msgstr "पंखुड़ियाँ। अच्छा। ये मैं समझती हूँ।"
 
 msgid "Pick a gem to pop."
 msgstr "फोड़ने के लिए एक रत्न चुनें।"
@@ -909,6 +1632,9 @@ msgstr "एक रत्न चुनें: उसकी पूरी पंक
 msgid "Pick up"
 msgstr "उठाएँ"
 
+msgid "Pickled newts don't usually have a date pencilled on the wax: the second of January. You open it anyway."
+msgstr "अचारी न्यूट के मोम पर आमतौर पर पेंसिल से तारीख़ नहीं लिखी होती: दो जनवरी। तुम फिर भी खोल देते हो।"
+
 msgid "Pictures"
 msgstr "चित्र"
 
@@ -917,6 +1643,9 @@ msgstr "जैसे-जैसे आप लड़कियों से मि�
 
 msgid "Pieces of Gran's comb start near the bottom. They can't be matched or moved: clear the gems above them and they rise. One that reaches the top row is yours."
 msgstr "दादी की कंघी के टुकड़े तल के पास शुरू होते हैं। उन्हें न मिलाया जा सकता है न हिलाया: उनके ऊपर के रत्न साफ़ करें और वे ऊपर उठते हैं। जो सबसे ऊपर की पंक्ति तक पहुँचे, वह आपका।"
+
+msgid "Plant something near me. So there's something of yours here when you're not."
+msgstr "मेरे पास कुछ लगाओ। ताकि जब तुम न हो, तब भी यहाँ तुम्हारा कुछ हो।"
 
 msgid "Play"
 msgstr "खेलें"
@@ -960,8 +1689,14 @@ msgstr "उसकी शक्ति का बटन (या 4) दबाएँ
 msgid "Press her power button (or 4): the two rows nearest the surface clear, and everything rises two rows."
 msgstr "उसकी शक्ति का बटन (या 4) दबाएँ: सतह के सबसे पास की दो पंक्तियाँ साफ़ होती हैं, और सब कुछ दो पंक्ति ऊपर उठता है।"
 
+msgid "Pretty. Don't tell my sisters I said that."
+msgstr "सुंदर। मेरी बहनों को मत बताना कि मैंने ऐसा कहा।"
+
 msgid "Put down"
 msgstr "रखें"
+
+msgid "Put that out."
+msgstr "उसे बुझाओ।"
 
 msgid "Putting Down Roots"
 msgstr "जड़ें जमाना"
@@ -1032,6 +1767,15 @@ msgstr "फिर मिलें"
 msgid "Rune"
 msgstr "रून"
 
+msgid "Runes make my edges go fizzy."
+msgstr "रून से मेरे किनारे सनसनाने लगते हैं।"
+
+msgid "Runes. Finally, someone in this town who can draw."
+msgstr "रून। आख़िरकार इस शहर में कोई तो है जो बना सकता है।"
+
+msgid "Runes. Like on the alchemists' jars."
+msgstr "रून। जैसे कीमियागरों के मर्तबानों पर होते हैं।"
+
 msgid "Running out of moves still pays 1 star for every 200 points you scored (at least 3)."
 msgstr "चालें ख़त्म होने पर भी हर 200 अंकों पर 1 सितारा मिलता है (कम से कम 3)।"
 
@@ -1043,6 +1787,15 @@ msgstr "स्कोर"
 
 msgid "SEALS BROKEN"
 msgstr "तोड़ी गई मुहरें"
+
+msgid "Saltwick Cove, an hour before sunset. You're on the cliff path when the shouting starts."
+msgstr "सॉल्टविक खाड़ी, सूरज डूबने से एक घंटा पहले। तुम चट्टान वाली पगडंडी पर हो जब चीख़ें शुरू होती हैं।"
+
+msgid "Save it, then. I'll be watching you very closely until you spend it."
+msgstr "तो बचाकर रखो। जब तक ख़र्च नहीं करते, मैं तुम पर बहुत क़रीब से नज़र रखूँगी।"
+
+msgid "Say it. The name I gave you."
+msgstr "कहो। वह नाम जो मैंने तुम्हें दिया।"
 
 msgid "Score 2000 on a free date."
 msgstr "खुली डेट में 2000 अंक बनाएँ।"
@@ -1058,6 +1811,9 @@ msgstr "तोड़ी गई मुहरें"
 
 msgid "See the whole picture (H)"
 msgstr "पूरा चित्र देखें (H)"
+
+msgid "See? Closed rings. It isn't hard."
+msgstr "देखा? बंद घेरे। मुश्किल नहीं है।"
 
 msgid "Seeds can't be moved. Make matches next to them to make them grow."
 msgstr "बीज हिलाए नहीं जा सकते। उन्हें बढ़ाने के लिए उनके बगल में मेल बनाएँ।"
@@ -1083,6 +1839,135 @@ msgstr "टुकड़ा-तोड़"
 msgid "Shard smashed!"
 msgstr "टुकड़ा चूर!"
 
+msgid "She bites the corner of it before she's even said thank you."
+msgstr "धन्यवाद कहने से पहले ही वह उसका एक कोना दाँत से परखती है।"
+
+msgid "She burns them in the reading room fireplace at four in the morning, one at a time. Each one goes up green. The loose page from your desk goes last: she tears her name off the corner and burns only that."
+msgstr "वह उन्हें सुबह चार बजे वाचनालय के अलाव में एक-एक करके जलाती है। हर पन्ना हरी लपट में जलता है। तुम्हारी मेज़ वाला पन्ना सबसे आख़िर में जाता है: वह कोने से अपना नाम फाड़ती है और सिर्फ़ उसे जलाती है।"
+
+msgid "She ducks under before you can answer and comes up a few yards away, pretending to search."
+msgstr "तुम्हारे जवाब देने से पहले वह गोता लगा जाती है और कुछ मीटर दूर निकलती है, ढूँढने का नाटक करती हुई।"
+
+msgid "She falls asleep first, which she will deny. The tide comes in under the boathouse doors and goes out again."
+msgstr "वह पहले सो जाती है, जिससे वह मुकर जाएगी। ज्वार नाव-घर के फाटकों के नीचे से भीतर आता है और फिर लौट जाता है।"
+
+msgid "She flicks her tail and soaks you a second time, very deliberately."
+msgstr "वह पूँछ फटकारकर तुम्हें दूसरी बार भिगो देती है, बहुत जानबूझकर।"
+
+msgid "She goes cloudy."
+msgstr "वह धुँधली हो जाती है।"
+
+msgid "She goes outside on her own for the first time to buy bread. She's gone twenty minutes. You both pretend you weren't worried."
+msgstr "वह पहली बार अकेली ब्रेड लेने बाहर जाती है। बीस मिनट लगते हैं। तुम दोनों ऐसे जताते हो जैसे चिंता नहीं थी।"
+
+msgid "She goes slightly pink all the way through, like a drop of dye in a glass of water."
+msgstr "वह पूरी की पूरी हल्की गुलाबी हो जाती है, जैसे पानी के गिलास में रंग की एक बूँद।"
+
+msgid "She grabs you by the collar and kisses you, hard and quick, then looks horrified at herself."
+msgstr "वह तुम्हारा कॉलर पकड़कर तुम्हें चूम लेती है, ज़ोर से और जल्दी, और फिर अपने आप पर हैरान दिखती है।"
+
+msgid "She holds out a button. It's yours. It came off your sleeve when you reached into the hollow for her jar, and you never noticed."
+msgstr "वह एक बटन आगे बढ़ाती है। तुम्हारा। जब तुमने उसके मर्तबान के लिए गड्ढे में हाथ डाला था, तब यह तुम्हारी आस्तीन से निकल गया, और तुम्हें कभी पता नहीं चला।"
+
+msgid "She holds the marble up to her eye, then presses it gently into her own palm. It sinks in and floats there, inside her hand, where she can see it."
+msgstr "वह कंचे को आँख के सामने उठाती है, फिर उसे धीरे से अपनी हथेली में दबा देती है। वह भीतर धँसकर वहीं तैरता रहता है, उसके हाथ के अंदर, जहाँ वह उसे देख सके।"
+
+msgid "She hooks a finger in your collar and pulls you down until you're nose to nose over the reading table."
+msgstr "वह तुम्हारे कॉलर में उँगली फँसाकर तुम्हें नीचे खींचती है, जब तक वाचनालय की मेज़ के ऊपर तुम्हारी नाक उसकी नाक से न छू जाए।"
+
+msgid "She hooks a foot round your ankle and reels you in the last step."
+msgstr "वह अपना पैर तुम्हारे टख़ने में फँसाती है और आख़िरी क़दम तुम्हें खींच लेती है।"
+
+msgid "She kisses you again, slower, just to be sure."
+msgstr "वह तुम्हें फिर चूमती है, धीरे, बस पक्का करने के लिए।"
+
+msgid "She kisses you, slower than in the storm. When she pulls back she's breathing hard, and it isn't from swimming."
+msgstr "वह तुम्हें चूमती है, तूफ़ान से धीमे। जब वह पीछे हटती है, तो उसकी साँसें तेज़ हैं, और यह तैरने की वजह से नहीं।"
+
+msgid "She laughs into your shoulder until she gets the hiccups."
+msgstr "वह तुम्हारे कंधे में मुँह छिपाकर हँसती है जब तक हिचकी न आने लगे।"
+
+msgid "She laughs, and a shower of rainwater falls off her leaves onto your head."
+msgstr "वह हँसती है, और उसके पत्तों से बारिश का पानी तुम्हारे सिर पर बरस पड़ता है।"
+
+msgid "She looks at the axe, then at the place on the trunk you were aiming for."
+msgstr "वह कुल्हाड़ी को देखती है, फिर तने की उस जगह को जहाँ तुम निशाना लगा रहे थे।"
+
+msgid "She looks past you at the hollow: at the moss, pressed flat in neat little rows where something used to be laid out, and at the stream running fast and brown."
+msgstr "वह तुम्हारे पार गड्ढे को देखती है: उस काई को, जो साफ़-सुथरी छोटी कतारों में दबी है जहाँ कभी कुछ सजा था, और उस धारा को, जो तेज़ और मटमैली बह रही है।"
+
+msgid "She makes you hold it up in the one patch of sun that gets through her leaves, and watches the shadow for a long time."
+msgstr "वह तुमसे उसे धूप के उस इकलौते टुकड़े में पकड़वाती है जो उसके पत्तों से छनकर आता है, और बहुत देर तक छाया देखती है।"
+
+msgid "She narrows her eyes, looking for the catch. There isn't one."
+msgstr "वह आँखें सिकोड़ती है, कोई चाल ढूँढती हुई। कोई चाल नहीं है।"
+
+msgid "She picks up a stack of books anyway and asks where the poetry goes."
+msgstr "फिर भी वह किताबों का एक ढेर उठा लेती है और पूछती है कविता कहाँ जाती है।"
+
+msgid "She picks up the candle so she has something to do with her hands."
+msgstr "वह मोमबत्ती उठा लेती है ताकि हाथों को कुछ करने को मिले।"
+
+msgid "She pulls you down by your shirt. Her hair falls round you both, gold at the top and green at the ends, and it smells of rain."
+msgstr "वह तुम्हारी कमीज़ पकड़कर तुम्हें नीचे खींचती है। उसके बाल तुम दोनों के चारों ओर गिरते हैं, ऊपर सुनहरे और सिरों पर हरे, और उनमें बारिश की गंध है।"
+
+msgid "She pulls your arms round her neck so you don't have to tread water, and holds you up with her tail."
+msgstr "वह तुम्हारी बाँहें अपने गले में डाल देती है ताकि तुम्हें पानी में पैर न चलाने पड़ें, और अपनी पूँछ से तुम्हें थामे रखती है।"
+
+msgid "She rides in a big glass jar in your arms with the lid off, and counts every button as you drop it in."
+msgstr "वह तुम्हारी बाँहों में बिना ढक्कन के काँच के बड़े मर्तबान में सवार है, और हर वह बटन गिनती है जो तुम उसमें डालते हो।"
+
+msgid "She says it, but she doesn't swim off."
+msgstr "वह कहती तो है, पर तैरकर जाती नहीं।"
+
+msgid "She sets it beside the stub in your chalk circle and lights it from the old flame before the old one can go out."
+msgstr "वह उसे तुम्हारे चॉक के घेरे में रखे ठूँठ के पास रखती है और पुरानी लौ के बुझने से पहले उसी से जला देती है।"
+
+msgid "She shows you which branches you can sit on and which ones she's ticklish about. The second list is long."
+msgstr "वह तुम्हें दिखाती है कि किन डालों पर बैठ सकते हो और किन पर उसे गुदगुदी होती है। दूसरी सूची लंबी है।"
+
+msgid "She sits on the end of the pier with her tail in the water. After a while she leans on your shoulder, as if by accident."
+msgstr "वह घाट के सिरे पर पूँछ पानी में डाले बैठ जाती है। कुछ देर बाद वह तुम्हारे कंधे से टिक जाती है, जैसे अनजाने में।"
+
+msgid "She sits on the reading table, which you've asked her twice not to do, and moves the candle so it won't drip on the returns."
+msgstr "वह वाचनालय की मेज़ पर बैठ जाती है, जिसके लिए तुम दो बार मना कर चुके हो, और मोमबत्ती खिसका देती है ताकि लौटाई किताबों पर न टपके।"
+
+msgid "She steps over the chalk line herself, careful not to smudge it, and picks the page up. You realise you've been staring."
+msgstr "वह ख़ुद चॉक की लकीर लाँघती है, ध्यान से कि वह मिटे नहीं, और पन्ना उठा लेती है। तुम्हें एहसास होता है कि तुम उसे घूरे जा रहे हो।"
+
+msgid "She takes your hand and presses it flat to her chest. Under the silk, something is beating far too fast for anyone that old."
+msgstr "वह तुम्हारा हाथ पकड़कर अपनी छाती पर सपाट दबाती है। रेशम के नीचे कुछ धड़क रहा है, इतनी उम्र वाले किसी के लिए बहुत तेज़।"
+
+msgid "She takes your hand and presses it gently against her. It sinks in a little, cool and soft, and she shivers."
+msgstr "वह तुम्हारा हाथ लेकर धीरे से अपने ऊपर दबाती है। वह थोड़ा धँस जाता है, ठंडा और मुलायम, और वह सिहर उठती है।"
+
+msgid "She talks until the storm passes. You fall asleep against her before she's finished, and she doesn't seem to mind."
+msgstr "वह तूफ़ान गुज़रने तक बोलती रहती है। उसके ख़त्म करने से पहले तुम उससे टिककर सो जाते हो, और उसे बुरा नहीं लगता।"
+
+msgid "She ties the cord round her neck with a double knot, so it can't come off in the water."
+msgstr "वह डोरी को दोहरी गाँठ से गले में बाँधती है, ताकि पानी में न खुले।"
+
+msgid "She turns pink, which, on Opal, is very easy to see."
+msgstr "वह गुलाबी हो जाती है, जो ओपल पर बहुत आसानी से दिखता है।"
+
+msgid "She turns round and lifts her hair off her neck. The dress fastens with a row of tiny hooks, from the collar down to where her wings begin."
+msgstr "वह मुड़ती है और गर्दन से बाल उठाती है। पोशाक नन्हे हुकों की एक कतार से बंद होती है, कॉलर से लेकर वहाँ तक जहाँ उसके पंख शुरू होते हैं।"
+
+msgid "She turns the candle over in her hands and sniffs the wax, which seems to be the professional way to check."
+msgstr "वह मोमबत्ती को हाथों में घुमाती है और मोम सूँघती है, जो शायद जाँचने का पेशेवर तरीक़ा है।"
+
+msgid "She was being friendly. You're the one I come here for."
+msgstr "वह बस मिलनसार थी। मैं यहाँ तुम्हारे लिए आता हूँ।"
+
+msgid "She won't even be angry. She'll just say 'oh, Mari', the way Mum does."
+msgstr "वह नाराज़ भी नहीं होंगी। बस \"ओह, मारी\" कहेंगी, जैसे माँ कहती हैं।"
+
+msgid "She won't leave the candle behind. She carries it to Wick Street cupped in both hands, and makes you walk on the windy side."
+msgstr "वह मोमबत्ती पीछे नहीं छोड़ती। उसे दोनों हथेलियों में सँभाले बत्ती गली तक ले जाती है, और तुम्हें हवा वाली तरफ़ चलवाती है।"
+
+msgid "She's tall, horned and dressed for somewhere much nicer than a library. She crouches to look at your circle, and tuts."
+msgstr "वह लंबी है, सींगों वाली, और किसी पुस्तकालय से कहीं शानदार जगह के लिए तैयार। वह तुम्हारा घेरा देखने को झुकती है, और च्च करती है।"
+
 msgid "Shop"
 msgstr "दुकान"
 
@@ -1094,6 +1979,12 @@ msgstr "छोटे एनिमेशन, शांत प्रभाव।"
 
 msgid "Shuffle Wand"
 msgstr "फेंटने की छड़ी"
+
+msgid "Since the grove was a forest. Two hundred years, give or take a drought."
+msgstr "तब से जब यह कुंज एक जंगल था। दो सौ साल, एक-आध सूखे को छोड़कर।"
+
+msgid "Six tomorrow, lifeguard."
+msgstr "कल छह बजे, जीवनरक्षक।"
 
 msgid "Skip"
 msgstr "छोड़ें"
@@ -1128,8 +2019,29 @@ msgstr "सब छोड़ें"
 msgid "Skips this chapter's puzzle: no stars for it."
 msgstr "इस अध्याय की पहेली छोड़ता है: इसके सितारे नहीं मिलेंगे।"
 
+msgid "Slime, formerly of a jar"
+msgstr "स्लाइम, पहले एक मर्तबान में"
+
 msgid "Slow"
 msgstr "धीमा"
+
+msgid "Slower. I can hear you panicking."
+msgstr "धीरे। मैं तुम्हें घबराते सुन सकती हूँ।"
+
+msgid "Slowly. I've got all the time in the world, and I'd like to spend some of it on this."
+msgstr "धीरे। मेरे पास दुनिया भर का समय है, और मैं उसमें से कुछ इस पर बिताना चाहूँगी।"
+
+msgid "Smart. Unspent wishes don't expire. I knew a man who sat on one until he died."
+msgstr "समझदारी। बिना इस्तेमाल की इच्छाएँ ख़त्म नहीं होतीं। मैं एक आदमी को जानती थी जो मरते दम तक एक पर बैठा रहा।"
+
+msgid "So she climbs out of her jar in the middle of the shop, in front of everyone, and asks for it herself."
+msgstr "तो वह दुकान के बीचोंबीच, सबके सामने अपने मर्तबान से बाहर आती है, और ख़ुद माँगती है।"
+
+msgid "So. Are you telling them how we met, or am I?"
+msgstr "तो। उन्हें तुम बताओगे कि हम कैसे मिले, या मैं?"
+
+msgid "So. Last night. I've been floating close by trying to think of a word for it, and I've got it down to three, and they're all very rude."
+msgstr "तो। कल रात। मैं काफ़ी देर से यहीं तैर रही हूँ, इसके लिए कोई शब्द ढूँढती हुई, और तीन तक पहुँची हूँ, और तीनों बहुत अशिष्ट हैं।"
 
 msgid "Soft as Moss"
 msgstr "काई जैसी कोमल"
@@ -1137,8 +2049,29 @@ msgstr "काई जैसी कोमल"
 msgid "Some gems carry her ink seal. A sealed gem can't be picked up, but it still counts in a match you make by moving the gems beside it. The first match, blast or Hammer breaks the seal and the gem stays."
 msgstr "कुछ रत्नों पर उसकी स्याही की मुहर होती है। मुहरबंद रत्न हिलाया नहीं जा सकता, पर बगल के रत्न हिलाकर बनाए गए मेल में वह गिना जाता है। पहला मेल, विस्फोट या हथौड़ा मुहर तोड़ देता है और रत्न वहीं रहता है।"
 
+msgid "Someone bought that off a market stall. I can tell."
+msgstr "किसी ने यह बाज़ार की दुकान से ख़रीदा है। मैं बता सकती हूँ।"
+
+msgid "Someone in this town knows exactly what that book is."
+msgstr "इस शहर में कोई ठीक-ठीक जानता है कि वह किताब क्या है।"
+
 msgid "Something about to happen on your date. Matching her favourite gem holds it off a move; a Charm Burst clears it."
 msgstr "आपकी डेट पर कुछ होने वाला है। उसका पसंदीदा रत्न मिलाने से यह एक चाल टलता है; आकर्षण विस्फोट इसे रद्द कर देता है।"
+
+msgid "Something cool and slightly heavy is draped over you like a blanket. It turns out to be her."
+msgstr "कुछ ठंडा और थोड़ा भारी तुम पर कंबल की तरह फैला है। पता चलता है कि वह वही है।"
+
+msgid "Something pours over the rim, slow and shining, pale lilac with flashes of green and pink in it. You jump back so fast you kick half the hollow into the stream. It gathers itself on a root into the shape of a woman, and she does not look happy."
+msgstr "किनारे से कुछ बह निकलता है, धीमा और चमकता हुआ, हल्का बैंगनी जिसमें हरी और गुलाबी झलकें हैं। तुम इतनी तेज़ी से पीछे कूदते हो कि आधा गड्ढा धारा में ठोकर से गिर जाता है। वह एक जड़ पर सिमटकर एक औरत का रूप ले लेता है, और वह ख़ुश नहीं दिखती।"
+
+msgid "Sorry. I don't usually get to tell anyone."
+msgstr "माफ़ करना। मुझे आमतौर पर किसी को बताने का मौक़ा नहीं मिलता।"
+
+msgid "Sorry. I spread out in my sleep. I didn't know that. I've never slept anywhere big enough to find out."
+msgstr "माफ़ करना। मैं नींद में फैल जाती हूँ। मुझे नहीं पता था। मैं कभी इतनी बड़ी जगह में नहीं सोई कि पता चल सके।"
+
+msgid "Sorry. I'm watching. Is that all right?"
+msgstr "माफ़ करना। मैं देख रही हूँ। ठीक है न?"
 
 msgid "Sound Effects"
 msgstr "ध्वनि प्रभाव"
@@ -1170,8 +2103,14 @@ msgstr "सितारे — अध्याय पूरे करके म�
 msgid "Starstruck"
 msgstr "तारों में खोए"
 
+msgid "Start at the alder. I'll enjoy the view."
+msgstr "एल्डर से शुरू करो। मैं नज़ारे का मज़ा लूँगी।"
+
 msgid "Start her story over from the beginning"
 msgstr "उसकी कहानी शुरू से फिर शुरू करें"
+
+msgid "Start with the baker. He leans on me when he smokes."
+msgstr "नानबाई से शुरू करो। वह सिगरेट पीते वक़्त मुझसे टिकता है।"
 
 msgid "Starter Pack"
 msgstr "स्टार्टर पैक"
@@ -1179,8 +2118,26 @@ msgstr "स्टार्टर पैक"
 msgid "Stats"
 msgstr "आँकड़े"
 
+msgid "Stay till the candle goes. Then stay anyway."
+msgstr "मोमबत्ती बुझने तक रुको। फिर भी रुकना।"
+
+msgid "Stay tonight. I'll keep the rain off."
+msgstr "आज रात रुक जाओ। मैं बारिश रोक लूँगी।"
+
+msgid "Stay where you are. Don't break the circle. If that candle goes out, I go home, and I'm not done with you."
+msgstr "वहीं रुको। घेरा मत तोड़ना। अगर वह मोमबत्ती बुझी, तो मैं घर चली जाऊँगी, और तुमसे मेरा काम अभी ख़त्म नहीं हुआ।"
+
+msgid "Still nothing?"
+msgstr "अब भी कुछ नहीं?"
+
 msgid "Stop here. This scene plays again next time you visit her."
 msgstr "यहीं रुकें। अगली बार उससे मिलने पर यह दृश्य फिर चलेगा।"
+
+msgid "Stop pretending you're looking for the book. You've walked past this table eleven times tonight, and the book isn't on it. I am."
+msgstr "किताब ढूँढने का नाटक बंद करो। आज रात तुम इस मेज़ के सामने से ग्यारह बार गुज़रे हो, और किताब इस पर नहीं है। मैं हूँ।"
+
+msgid "Stop. I'll go cloudy."
+msgstr "बस करो। मैं धुँधली हो जाऊँगी।"
 
 msgid "Store"
 msgstr "दुकान"
@@ -1200,11 +2157,17 @@ msgstr "कहानी कठिनाई: यह अध्याय खेल�
 msgid "Story: twice the moves, and you can skip any chapter. Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Takes effect from the next chapter."
 msgstr "कहानी: दोगुनी चालें, और आप कोई भी अध्याय छोड़ सकते हैं। कठिन: हर कुछ चालों में डेट पर कुछ होता है (घाट पर लहर, मोमबत्तियाँ टिमटिमाती हैं), पहले से बताया जाता है। अगले अध्याय से लागू।"
 
+msgid "Succubus, summoned by mistake"
+msgstr "सक्यूबस, ग़लती से बुलाई गई"
+
 msgid "Summer"
 msgstr "गर्मी"
 
 msgid "Summer!"
 msgstr "गर्मी!"
+
+msgid "Sure. After I've shelved these returns."
+msgstr "ठीक है। ये लौटाई किताबें लगाने के बाद।"
 
 msgid "Swap"
 msgstr "बदलें"
@@ -1218,14 +2181,41 @@ msgstr "पास-पास के दो रत्नों की जगह �
 msgid "Swap two special gems together."
 msgstr "दो ख़ास रत्न आपस में बदलें।"
 
+msgid "Swim with me later. Don't embarrass me again."
+msgstr "बाद में मेरे साथ तैरना। फिर से मुझे शर्मिंदा मत करना।"
+
 msgid "THINGS FOUND"
 msgstr "मिली चीज़ें"
 
 msgid "TIP"
 msgstr "सुझाव"
 
+msgid "Take your time. I've got about three hundred years."
+msgstr "आराम से। मेरे पास लगभग तीन सौ साल हैं।"
+
+msgid "Talk to me. About anything. Your voice helps me get through it."
+msgstr "मुझसे बात करो। किसी भी बारे में। तुम्हारी आवाज़ से मुझे यह झेलने में मदद मिलती है।"
+
 msgid "Tap a gem!"
 msgstr "किसी रत्न को छुएँ!"
+
+msgid "Tell her the jeweller ran off with a sea captain."
+msgstr "कह देना कि जौहरी किसी जहाज़ के कप्तान के साथ भाग गया।"
+
+msgid "Tell her the truth. She'll understand."
+msgstr "उन्हें सच बता दो। वह समझेंगी।"
+
+msgid "Tell me about the grove when it was a forest."
+msgstr "मुझे इस कुंज के बारे में बताओ जब यह जंगल था।"
+
+msgid "Tell me about the others while we look."
+msgstr "ढूँढते हुए बाक़ियों के बारे में बताओ।"
+
+msgid "Tell me if I get this wrong. I've read about it in exactly one book, and a woodcutter dropped it here before the mill was built."
+msgstr "अगर मैं ग़लत करूँ तो बताना। मैंने इसके बारे में ठीक एक किताब में पढ़ा है, और वह चक्की बनने से पहले एक लकड़हारे से यहाँ गिर गई थी।"
+
+msgid "Tempting. You'd have to do my shelving."
+msgstr "लुभावना है। तब तुम्हें मेरी किताबें लगानी होंगी।"
 
 msgid "Test purchase"
 msgstr "परीक्षण ख़रीदारी"
@@ -1239,14 +2229,119 @@ msgstr "पाठ की गति"
 msgid "Text size"
 msgstr "पाठ का आकार"
 
+msgid "Th-thank you. Sorry. No. Not sorry. Thank you."
+msgstr "श-शुक्रिया। माफ़ करना। नहीं। माफ़ी नहीं। शुक्रिया।"
+
+msgid "Th-thank you. Sorry. Thank you."
+msgstr "श-शुक्रिया। माफ़ करना। शुक्रिया।"
+
+msgid "Th-that was good. That was really good."
+msgstr "व-वह अच्छा था। बहुत अच्छा था।"
+
 msgid "Thanks for playing the demo!"
 msgstr "डेमो खेलने के लिए धन्यवाद!"
+
+msgid "That catches the light. Do another."
+msgstr "यह रोशनी पकड़ता है। एक और।"
+
+msgid "That night she climbs down from her branch and walks out across the grass, further than you've ever seen her go."
+msgstr "उस रात वह अपनी डाल से उतरती है और घास पर चलकर बाहर आती है, इतनी दूर जितनी तुमने उसे कभी जाते नहीं देखा।"
+
+msgid "That one would actually hold a demon."
+msgstr "वह वाला सच में किसी दानव को रोक लेता।"
+
+msgid "That one's fine. That one's fine. Not that one. I mean it. Don't."
+msgstr "वह ठीक है। वह ठीक है। वह नहीं। मैं सच कह रही हूँ। मत।"
+
+msgid "That sounds strange out loud. Don't answer that."
+msgstr "ज़ोर से कहूँ तो अजीब लगता है। जवाब मत देना।"
+
+msgid "That was the storm. Don't make it a thing."
+msgstr "यह तूफ़ान की वजह से था। इसे बड़ी बात मत बनाओ।"
+
+msgid "That was very nice. Thank you."
+msgstr "बहुत अच्छा था। शुक्रिया।"
+
+msgid "That was. Okay. I don't have a word. I always have a word."
+msgstr "वह था। ठीक है। मेरे पास शब्द नहीं। मेरे पास हमेशा शब्द होते हैं।"
+
+msgid "That's a dry-land gem. Put it back."
+msgstr "वह ज़मीन वाला रत्न है। वापस रखो।"
+
+msgid "That's a good trench, for a grave."
+msgstr "अच्छी खाई है, क़ब्र के लिए।"
+
+msgid "That's actually good. She'd believe that."
+msgstr "यह तो अच्छा है। वह मान लेंगी।"
+
+msgid "That's all of them. I'm free. No more circles. Nobody can drag me anywhere ever again."
+msgstr "बस, सब हो गए। मैं आज़ाद हूँ। अब कोई घेरा नहीं। अब कोई मुझे कभी कहीं नहीं घसीट सकता।"
+
+msgid "That's autumn."
+msgstr "पतझड़ है।"
+
+msgid "That's lovely. Keep going."
+msgstr "प्यारा है। चलते रहो।"
+
+msgid "That's nine more hours you can't get rid of me. You did that on purpose."
+msgstr "यानी नौ घंटे और, जिनमें तुम मुझसे पीछा नहीं छुड़ा सकते। तुमने जानबूझकर किया।"
+
+msgid "That's off the comb's box. So it went right in there."
+msgstr "यह कंघी के डिब्बे का है। यानी वह ठीक यहीं गिरी।"
+
+msgid "That's real. The sea made that. People tumble old bottles in a barrel and sell it as sea glass."
+msgstr "यह असली है। इसे समुद्र ने बनाया है। कुछ लोग पुरानी बोतलें पीपे में घुमाकर समुद्री काँच कहकर बेचते हैं।"
+
+msgid "That's the good stuff. Again."
+msgstr "यह हुई न बात। फिर से।"
+
+msgid "That's why Ambrose put me in the jar. Nobody looks inside a jar of pickled newts. We were the same age when he did it, near enough. He got old."
+msgstr "इसीलिए एम्ब्रोज़ ने मुझे मर्तबान में रखा था। अचारी न्यूट के मर्तबान में कोई नहीं झाँकता। जब उसने ऐसा किया, हम लगभग हमउम्र थे। वह बूढ़ा हो गया।"
+
+msgid "That's you. You did that. A month of you leaning on me with your sleeves rolled up."
+msgstr "यह तुम हो। तुमने किया। एक महीना आस्तीनें चढ़ाए मुझसे टिककर।"
+
+msgid "That's your fault. I'd like that on record."
+msgstr "यह तुम्हारी ग़लती है। यह दर्ज कर लिया जाए।"
 
 msgid "The Time Scroll (three more moves), the Hammer (smash any one gem) and the Shuffle Wand (a new board) sit under the board. Buy them, and potions that help a whole chapter, in the Item Shop with the stars you earn."
 msgstr "काल-पत्र (तीन और चालें), हथौड़ा (कोई भी एक रत्न तोड़ें) और फेंटने की छड़ी (नया बोर्ड) बोर्ड के नीचे रहते हैं। इन्हें, और पूरे अध्याय में मदद करने वाली औषधियों को, कमाए गए सितारों से सामान की दुकान में ख़रीदें।"
 
+msgid "The animals are watching. I told them to go away. Nobody in this grove listens to me."
+msgstr "जानवर देख रहे हैं। मैंने उनसे जाने को कहा। इस कुंज में कोई मेरी नहीं सुनता।"
+
+msgid "The boathouse slipway at sunrise, two sets of clothes drying on the rail."
+msgstr "सूर्योदय के समय नाव-घर की ढलान, रेलिंग पर सूखते दो जोड़ी कपड़े।"
+
+msgid "The boathouse smells of tar and salt. There's a heap of old sails in the corner, and she pulls you down onto them by your wet shirt."
+msgstr "नाव-घर में डामर और नमक की गंध है। कोने में पुराने पालों का ढेर है, और वह तुम्हारी भीगी कमीज़ पकड़कर तुम्हें उस पर खींच लेती है।"
+
+msgid "The book is in this building. Keep going."
+msgstr "किताब इसी इमारत में है। चलते रहो।"
+
+msgid "The candle burns down to nothing, and neither of you notices when it goes out."
+msgstr "मोमबत्ती जलकर ख़त्म हो जाती है, और तुम दोनों में से किसी को पता नहीं चलता कब बुझी।"
+
+msgid "The candle in your chalk circle, the fourth one this week, is nearly gone. She watches it gutter and doesn't go anywhere."
+msgstr "तुम्हारे चॉक के घेरे की मोमबत्ती, इस हफ़्ते की चौथी, लगभग ख़त्म है। वह उसे टिमटिमाते देखती है और कहीं नहीं जाती।"
+
+msgid "The candles gutter"
+msgstr "मोमबत्तियाँ टिमटिमाती हैं"
+
+msgid "The card catalogue has a gap where the book should be. Someone has left a slip in the drawer instead: OUT FOR REBINDING, and a name."
+msgstr "कार्ड-सूची में वहाँ एक ख़ाली जगह है जहाँ किताब होनी चाहिए थी। उसकी जगह किसी ने दराज़ में एक पर्ची छोड़ी है: जिल्दसाज़ी के लिए बाहर, और एक नाम।"
+
+msgid "The comb is in a tin of odds and ends on the Pellow brothers' boat: fishing weights, a doll's head, and nine pearls on a silver spine. It costs you two weeks' pay and a lot of explaining."
+msgstr "कंघी पेलो भाइयों की नाव पर कबाड़ से भरे एक टिन में है: मछली पकड़ने के वज़न, एक गुड़िया का सिर, और चाँदी की पीठ पर नौ मोती। इसकी क़ीमत तुम्हारी दो हफ़्ते की कमाई और ढेर सारी सफ़ाई है।"
+
 msgid "The comb piece can't be hammered. Bring it up to the surface."
 msgstr "कंघी के टुकड़े पर हथौड़ा नहीं चलता। उसे सतह तक ऊपर लाएँ।"
+
+msgid "The ferns tell me you were talking to the miller's daughter. I'm not jealous. But I might drop a branch near her, that's all."
+msgstr "फ़र्न बताते हैं कि तुम चक्कीवाले की बेटी से बात कर रहे थे। मुझे जलन नहीं है। बस हो सकता है मैं उसके पास एक डाल गिरा दूँ, बस इतना।"
+
+msgid "The flame leans sideways. Then it goes green. Smoke fills the circle, smelling of struck matches and expensive perfume, and someone steps out of it, coughing."
+msgstr "लौ बग़ल की ओर झुकती है। फिर हरी हो जाती है। घेरे में धुआँ भर जाता है, जली तीलियों और महँगे इत्र की गंध के साथ, और उसमें से कोई खाँसता हुआ बाहर आता है।"
 
 msgid "The full game has four stories: Hazel's, and three more women of Millbrook to meet in the worst way possible. Each has four chapters, her night scene and her ending."
 msgstr "पूरे गेम में चार कहानियाँ हैं: हेज़ल की, और मिलब्रुक की तीन और औरतें जिनसे आप सबसे बुरे तरीक़े से मिलते हैं। हर एक के चार अध्याय, उसका रात का दृश्य और उसका अंत है।"
@@ -1257,23 +2352,158 @@ msgstr "गेम का पाठ। आवाज़ें अंग्रे�
 msgid "The girls are voiced by amateur voice actresses, recorded at home. We love how they turned out, but they aren't studio recordings, and not every line is voiced yet.\n\nIf you'd rather read in your own head, turn the voices off. You can change this any time in Settings."
 msgstr "लड़कियों को शौक़िया आवाज़ कलाकारों ने घर पर रिकॉर्ड करके आवाज़ दी है। हमें नतीजा बहुत पसंद है, पर ये स्टूडियो रिकॉर्डिंग नहीं हैं, और अभी हर पंक्ति को आवाज़ नहीं मिली है।\n\nअगर आप मन में पढ़ना पसंद करते हैं, तो आवाज़ें बंद कर दें। आप इसे कभी भी सेटिंग्स में बदल सकते हैं।"
 
+msgid "The glass eye turns up in the window of the taxidermist's on Lantern Street, in a stuffed owl. The taxidermist won't sell it. He says the owl needs it."
+msgstr "काँच की आँख लालटेन गली के भुस-भराई वाले की दुकान की खिड़की में, एक भरे हुए उल्लू में दिखती है। भुस-भराई वाला उसे बेचने से मना कर देता है। कहता है उल्लू को उसकी ज़रूरत है।"
+
+msgid "The green at the tips of her hair goes a shade darker. She notices, and decides not to mention it."
+msgstr "उसके बालों की नोकों का हरा रंग एक शेड गहरा हो जाता है। वह ग़ौर करती है, और ज़िक्र न करने का फ़ैसला करती है।"
+
+msgid "The jar stays empty all night."
+msgstr "मर्तबान पूरी रात ख़ाली रहता है।"
+
+msgid "The jar... Should I keep it?"
+msgstr "मर्तबान... क्या मैं उसे रखूँ?"
+
+msgid "The keys went to a locksmith, he says. And the glass eye went to someone who needed a glass eye, I suppose."
+msgstr "वह कहता है चाबियाँ एक तालेवाले के पास गईं। और काँच की आँख किसी ऐसे के पास जिसे काँच की आँख चाहिए थी, शायद।"
+
+msgid "The ledger leads you straight back to your own library. The last pages were sold to it in March as loose leaves, assorted, and filed in the rare books vault under Miscellaneous, Infernal."
+msgstr "बही तुम्हें सीधे तुम्हारे अपने पुस्तकालय वापस ले जाती है। आख़िरी पन्ने उसे मार्च में खुले पन्नों के रूप में बेचे गए थे, मिले-जुले, और दुर्लभ पुस्तकों के तहख़ाने में \"विविध, नारकीय\" के तहत रखे गए।"
+
+msgid "The locksmith on Cinder Row has her keys in a bucket and wants a shilling for the lot. While you haggle, she stays very still in her jar under the counter."
+msgstr "सिंडर गली के तालेवाले के पास उसकी चाबियाँ एक बाल्टी में हैं और वह सबका एक शिलिंग माँगता है। जब तुम मोलभाव करते हो, वह काउंटर के नीचे अपने मर्तबान में बिल्कुल स्थिर रहती है।"
+
+msgid "The mermaid looks at you properly for the first time. You're dripping. You've lost a shoe."
+msgstr "जलपरी पहली बार तुम्हें ठीक से देखती है। तुमसे पानी टपक रहा है। तुम्हारा एक जूता खो गया है।"
+
+msgid "The miller sent you? He sends someone every spring."
+msgstr "चक्कीवाले ने भेजा? वह हर वसंत किसी को भेजता है।"
+
+msgid "The miller walks past"
+msgstr "चक्कीवाला गुज़रता है"
+
+msgid "The millrace runs and the old hazel keeps her roots. You plant another hazel beside the new channel, and it grows faster than it has any right to, leaning towards the old tree as if it's listening. You sleep in the grove more nights than not, and the old hazel blossoms in the wrong season, every season, which the miller now tells people is good luck."
+msgstr "नहर बहती है और पुराना हेज़ल अपनी जड़ें बचा लेता है। तुम नई नहर के पास एक और हेज़ल लगाते हो, और वह जितना चाहिए उससे तेज़ बढ़ता है, पुराने पेड़ की ओर झुका हुआ जैसे सुन रहा हो। तुम ज़्यादातर रातें कुंज में सोते हो, और पुराना हेज़ल ग़लत मौसम में खिलता है, हर मौसम, जिसे चक्कीवाला अब लोगों को शुभ बताता है।"
+
+msgid "The moss on the east side is softer than it looks."
+msgstr "पूरब की तरफ़ की काई दिखने से ज़्यादा मुलायम है।"
+
+msgid "The moss on the east side is softer than it looks. Above you her branches have spread and knitted together, and the first rain ticks against the leaves without coming through."
+msgstr "पूरब की तरफ़ की काई दिखने से ज़्यादा मुलायम है। तुम्हारे ऊपर उसकी डालें फैलकर आपस में गुँथ गई हैं, और पहली बारिश पत्तों पर टपटपाती है पर भीतर नहीं आती।"
+
+msgid "The name on the slip belongs to a bookbinder who died in the spring. His shop is still full of loose pages."
+msgstr "पर्ची पर लिखा नाम एक जिल्दसाज़ का है जो वसंत में मर गया। उसकी दुकान अब भी खुले पन्नों से भरी है।"
+
+msgid "The old hazel at dawn, in full blossom, in May."
+msgstr "भोर में पुराना हेज़ल, पूरे खिले फूलों के साथ, मई में।"
+
+msgid "The old hazel stands where the grove meets the millrace. It's so big that the mill's back wall has started to bend round its roots."
+msgstr "पुराना हेज़ल वहाँ खड़ा है जहाँ कुंज चक्की की नहर से मिलता है। वह इतना बड़ा है कि चक्की की पिछली दीवार उसकी जड़ों के चारों ओर मुड़ने लगी है।"
+
+msgid "The pier's quiet apart from the Thursday tile game at the far end, where the three old fishermen are arguing about the score again."
+msgstr "घाट शांत है, बस दूसरे सिरे पर गुरुवार के खेल को छोड़कर, जहाँ तीनों बूढ़े मछुआरे फिर से अंकों पर झगड़ रहे हैं।"
+
 msgid "The purchase couldn't start (%s)."
 msgstr "ख़रीदारी शुरू नहीं हो सकी (%s)।"
 
 msgid "The purchase didn't go through (%s)."
 msgstr "ख़रीदारी पूरी नहीं हुई (%s)।"
 
+msgid "The reading room at dawn: a burnt-out candle in a smudged chalk circle, your jacket folded into a neat square on the returns cart."
+msgstr "भोर में वाचनालय: धुँधले चॉक के घेरे में जली हुई मोमबत्ती, लौटाई किताबों की गाड़ी पर सलीक़े से तह की हुई तुम्हारी जैकेट।"
+
+msgid "The reading room with the door shut. The only light is the candle in your chalk circle, and she's sitting on the reading table again."
+msgstr "दरवाज़ा बंद वाचनालय। अकेली रोशनी तुम्हारे चॉक के घेरे की मोमबत्ती है, और वह फिर वाचनालय की मेज़ पर बैठी है।"
+
+msgid "The reward is you come to every Tide from now on. Non-negotiable. Don't smile, it's a punishment."
+msgstr "इनाम यह है कि अब से तुम हर ज्वार पर आओगे। इस पर कोई मोलभाव नहीं। मुस्कुराओ मत, यह सज़ा है।"
+
 msgid "The store isn't available in this build."
 msgstr "इस संस्करण में दुकान उपलब्ध नहीं है।"
+
+msgid "The stream comes out under the Mill Bridge, where Coombs the rag-and-bone man fishes for anything that floats. You get there ahead of her and sell him a handful of buttons off the bank for two coppers before you realise whose they are. He's netted the rest too. Buying the lot back costs six coppers, which he finds very funny."
+msgstr "धारा चक्की वाले पुल के नीचे निकलती है, जहाँ कबाड़ी कूम्ब्स तैरती हर चीज़ पकड़ता है। तुम उससे पहले पहुँचते हो और किनारे से उठाए मुट्ठी भर बटन उसे दो ताँबे के सिक्कों में बेच देते हो, यह समझने से पहले कि वे किसके हैं। बाक़ी भी उसने जाल में पकड़ लिए हैं। सब वापस ख़रीदने में छह सिक्के लगते हैं, जो उसे बहुत मज़ेदार लगता है।"
+
+msgid "The stream goes to town. We're going. You're carrying me! Please?"
+msgstr "धारा शहर जाती है। हम चल रहे हैं। तुम मुझे उठाओगे! प्लीज़?"
+
+msgid "The taxidermist is so startled he gives her the eye, the owl, and a discount on a second owl."
+msgstr "भुस-भराई वाला इतना चौंक जाता है कि उसे आँख, उल्लू और दूसरे उल्लू पर छूट तीनों दे देता है।"
+
+msgid "The tide turns"
+msgstr "ज्वार पलटता है"
 
 msgid "The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts."
 msgstr "ऊपर की पंक्ति अध्याय के दौरान इस्तेमाल होती है; नीचे की पंक्ति अगला अध्याय शुरू होने पर अपने-आप काम करती है।"
 
+msgid "The trench reaches the river on the night of a storm. Water floods into the new channel, and the whole tree shudders."
+msgstr "एक तूफ़ानी रात खाई नदी तक पहुँच जाती है। पानी नई नहर में उमड़ आता है, और पूरा पेड़ काँप उठता है।"
+
 msgid "The two rows nearest the surface clear, and everything rises two rows."
 msgstr "सतह के सबसे पास की दो पंक्तियाँ साफ़ होती हैं, और सब कुछ दो पंक्ति ऊपर उठता है।"
 
+msgid "The water in the cove is warm and black and full of moonlight. She surfaces right in front of you, close enough that her hair brushes your face."
+msgstr "खाड़ी का पानी गुनगुना, काला और चाँदनी से भरा है। वह ठीक तुम्हारे सामने उभरती है, इतनी पास कि उसके बाल तुम्हारे चेहरे को छू जाते हैं।"
+
+msgid "The water's warm tonight."
+msgstr "आज रात पानी गुनगुना है।"
+
+msgid "The woods north of Millbrook, late autumn. You're out gathering firewood and anything worth selling, and you've followed the stream further in than you meant to."
+msgstr "मिलब्रुक के उत्तर के जंगल, देर पतझड़। तुम जलावन और बेचने लायक कुछ भी बटोर रहे हो, और धारा के साथ इरादे से ज़्यादा भीतर आ गए हो।"
+
+msgid "Their net. It went right through where I dropped it."
+msgstr "उनका जाल। ठीक वहीं से गुज़रा जहाँ वह मुझसे गिरी थी।"
+
+msgid "Then I'll ask. Close the reading room door. Leave the candle."
+msgstr "तो मैं माँगती हूँ। वाचनालय का दरवाज़ा बंद करो। मोमबत्ती रहने दो।"
+
+msgid "Then she notices the loose page on your desk, the one you copied from, and goes very still."
+msgstr "फिर उसकी नज़र तुम्हारी मेज़ पर पड़े उस खुले पन्ने पर पड़ती है, जिससे तुमने उतारा था, और वह एकदम ठिठक जाती है।"
+
+msgid "Then the miller. Then the miller again."
+msgstr "फिर चक्कीवाला। फिर दोबारा चक्कीवाला।"
+
+msgid "Then we'd better find them before anyone else does."
+msgstr "तो बेहतर है कि किसी और से पहले हम उन्हें ढूँढ लें।"
+
+msgid "Then we'll make sure nobody's boiling anybody."
+msgstr "तो हम पक्का करेंगे कि कोई किसी को न उबाले।"
+
+msgid "Then you remember the Pellow brothers dragging their nets through the cove last week. The whole pier complained about it."
+msgstr "तभी तुम्हें पेलो भाइयों की याद आती है जिन्होंने पिछले हफ़्ते खाड़ी में अपने जाल घसीटे थे। पूरे घाट ने शिकायत की थी।"
+
+msgid "There are forty-one of those. I counted when I put it on. Take your time."
+msgstr "इकतालीस हैं। पहनते समय गिने थे। आराम से।"
+
+msgid "There were wolves. And a family of woodcutters who sang while they worked. I liked them, even though they were woodcutters."
+msgstr "भेड़िये थे। और लकड़हारों का एक परिवार जो काम करते हुए गाता था। मुझे वे पसंद थे, भले ही वे लकड़हारे थे।"
+
+msgid "There's a woman sitting on the lowest branch, where you're sure nobody was a second ago. Her hair goes from gold to green, and below the knee her legs turn into bark."
+msgstr "सबसे नीची डाल पर एक औरत बैठी है, जहाँ तुम्हें पक्का है कि एक पल पहले कोई नहीं था। उसके बाल सुनहरे से हरे होते जाते हैं, और घुटनों के नीचे उसकी टाँगें छाल में बदल जाती हैं।"
+
+msgid "There. Now look me in the eye and tell me you'd rather be shelving."
+msgstr "बस। अब मेरी आँखों में देखकर कहो कि तुम किताबें लगाना पसंद करोगे।"
+
+msgid "There. Now we're even. Low tide's at six."
+msgstr "लो। अब हिसाब बराबर। भाटा छह बजे है।"
+
+msgid "There. Now you can't go anywhere. It's a mermaid thing. It's very old. I just made it up."
+msgstr "लो। अब तुम कहीं नहीं जा सकते। यह जलपरियों वाली बात है। बहुत पुरानी। अभी-अभी गढ़ी है।"
+
 msgid "These unlock on Steam too."
 msgstr "ये Steam पर भी खुलती हैं।"
+
+msgid "They start clearing on quarter day. After that I need somewhere else to be quiet."
+msgstr "तिमाही के दिन वे कटाई शुरू करेंगे। उसके बाद मुझे शांत रहने के लिए कोई और जगह चाहिए।"
+
+msgid "They want an address for my library card. I don't have one. What do I put?"
+msgstr "उन्हें मेरे पुस्तकालय कार्ड के लिए पता चाहिए। मेरा कोई पता नहीं। क्या लिखूँ?"
+
+msgid "They're a pair. I'm not splitting up a pair."
+msgstr "वे जोड़ा हैं। मैं जोड़ा नहीं तोड़ती।"
+
+msgid "They're not strangers. I heard every one of them go by. From the jar."
+msgstr "वे अजनबी नहीं हैं। मैंने हर एक को गुज़रते सुना। मर्तबान से।"
 
 msgid "Things found"
 msgstr "मिली चीज़ें"
@@ -1283,6 +2513,18 @@ msgstr "यह हर लड़की की कहानी की प्रग
 
 msgid "This is a test build: no money changes hands. Buy %s for %s?"
 msgstr "यह एक परीक्षण संस्करण है: कोई पैसा नहीं कटता। %s को %s में ख़रीदें?"
+
+msgid "This line here. That's where you'd put my name. If you ever wanted to call me. You won't need to. I'll be with you."
+msgstr "यह लकीर यहाँ। यहीं तुम मेरा नाम लिखते। अगर कभी मुझे बुलाना चाहते। ज़रूरत नहीं पड़ेगी। मैं तुम्हारे साथ रहूँगी।"
+
+msgid "This one's my favourite. Brass, four holes, off a very handsome coat. You have a very handsome... coat too."
+msgstr "यह मेरा पसंदीदा है। पीतल, चार छेद, एक बहुत सुंदर कोट से। तुम्हारे पास भी बहुत सुंदर... कोट है।"
+
+msgid "This page is from my binding. The book that ties me to every circle anyone draws, however badly. Find all of it, burn it, and I'm free."
+msgstr "यह पन्ना मेरे बंधन का है। वह किताब जो मुझे हर उस घेरे से बाँधती है जो कोई भी बनाए, चाहे कितना भी बुरा। पूरी ढूँढो, जला दो, और मैं आज़ाद।"
+
+msgid "Those are mine. I-I've been collecting them for years."
+msgstr "वे मेरी हैं। म-मैं बरसों से उन्हें इकट्ठा कर रही हूँ।"
 
 msgid "Time Scroll"
 msgstr "काल-पत्र"
@@ -1308,6 +2550,18 @@ msgstr "आज़माएँ: %s"
 msgid "Turn voices off"
 msgstr "आवाज़ें बंद करें"
 
+msgid "Twenty minutes?"
+msgstr "बीस मिनट?"
+
+msgid "Two hundred springs I've watched people walk past this tree. Not one of them ever lay down under it."
+msgstr "दो सौ वसंत मैंने लोगों को इस पेड़ के पास से गुज़रते देखा। एक भी कभी इसके नीचे नहीं लेटा।"
+
+msgid "Two hundred years, and nobody told me a spirit could feel like that. I'd like it noted that I'm saying this very calmly."
+msgstr "दो सौ साल, और किसी ने नहीं बताया कि एक आत्मा ऐसा महसूस कर सकती है। दर्ज किया जाए कि मैं यह बहुत शांति से कह रही हूँ।"
+
+msgid "Ugh. That's drier than a sponge."
+msgstr "छी। स्पंज से भी सूखा।"
+
 msgid "Unlimited Hearts"
 msgstr "असीमित दिल"
 
@@ -1329,8 +2583,17 @@ msgstr "आवाज़ अभिनय"
 msgid "Voice Volume"
 msgstr "आवाज़ों का वॉल्यूम"
 
+msgid "W-with you? Where would I even..."
+msgstr "त-तुम्हारे साथ? मैं कहाँ..."
+
 msgid "Watch a video: %s"
 msgstr "वीडियो देखें: %s"
+
+msgid "We're getting the second owl, right?"
+msgstr "हम दूसरा उल्लू ले रहे हैं, है न?"
+
+msgid "Well. It worked, which is insulting in its own way. Go on, then. Ask."
+msgstr "ख़ैर। यह काम कर गया, जो अपने आप में अपमानजनक है। चलो, अब। माँगो।"
 
 msgid "What a date!"
 msgstr "क्या डेट थी!"
@@ -1341,8 +2604,32 @@ msgstr "आप क्या कहेंगे?"
 msgid "What she likes"
 msgstr "उसे क्या पसंद है"
 
+msgid "What you want. Gold. Revenge. And sooner or later sex. It always comes to that."
+msgstr "तुम क्या चाहते हो। सोना। बदला। और देर-सबेर सेक्स। बात हमेशा वहीं पहुँचती है।"
+
 msgid "When falling gems make new matches on their own, that's a combo. Each link in the chain scores more than the last."
 msgstr "जब गिरते रत्न अपने-आप नए मेल बनाते हैं, तो वह कॉम्बो है। शृंखला की हर कड़ी पिछली से ज़्यादा अंक देती है।"
+
+msgid "When you climb out you lean on the trunk to get your breath back. The bark is rough and cool under your hand."
+msgstr "बाहर निकलकर तुम साँस लेने के लिए तने से टिकते हो। तुम्हारे हाथ के नीचे छाल खुरदरी और ठंडी है।"
+
+msgid "When you get back, a branch creaks overhead in a way that sounds very deliberate."
+msgstr "जब तुम लौटते हो, ऊपर एक डाल ऐसे चरमराती है जो बहुत जानबूझकर लगती है।"
+
+msgid "Where are my things? They were here. In rows. I-I had them in rows."
+msgstr "मेरी चीज़ें कहाँ हैं? वे यहीं थीं। कतारों में। म-मैंने उन्हें कतारों में रखा था।"
+
+msgid "Where did you get that."
+msgstr "यह तुम्हें कहाँ से मिला।"
+
+msgid "While you fetch coffee from the staff room, she takes a red pencil from your desk and starts correcting the page that started all this."
+msgstr "जब तुम स्टाफ़ रूम से कॉफ़ी लाने जाते हो, वह तुम्हारी मेज़ से लाल पेंसिल उठाकर उस पन्ने को सुधारने लगती है जिससे यह सब शुरू हुआ।"
+
+msgid "Who even likes those?"
+msgstr "वैसे इन्हें पसंद कौन करता है?"
+
+msgid "Why would you do that?"
+msgstr "तुमने ऐसा क्यों किया?"
 
 msgid "Window Shopping"
 msgstr "बस देख रहे थे"
@@ -1353,17 +2640,86 @@ msgstr "Steam पर विशलिस्ट करें"
 msgid "With Moves to Spare"
 msgstr "चालें बचाकर"
 
+msgid "With the lamp down, the only light in your room comes from her: a soft lilac glow that brightens wherever you touch."
+msgstr "दीया धीमा होने पर तुम्हारे कमरे की अकेली रोशनी उससे आती है: एक हल्की बैंगनी चमक जो तुम जहाँ छूते हो वहाँ तेज़ हो जाती है।"
+
 msgid "You"
 msgstr "आप"
 
 msgid "You already have this."
 msgstr "यह आपके पास पहले से है।"
 
+msgid "You also find a little brass clasp wedged under the pier. She takes it from you and turns it over for a long time."
+msgstr "तुम्हें घाट के नीचे फँसा पीतल का एक छोटा हुक भी मिलता है। वह उसे तुमसे ले लेती है और बहुत देर तक घुमाती रहती है।"
+
+msgid "You ask what she means."
+msgstr "तुम पूछते हो उसका मतलब क्या है।"
+
+msgid "You bring it down to the pier after dark. She holds it for a long time without saying anything."
+msgstr "अँधेरा होने पर तुम उसे घाट पर लाते हो। वह बहुत देर तक उसे थामे रहती है, कुछ कहे बिना।"
+
+msgid "You came by with an axe."
+msgstr "तुम कुल्हाड़ी लेकर आए थे।"
+
+msgid "You can actually swim. The first time, you looked like a coat someone had thrown off a pier."
+msgstr "तुम्हें तो सच में तैरना आता है। पहली बार तुम ऐसे लग रहे थे जैसे किसी ने घाट से कोट फेंक दिया हो।"
+
 msgid "You can close this tab now."
 msgstr "अब आप यह टैब बंद कर सकते हैं।"
 
+msgid "You can get dressed now."
+msgstr "अब तुम कपड़े पहन सकते हो।"
+
+msgid "You can hold my hand. If you don't mind it being a bit... wet."
+msgstr "तुम मेरा हाथ पकड़ सकते हो। अगर तुम्हें बुरा न लगे कि वह थोड़ा... गीला है।"
+
+msgid "You can stay with me. My place is quiet."
+msgstr "तुम मेरे साथ रह सकती हो। मेरे यहाँ शांति है।"
+
+msgid "You close the door."
+msgstr "तुम दरवाज़ा बंद करते हो।"
+
+msgid "You copied it off a loose page that fell out of a returned book. It looked nice. You put a candle stub in the middle because it seemed like the kind of thing that wanted a candle."
+msgstr "तुमने उसे एक लौटाई गई किताब से गिरे खुले पन्ने से उतारा। अच्छा लग रहा था। तुमने बीच में मोमबत्ती का एक ठूँठ रख दिया, क्योंकि लगा कि ऐसी चीज़ को मोमबत्ती चाहिए।"
+
+msgid "You could keep one, you know. Just one page. I wouldn't be able to refuse you anything."
+msgstr "तुम एक रख सकते हो, जानते हो। बस एक पन्ना। फिर मैं तुम्हें किसी बात के लिए मना नहीं कर पाऊँगी।"
+
+msgid "You didn't ask what you get out of it."
+msgstr "तुमने यह नहीं पूछा कि तुम्हें इसमें क्या मिलेगा।"
+
+msgid "You dig until sunset. The trench ends up about the length of a coffin, which she points out twice."
+msgstr "तुम सूरज डूबने तक खोदते हो। खाई लगभग एक ताबूत जितनी लंबी बनती है, जिसका ज़िक्र वह दो बार करती है।"
+
+msgid "You don't ask for any of it. You ask if she's all right, because she came out of the smoke coughing."
+msgstr "तुम इनमें से कुछ नहीं माँगते। तुम पूछते हो कि वह ठीक है न, क्योंकि वह धुएँ से खाँसती हुई निकली थी।"
+
+msgid "You don't take your time. She laughs at you, low in her throat, and doesn't complain."
+msgstr "तुम आराम से नहीं करते। वह गले में धीमी हँसी हँसती है, और शिकायत नहीं करती।"
+
+msgid "You don't think about it. You run down the steps, jump off the end of the pier in your clothes, get an arm round her and drag her back."
+msgstr "तुम सोचते नहीं। सीढ़ियाँ उतरकर दौड़ते हो, कपड़ों समेत घाट के सिरे से कूदते हो, उसे बाँह में लपेटते हो और खींच लाते हो।"
+
 msgid "You have %d"
 msgstr "आपके पास %d हैं"
+
+msgid "You hold it very well. That's all I'm admitting."
+msgstr "तुम उसे बहुत अच्छे से पकड़ते हो। बस इतना ही मानती हूँ।"
+
+msgid "You hum when you think. It's nice."
+msgstr "सोचते वक़्त तुम गुनगुनाते हो। अच्छा लगता है।"
+
+msgid "You laugh. She goes pink all the way through, and then she laughs too."
+msgstr "तुम हँसते हो। वह पूरी की पूरी गुलाबी हो जाती है, और फिर वह भी हँसती है।"
+
+msgid "You leave your shoes on the pier, both of them."
+msgstr "तुम अपने जूते घाट पर छोड़ देते हो, दोनों।"
+
+msgid "You look from her to the trunk and back. Her heart is in the tree, then. So what's in her chest? Does she feel every woodpecker? Is the tree her, or is she the tree's way of talking? It doesn't feel like the moment to ask."
+msgstr "तुम उसे और तने को बारी-बारी देखते हो। यानी उसका दिल पेड़ में है। तो उसकी छाती में क्या है? क्या उसे हर कठफोड़वा महसूस होता है? क्या पेड़ वह है, या वह पेड़ का बोलने का ज़रिया है? यह पूछने का सही वक़्त नहीं लगता।"
+
+msgid "You lower the axe. After a moment, you put it down on the grass."
+msgstr "तुम कुल्हाड़ी नीचे करते हो। एक पल बाद उसे घास पर रख देते हो।"
 
 msgid "You need %d more stars."
 msgstr "आपको %d सितारे और चाहिए।"
@@ -1371,8 +2727,143 @@ msgstr "आपको %d सितारे और चाहिए।"
 msgid "You needed %d more points."
 msgstr "आपको %d अंक और चाहिए थे।"
 
+msgid "You point out that the label said newts."
+msgstr "तुम बताते हो कि लेबल पर न्यूट लिखा था।"
+
+msgid "You say another hazel, so she isn't the only one."
+msgstr "तुम कहते हो एक और हेज़ल, ताकि वह अकेली न रहे।"
+
+msgid "You say it back. She listens like she's checking your pronunciation."
+msgstr "तुम उसे दोहराते हो। वह ऐसे सुनती है जैसे तुम्हारा उच्चारण जाँच रही हो।"
+
+msgid "You say it. Amara. She shuts her eyes, as if she's checking your pronunciation one last time."
+msgstr "तुम कहते हो। अमारा। वह आँखें बंद कर लेती है, जैसे आख़िरी बार तुम्हारा उच्चारण जाँच रही हो।"
+
+msgid "You say yes. She talks for an hour without stuttering once."
+msgstr "तुम हाँ कहते हो। वह एक घंटा बोलती है, एक बार भी हकलाए बिना।"
+
+msgid "You shake your head."
+msgstr "तुम सिर हिलाकर मना करते हो।"
+
+msgid "You sit with your back against the trunk while it rains. Every so often she makes a small sound, and you put your hand flat on the bark. Under your palm, right about where you'd have swung the axe, something in the wood is beating. So that answers that."
+msgstr "बारिश के दौरान तुम तने से पीठ टिकाए बैठे रहते हो। बीच-बीच में वह एक हल्की आवाज़ करती है, और तुम छाल पर हथेली सपाट रख देते हो। तुम्हारी हथेली के नीचे, लगभग वहीं जहाँ तुमने कुल्हाड़ी चलाई होती, लकड़ी में कुछ धड़क रहा है। तो सवाल का जवाब मिल गया।"
+
+msgid "You start to take your hand away. She says you don't have to."
+msgstr "तुम हाथ हटाने लगते हो। वह कहती है ज़रूरत नहीं।"
+
+msgid "You stay."
+msgstr "तुम रुक जाते हो।"
+
+msgid "You summoned me with that pathetic chalk circle? Where did you even copy it from? Ugh, I was in the middle of something."
+msgstr "तुमने मुझे उस बेचारे चॉक के घेरे से बुलाया? इसे उतारा कहाँ से? उफ़, मैं किसी काम में थी।"
+
+msgid "You take the lantern off her and tell her to sit down for an hour. You'll do the rocks."
+msgstr "तुम उससे लालटेन लेकर उसे एक घंटा बैठने को कहते हो। चट्टानें तुम सँभालोगे।"
+
+msgid "You tell her about the wall. Her roots are cracking it, and when it goes, the miller loses his mill."
+msgstr "तुम उसे दीवार के बारे में बताते हो। उसकी जड़ें उसमें दरारें डाल रही हैं, और जब वह गिरेगी, चक्कीवाले की चक्की चली जाएगी।"
+
+msgid "You tell her it fell out of a returned book, and you didn't check which one. You step towards the desk to show her."
+msgstr "तुम बताते हो कि यह एक लौटाई गई किताब से गिरा था, और तुमने देखा नहीं कौन-सी। तुम उसे दिखाने के लिए मेज़ की ओर बढ़ते हो।"
+
+msgid "You tell her it isn't strange. She pulls you closer, and for once she doesn't apologise for anything."
+msgstr "तुम कहते हो कि अजीब नहीं है। वह तुम्हें और क़रीब खींचती है, और इस बार वह किसी बात के लिए माफ़ी नहीं माँगती।"
+
+msgid "You tell her she should tell it."
+msgstr "तुम उससे कहते हो कि वह बताए।"
+
+msgid "You tell her to keep it. For storms."
+msgstr "तुम उससे रखने को कहते हो। तूफ़ानों के लिए।"
+
+msgid "You tell her to put yours."
+msgstr "तुम उससे अपना पता लिखने को कहते हो।"
+
+msgid "You tell her you haven't watched a single game."
+msgstr "तुम उसे बताते हो कि तुमने एक भी खेल नहीं देखा।"
+
+msgid "You tell her. The stream has already carried most of it round the bend, towards town."
+msgstr "तुम उसे बताते हो। धारा ज़्यादातर चीज़ें मोड़ के पार, शहर की ओर बहा ले गई है।"
+
+msgid "You turn the lamp down."
+msgstr "तुम दीया धीमा कर देते हो।"
+
+msgid "You wake up in the boathouse on a heap of old sails, with sand in your ears. She's already in the water, arms folded on the edge of the slipway, watching you."
+msgstr "तुम नाव-घर में पुराने पालों के ढेर पर जागते हो, कानों में रेत भरी। वह पहले से पानी में है, ढलान के किनारे बाँहें मोड़े, तुम्हें देखती हुई।"
+
+msgid "You want a thank-you? For that?"
+msgstr "तुम्हें धन्यवाद चाहिए? उसके लिए?"
+
+msgid "You want to hear about buttons?"
+msgstr "तुम बटनों के बारे में सुनना चाहते हो?"
+
+msgid "You were incredible."
+msgstr "तुम कमाल की थीं।"
+
+msgid "You'd burn it."
+msgstr "तुम उसे जला दोगे।"
+
+msgid "You'd have struck just below my heart. It would take... forty years or so to heal."
+msgstr "तुम ठीक मेरे दिल के नीचे मारते। भरने में... लगभग चालीस साल लगते।"
+
+msgid "You're a genius, you're a soaked genius."
+msgstr "तुम जीनियस हो, भीगे हुए जीनियस।"
+
+msgid "You're a terrible influence. Keep going."
+msgstr "तुम मुझ पर बहुत बुरा असर डालते हो। जारी रखो।"
+
+msgid "You're doing well. I'm counting."
+msgstr "तुम अच्छा कर रहे हो। मैं गिन रही हूँ।"
+
+msgid "You're getting good at this. It's annoying."
+msgstr "तुम इसमें अच्छे होते जा रहे हो। चिढ़ होती है।"
+
+msgid "You're good with soft things."
+msgstr "मुलायम चीज़ों के साथ तुम अच्छे हो।"
+
+msgid "You're new in town and you'll take any work that pays. The miller paid you half up front to cut the tree down. You pick a spot on the trunk that looks right, plant your feet and lift the axe."
+msgstr "तुम शहर में नए हो और जो भी काम पैसे दे, ले लेते हो। चक्कीवाले ने पेड़ काटने के लिए तुम्हें आधे पैसे पहले दे दिए। तुम तने पर ठीक लगने वाली जगह चुनते हो, पैर जमाते हो और कुल्हाड़ी उठाते हो।"
+
+msgid "You're not jealous? Your leaves are going red."
+msgstr "तुम्हें जलन नहीं है? तुम्हारे पत्ते लाल हो रहे हैं।"
+
+msgid "You're quicker than you look. You look quite slow."
+msgstr "तुम जितने दिखते हो उससे तेज़ हो। और तुम काफ़ी धीमे दिखते हो।"
+
+msgid "You're shaking. Come in closer, there's a hollow in the trunk that fits you."
+msgstr "तुम काँप रहे हो। और पास आओ, तने में एक खोखल है जिसमें तुम समा जाओगे।"
+
+msgid "You're still warm. Good."
+msgstr "तुम अब भी गर्म हो। अच्छा।"
+
+msgid "You're the best thing I've found in this library."
+msgstr "इस पुस्तकालय में मुझे मिली सबसे अच्छी चीज़ तुम हो।"
+
+msgid "You're welcome, by the way."
+msgstr "वैसे, कोई बात नहीं।"
+
+msgid "You've asked me twice not to sit on this table."
+msgstr "तुमने मुझे दो बार इस मेज़ पर न बैठने को कहा है।"
+
+msgid "You've been in Millbrook three weeks, taking whatever work pays. Tonight that's the late shift at the public library. It's a quarter past midnight, the gas lamps have been out for an hour, the returns cart is still full, and you've drawn a circle on the reading room floor in children's chalk."
+msgstr "तुम्हें मिलब्रुक में तीन हफ़्ते हुए हैं, और जो भी काम पैसे दे, वह ले लेते हो। आज रात वह है सार्वजनिक पुस्तकालय की देर की पाली। आधी रात के सवा बारह बजे हैं, गैस की बत्तियाँ एक घंटे पहले बुझ चुकी हैं, लौटाई किताबों की गाड़ी अब भी भरी है, और तुमने वाचनालय के फ़र्श पर बच्चों की चॉक से एक घेरा बनाया है।"
+
+msgid "You've got mud on your face. Leave it. It suits you."
+msgstr "तुम्हारे चेहरे पर कीचड़ है। रहने दो। अच्छा लगता है।"
+
+msgid "You've got sand on you. Everywhere. That's your problem, I'm not helping."
+msgstr "तुम पर रेत लगी है। हर जगह। तुम्हारी समस्या, मैं मदद नहीं करूँगी।"
+
+msgid "You've helped enough for one day, lifeguard."
+msgstr "आज के लिए तुम काफ़ी मदद कर चुके, जीवनरक्षक।"
+
+msgid "You... jumped in your clothes. For someone you'd never met."
+msgstr "तुम... कपड़ों समेत कूद गए। किसी ऐसे के लिए जिससे कभी मिले भी नहीं।"
+
 msgid "Your best: %d"
 msgstr "आपका सबसे अच्छा: %d"
+
+msgid "Your name would be nice."
+msgstr "तुम्हारा नाम जान लूँ, बस इतना।"
 
 msgid "Your next chapter begins with a free Starburst gem already on the board."
 msgstr "आपका अगला अध्याय बोर्ड पर पहले से रखे एक मुफ़्त तारा-विस्फोट रत्न के साथ शुरू होता है।"
@@ -1388,6 +2879,12 @@ msgstr "आपकी ख़रीदारी लंबित है। Google P
 
 msgid "Your replies"
 msgstr "आपके जवाब"
+
+msgid "Your second ring doesn't close. That sigil is upside down. And this one isn't a sigil at all, it's a coffee stain you traced."
+msgstr "तुम्हारा दूसरा छल्ला बंद नहीं होता। वह मुहर-चिह्न उल्टा है। और यह तो चिह्न है ही नहीं, यह कॉफ़ी का धब्बा है जिसे तुमने उतार लिया।"
+
+msgid "Yours. Fine. I'm bringing my own candles."
+msgstr "तुम्हारा। ठीक है। मोमबत्तियाँ मैं अपनी लाऊँगी।"
 
 msgid "a button"
 msgstr "एक बटन"
