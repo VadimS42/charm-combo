@@ -3,6 +3,18 @@ msgstr ""
 "Language: ar\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 
+msgid "\"Don't even think about it.\""
+msgstr "«لا تفكر في ذلك حتى.»"
+
+msgid "\"I was fine. It was quiet in there.\""
+msgstr "«كنت بخير. كان الهدوء يعمُّ الداخل.»"
+
+msgid "\"I was floating. On my back.\""
+msgstr "«كنت أطفو. على ظهري.»"
+
+msgid "\"You summoned me with that pathetic chalk circle?\""
+msgstr "«استدعيتني بدائرة الطباشير البائسة هذه؟»"
+
 msgid "%d / %d endings found"
 msgstr "%d / %d نهايات مكتشفة"
 
@@ -93,8 +105,17 @@ msgstr "800 نجمة."
 msgid "A Lovely Trench"
 msgstr "خندق جميل"
 
+msgid "A Quiet Place"
+msgstr "مكان هادئ"
+
 msgid "A Thousand Sparkles"
 msgstr "ألف بريق"
+
+msgid "A clock that only works when the sun's out."
+msgstr "ساعة لا تعمل إلا حين تشرق الشمس."
+
+msgid "A cold breeze"
+msgstr "نسمة باردة"
 
 msgid "A comb piece!"
 msgstr "قطعة مشط!"
@@ -102,8 +123,17 @@ msgstr "قطعة مشط!"
 msgid "A comb piece! %d / %d"
 msgstr "قطعة مشط! %d / %d"
 
+msgid "A folding brass sundial small enough for a pocket. It only tells the time on sunny days, which as far as she's concerned are the only days that need it."
+msgstr "مزولة نحاسية قابلة للطي، صغيرة بما يكفي لجيب. لا تخبر الوقت إلا في الأيام المشمسة، وهي في رأيها الأيام الوحيدة التي تحتاج إليه."
+
 msgid "A free date"
 msgstr "موعد حر"
+
+msgid "A glass marble with a ribbon of gold twisted through it, the kind nobody's made for decades."
+msgstr "كرة زجاجية يلتفُّ داخلها شريط ذهبي، من النوع الذي لم يعد أحد يصنعه منذ عقود."
+
+msgid "A leaf drops into your hair. There's no wind."
+msgstr "تسقط ورقة في شعرك. لا ريح."
 
 msgid "A little buzz when gems match."
 msgstr "اهتزاز خفيف حين تتطابق الجواهر."
@@ -123,14 +153,38 @@ msgstr "لوحة جديدة كل يوم، واحدة للجميع: %d حركة،
 msgid "A new seed drops in."
 msgstr "تسقط بذرة جديدة."
 
+msgid "A reader shushes you"
+msgstr "قارئ يُسكتك"
+
+msgid "A sapling beside the new millrace, a ribbon tied round it."
+msgstr "شتلة بجانب قناة الطاحونة الجديدة، مربوط حولها شريط."
+
+msgid "A smooth chip of sea glass, worn soft by years of tide, on a plain cord."
+msgstr "قطعة ناعمة من زجاج البحر، صقلتها سنوات من المد والجزر، على خيط بسيط."
+
+msgid "A squall comes in over the cove. She wants to dive anyway. You hold the rope ladder and argue with her over the wind."
+msgstr "عاصفة مطر تجتاح الخليج. هي تريد الغوص رغم ذلك. تمسك السلم الحبلي وتتجادلان صارخَين في وجه الريح."
+
+msgid "A tall beeswax candle with a nine-hour wick. It burns longer if nobody blows it out."
+msgstr "شمعة طويلة من شمع النحل بفتيل يدوم تسع ساعات. تشتعل أطول إن لم يطفئها أحد."
+
 msgid "A tip"
 msgstr "نصيحة"
+
+msgid "A twig drops, very precisely, into your lunch."
+msgstr "يسقط غصين، بدقة شديدة، في غدائك."
+
+msgid "A wave over the pier"
+msgstr "موجة فوق الرصيف"
 
 msgid "ACHIEVEMENT UNLOCKED"
 msgstr "تم فتح إنجاز"
 
 msgid "About the voices"
 msgstr "عن الأصوات"
+
+msgid "About your reward. Last night was not the reward. I need you to understand that. Last night was separate."
+msgstr "بخصوص مكافأتك. الليلة الماضية لم تكن المكافأة. أحتاج أن تفهم ذلك. الليلة الماضية كانت شيئًا آخر."
 
 msgid "Absorb"
 msgstr "الامتصاص"
@@ -144,17 +198,47 @@ msgstr "الإنجازات"
 msgid "Ad privacy choices"
 msgstr "خيارات خصوصية الإعلانات"
 
+msgid "Admit it. You like having me around."
+msgstr "اعترف. يعجبك وجودي حولك."
+
+msgid "After Hours"
+msgstr "بعد الإغلاق"
+
 msgid "After each chapter you pick a reply. A warm one starts her next chapter with bonus points (two extra moves when the chapter is only her goal); a teasing one costs a few points, but she likes those too."
 msgstr "بعد كل فصل تختار ردًّا. الرد الدافئ يبدأ فصلها التالي بنقاط إضافية (حركتان إضافيتان حين يكون الفصل هدفها فقط)، والرد المشاكس يكلِّفك بضع نقاط، لكنها تحب ذلك أيضًا."
 
 msgid "After that, her favourite gem shows up more often in all her chapters, for good."
 msgstr "بعدها تظهر جوهرتها المفضلة أكثر في كل فصولها، إلى الأبد."
 
+msgid "After the comb, it can be a big thing."
+msgstr "بعد المشط، يمكن أن يصير أمرًا كبيرًا."
+
+msgid "Afterwards she lies with her head on your chest, her tail curled down the slipway into the water, flicking now and then."
+msgstr "بعد ذلك تستلقي ورأسها على صدرك، وذيلها ملتفٌّ على منحدر القوارب حتى الماء، يرتعش بين حين وآخر."
+
+msgid "Afterwards she's spread across most of the bed and some of you, glowing faintly, humming something Ambrose used to whistle."
+msgstr "بعد ذلك تكون ممتدة على معظم السرير وعلى بعضك، متوهجة بخفوت، تدندن لحنًا كان أمبروز يصفِّره."
+
+msgid "Afterwards you lie in the moss with her hair across your chest. Overhead, every leaf on her east side has turned pale side up, the way they do before a storm. There's no storm."
+msgstr "بعد ذلك تستلقي في الطحلب وشعرها على صدرك. في الأعلى، كل ورقة في جانبها الشرقي انقلبت فصار وجهها الشاحب إلى أعلى، كما تفعل قبل العاصفة. لا عاصفة."
+
+msgid "Against an alchemist? You sold my buttons for two coppers and bought them back for six."
+msgstr "ضد خيميائي؟ بعت أزراري بقطعتين نحاسيتين واشتريتها بست."
+
+msgid "Alchemists boil slimes down for glue. Did you know that? Twelve shillings a pound."
+msgstr "الخيميائيون يغلون الهلاميات ليصنعوا الغراء. أكنت تعرف؟ اثنا عشر شلنًا للرطل."
+
 msgid "All rules"
 msgstr "كل القواعد"
 
+msgid "All spring, by hand? I guess I'll have to get used to you."
+msgstr "الربيع كله، باليد؟ يبدو أن عليَّ أن أعتاد عليك."
+
 msgid "All the girls"
 msgstr "كل الفتيات"
+
+msgid "Amara Duskrose"
+msgstr "أمارا داسكروز"
 
 msgid "Amara's power: Correct Lines"
 msgstr "قوة أمارا: تصحيح السطور"
@@ -162,11 +246,29 @@ msgstr "قوة أمارا: تصحيح السطور"
 msgid "Amara's seals broken"
 msgstr "أختام أمارا المكسورة"
 
+msgid "Amara. It's the one I use. The real one is in the book, along with everything else that keeps me on a leash."
+msgstr "أمارا. هذا الاسم الذي أستخدمه. الحقيقي في الكتاب، مع كل ما يبقيني مقيَّدة."
+
 msgid "Amara: break every seal"
 msgstr "أمارا: اكسر كل الأختام"
 
 msgid "Amara: sealed pages"
 msgstr "أمارا: صفحات مختومة"
+
+msgid "Ambrose wrote that label. He was the forester. When the alchemists came round buying slimes, he hid me out here. It worked for thirty-one years."
+msgstr "أمبروز كتب ذلك الملصق. كان حارس الغابة. حين جاء الخيميائيون يشترون الهلاميات، خبَّأني هنا. نجح ذلك واحدًا وثلاثين عامًا."
+
+msgid "An owl startles her"
+msgstr "بومة تفزعها"
+
+msgid "And this time, take your clothes off before you jump in."
+msgstr "وهذه المرة، اخلع ثيابك قبل أن تقفز."
+
+msgid "And you still haven't asked me for anything."
+msgstr "وما زلت لم تطلب مني شيئًا."
+
+msgid "And you're not going to tell anyone either, are you, lifeguard?"
+msgstr "وأنت أيضًا لن تخبر أحدًا، أليس كذلك يا منقذ؟"
 
 msgid "Another date"
 msgstr "موعد آخر"
@@ -176,6 +278,9 @@ msgstr "أي تطابق صحيح ينهي هدف الفصل فورًا ويمن�
 
 msgid "Anything you've bought on this Google account comes back in a moment."
 msgstr "كل ما اشتريته بحساب Google هذا سيعود بعد لحظات."
+
+msgid "At the Midsummer Tide the whole family swims out to the rocks, and Gran wears nine pearls in her hair and pretends not to notice everyone watching her."
+msgstr "في مدِّ منتصف الصيف تسبح العائلة كلها إلى الصخور، والجدة تضع تسع لآلئ في شعرها وتتظاهر بأنها لا تلاحظ أن الجميع ينظرون إليها."
 
 msgid "Auto"
 msgstr "تلقائي"
@@ -216,14 +321,32 @@ msgstr "أفضل موعد مع %s"
 msgid "Best value"
 msgstr "أفضل قيمة"
 
+msgid "Better than the last one the miller sent."
+msgstr "أفضل من الأخير الذي أرسله الطحَّان."
+
+msgid "Between the roots of an old oak, someone has dug a little hollow and lined it with moss. In it sits a big glass jar, sealed with wax. The label says PICKLED NEWTS, DO NOT OPEN, in handwriting that's trying to be funny."
+msgstr "بين جذور بلوطة قديمة، حفر أحدهم تجويفًا صغيرًا وفرشه بالطحلب. فيه برطمان زجاجي كبير مختوم بالشمع. الملصق يقول: سمادل مخللة، لا تفتح، بخط يحاول أن يكون ظريفًا."
+
 msgid "Bigger text everywhere: dialogue, menus and the puzzle."
 msgstr "نص أكبر في كل مكان: الحوار والقوائم واللغز."
+
+msgid "Black cover. No title. It'll feel warm. Don't open it."
+msgstr "غلاف أسود. بلا عنوان. سيكون دافئًا. لا تفتحه."
 
 msgid "Blossom! +%d"
 msgstr "زهرة! +%d"
 
+msgid "Blossom."
+msgstr "إزهار."
+
 msgid "Blossoms"
 msgstr "الأزهار"
+
+msgid "Board, lifeguard. Not me."
+msgstr "عيناك على اللوحة يا منقذ. لا عليَّ."
+
+msgid "Boathouse. It's got a door. Gran can't see through doors. Probably."
+msgstr "سقيفة القوارب. لها باب. جدتي لا ترى عبر الأبواب. على الأرجح."
 
 msgid "Bookbinder"
 msgstr "مجلِّد الكتب"
@@ -231,11 +354,23 @@ msgstr "مجلِّد الكتب"
 msgid "Boom!"
 msgstr "بوم!"
 
+msgid "Brambles underfoot"
+msgstr "أشواك تحت القدمين"
+
+msgid "Brass Pocket Sundial"
+msgstr "مزولة نحاسية للجيب"
+
 msgid "Break 50 of Amara's seals."
 msgstr "اكسر 50 ختمًا لأمارا."
 
 msgid "Bring 10 comb pieces up for Marina."
 msgstr "ارفع 10 قطع مشط لمارينا."
+
+msgid "But I'll allow it. Bring the shovel tomorrow though."
+msgstr "لكنني سأتغاضى. أحضر المجرفة غدًا على أي حال."
+
+msgid "But she's a little pinker than she was."
+msgstr "لكنها أكثر احمرارًا قليلًا مما كانت."
 
 msgid "Buy"
 msgstr "اشترِ"
@@ -249,6 +384,15 @@ msgstr "اشترِ · %d"
 msgid "Buy · %d ⭐"
 msgstr "اشترِ · %d ⭐"
 
+msgid "By the end of the month the old wall has stopped cracking. The new millrace runs clean, and Aldous Brock stands on the bank for a long time with his hat in his hands."
+msgstr "بنهاية الشهر يكفُّ الجدار القديم عن التشقق. تجري قناة الطاحونة الجديدة صافية، ويقف ألدوس بروك طويلًا على الضفة وقبعته في يديه."
+
+msgid "By two in the morning you've checked every book returned this month. No black cover. One very overdue cookbook, which she opens, reads a page of, and closes in disgust."
+msgstr "بحلول الثانية صباحًا تكون قد فحصت كل كتاب أُعيد هذا الشهر. لا غلاف أسود. كتاب طبخ متأخر جدًّا، تفتحه وتقرأ منه صفحة وتغلقه باشمئزاز."
+
+msgid "C-can I sleep in your room tonight? Not in the jar. With you."
+msgstr "ه-هل يمكنني أن أنام في غرفتك الليلة؟ ليس في البرطمان. معك."
+
 msgid "CHAPTER GOAL"
 msgstr "هدف الفصل"
 
@@ -258,8 +402,17 @@ msgstr "قطع المشط"
 msgid "COMING UP"
 msgstr "قريبًا"
 
+msgid "Can we not? Please?"
+msgstr "هل يمكن ألا نفعل؟ أرجوك؟"
+
+msgid "Can you... turn the lamp down a bit?"
+msgstr "هل يمكنك... أن تخفض المصباح قليلًا؟"
+
 msgid "Cancel"
 msgstr "إلغاء"
+
+msgid "Careful. If you keep staring at me like that, I'll start thinking you summoned me on purpose."
+msgstr "احذر. إن واصلت التحديق بي هكذا، سأبدأ في الظن أنك استدعيتني عمدًا."
 
 msgid "Carry on without clearing this chapter (no stars for it)."
 msgstr "تابع دون إنهاء هذا الفصل (بلا نجوم له)."
@@ -309,6 +462,9 @@ msgstr "رنين للتطابقات والسلاسل والقوائم."
 msgid "Choose"
 msgstr "اختر"
 
+msgid "Clean lines. I'm almost proud of you."
+msgstr "خطوط نظيفة. أكاد أفخر بك."
+
 msgid "Clear Hazel's first chapter."
 msgstr "أنهِ فصل هيزل الأول."
 
@@ -324,6 +480,9 @@ msgstr "أنهِ فصلًا وتبقى لديك 5 حركات أو أكثر."
 msgid "Clear a cursed shard with the Hammer."
 msgstr "امسح شظية ملعونة بالمطرقة."
 
+msgid "Clear all the way through. Like me."
+msgstr "شفافة من أولها لآخرها. مثلي."
+
 msgid "Clear any chapter to unlock the daily challenge."
 msgstr "أنهِ أي فصل لتفتح تحدي اليوم."
 
@@ -338,6 +497,12 @@ msgstr "النقر أو المسافة أو Enter: السطر التالي. اض
 
 msgid "Close"
 msgstr "إغلاق"
+
+msgid "Close enough."
+msgstr "قريب بما يكفي."
+
+msgid "Close enough. You can keep using it."
+msgstr "قريب بما يكفي. يمكنك أن تواصل استخدامه."
 
 msgid "Close settings"
 msgstr "إغلاق الإعدادات"
@@ -356,6 +521,12 @@ msgstr "سلسلة x%d!"
 
 msgid "Combos"
 msgstr "السلاسل"
+
+msgid "Come here. That's an order, and I'm only giving it once before I come over there and get you."
+msgstr "تعالَ إلى هنا. هذا أمر، ولن أعطيه إلا مرة واحدة قبل أن آتي وآخذك بنفسي."
+
+msgid "Come on. Binders keep ledgers. If he sold them, he wrote down who to."
+msgstr "هيا. المجلِّدون يحتفظون بدفاتر حسابات. إن باعها فقد كتب لمن."
 
 msgid "Continue"
 msgstr "متابعة"
@@ -378,6 +549,9 @@ msgstr "الشكر والتقدير"
 msgid "Crystal"
 msgstr "بلّورة"
 
+msgid "Crystal. I'd keep that one."
+msgstr "بلورة. هذه كنت سأحتفظ بها."
+
 msgid "Cursed Shard"
 msgstr "شظية ملعونة"
 
@@ -393,17 +567,71 @@ msgstr "تحدي اليوم: %d نقطة"
 msgid "Dark, cracked shards cost you points when they're part of a match. The Hammer smashes one for free."
 msgstr "الشظايا الداكنة المشروخة تخصم من نقاطك حين تدخل في تطابق. المطرقة تحطِّم واحدة مجانًا."
 
+msgid "Day four. Word's got round that someone is digging by the old hazel instead of cutting it down. The miller's daughter brings you lunch, and you walk her back as far as the footbridge."
+msgstr "اليوم الرابع. انتشر خبر أن أحدهم يحفر عند شجرة البندق العجوز بدل قطعها. ابنة الطحَّان تحضر لك الغداء، وتوصلها عائدًا حتى جسر المشاة."
+
+msgid "Day three. She's been in the water since dawn, and she misses the rope ladder twice trying to climb onto the pier. At the far end, three old fishermen are setting out their Thursday tile game by lamplight."
+msgstr "اليوم الثالث. هي في الماء منذ الفجر وتخطئ السلم الحبلي مرتين وهي تحاول الصعود إلى الرصيف. في الطرف الآخر، ثلاثة صيادين عجائز يجهِّزون لعبة الحصى الخاصة بيوم الخميس على ضوء الفانوس."
+
+msgid "Dead leaves come down"
+msgstr "أوراق يابسة تتساقط"
+
 msgid "Dialogue controls"
 msgstr "التحكم في الحوار"
 
 msgid "Difficulty"
 msgstr "الصعوبة"
 
+msgid "Dig faster. I'd like to see another spring."
+msgstr "احفر أسرع. أودُّ أن أرى ربيعًا آخر."
+
+msgid "Dig your trench. Sleeves up!"
+msgstr "احفر خندقك. شمِّر عن ساعديك!"
+
 msgid "Dislikes"
 msgstr "لا تحب"
 
+msgid "Do that again. Slower."
+msgstr "أعِدها. أبطأ."
+
 msgid "Don't Even Think About It"
 msgstr "لا تفكر في ذلك حتى"
+
+msgid "Don't even think about it."
+msgstr "لا تفكر في ذلك حتى."
+
+msgid "Don't go before morning. I'll know if you do. I'll hear the door."
+msgstr "لا تذهب قبل الصباح. سأعرف إن ذهبت. سأسمع الباب."
+
+msgid "Don't look at them. They're not for you. They're seasonal."
+msgstr "لا تنظر إليها. ليست لك. إنها موسمية."
+
+msgid "Don't look so pleased with yourself. Actually, no. Look exactly that pleased."
+msgstr "لا تبدُ راضيًا عن نفسك هكذا. لا، في الحقيقة. ابدُ راضيًا تمامًا هكذا."
+
+msgid "Don't put me back in the jar yet. I want to go home on my own. Well. Not walk. You know."
+msgstr "لا تعِدني إلى البرطمان بعد. أريد أن أعود إلى البيت وحدي. حسنًا. ليس مشيًا. تعرف ما أقصد."
+
+msgid "Don't say it like that. Like it matters."
+msgstr "لا تقلها هكذا. كأنها تعني شيئًا."
+
+msgid "Don't. Don't you dare."
+msgstr "لا. إياكِ أن تجرئي."
+
+msgid "Don't. Just don't."
+msgstr "لا. فقط لا."
+
+msgid "Don't... look at me like that."
+msgstr "لا... تنظر إليَّ هكذا."
+
+msgid "Down on the pier, a whole family is yelling at the water. Out past the rocks, a woman is floating face up, perfectly still, her hair spread out round her."
+msgstr "في الأسفل على الرصيف، عائلة كاملة تصرخ نحو الماء. خلف الصخور، امرأة تطفو على ظهرها، ساكنة تمامًا، وشعرها منتشر حولها."
+
+msgid "Dryad of the old hazel"
+msgstr "حورية شجرة البندق العجوز"
+
+msgid "Dust off the top shelf"
+msgstr "غبار من الرف العلوي"
 
 msgid "Each chapter has a goal and a number of moves. At first it's points; from her third chapter it's something of hers to do on the board, and in her last both. Reach it before your moves run out and the story carries on. There's no timer: take as long as you like."
 msgstr "لكل فصل هدف وعدد من الحركات. في البداية يكون الهدف نقاطًا؛ ومن فصلها الثالث يصبح شيئًا تفعله لأجلها على اللوحة، وفي الأخير الاثنين معًا. حقِّقه قبل أن تنفد حركاتك فتستمر القصة. لا يوجد مؤقِّت: خذ وقتك."
@@ -413,6 +641,9 @@ msgstr "يعرض كل نوع من الجواهر رقمًا، فلا تحتاج 
 
 msgid "Easy"
 msgstr "سهل"
+
+msgid "Eat your lunch. I'm sure her bread is very good. I wouldn't know."
+msgstr "كُل غداءك. أنا متأكدة أن خبزها لذيذ جدًّا. لا أعرف."
 
 msgid "Ember"
 msgstr "جمرة"
@@ -444,14 +675,35 @@ msgstr "لكل فتاة جوهرة مفضلة وأخرى لا تحبها (على
 msgid "Every match fills the Charm ring. In a girl's first chapter a full ring is a Charm Burst: +150 points. From her second chapter it's one use of her own power instead: its button lights up next to the ring, use it when you like. The ring fills again after."
 msgstr "كل تطابق يملأ حلقة السحر. في الفصل الأول لكل فتاة، الحلقة الممتلئة تعني انفجار السحر: +150 نقطة. ومن فصلها الثاني تصبح بدلًا من ذلك استخدامًا واحدًا لقوتها الخاصة: يضيء زرها بجانب الحلقة، فاستخدمه متى شئت. ثم تمتلئ الحلقة من جديد."
 
+msgid "Every one of those pages is part of my binding. Somebody has been buying them."
+msgstr "كل صفحة من تلك جزء من قيدي. أحدهم يشتريها."
+
+msgid "Every one? That's four hundred and twelve buttons."
+msgstr "كلها؟ إنها أربعمئة واثنا عشر زرًّا."
+
 msgid "Every seed and sprout on the board grows one stage."
 msgstr "تنمو كل بذرة وكل برعم على اللوحة مرحلة واحدة."
+
+msgid "Everyone keeps asking about the comb and I'm running out of excuses."
+msgstr "الجميع يسأل عن المشط، وأعذاري تنفد."
 
 msgid "Everything — music and sound effects."
 msgstr "كل شيء — الموسيقى والمؤثرات الصوتية."
 
+msgid "Ex-excuse me. That's my eye. I mean... It's in my collection. I'd like it back, please."
+msgstr "ع-عذرًا. تلك عيني. أقصد... إنها من مجموعتي. أودُّ استعادتها، من فضلك."
+
+msgid "Eyes on the board. I'll still be here."
+msgstr "عيناك على اللوحة. سأبقى هنا."
+
 msgid "Fast"
 msgstr "سريعة"
+
+msgid "Faster. And alphabetise properly. I've seen your circle."
+msgstr "أسرع. ورتِّب أبجديًّا كما يجب. رأيت دائرتك."
+
+msgid "Faster. Tide's turning."
+msgstr "أسرع. المدُّ ينقلب."
 
 msgid "Fill the Charm ring for a Charm Burst."
 msgstr "املأ حلقة السحر لانفجار السحر."
@@ -468,6 +720,12 @@ msgstr "اعثر على 30 من أشياء أوبال الضائعة تحت ال
 msgid "Finders Keepers"
 msgstr "من وجد احتفظ"
 
+msgid "Fine. They're for you. I haven't flowered out of season since before the mill was built. The animals are going to talk."
+msgstr "حسنًا. إنها لك. لم أزهر في غير موسمي منذ ما قبل بناء الطاحونة. ستثرثر الحيوانات."
+
+msgid "Fine. You're not a menace anymore. You can help me. Don't get excited."
+msgstr "حسنًا. لم تعد مصدر إزعاج. يمكنك أن تساعدني. لا تفرح كثيرًا."
+
 msgid "Finish Hazel's story picking every warm reply."
 msgstr "أنهِ قصة هيزل باختيار كل رد دافئ."
 
@@ -477,14 +735,35 @@ msgstr "أنهِ قصة هيزل وأنت تشاكسها في كل رد."
 msgid "Finish a daily challenge."
 msgstr "أنهِ تحديًا يوميًا."
 
+msgid "Fire. In a grove. Really?"
+msgstr "نار. في بستان. حقًّا؟"
+
+msgid "Flattery. Good. Keep going."
+msgstr "تملُّق. جيد. واصل."
+
 msgid "For bug reports: send the newest godot.log from this folder."
 msgstr "للإبلاغ عن الأخطاء: أرسِل أحدث ملف godot.log من هذا المجلد."
 
 msgid "For sticking with it: a free Time Scroll!"
 msgstr "لأنك لم تستسلم: لفافة زمن مجانية!"
 
+msgid "For the record: four hundred-odd summonings, several kings and one very enthusiastic bishop. None of them came close. I'm only telling you once."
+msgstr "للتسجيل: أربعمئة ونيِّف من الاستدعاءات، وعدة ملوك، وأسقف متحمس جدًّا. لم يقترب أحد منهم. لن أقولها إلا مرة."
+
+msgid "Forty years, I said. Mind where you swing."
+msgstr "أربعون عامًا، قلت. انتبه أين تضرب."
+
 msgid "Found under the moss: %s"
 msgstr "وُجد تحت الطحلب: %s"
+
+msgid "Four hundred and twelve buttons, twenty-six keys, a glass eye and two owls. The alchemist's men are felling the north woods now, so Opal is staying with you, and her collection takes up a whole shelf in your front room. She rearranges it twice."
+msgstr "أربعمئة واثنا عشر زرًّا، وستة وعشرون مفتاحًا، وعين زجاجية، وبومتان. رجال الخيميائي يقطعون الغابات الشمالية الآن، لذا تقيم أوبال عندك، ومجموعتها تشغل رفًّا كاملًا في غرفة جلوسك. تعيد ترتيبها مرتين."
+
+msgid "Four hundred and twelve buttons. Twenty-six keys. A glass eye. Everyone who comes through these woods drops something, and I kept it."
+msgstr "أربعمئة واثنا عشر زرًّا. ستة وعشرون مفتاحًا. عين زجاجية. كل من يمرُّ بهذه الغابة يُسقط شيئًا، وأنا احتفظت به."
+
+msgid "Four hundred buttons is a lot of strangers' buttons."
+msgstr "أربعمئة زر هي أزرار كثيرة لغرباء."
 
 msgid "Free date"
 msgstr "موعد حر"
@@ -494,6 +773,9 @@ msgstr "نجوم مجانية"
 
 msgid "Free: %s"
 msgstr "مجانًا: %s"
+
+msgid "Frosted Sea-Glass Pendant"
+msgstr "قلادة من زجاج البحر المصنفر"
 
 msgid "Fullscreen"
 msgstr "ملء الشاشة"
@@ -507,6 +789,12 @@ msgstr "أرقام الجواهر"
 msgid "Gems cleared"
 msgstr "الجواهر الممسوحة"
 
+msgid "Gently. Like that."
+msgstr "برفق. هكذا."
+
+msgid "Get that holy rock away from me."
+msgstr "أبعِد عني هذا الحجر المقدس."
+
 msgid "Girls"
 msgstr "الفتيات"
 
@@ -516,11 +804,35 @@ msgstr "أهدِ هيزل المزولة النحاسية للجيب."
 msgid "Give her the %s"
 msgstr "أهدِها: %s"
 
+msgid "Gold swirl. They stopped making these before I went in the jar. Where did you even find it?"
+msgstr "دوامة ذهبية. توقفوا عن صنعها قبل أن أدخل البرطمان. أين وجدتها أصلًا؟"
+
 msgid "Google Play isn't reachable right now. Try again in a moment."
 msgstr "لا يمكن الوصول إلى Google Play الآن. حاول بعد قليل."
 
 msgid "Got it"
 msgstr "حسنًا"
+
+msgid "Gran at the Midsummer Tide, her pearl comb in her hair."
+msgstr "الجدة في مدِّ منتصف الصيف، ومشط اللؤلؤ في شعرها."
+
+msgid "Gran wears the comb at the Midsummer Tide and never finds out it was lost. Marina tells her anyway, a month later, and Gran laughs so hard she has to be helped onto a rock. Marina tells the story of how you met at every family dinner after that, and it gets bigger every time. Gran corrects her every time, and every time she sets a place for you without asking."
+msgstr "تلبس الجدة المشط في مدِّ منتصف الصيف ولا تعرف أبدًا أنه ضاع. تخبرها مارينا على أي حال بعد شهر، فتضحك الجدة حتى يضطروا إلى مساعدتها على الصعود إلى صخرة. بعد ذلك تروي مارينا كيف التقيتما في كل عشاء عائلي، وتكبر القصة في كل مرة. في كل مرة تصحِّحها الجدة، وفي كل مرة تضع لك صحنًا دون أن يطلب أحد."
+
+msgid "Gran's asked you to the family dinner, which is not a small thing, people have married into this family and never been asked to the family dinner."
+msgstr "دعتك جدتي إلى عشاء العائلة، وهذا ليس أمرًا صغيرًا، فهناك من تزوجوا في هذه العائلة ولم يُدعَوا قط إلى عشاء العائلة."
+
+msgid "Gran's going to know. She always knows. She's going to look at me over breakfast and just know."
+msgstr "جدتي ستعرف. هي تعرف دائمًا. ستنظر إليَّ على الفطور وتعرف فحسب."
+
+msgid "Gran's going to wear it at the Tide and never know. Nobody's ever going to know you did this."
+msgstr "ستلبسه جدتي في المدِّ ولن تعرف أبدًا. لن يعرف أحد أبدًا أنك فعلت هذا."
+
+msgid "Gran, I'm fine. I'm always like that."
+msgstr "جدتي، أنا بخير. أنا هكذا دائمًا."
+
+msgid "Greedy. Oh, so you'll make him pay you to help me? I like that."
+msgstr "طمَّاع. أوه، إذن ستجعله يدفع لك لتساعدني؟ يعجبني ذلك."
 
 msgid "Grow 25 of Hazel's blossoms."
 msgstr "أنمِ 25 زهرة لهيزل."
@@ -530,6 +842,9 @@ msgstr "أنمِ ما يكفي من البذور حتى تزهر لتفوز. ت�
 
 msgid "Hammer"
 msgstr "المطرقة"
+
+msgid "Hand-Dipped Beeswax Candle"
+msgstr "شمعة شمع نحل مغموسة يدويًا"
 
 msgid "Handful of Stars"
 msgstr "حفنة نجوم"
@@ -543,6 +858,9 @@ msgstr "صعب: كل بضع حركات يحدث شيء في موعدك (موجة
 msgid "Hard: things happen on your date"
 msgstr "صعب: تحدث أشياء في موعدك"
 
+msgid "Hazel Mossgrove"
+msgstr "هيزل موسغروف"
+
 msgid "Hazel's blossoms grown"
 msgstr "أزهار هيزل المتفتحة"
 
@@ -554,6 +872,18 @@ msgstr "هيزل: أنبِت الأزهار"
 
 msgid "Hazel: seeds"
 msgstr "هيزل: البذور"
+
+msgid "He tells you to keep the money. Then he walks over and pats the hazel's trunk, awkwardly, like a man apologising to a horse."
+msgstr "يقول لك أن تحتفظ بالمال. ثم يتقدم ويربِّت على جذع شجرة البندق، بارتباك، كرجل يعتذر لحصان."
+
+msgid "He took it apart. To sell it page by page."
+msgstr "لقد فكَّكه. ليبيعه صفحةً صفحة."
+
+msgid "He used to tap on the glass every morning twice so I'd know it was him."
+msgstr "كان ينقر على الزجاج مرتين كل صباح لأعرف أنه هو."
+
+msgid "He's never done that. Forty springs, and he's never once done that."
+msgstr "لم يفعل ذلك قط. أربعون ربيعًا، ولم يفعله مرة واحدة."
 
 msgid "Hear the girls speak their lines."
 msgstr "اسمع الفتيات ينطقن أسطرهن."
@@ -570,8 +900,20 @@ msgstr "القلوب: خسارة فصل تكلِّف قلبًا، وتعود م�
 msgid "Her board with no move limit, just for fun and a high score."
 msgstr "لوحتها بلا حد للحركات، للمتعة وتحقيق رقم قياسي فقط."
 
+msgid "Her corrections in red pencil, all over the loose page that started it."
+msgstr "تصحيحاتها بالقلم الأحمر، في كل أنحاء الصفحة السائبة التي بدأ بها كل شيء."
+
 msgid "Her ending"
 msgstr "نهايتها"
+
+msgid "Her entire family is, in fact, right there. A grandmother, a mother, three sisters. One of the sisters is laughing so hard she can barely ask, out loud, whether Mari is going to thank her lifeguard."
+msgstr "عائلتها كلها هناك فعلًا. جدة، وأم، وثلاث أخوات. إحدى الأخوات تضحك حتى بالكاد تستطيع أن تسأل بصوت عالٍ إن كانت ماري ستشكر منقذها."
+
+msgid "Her family slips off the end of the pier one by one and swims home round the point, very slowly, looking back the whole way. She waits until they're out of earshot."
+msgstr "تنزلق عائلتها واحدًا تلو الآخر من طرف الرصيف وتسبح عائدة حول اللسان البحري، ببطء شديد، تلتفت طوال الطريق. تنتظر حتى لا يعود بإمكانهم السماع."
+
+msgid "Her father came by this morning. He'll give you until the end of the month. Then he hires someone with a saw."
+msgstr "أبوها مرَّ هذا الصباح. يمهلك حتى آخر الشهر. بعدها يستأجر أحدًا بمنشار."
 
 msgid "Her favourite gem scores double and fills Charm faster; the one she dislikes scores half."
 msgstr "جوهرتها المفضلة تمنح ضعف النقاط وتملأ السحر أسرع، والتي لا تحبها تمنح نصف النقاط."
@@ -582,11 +924,26 @@ msgstr "هديتها"
 msgid "Her gift: more of her favourite gem"
 msgstr "هديتها: المزيد من جوهرتها المفضلة"
 
+msgid "Her grandmother says, mildly, that they'd been calling her for twenty minutes, that the tide's on the turn, and that this nice person was the only one who did anything about it."
+msgstr "تقول جدتها بلطف إنهم كانوا ينادونها منذ عشرين دقيقة، وإن المدَّ على وشك أن ينقلب، وإن هذا الشخص اللطيف هو الوحيد الذي فعل شيئًا."
+
+msgid "Her hands are warm now. They were cold the first time you touched the bark. She sees you notice."
+msgstr "يداها دافئتان الآن. كانتا باردتين أول مرة لمست فيها اللحاء. ترى أنك لاحظت."
+
+msgid "Her jar sits at the end of the shelf with the lid off. She hasn't been in it for three days."
+msgstr "برطمانها في آخر الرف بلا غطاء. لم تدخله منذ ثلاثة أيام."
+
+msgid "Her library card has your address on it in small, furious handwriting. She moves in with forty candles and opinions about your bookshelf, which she reorganises by how much she disliked each book. Your favourite goes on the bottom shelf. Most nights she's still at the late desk when your shift ends, and she walks you home by the river even though it's longer."
+msgstr "بطاقة مكتبتها تحمل عنوانك بخط صغير غاضب. تنتقل للعيش معك ومعها أربعون شمعة وآراء في رف كتبك، الذي تعيد ترتيبه حسب مقدار كرهها لكل كتاب. كتابك المفضل ينتهي في الرف السفلي. في أغلب الليالي تكون ما تزال عند مكتب النوبة المتأخرة حين تنتهي نوبتك، وتوصلك إلى البيت بمحاذاة النهر رغم أنه أطول."
+
 msgid "Her night scene"
 msgstr "مشهدها الليلي"
 
 msgid "Her powers used"
 msgstr "القوى المستخدمة"
+
+msgid "Her sisters start watching"
+msgstr "أخواتها يبدأن بالمشاهدة"
 
 msgid "Her story carries on as if you'd cleared it. You don't get its stars."
 msgstr "تستمر قصتها كأنك أنهيته. لن تحصل على نجومه."
@@ -603,6 +960,9 @@ msgstr "المدّ العالي"
 msgid "High Tide!"
 msgstr "المدّ العالي!"
 
+msgid "High Water"
+msgstr "المدُّ العالي"
+
 msgid "Home"
 msgstr "الرئيسية"
 
@@ -611,6 +971,9 @@ msgstr "مدى سرعة ظهور الحوار."
 
 msgid "How long Auto waits after each line (left = quicker)."
 msgstr "كم ينتظر الوضع التلقائي بعد كل سطر (اليسار = أسرع)."
+
+msgid "How long have you been out here on your own?"
+msgstr "منذ متى وأنتِ هنا وحدك؟"
 
 msgid "How loud the background music plays."
 msgstr "مدى علوِّ موسيقى الخلفية."
@@ -621,14 +984,170 @@ msgstr "مدى علوِّ أصواتهن."
 msgid "How to Play"
 msgstr "طريقة اللعب"
 
+msgid "Huh. Nobody's ever told me to slow down. They just assume I've got it handled."
+msgstr "همم. لم يقل لي أحد قط أن أبطئ. الجميع يفترض أنني أتدبر الأمر."
+
+msgid "I can walk as far as my roots go. They go a long way now. Thanks to someone."
+msgstr "أستطيع أن أمشي بقدر ما تمتد جذوري. إنها تمتد بعيدًا الآن. بفضل أحدهم."
+
+msgid "I destroyed kingdoms, and you're making me wait?!"
+msgstr "دمَّرت ممالك، وأنت تجعلني أنتظر؟!"
+
+msgid "I did that. Did you see? I did that out loud."
+msgstr "أنا فعلت ذلك. أرأيت؟ قلته بصوت عالٍ."
+
+msgid "I don't like those. Sorry."
+msgstr "لا أحب تلك. آسفة."
+
+msgid "I had to drop a branch on the last guy, but don't worry, your face is too nice."
+msgstr "اضطررت أن أسقط غصنًا على الأخير، لكن لا تقلق، وجهك أجمل من ذلك."
+
+msgid "I have to tell you something. I kept something of yours. On the first day."
+msgstr "عليَّ أن أخبرك شيئًا. احتفظت بشيء لك. في اليوم الأول."
+
+msgid "I know about the wall. My roots go where the water is. I can't control it."
+msgstr "أعرف عن الجدار. جذوري تذهب حيث الماء. لا أستطيع التحكم في ذلك."
+
+msgid "I know. You were still gone forty minutes, not that I was counting."
+msgstr "أعرف. ومع ذلك غبت أربعين دقيقة، لا أنني كنت أعدُّ."
+
+msgid "I like having someone to hold the bucket."
+msgstr "يعجبني وجود من يمسك الدلو."
+
+msgid "I lose things. You've noticed. I'm not losing this one."
+msgstr "أنا أضيِّع الأشياء. لاحظت ذلك. هذه لن أضيِّعها."
+
+msgid "I should tell you I don't know what I'm doing. I've only heard about this. Through glass. People say a lot on a forest path when they think no one's listening."
+msgstr "عليَّ أن أخبرك أنني لا أعرف ماذا أفعل. سمعت عن هذا فقط. عبر الزجاج. الناس يقولون الكثير على درب الغابة حين يظنون أن أحدًا لا يسمع."
+
+msgid "I still owe you a reward. I haven't decided what it is yet. Don't look at me like that, I'm deciding."
+msgstr "ما زلت مدينة لك بمكافأة. لم أقرر بعد ما هي. لا تنظر إليَّ هكذا، أنا أقرر."
+
+msgid "I was fine. It was quiet in there."
+msgstr "كنت بخير. كان الهدوء يعمُّ الداخل."
+
+msgid "I was floating. On my back. I'm a mermaid, if you didn't notice, and you just dragged me out of my own cove in front of my entire family."
+msgstr "كنت أطفو. على ظهري. أنا حورية بحر، إن لم تلاحظ، وقد سحبتني للتو من خليجي أنا أمام عائلتي كلها."
+
+msgid "I was meant to get it cleaned. I dropped it off the pier a week ago. Nobody knows."
+msgstr "كان عليَّ أن آخذه للتنظيف. أسقطته من الرصيف قبل أسبوع. لا أحد يعلم."
+
+msgid "I wasn't resting. I was looking for something. Gran's pearl comb. It's the only thing she brought with her when she came to this cove, and she wears it every Midsummer Tide."
+msgstr "لم أكن أستريح. كنت أبحث عن شيء. مشط اللؤلؤ الخاص بجدتي. إنه الشيء الوحيد الذي جلبته حين جاءت إلى هذا الخليج، وترتديه كل عام في مدِّ منتصف الصيف."
+
+msgid "I won't tell. Let me help you look."
+msgstr "لن أقول شيئًا. دعيني أساعدك في البحث."
+
+msgid "I'd do it badly. Out of spite."
+msgstr "سأرتبها بسوء. نكايةً."
+
+msgid "I'd like to do it again. That's allowed to be said, isn't it? Good. I'd like to do it again."
+msgstr "أودُّ أن نكرر ذلك. يُسمح بقول هذا، أليس كذلك؟ جيد. أودُّ أن نكرره."
+
+msgid "I'd like to make it a thing."
+msgstr "أودُّ أن أجعل منها أمرًا كبيرًا."
+
+msgid "I'd like to see that, actually."
+msgstr "في الحقيقة، أودُّ أن أرى ذلك."
+
+msgid "I'd want my own jar. Just to start. Is that strange?"
+msgstr "سأريد برطمانًا خاصًّا بي. في البداية فقط. هل هذا غريب؟"
+
+msgid "I'll dig it. Show me where."
+msgstr "سأحفرها. أريني أين."
+
+msgid "I'll dig. I'm keeping the miller's money, though."
+msgstr "سأحفر. لكنني سأحتفظ بمال الطحَّان."
+
+msgid "I'll keep it on a low branch where I can see it. No, I won't use it to count time until our next meeting."
+msgstr "سأعلِّقها على غصن منخفض حيث أراها. لا، لن أستخدمها لأعدَّ الوقت حتى لقائنا التالي."
+
+msgid "I'll list everyone in town you'd like to drop a branch on."
+msgstr "سأعدِّد لك كل من في البلدة تودين إسقاط غصن عليه."
+
+msgid "I'll pay you, obviously. A reward, when we find it. It's a business arrangement, so you can stop smiling like that."
+msgstr "سأدفع لك طبعًا. مكافأة حين نجده. إنه اتفاق عمل، فكفَّ عن الابتسام هكذا."
+
+msgid "I'll pretend I didn't see that."
+msgstr "سأتظاهر بأنني لم أرَ ذلك."
+
 msgid "I'm 18 or older"
 msgstr "عمري 18 عامًا أو أكثر"
+
+msgid "I'm a bit pink right now. Ignore it."
+msgstr "أنا وردية قليلًا الآن. تجاهل ذلك."
+
+msgid "I'm fine. Midsummer Tide's in nine days, and I've checked maybe a third of the cove."
+msgstr "أنا بخير. مدُّ منتصف الصيف بعد تسعة أيام، وفتشت ربما ثلث الخليج."
+
+msgid "I'm glad I can help. Really."
+msgstr "يسعدني أن أساعد. حقًّا."
+
+msgid "I'm going to make you sound very brave. And very wet."
+msgstr "سأجعلك تبدو شجاعًا جدًّا. ومبلولًا جدًّا."
+
+msgid "I'm not watching you. I'm photosynthesising."
+msgstr "لست أراقبك. أنا أقوم بالتمثيل الضوئي."
+
+msgid "I'm so sorry. I'll get every one of them back."
+msgstr "أنا آسف جدًّا. سأستعيدها لك كلها، واحدة واحدة."
+
+msgid "I've been doing this for a very long time, and that was not on the list of things I expected from a library."
+msgstr "أفعل هذا منذ زمن طويل جدًّا، ولم يكن هذا في قائمة ما توقعته من مكتبة."
+
+msgid "I've been summoned by kings. They were worse at this."
+msgstr "استدعاني ملوك. كانوا أسوأ منك في هذا."
+
+msgid "I've been summoned four hundred and some times. Never seen such gentleman."
+msgstr "استُدعيت أربعمئة ونيِّفًا من المرات. لم أرَ قط رجلًا نبيلًا كهذا."
+
+msgid "I've never seen a morning from this side of a summoning. It's very bright. I don't hate it."
+msgstr "لم أرَ صباحًا من هذا الجانب من الاستدعاء قط. إنه ساطع جدًّا. لا أكرهه."
+
+msgid "I've thought about this. Not a lot. A normal amount. Every day since the pier."
+msgstr "فكرت في هذا. ليس كثيرًا. بقدر عادي. كل يوم منذ الرصيف."
+
+msgid "I-is that all right? Tell me if it's strange. You can say it's strange."
+msgstr "ه-هل هذا لا بأس به؟ أخبرني إن كان غريبًا. يمكنك أن تقول إنه غريب."
+
+msgid "I-it's not going on the shelf. It stays with me. In here. Is that all right?"
+msgstr "ل-لن تذهب إلى الرف. ستبقى معي. هنا في الداخل. هل هذا لا بأس به؟"
+
+msgid "If I find one, I'm burning it."
+msgstr "إن وجدت واحدة سأحرقها."
+
+msgid "If I'd known you liked it, I'd have come by sooner."
+msgstr "لو عرفت أنك تحبين ذلك، لجئت أبكر."
+
+msgid "If anyone asks, we're friends. Who swim. At night."
+msgstr "إن سأل أحد، نحن أصدقاء. نسبح. ليلًا."
+
+msgid "If someone dug him a new channel, further out, I could follow it. It would take a season."
+msgstr "لو حفر له أحد قناة جديدة، أبعد قليلًا، لتبعتها. سيستغرق ذلك فصلًا."
+
+msgid "If you drop anything, I'll find it."
+msgstr "إن أسقطت شيئًا، سأجده."
+
+msgid "If you find it before I do, don't open it."
+msgstr "إن وجدته قبلي، فلا تفتحه."
+
+msgid "If you're going to draw these, you'll draw them properly. Nobody else is coming through a circle this pathetic."
+msgstr "إن كنت سترسم هذه، فسترسمها كما يجب. لن يعبر أحد آخر من دائرة بهذا البؤس."
 
 msgid "In Full Bloom"
 msgstr "في تمام الإزهار"
 
 msgid "In her chapters everything floats: gems rise, and new ones come up from the bottom."
 msgstr "في فصولها يطفو كل شيء: الجواهر ترتفع، والجديدة تأتي من الأسفل."
+
+msgid "In my defence, the label said newts."
+msgstr "دفاعًا عن نفسي، الملصق قال سمادل."
+
+msgid "In my experience, the people who don't ask want something worse. So. What is it?"
+msgstr "من خبرتي، من لا يطلبون يريدون شيئًا أسوأ. إذن. ما هو؟"
+
+msgid "In the back, under a dust sheet, you find a black cover with nothing in it. The pages have been cut out with a knife."
+msgstr "في الخلف، تحت غطاء من الغبار، تجدان غلافًا أسود فارغًا. قُطعت الصفحات بسكين."
 
 msgid "Instant"
 msgstr "فورية"
@@ -638,6 +1157,57 @@ msgstr "لا يُقاوَم"
 
 msgid "It has sexual content, including intimate scenes, and suggestive art. All characters are adults.\n\nPlease only continue if you're 18 or older, or the age of majority where you live."
 msgstr "تحتوي على محتوى جنسي، يشمل مشاهد حميمة، ورسومًا موحية. جميع الشخصيات بالغة.\n\nيُرجى المتابعة فقط إن كان عمرك 18 عامًا أو أكثر، أو سن الرشد حيث تعيش."
+
+msgid "It isn't so bad, but some animals are... Barely tolerable company."
+msgstr "ليس الأمر سيئًا، لكن بعض الحيوانات... رفقة بالكاد تُحتمل."
+
+msgid "It rains all night. None of it reaches you."
+msgstr "تمطر طوال الليل. لا يصلك منه شيء."
+
+msgid "It starts to rain"
+msgstr "يبدأ المطر"
+
+msgid "It was a joke. He laughed at it every single morning for thirty-one years."
+msgstr "كانت مزحة. كان يضحك منها كل صباح لواحد وثلاثين عامًا."
+
+msgid "It was a very good storm."
+msgstr "كانت عاصفة جيدة جدًّا."
+
+msgid "It was an excellent storm."
+msgstr "كانت عاصفة ممتازة."
+
+msgid "It was here. Someone moved it, and not long ago."
+msgstr "كان هنا. نقله أحدهم، ومنذ وقت قريب."
+
+msgid "It's April."
+msgstr "إنه أبريل."
+
+msgid "It's all here. All of it. I counted three times."
+msgstr "كلها هنا. كلها. عددتها ثلاث مرات."
+
+msgid "It's down there! I've checked everywhere else, it has to be down there!"
+msgstr "إنه في الأسفل! بحثت في كل مكان آخر، لا بد أنه في الأسفل!"
+
+msgid "It's fine. It's just roots. They have to let go of the old wall even if it hurts."
+msgstr "لا بأس. إنها مجرد جذور. عليها أن تترك الجدار القديم حتى لو آلمها ذلك."
+
+msgid "It's loud out here. You're the good kind of loud."
+msgstr "الضجيج عالٍ هنا في الخارج. أنت من النوع الجيد من الضجيج."
+
+msgid "It's not even scratched."
+msgstr "ليس فيه خدش واحد."
+
+msgid "It's only when you're heaving her onto the boards that you notice the tail. It's long, it's teal, and it's slapping the pier hard enough to soak everyone."
+msgstr "لا تلاحظ الذيل إلا حين ترفعها على الألواح. طويل، فيروزي، ويضرب الرصيف بقوة تبلِّل الجميع."
+
+msgid "It's somewhere in this building. I can feel it, like a draught. You're going to help me find it before anyone else does."
+msgstr "إنه في مكان ما في هذا المبنى. أشعر به كتيار هواء. ستساعدني على إيجاده قبل أي أحد آخر."
+
+msgid "It's the chalk. Cheap chalk gets in your throat."
+msgstr "إنه الطباشير. الطباشير الرخيص يعلق في الحلق."
+
+msgid "It's the first thing in a new collection. Things that are yours."
+msgstr "إنه أول قطعة في مجموعة جديدة. أشياء هي لك."
 
 msgid "Item Bundle"
 msgstr "حزمة الأدوات"
@@ -666,8 +1236,17 @@ msgstr "كبير"
 msgid "Larger"
 msgstr "أكبر"
 
+msgid "Last night was the best thing that's happened to me in thirty-one years. Possibly... ever."
+msgstr "الليلة الماضية كانت أجمل ما حدث لي في واحد وثلاثين عامًا. ربما... على الإطلاق."
+
+msgid "Later. The candle is down to a stub. She's lying across you on the reading room rug with one wing folded over you both like a blanket."
+msgstr "لاحقًا. لم يبقَ من الشمعة إلا عقبها. ممدَّدة فوقك على سجادة قاعة المطالعة، وجناح مطويٌّ فوقكما كبطانية."
+
 msgid "Leave"
 msgstr "مغادرة"
+
+msgid "Leave it there a minute. It's been a long time."
+msgstr "اتركها هناك دقيقة. مضى وقت طويل."
 
 msgid "Leave this chapter?"
 msgstr "أتغادر هذا الفصل؟"
@@ -702,6 +1281,15 @@ msgstr "جرعة الحب مفعَّلة!"
 msgid "Loves"
 msgstr "تحب"
 
+msgid "Low tide's at six. If you happen to be on the pier, you're on the pier, I'm not asking, I'm just saying when low tide is."
+msgstr "الجزر في السادسة. إن صادف أنك على الرصيف، فأنت على الرصيف، لست أطلب، أقول فقط متى الجزر."
+
+msgid "Low tide. You spend two hours turning over rocks in the pools while she works the deeper water. You find a fork and a very angry crab."
+msgstr "الجزر. تقضي ساعتين تقلِّب الحجارة في برك المد بينما تفتش هي المياه الأعمق. تجد شوكة وسلطعونًا غاضبًا جدًّا."
+
+msgid "Lunar nonsense. Next."
+msgstr "هراء قمري. التالي."
+
 msgid "MOVES"
 msgstr "الحركات"
 
@@ -716,6 +1304,12 @@ msgstr "اصنع 1000 تطابق."
 
 msgid "Make a Starburst."
 msgstr "اصنع انفجار النجوم."
+
+msgid "Make me."
+msgstr "أجبريني."
+
+msgid "Marina Waverly"
+msgstr "مارينا ويفرلي"
 
 msgid "Marina's power: High Tide"
 msgstr "قوة مارينا: المدّ العالي"
@@ -747,6 +1341,9 @@ msgstr "طابِق الرونات، مفضَّلة أمارا: تملأ حلقة
 msgid "Matches made"
 msgstr "التطابقات"
 
+msgid "Maybe I'm saving my wish for something good."
+msgstr "ربما أدَّخر أمنيتي لشيء جيد."
+
 msgid "Meet Hazel instead of cutting her tree down."
 msgstr "التقِ بهيزل بدلًا من قطع شجرتها."
 
@@ -765,26 +1362,65 @@ msgstr "جرعة الشفاء"
 msgid "Mending Potion active!"
 msgstr "جرعة الشفاء مفعَّلة!"
 
+msgid "Mermaid of Saltwick Cove"
+msgstr "حورية خليج سولتويك"
+
 msgid "Messages stay longer"
 msgstr "الرسائل تبقى أطول"
 
 msgid "Millbrook Circle"
 msgstr "دائرة ميلبروك"
 
+msgid "Mind my leaves with that."
+msgstr "انتبه لأوراقي بهذا."
+
+msgid "Mind the candle."
+msgstr "انتبه للشمعة."
+
+msgid "Mm. That one smells like April."
+msgstr "مم. هذه رائحتها كأبريل."
+
 msgid "Moonstone"
 msgstr "حجر القمر"
+
+msgid "Moonstone. It smells like a church."
+msgstr "حجر القمر. رائحته كالكنيسة."
 
 msgid "More"
 msgstr "المزيد"
 
+msgid "Morning comes in through the reading room windows. Somebody has folded your jacket into a very neat square."
+msgstr "يدخل الصباح من نوافذ قاعة المطالعة. أحدهم طوى سترتك مربعًا مرتبًا جدًّا."
+
+msgid "Morning in the grove. There's blossom on the east side of the tree that wasn't there last night. Hazels flower in February. It's May."
+msgstr "الصباح في البستان. هناك أزهار على الجانب الشرقي من الشجرة لم تكن ليلة أمس. البندق يزهر في فبراير. نحن في مايو."
+
+msgid "Morning light through the bedroom curtains, and someone translucent and lilac curled over the covers."
+msgstr "ضوء الصباح عبر ستائر غرفة النوم، وشخص شفاف بنفسجي ملتفٌّ فوق الأغطية."
+
+msgid "Morning. Your clothes are on the rail. I wrung them out myself, so you can thank me."
+msgstr "صباح الخير. ثيابك على الدرابزين. عصرتها بنفسي، فلك أن تشكرني."
+
 msgid "Moss grows under some cells. A match, blast or Hammer on the cell clears it, and some moss hides one of her lost things."
 msgstr "ينمو الطحلب تحت بعض الخانات. التطابق أو الانفجار أو المطرقة على الخانة يزيله، وبعض الطحالب يخفي أحد أشيائها الضائعة."
+
+msgid "Most people come down here for the game. You keep coming back for me, don't you?"
+msgstr "أغلب الناس ينزلون إلى هنا من أجل اللعبة. أنت تعود من أجلي، أليس كذلك؟"
+
+msgid "Most summonings end the moment someone gets what they asked for. You never asked for anything. So... I stayed."
+msgstr "أغلب الاستدعاءات تنتهي لحظة ينال أحدهم ما طلبه. أنت لم تطلب شيئًا قط. لذا... بقيت."
+
+msgid "Mostly couples who thought they'd found somewhere private. So I know a lot about... you know."
+msgstr "غالبًا أزواج ظنوا أنهم وجدوا مكانًا خاليًا. لذا أعرف الكثير عن... تعرف."
 
 msgid "Move"
 msgstr "تحرَّك"
 
 msgid "Moves left this chapter"
 msgstr "الحركات المتبقية في هذا الفصل"
+
+msgid "Mum wants to feed you. Consider yourself warned."
+msgstr "أمي تريد أن تطعمك. اعتبر نفسك قد أُنذرت."
 
 msgid "Music"
 msgstr "الموسيقى"
@@ -801,6 +1437,18 @@ msgstr "القلب التالي بعد %s"
 msgid "Night scene"
 msgstr "المشهد الليلي"
 
+msgid "Nine days. If we haven't found it by then, I'll tell her. Deal?"
+msgstr "تسعة أيام. إن لم نجده حينها، سأخبرها. اتفقنا؟"
+
+msgid "Nine days. Keep going."
+msgstr "تسعة أيام. واصل."
+
+msgid "Nine of those and I'm off the hook."
+msgstr "تسع من هذه وأنجو."
+
+msgid "Nine-hour wick. Hand-dipped. You know what this is for, don't you."
+msgstr "فتيل تسع ساعات. مغموسة باليد. تعرف لماذا هذه، أليس كذلك."
+
 msgid "No Ads"
 msgstr "بلا إعلانات"
 
@@ -809,6 +1457,12 @@ msgstr "لا إعلانات بين الفصول ولا تحت القوائم، �
 
 msgid "No moves left — reshuffling!"
 msgstr "لا حركات متبقية — نعيد الخلط!"
+
+msgid "No. Absolutely not."
+msgstr "لا. مستحيل."
+
+msgid "No. I've seen what those do."
+msgstr "لا. رأيت ما تفعله تلك."
 
 msgid "Normal"
 msgstr "عادية"
@@ -837,14 +1491,74 @@ msgstr "لا شيء هنا بعد — أنهِ قصة فتاة لتضيف نها
 msgid "Nothing yet."
 msgstr "لا شيء بعد."
 
+msgid "Now start at the alder and sleeves up."
+msgstr "ابدأ الآن عند شجرة الجار المائي، وشمِّر عن ساعديك."
+
+msgid "Now that's a circle I'd step out of."
+msgstr "هذه دائرة قد أرغب فعلًا في الخروج منها."
+
+msgid "Now we can both stop pretending you came over here to talk about books."
+msgstr "الآن يمكننا كلانا أن نكفَّ عن التظاهر بأنك جئت لتتحدث عن الكتب."
+
+msgid "Obviously we're getting the second owl."
+msgstr "طبعًا سنأخذ البومة الثانية."
+
+msgid "Of course I'll help. What does it look like?"
+msgstr "طبعًا سأساعدك. كيف يبدو؟"
+
 msgid "Offers appear here once Google Play is reachable."
 msgstr "تظهر العروض هنا حين يصبح Google Play متاحًا."
+
+msgid "Oh, I intend to."
+msgstr "أوه، هذا ما أنويه."
+
+msgid "Oh, that's smooth, why can't anything else this week be smooth?"
+msgstr "أوه، يا للسلاسة. لماذا لا يمضي شيء آخر بهذه السلاسة هذا الأسبوع؟"
+
+msgid "Oh, you're putting it down. Most argue first."
+msgstr "أوه، أنت تضعها. أغلبهم يجادلون أولًا."
+
+msgid "Oh, you're warm... No one's touched me without an axe in years."
+msgstr "أوه، أنت دافئ... لم يلمسني أحد دون فأس منذ سنوات."
+
+msgid "Oh. I didn't know I did that. That's embarrassing. Do it again."
+msgstr "أوه. لم أكن أعرف أنني أفعل هذا. هذا محرج. افعلها مجددًا."
+
+msgid "Okay, that one was nice."
+msgstr "حسنًا، تلك كانت جميلة."
+
+msgid "Okay. A small thing."
+msgstr "حسنًا. أمرًا صغيرًا."
+
+msgid "Okay. I'm going to say something and you're not allowed to be nice about it."
+msgstr "حسنًا. سأقول شيئًا ولا يُسمح لك أن تكون لطيفًا بشأنه."
+
+msgid "Okay. The stream comes out under the Mill Bridge, in town. Things wash up there. People pick them up."
+msgstr "حسنًا. الجدول يخرج تحت جسر الطاحونة، في البلدة. الأشياء تنجرف إلى هناك. والناس يلتقطونها."
+
+msgid "Old Glass Marble"
+msgstr "كرة زجاجية قديمة"
+
+msgid "On the way back there's a notice nailed to the Mill Bridge. The town has sold the north woods to an alchemist, for his workshop. Clearing starts on quarter day."
+msgstr "في طريق العودة، إعلان مسمَّر على جسر الطاحونة. باعت البلدة الغابات الشمالية لخيميائي من أجل ورشته. يبدأ قطع الأشجار في يوم الربع."
 
 msgid "Once you've cleared her first chapter, her card on the roster has a gift for her. Give it and her favourite gem shows up more often in all her chapters, for good."
 msgstr "بعد أن تنهي فصلها الأول، تظهر على بطاقتها في الدائرة هدية لها. قدِّمها وستظهر جوهرتها المفضلة أكثر في كل فصولها، إلى الأبد."
 
 msgid "One wave and the whole board is dealt again, always with a move to make."
 msgstr "تلويحة واحدة وتُوزَّع اللوحة كلها من جديد، دائمًا مع حركة ممكنة."
+
+msgid "Ooh. That's going in the... sorry."
+msgstr "أوه. هذا سيذهب إلى... آسفة."
+
+msgid "Opal"
+msgstr "أوبال"
+
+msgid "Opal at the baker's counter, a loaf under one arm and a stray button in her hand."
+msgstr "أوبال عند منضدة المخبز، رغيف تحت ذراعها وزر تائه في يدها."
+
+msgid "Opal moves in properly. Her collection grows a second shelf, then a third: things you've dropped, things your friends have dropped, the ticket from your first evening out together. The jar lives under the bed. She uses it twice that year, both times in thunderstorms, and both times you sit on the floor beside it while she tells you, through the glass, which of the neighbours owe each other money. She climbs out on her own before the storm is over."
+msgstr "تنتقل أوبال للعيش معك فعلًا. تتمدد مجموعتها إلى رف ثانٍ، ثم ثالث: أشياء أسقطتها أنت، وأشياء أسقطها أصدقاؤك، وتذكرة أول سهرة لكما معًا. البرطمان يعيش تحت السرير. تستعمله مرتين ذلك العام، كلتاهما في عواصف رعدية، وفي كلتيهما تجلس على الأرض بجانبه بينما تخبرك، عبر الزجاج، أيُّ الجيران مدين للآخر. تخرج وحدها قبل أن تنتهي العاصفة."
 
 msgid "Opal's power: Absorb"
 msgstr "قوة أوبال: الامتصاص"
@@ -873,6 +1587,9 @@ msgstr "في العاصفة"
 msgid "Out of Moves"
 msgstr "نفدت الحركات"
 
+msgid "Out of Season"
+msgstr "في غير أوانها"
+
 msgid "Out of hearts"
 msgstr "نفدت القلوب"
 
@@ -888,8 +1605,14 @@ msgstr "لديك: %d"
 msgid "Pearl"
 msgstr "لؤلؤة"
 
+msgid "Pearls. Gran would approve."
+msgstr "لآلئ. جدتي كانت ستوافق."
+
 msgid "Petal"
 msgstr "بتلة"
+
+msgid "Petals. Good. Those I understand."
+msgstr "بتلات. جيد. هذه أفهمها."
 
 msgid "Pick a gem to pop."
 msgstr "اختر جوهرة لتفجيرها."
@@ -909,6 +1632,9 @@ msgstr "اختر جوهرة: يُمسح صفها وعمودها كاملين."
 msgid "Pick up"
 msgstr "التقاط"
 
+msgid "Pickled newts don't usually have a date pencilled on the wax: the second of January. You open it anyway."
+msgstr "السمادل المخللة لا يُكتب عادةً على شمعها تاريخ بقلم رصاص: الثاني من يناير. تفتحه على أي حال."
+
 msgid "Pictures"
 msgstr "الصور"
 
@@ -917,6 +1643,9 @@ msgstr "تظهر الصور هنا كلما التقيت الفتيات ووصل
 
 msgid "Pieces of Gran's comb start near the bottom. They can't be matched or moved: clear the gems above them and they rise. One that reaches the top row is yours."
 msgstr "تبدأ قطع مشط الجدة قرب القاع. لا يمكن مطابقتها أو تحريكها: امسح الجواهر فوقها فترتفع. القطعة التي تبلغ الصف العلوي تصبح لك."
+
+msgid "Plant something near me. So there's something of yours here when you're not."
+msgstr "ازرع شيئًا بقربي. ليكون هنا شيء منك حين لا تكون."
 
 msgid "Play"
 msgstr "العب"
@@ -960,8 +1689,14 @@ msgstr "اضغط زر قوتها (أو 4): تنمو كل بذرة وكل برع�
 msgid "Press her power button (or 4): the two rows nearest the surface clear, and everything rises two rows."
 msgstr "اضغط زر قوتها (أو 4): يُمسح الصفان الأقرب إلى السطح، ويرتفع كل شيء صفين."
 
+msgid "Pretty. Don't tell my sisters I said that."
+msgstr "جميل. لا تخبر أخواتي أنني قلت ذلك."
+
 msgid "Put down"
 msgstr "وضع"
+
+msgid "Put that out."
+msgstr "أطفئ ذلك."
 
 msgid "Putting Down Roots"
 msgstr "مدُّ الجذور"
@@ -1032,6 +1767,15 @@ msgstr "زُرها مجددًا"
 msgid "Rune"
 msgstr "رون"
 
+msgid "Runes make my edges go fizzy."
+msgstr "الرونات تجعل حوافي تفور."
+
+msgid "Runes. Finally, someone in this town who can draw."
+msgstr "رونات. أخيرًا شخص في هذه البلدة يعرف كيف يرسم."
+
+msgid "Runes. Like on the alchemists' jars."
+msgstr "رونات. مثل التي على برطمانات الخيميائيين."
+
 msgid "Running out of moves still pays 1 star for every 200 points you scored (at least 3)."
 msgstr "نفاد الحركات يمنح مع ذلك نجمة لكل 200 نقطة سجَّلتها (3 على الأقل)."
 
@@ -1043,6 +1787,15 @@ msgstr "النتيجة"
 
 msgid "SEALS BROKEN"
 msgstr "الأختام المكسورة"
+
+msgid "Saltwick Cove, an hour before sunset. You're on the cliff path when the shouting starts."
+msgstr "خليج سولتويك، قبل الغروب بساعة. أنت على درب الجرف حين يبدأ الصراخ."
+
+msgid "Save it, then. I'll be watching you very closely until you spend it."
+msgstr "ادَّخرها إذن. سأراقبك عن كثب شديد حتى تنفقها."
+
+msgid "Say it. The name I gave you."
+msgstr "قلها. الاسم الذي أعطيتك إياه."
 
 msgid "Score 2000 on a free date."
 msgstr "سجِّل 2000 نقطة في موعد حر."
@@ -1058,6 +1811,9 @@ msgstr "الأختام المكسورة"
 
 msgid "See the whole picture (H)"
 msgstr "شاهد الصورة كاملة (H)"
+
+msgid "See? Closed rings. It isn't hard."
+msgstr "أرأيت؟ حلقات مغلقة. ليس الأمر صعبًا."
 
 msgid "Seeds can't be moved. Make matches next to them to make them grow."
 msgstr "لا يمكن تحريك البذور. اصنع تطابقات بجانبها لتنمو."
@@ -1083,6 +1839,135 @@ msgstr "محطِّم الشظايا"
 msgid "Shard smashed!"
 msgstr "تحطمت الشظية!"
 
+msgid "She bites the corner of it before she's even said thank you."
+msgstr "تعضُّ طرفها قبل حتى أن تشكرك."
+
+msgid "She burns them in the reading room fireplace at four in the morning, one at a time. Each one goes up green. The loose page from your desk goes last: she tears her name off the corner and burns only that."
+msgstr "تحرقها في مدفأة قاعة المطالعة في الرابعة صباحًا، واحدة واحدة. كل واحدة تشتعل بلهب أخضر. الصفحة السائبة من مكتبك تأتي أخيرًا: تمزِّق اسمها من الزاوية ولا تحرق سواه."
+
+msgid "She ducks under before you can answer and comes up a few yards away, pretending to search."
+msgstr "تغطس قبل أن تتمكن من الرد وتطفو على بعد بضعة أمتار، متظاهرة بالبحث."
+
+msgid "She falls asleep first, which she will deny. The tide comes in under the boathouse doors and goes out again."
+msgstr "تنام أولًا، وستنكر ذلك. يدخل المدُّ تحت بوابات السقيفة ثم ينحسر من جديد."
+
+msgid "She flicks her tail and soaks you a second time, very deliberately."
+msgstr "تضرب بذيلها وتبلِّلك مرة ثانية، عمدًا تمامًا."
+
+msgid "She goes cloudy."
+msgstr "تصير عكرة."
+
+msgid "She goes outside on her own for the first time to buy bread. She's gone twenty minutes. You both pretend you weren't worried."
+msgstr "تخرج وحدها لأول مرة لتشتري الخبز. تغيب عشرين دقيقة. تتظاهران كلاكما بأنكما لم تقلقا."
+
+msgid "She goes slightly pink all the way through, like a drop of dye in a glass of water."
+msgstr "تتورد قليلًا من رأسها إلى أخمصها، كقطرة صبغة في كأس ماء."
+
+msgid "She grabs you by the collar and kisses you, hard and quick, then looks horrified at herself."
+msgstr "تمسك بياقتك وتقبِّلك، بقوة وسرعة، ثم تبدو مذعورة من نفسها."
+
+msgid "She holds out a button. It's yours. It came off your sleeve when you reached into the hollow for her jar, and you never noticed."
+msgstr "تمدُّ إليك زرًّا. زرَّك. انفصل عن كمك حين مددت يدك في التجويف لتأخذ برطمانها، ولم تلاحظ قط."
+
+msgid "She holds the marble up to her eye, then presses it gently into her own palm. It sinks in and floats there, inside her hand, where she can see it."
+msgstr "ترفع الكرة إلى عينها، ثم تضغطها برفق في راحة يدها. تغوص فيها وتطفو هناك، داخل يدها، حيث تستطيع أن تراها."
+
+msgid "She hooks a finger in your collar and pulls you down until you're nose to nose over the reading table."
+msgstr "تشبك إصبعًا في ياقتك وتشدُّك إلى الأسفل حتى تتلامس أنفاكما فوق طاولة المطالعة."
+
+msgid "She hooks a foot round your ankle and reels you in the last step."
+msgstr "تلفُّ قدمها حول كاحلك وتجذبك الخطوة الأخيرة."
+
+msgid "She kisses you again, slower, just to be sure."
+msgstr "تقبِّلك مجددًا، ببطء أكبر، فقط لتتأكد."
+
+msgid "She kisses you, slower than in the storm. When she pulls back she's breathing hard, and it isn't from swimming."
+msgstr "تقبِّلك، أبطأ مما في العاصفة. حين تبتعد، تتنفس بثقل، وليس ذلك من السباحة."
+
+msgid "She laughs into your shoulder until she gets the hiccups."
+msgstr "تضحك في كتفك حتى تصيبها الحازوقة."
+
+msgid "She laughs, and a shower of rainwater falls off her leaves onto your head."
+msgstr "تضحك، فتنهمر رشقة من ماء المطر من أوراقها على رأسك."
+
+msgid "She looks at the axe, then at the place on the trunk you were aiming for."
+msgstr "تنظر إلى الفأس، ثم إلى الموضع الذي كنت تصوِّب إليه على الجذع."
+
+msgid "She looks past you at the hollow: at the moss, pressed flat in neat little rows where something used to be laid out, and at the stream running fast and brown."
+msgstr "تنظر من فوقك إلى التجويف: إلى الطحلب المضغوط في صفوف صغيرة مرتبة حيث كان شيء موضوعًا، وإلى الجدول الذي يجري سريعًا وبنيًّا."
+
+msgid "She makes you hold it up in the one patch of sun that gets through her leaves, and watches the shadow for a long time."
+msgstr "تجعلك تحملها في بقعة الشمس الوحيدة التي تنفذ من بين أوراقها، وتراقب الظل طويلًا."
+
+msgid "She narrows her eyes, looking for the catch. There isn't one."
+msgstr "تضيِّق عينيها، باحثة عن الخدعة. لا خدعة."
+
+msgid "She picks up a stack of books anyway and asks where the poetry goes."
+msgstr "ومع ذلك تحمل كومة من الكتب وتسأل أين يوضع الشعر."
+
+msgid "She picks up the candle so she has something to do with her hands."
+msgstr "تحمل الشمعة لتشغل يديها بشيء."
+
+msgid "She pulls you down by your shirt. Her hair falls round you both, gold at the top and green at the ends, and it smells of rain."
+msgstr "تشدُّك إليها من قميصك. يتساقط شعرها حولكما، ذهبي في أعلاه وأخضر عند أطرافه، ورائحته كالمطر."
+
+msgid "She pulls your arms round her neck so you don't have to tread water, and holds you up with her tail."
+msgstr "تلفُّ ذراعيك حول عنقها كي لا تضطر إلى التجديف بقدميك، وتبقيك طافيًا بذيلها."
+
+msgid "She rides in a big glass jar in your arms with the lid off, and counts every button as you drop it in."
+msgstr "تركب في برطمان زجاجي كبير بين ذراعيك بلا غطاء، وتعدُّ كل زر تُسقطه فيه."
+
+msgid "She says it, but she doesn't swim off."
+msgstr "تقول ذلك، لكنها لا تسبح مبتعدة."
+
+msgid "She sets it beside the stub in your chalk circle and lights it from the old flame before the old one can go out."
+msgstr "تضعها بجانب بقية الشمعة في دائرة الطباشير وتشعلها من اللهب القديم قبل أن ينطفئ."
+
+msgid "She shows you which branches you can sit on and which ones she's ticklish about. The second list is long."
+msgstr "تريك أيُّ الأغصان يمكنك الجلوس عليها وأيُّها يدغدغها. القائمة الثانية طويلة."
+
+msgid "She sits on the end of the pier with her tail in the water. After a while she leans on your shoulder, as if by accident."
+msgstr "تجلس على طرف الرصيف وذيلها في الماء. بعد حين تتكئ على كتفك، كأن ذلك صدفة."
+
+msgid "She sits on the reading table, which you've asked her twice not to do, and moves the candle so it won't drip on the returns."
+msgstr "تجلس على طاولة المطالعة، وقد طلبت منها مرتين ألا تفعل، وتحرِّك الشمعة كي لا يقطر شمعها على الكتب المعادة."
+
+msgid "She steps over the chalk line herself, careful not to smudge it, and picks the page up. You realise you've been staring."
+msgstr "تتخطى خط الطباشير بنفسها، بحذر كي لا تلطخه، وتلتقط الصفحة. تدرك أنك كنت تحدِّق."
+
+msgid "She takes your hand and presses it flat to her chest. Under the silk, something is beating far too fast for anyone that old."
+msgstr "تأخذ يدك وتضغطها مبسوطة على صدرها. تحت الحرير، شيء ينبض أسرع مما ينبغي لأحد بهذا العمر."
+
+msgid "She takes your hand and presses it gently against her. It sinks in a little, cool and soft, and she shivers."
+msgstr "تأخذ يدك وتضغطها برفق عليها. تغوص قليلًا، باردة وناعمة، فترتجف."
+
+msgid "She talks until the storm passes. You fall asleep against her before she's finished, and she doesn't seem to mind."
+msgstr "تتكلم حتى تمرُّ العاصفة. تنام متكئًا عليها قبل أن تنتهي، ولا يبدو أنها تمانع."
+
+msgid "She ties the cord round her neck with a double knot, so it can't come off in the water."
+msgstr "تربط الخيط حول عنقها بعقدة مزدوجة، كي لا ينحلَّ في الماء."
+
+msgid "She turns pink, which, on Opal, is very easy to see."
+msgstr "تتورد، وهذا عند أوبال سهل الملاحظة جدًّا."
+
+msgid "She turns round and lifts her hair off her neck. The dress fastens with a row of tiny hooks, from the collar down to where her wings begin."
+msgstr "تستدير وترفع شعرها عن عنقها. الفستان يُغلق بصف من مشابك صغيرة، من الياقة حتى حيث يبدأ جناحاها."
+
+msgid "She turns the candle over in her hands and sniffs the wax, which seems to be the professional way to check."
+msgstr "تقلِّب الشمعة بين يديها وتشمُّ الشمع، ويبدو أن هذه هي الطريقة المحترفة للفحص."
+
+msgid "She was being friendly. You're the one I come here for."
+msgstr "كانت ودودة فحسب. أنتِ من آتي إلى هنا من أجلها."
+
+msgid "She won't even be angry. She'll just say 'oh, Mari', the way Mum does."
+msgstr "لن تغضب حتى. ستقول فقط «آه يا ماري»، كما تقول أمي."
+
+msgid "She won't leave the candle behind. She carries it to Wick Street cupped in both hands, and makes you walk on the windy side."
+msgstr "ترفض أن تترك الشمعة. تحملها إلى شارع الفتيل بين كفَّيها، وتجعلك تمشي في الجانب المعرَّض للريح."
+
+msgid "She's tall, horned and dressed for somewhere much nicer than a library. She crouches to look at your circle, and tuts."
+msgstr "إنها طويلة، ذات قرنين، ومرتدية لمكان أفخم بكثير من مكتبة. تجثو لتنظر إلى دائرتك، وتطقطق بلسانها."
+
 msgid "Shop"
 msgstr "المتجر"
 
@@ -1094,6 +1979,12 @@ msgstr "رسوم متحركة أقصر، وتأثيرات أهدأ."
 
 msgid "Shuffle Wand"
 msgstr "عصا الخلط"
+
+msgid "Since the grove was a forest. Two hundred years, give or take a drought."
+msgstr "منذ كان البستان غابة. مئتا عام، بفارق جفاف أو اثنين."
+
+msgid "Six tomorrow, lifeguard."
+msgstr "غدًا في السادسة يا منقذ."
 
 msgid "Skip"
 msgstr "تخطٍّ"
@@ -1128,8 +2019,29 @@ msgstr "تخطَّ غير المقروء"
 msgid "Skips this chapter's puzzle: no stars for it."
 msgstr "يتخطى لغز هذا الفصل: بلا نجوم له."
 
+msgid "Slime, formerly of a jar"
+msgstr "هلامية، كانت تسكن برطمانًا"
+
 msgid "Slow"
 msgstr "بطيئة"
+
+msgid "Slower. I can hear you panicking."
+msgstr "أبطأ. أسمعك وأنت مذعور."
+
+msgid "Slowly. I've got all the time in the world, and I'd like to spend some of it on this."
+msgstr "ببطء. لديَّ كل الوقت في العالم، وأودُّ أن أقضي بعضه في هذا."
+
+msgid "Smart. Unspent wishes don't expire. I knew a man who sat on one until he died."
+msgstr "ذكي. الأمنيات غير المستعملة لا تنتهي صلاحيتها. عرفت رجلًا احتفظ بواحدة حتى مات."
+
+msgid "So she climbs out of her jar in the middle of the shop, in front of everyone, and asks for it herself."
+msgstr "فتخرج من برطمانها في وسط المحل، أمام الجميع، وتطلبها بنفسها."
+
+msgid "So. Are you telling them how we met, or am I?"
+msgstr "إذن. ستخبرهم أنت كيف التقينا، أم أنا؟"
+
+msgid "So. Last night. I've been floating close by trying to think of a word for it, and I've got it down to three, and they're all very rude."
+msgstr "إذن. الليلة الماضية. أطفو هنا منذ مدة أبحث عن كلمة لذلك، وضيَّقتها إلى ثلاث، وكلها بذيئة جدًّا."
 
 msgid "Soft as Moss"
 msgstr "ناعمة كالطحلب"
@@ -1137,8 +2049,29 @@ msgstr "ناعمة كالطحلب"
 msgid "Some gems carry her ink seal. A sealed gem can't be picked up, but it still counts in a match you make by moving the gems beside it. The first match, blast or Hammer breaks the seal and the gem stays."
 msgstr "بعض الجواهر تحمل ختمها الحبري. لا يمكن تحريك الجوهرة المختومة، لكنها تُحسب في تطابق تصنعه بتحريك الجواهر المجاورة. أول تطابق أو انفجار أو ضربة مطرقة يكسر الختم وتبقى الجوهرة."
 
+msgid "Someone bought that off a market stall. I can tell."
+msgstr "أحدهم اشترى هذا من بسطة في السوق. يبدو ذلك."
+
+msgid "Someone in this town knows exactly what that book is."
+msgstr "أحدهم في هذه البلدة يعرف تمامًا ما هو ذلك الكتاب."
+
 msgid "Something about to happen on your date. Matching her favourite gem holds it off a move; a Charm Burst clears it."
 msgstr "شيء على وشك الحدوث في موعدك. مطابقة جوهرتها المفضلة تؤجله حركة، وانفجار السحر يلغيه."
+
+msgid "Something cool and slightly heavy is draped over you like a blanket. It turns out to be her."
+msgstr "شيء بارد وثقيل قليلًا ممدود فوقك كبطانية. يتبين أنه هي."
+
+msgid "Something pours over the rim, slow and shining, pale lilac with flashes of green and pink in it. You jump back so fast you kick half the hollow into the stream. It gathers itself on a root into the shape of a woman, and she does not look happy."
+msgstr "يسيل شيء من الحافة، بطيئًا ولامعًا، بنفسجيًّا فاتحًا تتخلله ومضات خضراء ووردية. تقفز إلى الخلف بسرعة تركل معها نصف التجويف إلى الجدول. يتجمع على جذر في هيئة امرأة، ولا تبدو سعيدة."
+
+msgid "Sorry. I don't usually get to tell anyone."
+msgstr "آسفة. لا أجد عادةً من أحكي له."
+
+msgid "Sorry. I spread out in my sleep. I didn't know that. I've never slept anywhere big enough to find out."
+msgstr "آسفة. أتمدد في نومي. لم أكن أعرف. لم أنم قط في مكان واسع بما يكفي لأكتشف ذلك."
+
+msgid "Sorry. I'm watching. Is that all right?"
+msgstr "آسفة. أنا أشاهد. هل هذا لا بأس به؟"
 
 msgid "Sound Effects"
 msgstr "المؤثرات الصوتية"
@@ -1170,8 +2103,14 @@ msgstr "النجوم — تكسبها بإنهاء الفصول، وتنفقها
 msgid "Starstruck"
 msgstr "مأخوذ بالنجوم"
 
+msgid "Start at the alder. I'll enjoy the view."
+msgstr "ابدأ عند الجار المائي. سأستمتع بالمنظر."
+
 msgid "Start her story over from the beginning"
 msgstr "ابدأ قصتها من جديد من البداية"
+
+msgid "Start with the baker. He leans on me when he smokes."
+msgstr "ابدأ بالخبَّاز. يتكئ عليَّ حين يدخن."
 
 msgid "Starter Pack"
 msgstr "حزمة البداية"
@@ -1179,8 +2118,26 @@ msgstr "حزمة البداية"
 msgid "Stats"
 msgstr "الإحصاءات"
 
+msgid "Stay till the candle goes. Then stay anyway."
+msgstr "ابقَ حتى تنطفئ الشمعة. ثم ابقَ على أي حال."
+
+msgid "Stay tonight. I'll keep the rain off."
+msgstr "ابقَ الليلة. سأحجب عنك المطر."
+
+msgid "Stay where you are. Don't break the circle. If that candle goes out, I go home, and I'm not done with you."
+msgstr "ابقَ مكانك. لا تكسر الدائرة. إن انطفأت تلك الشمعة عدت إلى بيتي، ولم أنتهِ منك بعد."
+
+msgid "Still nothing?"
+msgstr "ما زال لا شيء؟"
+
 msgid "Stop here. This scene plays again next time you visit her."
 msgstr "توقَّف هنا. سيُعاد هذا المشهد في زيارتك القادمة لها."
+
+msgid "Stop pretending you're looking for the book. You've walked past this table eleven times tonight, and the book isn't on it. I am."
+msgstr "كفَّ عن التظاهر بأنك تبحث عن الكتاب. مررت بهذه الطاولة إحدى عشرة مرة الليلة، والكتاب ليس عليها. أنا عليها."
+
+msgid "Stop. I'll go cloudy."
+msgstr "توقف. سأصير عكرة."
 
 msgid "Store"
 msgstr "المتجر"
@@ -1200,11 +2157,17 @@ msgstr "صعوبة القصة: تابع القصة دون لعب هذا الفص
 msgid "Story: twice the moves, and you can skip any chapter. Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Takes effect from the next chapter."
 msgstr "القصة: ضعف الحركات، ويمكنك تخطي أي فصل. صعب: كل بضع حركات يحدث شيء في موعدك (موجة فوق الرصيف، الشموع تخفت)، ويُعلَن مسبقًا. يسري من الفصل التالي."
 
+msgid "Succubus, summoned by mistake"
+msgstr "سكوبس، استُدعيت بالخطأ"
+
 msgid "Summer"
 msgstr "الصيف"
 
 msgid "Summer!"
 msgstr "الصيف!"
+
+msgid "Sure. After I've shelved these returns."
+msgstr "بالتأكيد. بعد أن أرتِّب هذه الكتب المعادة."
 
 msgid "Swap"
 msgstr "تبديل"
@@ -1218,14 +2181,41 @@ msgstr "بدِّل جوهرتين متجاورتين لتصطف ثلاث أو أ
 msgid "Swap two special gems together."
 msgstr "بدِّل جوهرتين خاصتين معًا."
 
+msgid "Swim with me later. Don't embarrass me again."
+msgstr "اسبح معي لاحقًا. لا تحرجني مجددًا."
+
 msgid "THINGS FOUND"
 msgstr "الأشياء الموجودة"
 
 msgid "TIP"
 msgstr "نصيحة"
 
+msgid "Take your time. I've got about three hundred years."
+msgstr "خذ وقتك. أمامي نحو ثلاثمئة عام."
+
+msgid "Talk to me. About anything. Your voice helps me get through it."
+msgstr "كلِّمني. عن أي شيء. صوتك يساعدني على الاحتمال."
+
 msgid "Tap a gem!"
 msgstr "المس جوهرة!"
+
+msgid "Tell her the jeweller ran off with a sea captain."
+msgstr "قولي لها إن الصائغ هرب مع قبطان سفينة."
+
+msgid "Tell her the truth. She'll understand."
+msgstr "قولي لها الحقيقة. ستتفهم."
+
+msgid "Tell me about the grove when it was a forest."
+msgstr "حدثيني عن البستان حين كان غابة."
+
+msgid "Tell me about the others while we look."
+msgstr "حدثيني عن البقية بينما نبحث."
+
+msgid "Tell me if I get this wrong. I've read about it in exactly one book, and a woodcutter dropped it here before the mill was built."
+msgstr "أخبرني إن أخطأت. قرأت عن هذا في كتاب واحد بالضبط، أسقطه حطاب هنا قبل أن تُبنى الطاحونة."
+
+msgid "Tempting. You'd have to do my shelving."
+msgstr "مغرٍ. سيكون عليك ترتيب كتبي."
 
 msgid "Test purchase"
 msgstr "شراء تجريبي"
@@ -1239,14 +2229,119 @@ msgstr "سرعة النص"
 msgid "Text size"
 msgstr "حجم النص"
 
+msgid "Th-thank you. Sorry. No. Not sorry. Thank you."
+msgstr "ش-شكرًا. آسفة. لا. لست آسفة. شكرًا."
+
+msgid "Th-thank you. Sorry. Thank you."
+msgstr "ش-شكرًا. آسفة. شكرًا."
+
+msgid "Th-that was good. That was really good."
+msgstr "ك-كان ذلك جيدًا. كان جيدًا جدًّا."
+
 msgid "Thanks for playing the demo!"
 msgstr "شكرًا لأنك لعبت النسخة التجريبية!"
+
+msgid "That catches the light. Do another."
+msgstr "تلتقط الضوء. واحدة أخرى."
+
+msgid "That night she climbs down from her branch and walks out across the grass, further than you've ever seen her go."
+msgstr "تلك الليلة تنزل من غصنها وتمشي على العشب، أبعد مما رأيتها تذهب يومًا."
+
+msgid "That one would actually hold a demon."
+msgstr "تلك كانت ستحبس شيطانًا حقًّا."
+
+msgid "That one's fine. That one's fine. Not that one. I mean it. Don't."
+msgstr "ذلك لا بأس به. ذلك لا بأس به. ليس ذلك. أنا جادة. لا."
+
+msgid "That sounds strange out loud. Don't answer that."
+msgstr "يبدو ذلك غريبًا حين يُقال بصوت عالٍ. لا تجب."
+
+msgid "That was the storm. Don't make it a thing."
+msgstr "كانت العاصفة. لا تجعل منها أمرًا كبيرًا."
+
+msgid "That was very nice. Thank you."
+msgstr "كان ذلك جميلًا جدًّا. شكرًا."
+
+msgid "That was. Okay. I don't have a word. I always have a word."
+msgstr "كان ذلك. حسنًا. لا أجد كلمة. أنا دائمًا أجد كلمة."
+
+msgid "That's a dry-land gem. Put it back."
+msgstr "تلك جوهرة يابسة. أعِدها."
+
+msgid "That's a good trench, for a grave."
+msgstr "خندق جيد، لقبر."
+
+msgid "That's actually good. She'd believe that."
+msgstr "هذه في الحقيقة جيدة. ستصدِّقها."
+
+msgid "That's all of them. I'm free. No more circles. Nobody can drag me anywhere ever again."
+msgstr "هذه آخرها. أنا حرة. لا مزيد من الدوائر. لا أحد يستطيع أن يجرَّني إلى أي مكان بعد الآن."
+
+msgid "That's autumn."
+msgstr "هذا الخريف."
+
+msgid "That's lovely. Keep going."
+msgstr "هذا جميل. استمر."
+
+msgid "That's nine more hours you can't get rid of me. You did that on purpose."
+msgstr "هذه تسع ساعات أخرى لن تستطيع فيها التخلص مني. فعلت ذلك عمدًا."
+
+msgid "That's off the comb's box. So it went right in there."
+msgstr "إنه من علبة المشط. إذن سقط هنا بالضبط."
+
+msgid "That's real. The sea made that. People tumble old bottles in a barrel and sell it as sea glass."
+msgstr "هذه حقيقية. صنعها البحر. هناك من يدحرج زجاجات قديمة في برميل ويبيعها على أنها زجاج بحر."
+
+msgid "That's the good stuff. Again."
+msgstr "هذا هو الجيد. مرة أخرى."
+
+msgid "That's why Ambrose put me in the jar. Nobody looks inside a jar of pickled newts. We were the same age when he did it, near enough. He got old."
+msgstr "لهذا وضعني أمبروز في البرطمان. لا أحد ينظر داخل برطمان سمادل مخللة. كنا تقريبًا في العمر نفسه حين فعل ذلك. هو كبر."
+
+msgid "That's you. You did that. A month of you leaning on me with your sleeves rolled up."
+msgstr "هذا أنت. أنت من فعل هذا. شهر كامل وأنت تتكئ عليَّ مشمِّرًا عن ساعديك."
+
+msgid "That's your fault. I'd like that on record."
+msgstr "هذا ذنبك. أريد أن يُسجَّل ذلك."
 
 msgid "The Time Scroll (three more moves), the Hammer (smash any one gem) and the Shuffle Wand (a new board) sit under the board. Buy them, and potions that help a whole chapter, in the Item Shop with the stars you earn."
 msgstr "لفافة الزمن (ثلاث حركات إضافية) والمطرقة (تحطِّم أي جوهرة) وعصا الخلط (لوحة جديدة) تحت اللوحة. اشترِها، ومعها جرعات تساعدك طوال الفصل، من متجر الأدوات بالنجوم التي تكسبها."
 
+msgid "The animals are watching. I told them to go away. Nobody in this grove listens to me."
+msgstr "الحيوانات تشاهد. قلت لها أن ترحل. لا أحد في هذا البستان يسمع كلامي."
+
+msgid "The boathouse slipway at sunrise, two sets of clothes drying on the rail."
+msgstr "منحدر سقيفة القوارب عند الشروق، وطقمان من الثياب يجفَّان على الدرابزين."
+
+msgid "The boathouse smells of tar and salt. There's a heap of old sails in the corner, and she pulls you down onto them by your wet shirt."
+msgstr "رائحة السقيفة قطران وملح. في الزاوية كومة من الأشرعة القديمة، وتشدُّك إليها من قميصك المبلول."
+
+msgid "The book is in this building. Keep going."
+msgstr "الكتاب في هذا المبنى. واصل."
+
+msgid "The candle burns down to nothing, and neither of you notices when it goes out."
+msgstr "تحترق الشمعة حتى آخرها، ولا يلاحظ أيٌّ منكما متى انطفأت."
+
+msgid "The candle in your chalk circle, the fourth one this week, is nearly gone. She watches it gutter and doesn't go anywhere."
+msgstr "الشمعة في دائرة الطباشير، الرابعة هذا الأسبوع، توشك أن تنتهي. تراقبها وهي تخفت ولا تذهب إلى أي مكان."
+
+msgid "The candles gutter"
+msgstr "الشموع تخفت"
+
+msgid "The card catalogue has a gap where the book should be. Someone has left a slip in the drawer instead: OUT FOR REBINDING, and a name."
+msgstr "في فهرس البطاقات فراغ حيث يجب أن يكون الكتاب. ترك أحدهم بدلًا منه قسيمة في الدرج: خارج للتجليد، واسمًا."
+
+msgid "The comb is in a tin of odds and ends on the Pellow brothers' boat: fishing weights, a doll's head, and nine pearls on a silver spine. It costs you two weeks' pay and a lot of explaining."
+msgstr "المشط في علبة صفيح مليئة بالخردة على قارب الأخوين بيلو: أثقال صيد، ورأس دمية، وتسع لآلئ على ظهر فضي. يكلِّفك أجر أسبوعين والكثير من الشرح."
+
 msgid "The comb piece can't be hammered. Bring it up to the surface."
 msgstr "لا يمكن ضرب قطعة المشط بالمطرقة. ارفعها إلى السطح."
+
+msgid "The ferns tell me you were talking to the miller's daughter. I'm not jealous. But I might drop a branch near her, that's all."
+msgstr "السراخس تخبرني أنك كنت تتحدث مع ابنة الطحَّان. لست غيورة. لكنني قد أسقط غصنًا قربها، هذا كل شيء."
+
+msgid "The flame leans sideways. Then it goes green. Smoke fills the circle, smelling of struck matches and expensive perfume, and someone steps out of it, coughing."
+msgstr "يميل اللهب جانبًا. ثم يخضرّ. يملأ الدخان الدائرة، برائحة عيدان ثقاب مشتعلة وعطر باهظ، ويخرج منه أحدهم وهو يسعل."
 
 msgid "The full game has four stories: Hazel's, and three more women of Millbrook to meet in the worst way possible. Each has four chapters, her night scene and her ending."
 msgstr "اللعبة الكاملة فيها أربع قصص: قصة هيزل، وثلاث نساء أخريات من ميلبروك تلتقيهن بأسوأ طريقة ممكنة. لكل واحدة أربعة فصول، ومشهدها الليلي، ونهايتها."
@@ -1257,23 +2352,158 @@ msgstr "نص اللعبة. تبقى الأصوات بالإنجليزية."
 msgid "The girls are voiced by amateur voice actresses, recorded at home. We love how they turned out, but they aren't studio recordings, and not every line is voiced yet.\n\nIf you'd rather read in your own head, turn the voices off. You can change this any time in Settings."
 msgstr "أدَّت أصوات الفتيات ممثلات هاويات سجَّلن في بيوتهن. نحب النتيجة كثيرًا، لكنها ليست تسجيلات استوديو، ولم تُسجَّل كل الأسطر بعد.\n\nإن كنت تفضِّل القراءة في ذهنك، أوقِف الأصوات. يمكنك تغيير ذلك في أي وقت من الإعدادات."
 
+msgid "The glass eye turns up in the window of the taxidermist's on Lantern Street, in a stuffed owl. The taxidermist won't sell it. He says the owl needs it."
+msgstr "تظهر العين الزجاجية في واجهة محل المحنِّط في شارع الفانوس، داخل بومة محنَّطة. يرفض المحنِّط بيعها. يقول إن البومة تحتاجها."
+
+msgid "The green at the tips of her hair goes a shade darker. She notices, and decides not to mention it."
+msgstr "يغمق الأخضر عند أطراف شعرها درجة. تلاحظ ذلك، وتقرر ألا تذكره."
+
+msgid "The jar stays empty all night."
+msgstr "يبقى البرطمان فارغًا طوال الليل."
+
+msgid "The jar... Should I keep it?"
+msgstr "البرطمان... هل أحتفظ به؟"
+
+msgid "The keys went to a locksmith, he says. And the glass eye went to someone who needed a glass eye, I suppose."
+msgstr "المفاتيح ذهبت إلى صانع أقفال، يقول. والعين الزجاجية إلى من كان يحتاج عينًا زجاجية، على ما أظن."
+
+msgid "The ledger leads you straight back to your own library. The last pages were sold to it in March as loose leaves, assorted, and filed in the rare books vault under Miscellaneous, Infernal."
+msgstr "يقودكما الدفتر مباشرة إلى مكتبتك أنت. بيعت الصفحات الأخيرة لها في مارس أوراقًا سائبة متنوعة، وحُفظت في قبو الكتب النادرة تحت بند متفرقات، جهنمية."
+
+msgid "The locksmith on Cinder Row has her keys in a bucket and wants a shilling for the lot. While you haggle, she stays very still in her jar under the counter."
+msgstr "صانع الأقفال في شارع الرماد يحتفظ بمفاتيحها في دلو ويريد شلنًا مقابلها كلها. بينما تساوم، تبقى ساكنة تمامًا في برطمانها تحت المنضدة."
+
+msgid "The mermaid looks at you properly for the first time. You're dripping. You've lost a shoe."
+msgstr "تنظر إليك الحورية حقًّا للمرة الأولى. الماء يقطر منك. فقدت حذاءً."
+
+msgid "The miller sent you? He sends someone every spring."
+msgstr "الطحَّان أرسلك؟ يرسل أحدًا كل ربيع."
+
+msgid "The miller walks past"
+msgstr "الطحَّان يمرُّ"
+
+msgid "The millrace runs and the old hazel keeps her roots. You plant another hazel beside the new channel, and it grows faster than it has any right to, leaning towards the old tree as if it's listening. You sleep in the grove more nights than not, and the old hazel blossoms in the wrong season, every season, which the miller now tells people is good luck."
+msgstr "تجري القناة وتحتفظ شجرة البندق العجوز بجذورها. تزرع شجرة بندق أخرى بجانب القناة الجديدة، فتنمو أسرع مما يحق لها، مائلة نحو الشجرة العجوز كأنها تصغي. تنام في البستان أكثر الليالي، وتزهر شجرة البندق العجوز في غير موسمها، في كل موسم، وهو ما يقول عنه الطحَّان الآن للناس إنه فأل حسن."
+
+msgid "The moss on the east side is softer than it looks."
+msgstr "الطحلب في الجانب الشرقي أنعم مما يبدو."
+
+msgid "The moss on the east side is softer than it looks. Above you her branches have spread and knitted together, and the first rain ticks against the leaves without coming through."
+msgstr "الطحلب في الجانب الشرقي أنعم مما يبدو. فوقك انتشرت أغصانها وتشابكت، وأول المطر ينقر على الأوراق دون أن ينفذ."
+
+msgid "The name on the slip belongs to a bookbinder who died in the spring. His shop is still full of loose pages."
+msgstr "الاسم على القسيمة لمجلِّد كتب مات في الربيع. ما زال دكانه مليئًا بالصفحات السائبة."
+
+msgid "The old hazel at dawn, in full blossom, in May."
+msgstr "شجرة البندق العجوز عند الفجر، في تمام إزهارها، في مايو."
+
+msgid "The old hazel stands where the grove meets the millrace. It's so big that the mill's back wall has started to bend round its roots."
+msgstr "تقف شجرة البندق العجوز حيث يلتقي البستان بقناة الطاحونة. إنها ضخمة حتى إن الجدار الخلفي للطاحونة بدأ ينحني حول جذورها."
+
+msgid "The pier's quiet apart from the Thursday tile game at the far end, where the three old fishermen are arguing about the score again."
+msgstr "الرصيف هادئ، عدا لعبة الخميس في الطرف الآخر، حيث يتشاجر الصيادون الثلاثة العجائز على النتيجة من جديد."
+
 msgid "The purchase couldn't start (%s)."
 msgstr "تعذَّر بدء الشراء (%s)."
 
 msgid "The purchase didn't go through (%s)."
 msgstr "لم يكتمل الشراء (%s)."
 
+msgid "The reading room at dawn: a burnt-out candle in a smudged chalk circle, your jacket folded into a neat square on the returns cart."
+msgstr "قاعة المطالعة عند الفجر: شمعة محترقة في دائرة طباشير ملطخة، وسترتك مطويَّة مربعًا مرتبًا على عربة الكتب المعادة."
+
+msgid "The reading room with the door shut. The only light is the candle in your chalk circle, and she's sitting on the reading table again."
+msgstr "قاعة المطالعة وبابها مغلق. الضوء الوحيد من الشمعة في دائرة الطباشير، وهي جالسة على طاولة المطالعة من جديد."
+
+msgid "The reward is you come to every Tide from now on. Non-negotiable. Don't smile, it's a punishment."
+msgstr "المكافأة أن تأتي إلى كل مدٍّ من الآن فصاعدًا. غير قابل للتفاوض. لا تبتسم، إنه عقاب."
+
 msgid "The store isn't available in this build."
 msgstr "المتجر غير متاح في هذه النسخة."
+
+msgid "The stream comes out under the Mill Bridge, where Coombs the rag-and-bone man fishes for anything that floats. You get there ahead of her and sell him a handful of buttons off the bank for two coppers before you realise whose they are. He's netted the rest too. Buying the lot back costs six coppers, which he finds very funny."
+msgstr "يخرج الجدول تحت جسر الطاحونة، حيث يصطاد كومبس بائع الخرق كل ما يطفو. تصل قبلها وتبيعه حفنة أزرار من الضفة بقطعتين نحاسيتين قبل أن تدرك لمن هي. وقد اصطاد الباقي أيضًا بشبكته. شراء الكل يكلِّفك ست قطع نحاسية، ويجد ذلك مضحكًا جدًّا."
+
+msgid "The stream goes to town. We're going. You're carrying me! Please?"
+msgstr "الجدول يذهب إلى البلدة. سنذهب. ستحملني! أرجوك؟"
+
+msgid "The taxidermist is so startled he gives her the eye, the owl, and a discount on a second owl."
+msgstr "يُذهل المحنِّط حتى يعطيها العين، والبومة، وخصمًا على بومة ثانية."
+
+msgid "The tide turns"
+msgstr "المدُّ ينقلب"
 
 msgid "The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts."
 msgstr "الصف العلوي يُستخدم أثناء الفصل، والسفلي يعمل وحده حين يبدأ فصلك التالي."
 
+msgid "The trench reaches the river on the night of a storm. Water floods into the new channel, and the whole tree shudders."
+msgstr "يبلغ الخندق النهر في ليلة عاصفة. يتدفق الماء في القناة الجديدة، وترتجف الشجرة كلها."
+
 msgid "The two rows nearest the surface clear, and everything rises two rows."
 msgstr "يُمسح الصفان الأقرب إلى السطح، ويرتفع كل شيء صفين."
 
+msgid "The water in the cove is warm and black and full of moonlight. She surfaces right in front of you, close enough that her hair brushes your face."
+msgstr "ماء الخليج دافئ، أسود، ومليء بضوء القمر. تطفو أمامك مباشرة، قريبة حتى يلامس شعرها وجهك."
+
+msgid "The water's warm tonight."
+msgstr "الماء دافئ الليلة."
+
+msgid "The woods north of Millbrook, late autumn. You're out gathering firewood and anything worth selling, and you've followed the stream further in than you meant to."
+msgstr "الغابات شمال ميلبروك، أواخر الخريف. تجمع الحطب وكل ما يستحق البيع، وتبعت الجدول أبعد مما نويت."
+
+msgid "Their net. It went right through where I dropped it."
+msgstr "شبكتهما. مرَّت تمامًا حيث أسقطته."
+
+msgid "Then I'll ask. Close the reading room door. Leave the candle."
+msgstr "إذن سأطلب أنا. أغلِق باب قاعة المطالعة. اترك الشمعة."
+
+msgid "Then she notices the loose page on your desk, the one you copied from, and goes very still."
+msgstr "ثم تلاحظ الصفحة السائبة على مكتبك، التي نسخت منها، فتتجمد في مكانها."
+
+msgid "Then the miller. Then the miller again."
+msgstr "ثم الطحَّان. ثم الطحَّان مرة أخرى."
+
+msgid "Then we'd better find them before anyone else does."
+msgstr "إذن علينا أن نجدها قبل أي أحد آخر."
+
+msgid "Then we'll make sure nobody's boiling anybody."
+msgstr "إذن سنتأكد ألا يغلي أحد أحدًا."
+
+msgid "Then you remember the Pellow brothers dragging their nets through the cove last week. The whole pier complained about it."
+msgstr "ثم تتذكر الأخوين بيلو وهما يجرَّان شباكهما عبر الخليج الأسبوع الماضي. اشتكى الرصيف كله."
+
+msgid "There are forty-one of those. I counted when I put it on. Take your time."
+msgstr "عددها واحد وأربعون. عددتها حين ارتديته. خذ وقتك."
+
+msgid "There were wolves. And a family of woodcutters who sang while they worked. I liked them, even though they were woodcutters."
+msgstr "كانت هناك ذئاب. وعائلة حطابين كانوا يغنون وهم يعملون. أحببتهم، رغم أنهم حطابون."
+
+msgid "There's a woman sitting on the lowest branch, where you're sure nobody was a second ago. Her hair goes from gold to green, and below the knee her legs turn into bark."
+msgstr "هناك امرأة جالسة على أدنى غصن، حيث أنت متأكد أن أحدًا لم يكن قبل لحظة. شعرها يتدرج من الذهبي إلى الأخضر، وتحت الركبة تتحول ساقاها إلى لحاء."
+
+msgid "There. Now look me in the eye and tell me you'd rather be shelving."
+msgstr "هكذا. الآن انظر في عينيَّ وقل لي إنك تفضِّل ترتيب الكتب."
+
+msgid "There. Now we're even. Low tide's at six."
+msgstr "هكذا. الآن نحن متعادلان. الجزر في السادسة."
+
+msgid "There. Now you can't go anywhere. It's a mermaid thing. It's very old. I just made it up."
+msgstr "هكذا. الآن لا يمكنك الذهاب إلى أي مكان. إنه طقس حوريات. قديم جدًّا. اخترعته للتو."
+
 msgid "These unlock on Steam too."
 msgstr "تُفتح هذه على Steam أيضًا."
+
+msgid "They start clearing on quarter day. After that I need somewhere else to be quiet."
+msgstr "سيبدؤون القطع في يوم الربع. بعدها أحتاج إلى مكان هادئ آخر."
+
+msgid "They want an address for my library card. I don't have one. What do I put?"
+msgstr "يريدون عنوانًا لبطاقة مكتبتي. ليس لي عنوان. ماذا أكتب؟"
+
+msgid "They're a pair. I'm not splitting up a pair."
+msgstr "إنهما زوج. لن أفرِّق زوجًا."
+
+msgid "They're not strangers. I heard every one of them go by. From the jar."
+msgstr "ليسوا غرباء. سمعت كل واحد منهم يمرُّ. من البرطمان."
 
 msgid "Things found"
 msgstr "الأشياء الموجودة"
@@ -1283,6 +2513,18 @@ msgstr "هذا يمحو تقدم قصة كل فتاة، ونجومك، وأدو�
 
 msgid "This is a test build: no money changes hands. Buy %s for %s?"
 msgstr "هذه نسخة تجريبية: لا يُدفع أي مال. أتشتري %s مقابل %s؟"
+
+msgid "This line here. That's where you'd put my name. If you ever wanted to call me. You won't need to. I'll be with you."
+msgstr "هذا الخط هنا. هنا تضع اسمي. إن أردت يومًا أن تناديني. لن تحتاج. سأكون معك."
+
+msgid "This one's my favourite. Brass, four holes, off a very handsome coat. You have a very handsome... coat too."
+msgstr "هذا المفضل عندي. نحاس، أربعة ثقوب، من معطف وسيم جدًّا. لديك أيضًا... معطف وسيم جدًّا."
+
+msgid "This page is from my binding. The book that ties me to every circle anyone draws, however badly. Find all of it, burn it, and I'm free."
+msgstr "هذه الصفحة من قيدي. الكتاب الذي يربطني بكل دائرة يرسمها أي أحد، مهما كانت رديئة. اعثر عليه كله، أحرقه، وأصبح حرة."
+
+msgid "Those are mine. I-I've been collecting them for years."
+msgstr "إنها لي. أ-أجمعها منذ سنوات."
 
 msgid "Time Scroll"
 msgstr "لفافة الزمن"
@@ -1308,6 +2550,18 @@ msgstr "جرِّب: %s"
 msgid "Turn voices off"
 msgstr "إيقاف الأصوات"
 
+msgid "Twenty minutes?"
+msgstr "عشرون دقيقة؟"
+
+msgid "Two hundred springs I've watched people walk past this tree. Not one of them ever lay down under it."
+msgstr "مئتا ربيع وأنا أشاهد الناس يمرُّون بهذه الشجرة. لم يستلقِ أحد تحتها قط."
+
+msgid "Two hundred years, and nobody told me a spirit could feel like that. I'd like it noted that I'm saying this very calmly."
+msgstr "مئتا عام، ولم يخبرني أحد أن روحًا قد تشعر بشيء كهذا. أريد أن يُسجَّل أنني أقول هذا بهدوء شديد."
+
+msgid "Ugh. That's drier than a sponge."
+msgstr "يع. أجفُّ من إسفنجة."
+
 msgid "Unlimited Hearts"
 msgstr "قلوب غير محدودة"
 
@@ -1329,8 +2583,17 @@ msgstr "الأداء الصوتي"
 msgid "Voice Volume"
 msgstr "مستوى صوت الأصوات"
 
+msgid "W-with you? Where would I even..."
+msgstr "ع-عندك؟ وأين سأكون..."
+
 msgid "Watch a video: %s"
 msgstr "شاهد فيديو: %s"
+
+msgid "We're getting the second owl, right?"
+msgstr "سنأخذ البومة الثانية، صحيح؟"
+
+msgid "Well. It worked, which is insulting in its own way. Go on, then. Ask."
+msgstr "حسنًا. لقد نجح، وهذا مهين بحد ذاته. هيا إذن. اطلب."
 
 msgid "What a date!"
 msgstr "يا له من موعد!"
@@ -1341,8 +2604,32 @@ msgstr "بماذا تجيب؟"
 msgid "What she likes"
 msgstr "ما الذي تحبه"
 
+msgid "What you want. Gold. Revenge. And sooner or later sex. It always comes to that."
+msgstr "ما تريده. ذهب. انتقام. وعاجلًا أو آجلًا جنس. دائمًا ينتهي الأمر إلى ذلك."
+
 msgid "When falling gems make new matches on their own, that's a combo. Each link in the chain scores more than the last."
 msgstr "حين تصنع الجواهر المتساقطة تطابقات جديدة من تلقاء نفسها، فتلك سلسلة. كل حلقة فيها تمنح أكثر من سابقتها."
+
+msgid "When you climb out you lean on the trunk to get your breath back. The bark is rough and cool under your hand."
+msgstr "حين تخرج تتكئ على الجذع لتلتقط أنفاسك. اللحاء خشن وبارد تحت يدك."
+
+msgid "When you get back, a branch creaks overhead in a way that sounds very deliberate."
+msgstr "حين تعود، يصرُّ غصن فوقك بطريقة تبدو متعمدة جدًّا."
+
+msgid "Where are my things? They were here. In rows. I-I had them in rows."
+msgstr "أين أشيائي؟ كانت هنا. في صفوف. ك-كنت أرتبها في صفوف."
+
+msgid "Where did you get that."
+msgstr "من أين لك هذه."
+
+msgid "While you fetch coffee from the staff room, she takes a red pencil from your desk and starts correcting the page that started all this."
+msgstr "بينما تجلب القهوة من غرفة الموظفين، تأخذ قلمًا أحمر من مكتبك وتبدأ في تصحيح الصفحة التي بدأ بها كل شيء."
+
+msgid "Who even likes those?"
+msgstr "من يحب هذه أصلًا؟"
+
+msgid "Why would you do that?"
+msgstr "لماذا فعلت ذلك؟"
 
 msgid "Window Shopping"
 msgstr "تسوُّق بالنظر"
@@ -1353,17 +2640,86 @@ msgstr "أضِف إلى قائمة الأمنيات على Steam"
 msgid "With Moves to Spare"
 msgstr "بحركات فائضة"
 
+msgid "With the lamp down, the only light in your room comes from her: a soft lilac glow that brightens wherever you touch."
+msgstr "مع خفض المصباح، يصير الضوء الوحيد في غرفتك منها: توهج بنفسجي ناعم يشتد حيثما تلمسها."
+
 msgid "You"
 msgstr "أنت"
 
 msgid "You already have this."
 msgstr "لديك هذا بالفعل."
 
+msgid "You also find a little brass clasp wedged under the pier. She takes it from you and turns it over for a long time."
+msgstr "وتجد أيضًا مشبكًا نحاسيًّا صغيرًا عالقًا تحت الرصيف. تأخذه منك وتقلِّبه طويلًا."
+
+msgid "You ask what she means."
+msgstr "تسألها ماذا تقصد."
+
+msgid "You bring it down to the pier after dark. She holds it for a long time without saying anything."
+msgstr "تحمله إلى الرصيف بعد حلول الظلام. تمسكه طويلًا دون أن تقول شيئًا."
+
+msgid "You came by with an axe."
+msgstr "جئت بفأس."
+
+msgid "You can actually swim. The first time, you looked like a coat someone had thrown off a pier."
+msgstr "تعرف السباحة فعلًا. في المرة الأولى بدوت كمعطف رماه أحدهم من الرصيف."
+
 msgid "You can close this tab now."
 msgstr "يمكنك إغلاق هذه النافذة الآن."
 
+msgid "You can get dressed now."
+msgstr "يمكنك أن ترتدي ثيابك الآن."
+
+msgid "You can hold my hand. If you don't mind it being a bit... wet."
+msgstr "يمكنك أن تمسك يدي. إن لم يزعجك أنها مبلولة... قليلًا."
+
+msgid "You can stay with me. My place is quiet."
+msgstr "يمكنك أن تبقي عندي. بيتي هادئ."
+
+msgid "You close the door."
+msgstr "تغلق الباب."
+
+msgid "You copied it off a loose page that fell out of a returned book. It looked nice. You put a candle stub in the middle because it seemed like the kind of thing that wanted a candle."
+msgstr "نسختها من صفحة سائبة سقطت من كتاب معاد. بدت جميلة. وضعت في وسطها بقية شمعة لأنها بدت من الأشياء التي تريد شمعة."
+
+msgid "You could keep one, you know. Just one page. I wouldn't be able to refuse you anything."
+msgstr "يمكنك أن تحتفظ بواحدة، تعرف. صفحة واحدة فقط. لن أستطيع أن أرفض لك أي شيء."
+
+msgid "You didn't ask what you get out of it."
+msgstr "لم تسأل ما الذي ستجنيه أنت."
+
+msgid "You dig until sunset. The trench ends up about the length of a coffin, which she points out twice."
+msgstr "تحفر حتى الغروب. ينتهي الخندق بطول تابوت تقريبًا، وتشير هي إلى ذلك مرتين."
+
+msgid "You don't ask for any of it. You ask if she's all right, because she came out of the smoke coughing."
+msgstr "لا تطلب أيًّا من ذلك. تسألها إن كانت بخير، لأنها خرجت من الدخان تسعل."
+
+msgid "You don't take your time. She laughs at you, low in her throat, and doesn't complain."
+msgstr "لا تأخذ وقتك. تضحك منك ضحكة خافتة من حلقها، ولا تشتكي."
+
+msgid "You don't think about it. You run down the steps, jump off the end of the pier in your clothes, get an arm round her and drag her back."
+msgstr "لا تفكر. تركض نازلًا الدرج، تقفز بثيابك من طرف الرصيف، تلفُّ ذراعك حولها وتسحبها عائدًا."
+
 msgid "You have %d"
 msgstr "لديك %d"
+
+msgid "You hold it very well. That's all I'm admitting."
+msgstr "تمسكه جيدًا جدًّا. هذا كل ما أعترف به."
+
+msgid "You hum when you think. It's nice."
+msgstr "تدندن حين تفكر. هذا لطيف."
+
+msgid "You laugh. She goes pink all the way through, and then she laughs too."
+msgstr "تضحك. تتورد هي من رأسها إلى أخمصها، ثم تضحك أيضًا."
+
+msgid "You leave your shoes on the pier, both of them."
+msgstr "تترك حذاءيك على الرصيف، كليهما."
+
+msgid "You look from her to the trunk and back. Her heart is in the tree, then. So what's in her chest? Does she feel every woodpecker? Is the tree her, or is she the tree's way of talking? It doesn't feel like the moment to ask."
+msgstr "تنقل نظرك بينها وبين الجذع. قلبها في الشجرة إذن. فما الذي في صدرها؟ أتشعر بكل نقار خشب؟ أهي الشجرة، أم هي طريقة الشجرة في الكلام؟ لا يبدو هذا الوقت المناسب للسؤال."
+
+msgid "You lower the axe. After a moment, you put it down on the grass."
+msgstr "تخفض الفأس. بعد لحظة تضعها على العشب."
 
 msgid "You need %d more stars."
 msgstr "تحتاج %d نجمة إضافية."
@@ -1371,8 +2727,143 @@ msgstr "تحتاج %d نجمة إضافية."
 msgid "You needed %d more points."
 msgstr "كنت تحتاج %d نقطة إضافية."
 
+msgid "You point out that the label said newts."
+msgstr "تشير إلى أن الملصق قال سمادل."
+
+msgid "You say another hazel, so she isn't the only one."
+msgstr "تقول: شجرة بندق أخرى، كي لا تكون وحدها."
+
+msgid "You say it back. She listens like she's checking your pronunciation."
+msgstr "تردده. تصغي كأنها تتحقق من نطقك."
+
+msgid "You say it. Amara. She shuts her eyes, as if she's checking your pronunciation one last time."
+msgstr "تقوله. أمارا. تغمض عينيها، كأنها تتحقق من نطقك للمرة الأخيرة."
+
+msgid "You say yes. She talks for an hour without stuttering once."
+msgstr "تقول نعم. تتكلم ساعة دون أن تتلعثم مرة واحدة."
+
+msgid "You shake your head."
+msgstr "تهزُّ رأسك."
+
+msgid "You sit with your back against the trunk while it rains. Every so often she makes a small sound, and you put your hand flat on the bark. Under your palm, right about where you'd have swung the axe, something in the wood is beating. So that answers that."
+msgstr "تجلس مسندًا ظهرك إلى الجذع بينما تمطر. بين حين وآخر تُصدر صوتًا خافتًا، فتضع كفَّك مبسوطة على اللحاء. تحت راحتك، تقريبًا حيث كنت ستضرب بالفأس، شيء في الخشب ينبض. وهكذا أُجيب السؤال."
+
+msgid "You start to take your hand away. She says you don't have to."
+msgstr "تبدأ في سحب يدك. تقول إنك لست مضطرًّا."
+
+msgid "You stay."
+msgstr "تبقى."
+
+msgid "You summoned me with that pathetic chalk circle? Where did you even copy it from? Ugh, I was in the middle of something."
+msgstr "استدعيتني بدائرة الطباشير البائسة هذه؟ من أين نسختها أصلًا؟ أُف، كنت منشغلة بشيء."
+
+msgid "You take the lantern off her and tell her to sit down for an hour. You'll do the rocks."
+msgstr "تأخذ منها الفانوس وتقول لها أن تجلس ساعة. ستتولى أنت الصخور."
+
+msgid "You tell her about the wall. Her roots are cracking it, and when it goes, the miller loses his mill."
+msgstr "تخبرها عن الجدار. جذورها تشقُّه، وحين ينهار سيخسر الطحَّان طاحونته."
+
+msgid "You tell her it fell out of a returned book, and you didn't check which one. You step towards the desk to show her."
+msgstr "تخبرها أنها سقطت من كتاب معاد، ولم تتحقق من أيِّه. تخطو نحو المكتب لتريها."
+
+msgid "You tell her it isn't strange. She pulls you closer, and for once she doesn't apologise for anything."
+msgstr "تخبرها أنه ليس غريبًا. تشدُّك أقرب، ولمرة واحدة لا تعتذر عن أي شيء."
+
+msgid "You tell her she should tell it."
+msgstr "تقول لها أن تحكي هي."
+
+msgid "You tell her to keep it. For storms."
+msgstr "تقول لها أن تحتفظ به. للعواصف."
+
+msgid "You tell her to put yours."
+msgstr "تقول لها أن تكتب عنوانك."
+
+msgid "You tell her you haven't watched a single game."
+msgstr "تخبرها أنك لم تشاهد لعبة واحدة."
+
+msgid "You tell her. The stream has already carried most of it round the bend, towards town."
+msgstr "تخبرها. حمل الجدول معظمها بالفعل إلى ما بعد المنعطف، نحو البلدة."
+
+msgid "You turn the lamp down."
+msgstr "تخفض المصباح."
+
+msgid "You wake up in the boathouse on a heap of old sails, with sand in your ears. She's already in the water, arms folded on the edge of the slipway, watching you."
+msgstr "تستيقظ في السقيفة على كومة من الأشرعة القديمة، والرمل في أذنيك. هي في الماء بالفعل، ذراعاها مطويَّتان على حافة المنحدر، تراقبك."
+
+msgid "You want a thank-you? For that?"
+msgstr "تريد شكرًا؟ على ذلك؟"
+
+msgid "You want to hear about buttons?"
+msgstr "تريد أن تسمع عن الأزرار؟"
+
+msgid "You were incredible."
+msgstr "كنتِ مذهلة."
+
+msgid "You'd burn it."
+msgstr "ستحرقها."
+
+msgid "You'd have struck just below my heart. It would take... forty years or so to heal."
+msgstr "كنت ستضرب تحت قلبي مباشرة. كان سيحتاج... أربعين عامًا تقريبًا ليلتئم."
+
+msgid "You're a genius, you're a soaked genius."
+msgstr "أنت عبقري، عبقري مبلول تمامًا."
+
+msgid "You're a terrible influence. Keep going."
+msgstr "تأثيرك عليَّ فظيع. استمر."
+
+msgid "You're doing well. I'm counting."
+msgstr "أنت تُبلي حسنًا. أنا أعدُّ."
+
+msgid "You're getting good at this. It's annoying."
+msgstr "أصبحت ماهرًا. هذا مزعج."
+
+msgid "You're good with soft things."
+msgstr "أنت ماهر مع الأشياء الناعمة."
+
+msgid "You're new in town and you'll take any work that pays. The miller paid you half up front to cut the tree down. You pick a spot on the trunk that looks right, plant your feet and lift the axe."
+msgstr "أنت جديد في البلدة وتقبل أي عمل يدفع. دفع لك الطحَّان النصف مقدَّمًا لتقطع الشجرة. تختار موضعًا على الجذع يبدو مناسبًا، وتثبِّت قدميك وترفع الفأس."
+
+msgid "You're not jealous? Your leaves are going red."
+msgstr "لستِ غيورة؟ أوراقك تحمرُّ."
+
+msgid "You're quicker than you look. You look quite slow."
+msgstr "أنت أسرع مما تبدو. وأنت تبدو بطيئًا جدًّا."
+
+msgid "You're shaking. Come in closer, there's a hollow in the trunk that fits you."
+msgstr "أنت ترتجف. اقترب، في الجذع تجويف يتسع لك."
+
+msgid "You're still warm. Good."
+msgstr "ما زلت دافئًا. جيد."
+
+msgid "You're the best thing I've found in this library."
+msgstr "أنتِ أجمل ما وجدته في هذه المكتبة."
+
+msgid "You're welcome, by the way."
+msgstr "على الرحب، بالمناسبة."
+
+msgid "You've asked me twice not to sit on this table."
+msgstr "طلبت مني مرتين ألا أجلس على هذه الطاولة."
+
+msgid "You've been in Millbrook three weeks, taking whatever work pays. Tonight that's the late shift at the public library. It's a quarter past midnight, the gas lamps have been out for an hour, the returns cart is still full, and you've drawn a circle on the reading room floor in children's chalk."
+msgstr "أنت في ميلبروك منذ ثلاثة أسابيع، تقبل أي عمل يدفع أجرًا. الليلة هي النوبة المتأخرة في المكتبة العامة. الساعة الثانية عشرة والربع بعد منتصف الليل، أُطفئت مصابيح الغاز منذ ساعة، وعربة الكتب المعادة ما زالت ممتلئة، وقد رسمت دائرة على أرضية قاعة المطالعة بطباشير أطفال."
+
+msgid "You've got mud on your face. Leave it. It suits you."
+msgstr "على وجهك طين. اتركه. يليق بك."
+
+msgid "You've got sand on you. Everywhere. That's your problem, I'm not helping."
+msgstr "عليك رمل. في كل مكان. مشكلتك، لن أساعدك."
+
+msgid "You've helped enough for one day, lifeguard."
+msgstr "ساعدت بما يكفي لليوم يا منقذ."
+
+msgid "You... jumped in your clothes. For someone you'd never met."
+msgstr "لقد... قفزت بثيابك. من أجل شخص لم تلتقِه قط."
+
 msgid "Your best: %d"
 msgstr "أفضل نتيجة لك: %d"
+
+msgid "Your name would be nice."
+msgstr "اسمك سيكون لطيفًا."
 
 msgid "Your next chapter begins with a free Starburst gem already on the board."
 msgstr "يبدأ فصلك التالي بجوهرة انفجار نجوم مجانية على اللوحة."
@@ -1388,6 +2879,12 @@ msgstr "عملية الشراء معلَّقة. ستصل حالما يؤكدها
 
 msgid "Your replies"
 msgstr "ردودك"
+
+msgid "Your second ring doesn't close. That sigil is upside down. And this one isn't a sigil at all, it's a coffee stain you traced."
+msgstr "حلقتك الثانية لا تنغلق. ذلك الرمز مقلوب. وهذا ليس رمزًا أصلًا، إنه بقعة قهوة شففتها."
+
+msgid "Yours. Fine. I'm bringing my own candles."
+msgstr "عنوانك. حسنًا. سأحضر شموعي معي."
 
 msgid "a button"
 msgstr "زر"
