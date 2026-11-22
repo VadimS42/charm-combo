@@ -401,13 +401,24 @@ static func _choice_row(title: String, desc: String, options: Array, current: St
 			first = b
 	# Left/right step through the options (round 45: the D-pad's own guess
 	# skipped "Hard").
+	# In Arabic the row is mirrored (first option on the right), so the
+	# D-pad directions swap too (round 52).
 	var opts := seg.get_children()
+	var rtl := TranslationServer.get_locale().begins_with("ar")
 	for i in range(opts.size()):
 		var ob: Button = opts[i]
 		if i > 0:
-			ob.focus_neighbor_left = ob.get_path_to(opts[i - 1])
+			var prev := ob.get_path_to(opts[i - 1])
+			if rtl:
+				ob.focus_neighbor_right = prev
+			else:
+				ob.focus_neighbor_left = prev
 		if i < opts.size() - 1:
-			ob.focus_neighbor_right = ob.get_path_to(opts[i + 1])
+			var nxt := ob.get_path_to(opts[i + 1])
+			if rtl:
+				ob.focus_neighbor_left = nxt
+			else:
+				ob.focus_neighbor_right = nxt
 	p.set_meta("control", first)
 	return p
 

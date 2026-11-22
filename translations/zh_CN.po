@@ -2308,7 +2308,7 @@ msgid "Th-that's a sealing mark. Please don't."
 msgstr "那、那是封印符号。请不要。"
 
 msgid "Thanks for playing the demo!"
-msgstr "感谢试玩Demo!"
+msgstr "感谢试玩体验版!"
 
 msgid "That catches the light. Do another."
 msgstr "这个会反光。再来一个。"

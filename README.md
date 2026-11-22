@@ -17,6 +17,28 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-52 — 13 languages: the world's top 10 plus Ukrainian, and a translation check
+
+- **Six new languages**, complete (interface and all four stories): Hindi,
+  Arabic, French, Bengali, Indonesian, Ukrainian. With English, Chinese,
+  Spanish, Portuguese and Russian that's the ten most spoken languages, plus
+  Japanese, German and Ukrainian. Machine drafts: get a native speaker to
+  read them before release (`docs/TRANSLATING.md`).
+- **Fonts:** Noto Sans Arabic, Devanagari and Bengali bundled (640 KB total).
+- **Arabic is right-to-left:** the whole layout mirrors; the puzzle board
+  doesn't, and the D-pad follows the mirrored Settings rows.
+- **The player is a man:** no "(-ла)"-style hedges; his lines are masculine.
+- **Quality check** `tools/i18n/qc.py`: names, numbers, symbols, %d/%s, item
+  names, leftover English, long labels, gender. 0 problems in all 12
+  languages. Fixes from it: Russian "Charm Burst" was two different words;
+  Chinese "Demo" now 体验版.
+- **Screenshots checked** in every new language (menu, roster, Settings,
+  puzzle, story, shop, achievements, language picker). One fix: a long
+  "Settings" (Ukrainian "Налаштування") ran under the stars; the corner's
+  space now follows its real width.
+- Language picker on first launch is two columns now (13 buttons).
+  All tests pass. No new art or voice; voices stay English.
+
 ## ✅ Status: round-51 — Google Play build balanced: difficulty curve, mobile lives, economy simulation
 
 - **Difficulty curve** (power-ups measured, `balance_bot.gd mode=girlkits`):

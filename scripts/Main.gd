@@ -289,6 +289,9 @@ func _build_chrome() -> void:
 	screen_area.add_child(overlay_host)
 	# The stars and Settings, over the screen (see "top bar" above).
 	add_child(topbar)
+	# Screens keep their top rows clear of this corner; a long translated
+	# "Settings" widens it (round 52), so tell them its real width.
+	topbar.resized.connect(func(): UITheme.set_corner_width(get_tree(), topbar.size.x - 16.0))
 	add_child(_hint_bar)
 
 	_toast_host = Control.new()

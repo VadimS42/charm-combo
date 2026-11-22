@@ -810,15 +810,25 @@ static func placeholder_portrait(char_id: String, initial: String, px: float = 2
 ## Room the stars and Settings take in the window's top-right corner (round
 ## 42: they float over the screen now there's no top bar). Rows along the
 ## top of a screen end with corner_gap() so nothing sits under them.
+## Round 52: at least CORNER_W, wider when a translated "Settings" is long
+## (Main calls set_corner_width() whenever the corner resizes).
 const CORNER_W := 200.0
+static var corner_w := CORNER_W
 
 
 static func corner_gap() -> Control:
 	var c := Control.new()
-	c.custom_minimum_size = Vector2(CORNER_W, 0)
+	c.custom_minimum_size = Vector2(corner_w, 0)
 	c.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	c.visible = not Platform.trailer
+	c.add_to_group("corner_gap")
 	return c
+
+
+static func set_corner_width(tree: SceneTree, w: float) -> void:
+	corner_w = maxf(CORNER_W, ceilf(w))
+	for c in tree.get_nodes_in_group("corner_gap"):
+		(c as Control).custom_minimum_size.x = corner_w
 
 
 ## clear_corner: true for a tag in the window's top-right corner, so it sits
@@ -829,7 +839,7 @@ static func corner_tag(text: String = "Art placeholder", margin: int = 12, clear
 	box.set_anchors_preset(Control.PRESET_FULL_RECT)
 	box.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	box.add_theme_constant_override("margin_top", margin)
-	box.add_theme_constant_override("margin_right", margin + (int(CORNER_W) if clear_corner else 0))
+	box.add_theme_constant_override("margin_right", margin + (int(corner_w) if clear_corner else 0))
 	var row := HBoxContainer.new()
 	row.alignment = BoxContainer.ALIGNMENT_END
 	row.size_flags_vertical = Control.SIZE_SHRINK_BEGIN

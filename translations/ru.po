@@ -688,7 +688,7 @@ msgid "Every Day Counts"
 msgstr "Каждый день на счету"
 
 msgid "Every few moves something happens around you: the panel on her side says what and when. It might raise what it takes to win her over, turn gems into cursed shards, cost you a move or halve your Charm ring. Matching her favourite gem holds it off a move; a Charm Burst clears it."
-msgstr "Каждые несколько ходов вокруг что-то происходит: панель с её стороны говорит, что и когда. Это может поднять планку, чтобы покорить её, превратить камни в проклятые осколки, отнять ход или вдвое уменьшить кольцо Обаяния. Её любимый камень откладывает это на ход; Взрыв обаяния отменяет."
+msgstr "Каждые несколько ходов вокруг что-то происходит: панель с её стороны говорит, что и когда. Это может поднять планку, чтобы покорить её, превратить камни в проклятые осколки, отнять ход или вдвое уменьшить кольцо Обаяния. Её любимый камень откладывает это на ход; Всплеск обаяния отменяет."
 
 msgid "Every girl has a favourite gem and one she dislikes (it's on her card in the roster). Matching her favourite fills the Charm ring faster."
 msgstr "У каждой девушки есть любимый камень и нелюбимый (он указан на её карточке в списке). Если собрать её любимый, кольцо Обаяния заполняется быстрее."
@@ -2122,7 +2122,7 @@ msgid "Someone in this town knows exactly what that book is."
 msgstr "Кто-то в этом городе точно знает, что это за книга."
 
 msgid "Something about to happen on your date. Matching her favourite gem holds it off a move; a Charm Burst clears it."
-msgstr "Что-то вот-вот случится на свидании. Её любимый камень откладывает это на ход; Взрыв обаяния отменяет."
+msgstr "Что-то вот-вот случится на свидании. Её любимый камень откладывает это на ход; Всплеск обаяния отменяет."
 
 msgid "Something cool and slightly heavy is draped over you like a blanket. It turns out to be her."
 msgstr "Что-то прохладное и слегка тяжёлое накинуто на тебя, как одеяло. Оказывается, это она."
