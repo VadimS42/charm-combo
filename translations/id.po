@@ -3,6 +3,18 @@ msgstr ""
 "Language: id\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 
+msgid "\"Don't even think about it.\""
+msgstr "\"Jangan coba-coba.\""
+
+msgid "\"I was fine. It was quiet in there.\""
+msgstr "\"Aku baik-baik saja. Di dalam sana tenang.\""
+
+msgid "\"I was floating. On my back.\""
+msgstr "\"Aku sedang mengapung. Telentang.\""
+
+msgid "\"You summoned me with that pathetic chalk circle?\""
+msgstr "\"Kamu memanggilku dengan lingkaran kapur menyedihkan itu?\""
+
 msgid "%d / %d endings found"
 msgstr "%d / %d akhir cerita ditemukan"
 
@@ -93,8 +105,17 @@ msgstr "800 bintang."
 msgid "A Lovely Trench"
 msgstr "Parit yang Indah"
 
+msgid "A Quiet Place"
+msgstr "Tempat yang Tenang"
+
 msgid "A Thousand Sparkles"
 msgstr "Seribu Kilauan"
+
+msgid "A clock that only works when the sun's out."
+msgstr "Jam yang hanya bekerja kalau matahari bersinar."
+
+msgid "A cold breeze"
+msgstr "Angin dingin"
 
 msgid "A comb piece!"
 msgstr "Kepingan sisir!"
@@ -102,8 +123,17 @@ msgstr "Kepingan sisir!"
 msgid "A comb piece! %d / %d"
 msgstr "Kepingan sisir! %d / %d"
 
+msgid "A folding brass sundial small enough for a pocket. It only tells the time on sunny days, which as far as she's concerned are the only days that need it."
+msgstr "Jam matahari lipat dari kuningan, cukup kecil untuk saku. Hanya menunjukkan waktu saat cerah, dan menurutnya hanya hari cerah yang memang butuh jam."
+
 msgid "A free date"
 msgstr "Kencan bebas"
+
+msgid "A glass marble with a ribbon of gold twisted through it, the kind nobody's made for decades."
+msgstr "Kelereng kaca dengan pita emas terpilin di dalamnya, jenis yang sudah puluhan tahun tidak dibuat lagi."
+
+msgid "A leaf drops into your hair. There's no wind."
+msgstr "Sehelai daun jatuh di rambutmu. Tidak ada angin."
 
 msgid "A little buzz when gems match."
 msgstr "Getaran kecil saat permata cocok."
@@ -123,14 +153,38 @@ msgstr "Papan baru setiap hari, sama untuk semua orang: %d langkah, satu kali co
 msgid "A new seed drops in."
 msgstr "Benih baru jatuh."
 
+msgid "A reader shushes you"
+msgstr "Seorang pembaca menyuruhmu diam"
+
+msgid "A sapling beside the new millrace, a ribbon tied round it."
+msgstr "Sebatang pohon muda di samping saluran kincir baru, seutas pita terikat di sekelilingnya."
+
+msgid "A smooth chip of sea glass, worn soft by years of tide, on a plain cord."
+msgstr "Sepotong kaca laut yang licin, dihaluskan bertahun-tahun oleh pasang surut, pada seutas tali sederhana."
+
+msgid "A squall comes in over the cove. She wants to dive anyway. You hold the rope ladder and argue with her over the wind."
+msgstr "Badai kecil masuk ke teluk. Dia tetap ingin menyelam. Kamu memegangi tangga tali dan berdebat dengannya, berteriak melawan angin."
+
+msgid "A tall beeswax candle with a nine-hour wick. It burns longer if nobody blows it out."
+msgstr "Lilin lebah tinggi dengan sumbu sembilan jam. Menyala lebih lama kalau tidak ada yang meniupnya."
+
 msgid "A tip"
 msgstr "Tips"
+
+msgid "A twig drops, very precisely, into your lunch."
+msgstr "Sebatang ranting jatuh, dengan sangat tepat, ke makan siangmu."
+
+msgid "A wave over the pier"
+msgstr "Ombak menerjang dermaga"
 
 msgid "ACHIEVEMENT UNLOCKED"
 msgstr "PENCAPAIAN TERBUKA"
 
 msgid "About the voices"
 msgstr "Tentang suara"
+
+msgid "About your reward. Last night was not the reward. I need you to understand that. Last night was separate."
+msgstr "Soal hadiahmu. Semalam itu bukan hadiahnya. Kamu harus mengerti itu. Semalam itu hal lain."
 
 msgid "Absorb"
 msgstr "Serap"
@@ -144,17 +198,47 @@ msgstr "Pencapaian"
 msgid "Ad privacy choices"
 msgstr "Privasi iklan"
 
+msgid "Admit it. You like having me around."
+msgstr "Ngaku saja. Kamu suka ada aku di dekatmu."
+
+msgid "After Hours"
+msgstr "Lewat Jam Tutup"
+
 msgid "After each chapter you pick a reply. A warm one starts her next chapter with bonus points (two extra moves when the chapter is only her goal); a teasing one costs a few points, but she likes those too."
 msgstr "Setelah setiap bab kamu memilih jawaban. Jawaban yang hangat memulai bab berikutnya dengan poin bonus (dua langkah tambahan kalau babnya hanya berisi targetnya); jawaban yang menggoda mengurangi sedikit poin, tapi dia juga suka itu."
 
 msgid "After that, her favourite gem shows up more often in all her chapters, for good."
 msgstr "Setelah itu, permata favoritnya lebih sering muncul di semua babnya, selamanya."
 
+msgid "After the comb, it can be a big thing."
+msgstr "Setelah sisirnya ketemu, boleh dibesar-besarkan."
+
+msgid "Afterwards she lies with her head on your chest, her tail curled down the slipway into the water, flicking now and then."
+msgstr "Setelahnya dia berbaring dengan kepala di dadamu, ekornya melingkar menuruni landasan perahu sampai ke air, sesekali berkedut."
+
+msgid "Afterwards she's spread across most of the bed and some of you, glowing faintly, humming something Ambrose used to whistle."
+msgstr "Setelahnya dia terhampar di sebagian besar ranjang dan sebagian dirimu, bercahaya samar, menyenandungkan lagu yang dulu sering disiulkan Ambrose."
+
+msgid "Afterwards you lie in the moss with her hair across your chest. Overhead, every leaf on her east side has turned pale side up, the way they do before a storm. There's no storm."
+msgstr "Setelahnya kamu berbaring di lumut dengan rambutnya melintang di dadamu. Di atas, setiap daun di sisi timurnya sudah berbalik memperlihatkan sisi pucatnya, seperti sebelum badai. Tidak ada badai."
+
+msgid "Against an alchemist? You sold my buttons for two coppers and bought them back for six."
+msgstr "Melawan alkemis? Kamu menjual kancingku dua keping tembaga dan membelinya lagi enam."
+
+msgid "Alchemists boil slimes down for glue. Did you know that? Twelve shillings a pound."
+msgstr "Para alkemis merebus lendir jadi lem. Kamu tahu? Dua belas shilling per pon."
+
 msgid "All rules"
 msgstr "Semua aturan"
 
+msgid "All spring, by hand? I guess I'll have to get used to you."
+msgstr "Sepanjang musim semi, dengan tangan? Kurasa aku harus membiasakan diri denganmu."
+
 msgid "All the girls"
 msgstr "Semua gadis"
+
+msgid "Amara Duskrose"
+msgstr "Amara Duskrose"
 
 msgid "Amara's power: Correct Lines"
 msgstr "Kekuatan Amara: Garis Koreksi"
@@ -162,11 +246,29 @@ msgstr "Kekuatan Amara: Garis Koreksi"
 msgid "Amara's seals broken"
 msgstr "Segel Amara dipecahkan"
 
+msgid "Amara. It's the one I use. The real one is in the book, along with everything else that keeps me on a leash."
+msgstr "Amara. Itu nama yang kupakai. Nama asliku ada di buku itu, bersama semua hal lain yang membuatku terikat."
+
 msgid "Amara: break every seal"
 msgstr "Amara: pecahkan semua segel"
 
 msgid "Amara: sealed pages"
 msgstr "Amara: halaman bersegel"
+
+msgid "Ambrose wrote that label. He was the forester. When the alchemists came round buying slimes, he hid me out here. It worked for thirty-one years."
+msgstr "Ambrose yang menulis label itu. Dia penjaga hutan. Waktu para alkemis datang membeli lendir, dia menyembunyikanku di sini. Itu berhasil selama tiga puluh satu tahun."
+
+msgid "An owl startles her"
+msgstr "Burung hantu mengagetkannya"
+
+msgid "And this time, take your clothes off before you jump in."
+msgstr "Dan kali ini, lepas bajumu sebelum melompat."
+
+msgid "And you still haven't asked me for anything."
+msgstr "Dan kamu masih belum meminta apa-apa dariku."
+
+msgid "And you're not going to tell anyone either, are you, lifeguard?"
+msgstr "Dan kamu juga tidak akan memberi tahu siapa-siapa, kan, penyelamat?"
 
 msgid "Another date"
 msgstr "Kencan lagi"
@@ -176,6 +278,9 @@ msgstr "Kecocokan apa pun langsung menyelesaikan target bab dan memberi 99 binta
 
 msgid "Anything you've bought on this Google account comes back in a moment."
 msgstr "Semua yang kamu beli dengan akun Google ini akan kembali sebentar lagi."
+
+msgid "At the Midsummer Tide the whole family swims out to the rocks, and Gran wears nine pearls in her hair and pretends not to notice everyone watching her."
+msgstr "Saat Pasang Tengah Musim Panas seluruh keluarga berenang ke bebatuan, dan Nenek memakai sembilan mutiara di rambutnya, pura-pura tidak sadar semua orang memandanginya."
 
 msgid "Auto"
 msgstr "Otomatis"
@@ -216,14 +321,32 @@ msgstr "Kencan terbaik dengan %s"
 msgid "Best value"
 msgstr "Paling hemat"
 
+msgid "Better than the last one the miller sent."
+msgstr "Lebih baik dari yang terakhir dikirim tukang giling."
+
+msgid "Between the roots of an old oak, someone has dug a little hollow and lined it with moss. In it sits a big glass jar, sealed with wax. The label says PICKLED NEWTS, DO NOT OPEN, in handwriting that's trying to be funny."
+msgstr "Di antara akar pohon ek tua, seseorang menggali lekukan kecil dan melapisinya dengan lumut. Di dalamnya ada stoples kaca besar, disegel dengan lilin. Labelnya bertuliskan KADAL AIR ACAR, JANGAN DIBUKA, dengan tulisan tangan yang berusaha lucu."
+
 msgid "Bigger text everywhere: dialogue, menus and the puzzle."
 msgstr "Teks lebih besar di mana-mana: dialog, menu, dan teka-teki."
+
+msgid "Black cover. No title. It'll feel warm. Don't open it."
+msgstr "Sampul hitam. Tanpa judul. Terasa hangat. Jangan dibuka."
 
 msgid "Blossom! +%d"
 msgstr "Bunga! +%d"
 
+msgid "Blossom."
+msgstr "Mekar."
+
 msgid "Blossoms"
 msgstr "Bunga"
+
+msgid "Board, lifeguard. Not me."
+msgstr "Mata ke papan, penyelamat. Bukan ke aku."
+
+msgid "Boathouse. It's got a door. Gran can't see through doors. Probably."
+msgstr "Gudang perahu. Ada pintunya. Nenek tidak bisa melihat menembus pintu. Mungkin."
 
 msgid "Bookbinder"
 msgstr "Penjilid Buku"
@@ -231,11 +354,23 @@ msgstr "Penjilid Buku"
 msgid "Boom!"
 msgstr "Duar!"
 
+msgid "Brambles underfoot"
+msgstr "Semak berduri di bawah kaki"
+
+msgid "Brass Pocket Sundial"
+msgstr "Jam Matahari Saku Kuningan"
+
 msgid "Break 50 of Amara's seals."
 msgstr "Pecahkan 50 segel Amara."
 
 msgid "Bring 10 comb pieces up for Marina."
 msgstr "Angkat 10 kepingan sisir untuk Marina."
+
+msgid "But I'll allow it. Bring the shovel tomorrow though."
+msgstr "Tapi akan kumaafkan. Bawa sekop besok, ya."
+
+msgid "But she's a little pinker than she was."
+msgstr "Tapi dia sedikit lebih merah muda dari sebelumnya."
 
 msgid "Buy"
 msgstr "Beli"
@@ -249,6 +384,15 @@ msgstr "Beli · %d"
 msgid "Buy · %d ⭐"
 msgstr "Beli · %d ⭐"
 
+msgid "By the end of the month the old wall has stopped cracking. The new millrace runs clean, and Aldous Brock stands on the bank for a long time with his hat in his hands."
+msgstr "Pada akhir bulan, dinding lama itu berhenti retak. Saluran kincir yang baru mengalir jernih, dan Aldous Brock berdiri lama di tepian dengan topi di tangan."
+
+msgid "By two in the morning you've checked every book returned this month. No black cover. One very overdue cookbook, which she opens, reads a page of, and closes in disgust."
+msgstr "Pukul dua pagi kamu sudah memeriksa semua buku yang dikembalikan bulan ini. Tidak ada sampul hitam. Ada satu buku masak yang sangat terlambat, yang dia buka, baca satu halaman, lalu tutup dengan jijik."
+
+msgid "C-can I sleep in your room tonight? Not in the jar. With you."
+msgstr "B-boleh aku tidur di kamarmu malam ini? Bukan di stoples. Bersamamu."
+
 msgid "CHAPTER GOAL"
 msgstr "TARGET BAB"
 
@@ -258,8 +402,17 @@ msgstr "KEPINGAN SISIR"
 msgid "COMING UP"
 msgstr "SEGERA"
 
+msgid "Can we not? Please?"
+msgstr "Bisa tidak usah? Tolong?"
+
+msgid "Can you... turn the lamp down a bit?"
+msgstr "Bisa... kecilkan lampunya sedikit?"
+
 msgid "Cancel"
 msgstr "Batal"
+
+msgid "Careful. If you keep staring at me like that, I'll start thinking you summoned me on purpose."
+msgstr "Hati-hati. Kalau kamu terus menatapku seperti itu, aku bisa mengira kamu sengaja memanggilku."
 
 msgid "Carry on without clearing this chapter (no stars for it)."
 msgstr "Lanjutkan tanpa menyelesaikan bab ini (tanpa bintang)."
@@ -309,6 +462,9 @@ msgstr "Denting untuk kecocokan, kombo, dan menu."
 msgid "Choose"
 msgstr "Pilih"
 
+msgid "Clean lines. I'm almost proud of you."
+msgstr "Garisnya rapi. Aku hampir bangga padamu."
+
 msgid "Clear Hazel's first chapter."
 msgstr "Selesaikan bab pertama Hazel."
 
@@ -324,6 +480,9 @@ msgstr "Selesaikan bab dengan sisa 5 langkah atau lebih."
 msgid "Clear a cursed shard with the Hammer."
 msgstr "Hancurkan pecahan terkutuk dengan Palu."
 
+msgid "Clear all the way through. Like me."
+msgstr "Bening sampai tembus. Seperti aku."
+
 msgid "Clear any chapter to unlock the daily challenge."
 msgstr "Selesaikan bab mana saja untuk membuka tantangan harian."
 
@@ -338,6 +497,12 @@ msgstr "Klik, Spasi atau Enter: baris berikutnya. Tahan Ctrl atau tekan Lewati: 
 
 msgid "Close"
 msgstr "Tutup"
+
+msgid "Close enough."
+msgstr "Lumayan."
+
+msgid "Close enough. You can keep using it."
+msgstr "Lumayan. Kamu boleh terus memakainya."
 
 msgid "Close settings"
 msgstr "Tutup pengaturan"
@@ -356,6 +521,12 @@ msgstr "Kombo x%d!"
 
 msgid "Combos"
 msgstr "Kombo"
+
+msgid "Come here. That's an order, and I'm only giving it once before I come over there and get you."
+msgstr "Kemari. Itu perintah, dan aku hanya memberikannya sekali sebelum aku sendiri yang datang menjemputmu."
+
+msgid "Come on. Binders keep ledgers. If he sold them, he wrote down who to."
+msgstr "Ayo. Penjilid buku mencatat di buku besar. Kalau dia menjualnya, dia menulis siapa pembelinya."
 
 msgid "Continue"
 msgstr "Lanjutkan"
@@ -378,6 +549,9 @@ msgstr "Kredit"
 msgid "Crystal"
 msgstr "Kristal"
 
+msgid "Crystal. I'd keep that one."
+msgstr "Kristal. Yang itu akan kusimpan."
+
 msgid "Cursed Shard"
 msgstr "Pecahan Terkutuk"
 
@@ -393,17 +567,71 @@ msgstr "Tantangan harian: %d poin"
 msgid "Dark, cracked shards cost you points when they're part of a match. The Hammer smashes one for free."
 msgstr "Pecahan gelap yang retak mengurangi poinmu kalau ikut dalam kecocokan. Palu bisa menghancurkannya gratis."
 
+msgid "Day four. Word's got round that someone is digging by the old hazel instead of cutting it down. The miller's daughter brings you lunch, and you walk her back as far as the footbridge."
+msgstr "Hari keempat. Kabar sudah menyebar bahwa ada yang menggali di dekat pohon hazel tua alih-alih menebangnya. Putri tukang giling membawakanmu makan siang, dan kamu mengantarnya kembali sampai jembatan kecil."
+
+msgid "Day three. She's been in the water since dawn, and she misses the rope ladder twice trying to climb onto the pier. At the far end, three old fishermen are setting out their Thursday tile game by lamplight."
+msgstr "Hari ketiga. Dia sudah di air sejak subuh dan dua kali gagal meraih tangga tali saat mencoba naik ke dermaga. Di ujung lain, tiga nelayan tua menyiapkan permainan kerikil hari Kamis mereka di bawah cahaya lentera."
+
+msgid "Dead leaves come down"
+msgstr "Daun kering berguguran"
+
 msgid "Dialogue controls"
 msgstr "Kontrol dialog"
 
 msgid "Difficulty"
 msgstr "Tingkat Kesulitan"
 
+msgid "Dig faster. I'd like to see another spring."
+msgstr "Gali lebih cepat. Aku ingin melihat musim semi berikutnya."
+
+msgid "Dig your trench. Sleeves up!"
+msgstr "Gali paritmu. Gulung lengan baju!"
+
 msgid "Dislikes"
 msgstr "Tidak suka"
 
+msgid "Do that again. Slower."
+msgstr "Lakukan lagi. Lebih pelan."
+
 msgid "Don't Even Think About It"
 msgstr "Jangan Coba-Coba"
+
+msgid "Don't even think about it."
+msgstr "Jangan coba-coba."
+
+msgid "Don't go before morning. I'll know if you do. I'll hear the door."
+msgstr "Jangan pergi sebelum pagi. Aku akan tahu kalau kamu pergi. Aku akan dengar pintunya."
+
+msgid "Don't look at them. They're not for you. They're seasonal."
+msgstr "Jangan lihat itu. Itu bukan untukmu. Itu musiman."
+
+msgid "Don't look so pleased with yourself. Actually, no. Look exactly that pleased."
+msgstr "Jangan kelihatan begitu puas dengan dirimu. Eh, tidak. Kelihatan persis sepuas itu."
+
+msgid "Don't put me back in the jar yet. I want to go home on my own. Well. Not walk. You know."
+msgstr "Jangan masukkan aku ke stoples dulu. Aku mau pulang sendiri. Yah. Tidak jalan kaki. Kamu tahu maksudku."
+
+msgid "Don't say it like that. Like it matters."
+msgstr "Jangan bilang begitu. Seolah itu berarti."
+
+msgid "Don't. Don't you dare."
+msgstr "Jangan. Jangan berani-berani."
+
+msgid "Don't. Just don't."
+msgstr "Jangan. Pokoknya jangan."
+
+msgid "Don't... look at me like that."
+msgstr "Jangan... menatapku begitu."
+
+msgid "Down on the pier, a whole family is yelling at the water. Out past the rocks, a woman is floating face up, perfectly still, her hair spread out round her."
+msgstr "Di bawah, di dermaga, satu keluarga berteriak ke arah air. Di balik bebatuan, seorang wanita mengapung telentang, diam sama sekali, rambutnya terurai di sekelilingnya."
+
+msgid "Dryad of the old hazel"
+msgstr "Dryad pohon hazel tua"
+
+msgid "Dust off the top shelf"
+msgstr "Debu jatuh dari rak paling atas"
 
 msgid "Each chapter has a goal and a number of moves. At first it's points; from her third chapter it's something of hers to do on the board, and in her last both. Reach it before your moves run out and the story carries on. There's no timer: take as long as you like."
 msgstr "Setiap bab punya target dan jumlah langkah. Awalnya poin; mulai bab ketiganya, ada sesuatu yang harus dilakukan untuknya di papan, dan di bab terakhir keduanya. Capai sebelum langkahmu habis dan ceritanya berlanjut. Tidak ada batas waktu: santai saja."
@@ -413,6 +641,9 @@ msgstr "Setiap jenis permata menampilkan nomor, jadi kamu tidak perlu warna untu
 
 msgid "Easy"
 msgstr "Mudah"
+
+msgid "Eat your lunch. I'm sure her bread is very good. I wouldn't know."
+msgstr "Makan siangmu. Aku yakin rotinya enak sekali. Aku tidak tahu."
 
 msgid "Ember"
 msgstr "Bara"
@@ -444,14 +675,35 @@ msgstr "Setiap gadis punya permata favorit dan satu yang tidak dia suka (di kart
 msgid "Every match fills the Charm ring. In a girl's first chapter a full ring is a Charm Burst: +150 points. From her second chapter it's one use of her own power instead: its button lights up next to the ring, use it when you like. The ring fills again after."
 msgstr "Setiap kecocokan mengisi cincin Pesona. Di bab pertama seorang gadis, cincin penuh berarti Ledakan Pesona: +150 poin. Mulai bab keduanya, cincin penuh berarti satu kali pakai kekuatannya sendiri: tombolnya menyala di samping cincin, pakai kapan saja. Setelah itu cincin terisi lagi."
 
+msgid "Every one of those pages is part of my binding. Somebody has been buying them."
+msgstr "Setiap halaman itu bagian dari ikatanku. Ada yang membelinya."
+
+msgid "Every one? That's four hundred and twelve buttons."
+msgstr "Semuanya? Itu empat ratus dua belas kancing."
+
 msgid "Every seed and sprout on the board grows one stage."
 msgstr "Setiap benih dan tunas di papan tumbuh satu tahap."
+
+msgid "Everyone keeps asking about the comb and I'm running out of excuses."
+msgstr "Semua orang terus bertanya soal sisir itu, dan alasanku mulai habis."
 
 msgid "Everything — music and sound effects."
 msgstr "Semuanya — musik dan efek suara."
 
+msgid "Ex-excuse me. That's my eye. I mean... It's in my collection. I'd like it back, please."
+msgstr "P-permisi. Itu mataku. Maksudku... Itu bagian dari koleksiku. Aku ingin memintanya kembali."
+
+msgid "Eyes on the board. I'll still be here."
+msgstr "Mata ke papan. Aku tidak akan ke mana-mana."
+
 msgid "Fast"
 msgstr "Cepat"
+
+msgid "Faster. And alphabetise properly. I've seen your circle."
+msgstr "Lebih cepat. Dan urutkan abjad dengan benar. Aku sudah lihat lingkaranmu."
+
+msgid "Faster. Tide's turning."
+msgstr "Lebih cepat. Air pasangnya berbalik."
 
 msgid "Fill the Charm ring for a Charm Burst."
 msgstr "Isi cincin Pesona untuk Ledakan Pesona."
@@ -468,6 +720,12 @@ msgstr "Temukan 30 barang Opal yang hilang di bawah lumut."
 msgid "Finders Keepers"
 msgstr "Siapa Cepat Dia Dapat"
 
+msgid "Fine. They're for you. I haven't flowered out of season since before the mill was built. The animals are going to talk."
+msgstr "Baiklah. Itu untukmu. Aku belum pernah berbunga di luar musim sejak sebelum kincir dibangun. Hewan-hewan pasti bergosip."
+
+msgid "Fine. You're not a menace anymore. You can help me. Don't get excited."
+msgstr "Baiklah. Kamu bukan pengganggu lagi. Kamu boleh membantuku. Jangan senang dulu."
+
 msgid "Finish Hazel's story picking every warm reply."
 msgstr "Selesaikan cerita Hazel dengan selalu memilih jawaban hangat."
 
@@ -477,14 +735,35 @@ msgstr "Selesaikan cerita Hazel dengan menggodanya di setiap jawaban."
 msgid "Finish a daily challenge."
 msgstr "Selesaikan tantangan harian."
 
+msgid "Fire. In a grove. Really?"
+msgstr "Api. Di dalam hutan kecil. Serius?"
+
+msgid "Flattery. Good. Keep going."
+msgstr "Rayuan. Bagus. Lanjutkan."
+
 msgid "For bug reports: send the newest godot.log from this folder."
 msgstr "Untuk laporan bug: kirim godot.log terbaru dari folder ini."
 
 msgid "For sticking with it: a free Time Scroll!"
 msgstr "Karena pantang menyerah: Gulungan Waktu gratis!"
 
+msgid "For the record: four hundred-odd summonings, several kings and one very enthusiastic bishop. None of them came close. I'm only telling you once."
+msgstr "Sebagai catatan: empat ratusan pemanggilan, beberapa raja, dan satu uskup yang sangat bersemangat. Tidak ada yang mendekati. Aku hanya mengatakannya sekali."
+
+msgid "Forty years, I said. Mind where you swing."
+msgstr "Empat puluh tahun, kubilang. Hati-hati kalau mengayun."
+
 msgid "Found under the moss: %s"
 msgstr "Ditemukan di bawah lumut: %s"
+
+msgid "Four hundred and twelve buttons, twenty-six keys, a glass eye and two owls. The alchemist's men are felling the north woods now, so Opal is staying with you, and her collection takes up a whole shelf in your front room. She rearranges it twice."
+msgstr "Empat ratus dua belas kancing, dua puluh enam kunci, satu mata kaca, dan dua burung hantu. Orang-orang si alkemis sedang menebang hutan utara sekarang, jadi Opal tinggal bersamamu, dan koleksinya memenuhi satu rak penuh di ruang depanmu. Dia menatanya ulang dua kali."
+
+msgid "Four hundred and twelve buttons. Twenty-six keys. A glass eye. Everyone who comes through these woods drops something, and I kept it."
+msgstr "Empat ratus dua belas kancing. Dua puluh enam kunci. Satu mata kaca. Setiap orang yang lewat hutan ini menjatuhkan sesuatu, dan aku menyimpannya."
+
+msgid "Four hundred buttons is a lot of strangers' buttons."
+msgstr "Empat ratus kancing itu banyak sekali kancing orang asing."
 
 msgid "Free date"
 msgstr "Kencan bebas"
@@ -494,6 +773,9 @@ msgstr "Bintang gratis"
 
 msgid "Free: %s"
 msgstr "Gratis: %s"
+
+msgid "Frosted Sea-Glass Pendant"
+msgstr "Liontin Kaca Laut Buram"
 
 msgid "Fullscreen"
 msgstr "Layar Penuh"
@@ -507,6 +789,12 @@ msgstr "Nomor permata"
 msgid "Gems cleared"
 msgstr "Permata dibersihkan"
 
+msgid "Gently. Like that."
+msgstr "Pelan-pelan. Begitu."
+
+msgid "Get that holy rock away from me."
+msgstr "Jauhkan batu suci itu dariku."
+
 msgid "Girls"
 msgstr "Gadis"
 
@@ -516,11 +804,35 @@ msgstr "Berikan Hazel Jam Matahari Saku Kuningan."
 msgid "Give her the %s"
 msgstr "Berikan padanya: %s"
 
+msgid "Gold swirl. They stopped making these before I went in the jar. Where did you even find it?"
+msgstr "Pilinan emas. Mereka sudah berhenti membuatnya sebelum aku masuk stoples. Dari mana kamu menemukannya?"
+
 msgid "Google Play isn't reachable right now. Try again in a moment."
 msgstr "Google Play sedang tidak bisa dijangkau. Coba lagi sebentar lagi."
 
 msgid "Got it"
 msgstr "Mengerti"
+
+msgid "Gran at the Midsummer Tide, her pearl comb in her hair."
+msgstr "Nenek saat Pasang Tengah Musim Panas, sisir mutiaranya di rambut."
+
+msgid "Gran wears the comb at the Midsummer Tide and never finds out it was lost. Marina tells her anyway, a month later, and Gran laughs so hard she has to be helped onto a rock. Marina tells the story of how you met at every family dinner after that, and it gets bigger every time. Gran corrects her every time, and every time she sets a place for you without asking."
+msgstr "Nenek memakai sisir itu saat Pasang Tengah Musim Panas dan tidak pernah tahu sisir itu sempat hilang. Marina tetap menceritakannya sebulan kemudian, dan Nenek tertawa begitu keras sampai harus dibantu naik ke batu. Sejak itu Marina menceritakan pertemuan kalian di setiap makan malam keluarga, dan ceritanya makin besar setiap kali. Setiap kali Nenek mengoreksinya, dan setiap kali dia menyiapkan tempat untukmu tanpa ditanya."
+
+msgid "Gran's asked you to the family dinner, which is not a small thing, people have married into this family and never been asked to the family dinner."
+msgstr "Nenek mengundangmu makan malam keluarga, dan itu bukan hal kecil: ada orang yang menikah masuk keluarga ini dan tidak pernah diundang makan malam keluarga."
+
+msgid "Gran's going to know. She always knows. She's going to look at me over breakfast and just know."
+msgstr "Nenek pasti tahu. Dia selalu tahu. Dia akan menatapku waktu sarapan dan langsung tahu."
+
+msgid "Gran's going to wear it at the Tide and never know. Nobody's ever going to know you did this."
+msgstr "Nenek akan memakainya saat Pasang dan tidak akan pernah tahu. Tidak ada yang akan tahu kamu melakukan ini."
+
+msgid "Gran, I'm fine. I'm always like that."
+msgstr "Nek, aku baik-baik saja. Aku memang selalu begini."
+
+msgid "Greedy. Oh, so you'll make him pay you to help me? I like that."
+msgstr "Rakus. Oh, jadi kamu akan membuatnya membayarmu untuk membantuku? Aku suka itu."
 
 msgid "Grow 25 of Hazel's blossoms."
 msgstr "Mekarkan 25 bunga Hazel."
@@ -530,6 +842,9 @@ msgstr "Tumbuhkan cukup banyak benih jadi bunga untuk menang. Benih baru jatuh s
 
 msgid "Hammer"
 msgstr "Palu"
+
+msgid "Hand-Dipped Beeswax Candle"
+msgstr "Lilin Lebah Celup Tangan"
 
 msgid "Handful of Stars"
 msgstr "Segenggam Bintang"
@@ -543,6 +858,9 @@ msgstr "Sulit: setiap beberapa langkah ada kejadian saat kencanmu (ombak menerja
 msgid "Hard: things happen on your date"
 msgstr "Sulit: ada kejadian saat kencanmu"
 
+msgid "Hazel Mossgrove"
+msgstr "Hazel Mossgrove"
+
 msgid "Hazel's blossoms grown"
 msgstr "Bunga Hazel dimekarkan"
 
@@ -554,6 +872,18 @@ msgstr "Hazel: mekarkan bunga"
 
 msgid "Hazel: seeds"
 msgstr "Hazel: benih"
+
+msgid "He tells you to keep the money. Then he walks over and pats the hazel's trunk, awkwardly, like a man apologising to a horse."
+msgstr "Dia bilang kamu boleh menyimpan uangnya. Lalu dia mendekat dan menepuk batang pohon hazel itu, dengan canggung, seperti pria yang minta maaf pada kuda."
+
+msgid "He took it apart. To sell it page by page."
+msgstr "Dia membongkarnya. Untuk dijual halaman demi halaman."
+
+msgid "He used to tap on the glass every morning twice so I'd know it was him."
+msgstr "Dia dulu mengetuk kaca dua kali setiap pagi supaya aku tahu itu dia."
+
+msgid "He's never done that. Forty springs, and he's never once done that."
+msgstr "Dia belum pernah melakukan itu. Empat puluh musim semi, dan dia sekali pun belum pernah melakukan itu."
 
 msgid "Hear the girls speak their lines."
 msgstr "Dengarkan para gadis mengucapkan dialog mereka."
@@ -570,8 +900,20 @@ msgstr "Hati: kalah dalam satu bab memakan satu, dan hati kembali seiring waktu.
 msgid "Her board with no move limit, just for fun and a high score."
 msgstr "Papannya tanpa batas langkah, sekadar untuk bersenang-senang dan mencetak rekor."
 
+msgid "Her corrections in red pencil, all over the loose page that started it."
+msgstr "Koreksinya dengan pensil merah, memenuhi halaman lepas yang memulai semuanya."
+
 msgid "Her ending"
 msgstr "Akhir ceritanya"
+
+msgid "Her entire family is, in fact, right there. A grandmother, a mother, three sisters. One of the sisters is laughing so hard she can barely ask, out loud, whether Mari is going to thank her lifeguard."
+msgstr "Seluruh keluarganya memang ada di situ. Seorang nenek, seorang ibu, tiga saudara perempuan. Salah satunya tertawa begitu keras sampai hampir tidak bisa bertanya keras-keras apakah Mari akan berterima kasih pada penyelamatnya."
+
+msgid "Her family slips off the end of the pier one by one and swims home round the point, very slowly, looking back the whole way. She waits until they're out of earshot."
+msgstr "Keluarganya meluncur satu per satu dari ujung dermaga dan berenang pulang mengitari tanjung, sangat pelan, menoleh ke belakang sepanjang jalan. Dia menunggu sampai mereka tidak bisa mendengar."
+
+msgid "Her father came by this morning. He'll give you until the end of the month. Then he hires someone with a saw."
+msgstr "Ayahnya datang tadi pagi. Dia memberimu waktu sampai akhir bulan. Setelah itu dia menyewa orang yang membawa gergaji."
 
 msgid "Her favourite gem scores double and fills Charm faster; the one she dislikes scores half."
 msgstr "Permata favoritnya bernilai ganda dan mengisi Pesona lebih cepat; yang tidak dia suka bernilai setengah."
@@ -582,11 +924,26 @@ msgstr "Hadiahnya"
 msgid "Her gift: more of her favourite gem"
 msgstr "Hadiahnya: permata favoritnya lebih sering muncul"
 
+msgid "Her grandmother says, mildly, that they'd been calling her for twenty minutes, that the tide's on the turn, and that this nice person was the only one who did anything about it."
+msgstr "Neneknya berkata pelan bahwa mereka sudah memanggilnya dua puluh menit, bahwa air pasang akan segera berbalik, dan bahwa orang baik ini satu-satunya yang berbuat sesuatu."
+
+msgid "Her hands are warm now. They were cold the first time you touched the bark. She sees you notice."
+msgstr "Tangannya sekarang hangat. Dulu dingin waktu pertama kali kamu menyentuh kulit kayunya. Dia melihat kamu menyadarinya."
+
+msgid "Her jar sits at the end of the shelf with the lid off. She hasn't been in it for three days."
+msgstr "Stoplesnya berdiri di ujung rak tanpa tutup. Sudah tiga hari dia tidak masuk ke dalamnya."
+
+msgid "Her library card has your address on it in small, furious handwriting. She moves in with forty candles and opinions about your bookshelf, which she reorganises by how much she disliked each book. Your favourite goes on the bottom shelf. Most nights she's still at the late desk when your shift ends, and she walks you home by the river even though it's longer."
+msgstr "Kartu perpustakaannya mencantumkan alamatmu dengan tulisan kecil yang geram. Dia pindah ke tempatmu dengan empat puluh lilin dan banyak pendapat soal rak bukumu, yang dia tata ulang berdasarkan seberapa dia membenci setiap buku. Buku favoritmu masuk rak paling bawah. Hampir setiap malam dia masih di meja malam saat giliranmu selesai, dan dia mengantarmu pulang lewat tepi sungai meskipun lebih jauh."
+
 msgid "Her night scene"
 msgstr "Adegan malamnya"
 
 msgid "Her powers used"
 msgstr "Kekuatan dipakai"
+
+msgid "Her sisters start watching"
+msgstr "Saudara-saudaranya mulai menonton"
 
 msgid "Her story carries on as if you'd cleared it. You don't get its stars."
 msgstr "Ceritanya berlanjut seolah kamu sudah menyelesaikannya. Kamu tidak mendapat bintangnya."
@@ -603,6 +960,9 @@ msgstr "Air Pasang"
 msgid "High Tide!"
 msgstr "Air Pasang!"
 
+msgid "High Water"
+msgstr "Air Pasang Tinggi"
+
 msgid "Home"
 msgstr "Beranda"
 
@@ -611,6 +971,9 @@ msgstr "Seberapa cepat dialog muncul."
 
 msgid "How long Auto waits after each line (left = quicker)."
 msgstr "Berapa lama Otomatis menunggu setelah setiap baris (kiri = lebih cepat)."
+
+msgid "How long have you been out here on your own?"
+msgstr "Sudah berapa lama kamu sendirian di sini?"
 
 msgid "How loud the background music plays."
 msgstr "Seberapa keras musik latar diputar."
@@ -621,14 +984,170 @@ msgstr "Seberapa keras suara mereka."
 msgid "How to Play"
 msgstr "Cara Bermain"
 
+msgid "Huh. Nobody's ever told me to slow down. They just assume I've got it handled."
+msgstr "Hm. Belum pernah ada yang menyuruhku pelan-pelan. Semua orang menganggap aku bisa menanganinya."
+
+msgid "I can walk as far as my roots go. They go a long way now. Thanks to someone."
+msgstr "Aku bisa berjalan sejauh akarku menjalar. Sekarang akarku menjalar jauh. Berkat seseorang."
+
+msgid "I destroyed kingdoms, and you're making me wait?!"
+msgstr "Aku menghancurkan kerajaan-kerajaan, dan kamu menyuruhku menunggu?!"
+
+msgid "I did that. Did you see? I did that out loud."
+msgstr "Aku yang melakukannya. Kamu lihat? Aku mengatakannya keras-keras."
+
+msgid "I don't like those. Sorry."
+msgstr "Aku tidak suka yang itu. Maaf."
+
+msgid "I had to drop a branch on the last guy, but don't worry, your face is too nice."
+msgstr "Yang terakhir terpaksa kujatuhi dahan, tapi jangan khawatir, wajahmu terlalu tampan."
+
+msgid "I have to tell you something. I kept something of yours. On the first day."
+msgstr "Aku harus memberitahumu sesuatu. Aku menyimpan sesuatu milikmu. Di hari pertama."
+
+msgid "I know about the wall. My roots go where the water is. I can't control it."
+msgstr "Aku tahu soal dinding itu. Akarku tumbuh ke arah air. Aku tidak bisa mengendalikannya."
+
+msgid "I know. You were still gone forty minutes, not that I was counting."
+msgstr "Aku tahu. Tetap saja kamu pergi empat puluh menit, bukan berarti aku menghitung."
+
+msgid "I like having someone to hold the bucket."
+msgstr "Aku suka ada yang memegangi ember."
+
+msgid "I lose things. You've noticed. I'm not losing this one."
+msgstr "Aku sering menghilangkan barang. Kamu sudah sadar. Yang ini tidak akan kuhilangkan."
+
+msgid "I should tell you I don't know what I'm doing. I've only heard about this. Through glass. People say a lot on a forest path when they think no one's listening."
+msgstr "Aku harus bilang aku tidak tahu apa yang kulakukan. Aku cuma pernah dengar soal ini. Lewat kaca. Orang bicara banyak di jalan setapak hutan kalau mereka kira tidak ada yang mendengar."
+
+msgid "I still owe you a reward. I haven't decided what it is yet. Don't look at me like that, I'm deciding."
+msgstr "Aku masih berutang hadiah padamu. Aku belum memutuskan apa. Jangan menatapku begitu, aku sedang memutuskan."
+
+msgid "I was fine. It was quiet in there."
+msgstr "Aku baik-baik saja. Di dalam sana tenang."
+
+msgid "I was floating. On my back. I'm a mermaid, if you didn't notice, and you just dragged me out of my own cove in front of my entire family."
+msgstr "Aku sedang mengapung. Telentang. Aku putri duyung, kalau kamu belum sadar, dan kamu baru saja menyeretku keluar dari teluk milikku sendiri di depan seluruh keluargaku."
+
+msgid "I was meant to get it cleaned. I dropped it off the pier a week ago. Nobody knows."
+msgstr "Aku seharusnya membawanya untuk dibersihkan. Seminggu lalu sisir itu jatuh dari dermaga. Tidak ada yang tahu."
+
+msgid "I wasn't resting. I was looking for something. Gran's pearl comb. It's the only thing she brought with her when she came to this cove, and she wears it every Midsummer Tide."
+msgstr "Aku tidak sedang beristirahat. Aku sedang mencari sesuatu. Sisir mutiara Nenek. Itu satu-satunya barang yang dia bawa waktu datang ke teluk ini, dan dia memakainya setiap tahun saat Pasang Tengah Musim Panas."
+
+msgid "I won't tell. Let me help you look."
+msgstr "Aku tidak akan bilang. Biar aku bantu mencari."
+
+msgid "I'd do it badly. Out of spite."
+msgstr "Akan kulakukan dengan buruk. Karena dendam."
+
+msgid "I'd like to do it again. That's allowed to be said, isn't it? Good. I'd like to do it again."
+msgstr "Aku ingin melakukannya lagi. Boleh dikatakan, kan? Bagus. Aku ingin melakukannya lagi."
+
+msgid "I'd like to make it a thing."
+msgstr "Aku ingin membesar-besarkannya."
+
+msgid "I'd like to see that, actually."
+msgstr "Sebenarnya aku ingin melihat itu."
+
+msgid "I'd want my own jar. Just to start. Is that strange?"
+msgstr "Aku mau stoples sendiri. Awalnya saja. Aneh, ya?"
+
+msgid "I'll dig it. Show me where."
+msgstr "Aku yang akan menggalinya. Tunjukkan di mana."
+
+msgid "I'll dig. I'm keeping the miller's money, though."
+msgstr "Aku akan menggali. Tapi uang tukang giling tetap kusimpan."
+
+msgid "I'll keep it on a low branch where I can see it. No, I won't use it to count time until our next meeting."
+msgstr "Akan kutaruh di dahan rendah tempat aku bisa melihatnya. Tidak, aku tidak akan memakainya untuk menghitung waktu sampai kita bertemu lagi."
+
+msgid "I'll list everyone in town you'd like to drop a branch on."
+msgstr "Akan kusebutkan semua orang di kota yang ingin kamu jatuhi dahan."
+
+msgid "I'll pay you, obviously. A reward, when we find it. It's a business arrangement, so you can stop smiling like that."
+msgstr "Aku akan membayarmu, tentu. Hadiah, kalau kita menemukannya. Ini kesepakatan bisnis, jadi berhenti senyum-senyum begitu."
+
+msgid "I'll pretend I didn't see that."
+msgstr "Aku pura-pura tidak lihat."
+
 msgid "I'm 18 or older"
 msgstr "Usiaku 18 tahun ke atas"
+
+msgid "I'm a bit pink right now. Ignore it."
+msgstr "Aku agak merah muda sekarang. Abaikan saja."
+
+msgid "I'm fine. Midsummer Tide's in nine days, and I've checked maybe a third of the cove."
+msgstr "Aku baik-baik saja. Pasang Tengah Musim Panas tinggal sembilan hari, dan aku baru memeriksa mungkin sepertiga teluk."
+
+msgid "I'm glad I can help. Really."
+msgstr "Aku senang bisa membantu. Sungguh."
+
+msgid "I'm going to make you sound very brave. And very wet."
+msgstr "Akan kubuat kamu terdengar sangat berani. Dan sangat basah."
+
+msgid "I'm not watching you. I'm photosynthesising."
+msgstr "Aku tidak memperhatikanmu. Aku sedang berfotosintesis."
+
+msgid "I'm so sorry. I'll get every one of them back."
+msgstr "Maaf sekali. Aku akan mengembalikan semuanya, satu per satu."
+
+msgid "I've been doing this for a very long time, and that was not on the list of things I expected from a library."
+msgstr "Aku sudah melakukan ini sangat lama, dan yang barusan tidak ada di daftar hal yang kuharapkan dari perpustakaan."
+
+msgid "I've been summoned by kings. They were worse at this."
+msgstr "Aku pernah dipanggil raja-raja. Mereka lebih payah dalam hal ini."
+
+msgid "I've been summoned four hundred and some times. Never seen such gentleman."
+msgstr "Aku sudah dipanggil empat ratus kali lebih. Belum pernah bertemu pria sesopan ini."
+
+msgid "I've never seen a morning from this side of a summoning. It's very bright. I don't hate it."
+msgstr "Aku belum pernah melihat pagi dari sisi ini sebuah pemanggilan. Terang sekali. Aku tidak membencinya."
+
+msgid "I've thought about this. Not a lot. A normal amount. Every day since the pier."
+msgstr "Aku sudah memikirkan ini. Tidak banyak. Jumlah yang wajar. Setiap hari sejak di dermaga."
+
+msgid "I-is that all right? Tell me if it's strange. You can say it's strange."
+msgstr "B-begini tidak apa-apa? Bilang kalau aneh. Kamu boleh bilang ini aneh."
+
+msgid "I-it's not going on the shelf. It stays with me. In here. Is that all right?"
+msgstr "I-ini tidak akan kutaruh di rak. Ini tetap bersamaku. Di sini. Tidak apa-apa?"
+
+msgid "If I find one, I'm burning it."
+msgstr "Kalau aku menemukannya, akan kubakar."
+
+msgid "If I'd known you liked it, I'd have come by sooner."
+msgstr "Kalau aku tahu kamu suka, aku pasti datang lebih awal."
+
+msgid "If anyone asks, we're friends. Who swim. At night."
+msgstr "Kalau ada yang tanya, kita cuma teman. Yang berenang. Malam-malam."
+
+msgid "If someone dug him a new channel, further out, I could follow it. It would take a season."
+msgstr "Kalau ada yang menggalikan saluran baru untuknya, lebih jauh, aku bisa mengikutinya. Butuh satu musim."
+
+msgid "If you drop anything, I'll find it."
+msgstr "Kalau kamu menjatuhkan sesuatu, aku yang akan menemukannya."
+
+msgid "If you find it before I do, don't open it."
+msgstr "Kalau kamu menemukannya duluan, jangan dibuka."
+
+msgid "If you're going to draw these, you'll draw them properly. Nobody else is coming through a circle this pathetic."
+msgstr "Kalau kamu mau menggambar ini, gambar dengan benar. Tidak ada orang lain yang akan datang lewat lingkaran semenyedihkan ini."
 
 msgid "In Full Bloom"
 msgstr "Mekar Sempurna"
 
 msgid "In her chapters everything floats: gems rise, and new ones come up from the bottom."
 msgstr "Di bab-babnya semuanya mengapung: permata naik, dan yang baru datang dari bawah."
+
+msgid "In my defence, the label said newts."
+msgstr "Sebagai pembelaan, labelnya bilang kadal air."
+
+msgid "In my experience, the people who don't ask want something worse. So. What is it?"
+msgstr "Menurut pengalamanku, orang yang tidak meminta justru menginginkan sesuatu yang lebih buruk. Jadi. Apa itu?"
+
+msgid "In the back, under a dust sheet, you find a black cover with nothing in it. The pages have been cut out with a knife."
+msgstr "Di bagian belakang, di bawah kain penutup debu, kalian menemukan sampul hitam tanpa isi. Halaman-halamannya sudah dipotong dengan pisau."
 
 msgid "Instant"
 msgstr "Instan"
@@ -638,6 +1157,57 @@ msgstr "Tak Tertahankan"
 
 msgid "It has sexual content, including intimate scenes, and suggestive art. All characters are adults.\n\nPlease only continue if you're 18 or older, or the age of majority where you live."
 msgstr "Game ini berisi konten seksual, termasuk adegan intim, dan gambar sugestif. Semua karakter sudah dewasa.\n\nLanjutkan hanya jika kamu berusia 18 tahun ke atas, atau sudah dewasa menurut hukum di tempatmu."
+
+msgid "It isn't so bad, but some animals are... Barely tolerable company."
+msgstr "Tidak terlalu buruk, tapi beberapa hewan... teman yang nyaris tak tertahankan."
+
+msgid "It rains all night. None of it reaches you."
+msgstr "Hujan turun sepanjang malam. Tidak setetes pun mengenaimu."
+
+msgid "It starts to rain"
+msgstr "Mulai hujan"
+
+msgid "It was a joke. He laughed at it every single morning for thirty-one years."
+msgstr "Itu lelucon. Dia menertawakannya setiap pagi selama tiga puluh satu tahun."
+
+msgid "It was a very good storm."
+msgstr "Badai yang sangat bagus."
+
+msgid "It was an excellent storm."
+msgstr "Badai yang luar biasa."
+
+msgid "It was here. Someone moved it, and not long ago."
+msgstr "Buku itu tadinya di sini. Ada yang memindahkannya, belum lama."
+
+msgid "It's April."
+msgstr "Ini bulan April."
+
+msgid "It's all here. All of it. I counted three times."
+msgstr "Semuanya ada. Semuanya. Aku sudah menghitung tiga kali."
+
+msgid "It's down there! I've checked everywhere else, it has to be down there!"
+msgstr "Sisirnya ada di bawah sana! Aku sudah mencari di mana-mana, pasti di bawah sana!"
+
+msgid "It's fine. It's just roots. They have to let go of the old wall even if it hurts."
+msgstr "Tidak apa-apa. Itu cuma akar. Mereka harus melepaskan dinding lama meskipun sakit."
+
+msgid "It's loud out here. You're the good kind of loud."
+msgstr "Di luar sini berisik. Kamu berisik yang menyenangkan."
+
+msgid "It's not even scratched."
+msgstr "Bahkan tidak tergores."
+
+msgid "It's only when you're heaving her onto the boards that you notice the tail. It's long, it's teal, and it's slapping the pier hard enough to soak everyone."
+msgstr "Baru saat kamu mengangkatnya ke papan dermaga kamu melihat ekornya. Panjang, hijau toska, dan menghantam dermaga begitu keras sampai semua orang kecipratan."
+
+msgid "It's somewhere in this building. I can feel it, like a draught. You're going to help me find it before anyone else does."
+msgstr "Buku itu ada di suatu tempat di gedung ini. Aku bisa merasakannya, seperti angin yang menyusup. Kamu akan membantuku menemukannya sebelum orang lain."
+
+msgid "It's the chalk. Cheap chalk gets in your throat."
+msgstr "Kapurnya. Kapur murahan bikin tenggorokan gatal."
+
+msgid "It's the first thing in a new collection. Things that are yours."
+msgstr "Ini barang pertama di koleksi baru. Barang-barang milikmu."
 
 msgid "Item Bundle"
 msgstr "Paket Item"
@@ -666,8 +1236,17 @@ msgstr "Besar"
 msgid "Larger"
 msgstr "Lebih besar"
 
+msgid "Last night was the best thing that's happened to me in thirty-one years. Possibly... ever."
+msgstr "Semalam adalah hal terbaik yang terjadi padaku dalam tiga puluh satu tahun. Mungkin... sepanjang hidup."
+
+msgid "Later. The candle is down to a stub. She's lying across you on the reading room rug with one wing folded over you both like a blanket."
+msgstr "Kemudian. Lilinnya tinggal puntung. Dia berbaring di atasmu di karpet ruang baca, satu sayap terlipat menyelimuti kalian berdua."
+
 msgid "Leave"
 msgstr "Keluar"
+
+msgid "Leave it there a minute. It's been a long time."
+msgstr "Biarkan di situ sebentar. Sudah lama sekali."
 
 msgid "Leave this chapter?"
 msgstr "Tinggalkan bab ini?"
@@ -702,6 +1281,15 @@ msgstr "Ramuan Cinta aktif!"
 msgid "Loves"
 msgstr "Suka"
 
+msgid "Low tide's at six. If you happen to be on the pier, you're on the pier, I'm not asking, I'm just saying when low tide is."
+msgstr "Air surut jam enam. Kalau kebetulan kamu ada di dermaga, ya kamu ada di dermaga, aku tidak minta, aku cuma bilang kapan air surut."
+
+msgid "Low tide. You spend two hours turning over rocks in the pools while she works the deeper water. You find a fork and a very angry crab."
+msgstr "Air surut. Kamu menghabiskan dua jam membalik batu di kolam pasang sementara dia memeriksa perairan yang lebih dalam. Kamu menemukan garpu dan seekor kepiting yang sangat marah."
+
+msgid "Lunar nonsense. Next."
+msgstr "Omong kosong soal bulan. Berikutnya."
+
 msgid "MOVES"
 msgstr "LANGKAH"
 
@@ -716,6 +1304,12 @@ msgstr "Buat 1000 kecocokan."
 
 msgid "Make a Starburst."
 msgstr "Buat Ledakan Bintang."
+
+msgid "Make me."
+msgstr "Paksa aku."
+
+msgid "Marina Waverly"
+msgstr "Marina Waverly"
 
 msgid "Marina's power: High Tide"
 msgstr "Kekuatan Marina: Air Pasang"
@@ -747,6 +1341,9 @@ msgstr "Cocokkan rune, favorit Amara: rune mengisi cincin Pesona dua kali lebih 
 msgid "Matches made"
 msgstr "Kecocokan dibuat"
 
+msgid "Maybe I'm saving my wish for something good."
+msgstr "Mungkin aku menyimpan permintaanku untuk sesuatu yang bagus."
+
 msgid "Meet Hazel instead of cutting her tree down."
 msgstr "Temui Hazel alih-alih menebang pohonnya."
 
@@ -765,26 +1362,65 @@ msgstr "Ramuan Pemulih"
 msgid "Mending Potion active!"
 msgstr "Ramuan Pemulih aktif!"
 
+msgid "Mermaid of Saltwick Cove"
+msgstr "Putri duyung dari Teluk Saltwick"
+
 msgid "Messages stay longer"
 msgstr "Pesan tampil lebih lama"
 
 msgid "Millbrook Circle"
 msgstr "Lingkaran Millbrook"
 
+msgid "Mind my leaves with that."
+msgstr "Hati-hati dengan daunku."
+
+msgid "Mind the candle."
+msgstr "Awas lilinnya."
+
+msgid "Mm. That one smells like April."
+msgstr "Mm. Yang itu wanginya seperti April."
+
 msgid "Moonstone"
 msgstr "Batu Bulan"
+
+msgid "Moonstone. It smells like a church."
+msgstr "Batu bulan. Baunya seperti gereja."
 
 msgid "More"
 msgstr "Lainnya"
 
+msgid "Morning comes in through the reading room windows. Somebody has folded your jacket into a very neat square."
+msgstr "Pagi masuk lewat jendela ruang baca. Seseorang sudah melipat jaketmu jadi persegi yang sangat rapi."
+
+msgid "Morning in the grove. There's blossom on the east side of the tree that wasn't there last night. Hazels flower in February. It's May."
+msgstr "Pagi di hutan kecil. Ada bunga di sisi timur pohon yang semalam belum ada. Pohon hazel berbunga di bulan Februari. Ini bulan Mei."
+
+msgid "Morning light through the bedroom curtains, and someone translucent and lilac curled over the covers."
+msgstr "Cahaya pagi menembus tirai kamar, dan seseorang yang bening dan ungu muda meringkuk di atas selimut."
+
+msgid "Morning. Your clothes are on the rail. I wrung them out myself, so you can thank me."
+msgstr "Pagi. Bajumu di pagar. Aku sendiri yang memerasnya, jadi kamu boleh berterima kasih."
+
 msgid "Moss grows under some cells. A match, blast or Hammer on the cell clears it, and some moss hides one of her lost things."
 msgstr "Lumut tumbuh di bawah beberapa petak. Kecocokan, ledakan, atau Palu di petak itu membersihkannya, dan sebagian lumut menyembunyikan salah satu barangnya yang hilang."
+
+msgid "Most people come down here for the game. You keep coming back for me, don't you?"
+msgstr "Kebanyakan orang datang ke sini untuk permainan itu. Kamu terus kembali karena aku, kan?"
+
+msgid "Most summonings end the moment someone gets what they asked for. You never asked for anything. So... I stayed."
+msgstr "Kebanyakan pemanggilan berakhir begitu seseorang mendapat apa yang dia minta. Kamu tidak pernah meminta apa pun. Jadi... aku tetap di sini."
+
+msgid "Mostly couples who thought they'd found somewhere private. So I know a lot about... you know."
+msgstr "Kebanyakan pasangan yang mengira sudah menemukan tempat sepi. Jadi aku tahu banyak soal... kamu tahulah."
 
 msgid "Move"
 msgstr "Gerak"
 
 msgid "Moves left this chapter"
 msgstr "Sisa langkah di bab ini"
+
+msgid "Mum wants to feed you. Consider yourself warned."
+msgstr "Mama mau memberimu makan. Anggap ini peringatan."
 
 msgid "Music"
 msgstr "Musik"
@@ -801,6 +1437,18 @@ msgstr "Hati berikutnya dalam %s"
 msgid "Night scene"
 msgstr "Adegan malam"
 
+msgid "Nine days. If we haven't found it by then, I'll tell her. Deal?"
+msgstr "Sembilan hari. Kalau sampai saat itu belum ketemu, aku akan bilang. Sepakat?"
+
+msgid "Nine days. Keep going."
+msgstr "Sembilan hari. Terus."
+
+msgid "Nine of those and I'm off the hook."
+msgstr "Sembilan yang seperti itu dan aku selamat."
+
+msgid "Nine-hour wick. Hand-dipped. You know what this is for, don't you."
+msgstr "Sumbu sembilan jam. Dicelup tangan. Kamu tahu ini untuk apa, kan."
+
 msgid "No Ads"
 msgstr "Tanpa Iklan"
 
@@ -809,6 +1457,12 @@ msgstr "Tidak ada lagi iklan di antara bab atau di bawah menu, selamanya. Video 
 
 msgid "No moves left — reshuffling!"
 msgstr "Tidak ada langkah tersisa — mengocok ulang!"
+
+msgid "No. Absolutely not."
+msgstr "Tidak. Sama sekali tidak."
+
+msgid "No. I've seen what those do."
+msgstr "Tidak. Aku sudah lihat apa yang bisa dilakukan itu."
 
 msgid "Normal"
 msgstr "Normal"
@@ -837,14 +1491,74 @@ msgstr "Belum ada apa-apa — selesaikan cerita seorang gadis untuk menambahkan 
 msgid "Nothing yet."
 msgstr "Belum ada."
 
+msgid "Now start at the alder and sleeves up."
+msgstr "Sekarang mulai dari pohon alder, dan gulung lengan bajumu."
+
+msgid "Now that's a circle I'd step out of."
+msgstr "Nah, itu baru lingkaran yang mau kutinggalkan."
+
+msgid "Now we can both stop pretending you came over here to talk about books."
+msgstr "Sekarang kita berdua bisa berhenti pura-pura kamu datang ke sini untuk membicarakan buku."
+
+msgid "Obviously we're getting the second owl."
+msgstr "Tentu saja kita ambil burung hantu kedua."
+
+msgid "Of course I'll help. What does it look like?"
+msgstr "Tentu aku akan membantu. Seperti apa bentuknya?"
+
 msgid "Offers appear here once Google Play is reachable."
 msgstr "Penawaran muncul di sini setelah Google Play bisa dijangkau."
+
+msgid "Oh, I intend to."
+msgstr "Oh, memang itu niatku."
+
+msgid "Oh, that's smooth, why can't anything else this week be smooth?"
+msgstr "Oh, mulus sekali. Kenapa tidak ada hal lain minggu ini yang semulus itu?"
+
+msgid "Oh, you're putting it down. Most argue first."
+msgstr "Oh, kamu meletakkannya. Kebanyakan berdebat dulu."
+
+msgid "Oh, you're warm... No one's touched me without an axe in years."
+msgstr "Oh, kamu hangat... Sudah bertahun-tahun tidak ada yang menyentuhku tanpa kapak."
+
+msgid "Oh. I didn't know I did that. That's embarrassing. Do it again."
+msgstr "Oh. Aku tidak tahu aku bisa begitu. Memalukan. Lakukan lagi."
+
+msgid "Okay, that one was nice."
+msgstr "Oke, yang itu bagus."
+
+msgid "Okay. A small thing."
+msgstr "Oke. Sedikit saja."
+
+msgid "Okay. I'm going to say something and you're not allowed to be nice about it."
+msgstr "Oke. Aku mau bilang sesuatu dan kamu tidak boleh menanggapinya dengan manis."
+
+msgid "Okay. The stream comes out under the Mill Bridge, in town. Things wash up there. People pick them up."
+msgstr "Oke. Sungai itu keluar di bawah Jembatan Kincir, di kota. Barang-barang terdampar di sana. Orang-orang memungutnya."
+
+msgid "Old Glass Marble"
+msgstr "Kelereng Kaca Kuno"
+
+msgid "On the way back there's a notice nailed to the Mill Bridge. The town has sold the north woods to an alchemist, for his workshop. Clearing starts on quarter day."
+msgstr "Di jalan pulang ada pengumuman dipaku di Jembatan Kincir. Kota sudah menjual hutan utara ke seorang alkemis, untuk bengkelnya. Penebangan dimulai pada hari kuartal."
 
 msgid "Once you've cleared her first chapter, her card on the roster has a gift for her. Give it and her favourite gem shows up more often in all her chapters, for good."
 msgstr "Setelah kamu menyelesaikan bab pertamanya, kartunya di lingkaran punya hadiah untuknya. Berikan, dan permata favoritnya akan lebih sering muncul di semua babnya, selamanya."
 
 msgid "One wave and the whole board is dealt again, always with a move to make."
 msgstr "Satu kibasan dan seluruh papan diacak ulang, selalu dengan langkah yang bisa dibuat."
+
+msgid "Ooh. That's going in the... sorry."
+msgstr "Ooh. Itu masuk ke... maaf."
+
+msgid "Opal"
+msgstr "Opal"
+
+msgid "Opal at the baker's counter, a loaf under one arm and a stray button in her hand."
+msgstr "Opal di meja toko roti, sebongkah roti di bawah lengan dan sebutir kancing nyasar di tangan."
+
+msgid "Opal moves in properly. Her collection grows a second shelf, then a third: things you've dropped, things your friends have dropped, the ticket from your first evening out together. The jar lives under the bed. She uses it twice that year, both times in thunderstorms, and both times you sit on the floor beside it while she tells you, through the glass, which of the neighbours owe each other money. She climbs out on her own before the storm is over."
+msgstr "Opal pindah sungguhan. Koleksinya bertambah satu rak, lalu satu lagi: barang yang kamu jatuhkan, barang yang dijatuhkan teman-temanmu, tiket malam pertama kalian keluar bersama. Stoples itu tinggal di bawah ranjang. Dia memakainya dua kali tahun itu, dua-duanya saat badai petir, dan dua-duanya kamu duduk di lantai di sampingnya sementara dia bercerita, lewat kaca, tetangga mana yang berutang pada siapa. Dia keluar sendiri sebelum badainya reda."
 
 msgid "Opal's power: Absorb"
 msgstr "Kekuatan Opal: Serap"
@@ -873,6 +1587,9 @@ msgstr "Di Tengah Badai"
 msgid "Out of Moves"
 msgstr "Kehabisan Langkah"
 
+msgid "Out of Season"
+msgstr "Di Luar Musimnya"
+
 msgid "Out of hearts"
 msgstr "Hati habis"
 
@@ -888,8 +1605,14 @@ msgstr "Dimiliki: %d"
 msgid "Pearl"
 msgstr "Mutiara"
 
+msgid "Pearls. Gran would approve."
+msgstr "Mutiara. Nenek pasti setuju."
+
 msgid "Petal"
 msgstr "Kelopak"
+
+msgid "Petals. Good. Those I understand."
+msgstr "Kelopak. Bagus. Itu aku mengerti."
 
 msgid "Pick a gem to pop."
 msgstr "Pilih permata untuk dipecahkan."
@@ -909,6 +1632,9 @@ msgstr "Pilih permata: seluruh baris dan kolomnya bersih."
 msgid "Pick up"
 msgstr "Ambil"
 
+msgid "Pickled newts don't usually have a date pencilled on the wax: the second of January. You open it anyway."
+msgstr "Kadal air acar biasanya tidak punya tanggal yang ditulis pensil di atas lilin: dua Januari. Kamu tetap membukanya."
+
 msgid "Pictures"
 msgstr "Gambar"
 
@@ -917,6 +1643,9 @@ msgstr "Gambar muncul di sini seiring kamu bertemu para gadis dan mencapai akhir
 
 msgid "Pieces of Gran's comb start near the bottom. They can't be matched or moved: clear the gems above them and they rise. One that reaches the top row is yours."
 msgstr "Kepingan sisir Nenek mulai di dekat dasar. Kepingan itu tidak bisa dicocokkan atau digeser: bersihkan permata di atasnya dan kepingan itu naik. Yang sampai di baris paling atas jadi milikmu."
+
+msgid "Plant something near me. So there's something of yours here when you're not."
+msgstr "Tanam sesuatu di dekatku. Supaya ada sesuatu milikmu di sini saat kamu tidak ada."
 
 msgid "Play"
 msgstr "Main"
@@ -960,8 +1689,14 @@ msgstr "Tekan tombol kekuatannya (atau 4): setiap benih dan tunas di papan tumbu
 msgid "Press her power button (or 4): the two rows nearest the surface clear, and everything rises two rows."
 msgstr "Tekan tombol kekuatannya (atau 4): dua baris paling dekat ke permukaan bersih, dan semuanya naik dua baris."
 
+msgid "Pretty. Don't tell my sisters I said that."
+msgstr "Cantik. Jangan bilang ke saudara-saudaraku aku bilang begitu."
+
 msgid "Put down"
 msgstr "Taruh"
+
+msgid "Put that out."
+msgstr "Matikan itu."
 
 msgid "Putting Down Roots"
 msgstr "Berakar"
@@ -1032,6 +1767,15 @@ msgstr "Kunjungi lagi"
 msgid "Rune"
 msgstr "Rune"
 
+msgid "Runes make my edges go fizzy."
+msgstr "Rune bikin pinggiranku berdesis."
+
+msgid "Runes. Finally, someone in this town who can draw."
+msgstr "Rune. Akhirnya ada orang di kota ini yang bisa menggambar."
+
+msgid "Runes. Like on the alchemists' jars."
+msgstr "Rune. Seperti di stoples para alkemis."
+
 msgid "Running out of moves still pays 1 star for every 200 points you scored (at least 3)."
 msgstr "Kehabisan langkah tetap memberi 1 bintang untuk setiap 200 poin yang kamu cetak (minimal 3)."
 
@@ -1043,6 +1787,15 @@ msgstr "SKOR"
 
 msgid "SEALS BROKEN"
 msgstr "SEGEL DIPECAHKAN"
+
+msgid "Saltwick Cove, an hour before sunset. You're on the cliff path when the shouting starts."
+msgstr "Teluk Saltwick, sejam sebelum matahari terbenam. Kamu sedang di jalan setapak tebing saat teriakan dimulai."
+
+msgid "Save it, then. I'll be watching you very closely until you spend it."
+msgstr "Simpan saja, kalau begitu. Aku akan mengawasimu dengan sangat teliti sampai kamu memakainya."
+
+msgid "Say it. The name I gave you."
+msgstr "Ucapkan. Nama yang kuberikan padamu."
 
 msgid "Score 2000 on a free date."
 msgstr "Cetak 2000 poin dalam kencan bebas."
@@ -1058,6 +1811,9 @@ msgstr "Segel dipecahkan"
 
 msgid "See the whole picture (H)"
 msgstr "Lihat seluruh gambar (H)"
+
+msgid "See? Closed rings. It isn't hard."
+msgstr "Lihat? Lingkarannya tertutup. Tidak susah."
 
 msgid "Seeds can't be moved. Make matches next to them to make them grow."
 msgstr "Benih tidak bisa digeser. Buat kecocokan di sebelahnya supaya tumbuh."
@@ -1083,6 +1839,135 @@ msgstr "Penghancur Pecahan"
 msgid "Shard smashed!"
 msgstr "Pecahan hancur!"
 
+msgid "She bites the corner of it before she's even said thank you."
+msgstr "Dia menggigit ujungnya bahkan sebelum berterima kasih."
+
+msgid "She burns them in the reading room fireplace at four in the morning, one at a time. Each one goes up green. The loose page from your desk goes last: she tears her name off the corner and burns only that."
+msgstr "Dia membakarnya di perapian ruang baca pukul empat pagi, satu per satu. Setiap lembar menyala hijau. Halaman lepas dari mejamu dibakar terakhir: dia merobek namanya di sudut dan hanya membakar bagian itu."
+
+msgid "She ducks under before you can answer and comes up a few yards away, pretending to search."
+msgstr "Dia menyelam sebelum kamu sempat menjawab dan muncul beberapa meter lebih jauh, pura-pura mencari."
+
+msgid "She falls asleep first, which she will deny. The tide comes in under the boathouse doors and goes out again."
+msgstr "Dia yang tertidur duluan, dan dia akan menyangkalnya. Air pasang masuk lewat bawah pintu gudang perahu, lalu surut lagi."
+
+msgid "She flicks her tail and soaks you a second time, very deliberately."
+msgstr "Dia mengibaskan ekor dan membuatmu basah untuk kedua kalinya, dengan sangat sengaja."
+
+msgid "She goes cloudy."
+msgstr "Dia jadi keruh."
+
+msgid "She goes outside on her own for the first time to buy bread. She's gone twenty minutes. You both pretend you weren't worried."
+msgstr "Dia keluar sendirian untuk pertama kalinya, membeli roti. Dia pergi dua puluh menit. Kalian berdua pura-pura tidak khawatir."
+
+msgid "She goes slightly pink all the way through, like a drop of dye in a glass of water."
+msgstr "Dia agak merah muda di sekujur tubuh, seperti setetes pewarna di segelas air."
+
+msgid "She grabs you by the collar and kisses you, hard and quick, then looks horrified at herself."
+msgstr "Dia menarik kerahmu dan menciummu, keras dan cepat, lalu terlihat ngeri pada dirinya sendiri."
+
+msgid "She holds out a button. It's yours. It came off your sleeve when you reached into the hollow for her jar, and you never noticed."
+msgstr "Dia mengulurkan sebuah kancing. Milikmu. Lepas dari lengan bajumu waktu kamu merogoh lekukan itu untuk mengambil stoplesnya, dan kamu tidak pernah sadar."
+
+msgid "She holds the marble up to her eye, then presses it gently into her own palm. It sinks in and floats there, inside her hand, where she can see it."
+msgstr "Dia mengangkat kelereng itu ke depan matanya, lalu menekannya pelan ke telapak tangannya sendiri. Kelereng itu tenggelam dan melayang di sana, di dalam tangannya, tempat dia bisa melihatnya."
+
+msgid "She hooks a finger in your collar and pulls you down until you're nose to nose over the reading table."
+msgstr "Dia mengaitkan satu jari di kerahmu dan menarikmu turun sampai hidung kalian bersentuhan di atas meja baca."
+
+msgid "She hooks a foot round your ankle and reels you in the last step."
+msgstr "Dia mengaitkan kakinya ke pergelangan kakimu dan menarikmu selangkah terakhir."
+
+msgid "She kisses you again, slower, just to be sure."
+msgstr "Dia menciummu lagi, lebih pelan, sekadar memastikan."
+
+msgid "She kisses you, slower than in the storm. When she pulls back she's breathing hard, and it isn't from swimming."
+msgstr "Dia menciummu, lebih pelan daripada saat badai. Saat menjauh, napasnya berat, dan itu bukan karena berenang."
+
+msgid "She laughs into your shoulder until she gets the hiccups."
+msgstr "Dia tertawa di bahumu sampai cegukan."
+
+msgid "She laughs, and a shower of rainwater falls off her leaves onto your head."
+msgstr "Dia tertawa, dan guyuran air hujan jatuh dari daunnya ke kepalamu."
+
+msgid "She looks at the axe, then at the place on the trunk you were aiming for."
+msgstr "Dia melihat kapak itu, lalu titik di batang yang kamu incar."
+
+msgid "She looks past you at the hollow: at the moss, pressed flat in neat little rows where something used to be laid out, and at the stream running fast and brown."
+msgstr "Dia memandang melewatimu ke arah lekukan itu: ke lumut yang tertekan rata dalam barisan kecil yang rapi tempat sesuatu dulu dijajarkan, dan ke sungai yang mengalir deras dan cokelat."
+
+msgid "She makes you hold it up in the one patch of sun that gets through her leaves, and watches the shadow for a long time."
+msgstr "Dia menyuruhmu memegangnya di satu-satunya petak sinar matahari yang menembus daunnya, dan memperhatikan bayangannya lama sekali."
+
+msgid "She narrows her eyes, looking for the catch. There isn't one."
+msgstr "Dia menyipitkan mata, mencari jebakannya. Tidak ada."
+
+msgid "She picks up a stack of books anyway and asks where the poetry goes."
+msgstr "Dia tetap mengambil setumpuk buku dan bertanya di mana rak puisi."
+
+msgid "She picks up the candle so she has something to do with her hands."
+msgstr "Dia mengambil lilin supaya tangannya punya kesibukan."
+
+msgid "She pulls you down by your shirt. Her hair falls round you both, gold at the top and green at the ends, and it smells of rain."
+msgstr "Dia menarikmu turun lewat kemejamu. Rambutnya jatuh mengelilingi kalian berdua, emas di atas dan hijau di ujung, dan wanginya seperti hujan."
+
+msgid "She pulls your arms round her neck so you don't have to tread water, and holds you up with her tail."
+msgstr "Dia mengalungkan lenganmu di lehernya supaya kamu tidak perlu menendang-nendang air, dan menopangmu dengan ekornya."
+
+msgid "She rides in a big glass jar in your arms with the lid off, and counts every button as you drop it in."
+msgstr "Dia ikut dalam stoples kaca besar di pelukanmu, tutupnya terbuka, dan menghitung setiap kancing yang kamu jatuhkan ke dalamnya."
+
+msgid "She says it, but she doesn't swim off."
+msgstr "Begitu katanya, tapi dia tidak berenang pergi."
+
+msgid "She sets it beside the stub in your chalk circle and lights it from the old flame before the old one can go out."
+msgstr "Dia menaruhnya di samping puntung lilin di lingkaran kapurmu dan menyalakannya dari api lama sebelum api itu padam."
+
+msgid "She shows you which branches you can sit on and which ones she's ticklish about. The second list is long."
+msgstr "Dia menunjukkan dahan mana yang boleh kamu duduki dan mana yang membuatnya geli. Daftar kedua panjang."
+
+msgid "She sits on the end of the pier with her tail in the water. After a while she leans on your shoulder, as if by accident."
+msgstr "Dia duduk di ujung dermaga dengan ekor di air. Setelah beberapa saat, dia bersandar di bahumu, seolah tak sengaja."
+
+msgid "She sits on the reading table, which you've asked her twice not to do, and moves the candle so it won't drip on the returns."
+msgstr "Dia duduk di meja baca, yang sudah dua kali kamu minta jangan dia lakukan, dan memindahkan lilin supaya tidak menetes ke buku kembalian."
+
+msgid "She steps over the chalk line herself, careful not to smudge it, and picks the page up. You realise you've been staring."
+msgstr "Dia sendiri yang melangkahi garis kapur, hati-hati agar tidak mengotorinya, lalu mengambil halaman itu. Kamu sadar kamu sejak tadi menatapnya."
+
+msgid "She takes your hand and presses it flat to her chest. Under the silk, something is beating far too fast for anyone that old."
+msgstr "Dia meraih tanganmu dan menekannya rata ke dadanya. Di balik sutra, ada sesuatu yang berdetak terlalu cepat untuk makhluk setua dia."
+
+msgid "She takes your hand and presses it gently against her. It sinks in a little, cool and soft, and she shivers."
+msgstr "Dia meraih tanganmu dan menekannya pelan ke tubuhnya. Tanganmu tenggelam sedikit, sejuk dan lembut, dan dia bergidik."
+
+msgid "She talks until the storm passes. You fall asleep against her before she's finished, and she doesn't seem to mind."
+msgstr "Dia bercerita sampai badai berlalu. Kamu tertidur bersandar padanya sebelum dia selesai, dan dia tampaknya tidak keberatan."
+
+msgid "She ties the cord round her neck with a double knot, so it can't come off in the water."
+msgstr "Dia mengikat tali itu di lehernya dengan simpul ganda, supaya tidak lepas di air."
+
+msgid "She turns pink, which, on Opal, is very easy to see."
+msgstr "Dia berubah merah muda, dan pada Opal, itu sangat mudah terlihat."
+
+msgid "She turns round and lifts her hair off her neck. The dress fastens with a row of tiny hooks, from the collar down to where her wings begin."
+msgstr "Dia berbalik dan mengangkat rambut dari tengkuknya. Gaunnya dikancing dengan deretan kait kecil, dari kerah sampai pangkal sayapnya."
+
+msgid "She turns the candle over in her hands and sniffs the wax, which seems to be the professional way to check."
+msgstr "Dia membolak-balik lilin itu di tangannya dan mengendus lilinnya, yang tampaknya cara profesional untuk memeriksanya."
+
+msgid "She was being friendly. You're the one I come here for."
+msgstr "Dia cuma ramah. Kamulah alasanku datang ke sini."
+
+msgid "She won't even be angry. She'll just say 'oh, Mari', the way Mum does."
+msgstr "Dia bahkan tidak akan marah. Dia cuma akan bilang \"aduh, Mari\", seperti Mama."
+
+msgid "She won't leave the candle behind. She carries it to Wick Street cupped in both hands, and makes you walk on the windy side."
+msgstr "Dia tidak mau meninggalkan lilin itu. Dia membawanya ke Jalan Sumbu dengan kedua tangan terkatup, dan menyuruhmu berjalan di sisi yang berangin."
+
+msgid "She's tall, horned and dressed for somewhere much nicer than a library. She crouches to look at your circle, and tuts."
+msgstr "Dia tinggi, bertanduk, dan berpakaian untuk tempat yang jauh lebih mewah daripada perpustakaan. Dia berjongkok untuk melihat lingkaranmu, lalu berdecak."
+
 msgid "Shop"
 msgstr "Toko"
 
@@ -1094,6 +1979,12 @@ msgstr "Animasi lebih singkat, efek lebih tenang."
 
 msgid "Shuffle Wand"
 msgstr "Tongkat Pengocok"
+
+msgid "Since the grove was a forest. Two hundred years, give or take a drought."
+msgstr "Sejak hutan kecil ini masih hutan lebat. Dua ratus tahun, kurang lebih satu musim kemarau."
+
+msgid "Six tomorrow, lifeguard."
+msgstr "Besok jam enam, penyelamat."
 
 msgid "Skip"
 msgstr "Lewati"
@@ -1128,8 +2019,29 @@ msgstr "Lewati semua"
 msgid "Skips this chapter's puzzle: no stars for it."
 msgstr "Melewati teka-teki bab ini: tanpa bintang."
 
+msgid "Slime, formerly of a jar"
+msgstr "Lendir, dulunya penghuni stoples"
+
 msgid "Slow"
 msgstr "Lambat"
+
+msgid "Slower. I can hear you panicking."
+msgstr "Lebih pelan. Aku bisa dengar kamu panik."
+
+msgid "Slowly. I've got all the time in the world, and I'd like to spend some of it on this."
+msgstr "Pelan-pelan. Aku punya seluruh waktu di dunia, dan aku ingin menghabiskan sebagian untuk ini."
+
+msgid "Smart. Unspent wishes don't expire. I knew a man who sat on one until he died."
+msgstr "Pintar. Permintaan yang belum dipakai tidak kedaluwarsa. Aku kenal seorang pria yang menyimpannya sampai mati."
+
+msgid "So she climbs out of her jar in the middle of the shop, in front of everyone, and asks for it herself."
+msgstr "Jadi dia keluar dari stoplesnya di tengah toko, di depan semua orang, dan memintanya sendiri."
+
+msgid "So. Are you telling them how we met, or am I?"
+msgstr "Jadi. Kamu yang cerita bagaimana kita bertemu, atau aku?"
+
+msgid "So. Last night. I've been floating close by trying to think of a word for it, and I've got it down to three, and they're all very rude."
+msgstr "Jadi. Semalam. Aku sudah mengapung di sekitar sini cukup lama mencari kata yang pas, dan aku menyempitkannya jadi tiga, dan semuanya sangat tidak sopan."
 
 msgid "Soft as Moss"
 msgstr "Selembut Lumut"
@@ -1137,8 +2049,29 @@ msgstr "Selembut Lumut"
 msgid "Some gems carry her ink seal. A sealed gem can't be picked up, but it still counts in a match you make by moving the gems beside it. The first match, blast or Hammer breaks the seal and the gem stays."
 msgstr "Beberapa permata membawa segel tintanya. Permata bersegel tidak bisa digeser, tapi tetap dihitung dalam kecocokan yang kamu buat dengan menggeser permata di sebelahnya. Kecocokan, ledakan, atau Palu pertama memecahkan segelnya, dan permatanya tetap di tempat."
 
+msgid "Someone bought that off a market stall. I can tell."
+msgstr "Ada yang beli itu di lapak pasar. Kelihatan kok."
+
+msgid "Someone in this town knows exactly what that book is."
+msgstr "Ada orang di kota ini yang tahu persis buku apa itu."
+
 msgid "Something about to happen on your date. Matching her favourite gem holds it off a move; a Charm Burst clears it."
 msgstr "Sesuatu akan terjadi saat kencanmu. Mencocokkan permata favoritnya menundanya satu langkah; Ledakan Pesona membatalkannya."
+
+msgid "Something cool and slightly heavy is draped over you like a blanket. It turns out to be her."
+msgstr "Sesuatu yang sejuk dan agak berat terhampar di atasmu seperti selimut. Ternyata dia."
+
+msgid "Something pours over the rim, slow and shining, pale lilac with flashes of green and pink in it. You jump back so fast you kick half the hollow into the stream. It gathers itself on a root into the shape of a woman, and she does not look happy."
+msgstr "Sesuatu meluap dari bibir stoples, pelan dan berkilau, ungu muda dengan kilasan hijau dan merah muda. Kamu melompat mundur begitu cepat sampai separuh lekukan itu tertendang ke sungai. Benda itu mengumpul di atas akar menjadi sosok seorang wanita, dan dia tidak kelihatan senang."
+
+msgid "Sorry. I don't usually get to tell anyone."
+msgstr "Maaf. Biasanya aku tidak punya siapa-siapa untuk diajak cerita."
+
+msgid "Sorry. I spread out in my sleep. I didn't know that. I've never slept anywhere big enough to find out."
+msgstr "Maaf. Aku melebar waktu tidur. Aku tidak tahu itu. Aku belum pernah tidur di tempat yang cukup luas untuk mengetahuinya."
+
+msgid "Sorry. I'm watching. Is that all right?"
+msgstr "Maaf. Aku menonton. Tidak apa-apa?"
 
 msgid "Sound Effects"
 msgstr "Efek Suara"
@@ -1170,8 +2103,14 @@ msgstr "Bintang — didapat dengan menyelesaikan bab, dipakai di Toko Item dan u
 msgid "Starstruck"
 msgstr "Terpesona Bintang"
 
+msgid "Start at the alder. I'll enjoy the view."
+msgstr "Mulai dari pohon alder. Aku akan menikmati pemandangan."
+
 msgid "Start her story over from the beginning"
 msgstr "Mulai ceritanya lagi dari awal"
+
+msgid "Start with the baker. He leans on me when he smokes."
+msgstr "Mulai dari tukang roti. Dia bersandar padaku kalau merokok."
 
 msgid "Starter Pack"
 msgstr "Paket Awal"
@@ -1179,8 +2118,26 @@ msgstr "Paket Awal"
 msgid "Stats"
 msgstr "Statistik"
 
+msgid "Stay till the candle goes. Then stay anyway."
+msgstr "Tinggal sampai lilinnya habis. Lalu tetap tinggal."
+
+msgid "Stay tonight. I'll keep the rain off."
+msgstr "Menginaplah malam ini. Aku akan menahan hujan."
+
+msgid "Stay where you are. Don't break the circle. If that candle goes out, I go home, and I'm not done with you."
+msgstr "Diam di situ. Jangan rusak lingkarannya. Kalau lilin itu padam, aku pulang, dan urusanku denganmu belum selesai."
+
+msgid "Still nothing?"
+msgstr "Masih tidak ada?"
+
 msgid "Stop here. This scene plays again next time you visit her."
 msgstr "Berhenti di sini. Adegan ini diputar lagi saat kamu mengunjunginya nanti."
+
+msgid "Stop pretending you're looking for the book. You've walked past this table eleven times tonight, and the book isn't on it. I am."
+msgstr "Berhenti pura-pura mencari buku. Kamu sudah lewat di depan meja ini sebelas kali malam ini, dan bukunya tidak ada di sini. Aku yang ada."
+
+msgid "Stop. I'll go cloudy."
+msgstr "Berhenti. Nanti aku jadi keruh."
 
 msgid "Store"
 msgstr "Toko"
@@ -1200,11 +2157,17 @@ msgstr "Tingkat Cerita: lanjutkan cerita tanpa memainkan bab ini (tanpa bintang)
 msgid "Story: twice the moves, and you can skip any chapter. Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Takes effect from the next chapter."
 msgstr "Cerita: dua kali lipat langkah, dan kamu bisa melewati bab mana saja. Sulit: setiap beberapa langkah ada kejadian saat kencanmu (ombak menerjang dermaga, lilin berkedip), diberi tahu lebih dulu. Berlaku mulai bab berikutnya."
 
+msgid "Succubus, summoned by mistake"
+msgstr "Sukubus, terpanggil karena salah"
+
 msgid "Summer"
 msgstr "Musim Panas"
 
 msgid "Summer!"
 msgstr "Musim Panas!"
+
+msgid "Sure. After I've shelved these returns."
+msgstr "Oke. Setelah aku menata buku-buku kembalian ini."
 
 msgid "Swap"
 msgstr "Tukar"
@@ -1218,14 +2181,41 @@ msgstr "Tukar dua permata yang bersebelahan untuk menjajarkan tiga atau lebih ya
 msgid "Swap two special gems together."
 msgstr "Tukar dua permata spesial sekaligus."
 
+msgid "Swim with me later. Don't embarrass me again."
+msgstr "Berenanglah denganku nanti. Jangan bikin aku malu lagi."
+
 msgid "THINGS FOUND"
 msgstr "BARANG DITEMUKAN"
 
 msgid "TIP"
 msgstr "TIPS"
 
+msgid "Take your time. I've got about three hundred years."
+msgstr "Santai saja. Aku masih punya kira-kira tiga ratus tahun."
+
+msgid "Talk to me. About anything. Your voice helps me get through it."
+msgstr "Bicaralah padaku. Soal apa saja. Suaramu membantuku melewatinya."
+
 msgid "Tap a gem!"
 msgstr "Ketuk sebuah permata!"
+
+msgid "Tell her the jeweller ran off with a sea captain."
+msgstr "Bilang saja tukang perhiasannya kabur dengan seorang kapten kapal."
+
+msgid "Tell her the truth. She'll understand."
+msgstr "Katakan yang sebenarnya. Dia pasti mengerti."
+
+msgid "Tell me about the grove when it was a forest."
+msgstr "Ceritakan soal hutan kecil ini waktu masih hutan lebat."
+
+msgid "Tell me about the others while we look."
+msgstr "Ceritakan soal yang lain sambil kita mencari."
+
+msgid "Tell me if I get this wrong. I've read about it in exactly one book, and a woodcutter dropped it here before the mill was built."
+msgstr "Bilang kalau aku salah. Aku membaca soal ini di tepat satu buku, dan seorang penebang kayu menjatuhkannya di sini sebelum kincir dibangun."
+
+msgid "Tempting. You'd have to do my shelving."
+msgstr "Menggoda. Kamu harus menata buku-bukuku."
 
 msgid "Test purchase"
 msgstr "Pembelian uji coba"
@@ -1239,14 +2229,119 @@ msgstr "Kecepatan Teks"
 msgid "Text size"
 msgstr "Ukuran teks"
 
+msgid "Th-thank you. Sorry. No. Not sorry. Thank you."
+msgstr "T-terima kasih. Maaf. Tidak. Bukan maaf. Terima kasih."
+
+msgid "Th-thank you. Sorry. Thank you."
+msgstr "T-terima kasih. Maaf. Terima kasih."
+
+msgid "Th-that was good. That was really good."
+msgstr "T-tadi itu bagus. Bagus sekali."
+
 msgid "Thanks for playing the demo!"
 msgstr "Terima kasih sudah memainkan demo ini!"
+
+msgid "That catches the light. Do another."
+msgstr "Itu menangkap cahaya. Satu lagi."
+
+msgid "That night she climbs down from her branch and walks out across the grass, further than you've ever seen her go."
+msgstr "Malam itu dia turun dari dahannya dan berjalan menyeberangi rumput, lebih jauh dari yang pernah kamu lihat."
+
+msgid "That one would actually hold a demon."
+msgstr "Yang itu benar-benar bisa menahan iblis."
+
+msgid "That one's fine. That one's fine. Not that one. I mean it. Don't."
+msgstr "Yang itu boleh. Yang itu boleh. Bukan yang itu. Aku serius. Jangan."
+
+msgid "That sounds strange out loud. Don't answer that."
+msgstr "Kalau diucapkan keras-keras kedengarannya aneh. Tidak usah dijawab."
+
+msgid "That was the storm. Don't make it a thing."
+msgstr "Itu gara-gara badai. Jangan dibesar-besarkan."
+
+msgid "That was very nice. Thank you."
+msgstr "Itu bagus sekali. Terima kasih."
+
+msgid "That was. Okay. I don't have a word. I always have a word."
+msgstr "Tadi itu. Oke. Aku kehabisan kata. Aku tidak pernah kehabisan kata."
+
+msgid "That's a dry-land gem. Put it back."
+msgstr "Itu permata darat. Taruh lagi."
+
+msgid "That's a good trench, for a grave."
+msgstr "Parit yang bagus. Untuk kuburan."
+
+msgid "That's actually good. She'd believe that."
+msgstr "Itu sebenarnya bagus. Dia pasti percaya."
+
+msgid "That's all of them. I'm free. No more circles. Nobody can drag me anywhere ever again."
+msgstr "Itu yang terakhir. Aku bebas. Tidak ada lingkaran lagi. Tidak ada yang bisa menyeretku ke mana pun lagi."
+
+msgid "That's autumn."
+msgstr "Itu musim gugur."
+
+msgid "That's lovely. Keep going."
+msgstr "Indah. Teruskan."
+
+msgid "That's nine more hours you can't get rid of me. You did that on purpose."
+msgstr "Itu sembilan jam lagi kamu tidak bisa menyingkirkanku. Kamu sengaja."
+
+msgid "That's off the comb's box. So it went right in there."
+msgstr "Ini dari kotak sisirnya. Jadi sisir itu jatuh tepat di sini."
+
+msgid "That's real. The sea made that. People tumble old bottles in a barrel and sell it as sea glass."
+msgstr "Ini asli. Laut yang membuatnya. Ada orang yang menggulingkan botol bekas di tong lalu menjualnya sebagai kaca laut."
+
+msgid "That's the good stuff. Again."
+msgstr "Nah, itu yang bagus. Lagi."
+
+msgid "That's why Ambrose put me in the jar. Nobody looks inside a jar of pickled newts. We were the same age when he did it, near enough. He got old."
+msgstr "Karena itulah Ambrose menaruhku di stoples. Tidak ada yang melihat ke dalam stoples kadal air acar. Kami kurang lebih seumur waktu dia melakukannya. Dia menua."
+
+msgid "That's you. You did that. A month of you leaning on me with your sleeves rolled up."
+msgstr "Itu karena kamu. Kamu yang membuatnya begitu. Sebulan kamu bersandar padaku dengan lengan baju tergulung."
+
+msgid "That's your fault. I'd like that on record."
+msgstr "Itu salahmu. Tolong dicatat."
 
 msgid "The Time Scroll (three more moves), the Hammer (smash any one gem) and the Shuffle Wand (a new board) sit under the board. Buy them, and potions that help a whole chapter, in the Item Shop with the stars you earn."
 msgstr "Gulungan Waktu (tiga langkah tambahan), Palu (hancurkan satu permata apa saja) dan Tongkat Pengocok (papan baru) ada di bawah papan. Beli semuanya, juga ramuan yang membantu sepanjang bab, di Toko Item dengan bintang yang kamu dapat."
 
+msgid "The animals are watching. I told them to go away. Nobody in this grove listens to me."
+msgstr "Hewan-hewan menonton. Sudah kusuruh pergi. Tidak ada yang mendengarkanku di hutan kecil ini."
+
+msgid "The boathouse slipway at sunrise, two sets of clothes drying on the rail."
+msgstr "Landasan gudang perahu saat matahari terbit, dua setel pakaian dijemur di pagar."
+
+msgid "The boathouse smells of tar and salt. There's a heap of old sails in the corner, and she pulls you down onto them by your wet shirt."
+msgstr "Gudang perahu berbau ter dan garam. Ada tumpukan layar tua di sudut, dan dia menarikmu ke atasnya lewat kemejamu yang basah."
+
+msgid "The book is in this building. Keep going."
+msgstr "Bukunya ada di gedung ini. Terus."
+
+msgid "The candle burns down to nothing, and neither of you notices when it goes out."
+msgstr "Lilin itu terbakar habis, dan tak satu pun dari kalian menyadari kapan ia padam."
+
+msgid "The candle in your chalk circle, the fourth one this week, is nearly gone. She watches it gutter and doesn't go anywhere."
+msgstr "Lilin di lingkaran kapurmu, yang keempat minggu ini, hampir habis. Dia melihatnya berkedip dan tidak pergi ke mana-mana."
+
+msgid "The candles gutter"
+msgstr "Lilin-lilin berkedip"
+
+msgid "The card catalogue has a gap where the book should be. Someone has left a slip in the drawer instead: OUT FOR REBINDING, and a name."
+msgstr "Katalog kartu punya celah di tempat buku itu seharusnya. Ada yang meninggalkan secarik kertas di laci: SEDANG DIJILID ULANG, dan sebuah nama."
+
+msgid "The comb is in a tin of odds and ends on the Pellow brothers' boat: fishing weights, a doll's head, and nine pearls on a silver spine. It costs you two weeks' pay and a lot of explaining."
+msgstr "Sisir itu ada di kaleng berisi barang rongsokan di perahu Pellow bersaudara: pemberat pancing, kepala boneka, dan sembilan mutiara di punggung perak. Harganya dua minggu upahmu dan banyak penjelasan."
+
 msgid "The comb piece can't be hammered. Bring it up to the surface."
 msgstr "Kepingan sisir tidak bisa dipalu. Angkat ke permukaan."
+
+msgid "The ferns tell me you were talking to the miller's daughter. I'm not jealous. But I might drop a branch near her, that's all."
+msgstr "Kata para pakis kamu mengobrol dengan putri tukang giling. Aku tidak cemburu. Tapi mungkin aku menjatuhkan dahan di dekatnya, itu saja."
+
+msgid "The flame leans sideways. Then it goes green. Smoke fills the circle, smelling of struck matches and expensive perfume, and someone steps out of it, coughing."
+msgstr "Apinya condong ke samping. Lalu jadi hijau. Asap memenuhi lingkaran, berbau korek api yang baru digores dan parfum mahal, dan seseorang melangkah keluar darinya sambil batuk."
 
 msgid "The full game has four stories: Hazel's, and three more women of Millbrook to meet in the worst way possible. Each has four chapters, her night scene and her ending."
 msgstr "Game lengkapnya punya empat cerita: cerita Hazel, dan tiga wanita Millbrook lain yang kamu temui dengan cara terburuk. Masing-masing punya empat bab, adegan malamnya, dan akhir ceritanya."
@@ -1257,23 +2352,158 @@ msgstr "Teks game. Suara tetap dalam bahasa Inggris."
 msgid "The girls are voiced by amateur voice actresses, recorded at home. We love how they turned out, but they aren't studio recordings, and not every line is voiced yet.\n\nIf you'd rather read in your own head, turn the voices off. You can change this any time in Settings."
 msgstr "Para gadis disuarakan oleh pengisi suara amatir, direkam di rumah. Kami suka hasilnya, tapi ini bukan rekaman studio, dan belum semua baris diisi suara.\n\nKalau kamu lebih suka membaca dalam hati, matikan suaranya. Kamu bisa mengubahnya kapan saja di Pengaturan."
 
+msgid "The glass eye turns up in the window of the taxidermist's on Lantern Street, in a stuffed owl. The taxidermist won't sell it. He says the owl needs it."
+msgstr "Mata kaca itu muncul di etalase toko pengawet hewan di Jalan Lentera, di dalam seekor burung hantu yang diawetkan. Si pengawet tidak mau menjualnya. Katanya burung hantunya butuh."
+
+msgid "The green at the tips of her hair goes a shade darker. She notices, and decides not to mention it."
+msgstr "Hijau di ujung rambutnya menggelap satu tingkat. Dia menyadarinya, dan memutuskan tidak membahasnya."
+
+msgid "The jar stays empty all night."
+msgstr "Stoples itu kosong sepanjang malam."
+
+msgid "The jar... Should I keep it?"
+msgstr "Stoplesnya... Perlu kusimpan?"
+
+msgid "The keys went to a locksmith, he says. And the glass eye went to someone who needed a glass eye, I suppose."
+msgstr "Kuncinya dibawa ke tukang kunci, katanya. Dan mata kacanya ke seseorang yang butuh mata kaca, kurasa."
+
+msgid "The ledger leads you straight back to your own library. The last pages were sold to it in March as loose leaves, assorted, and filed in the rare books vault under Miscellaneous, Infernal."
+msgstr "Buku besar itu membawa kalian kembali ke perpustakaanmu sendiri. Halaman-halaman terakhir dijual ke sana pada bulan Maret sebagai lembaran lepas, campuran, dan disimpan di ruang buku langka dengan label Lain-lain, Neraka."
+
+msgid "The locksmith on Cinder Row has her keys in a bucket and wants a shilling for the lot. While you haggle, she stays very still in her jar under the counter."
+msgstr "Tukang kunci di Jalan Bara menyimpan kunci-kuncinya di ember dan minta satu shilling untuk semuanya. Selama kamu menawar, dia diam sekali di stoplesnya di bawah meja."
+
+msgid "The mermaid looks at you properly for the first time. You're dripping. You've lost a shoe."
+msgstr "Si putri duyung menatapmu dengan sungguh-sungguh untuk pertama kalinya. Kamu basah kuyup. Sepatumu hilang sebelah."
+
+msgid "The miller sent you? He sends someone every spring."
+msgstr "Tukang giling yang mengirimmu? Dia mengirim seseorang setiap musim semi."
+
+msgid "The miller walks past"
+msgstr "Tukang giling lewat"
+
+msgid "The millrace runs and the old hazel keeps her roots. You plant another hazel beside the new channel, and it grows faster than it has any right to, leaning towards the old tree as if it's listening. You sleep in the grove more nights than not, and the old hazel blossoms in the wrong season, every season, which the miller now tells people is good luck."
+msgstr "Saluran kincir mengalir dan pohon hazel tua tetap punya akarnya. Kamu menanam pohon hazel lain di samping saluran baru, dan pohon itu tumbuh lebih cepat dari seharusnya, condong ke arah pohon tua seolah mendengarkan. Kamu lebih sering tidur di hutan kecil itu daripada tidak, dan pohon hazel tua berbunga di musim yang salah, di setiap musim, yang kini disebut tukang giling sebagai pembawa keberuntungan."
+
+msgid "The moss on the east side is softer than it looks."
+msgstr "Lumut di sisi timur lebih lembut dari kelihatannya."
+
+msgid "The moss on the east side is softer than it looks. Above you her branches have spread and knitted together, and the first rain ticks against the leaves without coming through."
+msgstr "Lumut di sisi timur lebih lembut dari kelihatannya. Di atasmu dahan-dahannya merentang dan saling menjalin, dan hujan pertama mengetuk dedaunan tanpa menembus."
+
+msgid "The name on the slip belongs to a bookbinder who died in the spring. His shop is still full of loose pages."
+msgstr "Nama di kertas itu milik penjilid buku yang meninggal musim semi lalu. Tokonya masih penuh halaman lepas."
+
+msgid "The old hazel at dawn, in full blossom, in May."
+msgstr "Pohon hazel tua saat fajar, mekar penuh, di bulan Mei."
+
+msgid "The old hazel stands where the grove meets the millrace. It's so big that the mill's back wall has started to bend round its roots."
+msgstr "Pohon hazel tua itu berdiri di tempat hutan kecil bertemu saluran kincir. Pohonnya begitu besar sampai dinding belakang kincir mulai melengkung mengitari akarnya."
+
+msgid "The pier's quiet apart from the Thursday tile game at the far end, where the three old fishermen are arguing about the score again."
+msgstr "Dermaga sepi, kecuali permainan hari Kamis di ujung sana, tempat tiga nelayan tua itu kembali meributkan skor."
+
 msgid "The purchase couldn't start (%s)."
 msgstr "Pembelian tidak bisa dimulai (%s)."
 
 msgid "The purchase didn't go through (%s)."
 msgstr "Pembelian tidak berhasil (%s)."
 
+msgid "The reading room at dawn: a burnt-out candle in a smudged chalk circle, your jacket folded into a neat square on the returns cart."
+msgstr "Ruang baca saat fajar: lilin yang habis terbakar di lingkaran kapur yang luntur, jaketmu terlipat rapi di troli buku kembalian."
+
+msgid "The reading room with the door shut. The only light is the candle in your chalk circle, and she's sitting on the reading table again."
+msgstr "Ruang baca dengan pintu tertutup. Satu-satunya cahaya dari lilin di lingkaran kapurmu, dan dia duduk di meja baca lagi."
+
+msgid "The reward is you come to every Tide from now on. Non-negotiable. Don't smile, it's a punishment."
+msgstr "Hadiahnya adalah kamu datang ke setiap Pasang mulai sekarang. Tidak bisa ditawar. Jangan senyum, ini hukuman."
+
 msgid "The store isn't available in this build."
 msgstr "Toko tidak tersedia di versi ini."
+
+msgid "The stream comes out under the Mill Bridge, where Coombs the rag-and-bone man fishes for anything that floats. You get there ahead of her and sell him a handful of buttons off the bank for two coppers before you realise whose they are. He's netted the rest too. Buying the lot back costs six coppers, which he finds very funny."
+msgstr "Sungai itu keluar di bawah Jembatan Kincir, tempat Coombs si pemulung memancing apa saja yang mengapung. Kamu tiba duluan dan menjual segenggam kancing dari tepian kepadanya seharga dua keping tembaga sebelum sadar milik siapa itu. Sisanya juga sudah dia jaring. Membeli kembali semuanya menghabiskan enam keping tembaga, dan dia menganggap itu sangat lucu."
+
+msgid "The stream goes to town. We're going. You're carrying me! Please?"
+msgstr "Sungainya mengalir ke kota. Kita ke sana. Kamu yang bawa aku! Ya?"
+
+msgid "The taxidermist is so startled he gives her the eye, the owl, and a discount on a second owl."
+msgstr "Si pengawet begitu kaget sampai memberinya mata itu, burung hantunya, dan potongan harga untuk burung hantu kedua."
+
+msgid "The tide turns"
+msgstr "Air pasang berbalik"
 
 msgid "The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts."
 msgstr "Baris atas dipakai saat bab berlangsung; baris bawah aktif sendiri saat bab berikutnya dimulai."
 
+msgid "The trench reaches the river on the night of a storm. Water floods into the new channel, and the whole tree shudders."
+msgstr "Parit itu mencapai sungai pada malam badai. Air membanjiri saluran baru, dan seluruh pohon bergetar."
+
 msgid "The two rows nearest the surface clear, and everything rises two rows."
 msgstr "Dua baris paling dekat ke permukaan bersih, dan semuanya naik dua baris."
 
+msgid "The water in the cove is warm and black and full of moonlight. She surfaces right in front of you, close enough that her hair brushes your face."
+msgstr "Air teluk hangat, hitam, dan penuh cahaya bulan. Dia muncul tepat di depanmu, begitu dekat sampai rambutnya menyapu wajahmu."
+
+msgid "The water's warm tonight."
+msgstr "Airnya hangat malam ini."
+
+msgid "The woods north of Millbrook, late autumn. You're out gathering firewood and anything worth selling, and you've followed the stream further in than you meant to."
+msgstr "Hutan di utara Millbrook, akhir musim gugur. Kamu sedang mengumpulkan kayu bakar dan apa saja yang bisa dijual, dan kamu mengikuti sungai kecil lebih jauh dari niatmu."
+
+msgid "Their net. It went right through where I dropped it."
+msgstr "Jaring mereka. Lewat tepat di tempat sisir itu jatuh."
+
+msgid "Then I'll ask. Close the reading room door. Leave the candle."
+msgstr "Kalau begitu aku yang minta. Tutup pintu ruang baca. Biarkan lilinnya."
+
+msgid "Then she notices the loose page on your desk, the one you copied from, and goes very still."
+msgstr "Lalu dia melihat halaman lepas di mejamu, yang kamu salin, dan langsung terdiam."
+
+msgid "Then the miller. Then the miller again."
+msgstr "Lalu tukang giling. Lalu tukang giling lagi."
+
+msgid "Then we'd better find them before anyone else does."
+msgstr "Kalau begitu sebaiknya kita temukan sebelum orang lain."
+
+msgid "Then we'll make sure nobody's boiling anybody."
+msgstr "Kalau begitu kita pastikan tidak ada yang merebus siapa pun."
+
+msgid "Then you remember the Pellow brothers dragging their nets through the cove last week. The whole pier complained about it."
+msgstr "Lalu kamu teringat Pellow bersaudara yang menyeret jaring mereka di teluk minggu lalu. Seluruh dermaga mengeluh soal itu."
+
+msgid "There are forty-one of those. I counted when I put it on. Take your time."
+msgstr "Ada empat puluh satu. Aku menghitungnya waktu memakainya. Santai saja."
+
+msgid "There were wolves. And a family of woodcutters who sang while they worked. I liked them, even though they were woodcutters."
+msgstr "Dulu ada serigala. Dan sebuah keluarga penebang kayu yang bernyanyi sambil bekerja. Aku suka mereka, meskipun mereka penebang kayu."
+
+msgid "There's a woman sitting on the lowest branch, where you're sure nobody was a second ago. Her hair goes from gold to green, and below the knee her legs turn into bark."
+msgstr "Ada seorang wanita duduk di dahan terendah, padahal kamu yakin sedetik lalu tidak ada siapa-siapa. Rambutnya berubah dari emas ke hijau, dan di bawah lutut kakinya menjadi kulit kayu."
+
+msgid "There. Now look me in the eye and tell me you'd rather be shelving."
+msgstr "Nah. Sekarang tatap mataku dan bilang kamu lebih suka menata buku."
+
+msgid "There. Now we're even. Low tide's at six."
+msgstr "Nah. Sekarang kita impas. Air surut jam enam."
+
+msgid "There. Now you can't go anywhere. It's a mermaid thing. It's very old. I just made it up."
+msgstr "Nah. Sekarang kamu tidak bisa ke mana-mana. Ini tradisi putri duyung. Sangat kuno. Baru kukarang."
+
 msgid "These unlock on Steam too."
 msgstr "Ini juga terbuka di Steam."
+
+msgid "They start clearing on quarter day. After that I need somewhere else to be quiet."
+msgstr "Mereka mulai menebang pada hari kuartal. Setelah itu aku butuh tempat lain yang tenang."
+
+msgid "They want an address for my library card. I don't have one. What do I put?"
+msgstr "Mereka minta alamat untuk kartu perpustakaanku. Aku tidak punya. Aku tulis apa?"
+
+msgid "They're a pair. I'm not splitting up a pair."
+msgstr "Mereka sepasang. Aku tidak mau memisahkan pasangan."
+
+msgid "They're not strangers. I heard every one of them go by. From the jar."
+msgstr "Mereka bukan orang asing. Aku mendengar setiap orang lewat. Dari dalam stoples."
 
 msgid "Things found"
 msgstr "Barang ditemukan"
@@ -1283,6 +2513,18 @@ msgstr "Ini menghapus progres cerita setiap gadis, bintang, item, hadiah, dan se
 
 msgid "This is a test build: no money changes hands. Buy %s for %s?"
 msgstr "Ini versi uji coba: tidak ada uang yang berpindah. Beli %s seharga %s?"
+
+msgid "This line here. That's where you'd put my name. If you ever wanted to call me. You won't need to. I'll be with you."
+msgstr "Garis di sini. Di situ kamu menaruh namaku. Kalau suatu hari kamu ingin memanggilku. Kamu tidak akan perlu. Aku akan bersamamu."
+
+msgid "This one's my favourite. Brass, four holes, off a very handsome coat. You have a very handsome... coat too."
+msgstr "Yang ini favoritku. Kuningan, empat lubang, dari mantel yang sangat tampan. Kamu juga punya... mantel yang sangat tampan."
+
+msgid "This page is from my binding. The book that ties me to every circle anyone draws, however badly. Find all of it, burn it, and I'm free."
+msgstr "Halaman ini dari ikatanku. Buku yang mengikatku ke setiap lingkaran yang digambar siapa pun, seburuk apa pun. Temukan seluruhnya, bakar, dan aku bebas."
+
+msgid "Those are mine. I-I've been collecting them for years."
+msgstr "Itu milikku. A-aku sudah mengumpulkannya bertahun-tahun."
 
 msgid "Time Scroll"
 msgstr "Gulungan Waktu"
@@ -1308,6 +2550,18 @@ msgstr "Coba: %s"
 msgid "Turn voices off"
 msgstr "Matikan suara"
 
+msgid "Twenty minutes?"
+msgstr "Dua puluh menit?"
+
+msgid "Two hundred springs I've watched people walk past this tree. Not one of them ever lay down under it."
+msgstr "Dua ratus musim semi aku melihat orang lewat di depan pohon ini. Tak seorang pun pernah berbaring di bawahnya."
+
+msgid "Two hundred years, and nobody told me a spirit could feel like that. I'd like it noted that I'm saying this very calmly."
+msgstr "Dua ratus tahun, dan tidak ada yang memberitahuku roh bisa merasakan seperti itu. Tolong dicatat aku mengatakannya dengan sangat tenang."
+
+msgid "Ugh. That's drier than a sponge."
+msgstr "Ih. Lebih kering dari spons."
+
 msgid "Unlimited Hearts"
 msgstr "Hati Tanpa Batas"
 
@@ -1329,8 +2583,17 @@ msgstr "Pengisi Suara"
 msgid "Voice Volume"
 msgstr "Volume Suara"
 
+msgid "W-with you? Where would I even..."
+msgstr "B-bersamamu? Di mana aku nanti..."
+
 msgid "Watch a video: %s"
 msgstr "Tonton video: %s"
+
+msgid "We're getting the second owl, right?"
+msgstr "Kita ambil burung hantu kedua, kan?"
+
+msgid "Well. It worked, which is insulting in its own way. Go on, then. Ask."
+msgstr "Yah. Berhasil, dan itu sendiri sudah menghina. Ayo, kalau begitu. Minta."
 
 msgid "What a date!"
 msgstr "Kencan yang luar biasa!"
@@ -1341,8 +2604,32 @@ msgstr "Apa jawabanmu?"
 msgid "What she likes"
 msgstr "Yang dia suka"
 
+msgid "What you want. Gold. Revenge. And sooner or later sex. It always comes to that."
+msgstr "Apa yang kamu mau. Emas. Balas dendam. Dan cepat atau lambat seks. Selalu ujungnya ke situ."
+
 msgid "When falling gems make new matches on their own, that's a combo. Each link in the chain scores more than the last."
 msgstr "Saat permata yang jatuh membentuk kecocokan baru dengan sendirinya, itulah kombo. Setiap mata rantai bernilai lebih dari yang sebelumnya."
+
+msgid "When you climb out you lean on the trunk to get your breath back. The bark is rough and cool under your hand."
+msgstr "Saat kamu naik, kamu bersandar ke batang pohon untuk mengatur napas. Kulit kayunya kasar dan sejuk di bawah tanganmu."
+
+msgid "When you get back, a branch creaks overhead in a way that sounds very deliberate."
+msgstr "Saat kamu kembali, sebuah dahan berderak di atasmu dengan cara yang terdengar sangat disengaja."
+
+msgid "Where are my things? They were here. In rows. I-I had them in rows."
+msgstr "Di mana barang-barangku? Tadi di sini. Berbaris. A-aku menjajarkannya berbaris."
+
+msgid "Where did you get that."
+msgstr "Dari mana kamu dapat itu."
+
+msgid "While you fetch coffee from the staff room, she takes a red pencil from your desk and starts correcting the page that started all this."
+msgstr "Sementara kamu mengambil kopi di ruang staf, dia mengambil pensil merah dari mejamu dan mulai mengoreksi halaman yang memulai semua ini."
+
+msgid "Who even likes those?"
+msgstr "Siapa sih yang suka itu?"
+
+msgid "Why would you do that?"
+msgstr "Kenapa kamu melakukan itu?"
 
 msgid "Window Shopping"
 msgstr "Cuci Mata"
@@ -1353,17 +2640,86 @@ msgstr "Tambahkan ke Wishlist Steam"
 msgid "With Moves to Spare"
 msgstr "Langkah Berlebih"
 
+msgid "With the lamp down, the only light in your room comes from her: a soft lilac glow that brightens wherever you touch."
+msgstr "Dengan lampu redup, satu-satunya cahaya di kamarmu berasal darinya: cahaya ungu muda yang lembut, yang makin terang di mana pun kamu menyentuhnya."
+
 msgid "You"
 msgstr "Kamu"
 
 msgid "You already have this."
 msgstr "Kamu sudah punya ini."
 
+msgid "You also find a little brass clasp wedged under the pier. She takes it from you and turns it over for a long time."
+msgstr "Kamu juga menemukan gesper kuningan kecil yang terjepit di bawah dermaga. Dia mengambilnya darimu dan memutar-mutarnya lama sekali."
+
+msgid "You ask what she means."
+msgstr "Kamu bertanya apa maksudnya."
+
+msgid "You bring it down to the pier after dark. She holds it for a long time without saying anything."
+msgstr "Kamu membawanya ke dermaga setelah gelap. Dia memegangnya lama tanpa berkata apa-apa."
+
+msgid "You came by with an axe."
+msgstr "Kamu datang membawa kapak."
+
+msgid "You can actually swim. The first time, you looked like a coat someone had thrown off a pier."
+msgstr "Ternyata kamu bisa berenang. Waktu pertama kali, kamu kelihatan seperti mantel yang dilempar orang dari dermaga."
+
 msgid "You can close this tab now."
 msgstr "Kamu bisa menutup tab ini sekarang."
 
+msgid "You can get dressed now."
+msgstr "Kamu boleh berpakaian sekarang."
+
+msgid "You can hold my hand. If you don't mind it being a bit... wet."
+msgstr "Kamu boleh menggandeng tanganku. Kalau tidak keberatan agak... basah."
+
+msgid "You can stay with me. My place is quiet."
+msgstr "Kamu bisa tinggal bersamaku. Rumahku tenang."
+
+msgid "You close the door."
+msgstr "Kamu menutup pintu."
+
+msgid "You copied it off a loose page that fell out of a returned book. It looked nice. You put a candle stub in the middle because it seemed like the kind of thing that wanted a candle."
+msgstr "Kamu menyalinnya dari halaman lepas yang jatuh dari buku yang dikembalikan. Kelihatannya bagus. Kamu menaruh puntung lilin di tengahnya karena kelihatannya itu jenis benda yang butuh lilin."
+
+msgid "You could keep one, you know. Just one page. I wouldn't be able to refuse you anything."
+msgstr "Kamu bisa menyimpan satu, tahu. Satu halaman saja. Aku tidak akan bisa menolak apa pun darimu."
+
+msgid "You didn't ask what you get out of it."
+msgstr "Kamu tidak bertanya apa untungnya buatmu."
+
+msgid "You dig until sunset. The trench ends up about the length of a coffin, which she points out twice."
+msgstr "Kamu menggali sampai matahari terbenam. Paritnya berakhir kira-kira sepanjang peti mati, dan dia menunjukkan hal itu dua kali."
+
+msgid "You don't ask for any of it. You ask if she's all right, because she came out of the smoke coughing."
+msgstr "Kamu tidak meminta satu pun. Kamu bertanya apakah dia baik-baik saja, karena dia keluar dari asap sambil batuk."
+
+msgid "You don't take your time. She laughs at you, low in her throat, and doesn't complain."
+msgstr "Kamu tidak santai. Dia menertawakanmu, rendah di tenggorokan, dan tidak mengeluh."
+
+msgid "You don't think about it. You run down the steps, jump off the end of the pier in your clothes, get an arm round her and drag her back."
+msgstr "Kamu tidak berpikir. Kamu berlari menuruni tangga, melompat dari ujung dermaga dengan pakaian lengkap, melingkarkan lengan di tubuhnya dan menariknya kembali."
+
 msgid "You have %d"
 msgstr "Kamu punya %d"
+
+msgid "You hold it very well. That's all I'm admitting."
+msgstr "Kamu memeganginya dengan sangat baik. Cuma itu yang kuakui."
+
+msgid "You hum when you think. It's nice."
+msgstr "Kamu bersenandung kalau sedang berpikir. Manis."
+
+msgid "You laugh. She goes pink all the way through, and then she laughs too."
+msgstr "Kamu tertawa. Dia jadi merah muda di sekujur tubuh, lalu ikut tertawa."
+
+msgid "You leave your shoes on the pier, both of them."
+msgstr "Kamu meninggalkan sepatumu di dermaga, dua-duanya."
+
+msgid "You look from her to the trunk and back. Her heart is in the tree, then. So what's in her chest? Does she feel every woodpecker? Is the tree her, or is she the tree's way of talking? It doesn't feel like the moment to ask."
+msgstr "Kamu memandang dia lalu batang pohon, lalu dia lagi. Jadi jantungnya ada di pohon. Lalu apa yang ada di dadanya? Apakah dia merasakan setiap burung pelatuk? Apakah pohon itu dirinya, atau dia cara pohon itu berbicara? Rasanya bukan saat yang tepat untuk bertanya."
+
+msgid "You lower the axe. After a moment, you put it down on the grass."
+msgstr "Kamu menurunkan kapak. Setelah sesaat, kamu meletakkannya di rumput."
 
 msgid "You need %d more stars."
 msgstr "Kamu butuh %d bintang lagi."
@@ -1371,8 +2727,143 @@ msgstr "Kamu butuh %d bintang lagi."
 msgid "You needed %d more points."
 msgstr "Kamu butuh %d poin lagi."
 
+msgid "You point out that the label said newts."
+msgstr "Kamu menunjukkan bahwa labelnya bilang kadal air."
+
+msgid "You say another hazel, so she isn't the only one."
+msgstr "Kamu bilang pohon hazel lagi, supaya dia tidak sendirian."
+
+msgid "You say it back. She listens like she's checking your pronunciation."
+msgstr "Kamu mengucapkannya kembali. Dia mendengarkan seolah memeriksa pelafalanmu."
+
+msgid "You say it. Amara. She shuts her eyes, as if she's checking your pronunciation one last time."
+msgstr "Kamu mengucapkannya. Amara. Dia memejamkan mata, seolah memeriksa pelafalanmu untuk terakhir kali."
+
+msgid "You say yes. She talks for an hour without stuttering once."
+msgstr "Kamu bilang iya. Dia bercerita sejam tanpa gagap sekali pun."
+
+msgid "You shake your head."
+msgstr "Kamu menggeleng."
+
+msgid "You sit with your back against the trunk while it rains. Every so often she makes a small sound, and you put your hand flat on the bark. Under your palm, right about where you'd have swung the axe, something in the wood is beating. So that answers that."
+msgstr "Kamu duduk bersandar ke batang pohon selama hujan. Sesekali dia mengeluarkan suara kecil, dan kamu meletakkan telapak tanganmu rata di kulit kayu. Di bawah telapakmu, kira-kira di tempat kamu akan mengayunkan kapak, sesuatu di dalam kayu berdetak. Jadi terjawab sudah."
+
+msgid "You start to take your hand away. She says you don't have to."
+msgstr "Kamu mulai menarik tanganmu. Dia bilang kamu tidak perlu."
+
+msgid "You stay."
+msgstr "Kamu menginap."
+
+msgid "You summoned me with that pathetic chalk circle? Where did you even copy it from? Ugh, I was in the middle of something."
+msgstr "Kamu memanggilku dengan lingkaran kapur menyedihkan itu? Kamu menyalinnya dari mana sih? Ugh, aku sedang sibuk."
+
+msgid "You take the lantern off her and tell her to sit down for an hour. You'll do the rocks."
+msgstr "Kamu mengambil lentera darinya dan menyuruhnya duduk sejam. Kamu yang mengurus bebatuan."
+
+msgid "You tell her about the wall. Her roots are cracking it, and when it goes, the miller loses his mill."
+msgstr "Kamu memberitahunya soal dinding itu. Akarnya membuatnya retak, dan kalau dinding itu runtuh, tukang giling kehilangan kincirnya."
+
+msgid "You tell her it fell out of a returned book, and you didn't check which one. You step towards the desk to show her."
+msgstr "Kamu bilang halaman itu jatuh dari buku yang dikembalikan, dan kamu tidak memeriksa buku yang mana. Kamu melangkah ke meja untuk menunjukkannya."
+
+msgid "You tell her it isn't strange. She pulls you closer, and for once she doesn't apologise for anything."
+msgstr "Kamu bilang ini tidak aneh. Dia menarikmu lebih dekat, dan untuk sekali ini dia tidak minta maaf atas apa pun."
+
+msgid "You tell her she should tell it."
+msgstr "Kamu bilang dia saja yang cerita."
+
+msgid "You tell her to keep it. For storms."
+msgstr "Kamu bilang simpan saja. Untuk saat badai."
+
+msgid "You tell her to put yours."
+msgstr "Kamu bilang tulis alamatmu."
+
+msgid "You tell her you haven't watched a single game."
+msgstr "Kamu bilang kamu belum pernah menonton satu permainan pun."
+
+msgid "You tell her. The stream has already carried most of it round the bend, towards town."
+msgstr "Kamu memberitahunya. Sungai sudah membawa sebagian besar ke balik tikungan, ke arah kota."
+
+msgid "You turn the lamp down."
+msgstr "Kamu mengecilkan lampu."
+
+msgid "You wake up in the boathouse on a heap of old sails, with sand in your ears. She's already in the water, arms folded on the edge of the slipway, watching you."
+msgstr "Kamu terbangun di gudang perahu di atas tumpukan layar tua, telingamu penuh pasir. Dia sudah di air, lengannya terlipat di tepi landasan, memperhatikanmu."
+
+msgid "You want a thank-you? For that?"
+msgstr "Kamu mau terima kasih? Untuk itu?"
+
+msgid "You want to hear about buttons?"
+msgstr "Kamu mau dengar soal kancing?"
+
+msgid "You were incredible."
+msgstr "Kamu luar biasa."
+
+msgid "You'd burn it."
+msgstr "Kamu akan membakarnya."
+
+msgid "You'd have struck just below my heart. It would take... forty years or so to heal."
+msgstr "Kamu akan menebas tepat di bawah jantungku. Butuh... kira-kira empat puluh tahun untuk sembuh."
+
+msgid "You're a genius, you're a soaked genius."
+msgstr "Kamu jenius, jenius yang basah kuyup."
+
+msgid "You're a terrible influence. Keep going."
+msgstr "Kamu pengaruh yang buruk sekali. Teruskan."
+
+msgid "You're doing well. I'm counting."
+msgstr "Kamu hebat. Aku menghitung."
+
+msgid "You're getting good at this. It's annoying."
+msgstr "Kamu jadi jago. Menyebalkan."
+
+msgid "You're good with soft things."
+msgstr "Kamu pintar dengan hal-hal yang lembut."
+
+msgid "You're new in town and you'll take any work that pays. The miller paid you half up front to cut the tree down. You pick a spot on the trunk that looks right, plant your feet and lift the axe."
+msgstr "Kamu baru di kota dan mengambil pekerjaan apa saja yang dibayar. Tukang giling membayarmu separuh di muka untuk menebang pohon itu. Kamu memilih titik di batang yang kelihatan pas, menapakkan kaki, dan mengangkat kapak."
+
+msgid "You're not jealous? Your leaves are going red."
+msgstr "Kamu tidak cemburu? Daunmu memerah."
+
+msgid "You're quicker than you look. You look quite slow."
+msgstr "Kamu lebih cepat dari kelihatannya. Dan kamu kelihatan cukup lamban."
+
+msgid "You're shaking. Come in closer, there's a hollow in the trunk that fits you."
+msgstr "Kamu gemetar. Mendekatlah, ada lubang di batang yang pas untukmu."
+
+msgid "You're still warm. Good."
+msgstr "Kamu masih hangat. Bagus."
+
+msgid "You're the best thing I've found in this library."
+msgstr "Kamu hal terbaik yang kutemukan di perpustakaan ini."
+
+msgid "You're welcome, by the way."
+msgstr "Sama-sama, omong-omong."
+
+msgid "You've asked me twice not to sit on this table."
+msgstr "Kamu sudah dua kali memintaku jangan duduk di meja ini."
+
+msgid "You've been in Millbrook three weeks, taking whatever work pays. Tonight that's the late shift at the public library. It's a quarter past midnight, the gas lamps have been out for an hour, the returns cart is still full, and you've drawn a circle on the reading room floor in children's chalk."
+msgstr "Kamu baru tiga minggu di Millbrook, mengambil pekerjaan apa saja yang dibayar. Malam ini itu berarti giliran malam di perpustakaan umum. Sudah lewat seperempat jam dari tengah malam, lampu gas sudah padam sejam lalu, troli buku kembalian masih penuh, dan kamu menggambar lingkaran di lantai ruang baca dengan kapur anak-anak."
+
+msgid "You've got mud on your face. Leave it. It suits you."
+msgstr "Ada lumpur di wajahmu. Biarkan saja. Cocok untukmu."
+
+msgid "You've got sand on you. Everywhere. That's your problem, I'm not helping."
+msgstr "Kamu penuh pasir. Di mana-mana. Itu masalahmu, aku tidak mau bantu."
+
+msgid "You've helped enough for one day, lifeguard."
+msgstr "Kamu sudah cukup membantu hari ini, penyelamat."
+
+msgid "You... jumped in your clothes. For someone you'd never met."
+msgstr "Kamu... melompat dengan pakaian lengkap. Demi orang yang belum pernah kamu temui."
+
 msgid "Your best: %d"
 msgstr "Rekormu: %d"
+
+msgid "Your name would be nice."
+msgstr "Namamu, itu saja sudah cukup."
 
 msgid "Your next chapter begins with a free Starburst gem already on the board."
 msgstr "Bab berikutnya dimulai dengan permata Ledakan Bintang gratis yang sudah ada di papan."
@@ -1388,6 +2879,12 @@ msgstr "Pembelianmu tertunda. Akan masuk begitu Google Play mengonfirmasinya."
 
 msgid "Your replies"
 msgstr "Jawabanmu"
+
+msgid "Your second ring doesn't close. That sigil is upside down. And this one isn't a sigil at all, it's a coffee stain you traced."
+msgstr "Cincin keduamu tidak tertutup. Sigil itu terbalik. Dan yang ini sama sekali bukan sigil, ini noda kopi yang kamu jiplak."
+
+msgid "Yours. Fine. I'm bringing my own candles."
+msgstr "Alamatmu. Baiklah. Aku bawa lilinku sendiri."
 
 msgid "a button"
 msgstr "sebuah kancing"

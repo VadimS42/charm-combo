@@ -1,0 +1,243 @@
+# Hazel — Bahasa Indonesia (draf, round 52)
+@@ hazel-0001
+Hazel Mossgrove
+@@ hazel-0002
+Dryad pohon hazel tua
+@@ hazel-0003
+"Jangan coba-coba."
+@@ hazel-0004
+Kelopak. Bagus. Itu aku mengerti.
+@@ hazel-0005
+Mm. Yang itu wanginya seperti April.
+@@ hazel-0006
+Pelan-pelan. Begitu.
+@@ hazel-0007
+Kamu pintar dengan hal-hal yang lembut.
+@@ hazel-0008
+Mekar.
+@@ hazel-0009
+Indah. Teruskan.
+@@ hazel-0010
+Api. Di dalam hutan kecil. Serius?
+@@ hazel-0011
+Matikan itu.
+@@ hazel-0012
+Tidak. Aku sudah lihat apa yang bisa dilakukan itu.
+@@ hazel-0013
+Aku pura-pura tidak lihat.
+@@ hazel-0014
+Hati-hati dengan daunku.
+@@ hazel-0015
+Lebih pelan. Aku bisa dengar kamu panik.
+@@ hazel-0016
+Empat puluh tahun, kubilang. Hati-hati kalau mengayun.
+@@ hazel-0017
+Ada lumpur di wajahmu. Biarkan saja. Cocok untukmu.
+@@ hazel-0018
+Lebih baik dari yang terakhir dikirim tukang giling.
+@@ hazel-0019
+Aku tidak memperhatikanmu. Aku sedang berfotosintesis.
+@@ hazel-0020
+Santai saja. Aku masih punya kira-kira tiga ratus tahun.
+@@ hazel-0021
+Jam Matahari Saku Kuningan
+@@ hazel-0022
+Jam matahari lipat dari kuningan, cukup kecil untuk saku. Hanya menunjukkan waktu saat cerah, dan menurutnya hanya hari cerah yang memang butuh jam.
+@@ hazel-0023
+Dia menyuruhmu memegangnya di satu-satunya petak sinar matahari yang menembus daunnya, dan memperhatikan bayangannya lama sekali.
+@@ hazel-0024
+Jam yang hanya bekerja kalau matahari bersinar.
+@@ hazel-0025
+Hijau di ujung rambutnya menggelap satu tingkat. Dia menyadarinya, dan memutuskan tidak membahasnya.
+@@ hazel-0026
+Akan kutaruh di dahan rendah tempat aku bisa melihatnya. Tidak, aku tidak akan memakainya untuk menghitung waktu sampai kita bertemu lagi.
+@@ hazel-0027
+Pohon hazel tua itu berdiri di tempat hutan kecil bertemu saluran kincir. Pohonnya begitu besar sampai dinding belakang kincir mulai melengkung mengitari akarnya.
+@@ hazel-0028
+Kamu baru di kota dan mengambil pekerjaan apa saja yang dibayar. Tukang giling membayarmu separuh di muka untuk menebang pohon itu. Kamu memilih titik di batang yang kelihatan pas, menapakkan kaki, dan mengangkat kapak.
+@@ hazel-0029
+Jangan coba-coba.
+@@ hazel-0030
+Ada seorang wanita duduk di dahan terendah, padahal kamu yakin sedetik lalu tidak ada siapa-siapa. Rambutnya berubah dari emas ke hijau, dan di bawah lutut kakinya menjadi kulit kayu.
+@@ hazel-0031
+Dia melihat kapak itu, lalu titik di batang yang kamu incar.
+@@ hazel-0032
+Kamu akan menebas tepat di bawah jantungku. Butuh... kira-kira empat puluh tahun untuk sembuh.
+@@ hazel-0033
+Kamu memandang dia lalu batang pohon, lalu dia lagi. Jadi jantungnya ada di pohon. Lalu apa yang ada di dadanya? Apakah dia merasakan setiap burung pelatuk? Apakah pohon itu dirinya, atau dia cara pohon itu berbicara? Rasanya bukan saat yang tepat untuk bertanya.
+@@ hazel-0034
+Tukang giling yang mengirimmu? Dia mengirim seseorang setiap musim semi.
+@@ hazel-0035
+Kamu menurunkan kapak. Setelah sesaat, kamu meletakkannya di rumput.
+@@ hazel-0036
+Oh, kamu meletakkannya. Kebanyakan berdebat dulu.
+@@ hazel-0037
+Yang terakhir terpaksa kujatuhi dahan, tapi jangan khawatir, wajahmu terlalu tampan.
+@@ hazel-0038
+Kamu memberitahunya soal dinding itu. Akarnya membuatnya retak, dan kalau dinding itu runtuh, tukang giling kehilangan kincirnya.
+@@ hazel-0039
+Aku tahu soal dinding itu. Akarku tumbuh ke arah air. Aku tidak bisa mengendalikannya.
+@@ hazel-0040
+Kalau ada yang menggalikan saluran baru untuknya, lebih jauh, aku bisa mengikutinya. Butuh satu musim.
+@@ hazel-0041
+Aku yang akan menggalinya. Tunjukkan di mana.
+@@ hazel-0042
+Sepanjang musim semi, dengan tangan? Kurasa aku harus membiasakan diri denganmu.
+@@ hazel-0043
+Sehelai daun jatuh di rambutmu. Tidak ada angin.
+@@ hazel-0044
+Sekarang mulai dari pohon alder, dan gulung lengan bajumu.
+@@ hazel-0045
+Aku akan menggali. Tapi uang tukang giling tetap kusimpan.
+@@ hazel-0046
+Rakus. Oh, jadi kamu akan membuatnya membayarmu untuk membantuku? Aku suka itu.
+@@ hazel-0047
+Mulai dari pohon alder. Aku akan menikmati pemandangan.
+@@ hazel-0048
+Kamu menggali sampai matahari terbenam. Paritnya berakhir kira-kira sepanjang peti mati, dan dia menunjukkan hal itu dua kali.
+@@ hazel-0049
+Parit yang bagus. Untuk kuburan.
+@@ hazel-0050
+Saat kamu naik, kamu bersandar ke batang pohon untuk mengatur napas. Kulit kayunya kasar dan sejuk di bawah tanganmu.
+@@ hazel-0051
+Oh, kamu hangat... Sudah bertahun-tahun tidak ada yang menyentuhku tanpa kapak.
+@@ hazel-0052
+Kamu mulai menarik tanganmu. Dia bilang kamu tidak perlu.
+@@ hazel-0053
+Biarkan di situ sebentar. Sudah lama sekali.
+@@ hazel-0054
+Sudah berapa lama kamu sendirian di sini?
+@@ hazel-0055
+Sejak hutan kecil ini masih hutan lebat. Dua ratus tahun, kurang lebih satu musim kemarau.
+@@ hazel-0056
+Tidak terlalu buruk, tapi beberapa hewan... teman yang nyaris tak tertahankan.
+@@ hazel-0057
+Kalau aku tahu kamu suka, aku pasti datang lebih awal.
+@@ hazel-0058
+Kamu datang membawa kapak.
+@@ hazel-0059
+Tapi akan kumaafkan. Bawa sekop besok, ya.
+@@ hazel-0060
+Hari keempat. Kabar sudah menyebar bahwa ada yang menggali di dekat pohon hazel tua alih-alih menebangnya. Putri tukang giling membawakanmu makan siang, dan kamu mengantarnya kembali sampai jembatan kecil.
+@@ hazel-0061
+Saat kamu kembali, sebuah dahan berderak di atasmu dengan cara yang terdengar sangat disengaja.
+@@ hazel-0062
+Kata para pakis kamu mengobrol dengan putri tukang giling. Aku tidak cemburu. Tapi mungkin aku menjatuhkan dahan di dekatnya, itu saja.
+@@ hazel-0063
+Sebatang ranting jatuh, dengan sangat tepat, ke makan siangmu.
+@@ hazel-0064
+Ayahnya datang tadi pagi. Dia memberimu waktu sampai akhir bulan. Setelah itu dia menyewa orang yang membawa gergaji.
+@@ hazel-0065
+Gali lebih cepat. Aku ingin melihat musim semi berikutnya.
+@@ hazel-0066
+Dia cuma ramah. Kamulah alasanku datang ke sini.
+@@ hazel-0067
+Aku tahu. Tetap saja kamu pergi empat puluh menit, bukan berarti aku menghitung.
+@@ hazel-0068
+Makan siangmu. Aku yakin rotinya enak sekali. Aku tidak tahu.
+@@ hazel-0069
+Kamu tidak cemburu? Daunmu memerah.
+@@ hazel-0070
+Itu musim gugur.
+@@ hazel-0071
+Ini bulan April.
+@@ hazel-0072
+Gali paritmu. Gulung lengan baju!
+@@ hazel-0073
+Parit itu mencapai sungai pada malam badai. Air membanjiri saluran baru, dan seluruh pohon bergetar.
+@@ hazel-0074
+Tidak apa-apa. Itu cuma akar. Mereka harus melepaskan dinding lama meskipun sakit.
+@@ hazel-0075
+Kamu duduk bersandar ke batang pohon selama hujan. Sesekali dia mengeluarkan suara kecil, dan kamu meletakkan telapak tanganmu rata di kulit kayu. Di bawah telapakmu, kira-kira di tempat kamu akan mengayunkan kapak, sesuatu di dalam kayu berdetak. Jadi terjawab sudah.
+@@ hazel-0076
+Kamu gemetar. Mendekatlah, ada lubang di batang yang pas untukmu.
+@@ hazel-0077
+Bicaralah padaku. Soal apa saja. Suaramu membantuku melewatinya.
+@@ hazel-0078
+Ceritakan soal hutan kecil ini waktu masih hutan lebat.
+@@ hazel-0079
+Dulu ada serigala. Dan sebuah keluarga penebang kayu yang bernyanyi sambil bekerja. Aku suka mereka, meskipun mereka penebang kayu.
+@@ hazel-0080
+Dia bercerita sampai badai berlalu. Kamu tertidur bersandar padanya sebelum dia selesai, dan dia tampaknya tidak keberatan.
+@@ hazel-0081
+Kamu masih hangat. Bagus.
+@@ hazel-0082
+Akan kusebutkan semua orang di kota yang ingin kamu jatuhi dahan.
+@@ hazel-0083
+Mulai dari tukang roti. Dia bersandar padaku kalau merokok.
+@@ hazel-0084
+Dia tertawa, dan guyuran air hujan jatuh dari daunnya ke kepalamu.
+@@ hazel-0085
+Lalu tukang giling. Lalu tukang giling lagi.
+@@ hazel-0086
+Pada akhir bulan, dinding lama itu berhenti retak. Saluran kincir yang baru mengalir jernih, dan Aldous Brock berdiri lama di tepian dengan topi di tangan.
+@@ hazel-0087
+Dia bilang kamu boleh menyimpan uangnya. Lalu dia mendekat dan menepuk batang pohon hazel itu, dengan canggung, seperti pria yang minta maaf pada kuda.
+@@ hazel-0088
+Dia belum pernah melakukan itu. Empat puluh musim semi, dan dia sekali pun belum pernah melakukan itu.
+@@ hazel-0089
+Malam itu dia turun dari dahannya dan berjalan menyeberangi rumput, lebih jauh dari yang pernah kamu lihat.
+@@ hazel-0090
+Aku bisa berjalan sejauh akarku menjalar. Sekarang akarku menjalar jauh. Berkat seseorang.
+@@ hazel-0091
+Lumut di sisi timur lebih lembut dari kelihatannya.
+@@ hazel-0092
+Menginaplah malam ini. Aku akan menahan hujan.
+@@ hazel-0093
+Kamu menginap.
+@@ hazel-0094
+Lumut di sisi timur lebih lembut dari kelihatannya. Di atasmu dahan-dahannya merentang dan saling menjalin, dan hujan pertama mengetuk dedaunan tanpa menembus.
+@@ hazel-0095
+Dua ratus musim semi aku melihat orang lewat di depan pohon ini. Tak seorang pun pernah berbaring di bawahnya.
+@@ hazel-0096
+Hewan-hewan menonton. Sudah kusuruh pergi. Tidak ada yang mendengarkanku di hutan kecil ini.
+@@ hazel-0097
+Tangannya sekarang hangat. Dulu dingin waktu pertama kali kamu menyentuh kulit kayunya. Dia melihat kamu menyadarinya.
+@@ hazel-0098
+Itu karena kamu. Kamu yang membuatnya begitu. Sebulan kamu bersandar padaku dengan lengan baju tergulung.
+@@ hazel-0099
+Dia menarikmu turun lewat kemejamu. Rambutnya jatuh mengelilingi kalian berdua, emas di atas dan hijau di ujung, dan wanginya seperti hujan.
+@@ hazel-0100
+Bilang kalau aku salah. Aku membaca soal ini di tepat satu buku, dan seorang penebang kayu menjatuhkannya di sini sebelum kincir dibangun.
+@@ hazel-0101
+Pelan-pelan. Aku punya seluruh waktu di dunia, dan aku ingin menghabiskan sebagian untuk ini.
+@@ hazel-0102
+Setelahnya kamu berbaring di lumut dengan rambutnya melintang di dadamu. Di atas, setiap daun di sisi timurnya sudah berbalik memperlihatkan sisi pucatnya, seperti sebelum badai. Tidak ada badai.
+@@ hazel-0103
+Jangan... menatapku begitu.
+@@ hazel-0104
+Hujan turun sepanjang malam. Tidak setetes pun mengenaimu.
+@@ hazel-0105
+Di Luar Musimnya
+@@ hazel-0106
+Saluran kincir mengalir dan pohon hazel tua tetap punya akarnya. Kamu menanam pohon hazel lain di samping saluran baru, dan pohon itu tumbuh lebih cepat dari seharusnya, condong ke arah pohon tua seolah mendengarkan. Kamu lebih sering tidur di hutan kecil itu daripada tidak, dan pohon hazel tua berbunga di musim yang salah, di setiap musim, yang kini disebut tukang giling sebagai pembawa keberuntungan.
+@@ hazel-0107
+Pagi di hutan kecil. Ada bunga di sisi timur pohon yang semalam belum ada. Pohon hazel berbunga di bulan Februari. Ini bulan Mei.
+@@ hazel-0108
+Dua ratus tahun, dan tidak ada yang memberitahuku roh bisa merasakan seperti itu. Tolong dicatat aku mengatakannya dengan sangat tenang.
+@@ hazel-0109
+Jangan lihat itu. Itu bukan untukmu. Itu musiman.
+@@ hazel-0110
+Baiklah. Itu untukmu. Aku belum pernah berbunga di luar musim sejak sebelum kincir dibangun. Hewan-hewan pasti bergosip.
+@@ hazel-0111
+Pohon hazel tua saat fajar, mekar penuh, di bulan Mei.
+@@ hazel-0112
+Dia menunjukkan dahan mana yang boleh kamu duduki dan mana yang membuatnya geli. Daftar kedua panjang.
+@@ hazel-0113
+Yang itu boleh. Yang itu boleh. Bukan yang itu. Aku serius. Jangan.
+@@ hazel-0114
+Tanam sesuatu di dekatku. Supaya ada sesuatu milikmu di sini saat kamu tidak ada.
+@@ hazel-0115
+Sebatang pohon muda di samping saluran kincir baru, seutas pita terikat di sekelilingnya.
+@@ hazel-0116
+Kamu bilang pohon hazel lagi, supaya dia tidak sendirian.
+@@ hazel-0117
+Daun kering berguguran
+@@ hazel-0118
+Tukang giling lewat
+@@ hazel-0119
+Mulai hujan
+@@ hazel-0120
+Musim Panas
+@@ hazel-0121
+Setiap benih dan tunas di papan tumbuh satu tahap.

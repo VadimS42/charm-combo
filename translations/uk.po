@@ -3,6 +3,18 @@ msgstr ""
 "Language: uk\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 
+msgid "\"Don't even think about it.\""
+msgstr "«Навіть не думай.»"
+
+msgid "\"I was fine. It was quiet in there.\""
+msgstr "«Мені було добре. Там було тихо.»"
+
+msgid "\"I was floating. On my back.\""
+msgstr "«Я дрейфувала. На спині.»"
+
+msgid "\"You summoned me with that pathetic chalk circle?\""
+msgstr "«Ти викликав мене цим жалюгідним крейдяним колом?»"
+
 msgid "%d / %d endings found"
 msgstr "%d / %d фіналів знайдено"
 
@@ -93,8 +105,17 @@ msgstr "800 зірок."
 msgid "A Lovely Trench"
 msgstr "Чудова траншея"
 
+msgid "A Quiet Place"
+msgstr "Тихе місце"
+
 msgid "A Thousand Sparkles"
 msgstr "Тисяча іскор"
+
+msgid "A clock that only works when the sun's out."
+msgstr "Годинник, що працює, лише коли світить сонце."
+
+msgid "A cold breeze"
+msgstr "Холодний вітерець"
 
 msgid "A comb piece!"
 msgstr "Частина гребеня!"
@@ -102,8 +123,17 @@ msgstr "Частина гребеня!"
 msgid "A comb piece! %d / %d"
 msgstr "Частина гребеня! %d / %d"
 
+msgid "A folding brass sundial small enough for a pocket. It only tells the time on sunny days, which as far as she's concerned are the only days that need it."
+msgstr "Складаний латунний сонячний годинник, досить малий для кишені. Показує час лише в сонячні дні, а як на неї, то лише в такі дні час і потрібен."
+
 msgid "A free date"
 msgstr "Вільне побачення"
+
+msgid "A glass marble with a ribbon of gold twisted through it, the kind nobody's made for decades."
+msgstr "Скляна кулька зі скрученою золотою стрічкою всередині, таких не роблять уже кілька десятиліть."
+
+msgid "A leaf drops into your hair. There's no wind."
+msgstr "Тобі у волосся падає листок. Вітру немає."
 
 msgid "A little buzz when gems match."
 msgstr "Легка вібрація, коли самоцвіти збігаються."
@@ -123,14 +153,38 @@ msgstr "Щодня нове поле, однакове для всіх: %d хо�
 msgid "A new seed drops in."
 msgstr "Падає нова насінина."
 
+msgid "A reader shushes you"
+msgstr "Читач на тебе шикає"
+
+msgid "A sapling beside the new millrace, a ribbon tied round it."
+msgstr "Молоде деревце біля нового жолоба, перев'язане стрічкою."
+
+msgid "A smooth chip of sea glass, worn soft by years of tide, on a plain cord."
+msgstr "Гладкий шматочок морського скла, відшліфований роками припливів, на простому шнурку."
+
+msgid "A squall comes in over the cove. She wants to dive anyway. You hold the rope ladder and argue with her over the wind."
+msgstr "На бухту налітає шквал. Вона все одно хоче пірнати. Ти тримаєш мотузяну драбину й сперечаєшся з нею, перекрикуючи вітер."
+
+msgid "A tall beeswax candle with a nine-hour wick. It burns longer if nobody blows it out."
+msgstr "Висока свічка з бджолиного воску з дев'ятигодинним ґнотом. Горить довше, якщо ніхто її не задме."
+
 msgid "A tip"
 msgstr "Порада"
+
+msgid "A twig drops, very precisely, into your lunch."
+msgstr "Гілочка падає, дуже влучно, просто в твій обід."
+
+msgid "A wave over the pier"
+msgstr "Хвиля через пристань"
 
 msgid "ACHIEVEMENT UNLOCKED"
 msgstr "ДОСЯГНЕННЯ ВІДКРИТО"
 
 msgid "About the voices"
 msgstr "Про голоси"
+
+msgid "About your reward. Last night was not the reward. I need you to understand that. Last night was separate."
+msgstr "Щодо твоєї винагороди. Учорашня ніч не була винагородою. Тобі треба це зрозуміти. Учорашня ніч — то інше."
 
 msgid "Absorb"
 msgstr "Поглинання"
@@ -144,17 +198,47 @@ msgstr "Досягнення"
 msgid "Ad privacy choices"
 msgstr "Приватність реклами"
 
+msgid "Admit it. You like having me around."
+msgstr "Зізнайся. Тобі подобається, що я поруч."
+
+msgid "After Hours"
+msgstr "Після зачинення"
+
 msgid "After each chapter you pick a reply. A warm one starts her next chapter with bonus points (two extra moves when the chapter is only her goal); a teasing one costs a few points, but she likes those too."
 msgstr "Після кожного розділу ти обираєш відповідь. Тепла відповідь починає її наступний розділ із бонусними очками (два зайві ходи, коли в розділі лише її мета); дражлива коштує кількох очок, але їй і такі подобаються."
 
 msgid "After that, her favourite gem shows up more often in all her chapters, for good."
 msgstr "Після цього її улюблений самоцвіт частіше з'являтиметься в усіх її розділах, назавжди."
 
+msgid "After the comb, it can be a big thing."
+msgstr "Після гребеня можна буде велику."
+
+msgid "Afterwards she lies with her head on your chest, her tail curled down the slipway into the water, flicking now and then."
+msgstr "Потім вона лежить, поклавши голову тобі на груди, хвіст звивається вниз по сповзу до води й час від часу сіпається."
+
+msgid "Afterwards she's spread across most of the bed and some of you, glowing faintly, humming something Ambrose used to whistle."
+msgstr "Потім вона розтікається по більшій частині ліжка й частині тебе, ледь світиться й мугикає мелодію, яку колись насвистував Амброуз."
+
+msgid "Afterwards you lie in the moss with her hair across your chest. Overhead, every leaf on her east side has turned pale side up, the way they do before a storm. There's no storm."
+msgstr "Потім ти лежиш у моху, а її волосся розсипане в тебе на грудях. Угорі кожен листок на її східному боці перевернувся світлим боком догори, як перед грозою. Грози немає."
+
+msgid "Against an alchemist? You sold my buttons for two coppers and bought them back for six."
+msgstr "Проти алхіміка? Ти продав мої ґудзики за дві мідяки й викупив за шість."
+
+msgid "Alchemists boil slimes down for glue. Did you know that? Twelve shillings a pound."
+msgstr "Алхіміки виварюють слизів на клей. Ти знав? Дванадцять шилінгів за фунт."
+
 msgid "All rules"
 msgstr "Усі правила"
 
+msgid "All spring, by hand? I guess I'll have to get used to you."
+msgstr "Цілу весну, руками? Мабуть, доведеться мені до тебе звикати."
+
 msgid "All the girls"
 msgstr "Усі дівчата"
+
+msgid "Amara Duskrose"
+msgstr "Амара Даскроуз"
 
 msgid "Amara's power: Correct Lines"
 msgstr "Сила Амари: Виправлені рядки"
@@ -162,11 +246,29 @@ msgstr "Сила Амари: Виправлені рядки"
 msgid "Amara's seals broken"
 msgstr "Зламано печаток Амари"
 
+msgid "Amara. It's the one I use. The real one is in the book, along with everything else that keeps me on a leash."
+msgstr "Амара. Це ім'я, яким я користуюся. Справжнє — в книжці, разом з усім, що тримає мене на повідку."
+
 msgid "Amara: break every seal"
 msgstr "Амара: зламай усі печатки"
 
 msgid "Amara: sealed pages"
 msgstr "Амара: запечатані сторінки"
+
+msgid "Ambrose wrote that label. He was the forester. When the alchemists came round buying slimes, he hid me out here. It worked for thirty-one years."
+msgstr "Ту етикетку написав Амброуз. Він був лісником. Коли алхіміки ходили й скуповували слизів, він сховав мене тут. Це працювало тридцять один рік."
+
+msgid "An owl startles her"
+msgstr "Сова її лякає"
+
+msgid "And this time, take your clothes off before you jump in."
+msgstr "І цього разу роздягнися, перш ніж стрибати."
+
+msgid "And you still haven't asked me for anything."
+msgstr "А ти досі нічого в мене не попросив."
+
+msgid "And you're not going to tell anyone either, are you, lifeguard?"
+msgstr "І ти теж нікому не скажеш, правда, рятувальнику?"
 
 msgid "Another date"
 msgstr "Ще одне побачення"
@@ -176,6 +278,9 @@ msgstr "Будь-який збіг одразу виконує мету розд
 
 msgid "Anything you've bought on this Google account comes back in a moment."
 msgstr "Усе, що ти купив на цьому акаунті Google, повернеться за мить."
+
+msgid "At the Midsummer Tide the whole family swims out to the rocks, and Gran wears nine pearls in her hair and pretends not to notice everyone watching her."
+msgstr "На Купальський приплив уся родина пливе до скель, а бабуся має в волоссі дев'ять перлин і вдає, що не помічає, як усі на неї дивляться."
 
 msgid "Auto"
 msgstr "Авто"
@@ -216,14 +321,32 @@ msgstr "Найкраще побачення з %s"
 msgid "Best value"
 msgstr "Найвигідніше"
 
+msgid "Better than the last one the miller sent."
+msgstr "Краще, ніж той, кого мірошник присилав минулого разу."
+
+msgid "Between the roots of an old oak, someone has dug a little hollow and lined it with moss. In it sits a big glass jar, sealed with wax. The label says PICKLED NEWTS, DO NOT OPEN, in handwriting that's trying to be funny."
+msgstr "Між корінням старого дуба хтось викопав невелику ямку й вистелив її мохом. У ній стоїть велика скляна банка, запечатана воском. На етикетці написано МАРИНОВАНІ ТРИТОНИ, НЕ ВІДКРИВАТИ, почерком, який намагається бути смішним."
+
 msgid "Bigger text everywhere: dialogue, menus and the puzzle."
 msgstr "Більший текст усюди: діалоги, меню й головоломка."
+
+msgid "Black cover. No title. It'll feel warm. Don't open it."
+msgstr "Чорна обкладинка. Без назви. Вона буде теплою. Не відкривай."
 
 msgid "Blossom! +%d"
 msgstr "Квітка! +%d"
 
+msgid "Blossom."
+msgstr "Цвіт."
+
 msgid "Blossoms"
 msgstr "Квіти"
+
+msgid "Board, lifeguard. Not me."
+msgstr "Дивися на поле, рятувальнику. Не на мене."
+
+msgid "Boathouse. It's got a door. Gran can't see through doors. Probably."
+msgstr "Човнярня. У неї є двері. Бабуся не бачить крізь двері. Мабуть."
 
 msgid "Bookbinder"
 msgstr "Палітурник"
@@ -231,11 +354,23 @@ msgstr "Палітурник"
 msgid "Boom!"
 msgstr "Бум!"
 
+msgid "Brambles underfoot"
+msgstr "Ожина під ногами"
+
+msgid "Brass Pocket Sundial"
+msgstr "Латунний кишеньковий сонячний годинник"
+
 msgid "Break 50 of Amara's seals."
 msgstr "Зламати 50 печаток Амари."
 
 msgid "Bring 10 comb pieces up for Marina."
 msgstr "Підняти 10 частин гребеня для Марини."
+
+msgid "But I'll allow it. Bring the shovel tomorrow though."
+msgstr "Але я тобі це пробачу. Тільки завтра принеси лопату."
+
+msgid "But she's a little pinker than she was."
+msgstr "Але вона трохи рожевіша, ніж була."
 
 msgid "Buy"
 msgstr "Купити"
@@ -249,6 +384,15 @@ msgstr "Купити · %d"
 msgid "Buy · %d ⭐"
 msgstr "Купити · %d ⭐"
 
+msgid "By the end of the month the old wall has stopped cracking. The new millrace runs clean, and Aldous Brock stands on the bank for a long time with his hat in his hands."
+msgstr "До кінця місяця стара стіна перестає тріщати. Новий жолоб тече чисто, а Олдос Брок довго стоїть на березі з капелюхом у руках."
+
+msgid "By two in the morning you've checked every book returned this month. No black cover. One very overdue cookbook, which she opens, reads a page of, and closes in disgust."
+msgstr "До другої ночі ти перевірив усі книжки, повернені цього місяця. Чорної обкладинки немає. Є одна дуже прострочена кулінарна книга, яку вона відкриває, читає сторінку й з огидою закриває."
+
+msgid "C-can I sleep in your room tonight? Not in the jar. With you."
+msgstr "М-можна мені сьогодні спати у твоїй кімнаті? Не в банці. З тобою."
+
 msgid "CHAPTER GOAL"
 msgstr "МЕТА РОЗДІЛУ"
 
@@ -258,8 +402,17 @@ msgstr "ЧАСТИНИ ГРЕБЕНЯ"
 msgid "COMING UP"
 msgstr "НЕЗАБАРОМ"
 
+msgid "Can we not? Please?"
+msgstr "Можна не треба? Будь ласка?"
+
+msgid "Can you... turn the lamp down a bit?"
+msgstr "Можеш... трохи пригасити лампу?"
+
 msgid "Cancel"
 msgstr "Скасувати"
+
+msgid "Careful. If you keep staring at me like that, I'll start thinking you summoned me on purpose."
+msgstr "Обережно. Якщо й далі так на мене дивитимешся, я почну думати, що ти викликав мене навмисно."
 
 msgid "Carry on without clearing this chapter (no stars for it)."
 msgstr "Продовжити, не проходячи цей розділ (без зірок за нього)."
@@ -309,6 +462,9 @@ msgstr "Дзвіночки для збігів, комбо й меню."
 msgid "Choose"
 msgstr "Обрати"
 
+msgid "Clean lines. I'm almost proud of you."
+msgstr "Чисті лінії. Я майже тобою пишаюся."
+
 msgid "Clear Hazel's first chapter."
 msgstr "Пройти перший розділ Гейзел."
 
@@ -324,6 +480,9 @@ msgstr "Пройти розділ, маючи 5 або більше ходів �
 msgid "Clear a cursed shard with the Hammer."
 msgstr "Знищити проклятий уламок Молотом."
 
+msgid "Clear all the way through. Like me."
+msgstr "Прозорий наскрізь. Як я."
+
 msgid "Clear any chapter to unlock the daily challenge."
 msgstr "Пройди будь-який розділ, щоб відкрити щоденне випробування."
 
@@ -338,6 +497,12 @@ msgstr "Клік, Пробіл або Enter: наступна репліка. У
 
 msgid "Close"
 msgstr "Закрити"
+
+msgid "Close enough."
+msgstr "Майже."
+
+msgid "Close enough. You can keep using it."
+msgstr "Майже. Можеш і далі ним користуватися."
 
 msgid "Close settings"
 msgstr "Закрити налаштування"
@@ -356,6 +521,12 @@ msgstr "Комбо x%d!"
 
 msgid "Combos"
 msgstr "Комбо"
+
+msgid "Come here. That's an order, and I'm only giving it once before I come over there and get you."
+msgstr "Іди сюди. Це наказ, і я віддаю його лише раз, перш ніж прийду й заберу тебе сама."
+
+msgid "Come on. Binders keep ledgers. If he sold them, he wrote down who to."
+msgstr "Ходімо. Палітурники ведуть книги обліку. Якщо він їх продав, то записав, кому."
 
 msgid "Continue"
 msgstr "Продовжити"
@@ -378,6 +549,9 @@ msgstr "Автори"
 msgid "Crystal"
 msgstr "Кристал"
 
+msgid "Crystal. I'd keep that one."
+msgstr "Кристал. Цей я б залишила."
+
 msgid "Cursed Shard"
 msgstr "Проклятий уламок"
 
@@ -393,17 +567,71 @@ msgstr "Щоденне випробування: %d оч."
 msgid "Dark, cracked shards cost you points when they're part of a match. The Hammer smashes one for free."
 msgstr "Темні тріснуті уламки забирають очки, коли потрапляють у збіг. Молот розбиває один безкоштовно."
 
+msgid "Day four. Word's got round that someone is digging by the old hazel instead of cutting it down. The miller's daughter brings you lunch, and you walk her back as far as the footbridge."
+msgstr "Четвертий день. Пішла чутка, що хтось копає біля старої ліщини замість того, щоб її зрубати. Мірошникова донька приносить тобі обід, і ти проводжаєш її назад аж до кладки."
+
+msgid "Day three. She's been in the water since dawn, and she misses the rope ladder twice trying to climb onto the pier. At the far end, three old fishermen are setting out their Thursday tile game by lamplight."
+msgstr "Третій день. Вона у воді від світанку й двічі не влучає в мотузяну драбину, намагаючись вилізти на пристань. На тому кінці троє старих рибалок при світлі ліхтаря розкладають свою четвергову гру в камінці."
+
+msgid "Dead leaves come down"
+msgstr "Падає сухе листя"
+
 msgid "Dialogue controls"
 msgstr "Керування діалогами"
 
 msgid "Difficulty"
 msgstr "Складність"
 
+msgid "Dig faster. I'd like to see another spring."
+msgstr "Копай швидше. Я хотіла б побачити ще одну весну."
+
+msgid "Dig your trench. Sleeves up!"
+msgstr "Копай свою канаву. Рукави закасати!"
+
 msgid "Dislikes"
 msgstr "Не любить"
 
+msgid "Do that again. Slower."
+msgstr "Зроби так ще раз. Повільніше."
+
 msgid "Don't Even Think About It"
 msgstr "Навіть не думай"
+
+msgid "Don't even think about it."
+msgstr "Навіть не думай."
+
+msgid "Don't go before morning. I'll know if you do. I'll hear the door."
+msgstr "Не йди до ранку. Я знатиму, якщо підеш. Почую двері."
+
+msgid "Don't look at them. They're not for you. They're seasonal."
+msgstr "Не дивися на них. Вони не для тебе. Вони сезонні."
+
+msgid "Don't look so pleased with yourself. Actually, no. Look exactly that pleased."
+msgstr "Не будь таким задоволеним собою. Хоча ні. Будь саме таким задоволеним."
+
+msgid "Don't put me back in the jar yet. I want to go home on my own. Well. Not walk. You know."
+msgstr "Не саджай мене поки в банку. Я хочу дістатися додому сама. Ну. Не пішки. Ти розумієш."
+
+msgid "Don't say it like that. Like it matters."
+msgstr "Не кажи так. Ніби це щось означає."
+
+msgid "Don't. Don't you dare."
+msgstr "Не смій. Навіть не думай."
+
+msgid "Don't. Just don't."
+msgstr "Не треба. Просто не треба."
+
+msgid "Don't... look at me like that."
+msgstr "Не дивися... на мене так."
+
+msgid "Down on the pier, a whole family is yelling at the water. Out past the rocks, a woman is floating face up, perfectly still, her hair spread out round her."
+msgstr "Унизу, на пристані, ціла родина кричить у бік води. За скелями на спині лежить жінка, зовсім нерухома, волосся розкинулося довкола неї."
+
+msgid "Dryad of the old hazel"
+msgstr "Дріада старої ліщини"
+
+msgid "Dust off the top shelf"
+msgstr "Пил із верхньої полиці"
 
 msgid "Each chapter has a goal and a number of moves. At first it's points; from her third chapter it's something of hers to do on the board, and in her last both. Reach it before your moves run out and the story carries on. There's no timer: take as long as you like."
 msgstr "Кожен розділ має мету й кількість ходів. Спершу це очки; з її третього розділу — щось, що треба зробити для неї на полі, а в останньому і те, і те. Досягни мети, поки не скінчилися ходи, і історія продовжиться. Таймера немає: не поспішай."
@@ -413,6 +641,9 @@ msgstr "Кожен вид самоцвіта показує номер, тож �
 
 msgid "Easy"
 msgstr "Легко"
+
+msgid "Eat your lunch. I'm sure her bread is very good. I wouldn't know."
+msgstr "Їж свій обід. Певна, її хліб дуже смачний. Я не знаю."
 
 msgid "Ember"
 msgstr "Жарина"
@@ -444,14 +675,35 @@ msgstr "Кожна дівчина має улюблений самоцвіт і 
 msgid "Every match fills the Charm ring. In a girl's first chapter a full ring is a Charm Burst: +150 points. From her second chapter it's one use of her own power instead: its button lights up next to the ring, use it when you like. The ring fills again after."
 msgstr "Кожен збіг наповнює кільце Чарів. У першому розділі дівчини повне кільце — це Вибух Чарів: +150 очок. З її другого розділу це натомість одне використання її власної сили: кнопка світиться біля кільця, тисни коли хочеш. Потім кільце наповнюється знову."
 
+msgid "Every one of those pages is part of my binding. Somebody has been buying them."
+msgstr "Кожна з тих сторінок — частина мого сковування. Хтось їх скуповує."
+
+msgid "Every one? That's four hundred and twelve buttons."
+msgstr "Кожну? Це чотириста дванадцять ґудзиків."
+
 msgid "Every seed and sprout on the board grows one stage."
 msgstr "Кожна насінина й паросток на полі виростає на одну стадію."
+
+msgid "Everyone keeps asking about the comb and I'm running out of excuses."
+msgstr "Усі питають про гребінь, а в мене закінчуються відмовки."
 
 msgid "Everything — music and sound effects."
 msgstr "Усе — музика й звукові ефекти."
 
+msgid "Ex-excuse me. That's my eye. I mean... It's in my collection. I'd like it back, please."
+msgstr "П-перепрошую. Це моє око. Тобто... Воно з моєї колекції. Я б хотіла його повернути, будь ласка."
+
+msgid "Eyes on the board. I'll still be here."
+msgstr "Очі на поле. Я нікуди не дінуся."
+
 msgid "Fast"
 msgstr "Швидко"
+
+msgid "Faster. And alphabetise properly. I've seen your circle."
+msgstr "Швидше. І дотримуйся абетки як слід. Я бачила твоє коло."
+
+msgid "Faster. Tide's turning."
+msgstr "Швидше. Приплив повертає."
 
 msgid "Fill the Charm ring for a Charm Burst."
 msgstr "Наповнити кільце Чарів для Вибуху Чарів."
@@ -468,6 +720,12 @@ msgstr "Знайти 30 загублених речей Опал під мохо
 msgid "Finders Keepers"
 msgstr "Що знайшов — те твоє"
 
+msgid "Fine. They're for you. I haven't flowered out of season since before the mill was built. The animals are going to talk."
+msgstr "Гаразд. Вони для тебе. Я не цвіла не в сезон відтоді, як ще не було млина. Тварини пліткуватимуть."
+
+msgid "Fine. You're not a menace anymore. You can help me. Don't get excited."
+msgstr "Гаразд. Ти більше не шкідник. Можеш мені допомагати. Не тіш себе надіями."
+
 msgid "Finish Hazel's story picking every warm reply."
 msgstr "Завершити історію Гейзел, щоразу обираючи теплу відповідь."
 
@@ -477,14 +735,35 @@ msgstr "Завершити історію Гейзел, дражнячи її в
 msgid "Finish a daily challenge."
 msgstr "Завершити щоденне випробування."
 
+msgid "Fire. In a grove. Really?"
+msgstr "Вогонь. У гаю. Серйозно?"
+
+msgid "Flattery. Good. Keep going."
+msgstr "Лестощі. Добре. Продовжуй."
+
 msgid "For bug reports: send the newest godot.log from this folder."
 msgstr "Для звітів про помилки: надішли найновіший godot.log із цієї теки."
 
 msgid "For sticking with it: a free Time Scroll!"
 msgstr "За наполегливість: безкоштовний Сувій часу!"
 
+msgid "For the record: four hundred-odd summonings, several kings and one very enthusiastic bishop. None of them came close. I'm only telling you once."
+msgstr "Для протоколу: чотириста з чимось викликів, кілька королів і один дуже завзятий єпископ. Ніхто й близько не дорівнявся. Кажу це лише раз."
+
+msgid "Forty years, I said. Mind where you swing."
+msgstr "Сорок років, я ж казала. Дивися, куди замахуєшся."
+
 msgid "Found under the moss: %s"
 msgstr "Знайдено під мохом: %s"
+
+msgid "Four hundred and twelve buttons, twenty-six keys, a glass eye and two owls. The alchemist's men are felling the north woods now, so Opal is staying with you, and her collection takes up a whole shelf in your front room. She rearranges it twice."
+msgstr "Чотириста дванадцять ґудзиків, двадцять шість ключів, скляне око й дві сови. Люди алхіміка вже рубають північні ліси, тож Опал живе в тебе, а її колекція займає цілу полицю у твоїй вітальні. Вона двічі її переставляє."
+
+msgid "Four hundred and twelve buttons. Twenty-six keys. A glass eye. Everyone who comes through these woods drops something, and I kept it."
+msgstr "Чотириста дванадцять ґудзиків. Двадцять шість ключів. Скляне око. Кожен, хто проходить цим лісом, щось губить, а я це зберігала."
+
+msgid "Four hundred buttons is a lot of strangers' buttons."
+msgstr "Чотириста ґудзиків — це багато ґудзиків незнайомців."
 
 msgid "Free date"
 msgstr "Вільне побачення"
@@ -494,6 +773,9 @@ msgstr "Безкоштовні зірки"
 
 msgid "Free: %s"
 msgstr "Безкоштовно: %s"
+
+msgid "Frosted Sea-Glass Pendant"
+msgstr "Матовий кулон із морського скла"
 
 msgid "Fullscreen"
 msgstr "Повний екран"
@@ -507,6 +789,12 @@ msgstr "Номери самоцвітів"
 msgid "Gems cleared"
 msgstr "Прибрано самоцвітів"
 
+msgid "Gently. Like that."
+msgstr "Ніжно. Отак."
+
+msgid "Get that holy rock away from me."
+msgstr "Прибери від мене цей святий камінь."
+
 msgid "Girls"
 msgstr "Дівчата"
 
@@ -516,11 +804,35 @@ msgstr "Подарувати Гейзел латунний кишенькови�
 msgid "Give her the %s"
 msgstr "Подарувати їй: %s"
 
+msgid "Gold swirl. They stopped making these before I went in the jar. Where did you even find it?"
+msgstr "Золотий завиток. Їх перестали робити ще до того, як я потрапила в банку. Де ти її взагалі знайшов?"
+
 msgid "Google Play isn't reachable right now. Try again in a moment."
 msgstr "Google Play зараз недоступний. Спробуй трохи згодом."
 
 msgid "Got it"
 msgstr "Зрозуміло"
+
+msgid "Gran at the Midsummer Tide, her pearl comb in her hair."
+msgstr "Бабуся на Купальський приплив, із перлинним гребенем у волоссі."
+
+msgid "Gran wears the comb at the Midsummer Tide and never finds out it was lost. Marina tells her anyway, a month later, and Gran laughs so hard she has to be helped onto a rock. Marina tells the story of how you met at every family dinner after that, and it gets bigger every time. Gran corrects her every time, and every time she sets a place for you without asking."
+msgstr "Бабуся вдягає гребінь на Купальський приплив і так і не дізнається, що його було загублено. Марина все одно розповідає їй через місяць, і бабуся сміється так, що їй доводиться допомагати вилізти на камінь. Відтоді Марина розповідає про ваше знайомство на кожній родинній вечері, і щоразу історія росте. Щоразу бабуся її виправляє і щоразу, не питаючи, ставить для тебе тарілку."
+
+msgid "Gran's asked you to the family dinner, which is not a small thing, people have married into this family and never been asked to the family dinner."
+msgstr "Бабуся запросила тебе на родинну вечерю, а це не дрібниця: люди одружувалися з цією родиною й так і не отримували запрошення на родинну вечерю."
+
+msgid "Gran's going to know. She always knows. She's going to look at me over breakfast and just know."
+msgstr "Бабуся знатиме. Вона завжди знає. Подивиться на мене за сніданком — і просто знатиме."
+
+msgid "Gran's going to wear it at the Tide and never know. Nobody's ever going to know you did this."
+msgstr "Бабуся вдягне його на Приплив і ніколи не дізнається. Ніхто ніколи не дізнається, що ти це зробив."
+
+msgid "Gran, I'm fine. I'm always like that."
+msgstr "Бабусю, зі мною все гаразд. Я завжди така."
+
+msgid "Greedy. Oh, so you'll make him pay you to help me? I like that."
+msgstr "Жадібний. О, то ти змусиш його платити тобі за те, що допомагаєш мені? Мені подобається."
 
 msgid "Grow 25 of Hazel's blossoms."
 msgstr "Виростити 25 квітів Гейзел."
@@ -530,6 +842,9 @@ msgstr "Вирости достатньо насінин до квітки, що
 
 msgid "Hammer"
 msgstr "Молот"
+
+msgid "Hand-Dipped Beeswax Candle"
+msgstr "Свічка з бджолиного воску ручної роботи"
 
 msgid "Handful of Stars"
 msgstr "Жменька зірок"
@@ -543,6 +858,9 @@ msgstr "Складно: кожні кілька ходів на побаченн
 msgid "Hard: things happen on your date"
 msgstr "Складно: на побаченні щось трапляється"
 
+msgid "Hazel Mossgrove"
+msgstr "Гейзел Мосґроув"
+
 msgid "Hazel's blossoms grown"
 msgstr "Виросло квітів Гейзел"
 
@@ -554,6 +872,18 @@ msgstr "Гейзел: виростити квіти"
 
 msgid "Hazel: seeds"
 msgstr "Гейзел: насіння"
+
+msgid "He tells you to keep the money. Then he walks over and pats the hazel's trunk, awkwardly, like a man apologising to a horse."
+msgstr "Він каже тобі залишити гроші собі. Потім підходить і незграбно поплескує стовбур ліщини, як чоловік, що вибачається перед конем."
+
+msgid "He took it apart. To sell it page by page."
+msgstr "Він розібрав її. Щоб продати сторінку за сторінкою."
+
+msgid "He used to tap on the glass every morning twice so I'd know it was him."
+msgstr "Щоранку він двічі стукав по склу, щоб я знала, що це він."
+
+msgid "He's never done that. Forty springs, and he's never once done that."
+msgstr "Він ніколи цього не робив. Сорок весен — і жодного разу."
 
 msgid "Hear the girls speak their lines."
 msgstr "Чути, як дівчата промовляють свої репліки."
@@ -570,8 +900,20 @@ msgstr "Серця: програш розділу забирає одне, а з
 msgid "Her board with no move limit, just for fun and a high score."
 msgstr "Її поле без обмеження ходів, просто для розваги й рекорду."
 
+msgid "Her corrections in red pencil, all over the loose page that started it."
+msgstr "Її виправлення червоним олівцем, по всій окремій сторінці, з якої все почалося."
+
 msgid "Her ending"
 msgstr "Її фінал"
+
+msgid "Her entire family is, in fact, right there. A grandmother, a mother, three sisters. One of the sisters is laughing so hard she can barely ask, out loud, whether Mari is going to thank her lifeguard."
+msgstr "Уся її родина справді тут. Бабуся, мама, три сестри. Одна із сестер сміється так, що ледве може вголос спитати, чи подякує Марі своєму рятівникові."
+
+msgid "Her family slips off the end of the pier one by one and swims home round the point, very slowly, looking back the whole way. She waits until they're out of earshot."
+msgstr "Її родина одне за одним зісковзує з краю пристані й пливе додому довкола мису, дуже повільно, весь час озираючись. Вона чекає, доки вони не зможуть почути."
+
+msgid "Her father came by this morning. He'll give you until the end of the month. Then he hires someone with a saw."
+msgstr "Її батько заходив сьогодні вранці. Він дає тобі час до кінця місяця. Потім найме когось із пилкою."
 
 msgid "Her favourite gem scores double and fills Charm faster; the one she dislikes scores half."
 msgstr "Її улюблений самоцвіт дає подвійні очки й швидше наповнює Чари; нелюбий — лише половину."
@@ -582,11 +924,26 @@ msgstr "Її подарунок"
 msgid "Her gift: more of her favourite gem"
 msgstr "Її подарунок: більше її улюбленого самоцвіта"
 
+msgid "Her grandmother says, mildly, that they'd been calling her for twenty minutes, that the tide's on the turn, and that this nice person was the only one who did anything about it."
+msgstr "Бабуся лагідно каже, що вони кликали її двадцять хвилин, що приплив ось-ось поверне і що ця мила людина — єдина, хто щось зробив."
+
+msgid "Her hands are warm now. They were cold the first time you touched the bark. She sees you notice."
+msgstr "Тепер її руки теплі. Вони були холодні, коли ти вперше торкнувся кори. Вона бачить, що ти це помітив."
+
+msgid "Her jar sits at the end of the shelf with the lid off. She hasn't been in it for three days."
+msgstr "Її банка стоїть на краю полиці без кришки. Вона не залазила в неї вже три дні."
+
+msgid "Her library card has your address on it in small, furious handwriting. She moves in with forty candles and opinions about your bookshelf, which she reorganises by how much she disliked each book. Your favourite goes on the bottom shelf. Most nights she's still at the late desk when your shift ends, and she walks you home by the river even though it's longer."
+msgstr "На її читацькому квитку твоя адреса, виведена дрібним сердитим почерком. Вона переїжджає до тебе з сорока свічками й думками про твою книжкову полицю, яку перебудовує за тим, наскільки їй не сподобалася кожна книжка. Твоя улюблена опиняється на нижній полиці. Більшість вечорів вона ще сидить за нічною стійкою, коли твоя зміна закінчується, і проводжає тебе додому вздовж річки, хоч так і довше."
+
 msgid "Her night scene"
 msgstr "Її нічна сцена"
 
 msgid "Her powers used"
 msgstr "Використано її сил"
+
+msgid "Her sisters start watching"
+msgstr "Її сестри починають дивитися"
 
 msgid "Her story carries on as if you'd cleared it. You don't get its stars."
 msgstr "Її історія продовжиться, ніби ти його пройшов. Зірок за нього не буде."
@@ -603,6 +960,9 @@ msgstr "Великий приплив"
 msgid "High Tide!"
 msgstr "Великий приплив!"
 
+msgid "High Water"
+msgstr "Повна вода"
+
 msgid "Home"
 msgstr "Головна"
 
@@ -611,6 +971,9 @@ msgstr "Як швидко друкується діалог."
 
 msgid "How long Auto waits after each line (left = quicker)."
 msgstr "Скільки Авто чекає після кожної репліки (ліворуч = швидше)."
+
+msgid "How long have you been out here on your own?"
+msgstr "Як довго ти тут сама?"
 
 msgid "How loud the background music plays."
 msgstr "Наскільки гучно грає фонова музика."
@@ -621,14 +984,170 @@ msgstr "Наскільки гучно звучать їхні голоси."
 msgid "How to Play"
 msgstr "Як грати"
 
+msgid "Huh. Nobody's ever told me to slow down. They just assume I've got it handled."
+msgstr "Хм. Мені ще ніхто ніколи не казав пригальмувати. Усі просто думають, що я впораюся."
+
+msgid "I can walk as far as my roots go. They go a long way now. Thanks to someone."
+msgstr "Я можу ходити так далеко, як сягає моє коріння. Тепер воно сягає далеко. Завдяки декому."
+
+msgid "I destroyed kingdoms, and you're making me wait?!"
+msgstr "Я руйнувала королівства, а ти змушуєш мене чекати?!"
+
+msgid "I did that. Did you see? I did that out loud."
+msgstr "Це зробила я. Ти бачив? Я сказала це вголос."
+
+msgid "I don't like those. Sorry."
+msgstr "Я їх не люблю. Вибач."
+
+msgid "I had to drop a branch on the last guy, but don't worry, your face is too nice."
+msgstr "На попереднього мені довелося скинути гілку, але не хвилюйся, у тебе надто гарне обличчя."
+
+msgid "I have to tell you something. I kept something of yours. On the first day."
+msgstr "Мені треба тобі дещо сказати. Я залишила собі дещо твоє. Першого дня."
+
+msgid "I know about the wall. My roots go where the water is. I can't control it."
+msgstr "Я знаю про стіну. Моє коріння йде туди, де вода. Я не можу цим керувати."
+
+msgid "I know. You were still gone forty minutes, not that I was counting."
+msgstr "Знаю. Тебе все одно не було сорок хвилин, не те щоб я рахувала."
+
+msgid "I like having someone to hold the bucket."
+msgstr "Мені подобається, що є кому тримати відро."
+
+msgid "I lose things. You've noticed. I'm not losing this one."
+msgstr "Я гублю речі. Ти помітив. Цю не загублю."
+
+msgid "I should tell you I don't know what I'm doing. I've only heard about this. Through glass. People say a lot on a forest path when they think no one's listening."
+msgstr "Мушу сказати, що я не знаю, що роблю. Я лише чула про це. Крізь скло. Люди багато чого кажуть на лісовій стежці, коли думають, що ніхто не чує."
+
+msgid "I still owe you a reward. I haven't decided what it is yet. Don't look at me like that, I'm deciding."
+msgstr "Я досі винна тобі винагороду. Ще не вирішила яку. Не дивися так, я вирішую."
+
+msgid "I was fine. It was quiet in there."
+msgstr "Мені було добре. Там було тихо."
+
+msgid "I was floating. On my back. I'm a mermaid, if you didn't notice, and you just dragged me out of my own cove in front of my entire family."
+msgstr "Я дрейфувала. На спині. Я русалка, якщо ти не помітив, і ти щойно витяг мене з моєї власної бухти на очах у всієї моєї родини."
+
+msgid "I was meant to get it cleaned. I dropped it off the pier a week ago. Nobody knows."
+msgstr "Я мала віддати його почистити. Тиждень тому впустила з пристані. Ніхто не знає."
+
+msgid "I wasn't resting. I was looking for something. Gran's pearl comb. It's the only thing she brought with her when she came to this cove, and she wears it every Midsummer Tide."
+msgstr "Я не відпочивала. Я дещо шукала. Бабусин перлинний гребінь. Це єдина річ, яку вона принесла, коли прийшла в цю бухту, і щороку вдягає його на Купальський приплив."
+
+msgid "I won't tell. Let me help you look."
+msgstr "Не скажу. Дай допоможу шукати."
+
+msgid "I'd do it badly. Out of spite."
+msgstr "Я робив би це погано. Назло."
+
+msgid "I'd like to do it again. That's allowed to be said, isn't it? Good. I'd like to do it again."
+msgstr "Я хотіла б повторити. Так можна казати, правда? Добре. Я хотіла б повторити."
+
+msgid "I'd like to make it a thing."
+msgstr "Я б хотів зробити з цього велику справу."
+
+msgid "I'd like to see that, actually."
+msgstr "Взагалі-то я б хотіла це побачити."
+
+msgid "I'd want my own jar. Just to start. Is that strange?"
+msgstr "Я б хотіла свою банку. Лише спершу. Це дивно?"
+
+msgid "I'll dig it. Show me where."
+msgstr "Я викопаю. Покажи де."
+
+msgid "I'll dig. I'm keeping the miller's money, though."
+msgstr "Я копатиму. Але гроші мірошника залишу собі."
+
+msgid "I'll keep it on a low branch where I can see it. No, I won't use it to count time until our next meeting."
+msgstr "Я повішу його на нижню гілку, де його видно. Ні, я не рахуватиму ним час до нашої наступної зустрічі."
+
+msgid "I'll list everyone in town you'd like to drop a branch on."
+msgstr "Я перелічу всіх у місті, на кого ти хотіла б скинути гілку."
+
+msgid "I'll pay you, obviously. A reward, when we find it. It's a business arrangement, so you can stop smiling like that."
+msgstr "Я, звісно, заплачу. Винагорода, коли знайдемо. Це ділова угода, тож годі так усміхатися."
+
+msgid "I'll pretend I didn't see that."
+msgstr "Вдам, що я цього не бачила."
+
 msgid "I'm 18 or older"
 msgstr "Мені 18 або більше"
+
+msgid "I'm a bit pink right now. Ignore it."
+msgstr "Я зараз трохи рожева. Не зважай."
+
+msgid "I'm fine. Midsummer Tide's in nine days, and I've checked maybe a third of the cove."
+msgstr "Зі мною все гаразд. Купальський приплив за дев'ять днів, а я перевірила хіба третину бухти."
+
+msgid "I'm glad I can help. Really."
+msgstr "Я радий, що можу допомогти. Справді."
+
+msgid "I'm going to make you sound very brave. And very wet."
+msgstr "Я зроблю тебе дуже хоробрим. І дуже мокрим."
+
+msgid "I'm not watching you. I'm photosynthesising."
+msgstr "Я на тебе не дивлюся. Я фотосинтезую."
+
+msgid "I'm so sorry. I'll get every one of them back."
+msgstr "Мені дуже шкода. Я поверну тобі кожну річ."
+
+msgid "I've been doing this for a very long time, and that was not on the list of things I expected from a library."
+msgstr "Я займаюся цим дуже давно, і такого в моєму списку очікувань від бібліотеки не було."
+
+msgid "I've been summoned by kings. They were worse at this."
+msgstr "Мене викликали королі. Вони впоралися б гірше."
+
+msgid "I've been summoned four hundred and some times. Never seen such gentleman."
+msgstr "Мене викликали чотириста з чимось разів. Ніколи не бачила такого джентльмена."
+
+msgid "I've never seen a morning from this side of a summoning. It's very bright. I don't hate it."
+msgstr "Я ніколи не бачила ранку з цього боку виклику. Дуже яскраво. Мені не огидно."
+
+msgid "I've thought about this. Not a lot. A normal amount. Every day since the pier."
+msgstr "Я про це думала. Не багато. Нормальну кількість. Щодня відтоді, як була пристань."
+
+msgid "I-is that all right? Tell me if it's strange. You can say it's strange."
+msgstr "Ц-це нормально? Скажи, якщо дивно. Можеш сказати, що дивно."
+
+msgid "I-it's not going on the shelf. It stays with me. In here. Is that all right?"
+msgstr "В-вона не піде на полицю. Вона залишиться зі мною. Тут. Можна?"
+
+msgid "If I find one, I'm burning it."
+msgstr "Якщо знайду, спалю."
+
+msgid "If I'd known you liked it, I'd have come by sooner."
+msgstr "Якби я знав, що тобі подобається, прийшов би раніше."
+
+msgid "If anyone asks, we're friends. Who swim. At night."
+msgstr "Якщо хтось спитає, ми друзі. Які плавають. Уночі."
+
+msgid "If someone dug him a new channel, further out, I could follow it. It would take a season."
+msgstr "Якби хтось викопав йому новий канал, далі, я могла б піти за ним. Це забрало б сезон."
+
+msgid "If you drop anything, I'll find it."
+msgstr "Якщо щось упустиш, я знайду."
+
+msgid "If you find it before I do, don't open it."
+msgstr "Якщо знайдеш її раніше за мене, не відкривай."
+
+msgid "If you're going to draw these, you'll draw them properly. Nobody else is coming through a circle this pathetic."
+msgstr "Якщо вже малюватимеш такі, то малюй як слід. Ніхто інший не пройде крізь таке жалюгідне коло."
 
 msgid "In Full Bloom"
 msgstr "У повному цвіту"
 
 msgid "In her chapters everything floats: gems rise, and new ones come up from the bottom."
 msgstr "У її розділах усе спливає: самоцвіти піднімаються, а нові з'являються знизу."
+
+msgid "In my defence, the label said newts."
+msgstr "На мій захист: на етикетці було написано «тритони»."
+
+msgid "In my experience, the people who don't ask want something worse. So. What is it?"
+msgstr "З мого досвіду, ті, хто не просить, хочуть чогось гіршого. Тож. Чого саме?"
+
+msgid "In the back, under a dust sheet, you find a black cover with nothing in it. The pages have been cut out with a knife."
+msgstr "У задній кімнаті, під покривалом від пилу, ви знаходите чорну обкладинку без нічого всередині. Сторінки вирізали ножем."
 
 msgid "Instant"
 msgstr "Миттєво"
@@ -638,6 +1157,57 @@ msgstr "Неперевершена"
 
 msgid "It has sexual content, including intimate scenes, and suggestive art. All characters are adults.\n\nPlease only continue if you're 18 or older, or the age of majority where you live."
 msgstr "Гра містить сексуальний вміст, зокрема інтимні сцени, і відверті зображення. Усі персонажі повнолітні.\n\nПродовжуй, лише якщо тобі 18 або більше чи ти досяг повноліття там, де живеш."
+
+msgid "It isn't so bad, but some animals are... Barely tolerable company."
+msgstr "Не так уже й погано, але деякі тварини... ледь стерпне товариство."
+
+msgid "It rains all night. None of it reaches you."
+msgstr "Дощ іде всю ніч. Ні краплі не долітає до тебе."
+
+msgid "It starts to rain"
+msgstr "Починається дощ"
+
+msgid "It was a joke. He laughed at it every single morning for thirty-one years."
+msgstr "Це був жарт. Він сміявся з нього щоранку тридцять один рік."
+
+msgid "It was a very good storm."
+msgstr "Це була дуже добра буря."
+
+msgid "It was an excellent storm."
+msgstr "Це була чудова буря."
+
+msgid "It was here. Someone moved it, and not long ago."
+msgstr "Вона була тут. Хтось її переніс, і нещодавно."
+
+msgid "It's April."
+msgstr "Зараз квітень."
+
+msgid "It's all here. All of it. I counted three times."
+msgstr "Усе тут. Усе. Я тричі перерахувала."
+
+msgid "It's down there! I've checked everywhere else, it has to be down there!"
+msgstr "Він там, унизу! Я шукала всюди, він мусить бути там!"
+
+msgid "It's fine. It's just roots. They have to let go of the old wall even if it hurts."
+msgstr "Нічого. Це просто коріння. Воно мусить відпустити стару стіну, навіть якщо боляче."
+
+msgid "It's loud out here. You're the good kind of loud."
+msgstr "Тут, назовні, гучно. Ти — добрий різновид гучного."
+
+msgid "It's not even scratched."
+msgstr "На ньому навіть подряпини немає."
+
+msgid "It's only when you're heaving her onto the boards that you notice the tail. It's long, it's teal, and it's slapping the pier hard enough to soak everyone."
+msgstr "Лише витягаючи її на дошки, ти помічаєш хвіст. Він довгий, бірюзовий і так лупить по пристані, що всіх обливає."
+
+msgid "It's somewhere in this building. I can feel it, like a draught. You're going to help me find it before anyone else does."
+msgstr "Вона десь у цій будівлі. Я відчуваю її, наче протяг. Ти допоможеш мені знайти її раніше за інших."
+
+msgid "It's the chalk. Cheap chalk gets in your throat."
+msgstr "Це крейда. Дешева крейда дере горло."
+
+msgid "It's the first thing in a new collection. Things that are yours."
+msgstr "Це перша річ у новій колекції. Речі, які твої."
 
 msgid "Item Bundle"
 msgstr "Набір предметів"
@@ -666,8 +1236,17 @@ msgstr "Великий"
 msgid "Larger"
 msgstr "Ще більший"
 
+msgid "Last night was the best thing that's happened to me in thirty-one years. Possibly... ever."
+msgstr "Минула ніч — найкраще, що зі мною сталося за тридцять один рік. Можливо... взагалі."
+
+msgid "Later. The candle is down to a stub. She's lying across you on the reading room rug with one wing folded over you both like a blanket."
+msgstr "Згодом. Від свічки лишився недогарок. Вона лежить на тобі на килимі читальної зали, накривши вас обох складеним крилом, як ковдрою."
+
 msgid "Leave"
 msgstr "Вийти"
+
+msgid "Leave it there a minute. It's been a long time."
+msgstr "Залиш її там на хвилинку. Давно вже такого не було."
 
 msgid "Leave this chapter?"
 msgstr "Покинути цей розділ?"
@@ -702,6 +1281,15 @@ msgstr "Любовне зілля активовано!"
 msgid "Loves"
 msgstr "Любить"
 
+msgid "Low tide's at six. If you happen to be on the pier, you're on the pier, I'm not asking, I'm just saying when low tide is."
+msgstr "Відплив о шостій. Якщо випадково будеш на пристані, то будеш на пристані, я не прошу, я просто кажу, коли відплив."
+
+msgid "Low tide. You spend two hours turning over rocks in the pools while she works the deeper water. You find a fork and a very angry crab."
+msgstr "Відплив. Ти дві години перевертаєш каміння в калюжах, поки вона прочісує глибшу воду. Ти знаходиш виделку й дуже злого краба."
+
+msgid "Lunar nonsense. Next."
+msgstr "Місячні дурниці. Далі."
+
 msgid "MOVES"
 msgstr "ХОДИ"
 
@@ -716,6 +1304,12 @@ msgstr "Скласти 1000 збігів."
 
 msgid "Make a Starburst."
 msgstr "Створити Зорепад."
+
+msgid "Make me."
+msgstr "Змусь мене."
+
+msgid "Marina Waverly"
+msgstr "Марина Вейверлі"
 
 msgid "Marina's power: High Tide"
 msgstr "Сила Марини: Великий приплив"
@@ -747,6 +1341,9 @@ msgstr "Збирай руни, улюблені самоцвіти Амари: �
 msgid "Matches made"
 msgstr "Складено збігів"
 
+msgid "Maybe I'm saving my wish for something good."
+msgstr "Може, я бережу своє бажання для чогось доброго."
+
 msgid "Meet Hazel instead of cutting her tree down."
 msgstr "Познайомитися з Гейзел замість того, щоб зрубати її дерево."
 
@@ -765,26 +1362,65 @@ msgstr "Цілюще зілля"
 msgid "Mending Potion active!"
 msgstr "Цілюще зілля активовано!"
 
+msgid "Mermaid of Saltwick Cove"
+msgstr "Русалка з бухти Солтвік"
+
 msgid "Messages stay longer"
 msgstr "Повідомлення довше"
 
 msgid "Millbrook Circle"
 msgstr "Коло Міллбрука"
 
+msgid "Mind my leaves with that."
+msgstr "Обережніше з моїм листям."
+
+msgid "Mind the candle."
+msgstr "Обережно зі свічкою."
+
+msgid "Mm. That one smells like April."
+msgstr "Мм. Ця пахне квітнем."
+
 msgid "Moonstone"
 msgstr "Місячний камінь"
+
+msgid "Moonstone. It smells like a church."
+msgstr "Місячний камінь. Пахне церквою."
 
 msgid "More"
 msgstr "Більше"
 
+msgid "Morning comes in through the reading room windows. Somebody has folded your jacket into a very neat square."
+msgstr "Ранок входить крізь вікна читальної зали. Хтось склав твою куртку дуже акуратним квадратом."
+
+msgid "Morning in the grove. There's blossom on the east side of the tree that wasn't there last night. Hazels flower in February. It's May."
+msgstr "Ранок у гаю. На східному боці дерева цвіт, якого вчора ввечері не було. Ліщина цвіте в лютому. Зараз травень."
+
+msgid "Morning light through the bedroom curtains, and someone translucent and lilac curled over the covers."
+msgstr "Ранкове світло крізь штори спальні, і хтось прозорий і бузковий згорнувся на ковдрі."
+
+msgid "Morning. Your clothes are on the rail. I wrung them out myself, so you can thank me."
+msgstr "Доброго ранку. Твій одяг на поруччі. Я сама його викрутила, тож можеш подякувати."
+
 msgid "Moss grows under some cells. A match, blast or Hammer on the cell clears it, and some moss hides one of her lost things."
 msgstr "Під деякими клітинками росте мох. Збіг, вибух чи Молот на клітинці прибирає його, а під деяким мохом сховано одну з її загублених речей."
+
+msgid "Most people come down here for the game. You keep coming back for me, don't you?"
+msgstr "Більшість приходить сюди заради гри. А ти все повертаєшся заради мене, так?"
+
+msgid "Most summonings end the moment someone gets what they asked for. You never asked for anything. So... I stayed."
+msgstr "Більшість викликів закінчуються, щойно хтось отримує те, що просив. Ти ніколи нічого не просив. Тож... я лишилася."
+
+msgid "Mostly couples who thought they'd found somewhere private. So I know a lot about... you know."
+msgstr "Здебільшого парочки, які думали, що знайшли затишне місце. Тож я багато знаю про... ну, ти розумієш."
 
 msgid "Move"
 msgstr "Рух"
 
 msgid "Moves left this chapter"
 msgstr "Ходів залишилося в цьому розділі"
+
+msgid "Mum wants to feed you. Consider yourself warned."
+msgstr "Мама хоче тебе нагодувати. Вважай, що я попередила."
 
 msgid "Music"
 msgstr "Музика"
@@ -801,6 +1437,18 @@ msgstr "Наступне серце через %s"
 msgid "Night scene"
 msgstr "Нічна сцена"
 
+msgid "Nine days. If we haven't found it by then, I'll tell her. Deal?"
+msgstr "Дев'ять днів. Якщо до того часу не знайдемо, я їй скажу. Домовились?"
+
+msgid "Nine days. Keep going."
+msgstr "Дев'ять днів. Далі."
+
+msgid "Nine of those and I'm off the hook."
+msgstr "Дев'ять таких — і я врятована."
+
+msgid "Nine-hour wick. Hand-dipped. You know what this is for, don't you."
+msgstr "Дев'ятигодинний ґніт. Ручна робота. Ти ж знаєш, навіщо це, правда."
+
 msgid "No Ads"
 msgstr "Без реклами"
 
@@ -809,6 +1457,12 @@ msgstr "Більше жодної реклами між розділами чи 
 
 msgid "No moves left — reshuffling!"
 msgstr "Ходів не лишилося — перемішуємо!"
+
+msgid "No. Absolutely not."
+msgstr "Ні. Нізащо."
+
+msgid "No. I've seen what those do."
+msgstr "Ні. Я бачила, що вони роблять."
 
 msgid "Normal"
 msgstr "Звичайно"
@@ -837,14 +1491,74 @@ msgstr "Тут поки порожньо — заверши історію ді�
 msgid "Nothing yet."
 msgstr "Поки нічого."
 
+msgid "Now start at the alder and sleeves up."
+msgstr "А тепер починай від вільхи й закасуй рукави."
+
+msgid "Now that's a circle I'd step out of."
+msgstr "Ось із такого кола я б і вийшла."
+
+msgid "Now we can both stop pretending you came over here to talk about books."
+msgstr "Тепер ми обоє можемо перестати вдавати, що ти прийшов сюди поговорити про книжки."
+
+msgid "Obviously we're getting the second owl."
+msgstr "Звісно, ми беремо другу сову."
+
+msgid "Of course I'll help. What does it look like?"
+msgstr "Звісно, я допоможу. Як вона виглядає?"
+
 msgid "Offers appear here once Google Play is reachable."
 msgstr "Пропозиції з'являться тут, щойно Google Play буде доступний."
+
+msgid "Oh, I intend to."
+msgstr "О, саме це я й збираюся зробити."
+
+msgid "Oh, that's smooth, why can't anything else this week be smooth?"
+msgstr "О, як гладко. Чому цього тижня ніщо інше не йде так гладко?"
+
+msgid "Oh, you're putting it down. Most argue first."
+msgstr "О, ти її кладеш. Більшість спершу сперечаються."
+
+msgid "Oh, you're warm... No one's touched me without an axe in years."
+msgstr "О, ти теплий... Мене роками ніхто не торкався без сокири."
+
+msgid "Oh. I didn't know I did that. That's embarrassing. Do it again."
+msgstr "Ой. Я не знала, що так можу. Як соромно. Зроби так ще."
+
+msgid "Okay, that one was nice."
+msgstr "Гаразд, оце було гарно."
+
+msgid "Okay. A small thing."
+msgstr "Гаразд. Маленьку справу."
+
+msgid "Okay. I'm going to say something and you're not allowed to be nice about it."
+msgstr "Гаразд. Я зараз дещо скажу, і тобі не можна на це мило реагувати."
+
+msgid "Okay. The stream comes out under the Mill Bridge, in town. Things wash up there. People pick them up."
+msgstr "Гаразд. Струмок виходить під Млиновим мостом, у місті. Там речі прибиває до берега. Люди їх підбирають."
+
+msgid "Old Glass Marble"
+msgstr "Стара скляна кулька"
+
+msgid "On the way back there's a notice nailed to the Mill Bridge. The town has sold the north woods to an alchemist, for his workshop. Clearing starts on quarter day."
+msgstr "На зворотному шляху на Млиновому мості прибите оголошення. Місто продало північні ліси алхімікові для майстерні. Вирубка почнеться у квартальний день."
 
 msgid "Once you've cleared her first chapter, her card on the roster has a gift for her. Give it and her favourite gem shows up more often in all her chapters, for good."
 msgstr "Щойно ти пройдеш її перший розділ, на її картці в колі з'явиться подарунок для неї. Подаруй його — і її улюблений самоцвіт частіше з'являтиметься в усіх її розділах, назавжди."
 
 msgid "One wave and the whole board is dealt again, always with a move to make."
 msgstr "Один помах — і все поле перероздано, завжди з можливим ходом."
+
+msgid "Ooh. That's going in the... sorry."
+msgstr "Ох. Це піде до... вибач."
+
+msgid "Opal"
+msgstr "Опал"
+
+msgid "Opal at the baker's counter, a loaf under one arm and a stray button in her hand."
+msgstr "Опал біля пекарського прилавка, з хлібиною під пахвою й загубленим ґудзиком у руці."
+
+msgid "Opal moves in properly. Her collection grows a second shelf, then a third: things you've dropped, things your friends have dropped, the ticket from your first evening out together. The jar lives under the bed. She uses it twice that year, both times in thunderstorms, and both times you sit on the floor beside it while she tells you, through the glass, which of the neighbours owe each other money. She climbs out on her own before the storm is over."
+msgstr "Опал переїжджає по-справжньому. Її колекція розростається на другу полицю, потім на третю: речі, які загубив ти, речі, які загубили твої друзі, квиток із вашого першого вечора разом. Банка живе під ліжком. Того року вона користується нею двічі, обидва рази в грозу, і обидва рази ти сидиш на підлозі поруч, поки вона розповідає тобі крізь скло, хто з сусідів кому винен грошей. Вона вилазить сама, ще до кінця грози."
 
 msgid "Opal's power: Absorb"
 msgstr "Сила Опал: Поглинання"
@@ -873,6 +1587,9 @@ msgstr "У бурю"
 msgid "Out of Moves"
 msgstr "Ходи скінчилися"
 
+msgid "Out of Season"
+msgstr "Не в сезон"
+
 msgid "Out of hearts"
 msgstr "Серця скінчилися"
 
@@ -888,8 +1605,14 @@ msgstr "Є: %d"
 msgid "Pearl"
 msgstr "Перлина"
 
+msgid "Pearls. Gran would approve."
+msgstr "Перли. Бабуся схвалила б."
+
 msgid "Petal"
 msgstr "Пелюстка"
+
+msgid "Petals. Good. Those I understand."
+msgstr "Пелюстки. Добре. Їх я розумію."
 
 msgid "Pick a gem to pop."
 msgstr "Вибери самоцвіт, щоб розбити."
@@ -909,6 +1632,9 @@ msgstr "Вибери самоцвіт: увесь його рядок і сто�
 msgid "Pick up"
 msgstr "Узяти"
 
+msgid "Pickled newts don't usually have a date pencilled on the wax: the second of January. You open it anyway."
+msgstr "На маринованих тритонах зазвичай не пишуть олівцем дату на воску: другого січня. Ти все одно відкриваєш."
+
 msgid "Pictures"
 msgstr "Зображення"
 
@@ -917,6 +1643,9 @@ msgstr "Зображення з'являються тут, коли ти зна�
 
 msgid "Pieces of Gran's comb start near the bottom. They can't be matched or moved: clear the gems above them and they rise. One that reaches the top row is yours."
 msgstr "Частини бабусиного гребеня починають біля дна. Їх не можна збирати чи рухати: очищай самоцвіти над ними, і вони піднімаються. Та, що дійде до верхнього рядка, — твоя."
+
+msgid "Plant something near me. So there's something of yours here when you're not."
+msgstr "Посади щось поруч зі мною. Щоб тут було щось твоє, коли тебе немає."
 
 msgid "Play"
 msgstr "Грати"
@@ -960,8 +1689,14 @@ msgstr "Натисни кнопку її сили (або 4): кожна нас�
 msgid "Press her power button (or 4): the two rows nearest the surface clear, and everything rises two rows."
 msgstr "Натисни кнопку її сили (або 4): два рядки, найближчі до поверхні, очищаються, і все піднімається на два рядки."
 
+msgid "Pretty. Don't tell my sisters I said that."
+msgstr "Гарно. Тільки не кажи сестрам, що я так сказала."
+
 msgid "Put down"
 msgstr "Покласти"
+
+msgid "Put that out."
+msgstr "Загаси це."
 
 msgid "Putting Down Roots"
 msgstr "Пустити коріння"
@@ -1032,6 +1767,15 @@ msgstr "Навідатися знову"
 msgid "Rune"
 msgstr "Руна"
 
+msgid "Runes make my edges go fizzy."
+msgstr "Від рун у мене шиплять краї."
+
+msgid "Runes. Finally, someone in this town who can draw."
+msgstr "Руни. Нарешті хтось у цьому місті вміє малювати."
+
+msgid "Runes. Like on the alchemists' jars."
+msgstr "Руни. Як на банках алхіміків."
+
 msgid "Running out of moves still pays 1 star for every 200 points you scored (at least 3)."
 msgstr "Навіть коли ходи скінчилися, дають 1 зірку за кожні 200 набраних очок (щонайменше 3)."
 
@@ -1043,6 +1787,15 @@ msgstr "РАХУНОК"
 
 msgid "SEALS BROKEN"
 msgstr "ЗЛАМАНО ПЕЧАТОК"
+
+msgid "Saltwick Cove, an hour before sunset. You're on the cliff path when the shouting starts."
+msgstr "Бухта Солтвік, за годину до заходу сонця. Ти на стежці вздовж скелі, коли починаються крики."
+
+msgid "Save it, then. I'll be watching you very closely until you spend it."
+msgstr "Тоді бережи. Я дуже уважно стежитиму за тобою, доки ти його не витратиш."
+
+msgid "Say it. The name I gave you."
+msgstr "Скажи його. Ім'я, яке я тобі дала."
 
 msgid "Score 2000 on a free date."
 msgstr "Набрати 2000 очок у вільному побаченні."
@@ -1058,6 +1811,9 @@ msgstr "Зламано печаток"
 
 msgid "See the whole picture (H)"
 msgstr "Побачити все зображення (H)"
+
+msgid "See? Closed rings. It isn't hard."
+msgstr "Бачиш? Замкнені кола. Це не складно."
 
 msgid "Seeds can't be moved. Make matches next to them to make them grow."
 msgstr "Насіння не можна рухати. Складай збіги поруч, щоб воно росло."
@@ -1083,6 +1839,135 @@ msgstr "Трощитель уламків"
 msgid "Shard smashed!"
 msgstr "Уламок розбито!"
 
+msgid "She bites the corner of it before she's even said thank you."
+msgstr "Вона кусає кутик, ще навіть не подякувавши."
+
+msgid "She burns them in the reading room fireplace at four in the morning, one at a time. Each one goes up green. The loose page from your desk goes last: she tears her name off the corner and burns only that."
+msgstr "Вона спалює їх у каміні читальної зали о четвертій ранку, по одній. Кожна спалахує зеленим. Окрема сторінка з твого столу йде останньою: вона відриває своє ім'я з кутка й спалює тільки його."
+
+msgid "She ducks under before you can answer and comes up a few yards away, pretending to search."
+msgstr "Вона пірнає, перш ніж ти встигаєш відповісти, і випливає за кілька метрів, удаючи, що шукає."
+
+msgid "She falls asleep first, which she will deny. The tide comes in under the boathouse doors and goes out again."
+msgstr "Вона засинає першою, хоч і заперечуватиме це. Приплив заходить під ворота човнярні й відходить знову."
+
+msgid "She flicks her tail and soaks you a second time, very deliberately."
+msgstr "Вона б'є хвостом і вдруге тебе обливає, дуже навмисно."
+
+msgid "She goes cloudy."
+msgstr "Вона мутніє."
+
+msgid "She goes outside on her own for the first time to buy bread. She's gone twenty minutes. You both pretend you weren't worried."
+msgstr "Уперше вона сама йде купити хліба. Її немає двадцять хвилин. Ви обоє вдаєте, що не хвилювалися."
+
+msgid "She goes slightly pink all the way through, like a drop of dye in a glass of water."
+msgstr "Вона ледь рожевіє наскрізь, як крапля фарби в склянці води."
+
+msgid "She grabs you by the collar and kisses you, hard and quick, then looks horrified at herself."
+msgstr "Вона хапає тебе за комір і цілує, сильно й швидко, а потім жахається сама себе."
+
+msgid "She holds out a button. It's yours. It came off your sleeve when you reached into the hollow for her jar, and you never noticed."
+msgstr "Вона простягає ґудзик. Твій. Він відірвався від рукава, коли ти сягнув у ямку по її банку, і ти навіть не помітив."
+
+msgid "She holds the marble up to her eye, then presses it gently into her own palm. It sinks in and floats there, inside her hand, where she can see it."
+msgstr "Вона підносить кульку до ока, а потім м'яко вдавлює її у власну долоню. Кулька занурюється й пливе там, усередині її руки, де вона може її бачити."
+
+msgid "She hooks a finger in your collar and pulls you down until you're nose to nose over the reading table."
+msgstr "Вона зачіпає пальцем твій комір і тягне тебе вниз, доки ви не опиняєтеся ніс до носа над читальним столом."
+
+msgid "She hooks a foot round your ankle and reels you in the last step."
+msgstr "Вона зачіпає ногою твою щиколотку й притягує тебе на останній крок."
+
+msgid "She kisses you again, slower, just to be sure."
+msgstr "Вона цілує тебе ще раз, повільніше, просто щоб переконатися."
+
+msgid "She kisses you, slower than in the storm. When she pulls back she's breathing hard, and it isn't from swimming."
+msgstr "Вона цілує тебе, повільніше, ніж у бурю. Коли відсторонюється, важко дихає, і не через плавання."
+
+msgid "She laughs into your shoulder until she gets the hiccups."
+msgstr "Вона сміється тобі в плече, аж поки не починає гикати."
+
+msgid "She laughs, and a shower of rainwater falls off her leaves onto your head."
+msgstr "Вона сміється, і з її листя тобі на голову ллється дощова вода."
+
+msgid "She looks at the axe, then at the place on the trunk you were aiming for."
+msgstr "Вона дивиться на сокиру, а потім на місце на стовбурі, куди ти цілився."
+
+msgid "She looks past you at the hollow: at the moss, pressed flat in neat little rows where something used to be laid out, and at the stream running fast and brown."
+msgstr "Вона дивиться повз тебе на ямку: на мох, примятий рівними рядочками там, де раніше щось лежало, і на струмок, що біжить швидко й бурхливо."
+
+msgid "She makes you hold it up in the one patch of sun that gets through her leaves, and watches the shadow for a long time."
+msgstr "Вона змушує тебе тримати його в єдиній плямі сонця, що пробивається крізь її листя, і довго дивиться на тінь."
+
+msgid "She narrows her eyes, looking for the catch. There isn't one."
+msgstr "Вона мружиться, шукаючи підступ. Його немає."
+
+msgid "She picks up a stack of books anyway and asks where the poetry goes."
+msgstr "Вона все одно бере стос книжок і питає, куди ставити поезію."
+
+msgid "She picks up the candle so she has something to do with her hands."
+msgstr "Вона бере свічку, щоб чимось зайняти руки."
+
+msgid "She pulls you down by your shirt. Her hair falls round you both, gold at the top and green at the ends, and it smells of rain."
+msgstr "Вона притягує тебе до себе за сорочку. Її волосся спадає довкола вас обох, золоте вгорі й зелене на кінчиках, і пахне дощем."
+
+msgid "She pulls your arms round her neck so you don't have to tread water, and holds you up with her tail."
+msgstr "Вона кладе твої руки собі на шию, щоб тобі не треба було гребти, і тримає тебе на воді хвостом."
+
+msgid "She rides in a big glass jar in your arms with the lid off, and counts every button as you drop it in."
+msgstr "Вона їде у великій скляній банці в тебе на руках без кришки й рахує кожен ґудзик, який ти туди кидаєш."
+
+msgid "She says it, but she doesn't swim off."
+msgstr "Так вона каже, але не відпливає."
+
+msgid "She sets it beside the stub in your chalk circle and lights it from the old flame before the old one can go out."
+msgstr "Вона ставить її поряд із недогарком у твоєму крейдяному колі й запалює від старого вогника, поки той не згас."
+
+msgid "She shows you which branches you can sit on and which ones she's ticklish about. The second list is long."
+msgstr "Вона показує тобі, на яких гілках можна сидіти, а на яких вона боїться лоскоту. Другий список довгий."
+
+msgid "She sits on the end of the pier with her tail in the water. After a while she leans on your shoulder, as if by accident."
+msgstr "Вона сідає на краю пристані, опустивши хвіст у воду. За якийсь час спирається на твоє плече, ніби випадково."
+
+msgid "She sits on the reading table, which you've asked her twice not to do, and moves the candle so it won't drip on the returns."
+msgstr "Вона сідає на читальний стіл, про що ти двічі просив її не робити, і переставляє свічку, щоб віск не капав на повернені книжки."
+
+msgid "She steps over the chalk line herself, careful not to smudge it, and picks the page up. You realise you've been staring."
+msgstr "Вона сама переступає крейдяну лінію, обережно, щоб не змазати, і бере сторінку. Ти розумієш, що весь час на неї витріщаєшся."
+
+msgid "She takes your hand and presses it flat to her chest. Under the silk, something is beating far too fast for anyone that old."
+msgstr "Вона бере твою руку й притискає долонею до своїх грудей. Під шовком щось б'ється надто швидко для когось такого старого."
+
+msgid "She takes your hand and presses it gently against her. It sinks in a little, cool and soft, and she shivers."
+msgstr "Вона бере твою руку й м'яко притискає до себе. Рука трохи занурюється, прохолодна й м'яка, і вона здригається."
+
+msgid "She talks until the storm passes. You fall asleep against her before she's finished, and she doesn't seem to mind."
+msgstr "Вона говорить, доки гроза не минає. Ти засинаєш, спершись на неї, перш ніж вона закінчує, і вона, здається, не проти."
+
+msgid "She ties the cord round her neck with a double knot, so it can't come off in the water."
+msgstr "Вона зав'язує шнурок на шиї подвійним вузлом, щоб не розв'язався у воді."
+
+msgid "She turns pink, which, on Opal, is very easy to see."
+msgstr "Вона рожевіє, а в Опал це дуже легко побачити."
+
+msgid "She turns round and lifts her hair off her neck. The dress fastens with a row of tiny hooks, from the collar down to where her wings begin."
+msgstr "Вона обертається й піднімає волосся з шиї. Сукня застібається рядом крихітних гачків, від коміра до того місця, де починаються крила."
+
+msgid "She turns the candle over in her hands and sniffs the wax, which seems to be the professional way to check."
+msgstr "Вона крутить свічку в руках і нюхає віск, що, схоже, і є професійним способом перевірки."
+
+msgid "She was being friendly. You're the one I come here for."
+msgstr "Вона просто була привітна. Я приходжу сюди заради тебе."
+
+msgid "She won't even be angry. She'll just say 'oh, Mari', the way Mum does."
+msgstr "Вона навіть не розсердиться. Просто скаже «ох, Марі», як мама."
+
+msgid "She won't leave the candle behind. She carries it to Wick Street cupped in both hands, and makes you walk on the windy side."
+msgstr "Вона не хоче лишати свічку. Несе її на вулицю Ґноту в складених долонях і змушує тебе йти з вітряного боку."
+
+msgid "She's tall, horned and dressed for somewhere much nicer than a library. She crouches to look at your circle, and tuts."
+msgstr "Вона висока, рогата й одягнена для місця, значно шикарнішого за бібліотеку. Вона присідає, щоб роздивитися твоє коло, і цокає язиком."
+
 msgid "Shop"
 msgstr "Крамниця"
 
@@ -1094,6 +1979,12 @@ msgstr "Коротші анімації, спокійніші ефекти."
 
 msgid "Shuffle Wand"
 msgstr "Паличка перемішування"
+
+msgid "Since the grove was a forest. Two hundred years, give or take a drought."
+msgstr "Відтоді, як гай був лісом. Двісті років, плюс-мінус посуха."
+
+msgid "Six tomorrow, lifeguard."
+msgstr "Завтра о шостій, рятувальнику."
 
 msgid "Skip"
 msgstr "Пропустити"
@@ -1128,8 +2019,29 @@ msgstr "Пропустити все"
 msgid "Skips this chapter's puzzle: no stars for it."
 msgstr "Пропускає головоломку цього розділу: без зірок за неї."
 
+msgid "Slime, formerly of a jar"
+msgstr "Слиз, колишня мешканка банки"
+
 msgid "Slow"
 msgstr "Повільно"
+
+msgid "Slower. I can hear you panicking."
+msgstr "Повільніше. Я чую, як ти панікуєш."
+
+msgid "Slowly. I've got all the time in the world, and I'd like to spend some of it on this."
+msgstr "Повільно. У мене весь час світу, і я хотіла б витратити трохи на це."
+
+msgid "Smart. Unspent wishes don't expire. I knew a man who sat on one until he died."
+msgstr "Розумно. Невикористані бажання не згорають. Я знала чоловіка, який сидів на одному аж до смерті."
+
+msgid "So she climbs out of her jar in the middle of the shop, in front of everyone, and asks for it herself."
+msgstr "Тож вона вилазить зі своєї банки посеред крамниці, на очах у всіх, і просить сама."
+
+msgid "So. Are you telling them how we met, or am I?"
+msgstr "Отже. Ти розкажеш їм, як ми познайомилися, чи я?"
+
+msgid "So. Last night. I've been floating close by trying to think of a word for it, and I've got it down to three, and they're all very rude."
+msgstr "Отже. Учорашня ніч. Я вже давно дрейфую тут, шукаючи для цього слово, звузила до трьох, і всі вони дуже непристойні."
 
 msgid "Soft as Moss"
 msgstr "М'яка, як мох"
@@ -1137,8 +2049,29 @@ msgstr "М'яка, як мох"
 msgid "Some gems carry her ink seal. A sealed gem can't be picked up, but it still counts in a match you make by moving the gems beside it. The first match, blast or Hammer breaks the seal and the gem stays."
 msgstr "Деякі самоцвіти мають її чорнильну печатку. Запечатаний самоцвіт не можна зрушити, але він рахується в збігу, який ти складеш, рухаючи сусідні. Перший збіг, вибух чи удар Молота ламає печатку, і самоцвіт лишається."
 
+msgid "Someone bought that off a market stall. I can tell."
+msgstr "Хтось купив це на ринковому прилавку. Я бачу."
+
+msgid "Someone in this town knows exactly what that book is."
+msgstr "Хтось у цьому місті точно знає, що це за книжка."
+
 msgid "Something about to happen on your date. Matching her favourite gem holds it off a move; a Charm Burst clears it."
 msgstr "На побаченні зараз щось станеться. Збіг її улюбленого самоцвіта відсуває це на хід; Вибух Чарів скасовує."
+
+msgid "Something cool and slightly heavy is draped over you like a blanket. It turns out to be her."
+msgstr "Щось прохолодне й трохи важке лежить на тобі, як ковдра. Виявляється, це вона."
+
+msgid "Something pours over the rim, slow and shining, pale lilac with flashes of green and pink in it. You jump back so fast you kick half the hollow into the stream. It gathers itself on a root into the shape of a woman, and she does not look happy."
+msgstr "Щось переливається через край, повільне й блискуче, блідо-бузкове зі спалахами зеленого й рожевого. Ти відскакуєш так швидко, що зіштовхуєш половину ямки в струмок. Воно збирається на корені у постать жінки, і вона не виглядає щасливою."
+
+msgid "Sorry. I don't usually get to tell anyone."
+msgstr "Вибач. Мені зазвичай нема кому розповідати."
+
+msgid "Sorry. I spread out in my sleep. I didn't know that. I've never slept anywhere big enough to find out."
+msgstr "Вибач. Я розтікаюся уві сні. Я не знала. Я ніколи не спала там, де досить місця, щоб це з'ясувати."
+
+msgid "Sorry. I'm watching. Is that all right?"
+msgstr "Вибач. Я дивлюся. Можна?"
 
 msgid "Sound Effects"
 msgstr "Звукові ефекти"
@@ -1170,8 +2103,14 @@ msgstr "Зірки — їх заробляєш, проходячи розділ�
 msgid "Starstruck"
 msgstr "Зоряне сяйво"
 
+msgid "Start at the alder. I'll enjoy the view."
+msgstr "Починай від вільхи. А я милуватимуся краєвидом."
+
 msgid "Start her story over from the beginning"
 msgstr "Почати її історію спочатку"
+
+msgid "Start with the baker. He leans on me when he smokes."
+msgstr "Почни з пекаря. Він спирається на мене, коли курить."
 
 msgid "Starter Pack"
 msgstr "Стартовий набір"
@@ -1179,8 +2118,26 @@ msgstr "Стартовий набір"
 msgid "Stats"
 msgstr "Статистика"
 
+msgid "Stay till the candle goes. Then stay anyway."
+msgstr "Залишся, доки догорить свічка. А тоді все одно залишся."
+
+msgid "Stay tonight. I'll keep the rain off."
+msgstr "Залишся на ніч. Я вбережу від дощу."
+
+msgid "Stay where you are. Don't break the circle. If that candle goes out, I go home, and I'm not done with you."
+msgstr "Стій, де стоїш. Не розривай коло. Якщо свічка згасне, я повернуся додому, а з тобою я ще не закінчила."
+
+msgid "Still nothing?"
+msgstr "Досі нічого?"
+
 msgid "Stop here. This scene plays again next time you visit her."
 msgstr "Зупинитися тут. Ця сцена програється знову, коли ти навідаєшся до неї наступного разу."
+
+msgid "Stop pretending you're looking for the book. You've walked past this table eleven times tonight, and the book isn't on it. I am."
+msgstr "Годі вдавати, що шукаєш книжку. Ти пройшов повз цей стіл одинадцять разів за вечір, і книжки на ньому немає. Є я."
+
+msgid "Stop. I'll go cloudy."
+msgstr "Перестань. Я помутнію."
 
 msgid "Store"
 msgstr "Крамниця"
@@ -1200,11 +2157,17 @@ msgstr "Сюжетна складність: продовж історію, не
 msgid "Story: twice the moves, and you can skip any chapter. Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Takes effect from the next chapter."
 msgstr "Сюжет: удвічі більше ходів, і можна пропустити будь-який розділ. Складно: кожні кілька ходів на побаченні щось трапляється (хвиля через пірс, свічки гаснуть), про це попереджають заздалегідь. Діє з наступного розділу."
 
+msgid "Succubus, summoned by mistake"
+msgstr "Сукуба, викликана помилково"
+
 msgid "Summer"
 msgstr "Літо"
 
 msgid "Summer!"
 msgstr "Літо!"
+
+msgid "Sure. After I've shelved these returns."
+msgstr "Гаразд. Після того, як розставлю ці повернені книжки."
 
 msgid "Swap"
 msgstr "Поміняти"
@@ -1218,14 +2181,41 @@ msgstr "Поміняй місцями два сусідні самоцвіти, 
 msgid "Swap two special gems together."
 msgstr "Поміняти разом два особливі самоцвіти."
 
+msgid "Swim with me later. Don't embarrass me again."
+msgstr "Попливи зі мною пізніше. І не осором мене знову."
+
 msgid "THINGS FOUND"
 msgstr "ЗНАЙДЕНО РЕЧЕЙ"
 
 msgid "TIP"
 msgstr "ПОРАДА"
 
+msgid "Take your time. I've got about three hundred years."
+msgstr "Не поспішай. У мене ще років триста."
+
+msgid "Talk to me. About anything. Your voice helps me get through it."
+msgstr "Говори зі мною. Про будь-що. Твій голос допомагає мені це витримати."
+
 msgid "Tap a gem!"
 msgstr "Торкнися самоцвіта!"
+
+msgid "Tell her the jeweller ran off with a sea captain."
+msgstr "Скажи, що ювелір утік із капітаном."
+
+msgid "Tell her the truth. She'll understand."
+msgstr "Скажи їй правду. Вона зрозуміє."
+
+msgid "Tell me about the grove when it was a forest."
+msgstr "Розкажи мені про гай, коли він був лісом."
+
+msgid "Tell me about the others while we look."
+msgstr "Розкажи мені про інші, поки шукаємо."
+
+msgid "Tell me if I get this wrong. I've read about it in exactly one book, and a woodcutter dropped it here before the mill was built."
+msgstr "Скажи, якщо я роблю щось не так. Я читала про це рівно в одній книжці, і її впустив тут лісоруб ще до того, як збудували млин."
+
+msgid "Tempting. You'd have to do my shelving."
+msgstr "Спокусливо. Тобі довелося б розставляти мої книжки."
 
 msgid "Test purchase"
 msgstr "Тестова покупка"
@@ -1239,14 +2229,119 @@ msgstr "Швидкість тексту"
 msgid "Text size"
 msgstr "Розмір тексту"
 
+msgid "Th-thank you. Sorry. No. Not sorry. Thank you."
+msgstr "Д-дякую. Вибач. Ні. Не вибач. Дякую."
+
+msgid "Th-thank you. Sorry. Thank you."
+msgstr "Д-дякую. Вибач. Дякую."
+
+msgid "Th-that was good. That was really good."
+msgstr "Ц-це було добре. Це було дуже добре."
+
 msgid "Thanks for playing the demo!"
 msgstr "Дякуємо, що зіграли в демо!"
+
+msgid "That catches the light. Do another."
+msgstr "Він ловить світло. Ще один."
+
+msgid "That night she climbs down from her branch and walks out across the grass, further than you've ever seen her go."
+msgstr "Того вечора вона спускається зі своєї гілки й виходить на траву, далі, ніж ти будь-коли бачив."
+
+msgid "That one would actually hold a demon."
+msgstr "Оце справді втримало б демона."
+
+msgid "That one's fine. That one's fine. Not that one. I mean it. Don't."
+msgstr "На цій можна. На цій можна. Не на цій. Я серйозно. Не треба."
+
+msgid "That sounds strange out loud. Don't answer that."
+msgstr "Уголос це звучить дивно. Не відповідай."
+
+msgid "That was the storm. Don't make it a thing."
+msgstr "Це через бурю. Не роби з цього великої справи."
+
+msgid "That was very nice. Thank you."
+msgstr "Це було дуже гарно. Дякую."
+
+msgid "That was. Okay. I don't have a word. I always have a word."
+msgstr "Це було. Гаразд. У мене немає слова. У мене завжди є слово."
+
+msgid "That's a dry-land gem. Put it back."
+msgstr "Це суходільний самоцвіт. Поклади назад."
+
+msgid "That's a good trench, for a grave."
+msgstr "Гарна канава. Для могили."
+
+msgid "That's actually good. She'd believe that."
+msgstr "А це непогано. Вона б повірила."
+
+msgid "That's all of them. I'm free. No more circles. Nobody can drag me anywhere ever again."
+msgstr "Це все. Я вільна. Жодних кіл. Ніхто й ніколи більше нікуди мене не потягне."
+
+msgid "That's autumn."
+msgstr "Це осінь."
+
+msgid "That's lovely. Keep going."
+msgstr "Гарно. Продовжуй."
+
+msgid "That's nine more hours you can't get rid of me. You did that on purpose."
+msgstr "Це ще дев'ять годин, протягом яких ти мене не позбудешся. Ти зробив це навмисно."
+
+msgid "That's off the comb's box. So it went right in there."
+msgstr "Це від скриньки гребеня. Отже, він упав саме сюди."
+
+msgid "That's real. The sea made that. People tumble old bottles in a barrel and sell it as sea glass."
+msgstr "Справжнє. Його зробило море. Дехто качає старі пляшки в бочці й продає їх як морське скло."
+
+msgid "That's the good stuff. Again."
+msgstr "Оце добре. Ще."
+
+msgid "That's why Ambrose put me in the jar. Nobody looks inside a jar of pickled newts. We were the same age when he did it, near enough. He got old."
+msgstr "Тому Амброуз і посадив мене в банку. Ніхто не зазирає в банку з маринованими тритонами. Ми були приблизно одного віку, коли він це зробив. Він постарів."
+
+msgid "That's you. You did that. A month of you leaning on me with your sleeves rolled up."
+msgstr "Це ти. Це ти зробив. Місяць ти спирався на мене із закасаними рукавами."
+
+msgid "That's your fault. I'd like that on record."
+msgstr "Це твоя провина. Прошу занести до протоколу."
 
 msgid "The Time Scroll (three more moves), the Hammer (smash any one gem) and the Shuffle Wand (a new board) sit under the board. Buy them, and potions that help a whole chapter, in the Item Shop with the stars you earn."
 msgstr "Сувій часу (три ходи більше), Молот (розбиває будь-який самоцвіт) і Чарівна паличка перемішування (нове поле) — під полем. Купуй їх, а також зілля, що допомагають на весь розділ, у Крамниці за зароблені зірки."
 
+msgid "The animals are watching. I told them to go away. Nobody in this grove listens to me."
+msgstr "Тварини дивляться. Я сказала їм іти геть. У цьому гаю ніхто мене не слухає."
+
+msgid "The boathouse slipway at sunrise, two sets of clothes drying on the rail."
+msgstr "Сповз човнярні на світанку, два комплекти одягу сохнуть на поруччі."
+
+msgid "The boathouse smells of tar and salt. There's a heap of old sails in the corner, and she pulls you down onto them by your wet shirt."
+msgstr "Човнярня пахне смолою й сіллю. У кутку купа старих вітрил, і вона тягне тебе на неї за мокру сорочку."
+
+msgid "The book is in this building. Keep going."
+msgstr "Книжка в цій будівлі. Продовжуй."
+
+msgid "The candle burns down to nothing, and neither of you notices when it goes out."
+msgstr "Свічка догоряє до кінця, і ніхто з вас не помічає, коли вона гасне."
+
+msgid "The candle in your chalk circle, the fourth one this week, is nearly gone. She watches it gutter and doesn't go anywhere."
+msgstr "Свічка в твоєму крейдяному колі, четверта за тиждень, майже догоріла. Вона дивиться, як та тремтить, і нікуди не йде."
+
+msgid "The candles gutter"
+msgstr "Свічки тремтять"
+
+msgid "The card catalogue has a gap where the book should be. Someone has left a slip in the drawer instead: OUT FOR REBINDING, and a name."
+msgstr "У каталозі порожнє місце там, де мала бути книжка. Натомість у шухляді хтось залишив картку: НА ПЕРЕПЛЕТЕННІ, і ім'я."
+
+msgid "The comb is in a tin of odds and ends on the Pellow brothers' boat: fishing weights, a doll's head, and nine pearls on a silver spine. It costs you two weeks' pay and a lot of explaining."
+msgstr "Гребінь лежить у бляшанці з мотлохом на човні братів Пелоу: рибальські грузила, голова ляльки й дев'ять перлин на срібній основі. Він коштує тобі двотижневого заробітку й багатьох пояснень."
+
 msgid "The comb piece can't be hammered. Bring it up to the surface."
 msgstr "Частину гребеня не можна розбити Молотом. Підніми її на поверхню."
+
+msgid "The ferns tell me you were talking to the miller's daughter. I'm not jealous. But I might drop a branch near her, that's all."
+msgstr "Папороті кажуть, що ти розмовляв із мірошниковою донькою. Я не ревную. Але я можу скинути біля неї гілку, от і все."
+
+msgid "The flame leans sideways. Then it goes green. Smoke fills the circle, smelling of struck matches and expensive perfume, and someone steps out of it, coughing."
+msgstr "Полум'я хилиться вбік. Потім стає зеленим. Дим заповнює коло, пахне запаленими сірниками й дорогими парфумами, і з нього, кашляючи, виходить хтось."
 
 msgid "The full game has four stories: Hazel's, and three more women of Millbrook to meet in the worst way possible. Each has four chapters, her night scene and her ending."
 msgstr "Повна гра має чотири історії: Гейзел і ще трьох жінок Міллбрука, з якими ти знайомишся найгіршим можливим способом. У кожної чотири розділи, її нічна сцена і її фінал."
@@ -1257,23 +2352,158 @@ msgstr "Текст гри. Голоси лишаються англійсько�
 msgid "The girls are voiced by amateur voice actresses, recorded at home. We love how they turned out, but they aren't studio recordings, and not every line is voiced yet.\n\nIf you'd rather read in your own head, turn the voices off. You can change this any time in Settings."
 msgstr "Дівчат озвучили акторки-аматорки, записуючись удома. Нам дуже подобається, що вийшло, але це не студійні записи, і ще не всі репліки озвучено.\n\nЯкщо волієш читати подумки, вимкни голоси. Це можна змінити будь-коли в Налаштуваннях."
 
+msgid "The glass eye turns up in the window of the taxidermist's on Lantern Street, in a stuffed owl. The taxidermist won't sell it. He says the owl needs it."
+msgstr "Скляне око знаходиться у вітрині таксидерміста на Ліхтарній вулиці, в опудалі сови. Таксидерміст не хоче його продавати. Каже, сові воно потрібне."
+
+msgid "The green at the tips of her hair goes a shade darker. She notices, and decides not to mention it."
+msgstr "Зелень на кінчиках її волосся темнішає на тон. Вона помічає й вирішує про це не згадувати."
+
+msgid "The jar stays empty all night."
+msgstr "Банка всю ніч стоїть порожня."
+
+msgid "The jar... Should I keep it?"
+msgstr "Банка... Мені її залишити?"
+
+msgid "The keys went to a locksmith, he says. And the glass eye went to someone who needed a glass eye, I suppose."
+msgstr "Ключі пішли до слюсаря, каже він. А скляне око — комусь, кому потрібне було скляне око, мабуть."
+
+msgid "The ledger leads you straight back to your own library. The last pages were sold to it in March as loose leaves, assorted, and filed in the rare books vault under Miscellaneous, Infernal."
+msgstr "Книга обліку веде вас просто назад до твоєї бібліотеки. Останні сторінки продали їй у березні окремими аркушами, різне, і поклали у сховище рідкісних книг під позначкою «Різне, пекельне»."
+
+msgid "The locksmith on Cinder Row has her keys in a bucket and wants a shilling for the lot. While you haggle, she stays very still in her jar under the counter."
+msgstr "Слюсар на Попелястій вулиці тримає її ключі у відрі й хоче за всі шилінг. Поки ти торгуєшся, вона сидить зовсім нерухомо у своїй банці під прилавком."
+
+msgid "The mermaid looks at you properly for the first time. You're dripping. You've lost a shoe."
+msgstr "Русалка вперше по-справжньому на тебе дивиться. З тебе стікає вода. Ти загубив черевик."
+
+msgid "The miller sent you? He sends someone every spring."
+msgstr "Тебе мірошник прислав? Він щовесни когось присилає."
+
+msgid "The miller walks past"
+msgstr "Повз проходить мірошник"
+
+msgid "The millrace runs and the old hazel keeps her roots. You plant another hazel beside the new channel, and it grows faster than it has any right to, leaning towards the old tree as if it's listening. You sleep in the grove more nights than not, and the old hazel blossoms in the wrong season, every season, which the miller now tells people is good luck."
+msgstr "Жолоб тече, а стара ліщина зберігає коріння. Ти садиш ще одну ліщину біля нового каналу, і вона росте швидше, ніж мала б, нахиляючись до старого дерева, ніби дослухається. Ти ночуєш у гаю частіше, ніж ні, а стара ліщина цвіте не в сезон, щосезону, і мірошник тепер розповідає людям, що це на щастя."
+
+msgid "The moss on the east side is softer than it looks."
+msgstr "Мох зі східного боку м'якший, ніж здається."
+
+msgid "The moss on the east side is softer than it looks. Above you her branches have spread and knitted together, and the first rain ticks against the leaves without coming through."
+msgstr "Мох зі східного боку м'якший, ніж здається. Над тобою її гілки розрослися й сплелися, і перший дощ стукає по листю, не проникаючи крізь нього."
+
+msgid "The name on the slip belongs to a bookbinder who died in the spring. His shop is still full of loose pages."
+msgstr "Ім'я на картці належить палітурникові, який помер навесні. Його майстерня досі повна окремих сторінок."
+
+msgid "The old hazel at dawn, in full blossom, in May."
+msgstr "Стара ліщина на світанку, у повному цвіту, у травні."
+
+msgid "The old hazel stands where the grove meets the millrace. It's so big that the mill's back wall has started to bend round its roots."
+msgstr "Стара ліщина росте там, де гай сходиться з млиновим жолобом. Вона така велика, що задня стіна млина почала вигинатися довкола її коріння."
+
+msgid "The pier's quiet apart from the Thursday tile game at the far end, where the three old fishermen are arguing about the score again."
+msgstr "На пристані тихо, крім четвергової гри на тому кінці, де троє старих рибалок знову сперечаються про рахунок."
+
 msgid "The purchase couldn't start (%s)."
 msgstr "Не вдалося почати покупку (%s)."
 
 msgid "The purchase didn't go through (%s)."
 msgstr "Покупка не пройшла (%s)."
 
+msgid "The reading room at dawn: a burnt-out candle in a smudged chalk circle, your jacket folded into a neat square on the returns cart."
+msgstr "Читальна зала на світанку: догоріла свічка в розмазаному крейдяному колі, твоя куртка, складена акуратним квадратом на візку для повернених книжок."
+
+msgid "The reading room with the door shut. The only light is the candle in your chalk circle, and she's sitting on the reading table again."
+msgstr "Читальна зала із зачиненими дверима. Єдине світло — свічка в твоєму крейдяному колі, а вона знову сидить на читальному столі."
+
+msgid "The reward is you come to every Tide from now on. Non-negotiable. Don't smile, it's a punishment."
+msgstr "Винагорода — це те, що відтепер ти приходиш на кожен Приплив. Без обговорень. Не усміхайся, це покарання."
+
 msgid "The store isn't available in this build."
 msgstr "Крамниця недоступна в цій збірці."
+
+msgid "The stream comes out under the Mill Bridge, where Coombs the rag-and-bone man fishes for anything that floats. You get there ahead of her and sell him a handful of buttons off the bank for two coppers before you realise whose they are. He's netted the rest too. Buying the lot back costs six coppers, which he finds very funny."
+msgstr "Струмок виходить під Млиновим мостом, де лахмітник Кумбс виловлює все, що пливе. Ти приходиш раніше за неї й продаєш йому жменю ґудзиків із берега за дві мідяки, перш ніж розумієш, чиї вони. Решту він теж уже виловив. Викупити все коштує шість мідяків, і йому це дуже смішно."
+
+msgid "The stream goes to town. We're going. You're carrying me! Please?"
+msgstr "Струмок тече до міста. Ми йдемо. Ти мене несеш! Будь ласка?"
+
+msgid "The taxidermist is so startled he gives her the eye, the owl, and a discount on a second owl."
+msgstr "Таксидерміст такий приголомшений, що віддає їй око, сову й знижку на другу сову."
+
+msgid "The tide turns"
+msgstr "Приплив повертає"
 
 msgid "The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts."
 msgstr "Верхній ряд використовують під час розділу; нижній спрацьовує сам на початку твого наступного розділу."
 
+msgid "The trench reaches the river on the night of a storm. Water floods into the new channel, and the whole tree shudders."
+msgstr "Канава доходить до річки в ніч грози. Вода заливає новий канал, і все дерево здригається."
+
 msgid "The two rows nearest the surface clear, and everything rises two rows."
 msgstr "Два рядки, найближчі до поверхні, очищаються, і все піднімається на два рядки."
 
+msgid "The water in the cove is warm and black and full of moonlight. She surfaces right in front of you, close enough that her hair brushes your face."
+msgstr "Вода в бухті тепла, чорна й повна місячного світла. Вона виринає просто перед тобою, так близько, що її волосся торкається твого обличчя."
+
+msgid "The water's warm tonight."
+msgstr "Вода сьогодні тепла."
+
+msgid "The woods north of Millbrook, late autumn. You're out gathering firewood and anything worth selling, and you've followed the stream further in than you meant to."
+msgstr "Ліси на північ від Міллбрука, пізня осінь. Ти збираєш хмиз і все, що можна продати, і зайшов уздовж струмка далі, ніж збирався."
+
+msgid "Their net. It went right through where I dropped it."
+msgstr "Їхня сіть. Вона пройшла саме там, де я його впустила."
+
+msgid "Then I'll ask. Close the reading room door. Leave the candle."
+msgstr "Тоді попрошу я. Зачини двері читальної зали. Свічку залиш."
+
+msgid "Then she notices the loose page on your desk, the one you copied from, and goes very still."
+msgstr "Тоді вона помічає окрему сторінку на твоєму столі, ту, з якої ти перемальовував, і завмирає."
+
+msgid "Then the miller. Then the miller again."
+msgstr "Потім мірошник. Потім знову мірошник."
+
+msgid "Then we'd better find them before anyone else does."
+msgstr "Тоді краще знайти їх раніше за інших."
+
+msgid "Then we'll make sure nobody's boiling anybody."
+msgstr "Тоді ми подбаємо, щоб ніхто нікого не виварював."
+
+msgid "Then you remember the Pellow brothers dragging their nets through the cove last week. The whole pier complained about it."
+msgstr "Тоді ти згадуєш братів Пелоу, які минулого тижня тягали сіті через бухту. Уся пристань нарікала."
+
+msgid "There are forty-one of those. I counted when I put it on. Take your time."
+msgstr "Їх сорок один. Я рахувала, коли вдягала. Не поспішай."
+
+msgid "There were wolves. And a family of woodcutters who sang while they worked. I liked them, even though they were woodcutters."
+msgstr "Були вовки. І родина лісорубів, які співали за роботою. Вони мені подобалися, хоч і були лісорубами."
+
+msgid "There's a woman sitting on the lowest branch, where you're sure nobody was a second ago. Her hair goes from gold to green, and below the knee her legs turn into bark."
+msgstr "На найнижчій гілці сидить жінка, хоча ти впевнений, що секунду тому там нікого не було. Її волосся переходить від золотого до зеленого, а нижче колін ноги стають корою."
+
+msgid "There. Now look me in the eye and tell me you'd rather be shelving."
+msgstr "Ось так. А тепер подивися мені в очі й скажи, що волів би розставляти книжки."
+
+msgid "There. Now we're even. Low tide's at six."
+msgstr "Ось. Тепер ми квити. Відплив о шостій."
+
+msgid "There. Now you can't go anywhere. It's a mermaid thing. It's very old. I just made it up."
+msgstr "Ось. Тепер ти нікуди не дінешся. Це така русалча штука. Дуже давня. Я щойно її вигадала."
+
 msgid "These unlock on Steam too."
 msgstr "Вони відкриваються і в Steam."
+
+msgid "They start clearing on quarter day. After that I need somewhere else to be quiet."
+msgstr "Вирубка почнеться у квартальний день. Після того мені потрібне інше тихе місце."
+
+msgid "They want an address for my library card. I don't have one. What do I put?"
+msgstr "Для читацького квитка потрібна адреса. У мене її немає. Що писати?"
+
+msgid "They're a pair. I'm not splitting up a pair."
+msgstr "Вони пара. Я не розлучатиму пару."
+
+msgid "They're not strangers. I heard every one of them go by. From the jar."
+msgstr "Вони не незнайомці. Я чула, як проходить кожен. З банки."
 
 msgid "Things found"
 msgstr "Знайдено речей"
@@ -1283,6 +2513,18 @@ msgstr "Це стирає прогрес історії кожної дівчи�
 
 msgid "This is a test build: no money changes hands. Buy %s for %s?"
 msgstr "Це тестова збірка: гроші не списуються. Купити %s за %s?"
+
+msgid "This line here. That's where you'd put my name. If you ever wanted to call me. You won't need to. I'll be with you."
+msgstr "Ось ця лінія. Сюди ти вписав би моє ім'я. Якби колись захотів мене покликати. Тобі не доведеться. Я буду з тобою."
+
+msgid "This one's my favourite. Brass, four holes, off a very handsome coat. You have a very handsome... coat too."
+msgstr "Оцей мій улюблений. Латунний, чотири дірочки, з дуже гарного пальта. У тебе теж дуже гарне... пальто."
+
+msgid "This page is from my binding. The book that ties me to every circle anyone draws, however badly. Find all of it, burn it, and I'm free."
+msgstr "Ця сторінка з мого сковування. З книжки, що прив'язує мене до кожного кола, яке хтось намалює, хай як погано. Знайди її всю, спали — і я вільна."
+
+msgid "Those are mine. I-I've been collecting them for years."
+msgstr "Це мої. Я-я збирала їх роками."
 
 msgid "Time Scroll"
 msgstr "Сувій часу"
@@ -1308,6 +2550,18 @@ msgstr "Спробуй: %s"
 msgid "Turn voices off"
 msgstr "Вимкнути голоси"
 
+msgid "Twenty minutes?"
+msgstr "Двадцять хвилин?"
+
+msgid "Two hundred springs I've watched people walk past this tree. Not one of them ever lay down under it."
+msgstr "Двісті весен я дивилася, як люди проходять повз це дерево. Жоден не ліг під ним."
+
+msgid "Two hundred years, and nobody told me a spirit could feel like that. I'd like it noted that I'm saying this very calmly."
+msgstr "Двісті років, і ніхто не казав мені, що дух може так відчувати. Прошу зазначити, що я кажу це дуже спокійно."
+
+msgid "Ugh. That's drier than a sponge."
+msgstr "Фу. Сухіше за губку."
+
 msgid "Unlimited Hearts"
 msgstr "Безлімітні серця"
 
@@ -1329,8 +2583,17 @@ msgstr "Озвучення"
 msgid "Voice Volume"
 msgstr "Гучність голосів"
 
+msgid "W-with you? Where would I even..."
+msgstr "У т-тебе? Де б я взагалі..."
+
 msgid "Watch a video: %s"
 msgstr "Переглянути відео: %s"
+
+msgid "We're getting the second owl, right?"
+msgstr "Ми ж беремо другу сову, правда?"
+
+msgid "Well. It worked, which is insulting in its own way. Go on, then. Ask."
+msgstr "Ну. Воно спрацювало, і це по-своєму образливо. Давай уже. Проси."
 
 msgid "What a date!"
 msgstr "Оце побачення!"
@@ -1341,8 +2604,32 @@ msgstr "Що скажеш?"
 msgid "What she likes"
 msgstr "Що їй подобається"
 
+msgid "What you want. Gold. Revenge. And sooner or later sex. It always comes to that."
+msgstr "Чого ти хочеш. Золота. Помсти. А рано чи пізно сексу. Завжди до цього доходить."
+
 msgid "When falling gems make new matches on their own, that's a combo. Each link in the chain scores more than the last."
 msgstr "Коли самоцвіти, падаючи, самі складають нові збіги, — це комбо. Кожна ланка ланцюжка дає більше за попередню."
+
+msgid "When you climb out you lean on the trunk to get your breath back. The bark is rough and cool under your hand."
+msgstr "Вилізши, ти спираєшся на стовбур, щоб перевести подих. Кора шорстка й прохолодна під долонею."
+
+msgid "When you get back, a branch creaks overhead in a way that sounds very deliberate."
+msgstr "Коли ти повертаєшся, над головою скрипить гілка, і звучить це дуже навмисно."
+
+msgid "Where are my things? They were here. In rows. I-I had them in rows."
+msgstr "Де мої речі? Вони були тут. Рядками. Я-я розклала їх рядками."
+
+msgid "Where did you get that."
+msgstr "Звідки це в тебе."
+
+msgid "While you fetch coffee from the staff room, she takes a red pencil from your desk and starts correcting the page that started all this."
+msgstr "Поки ти береш каву в кімнаті для персоналу, вона бере з твого столу червоний олівець і починає виправляти сторінку, з якої все почалося."
+
+msgid "Who even likes those?"
+msgstr "Кому це взагалі подобається?"
+
+msgid "Why would you do that?"
+msgstr "Навіщо ти це зробив?"
 
 msgid "Window Shopping"
 msgstr "Просто подивитися"
@@ -1353,17 +2640,86 @@ msgstr "Додати до бажаного в Steam"
 msgid "With Moves to Spare"
 msgstr "З ходами в запасі"
 
+msgid "With the lamp down, the only light in your room comes from her: a soft lilac glow that brightens wherever you touch."
+msgstr "Коли лампа пригашена, єдине світло в кімнаті йде від неї: м'яке бузкове сяйво, що яскравішає всюди, де ти її торкаєшся."
+
 msgid "You"
 msgstr "Ти"
 
 msgid "You already have this."
 msgstr "У тебе це вже є."
 
+msgid "You also find a little brass clasp wedged under the pier. She takes it from you and turns it over for a long time."
+msgstr "А ще знаходиш маленьку латунну застібку, застряглу під пристанню. Вона забирає її й довго крутить у пальцях."
+
+msgid "You ask what she means."
+msgstr "Ти питаєш, що вона має на увазі."
+
+msgid "You bring it down to the pier after dark. She holds it for a long time without saying anything."
+msgstr "Ти приносиш його на пристань, коли смеркне. Вона довго тримає його, нічого не кажучи."
+
+msgid "You came by with an axe."
+msgstr "Ти прийшов із сокирою."
+
+msgid "You can actually swim. The first time, you looked like a coat someone had thrown off a pier."
+msgstr "А ти, виявляється, вмієш плавати. Першого разу ти скидався на пальто, яке хтось викинув із пристані."
+
 msgid "You can close this tab now."
 msgstr "Тепер можна закрити цю вкладку."
 
+msgid "You can get dressed now."
+msgstr "Тепер можеш одягатися."
+
+msgid "You can hold my hand. If you don't mind it being a bit... wet."
+msgstr "Можеш потримати мене за руку. Якщо тобі не заважає, що вона трохи... мокра."
+
+msgid "You can stay with me. My place is quiet."
+msgstr "Можеш жити в мене. У мене тихо."
+
+msgid "You close the door."
+msgstr "Ти зачиняєш двері."
+
+msgid "You copied it off a loose page that fell out of a returned book. It looked nice. You put a candle stub in the middle because it seemed like the kind of thing that wanted a candle."
+msgstr "Ти перемалював його з окремої сторінки, що випала з поверненої книжки. Воно гарно виглядало. Ти поставив посередині недогарок свічки, бо здавалося, що такій штуці потрібна свічка."
+
+msgid "You could keep one, you know. Just one page. I wouldn't be able to refuse you anything."
+msgstr "Знаєш, ти міг би залишити одну собі. Одну сторінку. Я не змогла б ні в чому тобі відмовити."
+
+msgid "You didn't ask what you get out of it."
+msgstr "Ти не спитав, що з цього матимеш."
+
+msgid "You dig until sunset. The trench ends up about the length of a coffin, which she points out twice."
+msgstr "Ти копаєш до заходу сонця. Канава виходить завдовжки приблизно з труну, на що вона двічі звертає увагу."
+
+msgid "You don't ask for any of it. You ask if she's all right, because she came out of the smoke coughing."
+msgstr "Ти не просиш нічого з цього. Ти питаєш, чи з нею все гаразд, бо вона вийшла з диму, кашляючи."
+
+msgid "You don't take your time. She laughs at you, low in her throat, and doesn't complain."
+msgstr "Ти не зволікаєш. Вона сміється з тебе, низько, горлом, і не скаржиться."
+
+msgid "You don't think about it. You run down the steps, jump off the end of the pier in your clothes, get an arm round her and drag her back."
+msgstr "Ти не думаєш. Збігаєш сходами, стрибаєш з краю пристані в одязі, обхоплюєш її рукою й тягнеш назад."
+
 msgid "You have %d"
 msgstr "У тебе: %d"
+
+msgid "You hold it very well. That's all I'm admitting."
+msgstr "Ти дуже добре його тримаєш. Більше я нічого не визнаю."
+
+msgid "You hum when you think. It's nice."
+msgstr "Ти мугикаєш, коли думаєш. Це мило."
+
+msgid "You laugh. She goes pink all the way through, and then she laughs too."
+msgstr "Ти смієшся. Вона рожевіє наскрізь, а потім теж сміється."
+
+msgid "You leave your shoes on the pier, both of them."
+msgstr "Ти залишаєш черевики на пристані, обидва."
+
+msgid "You look from her to the trunk and back. Her heart is in the tree, then. So what's in her chest? Does she feel every woodpecker? Is the tree her, or is she the tree's way of talking? It doesn't feel like the moment to ask."
+msgstr "Ти переводиш погляд із неї на стовбур і назад. Отже, її серце в дереві. Що ж тоді в її грудях? Чи відчуває вона кожного дятла? Дерево — це вона, чи вона — це спосіб, у який дерево говорить? Схоже, зараз не час питати."
+
+msgid "You lower the axe. After a moment, you put it down on the grass."
+msgstr "Ти опускаєш сокиру. За мить кладеш її на траву."
 
 msgid "You need %d more stars."
 msgstr "Бракує %d зірок."
@@ -1371,8 +2727,143 @@ msgstr "Бракує %d зірок."
 msgid "You needed %d more points."
 msgstr "Бракувало %d очок."
 
+msgid "You point out that the label said newts."
+msgstr "Ти зауважуєш, що на етикетці було написано «тритони»."
+
+msgid "You say another hazel, so she isn't the only one."
+msgstr "Ти кажеш, ще одну ліщину, щоб вона не була сама."
+
+msgid "You say it back. She listens like she's checking your pronunciation."
+msgstr "Ти повторюєш його. Вона слухає, ніби перевіряє твою вимову."
+
+msgid "You say it. Amara. She shuts her eyes, as if she's checking your pronunciation one last time."
+msgstr "Ти кажеш. Амара. Вона заплющує очі, ніби востаннє перевіряє твою вимову."
+
+msgid "You say yes. She talks for an hour without stuttering once."
+msgstr "Ти кажеш так. Вона говорить годину й жодного разу не затинається."
+
+msgid "You shake your head."
+msgstr "Ти хитаєш головою."
+
+msgid "You sit with your back against the trunk while it rains. Every so often she makes a small sound, and you put your hand flat on the bark. Under your palm, right about where you'd have swung the axe, something in the wood is beating. So that answers that."
+msgstr "Поки йде дощ, ти сидиш, спершись спиною на стовбур. Час від часу вона тихо стогне, і ти кладеш долоню на кору. Під долонею, якраз там, куди ти замахнувся б сокирою, у дереві щось б'ється. Ось і відповідь."
+
+msgid "You start to take your hand away. She says you don't have to."
+msgstr "Ти починаєш забирати руку. Вона каже, що не треба."
+
+msgid "You stay."
+msgstr "Ти залишаєшся."
+
+msgid "You summoned me with that pathetic chalk circle? Where did you even copy it from? Ugh, I was in the middle of something."
+msgstr "Ти викликав мене цим жалюгідним крейдяним колом? Звідки ти його взагалі списав? Фу, я була зайнята."
+
+msgid "You take the lantern off her and tell her to sit down for an hour. You'll do the rocks."
+msgstr "Ти забираєш у неї ліхтар і кажеш посидіти годину. Каміння візьмеш на себе."
+
+msgid "You tell her about the wall. Her roots are cracking it, and when it goes, the miller loses his mill."
+msgstr "Ти розповідаєш їй про стіну. Її коріння її тріщить, і коли вона завалиться, мірошник втратить млин."
+
+msgid "You tell her it fell out of a returned book, and you didn't check which one. You step towards the desk to show her."
+msgstr "Ти кажеш, що сторінка випала з поверненої книжки, і ти не перевірив, з якої. Ти робиш крок до столу, щоб показати."
+
+msgid "You tell her it isn't strange. She pulls you closer, and for once she doesn't apologise for anything."
+msgstr "Ти кажеш, що це не дивно. Вона притягує тебе ближче, і цього разу ні за що не вибачається."
+
+msgid "You tell her she should tell it."
+msgstr "Ти кажеш, щоб розповідала вона."
+
+msgid "You tell her to keep it. For storms."
+msgstr "Ти кажеш їй залишити. Для гроз."
+
+msgid "You tell her to put yours."
+msgstr "Ти кажеш їй написати твою."
+
+msgid "You tell her you haven't watched a single game."
+msgstr "Ти кажеш, що не дивився жодної гри."
+
+msgid "You tell her. The stream has already carried most of it round the bend, towards town."
+msgstr "Ти кажеш їй. Струмок уже відніс більшість за поворот, до міста."
+
+msgid "You turn the lamp down."
+msgstr "Ти пригашуєш лампу."
+
+msgid "You wake up in the boathouse on a heap of old sails, with sand in your ears. She's already in the water, arms folded on the edge of the slipway, watching you."
+msgstr "Ти прокидаєшся в човнярні на купі старих вітрил, з піском у вухах. Вона вже у воді, схрестивши руки на краю сповзу, дивиться на тебе."
+
+msgid "You want a thank-you? For that?"
+msgstr "Хочеш подяки? За оте?"
+
+msgid "You want to hear about buttons?"
+msgstr "Ти хочеш послухати про ґудзики?"
+
+msgid "You were incredible."
+msgstr "Ти була неймовірна."
+
+msgid "You'd burn it."
+msgstr "Ти б спалив її."
+
+msgid "You'd have struck just below my heart. It would take... forty years or so to heal."
+msgstr "Ти влучив би просто під моє серце. Загоювалося б... років сорок."
+
+msgid "You're a genius, you're a soaked genius."
+msgstr "Ти геній, мокрий до нитки геній."
+
+msgid "You're a terrible influence. Keep going."
+msgstr "Ти жахливо на мене впливаєш. Продовжуй."
+
+msgid "You're doing well. I'm counting."
+msgstr "У тебе добре виходить. Я рахую."
+
+msgid "You're getting good at this. It's annoying."
+msgstr "У тебе виходить усе краще. Аж дратує."
+
+msgid "You're good with soft things."
+msgstr "Ти вмієш поводитися з м'якими речами."
+
+msgid "You're new in town and you'll take any work that pays. The miller paid you half up front to cut the tree down. You pick a spot on the trunk that looks right, plant your feet and lift the axe."
+msgstr "Ти новий у місті й береш будь-яку роботу, за яку платять. Мірошник заплатив тобі половину наперед, щоб ти зрубав дерево. Ти вибираєш на стовбурі місце, яке здається правильним, упираєшся ногами й піднімаєш сокиру."
+
+msgid "You're not jealous? Your leaves are going red."
+msgstr "Ти не ревнуєш? Твоє листя червоніє."
+
+msgid "You're quicker than you look. You look quite slow."
+msgstr "Ти швидший, ніж здаєшся. А здаєшся ти досить повільним."
+
+msgid "You're shaking. Come in closer, there's a hollow in the trunk that fits you."
+msgstr "Ти тремтиш. Підсунься ближче, у стовбурі є дупло якраз для тебе."
+
+msgid "You're still warm. Good."
+msgstr "Ти досі теплий. Добре."
+
+msgid "You're the best thing I've found in this library."
+msgstr "Ти найкраще, що я знайшов у цій бібліотеці."
+
+msgid "You're welcome, by the way."
+msgstr "І будь ласка, до речі."
+
+msgid "You've asked me twice not to sit on this table."
+msgstr "Ти двічі просив мене не сідати на цей стіл."
+
+msgid "You've been in Millbrook three weeks, taking whatever work pays. Tonight that's the late shift at the public library. It's a quarter past midnight, the gas lamps have been out for an hour, the returns cart is still full, and you've drawn a circle on the reading room floor in children's chalk."
+msgstr "Ти в Міллбруку три тижні й береш будь-яку роботу, за яку платять. Сьогодні це нічна зміна в публічній бібліотеці. Чверть по півночі, газові ліхтарі згасли годину тому, візок із поверненими книжками досі повний, а ти намалював коло на підлозі читальної зали дитячою крейдою."
+
+msgid "You've got mud on your face. Leave it. It suits you."
+msgstr "У тебе бруд на обличчі. Залиш. Тобі пасує."
+
+msgid "You've got sand on you. Everywhere. That's your problem, I'm not helping."
+msgstr "Ти весь у піску. Скрізь. Твоя проблема, я не допомагатиму."
+
+msgid "You've helped enough for one day, lifeguard."
+msgstr "Ти вже досить допоміг на сьогодні, рятувальнику."
+
+msgid "You... jumped in your clothes. For someone you'd never met."
+msgstr "Ти... стрибнув в одязі. Заради когось, кого ніколи не бачив."
+
 msgid "Your best: %d"
 msgstr "Твій рекорд: %d"
+
+msgid "Your name would be nice."
+msgstr "Твоє ім'я було б непогано."
 
 msgid "Your next chapter begins with a free Starburst gem already on the board."
 msgstr "Твій наступний розділ почнеться з безкоштовним Зорепадом уже на полі."
@@ -1388,6 +2879,12 @@ msgstr "Покупка в обробці. Вона надійде, щойно Go
 
 msgid "Your replies"
 msgstr "Твої відповіді"
+
+msgid "Your second ring doesn't close. That sigil is upside down. And this one isn't a sigil at all, it's a coffee stain you traced."
+msgstr "Твоє друге кільце не замикається. Цей сигіл догори дриґом. А це взагалі не сигіл, це пляма від кави, яку ти обвів."
+
+msgid "Yours. Fine. I'm bringing my own candles."
+msgstr "Твою. Гаразд. Свічки я принесу свої."
 
 msgid "a button"
 msgstr "ґудзик"

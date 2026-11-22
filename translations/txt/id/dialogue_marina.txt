@@ -1,0 +1,267 @@
+# Marina — Bahasa Indonesia (draf, round 52)
+@@ marina-0001
+Marina Waverly
+@@ marina-0002
+Putri duyung dari Teluk Saltwick
+@@ marina-0003
+"Aku sedang mengapung. Telentang."
+@@ marina-0004
+Mutiara. Nenek pasti setuju.
+@@ marina-0005
+Sembilan yang seperti itu dan aku selamat.
+@@ marina-0006
+Nah, itu yang bagus. Lagi.
+@@ marina-0007
+Cantik. Jangan bilang ke saudara-saudaraku aku bilang begitu.
+@@ marina-0008
+Oke, yang itu bagus.
+@@ marina-0009
+Oh, mulus sekali. Kenapa tidak ada hal lain minggu ini yang semulus itu?
+@@ marina-0010
+Ih. Lebih kering dari spons.
+@@ marina-0011
+Tidak. Sama sekali tidak.
+@@ marina-0012
+Siapa sih yang suka itu?
+@@ marina-0013
+Itu permata darat. Taruh lagi.
+@@ marina-0014
+Sembilan hari. Terus.
+@@ marina-0015
+Kamu jadi jago. Menyebalkan.
+@@ marina-0016
+Kalau ada yang tanya, kita cuma teman. Yang berenang. Malam-malam.
+@@ marina-0017
+Mata ke papan, penyelamat. Bukan ke aku.
+@@ marina-0018
+Mama mau memberimu makan. Anggap ini peringatan.
+@@ marina-0019
+Lebih cepat. Air pasangnya berbalik.
+@@ marina-0020
+Liontin Kaca Laut Buram
+@@ marina-0021
+Sepotong kaca laut yang licin, dihaluskan bertahun-tahun oleh pasang surut, pada seutas tali sederhana.
+@@ marina-0022
+Dia menggigit ujungnya bahkan sebelum berterima kasih.
+@@ marina-0023
+Ini asli. Laut yang membuatnya. Ada orang yang menggulingkan botol bekas di tong lalu menjualnya sebagai kaca laut.
+@@ marina-0024
+Dia mengikat tali itu di lehernya dengan simpul ganda, supaya tidak lepas di air.
+@@ marina-0025
+Aku sering menghilangkan barang. Kamu sudah sadar. Yang ini tidak akan kuhilangkan.
+@@ marina-0026
+Teluk Saltwick, sejam sebelum matahari terbenam. Kamu sedang di jalan setapak tebing saat teriakan dimulai.
+@@ marina-0027
+Di bawah, di dermaga, satu keluarga berteriak ke arah air. Di balik bebatuan, seorang wanita mengapung telentang, diam sama sekali, rambutnya terurai di sekelilingnya.
+@@ marina-0028
+Kamu tidak berpikir. Kamu berlari menuruni tangga, melompat dari ujung dermaga dengan pakaian lengkap, melingkarkan lengan di tubuhnya dan menariknya kembali.
+@@ marina-0029
+Baru saat kamu mengangkatnya ke papan dermaga kamu melihat ekornya. Panjang, hijau toska, dan menghantam dermaga begitu keras sampai semua orang kecipratan.
+@@ marina-0030
+Aku sedang mengapung. Telentang. Aku putri duyung, kalau kamu belum sadar, dan kamu baru saja menyeretku keluar dari teluk milikku sendiri di depan seluruh keluargaku.
+@@ marina-0031
+Seluruh keluarganya memang ada di situ. Seorang nenek, seorang ibu, tiga saudara perempuan. Salah satunya tertawa begitu keras sampai hampir tidak bisa bertanya keras-keras apakah Mari akan berterima kasih pada penyelamatnya.
+@@ marina-0032
+Jangan. Jangan berani-berani.
+@@ marina-0033
+Nek, aku baik-baik saja. Aku memang selalu begini.
+@@ marina-0034
+Neneknya berkata pelan bahwa mereka sudah memanggilnya dua puluh menit, bahwa air pasang akan segera berbalik, dan bahwa orang baik ini satu-satunya yang berbuat sesuatu.
+@@ marina-0035
+Dua puluh menit?
+@@ marina-0036
+Si putri duyung menatapmu dengan sungguh-sungguh untuk pertama kalinya. Kamu basah kuyup. Sepatumu hilang sebelah.
+@@ marina-0037
+Kamu... melompat dengan pakaian lengkap. Demi orang yang belum pernah kamu temui.
+@@ marina-0038
+Keluarganya meluncur satu per satu dari ujung dermaga dan berenang pulang mengitari tanjung, sangat pelan, menoleh ke belakang sepanjang jalan. Dia menunggu sampai mereka tidak bisa mendengar.
+@@ marina-0039
+Aku tidak sedang beristirahat. Aku sedang mencari sesuatu. Sisir mutiara Nenek. Itu satu-satunya barang yang dia bawa waktu datang ke teluk ini, dan dia memakainya setiap tahun saat Pasang Tengah Musim Panas.
+@@ marina-0040
+Aku seharusnya membawanya untuk dibersihkan. Seminggu lalu sisir itu jatuh dari dermaga. Tidak ada yang tahu.
+@@ marina-0041
+Dan kamu juga tidak akan memberi tahu siapa-siapa, kan, penyelamat?
+@@ marina-0042
+Aku tidak akan bilang. Biar aku bantu mencari.
+@@ marina-0043
+Kamu sudah cukup membantu hari ini, penyelamat.
+@@ marina-0044
+Begitu katanya, tapi dia tidak berenang pergi.
+@@ marina-0045
+Air surut jam enam. Kalau kebetulan kamu ada di dermaga, ya kamu ada di dermaga, aku tidak minta, aku cuma bilang kapan air surut.
+@@ marina-0046
+Sama-sama, omong-omong.
+@@ marina-0047
+Kamu mau terima kasih? Untuk itu?
+@@ marina-0048
+Dia mengibaskan ekor dan membuatmu basah untuk kedua kalinya, dengan sangat sengaja.
+@@ marina-0049
+Nah. Sekarang kita impas. Air surut jam enam.
+@@ marina-0050
+Air surut. Kamu menghabiskan dua jam membalik batu di kolam pasang sementara dia memeriksa perairan yang lebih dalam. Kamu menemukan garpu dan seekor kepiting yang sangat marah.
+@@ marina-0051
+Kamu juga menemukan gesper kuningan kecil yang terjepit di bawah dermaga. Dia mengambilnya darimu dan memutar-mutarnya lama sekali.
+@@ marina-0052
+Ini dari kotak sisirnya. Jadi sisir itu jatuh tepat di sini.
+@@ marina-0053
+Baiklah. Kamu bukan pengganggu lagi. Kamu boleh membantuku. Jangan senang dulu.
+@@ marina-0054
+Aku akan membayarmu, tentu. Hadiah, kalau kita menemukannya. Ini kesepakatan bisnis, jadi berhenti senyum-senyum begitu.
+@@ marina-0055
+Aku senang bisa membantu. Sungguh.
+@@ marina-0056
+Jangan bilang begitu. Seolah itu berarti.
+@@ marina-0057
+Dia menyelam sebelum kamu sempat menjawab dan muncul beberapa meter lebih jauh, pura-pura mencari.
+@@ marina-0058
+Besok jam enam, penyelamat.
+@@ marina-0059
+Ngaku saja. Kamu suka ada aku di dekatmu.
+@@ marina-0060
+Aku suka ada yang memegangi ember.
+@@ marina-0061
+Kamu memeganginya dengan sangat baik. Cuma itu yang kuakui.
+@@ marina-0062
+Hari ketiga. Dia sudah di air sejak subuh dan dua kali gagal meraih tangga tali saat mencoba naik ke dermaga. Di ujung lain, tiga nelayan tua menyiapkan permainan kerikil hari Kamis mereka di bawah cahaya lentera.
+@@ marina-0063
+Aku baik-baik saja. Pasang Tengah Musim Panas tinggal sembilan hari, dan aku baru memeriksa mungkin sepertiga teluk.
+@@ marina-0064
+Kamu mengambil lentera darinya dan menyuruhnya duduk sejam. Kamu yang mengurus bebatuan.
+@@ marina-0065
+Hm. Belum pernah ada yang menyuruhku pelan-pelan. Semua orang menganggap aku bisa menanganinya.
+@@ marina-0066
+Dia duduk di ujung dermaga dengan ekor di air. Setelah beberapa saat, dia bersandar di bahumu, seolah tak sengaja.
+@@ marina-0067
+Semua orang terus bertanya soal sisir itu, dan alasanku mulai habis.
+@@ marina-0068
+Katakan yang sebenarnya. Dia pasti mengerti.
+@@ marina-0069
+Dia bahkan tidak akan marah. Dia cuma akan bilang "aduh, Mari", seperti Mama.
+@@ marina-0070
+Sembilan hari. Kalau sampai saat itu belum ketemu, aku akan bilang. Sepakat?
+@@ marina-0071
+Bilang saja tukang perhiasannya kabur dengan seorang kapten kapal.
+@@ marina-0072
+Itu sebenarnya bagus. Dia pasti percaya.
+@@ marina-0073
+Dia tertawa di bahumu sampai cegukan.
+@@ marina-0074
+Kamu pengaruh yang buruk sekali. Teruskan.
+@@ marina-0075
+Badai kecil masuk ke teluk. Dia tetap ingin menyelam. Kamu memegangi tangga tali dan berdebat dengannya, berteriak melawan angin.
+@@ marina-0076
+Sisirnya ada di bawah sana! Aku sudah mencari di mana-mana, pasti di bawah sana!
+@@ marina-0077
+Lalu kamu teringat Pellow bersaudara yang menyeret jaring mereka di teluk minggu lalu. Seluruh dermaga mengeluh soal itu.
+@@ marina-0078
+Jaring mereka. Lewat tepat di tempat sisir itu jatuh.
+@@ marina-0079
+Kamu jenius, jenius yang basah kuyup.
+@@ marina-0080
+Dia menarik kerahmu dan menciummu, keras dan cepat, lalu terlihat ngeri pada dirinya sendiri.
+@@ marina-0081
+Itu gara-gara badai. Jangan dibesar-besarkan.
+@@ marina-0082
+Aku ingin membesar-besarkannya.
+@@ marina-0083
+Oke. Sedikit saja.
+@@ marina-0084
+Setelah sisirnya ketemu, boleh dibesar-besarkan.
+@@ marina-0085
+Badai yang sangat bagus.
+@@ marina-0086
+Badai yang luar biasa.
+@@ marina-0087
+Dia menciummu lagi, lebih pelan, sekadar memastikan.
+@@ marina-0088
+Sisir itu ada di kaleng berisi barang rongsokan di perahu Pellow bersaudara: pemberat pancing, kepala boneka, dan sembilan mutiara di punggung perak. Harganya dua minggu upahmu dan banyak penjelasan.
+@@ marina-0089
+Kamu membawanya ke dermaga setelah gelap. Dia memegangnya lama tanpa berkata apa-apa.
+@@ marina-0090
+Bahkan tidak tergores.
+@@ marina-0091
+Nenek akan memakainya saat Pasang dan tidak akan pernah tahu. Tidak ada yang akan tahu kamu melakukan ini.
+@@ marina-0092
+Aku masih berutang hadiah padamu. Aku belum memutuskan apa. Jangan menatapku begitu, aku sedang memutuskan.
+@@ marina-0093
+Dermaga sepi, kecuali permainan hari Kamis di ujung sana, tempat tiga nelayan tua itu kembali meributkan skor.
+@@ marina-0094
+Kebanyakan orang datang ke sini untuk permainan itu. Kamu terus kembali karena aku, kan?
+@@ marina-0095
+Kamu bilang kamu belum pernah menonton satu permainan pun.
+@@ marina-0096
+Airnya hangat malam ini.
+@@ marina-0097
+Dan kali ini, lepas bajumu sebelum melompat.
+@@ marina-0098
+Kamu meninggalkan sepatumu di dermaga, dua-duanya.
+@@ marina-0099
+Air teluk hangat, hitam, dan penuh cahaya bulan. Dia muncul tepat di depanmu, begitu dekat sampai rambutnya menyapu wajahmu.
+@@ marina-0100
+Ternyata kamu bisa berenang. Waktu pertama kali, kamu kelihatan seperti mantel yang dilempar orang dari dermaga.
+@@ marina-0101
+Oke. Aku mau bilang sesuatu dan kamu tidak boleh menanggapinya dengan manis.
+@@ marina-0102
+Aku sudah memikirkan ini. Tidak banyak. Jumlah yang wajar. Setiap hari sejak di dermaga.
+@@ marina-0103
+Dia mengalungkan lenganmu di lehernya supaya kamu tidak perlu menendang-nendang air, dan menopangmu dengan ekornya.
+@@ marina-0104
+Nah. Sekarang kamu tidak bisa ke mana-mana. Ini tradisi putri duyung. Sangat kuno. Baru kukarang.
+@@ marina-0105
+Dia menciummu, lebih pelan daripada saat badai. Saat menjauh, napasnya berat, dan itu bukan karena berenang.
+@@ marina-0106
+Gudang perahu. Ada pintunya. Nenek tidak bisa melihat menembus pintu. Mungkin.
+@@ marina-0107
+Gudang perahu berbau ter dan garam. Ada tumpukan layar tua di sudut, dan dia menarikmu ke atasnya lewat kemejamu yang basah.
+@@ marina-0108
+Setelahnya dia berbaring dengan kepala di dadamu, ekornya melingkar menuruni landasan perahu sampai ke air, sesekali berkedut.
+@@ marina-0109
+Tadi itu. Oke. Aku kehabisan kata. Aku tidak pernah kehabisan kata.
+@@ marina-0110
+Kamu penuh pasir. Di mana-mana. Itu masalahmu, aku tidak mau bantu.
+@@ marina-0111
+Jangan pergi sebelum pagi. Aku akan tahu kalau kamu pergi. Aku akan dengar pintunya.
+@@ marina-0112
+Dia yang tertidur duluan, dan dia akan menyangkalnya. Air pasang masuk lewat bawah pintu gudang perahu, lalu surut lagi.
+@@ marina-0113
+Air Pasang Tinggi
+@@ marina-0114
+Nenek memakai sisir itu saat Pasang Tengah Musim Panas dan tidak pernah tahu sisir itu sempat hilang. Marina tetap menceritakannya sebulan kemudian, dan Nenek tertawa begitu keras sampai harus dibantu naik ke batu. Sejak itu Marina menceritakan pertemuan kalian di setiap makan malam keluarga, dan ceritanya makin besar setiap kali. Setiap kali Nenek mengoreksinya, dan setiap kali dia menyiapkan tempat untukmu tanpa ditanya.
+@@ marina-0115
+Kamu terbangun di gudang perahu di atas tumpukan layar tua, telingamu penuh pasir. Dia sudah di air, lengannya terlipat di tepi landasan, memperhatikanmu.
+@@ marina-0116
+Pagi. Bajumu di pagar. Aku sendiri yang memerasnya, jadi kamu boleh berterima kasih.
+@@ marina-0117
+Jadi. Semalam. Aku sudah mengapung di sekitar sini cukup lama mencari kata yang pas, dan aku menyempitkannya jadi tiga, dan semuanya sangat tidak sopan.
+@@ marina-0118
+Nenek pasti tahu. Dia selalu tahu. Dia akan menatapku waktu sarapan dan langsung tahu.
+@@ marina-0119
+Landasan gudang perahu saat matahari terbit, dua setel pakaian dijemur di pagar.
+@@ marina-0120
+Saat Pasang Tengah Musim Panas seluruh keluarga berenang ke bebatuan, dan Nenek memakai sembilan mutiara di rambutnya, pura-pura tidak sadar semua orang memandanginya.
+@@ marina-0121
+Nenek mengundangmu makan malam keluarga, dan itu bukan hal kecil: ada orang yang menikah masuk keluarga ini dan tidak pernah diundang makan malam keluarga.
+@@ marina-0122
+Berenanglah denganku nanti. Jangan bikin aku malu lagi.
+@@ marina-0123
+Nenek saat Pasang Tengah Musim Panas, sisir mutiaranya di rambut.
+@@ marina-0124
+Soal hadiahmu. Semalam itu bukan hadiahnya. Kamu harus mengerti itu. Semalam itu hal lain.
+@@ marina-0125
+Hadiahnya adalah kamu datang ke setiap Pasang mulai sekarang. Tidak bisa ditawar. Jangan senyum, ini hukuman.
+@@ marina-0126
+Jadi. Kamu yang cerita bagaimana kita bertemu, atau aku?
+@@ marina-0127
+Kamu bilang dia saja yang cerita.
+@@ marina-0128
+Akan kubuat kamu terdengar sangat berani. Dan sangat basah.
+@@ marina-0129
+Ombak menerjang dermaga
+@@ marina-0130
+Saudara-saudaranya mulai menonton
+@@ marina-0131
+Air pasang berbalik
+@@ marina-0132
+Air Pasang
+@@ marina-0133
+Dua baris paling dekat ke permukaan bersih, dan semuanya naik dua baris.

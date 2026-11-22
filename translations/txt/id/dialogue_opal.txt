@@ -1,0 +1,239 @@
+# Opal — Bahasa Indonesia (draf, round 52)
+@@ opal-0001
+Opal
+@@ opal-0002
+Lendir, dulunya penghuni stoples
+@@ opal-0003
+"Aku baik-baik saja. Di dalam sana tenang."
+@@ opal-0004
+Ooh. Itu masuk ke... maaf.
+@@ opal-0005
+Kristal. Yang itu akan kusimpan.
+@@ opal-0006
+Itu menangkap cahaya. Satu lagi.
+@@ opal-0007
+Bening sampai tembus. Seperti aku.
+@@ opal-0008
+Itu bagus sekali. Terima kasih.
+@@ opal-0009
+Rune. Seperti di stoples para alkemis.
+@@ opal-0010
+Aku tidak suka yang itu. Maaf.
+@@ opal-0011
+Bisa tidak usah? Tolong?
+@@ opal-0012
+Rune bikin pinggiranku berdesis.
+@@ opal-0013
+Kamu hebat. Aku menghitung.
+@@ opal-0014
+Maaf. Aku menonton. Tidak apa-apa?
+@@ opal-0015
+Di luar sini berisik. Kamu berisik yang menyenangkan.
+@@ opal-0016
+Kalau kamu menjatuhkan sesuatu, aku yang akan menemukannya.
+@@ opal-0017
+Kamu bersenandung kalau sedang berpikir. Manis.
+@@ opal-0018
+Aku agak merah muda sekarang. Abaikan saja.
+@@ opal-0019
+T-tadi itu bagus. Bagus sekali.
+@@ opal-0020
+Kelereng Kaca Kuno
+@@ opal-0021
+Kelereng kaca dengan pita emas terpilin di dalamnya, jenis yang sudah puluhan tahun tidak dibuat lagi.
+@@ opal-0022
+Dia mengangkat kelereng itu ke depan matanya, lalu menekannya pelan ke telapak tangannya sendiri. Kelereng itu tenggelam dan melayang di sana, di dalam tangannya, tempat dia bisa melihatnya.
+@@ opal-0023
+Pilinan emas. Mereka sudah berhenti membuatnya sebelum aku masuk stoples. Dari mana kamu menemukannya?
+@@ opal-0024
+Dia berubah merah muda, dan pada Opal, itu sangat mudah terlihat.
+@@ opal-0025
+I-ini tidak akan kutaruh di rak. Ini tetap bersamaku. Di sini. Tidak apa-apa?
+@@ opal-0026
+Hutan di utara Millbrook, akhir musim gugur. Kamu sedang mengumpulkan kayu bakar dan apa saja yang bisa dijual, dan kamu mengikuti sungai kecil lebih jauh dari niatmu.
+@@ opal-0027
+Di antara akar pohon ek tua, seseorang menggali lekukan kecil dan melapisinya dengan lumut. Di dalamnya ada stoples kaca besar, disegel dengan lilin. Labelnya bertuliskan KADAL AIR ACAR, JANGAN DIBUKA, dengan tulisan tangan yang berusaha lucu.
+@@ opal-0028
+Kadal air acar biasanya tidak punya tanggal yang ditulis pensil di atas lilin: dua Januari. Kamu tetap membukanya.
+@@ opal-0029
+Sesuatu meluap dari bibir stoples, pelan dan berkilau, ungu muda dengan kilasan hijau dan merah muda. Kamu melompat mundur begitu cepat sampai separuh lekukan itu tertendang ke sungai. Benda itu mengumpul di atas akar menjadi sosok seorang wanita, dan dia tidak kelihatan senang.
+@@ opal-0030
+Kenapa kamu melakukan itu?
+@@ opal-0031
+Kamu menunjukkan bahwa labelnya bilang kadal air.
+@@ opal-0032
+Aku baik-baik saja. Di dalam sana tenang.
+@@ opal-0033
+Ambrose yang menulis label itu. Dia penjaga hutan. Waktu para alkemis datang membeli lendir, dia menyembunyikanku di sini. Itu berhasil selama tiga puluh satu tahun.
+@@ opal-0034
+Dia dulu mengetuk kaca dua kali setiap pagi supaya aku tahu itu dia.
+@@ opal-0035
+Dia memandang melewatimu ke arah lekukan itu: ke lumut yang tertekan rata dalam barisan kecil yang rapi tempat sesuatu dulu dijajarkan, dan ke sungai yang mengalir deras dan cokelat.
+@@ opal-0036
+Di mana barang-barangku? Tadi di sini. Berbaris. A-aku menjajarkannya berbaris.
+@@ opal-0037
+Kamu memberitahunya. Sungai sudah membawa sebagian besar ke balik tikungan, ke arah kota.
+@@ opal-0038
+Itu milikku. A-aku sudah mengumpulkannya bertahun-tahun.
+@@ opal-0039
+Empat ratus dua belas kancing. Dua puluh enam kunci. Satu mata kaca. Setiap orang yang lewat hutan ini menjatuhkan sesuatu, dan aku menyimpannya.
+@@ opal-0040
+Maaf sekali. Aku akan mengembalikan semuanya, satu per satu.
+@@ opal-0041
+Semuanya? Itu empat ratus dua belas kancing.
+@@ opal-0042
+Dia agak merah muda di sekujur tubuh, seperti setetes pewarna di segelas air.
+@@ opal-0043
+Oke. Sungai itu keluar di bawah Jembatan Kincir, di kota. Barang-barang terdampar di sana. Orang-orang memungutnya.
+@@ opal-0044
+Sebagai pembelaan, labelnya bilang kadal air.
+@@ opal-0045
+Itu lelucon. Dia menertawakannya setiap pagi selama tiga puluh satu tahun.
+@@ opal-0046
+Sungainya mengalir ke kota. Kita ke sana. Kamu yang bawa aku! Ya?
+@@ opal-0047
+Sungai itu keluar di bawah Jembatan Kincir, tempat Coombs si pemulung memancing apa saja yang mengapung. Kamu tiba duluan dan menjual segenggam kancing dari tepian kepadanya seharga dua keping tembaga sebelum sadar milik siapa itu. Sisanya juga sudah dia jaring. Membeli kembali semuanya menghabiskan enam keping tembaga, dan dia menganggap itu sangat lucu.
+@@ opal-0048
+Dia ikut dalam stoples kaca besar di pelukanmu, tutupnya terbuka, dan menghitung setiap kancing yang kamu jatuhkan ke dalamnya.
+@@ opal-0049
+T-terima kasih. Maaf. Terima kasih.
+@@ opal-0050
+Yang ini favoritku. Kuningan, empat lubang, dari mantel yang sangat tampan. Kamu juga punya... mantel yang sangat tampan.
+@@ opal-0051
+Kuncinya dibawa ke tukang kunci, katanya. Dan mata kacanya ke seseorang yang butuh mata kaca, kurasa.
+@@ opal-0052
+Ceritakan soal yang lain sambil kita mencari.
+@@ opal-0053
+Kamu mau dengar soal kancing?
+@@ opal-0054
+Kamu bilang iya. Dia bercerita sejam tanpa gagap sekali pun.
+@@ opal-0055
+Maaf. Biasanya aku tidak punya siapa-siapa untuk diajak cerita.
+@@ opal-0056
+Empat ratus kancing itu banyak sekali kancing orang asing.
+@@ opal-0057
+Mereka bukan orang asing. Aku mendengar setiap orang lewat. Dari dalam stoples.
+@@ opal-0058
+Kalau diucapkan keras-keras kedengarannya aneh. Tidak usah dijawab.
+@@ opal-0059
+Tukang kunci di Jalan Bara menyimpan kunci-kuncinya di ember dan minta satu shilling untuk semuanya. Selama kamu menawar, dia diam sekali di stoplesnya di bawah meja.
+@@ opal-0060
+Di jalan pulang ada pengumuman dipaku di Jembatan Kincir. Kota sudah menjual hutan utara ke seorang alkemis, untuk bengkelnya. Penebangan dimulai pada hari kuartal.
+@@ opal-0061
+Para alkemis merebus lendir jadi lem. Kamu tahu? Dua belas shilling per pon.
+@@ opal-0062
+Karena itulah Ambrose menaruhku di stoples. Tidak ada yang melihat ke dalam stoples kadal air acar. Kami kurang lebih seumur waktu dia melakukannya. Dia menua.
+@@ opal-0063
+Mereka mulai menebang pada hari kuartal. Setelah itu aku butuh tempat lain yang tenang.
+@@ opal-0064
+Kamu bisa tinggal bersamaku. Rumahku tenang.
+@@ opal-0065
+B-bersamamu? Di mana aku nanti...
+@@ opal-0066
+Aku mau stoples sendiri. Awalnya saja. Aneh, ya?
+@@ opal-0067
+Kalau begitu kita pastikan tidak ada yang merebus siapa pun.
+@@ opal-0068
+Melawan alkemis? Kamu menjual kancingku dua keping tembaga dan membelinya lagi enam.
+@@ opal-0069
+Tapi dia sedikit lebih merah muda dari sebelumnya.
+@@ opal-0070
+Sebenarnya aku ingin melihat itu.
+@@ opal-0071
+Mata kaca itu muncul di etalase toko pengawet hewan di Jalan Lentera, di dalam seekor burung hantu yang diawetkan. Si pengawet tidak mau menjualnya. Katanya burung hantunya butuh.
+@@ opal-0072
+Jadi dia keluar dari stoplesnya di tengah toko, di depan semua orang, dan memintanya sendiri.
+@@ opal-0073
+P-permisi. Itu mataku. Maksudku... Itu bagian dari koleksiku. Aku ingin memintanya kembali.
+@@ opal-0074
+Si pengawet begitu kaget sampai memberinya mata itu, burung hantunya, dan potongan harga untuk burung hantu kedua.
+@@ opal-0075
+Aku yang melakukannya. Kamu lihat? Aku mengatakannya keras-keras.
+@@ opal-0076
+Jangan masukkan aku ke stoples dulu. Aku mau pulang sendiri. Yah. Tidak jalan kaki. Kamu tahu maksudku.
+@@ opal-0077
+Kamu luar biasa.
+@@ opal-0078
+Berhenti. Nanti aku jadi keruh.
+@@ opal-0079
+Dia jadi keruh.
+@@ opal-0080
+Kamu boleh menggandeng tanganku. Kalau tidak keberatan agak... basah.
+@@ opal-0081
+Kita ambil burung hantu kedua, kan?
+@@ opal-0082
+Tentu saja kita ambil burung hantu kedua.
+@@ opal-0083
+Mereka sepasang. Aku tidak mau memisahkan pasangan.
+@@ opal-0084
+Empat ratus dua belas kancing, dua puluh enam kunci, satu mata kaca, dan dua burung hantu. Orang-orang si alkemis sedang menebang hutan utara sekarang, jadi Opal tinggal bersamamu, dan koleksinya memenuhi satu rak penuh di ruang depanmu. Dia menatanya ulang dua kali.
+@@ opal-0085
+Semuanya ada. Semuanya. Aku sudah menghitung tiga kali.
+@@ opal-0086
+Stoplesnya berdiri di ujung rak tanpa tutup. Sudah tiga hari dia tidak masuk ke dalamnya.
+@@ opal-0087
+Aku harus memberitahumu sesuatu. Aku menyimpan sesuatu milikmu. Di hari pertama.
+@@ opal-0088
+Dia mengulurkan sebuah kancing. Milikmu. Lepas dari lengan bajumu waktu kamu merogoh lekukan itu untuk mengambil stoplesnya, dan kamu tidak pernah sadar.
+@@ opal-0089
+Ini barang pertama di koleksi baru. Barang-barang milikmu.
+@@ opal-0090
+B-boleh aku tidur di kamarmu malam ini? Bukan di stoples. Bersamamu.
+@@ opal-0091
+Bisa... kecilkan lampunya sedikit?
+@@ opal-0092
+Kamu mengecilkan lampu.
+@@ opal-0093
+Dengan lampu redup, satu-satunya cahaya di kamarmu berasal darinya: cahaya ungu muda yang lembut, yang makin terang di mana pun kamu menyentuhnya.
+@@ opal-0094
+Oh. Aku tidak tahu aku bisa begitu. Memalukan. Lakukan lagi.
+@@ opal-0095
+Aku harus bilang aku tidak tahu apa yang kulakukan. Aku cuma pernah dengar soal ini. Lewat kaca. Orang bicara banyak di jalan setapak hutan kalau mereka kira tidak ada yang mendengar.
+@@ opal-0096
+Kebanyakan pasangan yang mengira sudah menemukan tempat sepi. Jadi aku tahu banyak soal... kamu tahulah.
+@@ opal-0097
+Kamu tertawa. Dia jadi merah muda di sekujur tubuh, lalu ikut tertawa.
+@@ opal-0098
+Dia meraih tanganmu dan menekannya pelan ke tubuhnya. Tanganmu tenggelam sedikit, sejuk dan lembut, dan dia bergidik.
+@@ opal-0099
+B-begini tidak apa-apa? Bilang kalau aneh. Kamu boleh bilang ini aneh.
+@@ opal-0100
+Kamu bilang ini tidak aneh. Dia menarikmu lebih dekat, dan untuk sekali ini dia tidak minta maaf atas apa pun.
+@@ opal-0101
+Setelahnya dia terhampar di sebagian besar ranjang dan sebagian dirimu, bercahaya samar, menyenandungkan lagu yang dulu sering disiulkan Ambrose.
+@@ opal-0102
+T-terima kasih. Maaf. Tidak. Bukan maaf. Terima kasih.
+@@ opal-0103
+Stoples itu kosong sepanjang malam.
+@@ opal-0104
+Tempat yang Tenang
+@@ opal-0105
+Opal pindah sungguhan. Koleksinya bertambah satu rak, lalu satu lagi: barang yang kamu jatuhkan, barang yang dijatuhkan teman-temanmu, tiket malam pertama kalian keluar bersama. Stoples itu tinggal di bawah ranjang. Dia memakainya dua kali tahun itu, dua-duanya saat badai petir, dan dua-duanya kamu duduk di lantai di sampingnya sementara dia bercerita, lewat kaca, tetangga mana yang berutang pada siapa. Dia keluar sendiri sebelum badainya reda.
+@@ opal-0106
+Sesuatu yang sejuk dan agak berat terhampar di atasmu seperti selimut. Ternyata dia.
+@@ opal-0107
+Maaf. Aku melebar waktu tidur. Aku tidak tahu itu. Aku belum pernah tidur di tempat yang cukup luas untuk mengetahuinya.
+@@ opal-0108
+Semalam adalah hal terbaik yang terjadi padaku dalam tiga puluh satu tahun. Mungkin... sepanjang hidup.
+@@ opal-0109
+Aku ingin melakukannya lagi. Boleh dikatakan, kan? Bagus. Aku ingin melakukannya lagi.
+@@ opal-0110
+Cahaya pagi menembus tirai kamar, dan seseorang yang bening dan ungu muda meringkuk di atas selimut.
+@@ opal-0111
+Dia keluar sendirian untuk pertama kalinya, membeli roti. Dia pergi dua puluh menit. Kalian berdua pura-pura tidak khawatir.
+@@ opal-0112
+Opal di meja toko roti, sebongkah roti di bawah lengan dan sebutir kancing nyasar di tangan.
+@@ opal-0113
+Stoplesnya... Perlu kusimpan?
+@@ opal-0114
+Kamu bilang simpan saja. Untuk saat badai.
+@@ opal-0115
+Angin dingin
+@@ opal-0116
+Semak berduri di bawah kaki
+@@ opal-0117
+Burung hantu mengagetkannya
+@@ opal-0118
+Serap
+@@ opal-0119
+Pilih permata: semua permata berwarna itu hilang.
