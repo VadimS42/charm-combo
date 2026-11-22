@@ -1,0 +1,1429 @@
+msgid ""
+msgstr ""
+"Language: uk\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "%d / %d endings found"
+msgstr "%d / %d фіналів знайдено"
+
+msgid "%d / %d pts"
+msgstr "%d / %d оч."
+
+msgid "%d / %d unlocked"
+msgstr "%d / %d відкрито"
+
+msgid "%d pts"
+msgstr "%d оч."
+
+msgid "%d pts — rough start..."
+msgstr "%d оч. — важкий початок..."
+
+msgid "%d pts..."
+msgstr "%d оч...."
+
+msgid "%s is ready!"
+msgstr "%s — готово!"
+
+msgid "%s: pick a gem."
+msgstr "%s: вибери самоцвіт."
+
+msgid "(You need %d more stars.)"
+msgstr "(Бракує %d зірок.)"
+
+msgid "+%d moves"
+msgstr "+%d ходів"
+
+msgid "+%d pts — great answer!"
+msgstr "+%d оч. — чудова відповідь!"
+
+msgid "+%d to win her over"
+msgstr "+%d, щоб її зачарувати"
+
+msgid "+%d ⭐"
+msgstr "+%d ⭐"
+
+msgid "+%d ⭐ for trying"
+msgstr "+%d ⭐ за спробу"
+
+msgid "+%d ⭐ towards it"
+msgstr "+%d ⭐ на це"
+
+msgid "+1 heart"
+msgstr "+1 серце"
+
+msgid "+2 moves — great answer!"
+msgstr "+2 ходи — чудова відповідь!"
+
+msgid "+5 hearts · %s"
+msgstr "+5 сердець · %s"
+
+msgid "-1 move"
+msgstr "-1 хід"
+
+msgid "1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!"
+msgstr "1 зірка за кожні 200 очок. Накопич на підсилення в Крамниці й спробуй знову!"
+
+msgid "1,800 stars."
+msgstr "1 800 зірок."
+
+msgid "150 stars."
+msgstr "150 зірок."
+
+msgid "18+ · original characters · all characters are adults."
+msgstr "18+ · оригінальні персонажі · усі персонажі повнолітні."
+
+msgid "200 stars, 2 of every item and 1 hour of unlimited hearts. Once per player."
+msgstr "200 зірок, по 2 кожного предмета й 1 година безлімітних сердець. Один раз на гравця."
+
+msgid "5 Extra Hearts"
+msgstr "5 додаткових сердець"
+
+msgid "5 hearts right now, on top of the ones you have."
+msgstr "5 сердець просто зараз, на додачу до тих, що є."
+
+msgid "5 of every item in the Item Shop."
+msgstr "По 5 кожного предмета з Крамниці."
+
+msgid "5,000 stars."
+msgstr "5 000 зірок."
+
+msgid "800 stars."
+msgstr "800 зірок."
+
+msgid "A Lovely Trench"
+msgstr "Чудова траншея"
+
+msgid "A Thousand Sparkles"
+msgstr "Тисяча іскор"
+
+msgid "A comb piece!"
+msgstr "Частина гребеня!"
+
+msgid "A comb piece! %d / %d"
+msgstr "Частина гребеня! %d / %d"
+
+msgid "A free date"
+msgstr "Вільне побачення"
+
+msgid "A little buzz when gems match."
+msgstr "Легка вібрація, коли самоцвіти збігаються."
+
+msgid "A match-3 romance for adults, set in Millbrook, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes."
+msgstr "Романтична гра «три в ряд» для дорослих у Міллбруку, сутінковому містечку, де живуть фантастичні істоти. Познайомся з чотирма жінками найгіршим можливим способом, допоможи їм із тим, що їм потрібно, і подивися, куди заведе ніч."
+
+msgid "A match-3 romance in Millbrook. Meet four women in the worst way possible, help them with what they need, and see where it goes."
+msgstr "Романтична гра «три в ряд» у Міллбруку. Познайомся з чотирма жінками найгіршим можливим способом, допоможи їм із тим, що їм потрібно, і подивися, куди це заведе."
+
+msgid "A new best!"
+msgstr "Новий рекорд!"
+
+msgid "A new board every day, the same for everyone: %d moves, one try. Come back tomorrow for the next."
+msgstr "Щодня нове поле, однакове для всіх: %d ходів, одна спроба. Повертайся завтра по наступне."
+
+msgid "A new seed drops in."
+msgstr "Падає нова насінина."
+
+msgid "A tip"
+msgstr "Порада"
+
+msgid "ACHIEVEMENT UNLOCKED"
+msgstr "ДОСЯГНЕННЯ ВІДКРИТО"
+
+msgid "About the voices"
+msgstr "Про голоси"
+
+msgid "Absorb"
+msgstr "Поглинання"
+
+msgid "Absorb!"
+msgstr "Поглинання!"
+
+msgid "Achievements"
+msgstr "Досягнення"
+
+msgid "Ad privacy choices"
+msgstr "Приватність реклами"
+
+msgid "After each chapter you pick a reply. A warm one starts her next chapter with bonus points (two extra moves when the chapter is only her goal); a teasing one costs a few points, but she likes those too."
+msgstr "Після кожного розділу ти обираєш відповідь. Тепла відповідь починає її наступний розділ із бонусними очками (два зайві ходи, коли в розділі лише її мета); дражлива коштує кількох очок, але їй і такі подобаються."
+
+msgid "After that, her favourite gem shows up more often in all her chapters, for good."
+msgstr "Після цього її улюблений самоцвіт частіше з'являтиметься в усіх її розділах, назавжди."
+
+msgid "All rules"
+msgstr "Усі правила"
+
+msgid "All the girls"
+msgstr "Усі дівчата"
+
+msgid "Amara's power: Correct Lines"
+msgstr "Сила Амари: Виправлені рядки"
+
+msgid "Amara's seals broken"
+msgstr "Зламано печаток Амари"
+
+msgid "Amara: break every seal"
+msgstr "Амара: зламай усі печатки"
+
+msgid "Amara: sealed pages"
+msgstr "Амара: запечатані сторінки"
+
+msgid "Another date"
+msgstr "Ще одне побачення"
+
+msgid "Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing."
+msgstr "Будь-який збіг одразу виконує мету розділу й дає 99 зірок — для тестування, не для справжньої гри."
+
+msgid "Anything you've bought on this Google account comes back in a moment."
+msgstr "Усе, що ти купив на цьому акаунті Google, повернеться за мить."
+
+msgid "Auto"
+msgstr "Авто"
+
+msgid "Auto Speed"
+msgstr "Швидкість Авто"
+
+msgid "Avalanche"
+msgstr "Лавина"
+
+msgid "BLOSSOMS"
+msgstr "КВІТИ"
+
+msgid "Back"
+msgstr "Назад"
+
+msgid "Back to the chapter"
+msgstr "Назад до розділу"
+
+msgid "Back to the roster"
+msgstr "Назад до кола"
+
+msgid "Balanced route"
+msgstr "Шлях рівноваги"
+
+msgid "Best chapter score"
+msgstr "Найкращий рахунок за розділ"
+
+msgid "Best combo"
+msgstr "Найкраще комбо"
+
+msgid "Best daily challenge"
+msgstr "Найкраще щоденне випробування"
+
+msgid "Best date with %s"
+msgstr "Найкраще побачення з %s"
+
+msgid "Best value"
+msgstr "Найвигідніше"
+
+msgid "Bigger text everywhere: dialogue, menus and the puzzle."
+msgstr "Більший текст усюди: діалоги, меню й головоломка."
+
+msgid "Blossom! +%d"
+msgstr "Квітка! +%d"
+
+msgid "Blossoms"
+msgstr "Квіти"
+
+msgid "Bookbinder"
+msgstr "Палітурник"
+
+msgid "Boom!"
+msgstr "Бум!"
+
+msgid "Break 50 of Amara's seals."
+msgstr "Зламати 50 печаток Амари."
+
+msgid "Bring 10 comb pieces up for Marina."
+msgstr "Підняти 10 частин гребеня для Марини."
+
+msgid "Buy"
+msgstr "Купити"
+
+msgid "Buy something in the Item Shop."
+msgstr "Купити щось у Крамниці."
+
+msgid "Buy · %d"
+msgstr "Купити · %d"
+
+msgid "Buy · %d ⭐"
+msgstr "Купити · %d ⭐"
+
+msgid "CHAPTER GOAL"
+msgstr "МЕТА РОЗДІЛУ"
+
+msgid "COMB PIECES"
+msgstr "ЧАСТИНИ ГРЕБЕНЯ"
+
+msgid "COMING UP"
+msgstr "НЕЗАБАРОМ"
+
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgid "Carry on without clearing this chapter (no stars for it)."
+msgstr "Продовжити, не проходячи цей розділ (без зірок за нього)."
+
+msgid "Chain Reaction"
+msgstr "Ланцюгова реакція"
+
+msgid "Chapter %d / %d"
+msgstr "Розділ %d / %d"
+
+msgid "Chapter %d · +%d"
+msgstr "Розділ %d · +%d"
+
+msgid "Chapter %d · +%d ⭐"
+msgstr "Розділ %d · +%d ⭐"
+
+msgid "Chapter cleared!"
+msgstr "Розділ пройдено!"
+
+msgid "Chapters cleared"
+msgstr "Пройдено розділів"
+
+msgid "Charm Burst"
+msgstr "Вибух Чарів"
+
+msgid "Charm Burst! +150"
+msgstr "Вибух Чарів! +150"
+
+msgid "Charm Combo is for adults"
+msgstr "Charm Combo — для дорослих"
+
+msgid "Charm halved"
+msgstr "Чари вдвічі менші"
+
+msgid "Charm — fills as you match (her favorite gem fastest). Full = +150 Charm Burst."
+msgstr "Чари — наповнюються зі збігами (найшвидше від її улюбленого самоцвіта). Повні = Вибух Чарів +150."
+
+msgid "Charm — fills as you match (her favourite gem fastest). Full = one use of her power: %s"
+msgstr "Чари — наповнюються зі збігами (найшвидше від її улюбленого самоцвіта). Повні = одне використання її сили: %s"
+
+msgid "Chest of Stars"
+msgstr "Скриня зірок"
+
+msgid "Chimes for matches, combos, and menus."
+msgstr "Дзвіночки для збігів, комбо й меню."
+
+msgid "Choose"
+msgstr "Обрати"
+
+msgid "Clear Hazel's first chapter."
+msgstr "Пройти перший розділ Гейзел."
+
+msgid "Clear Hazel's second chapter."
+msgstr "Пройти другий розділ Гейзел."
+
+msgid "Clear Hazel's third chapter."
+msgstr "Пройти третій розділ Гейзел."
+
+msgid "Clear a chapter with 5 or more moves left."
+msgstr "Пройти розділ, маючи 5 або більше ходів у запасі."
+
+msgid "Clear a cursed shard with the Hammer."
+msgstr "Знищити проклятий уламок Молотом."
+
+msgid "Clear any chapter to unlock the daily challenge."
+msgstr "Пройди будь-який розділ, щоб відкрити щоденне випробування."
+
+msgid "Clear the moss to find her things: buttons, marbles, keys, the glass eye. Find enough of them to win."
+msgstr "Прибирай мох, щоб знайти її речі: ґудзики, кульки, ключі, скляне око. Знайди достатньо, щоб перемогти."
+
+msgid "Click to view."
+msgstr "Натисни, щоб переглянути."
+
+msgid "Click, Space or Enter: next line. Hold Ctrl or press Skip: skip lines you've read. A or Auto: lines play on by themselves. L, Log or scroll up: read back. H: hide the text on full-screen pictures. Text speed is in Settings."
+msgstr "Клік, Пробіл або Enter: наступна репліка. Утримуй Ctrl або тисни Пропустити: пропуск прочитаних реплік. A або Авто: репліки йдуть самі. L, Журнал або прокрутка вгору: перечитати. H: сховати текст на повноекранних зображеннях. Швидкість тексту — в Налаштуваннях."
+
+msgid "Close"
+msgstr "Закрити"
+
+msgid "Close settings"
+msgstr "Закрити налаштування"
+
+msgid "Comb pieces"
+msgstr "Частини гребеня"
+
+msgid "Comb pieces brought up"
+msgstr "Піднято частин гребеня"
+
+msgid "Comb pieces rise when the gems above them clear."
+msgstr "Частини гребеня піднімаються, коли самоцвіти над ними зникають."
+
+msgid "Combo x%d!"
+msgstr "Комбо x%d!"
+
+msgid "Combos"
+msgstr "Комбо"
+
+msgid "Continue"
+msgstr "Продовжити"
+
+msgid "Continue the story  ▸"
+msgstr "Продовжити історію  ▸"
+
+msgid "Continue with %s"
+msgstr "Продовжити з %s"
+
+msgid "Correct Lines"
+msgstr "Виправлені рядки"
+
+msgid "Correct Lines!"
+msgstr "Виправлені рядки!"
+
+msgid "Credits"
+msgstr "Автори"
+
+msgid "Crystal"
+msgstr "Кристал"
+
+msgid "Cursed Shard"
+msgstr "Проклятий уламок"
+
+msgid "Cursed shards"
+msgstr "Прокляті уламки"
+
+msgid "Daily challenge"
+msgstr "Щоденне випробування"
+
+msgid "Daily challenge: %d pts"
+msgstr "Щоденне випробування: %d оч."
+
+msgid "Dark, cracked shards cost you points when they're part of a match. The Hammer smashes one for free."
+msgstr "Темні тріснуті уламки забирають очки, коли потрапляють у збіг. Молот розбиває один безкоштовно."
+
+msgid "Dialogue controls"
+msgstr "Керування діалогами"
+
+msgid "Difficulty"
+msgstr "Складність"
+
+msgid "Dislikes"
+msgstr "Не любить"
+
+msgid "Don't Even Think About It"
+msgstr "Навіть не думай"
+
+msgid "Each chapter has a goal and a number of moves. At first it's points; from her third chapter it's something of hers to do on the board, and in her last both. Reach it before your moves run out and the story carries on. There's no timer: take as long as you like."
+msgstr "Кожен розділ має мету й кількість ходів. Спершу це очки; з її третього розділу — щось, що треба зробити для неї на полі, а в останньому і те, і те. Досягни мети, поки не скінчилися ходи, і історія продовжиться. Таймера немає: не поспішай."
+
+msgid "Each kind of gem shows a number, so you don't need colour to tell them apart."
+msgstr "Кожен вид самоцвіта показує номер, тож колір для розрізнення не потрібен."
+
+msgid "Easy"
+msgstr "Легко"
+
+msgid "Ember"
+msgstr "Жарина"
+
+msgid "End the date"
+msgstr "Завершити побачення"
+
+msgid "End this date and see your score."
+msgstr "Заверши це побачення й подивися свій рахунок."
+
+msgid "Ending Gallery"
+msgstr "Галерея фіналів"
+
+msgid "Ending: %s"
+msgstr "Фінал: %s"
+
+msgid "Endings"
+msgstr "Фінали"
+
+msgid "Every Day Counts"
+msgstr "Кожен день важливий"
+
+msgid "Every few moves something happens around you: the panel on her side says what and when. It might raise what it takes to win her over, turn gems into cursed shards, cost you a move or halve your Charm ring. Matching her favourite gem holds it off a move; a Charm Burst clears it."
+msgstr "Кожні кілька ходів довкола вас щось трапляється: панель з її боку каже, що й коли. Це може підвищити те, що треба, аби її зачарувати, перетворити самоцвіти на прокляті уламки, забрати хід або вдвічі зменшити кільце Чарів. Збіг її улюбленого самоцвіта відсуває подію на хід; Вибух Чарів її скасовує."
+
+msgid "Every girl has a favourite gem and one she dislikes (on her card in the roster, and at the top of her side in a chapter). Her favourite scores double and fills the Charm ring faster; the one she dislikes scores half."
+msgstr "Кожна дівчина має улюблений самоцвіт і такий, що їй не до вподоби (на її картці в колі та вгорі її панелі під час розділу). Улюблений дає подвійні очки й швидше наповнює кільце Чарів; нелюбий — лише половину."
+
+msgid "Every match fills the Charm ring. In a girl's first chapter a full ring is a Charm Burst: +150 points. From her second chapter it's one use of her own power instead: its button lights up next to the ring, use it when you like. The ring fills again after."
+msgstr "Кожен збіг наповнює кільце Чарів. У першому розділі дівчини повне кільце — це Вибух Чарів: +150 очок. З її другого розділу це натомість одне використання її власної сили: кнопка світиться біля кільця, тисни коли хочеш. Потім кільце наповнюється знову."
+
+msgid "Every seed and sprout on the board grows one stage."
+msgstr "Кожна насінина й паросток на полі виростає на одну стадію."
+
+msgid "Everything — music and sound effects."
+msgstr "Усе — музика й звукові ефекти."
+
+msgid "Fast"
+msgstr "Швидко"
+
+msgid "Fill the Charm ring for a Charm Burst."
+msgstr "Наповнити кільце Чарів для Вибуху Чарів."
+
+msgid "Fill the ring"
+msgstr "Наповни кільце"
+
+msgid "Fill the whole screen. F11 toggles it anywhere."
+msgstr "Заповнити весь екран. F11 перемикає будь-де."
+
+msgid "Find 30 of Opal's lost things under the moss."
+msgstr "Знайти 30 загублених речей Опал під мохом."
+
+msgid "Finders Keepers"
+msgstr "Що знайшов — те твоє"
+
+msgid "Finish Hazel's story picking every warm reply."
+msgstr "Завершити історію Гейзел, щоразу обираючи теплу відповідь."
+
+msgid "Finish Hazel's story teasing her in every reply."
+msgstr "Завершити історію Гейзел, дражнячи її в кожній відповіді."
+
+msgid "Finish a daily challenge."
+msgstr "Завершити щоденне випробування."
+
+msgid "For bug reports: send the newest godot.log from this folder."
+msgstr "Для звітів про помилки: надішли найновіший godot.log із цієї теки."
+
+msgid "For sticking with it: a free Time Scroll!"
+msgstr "За наполегливість: безкоштовний Сувій часу!"
+
+msgid "Found under the moss: %s"
+msgstr "Знайдено під мохом: %s"
+
+msgid "Free date"
+msgstr "Вільне побачення"
+
+msgid "Free stars"
+msgstr "Безкоштовні зірки"
+
+msgid "Free: %s"
+msgstr "Безкоштовно: %s"
+
+msgid "Fullscreen"
+msgstr "Повний екран"
+
+msgid "Gallery"
+msgstr "Галерея"
+
+msgid "Gem numbers"
+msgstr "Номери самоцвітів"
+
+msgid "Gems cleared"
+msgstr "Прибрано самоцвітів"
+
+msgid "Girls"
+msgstr "Дівчата"
+
+msgid "Give Hazel the Brass Pocket Sundial."
+msgstr "Подарувати Гейзел латунний кишеньковий сонячний годинник."
+
+msgid "Give her the %s"
+msgstr "Подарувати їй: %s"
+
+msgid "Google Play isn't reachable right now. Try again in a moment."
+msgstr "Google Play зараз недоступний. Спробуй трохи згодом."
+
+msgid "Got it"
+msgstr "Зрозуміло"
+
+msgid "Grow 25 of Hazel's blossoms."
+msgstr "Виростити 25 квітів Гейзел."
+
+msgid "Grow enough seeds into blossoms to win. A new seed drops in every few moves."
+msgstr "Вирости достатньо насінин до квітки, щоб перемогти. Нова насінина падає кожні кілька ходів."
+
+msgid "Hammer"
+msgstr "Молот"
+
+msgid "Handful of Stars"
+msgstr "Жменька зірок"
+
+msgid "Hard"
+msgstr "Складно"
+
+msgid "Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Story difficulty comes with the Story Pass. Takes effect from the next chapter."
+msgstr "Складно: кожні кілька ходів на побаченні щось трапляється (хвиля через пірс, свічки гаснуть), про це попереджають заздалегідь. Сюжетна складність — у Сюжетному пропуску. Діє з наступного розділу."
+
+msgid "Hard: things happen on your date"
+msgstr "Складно: на побаченні щось трапляється"
+
+msgid "Hazel's blossoms grown"
+msgstr "Виросло квітів Гейзел"
+
+msgid "Hazel's power: Summer"
+msgstr "Сила Гейзел: Літо"
+
+msgid "Hazel: grow blossoms"
+msgstr "Гейзел: виростити квіти"
+
+msgid "Hazel: seeds"
+msgstr "Гейзел: насіння"
+
+msgid "Hear the girls speak their lines."
+msgstr "Чути, як дівчата промовляють свої репліки."
+
+msgid "Hearts left: %d / %d"
+msgstr "Сердець лишилося: %d / %d"
+
+msgid "Hearts: %d / %d"
+msgstr "Серця: %d / %d"
+
+msgid "Hearts: losing a chapter costs one, and they come back over time."
+msgstr "Серця: програш розділу забирає одне, а з часом вони повертаються."
+
+msgid "Her board with no move limit, just for fun and a high score."
+msgstr "Її поле без обмеження ходів, просто для розваги й рекорду."
+
+msgid "Her ending"
+msgstr "Її фінал"
+
+msgid "Her favourite gem scores double and fills Charm faster; the one she dislikes scores half."
+msgstr "Її улюблений самоцвіт дає подвійні очки й швидше наповнює Чари; нелюбий — лише половину."
+
+msgid "Her gift"
+msgstr "Її подарунок"
+
+msgid "Her gift: more of her favourite gem"
+msgstr "Її подарунок: більше її улюбленого самоцвіта"
+
+msgid "Her night scene"
+msgstr "Її нічна сцена"
+
+msgid "Her powers used"
+msgstr "Використано її сил"
+
+msgid "Her story carries on as if you'd cleared it. You don't get its stars."
+msgstr "Її історія продовжиться, ніби ти його пройшов. Зірок за нього не буде."
+
+msgid "Her story starts over from your first meeting, so you can make different choices. Endings you've found stay in the Gallery, your gift stays given, and her chapters pay out stars again."
+msgstr "Її історія почнеться знову з вашої першої зустрічі, тож можна зробити інші вибори. Знайдені фінали лишаються в Галереї, подарунок лишається подарованим, а її розділи знову дають зірки."
+
+msgid "Hide text"
+msgstr "Сховати текст"
+
+msgid "High Tide"
+msgstr "Великий приплив"
+
+msgid "High Tide!"
+msgstr "Великий приплив!"
+
+msgid "Home"
+msgstr "Головна"
+
+msgid "How fast dialogue types out."
+msgstr "Як швидко друкується діалог."
+
+msgid "How long Auto waits after each line (left = quicker)."
+msgstr "Скільки Авто чекає після кожної репліки (ліворуч = швидше)."
+
+msgid "How loud the background music plays."
+msgstr "Наскільки гучно грає фонова музика."
+
+msgid "How loud their voices play."
+msgstr "Наскільки гучно звучать їхні голоси."
+
+msgid "How to Play"
+msgstr "Як грати"
+
+msgid "I'm 18 or older"
+msgstr "Мені 18 або більше"
+
+msgid "In Full Bloom"
+msgstr "У повному цвіту"
+
+msgid "In her chapters everything floats: gems rise, and new ones come up from the bottom."
+msgstr "У її розділах усе спливає: самоцвіти піднімаються, а нові з'являються знизу."
+
+msgid "Instant"
+msgstr "Миттєво"
+
+msgid "Irresistible"
+msgstr "Неперевершена"
+
+msgid "It has sexual content, including intimate scenes, and suggestive art. All characters are adults.\n\nPlease only continue if you're 18 or older, or the age of majority where you live."
+msgstr "Гра містить сексуальний вміст, зокрема інтимні сцени, і відверті зображення. Усі персонажі повнолітні.\n\nПродовжуй, лише якщо тобі 18 або більше чи ти досяг повноліття там, де живеш."
+
+msgid "Item Bundle"
+msgstr "Набір предметів"
+
+msgid "Item Shop"
+msgstr "Крамниця"
+
+msgid "Items"
+msgstr "Предмети"
+
+msgid "Just Because"
+msgstr "Просто так"
+
+msgid "Keep voices on"
+msgstr "Залишити голоси"
+
+msgid "Keeping Time"
+msgstr "Берегти час"
+
+msgid "Language"
+msgstr "Мова"
+
+msgid "Large"
+msgstr "Великий"
+
+msgid "Larger"
+msgstr "Ще більший"
+
+msgid "Leave"
+msgstr "Вийти"
+
+msgid "Leave this chapter?"
+msgstr "Покинути цей розділ?"
+
+msgid "Leave to Roster"
+msgstr "Повернутися до кола"
+
+msgid "Leaves Going Red"
+msgstr "Листя червоніє"
+
+msgid "Leaving a chapter you've started costs a heart."
+msgstr "Покинути розпочатий розділ коштує одне серце."
+
+msgid "Let Skip race through lines you haven't read yet, too."
+msgstr "Нехай Пропустити пролітає й крізь репліки, яких ти ще не читав."
+
+msgid "Lines carry on by themselves (A)"
+msgstr "Репліки йдуть самі (A)"
+
+msgid "Log"
+msgstr "Журнал"
+
+msgid "Losing a chapter costs a heart, and one comes back every %d minutes."
+msgstr "Програш розділу коштує серце, і одне повертається кожні %d хвилин."
+
+msgid "Love Potion"
+msgstr "Любовне зілля"
+
+msgid "Love Potion active!"
+msgstr "Любовне зілля активовано!"
+
+msgid "Loves"
+msgstr "Любить"
+
+msgid "MOVES"
+msgstr "ХОДИ"
+
+msgid "Made with Godot Engine"
+msgstr "Створено на Godot Engine"
+
+msgid "Main menu"
+msgstr "Головне меню"
+
+msgid "Make 1000 matches."
+msgstr "Скласти 1000 збігів."
+
+msgid "Make a Starburst."
+msgstr "Створити Зорепад."
+
+msgid "Marina's power: High Tide"
+msgstr "Сила Марини: Великий приплив"
+
+msgid "Marina: the pearl comb"
+msgstr "Марина: перлинний гребінь"
+
+msgid "Marina: the tide"
+msgstr "Марина: приплив"
+
+msgid "Master Volume"
+msgstr "Загальна гучність"
+
+msgid "Match 4 in a row to make a Rocket, which clears its row or column. Match 5, or an L or T shape, to make a Starburst. Swap a special gem to set it off; swap two together for a Mega Blast."
+msgstr "Збери 4 в ряд, щоб створити Ракету, яка очищає свій рядок чи стовпець. Збери 5 або фігуру L чи T, щоб створити Зорепад. Зрушуй особливий самоцвіт, щоб підірвати його; поміняй два разом для Мегавибуху."
+
+msgid "Match crystals, Opal's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Love Potion brings more of them."
+msgstr "Збирай кристали, улюблені самоцвіти Опал: вони вдвічі швидше наповнюють кільце Чарів, а на Складно відсувають те, що насувається. Любовне зілля приводить їх більше."
+
+msgid "Match pearls, Marina's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Time Scroll buys back lost moves."
+msgstr "Збирай перлини, улюблені самоцвіти Марини: вони вдвічі швидше наповнюють кільце Чарів, а на Складно відсувають те, що насувається. Сувій часу повертає втрачені ходи."
+
+msgid "Match petals, Hazel's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards."
+msgstr "Збирай пелюстки, улюблені самоцвіти Гейзел: вони вдвічі швидше наповнюють кільце Чарів, а на Складно відсувають те, що насувається. Цілюще зілля — це менше проклятих уламків."
+
+msgid "Match runes, Amara's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards."
+msgstr "Збирай руни, улюблені самоцвіти Амари: вони вдвічі швидше наповнюють кільце Чарів, а на Складно відсувають те, що насувається. Цілюще зілля — це менше проклятих уламків."
+
+msgid "Matches made"
+msgstr "Складено збігів"
+
+msgid "Meet Hazel instead of cutting her tree down."
+msgstr "Познайомитися з Гейзел замість того, щоб зрубати її дерево."
+
+msgid "Meet her"
+msgstr "Познайомитися"
+
+msgid "Mega Blast"
+msgstr "Мегавибух"
+
+msgid "Mega Blast!"
+msgstr "Мегавибух!"
+
+msgid "Mending Potion"
+msgstr "Цілюще зілля"
+
+msgid "Mending Potion active!"
+msgstr "Цілюще зілля активовано!"
+
+msgid "Messages stay longer"
+msgstr "Повідомлення довше"
+
+msgid "Millbrook Circle"
+msgstr "Коло Міллбрука"
+
+msgid "Moonstone"
+msgstr "Місячний камінь"
+
+msgid "More"
+msgstr "Більше"
+
+msgid "Moss grows under some cells. A match, blast or Hammer on the cell clears it, and some moss hides one of her lost things."
+msgstr "Під деякими клітинками росте мох. Збіг, вибух чи Молот на клітинці прибирає його, а під деяким мохом сховано одну з її загублених речей."
+
+msgid "Move"
+msgstr "Рух"
+
+msgid "Moves left this chapter"
+msgstr "Ходів залишилося в цьому розділі"
+
+msgid "Music"
+msgstr "Музика"
+
+msgid "Neither of you notices what was coming."
+msgstr "Ніхто з вас не помічає, що насувалося."
+
+msgid "Next"
+msgstr "Далі"
+
+msgid "Next heart in %s"
+msgstr "Наступне серце через %s"
+
+msgid "Night scene"
+msgstr "Нічна сцена"
+
+msgid "No Ads"
+msgstr "Без реклами"
+
+msgid "No ads between chapters or under the menus, ever. Reward videos become one tap: the reward, no video."
+msgstr "Більше жодної реклами між розділами чи під меню. Відео за винагороду стають одним дотиком: винагорода без відео."
+
+msgid "No moves left — reshuffling!"
+msgstr "Ходів не лишилося — перемішуємо!"
+
+msgid "Normal"
+msgstr "Звичайно"
+
+msgid "Not bought"
+msgstr "Не куплено"
+
+msgid "Not found yet"
+msgstr "Ще не знайдено"
+
+msgid "Not found yet: finish her story to unlock it."
+msgstr "Ще не знайдено: заверши її історію, щоб відкрити."
+
+msgid "Not met yet"
+msgstr "Ще не знайомі"
+
+msgid "Not now"
+msgstr "Не зараз"
+
+msgid "Not unlocked yet"
+msgstr "Ще не відкрито"
+
+msgid "Nothing here yet — finish a girl's story to add her ending."
+msgstr "Тут поки порожньо — заверши історію дівчини, щоб додати її фінал."
+
+msgid "Nothing yet."
+msgstr "Поки нічого."
+
+msgid "Offers appear here once Google Play is reachable."
+msgstr "Пропозиції з'являться тут, щойно Google Play буде доступний."
+
+msgid "Once you've cleared her first chapter, her card on the roster has a gift for her. Give it and her favourite gem shows up more often in all her chapters, for good."
+msgstr "Щойно ти пройдеш її перший розділ, на її картці в колі з'явиться подарунок для неї. Подаруй його — і її улюблений самоцвіт частіше з'являтиметься в усіх її розділах, назавжди."
+
+msgid "One wave and the whole board is dealt again, always with a move to make."
+msgstr "Один помах — і все поле перероздано, завжди з можливим ходом."
+
+msgid "Opal's power: Absorb"
+msgstr "Сила Опал: Поглинання"
+
+msgid "Opal's things found"
+msgstr "Знайдено речей Опал"
+
+msgid "Opal: her lost collection"
+msgstr "Опал: її загублена колекція"
+
+msgid "Opal: moss"
+msgstr "Опал: мох"
+
+msgid "Open log folder"
+msgstr "Відкрити теку журналів"
+
+msgid "Original characters · all characters are adults."
+msgstr "Оригінальні персонажі · усі персонажі повнолітні."
+
+msgid "Ouch!"
+msgstr "Ой!"
+
+msgid "Out in the Storm"
+msgstr "У бурю"
+
+msgid "Out of Moves"
+msgstr "Ходи скінчилися"
+
+msgid "Out of hearts"
+msgstr "Серця скінчилися"
+
+msgid "Out of moves"
+msgstr "Ходи скінчилися"
+
+msgid "Owned"
+msgstr "Куплено"
+
+msgid "Owned: %d"
+msgstr "Є: %d"
+
+msgid "Pearl"
+msgstr "Перлина"
+
+msgid "Petal"
+msgstr "Пелюстка"
+
+msgid "Pick a gem to pop."
+msgstr "Вибери самоцвіт, щоб розбити."
+
+msgid "Pick a gem!"
+msgstr "Вибери самоцвіт!"
+
+msgid "Pick a gem."
+msgstr "Вибери самоцвіт."
+
+msgid "Pick a gem: every gem of that colour is cleared."
+msgstr "Вибери самоцвіт: усі самоцвіти цього кольору зникають."
+
+msgid "Pick a gem: its whole row and column clear."
+msgstr "Вибери самоцвіт: увесь його рядок і стовпець очищаються."
+
+msgid "Pick up"
+msgstr "Узяти"
+
+msgid "Pictures"
+msgstr "Зображення"
+
+msgid "Pictures appear here as you meet the girls and reach their endings."
+msgstr "Зображення з'являються тут, коли ти знайомишся з дівчатами й доходиш до їхніх фіналів."
+
+msgid "Pieces of Gran's comb start near the bottom. They can't be matched or moved: clear the gems above them and they rise. One that reaches the top row is yours."
+msgstr "Частини бабусиного гребеня починають біля дна. Їх не можна збирати чи рухати: очищай самоцвіти над ними, і вони піднімаються. Та, що дійде до верхнього рядка, — твоя."
+
+msgid "Play"
+msgstr "Грати"
+
+msgid "Play a chapter you've cleared again, for stars. Her story stays where it is."
+msgstr "Зіграй ще раз пройдений розділ заради зірок. Її історія залишиться там, де є."
+
+msgid "Play a chapter you've cleared again, for stars. No story scenes, and her story stays where it is."
+msgstr "Зіграй ще раз пройдений розділ заради зірок. Без сюжетних сцен, і її історія залишиться там, де є."
+
+msgid "Play as much as you like for 24 hours."
+msgstr "Грай скільки хочеш протягом 24 годин."
+
+msgid "Play it again"
+msgstr "Зіграти ще раз"
+
+msgid "Play time"
+msgstr "Час гри"
+
+msgid "Pop any one gem, no match needed. Arm it from the item row, then tap a gem."
+msgstr "Розбиває будь-який самоцвіт, без збігу. Візьми його в ряду предметів, тоді торкнися самоцвіта."
+
+msgid "Pop-up messages and her speech bubble in a chapter stay on screen longer. Dialogue always waits for you unless Auto is on."
+msgstr "Спливні повідомлення та її бульбашка з реплікою в розділі довше лишаються на екрані. Діалог завжди чекає на тебе, якщо Авто вимкнено."
+
+msgid "Popular"
+msgstr "Популярне"
+
+msgid "Pouch of Stars"
+msgstr "Торбинка зірок"
+
+msgid "Press her power button (or 4), then pick a gem: every gem of that colour is cleared, and the moss under them."
+msgstr "Натисни кнопку її сили (або 4), тоді вибери самоцвіт: усі самоцвіти цього кольору зникають разом із мохом під ними."
+
+msgid "Press her power button (or 4), then pick a gem: its whole row and column clear. Seals in them break."
+msgstr "Натисни кнопку її сили (або 4), тоді вибери самоцвіт: увесь його рядок і стовпець очищаються. Печатки на них ламаються."
+
+msgid "Press her power button (or 4): every seed and sprout on the board grows one stage."
+msgstr "Натисни кнопку її сили (або 4): кожна насінина й паросток на полі виростає на одну стадію."
+
+msgid "Press her power button (or 4): the two rows nearest the surface clear, and everything rises two rows."
+msgstr "Натисни кнопку її сили (або 4): два рядки, найближчі до поверхні, очищаються, і все піднімається на два рядки."
+
+msgid "Put down"
+msgstr "Покласти"
+
+msgid "Putting Down Roots"
+msgstr "Пустити коріння"
+
+msgid "Quit"
+msgstr "Вийти"
+
+msgid "Reach Hazel's ending."
+msgstr "Дійти до фіналу Гейзел."
+
+msgid "Reach her goal"
+msgstr "Досягни її мети"
+
+msgid "Read back (L, or scroll up)"
+msgstr "Перечитати (L або прокрутка вгору)"
+
+msgid "Read it for three more moves in the chapter you're playing. Use it from the item row under the board — it also gets you out of an Out of Moves screen."
+msgstr "Прочитай його, щоб отримати три ходи більше в розділі, який граєш. Використовуй із ряду предметів під полем — він також виводить з екрана «Ходи скінчилися»."
+
+msgid "Ready!"
+msgstr "Готово!"
+
+msgid "Reduce Motion"
+msgstr "Менше руху"
+
+msgid "Refill all · %d ⭐"
+msgstr "Поповнити все · %d ⭐"
+
+msgid "Remove ads · %s"
+msgstr "Прибрати рекламу · %s"
+
+msgid "Replay"
+msgstr "Переглянути"
+
+msgid "Replay %s's story?"
+msgstr "Переграти історію: %s?"
+
+msgid "Replay a chapter"
+msgstr "Переграти розділ"
+
+msgid "Replay her night scene."
+msgstr "Переглянути її нічну сцену ще раз."
+
+msgid "Replay story"
+msgstr "Переграти історію"
+
+msgid "Reply"
+msgstr "Відповісти"
+
+msgid "Reset Progress"
+msgstr "Скинути прогрес"
+
+msgid "Reset all progress?"
+msgstr "Скинути весь прогрес?"
+
+msgid "Reset everything"
+msgstr "Скинути все"
+
+msgid "Restore purchases"
+msgstr "Відновити покупки"
+
+msgid "Retry Chapter"
+msgstr "Переграти розділ"
+
+msgid "Revisit"
+msgstr "Навідатися знову"
+
+msgid "Rune"
+msgstr "Руна"
+
+msgid "Running out of moves still pays 1 star for every 200 points you scored (at least 3)."
+msgstr "Навіть коли ходи скінчилися, дають 1 зірку за кожні 200 набраних очок (щонайменше 3)."
+
+msgid "Running out still pays you a few stars. Try again, read a Time Scroll, or visit the shop. Later chapters are hard without power-ups: short on stars, replay a chapter you've cleared from her card on the roster. Lose three times in a row and you can carry on with the story anyway."
+msgstr "Навіть програш дає кілька зірок. Спробуй ще, прочитай Сувій часу або зайди в крамницю. Пізні розділи важкі без підсилень: бракує зірок — пройди знову вже пройдений розділ із її картки в колі. Програй тричі поспіль — і зможеш усе одно продовжити історію."
+
+msgid "SCORE"
+msgstr "РАХУНОК"
+
+msgid "SEALS BROKEN"
+msgstr "ЗЛАМАНО ПЕЧАТОК"
+
+msgid "Score 2000 on a free date."
+msgstr "Набрати 2000 очок у вільному побаченні."
+
+msgid "Scroll"
+msgstr "Прокрутка"
+
+msgid "Sealed. Match it by moving the gems beside it."
+msgstr "Запечатано. Збери його, рухаючи самоцвіти поруч."
+
+msgid "Seals broken"
+msgstr "Зламано печаток"
+
+msgid "See the whole picture (H)"
+msgstr "Побачити все зображення (H)"
+
+msgid "Seeds can't be moved. Make matches next to them to make them grow."
+msgstr "Насіння не можна рухати. Складай збіги поруч, щоб воно росло."
+
+msgid "Seeds sit on the board and fall like gems, but can't be moved or matched. Every match right next to one grows it: seed, sprout, blossom. A blossom pops: +100 and the cells around it clear. Ember matches don't count: she dislikes ember."
+msgstr "Насіння лежить на полі й падає, як самоцвіти, але його не можна рухати чи збирати. Кожен збіг поруч із ним змушує його рости: насінина, паросток, квітка. Квітка лопається: +100, і клітинки довкола очищаються. Збіги жарин не рахуються: вона не любить жарини."
+
+msgid "Select"
+msgstr "Вибрати"
+
+msgid "Set off a x3 combo."
+msgstr "Запустити комбо x3."
+
+msgid "Set off a x5 combo."
+msgstr "Запустити комбо x5."
+
+msgid "Settings"
+msgstr "Налаштування"
+
+msgid "Shard Smasher"
+msgstr "Трощитель уламків"
+
+msgid "Shard smashed!"
+msgstr "Уламок розбито!"
+
+msgid "Shop"
+msgstr "Крамниця"
+
+msgid "Short on stars? Replay a chapter you've cleared, from her card on the roster: it pays half."
+msgstr "Бракує зірок? Переграй пройдений розділ із її картки в колі: він дає половину."
+
+msgid "Shorter animations, calmer feedback."
+msgstr "Коротші анімації, спокійніші ефекти."
+
+msgid "Shuffle Wand"
+msgstr "Паличка перемішування"
+
+msgid "Skip"
+msgstr "Пропустити"
+
+msgid "Skip Unread Lines"
+msgstr "Пропускати непрочитане"
+
+msgid "Skip any chapter, carry on after any loss, and 8 hearts instead of 5."
+msgstr "Пропускай будь-який розділ, продовжуй після будь-якого програшу, і 8 сердець замість 5."
+
+msgid "Skip chapter"
+msgstr "Пропустити розділ"
+
+msgid "Skip chapter  ▸"
+msgstr "Пропустити розділ  ▸"
+
+msgid "Skip every line up to the next reply, read or not"
+msgstr "Пропустити всі репліки до наступної відповіді, прочитані чи ні"
+
+msgid "Skip it with the Story Pass  ▸"
+msgstr "Пропустити з Сюжетним пропуском  ▸"
+
+msgid "Skip lines you've read (hold Ctrl)"
+msgstr "Пропустити прочитані репліки (утримуй Ctrl)"
+
+msgid "Skip this chapter?"
+msgstr "Пропустити цей розділ?"
+
+msgid "Skip unread"
+msgstr "Пропустити все"
+
+msgid "Skips this chapter's puzzle: no stars for it."
+msgstr "Пропускає головоломку цього розділу: без зірок за неї."
+
+msgid "Slow"
+msgstr "Повільно"
+
+msgid "Soft as Moss"
+msgstr "М'яка, як мох"
+
+msgid "Some gems carry her ink seal. A sealed gem can't be picked up, but it still counts in a match you make by moving the gems beside it. The first match, blast or Hammer breaks the seal and the gem stays."
+msgstr "Деякі самоцвіти мають її чорнильну печатку. Запечатаний самоцвіт не можна зрушити, але він рахується в збігу, який ти складеш, рухаючи сусідні. Перший збіг, вибух чи удар Молота ламає печатку, і самоцвіт лишається."
+
+msgid "Something about to happen on your date. Matching her favourite gem holds it off a move; a Charm Burst clears it."
+msgstr "На побаченні зараз щось станеться. Збіг її улюбленого самоцвіта відсуває це на хід; Вибух Чарів скасовує."
+
+msgid "Sound Effects"
+msgstr "Звукові ефекти"
+
+msgid "Spark route"
+msgstr "Шлях іскри"
+
+msgid "Special gems"
+msgstr "Особливі самоцвіти"
+
+msgid "Special gems made"
+msgstr "Створено особливих самоцвітів"
+
+msgid "Splinters"
+msgstr "Скалки"
+
+msgid "Starburst Starter"
+msgstr "Стартовий Зорепад"
+
+msgid "Starburst Starter active!"
+msgstr "Стартовий Зорепад активовано!"
+
+msgid "Stars come from clearing chapters: 15 for a girl's first and 5 more for each one after it."
+msgstr "Зірки дають за пройдені розділи: 15 за перший розділ дівчини й на 5 більше за кожен наступний."
+
+msgid "Stars — earned by clearing chapters, spent in the Item Shop and on gifts."
+msgstr "Зірки — їх заробляєш, проходячи розділи, а витрачаєш у Крамниці й на подарунки."
+
+msgid "Starstruck"
+msgstr "Зоряне сяйво"
+
+msgid "Start her story over from the beginning"
+msgstr "Почати її історію спочатку"
+
+msgid "Starter Pack"
+msgstr "Стартовий набір"
+
+msgid "Stats"
+msgstr "Статистика"
+
+msgid "Stop here. This scene plays again next time you visit her."
+msgstr "Зупинитися тут. Ця сцена програється знову, коли ти навідаєшся до неї наступного разу."
+
+msgid "Store"
+msgstr "Крамниця"
+
+msgid "Story"
+msgstr "Сюжет"
+
+msgid "Story Pass"
+msgstr "Сюжетний пропуск"
+
+msgid "Story Pass: 8 hearts and free skips · %s"
+msgstr "Сюжетний пропуск: 8 сердець і вільні пропуски · %s"
+
+msgid "Story difficulty: carry on with the story without playing this chapter (no stars for it)."
+msgstr "Сюжетна складність: продовж історію, не граючи цей розділ (без зірок за нього)."
+
+msgid "Story: twice the moves, and you can skip any chapter. Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Takes effect from the next chapter."
+msgstr "Сюжет: удвічі більше ходів, і можна пропустити будь-який розділ. Складно: кожні кілька ходів на побаченні щось трапляється (хвиля через пірс, свічки гаснуть), про це попереджають заздалегідь. Діє з наступного розділу."
+
+msgid "Summer"
+msgstr "Літо"
+
+msgid "Summer!"
+msgstr "Літо!"
+
+msgid "Swap"
+msgstr "Поміняти"
+
+msgid "Swap and match"
+msgstr "Міняй і збирай"
+
+msgid "Swap two gems next to each other to line up three or more of the same kind. Matched gems pop and score points; new ones fall in from the top."
+msgstr "Поміняй місцями два сусідні самоцвіти, щоб вишикувати три або більше однакових. Зібрані самоцвіти лопаються й дають очки; нові падають згори."
+
+msgid "Swap two special gems together."
+msgstr "Поміняти разом два особливі самоцвіти."
+
+msgid "THINGS FOUND"
+msgstr "ЗНАЙДЕНО РЕЧЕЙ"
+
+msgid "TIP"
+msgstr "ПОРАДА"
+
+msgid "Tap a gem!"
+msgstr "Торкнися самоцвіта!"
+
+msgid "Test purchase"
+msgstr "Тестова покупка"
+
+msgid "Testing Mode"
+msgstr "Режим тестування"
+
+msgid "Text Speed"
+msgstr "Швидкість тексту"
+
+msgid "Text size"
+msgstr "Розмір тексту"
+
+msgid "Thanks for playing the demo!"
+msgstr "Дякуємо, що зіграли в демо!"
+
+msgid "The Time Scroll (three more moves), the Hammer (smash any one gem) and the Shuffle Wand (a new board) sit under the board. Buy them, and potions that help a whole chapter, in the Item Shop with the stars you earn."
+msgstr "Сувій часу (три ходи більше), Молот (розбиває будь-який самоцвіт) і Чарівна паличка перемішування (нове поле) — під полем. Купуй їх, а також зілля, що допомагають на весь розділ, у Крамниці за зароблені зірки."
+
+msgid "The comb piece can't be hammered. Bring it up to the surface."
+msgstr "Частину гребеня не можна розбити Молотом. Підніми її на поверхню."
+
+msgid "The full game has four stories: Hazel's, and three more women of Millbrook to meet in the worst way possible. Each has four chapters, her night scene and her ending."
+msgstr "Повна гра має чотири історії: Гейзел і ще трьох жінок Міллбрука, з якими ти знайомишся найгіршим можливим способом. У кожної чотири розділи, її нічна сцена і її фінал."
+
+msgid "The game's text. Voices stay in English."
+msgstr "Текст гри. Голоси лишаються англійською."
+
+msgid "The girls are voiced by amateur voice actresses, recorded at home. We love how they turned out, but they aren't studio recordings, and not every line is voiced yet.\n\nIf you'd rather read in your own head, turn the voices off. You can change this any time in Settings."
+msgstr "Дівчат озвучили акторки-аматорки, записуючись удома. Нам дуже подобається, що вийшло, але це не студійні записи, і ще не всі репліки озвучено.\n\nЯкщо волієш читати подумки, вимкни голоси. Це можна змінити будь-коли в Налаштуваннях."
+
+msgid "The purchase couldn't start (%s)."
+msgstr "Не вдалося почати покупку (%s)."
+
+msgid "The purchase didn't go through (%s)."
+msgstr "Покупка не пройшла (%s)."
+
+msgid "The store isn't available in this build."
+msgstr "Крамниця недоступна в цій збірці."
+
+msgid "The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts."
+msgstr "Верхній ряд використовують під час розділу; нижній спрацьовує сам на початку твого наступного розділу."
+
+msgid "The two rows nearest the surface clear, and everything rises two rows."
+msgstr "Два рядки, найближчі до поверхні, очищаються, і все піднімається на два рядки."
+
+msgid "These unlock on Steam too."
+msgstr "Вони відкриваються і в Steam."
+
+msgid "Things found"
+msgstr "Знайдено речей"
+
+msgid "This erases every girl's story progress, your stars, items, gifts and the whole Gallery. Your settings and achievements are kept. This can't be undone."
+msgstr "Це стирає прогрес історії кожної дівчини, твої зірки, предмети, подарунки й усю Галерею. Налаштування й досягнення збережуться. Цю дію не можна скасувати."
+
+msgid "This is a test build: no money changes hands. Buy %s for %s?"
+msgstr "Це тестова збірка: гроші не списуються. Купити %s за %s?"
+
+msgid "Time Scroll"
+msgstr "Сувій часу"
+
+msgid "To find the book, break every seal on the board. The counter under the board shows how many are done."
+msgstr "Щоб знайти книжку, зламай усі печатки на полі. Лічильник під полем показує, скільки вже зламано."
+
+msgid "Today's challenge"
+msgstr "Сьогоднішнє випробування"
+
+msgid "Toggle"
+msgstr "Перемкнути"
+
+msgid "Treasure Diver"
+msgstr "Шукач скарбів"
+
+msgid "Treasury of Stars"
+msgstr "Скарбниця зірок"
+
+msgid "Try: %s"
+msgstr "Спробуй: %s"
+
+msgid "Turn voices off"
+msgstr "Вимкнути голоси"
+
+msgid "Unlimited Hearts"
+msgstr "Безлімітні серця"
+
+msgid "Unlimited for 24 hours · %s"
+msgstr "Безліміт на 24 години · %s"
+
+msgid "Unlimited hearts: %s left"
+msgstr "Безлімітні серця: лишилося %s"
+
+msgid "Use a Time Scroll"
+msgstr "Використати Сувій часу"
+
+msgid "Vibration"
+msgstr "Вібрація"
+
+msgid "Voice Acting"
+msgstr "Озвучення"
+
+msgid "Voice Volume"
+msgstr "Гучність голосів"
+
+msgid "Watch a video: %s"
+msgstr "Переглянути відео: %s"
+
+msgid "What a date!"
+msgstr "Оце побачення!"
+
+msgid "What do you say?"
+msgstr "Що скажеш?"
+
+msgid "What she likes"
+msgstr "Що їй подобається"
+
+msgid "When falling gems make new matches on their own, that's a combo. Each link in the chain scores more than the last."
+msgstr "Коли самоцвіти, падаючи, самі складають нові збіги, — це комбо. Кожна ланка ланцюжка дає більше за попередню."
+
+msgid "Window Shopping"
+msgstr "Просто подивитися"
+
+msgid "Wishlist on Steam"
+msgstr "Додати до бажаного в Steam"
+
+msgid "With Moves to Spare"
+msgstr "З ходами в запасі"
+
+msgid "You"
+msgstr "Ти"
+
+msgid "You already have this."
+msgstr "У тебе це вже є."
+
+msgid "You can close this tab now."
+msgstr "Тепер можна закрити цю вкладку."
+
+msgid "You have %d"
+msgstr "У тебе: %d"
+
+msgid "You need %d more stars."
+msgstr "Бракує %d зірок."
+
+msgid "You needed %d more points."
+msgstr "Бракувало %d очок."
+
+msgid "Your best: %d"
+msgstr "Твій рекорд: %d"
+
+msgid "Your next chapter begins with a free Starburst gem already on the board."
+msgstr "Твій наступний розділ почнеться з безкоштовним Зорепадом уже на полі."
+
+msgid "Your next chapter: far fewer cursed shards appear on the board."
+msgstr "Твій наступний розділ: на полі набагато менше проклятих уламків."
+
+msgid "Your next chapter: her favorite gem shows up more often, her least favorite less."
+msgstr "Твій наступний розділ: її улюблений самоцвіт з'являється частіше, нелюбий — рідше."
+
+msgid "Your purchase is pending. It arrives as soon as Google Play confirms it."
+msgstr "Покупка в обробці. Вона надійде, щойно Google Play її підтвердить."
+
+msgid "Your replies"
+msgstr "Твої відповіді"
+
+msgid "a button"
+msgstr "ґудзик"
+
+msgid "a key"
+msgstr "ключ"
+
+msgid "a marble"
+msgstr "кулька"
+
+msgid "after your next move"
+msgstr "після наступного ходу"
+
+msgid "best %d"
+msgstr "рекорд %d"
+
+msgid "double it to %d ⭐"
+msgstr "подвоїти до %d ⭐"
+
+msgid "in %d moves"
+msgstr "через %d ходів"
+
+msgid "one more daily try"
+msgstr "ще одна щоденна спроба"
+
+msgid "the glass eye"
+msgstr "скляне око"
+
+msgid "←  Back"
+msgstr "←  Назад"
+
+msgid "←  Back to the chapter"
+msgstr "←  Назад до розділу"
+
+msgid "←  Menu"
+msgstr "←  Меню"
+
+msgid "←  Roster"
+msgstr "←  Коло"

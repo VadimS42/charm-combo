@@ -1,0 +1,1429 @@
+msgid ""
+msgstr ""
+"Language: ar\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "%d / %d endings found"
+msgstr "%d / %d نهايات مكتشفة"
+
+msgid "%d / %d pts"
+msgstr "%d / %d نقطة"
+
+msgid "%d / %d unlocked"
+msgstr "%d / %d مفتوحة"
+
+msgid "%d pts"
+msgstr "%d نقطة"
+
+msgid "%d pts — rough start..."
+msgstr "%d نقطة — بداية صعبة..."
+
+msgid "%d pts..."
+msgstr "%d نقطة..."
+
+msgid "%s is ready!"
+msgstr "%s جاهزة!"
+
+msgid "%s: pick a gem."
+msgstr "%s: اختر جوهرة."
+
+msgid "(You need %d more stars.)"
+msgstr "(تحتاج %d نجمة إضافية.)"
+
+msgid "+%d moves"
+msgstr "+%d حركات"
+
+msgid "+%d pts — great answer!"
+msgstr "+%d نقطة — جواب رائع!"
+
+msgid "+%d to win her over"
+msgstr "+%d لتكسب قلبها"
+
+msgid "+%d ⭐"
+msgstr "+%d ⭐"
+
+msgid "+%d ⭐ for trying"
+msgstr "+%d ⭐ على المحاولة"
+
+msgid "+%d ⭐ towards it"
+msgstr "+%d ⭐ لمساعدتك"
+
+msgid "+1 heart"
+msgstr "+1 قلب"
+
+msgid "+2 moves — great answer!"
+msgstr "+2 حركة — جواب رائع!"
+
+msgid "+5 hearts · %s"
+msgstr "+5 قلوب · %s"
+
+msgid "-1 move"
+msgstr "-1 حركة"
+
+msgid "1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!"
+msgstr "نجمة لكل 200 نقطة. ادَّخر للمساعدات في متجر الأدوات، ثم حاول مجددًا!"
+
+msgid "1,800 stars."
+msgstr "1,800 نجمة."
+
+msgid "150 stars."
+msgstr "150 نجمة."
+
+msgid "18+ · original characters · all characters are adults."
+msgstr "18+ · شخصيات أصلية · جميع الشخصيات بالغة."
+
+msgid "200 stars, 2 of every item and 1 hour of unlimited hearts. Once per player."
+msgstr "200 نجمة، و2 من كل أداة، وساعة من القلوب غير المحدودة. مرة واحدة لكل لاعب."
+
+msgid "5 Extra Hearts"
+msgstr "5 قلوب إضافية"
+
+msgid "5 hearts right now, on top of the ones you have."
+msgstr "5 قلوب الآن، فوق ما لديك."
+
+msgid "5 of every item in the Item Shop."
+msgstr "5 من كل أداة في متجر الأدوات."
+
+msgid "5,000 stars."
+msgstr "5,000 نجمة."
+
+msgid "800 stars."
+msgstr "800 نجمة."
+
+msgid "A Lovely Trench"
+msgstr "خندق جميل"
+
+msgid "A Thousand Sparkles"
+msgstr "ألف بريق"
+
+msgid "A comb piece!"
+msgstr "قطعة مشط!"
+
+msgid "A comb piece! %d / %d"
+msgstr "قطعة مشط! %d / %d"
+
+msgid "A free date"
+msgstr "موعد حر"
+
+msgid "A little buzz when gems match."
+msgstr "اهتزاز خفيف حين تتطابق الجواهر."
+
+msgid "A match-3 romance for adults, set in Millbrook, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes."
+msgstr "رومانسية من نوع «طابِق 3» للبالغين، في ميلبروك، بلدة الغسق حيث تسكن الكائنات الخيالية. التقِ أربع نساء بأسوأ طريقة ممكنة، وساعدهن فيما يحتجن إليه، وانظر إلى أين يأخذكما الليل."
+
+msgid "A match-3 romance in Millbrook. Meet four women in the worst way possible, help them with what they need, and see where it goes."
+msgstr "رومانسية من نوع «طابِق 3» في ميلبروك. التقِ أربع نساء بأسوأ طريقة ممكنة، وساعدهن فيما يحتجن إليه، وانظر إلى أين يمضي الأمر."
+
+msgid "A new best!"
+msgstr "رقم قياسي جديد!"
+
+msgid "A new board every day, the same for everyone: %d moves, one try. Come back tomorrow for the next."
+msgstr "لوحة جديدة كل يوم، واحدة للجميع: %d حركة، محاولة واحدة. عُد غدًا للتالي."
+
+msgid "A new seed drops in."
+msgstr "تسقط بذرة جديدة."
+
+msgid "A tip"
+msgstr "نصيحة"
+
+msgid "ACHIEVEMENT UNLOCKED"
+msgstr "تم فتح إنجاز"
+
+msgid "About the voices"
+msgstr "عن الأصوات"
+
+msgid "Absorb"
+msgstr "الامتصاص"
+
+msgid "Absorb!"
+msgstr "الامتصاص!"
+
+msgid "Achievements"
+msgstr "الإنجازات"
+
+msgid "Ad privacy choices"
+msgstr "خيارات خصوصية الإعلانات"
+
+msgid "After each chapter you pick a reply. A warm one starts her next chapter with bonus points (two extra moves when the chapter is only her goal); a teasing one costs a few points, but she likes those too."
+msgstr "بعد كل فصل تختار ردًّا. الرد الدافئ يبدأ فصلها التالي بنقاط إضافية (حركتان إضافيتان حين يكون الفصل هدفها فقط)، والرد المشاكس يكلِّفك بضع نقاط، لكنها تحب ذلك أيضًا."
+
+msgid "After that, her favourite gem shows up more often in all her chapters, for good."
+msgstr "بعدها تظهر جوهرتها المفضلة أكثر في كل فصولها، إلى الأبد."
+
+msgid "All rules"
+msgstr "كل القواعد"
+
+msgid "All the girls"
+msgstr "كل الفتيات"
+
+msgid "Amara's power: Correct Lines"
+msgstr "قوة أمارا: تصحيح السطور"
+
+msgid "Amara's seals broken"
+msgstr "أختام أمارا المكسورة"
+
+msgid "Amara: break every seal"
+msgstr "أمارا: اكسر كل الأختام"
+
+msgid "Amara: sealed pages"
+msgstr "أمارا: صفحات مختومة"
+
+msgid "Another date"
+msgstr "موعد آخر"
+
+msgid "Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing."
+msgstr "أي تطابق صحيح ينهي هدف الفصل فورًا ويمنح 99 نجمة — للاختبار، لا للعب الفعلي."
+
+msgid "Anything you've bought on this Google account comes back in a moment."
+msgstr "كل ما اشتريته بحساب Google هذا سيعود بعد لحظات."
+
+msgid "Auto"
+msgstr "تلقائي"
+
+msgid "Auto Speed"
+msgstr "سرعة التلقائي"
+
+msgid "Avalanche"
+msgstr "انهيار"
+
+msgid "BLOSSOMS"
+msgstr "الأزهار"
+
+msgid "Back"
+msgstr "رجوع"
+
+msgid "Back to the chapter"
+msgstr "العودة إلى الفصل"
+
+msgid "Back to the roster"
+msgstr "العودة إلى الدائرة"
+
+msgid "Balanced route"
+msgstr "طريق التوازن"
+
+msgid "Best chapter score"
+msgstr "أفضل نتيجة في فصل"
+
+msgid "Best combo"
+msgstr "أفضل سلسلة"
+
+msgid "Best daily challenge"
+msgstr "أفضل تحدٍّ يومي"
+
+msgid "Best date with %s"
+msgstr "أفضل موعد مع %s"
+
+msgid "Best value"
+msgstr "أفضل قيمة"
+
+msgid "Bigger text everywhere: dialogue, menus and the puzzle."
+msgstr "نص أكبر في كل مكان: الحوار والقوائم واللغز."
+
+msgid "Blossom! +%d"
+msgstr "زهرة! +%d"
+
+msgid "Blossoms"
+msgstr "الأزهار"
+
+msgid "Bookbinder"
+msgstr "مجلِّد الكتب"
+
+msgid "Boom!"
+msgstr "بوم!"
+
+msgid "Break 50 of Amara's seals."
+msgstr "اكسر 50 ختمًا لأمارا."
+
+msgid "Bring 10 comb pieces up for Marina."
+msgstr "ارفع 10 قطع مشط لمارينا."
+
+msgid "Buy"
+msgstr "اشترِ"
+
+msgid "Buy something in the Item Shop."
+msgstr "اشترِ شيئًا من متجر الأدوات."
+
+msgid "Buy · %d"
+msgstr "اشترِ · %d"
+
+msgid "Buy · %d ⭐"
+msgstr "اشترِ · %d ⭐"
+
+msgid "CHAPTER GOAL"
+msgstr "هدف الفصل"
+
+msgid "COMB PIECES"
+msgstr "قطع المشط"
+
+msgid "COMING UP"
+msgstr "قريبًا"
+
+msgid "Cancel"
+msgstr "إلغاء"
+
+msgid "Carry on without clearing this chapter (no stars for it)."
+msgstr "تابع دون إنهاء هذا الفصل (بلا نجوم له)."
+
+msgid "Chain Reaction"
+msgstr "تفاعل متسلسل"
+
+msgid "Chapter %d / %d"
+msgstr "الفصل %d / %d"
+
+msgid "Chapter %d · +%d"
+msgstr "الفصل %d · +%d"
+
+msgid "Chapter %d · +%d ⭐"
+msgstr "الفصل %d · +%d ⭐"
+
+msgid "Chapter cleared!"
+msgstr "انتهى الفصل!"
+
+msgid "Chapters cleared"
+msgstr "الفصول المنتهية"
+
+msgid "Charm Burst"
+msgstr "انفجار السحر"
+
+msgid "Charm Burst! +150"
+msgstr "انفجار السحر! +150"
+
+msgid "Charm Combo is for adults"
+msgstr "Charm Combo للبالغين"
+
+msgid "Charm halved"
+msgstr "السحر انتصف"
+
+msgid "Charm — fills as you match (her favorite gem fastest). Full = +150 Charm Burst."
+msgstr "السحر — يمتلئ مع التطابقات (أسرع مع جوهرتها المفضلة). ممتلئ = انفجار السحر +150."
+
+msgid "Charm — fills as you match (her favourite gem fastest). Full = one use of her power: %s"
+msgstr "السحر — يمتلئ مع التطابقات (أسرع مع جوهرتها المفضلة). ممتلئ = استخدام واحد لقوتها: %s"
+
+msgid "Chest of Stars"
+msgstr "صندوق نجوم"
+
+msgid "Chimes for matches, combos, and menus."
+msgstr "رنين للتطابقات والسلاسل والقوائم."
+
+msgid "Choose"
+msgstr "اختر"
+
+msgid "Clear Hazel's first chapter."
+msgstr "أنهِ فصل هيزل الأول."
+
+msgid "Clear Hazel's second chapter."
+msgstr "أنهِ فصل هيزل الثاني."
+
+msgid "Clear Hazel's third chapter."
+msgstr "أنهِ فصل هيزل الثالث."
+
+msgid "Clear a chapter with 5 or more moves left."
+msgstr "أنهِ فصلًا وتبقى لديك 5 حركات أو أكثر."
+
+msgid "Clear a cursed shard with the Hammer."
+msgstr "امسح شظية ملعونة بالمطرقة."
+
+msgid "Clear any chapter to unlock the daily challenge."
+msgstr "أنهِ أي فصل لتفتح تحدي اليوم."
+
+msgid "Clear the moss to find her things: buttons, marbles, keys, the glass eye. Find enough of them to win."
+msgstr "أزِل الطحلب لتجد أشياءها: أزرارًا، كرات زجاجية، مفاتيح، العين الزجاجية. اعثر على ما يكفي منها لتفوز."
+
+msgid "Click to view."
+msgstr "انقر للعرض."
+
+msgid "Click, Space or Enter: next line. Hold Ctrl or press Skip: skip lines you've read. A or Auto: lines play on by themselves. L, Log or scroll up: read back. H: hide the text on full-screen pictures. Text speed is in Settings."
+msgstr "النقر أو المسافة أو Enter: السطر التالي. اضغط مطولًا على Ctrl أو اضغط تخطٍّ: تتخطى الأسطر المقروءة. A أو تلقائي: تمضي الأسطر وحدها. L أو السجل أو التمرير للأعلى: إعادة القراءة. H: إخفاء النص على الصور بملء الشاشة. سرعة النص في الإعدادات."
+
+msgid "Close"
+msgstr "إغلاق"
+
+msgid "Close settings"
+msgstr "إغلاق الإعدادات"
+
+msgid "Comb pieces"
+msgstr "قطع المشط"
+
+msgid "Comb pieces brought up"
+msgstr "قطع المشط المرفوعة"
+
+msgid "Comb pieces rise when the gems above them clear."
+msgstr "ترتفع قطع المشط حين تُمسح الجواهر فوقها."
+
+msgid "Combo x%d!"
+msgstr "سلسلة x%d!"
+
+msgid "Combos"
+msgstr "السلاسل"
+
+msgid "Continue"
+msgstr "متابعة"
+
+msgid "Continue the story  ▸"
+msgstr "تابع القصة  ◂"
+
+msgid "Continue with %s"
+msgstr "تابع مع %s"
+
+msgid "Correct Lines"
+msgstr "تصحيح السطور"
+
+msgid "Correct Lines!"
+msgstr "تصحيح السطور!"
+
+msgid "Credits"
+msgstr "الشكر والتقدير"
+
+msgid "Crystal"
+msgstr "بلّورة"
+
+msgid "Cursed Shard"
+msgstr "شظية ملعونة"
+
+msgid "Cursed shards"
+msgstr "الشظايا الملعونة"
+
+msgid "Daily challenge"
+msgstr "تحدي اليوم"
+
+msgid "Daily challenge: %d pts"
+msgstr "تحدي اليوم: %d نقطة"
+
+msgid "Dark, cracked shards cost you points when they're part of a match. The Hammer smashes one for free."
+msgstr "الشظايا الداكنة المشروخة تخصم من نقاطك حين تدخل في تطابق. المطرقة تحطِّم واحدة مجانًا."
+
+msgid "Dialogue controls"
+msgstr "التحكم في الحوار"
+
+msgid "Difficulty"
+msgstr "الصعوبة"
+
+msgid "Dislikes"
+msgstr "لا تحب"
+
+msgid "Don't Even Think About It"
+msgstr "لا تفكر في ذلك حتى"
+
+msgid "Each chapter has a goal and a number of moves. At first it's points; from her third chapter it's something of hers to do on the board, and in her last both. Reach it before your moves run out and the story carries on. There's no timer: take as long as you like."
+msgstr "لكل فصل هدف وعدد من الحركات. في البداية يكون الهدف نقاطًا؛ ومن فصلها الثالث يصبح شيئًا تفعله لأجلها على اللوحة، وفي الأخير الاثنين معًا. حقِّقه قبل أن تنفد حركاتك فتستمر القصة. لا يوجد مؤقِّت: خذ وقتك."
+
+msgid "Each kind of gem shows a number, so you don't need colour to tell them apart."
+msgstr "يعرض كل نوع من الجواهر رقمًا، فلا تحتاج إلى الألوان لتمييزها."
+
+msgid "Easy"
+msgstr "سهل"
+
+msgid "Ember"
+msgstr "جمرة"
+
+msgid "End the date"
+msgstr "أنهِ الموعد"
+
+msgid "End this date and see your score."
+msgstr "أنهِ هذا الموعد وشاهد نتيجتك."
+
+msgid "Ending Gallery"
+msgstr "معرض النهايات"
+
+msgid "Ending: %s"
+msgstr "النهاية: %s"
+
+msgid "Endings"
+msgstr "النهايات"
+
+msgid "Every Day Counts"
+msgstr "كل يوم مهم"
+
+msgid "Every few moves something happens around you: the panel on her side says what and when. It might raise what it takes to win her over, turn gems into cursed shards, cost you a move or halve your Charm ring. Matching her favourite gem holds it off a move; a Charm Burst clears it."
+msgstr "كل بضع حركات يحدث شيء من حولكما: اللوحة في جانبها تخبرك ماذا ومتى. قد يرفع ما تحتاجه لتكسب قلبها، أو يحوِّل جواهر إلى شظايا ملعونة، أو يكلِّفك حركة، أو ينصِّف حلقة السحر. مطابقة جوهرتها المفضلة تؤجله حركة، وانفجار السحر يلغيه."
+
+msgid "Every girl has a favourite gem and one she dislikes (on her card in the roster, and at the top of her side in a chapter). Her favourite scores double and fills the Charm ring faster; the one she dislikes scores half."
+msgstr "لكل فتاة جوهرة مفضلة وأخرى لا تحبها (على بطاقتها في الدائرة، وفي أعلى جانبها أثناء الفصل). المفضلة تمنح ضعف النقاط وتملأ حلقة السحر أسرع، والتي لا تحبها تمنح نصف النقاط."
+
+msgid "Every match fills the Charm ring. In a girl's first chapter a full ring is a Charm Burst: +150 points. From her second chapter it's one use of her own power instead: its button lights up next to the ring, use it when you like. The ring fills again after."
+msgstr "كل تطابق يملأ حلقة السحر. في الفصل الأول لكل فتاة، الحلقة الممتلئة تعني انفجار السحر: +150 نقطة. ومن فصلها الثاني تصبح بدلًا من ذلك استخدامًا واحدًا لقوتها الخاصة: يضيء زرها بجانب الحلقة، فاستخدمه متى شئت. ثم تمتلئ الحلقة من جديد."
+
+msgid "Every seed and sprout on the board grows one stage."
+msgstr "تنمو كل بذرة وكل برعم على اللوحة مرحلة واحدة."
+
+msgid "Everything — music and sound effects."
+msgstr "كل شيء — الموسيقى والمؤثرات الصوتية."
+
+msgid "Fast"
+msgstr "سريعة"
+
+msgid "Fill the Charm ring for a Charm Burst."
+msgstr "املأ حلقة السحر لانفجار السحر."
+
+msgid "Fill the ring"
+msgstr "املأ الحلقة"
+
+msgid "Fill the whole screen. F11 toggles it anywhere."
+msgstr "املأ الشاشة كلها. يبدِّلها F11 في أي مكان."
+
+msgid "Find 30 of Opal's lost things under the moss."
+msgstr "اعثر على 30 من أشياء أوبال الضائعة تحت الطحلب."
+
+msgid "Finders Keepers"
+msgstr "من وجد احتفظ"
+
+msgid "Finish Hazel's story picking every warm reply."
+msgstr "أنهِ قصة هيزل باختيار كل رد دافئ."
+
+msgid "Finish Hazel's story teasing her in every reply."
+msgstr "أنهِ قصة هيزل وأنت تشاكسها في كل رد."
+
+msgid "Finish a daily challenge."
+msgstr "أنهِ تحديًا يوميًا."
+
+msgid "For bug reports: send the newest godot.log from this folder."
+msgstr "للإبلاغ عن الأخطاء: أرسِل أحدث ملف godot.log من هذا المجلد."
+
+msgid "For sticking with it: a free Time Scroll!"
+msgstr "لأنك لم تستسلم: لفافة زمن مجانية!"
+
+msgid "Found under the moss: %s"
+msgstr "وُجد تحت الطحلب: %s"
+
+msgid "Free date"
+msgstr "موعد حر"
+
+msgid "Free stars"
+msgstr "نجوم مجانية"
+
+msgid "Free: %s"
+msgstr "مجانًا: %s"
+
+msgid "Fullscreen"
+msgstr "ملء الشاشة"
+
+msgid "Gallery"
+msgstr "المعرض"
+
+msgid "Gem numbers"
+msgstr "أرقام الجواهر"
+
+msgid "Gems cleared"
+msgstr "الجواهر الممسوحة"
+
+msgid "Girls"
+msgstr "الفتيات"
+
+msgid "Give Hazel the Brass Pocket Sundial."
+msgstr "أهدِ هيزل المزولة النحاسية للجيب."
+
+msgid "Give her the %s"
+msgstr "أهدِها: %s"
+
+msgid "Google Play isn't reachable right now. Try again in a moment."
+msgstr "لا يمكن الوصول إلى Google Play الآن. حاول بعد قليل."
+
+msgid "Got it"
+msgstr "حسنًا"
+
+msgid "Grow 25 of Hazel's blossoms."
+msgstr "أنمِ 25 زهرة لهيزل."
+
+msgid "Grow enough seeds into blossoms to win. A new seed drops in every few moves."
+msgstr "أنمِ ما يكفي من البذور حتى تزهر لتفوز. تسقط بذرة جديدة كل بضع حركات."
+
+msgid "Hammer"
+msgstr "المطرقة"
+
+msgid "Handful of Stars"
+msgstr "حفنة نجوم"
+
+msgid "Hard"
+msgstr "صعب"
+
+msgid "Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Story difficulty comes with the Story Pass. Takes effect from the next chapter."
+msgstr "صعب: كل بضع حركات يحدث شيء في موعدك (موجة فوق الرصيف، الشموع تخفت)، ويُعلَن مسبقًا. صعوبة القصة تأتي مع تذكرة القصة. يسري من الفصل التالي."
+
+msgid "Hard: things happen on your date"
+msgstr "صعب: تحدث أشياء في موعدك"
+
+msgid "Hazel's blossoms grown"
+msgstr "أزهار هيزل المتفتحة"
+
+msgid "Hazel's power: Summer"
+msgstr "قوة هيزل: الصيف"
+
+msgid "Hazel: grow blossoms"
+msgstr "هيزل: أنبِت الأزهار"
+
+msgid "Hazel: seeds"
+msgstr "هيزل: البذور"
+
+msgid "Hear the girls speak their lines."
+msgstr "اسمع الفتيات ينطقن أسطرهن."
+
+msgid "Hearts left: %d / %d"
+msgstr "القلوب المتبقية: %d / %d"
+
+msgid "Hearts: %d / %d"
+msgstr "القلوب: %d / %d"
+
+msgid "Hearts: losing a chapter costs one, and they come back over time."
+msgstr "القلوب: خسارة فصل تكلِّف قلبًا، وتعود مع الوقت."
+
+msgid "Her board with no move limit, just for fun and a high score."
+msgstr "لوحتها بلا حد للحركات، للمتعة وتحقيق رقم قياسي فقط."
+
+msgid "Her ending"
+msgstr "نهايتها"
+
+msgid "Her favourite gem scores double and fills Charm faster; the one she dislikes scores half."
+msgstr "جوهرتها المفضلة تمنح ضعف النقاط وتملأ السحر أسرع، والتي لا تحبها تمنح نصف النقاط."
+
+msgid "Her gift"
+msgstr "هديتها"
+
+msgid "Her gift: more of her favourite gem"
+msgstr "هديتها: المزيد من جوهرتها المفضلة"
+
+msgid "Her night scene"
+msgstr "مشهدها الليلي"
+
+msgid "Her powers used"
+msgstr "القوى المستخدمة"
+
+msgid "Her story carries on as if you'd cleared it. You don't get its stars."
+msgstr "تستمر قصتها كأنك أنهيته. لن تحصل على نجومه."
+
+msgid "Her story starts over from your first meeting, so you can make different choices. Endings you've found stay in the Gallery, your gift stays given, and her chapters pay out stars again."
+msgstr "تبدأ قصتها من جديد من لقائكما الأول، فتستطيع أن تختار اختيارات مختلفة. النهايات التي وجدتها تبقى في المعرض، وتبقى هديتك مقدَّمة، وتمنح فصولها النجوم من جديد."
+
+msgid "Hide text"
+msgstr "إخفاء النص"
+
+msgid "High Tide"
+msgstr "المدّ العالي"
+
+msgid "High Tide!"
+msgstr "المدّ العالي!"
+
+msgid "Home"
+msgstr "الرئيسية"
+
+msgid "How fast dialogue types out."
+msgstr "مدى سرعة ظهور الحوار."
+
+msgid "How long Auto waits after each line (left = quicker)."
+msgstr "كم ينتظر الوضع التلقائي بعد كل سطر (اليسار = أسرع)."
+
+msgid "How loud the background music plays."
+msgstr "مدى علوِّ موسيقى الخلفية."
+
+msgid "How loud their voices play."
+msgstr "مدى علوِّ أصواتهن."
+
+msgid "How to Play"
+msgstr "طريقة اللعب"
+
+msgid "I'm 18 or older"
+msgstr "عمري 18 عامًا أو أكثر"
+
+msgid "In Full Bloom"
+msgstr "في تمام الإزهار"
+
+msgid "In her chapters everything floats: gems rise, and new ones come up from the bottom."
+msgstr "في فصولها يطفو كل شيء: الجواهر ترتفع، والجديدة تأتي من الأسفل."
+
+msgid "Instant"
+msgstr "فورية"
+
+msgid "Irresistible"
+msgstr "لا يُقاوَم"
+
+msgid "It has sexual content, including intimate scenes, and suggestive art. All characters are adults.\n\nPlease only continue if you're 18 or older, or the age of majority where you live."
+msgstr "تحتوي على محتوى جنسي، يشمل مشاهد حميمة، ورسومًا موحية. جميع الشخصيات بالغة.\n\nيُرجى المتابعة فقط إن كان عمرك 18 عامًا أو أكثر، أو سن الرشد حيث تعيش."
+
+msgid "Item Bundle"
+msgstr "حزمة الأدوات"
+
+msgid "Item Shop"
+msgstr "متجر الأدوات"
+
+msgid "Items"
+msgstr "الأدوات"
+
+msgid "Just Because"
+msgstr "هكذا فحسب"
+
+msgid "Keep voices on"
+msgstr "إبقاء الأصوات"
+
+msgid "Keeping Time"
+msgstr "حفظ الوقت"
+
+msgid "Language"
+msgstr "اللغة"
+
+msgid "Large"
+msgstr "كبير"
+
+msgid "Larger"
+msgstr "أكبر"
+
+msgid "Leave"
+msgstr "مغادرة"
+
+msgid "Leave this chapter?"
+msgstr "أتغادر هذا الفصل؟"
+
+msgid "Leave to Roster"
+msgstr "العودة إلى الدائرة"
+
+msgid "Leaves Going Red"
+msgstr "أوراق تحمرّ"
+
+msgid "Leaving a chapter you've started costs a heart."
+msgstr "مغادرة فصل بدأته تكلِّفك قلبًا."
+
+msgid "Let Skip race through lines you haven't read yet, too."
+msgstr "اجعل التخطي يمرُّ سريعًا عبر الأسطر التي لم تقرأها بعد أيضًا."
+
+msgid "Lines carry on by themselves (A)"
+msgstr "تمضي الأسطر وحدها (A)"
+
+msgid "Log"
+msgstr "السجل"
+
+msgid "Losing a chapter costs a heart, and one comes back every %d minutes."
+msgstr "خسارة فصل تكلِّف قلبًا، ويعود قلب كل %d دقيقة."
+
+msgid "Love Potion"
+msgstr "جرعة الحب"
+
+msgid "Love Potion active!"
+msgstr "جرعة الحب مفعَّلة!"
+
+msgid "Loves"
+msgstr "تحب"
+
+msgid "MOVES"
+msgstr "الحركات"
+
+msgid "Made with Godot Engine"
+msgstr "صُنعت بمحرك Godot"
+
+msgid "Main menu"
+msgstr "القائمة الرئيسية"
+
+msgid "Make 1000 matches."
+msgstr "اصنع 1000 تطابق."
+
+msgid "Make a Starburst."
+msgstr "اصنع انفجار النجوم."
+
+msgid "Marina's power: High Tide"
+msgstr "قوة مارينا: المدّ العالي"
+
+msgid "Marina: the pearl comb"
+msgstr "مارينا: مشط اللؤلؤ"
+
+msgid "Marina: the tide"
+msgstr "مارينا: المدّ"
+
+msgid "Master Volume"
+msgstr "مستوى الصوت العام"
+
+msgid "Match 4 in a row to make a Rocket, which clears its row or column. Match 5, or an L or T shape, to make a Starburst. Swap a special gem to set it off; swap two together for a Mega Blast."
+msgstr "طابِق 4 في صف لتصنع صاروخًا يمسح صفه أو عموده. طابِق 5، أو شكل L أو T، لتصنع انفجار النجوم. حرِّك جوهرة خاصة لتفجيرها، وبدِّل جوهرتين خاصتين معًا لانفجار هائل."
+
+msgid "Match crystals, Opal's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Love Potion brings more of them."
+msgstr "طابِق البلورات، مفضَّلة أوبال: تملأ حلقة السحر بضعف السرعة، وفي الصعب تؤجِّل ما هو قادم. جرعة الحب تجلب المزيد منها."
+
+msgid "Match pearls, Marina's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Time Scroll buys back lost moves."
+msgstr "طابِق اللآلئ، مفضَّلة مارينا: تملأ حلقة السحر بضعف السرعة، وفي الصعب تؤجِّل ما هو قادم. لفافة الزمن تستعيد الحركات الضائعة."
+
+msgid "Match petals, Hazel's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards."
+msgstr "طابِق البتلات، مفضَّلة هيزل: تملأ حلقة السحر بضعف السرعة، وفي الصعب تؤجِّل ما هو قادم. جرعة الشفاء تعني شظايا ملعونة أقل."
+
+msgid "Match runes, Amara's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards."
+msgstr "طابِق الرونات، مفضَّلة أمارا: تملأ حلقة السحر بضعف السرعة، وفي الصعب تؤجِّل ما هو قادم. جرعة الشفاء تعني شظايا ملعونة أقل."
+
+msgid "Matches made"
+msgstr "التطابقات"
+
+msgid "Meet Hazel instead of cutting her tree down."
+msgstr "التقِ بهيزل بدلًا من قطع شجرتها."
+
+msgid "Meet her"
+msgstr "التقِ بها"
+
+msgid "Mega Blast"
+msgstr "انفجار هائل"
+
+msgid "Mega Blast!"
+msgstr "انفجار هائل!"
+
+msgid "Mending Potion"
+msgstr "جرعة الشفاء"
+
+msgid "Mending Potion active!"
+msgstr "جرعة الشفاء مفعَّلة!"
+
+msgid "Messages stay longer"
+msgstr "الرسائل تبقى أطول"
+
+msgid "Millbrook Circle"
+msgstr "دائرة ميلبروك"
+
+msgid "Moonstone"
+msgstr "حجر القمر"
+
+msgid "More"
+msgstr "المزيد"
+
+msgid "Moss grows under some cells. A match, blast or Hammer on the cell clears it, and some moss hides one of her lost things."
+msgstr "ينمو الطحلب تحت بعض الخانات. التطابق أو الانفجار أو المطرقة على الخانة يزيله، وبعض الطحالب يخفي أحد أشيائها الضائعة."
+
+msgid "Move"
+msgstr "تحرَّك"
+
+msgid "Moves left this chapter"
+msgstr "الحركات المتبقية في هذا الفصل"
+
+msgid "Music"
+msgstr "الموسيقى"
+
+msgid "Neither of you notices what was coming."
+msgstr "لم يلحظ أيٌّ منكما ما كان قادمًا."
+
+msgid "Next"
+msgstr "التالي"
+
+msgid "Next heart in %s"
+msgstr "القلب التالي بعد %s"
+
+msgid "Night scene"
+msgstr "المشهد الليلي"
+
+msgid "No Ads"
+msgstr "بلا إعلانات"
+
+msgid "No ads between chapters or under the menus, ever. Reward videos become one tap: the reward, no video."
+msgstr "لا إعلانات بين الفصول ولا تحت القوائم، أبدًا. تصبح فيديوهات المكافأة لمسة واحدة: المكافأة بلا فيديو."
+
+msgid "No moves left — reshuffling!"
+msgstr "لا حركات متبقية — نعيد الخلط!"
+
+msgid "Normal"
+msgstr "عادية"
+
+msgid "Not bought"
+msgstr "لم يتم الشراء"
+
+msgid "Not found yet"
+msgstr "لم تُكتشف بعد"
+
+msgid "Not found yet: finish her story to unlock it."
+msgstr "لم تُكتشف بعد: أنهِ قصتها لتفتحها."
+
+msgid "Not met yet"
+msgstr "لم تلتقيا بعد"
+
+msgid "Not now"
+msgstr "ليس الآن"
+
+msgid "Not unlocked yet"
+msgstr "لم يُفتح بعد"
+
+msgid "Nothing here yet — finish a girl's story to add her ending."
+msgstr "لا شيء هنا بعد — أنهِ قصة فتاة لتضيف نهايتها."
+
+msgid "Nothing yet."
+msgstr "لا شيء بعد."
+
+msgid "Offers appear here once Google Play is reachable."
+msgstr "تظهر العروض هنا حين يصبح Google Play متاحًا."
+
+msgid "Once you've cleared her first chapter, her card on the roster has a gift for her. Give it and her favourite gem shows up more often in all her chapters, for good."
+msgstr "بعد أن تنهي فصلها الأول، تظهر على بطاقتها في الدائرة هدية لها. قدِّمها وستظهر جوهرتها المفضلة أكثر في كل فصولها، إلى الأبد."
+
+msgid "One wave and the whole board is dealt again, always with a move to make."
+msgstr "تلويحة واحدة وتُوزَّع اللوحة كلها من جديد، دائمًا مع حركة ممكنة."
+
+msgid "Opal's power: Absorb"
+msgstr "قوة أوبال: الامتصاص"
+
+msgid "Opal's things found"
+msgstr "أشياء أوبال الموجودة"
+
+msgid "Opal: her lost collection"
+msgstr "أوبال: مجموعتها الضائعة"
+
+msgid "Opal: moss"
+msgstr "أوبال: الطحلب"
+
+msgid "Open log folder"
+msgstr "افتح مجلد السجلات"
+
+msgid "Original characters · all characters are adults."
+msgstr "شخصيات أصلية · جميع الشخصيات بالغة."
+
+msgid "Ouch!"
+msgstr "آخ!"
+
+msgid "Out in the Storm"
+msgstr "في العاصفة"
+
+msgid "Out of Moves"
+msgstr "نفدت الحركات"
+
+msgid "Out of hearts"
+msgstr "نفدت القلوب"
+
+msgid "Out of moves"
+msgstr "نفدت الحركات"
+
+msgid "Owned"
+msgstr "تملكه"
+
+msgid "Owned: %d"
+msgstr "لديك: %d"
+
+msgid "Pearl"
+msgstr "لؤلؤة"
+
+msgid "Petal"
+msgstr "بتلة"
+
+msgid "Pick a gem to pop."
+msgstr "اختر جوهرة لتفجيرها."
+
+msgid "Pick a gem!"
+msgstr "اختر جوهرة!"
+
+msgid "Pick a gem."
+msgstr "اختر جوهرة."
+
+msgid "Pick a gem: every gem of that colour is cleared."
+msgstr "اختر جوهرة: تُمسح كل جواهر ذلك اللون."
+
+msgid "Pick a gem: its whole row and column clear."
+msgstr "اختر جوهرة: يُمسح صفها وعمودها كاملين."
+
+msgid "Pick up"
+msgstr "التقاط"
+
+msgid "Pictures"
+msgstr "الصور"
+
+msgid "Pictures appear here as you meet the girls and reach their endings."
+msgstr "تظهر الصور هنا كلما التقيت الفتيات ووصلت إلى نهاياتهن."
+
+msgid "Pieces of Gran's comb start near the bottom. They can't be matched or moved: clear the gems above them and they rise. One that reaches the top row is yours."
+msgstr "تبدأ قطع مشط الجدة قرب القاع. لا يمكن مطابقتها أو تحريكها: امسح الجواهر فوقها فترتفع. القطعة التي تبلغ الصف العلوي تصبح لك."
+
+msgid "Play"
+msgstr "العب"
+
+msgid "Play a chapter you've cleared again, for stars. Her story stays where it is."
+msgstr "العب فصلًا أنهيته مجددًا مقابل النجوم. تبقى قصتها حيث هي."
+
+msgid "Play a chapter you've cleared again, for stars. No story scenes, and her story stays where it is."
+msgstr "العب فصلًا أنهيته مجددًا مقابل النجوم. بلا مشاهد قصة، وتبقى قصتها حيث هي."
+
+msgid "Play as much as you like for 24 hours."
+msgstr "العب قدر ما تشاء لمدة 24 ساعة."
+
+msgid "Play it again"
+msgstr "العب مجددًا"
+
+msgid "Play time"
+msgstr "وقت اللعب"
+
+msgid "Pop any one gem, no match needed. Arm it from the item row, then tap a gem."
+msgstr "فجِّر أي جوهرة دون حاجة إلى تطابق. جهِّزها من صف الأدوات، ثم المس جوهرة."
+
+msgid "Pop-up messages and her speech bubble in a chapter stay on screen longer. Dialogue always waits for you unless Auto is on."
+msgstr "الرسائل المنبثقة وفقاعة كلامها في الفصل تبقى على الشاشة مدة أطول. الحوار ينتظرك دائمًا ما لم يكن الوضع التلقائي مفعَّلًا."
+
+msgid "Popular"
+msgstr "رائج"
+
+msgid "Pouch of Stars"
+msgstr "كيس نجوم"
+
+msgid "Press her power button (or 4), then pick a gem: every gem of that colour is cleared, and the moss under them."
+msgstr "اضغط زر قوتها (أو 4)، ثم اختر جوهرة: تُمسح كل جواهر ذلك اللون، ومعها الطحلب تحتها."
+
+msgid "Press her power button (or 4), then pick a gem: its whole row and column clear. Seals in them break."
+msgstr "اضغط زر قوتها (أو 4)، ثم اختر جوهرة: يُمسح صفها وعمودها كاملين، وتنكسر الأختام فيهما."
+
+msgid "Press her power button (or 4): every seed and sprout on the board grows one stage."
+msgstr "اضغط زر قوتها (أو 4): تنمو كل بذرة وكل برعم على اللوحة مرحلة واحدة."
+
+msgid "Press her power button (or 4): the two rows nearest the surface clear, and everything rises two rows."
+msgstr "اضغط زر قوتها (أو 4): يُمسح الصفان الأقرب إلى السطح، ويرتفع كل شيء صفين."
+
+msgid "Put down"
+msgstr "وضع"
+
+msgid "Putting Down Roots"
+msgstr "مدُّ الجذور"
+
+msgid "Quit"
+msgstr "خروج"
+
+msgid "Reach Hazel's ending."
+msgstr "اصل إلى نهاية هيزل."
+
+msgid "Reach her goal"
+msgstr "حقِّق هدفها"
+
+msgid "Read back (L, or scroll up)"
+msgstr "أعِد القراءة (L، أو التمرير للأعلى)"
+
+msgid "Read it for three more moves in the chapter you're playing. Use it from the item row under the board — it also gets you out of an Out of Moves screen."
+msgstr "اقرأها لتحصل على ثلاث حركات إضافية في الفصل الذي تلعبه. استخدمها من صف الأدوات تحت اللوحة — وهي تخرجك أيضًا من شاشة «نفدت الحركات»."
+
+msgid "Ready!"
+msgstr "جاهز!"
+
+msgid "Reduce Motion"
+msgstr "تقليل الحركة"
+
+msgid "Refill all · %d ⭐"
+msgstr "املأ الكل · %d ⭐"
+
+msgid "Remove ads · %s"
+msgstr "إزالة الإعلانات · %s"
+
+msgid "Replay"
+msgstr "إعادة"
+
+msgid "Replay %s's story?"
+msgstr "أتعيد قصة %s؟"
+
+msgid "Replay a chapter"
+msgstr "أعِد فصلًا"
+
+msgid "Replay her night scene."
+msgstr "أعِد مشاهدة مشهدها الليلي."
+
+msgid "Replay story"
+msgstr "أعِد القصة"
+
+msgid "Reply"
+msgstr "رد"
+
+msgid "Reset Progress"
+msgstr "إعادة ضبط التقدم"
+
+msgid "Reset all progress?"
+msgstr "أتعيد ضبط كل التقدم؟"
+
+msgid "Reset everything"
+msgstr "أعِد ضبط كل شيء"
+
+msgid "Restore purchases"
+msgstr "استعادة المشتريات"
+
+msgid "Retry Chapter"
+msgstr "أعِد الفصل"
+
+msgid "Revisit"
+msgstr "زُرها مجددًا"
+
+msgid "Rune"
+msgstr "رون"
+
+msgid "Running out of moves still pays 1 star for every 200 points you scored (at least 3)."
+msgstr "نفاد الحركات يمنح مع ذلك نجمة لكل 200 نقطة سجَّلتها (3 على الأقل)."
+
+msgid "Running out still pays you a few stars. Try again, read a Time Scroll, or visit the shop. Later chapters are hard without power-ups: short on stars, replay a chapter you've cleared from her card on the roster. Lose three times in a row and you can carry on with the story anyway."
+msgstr "حتى عندما تنفد حركاتك تنال بعض النجوم. حاول مجددًا، أو اقرأ لفافة الزمن، أو زُر المتجر. الفصول الأخيرة صعبة من دون مساعدات: إن قلَّت نجومك، أعِد فصلًا أنهيته من بطاقتها في الدائرة. اخسر ثلاث مرات متتالية وستتمكن من متابعة القصة على أي حال."
+
+msgid "SCORE"
+msgstr "النتيجة"
+
+msgid "SEALS BROKEN"
+msgstr "الأختام المكسورة"
+
+msgid "Score 2000 on a free date."
+msgstr "سجِّل 2000 نقطة في موعد حر."
+
+msgid "Scroll"
+msgstr "تمرير"
+
+msgid "Sealed. Match it by moving the gems beside it."
+msgstr "مختومة. طابِقها بتحريك الجواهر المجاورة."
+
+msgid "Seals broken"
+msgstr "الأختام المكسورة"
+
+msgid "See the whole picture (H)"
+msgstr "شاهد الصورة كاملة (H)"
+
+msgid "Seeds can't be moved. Make matches next to them to make them grow."
+msgstr "لا يمكن تحريك البذور. اصنع تطابقات بجانبها لتنمو."
+
+msgid "Seeds sit on the board and fall like gems, but can't be moved or matched. Every match right next to one grows it: seed, sprout, blossom. A blossom pops: +100 and the cells around it clear. Ember matches don't count: she dislikes ember."
+msgstr "البذور على اللوحة وتسقط كالجواهر، لكن لا يمكن تحريكها أو مطابقتها. كل تطابق بجانبها مباشرة يجعلها تنمو: بذرة، برعم، زهرة. الزهرة تنفجر: +100 وتُمسح الخانات حولها. تطابقات الجمر لا تُحسب: إنها لا تحب الجمر."
+
+msgid "Select"
+msgstr "تحديد"
+
+msgid "Set off a x3 combo."
+msgstr "أطلِق سلسلة x3."
+
+msgid "Set off a x5 combo."
+msgstr "أطلِق سلسلة x5."
+
+msgid "Settings"
+msgstr "الإعدادات"
+
+msgid "Shard Smasher"
+msgstr "محطِّم الشظايا"
+
+msgid "Shard smashed!"
+msgstr "تحطمت الشظية!"
+
+msgid "Shop"
+msgstr "المتجر"
+
+msgid "Short on stars? Replay a chapter you've cleared, from her card on the roster: it pays half."
+msgstr "نجومك قليلة؟ أعِد فصلًا أنهيته من بطاقتها في الدائرة: يمنح النصف."
+
+msgid "Shorter animations, calmer feedback."
+msgstr "رسوم متحركة أقصر، وتأثيرات أهدأ."
+
+msgid "Shuffle Wand"
+msgstr "عصا الخلط"
+
+msgid "Skip"
+msgstr "تخطٍّ"
+
+msgid "Skip Unread Lines"
+msgstr "تخطي الأسطر غير المقروءة"
+
+msgid "Skip any chapter, carry on after any loss, and 8 hearts instead of 5."
+msgstr "تخطَّ أي فصل، وتابع بعد أي خسارة، و8 قلوب بدلًا من 5."
+
+msgid "Skip chapter"
+msgstr "تخطَّ الفصل"
+
+msgid "Skip chapter  ▸"
+msgstr "تخطَّ الفصل  ◂"
+
+msgid "Skip every line up to the next reply, read or not"
+msgstr "تخطَّ كل الأسطر حتى الرد التالي، مقروءة أو لا"
+
+msgid "Skip it with the Story Pass  ▸"
+msgstr "تخطَّه بتذكرة القصة  ◂"
+
+msgid "Skip lines you've read (hold Ctrl)"
+msgstr "تخطَّ الأسطر المقروءة (اضغط مطولًا على Ctrl)"
+
+msgid "Skip this chapter?"
+msgstr "أتتخطى هذا الفصل؟"
+
+msgid "Skip unread"
+msgstr "تخطَّ غير المقروء"
+
+msgid "Skips this chapter's puzzle: no stars for it."
+msgstr "يتخطى لغز هذا الفصل: بلا نجوم له."
+
+msgid "Slow"
+msgstr "بطيئة"
+
+msgid "Soft as Moss"
+msgstr "ناعمة كالطحلب"
+
+msgid "Some gems carry her ink seal. A sealed gem can't be picked up, but it still counts in a match you make by moving the gems beside it. The first match, blast or Hammer breaks the seal and the gem stays."
+msgstr "بعض الجواهر تحمل ختمها الحبري. لا يمكن تحريك الجوهرة المختومة، لكنها تُحسب في تطابق تصنعه بتحريك الجواهر المجاورة. أول تطابق أو انفجار أو ضربة مطرقة يكسر الختم وتبقى الجوهرة."
+
+msgid "Something about to happen on your date. Matching her favourite gem holds it off a move; a Charm Burst clears it."
+msgstr "شيء على وشك الحدوث في موعدك. مطابقة جوهرتها المفضلة تؤجله حركة، وانفجار السحر يلغيه."
+
+msgid "Sound Effects"
+msgstr "المؤثرات الصوتية"
+
+msgid "Spark route"
+msgstr "طريق الشرارة"
+
+msgid "Special gems"
+msgstr "جواهر خاصة"
+
+msgid "Special gems made"
+msgstr "الجواهر الخاصة المصنوعة"
+
+msgid "Splinters"
+msgstr "شظايا خشب"
+
+msgid "Starburst Starter"
+msgstr "بداية انفجار النجوم"
+
+msgid "Starburst Starter active!"
+msgstr "بداية انفجار النجوم مفعَّلة!"
+
+msgid "Stars come from clearing chapters: 15 for a girl's first and 5 more for each one after it."
+msgstr "تأتي النجوم من إنهاء الفصول: 15 لأول فصل لكل فتاة، و5 إضافية لكل فصل بعده."
+
+msgid "Stars — earned by clearing chapters, spent in the Item Shop and on gifts."
+msgstr "النجوم — تكسبها بإنهاء الفصول، وتنفقها في متجر الأدوات وعلى الهدايا."
+
+msgid "Starstruck"
+msgstr "مأخوذ بالنجوم"
+
+msgid "Start her story over from the beginning"
+msgstr "ابدأ قصتها من جديد من البداية"
+
+msgid "Starter Pack"
+msgstr "حزمة البداية"
+
+msgid "Stats"
+msgstr "الإحصاءات"
+
+msgid "Stop here. This scene plays again next time you visit her."
+msgstr "توقَّف هنا. سيُعاد هذا المشهد في زيارتك القادمة لها."
+
+msgid "Store"
+msgstr "المتجر"
+
+msgid "Story"
+msgstr "القصة"
+
+msgid "Story Pass"
+msgstr "تذكرة القصة"
+
+msgid "Story Pass: 8 hearts and free skips · %s"
+msgstr "تذكرة القصة: 8 قلوب وتخطٍّ مجاني · %s"
+
+msgid "Story difficulty: carry on with the story without playing this chapter (no stars for it)."
+msgstr "صعوبة القصة: تابع القصة دون لعب هذا الفصل (بلا نجوم له)."
+
+msgid "Story: twice the moves, and you can skip any chapter. Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Takes effect from the next chapter."
+msgstr "القصة: ضعف الحركات، ويمكنك تخطي أي فصل. صعب: كل بضع حركات يحدث شيء في موعدك (موجة فوق الرصيف، الشموع تخفت)، ويُعلَن مسبقًا. يسري من الفصل التالي."
+
+msgid "Summer"
+msgstr "الصيف"
+
+msgid "Summer!"
+msgstr "الصيف!"
+
+msgid "Swap"
+msgstr "تبديل"
+
+msgid "Swap and match"
+msgstr "بدِّل وطابِق"
+
+msgid "Swap two gems next to each other to line up three or more of the same kind. Matched gems pop and score points; new ones fall in from the top."
+msgstr "بدِّل جوهرتين متجاورتين لتصطف ثلاث أو أكثر من النوع نفسه. تنفجر الجواهر المتطابقة وتمنحك نقاطًا، وتسقط جواهر جديدة من الأعلى."
+
+msgid "Swap two special gems together."
+msgstr "بدِّل جوهرتين خاصتين معًا."
+
+msgid "THINGS FOUND"
+msgstr "الأشياء الموجودة"
+
+msgid "TIP"
+msgstr "نصيحة"
+
+msgid "Tap a gem!"
+msgstr "المس جوهرة!"
+
+msgid "Test purchase"
+msgstr "شراء تجريبي"
+
+msgid "Testing Mode"
+msgstr "وضع الاختبار"
+
+msgid "Text Speed"
+msgstr "سرعة النص"
+
+msgid "Text size"
+msgstr "حجم النص"
+
+msgid "Thanks for playing the demo!"
+msgstr "شكرًا لأنك لعبت النسخة التجريبية!"
+
+msgid "The Time Scroll (three more moves), the Hammer (smash any one gem) and the Shuffle Wand (a new board) sit under the board. Buy them, and potions that help a whole chapter, in the Item Shop with the stars you earn."
+msgstr "لفافة الزمن (ثلاث حركات إضافية) والمطرقة (تحطِّم أي جوهرة) وعصا الخلط (لوحة جديدة) تحت اللوحة. اشترِها، ومعها جرعات تساعدك طوال الفصل، من متجر الأدوات بالنجوم التي تكسبها."
+
+msgid "The comb piece can't be hammered. Bring it up to the surface."
+msgstr "لا يمكن ضرب قطعة المشط بالمطرقة. ارفعها إلى السطح."
+
+msgid "The full game has four stories: Hazel's, and three more women of Millbrook to meet in the worst way possible. Each has four chapters, her night scene and her ending."
+msgstr "اللعبة الكاملة فيها أربع قصص: قصة هيزل، وثلاث نساء أخريات من ميلبروك تلتقيهن بأسوأ طريقة ممكنة. لكل واحدة أربعة فصول، ومشهدها الليلي، ونهايتها."
+
+msgid "The game's text. Voices stay in English."
+msgstr "نص اللعبة. تبقى الأصوات بالإنجليزية."
+
+msgid "The girls are voiced by amateur voice actresses, recorded at home. We love how they turned out, but they aren't studio recordings, and not every line is voiced yet.\n\nIf you'd rather read in your own head, turn the voices off. You can change this any time in Settings."
+msgstr "أدَّت أصوات الفتيات ممثلات هاويات سجَّلن في بيوتهن. نحب النتيجة كثيرًا، لكنها ليست تسجيلات استوديو، ولم تُسجَّل كل الأسطر بعد.\n\nإن كنت تفضِّل القراءة في ذهنك، أوقِف الأصوات. يمكنك تغيير ذلك في أي وقت من الإعدادات."
+
+msgid "The purchase couldn't start (%s)."
+msgstr "تعذَّر بدء الشراء (%s)."
+
+msgid "The purchase didn't go through (%s)."
+msgstr "لم يكتمل الشراء (%s)."
+
+msgid "The store isn't available in this build."
+msgstr "المتجر غير متاح في هذه النسخة."
+
+msgid "The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts."
+msgstr "الصف العلوي يُستخدم أثناء الفصل، والسفلي يعمل وحده حين يبدأ فصلك التالي."
+
+msgid "The two rows nearest the surface clear, and everything rises two rows."
+msgstr "يُمسح الصفان الأقرب إلى السطح، ويرتفع كل شيء صفين."
+
+msgid "These unlock on Steam too."
+msgstr "تُفتح هذه على Steam أيضًا."
+
+msgid "Things found"
+msgstr "الأشياء الموجودة"
+
+msgid "This erases every girl's story progress, your stars, items, gifts and the whole Gallery. Your settings and achievements are kept. This can't be undone."
+msgstr "هذا يمحو تقدم قصة كل فتاة، ونجومك، وأدواتك، وهداياك، والمعرض كاملًا. تبقى إعداداتك وإنجازاتك. لا يمكن التراجع عن هذا."
+
+msgid "This is a test build: no money changes hands. Buy %s for %s?"
+msgstr "هذه نسخة تجريبية: لا يُدفع أي مال. أتشتري %s مقابل %s؟"
+
+msgid "Time Scroll"
+msgstr "لفافة الزمن"
+
+msgid "To find the book, break every seal on the board. The counter under the board shows how many are done."
+msgstr "لتجد الكتاب، اكسر كل الأختام على اللوحة. العدّاد تحت اللوحة يبيِّن كم كُسر منها."
+
+msgid "Today's challenge"
+msgstr "تحدي اليوم"
+
+msgid "Toggle"
+msgstr "تبديل"
+
+msgid "Treasure Diver"
+msgstr "غوَّاص الكنوز"
+
+msgid "Treasury of Stars"
+msgstr "كنز النجوم"
+
+msgid "Try: %s"
+msgstr "جرِّب: %s"
+
+msgid "Turn voices off"
+msgstr "إيقاف الأصوات"
+
+msgid "Unlimited Hearts"
+msgstr "قلوب غير محدودة"
+
+msgid "Unlimited for 24 hours · %s"
+msgstr "غير محدود لمدة 24 ساعة · %s"
+
+msgid "Unlimited hearts: %s left"
+msgstr "قلوب غير محدودة: متبقٍّ %s"
+
+msgid "Use a Time Scroll"
+msgstr "استخدم لفافة الزمن"
+
+msgid "Vibration"
+msgstr "الاهتزاز"
+
+msgid "Voice Acting"
+msgstr "الأداء الصوتي"
+
+msgid "Voice Volume"
+msgstr "مستوى صوت الأصوات"
+
+msgid "Watch a video: %s"
+msgstr "شاهد فيديو: %s"
+
+msgid "What a date!"
+msgstr "يا له من موعد!"
+
+msgid "What do you say?"
+msgstr "بماذا تجيب؟"
+
+msgid "What she likes"
+msgstr "ما الذي تحبه"
+
+msgid "When falling gems make new matches on their own, that's a combo. Each link in the chain scores more than the last."
+msgstr "حين تصنع الجواهر المتساقطة تطابقات جديدة من تلقاء نفسها، فتلك سلسلة. كل حلقة فيها تمنح أكثر من سابقتها."
+
+msgid "Window Shopping"
+msgstr "تسوُّق بالنظر"
+
+msgid "Wishlist on Steam"
+msgstr "أضِف إلى قائمة الأمنيات على Steam"
+
+msgid "With Moves to Spare"
+msgstr "بحركات فائضة"
+
+msgid "You"
+msgstr "أنت"
+
+msgid "You already have this."
+msgstr "لديك هذا بالفعل."
+
+msgid "You can close this tab now."
+msgstr "يمكنك إغلاق هذه النافذة الآن."
+
+msgid "You have %d"
+msgstr "لديك %d"
+
+msgid "You need %d more stars."
+msgstr "تحتاج %d نجمة إضافية."
+
+msgid "You needed %d more points."
+msgstr "كنت تحتاج %d نقطة إضافية."
+
+msgid "Your best: %d"
+msgstr "أفضل نتيجة لك: %d"
+
+msgid "Your next chapter begins with a free Starburst gem already on the board."
+msgstr "يبدأ فصلك التالي بجوهرة انفجار نجوم مجانية على اللوحة."
+
+msgid "Your next chapter: far fewer cursed shards appear on the board."
+msgstr "فصلك التالي: شظايا ملعونة أقل بكثير على اللوحة."
+
+msgid "Your next chapter: her favorite gem shows up more often, her least favorite less."
+msgstr "فصلك التالي: تظهر جوهرتها المفضلة أكثر، والأقل حبًّا إليها أقل."
+
+msgid "Your purchase is pending. It arrives as soon as Google Play confirms it."
+msgstr "عملية الشراء معلَّقة. ستصل حالما يؤكدها Google Play."
+
+msgid "Your replies"
+msgstr "ردودك"
+
+msgid "a button"
+msgstr "زر"
+
+msgid "a key"
+msgstr "مفتاح"
+
+msgid "a marble"
+msgstr "كرة زجاجية"
+
+msgid "after your next move"
+msgstr "بعد حركتك التالية"
+
+msgid "best %d"
+msgstr "الأفضل %d"
+
+msgid "double it to %d ⭐"
+msgstr "ضاعِفها إلى %d ⭐"
+
+msgid "in %d moves"
+msgstr "بعد %d حركات"
+
+msgid "one more daily try"
+msgstr "محاولة يومية أخرى"
+
+msgid "the glass eye"
+msgstr "العين الزجاجية"
+
+msgid "←  Back"
+msgstr "→  رجوع"
+
+msgid "←  Back to the chapter"
+msgstr "→  العودة إلى الفصل"
+
+msgid "←  Menu"
+msgstr "→  القائمة"
+
+msgid "←  Roster"
+msgstr "→  الدائرة"

@@ -1,0 +1,243 @@
+# Hazel — Français (brouillon, round 52)
+@@ hazel-0001
+Hazel Mossgrove
+@@ hazel-0002
+Dryade du vieux noisetier
+@@ hazel-0003
+« N'y pense même pas. »
+@@ hazel-0004
+Des pétales. Bien. Ça, je comprends.
+@@ hazel-0005
+Mm. Celui-là sent avril.
+@@ hazel-0006
+Doucement. Comme ça.
+@@ hazel-0007
+Tu es doué avec les choses douces.
+@@ hazel-0008
+Floraison.
+@@ hazel-0009
+C'est joli. Continue.
+@@ hazel-0010
+Du feu. Dans un bosquet. Sérieusement ?
+@@ hazel-0011
+Éteins ça.
+@@ hazel-0012
+Non. J'ai vu ce que ça fait.
+@@ hazel-0013
+Je vais faire comme si je n'avais rien vu.
+@@ hazel-0014
+Attention à mes feuilles avec ça.
+@@ hazel-0015
+Plus lentement. Je t'entends paniquer.
+@@ hazel-0016
+Quarante ans, j'ai dit. Fais attention où tu frappes.
+@@ hazel-0017
+Tu as de la boue sur le visage. Laisse. Ça te va bien.
+@@ hazel-0018
+Mieux que le dernier que le meunier a envoyé.
+@@ hazel-0019
+Je ne te regarde pas. Je fais de la photosynthèse.
+@@ hazel-0020
+Prends ton temps. J'ai à peu près trois cents ans devant moi.
+@@ hazel-0021
+Cadran solaire de poche en laiton
+@@ hazel-0022
+Un cadran solaire pliant en laiton, assez petit pour une poche. Il ne donne l'heure que les jours de soleil, qui sont, selon elle, les seuls jours où on en a besoin.
+@@ hazel-0023
+Elle te le fait tenir dans la seule tache de soleil qui traverse ses feuilles, et regarde l'ombre longtemps.
+@@ hazel-0024
+Une horloge qui ne marche que quand il y a du soleil.
+@@ hazel-0025
+Le vert au bout de ses cheveux fonce d'un ton. Elle le remarque, et décide de ne rien dire.
+@@ hazel-0026
+Je le garderai sur une branche basse où je peux le voir. Non, je ne m'en servirai pas pour compter le temps jusqu'à notre prochaine rencontre.
+@@ hazel-0027
+Le vieux noisetier se dresse là où le bosquet rejoint le bief du moulin. Il est si grand que le mur arrière du moulin a commencé à se courber autour de ses racines.
+@@ hazel-0028
+Tu es nouveau en ville et tu prends tous les boulots qui paient. Le meunier t'a payé la moitié d'avance pour abattre l'arbre. Tu choisis un endroit du tronc qui a l'air bien, tu te campes sur tes pieds et tu lèves la hache.
+@@ hazel-0029
+N'y pense même pas.
+@@ hazel-0030
+Il y a une femme assise sur la branche la plus basse, là où tu es sûr qu'il n'y avait personne une seconde plus tôt. Ses cheveux passent de l'or au vert, et sous le genou ses jambes deviennent écorce.
+@@ hazel-0031
+Elle regarde la hache, puis l'endroit du tronc que tu visais.
+@@ hazel-0032
+Tu aurais frappé juste sous mon cœur. Il aurait fallu... quarante ans environ pour guérir.
+@@ hazel-0033
+Tu regardes d'elle au tronc, puis de nouveau elle. Son cœur est donc dans l'arbre. Alors qu'y a-t-il dans sa poitrine ? Sent-elle chaque pic-vert ? L'arbre, c'est elle, ou est-elle la façon dont l'arbre parle ? Ça n'a pas l'air d'être le moment de demander.
+@@ hazel-0034
+C'est le meunier qui t'envoie ? Il envoie quelqu'un chaque printemps.
+@@ hazel-0035
+Tu baisses la hache. Au bout d'un moment, tu la poses dans l'herbe.
+@@ hazel-0036
+Oh, tu la poses. La plupart discutent d'abord.
+@@ hazel-0037
+J'ai dû faire tomber une branche sur le dernier, mais ne t'inquiète pas, ton visage est trop joli.
+@@ hazel-0038
+Tu lui parles du mur. Ses racines le fissurent, et quand il cédera, le meunier perdra son moulin.
+@@ hazel-0039
+Je suis au courant pour le mur. Mes racines vont là où est l'eau. Je ne peux pas le contrôler.
+@@ hazel-0040
+Si quelqu'un lui creusait un nouveau canal, plus loin, je pourrais le suivre. Il faudrait une saison.
+@@ hazel-0041
+Je vais le creuser. Montre-moi où.
+@@ hazel-0042
+Tout le printemps, à la main ? Je suppose que je vais devoir m'habituer à toi.
+@@ hazel-0043
+Une feuille tombe dans tes cheveux. Il n'y a pas de vent.
+@@ hazel-0044
+Commence par l'aulne, et retrousse tes manches.
+@@ hazel-0045
+Je vais creuser. Mais je garde l'argent du meunier.
+@@ hazel-0046
+Cupide. Oh, alors tu vas te faire payer par lui pour m'aider ? Ça me plaît.
+@@ hazel-0047
+Commence par l'aulne. Je vais profiter de la vue.
+@@ hazel-0048
+Tu creuses jusqu'au coucher du soleil. La tranchée finit à peu près de la longueur d'un cercueil, ce qu'elle fait remarquer deux fois.
+@@ hazel-0049
+Une belle tranchée. Pour une tombe.
+@@ hazel-0050
+En sortant, tu t'appuies contre le tronc pour reprendre ton souffle. L'écorce est rugueuse et fraîche sous ta main.
+@@ hazel-0051
+Oh, tu es chaud... Personne ne m'a touchée sans hache depuis des années.
+@@ hazel-0052
+Tu commences à retirer ta main. Elle dit que tu n'es pas obligé.
+@@ hazel-0053
+Laisse-la là une minute. Ça fait longtemps.
+@@ hazel-0054
+Depuis combien de temps es-tu seule ici ?
+@@ hazel-0055
+Depuis que le bosquet était une forêt. Deux cents ans, à une sécheresse près.
+@@ hazel-0056
+Ce n'est pas si terrible, mais certains animaux sont... d'une compagnie à peine supportable.
+@@ hazel-0057
+Si j'avais su que ça te plaisait, je serais venu plus tôt.
+@@ hazel-0058
+Tu es venu avec une hache.
+@@ hazel-0059
+Mais je te le passe. Apporte quand même la pelle demain.
+@@ hazel-0060
+Quatrième jour. Le bruit court que quelqu'un creuse près du vieux noisetier au lieu de l'abattre. La fille du meunier t'apporte à déjeuner, et tu la raccompagnes jusqu'à la passerelle.
+@@ hazel-0061
+À ton retour, une branche craque au-dessus de toi d'une façon qui semble très délibérée.
+@@ hazel-0062
+Les fougères me disent que tu parlais avec la fille du meunier. Je ne suis pas jalouse. Mais je pourrais faire tomber une branche près d'elle, c'est tout.
+@@ hazel-0063
+Une brindille tombe, très précisément, dans ton déjeuner.
+@@ hazel-0064
+Son père est passé ce matin. Il te laisse jusqu'à la fin du mois. Après, il engage quelqu'un avec une scie.
+@@ hazel-0065
+Creuse plus vite. J'aimerais voir un autre printemps.
+@@ hazel-0066
+Elle était juste aimable. C'est pour toi que je viens ici.
+@@ hazel-0067
+Je sais. Tu es quand même parti quarante minutes, non que j'aie compté.
+@@ hazel-0068
+Mange ton déjeuner. Je suis sûre que son pain est très bon. Je n'en sais rien.
+@@ hazel-0069
+Tu n'es pas jalouse ? Tes feuilles rougissent.
+@@ hazel-0070
+C'est l'automne.
+@@ hazel-0071
+On est en avril.
+@@ hazel-0072
+Creuse ta tranchée. Manches retroussées !
+@@ hazel-0073
+La tranchée atteint la rivière une nuit d'orage. L'eau s'engouffre dans le nouveau canal, et tout l'arbre frissonne.
+@@ hazel-0074
+Ça va. Ce ne sont que des racines. Elles doivent lâcher le vieux mur, même si ça fait mal.
+@@ hazel-0075
+Tu t'assois le dos contre le tronc pendant qu'il pleut. De temps en temps, elle pousse un petit bruit, et tu poses la main à plat sur l'écorce. Sous ta paume, juste à l'endroit où tu aurais frappé avec la hache, quelque chose bat dans le bois. Voilà qui répond à la question.
+@@ hazel-0076
+Tu trembles. Approche, il y a un creux dans le tronc à ta taille.
+@@ hazel-0077
+Parle-moi. De n'importe quoi. Ta voix m'aide à tenir.
+@@ hazel-0078
+Raconte-moi le bosquet quand c'était une forêt.
+@@ hazel-0079
+Il y avait des loups. Et une famille de bûcherons qui chantait en travaillant. Je les aimais bien, même si c'étaient des bûcherons.
+@@ hazel-0080
+Elle parle jusqu'à ce que l'orage passe. Tu t'endors contre elle avant qu'elle ait fini, et elle n'a pas l'air de s'en offusquer.
+@@ hazel-0081
+Tu es encore chaud. Bien.
+@@ hazel-0082
+Je vais énumérer tous les gens de la ville sur qui tu aimerais faire tomber une branche.
+@@ hazel-0083
+Commence par le boulanger. Il s'appuie contre moi quand il fume.
+@@ hazel-0084
+Elle rit, et une averse d'eau de pluie tombe de ses feuilles sur ta tête.
+@@ hazel-0085
+Puis le meunier. Puis encore le meunier.
+@@ hazel-0086
+À la fin du mois, le vieux mur a cessé de se fissurer. Le nouveau bief coule bien, et Aldous Brock reste longtemps sur la berge, son chapeau à la main.
+@@ hazel-0087
+Il te dit de garder l'argent. Puis il s'approche et tapote le tronc du noisetier, maladroitement, comme un homme qui s'excuse auprès d'un cheval.
+@@ hazel-0088
+Il n'a jamais fait ça. Quarante printemps, et il n'avait jamais fait ça.
+@@ hazel-0089
+Cette nuit-là, elle descend de sa branche et s'avance dans l'herbe, plus loin que tu ne l'as jamais vue aller.
+@@ hazel-0090
+Je peux marcher aussi loin que vont mes racines. Elles vont loin, maintenant. Grâce à quelqu'un.
+@@ hazel-0091
+La mousse du côté est est plus douce qu'elle n'en a l'air.
+@@ hazel-0092
+Reste cette nuit. Je te protégerai de la pluie.
+@@ hazel-0093
+Tu restes.
+@@ hazel-0094
+La mousse du côté est est plus douce qu'elle n'en a l'air. Au-dessus de toi, ses branches se sont déployées et entrelacées, et la première pluie tapote contre les feuilles sans passer au travers.
+@@ hazel-0095
+Deux cents printemps que je regarde les gens passer devant cet arbre. Pas un seul ne s'est jamais allongé dessous.
+@@ hazel-0096
+Les animaux regardent. Je leur ai dit de partir. Personne ne m'écoute dans ce bosquet.
+@@ hazel-0097
+Ses mains sont chaudes maintenant. Elles étaient froides la première fois que tu as touché l'écorce. Elle voit que tu le remarques.
+@@ hazel-0098
+C'est toi. C'est toi qui as fait ça. Un mois à t'appuyer contre moi, les manches retroussées.
+@@ hazel-0099
+Elle t'attire vers elle par ta chemise. Ses cheveux tombent autour de vous deux, dorés en haut et verts aux pointes, et ils sentent la pluie.
+@@ hazel-0100
+Dis-moi si je m'y prends mal. J'ai lu là-dessus dans exactement un livre, et un bûcheron l'a fait tomber ici avant qu'on construise le moulin.
+@@ hazel-0101
+Doucement. J'ai tout le temps du monde, et j'aimerais en passer un peu à ça.
+@@ hazel-0102
+Après, tu restes allongé dans la mousse, ses cheveux en travers de ta poitrine. Au-dessus, chaque feuille de son côté est s'est retournée face pâle vers le haut, comme avant un orage. Il n'y a pas d'orage.
+@@ hazel-0103
+Ne me... regarde pas comme ça.
+@@ hazel-0104
+Il pleut toute la nuit. Pas une goutte ne t'atteint.
+@@ hazel-0105
+Hors saison
+@@ hazel-0106
+Le bief coule et le vieux noisetier garde ses racines. Tu plantes un autre noisetier à côté du nouveau canal, et il pousse plus vite qu'il n'en a le droit, penché vers le vieil arbre comme s'il écoutait. Tu dors dans le bosquet plus souvent qu'à ton tour, et le vieux noisetier fleurit à la mauvaise saison, à chaque saison, ce que le meunier présente maintenant aux gens comme un porte-bonheur.
+@@ hazel-0107
+Le matin dans le bosquet. Il y a des fleurs du côté est de l'arbre qui n'étaient pas là hier soir. Les noisetiers fleurissent en février. On est en mai.
+@@ hazel-0108
+Deux cents ans, et personne ne m'avait dit qu'un esprit pouvait ressentir ça. Je tiens à ce qu'il soit noté que je dis ça très calmement.
+@@ hazel-0109
+Ne les regarde pas. Elles ne sont pas pour toi. Elles sont de saison.
+@@ hazel-0110
+Bon. Elles sont pour toi. Je n'avais pas fleuri hors saison depuis avant la construction du moulin. Les animaux vont jaser.
+@@ hazel-0111
+Le vieux noisetier à l'aube, en pleine floraison, en mai.
+@@ hazel-0112
+Elle te montre sur quelles branches tu peux t'asseoir et lesquelles la chatouillent. La deuxième liste est longue.
+@@ hazel-0113
+Celle-là, ça va. Celle-là, ça va. Pas celle-là. Je suis sérieuse. Non.
+@@ hazel-0114
+Plante quelque chose près de moi. Pour qu'il y ait quelque chose de toi ici quand tu n'y es pas.
+@@ hazel-0115
+Un jeune arbre à côté du nouveau bief, un ruban noué autour.
+@@ hazel-0116
+Tu dis un autre noisetier, pour qu'elle ne soit pas la seule.
+@@ hazel-0117
+Des feuilles mortes tombent
+@@ hazel-0118
+Le meunier passe
+@@ hazel-0119
+Il commence à pleuvoir
+@@ hazel-0120
+Été
+@@ hazel-0121
+Chaque graine et chaque pousse du plateau grandit d'un stade.

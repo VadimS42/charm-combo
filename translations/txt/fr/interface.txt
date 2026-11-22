@@ -1,0 +1,955 @@
+# Interface — Français (brouillon, round 52)
+@@ ui-0001
+Braise
+@@ ui-0002
+Pierre de lune
+@@ ui-0003
+Pétale
+@@ ui-0004
+Perle
+@@ ui-0005
+Rune
+@@ ui-0006
+Cristal
+@@ ui-0007
+Éclat maudit
+@@ ui-0008
+Échanger et aligner
+@@ ui-0009
+Échange deux gemmes voisines pour en aligner trois ou plus du même type. Les gemmes alignées éclatent et rapportent des points ; de nouvelles tombent par le haut.
+@@ ui-0010
+Atteins son objectif
+@@ ui-0011
+Chaque chapitre a un objectif et un nombre de coups. D'abord des points ; à partir de son troisième chapitre, quelque chose à faire pour elle sur le plateau, et dans le dernier, les deux. Atteins-le avant d'être à court de coups et l'histoire continue. Pas de chrono : prends tout ton temps.
+@@ ui-0012
+Ce qu'elle aime
+@@ ui-0013
+Chaque fille a une gemme préférée et une qu'elle n'aime pas (sur sa carte dans le cercle, et en haut de son côté pendant un chapitre). Sa préférée rapporte double et remplit plus vite l'anneau de Charme ; celle qu'elle n'aime pas rapporte moitié moins.
+@@ ui-0014
+Son cadeau
+@@ ui-0015
+Une fois son premier chapitre réussi, sa carte dans le cercle propose un cadeau pour elle. Offre-le et sa gemme préférée apparaîtra plus souvent dans tous ses chapitres, pour de bon.
+@@ ui-0016
+Explosion de Charme
+@@ ui-0017
+Chaque alignement remplit l'anneau de Charme. Dans le premier chapitre d'une fille, un anneau plein donne une Explosion de Charme : +150 points. À partir de son deuxième chapitre, c'est plutôt une utilisation de son propre pouvoir : son bouton s'allume à côté de l'anneau, utilise-le quand tu veux. L'anneau se remplit ensuite à nouveau.
+@@ ui-0018
+Gemmes spéciales
+@@ ui-0019
+Aligne 4 gemmes pour créer une Fusée, qui vide sa ligne ou sa colonne. Aligne-en 5, ou en forme de L ou de T, pour créer une Supernova. Déplace une gemme spéciale pour la déclencher ; échanges-en deux ensemble pour une Méga-explosion.
+@@ ui-0020
+Combos
+@@ ui-0021
+Quand les gemmes qui tombent forment d'elles-mêmes de nouveaux alignements, c'est un combo. Chaque maillon de la chaîne rapporte plus que le précédent.
+@@ ui-0022
+Éclats maudits
+@@ ui-0023
+Les éclats sombres et fêlés te coûtent des points quand ils font partie d'un alignement. Le Marteau en brise un gratuitement.
+@@ ui-0024
+Objets
+@@ ui-0025
+Le Parchemin du temps (trois coups de plus), le Marteau (brise n'importe quelle gemme) et la Baguette de mélange (un nouveau plateau) se trouvent sous le plateau. Achète-les, ainsi que des potions qui aident pendant tout un chapitre, à la Boutique avec les étoiles que tu gagnes.
+@@ ui-0026
+Difficile : il se passe des choses pendant ton rendez-vous
+@@ ui-0027
+Tous les quelques coups, quelque chose arrive autour de vous : le panneau de son côté indique quoi et quand. Ça peut augmenter ce qu'il faut pour la séduire, changer des gemmes en éclats maudits, te coûter un coup ou réduire de moitié ton anneau de Charme. Aligner sa gemme préférée repousse l'événement d'un coup ; une Explosion de Charme l'annule.
+@@ ui-0028
+Amara : pages scellées
+@@ ui-0029
+Certaines gemmes portent son sceau d'encre. Une gemme scellée ne peut pas être déplacée, mais elle compte quand même dans un alignement que tu fais en bougeant les gemmes voisines. Le premier alignement, explosion ou coup de Marteau brise le sceau, et la gemme reste.
+@@ ui-0030
+Amara : brise tous les sceaux
+@@ ui-0031
+Pour trouver le livre, brise tous les sceaux du plateau. Le compteur sous le plateau indique combien c'est fait.
+@@ ui-0032
+Pouvoir d'Amara : Lignes corrigées
+@@ ui-0033
+Appuie sur son bouton de pouvoir (ou 4), puis choisis une gemme : toute sa ligne et sa colonne se vident. Les sceaux qui s'y trouvent se brisent.
+@@ ui-0034
+Marina : la marée
+@@ ui-0035
+Dans ses chapitres, tout flotte : les gemmes montent, et les nouvelles arrivent par le bas.
+@@ ui-0036
+Marina : le peigne de perles
+@@ ui-0037
+Les morceaux du peigne de Mamie commencent près du fond. On ne peut ni les aligner ni les déplacer : vide les gemmes au-dessus et ils remontent. Celui qui atteint la ligne du haut est à toi.
+@@ ui-0038
+Pouvoir de Marina : Grande marée
+@@ ui-0039
+Appuie sur son bouton de pouvoir (ou 4) : les deux lignes les plus proches de la surface se vident, et tout remonte de deux lignes.
+@@ ui-0040
+Opal : la mousse
+@@ ui-0041
+De la mousse pousse sous certaines cases. Un alignement, une explosion ou un coup de Marteau sur la case l'enlève, et certaines mousses cachent un de ses objets perdus.
+@@ ui-0042
+Opal : sa collection perdue
+@@ ui-0043
+Enlève la mousse pour retrouver ses affaires : boutons, billes, clés, l'œil de verre. Trouves-en assez pour gagner.
+@@ ui-0044
+Pouvoir d'Opal : Absorption
+@@ ui-0045
+Appuie sur son bouton de pouvoir (ou 4), puis choisis une gemme : toutes les gemmes de cette couleur disparaissent, ainsi que la mousse en dessous.
+@@ ui-0046
+Hazel : les graines
+@@ ui-0047
+Les graines sont sur le plateau et tombent comme des gemmes, mais on ne peut ni les déplacer ni les aligner. Chaque alignement juste à côté d'une graine la fait grandir : graine, pousse, fleur. Une fleur éclate : +100 et les cases autour se vident. Les alignements de braises ne comptent pas : elle n'aime pas la braise.
+@@ ui-0048
+Hazel : fais éclore des fleurs
+@@ ui-0049
+Fais grandir assez de graines jusqu'à la fleur pour gagner. Une nouvelle graine tombe tous les quelques coups.
+@@ ui-0050
+Pouvoir de Hazel : Été
+@@ ui-0051
+Appuie sur son bouton de pouvoir (ou 4) : chaque graine et chaque pousse du plateau grandit d'un stade.
+@@ ui-0052
+Tes réponses
+@@ ui-0053
+Après chaque chapitre, tu choisis une réponse. Une réponse tendre commence son chapitre suivant avec des points bonus (deux coups de plus quand le chapitre n'a que son objectif) ; une réponse taquine coûte quelques points, mais elle aime ça aussi.
+@@ ui-0054
+À court de coups
+@@ ui-0055
+Même quand tu échoues, tu gagnes quelques étoiles. Réessaie, lis un Parchemin du temps ou passe à la Boutique. Les derniers chapitres sont durs sans bonus : à court d'étoiles, rejoue un chapitre réussi depuis sa carte dans le cercle. Perds trois fois de suite et tu pourras quand même continuer l'histoire.
+@@ ui-0056
+Commandes des dialogues
+@@ ui-0057
+Clic, Espace ou Entrée : réplique suivante. Maintiens Ctrl ou appuie sur Passer : passe les répliques déjà lues. A ou Auto : les répliques défilent seules. L, Journal ou molette vers le haut : relire. H : cacher le texte sur les images plein écran. La vitesse du texte se règle dans les Paramètres.
+@@ ui-0058
+Comment jouer
+@@ ui-0059
+Compris
+@@ ui-0060
+Toutes les règles
+@@ ui-0061
+Étoiles — gagnées en réussissant des chapitres, dépensées à la Boutique et en cadeaux.
+@@ ui-0062
+Cœurs : perdre un chapitre en coûte un, et ils reviennent avec le temps.
+@@ ui-0063
+Paramètres
+@@ ui-0064
+Déplacer
+@@ ui-0065
+Choisir
+@@ ui-0066
+Annuler
+@@ ui-0067
+Basculer
+@@ ui-0068
+Fermer
+@@ ui-0069
+Sélectionner
+@@ ui-0070
+Retour
+@@ ui-0071
+Défi du jour : %d pts
+@@ ui-0072
+Défi du jour
+@@ ui-0073
+un essai de plus au défi du jour
+@@ ui-0074
+Un nouveau plateau chaque jour, le même pour tout le monde : %d coups, un seul essai. Reviens demain pour le suivant.
+@@ ui-0075
+Réussis n'importe quel chapitre pour débloquer le défi du jour.
+@@ ui-0076
+Fermer les paramètres
+@@ ui-0077
+Merci d'avoir joué à la démo !
+@@ ui-0078
+Le jeu complet compte quatre histoires : celle de Hazel, et trois autres femmes de Millbrook à rencontrer de la pire façon possible. Chacune a quatre chapitres, sa scène de nuit et sa fin.
+@@ ui-0079
+Menu principal
+@@ ui-0080
+Ajouter à la liste de souhaits Steam
+@@ ui-0081
+SUCCÈS DÉBLOQUÉ
+@@ ui-0082
+←  Retour
+@@ ui-0083
+Succès
+@@ ui-0084
+Ils se débloquent aussi sur Steam.
+@@ ui-0085
+Défiler
+@@ ui-0086
+Charm Combo est réservé aux adultes
+@@ ui-0087
+Il contient du contenu sexuel, dont des scènes intimes, et des illustrations suggestives. Tous les personnages sont majeurs.
+
+Ne continue que si tu as 18 ans ou plus, ou l'âge de la majorité là où tu vis.
+@@ ui-0088
+Quitter
+@@ ui-0089
+Tu peux fermer cet onglet.
+@@ ui-0090
+J'ai 18 ans ou plus
+@@ ui-0091
+À propos des voix
+@@ ui-0092
+Les filles sont doublées par des comédiennes amatrices, enregistrées chez elles. Nous adorons le résultat, mais ce ne sont pas des enregistrements de studio, et toutes les répliques ne sont pas encore doublées.
+
+Si tu préfères lire dans ta tête, coupe les voix. Tu peux changer ça à tout moment dans les Paramètres.
+@@ ui-0093
+Couper les voix
+@@ ui-0094
+Garder les voix
+@@ ui-0095
+Crédits
+@@ ui-0096
+Réalisé avec Godot Engine
+@@ ui-0097
+Continuer
+@@ ui-0098
+Temps de jeu
+@@ ui-0099
+Chapitres réussis
+@@ ui-0100
+Alignements faits
+@@ ui-0101
+Gemmes éliminées
+@@ ui-0102
+Meilleur combo
+@@ ui-0103
+Meilleur score de chapitre
+@@ ui-0104
+Gemmes spéciales créées
+@@ ui-0105
+Pouvoirs utilisés
+@@ ui-0106
+Sceaux d'Amara brisés
+@@ ui-0107
+Morceaux de peigne remontés
+@@ ui-0108
+Objets d'Opal retrouvés
+@@ ui-0109
+Fleurs de Hazel écloses
+@@ ui-0110
+Meilleur rendez-vous avec %s
+@@ ui-0111
+Meilleur défi du jour
+@@ ui-0112
+Sa scène de nuit
+@@ ui-0113
+Les images apparaissent ici à mesure que tu rencontres les filles et atteins leurs fins.
+@@ ui-0114
+Pas encore débloqué
+@@ ui-0115
+Sa fin
+@@ ui-0116
+Voie de l'étincelle
+@@ ui-0117
+Voie de l'équilibre
+@@ ui-0118
+Scène de nuit
+@@ ui-0119
+Fins
+@@ ui-0120
+Images
+@@ ui-0121
+Musique
+@@ ui-0122
+Statistiques
+@@ ui-0123
+Galerie des fins
+@@ ui-0124
+Galerie
+@@ ui-0125
+Rien pour l'instant — termine l'histoire d'une fille pour ajouter sa fin.
+@@ ui-0126
+Revoir sa scène de nuit.
+@@ ui-0127
+Revoir
+@@ ui-0128
+Clique pour voir.
+@@ ui-0129
+Pas encore trouvée : termine son histoire pour la débloquer.
+@@ ui-0130
+Pas encore trouvée
+@@ ui-0131
+Une romance match-3 pour adultes, à Millbrook, une ville crépusculaire où vivent des êtres fantastiques. Rencontre quatre femmes de la pire façon possible, aide-les dans ce dont elles ont besoin, et vois où la nuit vous mène.
+@@ ui-0132
+Jouer
+@@ ui-0133
+Boutique
+@@ ui-0134
+Quitter
+@@ ui-0135
+Personnages originaux · tous les personnages sont majeurs.
+@@ ui-0136
+18+ · personnages originaux · tous les personnages sont majeurs.
+@@ ui-0137
+Sceaux brisés
+@@ ui-0138
+Morceaux de peigne
+@@ ui-0139
+Objets trouvés
+@@ ui-0140
+Fleurs
+@@ ui-0141
+Supernova de départ activée !
+@@ ui-0142
+Philtre d'amour activé !
+@@ ui-0143
+Potion de guérison activée !
+@@ ui-0144
+Son cadeau : plus de sa gemme préférée
+@@ ui-0145
++2 coups — belle réponse !
+@@ ui-0146
++%d pts — belle réponse !
+@@ ui-0147
+Prendre
+@@ ui-0148
+Échanger
+@@ ui-0149
+Poser
+@@ ui-0150
+Finir le rendez-vous
+@@ ui-0151
+Termine ce rendez-vous et vois ton score.
+@@ ui-0152
+Quel rendez-vous !
+@@ ui-0153
+Le défi du jour
+@@ ui-0154
+Nouveau record !
+@@ ui-0155
+Ton record : %d
+@@ ui-0156
+Un autre rendez-vous
+@@ ui-0157
+Passer le chapitre  ▸
+@@ ui-0158
+Difficulté Histoire : continue l'histoire sans jouer ce chapitre (pas d'étoiles pour lui).
+@@ ui-0159
+Passer ce chapitre ?
+@@ ui-0160
+Son histoire continue comme si tu l'avais réussi. Tu ne reçois pas ses étoiles.
+@@ ui-0161
+Passer le chapitre
+@@ ui-0162
+←  Le cercle
+@@ ui-0163
+Coups restants dans ce chapitre
+@@ ui-0164
+OBJECTIF DU CHAPITRE
+@@ ui-0165
+Charme — se remplit à chaque alignement (plus vite avec sa gemme préférée). Plein = Explosion de Charme +150.
+@@ ui-0166
+Charme — se remplit à chaque alignement (plus vite avec sa gemme préférée). Plein = une utilisation de son pouvoir : %s
+@@ ui-0167
+Sa gemme préférée rapporte double et remplit plus vite le Charme ; celle qu'elle n'aime pas rapporte moitié moins.
+@@ ui-0168
+Touche une gemme !
+@@ ui-0169
+Choisis une gemme à faire éclater.
+@@ ui-0170
++%d pour la séduire
+@@ ui-0171
+-1 coup
+@@ ui-0172
+Charme divisé par deux
+@@ ui-0173
+après ton prochain coup
+@@ ui-0174
+dans %d coups
+@@ ui-0175
+Il va se passer quelque chose pendant ton rendez-vous. Aligner sa gemme préférée le repousse d'un coup ; une Explosion de Charme l'annule.
+@@ ui-0176
+BIENTÔT
+@@ ui-0177
+record %d
+@@ ui-0178
+Chapitre %d / %d
+@@ ui-0179
+Un rendez-vous libre
+@@ ui-0180
+Choisis une gemme.
+@@ ui-0181
+Le morceau de peigne ne peut pas être cassé au Marteau. Fais-le remonter à la surface.
+@@ ui-0182
+Boum !
+@@ ui-0183
+Éclat brisé !
+@@ ui-0184
+Scellée. Aligne-la en déplaçant les gemmes à côté.
+@@ ui-0185
+Les graines ne se déplacent pas. Fais des alignements à côté pour les faire grandir.
+@@ ui-0186
+Les morceaux de peigne remontent quand les gemmes au-dessus disparaissent.
+@@ ui-0187
+Méga-explosion !
+@@ ui-0188
+Une nouvelle graine tombe.
+@@ ui-0189
+Plus aucun coup possible — on mélange !
+@@ ui-0190
+Un morceau de peigne ! %d / %d
+@@ ui-0191
+Un morceau de peigne !
+@@ ui-0192
+Fleur ! +%d
+@@ ui-0193
+Trouvé sous la mousse : %s
+@@ ui-0194
+un bouton
+@@ ui-0195
+une bille
+@@ ui-0196
+une clé
+@@ ui-0197
+l'œil de verre
+@@ ui-0198
+Aïe !
+@@ ui-0199
+Combo x%d !
+@@ ui-0200
+Explosion de Charme ! +150
+@@ ui-0201
+Aucun de vous deux ne voit venir ce qui arrivait.
+@@ ui-0202
+Choisis une gemme !
+@@ ui-0203
+Prêt !
+@@ ui-0204
+Remplis l'anneau
+@@ ui-0205
+Chapitre réussi !
+@@ ui-0206
+Rejouer
+@@ ui-0207
+Boutique
+@@ ui-0208
+Retour au cercle
+@@ ui-0209
+Quitter ce chapitre ?
+@@ ui-0210
+Quitter un chapitre commencé coûte un cœur.
+@@ ui-0211
+À court de coups
+@@ ui-0212
+Il te manquait %d points.
+@@ ui-0213
++%d ⭐ pour l'effort
+@@ ui-0214
+Pour ta persévérance : un Parchemin du temps offert !
+@@ ui-0215
+1 étoile tous les 200 points. Économise pour des bonus à la Boutique, puis réessaie !
+@@ ui-0216
+Un conseil
+@@ ui-0217
+Essaie : %s
+@@ ui-0218
++%d ⭐ pour t'aider
+@@ ui-0219
++%d coups
+@@ ui-0220
+Cœurs restants : %d / %d
+@@ ui-0221
+Utiliser un Parchemin du temps
+@@ ui-0222
+Recommencer le chapitre
+@@ ui-0223
+Le passer avec le Pass Histoire  ▸
+@@ ui-0224
+Continuer l'histoire  ▸
+@@ ui-0225
+Continuer sans réussir ce chapitre (pas d'étoiles pour lui).
+@@ ui-0226
+Passe le puzzle de ce chapitre : pas d'étoiles pour lui.
+@@ ui-0227
+←  Menu
+@@ ui-0228
+Le cercle de Millbrook
+@@ ui-0229
+Adore
+@@ ui-0230
+N'aime pas
+@@ ui-0231
+Pas encore rencontrée
+@@ ui-0232
+Fin : %s
+@@ ui-0233
+La rencontrer
+@@ ui-0234
+Retourner la voir
+@@ ui-0235
+Recommencer son histoire depuis le début
+@@ ui-0236
+Rejouer l'histoire de %s ?
+@@ ui-0237
+Son histoire recommence depuis votre première rencontre, pour que tu puisses faire d'autres choix. Les fins trouvées restent dans la Galerie, ton cadeau reste offert, et ses chapitres rapportent à nouveau des étoiles.
+@@ ui-0238
+Rejouer l'histoire
+@@ ui-0239
+Rendez-vous libre
+@@ ui-0240
+Son plateau sans limite de coups, juste pour le plaisir et un record.
+@@ ui-0241
+Rejouer un chapitre
+@@ ui-0242
+Rejoue un chapitre réussi pour des étoiles. Son histoire reste où elle en est.
+@@ ui-0243
+Rejoue un chapitre réussi pour des étoiles. Pas de scènes d'histoire, et son histoire reste où elle en est.
+@@ ui-0244
+Chapitre %d · +%d ⭐
+@@ ui-0245
+Chapitre %d · +%d
+@@ ui-0246
+Lui offrir : %s
+@@ ui-0247
+Ensuite, sa gemme préférée apparaît plus souvent dans tous ses chapitres, pour de bon.
+@@ ui-0248
+(Il te manque %d étoiles.)
+@@ ui-0249
+Langue
+@@ ui-0250
+Le texte du jeu. Les voix restent en anglais.
+@@ ui-0251
+Effets sonores
+@@ ui-0252
+Carillons pour les alignements, les combos et les menus.
+@@ ui-0253
+Volume général
+@@ ui-0254
+Tout — musique et effets sonores.
+@@ ui-0255
+Le volume de la musique de fond.
+@@ ui-0256
+Doublage
+@@ ui-0257
+Entendre les filles dire leurs répliques.
+@@ ui-0258
+Volume des voix
+@@ ui-0259
+Le volume de leurs voix.
+@@ ui-0260
+Difficulté
+@@ ui-0261
+Histoire : deux fois plus de coups, et tu peux passer n'importe quel chapitre. Difficile : tous les quelques coups, il se passe quelque chose pendant ton rendez-vous (une vague sur la jetée, les bougies vacillent), annoncé à l'avance. Prend effet au prochain chapitre.
+@@ ui-0262
+Difficile : tous les quelques coups, il se passe quelque chose pendant ton rendez-vous (une vague sur la jetée, les bougies vacillent), annoncé à l'avance. La difficulté Histoire vient avec le Pass Histoire. Prend effet au prochain chapitre.
+@@ ui-0263
+Histoire
+@@ ui-0264
+Facile
+@@ ui-0265
+Difficile
+@@ ui-0266
+Vitesse du texte
+@@ ui-0267
+La vitesse d'affichage des dialogues.
+@@ ui-0268
+Lente
+@@ ui-0269
+Normale
+@@ ui-0270
+Rapide
+@@ ui-0271
+Instantanée
+@@ ui-0272
+Vitesse Auto
+@@ ui-0273
+Le temps qu'Auto attend après chaque réplique (à gauche = plus rapide).
+@@ ui-0274
+Passer les répliques non lues
+@@ ui-0275
+Laisse Passer filer aussi à travers les répliques pas encore lues.
+@@ ui-0276
+Taille du texte
+@@ ui-0277
+Un texte plus grand partout : dialogues, menus et puzzle.
+@@ ui-0278
+Grand
+@@ ui-0279
+Très grand
+@@ ui-0280
+Numéros des gemmes
+@@ ui-0281
+Chaque type de gemme affiche un numéro, pour les distinguer sans les couleurs.
+@@ ui-0282
+Messages plus longs
+@@ ui-0283
+Les messages et sa bulle de dialogue pendant un chapitre restent plus longtemps à l'écran. Les dialogues attendent toujours que tu continues, sauf en mode Auto.
+@@ ui-0284
+Vibration
+@@ ui-0285
+Une petite vibration quand les gemmes s'alignent.
+@@ ui-0286
+Réduire les animations
+@@ ui-0287
+Animations plus courtes, effets plus calmes.
+@@ ui-0288
+Plein écran
+@@ ui-0289
+Remplir tout l'écran. F11 le bascule partout.
+@@ ui-0290
+Mode test
+@@ ui-0291
+Tout alignement valide atteint aussitôt l'objectif du chapitre et donne 99 étoiles — pour les tests, pas pour jouer vraiment.
+@@ ui-0292
+Retour au cercle
+@@ ui-0293
+Arrêter ici. Cette scène se rejouera à ta prochaine visite.
+@@ ui-0294
+Ouvrir le dossier des journaux
+@@ ui-0295
+Pour signaler un bug : envoie le godot.log le plus récent de ce dossier.
+@@ ui-0296
+Réinitialiser la progression
+@@ ui-0297
+Réinitialiser toute la progression ?
+@@ ui-0298
+Cela efface la progression de chaque fille, tes étoiles, tes objets, tes cadeaux et toute la Galerie. Tes paramètres et tes succès sont conservés. C'est irréversible.
+@@ ui-0299
+Tout réinitialiser
+@@ ui-0300
+Parchemin du temps
+@@ ui-0301
+Lis-le pour trois coups de plus dans le chapitre en cours. Utilise-le depuis la rangée d'objets sous le plateau — il te sort aussi d'un écran « À court de coups ».
+@@ ui-0302
+Marteau
+@@ ui-0303
+Fait éclater n'importe quelle gemme, sans alignement. Arme-le depuis la rangée d'objets, puis touche une gemme.
+@@ ui-0304
+Baguette de mélange
+@@ ui-0305
+Un coup de baguette et tout le plateau est redistribué, toujours avec un coup possible.
+@@ ui-0306
+Supernova de départ
+@@ ui-0307
+Ton prochain chapitre commence avec une Supernova gratuite déjà sur le plateau.
+@@ ui-0308
+Philtre d'amour
+@@ ui-0309
+Ton prochain chapitre : sa gemme préférée apparaît plus souvent, celle qu'elle aime le moins plus rarement.
+@@ ui-0310
+Potion de guérison
+@@ ui-0311
+Ton prochain chapitre : beaucoup moins d'éclats maudits sur le plateau.
+@@ ui-0312
+←  Retour au chapitre
+@@ ui-0313
+Les étoiles viennent des chapitres réussis : 15 pour le premier d'une fille et 5 de plus pour chacun des suivants.
+@@ ui-0314
+Être à court de coups rapporte quand même 1 étoile tous les 200 points marqués (au moins 3).
+@@ ui-0315
+À court d'étoiles ? Rejoue un chapitre réussi depuis sa carte dans le cercle : il rapporte moitié moins.
+@@ ui-0316
+La rangée du haut s'utilise pendant un chapitre ; celle du bas agit toute seule au début de ton prochain chapitre.
+@@ ui-0317
+Possédé : %d
+@@ ui-0318
+Acheter · %d ⭐
+@@ ui-0319
+Acheter · %d
+@@ ui-0320
+Il te manque %d étoiles.
+@@ ui-0321
+Journal
+@@ ui-0322
+Relire (L, ou molette vers le haut)
+@@ ui-0323
+Auto
+@@ ui-0324
+Les répliques défilent seules (A)
+@@ ui-0325
+Passer
+@@ ui-0326
+Passer les répliques lues (maintenir Ctrl)
+@@ ui-0327
+Passer tout
+@@ ui-0328
+Passer toutes les répliques jusqu'à la prochaine réponse, lues ou non
+@@ ui-0329
+Cacher le texte
+@@ ui-0330
+Voir toute l'image (H)
+@@ ui-0331
+Que réponds-tu ?
+@@ ui-0332
+Toi
+@@ ui-0333
+Répondre
+@@ ui-0334
+Suivant
+@@ ui-0335
+Rien pour l'instant.
+@@ ui-0336
+Accueil
+@@ ui-0337
+Filles
+@@ ui-0338
+Boutique
+@@ ui-0339
+Plus
+@@ ui-0340
+Une romance match-3 à Millbrook. Rencontre quatre femmes de la pire façon possible, aide-les dans ce dont elles ont besoin, et vois où ça mène.
+@@ ui-0341
+Continuer avec %s
+@@ ui-0342
+Toutes les filles
+@@ ui-0343
+Tu en as %d
+@@ ui-0344
+Retour au chapitre
+@@ ui-0345
+Retirer les pubs · %s
+@@ ui-0346
+Restaurer les achats
+@@ ui-0347
+Tout ce que tu as acheté avec ce compte Google revient dans un instant.
+@@ ui-0348
+Confidentialité des pubs
+@@ ui-0349
+Pas acheté
+@@ ui-0350
+Plus de cœurs
+@@ ui-0351
+Perdre un chapitre coûte un cœur, et un cœur revient toutes les %d minutes.
+@@ ui-0352
+Prochain cœur dans %s
+@@ ui-0353
++1 cœur
+@@ ui-0354
+Tout recharger · %d ⭐
+@@ ui-0355
++5 cœurs · %s
+@@ ui-0356
+Illimité pendant 24 heures · %s
+@@ ui-0357
+Pass Histoire : 8 cœurs et passages libres · %s
+@@ ui-0358
+Pas maintenant
+@@ ui-0359
+double-le : %d ⭐
+@@ ui-0360
+Cœurs illimités : encore %s
+@@ ui-0361
+Cœurs : %d / %d
+@@ ui-0362
+Étoiles gratuites
+@@ ui-0363
+Les offres apparaissent ici dès que Google Play est accessible.
+@@ ui-0364
+Possédé
+@@ ui-0365
+N'y pense même pas
+@@ ui-0366
+Rencontrer Hazel au lieu d'abattre son arbre.
+@@ ui-0367
+Une jolie tranchée
+@@ ui-0368
+Réussir le premier chapitre de Hazel.
+@@ ui-0369
+Les feuilles rougissent
+@@ ui-0370
+Réussir le deuxième chapitre de Hazel.
+@@ ui-0371
+Dans la tempête
+@@ ui-0372
+Réussir le troisième chapitre de Hazel.
+@@ ui-0373
+Prendre racine
+@@ ui-0374
+Atteindre la fin de Hazel.
+@@ ui-0375
+Garder l'heure
+@@ ui-0376
+Offrir à Hazel le cadran solaire de poche en laiton.
+@@ ui-0377
+Doux comme la mousse
+@@ ui-0378
+Finir l'histoire de Hazel en choisissant toujours la réponse tendre.
+@@ ui-0379
+Échardes
+@@ ui-0380
+Finir l'histoire de Hazel en la taquinant à chaque réponse.
+@@ ui-0381
+Réaction en chaîne
+@@ ui-0382
+Déclencher un combo x3.
+@@ ui-0383
+Avalanche
+@@ ui-0384
+Déclencher un combo x5.
+@@ ui-0385
+Des étoiles plein les yeux
+@@ ui-0386
+Créer une Supernova.
+@@ ui-0387
+Méga-explosion
+@@ ui-0388
+Échanger deux gemmes spéciales ensemble.
+@@ ui-0389
+Irrésistible
+@@ ui-0390
+Remplir l'anneau de Charme pour une Explosion de Charme.
+@@ ui-0391
+Des coups en réserve
+@@ ui-0392
+Réussir un chapitre avec 5 coups restants ou plus.
+@@ ui-0393
+Briseur d'éclats
+@@ ui-0394
+Détruire un éclat maudit avec le Marteau.
+@@ ui-0395
+Lèche-vitrines
+@@ ui-0396
+Acheter quelque chose à la Boutique.
+@@ ui-0397
+En pleine floraison
+@@ ui-0398
+Faire éclore 25 fleurs de Hazel.
+@@ ui-0399
+Relieur
+@@ ui-0400
+Briser 50 sceaux d'Amara.
+@@ ui-0401
+Qui trouve garde
+@@ ui-0402
+Retrouver 30 objets perdus d'Opal sous la mousse.
+@@ ui-0403
+Plongeur de trésors
+@@ ui-0404
+Remonter 10 morceaux de peigne pour Marina.
+@@ ui-0405
+Mille étincelles
+@@ ui-0406
+Faire 1000 alignements.
+@@ ui-0407
+Juste comme ça
+@@ ui-0408
+Marquer 2000 points pendant un rendez-vous libre.
+@@ ui-0409
+Chaque jour compte
+@@ ui-0410
+Terminer un défi du jour.
+@@ ui-0412
+Pack de départ
+@@ ui-0413
+Meilleure offre
+@@ ui-0414
+200 étoiles, 2 de chaque objet et 1 heure de cœurs illimités. Une fois par joueur.
+@@ ui-0415
+Sans pubs
+@@ ui-0416
+Plus aucune pub entre les chapitres ni sous les menus. Les vidéos à récompense deviennent un simple toucher : la récompense, sans vidéo.
+@@ ui-0417
+Pass Histoire
+@@ ui-0418
+Passe n'importe quel chapitre, continue après n'importe quelle défaite, et 8 cœurs au lieu de 5.
+@@ ui-0419
+5 cœurs en plus
+@@ ui-0420
+5 cœurs tout de suite, en plus de ceux que tu as.
+@@ ui-0421
+Cœurs illimités
+@@ ui-0422
+Joue autant que tu veux pendant 24 heures.
+@@ ui-0423
+Lot d'objets
+@@ ui-0424
+5 de chaque objet de la Boutique.
+@@ ui-0425
+Poignée d'étoiles
+@@ ui-0426
+150 étoiles.
+@@ ui-0427
+Bourse d'étoiles
+@@ ui-0428
+800 étoiles.
+@@ ui-0429
+Coffre d'étoiles
+@@ ui-0430
+Populaire
+@@ ui-0431
+1 800 étoiles.
+@@ ui-0432
+Trésor d'étoiles
+@@ ui-0433
+5 000 étoiles.
+@@ ui-0434
+Gratuit : %s
+@@ ui-0435
+Regarder une vidéo : %s
+@@ ui-0436
+Tu l'as déjà.
+@@ ui-0437
+Achat test
+@@ ui-0438
+C'est une version de test : aucun argent n'est débité. Acheter %s pour %s ?
+@@ ui-0439
+Acheter
+@@ ui-0440
+Google Play est injoignable pour l'instant. Réessaie dans un moment.
+@@ ui-0441
+L'achat n'a pas pu démarrer (%s).
+@@ ui-0442
+La boutique n'est pas disponible dans cette version.
+@@ ui-0443
+L'achat n'a pas abouti (%s).
+@@ ui-0444
+Ton achat est en attente. Il arrivera dès que Google Play l'aura confirmé.
+@@ ui-0445
+%d / %d débloqués
+@@ ui-0446
+%d / %d fins trouvées
+@@ ui-0447
+%d pts — début difficile...
+@@ ui-0448
+%d / %d pts
+@@ ui-0449
+%d pts...
+@@ ui-0450
+COUPS
+@@ ui-0451
+CONSEIL
+@@ ui-0452
++%d ⭐
+@@ ui-0453
+SCEAUX BRISÉS
+@@ ui-0454
+MORCEAUX DE PEIGNE
+@@ ui-0455
+OBJETS TROUVÉS
+@@ ui-0456
+FLEURS
+@@ ui-0457
+%s : c'est prêt !
+@@ ui-0458
+%s : choisis une gemme.
+@@ ui-0459
+%d pts
+@@ ui-0460
+SCORE
+@@ ui-0461
+Aligne des runes, les préférées d'Amara : elles remplissent l'anneau de Charme deux fois plus vite, et en Difficile elles repoussent ce qui arrive. Une Potion de guérison, c'est moins d'éclats maudits.
+@@ ui-0462
+Aligne des perles, les préférées de Marina : elles remplissent l'anneau de Charme deux fois plus vite, et en Difficile elles repoussent ce qui arrive. Un Parchemin du temps rachète les coups perdus.
+@@ ui-0463
+Aligne des cristaux, les préférés d'Opal : ils remplissent l'anneau de Charme deux fois plus vite, et en Difficile ils repoussent ce qui arrive. Un Philtre d'amour en fait venir davantage.
+@@ ui-0464
+Aligne des pétales, les préférés de Hazel : ils remplissent l'anneau de Charme deux fois plus vite, et en Difficile ils repoussent ce qui arrive. Une Potion de guérison, c'est moins d'éclats maudits.
+@@ ui-0465
+Lignes corrigées
+@@ ui-0466
+Choisis une gemme : toute sa ligne et sa colonne se vident.
+@@ ui-0467
+Lignes corrigées !
+@@ ui-0468
+Grande marée
+@@ ui-0469
+Les deux lignes les plus proches de la surface se vident, et tout remonte de deux lignes.
+@@ ui-0470
+Grande marée !
+@@ ui-0471
+Absorption
+@@ ui-0472
+Choisis une gemme : toutes les gemmes de cette couleur disparaissent.
+@@ ui-0473
+Absorption !
+@@ ui-0474
+Été
+@@ ui-0475
+Chaque graine et chaque pousse du plateau grandit d'un stade.
+@@ ui-0476
+Été !

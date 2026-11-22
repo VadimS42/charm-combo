@@ -149,22 +149,28 @@ static func build_language_picker(main: Node, host: Control) -> void:
 	col.add_theme_constant_override("separation", 12)
 	pad.add_child(col)
 	# The title in all three, since nothing is chosen yet.
-	var title := UITheme.heading("Language · 语言 · Язык", 22)
+	var title := UITheme.heading("Language · 语言 · Idioma · Langue · Язык", 22)
 	title.auto_translate_mode = Node.AUTO_TRANSLATE_MODE_DISABLED
 	title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	col.add_child(title)
 	var first: Button = null
+	# Two columns (round 52: thirteen languages no longer fit in one).
+	var grid := GridContainer.new()
+	grid.columns = 2 if UITheme.fit_w(560.0) >= 520.0 else 1
+	grid.add_theme_constant_override("h_separation", 12)
+	grid.add_theme_constant_override("v_separation", 10)
+	col.add_child(grid)
 	for pair in GameState.LANGUAGES:
 		var code := String(pair[0])
 		var b := UITheme.make_primary_button(String(pair[1]))
 		b.auto_translate_mode = Node.AUTO_TRANSLATE_MODE_DISABLED
-		b.custom_minimum_size = Vector2(320, 48)
+		b.custom_minimum_size = Vector2(260 if grid.columns == 2 else 300, 44)
 		b.pressed.connect(func():
 			SFX.nav()
 			GameState.set_language(code)
 			main.after_language()
 		)
-		col.add_child(b)
+		grid.add_child(b)
 		if first == null:
 			first = b
 	main.nav_setup(first, Callable(), {}, [["move", "Move"], ["accept", "Select"]])

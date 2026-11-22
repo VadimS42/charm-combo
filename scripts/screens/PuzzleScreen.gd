@@ -551,6 +551,9 @@ func _build_ui_mobile() -> void:
 	board_area.add_child(center)
 	var grid := GridContainer.new()
 	grid.columns = MatchEngine.SIZE
+	# The board never mirrors (round 52): in Arabic the layout runs right to
+	# left, which would reverse the grid's columns against swipes and keys.
+	grid.layout_direction = Control.LAYOUT_DIRECTION_LTR
 	grid.add_theme_constant_override("h_separation", int(gap))
 	grid.add_theme_constant_override("v_separation", int(gap))
 	center.add_child(grid)
@@ -1251,6 +1254,9 @@ func _build_ui() -> void:
 	board_center.add_child(board_panel)
 	var grid := GridContainer.new()
 	grid.columns = MatchEngine.SIZE
+	# The board never mirrors (round 52): in Arabic the layout runs right to
+	# left, which would reverse the grid's columns against swipes and keys.
+	grid.layout_direction = Control.LAYOUT_DIRECTION_LTR
 	grid.add_theme_constant_override("h_separation", 4)
 	grid.add_theme_constant_override("v_separation", 4)
 	board_panel.add_child(grid)

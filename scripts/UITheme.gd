@@ -80,7 +80,11 @@ static func install_fonts(reorder: bool = false) -> void:
 	var cjk := ["res://assets/fonts/CharmComboCJK.otf", "res://assets/fonts/CharmComboJP.otf"]
 	if TranslationServer.get_locale().begins_with("ja"):
 		cjk.reverse()
-	for path in ["res://assets/fonts/CharmComboSymbols.ttf"] + cjk + ["res://assets/fonts/CharmComboEmoji.ttf"]:
+	# Arabic, Hindi (Devanagari) and Bengali (round 52): Noto Sans, shaped by
+	# Godot's text server (joining, conjuncts, right-to-left).
+	var scripts := ["res://assets/fonts/CharmComboArabic.ttf", "res://assets/fonts/CharmComboDevanagari.ttf",
+		"res://assets/fonts/CharmComboBengali.ttf"]
+	for path in ["res://assets/fonts/CharmComboSymbols.ttf"] + cjk + scripts + ["res://assets/fonts/CharmComboEmoji.ttf"]:
 		if ResourceLoader.exists(path):
 			var f = load(path)
 			if f is FontFile:

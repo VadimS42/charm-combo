@@ -14,6 +14,21 @@ for the Japanese translation), renamed.
 Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
 Licensed under the SIL Open Font License, Version 1.1 (full text below).
 
+Charm Combo Arabic is Noto Sans Arabic SemiBold 2.013 (for the Arabic
+translation), renamed.
+Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic).
+Licensed under the SIL Open Font License, Version 1.1 (full text below).
+
+Charm Combo Devanagari is Noto Sans Devanagari SemiBold 2.007 (for the Hindi
+translation), renamed.
+Copyright 2022 The Noto Project Authors (https://github.com/notofonts/devanagari).
+Licensed under the SIL Open Font License, Version 1.1 (full text below).
+
+Charm Combo Bengali is Noto Sans Bengali SemiBold 3.011 (for the Bengali
+translation), renamed.
+Copyright 2025 The Noto Project Authors (https://github.com/notofonts/bengali).
+Licensed under the SIL Open Font License, Version 1.1 (full text below).
+
 Charm Combo Symbols is a subset of DejaVu Sans (arrows and symbols), renamed.
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. 
 Bitstream Vera is a trademark of Bitstream, Inc.

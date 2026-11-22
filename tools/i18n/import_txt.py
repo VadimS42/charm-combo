@@ -16,7 +16,8 @@ import sys
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
 TR = os.path.join(ROOT, "translations")
 LOCALES = {"ru": "Russian", "zh_CN": "Chinese (Simplified)", "ja": "Japanese", "es": "Spanish",
-           "pt_BR": "Portuguese (Brazil)", "de": "German"}
+           "pt_BR": "Portuguese (Brazil)", "de": "German", "hi": "Hindi", "ar": "Arabic", "fr": "French",
+           "bn": "Bengali", "id": "Indonesian", "uk": "Ukrainian"}
 
 
 def parse_txt(path):

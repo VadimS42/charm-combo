@@ -1,0 +1,1429 @@
+msgid ""
+msgstr ""
+"Language: bn\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "%d / %d endings found"
+msgstr "%d / %d সমাপ্তি পাওয়া গেছে"
+
+msgid "%d / %d pts"
+msgstr "%d / %d পয়েন্ট"
+
+msgid "%d / %d unlocked"
+msgstr "%d / %d খোলা"
+
+msgid "%d pts"
+msgstr "%d পয়েন্ট"
+
+msgid "%d pts — rough start..."
+msgstr "%d পয়েন্ট — কঠিন শুরু..."
+
+msgid "%d pts..."
+msgstr "%d পয়েন্ট..."
+
+msgid "%s is ready!"
+msgstr "%s প্রস্তুত!"
+
+msgid "%s: pick a gem."
+msgstr "%s: একটি রত্ন বাছুন।"
+
+msgid "(You need %d more stars.)"
+msgstr "(আপনার আরও %d তারকা দরকার।)"
+
+msgid "+%d moves"
+msgstr "+%d চাল"
+
+msgid "+%d pts — great answer!"
+msgstr "+%d পয়েন্ট — দারুণ উত্তর!"
+
+msgid "+%d to win her over"
+msgstr "তার মন জয় করতে +%d"
+
+msgid "+%d ⭐"
+msgstr "+%d ⭐"
+
+msgid "+%d ⭐ for trying"
+msgstr "চেষ্টার জন্য +%d ⭐"
+
+msgid "+%d ⭐ towards it"
+msgstr "এর জন্য +%d ⭐"
+
+msgid "+1 heart"
+msgstr "+1 হৃদয়"
+
+msgid "+2 moves — great answer!"
+msgstr "+2 চাল — দারুণ উত্তর!"
+
+msgid "+5 hearts · %s"
+msgstr "+5 হৃদয় · %s"
+
+msgid "-1 move"
+msgstr "-1 চাল"
+
+msgid "1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!"
+msgstr "প্রতি 200 পয়েন্টে 1 তারকা। জিনিসের দোকানে সাহায্যের জন্য জমান, তারপর আবার চেষ্টা করুন!"
+
+msgid "1,800 stars."
+msgstr "1,800 তারকা।"
+
+msgid "150 stars."
+msgstr "150 তারকা।"
+
+msgid "18+ · original characters · all characters are adults."
+msgstr "18+ · মৌলিক চরিত্র · সব চরিত্র প্রাপ্তবয়স্ক।"
+
+msgid "200 stars, 2 of every item and 1 hour of unlimited hearts. Once per player."
+msgstr "200 তারকা, প্রতিটি জিনিসের 2টি আর 1 ঘণ্টা সীমাহীন হৃদয়। প্রতি খেলোয়াড় একবার।"
+
+msgid "5 Extra Hearts"
+msgstr "5টি বাড়তি হৃদয়"
+
+msgid "5 hearts right now, on top of the ones you have."
+msgstr "এখনই 5টি হৃদয়, আপনার যা আছে তার ওপরে।"
+
+msgid "5 of every item in the Item Shop."
+msgstr "জিনিসের দোকানের প্রতিটি জিনিসের 5টি।"
+
+msgid "5,000 stars."
+msgstr "5,000 তারকা।"
+
+msgid "800 stars."
+msgstr "800 তারকা।"
+
+msgid "A Lovely Trench"
+msgstr "একটি চমৎকার নালা"
+
+msgid "A Thousand Sparkles"
+msgstr "হাজার ঝিলিক"
+
+msgid "A comb piece!"
+msgstr "চিরুনির টুকরো!"
+
+msgid "A comb piece! %d / %d"
+msgstr "চিরুনির টুকরো! %d / %d"
+
+msgid "A free date"
+msgstr "একটি খোলা ডেট"
+
+msgid "A little buzz when gems match."
+msgstr "রত্ন মিললে হালকা কম্পন।"
+
+msgid "A match-3 romance for adults, set in Millbrook, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes."
+msgstr "প্রাপ্তবয়স্কদের জন্য একটি ম্যাচ-৩ রোমান্স, মিলব্রুকে, এক গোধূলির শহর যেখানে অলৌকিক প্রাণীরা থাকে। চারজন নারীর সঙ্গে সবচেয়ে খারাপভাবে দেখা করুন, তাদের প্রয়োজনে সাহায্য করুন, আর দেখুন রাত কোথায় নিয়ে যায়।"
+
+msgid "A match-3 romance in Millbrook. Meet four women in the worst way possible, help them with what they need, and see where it goes."
+msgstr "মিলব্রুকে একটি ম্যাচ-৩ রোমান্স। চারজন নারীর সঙ্গে সবচেয়ে খারাপভাবে দেখা করুন, তাদের প্রয়োজনে সাহায্য করুন, আর দেখুন ব্যাপারটা কোথায় গড়ায়।"
+
+msgid "A new best!"
+msgstr "নতুন রেকর্ড!"
+
+msgid "A new board every day, the same for everyone: %d moves, one try. Come back tomorrow for the next."
+msgstr "প্রতিদিন নতুন বোর্ড, সবার জন্য একই: %d চাল, একবার চেষ্টা। পরেরটার জন্য কাল আসুন।"
+
+msgid "A new seed drops in."
+msgstr "একটি নতুন বীজ পড়ে।"
+
+msgid "A tip"
+msgstr "একটি পরামর্শ"
+
+msgid "ACHIEVEMENT UNLOCKED"
+msgstr "অর্জন খুলেছে"
+
+msgid "About the voices"
+msgstr "কণ্ঠ সম্পর্কে"
+
+msgid "Absorb"
+msgstr "শুষে নেওয়া"
+
+msgid "Absorb!"
+msgstr "শুষে নেওয়া!"
+
+msgid "Achievements"
+msgstr "অর্জন"
+
+msgid "Ad privacy choices"
+msgstr "বিজ্ঞাপনের গোপনীয়তা"
+
+msgid "After each chapter you pick a reply. A warm one starts her next chapter with bonus points (two extra moves when the chapter is only her goal); a teasing one costs a few points, but she likes those too."
+msgstr "প্রতিটি অধ্যায়ের পর আপনি একটি উত্তর বাছেন। উষ্ণ উত্তর তার পরের অধ্যায় বোনাস পয়েন্ট দিয়ে শুরু করে (অধ্যায়ে শুধু তার লক্ষ্য থাকলে দুটি বাড়তি চাল); খুনসুটির উত্তরে কিছু পয়েন্ট কাটে, তবে সেগুলোও তার ভালো লাগে।"
+
+msgid "After that, her favourite gem shows up more often in all her chapters, for good."
+msgstr "এরপর তার প্রিয় রত্ন তার সব অধ্যায়ে চিরকালের জন্য বেশি আসবে।"
+
+msgid "All rules"
+msgstr "সব নিয়ম"
+
+msgid "All the girls"
+msgstr "সব মেয়ে"
+
+msgid "Amara's power: Correct Lines"
+msgstr "আমারার ক্ষমতা: শুদ্ধ রেখা"
+
+msgid "Amara's seals broken"
+msgstr "আমারার ভাঙা সিলমোহর"
+
+msgid "Amara: break every seal"
+msgstr "আমারা: প্রতিটি সিলমোহর ভাঙুন"
+
+msgid "Amara: sealed pages"
+msgstr "আমারা: সিলমোহর করা পাতা"
+
+msgid "Another date"
+msgstr "আরেকটা ডেট"
+
+msgid "Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing."
+msgstr "যেকোনো সঠিক মিল সঙ্গে সঙ্গে অধ্যায়ের লক্ষ্য পূরণ করে আর 99 তারকা দেয় — পরীক্ষার জন্য, আসল খেলার জন্য নয়।"
+
+msgid "Anything you've bought on this Google account comes back in a moment."
+msgstr "এই Google অ্যাকাউন্টে কেনা সব কিছু কিছুক্ষণের মধ্যেই ফিরে আসবে।"
+
+msgid "Auto"
+msgstr "অটো"
+
+msgid "Auto Speed"
+msgstr "অটোর গতি"
+
+msgid "Avalanche"
+msgstr "তুষারধস"
+
+msgid "BLOSSOMS"
+msgstr "ফুল"
+
+msgid "Back"
+msgstr "ফিরে যান"
+
+msgid "Back to the chapter"
+msgstr "অধ্যায়ে ফিরে যান"
+
+msgid "Back to the roster"
+msgstr "মণ্ডলীতে ফিরে যান"
+
+msgid "Balanced route"
+msgstr "ভারসাম্যের পথ"
+
+msgid "Best chapter score"
+msgstr "অধ্যায়ের সেরা স্কোর"
+
+msgid "Best combo"
+msgstr "সেরা কম্বো"
+
+msgid "Best daily challenge"
+msgstr "সেরা দৈনিক চ্যালেঞ্জ"
+
+msgid "Best date with %s"
+msgstr "%s-এর সঙ্গে সেরা ডেট"
+
+msgid "Best value"
+msgstr "সবচেয়ে লাভজনক"
+
+msgid "Bigger text everywhere: dialogue, menus and the puzzle."
+msgstr "সর্বত্র বড় লেখা: সংলাপ, মেনু আর ধাঁধা।"
+
+msgid "Blossom! +%d"
+msgstr "ফুল! +%d"
+
+msgid "Blossoms"
+msgstr "ফুল"
+
+msgid "Bookbinder"
+msgstr "বই-বাঁধাইকার"
+
+msgid "Boom!"
+msgstr "বুম!"
+
+msgid "Break 50 of Amara's seals."
+msgstr "আমারার 50টি সিলমোহর ভাঙুন।"
+
+msgid "Bring 10 comb pieces up for Marina."
+msgstr "মেরিনার জন্য 10টি চিরুনির টুকরো ওপরে আনুন।"
+
+msgid "Buy"
+msgstr "কিনুন"
+
+msgid "Buy something in the Item Shop."
+msgstr "জিনিসের দোকান থেকে কিছু কিনুন।"
+
+msgid "Buy · %d"
+msgstr "কিনুন · %d"
+
+msgid "Buy · %d ⭐"
+msgstr "কিনুন · %d ⭐"
+
+msgid "CHAPTER GOAL"
+msgstr "অধ্যায়ের লক্ষ্য"
+
+msgid "COMB PIECES"
+msgstr "চিরুনির টুকরো"
+
+msgid "COMING UP"
+msgstr "আসছে"
+
+msgid "Cancel"
+msgstr "বাতিল"
+
+msgid "Carry on without clearing this chapter (no stars for it)."
+msgstr "এই অধ্যায় শেষ না করে এগিয়ে যান (এর তারকা পাবেন না)।"
+
+msgid "Chain Reaction"
+msgstr "শৃঙ্খল বিক্রিয়া"
+
+msgid "Chapter %d / %d"
+msgstr "অধ্যায় %d / %d"
+
+msgid "Chapter %d · +%d"
+msgstr "অধ্যায় %d · +%d"
+
+msgid "Chapter %d · +%d ⭐"
+msgstr "অধ্যায় %d · +%d ⭐"
+
+msgid "Chapter cleared!"
+msgstr "অধ্যায় শেষ!"
+
+msgid "Chapters cleared"
+msgstr "শেষ করা অধ্যায়"
+
+msgid "Charm Burst"
+msgstr "আকর্ষণ বিস্ফোরণ"
+
+msgid "Charm Burst! +150"
+msgstr "আকর্ষণ বিস্ফোরণ! +150"
+
+msgid "Charm Combo is for adults"
+msgstr "Charm Combo প্রাপ্তবয়স্কদের জন্য"
+
+msgid "Charm halved"
+msgstr "আকর্ষণ অর্ধেক"
+
+msgid "Charm — fills as you match (her favorite gem fastest). Full = +150 Charm Burst."
+msgstr "আকর্ষণ — মেলালে ভরে (তার প্রিয় রত্নে সবচেয়ে দ্রুত)। ভরা = +150 আকর্ষণ বিস্ফোরণ।"
+
+msgid "Charm — fills as you match (her favourite gem fastest). Full = one use of her power: %s"
+msgstr "আকর্ষণ — মেলালে ভরে (তার প্রিয় রত্নে সবচেয়ে দ্রুত)। ভরা = তার ক্ষমতার একবার ব্যবহার: %s"
+
+msgid "Chest of Stars"
+msgstr "তারকার সিন্দুক"
+
+msgid "Chimes for matches, combos, and menus."
+msgstr "মিল, কম্বো আর মেনুর জন্য ঘণ্টাধ্বনি।"
+
+msgid "Choose"
+msgstr "বাছুন"
+
+msgid "Clear Hazel's first chapter."
+msgstr "হেজেলের প্রথম অধ্যায় শেষ করুন।"
+
+msgid "Clear Hazel's second chapter."
+msgstr "হেজেলের দ্বিতীয় অধ্যায় শেষ করুন।"
+
+msgid "Clear Hazel's third chapter."
+msgstr "হেজেলের তৃতীয় অধ্যায় শেষ করুন।"
+
+msgid "Clear a chapter with 5 or more moves left."
+msgstr "5 বা তার বেশি চাল বাকি রেখে অধ্যায় শেষ করুন।"
+
+msgid "Clear a cursed shard with the Hammer."
+msgstr "হাতুড়ি দিয়ে একটি অভিশপ্ত টুকরো ভাঙুন।"
+
+msgid "Clear any chapter to unlock the daily challenge."
+msgstr "দৈনিক চ্যালেঞ্জ খুলতে যেকোনো অধ্যায় শেষ করুন।"
+
+msgid "Clear the moss to find her things: buttons, marbles, keys, the glass eye. Find enough of them to win."
+msgstr "তার জিনিস খুঁজতে শ্যাওলা পরিষ্কার করুন: বোতাম, মার্বেল, চাবি, কাচের চোখ। জিততে যথেষ্ট খুঁজে বের করুন।"
+
+msgid "Click to view."
+msgstr "দেখতে ক্লিক করুন।"
+
+msgid "Click, Space or Enter: next line. Hold Ctrl or press Skip: skip lines you've read. A or Auto: lines play on by themselves. L, Log or scroll up: read back. H: hide the text on full-screen pictures. Text speed is in Settings."
+msgstr "ক্লিক, স্পেস বা এন্টার: পরের লাইন। Ctrl চেপে রাখুন বা এড়িয়ে যান চাপুন: পড়া লাইন এড়ান। A বা অটো: লাইন নিজে থেকে চলে। L, লগ বা ওপরে স্ক্রল: আবার পড়ুন। H: পূর্ণ-পর্দার ছবিতে লেখা লুকান। লেখার গতি সেটিংসে আছে।"
+
+msgid "Close"
+msgstr "বন্ধ করুন"
+
+msgid "Close settings"
+msgstr "সেটিংস বন্ধ করুন"
+
+msgid "Comb pieces"
+msgstr "চিরুনির টুকরো"
+
+msgid "Comb pieces brought up"
+msgstr "ওপরে আনা চিরুনির টুকরো"
+
+msgid "Comb pieces rise when the gems above them clear."
+msgstr "ওপরের রত্ন পরিষ্কার হলে চিরুনির টুকরো ওপরে ওঠে।"
+
+msgid "Combo x%d!"
+msgstr "কম্বো x%d!"
+
+msgid "Combos"
+msgstr "কম্বো"
+
+msgid "Continue"
+msgstr "চালিয়ে যান"
+
+msgid "Continue the story  ▸"
+msgstr "গল্প চালিয়ে যান  ▸"
+
+msgid "Continue with %s"
+msgstr "%s-এর সঙ্গে চালিয়ে যান"
+
+msgid "Correct Lines"
+msgstr "শুদ্ধ রেখা"
+
+msgid "Correct Lines!"
+msgstr "শুদ্ধ রেখা!"
+
+msgid "Credits"
+msgstr "কৃতজ্ঞতা"
+
+msgid "Crystal"
+msgstr "স্ফটিক"
+
+msgid "Cursed Shard"
+msgstr "অভিশপ্ত টুকরো"
+
+msgid "Cursed shards"
+msgstr "অভিশপ্ত টুকরো"
+
+msgid "Daily challenge"
+msgstr "দৈনিক চ্যালেঞ্জ"
+
+msgid "Daily challenge: %d pts"
+msgstr "দৈনিক চ্যালেঞ্জ: %d পয়েন্ট"
+
+msgid "Dark, cracked shards cost you points when they're part of a match. The Hammer smashes one for free."
+msgstr "কালো, ফাটা টুকরো মিলের অংশ হলে আপনার পয়েন্ট কাটে। হাতুড়ি একটাকে বিনা খরচে ভেঙে দেয়।"
+
+msgid "Dialogue controls"
+msgstr "সংলাপের নিয়ন্ত্রণ"
+
+msgid "Difficulty"
+msgstr "কঠিনতা"
+
+msgid "Dislikes"
+msgstr "অপছন্দ"
+
+msgid "Don't Even Think About It"
+msgstr "ভাবতেও যেও না"
+
+msgid "Each chapter has a goal and a number of moves. At first it's points; from her third chapter it's something of hers to do on the board, and in her last both. Reach it before your moves run out and the story carries on. There's no timer: take as long as you like."
+msgstr "প্রতিটি অধ্যায়ের একটি লক্ষ্য আর নির্দিষ্ট সংখ্যক চাল থাকে। প্রথমে তা পয়েন্ট; তার তৃতীয় অধ্যায় থেকে বোর্ডে তার জন্য কিছু করার থাকে, আর শেষটায় দুটোই। চাল ফুরোনোর আগে লক্ষ্যে পৌঁছান, গল্প এগোবে। কোনো টাইমার নেই: সময় নিয়ে খেলুন।"
+
+msgid "Each kind of gem shows a number, so you don't need colour to tell them apart."
+msgstr "প্রতিটি ধরনের রত্ন একটি নম্বর দেখায়, তাই আলাদা করতে রঙের দরকার হয় না।"
+
+msgid "Easy"
+msgstr "সহজ"
+
+msgid "Ember"
+msgstr "অঙ্গার"
+
+msgid "End the date"
+msgstr "ডেট শেষ করুন"
+
+msgid "End this date and see your score."
+msgstr "এই ডেট শেষ করে আপনার স্কোর দেখুন।"
+
+msgid "Ending Gallery"
+msgstr "সমাপ্তির গ্যালারি"
+
+msgid "Ending: %s"
+msgstr "সমাপ্তি: %s"
+
+msgid "Endings"
+msgstr "সমাপ্তি"
+
+msgid "Every Day Counts"
+msgstr "প্রতিটি দিন গুরুত্বপূর্ণ"
+
+msgid "Every few moves something happens around you: the panel on her side says what and when. It might raise what it takes to win her over, turn gems into cursed shards, cost you a move or halve your Charm ring. Matching her favourite gem holds it off a move; a Charm Burst clears it."
+msgstr "প্রতি কয়েক চালে আপনাদের চারপাশে কিছু ঘটে: তার দিকের প্যানেল বলে দেয় কী আর কখন। এতে তার মন জয় করতে যা লাগে তা বাড়তে পারে, রত্ন অভিশপ্ত টুকরো হয়ে যেতে পারে, একটি চাল কমতে পারে, বা আকর্ষণ চক্র অর্ধেক হতে পারে। তার প্রিয় রত্ন মেলালে এটা এক চাল পিছোয়; আকর্ষণ বিস্ফোরণ এটা বাতিল করে।"
+
+msgid "Every girl has a favourite gem and one she dislikes (on her card in the roster, and at the top of her side in a chapter). Her favourite scores double and fills the Charm ring faster; the one she dislikes scores half."
+msgstr "প্রতিটি মেয়ের একটি প্রিয় রত্ন আর একটি অপছন্দের রত্ন আছে (মণ্ডলীতে তার কার্ডে, আর অধ্যায়ে তার দিকের ওপরে)। প্রিয়টা দ্বিগুণ পয়েন্ট দেয় আর আকর্ষণ চক্র দ্রুত ভরায়; অপছন্দেরটা অর্ধেক পয়েন্ট দেয়।"
+
+msgid "Every match fills the Charm ring. In a girl's first chapter a full ring is a Charm Burst: +150 points. From her second chapter it's one use of her own power instead: its button lights up next to the ring, use it when you like. The ring fills again after."
+msgstr "প্রতিটি মিল আকর্ষণ চক্র ভরায়। কোনো মেয়ের প্রথম অধ্যায়ে ভরা চক্র মানে আকর্ষণ বিস্ফোরণ: +150 পয়েন্ট। তার দ্বিতীয় অধ্যায় থেকে এটা হয় তার নিজের ক্ষমতার একবার ব্যবহার: চক্রের পাশে তার বোতাম জ্বলে ওঠে, যখন খুশি ব্যবহার করুন। তারপর চক্র আবার ভরে।"
+
+msgid "Every seed and sprout on the board grows one stage."
+msgstr "বোর্ডের প্রতিটি বীজ আর অঙ্কুর এক ধাপ বড় হয়।"
+
+msgid "Everything — music and sound effects."
+msgstr "সবকিছু — সংগীত আর শব্দ প্রভাব।"
+
+msgid "Fast"
+msgstr "দ্রুত"
+
+msgid "Fill the Charm ring for a Charm Burst."
+msgstr "আকর্ষণ বিস্ফোরণের জন্য আকর্ষণ চক্র ভরান।"
+
+msgid "Fill the ring"
+msgstr "চক্র ভরান"
+
+msgid "Fill the whole screen. F11 toggles it anywhere."
+msgstr "পুরো পর্দা ভরান। F11 যেকোনো জায়গায় এটা বদলায়।"
+
+msgid "Find 30 of Opal's lost things under the moss."
+msgstr "শ্যাওলার নিচে ওপালের 30টি হারানো জিনিস খুঁজুন।"
+
+msgid "Finders Keepers"
+msgstr "যে খোঁজে সে পায়"
+
+msgid "Finish Hazel's story picking every warm reply."
+msgstr "প্রতিবার উষ্ণ উত্তর বেছে হেজেলের গল্প শেষ করুন।"
+
+msgid "Finish Hazel's story teasing her in every reply."
+msgstr "প্রতিটি উত্তরে তার সঙ্গে খুনসুটি করে হেজেলের গল্প শেষ করুন।"
+
+msgid "Finish a daily challenge."
+msgstr "একটি দৈনিক চ্যালেঞ্জ শেষ করুন।"
+
+msgid "For bug reports: send the newest godot.log from this folder."
+msgstr "বাগ রিপোর্টের জন্য: এই ফোল্ডার থেকে সবচেয়ে নতুন godot.log পাঠান।"
+
+msgid "For sticking with it: a free Time Scroll!"
+msgstr "হাল না ছাড়ার জন্য: একটি বিনামূল্যের সময়-পত্র!"
+
+msgid "Found under the moss: %s"
+msgstr "শ্যাওলার নিচে পাওয়া গেল: %s"
+
+msgid "Free date"
+msgstr "খোলা ডেট"
+
+msgid "Free stars"
+msgstr "বিনামূল্যের তারকা"
+
+msgid "Free: %s"
+msgstr "বিনামূল্যে: %s"
+
+msgid "Fullscreen"
+msgstr "পূর্ণ পর্দা"
+
+msgid "Gallery"
+msgstr "গ্যালারি"
+
+msgid "Gem numbers"
+msgstr "রত্নের নম্বর"
+
+msgid "Gems cleared"
+msgstr "পরিষ্কার করা রত্ন"
+
+msgid "Girls"
+msgstr "মেয়েরা"
+
+msgid "Give Hazel the Brass Pocket Sundial."
+msgstr "হেজেলকে পিতলের পকেট সূর্যঘড়ি দিন।"
+
+msgid "Give her the %s"
+msgstr "তাকে দিন: %s"
+
+msgid "Google Play isn't reachable right now. Try again in a moment."
+msgstr "এই মুহূর্তে Google Play-তে পৌঁছানো যাচ্ছে না। একটু পরে আবার চেষ্টা করুন।"
+
+msgid "Got it"
+msgstr "ঠিক আছে"
+
+msgid "Grow 25 of Hazel's blossoms."
+msgstr "হেজেলের 25টি ফুল ফোটান।"
+
+msgid "Grow enough seeds into blossoms to win. A new seed drops in every few moves."
+msgstr "জিততে যথেষ্ট বীজকে ফুল পর্যন্ত বড় করুন। প্রতি কয়েক চালে একটি নতুন বীজ পড়ে।"
+
+msgid "Hammer"
+msgstr "হাতুড়ি"
+
+msgid "Handful of Stars"
+msgstr "এক মুঠো তারকা"
+
+msgid "Hard"
+msgstr "কঠিন"
+
+msgid "Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Story difficulty comes with the Story Pass. Takes effect from the next chapter."
+msgstr "কঠিন: প্রতি কয়েক চালে ডেটে কিছু ঘটে (ঘাটে ঢেউ, মোমবাতি নিভু নিভু), আগে থেকে জানানো হয়। গল্পের কঠিনতা স্টোরি পাসের সঙ্গে আসে। পরের অধ্যায় থেকে কার্যকর।"
+
+msgid "Hard: things happen on your date"
+msgstr "কঠিন: ডেটে কিছু না কিছু ঘটে"
+
+msgid "Hazel's blossoms grown"
+msgstr "হেজেলের ফোটানো ফুল"
+
+msgid "Hazel's power: Summer"
+msgstr "হেজেলের ক্ষমতা: গ্রীষ্ম"
+
+msgid "Hazel: grow blossoms"
+msgstr "হেজেল: ফুল ফোটান"
+
+msgid "Hazel: seeds"
+msgstr "হেজেল: বীজ"
+
+msgid "Hear the girls speak their lines."
+msgstr "মেয়েদের তাদের লাইন বলতে শুনুন।"
+
+msgid "Hearts left: %d / %d"
+msgstr "বাকি হৃদয়: %d / %d"
+
+msgid "Hearts: %d / %d"
+msgstr "হৃদয়: %d / %d"
+
+msgid "Hearts: losing a chapter costs one, and they come back over time."
+msgstr "হৃদয়: অধ্যায় হারলে একটা যায়, আর সময়ের সঙ্গে ফিরে আসে।"
+
+msgid "Her board with no move limit, just for fun and a high score."
+msgstr "চালের সীমা ছাড়া তার বোর্ড, শুধু মজা আর রেকর্ডের জন্য।"
+
+msgid "Her ending"
+msgstr "তার সমাপ্তি"
+
+msgid "Her favourite gem scores double and fills Charm faster; the one she dislikes scores half."
+msgstr "তার প্রিয় রত্ন দ্বিগুণ পয়েন্ট দেয় আর আকর্ষণ দ্রুত ভরায়; অপছন্দেরটা অর্ধেক পয়েন্ট দেয়।"
+
+msgid "Her gift"
+msgstr "তার উপহার"
+
+msgid "Her gift: more of her favourite gem"
+msgstr "তার উপহার: তার প্রিয় রত্ন আরও বেশি"
+
+msgid "Her night scene"
+msgstr "তার রাতের দৃশ্য"
+
+msgid "Her powers used"
+msgstr "ব্যবহৃত ক্ষমতা"
+
+msgid "Her story carries on as if you'd cleared it. You don't get its stars."
+msgstr "তার গল্প এমনভাবে এগোবে যেন আপনি এটা শেষ করেছেন। এর তারকা পাবেন না।"
+
+msgid "Her story starts over from your first meeting, so you can make different choices. Endings you've found stay in the Gallery, your gift stays given, and her chapters pay out stars again."
+msgstr "তার গল্প আপনাদের প্রথম দেখা থেকে আবার শুরু হয়, যাতে আপনি ভিন্ন সিদ্ধান্ত নিতে পারেন। পাওয়া সমাপ্তিগুলো গ্যালারিতে থাকে, আপনার উপহার দেওয়াই থাকে, আর তার অধ্যায়গুলো আবার তারকা দেয়।"
+
+msgid "Hide text"
+msgstr "লেখা লুকান"
+
+msgid "High Tide"
+msgstr "ভরা জোয়ার"
+
+msgid "High Tide!"
+msgstr "ভরা জোয়ার!"
+
+msgid "Home"
+msgstr "হোম"
+
+msgid "How fast dialogue types out."
+msgstr "সংলাপ কত দ্রুত লেখা হয়।"
+
+msgid "How long Auto waits after each line (left = quicker)."
+msgstr "প্রতিটি লাইনের পর অটো কতক্ষণ থামে (বাঁয়ে = দ্রুত)।"
+
+msgid "How loud the background music plays."
+msgstr "পটভূমির সংগীত কত জোরে বাজবে।"
+
+msgid "How loud their voices play."
+msgstr "তাদের কণ্ঠ কত জোরে বাজবে।"
+
+msgid "How to Play"
+msgstr "কীভাবে খেলবেন"
+
+msgid "I'm 18 or older"
+msgstr "আমার বয়স 18 বা তার বেশি"
+
+msgid "In Full Bloom"
+msgstr "পূর্ণ প্রস্ফুটন"
+
+msgid "In her chapters everything floats: gems rise, and new ones come up from the bottom."
+msgstr "তার অধ্যায়ে সব ভাসে: রত্ন ওপরে ওঠে, আর নতুনগুলো নিচ থেকে আসে।"
+
+msgid "Instant"
+msgstr "তাৎক্ষণিক"
+
+msgid "Irresistible"
+msgstr "অপ্রতিরোধ্য"
+
+msgid "It has sexual content, including intimate scenes, and suggestive art. All characters are adults.\n\nPlease only continue if you're 18 or older, or the age of majority where you live."
+msgstr "এতে যৌন বিষয়বস্তু আছে, অন্তরঙ্গ দৃশ্যসহ, আর ইঙ্গিতপূর্ণ ছবি। সব চরিত্র প্রাপ্তবয়স্ক।\n\nআপনার বয়স 18 বা তার বেশি হলে, বা আপনার দেশে প্রাপ্তবয়স্ক হলে, তবেই এগিয়ে যান।"
+
+msgid "Item Bundle"
+msgstr "জিনিসের বান্ডেল"
+
+msgid "Item Shop"
+msgstr "জিনিসের দোকান"
+
+msgid "Items"
+msgstr "জিনিসপত্র"
+
+msgid "Just Because"
+msgstr "এমনিই"
+
+msgid "Keep voices on"
+msgstr "কণ্ঠ চালু রাখুন"
+
+msgid "Keeping Time"
+msgstr "সময় রাখা"
+
+msgid "Language"
+msgstr "ভাষা"
+
+msgid "Large"
+msgstr "বড়"
+
+msgid "Larger"
+msgstr "আরও বড়"
+
+msgid "Leave"
+msgstr "চলে যান"
+
+msgid "Leave this chapter?"
+msgstr "এই অধ্যায় ছেড়ে যাবেন?"
+
+msgid "Leave to Roster"
+msgstr "মণ্ডলীতে ফিরুন"
+
+msgid "Leaves Going Red"
+msgstr "লাল হয়ে ওঠা পাতা"
+
+msgid "Leaving a chapter you've started costs a heart."
+msgstr "শুরু করা অধ্যায় ছেড়ে গেলে একটি হৃদয় যায়।"
+
+msgid "Let Skip race through lines you haven't read yet, too."
+msgstr "এড়িয়ে যান যেন যে লাইন এখনো পড়েননি সেগুলোও দ্রুত পার হয়।"
+
+msgid "Lines carry on by themselves (A)"
+msgstr "লাইন নিজে থেকে চলে (A)"
+
+msgid "Log"
+msgstr "লগ"
+
+msgid "Losing a chapter costs a heart, and one comes back every %d minutes."
+msgstr "অধ্যায় হারলে একটি হৃদয় যায়, আর প্রতি %d মিনিটে একটি ফিরে আসে।"
+
+msgid "Love Potion"
+msgstr "প্রেমের ওষুধ"
+
+msgid "Love Potion active!"
+msgstr "প্রেমের ওষুধ চালু!"
+
+msgid "Loves"
+msgstr "পছন্দ"
+
+msgid "MOVES"
+msgstr "চাল"
+
+msgid "Made with Godot Engine"
+msgstr "Godot Engine দিয়ে তৈরি"
+
+msgid "Main menu"
+msgstr "প্রধান মেনু"
+
+msgid "Make 1000 matches."
+msgstr "1000টি মিল বানান।"
+
+msgid "Make a Starburst."
+msgstr "একটি তারা-বিস্ফোরণ বানান।"
+
+msgid "Marina's power: High Tide"
+msgstr "মেরিনার ক্ষমতা: ভরা জোয়ার"
+
+msgid "Marina: the pearl comb"
+msgstr "মেরিনা: মুক্তার চিরুনি"
+
+msgid "Marina: the tide"
+msgstr "মেরিনা: জোয়ার"
+
+msgid "Master Volume"
+msgstr "মূল ভলিউম"
+
+msgid "Match 4 in a row to make a Rocket, which clears its row or column. Match 5, or an L or T shape, to make a Starburst. Swap a special gem to set it off; swap two together for a Mega Blast."
+msgstr "এক সারিতে 4টি মেলালে রকেট তৈরি হয়, যা তার সারি বা কলাম পরিষ্কার করে। 5টি, বা L বা T আকারে মেলালে তারা-বিস্ফোরণ তৈরি হয়। বিশেষ রত্ন সরালে তা ফাটে; দুটি বিশেষ রত্ন একসঙ্গে বদলালে মহা-বিস্ফোরণ।"
+
+msgid "Match crystals, Opal's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Love Potion brings more of them."
+msgstr "স্ফটিক মেলান, ওপালের প্রিয়: এগুলো আকর্ষণ চক্র দ্বিগুণ দ্রুত ভরায়, আর কঠিনে আসন্ন বিপদ পিছিয়ে দেয়। প্রেমের ওষুধ এগুলো আরও আনে।"
+
+msgid "Match pearls, Marina's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Time Scroll buys back lost moves."
+msgstr "মুক্তা মেলান, মেরিনার প্রিয়: এগুলো আকর্ষণ চক্র দ্বিগুণ দ্রুত ভরায়, আর কঠিনে আসন্ন বিপদ পিছিয়ে দেয়। সময়-পত্র হারানো চাল ফিরিয়ে দেয়।"
+
+msgid "Match petals, Hazel's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards."
+msgstr "পাপড়ি মেলান, হেজেলের প্রিয়: এগুলো আকর্ষণ চক্র দ্বিগুণ দ্রুত ভরায়, আর কঠিনে আসন্ন বিপদ পিছিয়ে দেয়। সারাইয়ের ওষুধ মানে কম অভিশপ্ত টুকরো।"
+
+msgid "Match runes, Amara's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards."
+msgstr "রুন মেলান, আমারার প্রিয়: এগুলো আকর্ষণ চক্র দ্বিগুণ দ্রুত ভরায়, আর কঠিনে আসন্ন বিপদ পিছিয়ে দেয়। সারাইয়ের ওষুধ মানে কম অভিশপ্ত টুকরো।"
+
+msgid "Matches made"
+msgstr "তৈরি মিল"
+
+msgid "Meet Hazel instead of cutting her tree down."
+msgstr "হেজেলের গাছ কাটার বদলে তার সঙ্গে দেখা করুন।"
+
+msgid "Meet her"
+msgstr "তার সঙ্গে দেখা করুন"
+
+msgid "Mega Blast"
+msgstr "মহা-বিস্ফোরণ"
+
+msgid "Mega Blast!"
+msgstr "মহা-বিস্ফোরণ!"
+
+msgid "Mending Potion"
+msgstr "সারাইয়ের ওষুধ"
+
+msgid "Mending Potion active!"
+msgstr "সারাইয়ের ওষুধ চালু!"
+
+msgid "Messages stay longer"
+msgstr "বার্তা বেশিক্ষণ থাকে"
+
+msgid "Millbrook Circle"
+msgstr "মিলব্রুক মণ্ডলী"
+
+msgid "Moonstone"
+msgstr "চন্দ্রমণি"
+
+msgid "More"
+msgstr "আরও"
+
+msgid "Moss grows under some cells. A match, blast or Hammer on the cell clears it, and some moss hides one of her lost things."
+msgstr "কিছু ঘরের নিচে শ্যাওলা জন্মায়। সেই ঘরে মিল, বিস্ফোরণ বা হাতুড়ি শ্যাওলা পরিষ্কার করে, আর কিছু শ্যাওলার নিচে তার হারানো জিনিস লুকিয়ে থাকে।"
+
+msgid "Move"
+msgstr "সরান"
+
+msgid "Moves left this chapter"
+msgstr "এই অধ্যায়ে বাকি চাল"
+
+msgid "Music"
+msgstr "সংগীত"
+
+msgid "Neither of you notices what was coming."
+msgstr "কী আসছিল, আপনাদের কেউই খেয়াল করেননি।"
+
+msgid "Next"
+msgstr "পরের"
+
+msgid "Next heart in %s"
+msgstr "পরের হৃদয় %s পরে"
+
+msgid "Night scene"
+msgstr "রাতের দৃশ্য"
+
+msgid "No Ads"
+msgstr "বিজ্ঞাপন ছাড়া"
+
+msgid "No ads between chapters or under the menus, ever. Reward videos become one tap: the reward, no video."
+msgstr "অধ্যায়ের মাঝে বা মেনুর নিচে আর কখনো বিজ্ঞাপন নয়। পুরস্কারের ভিডিও হয়ে যায় এক ছোঁয়া: পুরস্কার, ভিডিও ছাড়াই।"
+
+msgid "No moves left — reshuffling!"
+msgstr "আর কোনো চাল নেই — আবার এলোমেলো করা হচ্ছে!"
+
+msgid "Normal"
+msgstr "স্বাভাবিক"
+
+msgid "Not bought"
+msgstr "কেনা হয়নি"
+
+msgid "Not found yet"
+msgstr "এখনো পাওয়া যায়নি"
+
+msgid "Not found yet: finish her story to unlock it."
+msgstr "এখনো পাওয়া যায়নি: খুলতে তার গল্প শেষ করুন।"
+
+msgid "Not met yet"
+msgstr "এখনো দেখা হয়নি"
+
+msgid "Not now"
+msgstr "এখন না"
+
+msgid "Not unlocked yet"
+msgstr "এখনো খোলেনি"
+
+msgid "Nothing here yet — finish a girl's story to add her ending."
+msgstr "এখনো কিছু নেই — কোনো মেয়ের গল্প শেষ করলে তার সমাপ্তি এখানে যোগ হবে।"
+
+msgid "Nothing yet."
+msgstr "এখনো কিছু নেই।"
+
+msgid "Offers appear here once Google Play is reachable."
+msgstr "Google Play-তে পৌঁছানো গেলে অফার এখানে দেখা যাবে।"
+
+msgid "Once you've cleared her first chapter, her card on the roster has a gift for her. Give it and her favourite gem shows up more often in all her chapters, for good."
+msgstr "তার প্রথম অধ্যায় শেষ করার পর, মণ্ডলীতে তার কার্ডে তার জন্য একটি উপহার থাকে। সেটা দিন, তার প্রিয় রত্ন তার সব অধ্যায়ে চিরকালের জন্য বেশি আসবে।"
+
+msgid "One wave and the whole board is dealt again, always with a move to make."
+msgstr "একবার নাড়ালেই পুরো বোর্ড আবার সাজানো হয়, সবসময় একটি চালসহ।"
+
+msgid "Opal's power: Absorb"
+msgstr "ওপালের ক্ষমতা: শুষে নেওয়া"
+
+msgid "Opal's things found"
+msgstr "ওপালের খুঁজে পাওয়া জিনিস"
+
+msgid "Opal: her lost collection"
+msgstr "ওপাল: তার হারানো সংগ্রহ"
+
+msgid "Opal: moss"
+msgstr "ওপাল: শ্যাওলা"
+
+msgid "Open log folder"
+msgstr "লগ ফোল্ডার খুলুন"
+
+msgid "Original characters · all characters are adults."
+msgstr "মৌলিক চরিত্র · সব চরিত্র প্রাপ্তবয়স্ক।"
+
+msgid "Ouch!"
+msgstr "উফ!"
+
+msgid "Out in the Storm"
+msgstr "ঝড়ের মধ্যে"
+
+msgid "Out of Moves"
+msgstr "চাল শেষ"
+
+msgid "Out of hearts"
+msgstr "হৃদয় শেষ"
+
+msgid "Out of moves"
+msgstr "চাল শেষ"
+
+msgid "Owned"
+msgstr "আপনার আছে"
+
+msgid "Owned: %d"
+msgstr "আছে: %d"
+
+msgid "Pearl"
+msgstr "মুক্তা"
+
+msgid "Petal"
+msgstr "পাপড়ি"
+
+msgid "Pick a gem to pop."
+msgstr "ফাটানোর জন্য একটি রত্ন বাছুন।"
+
+msgid "Pick a gem!"
+msgstr "একটি রত্ন বাছুন!"
+
+msgid "Pick a gem."
+msgstr "একটি রত্ন বাছুন।"
+
+msgid "Pick a gem: every gem of that colour is cleared."
+msgstr "একটি রত্ন বাছুন: সেই রঙের সব রত্ন পরিষ্কার হয়।"
+
+msgid "Pick a gem: its whole row and column clear."
+msgstr "একটি রত্ন বাছুন: তার পুরো সারি আর কলাম পরিষ্কার হয়।"
+
+msgid "Pick up"
+msgstr "তুলুন"
+
+msgid "Pictures"
+msgstr "ছবি"
+
+msgid "Pictures appear here as you meet the girls and reach their endings."
+msgstr "মেয়েদের সঙ্গে দেখা হলে আর তাদের সমাপ্তিতে পৌঁছালে ছবি এখানে দেখা যায়।"
+
+msgid "Pieces of Gran's comb start near the bottom. They can't be matched or moved: clear the gems above them and they rise. One that reaches the top row is yours."
+msgstr "দিদিমার চিরুনির টুকরো তলার কাছে শুরু হয়। সেগুলো মেলানো বা সরানো যায় না: ওপরের রত্ন পরিষ্কার করুন, সেগুলো ওপরে উঠবে। যেটা সবচেয়ে ওপরের সারিতে পৌঁছায়, সেটা আপনার।"
+
+msgid "Play"
+msgstr "খেলুন"
+
+msgid "Play a chapter you've cleared again, for stars. Her story stays where it is."
+msgstr "শেষ করা অধ্যায় তারকার জন্য আবার খেলুন। তার গল্প যেখানে আছে সেখানেই থাকে।"
+
+msgid "Play a chapter you've cleared again, for stars. No story scenes, and her story stays where it is."
+msgstr "শেষ করা অধ্যায় তারকার জন্য আবার খেলুন। কোনো গল্পের দৃশ্য নেই, আর তার গল্প যেখানে আছে সেখানেই থাকে।"
+
+msgid "Play as much as you like for 24 hours."
+msgstr "24 ঘণ্টা যত খুশি খেলুন।"
+
+msgid "Play it again"
+msgstr "আবার খেলুন"
+
+msgid "Play time"
+msgstr "খেলার সময়"
+
+msgid "Pop any one gem, no match needed. Arm it from the item row, then tap a gem."
+msgstr "যেকোনো একটি রত্ন ফাটান, মিলের দরকার নেই। জিনিসের সারি থেকে তৈরি করুন, তারপর একটি রত্ন ছুঁয়ে দিন।"
+
+msgid "Pop-up messages and her speech bubble in a chapter stay on screen longer. Dialogue always waits for you unless Auto is on."
+msgstr "পপ-আপ বার্তা আর অধ্যায়ে তার কথার বুদবুদ পর্দায় বেশিক্ষণ থাকে। অটো বন্ধ থাকলে সংলাপ সবসময় আপনার জন্য অপেক্ষা করে।"
+
+msgid "Popular"
+msgstr "জনপ্রিয়"
+
+msgid "Pouch of Stars"
+msgstr "তারকার থলি"
+
+msgid "Press her power button (or 4), then pick a gem: every gem of that colour is cleared, and the moss under them."
+msgstr "তার ক্ষমতার বোতাম (বা 4) চাপুন, তারপর একটি রত্ন বাছুন: সেই রঙের সব রত্ন পরিষ্কার হয়, আর তাদের নিচের শ্যাওলাও।"
+
+msgid "Press her power button (or 4), then pick a gem: its whole row and column clear. Seals in them break."
+msgstr "তার ক্ষমতার বোতাম (বা 4) চাপুন, তারপর একটি রত্ন বাছুন: তার পুরো সারি আর কলাম পরিষ্কার হয়। সেখানকার সিলমোহর ভাঙে।"
+
+msgid "Press her power button (or 4): every seed and sprout on the board grows one stage."
+msgstr "তার ক্ষমতার বোতাম (বা 4) চাপুন: বোর্ডের প্রতিটি বীজ আর অঙ্কুর এক ধাপ বড় হয়।"
+
+msgid "Press her power button (or 4): the two rows nearest the surface clear, and everything rises two rows."
+msgstr "তার ক্ষমতার বোতাম (বা 4) চাপুন: জলের ওপরের সবচেয়ে কাছের দুটি সারি পরিষ্কার হয়, আর সব দুই সারি ওপরে ওঠে।"
+
+msgid "Put down"
+msgstr "রাখুন"
+
+msgid "Putting Down Roots"
+msgstr "শিকড় গাড়া"
+
+msgid "Quit"
+msgstr "বেরিয়ে যান"
+
+msgid "Reach Hazel's ending."
+msgstr "হেজেলের সমাপ্তিতে পৌঁছান।"
+
+msgid "Reach her goal"
+msgstr "তার লক্ষ্য পূরণ করুন"
+
+msgid "Read back (L, or scroll up)"
+msgstr "আবার পড়ুন (L, বা ওপরে স্ক্রল)"
+
+msgid "Read it for three more moves in the chapter you're playing. Use it from the item row under the board — it also gets you out of an Out of Moves screen."
+msgstr "পড়লে যে অধ্যায় খেলছেন তাতে আরও তিনটি চাল পাবেন। বোর্ডের নিচে জিনিসের সারি থেকে ব্যবহার করুন — এটা \"চাল শেষ\" পর্দা থেকেও বের করে আনে।"
+
+msgid "Ready!"
+msgstr "প্রস্তুত!"
+
+msgid "Reduce Motion"
+msgstr "নড়াচড়া কমান"
+
+msgid "Refill all · %d ⭐"
+msgstr "সব ভরান · %d ⭐"
+
+msgid "Remove ads · %s"
+msgstr "বিজ্ঞাপন সরান · %s"
+
+msgid "Replay"
+msgstr "আবার দেখুন"
+
+msgid "Replay %s's story?"
+msgstr "%s-এর গল্প আবার খেলবেন?"
+
+msgid "Replay a chapter"
+msgstr "অধ্যায় আবার খেলুন"
+
+msgid "Replay her night scene."
+msgstr "তার রাতের দৃশ্য আবার দেখুন।"
+
+msgid "Replay story"
+msgstr "গল্প আবার খেলুন"
+
+msgid "Reply"
+msgstr "উত্তর দিন"
+
+msgid "Reset Progress"
+msgstr "অগ্রগতি রিসেট করুন"
+
+msgid "Reset all progress?"
+msgstr "সব অগ্রগতি রিসেট করবেন?"
+
+msgid "Reset everything"
+msgstr "সব রিসেট করুন"
+
+msgid "Restore purchases"
+msgstr "কেনাকাটা ফিরিয়ে আনুন"
+
+msgid "Retry Chapter"
+msgstr "অধ্যায় আবার খেলুন"
+
+msgid "Revisit"
+msgstr "আবার যান"
+
+msgid "Rune"
+msgstr "রুন"
+
+msgid "Running out of moves still pays 1 star for every 200 points you scored (at least 3)."
+msgstr "চাল ফুরোলেও প্রতি 200 পয়েন্টে 1 তারকা মেলে (অন্তত 3)।"
+
+msgid "Running out still pays you a few stars. Try again, read a Time Scroll, or visit the shop. Later chapters are hard without power-ups: short on stars, replay a chapter you've cleared from her card on the roster. Lose three times in a row and you can carry on with the story anyway."
+msgstr "চাল ফুরোলেও কিছু তারকা পাবেন। আবার চেষ্টা করুন, সময়-পত্র পড়ুন, বা দোকানে যান। পরের অধ্যায়গুলো সাহায্য ছাড়া কঠিন: তারকা কম হলে মণ্ডলীতে তার কার্ড থেকে শেষ করা অধ্যায় আবার খেলুন। পরপর তিনবার হারলে তবুও গল্প এগিয়ে নিতে পারবেন।"
+
+msgid "SCORE"
+msgstr "স্কোর"
+
+msgid "SEALS BROKEN"
+msgstr "ভাঙা সিলমোহর"
+
+msgid "Score 2000 on a free date."
+msgstr "খোলা ডেটে 2000 পয়েন্ট করুন।"
+
+msgid "Scroll"
+msgstr "স্ক্রল"
+
+msgid "Sealed. Match it by moving the gems beside it."
+msgstr "সিলমোহর করা। পাশের রত্ন সরিয়ে এটা মেলান।"
+
+msgid "Seals broken"
+msgstr "ভাঙা সিলমোহর"
+
+msgid "See the whole picture (H)"
+msgstr "পুরো ছবি দেখুন (H)"
+
+msgid "Seeds can't be moved. Make matches next to them to make them grow."
+msgstr "বীজ সরানো যায় না। বড় করতে তাদের পাশে মিল বানান।"
+
+msgid "Seeds sit on the board and fall like gems, but can't be moved or matched. Every match right next to one grows it: seed, sprout, blossom. A blossom pops: +100 and the cells around it clear. Ember matches don't count: she dislikes ember."
+msgstr "বীজ বোর্ডে থাকে আর রত্নের মতো পড়ে, কিন্তু সরানো বা মেলানো যায় না। ঠিক পাশে প্রতিটি মিল তাকে বড় করে: বীজ, অঙ্কুর, ফুল। ফুল ফাটে: +100 আর চারপাশের ঘর পরিষ্কার। অঙ্গারের মিল গোনা হয় না: সে অঙ্গার পছন্দ করে না।"
+
+msgid "Select"
+msgstr "নির্বাচন করুন"
+
+msgid "Set off a x3 combo."
+msgstr "x3 কম্বো ঘটান।"
+
+msgid "Set off a x5 combo."
+msgstr "x5 কম্বো ঘটান।"
+
+msgid "Settings"
+msgstr "সেটিংস"
+
+msgid "Shard Smasher"
+msgstr "টুকরো-ভাঙিয়ে"
+
+msgid "Shard smashed!"
+msgstr "টুকরো চুরমার!"
+
+msgid "Shop"
+msgstr "দোকান"
+
+msgid "Short on stars? Replay a chapter you've cleared, from her card on the roster: it pays half."
+msgstr "তারকা কম? মণ্ডলীতে তার কার্ড থেকে শেষ করা অধ্যায় আবার খেলুন: অর্ধেক দেয়।"
+
+msgid "Shorter animations, calmer feedback."
+msgstr "ছোট অ্যানিমেশন, শান্ত প্রভাব।"
+
+msgid "Shuffle Wand"
+msgstr "এলোমেলো করার ছড়ি"
+
+msgid "Skip"
+msgstr "এড়িয়ে যান"
+
+msgid "Skip Unread Lines"
+msgstr "না-পড়া লাইনও এড়ান"
+
+msgid "Skip any chapter, carry on after any loss, and 8 hearts instead of 5."
+msgstr "যেকোনো অধ্যায় এড়ান, যেকোনো হারের পর এগিয়ে যান, আর 5-এর বদলে 8 হৃদয়।"
+
+msgid "Skip chapter"
+msgstr "অধ্যায় এড়িয়ে যান"
+
+msgid "Skip chapter  ▸"
+msgstr "অধ্যায় এড়িয়ে যান  ▸"
+
+msgid "Skip every line up to the next reply, read or not"
+msgstr "পরের উত্তর পর্যন্ত প্রতিটি লাইন এড়ান, পড়া হোক বা না হোক"
+
+msgid "Skip it with the Story Pass  ▸"
+msgstr "স্টোরি পাস দিয়ে এড়িয়ে যান  ▸"
+
+msgid "Skip lines you've read (hold Ctrl)"
+msgstr "পড়া লাইন এড়ান (Ctrl চেপে রাখুন)"
+
+msgid "Skip this chapter?"
+msgstr "এই অধ্যায় এড়িয়ে যাবেন?"
+
+msgid "Skip unread"
+msgstr "সব এড়ান"
+
+msgid "Skips this chapter's puzzle: no stars for it."
+msgstr "এই অধ্যায়ের ধাঁধা এড়িয়ে যায়: এর তারকা পাবেন না।"
+
+msgid "Slow"
+msgstr "ধীর"
+
+msgid "Soft as Moss"
+msgstr "শ্যাওলার মতো নরম"
+
+msgid "Some gems carry her ink seal. A sealed gem can't be picked up, but it still counts in a match you make by moving the gems beside it. The first match, blast or Hammer breaks the seal and the gem stays."
+msgstr "কিছু রত্নে তার কালির সিলমোহর থাকে। সিলমোহর করা রত্ন সরানো যায় না, তবে পাশের রত্ন সরিয়ে বানানো মিলে সেটা গোনা হয়। প্রথম মিল, বিস্ফোরণ বা হাতুড়ি সিলমোহর ভাঙে, আর রত্নটা থেকে যায়।"
+
+msgid "Something about to happen on your date. Matching her favourite gem holds it off a move; a Charm Burst clears it."
+msgstr "আপনার ডেটে কিছু একটা ঘটতে চলেছে। তার প্রিয় রত্ন মেলালে এটা এক চাল পিছোয়; আকর্ষণ বিস্ফোরণ এটা বাতিল করে।"
+
+msgid "Sound Effects"
+msgstr "শব্দ প্রভাব"
+
+msgid "Spark route"
+msgstr "স্ফুলিঙ্গের পথ"
+
+msgid "Special gems"
+msgstr "বিশেষ রত্ন"
+
+msgid "Special gems made"
+msgstr "তৈরি বিশেষ রত্ন"
+
+msgid "Splinters"
+msgstr "কাঠের কুচি"
+
+msgid "Starburst Starter"
+msgstr "তারা-বিস্ফোরণ স্টার্টার"
+
+msgid "Starburst Starter active!"
+msgstr "তারা-বিস্ফোরণ স্টার্টার চালু!"
+
+msgid "Stars come from clearing chapters: 15 for a girl's first and 5 more for each one after it."
+msgstr "তারকা আসে অধ্যায় শেষ করে: কোনো মেয়ের প্রথম অধ্যায়ে 15 আর তার পরের প্রতিটিতে 5 করে বেশি।"
+
+msgid "Stars — earned by clearing chapters, spent in the Item Shop and on gifts."
+msgstr "তারকা — অধ্যায় শেষ করে পাওয়া যায়, জিনিসের দোকানে আর উপহারে খরচ হয়।"
+
+msgid "Starstruck"
+msgstr "তারায় মুগ্ধ"
+
+msgid "Start her story over from the beginning"
+msgstr "তার গল্প একেবারে শুরু থেকে আবার শুরু করুন"
+
+msgid "Starter Pack"
+msgstr "স্টার্টার প্যাক"
+
+msgid "Stats"
+msgstr "পরিসংখ্যান"
+
+msgid "Stop here. This scene plays again next time you visit her."
+msgstr "এখানে থামুন। পরের বার তার কাছে গেলে এই দৃশ্য আবার চলবে।"
+
+msgid "Store"
+msgstr "দোকান"
+
+msgid "Story"
+msgstr "গল্প"
+
+msgid "Story Pass"
+msgstr "স্টোরি পাস"
+
+msgid "Story Pass: 8 hearts and free skips · %s"
+msgstr "স্টোরি পাস: 8 হৃদয় আর বিনামূল্যে এড়ানো · %s"
+
+msgid "Story difficulty: carry on with the story without playing this chapter (no stars for it)."
+msgstr "গল্পের কঠিনতা: এই অধ্যায় না খেলে গল্প এগিয়ে নিন (এর তারকা পাবেন না)।"
+
+msgid "Story: twice the moves, and you can skip any chapter. Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Takes effect from the next chapter."
+msgstr "গল্প: দ্বিগুণ চাল, আর যেকোনো অধ্যায় এড়াতে পারবেন। কঠিন: প্রতি কয়েক চালে ডেটে কিছু ঘটে (ঘাটে ঢেউ, মোমবাতি নিভু নিভু), আগে থেকে জানানো হয়। পরের অধ্যায় থেকে কার্যকর।"
+
+msgid "Summer"
+msgstr "গ্রীষ্ম"
+
+msgid "Summer!"
+msgstr "গ্রীষ্ম!"
+
+msgid "Swap"
+msgstr "বদলান"
+
+msgid "Swap and match"
+msgstr "অদলবদল করে মেলান"
+
+msgid "Swap two gems next to each other to line up three or more of the same kind. Matched gems pop and score points; new ones fall in from the top."
+msgstr "পাশাপাশি দুটি রত্নের জায়গা বদলে একই ধরনের তিন বা তার বেশি এক সারিতে আনুন। মেলানো রত্ন ফেটে পয়েন্ট দেয়; ওপর থেকে নতুন রত্ন পড়ে।"
+
+msgid "Swap two special gems together."
+msgstr "দুটি বিশেষ রত্ন একসঙ্গে বদলান।"
+
+msgid "THINGS FOUND"
+msgstr "খুঁজে পাওয়া জিনিস"
+
+msgid "TIP"
+msgstr "পরামর্শ"
+
+msgid "Tap a gem!"
+msgstr "একটি রত্ন ছুঁয়ে দিন!"
+
+msgid "Test purchase"
+msgstr "পরীক্ষামূলক কেনাকাটা"
+
+msgid "Testing Mode"
+msgstr "পরীক্ষা মোড"
+
+msgid "Text Speed"
+msgstr "লেখার গতি"
+
+msgid "Text size"
+msgstr "লেখার আকার"
+
+msgid "Thanks for playing the demo!"
+msgstr "ডেমো খেলার জন্য ধন্যবাদ!"
+
+msgid "The Time Scroll (three more moves), the Hammer (smash any one gem) and the Shuffle Wand (a new board) sit under the board. Buy them, and potions that help a whole chapter, in the Item Shop with the stars you earn."
+msgstr "সময়-পত্র (আরও তিনটি চাল), হাতুড়ি (যেকোনো একটি রত্ন ভাঙুন) আর এলোমেলো করার ছড়ি (নতুন বোর্ড) বোর্ডের নিচে থাকে। এগুলো, আর পুরো অধ্যায়ে সাহায্য করা ওষুধ, অর্জিত তারকা দিয়ে জিনিসের দোকানে কিনুন।"
+
+msgid "The comb piece can't be hammered. Bring it up to the surface."
+msgstr "চিরুনির টুকরোয় হাতুড়ি চলে না। সেটাকে ওপরে তুলে আনুন।"
+
+msgid "The full game has four stories: Hazel's, and three more women of Millbrook to meet in the worst way possible. Each has four chapters, her night scene and her ending."
+msgstr "পুরো গেমে চারটি গল্প: হেজেলের, আর মিলব্রুকের আরও তিনজন নারী যাদের সঙ্গে আপনার দেখা হয় সবচেয়ে খারাপভাবে। প্রত্যেকের চারটি অধ্যায়, তার রাতের দৃশ্য আর তার সমাপ্তি।"
+
+msgid "The game's text. Voices stay in English."
+msgstr "গেমের লেখা। কণ্ঠ ইংরেজিতেই থাকে।"
+
+msgid "The girls are voiced by amateur voice actresses, recorded at home. We love how they turned out, but they aren't studio recordings, and not every line is voiced yet.\n\nIf you'd rather read in your own head, turn the voices off. You can change this any time in Settings."
+msgstr "মেয়েদের কণ্ঠ দিয়েছেন শখের কণ্ঠশিল্পীরা, বাড়িতে রেকর্ড করে। ফলাফল আমাদের খুব ভালো লেগেছে, তবে এগুলো স্টুডিও রেকর্ডিং নয়, আর এখনো সব লাইনে কণ্ঠ দেওয়া হয়নি।\n\nমনে মনে পড়তে চাইলে কণ্ঠ বন্ধ করুন। সেটিংসে যেকোনো সময় এটা বদলাতে পারবেন।"
+
+msgid "The purchase couldn't start (%s)."
+msgstr "কেনাকাটা শুরু করা গেল না (%s)।"
+
+msgid "The purchase didn't go through (%s)."
+msgstr "কেনাকাটা সম্পন্ন হয়নি (%s)।"
+
+msgid "The store isn't available in this build."
+msgstr "এই সংস্করণে দোকান নেই।"
+
+msgid "The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts."
+msgstr "ওপরের সারি অধ্যায় চলাকালীন ব্যবহার হয়; নিচের সারি পরের অধ্যায় শুরু হলে নিজে থেকেই কাজ করে।"
+
+msgid "The two rows nearest the surface clear, and everything rises two rows."
+msgstr "জলের ওপরের সবচেয়ে কাছের দুটি সারি পরিষ্কার হয়, আর সব দুই সারি ওপরে ওঠে।"
+
+msgid "These unlock on Steam too."
+msgstr "এগুলো Steam-এও খোলে।"
+
+msgid "Things found"
+msgstr "খুঁজে পাওয়া জিনিস"
+
+msgid "This erases every girl's story progress, your stars, items, gifts and the whole Gallery. Your settings and achievements are kept. This can't be undone."
+msgstr "এতে প্রতিটি মেয়ের গল্পের অগ্রগতি, আপনার তারকা, জিনিস, উপহার আর পুরো গ্যালারি মুছে যায়। আপনার সেটিংস আর অর্জন থেকে যায়। এটা ফেরানো যাবে না।"
+
+msgid "This is a test build: no money changes hands. Buy %s for %s?"
+msgstr "এটি পরীক্ষামূলক সংস্করণ: কোনো টাকা কাটা হয় না। %s কিনবেন %s-এ?"
+
+msgid "Time Scroll"
+msgstr "সময়-পত্র"
+
+msgid "To find the book, break every seal on the board. The counter under the board shows how many are done."
+msgstr "বইটা খুঁজে পেতে বোর্ডের প্রতিটি সিলমোহর ভাঙুন। বোর্ডের নিচের গণক দেখায় কতগুলো হয়েছে।"
+
+msgid "Today's challenge"
+msgstr "আজকের চ্যালেঞ্জ"
+
+msgid "Toggle"
+msgstr "বদলান"
+
+msgid "Treasure Diver"
+msgstr "গুপ্তধনের ডুবুরি"
+
+msgid "Treasury of Stars"
+msgstr "তারকার ভাণ্ডার"
+
+msgid "Try: %s"
+msgstr "চেষ্টা করুন: %s"
+
+msgid "Turn voices off"
+msgstr "কণ্ঠ বন্ধ করুন"
+
+msgid "Unlimited Hearts"
+msgstr "সীমাহীন হৃদয়"
+
+msgid "Unlimited for 24 hours · %s"
+msgstr "24 ঘণ্টা সীমাহীন · %s"
+
+msgid "Unlimited hearts: %s left"
+msgstr "সীমাহীন হৃদয়: আর %s বাকি"
+
+msgid "Use a Time Scroll"
+msgstr "সময়-পত্র ব্যবহার করুন"
+
+msgid "Vibration"
+msgstr "কম্পন"
+
+msgid "Voice Acting"
+msgstr "কণ্ঠাভিনয়"
+
+msgid "Voice Volume"
+msgstr "কণ্ঠের ভলিউম"
+
+msgid "Watch a video: %s"
+msgstr "একটি ভিডিও দেখুন: %s"
+
+msgid "What a date!"
+msgstr "কী দারুণ ডেট!"
+
+msgid "What do you say?"
+msgstr "আপনি কী বলবেন?"
+
+msgid "What she likes"
+msgstr "তার যা পছন্দ"
+
+msgid "When falling gems make new matches on their own, that's a combo. Each link in the chain scores more than the last."
+msgstr "পড়ন্ত রত্ন নিজে থেকে নতুন মিল তৈরি করলে, সেটা কম্বো। শৃঙ্খলের প্রতিটি কড়া আগেরটার চেয়ে বেশি পয়েন্ট দেয়।"
+
+msgid "Window Shopping"
+msgstr "শুধু দেখছিলাম"
+
+msgid "Wishlist on Steam"
+msgstr "Steam-এ উইশলিস্ট করুন"
+
+msgid "With Moves to Spare"
+msgstr "চাল হাতে রেখে"
+
+msgid "You"
+msgstr "আপনি"
+
+msgid "You already have this."
+msgstr "এটা আপনার আগে থেকেই আছে।"
+
+msgid "You can close this tab now."
+msgstr "এখন আপনি এই ট্যাব বন্ধ করতে পারেন।"
+
+msgid "You have %d"
+msgstr "আপনার আছে %d"
+
+msgid "You need %d more stars."
+msgstr "আপনার আরও %d তারকা দরকার।"
+
+msgid "You needed %d more points."
+msgstr "আপনার আরও %d পয়েন্ট দরকার ছিল।"
+
+msgid "Your best: %d"
+msgstr "আপনার সেরা: %d"
+
+msgid "Your next chapter begins with a free Starburst gem already on the board."
+msgstr "আপনার পরের অধ্যায় বোর্ডে আগে থেকে রাখা একটি বিনামূল্যের তারা-বিস্ফোরণ রত্ন নিয়ে শুরু হয়।"
+
+msgid "Your next chapter: far fewer cursed shards appear on the board."
+msgstr "আপনার পরের অধ্যায়: বোর্ডে অনেক কম অভিশপ্ত টুকরো আসে।"
+
+msgid "Your next chapter: her favorite gem shows up more often, her least favorite less."
+msgstr "আপনার পরের অধ্যায়: তার প্রিয় রত্ন বেশি আসে, সবচেয়ে অপছন্দেরটা কম।"
+
+msgid "Your purchase is pending. It arrives as soon as Google Play confirms it."
+msgstr "আপনার কেনাকাটা অপেক্ষমাণ। Google Play নিশ্চিত করলেই এটা চলে আসবে।"
+
+msgid "Your replies"
+msgstr "আপনার উত্তর"
+
+msgid "a button"
+msgstr "একটি বোতাম"
+
+msgid "a key"
+msgstr "একটি চাবি"
+
+msgid "a marble"
+msgstr "একটি মার্বেল"
+
+msgid "after your next move"
+msgstr "আপনার পরের চালের পর"
+
+msgid "best %d"
+msgstr "সেরা %d"
+
+msgid "double it to %d ⭐"
+msgstr "দ্বিগুণ করে %d ⭐"
+
+msgid "in %d moves"
+msgstr "%d চাল পরে"
+
+msgid "one more daily try"
+msgstr "দৈনিক চ্যালেঞ্জে আরও একবার"
+
+msgid "the glass eye"
+msgstr "কাচের চোখ"
+
+msgid "←  Back"
+msgstr "←  ফিরে যান"
+
+msgid "←  Back to the chapter"
+msgstr "←  অধ্যায়ে ফিরে যান"
+
+msgid "←  Menu"
+msgstr "←  মেনু"
+
+msgid "←  Roster"
+msgstr "←  মণ্ডলী"

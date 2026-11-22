@@ -1,0 +1,2926 @@
+msgid ""
+msgstr ""
+"Language: fr\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "\"Don't even think about it.\""
+msgstr "« N'y pense même pas. »"
+
+msgid "\"I was fine. It was quiet in there.\""
+msgstr "« J'allais bien. C'était calme, là-dedans. »"
+
+msgid "\"I was floating. On my back.\""
+msgstr "« Je flottais. Sur le dos. »"
+
+msgid "\"You summoned me with that pathetic chalk circle?\""
+msgstr "« Tu m'as invoquée avec ce pitoyable cercle à la craie ? »"
+
+msgid "%d / %d endings found"
+msgstr "%d / %d fins trouvées"
+
+msgid "%d / %d pts"
+msgstr "%d / %d pts"
+
+msgid "%d / %d unlocked"
+msgstr "%d / %d débloqués"
+
+msgid "%d pts"
+msgstr "%d pts"
+
+msgid "%d pts — rough start..."
+msgstr "%d pts — début difficile..."
+
+msgid "%d pts..."
+msgstr "%d pts..."
+
+msgid "%s is ready!"
+msgstr "%s : c'est prêt !"
+
+msgid "%s: pick a gem."
+msgstr "%s : choisis une gemme."
+
+msgid "(You need %d more stars.)"
+msgstr "(Il te manque %d étoiles.)"
+
+msgid "+%d moves"
+msgstr "+%d coups"
+
+msgid "+%d pts — great answer!"
+msgstr "+%d pts — belle réponse !"
+
+msgid "+%d to win her over"
+msgstr "+%d pour la séduire"
+
+msgid "+%d ⭐"
+msgstr "+%d ⭐"
+
+msgid "+%d ⭐ for trying"
+msgstr "+%d ⭐ pour l'effort"
+
+msgid "+%d ⭐ towards it"
+msgstr "+%d ⭐ pour t'aider"
+
+msgid "+1 heart"
+msgstr "+1 cœur"
+
+msgid "+2 moves — great answer!"
+msgstr "+2 coups — belle réponse !"
+
+msgid "+5 hearts · %s"
+msgstr "+5 cœurs · %s"
+
+msgid "-1 move"
+msgstr "-1 coup"
+
+msgid "1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!"
+msgstr "1 étoile tous les 200 points. Économise pour des bonus à la Boutique, puis réessaie !"
+
+msgid "1,800 stars."
+msgstr "1 800 étoiles."
+
+msgid "150 stars."
+msgstr "150 étoiles."
+
+msgid "18+ · original characters · all characters are adults."
+msgstr "18+ · personnages originaux · tous les personnages sont majeurs."
+
+msgid "200 stars, 2 of every item and 1 hour of unlimited hearts. Once per player."
+msgstr "200 étoiles, 2 de chaque objet et 1 heure de cœurs illimités. Une fois par joueur."
+
+msgid "5 Extra Hearts"
+msgstr "5 cœurs en plus"
+
+msgid "5 hearts right now, on top of the ones you have."
+msgstr "5 cœurs tout de suite, en plus de ceux que tu as."
+
+msgid "5 of every item in the Item Shop."
+msgstr "5 de chaque objet de la Boutique."
+
+msgid "5,000 stars."
+msgstr "5 000 étoiles."
+
+msgid "800 stars."
+msgstr "800 étoiles."
+
+msgid "A Lovely Trench"
+msgstr "Une jolie tranchée"
+
+msgid "A Quiet Place"
+msgstr "Un endroit calme"
+
+msgid "A Thousand Sparkles"
+msgstr "Mille étincelles"
+
+msgid "A clock that only works when the sun's out."
+msgstr "Une horloge qui ne marche que quand il y a du soleil."
+
+msgid "A cold breeze"
+msgstr "Une brise froide"
+
+msgid "A comb piece!"
+msgstr "Un morceau de peigne !"
+
+msgid "A comb piece! %d / %d"
+msgstr "Un morceau de peigne ! %d / %d"
+
+msgid "A folding brass sundial small enough for a pocket. It only tells the time on sunny days, which as far as she's concerned are the only days that need it."
+msgstr "Un cadran solaire pliant en laiton, assez petit pour une poche. Il ne donne l'heure que les jours de soleil, qui sont, selon elle, les seuls jours où on en a besoin."
+
+msgid "A free date"
+msgstr "Un rendez-vous libre"
+
+msgid "A glass marble with a ribbon of gold twisted through it, the kind nobody's made for decades."
+msgstr "Une bille de verre traversée d'un ruban d'or torsadé, du genre que personne ne fabrique plus depuis des décennies."
+
+msgid "A leaf drops into your hair. There's no wind."
+msgstr "Une feuille tombe dans tes cheveux. Il n'y a pas de vent."
+
+msgid "A little buzz when gems match."
+msgstr "Une petite vibration quand les gemmes s'alignent."
+
+msgid "A match-3 romance for adults, set in Millbrook, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes."
+msgstr "Une romance match-3 pour adultes, à Millbrook, une ville crépusculaire où vivent des êtres fantastiques. Rencontre quatre femmes de la pire façon possible, aide-les dans ce dont elles ont besoin, et vois où la nuit vous mène."
+
+msgid "A match-3 romance in Millbrook. Meet four women in the worst way possible, help them with what they need, and see where it goes."
+msgstr "Une romance match-3 à Millbrook. Rencontre quatre femmes de la pire façon possible, aide-les dans ce dont elles ont besoin, et vois où ça mène."
+
+msgid "A new best!"
+msgstr "Nouveau record !"
+
+msgid "A new board every day, the same for everyone: %d moves, one try. Come back tomorrow for the next."
+msgstr "Un nouveau plateau chaque jour, le même pour tout le monde : %d coups, un seul essai. Reviens demain pour le suivant."
+
+msgid "A new seed drops in."
+msgstr "Une nouvelle graine tombe."
+
+msgid "A reader shushes you"
+msgstr "Un lecteur te fait « chut »"
+
+msgid "A sapling beside the new millrace, a ribbon tied round it."
+msgstr "Un jeune arbre à côté du nouveau bief, un ruban noué autour."
+
+msgid "A smooth chip of sea glass, worn soft by years of tide, on a plain cord."
+msgstr "Un morceau lisse de verre de mer, adouci par des années de marées, au bout d'un simple cordon."
+
+msgid "A squall comes in over the cove. She wants to dive anyway. You hold the rope ladder and argue with her over the wind."
+msgstr "Un grain arrive sur la crique. Elle veut plonger quand même. Tu tiens l'échelle de corde et vous vous disputez en criant contre le vent."
+
+msgid "A tall beeswax candle with a nine-hour wick. It burns longer if nobody blows it out."
+msgstr "Une grande bougie en cire d'abeille à mèche de neuf heures. Elle brûle plus longtemps si personne ne la souffle."
+
+msgid "A tip"
+msgstr "Un conseil"
+
+msgid "A twig drops, very precisely, into your lunch."
+msgstr "Une brindille tombe, très précisément, dans ton déjeuner."
+
+msgid "A wave over the pier"
+msgstr "Une vague passe par-dessus la jetée"
+
+msgid "ACHIEVEMENT UNLOCKED"
+msgstr "SUCCÈS DÉBLOQUÉ"
+
+msgid "About the voices"
+msgstr "À propos des voix"
+
+msgid "About your reward. Last night was not the reward. I need you to understand that. Last night was separate."
+msgstr "À propos de ta récompense. Hier soir, ce n'était pas la récompense. Il faut que tu comprennes ça. Hier soir, c'était autre chose."
+
+msgid "Absorb"
+msgstr "Absorption"
+
+msgid "Absorb!"
+msgstr "Absorption !"
+
+msgid "Achievements"
+msgstr "Succès"
+
+msgid "Ad privacy choices"
+msgstr "Confidentialité des pubs"
+
+msgid "Admit it. You like having me around."
+msgstr "Avoue. Tu aimes m'avoir dans les parages."
+
+msgid "After Hours"
+msgstr "Après la fermeture"
+
+msgid "After each chapter you pick a reply. A warm one starts her next chapter with bonus points (two extra moves when the chapter is only her goal); a teasing one costs a few points, but she likes those too."
+msgstr "Après chaque chapitre, tu choisis une réponse. Une réponse tendre commence son chapitre suivant avec des points bonus (deux coups de plus quand le chapitre n'a que son objectif) ; une réponse taquine coûte quelques points, mais elle aime ça aussi."
+
+msgid "After that, her favourite gem shows up more often in all her chapters, for good."
+msgstr "Ensuite, sa gemme préférée apparaît plus souvent dans tous ses chapitres, pour de bon."
+
+msgid "After the comb, it can be a big thing."
+msgstr "Après le peigne, ça pourra être une grande histoire."
+
+msgid "Afterwards she lies with her head on your chest, her tail curled down the slipway into the water, flicking now and then."
+msgstr "Après, elle reste la tête sur ta poitrine, la queue enroulée le long de la cale jusqu'à l'eau, qui tressaille de temps en temps."
+
+msgid "Afterwards she's spread across most of the bed and some of you, glowing faintly, humming something Ambrose used to whistle."
+msgstr "Après, elle est étalée sur presque tout le lit et une partie de toi, luisant faiblement, en fredonnant un air qu'Ambrose sifflait."
+
+msgid "Afterwards you lie in the moss with her hair across your chest. Overhead, every leaf on her east side has turned pale side up, the way they do before a storm. There's no storm."
+msgstr "Après, tu restes allongé dans la mousse, ses cheveux en travers de ta poitrine. Au-dessus, chaque feuille de son côté est s'est retournée face pâle vers le haut, comme avant un orage. Il n'y a pas d'orage."
+
+msgid "Against an alchemist? You sold my buttons for two coppers and bought them back for six."
+msgstr "Contre un alchimiste ? Tu as vendu mes boutons deux sous et tu les as rachetés six."
+
+msgid "Alchemists boil slimes down for glue. Did you know that? Twelve shillings a pound."
+msgstr "Les alchimistes font bouillir les slimes pour en faire de la colle. Tu le savais ? Douze shillings la livre."
+
+msgid "All rules"
+msgstr "Toutes les règles"
+
+msgid "All spring, by hand? I guess I'll have to get used to you."
+msgstr "Tout le printemps, à la main ? Je suppose que je vais devoir m'habituer à toi."
+
+msgid "All the girls"
+msgstr "Toutes les filles"
+
+msgid "Amara Duskrose"
+msgstr "Amara Duskrose"
+
+msgid "Amara's power: Correct Lines"
+msgstr "Pouvoir d'Amara : Lignes corrigées"
+
+msgid "Amara's seals broken"
+msgstr "Sceaux d'Amara brisés"
+
+msgid "Amara. It's the one I use. The real one is in the book, along with everything else that keeps me on a leash."
+msgstr "Amara. C'est celui que j'utilise. Le vrai est dans le livre, avec tout ce qui me tient en laisse."
+
+msgid "Amara: break every seal"
+msgstr "Amara : brise tous les sceaux"
+
+msgid "Amara: sealed pages"
+msgstr "Amara : pages scellées"
+
+msgid "Ambrose wrote that label. He was the forester. When the alchemists came round buying slimes, he hid me out here. It worked for thirty-one years."
+msgstr "C'est Ambrose qui a écrit cette étiquette. Il était le garde forestier. Quand les alchimistes sont passés acheter des slimes, il m'a cachée ici. Ça a marché pendant trente et un ans."
+
+msgid "An owl startles her"
+msgstr "Une chouette la fait sursauter"
+
+msgid "And this time, take your clothes off before you jump in."
+msgstr "Et cette fois, déshabille-toi avant de sauter."
+
+msgid "And you still haven't asked me for anything."
+msgstr "Et tu ne m'as toujours rien demandé."
+
+msgid "And you're not going to tell anyone either, are you, lifeguard?"
+msgstr "Et tu ne le diras à personne non plus, hein, sauveteur ?"
+
+msgid "Another date"
+msgstr "Un autre rendez-vous"
+
+msgid "Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing."
+msgstr "Tout alignement valide atteint aussitôt l'objectif du chapitre et donne 99 étoiles — pour les tests, pas pour jouer vraiment."
+
+msgid "Anything you've bought on this Google account comes back in a moment."
+msgstr "Tout ce que tu as acheté avec ce compte Google revient dans un instant."
+
+msgid "At the Midsummer Tide the whole family swims out to the rocks, and Gran wears nine pearls in her hair and pretends not to notice everyone watching her."
+msgstr "Pour la Marée de la Saint-Jean, toute la famille nage jusqu'aux rochers, et Mamie porte neuf perles dans les cheveux en faisant semblant de ne pas remarquer que tout le monde la regarde."
+
+msgid "Auto"
+msgstr "Auto"
+
+msgid "Auto Speed"
+msgstr "Vitesse Auto"
+
+msgid "Avalanche"
+msgstr "Avalanche"
+
+msgid "BLOSSOMS"
+msgstr "FLEURS"
+
+msgid "Back"
+msgstr "Retour"
+
+msgid "Back to the chapter"
+msgstr "Retour au chapitre"
+
+msgid "Back to the roster"
+msgstr "Retour au cercle"
+
+msgid "Balanced route"
+msgstr "Voie de l'équilibre"
+
+msgid "Best chapter score"
+msgstr "Meilleur score de chapitre"
+
+msgid "Best combo"
+msgstr "Meilleur combo"
+
+msgid "Best daily challenge"
+msgstr "Meilleur défi du jour"
+
+msgid "Best date with %s"
+msgstr "Meilleur rendez-vous avec %s"
+
+msgid "Best value"
+msgstr "Meilleure offre"
+
+msgid "Better than the last one the miller sent."
+msgstr "Mieux que le dernier que le meunier a envoyé."
+
+msgid "Between the roots of an old oak, someone has dug a little hollow and lined it with moss. In it sits a big glass jar, sealed with wax. The label says PICKLED NEWTS, DO NOT OPEN, in handwriting that's trying to be funny."
+msgstr "Entre les racines d'un vieux chêne, quelqu'un a creusé un petit creux et l'a tapissé de mousse. Dedans, un grand bocal en verre, scellé à la cire. L'étiquette dit TRITONS AU VINAIGRE, NE PAS OUVRIR, d'une écriture qui essaie d'être drôle."
+
+msgid "Bigger text everywhere: dialogue, menus and the puzzle."
+msgstr "Un texte plus grand partout : dialogues, menus et puzzle."
+
+msgid "Black cover. No title. It'll feel warm. Don't open it."
+msgstr "Couverture noire. Pas de titre. Il sera tiède au toucher. Ne l'ouvre pas."
+
+msgid "Blossom! +%d"
+msgstr "Fleur ! +%d"
+
+msgid "Blossom."
+msgstr "Floraison."
+
+msgid "Blossoms"
+msgstr "Fleurs"
+
+msgid "Board, lifeguard. Not me."
+msgstr "Les yeux sur le plateau, sauveteur. Pas sur moi."
+
+msgid "Boathouse. It's got a door. Gran can't see through doors. Probably."
+msgstr "Le hangar à bateaux. Il a une porte. Mamie ne voit pas à travers les portes. Normalement."
+
+msgid "Bookbinder"
+msgstr "Relieur"
+
+msgid "Boom!"
+msgstr "Boum !"
+
+msgid "Brambles underfoot"
+msgstr "Des ronces sous les pieds"
+
+msgid "Brass Pocket Sundial"
+msgstr "Cadran solaire de poche en laiton"
+
+msgid "Break 50 of Amara's seals."
+msgstr "Briser 50 sceaux d'Amara."
+
+msgid "Bring 10 comb pieces up for Marina."
+msgstr "Remonter 10 morceaux de peigne pour Marina."
+
+msgid "But I'll allow it. Bring the shovel tomorrow though."
+msgstr "Mais je te le passe. Apporte quand même la pelle demain."
+
+msgid "But she's a little pinker than she was."
+msgstr "Mais elle est un peu plus rose qu'avant."
+
+msgid "Buy"
+msgstr "Acheter"
+
+msgid "Buy something in the Item Shop."
+msgstr "Acheter quelque chose à la Boutique."
+
+msgid "Buy · %d"
+msgstr "Acheter · %d"
+
+msgid "Buy · %d ⭐"
+msgstr "Acheter · %d ⭐"
+
+msgid "By the end of the month the old wall has stopped cracking. The new millrace runs clean, and Aldous Brock stands on the bank for a long time with his hat in his hands."
+msgstr "À la fin du mois, le vieux mur a cessé de se fissurer. Le nouveau bief coule bien, et Aldous Brock reste longtemps sur la berge, son chapeau à la main."
+
+msgid "By two in the morning you've checked every book returned this month. No black cover. One very overdue cookbook, which she opens, reads a page of, and closes in disgust."
+msgstr "À deux heures du matin, tu as vérifié tous les livres rendus ce mois-ci. Pas de couverture noire. Un livre de cuisine très en retard, qu'elle ouvre, dont elle lit une page et qu'elle referme avec dégoût."
+
+msgid "C-can I sleep in your room tonight? Not in the jar. With you."
+msgstr "J-je peux dormir dans ta chambre ce soir ? Pas dans le bocal. Avec toi."
+
+msgid "CHAPTER GOAL"
+msgstr "OBJECTIF DU CHAPITRE"
+
+msgid "COMB PIECES"
+msgstr "MORCEAUX DE PEIGNE"
+
+msgid "COMING UP"
+msgstr "BIENTÔT"
+
+msgid "Can we not? Please?"
+msgstr "On peut éviter ? S'il te plaît ?"
+
+msgid "Can you... turn the lamp down a bit?"
+msgstr "Tu peux... baisser un peu la lampe ?"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Careful. If you keep staring at me like that, I'll start thinking you summoned me on purpose."
+msgstr "Attention. Si tu continues à me fixer comme ça, je vais finir par croire que tu m'as invoquée exprès."
+
+msgid "Carry on without clearing this chapter (no stars for it)."
+msgstr "Continuer sans réussir ce chapitre (pas d'étoiles pour lui)."
+
+msgid "Chain Reaction"
+msgstr "Réaction en chaîne"
+
+msgid "Chapter %d / %d"
+msgstr "Chapitre %d / %d"
+
+msgid "Chapter %d · +%d"
+msgstr "Chapitre %d · +%d"
+
+msgid "Chapter %d · +%d ⭐"
+msgstr "Chapitre %d · +%d ⭐"
+
+msgid "Chapter cleared!"
+msgstr "Chapitre réussi !"
+
+msgid "Chapters cleared"
+msgstr "Chapitres réussis"
+
+msgid "Charm Burst"
+msgstr "Explosion de Charme"
+
+msgid "Charm Burst! +150"
+msgstr "Explosion de Charme ! +150"
+
+msgid "Charm Combo is for adults"
+msgstr "Charm Combo est réservé aux adultes"
+
+msgid "Charm halved"
+msgstr "Charme divisé par deux"
+
+msgid "Charm — fills as you match (her favorite gem fastest). Full = +150 Charm Burst."
+msgstr "Charme — se remplit à chaque alignement (plus vite avec sa gemme préférée). Plein = Explosion de Charme +150."
+
+msgid "Charm — fills as you match (her favourite gem fastest). Full = one use of her power: %s"
+msgstr "Charme — se remplit à chaque alignement (plus vite avec sa gemme préférée). Plein = une utilisation de son pouvoir : %s"
+
+msgid "Chest of Stars"
+msgstr "Coffre d'étoiles"
+
+msgid "Chimes for matches, combos, and menus."
+msgstr "Carillons pour les alignements, les combos et les menus."
+
+msgid "Choose"
+msgstr "Choisir"
+
+msgid "Clean lines. I'm almost proud of you."
+msgstr "Des lignes nettes. Je suis presque fière de toi."
+
+msgid "Clear Hazel's first chapter."
+msgstr "Réussir le premier chapitre de Hazel."
+
+msgid "Clear Hazel's second chapter."
+msgstr "Réussir le deuxième chapitre de Hazel."
+
+msgid "Clear Hazel's third chapter."
+msgstr "Réussir le troisième chapitre de Hazel."
+
+msgid "Clear a chapter with 5 or more moves left."
+msgstr "Réussir un chapitre avec 5 coups restants ou plus."
+
+msgid "Clear a cursed shard with the Hammer."
+msgstr "Détruire un éclat maudit avec le Marteau."
+
+msgid "Clear all the way through. Like me."
+msgstr "Transparent de part en part. Comme moi."
+
+msgid "Clear any chapter to unlock the daily challenge."
+msgstr "Réussis n'importe quel chapitre pour débloquer le défi du jour."
+
+msgid "Clear the moss to find her things: buttons, marbles, keys, the glass eye. Find enough of them to win."
+msgstr "Enlève la mousse pour retrouver ses affaires : boutons, billes, clés, l'œil de verre. Trouves-en assez pour gagner."
+
+msgid "Click to view."
+msgstr "Clique pour voir."
+
+msgid "Click, Space or Enter: next line. Hold Ctrl or press Skip: skip lines you've read. A or Auto: lines play on by themselves. L, Log or scroll up: read back. H: hide the text on full-screen pictures. Text speed is in Settings."
+msgstr "Clic, Espace ou Entrée : réplique suivante. Maintiens Ctrl ou appuie sur Passer : passe les répliques déjà lues. A ou Auto : les répliques défilent seules. L, Journal ou molette vers le haut : relire. H : cacher le texte sur les images plein écran. La vitesse du texte se règle dans les Paramètres."
+
+msgid "Close"
+msgstr "Fermer"
+
+msgid "Close enough."
+msgstr "Pas loin."
+
+msgid "Close enough. You can keep using it."
+msgstr "Pas loin. Tu peux continuer à l'utiliser."
+
+msgid "Close settings"
+msgstr "Fermer les paramètres"
+
+msgid "Comb pieces"
+msgstr "Morceaux de peigne"
+
+msgid "Comb pieces brought up"
+msgstr "Morceaux de peigne remontés"
+
+msgid "Comb pieces rise when the gems above them clear."
+msgstr "Les morceaux de peigne remontent quand les gemmes au-dessus disparaissent."
+
+msgid "Combo x%d!"
+msgstr "Combo x%d !"
+
+msgid "Combos"
+msgstr "Combos"
+
+msgid "Come here. That's an order, and I'm only giving it once before I come over there and get you."
+msgstr "Viens ici. C'est un ordre, et je ne le donne qu'une fois avant de venir te chercher."
+
+msgid "Come on. Binders keep ledgers. If he sold them, he wrote down who to."
+msgstr "Viens. Les relieurs tiennent des registres. S'il les a vendues, il a noté à qui."
+
+msgid "Continue"
+msgstr "Continuer"
+
+msgid "Continue the story  ▸"
+msgstr "Continuer l'histoire  ▸"
+
+msgid "Continue with %s"
+msgstr "Continuer avec %s"
+
+msgid "Correct Lines"
+msgstr "Lignes corrigées"
+
+msgid "Correct Lines!"
+msgstr "Lignes corrigées !"
+
+msgid "Credits"
+msgstr "Crédits"
+
+msgid "Crystal"
+msgstr "Cristal"
+
+msgid "Crystal. I'd keep that one."
+msgstr "Du cristal. Celui-là, je le garderais."
+
+msgid "Cursed Shard"
+msgstr "Éclat maudit"
+
+msgid "Cursed shards"
+msgstr "Éclats maudits"
+
+msgid "Daily challenge"
+msgstr "Défi du jour"
+
+msgid "Daily challenge: %d pts"
+msgstr "Défi du jour : %d pts"
+
+msgid "Dark, cracked shards cost you points when they're part of a match. The Hammer smashes one for free."
+msgstr "Les éclats sombres et fêlés te coûtent des points quand ils font partie d'un alignement. Le Marteau en brise un gratuitement."
+
+msgid "Day four. Word's got round that someone is digging by the old hazel instead of cutting it down. The miller's daughter brings you lunch, and you walk her back as far as the footbridge."
+msgstr "Quatrième jour. Le bruit court que quelqu'un creuse près du vieux noisetier au lieu de l'abattre. La fille du meunier t'apporte à déjeuner, et tu la raccompagnes jusqu'à la passerelle."
+
+msgid "Day three. She's been in the water since dawn, and she misses the rope ladder twice trying to climb onto the pier. At the far end, three old fishermen are setting out their Thursday tile game by lamplight."
+msgstr "Troisième jour. Elle est dans l'eau depuis l'aube et rate deux fois l'échelle de corde en essayant de monter sur la jetée. À l'autre bout, trois vieux pêcheurs installent leur partie de galets du jeudi à la lumière de la lanterne."
+
+msgid "Dead leaves come down"
+msgstr "Des feuilles mortes tombent"
+
+msgid "Dialogue controls"
+msgstr "Commandes des dialogues"
+
+msgid "Difficulty"
+msgstr "Difficulté"
+
+msgid "Dig faster. I'd like to see another spring."
+msgstr "Creuse plus vite. J'aimerais voir un autre printemps."
+
+msgid "Dig your trench. Sleeves up!"
+msgstr "Creuse ta tranchée. Manches retroussées !"
+
+msgid "Dislikes"
+msgstr "N'aime pas"
+
+msgid "Do that again. Slower."
+msgstr "Refais ça. Plus lentement."
+
+msgid "Don't Even Think About It"
+msgstr "N'y pense même pas"
+
+msgid "Don't even think about it."
+msgstr "N'y pense même pas."
+
+msgid "Don't go before morning. I'll know if you do. I'll hear the door."
+msgstr "Ne pars pas avant le matin. Je le saurai si tu pars. J'entendrai la porte."
+
+msgid "Don't look at them. They're not for you. They're seasonal."
+msgstr "Ne les regarde pas. Elles ne sont pas pour toi. Elles sont de saison."
+
+msgid "Don't look so pleased with yourself. Actually, no. Look exactly that pleased."
+msgstr "Ne prends pas cet air si content de toi. En fait, si. Prends exactement cet air-là."
+
+msgid "Don't put me back in the jar yet. I want to go home on my own. Well. Not walk. You know."
+msgstr "Ne me remets pas encore dans le bocal. Je veux rentrer toute seule. Enfin. Pas à pied. Tu vois."
+
+msgid "Don't say it like that. Like it matters."
+msgstr "Ne dis pas ça comme ça. Comme si ça comptait."
+
+msgid "Don't. Don't you dare."
+msgstr "Non. Ne t'avise pas."
+
+msgid "Don't. Just don't."
+msgstr "Non. Juste non."
+
+msgid "Don't... look at me like that."
+msgstr "Ne me... regarde pas comme ça."
+
+msgid "Down on the pier, a whole family is yelling at the water. Out past the rocks, a woman is floating face up, perfectly still, her hair spread out round her."
+msgstr "En bas, sur la jetée, toute une famille crie vers l'eau. Au-delà des rochers, une femme flotte sur le dos, parfaitement immobile, les cheveux déployés autour d'elle."
+
+msgid "Dryad of the old hazel"
+msgstr "Dryade du vieux noisetier"
+
+msgid "Dust off the top shelf"
+msgstr "De la poussière tombe de l'étagère du haut"
+
+msgid "Each chapter has a goal and a number of moves. At first it's points; from her third chapter it's something of hers to do on the board, and in her last both. Reach it before your moves run out and the story carries on. There's no timer: take as long as you like."
+msgstr "Chaque chapitre a un objectif et un nombre de coups. D'abord des points ; à partir de son troisième chapitre, quelque chose à faire pour elle sur le plateau, et dans le dernier, les deux. Atteins-le avant d'être à court de coups et l'histoire continue. Pas de chrono : prends tout ton temps."
+
+msgid "Each kind of gem shows a number, so you don't need colour to tell them apart."
+msgstr "Chaque type de gemme affiche un numéro, pour les distinguer sans les couleurs."
+
+msgid "Easy"
+msgstr "Facile"
+
+msgid "Eat your lunch. I'm sure her bread is very good. I wouldn't know."
+msgstr "Mange ton déjeuner. Je suis sûre que son pain est très bon. Je n'en sais rien."
+
+msgid "Ember"
+msgstr "Braise"
+
+msgid "End the date"
+msgstr "Finir le rendez-vous"
+
+msgid "End this date and see your score."
+msgstr "Termine ce rendez-vous et vois ton score."
+
+msgid "Ending Gallery"
+msgstr "Galerie des fins"
+
+msgid "Ending: %s"
+msgstr "Fin : %s"
+
+msgid "Endings"
+msgstr "Fins"
+
+msgid "Every Day Counts"
+msgstr "Chaque jour compte"
+
+msgid "Every few moves something happens around you: the panel on her side says what and when. It might raise what it takes to win her over, turn gems into cursed shards, cost you a move or halve your Charm ring. Matching her favourite gem holds it off a move; a Charm Burst clears it."
+msgstr "Tous les quelques coups, quelque chose arrive autour de vous : le panneau de son côté indique quoi et quand. Ça peut augmenter ce qu'il faut pour la séduire, changer des gemmes en éclats maudits, te coûter un coup ou réduire de moitié ton anneau de Charme. Aligner sa gemme préférée repousse l'événement d'un coup ; une Explosion de Charme l'annule."
+
+msgid "Every girl has a favourite gem and one she dislikes (on her card in the roster, and at the top of her side in a chapter). Her favourite scores double and fills the Charm ring faster; the one she dislikes scores half."
+msgstr "Chaque fille a une gemme préférée et une qu'elle n'aime pas (sur sa carte dans le cercle, et en haut de son côté pendant un chapitre). Sa préférée rapporte double et remplit plus vite l'anneau de Charme ; celle qu'elle n'aime pas rapporte moitié moins."
+
+msgid "Every match fills the Charm ring. In a girl's first chapter a full ring is a Charm Burst: +150 points. From her second chapter it's one use of her own power instead: its button lights up next to the ring, use it when you like. The ring fills again after."
+msgstr "Chaque alignement remplit l'anneau de Charme. Dans le premier chapitre d'une fille, un anneau plein donne une Explosion de Charme : +150 points. À partir de son deuxième chapitre, c'est plutôt une utilisation de son propre pouvoir : son bouton s'allume à côté de l'anneau, utilise-le quand tu veux. L'anneau se remplit ensuite à nouveau."
+
+msgid "Every one of those pages is part of my binding. Somebody has been buying them."
+msgstr "Chacune de ces pages fait partie de mon lien. Quelqu'un les achète."
+
+msgid "Every one? That's four hundred and twelve buttons."
+msgstr "Jusqu'au dernier ? Ça fait quatre cent douze boutons."
+
+msgid "Every seed and sprout on the board grows one stage."
+msgstr "Chaque graine et chaque pousse du plateau grandit d'un stade."
+
+msgid "Everyone keeps asking about the comb and I'm running out of excuses."
+msgstr "Tout le monde me demande où est le peigne, et je suis à court d'excuses."
+
+msgid "Everything — music and sound effects."
+msgstr "Tout — musique et effets sonores."
+
+msgid "Ex-excuse me. That's my eye. I mean... It's in my collection. I'd like it back, please."
+msgstr "E-excusez-moi. C'est mon œil. Je veux dire... Il fait partie de ma collection. J'aimerais le récupérer, s'il vous plaît."
+
+msgid "Eyes on the board. I'll still be here."
+msgstr "Les yeux sur le plateau. Je serai encore là."
+
+msgid "Fast"
+msgstr "Rapide"
+
+msgid "Faster. And alphabetise properly. I've seen your circle."
+msgstr "Plus vite. Et respecte l'ordre alphabétique. J'ai vu ton cercle."
+
+msgid "Faster. Tide's turning."
+msgstr "Plus vite. La marée tourne."
+
+msgid "Fill the Charm ring for a Charm Burst."
+msgstr "Remplir l'anneau de Charme pour une Explosion de Charme."
+
+msgid "Fill the ring"
+msgstr "Remplis l'anneau"
+
+msgid "Fill the whole screen. F11 toggles it anywhere."
+msgstr "Remplir tout l'écran. F11 le bascule partout."
+
+msgid "Find 30 of Opal's lost things under the moss."
+msgstr "Retrouver 30 objets perdus d'Opal sous la mousse."
+
+msgid "Finders Keepers"
+msgstr "Qui trouve garde"
+
+msgid "Fine. They're for you. I haven't flowered out of season since before the mill was built. The animals are going to talk."
+msgstr "Bon. Elles sont pour toi. Je n'avais pas fleuri hors saison depuis avant la construction du moulin. Les animaux vont jaser."
+
+msgid "Fine. You're not a menace anymore. You can help me. Don't get excited."
+msgstr "Bon. Tu n'es plus un danger public. Tu peux m'aider. Ne t'emballe pas."
+
+msgid "Finish Hazel's story picking every warm reply."
+msgstr "Finir l'histoire de Hazel en choisissant toujours la réponse tendre."
+
+msgid "Finish Hazel's story teasing her in every reply."
+msgstr "Finir l'histoire de Hazel en la taquinant à chaque réponse."
+
+msgid "Finish a daily challenge."
+msgstr "Terminer un défi du jour."
+
+msgid "Fire. In a grove. Really?"
+msgstr "Du feu. Dans un bosquet. Sérieusement ?"
+
+msgid "Flattery. Good. Keep going."
+msgstr "De la flatterie. Bien. Continue."
+
+msgid "For bug reports: send the newest godot.log from this folder."
+msgstr "Pour signaler un bug : envoie le godot.log le plus récent de ce dossier."
+
+msgid "For sticking with it: a free Time Scroll!"
+msgstr "Pour ta persévérance : un Parchemin du temps offert !"
+
+msgid "For the record: four hundred-odd summonings, several kings and one very enthusiastic bishop. None of them came close. I'm only telling you once."
+msgstr "Pour info : quatre cents et quelques invocations, plusieurs rois et un évêque très enthousiaste. Aucun n'a approché. Je ne le dirai qu'une fois."
+
+msgid "Forty years, I said. Mind where you swing."
+msgstr "Quarante ans, j'ai dit. Fais attention où tu frappes."
+
+msgid "Found under the moss: %s"
+msgstr "Trouvé sous la mousse : %s"
+
+msgid "Four hundred and twelve buttons, twenty-six keys, a glass eye and two owls. The alchemist's men are felling the north woods now, so Opal is staying with you, and her collection takes up a whole shelf in your front room. She rearranges it twice."
+msgstr "Quatre cent douze boutons, vingt-six clés, un œil de verre et deux chouettes. Les hommes de l'alchimiste abattent maintenant les bois du nord, alors Opal reste chez toi, et sa collection occupe toute une étagère de ton salon. Elle la réarrange deux fois."
+
+msgid "Four hundred and twelve buttons. Twenty-six keys. A glass eye. Everyone who comes through these woods drops something, and I kept it."
+msgstr "Quatre cent douze boutons. Vingt-six clés. Un œil de verre. Tous ceux qui passent dans ces bois perdent quelque chose, et je le gardais."
+
+msgid "Four hundred buttons is a lot of strangers' buttons."
+msgstr "Quatre cents boutons, ça fait beaucoup de boutons d'inconnus."
+
+msgid "Free date"
+msgstr "Rendez-vous libre"
+
+msgid "Free stars"
+msgstr "Étoiles gratuites"
+
+msgid "Free: %s"
+msgstr "Gratuit : %s"
+
+msgid "Frosted Sea-Glass Pendant"
+msgstr "Pendentif en verre de mer dépoli"
+
+msgid "Fullscreen"
+msgstr "Plein écran"
+
+msgid "Gallery"
+msgstr "Galerie"
+
+msgid "Gem numbers"
+msgstr "Numéros des gemmes"
+
+msgid "Gems cleared"
+msgstr "Gemmes éliminées"
+
+msgid "Gently. Like that."
+msgstr "Doucement. Comme ça."
+
+msgid "Get that holy rock away from me."
+msgstr "Éloigne de moi ce caillou sacré."
+
+msgid "Girls"
+msgstr "Filles"
+
+msgid "Give Hazel the Brass Pocket Sundial."
+msgstr "Offrir à Hazel le cadran solaire de poche en laiton."
+
+msgid "Give her the %s"
+msgstr "Lui offrir : %s"
+
+msgid "Gold swirl. They stopped making these before I went in the jar. Where did you even find it?"
+msgstr "Une torsade d'or. On n'en faisait déjà plus avant que j'entre dans le bocal. Où l'as-tu trouvée ?"
+
+msgid "Google Play isn't reachable right now. Try again in a moment."
+msgstr "Google Play est injoignable pour l'instant. Réessaie dans un moment."
+
+msgid "Got it"
+msgstr "Compris"
+
+msgid "Gran at the Midsummer Tide, her pearl comb in her hair."
+msgstr "Mamie pour la Marée de la Saint-Jean, son peigne de perles dans les cheveux."
+
+msgid "Gran wears the comb at the Midsummer Tide and never finds out it was lost. Marina tells her anyway, a month later, and Gran laughs so hard she has to be helped onto a rock. Marina tells the story of how you met at every family dinner after that, and it gets bigger every time. Gran corrects her every time, and every time she sets a place for you without asking."
+msgstr "Mamie porte le peigne pour la Marée de la Saint-Jean et n'apprend jamais qu'il avait été perdu. Marina le lui raconte quand même un mois plus tard, et Mamie rit tellement qu'il faut l'aider à remonter sur un rocher. Après ça, Marina raconte votre rencontre à chaque dîner de famille, et l'histoire grossit à chaque fois. Mamie la corrige à chaque fois, et à chaque fois elle met un couvert pour toi sans qu'on le lui demande."
+
+msgid "Gran's asked you to the family dinner, which is not a small thing, people have married into this family and never been asked to the family dinner."
+msgstr "Mamie t'a invité au dîner de famille, et ce n'est pas rien : des gens se sont mariés dans cette famille sans jamais être invités au dîner de famille."
+
+msgid "Gran's going to know. She always knows. She's going to look at me over breakfast and just know."
+msgstr "Mamie va le savoir. Elle sait toujours. Elle va me regarder au petit-déjeuner et elle saura."
+
+msgid "Gran's going to wear it at the Tide and never know. Nobody's ever going to know you did this."
+msgstr "Mamie le portera pour la Marée et ne saura jamais. Personne ne saura jamais que tu as fait ça."
+
+msgid "Gran, I'm fine. I'm always like that."
+msgstr "Mamie, ça va. Je suis toujours comme ça."
+
+msgid "Greedy. Oh, so you'll make him pay you to help me? I like that."
+msgstr "Cupide. Oh, alors tu vas te faire payer par lui pour m'aider ? Ça me plaît."
+
+msgid "Grow 25 of Hazel's blossoms."
+msgstr "Faire éclore 25 fleurs de Hazel."
+
+msgid "Grow enough seeds into blossoms to win. A new seed drops in every few moves."
+msgstr "Fais grandir assez de graines jusqu'à la fleur pour gagner. Une nouvelle graine tombe tous les quelques coups."
+
+msgid "Hammer"
+msgstr "Marteau"
+
+msgid "Hand-Dipped Beeswax Candle"
+msgstr "Bougie en cire d'abeille trempée à la main"
+
+msgid "Handful of Stars"
+msgstr "Poignée d'étoiles"
+
+msgid "Hard"
+msgstr "Difficile"
+
+msgid "Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Story difficulty comes with the Story Pass. Takes effect from the next chapter."
+msgstr "Difficile : tous les quelques coups, il se passe quelque chose pendant ton rendez-vous (une vague sur la jetée, les bougies vacillent), annoncé à l'avance. La difficulté Histoire vient avec le Pass Histoire. Prend effet au prochain chapitre."
+
+msgid "Hard: things happen on your date"
+msgstr "Difficile : il se passe des choses pendant ton rendez-vous"
+
+msgid "Hazel Mossgrove"
+msgstr "Hazel Mossgrove"
+
+msgid "Hazel's blossoms grown"
+msgstr "Fleurs de Hazel écloses"
+
+msgid "Hazel's power: Summer"
+msgstr "Pouvoir de Hazel : Été"
+
+msgid "Hazel: grow blossoms"
+msgstr "Hazel : fais éclore des fleurs"
+
+msgid "Hazel: seeds"
+msgstr "Hazel : les graines"
+
+msgid "He tells you to keep the money. Then he walks over and pats the hazel's trunk, awkwardly, like a man apologising to a horse."
+msgstr "Il te dit de garder l'argent. Puis il s'approche et tapote le tronc du noisetier, maladroitement, comme un homme qui s'excuse auprès d'un cheval."
+
+msgid "He took it apart. To sell it page by page."
+msgstr "Il l'a démonté. Pour le vendre page par page."
+
+msgid "He used to tap on the glass every morning twice so I'd know it was him."
+msgstr "Il tapotait le verre deux fois chaque matin pour que je sache que c'était lui."
+
+msgid "He's never done that. Forty springs, and he's never once done that."
+msgstr "Il n'a jamais fait ça. Quarante printemps, et il n'avait jamais fait ça."
+
+msgid "Hear the girls speak their lines."
+msgstr "Entendre les filles dire leurs répliques."
+
+msgid "Hearts left: %d / %d"
+msgstr "Cœurs restants : %d / %d"
+
+msgid "Hearts: %d / %d"
+msgstr "Cœurs : %d / %d"
+
+msgid "Hearts: losing a chapter costs one, and they come back over time."
+msgstr "Cœurs : perdre un chapitre en coûte un, et ils reviennent avec le temps."
+
+msgid "Her board with no move limit, just for fun and a high score."
+msgstr "Son plateau sans limite de coups, juste pour le plaisir et un record."
+
+msgid "Her corrections in red pencil, all over the loose page that started it."
+msgstr "Ses corrections au crayon rouge, partout sur la page volante à l'origine de tout."
+
+msgid "Her ending"
+msgstr "Sa fin"
+
+msgid "Her entire family is, in fact, right there. A grandmother, a mother, three sisters. One of the sisters is laughing so hard she can barely ask, out loud, whether Mari is going to thank her lifeguard."
+msgstr "Toute sa famille est effectivement là. Une grand-mère, une mère, trois sœurs. L'une des sœurs rit tellement qu'elle arrive à peine à demander tout haut si Mari va remercier son sauveteur."
+
+msgid "Her family slips off the end of the pier one by one and swims home round the point, very slowly, looking back the whole way. She waits until they're out of earshot."
+msgstr "Sa famille glisse un à un du bout de la jetée et rentre en nageant autour de la pointe, très lentement, en se retournant tout le long. Elle attend qu'ils ne puissent plus l'entendre."
+
+msgid "Her father came by this morning. He'll give you until the end of the month. Then he hires someone with a saw."
+msgstr "Son père est passé ce matin. Il te laisse jusqu'à la fin du mois. Après, il engage quelqu'un avec une scie."
+
+msgid "Her favourite gem scores double and fills Charm faster; the one she dislikes scores half."
+msgstr "Sa gemme préférée rapporte double et remplit plus vite le Charme ; celle qu'elle n'aime pas rapporte moitié moins."
+
+msgid "Her gift"
+msgstr "Son cadeau"
+
+msgid "Her gift: more of her favourite gem"
+msgstr "Son cadeau : plus de sa gemme préférée"
+
+msgid "Her grandmother says, mildly, that they'd been calling her for twenty minutes, that the tide's on the turn, and that this nice person was the only one who did anything about it."
+msgstr "Sa grand-mère dit doucement qu'ils l'appelaient depuis vingt minutes, que la marée est sur le point de tourner, et que cette gentille personne est la seule à avoir fait quelque chose."
+
+msgid "Her hands are warm now. They were cold the first time you touched the bark. She sees you notice."
+msgstr "Ses mains sont chaudes maintenant. Elles étaient froides la première fois que tu as touché l'écorce. Elle voit que tu le remarques."
+
+msgid "Her jar sits at the end of the shelf with the lid off. She hasn't been in it for three days."
+msgstr "Son bocal est au bout de l'étagère, sans couvercle. Elle n'y est pas entrée depuis trois jours."
+
+msgid "Her library card has your address on it in small, furious handwriting. She moves in with forty candles and opinions about your bookshelf, which she reorganises by how much she disliked each book. Your favourite goes on the bottom shelf. Most nights she's still at the late desk when your shift ends, and she walks you home by the river even though it's longer."
+msgstr "Sa carte de bibliothèque porte ton adresse, d'une petite écriture furieuse. Elle emménage avec quarante bougies et des avis sur ta bibliothèque, qu'elle réorganise selon à quel point elle a détesté chaque livre. Ton préféré finit sur l'étagère du bas. La plupart des soirs, elle est encore au bureau de nuit quand ton service se termine, et elle te raccompagne par la rivière même si c'est plus long."
+
+msgid "Her night scene"
+msgstr "Sa scène de nuit"
+
+msgid "Her powers used"
+msgstr "Pouvoirs utilisés"
+
+msgid "Her sisters start watching"
+msgstr "Ses sœurs commencent à regarder"
+
+msgid "Her story carries on as if you'd cleared it. You don't get its stars."
+msgstr "Son histoire continue comme si tu l'avais réussi. Tu ne reçois pas ses étoiles."
+
+msgid "Her story starts over from your first meeting, so you can make different choices. Endings you've found stay in the Gallery, your gift stays given, and her chapters pay out stars again."
+msgstr "Son histoire recommence depuis votre première rencontre, pour que tu puisses faire d'autres choix. Les fins trouvées restent dans la Galerie, ton cadeau reste offert, et ses chapitres rapportent à nouveau des étoiles."
+
+msgid "Hide text"
+msgstr "Cacher le texte"
+
+msgid "High Tide"
+msgstr "Grande marée"
+
+msgid "High Tide!"
+msgstr "Grande marée !"
+
+msgid "High Water"
+msgstr "Marée haute"
+
+msgid "Home"
+msgstr "Accueil"
+
+msgid "How fast dialogue types out."
+msgstr "La vitesse d'affichage des dialogues."
+
+msgid "How long Auto waits after each line (left = quicker)."
+msgstr "Le temps qu'Auto attend après chaque réplique (à gauche = plus rapide)."
+
+msgid "How long have you been out here on your own?"
+msgstr "Depuis combien de temps es-tu seule ici ?"
+
+msgid "How loud the background music plays."
+msgstr "Le volume de la musique de fond."
+
+msgid "How loud their voices play."
+msgstr "Le volume de leurs voix."
+
+msgid "How to Play"
+msgstr "Comment jouer"
+
+msgid "Huh. Nobody's ever told me to slow down. They just assume I've got it handled."
+msgstr "Hm. Personne ne m'a jamais dit de ralentir. Tout le monde suppose que je gère."
+
+msgid "I can walk as far as my roots go. They go a long way now. Thanks to someone."
+msgstr "Je peux marcher aussi loin que vont mes racines. Elles vont loin, maintenant. Grâce à quelqu'un."
+
+msgid "I destroyed kingdoms, and you're making me wait?!"
+msgstr "J'ai détruit des royaumes, et tu me fais attendre ?!"
+
+msgid "I did that. Did you see? I did that out loud."
+msgstr "C'est moi qui ai fait ça. Tu as vu ? Je l'ai fait à voix haute."
+
+msgid "I don't like those. Sorry."
+msgstr "Je n'aime pas celles-là. Pardon."
+
+msgid "I had to drop a branch on the last guy, but don't worry, your face is too nice."
+msgstr "J'ai dû faire tomber une branche sur le dernier, mais ne t'inquiète pas, ton visage est trop joli."
+
+msgid "I have to tell you something. I kept something of yours. On the first day."
+msgstr "Il faut que je te dise quelque chose. J'ai gardé un truc à toi. Le premier jour."
+
+msgid "I know about the wall. My roots go where the water is. I can't control it."
+msgstr "Je suis au courant pour le mur. Mes racines vont là où est l'eau. Je ne peux pas le contrôler."
+
+msgid "I know. You were still gone forty minutes, not that I was counting."
+msgstr "Je sais. Tu es quand même parti quarante minutes, non que j'aie compté."
+
+msgid "I like having someone to hold the bucket."
+msgstr "J'aime avoir quelqu'un pour tenir le seau."
+
+msgid "I lose things. You've noticed. I'm not losing this one."
+msgstr "Je perds des choses. Tu l'as remarqué. Celui-là, je ne le perdrai pas."
+
+msgid "I should tell you I don't know what I'm doing. I've only heard about this. Through glass. People say a lot on a forest path when they think no one's listening."
+msgstr "Je devrais te dire que je ne sais pas ce que je fais. J'en ai seulement entendu parler. À travers le verre. Les gens disent beaucoup de choses sur un sentier forestier quand ils croient que personne n'écoute."
+
+msgid "I still owe you a reward. I haven't decided what it is yet. Don't look at me like that, I'm deciding."
+msgstr "Je te dois encore une récompense. Je n'ai pas encore décidé laquelle. Ne me regarde pas comme ça, je réfléchis."
+
+msgid "I was fine. It was quiet in there."
+msgstr "J'allais bien. C'était calme, là-dedans."
+
+msgid "I was floating. On my back. I'm a mermaid, if you didn't notice, and you just dragged me out of my own cove in front of my entire family."
+msgstr "Je flottais. Sur le dos. Je suis une sirène, au cas où tu ne l'aurais pas remarqué, et tu viens de me tirer hors de ma propre crique devant toute ma famille."
+
+msgid "I was meant to get it cleaned. I dropped it off the pier a week ago. Nobody knows."
+msgstr "Je devais le faire nettoyer. Je l'ai fait tomber de la jetée il y a une semaine. Personne ne le sait."
+
+msgid "I wasn't resting. I was looking for something. Gran's pearl comb. It's the only thing she brought with her when she came to this cove, and she wears it every Midsummer Tide."
+msgstr "Je ne me reposais pas. Je cherchais quelque chose. Le peigne de perles de Mamie. C'est la seule chose qu'elle a apportée en arrivant dans cette crique, et elle le porte chaque année pour la Marée de la Saint-Jean."
+
+msgid "I won't tell. Let me help you look."
+msgstr "Je ne dirai rien. Laisse-moi t'aider à chercher."
+
+msgid "I'd do it badly. Out of spite."
+msgstr "Je le ferais mal. Par dépit."
+
+msgid "I'd like to do it again. That's allowed to be said, isn't it? Good. I'd like to do it again."
+msgstr "J'aimerais recommencer. On a le droit de dire ça, non ? Bien. J'aimerais recommencer."
+
+msgid "I'd like to make it a thing."
+msgstr "J'aimerais bien en faire toute une histoire."
+
+msgid "I'd like to see that, actually."
+msgstr "J'aimerais bien voir ça, en fait."
+
+msgid "I'd want my own jar. Just to start. Is that strange?"
+msgstr "J'aimerais avoir mon propre bocal. Juste au début. C'est bizarre ?"
+
+msgid "I'll dig it. Show me where."
+msgstr "Je vais le creuser. Montre-moi où."
+
+msgid "I'll dig. I'm keeping the miller's money, though."
+msgstr "Je vais creuser. Mais je garde l'argent du meunier."
+
+msgid "I'll keep it on a low branch where I can see it. No, I won't use it to count time until our next meeting."
+msgstr "Je le garderai sur une branche basse où je peux le voir. Non, je ne m'en servirai pas pour compter le temps jusqu'à notre prochaine rencontre."
+
+msgid "I'll list everyone in town you'd like to drop a branch on."
+msgstr "Je vais énumérer tous les gens de la ville sur qui tu aimerais faire tomber une branche."
+
+msgid "I'll pay you, obviously. A reward, when we find it. It's a business arrangement, so you can stop smiling like that."
+msgstr "Je te paierai, évidemment. Une récompense, quand on l'aura trouvé. C'est un accord commercial, alors arrête de sourire comme ça."
+
+msgid "I'll pretend I didn't see that."
+msgstr "Je vais faire comme si je n'avais rien vu."
+
+msgid "I'm 18 or older"
+msgstr "J'ai 18 ans ou plus"
+
+msgid "I'm a bit pink right now. Ignore it."
+msgstr "Je suis un peu rose, là. Ne fais pas attention."
+
+msgid "I'm fine. Midsummer Tide's in nine days, and I've checked maybe a third of the cove."
+msgstr "Ça va. La Marée de la Saint-Jean est dans neuf jours, et j'ai fouillé peut-être un tiers de la crique."
+
+msgid "I'm glad I can help. Really."
+msgstr "Je suis content de pouvoir aider. Vraiment."
+
+msgid "I'm going to make you sound very brave. And very wet."
+msgstr "Je vais te faire passer pour très courageux. Et très mouillé."
+
+msgid "I'm not watching you. I'm photosynthesising."
+msgstr "Je ne te regarde pas. Je fais de la photosynthèse."
+
+msgid "I'm so sorry. I'll get every one of them back."
+msgstr "Je suis vraiment désolé. Je vais te les récupérer, jusqu'au dernier."
+
+msgid "I've been doing this for a very long time, and that was not on the list of things I expected from a library."
+msgstr "Ça fait très longtemps que je fais ça, et ce n'était pas sur la liste de ce que j'attendais d'une bibliothèque."
+
+msgid "I've been summoned by kings. They were worse at this."
+msgstr "Des rois m'ont invoquée. Ils étaient pires que toi à ce jeu."
+
+msgid "I've been summoned four hundred and some times. Never seen such gentleman."
+msgstr "J'ai été invoquée quatre cents et quelques fois. Jamais vu un tel gentleman."
+
+msgid "I've never seen a morning from this side of a summoning. It's very bright. I don't hate it."
+msgstr "Je n'avais jamais vu un matin de ce côté d'une invocation. C'est très lumineux. Je ne déteste pas."
+
+msgid "I've thought about this. Not a lot. A normal amount. Every day since the pier."
+msgstr "J'y ai pensé. Pas beaucoup. Une quantité normale. Tous les jours depuis la jetée."
+
+msgid "I-is that all right? Tell me if it's strange. You can say it's strange."
+msgstr "Ç-ça va ? Dis-moi si c'est bizarre. Tu as le droit de dire que c'est bizarre."
+
+msgid "I-it's not going on the shelf. It stays with me. In here. Is that all right?"
+msgstr "E-elle ne va pas sur l'étagère. Elle reste avec moi. Ici. Ça va ?"
+
+msgid "If I find one, I'm burning it."
+msgstr "Si j'en trouve une, je la brûle."
+
+msgid "If I'd known you liked it, I'd have come by sooner."
+msgstr "Si j'avais su que ça te plaisait, je serais venu plus tôt."
+
+msgid "If anyone asks, we're friends. Who swim. At night."
+msgstr "Si on demande, on est amis. Qui nagent. La nuit."
+
+msgid "If someone dug him a new channel, further out, I could follow it. It would take a season."
+msgstr "Si quelqu'un lui creusait un nouveau canal, plus loin, je pourrais le suivre. Il faudrait une saison."
+
+msgid "If you drop anything, I'll find it."
+msgstr "Si tu fais tomber quelque chose, je le retrouverai."
+
+msgid "If you find it before I do, don't open it."
+msgstr "Si tu le trouves avant moi, ne l'ouvre pas."
+
+msgid "If you're going to draw these, you'll draw them properly. Nobody else is coming through a circle this pathetic."
+msgstr "Si tu dois en dessiner, tu les dessineras correctement. Personne d'autre ne passera par un cercle aussi pitoyable."
+
+msgid "In Full Bloom"
+msgstr "En pleine floraison"
+
+msgid "In her chapters everything floats: gems rise, and new ones come up from the bottom."
+msgstr "Dans ses chapitres, tout flotte : les gemmes montent, et les nouvelles arrivent par le bas."
+
+msgid "In my defence, the label said newts."
+msgstr "Pour ma défense, l'étiquette disait tritons."
+
+msgid "In my experience, the people who don't ask want something worse. So. What is it?"
+msgstr "D'expérience, ceux qui ne demandent rien veulent quelque chose de pire. Alors. C'est quoi ?"
+
+msgid "In the back, under a dust sheet, you find a black cover with nothing in it. The pages have been cut out with a knife."
+msgstr "Dans l'arrière-boutique, sous une housse, vous trouvez une couverture noire vide. Les pages ont été découpées au couteau."
+
+msgid "Instant"
+msgstr "Instantanée"
+
+msgid "Irresistible"
+msgstr "Irrésistible"
+
+msgid "It has sexual content, including intimate scenes, and suggestive art. All characters are adults.\n\nPlease only continue if you're 18 or older, or the age of majority where you live."
+msgstr "Il contient du contenu sexuel, dont des scènes intimes, et des illustrations suggestives. Tous les personnages sont majeurs.\n\nNe continue que si tu as 18 ans ou plus, ou l'âge de la majorité là où tu vis."
+
+msgid "It isn't so bad, but some animals are... Barely tolerable company."
+msgstr "Ce n'est pas si terrible, mais certains animaux sont... d'une compagnie à peine supportable."
+
+msgid "It rains all night. None of it reaches you."
+msgstr "Il pleut toute la nuit. Pas une goutte ne t'atteint."
+
+msgid "It starts to rain"
+msgstr "Il commence à pleuvoir"
+
+msgid "It was a joke. He laughed at it every single morning for thirty-one years."
+msgstr "C'était une blague. Il en riait chaque matin depuis trente et un ans."
+
+msgid "It was a very good storm."
+msgstr "C'était une très bonne tempête."
+
+msgid "It was an excellent storm."
+msgstr "C'était une excellente tempête."
+
+msgid "It was here. Someone moved it, and not long ago."
+msgstr "Il était ici. Quelqu'un l'a déplacé, et il n'y a pas longtemps."
+
+msgid "It's April."
+msgstr "On est en avril."
+
+msgid "It's all here. All of it. I counted three times."
+msgstr "Tout est là. Tout. J'ai compté trois fois."
+
+msgid "It's down there! I've checked everywhere else, it has to be down there!"
+msgstr "Il est là-dessous ! J'ai cherché partout ailleurs, il doit être là-dessous !"
+
+msgid "It's fine. It's just roots. They have to let go of the old wall even if it hurts."
+msgstr "Ça va. Ce ne sont que des racines. Elles doivent lâcher le vieux mur, même si ça fait mal."
+
+msgid "It's loud out here. You're the good kind of loud."
+msgstr "C'est bruyant, dehors. Toi, tu es du bon bruit."
+
+msgid "It's not even scratched."
+msgstr "Il n'est même pas rayé."
+
+msgid "It's only when you're heaving her onto the boards that you notice the tail. It's long, it's teal, and it's slapping the pier hard enough to soak everyone."
+msgstr "Ce n'est qu'en la hissant sur les planches que tu remarques la queue. Elle est longue, turquoise, et elle frappe la jetée si fort qu'elle éclabousse tout le monde."
+
+msgid "It's somewhere in this building. I can feel it, like a draught. You're going to help me find it before anyone else does."
+msgstr "Il est quelque part dans ce bâtiment. Je le sens, comme un courant d'air. Tu vas m'aider à le trouver avant que quelqu'un d'autre ne le fasse."
+
+msgid "It's the chalk. Cheap chalk gets in your throat."
+msgstr "C'est la craie. La craie bon marché, ça gratte la gorge."
+
+msgid "It's the first thing in a new collection. Things that are yours."
+msgstr "C'est la première pièce d'une nouvelle collection. Les choses qui sont à toi."
+
+msgid "Item Bundle"
+msgstr "Lot d'objets"
+
+msgid "Item Shop"
+msgstr "Boutique"
+
+msgid "Items"
+msgstr "Objets"
+
+msgid "Just Because"
+msgstr "Juste comme ça"
+
+msgid "Keep voices on"
+msgstr "Garder les voix"
+
+msgid "Keeping Time"
+msgstr "Garder l'heure"
+
+msgid "Language"
+msgstr "Langue"
+
+msgid "Large"
+msgstr "Grand"
+
+msgid "Larger"
+msgstr "Très grand"
+
+msgid "Last night was the best thing that's happened to me in thirty-one years. Possibly... ever."
+msgstr "Hier soir, c'est la meilleure chose qui me soit arrivée en trente et un ans. Peut-être... depuis toujours."
+
+msgid "Later. The candle is down to a stub. She's lying across you on the reading room rug with one wing folded over you both like a blanket."
+msgstr "Plus tard. La bougie n'est plus qu'un moignon. Elle est allongée sur toi sur le tapis de la salle de lecture, une aile repliée sur vous deux comme une couverture."
+
+msgid "Leave"
+msgstr "Quitter"
+
+msgid "Leave it there a minute. It's been a long time."
+msgstr "Laisse-la là une minute. Ça fait longtemps."
+
+msgid "Leave this chapter?"
+msgstr "Quitter ce chapitre ?"
+
+msgid "Leave to Roster"
+msgstr "Retour au cercle"
+
+msgid "Leaves Going Red"
+msgstr "Les feuilles rougissent"
+
+msgid "Leaving a chapter you've started costs a heart."
+msgstr "Quitter un chapitre commencé coûte un cœur."
+
+msgid "Let Skip race through lines you haven't read yet, too."
+msgstr "Laisse Passer filer aussi à travers les répliques pas encore lues."
+
+msgid "Lines carry on by themselves (A)"
+msgstr "Les répliques défilent seules (A)"
+
+msgid "Log"
+msgstr "Journal"
+
+msgid "Losing a chapter costs a heart, and one comes back every %d minutes."
+msgstr "Perdre un chapitre coûte un cœur, et un cœur revient toutes les %d minutes."
+
+msgid "Love Potion"
+msgstr "Philtre d'amour"
+
+msgid "Love Potion active!"
+msgstr "Philtre d'amour activé !"
+
+msgid "Loves"
+msgstr "Adore"
+
+msgid "Low tide's at six. If you happen to be on the pier, you're on the pier, I'm not asking, I'm just saying when low tide is."
+msgstr "La marée basse est à six heures. Si par hasard tu es sur la jetée, tu es sur la jetée, je ne demande rien, je dis juste quand c'est la marée basse."
+
+msgid "Low tide. You spend two hours turning over rocks in the pools while she works the deeper water. You find a fork and a very angry crab."
+msgstr "Marée basse. Tu passes deux heures à retourner des pierres dans les flaques pendant qu'elle fouille l'eau plus profonde. Tu trouves une fourchette et un crabe très en colère."
+
+msgid "Lunar nonsense. Next."
+msgstr "Des bêtises lunaires. Suivant."
+
+msgid "MOVES"
+msgstr "COUPS"
+
+msgid "Made with Godot Engine"
+msgstr "Réalisé avec Godot Engine"
+
+msgid "Main menu"
+msgstr "Menu principal"
+
+msgid "Make 1000 matches."
+msgstr "Faire 1000 alignements."
+
+msgid "Make a Starburst."
+msgstr "Créer une Supernova."
+
+msgid "Make me."
+msgstr "Oblige-moi."
+
+msgid "Marina Waverly"
+msgstr "Marina Waverly"
+
+msgid "Marina's power: High Tide"
+msgstr "Pouvoir de Marina : Grande marée"
+
+msgid "Marina: the pearl comb"
+msgstr "Marina : le peigne de perles"
+
+msgid "Marina: the tide"
+msgstr "Marina : la marée"
+
+msgid "Master Volume"
+msgstr "Volume général"
+
+msgid "Match 4 in a row to make a Rocket, which clears its row or column. Match 5, or an L or T shape, to make a Starburst. Swap a special gem to set it off; swap two together for a Mega Blast."
+msgstr "Aligne 4 gemmes pour créer une Fusée, qui vide sa ligne ou sa colonne. Aligne-en 5, ou en forme de L ou de T, pour créer une Supernova. Déplace une gemme spéciale pour la déclencher ; échanges-en deux ensemble pour une Méga-explosion."
+
+msgid "Match crystals, Opal's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Love Potion brings more of them."
+msgstr "Aligne des cristaux, les préférés d'Opal : ils remplissent l'anneau de Charme deux fois plus vite, et en Difficile ils repoussent ce qui arrive. Un Philtre d'amour en fait venir davantage."
+
+msgid "Match pearls, Marina's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Time Scroll buys back lost moves."
+msgstr "Aligne des perles, les préférées de Marina : elles remplissent l'anneau de Charme deux fois plus vite, et en Difficile elles repoussent ce qui arrive. Un Parchemin du temps rachète les coups perdus."
+
+msgid "Match petals, Hazel's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards."
+msgstr "Aligne des pétales, les préférés de Hazel : ils remplissent l'anneau de Charme deux fois plus vite, et en Difficile ils repoussent ce qui arrive. Une Potion de guérison, c'est moins d'éclats maudits."
+
+msgid "Match runes, Amara's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards."
+msgstr "Aligne des runes, les préférées d'Amara : elles remplissent l'anneau de Charme deux fois plus vite, et en Difficile elles repoussent ce qui arrive. Une Potion de guérison, c'est moins d'éclats maudits."
+
+msgid "Matches made"
+msgstr "Alignements faits"
+
+msgid "Maybe I'm saving my wish for something good."
+msgstr "Peut-être que je garde mon vœu pour quelque chose de bien."
+
+msgid "Meet Hazel instead of cutting her tree down."
+msgstr "Rencontrer Hazel au lieu d'abattre son arbre."
+
+msgid "Meet her"
+msgstr "La rencontrer"
+
+msgid "Mega Blast"
+msgstr "Méga-explosion"
+
+msgid "Mega Blast!"
+msgstr "Méga-explosion !"
+
+msgid "Mending Potion"
+msgstr "Potion de guérison"
+
+msgid "Mending Potion active!"
+msgstr "Potion de guérison activée !"
+
+msgid "Mermaid of Saltwick Cove"
+msgstr "Sirène de la crique de Saltwick"
+
+msgid "Messages stay longer"
+msgstr "Messages plus longs"
+
+msgid "Millbrook Circle"
+msgstr "Le cercle de Millbrook"
+
+msgid "Mind my leaves with that."
+msgstr "Attention à mes feuilles avec ça."
+
+msgid "Mind the candle."
+msgstr "Attention à la bougie."
+
+msgid "Mm. That one smells like April."
+msgstr "Mm. Celui-là sent avril."
+
+msgid "Moonstone"
+msgstr "Pierre de lune"
+
+msgid "Moonstone. It smells like a church."
+msgstr "De la pierre de lune. Ça sent l'église."
+
+msgid "More"
+msgstr "Plus"
+
+msgid "Morning comes in through the reading room windows. Somebody has folded your jacket into a very neat square."
+msgstr "Le matin entre par les fenêtres de la salle de lecture. Quelqu'un a plié ta veste en un carré très net."
+
+msgid "Morning in the grove. There's blossom on the east side of the tree that wasn't there last night. Hazels flower in February. It's May."
+msgstr "Le matin dans le bosquet. Il y a des fleurs du côté est de l'arbre qui n'étaient pas là hier soir. Les noisetiers fleurissent en février. On est en mai."
+
+msgid "Morning light through the bedroom curtains, and someone translucent and lilac curled over the covers."
+msgstr "La lumière du matin à travers les rideaux de la chambre, et quelqu'un de translucide et lilas lové sur les draps."
+
+msgid "Morning. Your clothes are on the rail. I wrung them out myself, so you can thank me."
+msgstr "Bonjour. Tes vêtements sont sur la rambarde. Je les ai essorés moi-même, tu peux me remercier."
+
+msgid "Moss grows under some cells. A match, blast or Hammer on the cell clears it, and some moss hides one of her lost things."
+msgstr "De la mousse pousse sous certaines cases. Un alignement, une explosion ou un coup de Marteau sur la case l'enlève, et certaines mousses cachent un de ses objets perdus."
+
+msgid "Most people come down here for the game. You keep coming back for me, don't you?"
+msgstr "La plupart des gens descendent ici pour la partie. Toi, tu reviens pour moi, hein ?"
+
+msgid "Most summonings end the moment someone gets what they asked for. You never asked for anything. So... I stayed."
+msgstr "La plupart des invocations s'arrêtent dès que quelqu'un obtient ce qu'il a demandé. Toi, tu n'as jamais rien demandé. Alors... je suis restée."
+
+msgid "Mostly couples who thought they'd found somewhere private. So I know a lot about... you know."
+msgstr "Surtout des couples qui pensaient avoir trouvé un coin tranquille. Alors je sais beaucoup de choses sur... tu vois."
+
+msgid "Move"
+msgstr "Déplacer"
+
+msgid "Moves left this chapter"
+msgstr "Coups restants dans ce chapitre"
+
+msgid "Mum wants to feed you. Consider yourself warned."
+msgstr "Maman veut te nourrir. Te voilà prévenu."
+
+msgid "Music"
+msgstr "Musique"
+
+msgid "Neither of you notices what was coming."
+msgstr "Aucun de vous deux ne voit venir ce qui arrivait."
+
+msgid "Next"
+msgstr "Suivant"
+
+msgid "Next heart in %s"
+msgstr "Prochain cœur dans %s"
+
+msgid "Night scene"
+msgstr "Scène de nuit"
+
+msgid "Nine days. If we haven't found it by then, I'll tell her. Deal?"
+msgstr "Neuf jours. Si on ne l'a pas trouvé d'ici là, je lui dis. Marché conclu ?"
+
+msgid "Nine days. Keep going."
+msgstr "Neuf jours. Continue."
+
+msgid "Nine of those and I'm off the hook."
+msgstr "Neuf comme ça et je suis tirée d'affaire."
+
+msgid "Nine-hour wick. Hand-dipped. You know what this is for, don't you."
+msgstr "Mèche de neuf heures. Trempée à la main. Tu sais à quoi ça sert, n'est-ce pas."
+
+msgid "No Ads"
+msgstr "Sans pubs"
+
+msgid "No ads between chapters or under the menus, ever. Reward videos become one tap: the reward, no video."
+msgstr "Plus aucune pub entre les chapitres ni sous les menus. Les vidéos à récompense deviennent un simple toucher : la récompense, sans vidéo."
+
+msgid "No moves left — reshuffling!"
+msgstr "Plus aucun coup possible — on mélange !"
+
+msgid "No. Absolutely not."
+msgstr "Non. Hors de question."
+
+msgid "No. I've seen what those do."
+msgstr "Non. J'ai vu ce que ça fait."
+
+msgid "Normal"
+msgstr "Normale"
+
+msgid "Not bought"
+msgstr "Pas acheté"
+
+msgid "Not found yet"
+msgstr "Pas encore trouvée"
+
+msgid "Not found yet: finish her story to unlock it."
+msgstr "Pas encore trouvée : termine son histoire pour la débloquer."
+
+msgid "Not met yet"
+msgstr "Pas encore rencontrée"
+
+msgid "Not now"
+msgstr "Pas maintenant"
+
+msgid "Not unlocked yet"
+msgstr "Pas encore débloqué"
+
+msgid "Nothing here yet — finish a girl's story to add her ending."
+msgstr "Rien pour l'instant — termine l'histoire d'une fille pour ajouter sa fin."
+
+msgid "Nothing yet."
+msgstr "Rien pour l'instant."
+
+msgid "Now start at the alder and sleeves up."
+msgstr "Commence par l'aulne, et retrousse tes manches."
+
+msgid "Now that's a circle I'd step out of."
+msgstr "Voilà un cercle dont j'aurais envie de sortir."
+
+msgid "Now we can both stop pretending you came over here to talk about books."
+msgstr "Maintenant, on peut arrêter tous les deux de prétendre que tu es venu parler de livres."
+
+msgid "Obviously we're getting the second owl."
+msgstr "Évidemment qu'on prend la deuxième chouette."
+
+msgid "Of course I'll help. What does it look like?"
+msgstr "Bien sûr que je vais t'aider. Il ressemble à quoi ?"
+
+msgid "Offers appear here once Google Play is reachable."
+msgstr "Les offres apparaissent ici dès que Google Play est accessible."
+
+msgid "Oh, I intend to."
+msgstr "Oh, j'en ai bien l'intention."
+
+msgid "Oh, that's smooth, why can't anything else this week be smooth?"
+msgstr "Oh, ça glisse tout seul. Pourquoi rien d'autre ne glisse tout seul cette semaine ?"
+
+msgid "Oh, you're putting it down. Most argue first."
+msgstr "Oh, tu la poses. La plupart discutent d'abord."
+
+msgid "Oh, you're warm... No one's touched me without an axe in years."
+msgstr "Oh, tu es chaud... Personne ne m'a touchée sans hache depuis des années."
+
+msgid "Oh. I didn't know I did that. That's embarrassing. Do it again."
+msgstr "Oh. Je ne savais pas que je faisais ça. C'est gênant. Refais-le."
+
+msgid "Okay, that one was nice."
+msgstr "D'accord, celle-là était belle."
+
+msgid "Okay. A small thing."
+msgstr "D'accord. Une petite histoire."
+
+msgid "Okay. I'm going to say something and you're not allowed to be nice about it."
+msgstr "Bon. Je vais dire un truc et tu n'as pas le droit d'être gentil avec ça."
+
+msgid "Okay. The stream comes out under the Mill Bridge, in town. Things wash up there. People pick them up."
+msgstr "D'accord. Le ruisseau ressort sous le Pont du Moulin, en ville. Des choses s'y échouent. Les gens les ramassent."
+
+msgid "Old Glass Marble"
+msgstr "Vieille bille de verre"
+
+msgid "On the way back there's a notice nailed to the Mill Bridge. The town has sold the north woods to an alchemist, for his workshop. Clearing starts on quarter day."
+msgstr "Sur le chemin du retour, un avis est cloué au Pont du Moulin. La ville a vendu les bois du nord à un alchimiste, pour son atelier. Le défrichage commence au jour du terme."
+
+msgid "Once you've cleared her first chapter, her card on the roster has a gift for her. Give it and her favourite gem shows up more often in all her chapters, for good."
+msgstr "Une fois son premier chapitre réussi, sa carte dans le cercle propose un cadeau pour elle. Offre-le et sa gemme préférée apparaîtra plus souvent dans tous ses chapitres, pour de bon."
+
+msgid "One wave and the whole board is dealt again, always with a move to make."
+msgstr "Un coup de baguette et tout le plateau est redistribué, toujours avec un coup possible."
+
+msgid "Ooh. That's going in the... sorry."
+msgstr "Ooh. Ça va dans le... pardon."
+
+msgid "Opal"
+msgstr "Opal"
+
+msgid "Opal at the baker's counter, a loaf under one arm and a stray button in her hand."
+msgstr "Opal au comptoir de la boulangerie, une miche sous le bras et un bouton égaré dans la main."
+
+msgid "Opal moves in properly. Her collection grows a second shelf, then a third: things you've dropped, things your friends have dropped, the ticket from your first evening out together. The jar lives under the bed. She uses it twice that year, both times in thunderstorms, and both times you sit on the floor beside it while she tells you, through the glass, which of the neighbours owe each other money. She climbs out on her own before the storm is over."
+msgstr "Opal emménage pour de bon. Sa collection gagne une deuxième étagère, puis une troisième : des choses que tu as perdues, des choses que tes amis ont perdues, le billet de votre première soirée ensemble. Le bocal vit sous le lit. Elle s'en sert deux fois cette année-là, les deux fois pendant un orage, et les deux fois tu t'assois par terre à côté pendant qu'elle te raconte, à travers le verre, quels voisins se doivent de l'argent. Elle ressort toute seule avant la fin de l'orage."
+
+msgid "Opal's power: Absorb"
+msgstr "Pouvoir d'Opal : Absorption"
+
+msgid "Opal's things found"
+msgstr "Objets d'Opal retrouvés"
+
+msgid "Opal: her lost collection"
+msgstr "Opal : sa collection perdue"
+
+msgid "Opal: moss"
+msgstr "Opal : la mousse"
+
+msgid "Open log folder"
+msgstr "Ouvrir le dossier des journaux"
+
+msgid "Original characters · all characters are adults."
+msgstr "Personnages originaux · tous les personnages sont majeurs."
+
+msgid "Ouch!"
+msgstr "Aïe !"
+
+msgid "Out in the Storm"
+msgstr "Dans la tempête"
+
+msgid "Out of Moves"
+msgstr "À court de coups"
+
+msgid "Out of Season"
+msgstr "Hors saison"
+
+msgid "Out of hearts"
+msgstr "Plus de cœurs"
+
+msgid "Out of moves"
+msgstr "À court de coups"
+
+msgid "Owned"
+msgstr "Possédé"
+
+msgid "Owned: %d"
+msgstr "Possédé : %d"
+
+msgid "Pearl"
+msgstr "Perle"
+
+msgid "Pearls. Gran would approve."
+msgstr "Des perles. Mamie approuverait."
+
+msgid "Petal"
+msgstr "Pétale"
+
+msgid "Petals. Good. Those I understand."
+msgstr "Des pétales. Bien. Ça, je comprends."
+
+msgid "Pick a gem to pop."
+msgstr "Choisis une gemme à faire éclater."
+
+msgid "Pick a gem!"
+msgstr "Choisis une gemme !"
+
+msgid "Pick a gem."
+msgstr "Choisis une gemme."
+
+msgid "Pick a gem: every gem of that colour is cleared."
+msgstr "Choisis une gemme : toutes les gemmes de cette couleur disparaissent."
+
+msgid "Pick a gem: its whole row and column clear."
+msgstr "Choisis une gemme : toute sa ligne et sa colonne se vident."
+
+msgid "Pick up"
+msgstr "Prendre"
+
+msgid "Pickled newts don't usually have a date pencilled on the wax: the second of January. You open it anyway."
+msgstr "Les tritons au vinaigre n'ont pas d'habitude une date écrite au crayon sur la cire : le deux janvier. Tu l'ouvres quand même."
+
+msgid "Pictures"
+msgstr "Images"
+
+msgid "Pictures appear here as you meet the girls and reach their endings."
+msgstr "Les images apparaissent ici à mesure que tu rencontres les filles et atteins leurs fins."
+
+msgid "Pieces of Gran's comb start near the bottom. They can't be matched or moved: clear the gems above them and they rise. One that reaches the top row is yours."
+msgstr "Les morceaux du peigne de Mamie commencent près du fond. On ne peut ni les aligner ni les déplacer : vide les gemmes au-dessus et ils remontent. Celui qui atteint la ligne du haut est à toi."
+
+msgid "Plant something near me. So there's something of yours here when you're not."
+msgstr "Plante quelque chose près de moi. Pour qu'il y ait quelque chose de toi ici quand tu n'y es pas."
+
+msgid "Play"
+msgstr "Jouer"
+
+msgid "Play a chapter you've cleared again, for stars. Her story stays where it is."
+msgstr "Rejoue un chapitre réussi pour des étoiles. Son histoire reste où elle en est."
+
+msgid "Play a chapter you've cleared again, for stars. No story scenes, and her story stays where it is."
+msgstr "Rejoue un chapitre réussi pour des étoiles. Pas de scènes d'histoire, et son histoire reste où elle en est."
+
+msgid "Play as much as you like for 24 hours."
+msgstr "Joue autant que tu veux pendant 24 heures."
+
+msgid "Play it again"
+msgstr "Rejouer"
+
+msgid "Play time"
+msgstr "Temps de jeu"
+
+msgid "Pop any one gem, no match needed. Arm it from the item row, then tap a gem."
+msgstr "Fait éclater n'importe quelle gemme, sans alignement. Arme-le depuis la rangée d'objets, puis touche une gemme."
+
+msgid "Pop-up messages and her speech bubble in a chapter stay on screen longer. Dialogue always waits for you unless Auto is on."
+msgstr "Les messages et sa bulle de dialogue pendant un chapitre restent plus longtemps à l'écran. Les dialogues attendent toujours que tu continues, sauf en mode Auto."
+
+msgid "Popular"
+msgstr "Populaire"
+
+msgid "Pouch of Stars"
+msgstr "Bourse d'étoiles"
+
+msgid "Press her power button (or 4), then pick a gem: every gem of that colour is cleared, and the moss under them."
+msgstr "Appuie sur son bouton de pouvoir (ou 4), puis choisis une gemme : toutes les gemmes de cette couleur disparaissent, ainsi que la mousse en dessous."
+
+msgid "Press her power button (or 4), then pick a gem: its whole row and column clear. Seals in them break."
+msgstr "Appuie sur son bouton de pouvoir (ou 4), puis choisis une gemme : toute sa ligne et sa colonne se vident. Les sceaux qui s'y trouvent se brisent."
+
+msgid "Press her power button (or 4): every seed and sprout on the board grows one stage."
+msgstr "Appuie sur son bouton de pouvoir (ou 4) : chaque graine et chaque pousse du plateau grandit d'un stade."
+
+msgid "Press her power button (or 4): the two rows nearest the surface clear, and everything rises two rows."
+msgstr "Appuie sur son bouton de pouvoir (ou 4) : les deux lignes les plus proches de la surface se vident, et tout remonte de deux lignes."
+
+msgid "Pretty. Don't tell my sisters I said that."
+msgstr "Joli. Ne dis pas à mes sœurs que j'ai dit ça."
+
+msgid "Put down"
+msgstr "Poser"
+
+msgid "Put that out."
+msgstr "Éteins ça."
+
+msgid "Putting Down Roots"
+msgstr "Prendre racine"
+
+msgid "Quit"
+msgstr "Quitter"
+
+msgid "Reach Hazel's ending."
+msgstr "Atteindre la fin de Hazel."
+
+msgid "Reach her goal"
+msgstr "Atteins son objectif"
+
+msgid "Read back (L, or scroll up)"
+msgstr "Relire (L, ou molette vers le haut)"
+
+msgid "Read it for three more moves in the chapter you're playing. Use it from the item row under the board — it also gets you out of an Out of Moves screen."
+msgstr "Lis-le pour trois coups de plus dans le chapitre en cours. Utilise-le depuis la rangée d'objets sous le plateau — il te sort aussi d'un écran « À court de coups »."
+
+msgid "Ready!"
+msgstr "Prêt !"
+
+msgid "Reduce Motion"
+msgstr "Réduire les animations"
+
+msgid "Refill all · %d ⭐"
+msgstr "Tout recharger · %d ⭐"
+
+msgid "Remove ads · %s"
+msgstr "Retirer les pubs · %s"
+
+msgid "Replay"
+msgstr "Revoir"
+
+msgid "Replay %s's story?"
+msgstr "Rejouer l'histoire de %s ?"
+
+msgid "Replay a chapter"
+msgstr "Rejouer un chapitre"
+
+msgid "Replay her night scene."
+msgstr "Revoir sa scène de nuit."
+
+msgid "Replay story"
+msgstr "Rejouer l'histoire"
+
+msgid "Reply"
+msgstr "Répondre"
+
+msgid "Reset Progress"
+msgstr "Réinitialiser la progression"
+
+msgid "Reset all progress?"
+msgstr "Réinitialiser toute la progression ?"
+
+msgid "Reset everything"
+msgstr "Tout réinitialiser"
+
+msgid "Restore purchases"
+msgstr "Restaurer les achats"
+
+msgid "Retry Chapter"
+msgstr "Recommencer le chapitre"
+
+msgid "Revisit"
+msgstr "Retourner la voir"
+
+msgid "Rune"
+msgstr "Rune"
+
+msgid "Runes make my edges go fizzy."
+msgstr "Les runes me font pétiller les bords."
+
+msgid "Runes. Finally, someone in this town who can draw."
+msgstr "Des runes. Enfin quelqu'un dans cette ville qui sait dessiner."
+
+msgid "Runes. Like on the alchemists' jars."
+msgstr "Des runes. Comme sur les bocaux des alchimistes."
+
+msgid "Running out of moves still pays 1 star for every 200 points you scored (at least 3)."
+msgstr "Être à court de coups rapporte quand même 1 étoile tous les 200 points marqués (au moins 3)."
+
+msgid "Running out still pays you a few stars. Try again, read a Time Scroll, or visit the shop. Later chapters are hard without power-ups: short on stars, replay a chapter you've cleared from her card on the roster. Lose three times in a row and you can carry on with the story anyway."
+msgstr "Même quand tu échoues, tu gagnes quelques étoiles. Réessaie, lis un Parchemin du temps ou passe à la Boutique. Les derniers chapitres sont durs sans bonus : à court d'étoiles, rejoue un chapitre réussi depuis sa carte dans le cercle. Perds trois fois de suite et tu pourras quand même continuer l'histoire."
+
+msgid "SCORE"
+msgstr "SCORE"
+
+msgid "SEALS BROKEN"
+msgstr "SCEAUX BRISÉS"
+
+msgid "Saltwick Cove, an hour before sunset. You're on the cliff path when the shouting starts."
+msgstr "La crique de Saltwick, une heure avant le coucher du soleil. Tu es sur le sentier de la falaise quand les cris commencent."
+
+msgid "Save it, then. I'll be watching you very closely until you spend it."
+msgstr "Garde-le, alors. Je vais te surveiller de très près jusqu'à ce que tu l'utilises."
+
+msgid "Say it. The name I gave you."
+msgstr "Dis-le. Le nom que je t'ai donné."
+
+msgid "Score 2000 on a free date."
+msgstr "Marquer 2000 points pendant un rendez-vous libre."
+
+msgid "Scroll"
+msgstr "Défiler"
+
+msgid "Sealed. Match it by moving the gems beside it."
+msgstr "Scellée. Aligne-la en déplaçant les gemmes à côté."
+
+msgid "Seals broken"
+msgstr "Sceaux brisés"
+
+msgid "See the whole picture (H)"
+msgstr "Voir toute l'image (H)"
+
+msgid "See? Closed rings. It isn't hard."
+msgstr "Tu vois ? Des cercles fermés. Ce n'est pas difficile."
+
+msgid "Seeds can't be moved. Make matches next to them to make them grow."
+msgstr "Les graines ne se déplacent pas. Fais des alignements à côté pour les faire grandir."
+
+msgid "Seeds sit on the board and fall like gems, but can't be moved or matched. Every match right next to one grows it: seed, sprout, blossom. A blossom pops: +100 and the cells around it clear. Ember matches don't count: she dislikes ember."
+msgstr "Les graines sont sur le plateau et tombent comme des gemmes, mais on ne peut ni les déplacer ni les aligner. Chaque alignement juste à côté d'une graine la fait grandir : graine, pousse, fleur. Une fleur éclate : +100 et les cases autour se vident. Les alignements de braises ne comptent pas : elle n'aime pas la braise."
+
+msgid "Select"
+msgstr "Sélectionner"
+
+msgid "Set off a x3 combo."
+msgstr "Déclencher un combo x3."
+
+msgid "Set off a x5 combo."
+msgstr "Déclencher un combo x5."
+
+msgid "Settings"
+msgstr "Paramètres"
+
+msgid "Shard Smasher"
+msgstr "Briseur d'éclats"
+
+msgid "Shard smashed!"
+msgstr "Éclat brisé !"
+
+msgid "She bites the corner of it before she's even said thank you."
+msgstr "Elle en mordille un coin avant même de te remercier."
+
+msgid "She burns them in the reading room fireplace at four in the morning, one at a time. Each one goes up green. The loose page from your desk goes last: she tears her name off the corner and burns only that."
+msgstr "Elle les brûle dans la cheminée de la salle de lecture à quatre heures du matin, une par une. Chacune s'embrase en vert. La page volante de ton bureau passe en dernier : elle arrache son nom dans le coin et ne brûle que ça."
+
+msgid "She ducks under before you can answer and comes up a few yards away, pretending to search."
+msgstr "Elle plonge avant que tu puisses répondre et refait surface quelques mètres plus loin en faisant semblant de chercher."
+
+msgid "She falls asleep first, which she will deny. The tide comes in under the boathouse doors and goes out again."
+msgstr "C'est elle qui s'endort la première, ce qu'elle niera. La marée entre sous les portes du hangar, puis repart."
+
+msgid "She flicks her tail and soaks you a second time, very deliberately."
+msgstr "Elle donne un coup de queue et t'arrose une seconde fois, très délibérément."
+
+msgid "She goes cloudy."
+msgstr "Elle devient trouble."
+
+msgid "She goes outside on her own for the first time to buy bread. She's gone twenty minutes. You both pretend you weren't worried."
+msgstr "Elle sort seule pour la première fois acheter du pain. Elle est partie vingt minutes. Vous faites tous les deux semblant de ne pas vous être inquiétés."
+
+msgid "She goes slightly pink all the way through, like a drop of dye in a glass of water."
+msgstr "Elle rosit légèrement de part en part, comme une goutte de teinture dans un verre d'eau."
+
+msgid "She grabs you by the collar and kisses you, hard and quick, then looks horrified at herself."
+msgstr "Elle t'attrape par le col et t'embrasse, fort et vite, puis a l'air horrifiée d'elle-même."
+
+msgid "She holds out a button. It's yours. It came off your sleeve when you reached into the hollow for her jar, and you never noticed."
+msgstr "Elle te tend un bouton. Le tien. Il s'est détaché de ta manche quand tu as plongé la main dans le creux pour prendre son bocal, et tu ne l'as jamais remarqué."
+
+msgid "She holds the marble up to her eye, then presses it gently into her own palm. It sinks in and floats there, inside her hand, where she can see it."
+msgstr "Elle lève la bille devant son œil, puis la presse doucement dans sa propre paume. La bille s'enfonce et flotte là, dans sa main, où elle peut la voir."
+
+msgid "She hooks a finger in your collar and pulls you down until you're nose to nose over the reading table."
+msgstr "Elle passe un doigt dans ton col et t'attire jusqu'à ce que vous soyez nez à nez au-dessus de la table de lecture."
+
+msgid "She hooks a foot round your ankle and reels you in the last step."
+msgstr "Elle crochète ta cheville du pied et te ramène le dernier pas."
+
+msgid "She kisses you again, slower, just to be sure."
+msgstr "Elle t'embrasse encore, plus lentement, juste pour être sûre."
+
+msgid "She kisses you, slower than in the storm. When she pulls back she's breathing hard, and it isn't from swimming."
+msgstr "Elle t'embrasse, plus lentement que pendant la tempête. Quand elle s'écarte, elle respire fort, et ce n'est pas d'avoir nagé."
+
+msgid "She laughs into your shoulder until she gets the hiccups."
+msgstr "Elle rit contre ton épaule jusqu'au hoquet."
+
+msgid "She laughs, and a shower of rainwater falls off her leaves onto your head."
+msgstr "Elle rit, et une averse d'eau de pluie tombe de ses feuilles sur ta tête."
+
+msgid "She looks at the axe, then at the place on the trunk you were aiming for."
+msgstr "Elle regarde la hache, puis l'endroit du tronc que tu visais."
+
+msgid "She looks past you at the hollow: at the moss, pressed flat in neat little rows where something used to be laid out, and at the stream running fast and brown."
+msgstr "Elle regarde derrière toi, le creux : la mousse, aplatie en petites rangées bien nettes là où quelque chose était posé, et le ruisseau qui coule vite et brun."
+
+msgid "She makes you hold it up in the one patch of sun that gets through her leaves, and watches the shadow for a long time."
+msgstr "Elle te le fait tenir dans la seule tache de soleil qui traverse ses feuilles, et regarde l'ombre longtemps."
+
+msgid "She narrows her eyes, looking for the catch. There isn't one."
+msgstr "Elle plisse les yeux, cherchant l'arnaque. Il n'y en a pas."
+
+msgid "She picks up a stack of books anyway and asks where the poetry goes."
+msgstr "Elle prend quand même une pile de livres et demande où va la poésie."
+
+msgid "She picks up the candle so she has something to do with her hands."
+msgstr "Elle prend la bougie pour occuper ses mains."
+
+msgid "She pulls you down by your shirt. Her hair falls round you both, gold at the top and green at the ends, and it smells of rain."
+msgstr "Elle t'attire vers elle par ta chemise. Ses cheveux tombent autour de vous deux, dorés en haut et verts aux pointes, et ils sentent la pluie."
+
+msgid "She pulls your arms round her neck so you don't have to tread water, and holds you up with her tail."
+msgstr "Elle passe tes bras autour de son cou pour que tu n'aies pas à nager sur place, et te maintient à flot avec sa queue."
+
+msgid "She rides in a big glass jar in your arms with the lid off, and counts every button as you drop it in."
+msgstr "Elle voyage dans un grand bocal sans couvercle dans tes bras, et compte chaque bouton que tu y laisses tomber."
+
+msgid "She says it, but she doesn't swim off."
+msgstr "Elle dit ça, mais elle ne s'en va pas à la nage."
+
+msgid "She sets it beside the stub in your chalk circle and lights it from the old flame before the old one can go out."
+msgstr "Elle la pose à côté du moignon de bougie dans ton cercle de craie et l'allume à l'ancienne flamme avant que celle-ci ne s'éteigne."
+
+msgid "She shows you which branches you can sit on and which ones she's ticklish about. The second list is long."
+msgstr "Elle te montre sur quelles branches tu peux t'asseoir et lesquelles la chatouillent. La deuxième liste est longue."
+
+msgid "She sits on the end of the pier with her tail in the water. After a while she leans on your shoulder, as if by accident."
+msgstr "Elle s'assoit au bout de la jetée, la queue dans l'eau. Au bout d'un moment, elle s'appuie contre ton épaule, comme par accident."
+
+msgid "She sits on the reading table, which you've asked her twice not to do, and moves the candle so it won't drip on the returns."
+msgstr "Elle s'assoit sur la table de lecture, ce que tu lui as demandé deux fois de ne pas faire, et déplace la bougie pour qu'elle ne coule pas sur les retours."
+
+msgid "She steps over the chalk line herself, careful not to smudge it, and picks the page up. You realise you've been staring."
+msgstr "Elle enjambe elle-même la ligne de craie, en prenant soin de ne pas l'effacer, et ramasse la page. Tu te rends compte que tu la fixes."
+
+msgid "She takes your hand and presses it flat to her chest. Under the silk, something is beating far too fast for anyone that old."
+msgstr "Elle prend ta main et la presse à plat contre sa poitrine. Sous la soie, quelque chose bat bien trop vite pour quelqu'un d'aussi vieux."
+
+msgid "She takes your hand and presses it gently against her. It sinks in a little, cool and soft, and she shivers."
+msgstr "Elle prend ta main et la presse doucement contre elle. Ta main s'enfonce un peu, fraîche et douce, et elle frissonne."
+
+msgid "She talks until the storm passes. You fall asleep against her before she's finished, and she doesn't seem to mind."
+msgstr "Elle parle jusqu'à ce que l'orage passe. Tu t'endors contre elle avant qu'elle ait fini, et elle n'a pas l'air de s'en offusquer."
+
+msgid "She ties the cord round her neck with a double knot, so it can't come off in the water."
+msgstr "Elle noue le cordon autour de son cou avec un double nœud, pour qu'il ne se défasse pas dans l'eau."
+
+msgid "She turns pink, which, on Opal, is very easy to see."
+msgstr "Elle devient rose, ce qui, chez Opal, se voit très facilement."
+
+msgid "She turns round and lifts her hair off her neck. The dress fastens with a row of tiny hooks, from the collar down to where her wings begin."
+msgstr "Elle se retourne et soulève ses cheveux de sa nuque. La robe se ferme par une rangée de minuscules agrafes, du col jusqu'à la naissance de ses ailes."
+
+msgid "She turns the candle over in her hands and sniffs the wax, which seems to be the professional way to check."
+msgstr "Elle fait tourner la bougie entre ses mains et renifle la cire, ce qui semble être la méthode des professionnels."
+
+msgid "She was being friendly. You're the one I come here for."
+msgstr "Elle était juste aimable. C'est pour toi que je viens ici."
+
+msgid "She won't even be angry. She'll just say 'oh, Mari', the way Mum does."
+msgstr "Elle ne sera même pas fâchée. Elle dira juste « oh, Mari », comme Maman."
+
+msgid "She won't leave the candle behind. She carries it to Wick Street cupped in both hands, and makes you walk on the windy side."
+msgstr "Elle refuse d'abandonner la bougie. Elle la porte jusqu'à la rue de la Mèche dans ses mains en coupe, et te fait marcher du côté du vent."
+
+msgid "She's tall, horned and dressed for somewhere much nicer than a library. She crouches to look at your circle, and tuts."
+msgstr "Elle est grande, cornue, et habillée pour un endroit bien plus chic qu'une bibliothèque. Elle s'accroupit pour examiner ton cercle et fait claquer sa langue."
+
+msgid "Shop"
+msgstr "Boutique"
+
+msgid "Short on stars? Replay a chapter you've cleared, from her card on the roster: it pays half."
+msgstr "À court d'étoiles ? Rejoue un chapitre réussi depuis sa carte dans le cercle : il rapporte moitié moins."
+
+msgid "Shorter animations, calmer feedback."
+msgstr "Animations plus courtes, effets plus calmes."
+
+msgid "Shuffle Wand"
+msgstr "Baguette de mélange"
+
+msgid "Since the grove was a forest. Two hundred years, give or take a drought."
+msgstr "Depuis que le bosquet était une forêt. Deux cents ans, à une sécheresse près."
+
+msgid "Six tomorrow, lifeguard."
+msgstr "Demain six heures, sauveteur."
+
+msgid "Skip"
+msgstr "Passer"
+
+msgid "Skip Unread Lines"
+msgstr "Passer les répliques non lues"
+
+msgid "Skip any chapter, carry on after any loss, and 8 hearts instead of 5."
+msgstr "Passe n'importe quel chapitre, continue après n'importe quelle défaite, et 8 cœurs au lieu de 5."
+
+msgid "Skip chapter"
+msgstr "Passer le chapitre"
+
+msgid "Skip chapter  ▸"
+msgstr "Passer le chapitre  ▸"
+
+msgid "Skip every line up to the next reply, read or not"
+msgstr "Passer toutes les répliques jusqu'à la prochaine réponse, lues ou non"
+
+msgid "Skip it with the Story Pass  ▸"
+msgstr "Le passer avec le Pass Histoire  ▸"
+
+msgid "Skip lines you've read (hold Ctrl)"
+msgstr "Passer les répliques lues (maintenir Ctrl)"
+
+msgid "Skip this chapter?"
+msgstr "Passer ce chapitre ?"
+
+msgid "Skip unread"
+msgstr "Passer tout"
+
+msgid "Skips this chapter's puzzle: no stars for it."
+msgstr "Passe le puzzle de ce chapitre : pas d'étoiles pour lui."
+
+msgid "Slime, formerly of a jar"
+msgstr "Slime, anciennement dans un bocal"
+
+msgid "Slow"
+msgstr "Lente"
+
+msgid "Slower. I can hear you panicking."
+msgstr "Plus lentement. Je t'entends paniquer."
+
+msgid "Slowly. I've got all the time in the world, and I'd like to spend some of it on this."
+msgstr "Doucement. J'ai tout le temps du monde, et j'aimerais en passer un peu à ça."
+
+msgid "Smart. Unspent wishes don't expire. I knew a man who sat on one until he died."
+msgstr "Malin. Les vœux non utilisés n'expirent pas. J'ai connu un homme qui en a gardé un jusqu'à sa mort."
+
+msgid "So she climbs out of her jar in the middle of the shop, in front of everyone, and asks for it herself."
+msgstr "Alors elle sort de son bocal en plein magasin, devant tout le monde, et le demande elle-même."
+
+msgid "So. Are you telling them how we met, or am I?"
+msgstr "Alors. Tu leur racontes comment on s'est rencontrés, ou c'est moi ?"
+
+msgid "So. Last night. I've been floating close by trying to think of a word for it, and I've got it down to three, and they're all very rude."
+msgstr "Alors. Hier soir. Je flotte dans le coin depuis un moment à chercher un mot pour ça, j'en ai gardé trois, et ils sont tous très grossiers."
+
+msgid "Soft as Moss"
+msgstr "Doux comme la mousse"
+
+msgid "Some gems carry her ink seal. A sealed gem can't be picked up, but it still counts in a match you make by moving the gems beside it. The first match, blast or Hammer breaks the seal and the gem stays."
+msgstr "Certaines gemmes portent son sceau d'encre. Une gemme scellée ne peut pas être déplacée, mais elle compte quand même dans un alignement que tu fais en bougeant les gemmes voisines. Le premier alignement, explosion ou coup de Marteau brise le sceau, et la gemme reste."
+
+msgid "Someone bought that off a market stall. I can tell."
+msgstr "Quelqu'un a acheté ça sur un étal de marché. Ça se voit."
+
+msgid "Someone in this town knows exactly what that book is."
+msgstr "Quelqu'un dans cette ville sait exactement ce qu'est ce livre."
+
+msgid "Something about to happen on your date. Matching her favourite gem holds it off a move; a Charm Burst clears it."
+msgstr "Il va se passer quelque chose pendant ton rendez-vous. Aligner sa gemme préférée le repousse d'un coup ; une Explosion de Charme l'annule."
+
+msgid "Something cool and slightly heavy is draped over you like a blanket. It turns out to be her."
+msgstr "Quelque chose de frais et un peu lourd est étalé sur toi comme une couverture. C'est elle."
+
+msgid "Something pours over the rim, slow and shining, pale lilac with flashes of green and pink in it. You jump back so fast you kick half the hollow into the stream. It gathers itself on a root into the shape of a woman, and she does not look happy."
+msgstr "Quelque chose déborde, lent et luisant, lilas pâle avec des éclats de vert et de rose. Tu recules si vite que tu envoies la moitié du creux dans le ruisseau d'un coup de pied. La chose se rassemble sur une racine en forme de femme, et elle n'a pas l'air contente."
+
+msgid "Sorry. I don't usually get to tell anyone."
+msgstr "Pardon. Je n'ai jamais personne à qui raconter ça."
+
+msgid "Sorry. I spread out in my sleep. I didn't know that. I've never slept anywhere big enough to find out."
+msgstr "Pardon. Je m'étale en dormant. Je ne le savais pas. Je n'avais jamais dormi dans un endroit assez grand pour le découvrir."
+
+msgid "Sorry. I'm watching. Is that all right?"
+msgstr "Pardon. Je regarde. Ça va ?"
+
+msgid "Sound Effects"
+msgstr "Effets sonores"
+
+msgid "Spark route"
+msgstr "Voie de l'étincelle"
+
+msgid "Special gems"
+msgstr "Gemmes spéciales"
+
+msgid "Special gems made"
+msgstr "Gemmes spéciales créées"
+
+msgid "Splinters"
+msgstr "Échardes"
+
+msgid "Starburst Starter"
+msgstr "Supernova de départ"
+
+msgid "Starburst Starter active!"
+msgstr "Supernova de départ activée !"
+
+msgid "Stars come from clearing chapters: 15 for a girl's first and 5 more for each one after it."
+msgstr "Les étoiles viennent des chapitres réussis : 15 pour le premier d'une fille et 5 de plus pour chacun des suivants."
+
+msgid "Stars — earned by clearing chapters, spent in the Item Shop and on gifts."
+msgstr "Étoiles — gagnées en réussissant des chapitres, dépensées à la Boutique et en cadeaux."
+
+msgid "Starstruck"
+msgstr "Des étoiles plein les yeux"
+
+msgid "Start at the alder. I'll enjoy the view."
+msgstr "Commence par l'aulne. Je vais profiter de la vue."
+
+msgid "Start her story over from the beginning"
+msgstr "Recommencer son histoire depuis le début"
+
+msgid "Start with the baker. He leans on me when he smokes."
+msgstr "Commence par le boulanger. Il s'appuie contre moi quand il fume."
+
+msgid "Starter Pack"
+msgstr "Pack de départ"
+
+msgid "Stats"
+msgstr "Statistiques"
+
+msgid "Stay till the candle goes. Then stay anyway."
+msgstr "Reste jusqu'à ce que la bougie s'éteigne. Et puis reste quand même."
+
+msgid "Stay tonight. I'll keep the rain off."
+msgstr "Reste cette nuit. Je te protégerai de la pluie."
+
+msgid "Stay where you are. Don't break the circle. If that candle goes out, I go home, and I'm not done with you."
+msgstr "Ne bouge pas. Ne brise pas le cercle. Si cette bougie s'éteint, je rentre chez moi, et je n'en ai pas fini avec toi."
+
+msgid "Still nothing?"
+msgstr "Toujours rien ?"
+
+msgid "Stop here. This scene plays again next time you visit her."
+msgstr "Arrêter ici. Cette scène se rejouera à ta prochaine visite."
+
+msgid "Stop pretending you're looking for the book. You've walked past this table eleven times tonight, and the book isn't on it. I am."
+msgstr "Arrête de faire semblant de chercher le livre. Tu es passé onze fois devant cette table ce soir, et le livre n'est pas dessus. Moi, si."
+
+msgid "Stop. I'll go cloudy."
+msgstr "Arrête. Je vais devenir trouble."
+
+msgid "Store"
+msgstr "Boutique"
+
+msgid "Story"
+msgstr "Histoire"
+
+msgid "Story Pass"
+msgstr "Pass Histoire"
+
+msgid "Story Pass: 8 hearts and free skips · %s"
+msgstr "Pass Histoire : 8 cœurs et passages libres · %s"
+
+msgid "Story difficulty: carry on with the story without playing this chapter (no stars for it)."
+msgstr "Difficulté Histoire : continue l'histoire sans jouer ce chapitre (pas d'étoiles pour lui)."
+
+msgid "Story: twice the moves, and you can skip any chapter. Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Takes effect from the next chapter."
+msgstr "Histoire : deux fois plus de coups, et tu peux passer n'importe quel chapitre. Difficile : tous les quelques coups, il se passe quelque chose pendant ton rendez-vous (une vague sur la jetée, les bougies vacillent), annoncé à l'avance. Prend effet au prochain chapitre."
+
+msgid "Succubus, summoned by mistake"
+msgstr "Succube, invoquée par erreur"
+
+msgid "Summer"
+msgstr "Été"
+
+msgid "Summer!"
+msgstr "Été !"
+
+msgid "Sure. After I've shelved these returns."
+msgstr "D'accord. Après avoir rangé ces retours."
+
+msgid "Swap"
+msgstr "Échanger"
+
+msgid "Swap and match"
+msgstr "Échanger et aligner"
+
+msgid "Swap two gems next to each other to line up three or more of the same kind. Matched gems pop and score points; new ones fall in from the top."
+msgstr "Échange deux gemmes voisines pour en aligner trois ou plus du même type. Les gemmes alignées éclatent et rapportent des points ; de nouvelles tombent par le haut."
+
+msgid "Swap two special gems together."
+msgstr "Échanger deux gemmes spéciales ensemble."
+
+msgid "Swim with me later. Don't embarrass me again."
+msgstr "Viens nager avec moi plus tard. Ne me fais pas encore honte."
+
+msgid "THINGS FOUND"
+msgstr "OBJETS TROUVÉS"
+
+msgid "TIP"
+msgstr "CONSEIL"
+
+msgid "Take your time. I've got about three hundred years."
+msgstr "Prends ton temps. J'ai à peu près trois cents ans devant moi."
+
+msgid "Talk to me. About anything. Your voice helps me get through it."
+msgstr "Parle-moi. De n'importe quoi. Ta voix m'aide à tenir."
+
+msgid "Tap a gem!"
+msgstr "Touche une gemme !"
+
+msgid "Tell her the jeweller ran off with a sea captain."
+msgstr "Dis-lui que le bijoutier s'est enfui avec un capitaine."
+
+msgid "Tell her the truth. She'll understand."
+msgstr "Dis-lui la vérité. Elle comprendra."
+
+msgid "Tell me about the grove when it was a forest."
+msgstr "Raconte-moi le bosquet quand c'était une forêt."
+
+msgid "Tell me about the others while we look."
+msgstr "Parle-moi des autres pendant qu'on cherche."
+
+msgid "Tell me if I get this wrong. I've read about it in exactly one book, and a woodcutter dropped it here before the mill was built."
+msgstr "Dis-moi si je m'y prends mal. J'ai lu là-dessus dans exactement un livre, et un bûcheron l'a fait tomber ici avant qu'on construise le moulin."
+
+msgid "Tempting. You'd have to do my shelving."
+msgstr "Tentant. Tu devrais ranger mes livres."
+
+msgid "Test purchase"
+msgstr "Achat test"
+
+msgid "Testing Mode"
+msgstr "Mode test"
+
+msgid "Text Speed"
+msgstr "Vitesse du texte"
+
+msgid "Text size"
+msgstr "Taille du texte"
+
+msgid "Th-thank you. Sorry. No. Not sorry. Thank you."
+msgstr "M-merci. Pardon. Non. Pas pardon. Merci."
+
+msgid "Th-thank you. Sorry. Thank you."
+msgstr "M-merci. Pardon. Merci."
+
+msgid "Th-that was good. That was really good."
+msgstr "C-c'était bien. C'était vraiment bien."
+
+msgid "Thanks for playing the demo!"
+msgstr "Merci d'avoir joué à la démo !"
+
+msgid "That catches the light. Do another."
+msgstr "Ça attrape la lumière. Encore un."
+
+msgid "That night she climbs down from her branch and walks out across the grass, further than you've ever seen her go."
+msgstr "Cette nuit-là, elle descend de sa branche et s'avance dans l'herbe, plus loin que tu ne l'as jamais vue aller."
+
+msgid "That one would actually hold a demon."
+msgstr "Celui-là retiendrait vraiment un démon."
+
+msgid "That one's fine. That one's fine. Not that one. I mean it. Don't."
+msgstr "Celle-là, ça va. Celle-là, ça va. Pas celle-là. Je suis sérieuse. Non."
+
+msgid "That sounds strange out loud. Don't answer that."
+msgstr "Dit à voix haute, ça sonne bizarre. Ne réponds pas."
+
+msgid "That was the storm. Don't make it a thing."
+msgstr "C'est la tempête. N'en fais pas toute une histoire."
+
+msgid "That was very nice. Thank you."
+msgstr "C'était très joli. Merci."
+
+msgid "That was. Okay. I don't have a word. I always have a word."
+msgstr "C'était. Bon. Je n'ai pas de mot. J'ai toujours un mot."
+
+msgid "That's a dry-land gem. Put it back."
+msgstr "Ça, c'est une gemme de terre ferme. Repose-la."
+
+msgid "That's a good trench, for a grave."
+msgstr "Une belle tranchée. Pour une tombe."
+
+msgid "That's actually good. She'd believe that."
+msgstr "C'est pas mal, en fait. Elle le croirait."
+
+msgid "That's all of them. I'm free. No more circles. Nobody can drag me anywhere ever again."
+msgstr "C'est la dernière. Je suis libre. Plus de cercles. Plus personne ne pourra me traîner nulle part."
+
+msgid "That's autumn."
+msgstr "C'est l'automne."
+
+msgid "That's lovely. Keep going."
+msgstr "C'est joli. Continue."
+
+msgid "That's nine more hours you can't get rid of me. You did that on purpose."
+msgstr "Ça fait neuf heures de plus où tu ne pourras pas te débarrasser de moi. Tu l'as fait exprès."
+
+msgid "That's off the comb's box. So it went right in there."
+msgstr "Il vient de l'écrin du peigne. Donc il est tombé pile là."
+
+msgid "That's real. The sea made that. People tumble old bottles in a barrel and sell it as sea glass."
+msgstr "Il est vrai. C'est la mer qui l'a fait. Il y a des gens qui roulent de vieilles bouteilles dans un tonneau et les vendent comme verre de mer."
+
+msgid "That's the good stuff. Again."
+msgstr "Ça, c'est du bon. Encore."
+
+msgid "That's why Ambrose put me in the jar. Nobody looks inside a jar of pickled newts. We were the same age when he did it, near enough. He got old."
+msgstr "C'est pour ça qu'Ambrose m'a mise dans le bocal. Personne ne regarde dans un bocal de tritons au vinaigre. On avait à peu près le même âge quand il l'a fait. Lui, il a vieilli."
+
+msgid "That's you. You did that. A month of you leaning on me with your sleeves rolled up."
+msgstr "C'est toi. C'est toi qui as fait ça. Un mois à t'appuyer contre moi, les manches retroussées."
+
+msgid "That's your fault. I'd like that on record."
+msgstr "C'est ta faute. Je veux que ce soit noté."
+
+msgid "The Time Scroll (three more moves), the Hammer (smash any one gem) and the Shuffle Wand (a new board) sit under the board. Buy them, and potions that help a whole chapter, in the Item Shop with the stars you earn."
+msgstr "Le Parchemin du temps (trois coups de plus), le Marteau (brise n'importe quelle gemme) et la Baguette de mélange (un nouveau plateau) se trouvent sous le plateau. Achète-les, ainsi que des potions qui aident pendant tout un chapitre, à la Boutique avec les étoiles que tu gagnes."
+
+msgid "The animals are watching. I told them to go away. Nobody in this grove listens to me."
+msgstr "Les animaux regardent. Je leur ai dit de partir. Personne ne m'écoute dans ce bosquet."
+
+msgid "The boathouse slipway at sunrise, two sets of clothes drying on the rail."
+msgstr "La cale du hangar au lever du soleil, deux tenues qui sèchent sur la rambarde."
+
+msgid "The boathouse smells of tar and salt. There's a heap of old sails in the corner, and she pulls you down onto them by your wet shirt."
+msgstr "Le hangar sent le goudron et le sel. Il y a un tas de vieilles voiles dans un coin, et elle t'y entraîne par ta chemise mouillée."
+
+msgid "The book is in this building. Keep going."
+msgstr "Le livre est dans ce bâtiment. Continue."
+
+msgid "The candle burns down to nothing, and neither of you notices when it goes out."
+msgstr "La bougie se consume jusqu'au bout, et aucun de vous deux ne remarque quand elle s'éteint."
+
+msgid "The candle in your chalk circle, the fourth one this week, is nearly gone. She watches it gutter and doesn't go anywhere."
+msgstr "La bougie dans ton cercle de craie, la quatrième de la semaine, est presque finie. Elle la regarde vaciller et ne s'en va pas."
+
+msgid "The candles gutter"
+msgstr "Les bougies vacillent"
+
+msgid "The card catalogue has a gap where the book should be. Someone has left a slip in the drawer instead: OUT FOR REBINDING, and a name."
+msgstr "Le fichier a un trou là où devrait être le livre. Quelqu'un a laissé une fiche dans le tiroir à la place : PARTI EN RELIURE, et un nom."
+
+msgid "The comb is in a tin of odds and ends on the Pellow brothers' boat: fishing weights, a doll's head, and nine pearls on a silver spine. It costs you two weeks' pay and a lot of explaining."
+msgstr "Le peigne est dans une boîte en fer pleine de bric-à-brac sur le bateau des frères Pellow : des plombs de pêche, une tête de poupée, et neuf perles sur un dos d'argent. Il te coûte deux semaines de salaire et beaucoup d'explications."
+
+msgid "The comb piece can't be hammered. Bring it up to the surface."
+msgstr "Le morceau de peigne ne peut pas être cassé au Marteau. Fais-le remonter à la surface."
+
+msgid "The ferns tell me you were talking to the miller's daughter. I'm not jealous. But I might drop a branch near her, that's all."
+msgstr "Les fougères me disent que tu parlais avec la fille du meunier. Je ne suis pas jalouse. Mais je pourrais faire tomber une branche près d'elle, c'est tout."
+
+msgid "The flame leans sideways. Then it goes green. Smoke fills the circle, smelling of struck matches and expensive perfume, and someone steps out of it, coughing."
+msgstr "La flamme penche sur le côté. Puis elle devient verte. La fumée remplit le cercle, avec une odeur d'allumette craquée et de parfum hors de prix, et quelqu'un en sort en toussant."
+
+msgid "The full game has four stories: Hazel's, and three more women of Millbrook to meet in the worst way possible. Each has four chapters, her night scene and her ending."
+msgstr "Le jeu complet compte quatre histoires : celle de Hazel, et trois autres femmes de Millbrook à rencontrer de la pire façon possible. Chacune a quatre chapitres, sa scène de nuit et sa fin."
+
+msgid "The game's text. Voices stay in English."
+msgstr "Le texte du jeu. Les voix restent en anglais."
+
+msgid "The girls are voiced by amateur voice actresses, recorded at home. We love how they turned out, but they aren't studio recordings, and not every line is voiced yet.\n\nIf you'd rather read in your own head, turn the voices off. You can change this any time in Settings."
+msgstr "Les filles sont doublées par des comédiennes amatrices, enregistrées chez elles. Nous adorons le résultat, mais ce ne sont pas des enregistrements de studio, et toutes les répliques ne sont pas encore doublées.\n\nSi tu préfères lire dans ta tête, coupe les voix. Tu peux changer ça à tout moment dans les Paramètres."
+
+msgid "The glass eye turns up in the window of the taxidermist's on Lantern Street, in a stuffed owl. The taxidermist won't sell it. He says the owl needs it."
+msgstr "L'œil de verre réapparaît dans la vitrine du taxidermiste de la rue des Lanternes, dans une chouette empaillée. Le taxidermiste refuse de le vendre. Il dit que la chouette en a besoin."
+
+msgid "The green at the tips of her hair goes a shade darker. She notices, and decides not to mention it."
+msgstr "Le vert au bout de ses cheveux fonce d'un ton. Elle le remarque, et décide de ne rien dire."
+
+msgid "The jar stays empty all night."
+msgstr "Le bocal reste vide toute la nuit."
+
+msgid "The jar... Should I keep it?"
+msgstr "Le bocal... Je devrais le garder ?"
+
+msgid "The keys went to a locksmith, he says. And the glass eye went to someone who needed a glass eye, I suppose."
+msgstr "Les clés sont parties chez un serrurier, il dit. Et l'œil de verre chez quelqu'un qui avait besoin d'un œil de verre, j'imagine."
+
+msgid "The ledger leads you straight back to your own library. The last pages were sold to it in March as loose leaves, assorted, and filed in the rare books vault under Miscellaneous, Infernal."
+msgstr "Le registre vous ramène droit à ta propre bibliothèque. Les dernières pages lui ont été vendues en mars en feuilles volantes, assorties, et classées dans la réserve des livres rares sous Divers, Infernal."
+
+msgid "The locksmith on Cinder Row has her keys in a bucket and wants a shilling for the lot. While you haggle, she stays very still in her jar under the counter."
+msgstr "Le serrurier de la rue des Cendres a ses clés dans un seau et en veut un shilling pour le tout. Pendant que tu marchandes, elle reste parfaitement immobile dans son bocal sous le comptoir."
+
+msgid "The mermaid looks at you properly for the first time. You're dripping. You've lost a shoe."
+msgstr "La sirène te regarde vraiment pour la première fois. Tu dégoulines. Tu as perdu une chaussure."
+
+msgid "The miller sent you? He sends someone every spring."
+msgstr "C'est le meunier qui t'envoie ? Il envoie quelqu'un chaque printemps."
+
+msgid "The miller walks past"
+msgstr "Le meunier passe"
+
+msgid "The millrace runs and the old hazel keeps her roots. You plant another hazel beside the new channel, and it grows faster than it has any right to, leaning towards the old tree as if it's listening. You sleep in the grove more nights than not, and the old hazel blossoms in the wrong season, every season, which the miller now tells people is good luck."
+msgstr "Le bief coule et le vieux noisetier garde ses racines. Tu plantes un autre noisetier à côté du nouveau canal, et il pousse plus vite qu'il n'en a le droit, penché vers le vieil arbre comme s'il écoutait. Tu dors dans le bosquet plus souvent qu'à ton tour, et le vieux noisetier fleurit à la mauvaise saison, à chaque saison, ce que le meunier présente maintenant aux gens comme un porte-bonheur."
+
+msgid "The moss on the east side is softer than it looks."
+msgstr "La mousse du côté est est plus douce qu'elle n'en a l'air."
+
+msgid "The moss on the east side is softer than it looks. Above you her branches have spread and knitted together, and the first rain ticks against the leaves without coming through."
+msgstr "La mousse du côté est est plus douce qu'elle n'en a l'air. Au-dessus de toi, ses branches se sont déployées et entrelacées, et la première pluie tapote contre les feuilles sans passer au travers."
+
+msgid "The name on the slip belongs to a bookbinder who died in the spring. His shop is still full of loose pages."
+msgstr "Le nom sur la fiche est celui d'un relieur mort au printemps. Sa boutique est encore pleine de pages volantes."
+
+msgid "The old hazel at dawn, in full blossom, in May."
+msgstr "Le vieux noisetier à l'aube, en pleine floraison, en mai."
+
+msgid "The old hazel stands where the grove meets the millrace. It's so big that the mill's back wall has started to bend round its roots."
+msgstr "Le vieux noisetier se dresse là où le bosquet rejoint le bief du moulin. Il est si grand que le mur arrière du moulin a commencé à se courber autour de ses racines."
+
+msgid "The pier's quiet apart from the Thursday tile game at the far end, where the three old fishermen are arguing about the score again."
+msgstr "La jetée est silencieuse, à part la partie du jeudi à l'autre bout, où les trois vieux pêcheurs se disputent encore le score."
+
+msgid "The purchase couldn't start (%s)."
+msgstr "L'achat n'a pas pu démarrer (%s)."
+
+msgid "The purchase didn't go through (%s)."
+msgstr "L'achat n'a pas abouti (%s)."
+
+msgid "The reading room at dawn: a burnt-out candle in a smudged chalk circle, your jacket folded into a neat square on the returns cart."
+msgstr "La salle de lecture à l'aube : une bougie consumée dans un cercle de craie brouillé, ta veste pliée en un carré net sur le chariot des retours."
+
+msgid "The reading room with the door shut. The only light is the candle in your chalk circle, and she's sitting on the reading table again."
+msgstr "La salle de lecture, porte fermée. La seule lumière vient de la bougie dans ton cercle de craie, et elle est de nouveau assise sur la table de lecture."
+
+msgid "The reward is you come to every Tide from now on. Non-negotiable. Don't smile, it's a punishment."
+msgstr "La récompense, c'est que tu viennes à chaque Marée désormais. Non négociable. Ne souris pas, c'est une punition."
+
+msgid "The store isn't available in this build."
+msgstr "La boutique n'est pas disponible dans cette version."
+
+msgid "The stream comes out under the Mill Bridge, where Coombs the rag-and-bone man fishes for anything that floats. You get there ahead of her and sell him a handful of buttons off the bank for two coppers before you realise whose they are. He's netted the rest too. Buying the lot back costs six coppers, which he finds very funny."
+msgstr "Le ruisseau ressort sous le Pont du Moulin, où Coombs le chiffonnier repêche tout ce qui flotte. Tu arrives avant elle et lui vends une poignée de boutons ramassés sur la berge pour deux sous de cuivre avant de comprendre à qui ils sont. Il a aussi pris le reste dans son filet. Tout racheter te coûte six sous, ce qu'il trouve très drôle."
+
+msgid "The stream goes to town. We're going. You're carrying me! Please?"
+msgstr "Le ruisseau va en ville. On y va. Tu me portes ! S'il te plaît ?"
+
+msgid "The taxidermist is so startled he gives her the eye, the owl, and a discount on a second owl."
+msgstr "Le taxidermiste est si surpris qu'il lui donne l'œil, la chouette et une réduction sur une deuxième chouette."
+
+msgid "The tide turns"
+msgstr "La marée tourne"
+
+msgid "The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts."
+msgstr "La rangée du haut s'utilise pendant un chapitre ; celle du bas agit toute seule au début de ton prochain chapitre."
+
+msgid "The trench reaches the river on the night of a storm. Water floods into the new channel, and the whole tree shudders."
+msgstr "La tranchée atteint la rivière une nuit d'orage. L'eau s'engouffre dans le nouveau canal, et tout l'arbre frissonne."
+
+msgid "The two rows nearest the surface clear, and everything rises two rows."
+msgstr "Les deux lignes les plus proches de la surface se vident, et tout remonte de deux lignes."
+
+msgid "The water in the cove is warm and black and full of moonlight. She surfaces right in front of you, close enough that her hair brushes your face."
+msgstr "L'eau de la crique est chaude, noire et pleine de clair de lune. Elle refait surface juste devant toi, si près que ses cheveux te frôlent le visage."
+
+msgid "The water's warm tonight."
+msgstr "L'eau est chaude ce soir."
+
+msgid "The woods north of Millbrook, late autumn. You're out gathering firewood and anything worth selling, and you've followed the stream further in than you meant to."
+msgstr "Les bois au nord de Millbrook, fin d'automne. Tu ramasses du bois de chauffage et tout ce qui peut se vendre, et tu as suivi le ruisseau plus loin que prévu."
+
+msgid "Their net. It went right through where I dropped it."
+msgstr "Leur filet. Il est passé pile là où je l'ai fait tomber."
+
+msgid "Then I'll ask. Close the reading room door. Leave the candle."
+msgstr "Alors c'est moi qui demande. Ferme la porte de la salle de lecture. Laisse la bougie."
+
+msgid "Then she notices the loose page on your desk, the one you copied from, and goes very still."
+msgstr "Puis elle remarque la page volante sur ton bureau, celle que tu as recopiée, et se fige."
+
+msgid "Then the miller. Then the miller again."
+msgstr "Puis le meunier. Puis encore le meunier."
+
+msgid "Then we'd better find them before anyone else does."
+msgstr "Alors on ferait mieux de les trouver avant tout le monde."
+
+msgid "Then we'll make sure nobody's boiling anybody."
+msgstr "Alors on va s'assurer que personne ne fasse bouillir personne."
+
+msgid "Then you remember the Pellow brothers dragging their nets through the cove last week. The whole pier complained about it."
+msgstr "Puis tu te souviens des frères Pellow qui ont traîné leurs filets dans la crique la semaine dernière. Toute la jetée s'en est plainte."
+
+msgid "There are forty-one of those. I counted when I put it on. Take your time."
+msgstr "Il y en a quarante et une. Je les ai comptées en la mettant. Prends ton temps."
+
+msgid "There were wolves. And a family of woodcutters who sang while they worked. I liked them, even though they were woodcutters."
+msgstr "Il y avait des loups. Et une famille de bûcherons qui chantait en travaillant. Je les aimais bien, même si c'étaient des bûcherons."
+
+msgid "There's a woman sitting on the lowest branch, where you're sure nobody was a second ago. Her hair goes from gold to green, and below the knee her legs turn into bark."
+msgstr "Il y a une femme assise sur la branche la plus basse, là où tu es sûr qu'il n'y avait personne une seconde plus tôt. Ses cheveux passent de l'or au vert, et sous le genou ses jambes deviennent écorce."
+
+msgid "There. Now look me in the eye and tell me you'd rather be shelving."
+msgstr "Voilà. Maintenant regarde-moi dans les yeux et dis-moi que tu préférerais ranger des livres."
+
+msgid "There. Now we're even. Low tide's at six."
+msgstr "Voilà. Maintenant on est quittes. La marée basse est à six heures."
+
+msgid "There. Now you can't go anywhere. It's a mermaid thing. It's very old. I just made it up."
+msgstr "Voilà. Maintenant tu ne peux aller nulle part. C'est un truc de sirène. Très ancien. Je viens de l'inventer."
+
+msgid "These unlock on Steam too."
+msgstr "Ils se débloquent aussi sur Steam."
+
+msgid "They start clearing on quarter day. After that I need somewhere else to be quiet."
+msgstr "Ils commencent à défricher au jour du terme. Après ça, il me faudra un autre endroit calme."
+
+msgid "They want an address for my library card. I don't have one. What do I put?"
+msgstr "Ils veulent une adresse pour ma carte de bibliothèque. Je n'en ai pas. Je mets quoi ?"
+
+msgid "They're a pair. I'm not splitting up a pair."
+msgstr "Elles vont par deux. Je ne sépare pas un couple."
+
+msgid "They're not strangers. I heard every one of them go by. From the jar."
+msgstr "Ce ne sont pas des inconnus. Je les ai tous entendus passer. Depuis le bocal."
+
+msgid "Things found"
+msgstr "Objets trouvés"
+
+msgid "This erases every girl's story progress, your stars, items, gifts and the whole Gallery. Your settings and achievements are kept. This can't be undone."
+msgstr "Cela efface la progression de chaque fille, tes étoiles, tes objets, tes cadeaux et toute la Galerie. Tes paramètres et tes succès sont conservés. C'est irréversible."
+
+msgid "This is a test build: no money changes hands. Buy %s for %s?"
+msgstr "C'est une version de test : aucun argent n'est débité. Acheter %s pour %s ?"
+
+msgid "This line here. That's where you'd put my name. If you ever wanted to call me. You won't need to. I'll be with you."
+msgstr "Cette ligne-là. C'est là que tu mettrais mon nom. Si un jour tu voulais m'appeler. Tu n'en auras pas besoin. Je serai avec toi."
+
+msgid "This one's my favourite. Brass, four holes, off a very handsome coat. You have a very handsome... coat too."
+msgstr "Celui-là, c'est mon préféré. Laiton, quatre trous, d'un très beau manteau. Tu as un très beau... manteau, toi aussi."
+
+msgid "This page is from my binding. The book that ties me to every circle anyone draws, however badly. Find all of it, burn it, and I'm free."
+msgstr "Cette page vient de mon lien. Le livre qui m'attache à chaque cercle que quelqu'un dessine, aussi mal soit-il. Trouve-le en entier, brûle-le, et je suis libre."
+
+msgid "Those are mine. I-I've been collecting them for years."
+msgstr "Elles sont à moi. J-je les collectionne depuis des années."
+
+msgid "Time Scroll"
+msgstr "Parchemin du temps"
+
+msgid "To find the book, break every seal on the board. The counter under the board shows how many are done."
+msgstr "Pour trouver le livre, brise tous les sceaux du plateau. Le compteur sous le plateau indique combien c'est fait."
+
+msgid "Today's challenge"
+msgstr "Le défi du jour"
+
+msgid "Toggle"
+msgstr "Basculer"
+
+msgid "Treasure Diver"
+msgstr "Plongeur de trésors"
+
+msgid "Treasury of Stars"
+msgstr "Trésor d'étoiles"
+
+msgid "Try: %s"
+msgstr "Essaie : %s"
+
+msgid "Turn voices off"
+msgstr "Couper les voix"
+
+msgid "Twenty minutes?"
+msgstr "Vingt minutes ?"
+
+msgid "Two hundred springs I've watched people walk past this tree. Not one of them ever lay down under it."
+msgstr "Deux cents printemps que je regarde les gens passer devant cet arbre. Pas un seul ne s'est jamais allongé dessous."
+
+msgid "Two hundred years, and nobody told me a spirit could feel like that. I'd like it noted that I'm saying this very calmly."
+msgstr "Deux cents ans, et personne ne m'avait dit qu'un esprit pouvait ressentir ça. Je tiens à ce qu'il soit noté que je dis ça très calmement."
+
+msgid "Ugh. That's drier than a sponge."
+msgstr "Beurk. Plus sec qu'une éponge."
+
+msgid "Unlimited Hearts"
+msgstr "Cœurs illimités"
+
+msgid "Unlimited for 24 hours · %s"
+msgstr "Illimité pendant 24 heures · %s"
+
+msgid "Unlimited hearts: %s left"
+msgstr "Cœurs illimités : encore %s"
+
+msgid "Use a Time Scroll"
+msgstr "Utiliser un Parchemin du temps"
+
+msgid "Vibration"
+msgstr "Vibration"
+
+msgid "Voice Acting"
+msgstr "Doublage"
+
+msgid "Voice Volume"
+msgstr "Volume des voix"
+
+msgid "W-with you? Where would I even..."
+msgstr "C-chez toi ? Où est-ce que je..."
+
+msgid "Watch a video: %s"
+msgstr "Regarder une vidéo : %s"
+
+msgid "We're getting the second owl, right?"
+msgstr "On prend la deuxième chouette, hein ?"
+
+msgid "Well. It worked, which is insulting in its own way. Go on, then. Ask."
+msgstr "Bon. Ça a marché, ce qui est vexant en soi. Vas-y, alors. Demande."
+
+msgid "What a date!"
+msgstr "Quel rendez-vous !"
+
+msgid "What do you say?"
+msgstr "Que réponds-tu ?"
+
+msgid "What she likes"
+msgstr "Ce qu'elle aime"
+
+msgid "What you want. Gold. Revenge. And sooner or later sex. It always comes to that."
+msgstr "Ce que tu veux. De l'or. Une vengeance. Et tôt ou tard du sexe. On en arrive toujours là."
+
+msgid "When falling gems make new matches on their own, that's a combo. Each link in the chain scores more than the last."
+msgstr "Quand les gemmes qui tombent forment d'elles-mêmes de nouveaux alignements, c'est un combo. Chaque maillon de la chaîne rapporte plus que le précédent."
+
+msgid "When you climb out you lean on the trunk to get your breath back. The bark is rough and cool under your hand."
+msgstr "En sortant, tu t'appuies contre le tronc pour reprendre ton souffle. L'écorce est rugueuse et fraîche sous ta main."
+
+msgid "When you get back, a branch creaks overhead in a way that sounds very deliberate."
+msgstr "À ton retour, une branche craque au-dessus de toi d'une façon qui semble très délibérée."
+
+msgid "Where are my things? They were here. In rows. I-I had them in rows."
+msgstr "Où sont mes affaires ? Elles étaient là. En rangées. J-je les avais mises en rangées."
+
+msgid "Where did you get that."
+msgstr "Où as-tu trouvé ça."
+
+msgid "While you fetch coffee from the staff room, she takes a red pencil from your desk and starts correcting the page that started all this."
+msgstr "Pendant que tu vas chercher du café en salle du personnel, elle prend un crayon rouge sur ton bureau et commence à corriger la page à l'origine de tout ça."
+
+msgid "Who even likes those?"
+msgstr "Qui aime ça, franchement ?"
+
+msgid "Why would you do that?"
+msgstr "Pourquoi tu as fait ça ?"
+
+msgid "Window Shopping"
+msgstr "Lèche-vitrines"
+
+msgid "Wishlist on Steam"
+msgstr "Ajouter à la liste de souhaits Steam"
+
+msgid "With Moves to Spare"
+msgstr "Des coups en réserve"
+
+msgid "With the lamp down, the only light in your room comes from her: a soft lilac glow that brightens wherever you touch."
+msgstr "La lampe baissée, la seule lumière de ta chambre vient d'elle : une douce lueur lilas qui s'avive partout où tu la touches."
+
+msgid "You"
+msgstr "Toi"
+
+msgid "You already have this."
+msgstr "Tu l'as déjà."
+
+msgid "You also find a little brass clasp wedged under the pier. She takes it from you and turns it over for a long time."
+msgstr "Tu trouves aussi un petit fermoir en laiton coincé sous la jetée. Elle te le prend et le fait tourner longtemps entre ses doigts."
+
+msgid "You ask what she means."
+msgstr "Tu lui demandes ce qu'elle veut dire."
+
+msgid "You bring it down to the pier after dark. She holds it for a long time without saying anything."
+msgstr "Tu le lui apportes sur la jetée à la nuit tombée. Elle le tient longtemps sans rien dire."
+
+msgid "You came by with an axe."
+msgstr "Tu es venu avec une hache."
+
+msgid "You can actually swim. The first time, you looked like a coat someone had thrown off a pier."
+msgstr "Tu sais nager, en fait. La première fois, tu ressemblais à un manteau que quelqu'un aurait jeté de la jetée."
+
+msgid "You can close this tab now."
+msgstr "Tu peux fermer cet onglet."
+
+msgid "You can get dressed now."
+msgstr "Tu peux te rhabiller maintenant."
+
+msgid "You can hold my hand. If you don't mind it being a bit... wet."
+msgstr "Tu peux me tenir la main. Si ça ne te dérange pas qu'elle soit un peu... mouillée."
+
+msgid "You can stay with me. My place is quiet."
+msgstr "Tu peux rester chez moi. C'est calme, chez moi."
+
+msgid "You close the door."
+msgstr "Tu fermes la porte."
+
+msgid "You copied it off a loose page that fell out of a returned book. It looked nice. You put a candle stub in the middle because it seemed like the kind of thing that wanted a candle."
+msgstr "Tu l'as recopié d'une page volante tombée d'un livre rendu. C'était joli. Tu as mis un bout de bougie au milieu parce que ça avait l'air du genre de chose qui veut une bougie."
+
+msgid "You could keep one, you know. Just one page. I wouldn't be able to refuse you anything."
+msgstr "Tu pourrais en garder une, tu sais. Une seule page. Je ne pourrais plus rien te refuser."
+
+msgid "You didn't ask what you get out of it."
+msgstr "Tu n'as pas demandé ce que tu y gagnes."
+
+msgid "You dig until sunset. The trench ends up about the length of a coffin, which she points out twice."
+msgstr "Tu creuses jusqu'au coucher du soleil. La tranchée finit à peu près de la longueur d'un cercueil, ce qu'elle fait remarquer deux fois."
+
+msgid "You don't ask for any of it. You ask if she's all right, because she came out of the smoke coughing."
+msgstr "Tu ne demandes rien de tout ça. Tu lui demandes si elle va bien, parce qu'elle est sortie de la fumée en toussant."
+
+msgid "You don't take your time. She laughs at you, low in her throat, and doesn't complain."
+msgstr "Tu ne prends pas ton temps. Elle se moque de toi, d'un rire grave au fond de la gorge, et ne se plaint pas."
+
+msgid "You don't think about it. You run down the steps, jump off the end of the pier in your clothes, get an arm round her and drag her back."
+msgstr "Tu ne réfléchis pas. Tu dévales les marches, sautes tout habillé du bout de la jetée, passes un bras autour d'elle et la ramènes."
+
+msgid "You have %d"
+msgstr "Tu en as %d"
+
+msgid "You hold it very well. That's all I'm admitting."
+msgstr "Tu le tiens très bien. C'est tout ce que j'avoue."
+
+msgid "You hum when you think. It's nice."
+msgstr "Tu fredonnes quand tu réfléchis. C'est mignon."
+
+msgid "You laugh. She goes pink all the way through, and then she laughs too."
+msgstr "Tu ris. Elle rosit de part en part, puis elle rit aussi."
+
+msgid "You leave your shoes on the pier, both of them."
+msgstr "Tu laisses tes chaussures sur la jetée, les deux."
+
+msgid "You look from her to the trunk and back. Her heart is in the tree, then. So what's in her chest? Does she feel every woodpecker? Is the tree her, or is she the tree's way of talking? It doesn't feel like the moment to ask."
+msgstr "Tu regardes d'elle au tronc, puis de nouveau elle. Son cœur est donc dans l'arbre. Alors qu'y a-t-il dans sa poitrine ? Sent-elle chaque pic-vert ? L'arbre, c'est elle, ou est-elle la façon dont l'arbre parle ? Ça n'a pas l'air d'être le moment de demander."
+
+msgid "You lower the axe. After a moment, you put it down on the grass."
+msgstr "Tu baisses la hache. Au bout d'un moment, tu la poses dans l'herbe."
+
+msgid "You need %d more stars."
+msgstr "Il te manque %d étoiles."
+
+msgid "You needed %d more points."
+msgstr "Il te manquait %d points."
+
+msgid "You point out that the label said newts."
+msgstr "Tu fais remarquer que l'étiquette disait tritons."
+
+msgid "You say another hazel, so she isn't the only one."
+msgstr "Tu dis un autre noisetier, pour qu'elle ne soit pas la seule."
+
+msgid "You say it back. She listens like she's checking your pronunciation."
+msgstr "Tu le répètes. Elle écoute comme si elle vérifiait ta prononciation."
+
+msgid "You say it. Amara. She shuts her eyes, as if she's checking your pronunciation one last time."
+msgstr "Tu le dis. Amara. Elle ferme les yeux, comme si elle vérifiait ta prononciation une dernière fois."
+
+msgid "You say yes. She talks for an hour without stuttering once."
+msgstr "Tu dis oui. Elle parle pendant une heure sans bégayer une seule fois."
+
+msgid "You shake your head."
+msgstr "Tu secoues la tête."
+
+msgid "You sit with your back against the trunk while it rains. Every so often she makes a small sound, and you put your hand flat on the bark. Under your palm, right about where you'd have swung the axe, something in the wood is beating. So that answers that."
+msgstr "Tu t'assois le dos contre le tronc pendant qu'il pleut. De temps en temps, elle pousse un petit bruit, et tu poses la main à plat sur l'écorce. Sous ta paume, juste à l'endroit où tu aurais frappé avec la hache, quelque chose bat dans le bois. Voilà qui répond à la question."
+
+msgid "You start to take your hand away. She says you don't have to."
+msgstr "Tu commences à retirer ta main. Elle dit que tu n'es pas obligé."
+
+msgid "You stay."
+msgstr "Tu restes."
+
+msgid "You summoned me with that pathetic chalk circle? Where did you even copy it from? Ugh, I was in the middle of something."
+msgstr "Tu m'as invoquée avec ce pitoyable cercle à la craie ? Tu l'as recopié où, au juste ? Pff, j'étais occupée."
+
+msgid "You take the lantern off her and tell her to sit down for an hour. You'll do the rocks."
+msgstr "Tu lui prends la lanterne et lui dis de s'asseoir une heure. Tu t'occupes des rochers."
+
+msgid "You tell her about the wall. Her roots are cracking it, and when it goes, the miller loses his mill."
+msgstr "Tu lui parles du mur. Ses racines le fissurent, et quand il cédera, le meunier perdra son moulin."
+
+msgid "You tell her it fell out of a returned book, and you didn't check which one. You step towards the desk to show her."
+msgstr "Tu lui dis qu'elle est tombée d'un livre rendu, et que tu n'as pas regardé lequel. Tu fais un pas vers le bureau pour la lui montrer."
+
+msgid "You tell her it isn't strange. She pulls you closer, and for once she doesn't apologise for anything."
+msgstr "Tu lui dis que ce n'est pas bizarre. Elle t'attire plus près, et pour une fois elle ne s'excuse de rien."
+
+msgid "You tell her she should tell it."
+msgstr "Tu lui dis de raconter."
+
+msgid "You tell her to keep it. For storms."
+msgstr "Tu lui dis de le garder. Pour les orages."
+
+msgid "You tell her to put yours."
+msgstr "Tu lui dis de mettre la tienne."
+
+msgid "You tell her you haven't watched a single game."
+msgstr "Tu lui dis que tu n'as jamais regardé une seule partie."
+
+msgid "You tell her. The stream has already carried most of it round the bend, towards town."
+msgstr "Tu le lui dis. Le ruisseau en a déjà emporté la plupart après le virage, vers la ville."
+
+msgid "You turn the lamp down."
+msgstr "Tu baisses la lampe."
+
+msgid "You wake up in the boathouse on a heap of old sails, with sand in your ears. She's already in the water, arms folded on the edge of the slipway, watching you."
+msgstr "Tu te réveilles dans le hangar sur un tas de vieilles voiles, du sable dans les oreilles. Elle est déjà dans l'eau, les bras croisés au bord de la cale, à te regarder."
+
+msgid "You want a thank-you? For that?"
+msgstr "Tu veux un merci ? Pour ça ?"
+
+msgid "You want to hear about buttons?"
+msgstr "Tu veux que je te parle de boutons ?"
+
+msgid "You were incredible."
+msgstr "Tu as été incroyable."
+
+msgid "You'd burn it."
+msgstr "Tu la brûlerais."
+
+msgid "You'd have struck just below my heart. It would take... forty years or so to heal."
+msgstr "Tu aurais frappé juste sous mon cœur. Il aurait fallu... quarante ans environ pour guérir."
+
+msgid "You're a genius, you're a soaked genius."
+msgstr "Tu es un génie, un génie trempé."
+
+msgid "You're a terrible influence. Keep going."
+msgstr "Tu as une influence terrible sur moi. Continue."
+
+msgid "You're doing well. I'm counting."
+msgstr "Tu t'en sors bien. Je compte."
+
+msgid "You're getting good at this. It's annoying."
+msgstr "Tu deviens doué. C'est agaçant."
+
+msgid "You're good with soft things."
+msgstr "Tu es doué avec les choses douces."
+
+msgid "You're new in town and you'll take any work that pays. The miller paid you half up front to cut the tree down. You pick a spot on the trunk that looks right, plant your feet and lift the axe."
+msgstr "Tu es nouveau en ville et tu prends tous les boulots qui paient. Le meunier t'a payé la moitié d'avance pour abattre l'arbre. Tu choisis un endroit du tronc qui a l'air bien, tu te campes sur tes pieds et tu lèves la hache."
+
+msgid "You're not jealous? Your leaves are going red."
+msgstr "Tu n'es pas jalouse ? Tes feuilles rougissent."
+
+msgid "You're quicker than you look. You look quite slow."
+msgstr "Tu es plus rapide que tu n'en as l'air. Et tu as l'air plutôt lent."
+
+msgid "You're shaking. Come in closer, there's a hollow in the trunk that fits you."
+msgstr "Tu trembles. Approche, il y a un creux dans le tronc à ta taille."
+
+msgid "You're still warm. Good."
+msgstr "Tu es encore chaud. Bien."
+
+msgid "You're the best thing I've found in this library."
+msgstr "Tu es la meilleure chose que j'aie trouvée dans cette bibliothèque."
+
+msgid "You're welcome, by the way."
+msgstr "De rien, au fait."
+
+msgid "You've asked me twice not to sit on this table."
+msgstr "Tu m'as demandé deux fois de ne pas m'asseoir sur cette table."
+
+msgid "You've been in Millbrook three weeks, taking whatever work pays. Tonight that's the late shift at the public library. It's a quarter past midnight, the gas lamps have been out for an hour, the returns cart is still full, and you've drawn a circle on the reading room floor in children's chalk."
+msgstr "Tu es à Millbrook depuis trois semaines et tu prends tous les boulots qui paient. Ce soir, c'est le service de nuit à la bibliothèque municipale. Il est minuit et quart, les lampes à gaz sont éteintes depuis une heure, le chariot des retours est encore plein, et tu as dessiné un cercle sur le sol de la salle de lecture avec de la craie pour enfants."
+
+msgid "You've got mud on your face. Leave it. It suits you."
+msgstr "Tu as de la boue sur le visage. Laisse. Ça te va bien."
+
+msgid "You've got sand on you. Everywhere. That's your problem, I'm not helping."
+msgstr "Tu as du sable sur toi. Partout. C'est ton problème, je ne t'aide pas."
+
+msgid "You've helped enough for one day, lifeguard."
+msgstr "Tu as assez aidé pour aujourd'hui, sauveteur."
+
+msgid "You... jumped in your clothes. For someone you'd never met."
+msgstr "Tu as... sauté tout habillé. Pour quelqu'un que tu ne connaissais pas."
+
+msgid "Your best: %d"
+msgstr "Ton record : %d"
+
+msgid "Your name would be nice."
+msgstr "Ton nom, ce serait bien."
+
+msgid "Your next chapter begins with a free Starburst gem already on the board."
+msgstr "Ton prochain chapitre commence avec une Supernova gratuite déjà sur le plateau."
+
+msgid "Your next chapter: far fewer cursed shards appear on the board."
+msgstr "Ton prochain chapitre : beaucoup moins d'éclats maudits sur le plateau."
+
+msgid "Your next chapter: her favorite gem shows up more often, her least favorite less."
+msgstr "Ton prochain chapitre : sa gemme préférée apparaît plus souvent, celle qu'elle aime le moins plus rarement."
+
+msgid "Your purchase is pending. It arrives as soon as Google Play confirms it."
+msgstr "Ton achat est en attente. Il arrivera dès que Google Play l'aura confirmé."
+
+msgid "Your replies"
+msgstr "Tes réponses"
+
+msgid "Your second ring doesn't close. That sigil is upside down. And this one isn't a sigil at all, it's a coffee stain you traced."
+msgstr "Ton deuxième anneau ne se ferme pas. Ce sigil est à l'envers. Et celui-là n'est même pas un sigil, c'est une tache de café que tu as décalquée."
+
+msgid "Yours. Fine. I'm bringing my own candles."
+msgstr "La tienne. D'accord. J'apporte mes propres bougies."
+
+msgid "a button"
+msgstr "un bouton"
+
+msgid "a key"
+msgstr "une clé"
+
+msgid "a marble"
+msgstr "une bille"
+
+msgid "after your next move"
+msgstr "après ton prochain coup"
+
+msgid "best %d"
+msgstr "record %d"
+
+msgid "double it to %d ⭐"
+msgstr "double-le : %d ⭐"
+
+msgid "in %d moves"
+msgstr "dans %d coups"
+
+msgid "one more daily try"
+msgstr "un essai de plus au défi du jour"
+
+msgid "the glass eye"
+msgstr "l'œil de verre"
+
+msgid "←  Back"
+msgstr "←  Retour"
+
+msgid "←  Back to the chapter"
+msgstr "←  Retour au chapitre"
+
+msgid "←  Menu"
+msgstr "←  Menu"
+
+msgid "←  Roster"
+msgstr "←  Le cercle"

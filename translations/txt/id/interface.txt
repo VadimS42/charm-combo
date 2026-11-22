@@ -1,0 +1,955 @@
+# Antarmuka — Bahasa Indonesia (draf, round 52)
+@@ ui-0001
+Bara
+@@ ui-0002
+Batu Bulan
+@@ ui-0003
+Kelopak
+@@ ui-0004
+Mutiara
+@@ ui-0005
+Rune
+@@ ui-0006
+Kristal
+@@ ui-0007
+Pecahan Terkutuk
+@@ ui-0008
+Tukar dan cocokkan
+@@ ui-0009
+Tukar dua permata yang bersebelahan untuk menjajarkan tiga atau lebih yang sejenis. Permata yang cocok akan pecah dan memberi poin; permata baru jatuh dari atas.
+@@ ui-0010
+Capai targetnya
+@@ ui-0011
+Setiap bab punya target dan jumlah langkah. Awalnya poin; mulai bab ketiganya, ada sesuatu yang harus dilakukan untuknya di papan, dan di bab terakhir keduanya. Capai sebelum langkahmu habis dan ceritanya berlanjut. Tidak ada batas waktu: santai saja.
+@@ ui-0012
+Yang dia suka
+@@ ui-0013
+Setiap gadis punya permata favorit dan satu yang tidak dia suka (di kartunya di lingkaran, dan di bagian atas sisinya saat bab berlangsung). Permata favoritnya bernilai ganda dan mengisi cincin Pesona lebih cepat; yang tidak dia suka bernilai setengah.
+@@ ui-0014
+Hadiahnya
+@@ ui-0015
+Setelah kamu menyelesaikan bab pertamanya, kartunya di lingkaran punya hadiah untuknya. Berikan, dan permata favoritnya akan lebih sering muncul di semua babnya, selamanya.
+@@ ui-0016
+Ledakan Pesona
+@@ ui-0017
+Setiap kecocokan mengisi cincin Pesona. Di bab pertama seorang gadis, cincin penuh berarti Ledakan Pesona: +150 poin. Mulai bab keduanya, cincin penuh berarti satu kali pakai kekuatannya sendiri: tombolnya menyala di samping cincin, pakai kapan saja. Setelah itu cincin terisi lagi.
+@@ ui-0018
+Permata spesial
+@@ ui-0019
+Cocokkan 4 berjajar untuk membuat Roket, yang membersihkan baris atau kolomnya. Cocokkan 5, atau bentuk L atau T, untuk membuat Ledakan Bintang. Tukar permata spesial untuk meledakkannya; tukar dua sekaligus untuk Ledakan Mega.
+@@ ui-0020
+Kombo
+@@ ui-0021
+Saat permata yang jatuh membentuk kecocokan baru dengan sendirinya, itulah kombo. Setiap mata rantai bernilai lebih dari yang sebelumnya.
+@@ ui-0022
+Pecahan terkutuk
+@@ ui-0023
+Pecahan gelap yang retak mengurangi poinmu kalau ikut dalam kecocokan. Palu bisa menghancurkannya gratis.
+@@ ui-0024
+Item
+@@ ui-0025
+Gulungan Waktu (tiga langkah tambahan), Palu (hancurkan satu permata apa saja) dan Tongkat Pengocok (papan baru) ada di bawah papan. Beli semuanya, juga ramuan yang membantu sepanjang bab, di Toko Item dengan bintang yang kamu dapat.
+@@ ui-0026
+Sulit: ada kejadian saat kencanmu
+@@ ui-0027
+Setiap beberapa langkah, sesuatu terjadi di sekitar kalian: panel di sisinya memberi tahu apa dan kapan. Bisa menaikkan syarat untuk memikatnya, mengubah permata jadi pecahan terkutuk, mengurangi satu langkah, atau memotong setengah cincin Pesonamu. Mencocokkan permata favoritnya menundanya satu langkah; Ledakan Pesona membatalkannya.
+@@ ui-0028
+Amara: halaman bersegel
+@@ ui-0029
+Beberapa permata membawa segel tintanya. Permata bersegel tidak bisa digeser, tapi tetap dihitung dalam kecocokan yang kamu buat dengan menggeser permata di sebelahnya. Kecocokan, ledakan, atau Palu pertama memecahkan segelnya, dan permatanya tetap di tempat.
+@@ ui-0030
+Amara: pecahkan semua segel
+@@ ui-0031
+Untuk menemukan buku itu, pecahkan semua segel di papan. Penghitung di bawah papan menunjukkan berapa yang sudah.
+@@ ui-0032
+Kekuatan Amara: Garis Koreksi
+@@ ui-0033
+Tekan tombol kekuatannya (atau 4), lalu pilih permata: seluruh baris dan kolomnya bersih. Segel di sana ikut pecah.
+@@ ui-0034
+Marina: pasang laut
+@@ ui-0035
+Di bab-babnya semuanya mengapung: permata naik, dan yang baru datang dari bawah.
+@@ ui-0036
+Marina: sisir mutiara
+@@ ui-0037
+Kepingan sisir Nenek mulai di dekat dasar. Kepingan itu tidak bisa dicocokkan atau digeser: bersihkan permata di atasnya dan kepingan itu naik. Yang sampai di baris paling atas jadi milikmu.
+@@ ui-0038
+Kekuatan Marina: Air Pasang
+@@ ui-0039
+Tekan tombol kekuatannya (atau 4): dua baris paling dekat ke permukaan bersih, dan semuanya naik dua baris.
+@@ ui-0040
+Opal: lumut
+@@ ui-0041
+Lumut tumbuh di bawah beberapa petak. Kecocokan, ledakan, atau Palu di petak itu membersihkannya, dan sebagian lumut menyembunyikan salah satu barangnya yang hilang.
+@@ ui-0042
+Opal: koleksinya yang hilang
+@@ ui-0043
+Bersihkan lumut untuk menemukan barang-barangnya: kancing, kelereng, kunci, mata kaca. Temukan cukup banyak untuk menang.
+@@ ui-0044
+Kekuatan Opal: Serap
+@@ ui-0045
+Tekan tombol kekuatannya (atau 4), lalu pilih permata: semua permata berwarna itu hilang, beserta lumut di bawahnya.
+@@ ui-0046
+Hazel: benih
+@@ ui-0047
+Benih ada di papan dan jatuh seperti permata, tapi tidak bisa digeser atau dicocokkan. Setiap kecocokan tepat di sebelahnya membuatnya tumbuh: benih, tunas, bunga. Bunga akan pecah: +100 dan petak di sekitarnya bersih. Kecocokan bara tidak dihitung: dia tidak suka bara.
+@@ ui-0048
+Hazel: mekarkan bunga
+@@ ui-0049
+Tumbuhkan cukup banyak benih jadi bunga untuk menang. Benih baru jatuh setiap beberapa langkah.
+@@ ui-0050
+Kekuatan Hazel: Musim Panas
+@@ ui-0051
+Tekan tombol kekuatannya (atau 4): setiap benih dan tunas di papan tumbuh satu tahap.
+@@ ui-0052
+Jawabanmu
+@@ ui-0053
+Setelah setiap bab kamu memilih jawaban. Jawaban yang hangat memulai bab berikutnya dengan poin bonus (dua langkah tambahan kalau babnya hanya berisi targetnya); jawaban yang menggoda mengurangi sedikit poin, tapi dia juga suka itu.
+@@ ui-0054
+Kehabisan langkah
+@@ ui-0055
+Kehabisan langkah tetap memberimu beberapa bintang. Coba lagi, baca Gulungan Waktu, atau mampir ke toko. Bab-bab akhir sulit tanpa bantuan: kalau bintangmu kurang, mainkan ulang bab yang sudah selesai dari kartunya di lingkaran. Kalah tiga kali berturut-turut dan kamu tetap bisa melanjutkan cerita.
+@@ ui-0056
+Kontrol dialog
+@@ ui-0057
+Klik, Spasi atau Enter: baris berikutnya. Tahan Ctrl atau tekan Lewati: lewati baris yang sudah dibaca. A atau Otomatis: baris berjalan sendiri. L, Riwayat atau gulir ke atas: baca ulang. H: sembunyikan teks pada gambar layar penuh. Kecepatan teks ada di Pengaturan.
+@@ ui-0058
+Cara Bermain
+@@ ui-0059
+Mengerti
+@@ ui-0060
+Semua aturan
+@@ ui-0061
+Bintang — didapat dengan menyelesaikan bab, dipakai di Toko Item dan untuk hadiah.
+@@ ui-0062
+Hati: kalah dalam satu bab memakan satu, dan hati kembali seiring waktu.
+@@ ui-0063
+Pengaturan
+@@ ui-0064
+Gerak
+@@ ui-0065
+Pilih
+@@ ui-0066
+Batal
+@@ ui-0067
+Ubah
+@@ ui-0068
+Tutup
+@@ ui-0069
+Pilih
+@@ ui-0070
+Kembali
+@@ ui-0071
+Tantangan harian: %d poin
+@@ ui-0072
+Tantangan harian
+@@ ui-0073
+satu percobaan harian lagi
+@@ ui-0074
+Papan baru setiap hari, sama untuk semua orang: %d langkah, satu kali coba. Kembali besok untuk yang berikutnya.
+@@ ui-0075
+Selesaikan bab mana saja untuk membuka tantangan harian.
+@@ ui-0076
+Tutup pengaturan
+@@ ui-0077
+Terima kasih sudah memainkan demo ini!
+@@ ui-0078
+Game lengkapnya punya empat cerita: cerita Hazel, dan tiga wanita Millbrook lain yang kamu temui dengan cara terburuk. Masing-masing punya empat bab, adegan malamnya, dan akhir ceritanya.
+@@ ui-0079
+Menu utama
+@@ ui-0080
+Tambahkan ke Wishlist Steam
+@@ ui-0081
+PENCAPAIAN TERBUKA
+@@ ui-0082
+←  Kembali
+@@ ui-0083
+Pencapaian
+@@ ui-0084
+Ini juga terbuka di Steam.
+@@ ui-0085
+Gulir
+@@ ui-0086
+Charm Combo untuk orang dewasa
+@@ ui-0087
+Game ini berisi konten seksual, termasuk adegan intim, dan gambar sugestif. Semua karakter sudah dewasa.
+
+Lanjutkan hanya jika kamu berusia 18 tahun ke atas, atau sudah dewasa menurut hukum di tempatmu.
+@@ ui-0088
+Keluar
+@@ ui-0089
+Kamu bisa menutup tab ini sekarang.
+@@ ui-0090
+Usiaku 18 tahun ke atas
+@@ ui-0091
+Tentang suara
+@@ ui-0092
+Para gadis disuarakan oleh pengisi suara amatir, direkam di rumah. Kami suka hasilnya, tapi ini bukan rekaman studio, dan belum semua baris diisi suara.
+
+Kalau kamu lebih suka membaca dalam hati, matikan suaranya. Kamu bisa mengubahnya kapan saja di Pengaturan.
+@@ ui-0093
+Matikan suara
+@@ ui-0094
+Biarkan suara menyala
+@@ ui-0095
+Kredit
+@@ ui-0096
+Dibuat dengan Godot Engine
+@@ ui-0097
+Lanjutkan
+@@ ui-0098
+Waktu bermain
+@@ ui-0099
+Bab selesai
+@@ ui-0100
+Kecocokan dibuat
+@@ ui-0101
+Permata dibersihkan
+@@ ui-0102
+Kombo terbaik
+@@ ui-0103
+Skor bab terbaik
+@@ ui-0104
+Permata spesial dibuat
+@@ ui-0105
+Kekuatan dipakai
+@@ ui-0106
+Segel Amara dipecahkan
+@@ ui-0107
+Kepingan sisir diangkat
+@@ ui-0108
+Barang Opal ditemukan
+@@ ui-0109
+Bunga Hazel dimekarkan
+@@ ui-0110
+Kencan terbaik dengan %s
+@@ ui-0111
+Tantangan harian terbaik
+@@ ui-0112
+Adegan malamnya
+@@ ui-0113
+Gambar muncul di sini seiring kamu bertemu para gadis dan mencapai akhir cerita mereka.
+@@ ui-0114
+Belum terbuka
+@@ ui-0115
+Akhir ceritanya
+@@ ui-0116
+Rute Percikan
+@@ ui-0117
+Rute Seimbang
+@@ ui-0118
+Adegan malam
+@@ ui-0119
+Akhir cerita
+@@ ui-0120
+Gambar
+@@ ui-0121
+Musik
+@@ ui-0122
+Statistik
+@@ ui-0123
+Galeri Akhir Cerita
+@@ ui-0124
+Galeri
+@@ ui-0125
+Belum ada apa-apa — selesaikan cerita seorang gadis untuk menambahkan akhir ceritanya.
+@@ ui-0126
+Putar ulang adegan malamnya.
+@@ ui-0127
+Putar ulang
+@@ ui-0128
+Klik untuk melihat.
+@@ ui-0129
+Belum ditemukan: selesaikan ceritanya untuk membukanya.
+@@ ui-0130
+Belum ditemukan
+@@ ui-0131
+Romansa match-3 untuk orang dewasa, berlatar di Millbrook, kota senja tempat makhluk-makhluk fantastis tinggal. Temui empat wanita dengan cara terburuk, bantu mereka dengan apa yang mereka butuhkan, dan lihat ke mana malam membawa kalian.
+@@ ui-0132
+Main
+@@ ui-0133
+Toko
+@@ ui-0134
+Keluar
+@@ ui-0135
+Karakter orisinal · semua karakter sudah dewasa.
+@@ ui-0136
+18+ · karakter orisinal · semua karakter sudah dewasa.
+@@ ui-0137
+Segel dipecahkan
+@@ ui-0138
+Kepingan sisir
+@@ ui-0139
+Barang ditemukan
+@@ ui-0140
+Bunga
+@@ ui-0141
+Starter Ledakan Bintang aktif!
+@@ ui-0142
+Ramuan Cinta aktif!
+@@ ui-0143
+Ramuan Pemulih aktif!
+@@ ui-0144
+Hadiahnya: permata favoritnya lebih sering muncul
+@@ ui-0145
++2 langkah — jawaban bagus!
+@@ ui-0146
++%d poin — jawaban bagus!
+@@ ui-0147
+Ambil
+@@ ui-0148
+Tukar
+@@ ui-0149
+Taruh
+@@ ui-0150
+Akhiri kencan
+@@ ui-0151
+Akhiri kencan ini dan lihat skormu.
+@@ ui-0152
+Kencan yang luar biasa!
+@@ ui-0153
+Tantangan hari ini
+@@ ui-0154
+Rekor baru!
+@@ ui-0155
+Rekormu: %d
+@@ ui-0156
+Kencan lagi
+@@ ui-0157
+Lewati bab  ▸
+@@ ui-0158
+Tingkat Cerita: lanjutkan cerita tanpa memainkan bab ini (tanpa bintang).
+@@ ui-0159
+Lewati bab ini?
+@@ ui-0160
+Ceritanya berlanjut seolah kamu sudah menyelesaikannya. Kamu tidak mendapat bintangnya.
+@@ ui-0161
+Lewati bab
+@@ ui-0162
+←  Lingkaran
+@@ ui-0163
+Sisa langkah di bab ini
+@@ ui-0164
+TARGET BAB
+@@ ui-0165
+Pesona — terisi saat kamu mencocokkan (paling cepat dengan permata favoritnya). Penuh = Ledakan Pesona +150.
+@@ ui-0166
+Pesona — terisi saat kamu mencocokkan (paling cepat dengan permata favoritnya). Penuh = satu kali pakai kekuatannya: %s
+@@ ui-0167
+Permata favoritnya bernilai ganda dan mengisi Pesona lebih cepat; yang tidak dia suka bernilai setengah.
+@@ ui-0168
+Ketuk sebuah permata!
+@@ ui-0169
+Pilih permata untuk dipecahkan.
+@@ ui-0170
++%d untuk memikatnya
+@@ ui-0171
+-1 langkah
+@@ ui-0172
+Pesona terpotong setengah
+@@ ui-0173
+setelah langkahmu berikutnya
+@@ ui-0174
+dalam %d langkah
+@@ ui-0175
+Sesuatu akan terjadi saat kencanmu. Mencocokkan permata favoritnya menundanya satu langkah; Ledakan Pesona membatalkannya.
+@@ ui-0176
+SEGERA
+@@ ui-0177
+rekor %d
+@@ ui-0178
+Bab %d / %d
+@@ ui-0179
+Kencan bebas
+@@ ui-0180
+Pilih sebuah permata.
+@@ ui-0181
+Kepingan sisir tidak bisa dipalu. Angkat ke permukaan.
+@@ ui-0182
+Duar!
+@@ ui-0183
+Pecahan hancur!
+@@ ui-0184
+Bersegel. Cocokkan dengan menggeser permata di sebelahnya.
+@@ ui-0185
+Benih tidak bisa digeser. Buat kecocokan di sebelahnya supaya tumbuh.
+@@ ui-0186
+Kepingan sisir naik saat permata di atasnya dibersihkan.
+@@ ui-0187
+Ledakan Mega!
+@@ ui-0188
+Benih baru jatuh.
+@@ ui-0189
+Tidak ada langkah tersisa — mengocok ulang!
+@@ ui-0190
+Kepingan sisir! %d / %d
+@@ ui-0191
+Kepingan sisir!
+@@ ui-0192
+Bunga! +%d
+@@ ui-0193
+Ditemukan di bawah lumut: %s
+@@ ui-0194
+sebuah kancing
+@@ ui-0195
+sebuah kelereng
+@@ ui-0196
+sebuah kunci
+@@ ui-0197
+mata kaca
+@@ ui-0198
+Aduh!
+@@ ui-0199
+Kombo x%d!
+@@ ui-0200
+Ledakan Pesona! +150
+@@ ui-0201
+Kalian berdua tidak menyadari apa yang akan datang.
+@@ ui-0202
+Pilih sebuah permata!
+@@ ui-0203
+Siap!
+@@ ui-0204
+Isi cincinnya
+@@ ui-0205
+Bab selesai!
+@@ ui-0206
+Main lagi
+@@ ui-0207
+Toko Item
+@@ ui-0208
+Kembali ke lingkaran
+@@ ui-0209
+Tinggalkan bab ini?
+@@ ui-0210
+Meninggalkan bab yang sudah dimulai memakan satu hati.
+@@ ui-0211
+Kehabisan Langkah
+@@ ui-0212
+Kamu butuh %d poin lagi.
+@@ ui-0213
++%d ⭐ karena sudah mencoba
+@@ ui-0214
+Karena pantang menyerah: Gulungan Waktu gratis!
+@@ ui-0215
+1 bintang untuk setiap 200 poin. Kumpulkan untuk membeli bantuan di Toko Item, lalu coba lagi!
+@@ ui-0216
+Tips
+@@ ui-0217
+Coba: %s
+@@ ui-0218
++%d ⭐ untuk membantumu
+@@ ui-0219
++%d langkah
+@@ ui-0220
+Sisa hati: %d / %d
+@@ ui-0221
+Pakai Gulungan Waktu
+@@ ui-0222
+Ulangi Bab
+@@ ui-0223
+Lewati dengan Story Pass  ▸
+@@ ui-0224
+Lanjutkan cerita  ▸
+@@ ui-0225
+Lanjutkan tanpa menyelesaikan bab ini (tanpa bintang).
+@@ ui-0226
+Melewati teka-teki bab ini: tanpa bintang.
+@@ ui-0227
+←  Menu
+@@ ui-0228
+Lingkaran Millbrook
+@@ ui-0229
+Suka
+@@ ui-0230
+Tidak suka
+@@ ui-0231
+Belum bertemu
+@@ ui-0232
+Akhir: %s
+@@ ui-0233
+Temui dia
+@@ ui-0234
+Kunjungi lagi
+@@ ui-0235
+Mulai ceritanya lagi dari awal
+@@ ui-0236
+Mainkan ulang cerita %s?
+@@ ui-0237
+Ceritanya dimulai lagi dari pertemuan pertama kalian, jadi kamu bisa membuat pilihan berbeda. Akhir cerita yang sudah ditemukan tetap di Galeri, hadiahmu tetap terberi, dan bab-babnya memberi bintang lagi.
+@@ ui-0238
+Mainkan ulang cerita
+@@ ui-0239
+Kencan bebas
+@@ ui-0240
+Papannya tanpa batas langkah, sekadar untuk bersenang-senang dan mencetak rekor.
+@@ ui-0241
+Mainkan ulang bab
+@@ ui-0242
+Mainkan lagi bab yang sudah selesai untuk bintang. Ceritanya tetap di tempatnya.
+@@ ui-0243
+Mainkan lagi bab yang sudah selesai untuk bintang. Tanpa adegan cerita, dan ceritanya tetap di tempatnya.
+@@ ui-0244
+Bab %d · +%d ⭐
+@@ ui-0245
+Bab %d · +%d
+@@ ui-0246
+Berikan padanya: %s
+@@ ui-0247
+Setelah itu, permata favoritnya lebih sering muncul di semua babnya, selamanya.
+@@ ui-0248
+(Kamu butuh %d bintang lagi.)
+@@ ui-0249
+Bahasa
+@@ ui-0250
+Teks game. Suara tetap dalam bahasa Inggris.
+@@ ui-0251
+Efek Suara
+@@ ui-0252
+Denting untuk kecocokan, kombo, dan menu.
+@@ ui-0253
+Volume Utama
+@@ ui-0254
+Semuanya — musik dan efek suara.
+@@ ui-0255
+Seberapa keras musik latar diputar.
+@@ ui-0256
+Pengisi Suara
+@@ ui-0257
+Dengarkan para gadis mengucapkan dialog mereka.
+@@ ui-0258
+Volume Suara
+@@ ui-0259
+Seberapa keras suara mereka.
+@@ ui-0260
+Tingkat Kesulitan
+@@ ui-0261
+Cerita: dua kali lipat langkah, dan kamu bisa melewati bab mana saja. Sulit: setiap beberapa langkah ada kejadian saat kencanmu (ombak menerjang dermaga, lilin berkedip), diberi tahu lebih dulu. Berlaku mulai bab berikutnya.
+@@ ui-0262
+Sulit: setiap beberapa langkah ada kejadian saat kencanmu (ombak menerjang dermaga, lilin berkedip), diberi tahu lebih dulu. Tingkat Cerita datang bersama Story Pass. Berlaku mulai bab berikutnya.
+@@ ui-0263
+Cerita
+@@ ui-0264
+Mudah
+@@ ui-0265
+Sulit
+@@ ui-0266
+Kecepatan Teks
+@@ ui-0267
+Seberapa cepat dialog muncul.
+@@ ui-0268
+Lambat
+@@ ui-0269
+Normal
+@@ ui-0270
+Cepat
+@@ ui-0271
+Instan
+@@ ui-0272
+Kecepatan Otomatis
+@@ ui-0273
+Berapa lama Otomatis menunggu setelah setiap baris (kiri = lebih cepat).
+@@ ui-0274
+Lewati Baris yang Belum Dibaca
+@@ ui-0275
+Biarkan Lewati juga melesat melewati baris yang belum kamu baca.
+@@ ui-0276
+Ukuran teks
+@@ ui-0277
+Teks lebih besar di mana-mana: dialog, menu, dan teka-teki.
+@@ ui-0278
+Besar
+@@ ui-0279
+Lebih besar
+@@ ui-0280
+Nomor permata
+@@ ui-0281
+Setiap jenis permata menampilkan nomor, jadi kamu tidak perlu warna untuk membedakannya.
+@@ ui-0282
+Pesan tampil lebih lama
+@@ ui-0283
+Pesan pop-up dan gelembung ucapannya saat bab tampil lebih lama di layar. Dialog selalu menunggumu kecuali Otomatis menyala.
+@@ ui-0284
+Getaran
+@@ ui-0285
+Getaran kecil saat permata cocok.
+@@ ui-0286
+Kurangi Gerakan
+@@ ui-0287
+Animasi lebih singkat, efek lebih tenang.
+@@ ui-0288
+Layar Penuh
+@@ ui-0289
+Penuhi seluruh layar. F11 mengubahnya di mana saja.
+@@ ui-0290
+Mode Uji
+@@ ui-0291
+Kecocokan apa pun langsung menyelesaikan target bab dan memberi 99 bintang — untuk pengujian, bukan untuk bermain sungguhan.
+@@ ui-0292
+Kembali ke Lingkaran
+@@ ui-0293
+Berhenti di sini. Adegan ini diputar lagi saat kamu mengunjunginya nanti.
+@@ ui-0294
+Buka folder log
+@@ ui-0295
+Untuk laporan bug: kirim godot.log terbaru dari folder ini.
+@@ ui-0296
+Atur Ulang Progres
+@@ ui-0297
+Atur ulang semua progres?
+@@ ui-0298
+Ini menghapus progres cerita setiap gadis, bintang, item, hadiah, dan seluruh Galeri. Pengaturan dan pencapaianmu tetap disimpan. Ini tidak bisa dibatalkan.
+@@ ui-0299
+Atur ulang semuanya
+@@ ui-0300
+Gulungan Waktu
+@@ ui-0301
+Baca untuk tiga langkah tambahan di bab yang sedang kamu mainkan. Pakai dari baris item di bawah papan — ini juga mengeluarkanmu dari layar Kehabisan Langkah.
+@@ ui-0302
+Palu
+@@ ui-0303
+Pecahkan satu permata apa saja, tanpa perlu kecocokan. Siapkan dari baris item, lalu ketuk sebuah permata.
+@@ ui-0304
+Tongkat Pengocok
+@@ ui-0305
+Satu kibasan dan seluruh papan diacak ulang, selalu dengan langkah yang bisa dibuat.
+@@ ui-0306
+Starter Ledakan Bintang
+@@ ui-0307
+Bab berikutnya dimulai dengan permata Ledakan Bintang gratis yang sudah ada di papan.
+@@ ui-0308
+Ramuan Cinta
+@@ ui-0309
+Bab berikutnya: permata favoritnya lebih sering muncul, yang paling tidak dia suka lebih jarang.
+@@ ui-0310
+Ramuan Pemulih
+@@ ui-0311
+Bab berikutnya: jauh lebih sedikit pecahan terkutuk di papan.
+@@ ui-0312
+←  Kembali ke bab
+@@ ui-0313
+Bintang didapat dari menyelesaikan bab: 15 untuk bab pertama seorang gadis dan 5 lebih banyak untuk setiap bab sesudahnya.
+@@ ui-0314
+Kehabisan langkah tetap memberi 1 bintang untuk setiap 200 poin yang kamu cetak (minimal 3).
+@@ ui-0315
+Kekurangan bintang? Mainkan ulang bab yang sudah selesai dari kartunya di lingkaran: hadiahnya setengah.
+@@ ui-0316
+Baris atas dipakai saat bab berlangsung; baris bawah aktif sendiri saat bab berikutnya dimulai.
+@@ ui-0317
+Dimiliki: %d
+@@ ui-0318
+Beli · %d ⭐
+@@ ui-0319
+Beli · %d
+@@ ui-0320
+Kamu butuh %d bintang lagi.
+@@ ui-0321
+Riwayat
+@@ ui-0322
+Baca ulang (L, atau gulir ke atas)
+@@ ui-0323
+Otomatis
+@@ ui-0324
+Baris berjalan sendiri (A)
+@@ ui-0325
+Lewati
+@@ ui-0326
+Lewati baris yang sudah dibaca (tahan Ctrl)
+@@ ui-0327
+Lewati semua
+@@ ui-0328
+Lewati semua baris sampai jawaban berikutnya, sudah dibaca atau belum
+@@ ui-0329
+Sembunyikan teks
+@@ ui-0330
+Lihat seluruh gambar (H)
+@@ ui-0331
+Apa jawabanmu?
+@@ ui-0332
+Kamu
+@@ ui-0333
+Jawab
+@@ ui-0334
+Berikutnya
+@@ ui-0335
+Belum ada.
+@@ ui-0336
+Beranda
+@@ ui-0337
+Gadis
+@@ ui-0338
+Toko
+@@ ui-0339
+Lainnya
+@@ ui-0340
+Romansa match-3 di Millbrook. Temui empat wanita dengan cara terburuk, bantu mereka dengan apa yang mereka butuhkan, dan lihat ke mana arahnya.
+@@ ui-0341
+Lanjutkan dengan %s
+@@ ui-0342
+Semua gadis
+@@ ui-0343
+Kamu punya %d
+@@ ui-0344
+Kembali ke bab
+@@ ui-0345
+Hapus iklan · %s
+@@ ui-0346
+Pulihkan pembelian
+@@ ui-0347
+Semua yang kamu beli dengan akun Google ini akan kembali sebentar lagi.
+@@ ui-0348
+Privasi iklan
+@@ ui-0349
+Tidak dibeli
+@@ ui-0350
+Hati habis
+@@ ui-0351
+Kalah dalam satu bab memakan satu hati, dan satu hati kembali setiap %d menit.
+@@ ui-0352
+Hati berikutnya dalam %s
+@@ ui-0353
++1 hati
+@@ ui-0354
+Isi penuh · %d ⭐
+@@ ui-0355
++5 hati · %s
+@@ ui-0356
+Tanpa batas selama 24 jam · %s
+@@ ui-0357
+Story Pass: 8 hati dan lewati bebas · %s
+@@ ui-0358
+Nanti saja
+@@ ui-0359
+lipat gandakan jadi %d ⭐
+@@ ui-0360
+Hati tanpa batas: sisa %s
+@@ ui-0361
+Hati: %d / %d
+@@ ui-0362
+Bintang gratis
+@@ ui-0363
+Penawaran muncul di sini setelah Google Play bisa dijangkau.
+@@ ui-0364
+Dimiliki
+@@ ui-0365
+Jangan Coba-Coba
+@@ ui-0366
+Temui Hazel alih-alih menebang pohonnya.
+@@ ui-0367
+Parit yang Indah
+@@ ui-0368
+Selesaikan bab pertama Hazel.
+@@ ui-0369
+Daun yang Memerah
+@@ ui-0370
+Selesaikan bab kedua Hazel.
+@@ ui-0371
+Di Tengah Badai
+@@ ui-0372
+Selesaikan bab ketiga Hazel.
+@@ ui-0373
+Berakar
+@@ ui-0374
+Capai akhir cerita Hazel.
+@@ ui-0375
+Menjaga Waktu
+@@ ui-0376
+Berikan Hazel Jam Matahari Saku Kuningan.
+@@ ui-0377
+Selembut Lumut
+@@ ui-0378
+Selesaikan cerita Hazel dengan selalu memilih jawaban hangat.
+@@ ui-0379
+Serpihan
+@@ ui-0380
+Selesaikan cerita Hazel dengan menggodanya di setiap jawaban.
+@@ ui-0381
+Reaksi Berantai
+@@ ui-0382
+Picu kombo x3.
+@@ ui-0383
+Longsor
+@@ ui-0384
+Picu kombo x5.
+@@ ui-0385
+Terpesona Bintang
+@@ ui-0386
+Buat Ledakan Bintang.
+@@ ui-0387
+Ledakan Mega
+@@ ui-0388
+Tukar dua permata spesial sekaligus.
+@@ ui-0389
+Tak Tertahankan
+@@ ui-0390
+Isi cincin Pesona untuk Ledakan Pesona.
+@@ ui-0391
+Langkah Berlebih
+@@ ui-0392
+Selesaikan bab dengan sisa 5 langkah atau lebih.
+@@ ui-0393
+Penghancur Pecahan
+@@ ui-0394
+Hancurkan pecahan terkutuk dengan Palu.
+@@ ui-0395
+Cuci Mata
+@@ ui-0396
+Beli sesuatu di Toko Item.
+@@ ui-0397
+Mekar Sempurna
+@@ ui-0398
+Mekarkan 25 bunga Hazel.
+@@ ui-0399
+Penjilid Buku
+@@ ui-0400
+Pecahkan 50 segel Amara.
+@@ ui-0401
+Siapa Cepat Dia Dapat
+@@ ui-0402
+Temukan 30 barang Opal yang hilang di bawah lumut.
+@@ ui-0403
+Penyelam Harta
+@@ ui-0404
+Angkat 10 kepingan sisir untuk Marina.
+@@ ui-0405
+Seribu Kilauan
+@@ ui-0406
+Buat 1000 kecocokan.
+@@ ui-0407
+Sekadar Iseng
+@@ ui-0408
+Cetak 2000 poin dalam kencan bebas.
+@@ ui-0409
+Setiap Hari Berarti
+@@ ui-0410
+Selesaikan tantangan harian.
+@@ ui-0412
+Paket Awal
+@@ ui-0413
+Paling hemat
+@@ ui-0414
+200 bintang, 2 dari setiap item, dan 1 jam hati tanpa batas. Sekali per pemain.
+@@ ui-0415
+Tanpa Iklan
+@@ ui-0416
+Tidak ada lagi iklan di antara bab atau di bawah menu, selamanya. Video hadiah jadi satu ketukan: hadiahnya, tanpa video.
+@@ ui-0417
+Story Pass
+@@ ui-0418
+Lewati bab mana saja, lanjutkan setelah kekalahan apa pun, dan 8 hati alih-alih 5.
+@@ ui-0419
+5 Hati Tambahan
+@@ ui-0420
+5 hati sekarang juga, di atas yang sudah kamu punya.
+@@ ui-0421
+Hati Tanpa Batas
+@@ ui-0422
+Main sepuasnya selama 24 jam.
+@@ ui-0423
+Paket Item
+@@ ui-0424
+5 dari setiap item di Toko Item.
+@@ ui-0425
+Segenggam Bintang
+@@ ui-0426
+150 bintang.
+@@ ui-0427
+Kantong Bintang
+@@ ui-0428
+800 bintang.
+@@ ui-0429
+Peti Bintang
+@@ ui-0430
+Populer
+@@ ui-0431
+1.800 bintang.
+@@ ui-0432
+Harta Bintang
+@@ ui-0433
+5.000 bintang.
+@@ ui-0434
+Gratis: %s
+@@ ui-0435
+Tonton video: %s
+@@ ui-0436
+Kamu sudah punya ini.
+@@ ui-0437
+Pembelian uji coba
+@@ ui-0438
+Ini versi uji coba: tidak ada uang yang berpindah. Beli %s seharga %s?
+@@ ui-0439
+Beli
+@@ ui-0440
+Google Play sedang tidak bisa dijangkau. Coba lagi sebentar lagi.
+@@ ui-0441
+Pembelian tidak bisa dimulai (%s).
+@@ ui-0442
+Toko tidak tersedia di versi ini.
+@@ ui-0443
+Pembelian tidak berhasil (%s).
+@@ ui-0444
+Pembelianmu tertunda. Akan masuk begitu Google Play mengonfirmasinya.
+@@ ui-0445
+%d / %d terbuka
+@@ ui-0446
+%d / %d akhir cerita ditemukan
+@@ ui-0447
+%d poin — awal yang berat...
+@@ ui-0448
+%d / %d poin
+@@ ui-0449
+%d poin...
+@@ ui-0450
+LANGKAH
+@@ ui-0451
+TIPS
+@@ ui-0452
++%d ⭐
+@@ ui-0453
+SEGEL DIPECAHKAN
+@@ ui-0454
+KEPINGAN SISIR
+@@ ui-0455
+BARANG DITEMUKAN
+@@ ui-0456
+BUNGA
+@@ ui-0457
+%s siap!
+@@ ui-0458
+%s: pilih sebuah permata.
+@@ ui-0459
+%d poin
+@@ ui-0460
+SKOR
+@@ ui-0461
+Cocokkan rune, favorit Amara: rune mengisi cincin Pesona dua kali lebih cepat, dan di tingkat Sulit menunda apa pun yang akan datang. Ramuan Pemulih berarti lebih sedikit pecahan terkutuk.
+@@ ui-0462
+Cocokkan mutiara, favorit Marina: mutiara mengisi cincin Pesona dua kali lebih cepat, dan di tingkat Sulit menunda apa pun yang akan datang. Gulungan Waktu mengembalikan langkah yang hilang.
+@@ ui-0463
+Cocokkan kristal, favorit Opal: kristal mengisi cincin Pesona dua kali lebih cepat, dan di tingkat Sulit menunda apa pun yang akan datang. Ramuan Cinta mendatangkan lebih banyak kristal.
+@@ ui-0464
+Cocokkan kelopak, favorit Hazel: kelopak mengisi cincin Pesona dua kali lebih cepat, dan di tingkat Sulit menunda apa pun yang akan datang. Ramuan Pemulih berarti lebih sedikit pecahan terkutuk.
+@@ ui-0465
+Garis Koreksi
+@@ ui-0466
+Pilih permata: seluruh baris dan kolomnya bersih.
+@@ ui-0467
+Garis Koreksi!
+@@ ui-0468
+Air Pasang
+@@ ui-0469
+Dua baris paling dekat ke permukaan bersih, dan semuanya naik dua baris.
+@@ ui-0470
+Air Pasang!
+@@ ui-0471
+Serap
+@@ ui-0472
+Pilih permata: semua permata berwarna itu hilang.
+@@ ui-0473
+Serap!
+@@ ui-0474
+Musim Panas
+@@ ui-0475
+Setiap benih dan tunas di papan tumbuh satu tahap.
+@@ ui-0476
+Musim Panas!

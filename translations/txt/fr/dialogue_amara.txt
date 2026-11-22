@@ -1,0 +1,269 @@
+# Amara — Français (brouillon, round 52)
+@@ amara-0001
+Amara Duskrose
+@@ amara-0002
+Succube, invoquée par erreur
+@@ amara-0003
+« Tu m'as invoquée avec ce pitoyable cercle à la craie ? »
+@@ amara-0004
+Des runes. Enfin quelqu'un dans cette ville qui sait dessiner.
+@@ amara-0005
+Des lignes nettes. Je suis presque fière de toi.
+@@ amara-0006
+Celui-là retiendrait vraiment un démon.
+@@ amara-0007
+Refais ça. Plus lentement.
+@@ amara-0008
+Tu vois ? Des cercles fermés. Ce n'est pas difficile.
+@@ amara-0009
+Voilà un cercle dont j'aurais envie de sortir.
+@@ amara-0010
+De la pierre de lune. Ça sent l'église.
+@@ amara-0011
+Non. Juste non.
+@@ amara-0012
+Quelqu'un a acheté ça sur un étal de marché. Ça se voit.
+@@ amara-0013
+Des bêtises lunaires. Suivant.
+@@ amara-0014
+Éloigne de moi ce caillou sacré.
+@@ amara-0015
+Le livre est dans ce bâtiment. Continue.
+@@ amara-0016
+Tu es plus rapide que tu n'en as l'air. Et tu as l'air plutôt lent.
+@@ amara-0017
+Des rois m'ont invoquée. Ils étaient pires que toi à ce jeu.
+@@ amara-0018
+Les yeux sur le plateau. Je serai encore là.
+@@ amara-0019
+Si tu le trouves avant moi, ne l'ouvre pas.
+@@ amara-0020
+Attention à la bougie.
+@@ amara-0021
+Bougie en cire d'abeille trempée à la main
+@@ amara-0022
+Une grande bougie en cire d'abeille à mèche de neuf heures. Elle brûle plus longtemps si personne ne la souffle.
+@@ amara-0023
+Elle fait tourner la bougie entre ses mains et renifle la cire, ce qui semble être la méthode des professionnels.
+@@ amara-0024
+Mèche de neuf heures. Trempée à la main. Tu sais à quoi ça sert, n'est-ce pas.
+@@ amara-0025
+Elle la pose à côté du moignon de bougie dans ton cercle de craie et l'allume à l'ancienne flamme avant que celle-ci ne s'éteigne.
+@@ amara-0026
+Ça fait neuf heures de plus où tu ne pourras pas te débarrasser de moi. Tu l'as fait exprès.
+@@ amara-0027
+Tu es à Millbrook depuis trois semaines et tu prends tous les boulots qui paient. Ce soir, c'est le service de nuit à la bibliothèque municipale. Il est minuit et quart, les lampes à gaz sont éteintes depuis une heure, le chariot des retours est encore plein, et tu as dessiné un cercle sur le sol de la salle de lecture avec de la craie pour enfants.
+@@ amara-0028
+Tu l'as recopié d'une page volante tombée d'un livre rendu. C'était joli. Tu as mis un bout de bougie au milieu parce que ça avait l'air du genre de chose qui veut une bougie.
+@@ amara-0029
+La flamme penche sur le côté. Puis elle devient verte. La fumée remplit le cercle, avec une odeur d'allumette craquée et de parfum hors de prix, et quelqu'un en sort en toussant.
+@@ amara-0030
+Tu m'as invoquée avec ce pitoyable cercle à la craie ? Tu l'as recopié où, au juste ? Pff, j'étais occupée.
+@@ amara-0031
+Elle est grande, cornue, et habillée pour un endroit bien plus chic qu'une bibliothèque. Elle s'accroupit pour examiner ton cercle et fait claquer sa langue.
+@@ amara-0032
+Ton deuxième anneau ne se ferme pas. Ce sigil est à l'envers. Et celui-là n'est même pas un sigil, c'est une tache de café que tu as décalquée.
+@@ amara-0033
+Bon. Ça a marché, ce qui est vexant en soi. Vas-y, alors. Demande.
+@@ amara-0034
+Tu lui demandes ce qu'elle veut dire.
+@@ amara-0035
+Ce que tu veux. De l'or. Une vengeance. Et tôt ou tard du sexe. On en arrive toujours là.
+@@ amara-0036
+Tu ne demandes rien de tout ça. Tu lui demandes si elle va bien, parce qu'elle est sortie de la fumée en toussant.
+@@ amara-0037
+C'est la craie. La craie bon marché, ça gratte la gorge.
+@@ amara-0038
+Puis elle remarque la page volante sur ton bureau, celle que tu as recopiée, et se fige.
+@@ amara-0039
+Où as-tu trouvé ça.
+@@ amara-0040
+Tu lui dis qu'elle est tombée d'un livre rendu, et que tu n'as pas regardé lequel. Tu fais un pas vers le bureau pour la lui montrer.
+@@ amara-0041
+Ne bouge pas. Ne brise pas le cercle. Si cette bougie s'éteint, je rentre chez moi, et je n'en ai pas fini avec toi.
+@@ amara-0042
+Elle enjambe elle-même la ligne de craie, en prenant soin de ne pas l'effacer, et ramasse la page. Tu te rends compte que tu la fixes.
+@@ amara-0043
+Attention. Si tu continues à me fixer comme ça, je vais finir par croire que tu m'as invoquée exprès.
+@@ amara-0044
+Cette page vient de mon lien. Le livre qui m'attache à chaque cercle que quelqu'un dessine, aussi mal soit-il. Trouve-le en entier, brûle-le, et je suis libre.
+@@ amara-0045
+Il est quelque part dans ce bâtiment. Je le sens, comme un courant d'air. Tu vas m'aider à le trouver avant que quelqu'un d'autre ne le fasse.
+@@ amara-0046
+Bien sûr que je vais t'aider. Il ressemble à quoi ?
+@@ amara-0047
+Tu n'as pas demandé ce que tu y gagnes.
+@@ amara-0048
+Elle plisse les yeux, cherchant l'arnaque. Il n'y en a pas.
+@@ amara-0049
+Couverture noire. Pas de titre. Il sera tiède au toucher. Ne l'ouvre pas.
+@@ amara-0050
+D'accord. Après avoir rangé ces retours.
+@@ amara-0051
+J'ai détruit des royaumes, et tu me fais attendre ?!
+@@ amara-0052
+Elle prend quand même une pile de livres et demande où va la poésie.
+@@ amara-0053
+Plus vite. Et respecte l'ordre alphabétique. J'ai vu ton cercle.
+@@ amara-0054
+À deux heures du matin, tu as vérifié tous les livres rendus ce mois-ci. Pas de couverture noire. Un livre de cuisine très en retard, qu'elle ouvre, dont elle lit une page et qu'elle referme avec dégoût.
+@@ amara-0055
+Il était ici. Quelqu'un l'a déplacé, et il n'y a pas longtemps.
+@@ amara-0056
+Et tu ne m'as toujours rien demandé.
+@@ amara-0057
+D'expérience, ceux qui ne demandent rien veulent quelque chose de pire. Alors. C'est quoi ?
+@@ amara-0058
+Ton nom, ce serait bien.
+@@ amara-0059
+Amara. C'est celui que j'utilise. Le vrai est dans le livre, avec tout ce qui me tient en laisse.
+@@ amara-0060
+Tu le répètes. Elle écoute comme si elle vérifiait ta prononciation.
+@@ amara-0061
+Pas loin. Tu peux continuer à l'utiliser.
+@@ amara-0062
+Peut-être que je garde mon vœu pour quelque chose de bien.
+@@ amara-0063
+Malin. Les vœux non utilisés n'expirent pas. J'ai connu un homme qui en a gardé un jusqu'à sa mort.
+@@ amara-0064
+Garde-le, alors. Je vais te surveiller de très près jusqu'à ce que tu l'utilises.
+@@ amara-0065
+Le fichier a un trou là où devrait être le livre. Quelqu'un a laissé une fiche dans le tiroir à la place : PARTI EN RELIURE, et un nom.
+@@ amara-0066
+Quelqu'un dans cette ville sait exactement ce qu'est ce livre.
+@@ amara-0067
+Elle s'assoit sur la table de lecture, ce que tu lui as demandé deux fois de ne pas faire, et déplace la bougie pour qu'elle ne coule pas sur les retours.
+@@ amara-0068
+Arrête de faire semblant de chercher le livre. Tu es passé onze fois devant cette table ce soir, et le livre n'est pas dessus. Moi, si.
+@@ amara-0069
+Viens ici. C'est un ordre, et je ne le donne qu'une fois avant de venir te chercher.
+@@ amara-0070
+Tu es la meilleure chose que j'aie trouvée dans cette bibliothèque.
+@@ amara-0071
+De la flatterie. Bien. Continue.
+@@ amara-0072
+Elle crochète ta cheville du pied et te ramène le dernier pas.
+@@ amara-0073
+Maintenant, on peut arrêter tous les deux de prétendre que tu es venu parler de livres.
+@@ amara-0074
+Oblige-moi.
+@@ amara-0075
+Oh, j'en ai bien l'intention.
+@@ amara-0076
+Elle passe un doigt dans ton col et t'attire jusqu'à ce que vous soyez nez à nez au-dessus de la table de lecture.
+@@ amara-0077
+Voilà. Maintenant regarde-moi dans les yeux et dis-moi que tu préférerais ranger des livres.
+@@ amara-0078
+Elle refuse d'abandonner la bougie. Elle la porte jusqu'à la rue de la Mèche dans ses mains en coupe, et te fait marcher du côté du vent.
+@@ amara-0079
+Le nom sur la fiche est celui d'un relieur mort au printemps. Sa boutique est encore pleine de pages volantes.
+@@ amara-0080
+Dans l'arrière-boutique, sous une housse, vous trouvez une couverture noire vide. Les pages ont été découpées au couteau.
+@@ amara-0081
+Il l'a démonté. Pour le vendre page par page.
+@@ amara-0082
+Chacune de ces pages fait partie de mon lien. Quelqu'un les achète.
+@@ amara-0083
+Tu pourrais en garder une, tu sais. Une seule page. Je ne pourrais plus rien te refuser.
+@@ amara-0084
+Si j'en trouve une, je la brûle.
+@@ amara-0085
+Tu la brûlerais.
+@@ amara-0086
+Elle prend la bougie pour occuper ses mains.
+@@ amara-0087
+Alors on ferait mieux de les trouver avant tout le monde.
+@@ amara-0088
+Tentant. Tu devrais ranger mes livres.
+@@ amara-0089
+Je le ferais mal. Par dépit.
+@@ amara-0090
+Viens. Les relieurs tiennent des registres. S'il les a vendues, il a noté à qui.
+@@ amara-0091
+Le registre vous ramène droit à ta propre bibliothèque. Les dernières pages lui ont été vendues en mars en feuilles volantes, assorties, et classées dans la réserve des livres rares sous Divers, Infernal.
+@@ amara-0092
+Elle les brûle dans la cheminée de la salle de lecture à quatre heures du matin, une par une. Chacune s'embrase en vert. La page volante de ton bureau passe en dernier : elle arrache son nom dans le coin et ne brûle que ça.
+@@ amara-0093
+C'est la dernière. Je suis libre. Plus de cercles. Plus personne ne pourra me traîner nulle part.
+@@ amara-0094
+La bougie dans ton cercle de craie, la quatrième de la semaine, est presque finie. Elle la regarde vaciller et ne s'en va pas.
+@@ amara-0095
+La plupart des invocations s'arrêtent dès que quelqu'un obtient ce qu'il a demandé. Toi, tu n'as jamais rien demandé. Alors... je suis restée.
+@@ amara-0096
+Toujours rien ?
+@@ amara-0097
+Tu secoues la tête.
+@@ amara-0098
+Alors c'est moi qui demande. Ferme la porte de la salle de lecture. Laisse la bougie.
+@@ amara-0099
+Tu fermes la porte.
+@@ amara-0100
+La salle de lecture, porte fermée. La seule lumière vient de la bougie dans ton cercle de craie, et elle est de nouveau assise sur la table de lecture.
+@@ amara-0101
+Tu m'as demandé deux fois de ne pas m'asseoir sur cette table.
+@@ amara-0102
+J'ai été invoquée quatre cents et quelques fois. Jamais vu un tel gentleman.
+@@ amara-0103
+Elle prend ta main et la presse à plat contre sa poitrine. Sous la soie, quelque chose bat bien trop vite pour quelqu'un d'aussi vieux.
+@@ amara-0104
+C'est ta faute. Je veux que ce soit noté.
+@@ amara-0105
+Elle se retourne et soulève ses cheveux de sa nuque. La robe se ferme par une rangée de minuscules agrafes, du col jusqu'à la naissance de ses ailes.
+@@ amara-0106
+Il y en a quarante et une. Je les ai comptées en la mettant. Prends ton temps.
+@@ amara-0107
+Tu ne prends pas ton temps. Elle se moque de toi, d'un rire grave au fond de la gorge, et ne se plaint pas.
+@@ amara-0108
+Dis-le. Le nom que je t'ai donné.
+@@ amara-0109
+Tu le dis. Amara. Elle ferme les yeux, comme si elle vérifiait ta prononciation une dernière fois.
+@@ amara-0110
+Pas loin.
+@@ amara-0111
+Plus tard. La bougie n'est plus qu'un moignon. Elle est allongée sur toi sur le tapis de la salle de lecture, une aile repliée sur vous deux comme une couverture.
+@@ amara-0112
+Ça fait très longtemps que je fais ça, et ce n'était pas sur la liste de ce que j'attendais d'une bibliothèque.
+@@ amara-0113
+Ne prends pas cet air si content de toi. En fait, si. Prends exactement cet air-là.
+@@ amara-0114
+Reste jusqu'à ce que la bougie s'éteigne. Et puis reste quand même.
+@@ amara-0115
+La bougie se consume jusqu'au bout, et aucun de vous deux ne remarque quand elle s'éteint.
+@@ amara-0116
+Après la fermeture
+@@ amara-0117
+Sa carte de bibliothèque porte ton adresse, d'une petite écriture furieuse. Elle emménage avec quarante bougies et des avis sur ta bibliothèque, qu'elle réorganise selon à quel point elle a détesté chaque livre. Ton préféré finit sur l'étagère du bas. La plupart des soirs, elle est encore au bureau de nuit quand ton service se termine, et elle te raccompagne par la rivière même si c'est plus long.
+@@ amara-0118
+Le matin entre par les fenêtres de la salle de lecture. Quelqu'un a plié ta veste en un carré très net.
+@@ amara-0119
+Pour info : quatre cents et quelques invocations, plusieurs rois et un évêque très enthousiaste. Aucun n'a approché. Je ne le dirai qu'une fois.
+@@ amara-0120
+Tu peux te rhabiller maintenant.
+@@ amara-0121
+Je n'avais jamais vu un matin de ce côté d'une invocation. C'est très lumineux. Je ne déteste pas.
+@@ amara-0122
+La salle de lecture à l'aube : une bougie consumée dans un cercle de craie brouillé, ta veste pliée en un carré net sur le chariot des retours.
+@@ amara-0123
+Pendant que tu vas chercher du café en salle du personnel, elle prend un crayon rouge sur ton bureau et commence à corriger la page à l'origine de tout ça.
+@@ amara-0124
+Si tu dois en dessiner, tu les dessineras correctement. Personne d'autre ne passera par un cercle aussi pitoyable.
+@@ amara-0125
+Cette ligne-là. C'est là que tu mettrais mon nom. Si un jour tu voulais m'appeler. Tu n'en auras pas besoin. Je serai avec toi.
+@@ amara-0126
+Ses corrections au crayon rouge, partout sur la page volante à l'origine de tout.
+@@ amara-0127
+Ils veulent une adresse pour ma carte de bibliothèque. Je n'en ai pas. Je mets quoi ?
+@@ amara-0128
+Tu lui dis de mettre la tienne.
+@@ amara-0129
+La tienne. D'accord. J'apporte mes propres bougies.
+@@ amara-0130
+Les bougies vacillent
+@@ amara-0131
+De la poussière tombe de l'étagère du haut
+@@ amara-0132
+Un lecteur te fait « chut »
+@@ amara-0133
+Lignes corrigées
+@@ amara-0134
+Choisis une gemme : toute sa ligne et sa colonne se vident.

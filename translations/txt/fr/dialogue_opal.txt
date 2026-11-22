@@ -1,0 +1,239 @@
+# Opal — Français (brouillon, round 52)
+@@ opal-0001
+Opal
+@@ opal-0002
+Slime, anciennement dans un bocal
+@@ opal-0003
+« J'allais bien. C'était calme, là-dedans. »
+@@ opal-0004
+Ooh. Ça va dans le... pardon.
+@@ opal-0005
+Du cristal. Celui-là, je le garderais.
+@@ opal-0006
+Ça attrape la lumière. Encore un.
+@@ opal-0007
+Transparent de part en part. Comme moi.
+@@ opal-0008
+C'était très joli. Merci.
+@@ opal-0009
+Des runes. Comme sur les bocaux des alchimistes.
+@@ opal-0010
+Je n'aime pas celles-là. Pardon.
+@@ opal-0011
+On peut éviter ? S'il te plaît ?
+@@ opal-0012
+Les runes me font pétiller les bords.
+@@ opal-0013
+Tu t'en sors bien. Je compte.
+@@ opal-0014
+Pardon. Je regarde. Ça va ?
+@@ opal-0015
+C'est bruyant, dehors. Toi, tu es du bon bruit.
+@@ opal-0016
+Si tu fais tomber quelque chose, je le retrouverai.
+@@ opal-0017
+Tu fredonnes quand tu réfléchis. C'est mignon.
+@@ opal-0018
+Je suis un peu rose, là. Ne fais pas attention.
+@@ opal-0019
+C-c'était bien. C'était vraiment bien.
+@@ opal-0020
+Vieille bille de verre
+@@ opal-0021
+Une bille de verre traversée d'un ruban d'or torsadé, du genre que personne ne fabrique plus depuis des décennies.
+@@ opal-0022
+Elle lève la bille devant son œil, puis la presse doucement dans sa propre paume. La bille s'enfonce et flotte là, dans sa main, où elle peut la voir.
+@@ opal-0023
+Une torsade d'or. On n'en faisait déjà plus avant que j'entre dans le bocal. Où l'as-tu trouvée ?
+@@ opal-0024
+Elle devient rose, ce qui, chez Opal, se voit très facilement.
+@@ opal-0025
+E-elle ne va pas sur l'étagère. Elle reste avec moi. Ici. Ça va ?
+@@ opal-0026
+Les bois au nord de Millbrook, fin d'automne. Tu ramasses du bois de chauffage et tout ce qui peut se vendre, et tu as suivi le ruisseau plus loin que prévu.
+@@ opal-0027
+Entre les racines d'un vieux chêne, quelqu'un a creusé un petit creux et l'a tapissé de mousse. Dedans, un grand bocal en verre, scellé à la cire. L'étiquette dit TRITONS AU VINAIGRE, NE PAS OUVRIR, d'une écriture qui essaie d'être drôle.
+@@ opal-0028
+Les tritons au vinaigre n'ont pas d'habitude une date écrite au crayon sur la cire : le deux janvier. Tu l'ouvres quand même.
+@@ opal-0029
+Quelque chose déborde, lent et luisant, lilas pâle avec des éclats de vert et de rose. Tu recules si vite que tu envoies la moitié du creux dans le ruisseau d'un coup de pied. La chose se rassemble sur une racine en forme de femme, et elle n'a pas l'air contente.
+@@ opal-0030
+Pourquoi tu as fait ça ?
+@@ opal-0031
+Tu fais remarquer que l'étiquette disait tritons.
+@@ opal-0032
+J'allais bien. C'était calme, là-dedans.
+@@ opal-0033
+C'est Ambrose qui a écrit cette étiquette. Il était le garde forestier. Quand les alchimistes sont passés acheter des slimes, il m'a cachée ici. Ça a marché pendant trente et un ans.
+@@ opal-0034
+Il tapotait le verre deux fois chaque matin pour que je sache que c'était lui.
+@@ opal-0035
+Elle regarde derrière toi, le creux : la mousse, aplatie en petites rangées bien nettes là où quelque chose était posé, et le ruisseau qui coule vite et brun.
+@@ opal-0036
+Où sont mes affaires ? Elles étaient là. En rangées. J-je les avais mises en rangées.
+@@ opal-0037
+Tu le lui dis. Le ruisseau en a déjà emporté la plupart après le virage, vers la ville.
+@@ opal-0038
+Elles sont à moi. J-je les collectionne depuis des années.
+@@ opal-0039
+Quatre cent douze boutons. Vingt-six clés. Un œil de verre. Tous ceux qui passent dans ces bois perdent quelque chose, et je le gardais.
+@@ opal-0040
+Je suis vraiment désolé. Je vais te les récupérer, jusqu'au dernier.
+@@ opal-0041
+Jusqu'au dernier ? Ça fait quatre cent douze boutons.
+@@ opal-0042
+Elle rosit légèrement de part en part, comme une goutte de teinture dans un verre d'eau.
+@@ opal-0043
+D'accord. Le ruisseau ressort sous le Pont du Moulin, en ville. Des choses s'y échouent. Les gens les ramassent.
+@@ opal-0044
+Pour ma défense, l'étiquette disait tritons.
+@@ opal-0045
+C'était une blague. Il en riait chaque matin depuis trente et un ans.
+@@ opal-0046
+Le ruisseau va en ville. On y va. Tu me portes ! S'il te plaît ?
+@@ opal-0047
+Le ruisseau ressort sous le Pont du Moulin, où Coombs le chiffonnier repêche tout ce qui flotte. Tu arrives avant elle et lui vends une poignée de boutons ramassés sur la berge pour deux sous de cuivre avant de comprendre à qui ils sont. Il a aussi pris le reste dans son filet. Tout racheter te coûte six sous, ce qu'il trouve très drôle.
+@@ opal-0048
+Elle voyage dans un grand bocal sans couvercle dans tes bras, et compte chaque bouton que tu y laisses tomber.
+@@ opal-0049
+M-merci. Pardon. Merci.
+@@ opal-0050
+Celui-là, c'est mon préféré. Laiton, quatre trous, d'un très beau manteau. Tu as un très beau... manteau, toi aussi.
+@@ opal-0051
+Les clés sont parties chez un serrurier, il dit. Et l'œil de verre chez quelqu'un qui avait besoin d'un œil de verre, j'imagine.
+@@ opal-0052
+Parle-moi des autres pendant qu'on cherche.
+@@ opal-0053
+Tu veux que je te parle de boutons ?
+@@ opal-0054
+Tu dis oui. Elle parle pendant une heure sans bégayer une seule fois.
+@@ opal-0055
+Pardon. Je n'ai jamais personne à qui raconter ça.
+@@ opal-0056
+Quatre cents boutons, ça fait beaucoup de boutons d'inconnus.
+@@ opal-0057
+Ce ne sont pas des inconnus. Je les ai tous entendus passer. Depuis le bocal.
+@@ opal-0058
+Dit à voix haute, ça sonne bizarre. Ne réponds pas.
+@@ opal-0059
+Le serrurier de la rue des Cendres a ses clés dans un seau et en veut un shilling pour le tout. Pendant que tu marchandes, elle reste parfaitement immobile dans son bocal sous le comptoir.
+@@ opal-0060
+Sur le chemin du retour, un avis est cloué au Pont du Moulin. La ville a vendu les bois du nord à un alchimiste, pour son atelier. Le défrichage commence au jour du terme.
+@@ opal-0061
+Les alchimistes font bouillir les slimes pour en faire de la colle. Tu le savais ? Douze shillings la livre.
+@@ opal-0062
+C'est pour ça qu'Ambrose m'a mise dans le bocal. Personne ne regarde dans un bocal de tritons au vinaigre. On avait à peu près le même âge quand il l'a fait. Lui, il a vieilli.
+@@ opal-0063
+Ils commencent à défricher au jour du terme. Après ça, il me faudra un autre endroit calme.
+@@ opal-0064
+Tu peux rester chez moi. C'est calme, chez moi.
+@@ opal-0065
+C-chez toi ? Où est-ce que je...
+@@ opal-0066
+J'aimerais avoir mon propre bocal. Juste au début. C'est bizarre ?
+@@ opal-0067
+Alors on va s'assurer que personne ne fasse bouillir personne.
+@@ opal-0068
+Contre un alchimiste ? Tu as vendu mes boutons deux sous et tu les as rachetés six.
+@@ opal-0069
+Mais elle est un peu plus rose qu'avant.
+@@ opal-0070
+J'aimerais bien voir ça, en fait.
+@@ opal-0071
+L'œil de verre réapparaît dans la vitrine du taxidermiste de la rue des Lanternes, dans une chouette empaillée. Le taxidermiste refuse de le vendre. Il dit que la chouette en a besoin.
+@@ opal-0072
+Alors elle sort de son bocal en plein magasin, devant tout le monde, et le demande elle-même.
+@@ opal-0073
+E-excusez-moi. C'est mon œil. Je veux dire... Il fait partie de ma collection. J'aimerais le récupérer, s'il vous plaît.
+@@ opal-0074
+Le taxidermiste est si surpris qu'il lui donne l'œil, la chouette et une réduction sur une deuxième chouette.
+@@ opal-0075
+C'est moi qui ai fait ça. Tu as vu ? Je l'ai fait à voix haute.
+@@ opal-0076
+Ne me remets pas encore dans le bocal. Je veux rentrer toute seule. Enfin. Pas à pied. Tu vois.
+@@ opal-0077
+Tu as été incroyable.
+@@ opal-0078
+Arrête. Je vais devenir trouble.
+@@ opal-0079
+Elle devient trouble.
+@@ opal-0080
+Tu peux me tenir la main. Si ça ne te dérange pas qu'elle soit un peu... mouillée.
+@@ opal-0081
+On prend la deuxième chouette, hein ?
+@@ opal-0082
+Évidemment qu'on prend la deuxième chouette.
+@@ opal-0083
+Elles vont par deux. Je ne sépare pas un couple.
+@@ opal-0084
+Quatre cent douze boutons, vingt-six clés, un œil de verre et deux chouettes. Les hommes de l'alchimiste abattent maintenant les bois du nord, alors Opal reste chez toi, et sa collection occupe toute une étagère de ton salon. Elle la réarrange deux fois.
+@@ opal-0085
+Tout est là. Tout. J'ai compté trois fois.
+@@ opal-0086
+Son bocal est au bout de l'étagère, sans couvercle. Elle n'y est pas entrée depuis trois jours.
+@@ opal-0087
+Il faut que je te dise quelque chose. J'ai gardé un truc à toi. Le premier jour.
+@@ opal-0088
+Elle te tend un bouton. Le tien. Il s'est détaché de ta manche quand tu as plongé la main dans le creux pour prendre son bocal, et tu ne l'as jamais remarqué.
+@@ opal-0089
+C'est la première pièce d'une nouvelle collection. Les choses qui sont à toi.
+@@ opal-0090
+J-je peux dormir dans ta chambre ce soir ? Pas dans le bocal. Avec toi.
+@@ opal-0091
+Tu peux... baisser un peu la lampe ?
+@@ opal-0092
+Tu baisses la lampe.
+@@ opal-0093
+La lampe baissée, la seule lumière de ta chambre vient d'elle : une douce lueur lilas qui s'avive partout où tu la touches.
+@@ opal-0094
+Oh. Je ne savais pas que je faisais ça. C'est gênant. Refais-le.
+@@ opal-0095
+Je devrais te dire que je ne sais pas ce que je fais. J'en ai seulement entendu parler. À travers le verre. Les gens disent beaucoup de choses sur un sentier forestier quand ils croient que personne n'écoute.
+@@ opal-0096
+Surtout des couples qui pensaient avoir trouvé un coin tranquille. Alors je sais beaucoup de choses sur... tu vois.
+@@ opal-0097
+Tu ris. Elle rosit de part en part, puis elle rit aussi.
+@@ opal-0098
+Elle prend ta main et la presse doucement contre elle. Ta main s'enfonce un peu, fraîche et douce, et elle frissonne.
+@@ opal-0099
+Ç-ça va ? Dis-moi si c'est bizarre. Tu as le droit de dire que c'est bizarre.
+@@ opal-0100
+Tu lui dis que ce n'est pas bizarre. Elle t'attire plus près, et pour une fois elle ne s'excuse de rien.
+@@ opal-0101
+Après, elle est étalée sur presque tout le lit et une partie de toi, luisant faiblement, en fredonnant un air qu'Ambrose sifflait.
+@@ opal-0102
+M-merci. Pardon. Non. Pas pardon. Merci.
+@@ opal-0103
+Le bocal reste vide toute la nuit.
+@@ opal-0104
+Un endroit calme
+@@ opal-0105
+Opal emménage pour de bon. Sa collection gagne une deuxième étagère, puis une troisième : des choses que tu as perdues, des choses que tes amis ont perdues, le billet de votre première soirée ensemble. Le bocal vit sous le lit. Elle s'en sert deux fois cette année-là, les deux fois pendant un orage, et les deux fois tu t'assois par terre à côté pendant qu'elle te raconte, à travers le verre, quels voisins se doivent de l'argent. Elle ressort toute seule avant la fin de l'orage.
+@@ opal-0106
+Quelque chose de frais et un peu lourd est étalé sur toi comme une couverture. C'est elle.
+@@ opal-0107
+Pardon. Je m'étale en dormant. Je ne le savais pas. Je n'avais jamais dormi dans un endroit assez grand pour le découvrir.
+@@ opal-0108
+Hier soir, c'est la meilleure chose qui me soit arrivée en trente et un ans. Peut-être... depuis toujours.
+@@ opal-0109
+J'aimerais recommencer. On a le droit de dire ça, non ? Bien. J'aimerais recommencer.
+@@ opal-0110
+La lumière du matin à travers les rideaux de la chambre, et quelqu'un de translucide et lilas lové sur les draps.
+@@ opal-0111
+Elle sort seule pour la première fois acheter du pain. Elle est partie vingt minutes. Vous faites tous les deux semblant de ne pas vous être inquiétés.
+@@ opal-0112
+Opal au comptoir de la boulangerie, une miche sous le bras et un bouton égaré dans la main.
+@@ opal-0113
+Le bocal... Je devrais le garder ?
+@@ opal-0114
+Tu lui dis de le garder. Pour les orages.
+@@ opal-0115
+Une brise froide
+@@ opal-0116
+Des ronces sous les pieds
+@@ opal-0117
+Une chouette la fait sursauter
+@@ opal-0118
+Absorption
+@@ opal-0119
+Choisis une gemme : toutes les gemmes de cette couleur disparaissent.

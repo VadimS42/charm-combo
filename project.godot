@@ -49,7 +49,7 @@ window/handheld/orientation=6
 
 [internationalization]
 
-locale/translations=PackedStringArray("res://translations/ru.po", "res://translations/zh_CN.po", "res://translations/ja.po", "res://translations/es.po", "res://translations/pt_BR.po", "res://translations/de.po")
+locale/translations=PackedStringArray("res://translations/ru.po", "res://translations/zh_CN.po", "res://translations/ja.po", "res://translations/es.po", "res://translations/pt_BR.po", "res://translations/de.po", "res://translations/hi.po", "res://translations/ar.po", "res://translations/fr.po", "res://translations/bn.po", "res://translations/id.po", "res://translations/uk.po")
 locale/fallback="en"
 
 [rendering]

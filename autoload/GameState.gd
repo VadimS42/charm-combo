@@ -411,8 +411,11 @@ func reset_progress() -> void:
 ## The languages the game has (translations/<locale>.po), with their own names.
 ## Round 49: Japanese, Spanish, Brazilian Portuguese and German (drafted,
 ## for native speakers to check: docs/TRANSLATING.md).
-const LANGUAGES := [["en", "English"], ["zh_CN", "简体中文"], ["ru", "Русский"], ["ja", "日本語"],
-	["es", "Español"], ["pt_BR", "Português (Brasil)"], ["de", "Deutsch"]]
+## Round 52: Hindi, Arabic, French, Bengali, Indonesian (completing the ten
+## most spoken languages) and Ukrainian, drafted the same way.
+const LANGUAGES := [["en", "English"], ["zh_CN", "简体中文"], ["hi", "हिन्दी"], ["es", "Español"],
+	["ar", "العربية"], ["fr", "Français"], ["bn", "বাংলা"], ["pt_BR", "Português (Brasil)"], ["ru", "Русский"],
+	["id", "Bahasa Indonesia"], ["ja", "日本語"], ["de", "Deutsch"], ["uk", "Українська"]]
 
 
 func apply_language() -> void:

@@ -1,0 +1,1429 @@
+msgid ""
+msgstr ""
+"Language: id\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "%d / %d endings found"
+msgstr "%d / %d akhir cerita ditemukan"
+
+msgid "%d / %d pts"
+msgstr "%d / %d poin"
+
+msgid "%d / %d unlocked"
+msgstr "%d / %d terbuka"
+
+msgid "%d pts"
+msgstr "%d poin"
+
+msgid "%d pts — rough start..."
+msgstr "%d poin — awal yang berat..."
+
+msgid "%d pts..."
+msgstr "%d poin..."
+
+msgid "%s is ready!"
+msgstr "%s siap!"
+
+msgid "%s: pick a gem."
+msgstr "%s: pilih sebuah permata."
+
+msgid "(You need %d more stars.)"
+msgstr "(Kamu butuh %d bintang lagi.)"
+
+msgid "+%d moves"
+msgstr "+%d langkah"
+
+msgid "+%d pts — great answer!"
+msgstr "+%d poin — jawaban bagus!"
+
+msgid "+%d to win her over"
+msgstr "+%d untuk memikatnya"
+
+msgid "+%d ⭐"
+msgstr "+%d ⭐"
+
+msgid "+%d ⭐ for trying"
+msgstr "+%d ⭐ karena sudah mencoba"
+
+msgid "+%d ⭐ towards it"
+msgstr "+%d ⭐ untuk membantumu"
+
+msgid "+1 heart"
+msgstr "+1 hati"
+
+msgid "+2 moves — great answer!"
+msgstr "+2 langkah — jawaban bagus!"
+
+msgid "+5 hearts · %s"
+msgstr "+5 hati · %s"
+
+msgid "-1 move"
+msgstr "-1 langkah"
+
+msgid "1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!"
+msgstr "1 bintang untuk setiap 200 poin. Kumpulkan untuk membeli bantuan di Toko Item, lalu coba lagi!"
+
+msgid "1,800 stars."
+msgstr "1.800 bintang."
+
+msgid "150 stars."
+msgstr "150 bintang."
+
+msgid "18+ · original characters · all characters are adults."
+msgstr "18+ · karakter orisinal · semua karakter sudah dewasa."
+
+msgid "200 stars, 2 of every item and 1 hour of unlimited hearts. Once per player."
+msgstr "200 bintang, 2 dari setiap item, dan 1 jam hati tanpa batas. Sekali per pemain."
+
+msgid "5 Extra Hearts"
+msgstr "5 Hati Tambahan"
+
+msgid "5 hearts right now, on top of the ones you have."
+msgstr "5 hati sekarang juga, di atas yang sudah kamu punya."
+
+msgid "5 of every item in the Item Shop."
+msgstr "5 dari setiap item di Toko Item."
+
+msgid "5,000 stars."
+msgstr "5.000 bintang."
+
+msgid "800 stars."
+msgstr "800 bintang."
+
+msgid "A Lovely Trench"
+msgstr "Parit yang Indah"
+
+msgid "A Thousand Sparkles"
+msgstr "Seribu Kilauan"
+
+msgid "A comb piece!"
+msgstr "Kepingan sisir!"
+
+msgid "A comb piece! %d / %d"
+msgstr "Kepingan sisir! %d / %d"
+
+msgid "A free date"
+msgstr "Kencan bebas"
+
+msgid "A little buzz when gems match."
+msgstr "Getaran kecil saat permata cocok."
+
+msgid "A match-3 romance for adults, set in Millbrook, a twilight town where fantastical folk make their home. Meet four women in the worst way possible, help them with what they need, and see where the night goes."
+msgstr "Romansa match-3 untuk orang dewasa, berlatar di Millbrook, kota senja tempat makhluk-makhluk fantastis tinggal. Temui empat wanita dengan cara terburuk, bantu mereka dengan apa yang mereka butuhkan, dan lihat ke mana malam membawa kalian."
+
+msgid "A match-3 romance in Millbrook. Meet four women in the worst way possible, help them with what they need, and see where it goes."
+msgstr "Romansa match-3 di Millbrook. Temui empat wanita dengan cara terburuk, bantu mereka dengan apa yang mereka butuhkan, dan lihat ke mana arahnya."
+
+msgid "A new best!"
+msgstr "Rekor baru!"
+
+msgid "A new board every day, the same for everyone: %d moves, one try. Come back tomorrow for the next."
+msgstr "Papan baru setiap hari, sama untuk semua orang: %d langkah, satu kali coba. Kembali besok untuk yang berikutnya."
+
+msgid "A new seed drops in."
+msgstr "Benih baru jatuh."
+
+msgid "A tip"
+msgstr "Tips"
+
+msgid "ACHIEVEMENT UNLOCKED"
+msgstr "PENCAPAIAN TERBUKA"
+
+msgid "About the voices"
+msgstr "Tentang suara"
+
+msgid "Absorb"
+msgstr "Serap"
+
+msgid "Absorb!"
+msgstr "Serap!"
+
+msgid "Achievements"
+msgstr "Pencapaian"
+
+msgid "Ad privacy choices"
+msgstr "Privasi iklan"
+
+msgid "After each chapter you pick a reply. A warm one starts her next chapter with bonus points (two extra moves when the chapter is only her goal); a teasing one costs a few points, but she likes those too."
+msgstr "Setelah setiap bab kamu memilih jawaban. Jawaban yang hangat memulai bab berikutnya dengan poin bonus (dua langkah tambahan kalau babnya hanya berisi targetnya); jawaban yang menggoda mengurangi sedikit poin, tapi dia juga suka itu."
+
+msgid "After that, her favourite gem shows up more often in all her chapters, for good."
+msgstr "Setelah itu, permata favoritnya lebih sering muncul di semua babnya, selamanya."
+
+msgid "All rules"
+msgstr "Semua aturan"
+
+msgid "All the girls"
+msgstr "Semua gadis"
+
+msgid "Amara's power: Correct Lines"
+msgstr "Kekuatan Amara: Garis Koreksi"
+
+msgid "Amara's seals broken"
+msgstr "Segel Amara dipecahkan"
+
+msgid "Amara: break every seal"
+msgstr "Amara: pecahkan semua segel"
+
+msgid "Amara: sealed pages"
+msgstr "Amara: halaman bersegel"
+
+msgid "Another date"
+msgstr "Kencan lagi"
+
+msgid "Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing."
+msgstr "Kecocokan apa pun langsung menyelesaikan target bab dan memberi 99 bintang — untuk pengujian, bukan untuk bermain sungguhan."
+
+msgid "Anything you've bought on this Google account comes back in a moment."
+msgstr "Semua yang kamu beli dengan akun Google ini akan kembali sebentar lagi."
+
+msgid "Auto"
+msgstr "Otomatis"
+
+msgid "Auto Speed"
+msgstr "Kecepatan Otomatis"
+
+msgid "Avalanche"
+msgstr "Longsor"
+
+msgid "BLOSSOMS"
+msgstr "BUNGA"
+
+msgid "Back"
+msgstr "Kembali"
+
+msgid "Back to the chapter"
+msgstr "Kembali ke bab"
+
+msgid "Back to the roster"
+msgstr "Kembali ke lingkaran"
+
+msgid "Balanced route"
+msgstr "Rute Seimbang"
+
+msgid "Best chapter score"
+msgstr "Skor bab terbaik"
+
+msgid "Best combo"
+msgstr "Kombo terbaik"
+
+msgid "Best daily challenge"
+msgstr "Tantangan harian terbaik"
+
+msgid "Best date with %s"
+msgstr "Kencan terbaik dengan %s"
+
+msgid "Best value"
+msgstr "Paling hemat"
+
+msgid "Bigger text everywhere: dialogue, menus and the puzzle."
+msgstr "Teks lebih besar di mana-mana: dialog, menu, dan teka-teki."
+
+msgid "Blossom! +%d"
+msgstr "Bunga! +%d"
+
+msgid "Blossoms"
+msgstr "Bunga"
+
+msgid "Bookbinder"
+msgstr "Penjilid Buku"
+
+msgid "Boom!"
+msgstr "Duar!"
+
+msgid "Break 50 of Amara's seals."
+msgstr "Pecahkan 50 segel Amara."
+
+msgid "Bring 10 comb pieces up for Marina."
+msgstr "Angkat 10 kepingan sisir untuk Marina."
+
+msgid "Buy"
+msgstr "Beli"
+
+msgid "Buy something in the Item Shop."
+msgstr "Beli sesuatu di Toko Item."
+
+msgid "Buy · %d"
+msgstr "Beli · %d"
+
+msgid "Buy · %d ⭐"
+msgstr "Beli · %d ⭐"
+
+msgid "CHAPTER GOAL"
+msgstr "TARGET BAB"
+
+msgid "COMB PIECES"
+msgstr "KEPINGAN SISIR"
+
+msgid "COMING UP"
+msgstr "SEGERA"
+
+msgid "Cancel"
+msgstr "Batal"
+
+msgid "Carry on without clearing this chapter (no stars for it)."
+msgstr "Lanjutkan tanpa menyelesaikan bab ini (tanpa bintang)."
+
+msgid "Chain Reaction"
+msgstr "Reaksi Berantai"
+
+msgid "Chapter %d / %d"
+msgstr "Bab %d / %d"
+
+msgid "Chapter %d · +%d"
+msgstr "Bab %d · +%d"
+
+msgid "Chapter %d · +%d ⭐"
+msgstr "Bab %d · +%d ⭐"
+
+msgid "Chapter cleared!"
+msgstr "Bab selesai!"
+
+msgid "Chapters cleared"
+msgstr "Bab selesai"
+
+msgid "Charm Burst"
+msgstr "Ledakan Pesona"
+
+msgid "Charm Burst! +150"
+msgstr "Ledakan Pesona! +150"
+
+msgid "Charm Combo is for adults"
+msgstr "Charm Combo untuk orang dewasa"
+
+msgid "Charm halved"
+msgstr "Pesona terpotong setengah"
+
+msgid "Charm — fills as you match (her favorite gem fastest). Full = +150 Charm Burst."
+msgstr "Pesona — terisi saat kamu mencocokkan (paling cepat dengan permata favoritnya). Penuh = Ledakan Pesona +150."
+
+msgid "Charm — fills as you match (her favourite gem fastest). Full = one use of her power: %s"
+msgstr "Pesona — terisi saat kamu mencocokkan (paling cepat dengan permata favoritnya). Penuh = satu kali pakai kekuatannya: %s"
+
+msgid "Chest of Stars"
+msgstr "Peti Bintang"
+
+msgid "Chimes for matches, combos, and menus."
+msgstr "Denting untuk kecocokan, kombo, dan menu."
+
+msgid "Choose"
+msgstr "Pilih"
+
+msgid "Clear Hazel's first chapter."
+msgstr "Selesaikan bab pertama Hazel."
+
+msgid "Clear Hazel's second chapter."
+msgstr "Selesaikan bab kedua Hazel."
+
+msgid "Clear Hazel's third chapter."
+msgstr "Selesaikan bab ketiga Hazel."
+
+msgid "Clear a chapter with 5 or more moves left."
+msgstr "Selesaikan bab dengan sisa 5 langkah atau lebih."
+
+msgid "Clear a cursed shard with the Hammer."
+msgstr "Hancurkan pecahan terkutuk dengan Palu."
+
+msgid "Clear any chapter to unlock the daily challenge."
+msgstr "Selesaikan bab mana saja untuk membuka tantangan harian."
+
+msgid "Clear the moss to find her things: buttons, marbles, keys, the glass eye. Find enough of them to win."
+msgstr "Bersihkan lumut untuk menemukan barang-barangnya: kancing, kelereng, kunci, mata kaca. Temukan cukup banyak untuk menang."
+
+msgid "Click to view."
+msgstr "Klik untuk melihat."
+
+msgid "Click, Space or Enter: next line. Hold Ctrl or press Skip: skip lines you've read. A or Auto: lines play on by themselves. L, Log or scroll up: read back. H: hide the text on full-screen pictures. Text speed is in Settings."
+msgstr "Klik, Spasi atau Enter: baris berikutnya. Tahan Ctrl atau tekan Lewati: lewati baris yang sudah dibaca. A atau Otomatis: baris berjalan sendiri. L, Riwayat atau gulir ke atas: baca ulang. H: sembunyikan teks pada gambar layar penuh. Kecepatan teks ada di Pengaturan."
+
+msgid "Close"
+msgstr "Tutup"
+
+msgid "Close settings"
+msgstr "Tutup pengaturan"
+
+msgid "Comb pieces"
+msgstr "Kepingan sisir"
+
+msgid "Comb pieces brought up"
+msgstr "Kepingan sisir diangkat"
+
+msgid "Comb pieces rise when the gems above them clear."
+msgstr "Kepingan sisir naik saat permata di atasnya dibersihkan."
+
+msgid "Combo x%d!"
+msgstr "Kombo x%d!"
+
+msgid "Combos"
+msgstr "Kombo"
+
+msgid "Continue"
+msgstr "Lanjutkan"
+
+msgid "Continue the story  ▸"
+msgstr "Lanjutkan cerita  ▸"
+
+msgid "Continue with %s"
+msgstr "Lanjutkan dengan %s"
+
+msgid "Correct Lines"
+msgstr "Garis Koreksi"
+
+msgid "Correct Lines!"
+msgstr "Garis Koreksi!"
+
+msgid "Credits"
+msgstr "Kredit"
+
+msgid "Crystal"
+msgstr "Kristal"
+
+msgid "Cursed Shard"
+msgstr "Pecahan Terkutuk"
+
+msgid "Cursed shards"
+msgstr "Pecahan terkutuk"
+
+msgid "Daily challenge"
+msgstr "Tantangan harian"
+
+msgid "Daily challenge: %d pts"
+msgstr "Tantangan harian: %d poin"
+
+msgid "Dark, cracked shards cost you points when they're part of a match. The Hammer smashes one for free."
+msgstr "Pecahan gelap yang retak mengurangi poinmu kalau ikut dalam kecocokan. Palu bisa menghancurkannya gratis."
+
+msgid "Dialogue controls"
+msgstr "Kontrol dialog"
+
+msgid "Difficulty"
+msgstr "Tingkat Kesulitan"
+
+msgid "Dislikes"
+msgstr "Tidak suka"
+
+msgid "Don't Even Think About It"
+msgstr "Jangan Coba-Coba"
+
+msgid "Each chapter has a goal and a number of moves. At first it's points; from her third chapter it's something of hers to do on the board, and in her last both. Reach it before your moves run out and the story carries on. There's no timer: take as long as you like."
+msgstr "Setiap bab punya target dan jumlah langkah. Awalnya poin; mulai bab ketiganya, ada sesuatu yang harus dilakukan untuknya di papan, dan di bab terakhir keduanya. Capai sebelum langkahmu habis dan ceritanya berlanjut. Tidak ada batas waktu: santai saja."
+
+msgid "Each kind of gem shows a number, so you don't need colour to tell them apart."
+msgstr "Setiap jenis permata menampilkan nomor, jadi kamu tidak perlu warna untuk membedakannya."
+
+msgid "Easy"
+msgstr "Mudah"
+
+msgid "Ember"
+msgstr "Bara"
+
+msgid "End the date"
+msgstr "Akhiri kencan"
+
+msgid "End this date and see your score."
+msgstr "Akhiri kencan ini dan lihat skormu."
+
+msgid "Ending Gallery"
+msgstr "Galeri Akhir Cerita"
+
+msgid "Ending: %s"
+msgstr "Akhir: %s"
+
+msgid "Endings"
+msgstr "Akhir cerita"
+
+msgid "Every Day Counts"
+msgstr "Setiap Hari Berarti"
+
+msgid "Every few moves something happens around you: the panel on her side says what and when. It might raise what it takes to win her over, turn gems into cursed shards, cost you a move or halve your Charm ring. Matching her favourite gem holds it off a move; a Charm Burst clears it."
+msgstr "Setiap beberapa langkah, sesuatu terjadi di sekitar kalian: panel di sisinya memberi tahu apa dan kapan. Bisa menaikkan syarat untuk memikatnya, mengubah permata jadi pecahan terkutuk, mengurangi satu langkah, atau memotong setengah cincin Pesonamu. Mencocokkan permata favoritnya menundanya satu langkah; Ledakan Pesona membatalkannya."
+
+msgid "Every girl has a favourite gem and one she dislikes (on her card in the roster, and at the top of her side in a chapter). Her favourite scores double and fills the Charm ring faster; the one she dislikes scores half."
+msgstr "Setiap gadis punya permata favorit dan satu yang tidak dia suka (di kartunya di lingkaran, dan di bagian atas sisinya saat bab berlangsung). Permata favoritnya bernilai ganda dan mengisi cincin Pesona lebih cepat; yang tidak dia suka bernilai setengah."
+
+msgid "Every match fills the Charm ring. In a girl's first chapter a full ring is a Charm Burst: +150 points. From her second chapter it's one use of her own power instead: its button lights up next to the ring, use it when you like. The ring fills again after."
+msgstr "Setiap kecocokan mengisi cincin Pesona. Di bab pertama seorang gadis, cincin penuh berarti Ledakan Pesona: +150 poin. Mulai bab keduanya, cincin penuh berarti satu kali pakai kekuatannya sendiri: tombolnya menyala di samping cincin, pakai kapan saja. Setelah itu cincin terisi lagi."
+
+msgid "Every seed and sprout on the board grows one stage."
+msgstr "Setiap benih dan tunas di papan tumbuh satu tahap."
+
+msgid "Everything — music and sound effects."
+msgstr "Semuanya — musik dan efek suara."
+
+msgid "Fast"
+msgstr "Cepat"
+
+msgid "Fill the Charm ring for a Charm Burst."
+msgstr "Isi cincin Pesona untuk Ledakan Pesona."
+
+msgid "Fill the ring"
+msgstr "Isi cincinnya"
+
+msgid "Fill the whole screen. F11 toggles it anywhere."
+msgstr "Penuhi seluruh layar. F11 mengubahnya di mana saja."
+
+msgid "Find 30 of Opal's lost things under the moss."
+msgstr "Temukan 30 barang Opal yang hilang di bawah lumut."
+
+msgid "Finders Keepers"
+msgstr "Siapa Cepat Dia Dapat"
+
+msgid "Finish Hazel's story picking every warm reply."
+msgstr "Selesaikan cerita Hazel dengan selalu memilih jawaban hangat."
+
+msgid "Finish Hazel's story teasing her in every reply."
+msgstr "Selesaikan cerita Hazel dengan menggodanya di setiap jawaban."
+
+msgid "Finish a daily challenge."
+msgstr "Selesaikan tantangan harian."
+
+msgid "For bug reports: send the newest godot.log from this folder."
+msgstr "Untuk laporan bug: kirim godot.log terbaru dari folder ini."
+
+msgid "For sticking with it: a free Time Scroll!"
+msgstr "Karena pantang menyerah: Gulungan Waktu gratis!"
+
+msgid "Found under the moss: %s"
+msgstr "Ditemukan di bawah lumut: %s"
+
+msgid "Free date"
+msgstr "Kencan bebas"
+
+msgid "Free stars"
+msgstr "Bintang gratis"
+
+msgid "Free: %s"
+msgstr "Gratis: %s"
+
+msgid "Fullscreen"
+msgstr "Layar Penuh"
+
+msgid "Gallery"
+msgstr "Galeri"
+
+msgid "Gem numbers"
+msgstr "Nomor permata"
+
+msgid "Gems cleared"
+msgstr "Permata dibersihkan"
+
+msgid "Girls"
+msgstr "Gadis"
+
+msgid "Give Hazel the Brass Pocket Sundial."
+msgstr "Berikan Hazel Jam Matahari Saku Kuningan."
+
+msgid "Give her the %s"
+msgstr "Berikan padanya: %s"
+
+msgid "Google Play isn't reachable right now. Try again in a moment."
+msgstr "Google Play sedang tidak bisa dijangkau. Coba lagi sebentar lagi."
+
+msgid "Got it"
+msgstr "Mengerti"
+
+msgid "Grow 25 of Hazel's blossoms."
+msgstr "Mekarkan 25 bunga Hazel."
+
+msgid "Grow enough seeds into blossoms to win. A new seed drops in every few moves."
+msgstr "Tumbuhkan cukup banyak benih jadi bunga untuk menang. Benih baru jatuh setiap beberapa langkah."
+
+msgid "Hammer"
+msgstr "Palu"
+
+msgid "Handful of Stars"
+msgstr "Segenggam Bintang"
+
+msgid "Hard"
+msgstr "Sulit"
+
+msgid "Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Story difficulty comes with the Story Pass. Takes effect from the next chapter."
+msgstr "Sulit: setiap beberapa langkah ada kejadian saat kencanmu (ombak menerjang dermaga, lilin berkedip), diberi tahu lebih dulu. Tingkat Cerita datang bersama Story Pass. Berlaku mulai bab berikutnya."
+
+msgid "Hard: things happen on your date"
+msgstr "Sulit: ada kejadian saat kencanmu"
+
+msgid "Hazel's blossoms grown"
+msgstr "Bunga Hazel dimekarkan"
+
+msgid "Hazel's power: Summer"
+msgstr "Kekuatan Hazel: Musim Panas"
+
+msgid "Hazel: grow blossoms"
+msgstr "Hazel: mekarkan bunga"
+
+msgid "Hazel: seeds"
+msgstr "Hazel: benih"
+
+msgid "Hear the girls speak their lines."
+msgstr "Dengarkan para gadis mengucapkan dialog mereka."
+
+msgid "Hearts left: %d / %d"
+msgstr "Sisa hati: %d / %d"
+
+msgid "Hearts: %d / %d"
+msgstr "Hati: %d / %d"
+
+msgid "Hearts: losing a chapter costs one, and they come back over time."
+msgstr "Hati: kalah dalam satu bab memakan satu, dan hati kembali seiring waktu."
+
+msgid "Her board with no move limit, just for fun and a high score."
+msgstr "Papannya tanpa batas langkah, sekadar untuk bersenang-senang dan mencetak rekor."
+
+msgid "Her ending"
+msgstr "Akhir ceritanya"
+
+msgid "Her favourite gem scores double and fills Charm faster; the one she dislikes scores half."
+msgstr "Permata favoritnya bernilai ganda dan mengisi Pesona lebih cepat; yang tidak dia suka bernilai setengah."
+
+msgid "Her gift"
+msgstr "Hadiahnya"
+
+msgid "Her gift: more of her favourite gem"
+msgstr "Hadiahnya: permata favoritnya lebih sering muncul"
+
+msgid "Her night scene"
+msgstr "Adegan malamnya"
+
+msgid "Her powers used"
+msgstr "Kekuatan dipakai"
+
+msgid "Her story carries on as if you'd cleared it. You don't get its stars."
+msgstr "Ceritanya berlanjut seolah kamu sudah menyelesaikannya. Kamu tidak mendapat bintangnya."
+
+msgid "Her story starts over from your first meeting, so you can make different choices. Endings you've found stay in the Gallery, your gift stays given, and her chapters pay out stars again."
+msgstr "Ceritanya dimulai lagi dari pertemuan pertama kalian, jadi kamu bisa membuat pilihan berbeda. Akhir cerita yang sudah ditemukan tetap di Galeri, hadiahmu tetap terberi, dan bab-babnya memberi bintang lagi."
+
+msgid "Hide text"
+msgstr "Sembunyikan teks"
+
+msgid "High Tide"
+msgstr "Air Pasang"
+
+msgid "High Tide!"
+msgstr "Air Pasang!"
+
+msgid "Home"
+msgstr "Beranda"
+
+msgid "How fast dialogue types out."
+msgstr "Seberapa cepat dialog muncul."
+
+msgid "How long Auto waits after each line (left = quicker)."
+msgstr "Berapa lama Otomatis menunggu setelah setiap baris (kiri = lebih cepat)."
+
+msgid "How loud the background music plays."
+msgstr "Seberapa keras musik latar diputar."
+
+msgid "How loud their voices play."
+msgstr "Seberapa keras suara mereka."
+
+msgid "How to Play"
+msgstr "Cara Bermain"
+
+msgid "I'm 18 or older"
+msgstr "Usiaku 18 tahun ke atas"
+
+msgid "In Full Bloom"
+msgstr "Mekar Sempurna"
+
+msgid "In her chapters everything floats: gems rise, and new ones come up from the bottom."
+msgstr "Di bab-babnya semuanya mengapung: permata naik, dan yang baru datang dari bawah."
+
+msgid "Instant"
+msgstr "Instan"
+
+msgid "Irresistible"
+msgstr "Tak Tertahankan"
+
+msgid "It has sexual content, including intimate scenes, and suggestive art. All characters are adults.\n\nPlease only continue if you're 18 or older, or the age of majority where you live."
+msgstr "Game ini berisi konten seksual, termasuk adegan intim, dan gambar sugestif. Semua karakter sudah dewasa.\n\nLanjutkan hanya jika kamu berusia 18 tahun ke atas, atau sudah dewasa menurut hukum di tempatmu."
+
+msgid "Item Bundle"
+msgstr "Paket Item"
+
+msgid "Item Shop"
+msgstr "Toko Item"
+
+msgid "Items"
+msgstr "Item"
+
+msgid "Just Because"
+msgstr "Sekadar Iseng"
+
+msgid "Keep voices on"
+msgstr "Biarkan suara menyala"
+
+msgid "Keeping Time"
+msgstr "Menjaga Waktu"
+
+msgid "Language"
+msgstr "Bahasa"
+
+msgid "Large"
+msgstr "Besar"
+
+msgid "Larger"
+msgstr "Lebih besar"
+
+msgid "Leave"
+msgstr "Keluar"
+
+msgid "Leave this chapter?"
+msgstr "Tinggalkan bab ini?"
+
+msgid "Leave to Roster"
+msgstr "Kembali ke Lingkaran"
+
+msgid "Leaves Going Red"
+msgstr "Daun yang Memerah"
+
+msgid "Leaving a chapter you've started costs a heart."
+msgstr "Meninggalkan bab yang sudah dimulai memakan satu hati."
+
+msgid "Let Skip race through lines you haven't read yet, too."
+msgstr "Biarkan Lewati juga melesat melewati baris yang belum kamu baca."
+
+msgid "Lines carry on by themselves (A)"
+msgstr "Baris berjalan sendiri (A)"
+
+msgid "Log"
+msgstr "Riwayat"
+
+msgid "Losing a chapter costs a heart, and one comes back every %d minutes."
+msgstr "Kalah dalam satu bab memakan satu hati, dan satu hati kembali setiap %d menit."
+
+msgid "Love Potion"
+msgstr "Ramuan Cinta"
+
+msgid "Love Potion active!"
+msgstr "Ramuan Cinta aktif!"
+
+msgid "Loves"
+msgstr "Suka"
+
+msgid "MOVES"
+msgstr "LANGKAH"
+
+msgid "Made with Godot Engine"
+msgstr "Dibuat dengan Godot Engine"
+
+msgid "Main menu"
+msgstr "Menu utama"
+
+msgid "Make 1000 matches."
+msgstr "Buat 1000 kecocokan."
+
+msgid "Make a Starburst."
+msgstr "Buat Ledakan Bintang."
+
+msgid "Marina's power: High Tide"
+msgstr "Kekuatan Marina: Air Pasang"
+
+msgid "Marina: the pearl comb"
+msgstr "Marina: sisir mutiara"
+
+msgid "Marina: the tide"
+msgstr "Marina: pasang laut"
+
+msgid "Master Volume"
+msgstr "Volume Utama"
+
+msgid "Match 4 in a row to make a Rocket, which clears its row or column. Match 5, or an L or T shape, to make a Starburst. Swap a special gem to set it off; swap two together for a Mega Blast."
+msgstr "Cocokkan 4 berjajar untuk membuat Roket, yang membersihkan baris atau kolomnya. Cocokkan 5, atau bentuk L atau T, untuk membuat Ledakan Bintang. Tukar permata spesial untuk meledakkannya; tukar dua sekaligus untuk Ledakan Mega."
+
+msgid "Match crystals, Opal's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Love Potion brings more of them."
+msgstr "Cocokkan kristal, favorit Opal: kristal mengisi cincin Pesona dua kali lebih cepat, dan di tingkat Sulit menunda apa pun yang akan datang. Ramuan Cinta mendatangkan lebih banyak kristal."
+
+msgid "Match pearls, Marina's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Time Scroll buys back lost moves."
+msgstr "Cocokkan mutiara, favorit Marina: mutiara mengisi cincin Pesona dua kali lebih cepat, dan di tingkat Sulit menunda apa pun yang akan datang. Gulungan Waktu mengembalikan langkah yang hilang."
+
+msgid "Match petals, Hazel's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards."
+msgstr "Cocokkan kelopak, favorit Hazel: kelopak mengisi cincin Pesona dua kali lebih cepat, dan di tingkat Sulit menunda apa pun yang akan datang. Ramuan Pemulih berarti lebih sedikit pecahan terkutuk."
+
+msgid "Match runes, Amara's favourite: they fill the Charm ring twice as fast, and on Hard they hold off whatever's coming. A Mending Potion means fewer cursed shards."
+msgstr "Cocokkan rune, favorit Amara: rune mengisi cincin Pesona dua kali lebih cepat, dan di tingkat Sulit menunda apa pun yang akan datang. Ramuan Pemulih berarti lebih sedikit pecahan terkutuk."
+
+msgid "Matches made"
+msgstr "Kecocokan dibuat"
+
+msgid "Meet Hazel instead of cutting her tree down."
+msgstr "Temui Hazel alih-alih menebang pohonnya."
+
+msgid "Meet her"
+msgstr "Temui dia"
+
+msgid "Mega Blast"
+msgstr "Ledakan Mega"
+
+msgid "Mega Blast!"
+msgstr "Ledakan Mega!"
+
+msgid "Mending Potion"
+msgstr "Ramuan Pemulih"
+
+msgid "Mending Potion active!"
+msgstr "Ramuan Pemulih aktif!"
+
+msgid "Messages stay longer"
+msgstr "Pesan tampil lebih lama"
+
+msgid "Millbrook Circle"
+msgstr "Lingkaran Millbrook"
+
+msgid "Moonstone"
+msgstr "Batu Bulan"
+
+msgid "More"
+msgstr "Lainnya"
+
+msgid "Moss grows under some cells. A match, blast or Hammer on the cell clears it, and some moss hides one of her lost things."
+msgstr "Lumut tumbuh di bawah beberapa petak. Kecocokan, ledakan, atau Palu di petak itu membersihkannya, dan sebagian lumut menyembunyikan salah satu barangnya yang hilang."
+
+msgid "Move"
+msgstr "Gerak"
+
+msgid "Moves left this chapter"
+msgstr "Sisa langkah di bab ini"
+
+msgid "Music"
+msgstr "Musik"
+
+msgid "Neither of you notices what was coming."
+msgstr "Kalian berdua tidak menyadari apa yang akan datang."
+
+msgid "Next"
+msgstr "Berikutnya"
+
+msgid "Next heart in %s"
+msgstr "Hati berikutnya dalam %s"
+
+msgid "Night scene"
+msgstr "Adegan malam"
+
+msgid "No Ads"
+msgstr "Tanpa Iklan"
+
+msgid "No ads between chapters or under the menus, ever. Reward videos become one tap: the reward, no video."
+msgstr "Tidak ada lagi iklan di antara bab atau di bawah menu, selamanya. Video hadiah jadi satu ketukan: hadiahnya, tanpa video."
+
+msgid "No moves left — reshuffling!"
+msgstr "Tidak ada langkah tersisa — mengocok ulang!"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Not bought"
+msgstr "Tidak dibeli"
+
+msgid "Not found yet"
+msgstr "Belum ditemukan"
+
+msgid "Not found yet: finish her story to unlock it."
+msgstr "Belum ditemukan: selesaikan ceritanya untuk membukanya."
+
+msgid "Not met yet"
+msgstr "Belum bertemu"
+
+msgid "Not now"
+msgstr "Nanti saja"
+
+msgid "Not unlocked yet"
+msgstr "Belum terbuka"
+
+msgid "Nothing here yet — finish a girl's story to add her ending."
+msgstr "Belum ada apa-apa — selesaikan cerita seorang gadis untuk menambahkan akhir ceritanya."
+
+msgid "Nothing yet."
+msgstr "Belum ada."
+
+msgid "Offers appear here once Google Play is reachable."
+msgstr "Penawaran muncul di sini setelah Google Play bisa dijangkau."
+
+msgid "Once you've cleared her first chapter, her card on the roster has a gift for her. Give it and her favourite gem shows up more often in all her chapters, for good."
+msgstr "Setelah kamu menyelesaikan bab pertamanya, kartunya di lingkaran punya hadiah untuknya. Berikan, dan permata favoritnya akan lebih sering muncul di semua babnya, selamanya."
+
+msgid "One wave and the whole board is dealt again, always with a move to make."
+msgstr "Satu kibasan dan seluruh papan diacak ulang, selalu dengan langkah yang bisa dibuat."
+
+msgid "Opal's power: Absorb"
+msgstr "Kekuatan Opal: Serap"
+
+msgid "Opal's things found"
+msgstr "Barang Opal ditemukan"
+
+msgid "Opal: her lost collection"
+msgstr "Opal: koleksinya yang hilang"
+
+msgid "Opal: moss"
+msgstr "Opal: lumut"
+
+msgid "Open log folder"
+msgstr "Buka folder log"
+
+msgid "Original characters · all characters are adults."
+msgstr "Karakter orisinal · semua karakter sudah dewasa."
+
+msgid "Ouch!"
+msgstr "Aduh!"
+
+msgid "Out in the Storm"
+msgstr "Di Tengah Badai"
+
+msgid "Out of Moves"
+msgstr "Kehabisan Langkah"
+
+msgid "Out of hearts"
+msgstr "Hati habis"
+
+msgid "Out of moves"
+msgstr "Kehabisan langkah"
+
+msgid "Owned"
+msgstr "Dimiliki"
+
+msgid "Owned: %d"
+msgstr "Dimiliki: %d"
+
+msgid "Pearl"
+msgstr "Mutiara"
+
+msgid "Petal"
+msgstr "Kelopak"
+
+msgid "Pick a gem to pop."
+msgstr "Pilih permata untuk dipecahkan."
+
+msgid "Pick a gem!"
+msgstr "Pilih sebuah permata!"
+
+msgid "Pick a gem."
+msgstr "Pilih sebuah permata."
+
+msgid "Pick a gem: every gem of that colour is cleared."
+msgstr "Pilih permata: semua permata berwarna itu hilang."
+
+msgid "Pick a gem: its whole row and column clear."
+msgstr "Pilih permata: seluruh baris dan kolomnya bersih."
+
+msgid "Pick up"
+msgstr "Ambil"
+
+msgid "Pictures"
+msgstr "Gambar"
+
+msgid "Pictures appear here as you meet the girls and reach their endings."
+msgstr "Gambar muncul di sini seiring kamu bertemu para gadis dan mencapai akhir cerita mereka."
+
+msgid "Pieces of Gran's comb start near the bottom. They can't be matched or moved: clear the gems above them and they rise. One that reaches the top row is yours."
+msgstr "Kepingan sisir Nenek mulai di dekat dasar. Kepingan itu tidak bisa dicocokkan atau digeser: bersihkan permata di atasnya dan kepingan itu naik. Yang sampai di baris paling atas jadi milikmu."
+
+msgid "Play"
+msgstr "Main"
+
+msgid "Play a chapter you've cleared again, for stars. Her story stays where it is."
+msgstr "Mainkan lagi bab yang sudah selesai untuk bintang. Ceritanya tetap di tempatnya."
+
+msgid "Play a chapter you've cleared again, for stars. No story scenes, and her story stays where it is."
+msgstr "Mainkan lagi bab yang sudah selesai untuk bintang. Tanpa adegan cerita, dan ceritanya tetap di tempatnya."
+
+msgid "Play as much as you like for 24 hours."
+msgstr "Main sepuasnya selama 24 jam."
+
+msgid "Play it again"
+msgstr "Main lagi"
+
+msgid "Play time"
+msgstr "Waktu bermain"
+
+msgid "Pop any one gem, no match needed. Arm it from the item row, then tap a gem."
+msgstr "Pecahkan satu permata apa saja, tanpa perlu kecocokan. Siapkan dari baris item, lalu ketuk sebuah permata."
+
+msgid "Pop-up messages and her speech bubble in a chapter stay on screen longer. Dialogue always waits for you unless Auto is on."
+msgstr "Pesan pop-up dan gelembung ucapannya saat bab tampil lebih lama di layar. Dialog selalu menunggumu kecuali Otomatis menyala."
+
+msgid "Popular"
+msgstr "Populer"
+
+msgid "Pouch of Stars"
+msgstr "Kantong Bintang"
+
+msgid "Press her power button (or 4), then pick a gem: every gem of that colour is cleared, and the moss under them."
+msgstr "Tekan tombol kekuatannya (atau 4), lalu pilih permata: semua permata berwarna itu hilang, beserta lumut di bawahnya."
+
+msgid "Press her power button (or 4), then pick a gem: its whole row and column clear. Seals in them break."
+msgstr "Tekan tombol kekuatannya (atau 4), lalu pilih permata: seluruh baris dan kolomnya bersih. Segel di sana ikut pecah."
+
+msgid "Press her power button (or 4): every seed and sprout on the board grows one stage."
+msgstr "Tekan tombol kekuatannya (atau 4): setiap benih dan tunas di papan tumbuh satu tahap."
+
+msgid "Press her power button (or 4): the two rows nearest the surface clear, and everything rises two rows."
+msgstr "Tekan tombol kekuatannya (atau 4): dua baris paling dekat ke permukaan bersih, dan semuanya naik dua baris."
+
+msgid "Put down"
+msgstr "Taruh"
+
+msgid "Putting Down Roots"
+msgstr "Berakar"
+
+msgid "Quit"
+msgstr "Keluar"
+
+msgid "Reach Hazel's ending."
+msgstr "Capai akhir cerita Hazel."
+
+msgid "Reach her goal"
+msgstr "Capai targetnya"
+
+msgid "Read back (L, or scroll up)"
+msgstr "Baca ulang (L, atau gulir ke atas)"
+
+msgid "Read it for three more moves in the chapter you're playing. Use it from the item row under the board — it also gets you out of an Out of Moves screen."
+msgstr "Baca untuk tiga langkah tambahan di bab yang sedang kamu mainkan. Pakai dari baris item di bawah papan — ini juga mengeluarkanmu dari layar Kehabisan Langkah."
+
+msgid "Ready!"
+msgstr "Siap!"
+
+msgid "Reduce Motion"
+msgstr "Kurangi Gerakan"
+
+msgid "Refill all · %d ⭐"
+msgstr "Isi penuh · %d ⭐"
+
+msgid "Remove ads · %s"
+msgstr "Hapus iklan · %s"
+
+msgid "Replay"
+msgstr "Putar ulang"
+
+msgid "Replay %s's story?"
+msgstr "Mainkan ulang cerita %s?"
+
+msgid "Replay a chapter"
+msgstr "Mainkan ulang bab"
+
+msgid "Replay her night scene."
+msgstr "Putar ulang adegan malamnya."
+
+msgid "Replay story"
+msgstr "Mainkan ulang cerita"
+
+msgid "Reply"
+msgstr "Jawab"
+
+msgid "Reset Progress"
+msgstr "Atur Ulang Progres"
+
+msgid "Reset all progress?"
+msgstr "Atur ulang semua progres?"
+
+msgid "Reset everything"
+msgstr "Atur ulang semuanya"
+
+msgid "Restore purchases"
+msgstr "Pulihkan pembelian"
+
+msgid "Retry Chapter"
+msgstr "Ulangi Bab"
+
+msgid "Revisit"
+msgstr "Kunjungi lagi"
+
+msgid "Rune"
+msgstr "Rune"
+
+msgid "Running out of moves still pays 1 star for every 200 points you scored (at least 3)."
+msgstr "Kehabisan langkah tetap memberi 1 bintang untuk setiap 200 poin yang kamu cetak (minimal 3)."
+
+msgid "Running out still pays you a few stars. Try again, read a Time Scroll, or visit the shop. Later chapters are hard without power-ups: short on stars, replay a chapter you've cleared from her card on the roster. Lose three times in a row and you can carry on with the story anyway."
+msgstr "Kehabisan langkah tetap memberimu beberapa bintang. Coba lagi, baca Gulungan Waktu, atau mampir ke toko. Bab-bab akhir sulit tanpa bantuan: kalau bintangmu kurang, mainkan ulang bab yang sudah selesai dari kartunya di lingkaran. Kalah tiga kali berturut-turut dan kamu tetap bisa melanjutkan cerita."
+
+msgid "SCORE"
+msgstr "SKOR"
+
+msgid "SEALS BROKEN"
+msgstr "SEGEL DIPECAHKAN"
+
+msgid "Score 2000 on a free date."
+msgstr "Cetak 2000 poin dalam kencan bebas."
+
+msgid "Scroll"
+msgstr "Gulir"
+
+msgid "Sealed. Match it by moving the gems beside it."
+msgstr "Bersegel. Cocokkan dengan menggeser permata di sebelahnya."
+
+msgid "Seals broken"
+msgstr "Segel dipecahkan"
+
+msgid "See the whole picture (H)"
+msgstr "Lihat seluruh gambar (H)"
+
+msgid "Seeds can't be moved. Make matches next to them to make them grow."
+msgstr "Benih tidak bisa digeser. Buat kecocokan di sebelahnya supaya tumbuh."
+
+msgid "Seeds sit on the board and fall like gems, but can't be moved or matched. Every match right next to one grows it: seed, sprout, blossom. A blossom pops: +100 and the cells around it clear. Ember matches don't count: she dislikes ember."
+msgstr "Benih ada di papan dan jatuh seperti permata, tapi tidak bisa digeser atau dicocokkan. Setiap kecocokan tepat di sebelahnya membuatnya tumbuh: benih, tunas, bunga. Bunga akan pecah: +100 dan petak di sekitarnya bersih. Kecocokan bara tidak dihitung: dia tidak suka bara."
+
+msgid "Select"
+msgstr "Pilih"
+
+msgid "Set off a x3 combo."
+msgstr "Picu kombo x3."
+
+msgid "Set off a x5 combo."
+msgstr "Picu kombo x5."
+
+msgid "Settings"
+msgstr "Pengaturan"
+
+msgid "Shard Smasher"
+msgstr "Penghancur Pecahan"
+
+msgid "Shard smashed!"
+msgstr "Pecahan hancur!"
+
+msgid "Shop"
+msgstr "Toko"
+
+msgid "Short on stars? Replay a chapter you've cleared, from her card on the roster: it pays half."
+msgstr "Kekurangan bintang? Mainkan ulang bab yang sudah selesai dari kartunya di lingkaran: hadiahnya setengah."
+
+msgid "Shorter animations, calmer feedback."
+msgstr "Animasi lebih singkat, efek lebih tenang."
+
+msgid "Shuffle Wand"
+msgstr "Tongkat Pengocok"
+
+msgid "Skip"
+msgstr "Lewati"
+
+msgid "Skip Unread Lines"
+msgstr "Lewati Baris yang Belum Dibaca"
+
+msgid "Skip any chapter, carry on after any loss, and 8 hearts instead of 5."
+msgstr "Lewati bab mana saja, lanjutkan setelah kekalahan apa pun, dan 8 hati alih-alih 5."
+
+msgid "Skip chapter"
+msgstr "Lewati bab"
+
+msgid "Skip chapter  ▸"
+msgstr "Lewati bab  ▸"
+
+msgid "Skip every line up to the next reply, read or not"
+msgstr "Lewati semua baris sampai jawaban berikutnya, sudah dibaca atau belum"
+
+msgid "Skip it with the Story Pass  ▸"
+msgstr "Lewati dengan Story Pass  ▸"
+
+msgid "Skip lines you've read (hold Ctrl)"
+msgstr "Lewati baris yang sudah dibaca (tahan Ctrl)"
+
+msgid "Skip this chapter?"
+msgstr "Lewati bab ini?"
+
+msgid "Skip unread"
+msgstr "Lewati semua"
+
+msgid "Skips this chapter's puzzle: no stars for it."
+msgstr "Melewati teka-teki bab ini: tanpa bintang."
+
+msgid "Slow"
+msgstr "Lambat"
+
+msgid "Soft as Moss"
+msgstr "Selembut Lumut"
+
+msgid "Some gems carry her ink seal. A sealed gem can't be picked up, but it still counts in a match you make by moving the gems beside it. The first match, blast or Hammer breaks the seal and the gem stays."
+msgstr "Beberapa permata membawa segel tintanya. Permata bersegel tidak bisa digeser, tapi tetap dihitung dalam kecocokan yang kamu buat dengan menggeser permata di sebelahnya. Kecocokan, ledakan, atau Palu pertama memecahkan segelnya, dan permatanya tetap di tempat."
+
+msgid "Something about to happen on your date. Matching her favourite gem holds it off a move; a Charm Burst clears it."
+msgstr "Sesuatu akan terjadi saat kencanmu. Mencocokkan permata favoritnya menundanya satu langkah; Ledakan Pesona membatalkannya."
+
+msgid "Sound Effects"
+msgstr "Efek Suara"
+
+msgid "Spark route"
+msgstr "Rute Percikan"
+
+msgid "Special gems"
+msgstr "Permata spesial"
+
+msgid "Special gems made"
+msgstr "Permata spesial dibuat"
+
+msgid "Splinters"
+msgstr "Serpihan"
+
+msgid "Starburst Starter"
+msgstr "Starter Ledakan Bintang"
+
+msgid "Starburst Starter active!"
+msgstr "Starter Ledakan Bintang aktif!"
+
+msgid "Stars come from clearing chapters: 15 for a girl's first and 5 more for each one after it."
+msgstr "Bintang didapat dari menyelesaikan bab: 15 untuk bab pertama seorang gadis dan 5 lebih banyak untuk setiap bab sesudahnya."
+
+msgid "Stars — earned by clearing chapters, spent in the Item Shop and on gifts."
+msgstr "Bintang — didapat dengan menyelesaikan bab, dipakai di Toko Item dan untuk hadiah."
+
+msgid "Starstruck"
+msgstr "Terpesona Bintang"
+
+msgid "Start her story over from the beginning"
+msgstr "Mulai ceritanya lagi dari awal"
+
+msgid "Starter Pack"
+msgstr "Paket Awal"
+
+msgid "Stats"
+msgstr "Statistik"
+
+msgid "Stop here. This scene plays again next time you visit her."
+msgstr "Berhenti di sini. Adegan ini diputar lagi saat kamu mengunjunginya nanti."
+
+msgid "Store"
+msgstr "Toko"
+
+msgid "Story"
+msgstr "Cerita"
+
+msgid "Story Pass"
+msgstr "Story Pass"
+
+msgid "Story Pass: 8 hearts and free skips · %s"
+msgstr "Story Pass: 8 hati dan lewati bebas · %s"
+
+msgid "Story difficulty: carry on with the story without playing this chapter (no stars for it)."
+msgstr "Tingkat Cerita: lanjutkan cerita tanpa memainkan bab ini (tanpa bintang)."
+
+msgid "Story: twice the moves, and you can skip any chapter. Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Takes effect from the next chapter."
+msgstr "Cerita: dua kali lipat langkah, dan kamu bisa melewati bab mana saja. Sulit: setiap beberapa langkah ada kejadian saat kencanmu (ombak menerjang dermaga, lilin berkedip), diberi tahu lebih dulu. Berlaku mulai bab berikutnya."
+
+msgid "Summer"
+msgstr "Musim Panas"
+
+msgid "Summer!"
+msgstr "Musim Panas!"
+
+msgid "Swap"
+msgstr "Tukar"
+
+msgid "Swap and match"
+msgstr "Tukar dan cocokkan"
+
+msgid "Swap two gems next to each other to line up three or more of the same kind. Matched gems pop and score points; new ones fall in from the top."
+msgstr "Tukar dua permata yang bersebelahan untuk menjajarkan tiga atau lebih yang sejenis. Permata yang cocok akan pecah dan memberi poin; permata baru jatuh dari atas."
+
+msgid "Swap two special gems together."
+msgstr "Tukar dua permata spesial sekaligus."
+
+msgid "THINGS FOUND"
+msgstr "BARANG DITEMUKAN"
+
+msgid "TIP"
+msgstr "TIPS"
+
+msgid "Tap a gem!"
+msgstr "Ketuk sebuah permata!"
+
+msgid "Test purchase"
+msgstr "Pembelian uji coba"
+
+msgid "Testing Mode"
+msgstr "Mode Uji"
+
+msgid "Text Speed"
+msgstr "Kecepatan Teks"
+
+msgid "Text size"
+msgstr "Ukuran teks"
+
+msgid "Thanks for playing the demo!"
+msgstr "Terima kasih sudah memainkan demo ini!"
+
+msgid "The Time Scroll (three more moves), the Hammer (smash any one gem) and the Shuffle Wand (a new board) sit under the board. Buy them, and potions that help a whole chapter, in the Item Shop with the stars you earn."
+msgstr "Gulungan Waktu (tiga langkah tambahan), Palu (hancurkan satu permata apa saja) dan Tongkat Pengocok (papan baru) ada di bawah papan. Beli semuanya, juga ramuan yang membantu sepanjang bab, di Toko Item dengan bintang yang kamu dapat."
+
+msgid "The comb piece can't be hammered. Bring it up to the surface."
+msgstr "Kepingan sisir tidak bisa dipalu. Angkat ke permukaan."
+
+msgid "The full game has four stories: Hazel's, and three more women of Millbrook to meet in the worst way possible. Each has four chapters, her night scene and her ending."
+msgstr "Game lengkapnya punya empat cerita: cerita Hazel, dan tiga wanita Millbrook lain yang kamu temui dengan cara terburuk. Masing-masing punya empat bab, adegan malamnya, dan akhir ceritanya."
+
+msgid "The game's text. Voices stay in English."
+msgstr "Teks game. Suara tetap dalam bahasa Inggris."
+
+msgid "The girls are voiced by amateur voice actresses, recorded at home. We love how they turned out, but they aren't studio recordings, and not every line is voiced yet.\n\nIf you'd rather read in your own head, turn the voices off. You can change this any time in Settings."
+msgstr "Para gadis disuarakan oleh pengisi suara amatir, direkam di rumah. Kami suka hasilnya, tapi ini bukan rekaman studio, dan belum semua baris diisi suara.\n\nKalau kamu lebih suka membaca dalam hati, matikan suaranya. Kamu bisa mengubahnya kapan saja di Pengaturan."
+
+msgid "The purchase couldn't start (%s)."
+msgstr "Pembelian tidak bisa dimulai (%s)."
+
+msgid "The purchase didn't go through (%s)."
+msgstr "Pembelian tidak berhasil (%s)."
+
+msgid "The store isn't available in this build."
+msgstr "Toko tidak tersedia di versi ini."
+
+msgid "The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts."
+msgstr "Baris atas dipakai saat bab berlangsung; baris bawah aktif sendiri saat bab berikutnya dimulai."
+
+msgid "The two rows nearest the surface clear, and everything rises two rows."
+msgstr "Dua baris paling dekat ke permukaan bersih, dan semuanya naik dua baris."
+
+msgid "These unlock on Steam too."
+msgstr "Ini juga terbuka di Steam."
+
+msgid "Things found"
+msgstr "Barang ditemukan"
+
+msgid "This erases every girl's story progress, your stars, items, gifts and the whole Gallery. Your settings and achievements are kept. This can't be undone."
+msgstr "Ini menghapus progres cerita setiap gadis, bintang, item, hadiah, dan seluruh Galeri. Pengaturan dan pencapaianmu tetap disimpan. Ini tidak bisa dibatalkan."
+
+msgid "This is a test build: no money changes hands. Buy %s for %s?"
+msgstr "Ini versi uji coba: tidak ada uang yang berpindah. Beli %s seharga %s?"
+
+msgid "Time Scroll"
+msgstr "Gulungan Waktu"
+
+msgid "To find the book, break every seal on the board. The counter under the board shows how many are done."
+msgstr "Untuk menemukan buku itu, pecahkan semua segel di papan. Penghitung di bawah papan menunjukkan berapa yang sudah."
+
+msgid "Today's challenge"
+msgstr "Tantangan hari ini"
+
+msgid "Toggle"
+msgstr "Ubah"
+
+msgid "Treasure Diver"
+msgstr "Penyelam Harta"
+
+msgid "Treasury of Stars"
+msgstr "Harta Bintang"
+
+msgid "Try: %s"
+msgstr "Coba: %s"
+
+msgid "Turn voices off"
+msgstr "Matikan suara"
+
+msgid "Unlimited Hearts"
+msgstr "Hati Tanpa Batas"
+
+msgid "Unlimited for 24 hours · %s"
+msgstr "Tanpa batas selama 24 jam · %s"
+
+msgid "Unlimited hearts: %s left"
+msgstr "Hati tanpa batas: sisa %s"
+
+msgid "Use a Time Scroll"
+msgstr "Pakai Gulungan Waktu"
+
+msgid "Vibration"
+msgstr "Getaran"
+
+msgid "Voice Acting"
+msgstr "Pengisi Suara"
+
+msgid "Voice Volume"
+msgstr "Volume Suara"
+
+msgid "Watch a video: %s"
+msgstr "Tonton video: %s"
+
+msgid "What a date!"
+msgstr "Kencan yang luar biasa!"
+
+msgid "What do you say?"
+msgstr "Apa jawabanmu?"
+
+msgid "What she likes"
+msgstr "Yang dia suka"
+
+msgid "When falling gems make new matches on their own, that's a combo. Each link in the chain scores more than the last."
+msgstr "Saat permata yang jatuh membentuk kecocokan baru dengan sendirinya, itulah kombo. Setiap mata rantai bernilai lebih dari yang sebelumnya."
+
+msgid "Window Shopping"
+msgstr "Cuci Mata"
+
+msgid "Wishlist on Steam"
+msgstr "Tambahkan ke Wishlist Steam"
+
+msgid "With Moves to Spare"
+msgstr "Langkah Berlebih"
+
+msgid "You"
+msgstr "Kamu"
+
+msgid "You already have this."
+msgstr "Kamu sudah punya ini."
+
+msgid "You can close this tab now."
+msgstr "Kamu bisa menutup tab ini sekarang."
+
+msgid "You have %d"
+msgstr "Kamu punya %d"
+
+msgid "You need %d more stars."
+msgstr "Kamu butuh %d bintang lagi."
+
+msgid "You needed %d more points."
+msgstr "Kamu butuh %d poin lagi."
+
+msgid "Your best: %d"
+msgstr "Rekormu: %d"
+
+msgid "Your next chapter begins with a free Starburst gem already on the board."
+msgstr "Bab berikutnya dimulai dengan permata Ledakan Bintang gratis yang sudah ada di papan."
+
+msgid "Your next chapter: far fewer cursed shards appear on the board."
+msgstr "Bab berikutnya: jauh lebih sedikit pecahan terkutuk di papan."
+
+msgid "Your next chapter: her favorite gem shows up more often, her least favorite less."
+msgstr "Bab berikutnya: permata favoritnya lebih sering muncul, yang paling tidak dia suka lebih jarang."
+
+msgid "Your purchase is pending. It arrives as soon as Google Play confirms it."
+msgstr "Pembelianmu tertunda. Akan masuk begitu Google Play mengonfirmasinya."
+
+msgid "Your replies"
+msgstr "Jawabanmu"
+
+msgid "a button"
+msgstr "sebuah kancing"
+
+msgid "a key"
+msgstr "sebuah kunci"
+
+msgid "a marble"
+msgstr "sebuah kelereng"
+
+msgid "after your next move"
+msgstr "setelah langkahmu berikutnya"
+
+msgid "best %d"
+msgstr "rekor %d"
+
+msgid "double it to %d ⭐"
+msgstr "lipat gandakan jadi %d ⭐"
+
+msgid "in %d moves"
+msgstr "dalam %d langkah"
+
+msgid "one more daily try"
+msgstr "satu percobaan harian lagi"
+
+msgid "the glass eye"
+msgstr "mata kaca"
+
+msgid "←  Back"
+msgstr "←  Kembali"
+
+msgid "←  Back to the chapter"
+msgstr "←  Kembali ke bab"
+
+msgid "←  Menu"
+msgstr "←  Menu"
+
+msgid "←  Roster"
+msgstr "←  Lingkaran"
