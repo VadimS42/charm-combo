@@ -3,6 +3,18 @@ msgstr ""
 "Language: bn\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 
+msgid "\"Don't even think about it.\""
+msgstr "\"ভাবতেও যেও না।\""
+
+msgid "\"I was fine. It was quiet in there.\""
+msgstr "\"আমি ভালোই ছিলাম। ভেতরে শান্ত ছিল।\""
+
+msgid "\"I was floating. On my back.\""
+msgstr "\"আমি ভাসছিলাম। চিত হয়ে।\""
+
+msgid "\"You summoned me with that pathetic chalk circle?\""
+msgstr "\"তুমি আমাকে ওই করুণ চকের বৃত্ত দিয়ে ডেকেছ?\""
+
 msgid "%d / %d endings found"
 msgstr "%d / %d সমাপ্তি পাওয়া গেছে"
 
@@ -93,8 +105,17 @@ msgstr "800 তারকা।"
 msgid "A Lovely Trench"
 msgstr "একটি চমৎকার নালা"
 
+msgid "A Quiet Place"
+msgstr "একটা শান্ত জায়গা"
+
 msgid "A Thousand Sparkles"
 msgstr "হাজার ঝিলিক"
+
+msgid "A clock that only works when the sun's out."
+msgstr "একটা ঘড়ি যা শুধু সূর্য উঠলে চলে।"
+
+msgid "A cold breeze"
+msgstr "একটা ঠান্ডা হাওয়া"
 
 msgid "A comb piece!"
 msgstr "চিরুনির টুকরো!"
@@ -102,8 +123,17 @@ msgstr "চিরুনির টুকরো!"
 msgid "A comb piece! %d / %d"
 msgstr "চিরুনির টুকরো! %d / %d"
 
+msgid "A folding brass sundial small enough for a pocket. It only tells the time on sunny days, which as far as she's concerned are the only days that need it."
+msgstr "পকেটে ধরে এমন ছোট একটা ভাঁজ করা পিতলের সূর্যঘড়ি। শুধু রোদের দিনে সময় বলে, আর তার মতে শুধু সেই দিনগুলোরই সময় দরকার।"
+
 msgid "A free date"
 msgstr "একটি খোলা ডেট"
+
+msgid "A glass marble with a ribbon of gold twisted through it, the kind nobody's made for decades."
+msgstr "একটা কাচের মার্বেল, ভেতরে সোনালি ফিতে পাকানো, এমন যা কয়েক দশক ধরে কেউ বানায় না।"
+
+msgid "A leaf drops into your hair. There's no wind."
+msgstr "তোমার চুলে একটা পাতা পড়ে। হাওয়া নেই।"
 
 msgid "A little buzz when gems match."
 msgstr "রত্ন মিললে হালকা কম্পন।"
@@ -123,14 +153,38 @@ msgstr "প্রতিদিন নতুন বোর্ড, সবার জ�
 msgid "A new seed drops in."
 msgstr "একটি নতুন বীজ পড়ে।"
 
+msgid "A reader shushes you"
+msgstr "এক পাঠক তোমাকে চুপ করতে বলে"
+
+msgid "A sapling beside the new millrace, a ribbon tied round it."
+msgstr "নতুন নালার পাশে একটা চারাগাছ, চারপাশে একটা ফিতে বাঁধা।"
+
+msgid "A smooth chip of sea glass, worn soft by years of tide, on a plain cord."
+msgstr "সমুদ্র-কাচের একটা মসৃণ টুকরো, বছরের পর বছর জোয়ার-ভাটায় নরম, একটা সাদামাটা সুতোয়।"
+
+msgid "A squall comes in over the cove. She wants to dive anyway. You hold the rope ladder and argue with her over the wind."
+msgstr "খাঁড়িতে এক পশলা ঝড়বৃষ্টি আসে। সে তবু ডুব দিতে চায়। তুমি দড়ির মই ধরে বাতাসের বিরুদ্ধে চেঁচিয়ে তার সঙ্গে তর্ক করো।"
+
+msgid "A tall beeswax candle with a nine-hour wick. It burns longer if nobody blows it out."
+msgstr "নয় ঘণ্টার সলতের একটা লম্বা মৌমোমের মোমবাতি। কেউ না নেভালে বেশিক্ষণ জ্বলে।"
+
 msgid "A tip"
 msgstr "একটি পরামর্শ"
+
+msgid "A twig drops, very precisely, into your lunch."
+msgstr "একটা ডাল পড়ে, খুব নিখুঁতভাবে, সোজা তোমার খাবারে।"
+
+msgid "A wave over the pier"
+msgstr "জেটির ওপর দিয়ে ঢেউ"
 
 msgid "ACHIEVEMENT UNLOCKED"
 msgstr "অর্জন খুলেছে"
 
 msgid "About the voices"
 msgstr "কণ্ঠ সম্পর্কে"
+
+msgid "About your reward. Last night was not the reward. I need you to understand that. Last night was separate."
+msgstr "তোমার পুরস্কারের ব্যাপারে। কাল রাতটা পুরস্কার ছিল না। এটা তোমাকে বুঝতে হবে। কাল রাতটা ছিল আলাদা কিছু।"
 
 msgid "Absorb"
 msgstr "শুষে নেওয়া"
@@ -144,17 +198,47 @@ msgstr "অর্জন"
 msgid "Ad privacy choices"
 msgstr "বিজ্ঞাপনের গোপনীয়তা"
 
+msgid "Admit it. You like having me around."
+msgstr "মেনে নাও। আমাকে কাছে পেতে তোমার ভালো লাগে।"
+
+msgid "After Hours"
+msgstr "বন্ধের পর"
+
 msgid "After each chapter you pick a reply. A warm one starts her next chapter with bonus points (two extra moves when the chapter is only her goal); a teasing one costs a few points, but she likes those too."
 msgstr "প্রতিটি অধ্যায়ের পর আপনি একটি উত্তর বাছেন। উষ্ণ উত্তর তার পরের অধ্যায় বোনাস পয়েন্ট দিয়ে শুরু করে (অধ্যায়ে শুধু তার লক্ষ্য থাকলে দুটি বাড়তি চাল); খুনসুটির উত্তরে কিছু পয়েন্ট কাটে, তবে সেগুলোও তার ভালো লাগে।"
 
 msgid "After that, her favourite gem shows up more often in all her chapters, for good."
 msgstr "এরপর তার প্রিয় রত্ন তার সব অধ্যায়ে চিরকালের জন্য বেশি আসবে।"
 
+msgid "After the comb, it can be a big thing."
+msgstr "চিরুনির পরে এটা বড় কিছু হতে পারে।"
+
+msgid "Afterwards she lies with her head on your chest, her tail curled down the slipway into the water, flicking now and then."
+msgstr "পরে সে তোমার বুকে মাথা রেখে শুয়ে থাকে, লেজটা ঢাল বেয়ে জল পর্যন্ত কুণ্ডলী পাকানো, মাঝে মাঝে কেঁপে ওঠে।"
+
+msgid "Afterwards she's spread across most of the bed and some of you, glowing faintly, humming something Ambrose used to whistle."
+msgstr "পরে সে বিছানার বেশিরভাগ আর তোমার কিছুটা জুড়ে ছড়িয়ে থাকে, হালকা আভা নিয়ে, অ্যামব্রোজ যে সুর শিস দিত সেটা গুনগুন করে।"
+
+msgid "Afterwards you lie in the moss with her hair across your chest. Overhead, every leaf on her east side has turned pale side up, the way they do before a storm. There's no storm."
+msgstr "পরে তুমি শ্যাওলায় শুয়ে থাকো, তার চুল তোমার বুকে ছড়ানো। ওপরে, তার পুবদিকের প্রতিটা পাতা ফ্যাকাশে দিক ওপরে করে উল্টে গেছে, ঝড়ের আগে যেমন হয়। কোনো ঝড় নেই।"
+
+msgid "Against an alchemist? You sold my buttons for two coppers and bought them back for six."
+msgstr "একজন অ্যালকেমিস্টের বিরুদ্ধে? তুমি আমার বোতাম দুই পয়সায় বেচে ছয় পয়সায় ফেরত কিনেছ।"
+
+msgid "Alchemists boil slimes down for glue. Did you know that? Twelve shillings a pound."
+msgstr "অ্যালকেমিস্টরা স্লাইম ফুটিয়ে আঠা বানায়। জানতে? এক পাউন্ড বারো শিলিং।"
+
 msgid "All rules"
 msgstr "সব নিয়ম"
 
+msgid "All spring, by hand? I guess I'll have to get used to you."
+msgstr "সারা বসন্ত, হাতে? মনে হচ্ছে তোমাকে সয়ে নিতে হবে।"
+
 msgid "All the girls"
 msgstr "সব মেয়ে"
+
+msgid "Amara Duskrose"
+msgstr "আমারা ডাস্করোজ"
 
 msgid "Amara's power: Correct Lines"
 msgstr "আমারার ক্ষমতা: শুদ্ধ রেখা"
@@ -162,11 +246,29 @@ msgstr "আমারার ক্ষমতা: শুদ্ধ রেখা"
 msgid "Amara's seals broken"
 msgstr "আমারার ভাঙা সিলমোহর"
 
+msgid "Amara. It's the one I use. The real one is in the book, along with everything else that keeps me on a leash."
+msgstr "আমারা। এই নামটাই আমি ব্যবহার করি। আসলটা বইয়ে আছে, বাকি সবকিছুর সঙ্গে যা আমাকে শিকলে বেঁধে রাখে।"
+
 msgid "Amara: break every seal"
 msgstr "আমারা: প্রতিটি সিলমোহর ভাঙুন"
 
 msgid "Amara: sealed pages"
 msgstr "আমারা: সিলমোহর করা পাতা"
+
+msgid "Ambrose wrote that label. He was the forester. When the alchemists came round buying slimes, he hid me out here. It worked for thirty-one years."
+msgstr "লেবেলটা অ্যামব্রোজ লিখেছিল। সে বনরক্ষী ছিল। অ্যালকেমিস্টরা যখন স্লাইম কিনতে আসত, সে আমাকে এখানে লুকিয়ে রেখেছিল। একত্রিশ বছর এভাবে চলেছে।"
+
+msgid "An owl startles her"
+msgstr "একটা পেঁচা তাকে চমকে দেয়"
+
+msgid "And this time, take your clothes off before you jump in."
+msgstr "আর এবার লাফানোর আগে জামাকাপড় খুলে নিয়ো।"
+
+msgid "And you still haven't asked me for anything."
+msgstr "আর তুমি এখনো আমার কাছে কিছু চাওনি।"
+
+msgid "And you're not going to tell anyone either, are you, lifeguard?"
+msgstr "আর তুমিও কাউকে বলবে না, তাই না, উদ্ধারকারী?"
 
 msgid "Another date"
 msgstr "আরেকটা ডেট"
@@ -176,6 +278,9 @@ msgstr "যেকোনো সঠিক মিল সঙ্গে সঙ্গ�
 
 msgid "Anything you've bought on this Google account comes back in a moment."
 msgstr "এই Google অ্যাকাউন্টে কেনা সব কিছু কিছুক্ষণের মধ্যেই ফিরে আসবে।"
+
+msgid "At the Midsummer Tide the whole family swims out to the rocks, and Gran wears nine pearls in her hair and pretends not to notice everyone watching her."
+msgstr "মধ্যগ্রীষ্মের জোয়ারে গোটা পরিবার সাঁতরে পাথরের কাছে যায়, আর দিদিমা চুলে নয়টা মুক্তা পরেন আর ভান করেন যেন খেয়ালই করেননি সবাই তাঁর দিকে তাকিয়ে।"
 
 msgid "Auto"
 msgstr "অটো"
@@ -216,14 +321,32 @@ msgstr "%s-এর সঙ্গে সেরা ডেট"
 msgid "Best value"
 msgstr "সবচেয়ে লাভজনক"
 
+msgid "Better than the last one the miller sent."
+msgstr "কলওয়ালা আগের বার যাকে পাঠিয়েছিল তার চেয়ে ভালো।"
+
+msgid "Between the roots of an old oak, someone has dug a little hollow and lined it with moss. In it sits a big glass jar, sealed with wax. The label says PICKLED NEWTS, DO NOT OPEN, in handwriting that's trying to be funny."
+msgstr "এক পুরোনো ওক গাছের শিকড়ের মাঝে কেউ একটা ছোট গর্ত খুঁড়ে শ্যাওলা বিছিয়েছে। তাতে মোম দিয়ে আটকানো একটা বড় কাচের বয়াম। লেবেলে লেখা আচারি নিউট, খুলবেন না, এমন হাতের লেখায় যা মজা করার চেষ্টা করছে।"
+
 msgid "Bigger text everywhere: dialogue, menus and the puzzle."
 msgstr "সর্বত্র বড় লেখা: সংলাপ, মেনু আর ধাঁধা।"
+
+msgid "Black cover. No title. It'll feel warm. Don't open it."
+msgstr "কালো মলাট। কোনো নাম নেই। ছুঁলে উষ্ণ লাগবে। খুলবে না।"
 
 msgid "Blossom! +%d"
 msgstr "ফুল! +%d"
 
+msgid "Blossom."
+msgstr "মুকুল।"
+
 msgid "Blossoms"
 msgstr "ফুল"
+
+msgid "Board, lifeguard. Not me."
+msgstr "চোখ বোর্ডে, উদ্ধারকারী। আমার দিকে নয়।"
+
+msgid "Boathouse. It's got a door. Gran can't see through doors. Probably."
+msgstr "নৌকাঘর। ওটার দরজা আছে। দিদিমা দরজার ভেতর দিয়ে দেখতে পান না। সম্ভবত।"
 
 msgid "Bookbinder"
 msgstr "বই-বাঁধাইকার"
@@ -231,11 +354,23 @@ msgstr "বই-বাঁধাইকার"
 msgid "Boom!"
 msgstr "বুম!"
 
+msgid "Brambles underfoot"
+msgstr "পায়ের নিচে কাঁটাঝোপ"
+
+msgid "Brass Pocket Sundial"
+msgstr "পিতলের পকেট সূর্যঘড়ি"
+
 msgid "Break 50 of Amara's seals."
 msgstr "আমারার 50টি সিলমোহর ভাঙুন।"
 
 msgid "Bring 10 comb pieces up for Marina."
 msgstr "মেরিনার জন্য 10টি চিরুনির টুকরো ওপরে আনুন।"
+
+msgid "But I'll allow it. Bring the shovel tomorrow though."
+msgstr "তবে মেনে নিলাম। কাল কিন্তু কোদালটা এনো।"
+
+msgid "But she's a little pinker than she was."
+msgstr "তবে সে আগের চেয়ে একটু বেশি গোলাপি।"
 
 msgid "Buy"
 msgstr "কিনুন"
@@ -249,6 +384,15 @@ msgstr "কিনুন · %d"
 msgid "Buy · %d ⭐"
 msgstr "কিনুন · %d ⭐"
 
+msgid "By the end of the month the old wall has stopped cracking. The new millrace runs clean, and Aldous Brock stands on the bank for a long time with his hat in his hands."
+msgstr "মাসের শেষে পুরোনো দেয়ালে ফাটল ধরা থেমে গেছে। নতুন নালা পরিষ্কার বয়, আর অল্ডাস ব্রক অনেকক্ষণ টুপি হাতে তীরে দাঁড়িয়ে থাকে।"
+
+msgid "By two in the morning you've checked every book returned this month. No black cover. One very overdue cookbook, which she opens, reads a page of, and closes in disgust."
+msgstr "রাত দুটোর মধ্যে তুমি এই মাসে ফেরত আসা প্রতিটি বই দেখে ফেলেছ। কোনো কালো মলাট নেই। একটা অনেক দেরিতে ফেরা রান্নার বই, যেটা সে খোলে, এক পাতা পড়ে, আর বিরক্তিতে বন্ধ করে।"
+
+msgid "C-can I sleep in your room tonight? Not in the jar. With you."
+msgstr "আ-আজ রাতে আমি কি তোমার ঘরে ঘুমোতে পারি? বয়ামে নয়। তোমার সঙ্গে।"
+
 msgid "CHAPTER GOAL"
 msgstr "অধ্যায়ের লক্ষ্য"
 
@@ -258,8 +402,17 @@ msgstr "চিরুনির টুকরো"
 msgid "COMING UP"
 msgstr "আসছে"
 
+msgid "Can we not? Please?"
+msgstr "না করলে হয় না? প্লিজ?"
+
+msgid "Can you... turn the lamp down a bit?"
+msgstr "তুমি কি... বাতিটা একটু কমাবে?"
+
 msgid "Cancel"
 msgstr "বাতিল"
+
+msgid "Careful. If you keep staring at me like that, I'll start thinking you summoned me on purpose."
+msgstr "সাবধান। এভাবে তাকিয়ে থাকলে আমি ভাবতে শুরু করব তুমি আমাকে ইচ্ছে করে ডেকেছ।"
 
 msgid "Carry on without clearing this chapter (no stars for it)."
 msgstr "এই অধ্যায় শেষ না করে এগিয়ে যান (এর তারকা পাবেন না)।"
@@ -309,6 +462,9 @@ msgstr "মিল, কম্বো আর মেনুর জন্য ঘণ্
 msgid "Choose"
 msgstr "বাছুন"
 
+msgid "Clean lines. I'm almost proud of you."
+msgstr "পরিষ্কার রেখা। তোমার জন্য প্রায় গর্ব হচ্ছে।"
+
 msgid "Clear Hazel's first chapter."
 msgstr "হেজেলের প্রথম অধ্যায় শেষ করুন।"
 
@@ -324,6 +480,9 @@ msgstr "5 বা তার বেশি চাল বাকি রেখে অ�
 msgid "Clear a cursed shard with the Hammer."
 msgstr "হাতুড়ি দিয়ে একটি অভিশপ্ত টুকরো ভাঙুন।"
 
+msgid "Clear all the way through. Like me."
+msgstr "এপার-ওপার স্বচ্ছ। আমার মতো।"
+
 msgid "Clear any chapter to unlock the daily challenge."
 msgstr "দৈনিক চ্যালেঞ্জ খুলতে যেকোনো অধ্যায় শেষ করুন।"
 
@@ -338,6 +497,12 @@ msgstr "ক্লিক, স্পেস বা এন্টার: পরের
 
 msgid "Close"
 msgstr "বন্ধ করুন"
+
+msgid "Close enough."
+msgstr "কাছাকাছি।"
+
+msgid "Close enough. You can keep using it."
+msgstr "কাছাকাছি। তুমি এটাই বলতে পারো।"
 
 msgid "Close settings"
 msgstr "সেটিংস বন্ধ করুন"
@@ -356,6 +521,12 @@ msgstr "কম্বো x%d!"
 
 msgid "Combos"
 msgstr "কম্বো"
+
+msgid "Come here. That's an order, and I'm only giving it once before I come over there and get you."
+msgstr "এদিকে এসো। এটা আদেশ, আর আমি একবারই দেব, তারপর নিজে গিয়ে তোমাকে নিয়ে আসব।"
+
+msgid "Come on. Binders keep ledgers. If he sold them, he wrote down who to."
+msgstr "চলো। বাঁধাইকাররা খাতা রাখে। বেচে থাকলে লিখে রেখেছে কাকে।"
 
 msgid "Continue"
 msgstr "চালিয়ে যান"
@@ -378,6 +549,9 @@ msgstr "কৃতজ্ঞতা"
 msgid "Crystal"
 msgstr "স্ফটিক"
 
+msgid "Crystal. I'd keep that one."
+msgstr "স্ফটিক। ওটা আমি রেখে দিতাম।"
+
 msgid "Cursed Shard"
 msgstr "অভিশপ্ত টুকরো"
 
@@ -393,17 +567,71 @@ msgstr "দৈনিক চ্যালেঞ্জ: %d পয়েন্ট"
 msgid "Dark, cracked shards cost you points when they're part of a match. The Hammer smashes one for free."
 msgstr "কালো, ফাটা টুকরো মিলের অংশ হলে আপনার পয়েন্ট কাটে। হাতুড়ি একটাকে বিনা খরচে ভেঙে দেয়।"
 
+msgid "Day four. Word's got round that someone is digging by the old hazel instead of cutting it down. The miller's daughter brings you lunch, and you walk her back as far as the footbridge."
+msgstr "চতুর্থ দিন। খবর ছড়িয়েছে যে কেউ পুরোনো হেজেল না কেটে তার পাশে খুঁড়ছে। কলওয়ালার মেয়ে তোমার জন্য দুপুরের খাবার আনে, আর তুমি তাকে সাঁকো পর্যন্ত এগিয়ে দাও।"
+
+msgid "Day three. She's been in the water since dawn, and she misses the rope ladder twice trying to climb onto the pier. At the far end, three old fishermen are setting out their Thursday tile game by lamplight."
+msgstr "তৃতীয় দিন। সে ভোর থেকে জলে, আর জেটিতে উঠতে গিয়ে দুবার দড়ির মই ফসকায়। অন্য প্রান্তে তিন বুড়ো জেলে লণ্ঠনের আলোয় তাদের বৃহস্পতিবারের নুড়ির খেলা সাজাচ্ছে।"
+
+msgid "Dead leaves come down"
+msgstr "শুকনো পাতা ঝরে"
+
 msgid "Dialogue controls"
 msgstr "সংলাপের নিয়ন্ত্রণ"
 
 msgid "Difficulty"
 msgstr "কঠিনতা"
 
+msgid "Dig faster. I'd like to see another spring."
+msgstr "জলদি খোঁড়ো। আমি আরেকটা বসন্ত দেখতে চাই।"
+
+msgid "Dig your trench. Sleeves up!"
+msgstr "তোমার খাদ খোঁড়ো। হাতা গোটাও!"
+
 msgid "Dislikes"
 msgstr "অপছন্দ"
 
+msgid "Do that again. Slower."
+msgstr "আবার করো। আস্তে।"
+
 msgid "Don't Even Think About It"
 msgstr "ভাবতেও যেও না"
+
+msgid "Don't even think about it."
+msgstr "ভাবতেও যেও না।"
+
+msgid "Don't go before morning. I'll know if you do. I'll hear the door."
+msgstr "সকালের আগে যেয়ো না। গেলে আমি টের পাব। দরজার শব্দ শুনব।"
+
+msgid "Don't look at them. They're not for you. They're seasonal."
+msgstr "ওগুলোর দিকে তাকিয়ো না। ওগুলো তোমার জন্য নয়। ওগুলো ঋতুর।"
+
+msgid "Don't look so pleased with yourself. Actually, no. Look exactly that pleased."
+msgstr "নিজেকে নিয়ে এত খুশি দেখিও না। আসলে, না। ঠিক এতটাই খুশি দেখাও।"
+
+msgid "Don't put me back in the jar yet. I want to go home on my own. Well. Not walk. You know."
+msgstr "এখনই আমাকে বয়ামে ফেরত দিয়ো না। আমি নিজে নিজে বাড়ি যেতে চাই। মানে। হেঁটে নয়। তুমি বোঝো।"
+
+msgid "Don't say it like that. Like it matters."
+msgstr "অমনভাবে বোলো না। যেন এর কোনো মানে আছে।"
+
+msgid "Don't. Don't you dare."
+msgstr "খবরদার। সাহস কোরো না।"
+
+msgid "Don't. Just don't."
+msgstr "না। একদম না।"
+
+msgid "Don't... look at me like that."
+msgstr "আমার দিকে... অমনভাবে তাকিয়ো না।"
+
+msgid "Down on the pier, a whole family is yelling at the water. Out past the rocks, a woman is floating face up, perfectly still, her hair spread out round her."
+msgstr "নিচে জেটিতে একটা গোটা পরিবার জলের দিকে চেঁচাচ্ছে। পাথরের ওপারে এক নারী চিত হয়ে ভাসছে, একদম স্থির, চুল চারপাশে ছড়ানো।"
+
+msgid "Dryad of the old hazel"
+msgstr "পুরোনো হেজেল গাছের বনদেবী"
+
+msgid "Dust off the top shelf"
+msgstr "ওপরের তাক থেকে ধুলো"
 
 msgid "Each chapter has a goal and a number of moves. At first it's points; from her third chapter it's something of hers to do on the board, and in her last both. Reach it before your moves run out and the story carries on. There's no timer: take as long as you like."
 msgstr "প্রতিটি অধ্যায়ের একটি লক্ষ্য আর নির্দিষ্ট সংখ্যক চাল থাকে। প্রথমে তা পয়েন্ট; তার তৃতীয় অধ্যায় থেকে বোর্ডে তার জন্য কিছু করার থাকে, আর শেষটায় দুটোই। চাল ফুরোনোর আগে লক্ষ্যে পৌঁছান, গল্প এগোবে। কোনো টাইমার নেই: সময় নিয়ে খেলুন।"
@@ -413,6 +641,9 @@ msgstr "প্রতিটি ধরনের রত্ন একটি নম�
 
 msgid "Easy"
 msgstr "সহজ"
+
+msgid "Eat your lunch. I'm sure her bread is very good. I wouldn't know."
+msgstr "খাবারটা খাও। নিশ্চয়ই তার রুটি খুব ভালো। আমি জানি না।"
 
 msgid "Ember"
 msgstr "অঙ্গার"
@@ -444,14 +675,35 @@ msgstr "প্রতিটি মেয়ের একটি প্রিয়
 msgid "Every match fills the Charm ring. In a girl's first chapter a full ring is a Charm Burst: +150 points. From her second chapter it's one use of her own power instead: its button lights up next to the ring, use it when you like. The ring fills again after."
 msgstr "প্রতিটি মিল আকর্ষণ চক্র ভরায়। কোনো মেয়ের প্রথম অধ্যায়ে ভরা চক্র মানে আকর্ষণ বিস্ফোরণ: +150 পয়েন্ট। তার দ্বিতীয় অধ্যায় থেকে এটা হয় তার নিজের ক্ষমতার একবার ব্যবহার: চক্রের পাশে তার বোতাম জ্বলে ওঠে, যখন খুশি ব্যবহার করুন। তারপর চক্র আবার ভরে।"
 
+msgid "Every one of those pages is part of my binding. Somebody has been buying them."
+msgstr "ওই প্রতিটি পাতা আমার বন্ধনের অংশ। কেউ সেগুলো কিনছে।"
+
+msgid "Every one? That's four hundred and twelve buttons."
+msgstr "প্রতিটা? চারশো বারোটা বোতাম।"
+
 msgid "Every seed and sprout on the board grows one stage."
 msgstr "বোর্ডের প্রতিটি বীজ আর অঙ্কুর এক ধাপ বড় হয়।"
+
+msgid "Everyone keeps asking about the comb and I'm running out of excuses."
+msgstr "সবাই চিরুনির কথা জিজ্ঞেস করছে, আর আমার অজুহাত ফুরিয়ে আসছে।"
 
 msgid "Everything — music and sound effects."
 msgstr "সবকিছু — সংগীত আর শব্দ প্রভাব।"
 
+msgid "Ex-excuse me. That's my eye. I mean... It's in my collection. I'd like it back, please."
+msgstr "মা-মাফ করবেন। ওটা আমার চোখ। মানে... ওটা আমার সংগ্রহের। আমি ওটা ফেরত চাই, দয়া করে।"
+
+msgid "Eyes on the board. I'll still be here."
+msgstr "চোখ বোর্ডে। আমি কোথাও যাচ্ছি না।"
+
 msgid "Fast"
 msgstr "দ্রুত"
+
+msgid "Faster. And alphabetise properly. I've seen your circle."
+msgstr "জলদি। আর বর্ণানুক্রম ঠিকঠাক মানো। আমি তোমার বৃত্ত দেখেছি।"
+
+msgid "Faster. Tide's turning."
+msgstr "জলদি। জোয়ার ফিরছে।"
 
 msgid "Fill the Charm ring for a Charm Burst."
 msgstr "আকর্ষণ বিস্ফোরণের জন্য আকর্ষণ চক্র ভরান।"
@@ -468,6 +720,12 @@ msgstr "শ্যাওলার নিচে ওপালের 30টি হা
 msgid "Finders Keepers"
 msgstr "যে খোঁজে সে পায়"
 
+msgid "Fine. They're for you. I haven't flowered out of season since before the mill was built. The animals are going to talk."
+msgstr "আচ্ছা। ওগুলো তোমার জন্য। কল তৈরির আগে থেকে আমি অসময়ে ফুটিনি। জন্তুরা কানাকানি করবে।"
+
+msgid "Fine. You're not a menace anymore. You can help me. Don't get excited."
+msgstr "বেশ। তুমি আর উৎপাত নও। আমাকে সাহায্য করতে পারো। বেশি খুশি হয়ো না।"
+
 msgid "Finish Hazel's story picking every warm reply."
 msgstr "প্রতিবার উষ্ণ উত্তর বেছে হেজেলের গল্প শেষ করুন।"
 
@@ -477,14 +735,35 @@ msgstr "প্রতিটি উত্তরে তার সঙ্গে খ�
 msgid "Finish a daily challenge."
 msgstr "একটি দৈনিক চ্যালেঞ্জ শেষ করুন।"
 
+msgid "Fire. In a grove. Really?"
+msgstr "আগুন। একটা কুঞ্জে। সত্যি?"
+
+msgid "Flattery. Good. Keep going."
+msgstr "তোষামোদ। বেশ। চালিয়ে যাও।"
+
 msgid "For bug reports: send the newest godot.log from this folder."
 msgstr "বাগ রিপোর্টের জন্য: এই ফোল্ডার থেকে সবচেয়ে নতুন godot.log পাঠান।"
 
 msgid "For sticking with it: a free Time Scroll!"
 msgstr "হাল না ছাড়ার জন্য: একটি বিনামূল্যের সময়-পত্র!"
 
+msgid "For the record: four hundred-odd summonings, several kings and one very enthusiastic bishop. None of them came close. I'm only telling you once."
+msgstr "নথির জন্য: চারশো-কিছু ডাক, কয়েকজন রাজা আর একজন খুব উৎসাহী বিশপ। কেউ ধারেকাছেও আসেনি। একবারই বলছি।"
+
+msgid "Forty years, I said. Mind where you swing."
+msgstr "চল্লিশ বছর, বলেছিলাম। দেখে কোপাও।"
+
 msgid "Found under the moss: %s"
 msgstr "শ্যাওলার নিচে পাওয়া গেল: %s"
+
+msgid "Four hundred and twelve buttons, twenty-six keys, a glass eye and two owls. The alchemist's men are felling the north woods now, so Opal is staying with you, and her collection takes up a whole shelf in your front room. She rearranges it twice."
+msgstr "চারশো বারোটা বোতাম, ছাব্বিশটা চাবি, একটা কাচের চোখ আর দুটো পেঁচা। অ্যালকেমিস্টের লোকেরা এখন উত্তরের বন কাটছে, তাই ওপাল তোমার কাছে থাকছে, আর তার সংগ্রহ তোমার বসার ঘরের একটা গোটা তাক জুড়ে। সে দুবার সাজায়।"
+
+msgid "Four hundred and twelve buttons. Twenty-six keys. A glass eye. Everyone who comes through these woods drops something, and I kept it."
+msgstr "চারশো বারোটা বোতাম। ছাব্বিশটা চাবি। একটা কাচের চোখ। এই বন দিয়ে যে-ই যায় কিছু না কিছু ফেলে, আর আমি রেখে দিই।"
+
+msgid "Four hundred buttons is a lot of strangers' buttons."
+msgstr "চারশো বোতাম মানে অচেনা লোকের অনেক বোতাম।"
 
 msgid "Free date"
 msgstr "খোলা ডেট"
@@ -494,6 +773,9 @@ msgstr "বিনামূল্যের তারকা"
 
 msgid "Free: %s"
 msgstr "বিনামূল্যে: %s"
+
+msgid "Frosted Sea-Glass Pendant"
+msgstr "ঘষা সমুদ্র-কাচের লকেট"
 
 msgid "Fullscreen"
 msgstr "পূর্ণ পর্দা"
@@ -507,6 +789,12 @@ msgstr "রত্নের নম্বর"
 msgid "Gems cleared"
 msgstr "পরিষ্কার করা রত্ন"
 
+msgid "Gently. Like that."
+msgstr "আলতো করে। এভাবে।"
+
+msgid "Get that holy rock away from me."
+msgstr "ওই পবিত্র পাথর আমার কাছ থেকে সরাও।"
+
 msgid "Girls"
 msgstr "মেয়েরা"
 
@@ -516,11 +804,35 @@ msgstr "হেজেলকে পিতলের পকেট সূর্যঘ
 msgid "Give her the %s"
 msgstr "তাকে দিন: %s"
 
+msgid "Gold swirl. They stopped making these before I went in the jar. Where did you even find it?"
+msgstr "সোনালি পাক। আমি বয়ামে ঢোকার আগেই এগুলো বানানো বন্ধ হয়ে গিয়েছিল। তুমি এটা কোথায় পেলে?"
+
 msgid "Google Play isn't reachable right now. Try again in a moment."
 msgstr "এই মুহূর্তে Google Play-তে পৌঁছানো যাচ্ছে না। একটু পরে আবার চেষ্টা করুন।"
 
 msgid "Got it"
 msgstr "ঠিক আছে"
+
+msgid "Gran at the Midsummer Tide, her pearl comb in her hair."
+msgstr "মধ্যগ্রীষ্মের জোয়ারে দিদিমা, চুলে তাঁর মুক্তার চিরুনি।"
+
+msgid "Gran wears the comb at the Midsummer Tide and never finds out it was lost. Marina tells her anyway, a month later, and Gran laughs so hard she has to be helped onto a rock. Marina tells the story of how you met at every family dinner after that, and it gets bigger every time. Gran corrects her every time, and every time she sets a place for you without asking."
+msgstr "দিদিমা মধ্যগ্রীষ্মের জোয়ারে চিরুনিটা পরেন আর কখনো জানেন না যে ওটা হারিয়েছিল। তবু মেরিনা এক মাস পরে তাঁকে বলে দেয়, আর দিদিমা এত হাসেন যে তাঁকে একটা পাথরে তুলে দিতে হয়। এরপর মেরিনা প্রতিটি পারিবারিক নৈশভোজে তোমাদের দেখা হওয়ার গল্প বলে, আর প্রতিবার গল্পটা বড় হয়। প্রতিবার দিদিমা তাকে শুধরে দেন, আর প্রতিবার না জিজ্ঞেস করেই তোমার জন্য পাত পাতেন।"
+
+msgid "Gran's asked you to the family dinner, which is not a small thing, people have married into this family and never been asked to the family dinner."
+msgstr "দিদিমা তোমাকে পারিবারিক নৈশভোজে ডেকেছেন, আর এটা ছোট ব্যাপার নয়, লোকে এই পরিবারে বিয়ে করেও কখনো পারিবারিক নৈশভোজে ডাক পায়নি।"
+
+msgid "Gran's going to know. She always knows. She's going to look at me over breakfast and just know."
+msgstr "দিদিমা জেনে যাবেন। তিনি সবসময় জানেন। সকালের নাস্তায় আমার দিকে তাকাবেন আর ব্যস জেনে যাবেন।"
+
+msgid "Gran's going to wear it at the Tide and never know. Nobody's ever going to know you did this."
+msgstr "দিদিমা জোয়ারে এটা পরবেন আর কখনো জানবেন না। কেউ কখনো জানবে না যে তুমি এটা করেছ।"
+
+msgid "Gran, I'm fine. I'm always like that."
+msgstr "দিদিমা, আমি ঠিক আছি। আমি সবসময়ই এরকম।"
+
+msgid "Greedy. Oh, so you'll make him pay you to help me? I like that."
+msgstr "লোভী। ও, তাহলে আমাকে সাহায্য করার জন্য তুমি ওকে দিয়ে টাকা দেওয়াবে? ভালো লাগল।"
 
 msgid "Grow 25 of Hazel's blossoms."
 msgstr "হেজেলের 25টি ফুল ফোটান।"
@@ -530,6 +842,9 @@ msgstr "জিততে যথেষ্ট বীজকে ফুল পর্�
 
 msgid "Hammer"
 msgstr "হাতুড়ি"
+
+msgid "Hand-Dipped Beeswax Candle"
+msgstr "হাতে ডোবানো মৌমোমের মোমবাতি"
 
 msgid "Handful of Stars"
 msgstr "এক মুঠো তারকা"
@@ -543,6 +858,9 @@ msgstr "কঠিন: প্রতি কয়েক চালে ডেটে 
 msgid "Hard: things happen on your date"
 msgstr "কঠিন: ডেটে কিছু না কিছু ঘটে"
 
+msgid "Hazel Mossgrove"
+msgstr "হেজেল মসগ্রোভ"
+
 msgid "Hazel's blossoms grown"
 msgstr "হেজেলের ফোটানো ফুল"
 
@@ -554,6 +872,18 @@ msgstr "হেজেল: ফুল ফোটান"
 
 msgid "Hazel: seeds"
 msgstr "হেজেল: বীজ"
+
+msgid "He tells you to keep the money. Then he walks over and pats the hazel's trunk, awkwardly, like a man apologising to a horse."
+msgstr "সে তোমাকে টাকা রেখে দিতে বলে। তারপর এগিয়ে গিয়ে হেজেলের গুঁড়িতে চাপড় দেয়, আনাড়িভাবে, যেন কোনো লোক ঘোড়ার কাছে ক্ষমা চাইছে।"
+
+msgid "He took it apart. To sell it page by page."
+msgstr "সে এটা খুলে ফেলেছে। পাতা পাতা করে বেচার জন্য।"
+
+msgid "He used to tap on the glass every morning twice so I'd know it was him."
+msgstr "সে প্রতিদিন সকালে কাচে দুবার টোকা দিত যাতে আমি বুঝি সে-ই।"
+
+msgid "He's never done that. Forty springs, and he's never once done that."
+msgstr "সে কখনো এটা করেনি। চল্লিশ বসন্ত, আর একবারও করেনি।"
 
 msgid "Hear the girls speak their lines."
 msgstr "মেয়েদের তাদের লাইন বলতে শুনুন।"
@@ -570,8 +900,20 @@ msgstr "হৃদয়: অধ্যায় হারলে একটা য�
 msgid "Her board with no move limit, just for fun and a high score."
 msgstr "চালের সীমা ছাড়া তার বোর্ড, শুধু মজা আর রেকর্ডের জন্য।"
 
+msgid "Her corrections in red pencil, all over the loose page that started it."
+msgstr "লাল পেনসিলে তার সংশোধন, যে আলগা পাতা থেকে শুরু তার সবখানে।"
+
 msgid "Her ending"
 msgstr "তার সমাপ্তি"
+
+msgid "Her entire family is, in fact, right there. A grandmother, a mother, three sisters. One of the sisters is laughing so hard she can barely ask, out loud, whether Mari is going to thank her lifeguard."
+msgstr "তার গোটা পরিবার সত্যিই ঠিক সেখানে। এক দিদিমা, এক মা, তিন বোন। এক বোন এত হাসছে যে কোনোমতে জোরে জিজ্ঞেস করে মারি তার উদ্ধারকারীকে ধন্যবাদ দেবে কি না।"
+
+msgid "Her family slips off the end of the pier one by one and swims home round the point, very slowly, looking back the whole way. She waits until they're out of earshot."
+msgstr "তার পরিবার একে একে জেটির কিনারা থেকে পিছলে নেমে অন্তরীপ ঘুরে বাড়ির দিকে সাঁতরায়, খুব ধীরে, সারা পথ পেছন ফিরে দেখতে দেখতে। সে অপেক্ষা করে যতক্ষণ না তারা আর শুনতে পায়।"
+
+msgid "Her father came by this morning. He'll give you until the end of the month. Then he hires someone with a saw."
+msgstr "আজ সকালে তার বাবা এসেছিল। তোমাকে মাসের শেষ পর্যন্ত সময় দেবে। তারপর করাত হাতে কাউকে লাগাবে।"
 
 msgid "Her favourite gem scores double and fills Charm faster; the one she dislikes scores half."
 msgstr "তার প্রিয় রত্ন দ্বিগুণ পয়েন্ট দেয় আর আকর্ষণ দ্রুত ভরায়; অপছন্দেরটা অর্ধেক পয়েন্ট দেয়।"
@@ -582,11 +924,26 @@ msgstr "তার উপহার"
 msgid "Her gift: more of her favourite gem"
 msgstr "তার উপহার: তার প্রিয় রত্ন আরও বেশি"
 
+msgid "Her grandmother says, mildly, that they'd been calling her for twenty minutes, that the tide's on the turn, and that this nice person was the only one who did anything about it."
+msgstr "তার দিদিমা নরম গলায় বলেন তারা কুড়ি মিনিট ধরে তাকে ডাকছিলেন, জোয়ার ফিরতে চলেছে, আর এই ভালো মানুষটিই একমাত্র কিছু করেছে।"
+
+msgid "Her hands are warm now. They were cold the first time you touched the bark. She sees you notice."
+msgstr "তার হাত এখন উষ্ণ। তুমি যখন প্রথম বাকল ছুঁয়েছিলে, তখন ঠান্ডা ছিল। সে দেখে যে তুমি খেয়াল করেছ।"
+
+msgid "Her jar sits at the end of the shelf with the lid off. She hasn't been in it for three days."
+msgstr "তার বয়ামটা তাকের শেষে ঢাকনা খোলা পড়ে আছে। তিন দিন সে ওতে ঢোকেনি।"
+
+msgid "Her library card has your address on it in small, furious handwriting. She moves in with forty candles and opinions about your bookshelf, which she reorganises by how much she disliked each book. Your favourite goes on the bottom shelf. Most nights she's still at the late desk when your shift ends, and she walks you home by the river even though it's longer."
+msgstr "তার গ্রন্থাগার কার্ডে ছোট, রাগী হাতের লেখায় তোমার ঠিকানা। সে চল্লিশটা মোমবাতি আর তোমার বইয়ের তাক নিয়ে একগাদা মতামত সমেত তোমার কাছে চলে আসে, তাকটা সে সাজায় কোন বই তার কতটা অপছন্দ ছিল সেই হিসেবে। তোমার প্রিয়টা যায় সবচেয়ে নিচের তাকে। বেশিরভাগ রাতে তোমার পালা শেষ হলেও সে রাতের ডেস্কে থাকে, আর লম্বা হলেও নদীর ধার দিয়ে তোমাকে বাড়ি পৌঁছে দেয়।"
+
 msgid "Her night scene"
 msgstr "তার রাতের দৃশ্য"
 
 msgid "Her powers used"
 msgstr "ব্যবহৃত ক্ষমতা"
+
+msgid "Her sisters start watching"
+msgstr "তার বোনেরা দেখতে শুরু করে"
 
 msgid "Her story carries on as if you'd cleared it. You don't get its stars."
 msgstr "তার গল্প এমনভাবে এগোবে যেন আপনি এটা শেষ করেছেন। এর তারকা পাবেন না।"
@@ -603,6 +960,9 @@ msgstr "ভরা জোয়ার"
 msgid "High Tide!"
 msgstr "ভরা জোয়ার!"
 
+msgid "High Water"
+msgstr "ভরা জোয়ার"
+
 msgid "Home"
 msgstr "হোম"
 
@@ -611,6 +971,9 @@ msgstr "সংলাপ কত দ্রুত লেখা হয়।"
 
 msgid "How long Auto waits after each line (left = quicker)."
 msgstr "প্রতিটি লাইনের পর অটো কতক্ষণ থামে (বাঁয়ে = দ্রুত)।"
+
+msgid "How long have you been out here on your own?"
+msgstr "তুমি কতদিন এখানে একা?"
 
 msgid "How loud the background music plays."
 msgstr "পটভূমির সংগীত কত জোরে বাজবে।"
@@ -621,14 +984,170 @@ msgstr "তাদের কণ্ঠ কত জোরে বাজবে।"
 msgid "How to Play"
 msgstr "কীভাবে খেলবেন"
 
+msgid "Huh. Nobody's ever told me to slow down. They just assume I've got it handled."
+msgstr "হুম। কেউ কখনো আমাকে আস্তে চলতে বলেনি। সবাই ধরে নেয় আমি সামলে নেব।"
+
+msgid "I can walk as far as my roots go. They go a long way now. Thanks to someone."
+msgstr "আমার শিকড় যতদূর যায়, আমি ততদূর হাঁটতে পারি। এখন ওরা অনেক দূর যায়। কারও কল্যাণে।"
+
+msgid "I destroyed kingdoms, and you're making me wait?!"
+msgstr "আমি রাজ্য ধ্বংস করেছি, আর তুমি আমাকে অপেক্ষা করাচ্ছ?!"
+
+msgid "I did that. Did you see? I did that out loud."
+msgstr "আমি করেছি। দেখলে? আমি জোরে বলেছি।"
+
+msgid "I don't like those. Sorry."
+msgstr "ওগুলো আমার ভালো লাগে না। দুঃখিত।"
+
+msgid "I had to drop a branch on the last guy, but don't worry, your face is too nice."
+msgstr "আগেরজনের ওপর আমাকে একটা ডাল ফেলতে হয়েছিল, তবে চিন্তা কোরো না, তোমার মুখটা বড্ড সুন্দর।"
+
+msgid "I have to tell you something. I kept something of yours. On the first day."
+msgstr "তোমাকে একটা কথা বলতে হবে। আমি তোমার একটা জিনিস রেখে দিয়েছিলাম। প্রথম দিন।"
+
+msgid "I know about the wall. My roots go where the water is. I can't control it."
+msgstr "দেয়ালের কথা জানি। আমার শিকড় যায় যেখানে জল। আমি এটা থামাতে পারি না।"
+
+msgid "I know. You were still gone forty minutes, not that I was counting."
+msgstr "জানি। তবু তুমি চল্লিশ মিনিট ছিলে না, তা বলে যে আমি গুনছিলাম তা নয়।"
+
+msgid "I like having someone to hold the bucket."
+msgstr "বালতি ধরার কাউকে পেতে আমার ভালো লাগে।"
+
+msgid "I lose things. You've noticed. I'm not losing this one."
+msgstr "আমি জিনিস হারাই। তুমি খেয়াল করেছ। এটা হারাব না।"
+
+msgid "I should tell you I don't know what I'm doing. I've only heard about this. Through glass. People say a lot on a forest path when they think no one's listening."
+msgstr "তোমাকে বলা উচিত যে আমি জানি না কী করছি। শুধু এ নিয়ে শুনেছি। কাচের ভেতর দিয়ে। বনের পথে লোকে অনেক কিছু বলে যখন ভাবে কেউ শুনছে না।"
+
+msgid "I still owe you a reward. I haven't decided what it is yet. Don't look at me like that, I'm deciding."
+msgstr "তোমার কাছে এখনো আমার পুরস্কার পাওনা। কোনটা, এখনো ঠিক করিনি। অমনভাবে তাকিয়ো না, ঠিক করছি।"
+
+msgid "I was fine. It was quiet in there."
+msgstr "আমি ভালোই ছিলাম। ভেতরে শান্ত ছিল।"
+
+msgid "I was floating. On my back. I'm a mermaid, if you didn't notice, and you just dragged me out of my own cove in front of my entire family."
+msgstr "আমি ভাসছিলাম। চিত হয়ে। আমি মৎস্যকন্যা, যদি খেয়াল না করে থাকো, আর তুমি এইমাত্র আমার গোটা পরিবারের সামনে আমাকে আমারই খাঁড়ি থেকে টেনে তুললে।"
+
+msgid "I was meant to get it cleaned. I dropped it off the pier a week ago. Nobody knows."
+msgstr "আমার এটা পরিষ্কার করাতে নিয়ে যাওয়ার কথা ছিল। এক সপ্তাহ আগে জেটি থেকে আমার হাত ফসকে পড়ে গেছে। কেউ জানে না।"
+
+msgid "I wasn't resting. I was looking for something. Gran's pearl comb. It's the only thing she brought with her when she came to this cove, and she wears it every Midsummer Tide."
+msgstr "আমি বিশ্রাম নিচ্ছিলাম না। কিছু খুঁজছিলাম। দিদিমার মুক্তার চিরুনি। এই খাঁড়িতে আসার সময় তিনি শুধু এটাই এনেছিলেন, আর প্রতি বছর মধ্যগ্রীষ্মের জোয়ারে পরেন।"
+
+msgid "I won't tell. Let me help you look."
+msgstr "আমি বলব না। খুঁজতে সাহায্য করতে দাও।"
+
+msgid "I'd do it badly. Out of spite."
+msgstr "খারাপভাবে সাজাব। জেদ করে।"
+
+msgid "I'd like to do it again. That's allowed to be said, isn't it? Good. I'd like to do it again."
+msgstr "আমি আবার করতে চাই। এটা বলা যায়, তাই না? বেশ। আমি আবার করতে চাই।"
+
+msgid "I'd like to make it a thing."
+msgstr "আমি এ নিয়ে বড় কিছু বানাতে চাই।"
+
+msgid "I'd like to see that, actually."
+msgstr "সত্যি বলতে, আমি ওটা দেখতে চাই।"
+
+msgid "I'd want my own jar. Just to start. Is that strange?"
+msgstr "আমার নিজের একটা বয়াম চাই। শুধু শুরুতে। অদ্ভুত লাগছে?"
+
+msgid "I'll dig it. Show me where."
+msgstr "আমি খুঁড়ব। দেখাও কোথায়।"
+
+msgid "I'll dig. I'm keeping the miller's money, though."
+msgstr "খুঁড়ব। তবে কলওয়ালার টাকা রেখে দিচ্ছি।"
+
+msgid "I'll keep it on a low branch where I can see it. No, I won't use it to count time until our next meeting."
+msgstr "আমি এটা একটা নিচু ডালে রাখব যেখানে দেখতে পাই। না, এটা দিয়ে আমাদের পরের দেখা পর্যন্ত সময় গুনব না।"
+
+msgid "I'll list everyone in town you'd like to drop a branch on."
+msgstr "শহরের যাদের ওপর তুমি ডাল ফেলতে চাও তাদের সবার নাম বলব।"
+
+msgid "I'll pay you, obviously. A reward, when we find it. It's a business arrangement, so you can stop smiling like that."
+msgstr "অবশ্যই তোমাকে টাকা দেব। পুরস্কার, যখন খুঁজে পাব। এটা ব্যবসায়িক চুক্তি, তাই অমন হাসা থামাও।"
+
+msgid "I'll pretend I didn't see that."
+msgstr "আমি ভান করব যেন দেখিনি।"
+
 msgid "I'm 18 or older"
 msgstr "আমার বয়স 18 বা তার বেশি"
+
+msgid "I'm a bit pink right now. Ignore it."
+msgstr "আমি এখন একটু গোলাপি। খেয়াল কোরো না।"
+
+msgid "I'm fine. Midsummer Tide's in nine days, and I've checked maybe a third of the cove."
+msgstr "আমি ঠিক আছি। মধ্যগ্রীষ্মের জোয়ার নয় দিন পরে, আর আমি খাঁড়ির হয়তো এক-তৃতীয়াংশ দেখেছি।"
+
+msgid "I'm glad I can help. Really."
+msgstr "সাহায্য করতে পেরে আমি খুশি। সত্যি।"
+
+msgid "I'm going to make you sound very brave. And very wet."
+msgstr "আমি তোমাকে খুব সাহসী বানিয়ে বলব। আর খুব ভেজা।"
+
+msgid "I'm not watching you. I'm photosynthesising."
+msgstr "আমি তোমাকে দেখছি না। আমি সালোকসংশ্লেষ করছি।"
+
+msgid "I'm so sorry. I'll get every one of them back."
+msgstr "আমি খুবই দুঃখিত। প্রতিটা জিনিস তোমাকে ফিরিয়ে এনে দেব।"
+
+msgid "I've been doing this for a very long time, and that was not on the list of things I expected from a library."
+msgstr "আমি এটা বহুদিন ধরে করছি, আর গ্রন্থাগার থেকে যা আশা করেছিলাম তার তালিকায় এটা ছিল না।"
+
+msgid "I've been summoned by kings. They were worse at this."
+msgstr "আমাকে রাজারা ডেকেছে। তারা এতে তোমার চেয়েও খারাপ ছিল।"
+
+msgid "I've been summoned four hundred and some times. Never seen such gentleman."
+msgstr "আমাকে চারশোর বেশিবার ডাকা হয়েছে। এমন ভদ্রলোক কখনো দেখিনি।"
+
+msgid "I've never seen a morning from this side of a summoning. It's very bright. I don't hate it."
+msgstr "কোনো ডাকের এই পাশ থেকে আমি কখনো সকাল দেখিনি। খুব উজ্জ্বল। খারাপ লাগছে না।"
+
+msgid "I've thought about this. Not a lot. A normal amount. Every day since the pier."
+msgstr "আমি এটা নিয়ে ভেবেছি। খুব বেশি না। স্বাভাবিক পরিমাণে। জেটির দিন থেকে প্রতিদিন।"
+
+msgid "I-is that all right? Tell me if it's strange. You can say it's strange."
+msgstr "ঠি-ঠিক আছে তো? অদ্ভুত লাগলে বোলো। তুমি বলতে পারো অদ্ভুত লাগছে।"
+
+msgid "I-it's not going on the shelf. It stays with me. In here. Is that all right?"
+msgstr "এ-এটা তাকে যাবে না। এটা আমার কাছে থাকবে। এখানে, ভেতরে। ঠিক আছে তো?"
+
+msgid "If I find one, I'm burning it."
+msgstr "একটা পেলে আমি পুড়িয়ে দেব।"
+
+msgid "If I'd known you liked it, I'd have come by sooner."
+msgstr "জানলে যে তোমার ভালো লাগে, আগেই আসতাম।"
+
+msgid "If anyone asks, we're friends. Who swim. At night."
+msgstr "কেউ জিজ্ঞেস করলে, আমরা বন্ধু। যারা সাঁতার কাটে। রাতে।"
+
+msgid "If someone dug him a new channel, further out, I could follow it. It would take a season."
+msgstr "কেউ যদি তার জন্য আরও দূরে একটা নতুন নালা খুঁড়ে দেয়, আমি তার পিছু নিতে পারি। এক ঋতু লাগবে।"
+
+msgid "If you drop anything, I'll find it."
+msgstr "কিছু ফেলে দিলে আমি খুঁজে দেব।"
+
+msgid "If you find it before I do, don't open it."
+msgstr "আমার আগে খুঁজে পেলে খুলবে না।"
+
+msgid "If you're going to draw these, you'll draw them properly. Nobody else is coming through a circle this pathetic."
+msgstr "এগুলো আঁকতেই যদি হয়, ঠিকঠাক আঁকবে। এমন করুণ বৃত্ত দিয়ে আর কেউ আসছে না।"
 
 msgid "In Full Bloom"
 msgstr "পূর্ণ প্রস্ফুটন"
 
 msgid "In her chapters everything floats: gems rise, and new ones come up from the bottom."
 msgstr "তার অধ্যায়ে সব ভাসে: রত্ন ওপরে ওঠে, আর নতুনগুলো নিচ থেকে আসে।"
+
+msgid "In my defence, the label said newts."
+msgstr "আমার পক্ষে বলি, লেবেলে নিউট লেখা ছিল।"
+
+msgid "In my experience, the people who don't ask want something worse. So. What is it?"
+msgstr "আমার অভিজ্ঞতায়, যারা চায় না তারা আরও খারাপ কিছু চায়। তো। কী সেটা?"
+
+msgid "In the back, under a dust sheet, you find a black cover with nothing in it. The pages have been cut out with a knife."
+msgstr "পেছনে, ধুলোর চাদরের নিচে, তোমরা একটা খালি কালো মলাট পাও। পাতাগুলো ছুরি দিয়ে কেটে নেওয়া।"
 
 msgid "Instant"
 msgstr "তাৎক্ষণিক"
@@ -638,6 +1157,57 @@ msgstr "অপ্রতিরোধ্য"
 
 msgid "It has sexual content, including intimate scenes, and suggestive art. All characters are adults.\n\nPlease only continue if you're 18 or older, or the age of majority where you live."
 msgstr "এতে যৌন বিষয়বস্তু আছে, অন্তরঙ্গ দৃশ্যসহ, আর ইঙ্গিতপূর্ণ ছবি। সব চরিত্র প্রাপ্তবয়স্ক।\n\nআপনার বয়স 18 বা তার বেশি হলে, বা আপনার দেশে প্রাপ্তবয়স্ক হলে, তবেই এগিয়ে যান।"
+
+msgid "It isn't so bad, but some animals are... Barely tolerable company."
+msgstr "খুব খারাপ নয়, তবে কিছু জন্তু... কোনোমতে সহ্য করার মতো সঙ্গী।"
+
+msgid "It rains all night. None of it reaches you."
+msgstr "সারা রাত বৃষ্টি হয়। এক ফোঁটাও তোমার কাছে পৌঁছায় না।"
+
+msgid "It starts to rain"
+msgstr "বৃষ্টি শুরু হয়"
+
+msgid "It was a joke. He laughed at it every single morning for thirty-one years."
+msgstr "ওটা ঠাট্টা ছিল। একত্রিশ বছর ধরে সে রোজ সকালে ওটা নিয়ে হাসত।"
+
+msgid "It was a very good storm."
+msgstr "খুব ভালো ঝড় ছিল।"
+
+msgid "It was an excellent storm."
+msgstr "দারুণ ঝড় ছিল।"
+
+msgid "It was here. Someone moved it, and not long ago."
+msgstr "ওটা এখানে ছিল। কেউ সরিয়েছে, বেশিক্ষণ হয়নি।"
+
+msgid "It's April."
+msgstr "এখন এপ্রিল।"
+
+msgid "It's all here. All of it. I counted three times."
+msgstr "সব আছে। সব। তিনবার গুনেছি।"
+
+msgid "It's down there! I've checked everywhere else, it has to be down there!"
+msgstr "ওটা নিচে আছে! আমি সব জায়গায় খুঁজেছি, ওটা নিচেই থাকতে হবে!"
+
+msgid "It's fine. It's just roots. They have to let go of the old wall even if it hurts."
+msgstr "ঠিক আছে। শুধু শিকড়। পুরোনো দেয়াল ছাড়তেই হবে, ব্যথা লাগলেও।"
+
+msgid "It's loud out here. You're the good kind of loud."
+msgstr "বাইরে এখানে খুব শব্দ। তুমি ভালো ধরনের শব্দ।"
+
+msgid "It's not even scratched."
+msgstr "একটা আঁচড়ও নেই।"
+
+msgid "It's only when you're heaving her onto the boards that you notice the tail. It's long, it's teal, and it's slapping the pier hard enough to soak everyone."
+msgstr "তাকে তক্তার ওপর টেনে তোলার সময়ই তুমি লেজটা খেয়াল করো। লম্বা, ফিরোজা, আর জেটিতে এত জোরে আছড়ায় যে সবাই ভিজে যায়।"
+
+msgid "It's somewhere in this building. I can feel it, like a draught. You're going to help me find it before anyone else does."
+msgstr "এটা এই দালানের কোথাও আছে। আমি টের পাই, হাওয়ার ঝাপটার মতো। কেউ খুঁজে পাওয়ার আগে তুমি আমাকে খুঁজতে সাহায্য করবে।"
+
+msgid "It's the chalk. Cheap chalk gets in your throat."
+msgstr "চকটা। সস্তা চক গলায় আটকে যায়।"
+
+msgid "It's the first thing in a new collection. Things that are yours."
+msgstr "এটা একটা নতুন সংগ্রহের প্রথম জিনিস। যে জিনিসগুলো তোমার।"
 
 msgid "Item Bundle"
 msgstr "জিনিসের বান্ডেল"
@@ -666,8 +1236,17 @@ msgstr "বড়"
 msgid "Larger"
 msgstr "আরও বড়"
 
+msgid "Last night was the best thing that's happened to me in thirty-one years. Possibly... ever."
+msgstr "কাল রাত একত্রিশ বছরে আমার সঙ্গে ঘটা সবচেয়ে ভালো জিনিস। হয়তো... কোনোদিনও।"
+
+msgid "Later. The candle is down to a stub. She's lying across you on the reading room rug with one wing folded over you both like a blanket."
+msgstr "পরে। মোমবাতি এখন একটা টুকরো মাত্র। সে পাঠকক্ষের গালিচায় তোমার ওপর শুয়ে আছে, একটা ডানা দুজনের ওপর কম্বলের মতো ভাঁজ করা।"
+
 msgid "Leave"
 msgstr "চলে যান"
+
+msgid "Leave it there a minute. It's been a long time."
+msgstr "এক মিনিট ওখানেই থাক। অনেকদিন হলো।"
 
 msgid "Leave this chapter?"
 msgstr "এই অধ্যায় ছেড়ে যাবেন?"
@@ -702,6 +1281,15 @@ msgstr "প্রেমের ওষুধ চালু!"
 msgid "Loves"
 msgstr "পছন্দ"
 
+msgid "Low tide's at six. If you happen to be on the pier, you're on the pier, I'm not asking, I'm just saying when low tide is."
+msgstr "ভাটা ছটায়। যদি কাকতালীয়ভাবে জেটিতে থাকো, থাকলে, আমি বলছি না, শুধু জানাচ্ছি ভাটা কখন।"
+
+msgid "Low tide. You spend two hours turning over rocks in the pools while she works the deeper water. You find a fork and a very angry crab."
+msgstr "ভাটা। তুমি দুই ঘণ্টা ধরে জলাশয়ের পাথর উল্টাও, আর সে গভীর জল খোঁজে। তুমি পাও একটা কাঁটাচামচ আর একটা খুব রাগী কাঁকড়া।"
+
+msgid "Lunar nonsense. Next."
+msgstr "চাঁদের যত বাজে কথা। পরেরটা।"
+
 msgid "MOVES"
 msgstr "চাল"
 
@@ -716,6 +1304,12 @@ msgstr "1000টি মিল বানান।"
 
 msgid "Make a Starburst."
 msgstr "একটি তারা-বিস্ফোরণ বানান।"
+
+msgid "Make me."
+msgstr "বাধ্য করে দেখাও।"
+
+msgid "Marina Waverly"
+msgstr "মেরিনা ওয়েভারলি"
 
 msgid "Marina's power: High Tide"
 msgstr "মেরিনার ক্ষমতা: ভরা জোয়ার"
@@ -747,6 +1341,9 @@ msgstr "রুন মেলান, আমারার প্রিয়: এগ
 msgid "Matches made"
 msgstr "তৈরি মিল"
 
+msgid "Maybe I'm saving my wish for something good."
+msgstr "হয়তো আমি আমার ইচ্ছেটা ভালো কিছুর জন্য জমিয়ে রাখছি।"
+
 msgid "Meet Hazel instead of cutting her tree down."
 msgstr "হেজেলের গাছ কাটার বদলে তার সঙ্গে দেখা করুন।"
 
@@ -765,26 +1362,65 @@ msgstr "সারাইয়ের ওষুধ"
 msgid "Mending Potion active!"
 msgstr "সারাইয়ের ওষুধ চালু!"
 
+msgid "Mermaid of Saltwick Cove"
+msgstr "সল্টউইক খাঁড়ির মৎস্যকন্যা"
+
 msgid "Messages stay longer"
 msgstr "বার্তা বেশিক্ষণ থাকে"
 
 msgid "Millbrook Circle"
 msgstr "মিলব্রুক মণ্ডলী"
 
+msgid "Mind my leaves with that."
+msgstr "ওটা দিয়ে আমার পাতা সাবধান।"
+
+msgid "Mind the candle."
+msgstr "মোমবাতিটা সাবধান।"
+
+msgid "Mm. That one smells like April."
+msgstr "হুম। এটায় এপ্রিলের গন্ধ।"
+
 msgid "Moonstone"
 msgstr "চন্দ্রমণি"
+
+msgid "Moonstone. It smells like a church."
+msgstr "চন্দ্রমণি। গির্জার মতো গন্ধ।"
 
 msgid "More"
 msgstr "আরও"
 
+msgid "Morning comes in through the reading room windows. Somebody has folded your jacket into a very neat square."
+msgstr "সকাল পাঠকক্ষের জানালা দিয়ে ঢোকে। কেউ তোমার জ্যাকেটটা খুব পরিপাটি চৌকো করে ভাঁজ করেছে।"
+
+msgid "Morning in the grove. There's blossom on the east side of the tree that wasn't there last night. Hazels flower in February. It's May."
+msgstr "কুঞ্জে সকাল। গাছের পুবদিকে ফুল যা কাল রাতে ছিল না। হেজেল ফোটে ফেব্রুয়ারিতে। এখন মে।"
+
+msgid "Morning light through the bedroom curtains, and someone translucent and lilac curled over the covers."
+msgstr "শোবার ঘরের পর্দা দিয়ে সকালের আলো, আর চাদরের ওপর গুটিয়ে থাকা কেউ, স্বচ্ছ আর বেগুনি।"
+
+msgid "Morning. Your clothes are on the rail. I wrung them out myself, so you can thank me."
+msgstr "সুপ্রভাত। তোমার জামাকাপড় রেলিংয়ে। আমি নিজে নিংড়েছি, তাই ধন্যবাদ দিতে পারো।"
+
 msgid "Moss grows under some cells. A match, blast or Hammer on the cell clears it, and some moss hides one of her lost things."
 msgstr "কিছু ঘরের নিচে শ্যাওলা জন্মায়। সেই ঘরে মিল, বিস্ফোরণ বা হাতুড়ি শ্যাওলা পরিষ্কার করে, আর কিছু শ্যাওলার নিচে তার হারানো জিনিস লুকিয়ে থাকে।"
+
+msgid "Most people come down here for the game. You keep coming back for me, don't you?"
+msgstr "বেশিরভাগ লোক এখানে খেলার জন্য আসে। তুমি আমার জন্য ফিরে ফিরে আসো, তাই না?"
+
+msgid "Most summonings end the moment someone gets what they asked for. You never asked for anything. So... I stayed."
+msgstr "বেশিরভাগ ডাক শেষ হয়ে যায় যে মুহূর্তে কেউ যা চেয়েছিল তা পায়। তুমি কখনো কিছু চাওনি। তাই... আমি থেকে গেলাম।"
+
+msgid "Mostly couples who thought they'd found somewhere private. So I know a lot about... you know."
+msgstr "বেশিরভাগই জুটি যারা ভেবেছিল নিরিবিলি জায়গা পেয়েছে। তাই আমি অনেক কিছু জানি... তুমি বোঝো।"
 
 msgid "Move"
 msgstr "সরান"
 
 msgid "Moves left this chapter"
 msgstr "এই অধ্যায়ে বাকি চাল"
+
+msgid "Mum wants to feed you. Consider yourself warned."
+msgstr "মা তোমাকে খাওয়াতে চান। সতর্ক করে দিলাম।"
 
 msgid "Music"
 msgstr "সংগীত"
@@ -801,6 +1437,18 @@ msgstr "পরের হৃদয় %s পরে"
 msgid "Night scene"
 msgstr "রাতের দৃশ্য"
 
+msgid "Nine days. If we haven't found it by then, I'll tell her. Deal?"
+msgstr "নয় দিন। তার মধ্যে না পেলে আমি তাঁকে বলব। কথা দিলাম?"
+
+msgid "Nine days. Keep going."
+msgstr "নয় দিন। চালিয়ে যাও।"
+
+msgid "Nine of those and I'm off the hook."
+msgstr "এরকম নয়টা, আর আমি বেঁচে যাই।"
+
+msgid "Nine-hour wick. Hand-dipped. You know what this is for, don't you."
+msgstr "নয় ঘণ্টার সলতে। হাতে ডোবানো। তুমি জানো এটা কীসের জন্য, তাই না।"
+
 msgid "No Ads"
 msgstr "বিজ্ঞাপন ছাড়া"
 
@@ -809,6 +1457,12 @@ msgstr "অধ্যায়ের মাঝে বা মেনুর নি�
 
 msgid "No moves left — reshuffling!"
 msgstr "আর কোনো চাল নেই — আবার এলোমেলো করা হচ্ছে!"
+
+msgid "No. Absolutely not."
+msgstr "না। কিছুতেই না।"
+
+msgid "No. I've seen what those do."
+msgstr "না। আমি দেখেছি ওরা কী করে।"
 
 msgid "Normal"
 msgstr "স্বাভাবিক"
@@ -837,14 +1491,74 @@ msgstr "এখনো কিছু নেই — কোনো মেয়ের 
 msgid "Nothing yet."
 msgstr "এখনো কিছু নেই।"
 
+msgid "Now start at the alder and sleeves up."
+msgstr "এবার অল্ডার গাছ থেকে শুরু করো, আর হাতা গোটাও।"
+
+msgid "Now that's a circle I'd step out of."
+msgstr "এই তো, এমন বৃত্ত থেকে আমি নিজেই বেরোতে চাইতাম।"
+
+msgid "Now we can both stop pretending you came over here to talk about books."
+msgstr "এবার আমরা দুজনেই ভান থামাতে পারি যে তুমি এখানে বই নিয়ে কথা বলতে এসেছ।"
+
+msgid "Obviously we're getting the second owl."
+msgstr "অবশ্যই আমরা দ্বিতীয় পেঁচাটা নিচ্ছি।"
+
+msgid "Of course I'll help. What does it look like?"
+msgstr "অবশ্যই সাহায্য করব। দেখতে কেমন?"
+
 msgid "Offers appear here once Google Play is reachable."
 msgstr "Google Play-তে পৌঁছানো গেলে অফার এখানে দেখা যাবে।"
+
+msgid "Oh, I intend to."
+msgstr "ও, ঠিক সেটাই তো ইচ্ছে।"
+
+msgid "Oh, that's smooth, why can't anything else this week be smooth?"
+msgstr "ওহ, কী মসৃণ। এই সপ্তাহে আর কিছু এত মসৃণ হয় না কেন?"
+
+msgid "Oh, you're putting it down. Most argue first."
+msgstr "ও, তুমি নামিয়ে রাখছ। বেশিরভাগ আগে তর্ক করে।"
+
+msgid "Oh, you're warm... No one's touched me without an axe in years."
+msgstr "ও, তুমি উষ্ণ... বছরের পর বছর কেউ আমাকে কুড়ুল ছাড়া ছোঁয়নি।"
+
+msgid "Oh. I didn't know I did that. That's embarrassing. Do it again."
+msgstr "ওহ। আমি জানতাম না আমি এমন করি। লজ্জার ব্যাপার। আবার করো।"
+
+msgid "Okay, that one was nice."
+msgstr "আচ্ছা, ওটা সুন্দর ছিল।"
+
+msgid "Okay. A small thing."
+msgstr "আচ্ছা। ছোট্ট কিছু।"
+
+msgid "Okay. I'm going to say something and you're not allowed to be nice about it."
+msgstr "আচ্ছা। আমি একটা কথা বলব আর তুমি এ নিয়ে মিষ্টি হতে পারবে না।"
+
+msgid "Okay. The stream comes out under the Mill Bridge, in town. Things wash up there. People pick them up."
+msgstr "আচ্ছা। ঝরনাটা শহরে কল-সেতুর নিচে বেরোয়। জিনিস সেখানে তীরে ভেড়ে। লোকে কুড়িয়ে নেয়।"
+
+msgid "Old Glass Marble"
+msgstr "পুরোনো কাচের মার্বেল"
+
+msgid "On the way back there's a notice nailed to the Mill Bridge. The town has sold the north woods to an alchemist, for his workshop. Clearing starts on quarter day."
+msgstr "ফেরার পথে কল-সেতুতে একটা নোটিশ পেরেক দিয়ে আটকানো। শহর উত্তরের বন এক অ্যালকেমিস্টকে তার কারখানার জন্য বেচে দিয়েছে। গাছ কাটা শুরু হবে ত্রৈমাসিক দিনে।"
 
 msgid "Once you've cleared her first chapter, her card on the roster has a gift for her. Give it and her favourite gem shows up more often in all her chapters, for good."
 msgstr "তার প্রথম অধ্যায় শেষ করার পর, মণ্ডলীতে তার কার্ডে তার জন্য একটি উপহার থাকে। সেটা দিন, তার প্রিয় রত্ন তার সব অধ্যায়ে চিরকালের জন্য বেশি আসবে।"
 
 msgid "One wave and the whole board is dealt again, always with a move to make."
 msgstr "একবার নাড়ালেই পুরো বোর্ড আবার সাজানো হয়, সবসময় একটি চালসহ।"
+
+msgid "Ooh. That's going in the... sorry."
+msgstr "ওহ। এটা যাবে... দুঃখিত।"
+
+msgid "Opal"
+msgstr "ওপাল"
+
+msgid "Opal at the baker's counter, a loaf under one arm and a stray button in her hand."
+msgstr "বেকারির কাউন্টারে ওপাল, বগলে একটা পাউরুটি আর হাতে একটা হারানো বোতাম।"
+
+msgid "Opal moves in properly. Her collection grows a second shelf, then a third: things you've dropped, things your friends have dropped, the ticket from your first evening out together. The jar lives under the bed. She uses it twice that year, both times in thunderstorms, and both times you sit on the floor beside it while she tells you, through the glass, which of the neighbours owe each other money. She climbs out on her own before the storm is over."
+msgstr "ওপাল সত্যিই থাকতে চলে আসে। তার সংগ্রহ দ্বিতীয় তাকে, তারপর তৃতীয় তাকে গড়ায়: তুমি যা ফেলেছ, তোমার বন্ধুরা যা ফেলেছে, তোমাদের প্রথম একসঙ্গে সন্ধের টিকিট। বয়ামটা থাকে খাটের নিচে। সে বছর সে দুবার ওটা ব্যবহার করে, দুবারই বজ্রঝড়ে, আর দুবারই তুমি পাশে মেঝেতে বসে থাকো যখন সে কাচের ভেতর দিয়ে তোমাকে বলে কোন প্রতিবেশী কার কাছে টাকা ধারে। ঝড় থামার আগেই সে নিজে বেরিয়ে আসে।"
 
 msgid "Opal's power: Absorb"
 msgstr "ওপালের ক্ষমতা: শুষে নেওয়া"
@@ -873,6 +1587,9 @@ msgstr "ঝড়ের মধ্যে"
 msgid "Out of Moves"
 msgstr "চাল শেষ"
 
+msgid "Out of Season"
+msgstr "অসময়ে"
+
 msgid "Out of hearts"
 msgstr "হৃদয় শেষ"
 
@@ -888,8 +1605,14 @@ msgstr "আছে: %d"
 msgid "Pearl"
 msgstr "মুক্তা"
 
+msgid "Pearls. Gran would approve."
+msgstr "মুক্তা। দিদিমা খুশি হতেন।"
+
 msgid "Petal"
 msgstr "পাপড়ি"
+
+msgid "Petals. Good. Those I understand."
+msgstr "পাপড়ি। বেশ। এগুলো আমি বুঝি।"
 
 msgid "Pick a gem to pop."
 msgstr "ফাটানোর জন্য একটি রত্ন বাছুন।"
@@ -909,6 +1632,9 @@ msgstr "একটি রত্ন বাছুন: তার পুরো সা
 msgid "Pick up"
 msgstr "তুলুন"
 
+msgid "Pickled newts don't usually have a date pencilled on the wax: the second of January. You open it anyway."
+msgstr "আচারি নিউটের মোমে সাধারণত পেনসিলে তারিখ লেখা থাকে না: দুই জানুয়ারি। তুমি তবু খোলো।"
+
 msgid "Pictures"
 msgstr "ছবি"
 
@@ -917,6 +1643,9 @@ msgstr "মেয়েদের সঙ্গে দেখা হলে আর �
 
 msgid "Pieces of Gran's comb start near the bottom. They can't be matched or moved: clear the gems above them and they rise. One that reaches the top row is yours."
 msgstr "দিদিমার চিরুনির টুকরো তলার কাছে শুরু হয়। সেগুলো মেলানো বা সরানো যায় না: ওপরের রত্ন পরিষ্কার করুন, সেগুলো ওপরে উঠবে। যেটা সবচেয়ে ওপরের সারিতে পৌঁছায়, সেটা আপনার।"
+
+msgid "Plant something near me. So there's something of yours here when you're not."
+msgstr "আমার কাছে কিছু পোঁতো। যাতে তুমি না থাকলেও এখানে তোমার কিছু থাকে।"
 
 msgid "Play"
 msgstr "খেলুন"
@@ -960,8 +1689,14 @@ msgstr "তার ক্ষমতার বোতাম (বা 4) চাপু�
 msgid "Press her power button (or 4): the two rows nearest the surface clear, and everything rises two rows."
 msgstr "তার ক্ষমতার বোতাম (বা 4) চাপুন: জলের ওপরের সবচেয়ে কাছের দুটি সারি পরিষ্কার হয়, আর সব দুই সারি ওপরে ওঠে।"
 
+msgid "Pretty. Don't tell my sisters I said that."
+msgstr "সুন্দর। আমার বোনদের বোলো না আমি এটা বলেছি।"
+
 msgid "Put down"
 msgstr "রাখুন"
+
+msgid "Put that out."
+msgstr "ওটা নেভাও।"
 
 msgid "Putting Down Roots"
 msgstr "শিকড় গাড়া"
@@ -1032,6 +1767,15 @@ msgstr "আবার যান"
 msgid "Rune"
 msgstr "রুন"
 
+msgid "Runes make my edges go fizzy."
+msgstr "রুনে আমার কিনারা চিড়বিড় করে।"
+
+msgid "Runes. Finally, someone in this town who can draw."
+msgstr "রুন। অবশেষে এই শহরে কেউ আঁকতে জানে।"
+
+msgid "Runes. Like on the alchemists' jars."
+msgstr "রুন। অ্যালকেমিস্টদের বয়ামে যেমন থাকে।"
+
 msgid "Running out of moves still pays 1 star for every 200 points you scored (at least 3)."
 msgstr "চাল ফুরোলেও প্রতি 200 পয়েন্টে 1 তারকা মেলে (অন্তত 3)।"
 
@@ -1043,6 +1787,15 @@ msgstr "স্কোর"
 
 msgid "SEALS BROKEN"
 msgstr "ভাঙা সিলমোহর"
+
+msgid "Saltwick Cove, an hour before sunset. You're on the cliff path when the shouting starts."
+msgstr "সল্টউইক খাঁড়ি, সূর্যাস্তের এক ঘণ্টা আগে। তুমি পাহাড়ের পথে, তখন চিৎকার শুরু হয়।"
+
+msgid "Save it, then. I'll be watching you very closely until you spend it."
+msgstr "তাহলে জমিয়ে রাখো। খরচ না করা পর্যন্ত আমি তোমার ওপর খুব কাছ থেকে নজর রাখব।"
+
+msgid "Say it. The name I gave you."
+msgstr "বলো। যে নামটা আমি তোমাকে দিয়েছি।"
 
 msgid "Score 2000 on a free date."
 msgstr "খোলা ডেটে 2000 পয়েন্ট করুন।"
@@ -1058,6 +1811,9 @@ msgstr "ভাঙা সিলমোহর"
 
 msgid "See the whole picture (H)"
 msgstr "পুরো ছবি দেখুন (H)"
+
+msgid "See? Closed rings. It isn't hard."
+msgstr "দেখলে? বন্ধ বৃত্ত। কঠিন কিছু নয়।"
 
 msgid "Seeds can't be moved. Make matches next to them to make them grow."
 msgstr "বীজ সরানো যায় না। বড় করতে তাদের পাশে মিল বানান।"
@@ -1083,6 +1839,135 @@ msgstr "টুকরো-ভাঙিয়ে"
 msgid "Shard smashed!"
 msgstr "টুকরো চুরমার!"
 
+msgid "She bites the corner of it before she's even said thank you."
+msgstr "ধন্যবাদ দেওয়ার আগেই সে একটা কোণ কামড়ে দেখে।"
+
+msgid "She burns them in the reading room fireplace at four in the morning, one at a time. Each one goes up green. The loose page from your desk goes last: she tears her name off the corner and burns only that."
+msgstr "সে ভোর চারটেয় পাঠকক্ষের অগ্নিকুণ্ডে সেগুলো একটা একটা করে পোড়ায়। প্রতিটি সবুজ হয়ে জ্বলে। তোমার টেবিলের আলগা পাতাটা যায় সবার শেষে: সে কোণ থেকে নিজের নামটা ছিঁড়ে শুধু সেটুকু পোড়ায়।"
+
+msgid "She ducks under before you can answer and comes up a few yards away, pretending to search."
+msgstr "তুমি উত্তর দেওয়ার আগেই সে ডুব দেয় আর কয়েক মিটার দূরে ভেসে ওঠে, খোঁজার ভান করে।"
+
+msgid "She falls asleep first, which she will deny. The tide comes in under the boathouse doors and goes out again."
+msgstr "সে আগে ঘুমিয়ে পড়ে, যেটা সে অস্বীকার করবে। জোয়ার নৌকাঘরের ফটকের নিচ দিয়ে ঢোকে আর আবার নেমে যায়।"
+
+msgid "She flicks her tail and soaks you a second time, very deliberately."
+msgstr "সে লেজ ঝাপটে তোমাকে দ্বিতীয়বার ভিজিয়ে দেয়, একদম ইচ্ছে করে।"
+
+msgid "She goes cloudy."
+msgstr "সে ঘোলা হয়ে যায়।"
+
+msgid "She goes outside on her own for the first time to buy bread. She's gone twenty minutes. You both pretend you weren't worried."
+msgstr "সে প্রথমবার একা রুটি কিনতে বেরোয়। কুড়ি মিনিট লাগে। তোমরা দুজনেই ভান করো যে চিন্তা হয়নি।"
+
+msgid "She goes slightly pink all the way through, like a drop of dye in a glass of water."
+msgstr "সে পুরো শরীরে হালকা গোলাপি হয়ে যায়, এক গ্লাস জলে এক ফোঁটা রঙের মতো।"
+
+msgid "She grabs you by the collar and kisses you, hard and quick, then looks horrified at herself."
+msgstr "সে তোমার কলার ধরে তোমাকে চুমু খায়, জোরে আর দ্রুত, তারপর নিজের ওপরই আতঙ্কিত দেখায়।"
+
+msgid "She holds out a button. It's yours. It came off your sleeve when you reached into the hollow for her jar, and you never noticed."
+msgstr "সে একটা বোতাম বাড়িয়ে দেয়। তোমার। তার বয়ামের জন্য গর্তে হাত ঢোকানোর সময় তোমার হাতা থেকে খুলে গিয়েছিল, আর তুমি কখনো খেয়ালই করোনি।"
+
+msgid "She holds the marble up to her eye, then presses it gently into her own palm. It sinks in and floats there, inside her hand, where she can see it."
+msgstr "সে মার্বেলটা চোখের সামনে তোলে, তারপর আলতো করে নিজের হাতের তালুতে চেপে দেয়। ওটা ডুবে যায় আর সেখানে ভাসতে থাকে, তার হাতের ভেতরে, যেখানে সে দেখতে পায়।"
+
+msgid "She hooks a finger in your collar and pulls you down until you're nose to nose over the reading table."
+msgstr "সে তোমার কলারে আঙুল আটকে তোমাকে নিচে টানে, যতক্ষণ না পাঠের টেবিলের ওপর তোমাদের নাকে নাক ঠেকে।"
+
+msgid "She hooks a foot round your ankle and reels you in the last step."
+msgstr "সে তোমার গোড়ালিতে পা পেঁচিয়ে শেষ ধাপটুকু তোমাকে টেনে আনে।"
+
+msgid "She kisses you again, slower, just to be sure."
+msgstr "সে তোমাকে আবার চুমু খায়, আস্তে, শুধু নিশ্চিত হতে।"
+
+msgid "She kisses you, slower than in the storm. When she pulls back she's breathing hard, and it isn't from swimming."
+msgstr "সে তোমাকে চুমু খায়, ঝড়ের চেয়ে আস্তে। সরে যাওয়ার সময় তার শ্বাস ভারী, আর সেটা সাঁতারের জন্য নয়।"
+
+msgid "She laughs into your shoulder until she gets the hiccups."
+msgstr "সে তোমার কাঁধে মুখ গুঁজে হাসতে থাকে যতক্ষণ না হেঁচকি ওঠে।"
+
+msgid "She laughs, and a shower of rainwater falls off her leaves onto your head."
+msgstr "সে হাসে, আর তার পাতা থেকে এক পশলা বৃষ্টির জল তোমার মাথায় ঝরে।"
+
+msgid "She looks at the axe, then at the place on the trunk you were aiming for."
+msgstr "সে কুড়ুলটার দিকে তাকায়, তারপর গুঁড়ির সেই জায়গার দিকে যেখানে তুমি তাক করছিলে।"
+
+msgid "She looks past you at the hollow: at the moss, pressed flat in neat little rows where something used to be laid out, and at the stream running fast and brown."
+msgstr "সে তোমার পেছনে গর্তটার দিকে তাকায়: শ্যাওলার দিকে, যা ছোট ছোট পরিপাটি সারিতে চেপে আছে যেখানে কিছু সাজানো ছিল, আর ঝরনার দিকে, যা দ্রুত আর ঘোলা বইছে।"
+
+msgid "She makes you hold it up in the one patch of sun that gets through her leaves, and watches the shadow for a long time."
+msgstr "সে তোমাকে দিয়ে এটা ধরায় তার পাতা ভেদ করে আসা একমাত্র রোদের টুকরোয়, আর অনেকক্ষণ ছায়াটা দেখে।"
+
+msgid "She narrows her eyes, looking for the catch. There isn't one."
+msgstr "সে চোখ সরু করে, কোনো ফাঁদ খোঁজে। কোনো ফাঁদ নেই।"
+
+msgid "She picks up a stack of books anyway and asks where the poetry goes."
+msgstr "তবু সে একগাদা বই তুলে নেয় আর জিজ্ঞেস করে কবিতা কোথায় যায়।"
+
+msgid "She picks up the candle so she has something to do with her hands."
+msgstr "সে মোমবাতিটা তুলে নেয় যাতে হাতদুটো কিছু নিয়ে ব্যস্ত থাকে।"
+
+msgid "She pulls you down by your shirt. Her hair falls round you both, gold at the top and green at the ends, and it smells of rain."
+msgstr "সে তোমার জামা ধরে তোমাকে নিচে টানে। তার চুল তোমাদের দুজনকে ঘিরে পড়ে, ওপরে সোনালি আর ডগায় সবুজ, তাতে বৃষ্টির গন্ধ।"
+
+msgid "She pulls your arms round her neck so you don't have to tread water, and holds you up with her tail."
+msgstr "সে তোমার বাহু নিজের গলায় জড়িয়ে নেয় যাতে তোমাকে জলে পা ছুড়তে না হয়, আর লেজ দিয়ে তোমাকে ভাসিয়ে রাখে।"
+
+msgid "She rides in a big glass jar in your arms with the lid off, and counts every button as you drop it in."
+msgstr "সে তোমার কোলে ঢাকনা খোলা একটা বড় কাচের বয়ামে চড়ে যায়, আর তুমি যে বোতামই ফেলো গুনে নেয়।"
+
+msgid "She says it, but she doesn't swim off."
+msgstr "বলে তো, কিন্তু সাঁতরে চলে যায় না।"
+
+msgid "She sets it beside the stub in your chalk circle and lights it from the old flame before the old one can go out."
+msgstr "সে তোমার চকের বৃত্তের মোমবাতির টুকরোটার পাশে এটা রাখে আর পুরোনো শিখা নেভার আগেই তা থেকে জ্বালিয়ে নেয়।"
+
+msgid "She shows you which branches you can sit on and which ones she's ticklish about. The second list is long."
+msgstr "সে তোমাকে দেখায় কোন ডালে বসা যায় আর কোনটায় তার কাতুকুতু লাগে। দ্বিতীয় তালিকাটা লম্বা।"
+
+msgid "She sits on the end of the pier with her tail in the water. After a while she leans on your shoulder, as if by accident."
+msgstr "সে জেটির কিনারায় লেজ জলে ডুবিয়ে বসে। খানিক পরে তোমার কাঁধে হেলান দেয়, যেন অজান্তে।"
+
+msgid "She sits on the reading table, which you've asked her twice not to do, and moves the candle so it won't drip on the returns."
+msgstr "সে পাঠের টেবিলে বসে, যেটা তুমি দুবার মানা করেছ, আর মোমবাতিটা সরিয়ে দেয় যাতে ফেরত বইয়ে মোম না পড়ে।"
+
+msgid "She steps over the chalk line herself, careful not to smudge it, and picks the page up. You realise you've been staring."
+msgstr "সে নিজেই চকের রেখা ডিঙোয়, সাবধানে যাতে মুছে না যায়, আর পাতাটা তুলে নেয়। তুমি টের পাও যে এতক্ষণ তার দিকে তাকিয়ে ছিলে।"
+
+msgid "She takes your hand and presses it flat to her chest. Under the silk, something is beating far too fast for anyone that old."
+msgstr "সে তোমার হাত নিয়ে নিজের বুকে চেপে ধরে। রেশমের নিচে কিছু একটা ধুকপুক করছে, এত বয়সী কারও পক্ষে অনেক বেশি দ্রুত।"
+
+msgid "She takes your hand and presses it gently against her. It sinks in a little, cool and soft, and she shivers."
+msgstr "সে তোমার হাত নিয়ে আলতো করে নিজের গায়ে চাপে। হাতটা একটু ডুবে যায়, ঠান্ডা আর নরম, আর সে কেঁপে ওঠে।"
+
+msgid "She talks until the storm passes. You fall asleep against her before she's finished, and she doesn't seem to mind."
+msgstr "ঝড় না থামা পর্যন্ত সে কথা বলে। সে শেষ করার আগেই তুমি তার গায়ে হেলান দিয়ে ঘুমিয়ে পড়ো, আর তার আপত্তি আছে বলে মনে হয় না।"
+
+msgid "She ties the cord round her neck with a double knot, so it can't come off in the water."
+msgstr "সে সুতোটা দুই গিঁটে গলায় বাঁধে, যাতে জলে খুলে না যায়।"
+
+msgid "She turns pink, which, on Opal, is very easy to see."
+msgstr "সে গোলাপি হয়ে যায়, যেটা ওপালের বেলায় খুব সহজে চোখে পড়ে।"
+
+msgid "She turns round and lifts her hair off her neck. The dress fastens with a row of tiny hooks, from the collar down to where her wings begin."
+msgstr "সে ঘুরে দাঁড়ায় আর ঘাড় থেকে চুল তোলে। পোশাকটা আটকানো ছোট্ট হুকের একটা সারিতে, কলার থেকে যেখানে তার ডানা শুরু হয় সেই পর্যন্ত।"
+
+msgid "She turns the candle over in her hands and sniffs the wax, which seems to be the professional way to check."
+msgstr "সে মোমবাতিটা হাতে ঘুরিয়ে মোম শোঁকে, যেটা সম্ভবত পরীক্ষা করার পেশাদার উপায়।"
+
+msgid "She was being friendly. You're the one I come here for."
+msgstr "সে শুধু ভদ্রতা করছিল। আমি এখানে আসি তোমার জন্য।"
+
+msgid "She won't even be angry. She'll just say 'oh, Mari', the way Mum does."
+msgstr "তিনি রাগও করবেন না। শুধু বলবেন \"ও মারি\", মায়ের মতো।"
+
+msgid "She won't leave the candle behind. She carries it to Wick Street cupped in both hands, and makes you walk on the windy side."
+msgstr "সে মোমবাতিটা ফেলে যায় না। দুহাতে আগলে সলতে গলিতে নিয়ে যায়, আর তোমাকে হাওয়ার দিকে হাঁটায়।"
+
+msgid "She's tall, horned and dressed for somewhere much nicer than a library. She crouches to look at your circle, and tuts."
+msgstr "সে লম্বা, শিংওয়ালা, আর গ্রন্থাগারের চেয়ে অনেক জাঁকালো কোনো জায়গার মতো সাজে। সে উবু হয়ে তোমার বৃত্ত দেখে, আর জিভ দিয়ে চুকচুক করে।"
+
 msgid "Shop"
 msgstr "দোকান"
 
@@ -1094,6 +1979,12 @@ msgstr "ছোট অ্যানিমেশন, শান্ত প্রভ�
 
 msgid "Shuffle Wand"
 msgstr "এলোমেলো করার ছড়ি"
+
+msgid "Since the grove was a forest. Two hundred years, give or take a drought."
+msgstr "যখন এই কুঞ্জ একটা বন ছিল তখন থেকে। দুশো বছর, এক-আধটা খরা এদিক-ওদিক।"
+
+msgid "Six tomorrow, lifeguard."
+msgstr "কাল ছটায়, উদ্ধারকারী।"
 
 msgid "Skip"
 msgstr "এড়িয়ে যান"
@@ -1128,8 +2019,29 @@ msgstr "সব এড়ান"
 msgid "Skips this chapter's puzzle: no stars for it."
 msgstr "এই অধ্যায়ের ধাঁধা এড়িয়ে যায়: এর তারকা পাবেন না।"
 
+msgid "Slime, formerly of a jar"
+msgstr "স্লাইম, আগে একটা বয়ামে থাকত"
+
 msgid "Slow"
 msgstr "ধীর"
+
+msgid "Slower. I can hear you panicking."
+msgstr "আস্তে। আমি তোমার ঘাবড়ানো শুনতে পাচ্ছি।"
+
+msgid "Slowly. I've got all the time in the world, and I'd like to spend some of it on this."
+msgstr "আস্তে। আমার হাতে পৃথিবীর সব সময়, আর আমি তার কিছুটা এতে খরচ করতে চাই।"
+
+msgid "Smart. Unspent wishes don't expire. I knew a man who sat on one until he died."
+msgstr "চালাক। না-খরচ করা ইচ্ছের মেয়াদ ফুরোয় না। আমি এমন এক লোককে চিনতাম যে মৃত্যু পর্যন্ত একটা আঁকড়ে বসে ছিল।"
+
+msgid "So she climbs out of her jar in the middle of the shop, in front of everyone, and asks for it herself."
+msgstr "তাই সে দোকানের মাঝখানে, সবার সামনে বয়াম থেকে বেরিয়ে নিজেই চায়।"
+
+msgid "So. Are you telling them how we met, or am I?"
+msgstr "তো। ওদের তুমি বলবে আমাদের কীভাবে দেখা হলো, নাকি আমি?"
+
+msgid "So. Last night. I've been floating close by trying to think of a word for it, and I've got it down to three, and they're all very rude."
+msgstr "তো। কাল রাত। আমি অনেকক্ষণ এখানে ভেসে ভেসে এর জন্য একটা শব্দ খুঁজছি, আর তিনটে পর্যন্ত নামিয়েছি, আর তিনটেই খুব অশ্লীল।"
 
 msgid "Soft as Moss"
 msgstr "শ্যাওলার মতো নরম"
@@ -1137,8 +2049,29 @@ msgstr "শ্যাওলার মতো নরম"
 msgid "Some gems carry her ink seal. A sealed gem can't be picked up, but it still counts in a match you make by moving the gems beside it. The first match, blast or Hammer breaks the seal and the gem stays."
 msgstr "কিছু রত্নে তার কালির সিলমোহর থাকে। সিলমোহর করা রত্ন সরানো যায় না, তবে পাশের রত্ন সরিয়ে বানানো মিলে সেটা গোনা হয়। প্রথম মিল, বিস্ফোরণ বা হাতুড়ি সিলমোহর ভাঙে, আর রত্নটা থেকে যায়।"
 
+msgid "Someone bought that off a market stall. I can tell."
+msgstr "কেউ এটা বাজারের দোকান থেকে কিনেছে। বোঝা যায়।"
+
+msgid "Someone in this town knows exactly what that book is."
+msgstr "এই শহরের কেউ ঠিক জানে বইটা কী।"
+
 msgid "Something about to happen on your date. Matching her favourite gem holds it off a move; a Charm Burst clears it."
 msgstr "আপনার ডেটে কিছু একটা ঘটতে চলেছে। তার প্রিয় রত্ন মেলালে এটা এক চাল পিছোয়; আকর্ষণ বিস্ফোরণ এটা বাতিল করে।"
+
+msgid "Something cool and slightly heavy is draped over you like a blanket. It turns out to be her."
+msgstr "ঠান্ডা আর একটু ভারী কিছু তোমার ওপর কম্বলের মতো বিছিয়ে আছে। দেখা যায় সেটা সে-ই।"
+
+msgid "Something pours over the rim, slow and shining, pale lilac with flashes of green and pink in it. You jump back so fast you kick half the hollow into the stream. It gathers itself on a root into the shape of a woman, and she does not look happy."
+msgstr "কিনারা বেয়ে কিছু একটা গড়িয়ে নামে, ধীর আর ঝলমলে, ফিকে বেগুনি, তাতে সবুজ আর গোলাপি ঝিলিক। তুমি এত জোরে পিছিয়ে লাফাও যে লাথি লেগে অর্ধেক গর্ত ঝরনায় পড়ে যায়। জিনিসটা একটা শিকড়ের ওপর জড়ো হয়ে এক নারীর রূপ নেয়, আর তাকে খুশি দেখায় না।"
+
+msgid "Sorry. I don't usually get to tell anyone."
+msgstr "দুঃখিত। সাধারণত কাউকে বলার সুযোগ পাই না।"
+
+msgid "Sorry. I spread out in my sleep. I didn't know that. I've never slept anywhere big enough to find out."
+msgstr "দুঃখিত। আমি ঘুমের মধ্যে ছড়িয়ে পড়ি। জানতাম না। কখনো এত বড় জায়গায় ঘুমোইনি যে জানতে পারব।"
+
+msgid "Sorry. I'm watching. Is that all right?"
+msgstr "দুঃখিত। আমি দেখছি। ঠিক আছে তো?"
 
 msgid "Sound Effects"
 msgstr "শব্দ প্রভাব"
@@ -1170,8 +2103,14 @@ msgstr "তারকা — অধ্যায় শেষ করে পাও�
 msgid "Starstruck"
 msgstr "তারায় মুগ্ধ"
 
+msgid "Start at the alder. I'll enjoy the view."
+msgstr "অল্ডার থেকে শুরু করো। আমি দৃশ্যটা উপভোগ করব।"
+
 msgid "Start her story over from the beginning"
 msgstr "তার গল্প একেবারে শুরু থেকে আবার শুরু করুন"
+
+msgid "Start with the baker. He leans on me when he smokes."
+msgstr "রুটিওয়ালা দিয়ে শুরু করো। সে ধূমপানের সময় আমার গায়ে হেলান দেয়।"
 
 msgid "Starter Pack"
 msgstr "স্টার্টার প্যাক"
@@ -1179,8 +2118,26 @@ msgstr "স্টার্টার প্যাক"
 msgid "Stats"
 msgstr "পরিসংখ্যান"
 
+msgid "Stay till the candle goes. Then stay anyway."
+msgstr "মোমবাতি না নেভা পর্যন্ত থাকো। তারপরও থাকো।"
+
+msgid "Stay tonight. I'll keep the rain off."
+msgstr "আজ রাতে থেকে যাও। বৃষ্টি আমি আটকাব।"
+
+msgid "Stay where you are. Don't break the circle. If that candle goes out, I go home, and I'm not done with you."
+msgstr "যেখানে আছ সেখানেই থাকো। বৃত্ত ভাঙবে না। মোমবাতি নিভলে আমি বাড়ি চলে যাব, আর তোমার সঙ্গে আমার কাজ এখনো শেষ হয়নি।"
+
+msgid "Still nothing?"
+msgstr "এখনো কিছু না?"
+
 msgid "Stop here. This scene plays again next time you visit her."
 msgstr "এখানে থামুন। পরের বার তার কাছে গেলে এই দৃশ্য আবার চলবে।"
+
+msgid "Stop pretending you're looking for the book. You've walked past this table eleven times tonight, and the book isn't on it. I am."
+msgstr "বই খোঁজার ভান বন্ধ করো। আজ রাতে তুমি এই টেবিলের পাশ দিয়ে এগারোবার গেছ, আর বইটা এখানে নেই। আমি আছি।"
+
+msgid "Stop. I'll go cloudy."
+msgstr "থামো। আমি ঘোলা হয়ে যাব।"
 
 msgid "Store"
 msgstr "দোকান"
@@ -1200,11 +2157,17 @@ msgstr "গল্পের কঠিনতা: এই অধ্যায় ন�
 msgid "Story: twice the moves, and you can skip any chapter. Hard: every few moves something happens on your date (a wave over the pier, the candles gutter), shown in advance. Takes effect from the next chapter."
 msgstr "গল্প: দ্বিগুণ চাল, আর যেকোনো অধ্যায় এড়াতে পারবেন। কঠিন: প্রতি কয়েক চালে ডেটে কিছু ঘটে (ঘাটে ঢেউ, মোমবাতি নিভু নিভু), আগে থেকে জানানো হয়। পরের অধ্যায় থেকে কার্যকর।"
 
+msgid "Succubus, summoned by mistake"
+msgstr "সাকিউবাস, ভুল করে ডেকে আনা"
+
 msgid "Summer"
 msgstr "গ্রীষ্ম"
 
 msgid "Summer!"
 msgstr "গ্রীষ্ম!"
+
+msgid "Sure. After I've shelved these returns."
+msgstr "বেশ। এই ফেরত বইগুলো তাকে তোলার পর।"
 
 msgid "Swap"
 msgstr "বদলান"
@@ -1218,14 +2181,41 @@ msgstr "পাশাপাশি দুটি রত্নের জায়গ
 msgid "Swap two special gems together."
 msgstr "দুটি বিশেষ রত্ন একসঙ্গে বদলান।"
 
+msgid "Swim with me later. Don't embarrass me again."
+msgstr "পরে আমার সঙ্গে সাঁতার কেটো। আবার আমাকে লজ্জায় ফেলো না।"
+
 msgid "THINGS FOUND"
 msgstr "খুঁজে পাওয়া জিনিস"
 
 msgid "TIP"
 msgstr "পরামর্শ"
 
+msgid "Take your time. I've got about three hundred years."
+msgstr "তাড়া নেই। আমার হাতে মোটামুটি তিনশো বছর।"
+
+msgid "Talk to me. About anything. Your voice helps me get through it."
+msgstr "আমার সঙ্গে কথা বলো। যা খুশি। তোমার গলা আমাকে এটা পার করতে সাহায্য করে।"
+
 msgid "Tap a gem!"
 msgstr "একটি রত্ন ছুঁয়ে দিন!"
+
+msgid "Tell her the jeweller ran off with a sea captain."
+msgstr "বলো জহুরি এক জাহাজের কাপ্তানের সঙ্গে পালিয়েছে।"
+
+msgid "Tell her the truth. She'll understand."
+msgstr "তাঁকে সত্যি বলো। তিনি বুঝবেন।"
+
+msgid "Tell me about the grove when it was a forest."
+msgstr "যখন এই কুঞ্জ বন ছিল, তার কথা বলো।"
+
+msgid "Tell me about the others while we look."
+msgstr "খুঁজতে খুঁজতে বাকিগুলোর কথা বলো।"
+
+msgid "Tell me if I get this wrong. I've read about it in exactly one book, and a woodcutter dropped it here before the mill was built."
+msgstr "ভুল করলে বোলো। আমি এ নিয়ে ঠিক একটা বইয়ে পড়েছি, আর কল তৈরির আগে এক কাঠুরে সেটা এখানে ফেলে গিয়েছিল।"
+
+msgid "Tempting. You'd have to do my shelving."
+msgstr "লোভনীয়। তখন তোমাকে আমার বই সাজাতে হবে।"
 
 msgid "Test purchase"
 msgstr "পরীক্ষামূলক কেনাকাটা"
@@ -1239,14 +2229,119 @@ msgstr "লেখার গতি"
 msgid "Text size"
 msgstr "লেখার আকার"
 
+msgid "Th-thank you. Sorry. No. Not sorry. Thank you."
+msgstr "ধ-ধন্যবাদ। দুঃখিত। না। দুঃখিত না। ধন্যবাদ।"
+
+msgid "Th-thank you. Sorry. Thank you."
+msgstr "ধ-ধন্যবাদ। দুঃখিত। ধন্যবাদ।"
+
+msgid "Th-that was good. That was really good."
+msgstr "ও-ওটা ভালো ছিল। খুব ভালো ছিল।"
+
 msgid "Thanks for playing the demo!"
 msgstr "ডেমো খেলার জন্য ধন্যবাদ!"
+
+msgid "That catches the light. Do another."
+msgstr "ওটা আলো ধরে। আরেকটা।"
+
+msgid "That night she climbs down from her branch and walks out across the grass, further than you've ever seen her go."
+msgstr "সেই রাতে সে ডাল থেকে নেমে ঘাসের ওপর দিয়ে হেঁটে যায়, তুমি তাকে যতদূর যেতে দেখেছ তার চেয়ে অনেক দূরে।"
+
+msgid "That one would actually hold a demon."
+msgstr "ওটা সত্যিই একটা দানবকে আটকে রাখত।"
+
+msgid "That one's fine. That one's fine. Not that one. I mean it. Don't."
+msgstr "ওটা ঠিক আছে। ওটা ঠিক আছে। ওটা না। সত্যি বলছি। না।"
+
+msgid "That sounds strange out loud. Don't answer that."
+msgstr "জোরে বললে অদ্ভুত শোনায়। উত্তর দিয়ো না।"
+
+msgid "That was the storm. Don't make it a thing."
+msgstr "ওটা ঝড়ের জন্য। এ নিয়ে বড় কিছু বানিয়ো না।"
+
+msgid "That was very nice. Thank you."
+msgstr "খুব সুন্দর ছিল। ধন্যবাদ।"
+
+msgid "That was. Okay. I don't have a word. I always have a word."
+msgstr "ওটা ছিল। আচ্ছা। আমার কোনো শব্দ নেই। আমার সবসময় শব্দ থাকে।"
+
+msgid "That's a dry-land gem. Put it back."
+msgstr "ওটা ডাঙার রত্ন। রেখে দাও।"
+
+msgid "That's a good trench, for a grave."
+msgstr "ভালো খাদ, কবরের জন্য।"
+
+msgid "That's actually good. She'd believe that."
+msgstr "এটা আসলে ভালো। তিনি বিশ্বাস করবেন।"
+
+msgid "That's all of them. I'm free. No more circles. Nobody can drag me anywhere ever again."
+msgstr "এই শেষ। আমি মুক্ত। আর কোনো বৃত্ত নয়। কেউ আর কখনো আমাকে কোথাও টেনে নিতে পারবে না।"
+
+msgid "That's autumn."
+msgstr "ওটা হেমন্ত।"
+
+msgid "That's lovely. Keep going."
+msgstr "সুন্দর। চালিয়ে যাও।"
+
+msgid "That's nine more hours you can't get rid of me. You did that on purpose."
+msgstr "মানে আরও নয় ঘণ্টা তুমি আমার হাত থেকে রেহাই পাবে না। তুমি ইচ্ছে করে করেছ।"
+
+msgid "That's off the comb's box. So it went right in there."
+msgstr "এটা চিরুনির বাক্সের। তার মানে ঠিক এখানেই পড়েছে।"
+
+msgid "That's real. The sea made that. People tumble old bottles in a barrel and sell it as sea glass."
+msgstr "এটা আসল। সমুদ্র বানিয়েছে। কেউ কেউ পুরোনো বোতল পিপেয় ঘুরিয়ে সমুদ্র-কাচ বলে বেচে।"
+
+msgid "That's the good stuff. Again."
+msgstr "এই তো আসল জিনিস। আবার।"
+
+msgid "That's why Ambrose put me in the jar. Nobody looks inside a jar of pickled newts. We were the same age when he did it, near enough. He got old."
+msgstr "সেই জন্যই অ্যামব্রোজ আমাকে বয়ামে রেখেছিল। আচারি নিউটের বয়ামে কেউ উঁকি দেয় না। যখন সে এটা করেছিল, আমরা প্রায় সমবয়সী ছিলাম। সে বুড়ো হয়ে গেল।"
+
+msgid "That's you. You did that. A month of you leaning on me with your sleeves rolled up."
+msgstr "এটা তুমি। তুমি এটা করেছ। এক মাস হাতা গুটিয়ে আমার গায়ে হেলান দিয়ে।"
+
+msgid "That's your fault. I'd like that on record."
+msgstr "এটা তোমার দোষ। এটা লিখে রাখা হোক।"
 
 msgid "The Time Scroll (three more moves), the Hammer (smash any one gem) and the Shuffle Wand (a new board) sit under the board. Buy them, and potions that help a whole chapter, in the Item Shop with the stars you earn."
 msgstr "সময়-পত্র (আরও তিনটি চাল), হাতুড়ি (যেকোনো একটি রত্ন ভাঙুন) আর এলোমেলো করার ছড়ি (নতুন বোর্ড) বোর্ডের নিচে থাকে। এগুলো, আর পুরো অধ্যায়ে সাহায্য করা ওষুধ, অর্জিত তারকা দিয়ে জিনিসের দোকানে কিনুন।"
 
+msgid "The animals are watching. I told them to go away. Nobody in this grove listens to me."
+msgstr "জন্তুরা দেখছে। আমি ওদের চলে যেতে বলেছি। এই কুঞ্জে কেউ আমার কথা শোনে না।"
+
+msgid "The boathouse slipway at sunrise, two sets of clothes drying on the rail."
+msgstr "সূর্যোদয়ে নৌকাঘরের ঢাল, রেলিংয়ে শুকোচ্ছে দুই প্রস্থ জামাকাপড়।"
+
+msgid "The boathouse smells of tar and salt. There's a heap of old sails in the corner, and she pulls you down onto them by your wet shirt."
+msgstr "নৌকাঘরে আলকাতরা আর নুনের গন্ধ। কোণে পুরোনো পালের একটা স্তূপ, আর সে তোমার ভেজা জামা ধরে তোমাকে তার ওপর টেনে নেয়।"
+
+msgid "The book is in this building. Keep going."
+msgstr "বইটা এই দালানেই আছে। চালিয়ে যাও।"
+
+msgid "The candle burns down to nothing, and neither of you notices when it goes out."
+msgstr "মোমবাতি পুড়ে নিঃশেষ হয়, আর কখন নিভল তোমরা কেউ খেয়ালও করো না।"
+
+msgid "The candle in your chalk circle, the fourth one this week, is nearly gone. She watches it gutter and doesn't go anywhere."
+msgstr "তোমার চকের বৃত্তের মোমবাতি, এই সপ্তাহের চতুর্থটা, প্রায় শেষ। সে সেটাকে কাঁপতে দেখে আর কোথাও যায় না।"
+
+msgid "The candles gutter"
+msgstr "মোমবাতিগুলো কাঁপে"
+
+msgid "The card catalogue has a gap where the book should be. Someone has left a slip in the drawer instead: OUT FOR REBINDING, and a name."
+msgstr "কার্ড-তালিকায় যেখানে বইটা থাকার কথা সেখানে ফাঁকা। তার বদলে কেউ ড্রয়ারে একটা চিরকুট রেখে গেছে: বাঁধাইয়ে গেছে, আর একটা নাম।"
+
+msgid "The comb is in a tin of odds and ends on the Pellow brothers' boat: fishing weights, a doll's head, and nine pearls on a silver spine. It costs you two weeks' pay and a lot of explaining."
+msgstr "চিরুনিটা পেলো ভাইদের নৌকায় এক টিনভর্তি হাবিজাবির মধ্যে: মাছ ধরার ভার, একটা পুতুলের মাথা, আর রুপোর পিঠে নয়টা মুক্তা। এর দাম তোমার দুই সপ্তাহের মজুরি আর অনেক ব্যাখ্যা।"
+
 msgid "The comb piece can't be hammered. Bring it up to the surface."
 msgstr "চিরুনির টুকরোয় হাতুড়ি চলে না। সেটাকে ওপরে তুলে আনুন।"
+
+msgid "The ferns tell me you were talking to the miller's daughter. I'm not jealous. But I might drop a branch near her, that's all."
+msgstr "ফার্নগুলো বলছে তুমি কলওয়ালার মেয়ের সঙ্গে কথা বলছিলে। আমার হিংসে নেই। তবে হয়তো আমি তার কাছে একটা ডাল ফেলে দিতে পারি, এই আর কী।"
+
+msgid "The flame leans sideways. Then it goes green. Smoke fills the circle, smelling of struck matches and expensive perfume, and someone steps out of it, coughing."
+msgstr "শিখা পাশে হেলে পড়ে। তারপর সবুজ হয়ে যায়। বৃত্ত ধোঁয়ায় ভরে ওঠে, জ্বালানো দেশলাই আর দামি সুগন্ধির গন্ধে, আর তার ভেতর থেকে কেউ কাশতে কাশতে বেরিয়ে আসে।"
 
 msgid "The full game has four stories: Hazel's, and three more women of Millbrook to meet in the worst way possible. Each has four chapters, her night scene and her ending."
 msgstr "পুরো গেমে চারটি গল্প: হেজেলের, আর মিলব্রুকের আরও তিনজন নারী যাদের সঙ্গে আপনার দেখা হয় সবচেয়ে খারাপভাবে। প্রত্যেকের চারটি অধ্যায়, তার রাতের দৃশ্য আর তার সমাপ্তি।"
@@ -1257,23 +2352,158 @@ msgstr "গেমের লেখা। কণ্ঠ ইংরেজিতেই
 msgid "The girls are voiced by amateur voice actresses, recorded at home. We love how they turned out, but they aren't studio recordings, and not every line is voiced yet.\n\nIf you'd rather read in your own head, turn the voices off. You can change this any time in Settings."
 msgstr "মেয়েদের কণ্ঠ দিয়েছেন শখের কণ্ঠশিল্পীরা, বাড়িতে রেকর্ড করে। ফলাফল আমাদের খুব ভালো লেগেছে, তবে এগুলো স্টুডিও রেকর্ডিং নয়, আর এখনো সব লাইনে কণ্ঠ দেওয়া হয়নি।\n\nমনে মনে পড়তে চাইলে কণ্ঠ বন্ধ করুন। সেটিংসে যেকোনো সময় এটা বদলাতে পারবেন।"
 
+msgid "The glass eye turns up in the window of the taxidermist's on Lantern Street, in a stuffed owl. The taxidermist won't sell it. He says the owl needs it."
+msgstr "কাচের চোখটা লণ্ঠন গলির এক চর্মপূরকের জানালায়, একটা ভরাট পেঁচার মধ্যে দেখা যায়। চর্মপূরক বেচবে না। বলে পেঁচাটার ওটা দরকার।"
+
+msgid "The green at the tips of her hair goes a shade darker. She notices, and decides not to mention it."
+msgstr "তার চুলের ডগার সবুজ এক পরত গাঢ় হয়। সে খেয়াল করে, আর বলবে না বলে ঠিক করে।"
+
+msgid "The jar stays empty all night."
+msgstr "বয়ামটা সারা রাত খালি থাকে।"
+
+msgid "The jar... Should I keep it?"
+msgstr "বয়ামটা... আমি কি রেখে দেব?"
+
+msgid "The keys went to a locksmith, he says. And the glass eye went to someone who needed a glass eye, I suppose."
+msgstr "সে বলছে চাবিগুলো এক তালাওয়ালার কাছে গেছে। আর কাচের চোখটা এমন কারও কাছে যার কাচের চোখ দরকার ছিল, মনে হয়।"
+
+msgid "The ledger leads you straight back to your own library. The last pages were sold to it in March as loose leaves, assorted, and filed in the rare books vault under Miscellaneous, Infernal."
+msgstr "খাতা তোমাদের সোজা তোমার নিজের গ্রন্থাগারে ফিরিয়ে আনে। শেষ পাতাগুলো মার্চে আলগা পাতা হিসেবে তাকে বেচা হয়েছিল, নানারকম, আর দুর্লভ বইয়ের ভল্টে \"বিবিধ, নারকীয়\" নামে রাখা হয়েছে।"
+
+msgid "The locksmith on Cinder Row has her keys in a bucket and wants a shilling for the lot. While you haggle, she stays very still in her jar under the counter."
+msgstr "সিন্ডার গলির তালাওয়ালার কাছে তার চাবিগুলো একটা বালতিতে, আর সবগুলোর জন্য সে এক শিলিং চায়। তুমি দরদাম করার সময় সে কাউন্টারের নিচে তার বয়ামে একদম স্থির থাকে।"
+
+msgid "The mermaid looks at you properly for the first time. You're dripping. You've lost a shoe."
+msgstr "মৎস্যকন্যা প্রথমবার তোমার দিকে ঠিকঠাক তাকায়। তোমার গা থেকে জল ঝরছে। তোমার একপাটি জুতো হারিয়েছে।"
+
+msgid "The miller sent you? He sends someone every spring."
+msgstr "কলওয়ালা তোমাকে পাঠিয়েছে? সে প্রতি বসন্তে কাউকে পাঠায়।"
+
+msgid "The miller walks past"
+msgstr "কলওয়ালা পাশ দিয়ে যায়"
+
+msgid "The millrace runs and the old hazel keeps her roots. You plant another hazel beside the new channel, and it grows faster than it has any right to, leaning towards the old tree as if it's listening. You sleep in the grove more nights than not, and the old hazel blossoms in the wrong season, every season, which the miller now tells people is good luck."
+msgstr "নালা বয় আর পুরোনো হেজেল তার শিকড় রাখে। তুমি নতুন নালার পাশে আরেকটা হেজেল পোঁতো, আর সেটা যতটা উচিত তার চেয়ে দ্রুত বাড়ে, পুরোনো গাছের দিকে ঝুঁকে, যেন শুনছে। তুমি বেশিরভাগ রাত কুঞ্জে ঘুমোও, আর পুরোনো হেজেল ভুল ঋতুতে ফোটে, প্রতিটা ঋতুতে, যেটাকে কলওয়ালা এখন লোকজনকে সৌভাগ্য বলে।"
+
+msgid "The moss on the east side is softer than it looks."
+msgstr "পুবদিকের শ্যাওলা দেখতে যা লাগে তার চেয়ে নরম।"
+
+msgid "The moss on the east side is softer than it looks. Above you her branches have spread and knitted together, and the first rain ticks against the leaves without coming through."
+msgstr "পুবদিকের শ্যাওলা দেখতে যা লাগে তার চেয়ে নরম। তোমার ওপরে তার ডালগুলো ছড়িয়ে পরস্পরে জড়িয়ে গেছে, আর প্রথম বৃষ্টি পাতায় টুপটাপ করে কিন্তু ভেতরে ঢোকে না।"
+
+msgid "The name on the slip belongs to a bookbinder who died in the spring. His shop is still full of loose pages."
+msgstr "চিরকুটের নামটা এক বই-বাঁধাইকারের, যে বসন্তে মারা গেছে। তার দোকান এখনো আলগা পাতায় ভরা।"
+
+msgid "The old hazel at dawn, in full blossom, in May."
+msgstr "ভোরে পুরোনো হেজেল, পুরো ফুলে ভরা, মে মাসে।"
+
+msgid "The old hazel stands where the grove meets the millrace. It's so big that the mill's back wall has started to bend round its roots."
+msgstr "পুরোনো হেজেল দাঁড়িয়ে যেখানে কুঞ্জ কলের নালার সঙ্গে মেশে। এত বড় যে কলের পেছনের দেয়াল তার শিকড়ের চারপাশে বেঁকে যেতে শুরু করেছে।"
+
+msgid "The pier's quiet apart from the Thursday tile game at the far end, where the three old fishermen are arguing about the score again."
+msgstr "জেটি নীরব, শুধু অন্য প্রান্তে বৃহস্পতিবারের খেলা ছাড়া, যেখানে তিন বুড়ো জেলে আবার স্কোর নিয়ে ঝগড়া করছে।"
+
 msgid "The purchase couldn't start (%s)."
 msgstr "কেনাকাটা শুরু করা গেল না (%s)।"
 
 msgid "The purchase didn't go through (%s)."
 msgstr "কেনাকাটা সম্পন্ন হয়নি (%s)।"
 
+msgid "The reading room at dawn: a burnt-out candle in a smudged chalk circle, your jacket folded into a neat square on the returns cart."
+msgstr "ভোরের পাঠকক্ষ: মোছা চকের বৃত্তে পুড়ে যাওয়া মোমবাতি, ফেরত বইয়ের ট্রলিতে পরিপাটি চৌকো করে ভাঁজ করা তোমার জ্যাকেট।"
+
+msgid "The reading room with the door shut. The only light is the candle in your chalk circle, and she's sitting on the reading table again."
+msgstr "দরজা বন্ধ পাঠকক্ষ। একমাত্র আলো তোমার চকের বৃত্তের মোমবাতি, আর সে আবার পাঠের টেবিলে বসে আছে।"
+
+msgid "The reward is you come to every Tide from now on. Non-negotiable. Don't smile, it's a punishment."
+msgstr "পুরস্কার হলো এখন থেকে তুমি প্রতিটি জোয়ারে আসবে। আলোচনার কিছু নেই। হেসো না, এটা শাস্তি।"
+
 msgid "The store isn't available in this build."
 msgstr "এই সংস্করণে দোকান নেই।"
+
+msgid "The stream comes out under the Mill Bridge, where Coombs the rag-and-bone man fishes for anything that floats. You get there ahead of her and sell him a handful of buttons off the bank for two coppers before you realise whose they are. He's netted the rest too. Buying the lot back costs six coppers, which he finds very funny."
+msgstr "ঝরনাটা কল-সেতুর নিচে বেরোয়, যেখানে ফেরিওয়ালা কুম্বস ভেসে আসা সব কিছু ধরে। তুমি তার আগে পৌঁছে তীর থেকে কুড়োনো এক মুঠো বোতাম তাকে দুই তামার পয়সায় বেচে দাও, তারপর বোঝো ওগুলো কার। বাকিগুলোও সে জালে তুলেছে। সব ফেরত কিনতে লাগে ছয় পয়সা, যেটা তার খুব মজার লাগে।"
+
+msgid "The stream goes to town. We're going. You're carrying me! Please?"
+msgstr "ঝরনা শহরে যায়। আমরা যাচ্ছি। তুমি আমাকে বয়ে নেবে! প্লিজ?"
+
+msgid "The taxidermist is so startled he gives her the eye, the owl, and a discount on a second owl."
+msgstr "চর্মপূরক এত চমকে যায় যে তাকে চোখটা, পেঁচাটা আর দ্বিতীয় একটা পেঁচায় ছাড় দিয়ে দেয়।"
+
+msgid "The tide turns"
+msgstr "জোয়ার ফেরে"
 
 msgid "The top row is used during a chapter; the bottom row kicks in on its own when your next chapter starts."
 msgstr "ওপরের সারি অধ্যায় চলাকালীন ব্যবহার হয়; নিচের সারি পরের অধ্যায় শুরু হলে নিজে থেকেই কাজ করে।"
 
+msgid "The trench reaches the river on the night of a storm. Water floods into the new channel, and the whole tree shudders."
+msgstr "এক ঝড়ের রাতে খাদটা নদীতে পৌঁছায়। নতুন নালায় জল ঢুকে পড়ে, আর পুরো গাছটা কেঁপে ওঠে।"
+
 msgid "The two rows nearest the surface clear, and everything rises two rows."
 msgstr "জলের ওপরের সবচেয়ে কাছের দুটি সারি পরিষ্কার হয়, আর সব দুই সারি ওপরে ওঠে।"
 
+msgid "The water in the cove is warm and black and full of moonlight. She surfaces right in front of you, close enough that her hair brushes your face."
+msgstr "খাঁড়ির জল উষ্ণ, কালো আর জ্যোৎস্নায় ভরা। সে ঠিক তোমার সামনে ভেসে ওঠে, এত কাছে যে তার চুল তোমার মুখ ছুঁয়ে যায়।"
+
+msgid "The water's warm tonight."
+msgstr "আজ রাতে জল উষ্ণ।"
+
+msgid "The woods north of Millbrook, late autumn. You're out gathering firewood and anything worth selling, and you've followed the stream further in than you meant to."
+msgstr "মিলব্রুকের উত্তরের বন, শেষ হেমন্ত। তুমি জ্বালানি কাঠ আর বেচার মতো যা পাও কুড়োচ্ছ, আর ইচ্ছের চেয়ে বেশি ভেতরে ঝরনার পিছু পিছু চলে এসেছ।"
+
+msgid "Their net. It went right through where I dropped it."
+msgstr "ওদের জাল। ঠিক যেখানে আমার হাত থেকে পড়েছিল সেখান দিয়েই গেছে।"
+
+msgid "Then I'll ask. Close the reading room door. Leave the candle."
+msgstr "তাহলে আমিই চাই। পাঠকক্ষের দরজা বন্ধ করো। মোমবাতি থাক।"
+
+msgid "Then she notices the loose page on your desk, the one you copied from, and goes very still."
+msgstr "তারপর তার চোখ পড়ে তোমার টেবিলের সেই আলগা পাতায়, যেটা থেকে তুমি নকল করেছ, আর সে একদম স্থির হয়ে যায়।"
+
+msgid "Then the miller. Then the miller again."
+msgstr "তারপর কলওয়ালা। তারপর আবার কলওয়ালা।"
+
+msgid "Then we'd better find them before anyone else does."
+msgstr "তাহলে অন্য কারও আগে খুঁজে বের করাই ভালো।"
+
+msgid "Then we'll make sure nobody's boiling anybody."
+msgstr "তাহলে আমরা নিশ্চিত করব কেউ কাউকে না ফোটায়।"
+
+msgid "Then you remember the Pellow brothers dragging their nets through the cove last week. The whole pier complained about it."
+msgstr "তখন তোমার মনে পড়ে পেলো ভাইদের কথা, যারা গত সপ্তাহে খাঁড়ি জুড়ে জাল টেনেছিল। গোটা জেটি নালিশ করেছিল।"
+
+msgid "There are forty-one of those. I counted when I put it on. Take your time."
+msgstr "একচল্লিশটা। পরার সময় গুনেছি। সময় নাও।"
+
+msgid "There were wolves. And a family of woodcutters who sang while they worked. I liked them, even though they were woodcutters."
+msgstr "নেকড়ে ছিল। আর এক কাঠুরে পরিবার যারা কাজের সময় গান গাইত। ওদের আমার ভালো লাগত, কাঠুরে হলেও।"
+
+msgid "There's a woman sitting on the lowest branch, where you're sure nobody was a second ago. Her hair goes from gold to green, and below the knee her legs turn into bark."
+msgstr "সবচেয়ে নিচের ডালে এক নারী বসে আছে, যেখানে তুমি নিশ্চিত এক মুহূর্ত আগে কেউ ছিল না। তার চুল সোনালি থেকে সবুজে গড়ায়, আর হাঁটুর নিচে তার পা বাকল হয়ে গেছে।"
+
+msgid "There. Now look me in the eye and tell me you'd rather be shelving."
+msgstr "এই তো। এবার আমার চোখে চোখ রেখে বলো তুমি বরং বই সাজাতে চাও।"
+
+msgid "There. Now we're even. Low tide's at six."
+msgstr "এই। এবার আমরা কাটাকাটি। ভাটা ছটায়।"
+
+msgid "There. Now you can't go anywhere. It's a mermaid thing. It's very old. I just made it up."
+msgstr "এই। এবার তুমি কোথাও যেতে পারবে না। এটা মৎস্যকন্যাদের রীতি। খুব পুরোনো। এইমাত্র বানালাম।"
+
 msgid "These unlock on Steam too."
 msgstr "এগুলো Steam-এও খোলে।"
+
+msgid "They start clearing on quarter day. After that I need somewhere else to be quiet."
+msgstr "ত্রৈমাসিক দিনে ওরা কাটা শুরু করবে। তারপর আমার শান্ত থাকার অন্য জায়গা লাগবে।"
+
+msgid "They want an address for my library card. I don't have one. What do I put?"
+msgstr "ওরা আমার গ্রন্থাগার কার্ডের জন্য ঠিকানা চায়। আমার তো নেই। কী লিখব?"
+
+msgid "They're a pair. I'm not splitting up a pair."
+msgstr "ওরা জোড়া। আমি জোড়া ভাঙব না।"
+
+msgid "They're not strangers. I heard every one of them go by. From the jar."
+msgstr "ওরা অচেনা নয়। আমি প্রত্যেককে যেতে শুনেছি। বয়াম থেকে।"
 
 msgid "Things found"
 msgstr "খুঁজে পাওয়া জিনিস"
@@ -1283,6 +2513,18 @@ msgstr "এতে প্রতিটি মেয়ের গল্পের �
 
 msgid "This is a test build: no money changes hands. Buy %s for %s?"
 msgstr "এটি পরীক্ষামূলক সংস্করণ: কোনো টাকা কাটা হয় না। %s কিনবেন %s-এ?"
+
+msgid "This line here. That's where you'd put my name. If you ever wanted to call me. You won't need to. I'll be with you."
+msgstr "এই রেখাটা এখানে। এখানেই তুমি আমার নাম লিখতে। যদি কখনো আমাকে ডাকতে চাইতে। দরকার হবে না। আমি তোমার সঙ্গে থাকব।"
+
+msgid "This one's my favourite. Brass, four holes, off a very handsome coat. You have a very handsome... coat too."
+msgstr "এটা আমার প্রিয়। পিতলের, চার ফুটো, একটা খুব সুন্দর কোট থেকে। তোমারও একটা খুব সুন্দর... কোট আছে।"
+
+msgid "This page is from my binding. The book that ties me to every circle anyone draws, however badly. Find all of it, burn it, and I'm free."
+msgstr "এই পাতা আমার বন্ধনের। সেই বই যা আমাকে বেঁধে রাখে যে কেউ যত খারাপভাবেই আঁকুক, প্রতিটি বৃত্তে। পুরোটা খুঁজে বের করো, পুড়িয়ে দাও, আর আমি মুক্ত।"
+
+msgid "Those are mine. I-I've been collecting them for years."
+msgstr "ওগুলো আমার। আ-আমি বছরের পর বছর ধরে জমাচ্ছি।"
 
 msgid "Time Scroll"
 msgstr "সময়-পত্র"
@@ -1308,6 +2550,18 @@ msgstr "চেষ্টা করুন: %s"
 msgid "Turn voices off"
 msgstr "কণ্ঠ বন্ধ করুন"
 
+msgid "Twenty minutes?"
+msgstr "কুড়ি মিনিট?"
+
+msgid "Two hundred springs I've watched people walk past this tree. Not one of them ever lay down under it."
+msgstr "দুশো বসন্ত আমি লোকজনকে এই গাছের পাশ দিয়ে যেতে দেখেছি। একজনও কখনো এর নিচে শোয়নি।"
+
+msgid "Two hundred years, and nobody told me a spirit could feel like that. I'd like it noted that I'm saying this very calmly."
+msgstr "দুশো বছর, আর কেউ বলেনি যে একটা আত্মা এমন অনুভব করতে পারে। লিখে রাখা হোক যে আমি এটা খুব শান্তভাবে বলছি।"
+
+msgid "Ugh. That's drier than a sponge."
+msgstr "ইস। স্পঞ্জের চেয়েও শুকনো।"
+
 msgid "Unlimited Hearts"
 msgstr "সীমাহীন হৃদয়"
 
@@ -1329,8 +2583,17 @@ msgstr "কণ্ঠাভিনয়"
 msgid "Voice Volume"
 msgstr "কণ্ঠের ভলিউম"
 
+msgid "W-with you? Where would I even..."
+msgstr "তো-তোমার কাছে? আমি কোথায়..."
+
 msgid "Watch a video: %s"
 msgstr "একটি ভিডিও দেখুন: %s"
+
+msgid "We're getting the second owl, right?"
+msgstr "আমরা দ্বিতীয় পেঁচাটা নিচ্ছি, তাই না?"
+
+msgid "Well. It worked, which is insulting in its own way. Go on, then. Ask."
+msgstr "যাক। কাজ হয়েছে, সেটাই নিজে একটা অপমান। নাও, এবার। চাও।"
 
 msgid "What a date!"
 msgstr "কী দারুণ ডেট!"
@@ -1341,8 +2604,32 @@ msgstr "আপনি কী বলবেন?"
 msgid "What she likes"
 msgstr "তার যা পছন্দ"
 
+msgid "What you want. Gold. Revenge. And sooner or later sex. It always comes to that."
+msgstr "তুমি কী চাও। সোনা। প্রতিশোধ। আর আগে হোক পরে হোক যৌনতা। সবসময় ওখানেই গিয়ে দাঁড়ায়।"
+
 msgid "When falling gems make new matches on their own, that's a combo. Each link in the chain scores more than the last."
 msgstr "পড়ন্ত রত্ন নিজে থেকে নতুন মিল তৈরি করলে, সেটা কম্বো। শৃঙ্খলের প্রতিটি কড়া আগেরটার চেয়ে বেশি পয়েন্ট দেয়।"
+
+msgid "When you climb out you lean on the trunk to get your breath back. The bark is rough and cool under your hand."
+msgstr "উঠে এসে তুমি দম নিতে গুঁড়িতে হেলান দাও। তোমার হাতের নিচে বাকল খসখসে আর ঠান্ডা।"
+
+msgid "When you get back, a branch creaks overhead in a way that sounds very deliberate."
+msgstr "ফিরে এলে মাথার ওপর একটা ডাল এমনভাবে ক্যাঁচ করে ওঠে যেটা খুব ইচ্ছাকৃত শোনায়।"
+
+msgid "Where are my things? They were here. In rows. I-I had them in rows."
+msgstr "আমার জিনিসগুলো কোথায়? এখানে ছিল। সারি করে। আ-আমি সারি করে রেখেছিলাম।"
+
+msgid "Where did you get that."
+msgstr "ওটা কোথায় পেলে।"
+
+msgid "While you fetch coffee from the staff room, she takes a red pencil from your desk and starts correcting the page that started all this."
+msgstr "তুমি কর্মীদের ঘর থেকে কফি আনতে গেলে সে তোমার টেবিল থেকে একটা লাল পেনসিল নিয়ে যে পাতা থেকে সব শুরু হয়েছিল সেটা শোধরাতে শুরু করে।"
+
+msgid "Who even likes those?"
+msgstr "এগুলো আবার কারও ভালো লাগে?"
+
+msgid "Why would you do that?"
+msgstr "তুমি এটা কেন করলে?"
 
 msgid "Window Shopping"
 msgstr "শুধু দেখছিলাম"
@@ -1353,17 +2640,86 @@ msgstr "Steam-এ উইশলিস্ট করুন"
 msgid "With Moves to Spare"
 msgstr "চাল হাতে রেখে"
 
+msgid "With the lamp down, the only light in your room comes from her: a soft lilac glow that brightens wherever you touch."
+msgstr "বাতি কমানোর পর তোমার ঘরের একমাত্র আলো আসে তার কাছ থেকে: একটা নরম বেগুনি আভা যা তুমি যেখানে ছোঁও সেখানে উজ্জ্বল হয়।"
+
 msgid "You"
 msgstr "আপনি"
 
 msgid "You already have this."
 msgstr "এটা আপনার আগে থেকেই আছে।"
 
+msgid "You also find a little brass clasp wedged under the pier. She takes it from you and turns it over for a long time."
+msgstr "জেটির নিচে আটকে থাকা একটা ছোট্ট পিতলের আংটাও পাও। সে তোমার কাছ থেকে নিয়ে অনেকক্ষণ ঘুরিয়ে দেখে।"
+
+msgid "You ask what she means."
+msgstr "তুমি জিজ্ঞেস করো সে কী বোঝাতে চাইছে।"
+
+msgid "You bring it down to the pier after dark. She holds it for a long time without saying anything."
+msgstr "অন্ধকার নামার পর তুমি এটা জেটিতে নিয়ে আসো। সে অনেকক্ষণ এটা ধরে থাকে, কিছু না বলে।"
+
+msgid "You came by with an axe."
+msgstr "তুমি কুড়ুল নিয়ে এসেছিলে।"
+
+msgid "You can actually swim. The first time, you looked like a coat someone had thrown off a pier."
+msgstr "তুমি তো সত্যিই সাঁতার জানো। প্রথমবার তোমাকে দেখে মনে হচ্ছিল কেউ জেটি থেকে একটা কোট ছুড়ে ফেলেছে।"
+
 msgid "You can close this tab now."
 msgstr "এখন আপনি এই ট্যাব বন্ধ করতে পারেন।"
 
+msgid "You can get dressed now."
+msgstr "এবার তুমি জামাকাপড় পরতে পারো।"
+
+msgid "You can hold my hand. If you don't mind it being a bit... wet."
+msgstr "তুমি আমার হাত ধরতে পারো। যদি একটু... ভেজা হলে আপত্তি না থাকে।"
+
+msgid "You can stay with me. My place is quiet."
+msgstr "তুমি আমার কাছে থাকতে পারো। আমার ওখানে শান্ত।"
+
+msgid "You close the door."
+msgstr "তুমি দরজা বন্ধ করো।"
+
+msgid "You copied it off a loose page that fell out of a returned book. It looked nice. You put a candle stub in the middle because it seemed like the kind of thing that wanted a candle."
+msgstr "তুমি এটা নকল করেছ একটা ফেরত দেওয়া বই থেকে পড়ে যাওয়া আলগা পাতা থেকে। দেখতে সুন্দর লাগছিল। মাঝখানে একটা মোমবাতির টুকরো রেখেছ, কারণ মনে হলো এমন জিনিসের মোমবাতি লাগে।"
+
+msgid "You could keep one, you know. Just one page. I wouldn't be able to refuse you anything."
+msgstr "তুমি একটা রেখে দিতে পারো, জানো। শুধু একটা পাতা। তাহলে আমি তোমাকে কিছুতেই না বলতে পারব না।"
+
+msgid "You didn't ask what you get out of it."
+msgstr "তুমি জিজ্ঞেস করলে না তুমি এতে কী পাবে।"
+
+msgid "You dig until sunset. The trench ends up about the length of a coffin, which she points out twice."
+msgstr "তুমি সূর্যাস্ত পর্যন্ত খোঁড়ো। খাদটা মোটামুটি একটা কফিনের সমান লম্বা হয়, যেটা সে দুবার মনে করিয়ে দেয়।"
+
+msgid "You don't ask for any of it. You ask if she's all right, because she came out of the smoke coughing."
+msgstr "তুমি এর কিছুই চাও না। তুমি জিজ্ঞেস করো সে ঠিক আছে কি না, কারণ সে কাশতে কাশতে ধোঁয়া থেকে বেরিয়েছে।"
+
+msgid "You don't take your time. She laughs at you, low in her throat, and doesn't complain."
+msgstr "তুমি সময় নাও না। সে গলার গভীরে নিচু হাসি হাসে, আর অভিযোগ করে না।"
+
+msgid "You don't think about it. You run down the steps, jump off the end of the pier in your clothes, get an arm round her and drag her back."
+msgstr "তুমি ভাবো না। সিঁড়ি দিয়ে দৌড়ে নামো, জামাকাপড় পরেই জেটির কিনারা থেকে লাফ দাও, তাকে এক হাতে জড়িয়ে টেনে আনো।"
+
 msgid "You have %d"
 msgstr "আপনার আছে %d"
+
+msgid "You hold it very well. That's all I'm admitting."
+msgstr "তুমি খুব ভালো ধরো। এটুকুই মানছি।"
+
+msgid "You hum when you think. It's nice."
+msgstr "ভাবার সময় তুমি গুনগুন করো। ভালো লাগে।"
+
+msgid "You laugh. She goes pink all the way through, and then she laughs too."
+msgstr "তুমি হাসো। সে পুরো শরীরে গোলাপি হয়ে যায়, তারপর সে-ও হাসে।"
+
+msgid "You leave your shoes on the pier, both of them."
+msgstr "তুমি জুতো জেটিতে রেখে যাও, দুটোই।"
+
+msgid "You look from her to the trunk and back. Her heart is in the tree, then. So what's in her chest? Does she feel every woodpecker? Is the tree her, or is she the tree's way of talking? It doesn't feel like the moment to ask."
+msgstr "তুমি তার দিকে আর গুঁড়ির দিকে পালা করে তাকাও। তাহলে তার হৃদয় গাছে। তাহলে তার বুকে কী আছে? সে কি প্রতিটা কাঠঠোকরা টের পায়? গাছটাই কি সে, নাকি সে গাছের কথা বলার উপায়? জিজ্ঞেস করার সময় বলে মনে হয় না।"
+
+msgid "You lower the axe. After a moment, you put it down on the grass."
+msgstr "তুমি কুড়ুল নামাও। খানিক পরে ঘাসে রেখে দাও।"
 
 msgid "You need %d more stars."
 msgstr "আপনার আরও %d তারকা দরকার।"
@@ -1371,8 +2727,143 @@ msgstr "আপনার আরও %d তারকা দরকার।"
 msgid "You needed %d more points."
 msgstr "আপনার আরও %d পয়েন্ট দরকার ছিল।"
 
+msgid "You point out that the label said newts."
+msgstr "তুমি দেখাও যে লেবেলে নিউট লেখা ছিল।"
+
+msgid "You say another hazel, so she isn't the only one."
+msgstr "তুমি বলো আরেকটা হেজেল, যাতে সে একা না থাকে।"
+
+msgid "You say it back. She listens like she's checking your pronunciation."
+msgstr "তুমি নামটা উচ্চারণ করো। সে এমনভাবে শোনে যেন তোমার উচ্চারণ যাচাই করছে।"
+
+msgid "You say it. Amara. She shuts her eyes, as if she's checking your pronunciation one last time."
+msgstr "তুমি বলো। আমারা। সে চোখ বোজে, যেন শেষবারের মতো তোমার উচ্চারণ যাচাই করছে।"
+
+msgid "You say yes. She talks for an hour without stuttering once."
+msgstr "তুমি হ্যাঁ বলো। সে এক ঘণ্টা কথা বলে, একবারও না তোতলিয়ে।"
+
+msgid "You shake your head."
+msgstr "তুমি মাথা নাড়ো।"
+
+msgid "You sit with your back against the trunk while it rains. Every so often she makes a small sound, and you put your hand flat on the bark. Under your palm, right about where you'd have swung the axe, something in the wood is beating. So that answers that."
+msgstr "বৃষ্টির সময় তুমি গুঁড়িতে পিঠ দিয়ে বসে থাকো। মাঝে মাঝে সে একটা মৃদু শব্দ করে, আর তুমি বাকলে হাতের তালু পেতে রাখো। তোমার তালুর নিচে, ঠিক যেখানে তুমি কুড়ুল চালাতে, কাঠের ভেতর কিছু একটা ধুকপুক করছে। তাহলে উত্তর মিলল।"
+
+msgid "You start to take your hand away. She says you don't have to."
+msgstr "তুমি হাত সরাতে শুরু করো। সে বলে দরকার নেই।"
+
+msgid "You stay."
+msgstr "তুমি থেকে যাও।"
+
+msgid "You summoned me with that pathetic chalk circle? Where did you even copy it from? Ugh, I was in the middle of something."
+msgstr "তুমি আমাকে ওই করুণ চকের বৃত্ত দিয়ে ডেকেছ? এটা নকলই বা করলে কোথা থেকে? উফ, আমি একটা কাজের মধ্যে ছিলাম।"
+
+msgid "You take the lantern off her and tell her to sit down for an hour. You'll do the rocks."
+msgstr "তুমি তার কাছ থেকে লণ্ঠন নিয়ে তাকে এক ঘণ্টা বসতে বলো। পাথরগুলো তুমি দেখবে।"
+
+msgid "You tell her about the wall. Her roots are cracking it, and when it goes, the miller loses his mill."
+msgstr "তুমি তাকে দেয়ালের কথা বলো। তার শিকড় ওতে ফাটল ধরাচ্ছে, আর দেয়াল ধসলে কলওয়ালার কল যাবে।"
+
+msgid "You tell her it fell out of a returned book, and you didn't check which one. You step towards the desk to show her."
+msgstr "তুমি বলো এটা একটা ফেরত বই থেকে পড়ে গিয়েছিল, আর কোন বই তুমি দেখোনি। দেখাতে তুমি টেবিলের দিকে এক পা এগোও।"
+
+msgid "You tell her it isn't strange. She pulls you closer, and for once she doesn't apologise for anything."
+msgstr "তুমি বলো অদ্ভুত লাগছে না। সে তোমাকে আরও কাছে টেনে নেয়, আর এবার সে কোনো কিছুর জন্য দুঃখ প্রকাশ করে না।"
+
+msgid "You tell her she should tell it."
+msgstr "তুমি তাকে বলতে বলো।"
+
+msgid "You tell her to keep it. For storms."
+msgstr "তুমি তাকে রেখে দিতে বলো। ঝড়ের জন্য।"
+
+msgid "You tell her to put yours."
+msgstr "তুমি তাকে তোমার ঠিকানা লিখতে বলো।"
+
+msgid "You tell her you haven't watched a single game."
+msgstr "তুমি তাকে বলো তুমি একটাও খেলা দেখোনি।"
+
+msgid "You tell her. The stream has already carried most of it round the bend, towards town."
+msgstr "তুমি তাকে বলো। ঝরনা বেশিরভাগই বাঁকের ওপারে, শহরের দিকে ভাসিয়ে নিয়ে গেছে।"
+
+msgid "You turn the lamp down."
+msgstr "তুমি বাতি কমিয়ে দাও।"
+
+msgid "You wake up in the boathouse on a heap of old sails, with sand in your ears. She's already in the water, arms folded on the edge of the slipway, watching you."
+msgstr "তুমি নৌকাঘরে পুরোনো পালের স্তূপে জেগে ওঠো, কানে বালি। সে আগেই জলে, ঢালের কিনারায় হাত ভাঁজ করে তোমাকে দেখছে।"
+
+msgid "You want a thank-you? For that?"
+msgstr "তুমি ধন্যবাদ চাও? ওটার জন্য?"
+
+msgid "You want to hear about buttons?"
+msgstr "তুমি বোতামের কথা শুনতে চাও?"
+
+msgid "You were incredible."
+msgstr "তুমি অসাধারণ ছিলে।"
+
+msgid "You'd burn it."
+msgstr "তুমি পুড়িয়ে দেবে।"
+
+msgid "You'd have struck just below my heart. It would take... forty years or so to heal."
+msgstr "তুমি ঠিক আমার হৃদয়ের নিচে মারতে। সারতে লাগত... মোটামুটি চল্লিশ বছর।"
+
+msgid "You're a genius, you're a soaked genius."
+msgstr "তুমি একটা প্রতিভা, ভেজা প্রতিভা।"
+
+msgid "You're a terrible influence. Keep going."
+msgstr "তুমি আমার ওপর ভয়ানক প্রভাব ফেলো। চালিয়ে যাও।"
+
+msgid "You're doing well. I'm counting."
+msgstr "তুমি ভালো করছ। আমি গুনছি।"
+
+msgid "You're getting good at this. It's annoying."
+msgstr "তুমি এতে ভালো হয়ে উঠছ। বিরক্তিকর।"
+
+msgid "You're good with soft things."
+msgstr "নরম জিনিসে তোমার হাত ভালো।"
+
+msgid "You're new in town and you'll take any work that pays. The miller paid you half up front to cut the tree down. You pick a spot on the trunk that looks right, plant your feet and lift the axe."
+msgstr "তুমি শহরে নতুন আর যে কাজে পয়সা মেলে তা-ই নাও। কলওয়ালা গাছটা কাটার জন্য তোমাকে অর্ধেক আগাম দিয়েছে। তুমি গুঁড়িতে ঠিক মনে হওয়া একটা জায়গা বাছো, পা শক্ত করে দাঁড়াও আর কুড়ুল তোলো।"
+
+msgid "You're not jealous? Your leaves are going red."
+msgstr "তোমার হিংসে নেই? তোমার পাতা লাল হয়ে যাচ্ছে।"
+
+msgid "You're quicker than you look. You look quite slow."
+msgstr "তুমি যতটা দেখাও তার চেয়ে দ্রুত। আর তোমাকে বেশ ধীরই দেখায়।"
+
+msgid "You're shaking. Come in closer, there's a hollow in the trunk that fits you."
+msgstr "তুমি কাঁপছ। আরও কাছে এসো, গুঁড়িতে একটা কোটর আছে যাতে তুমি ধরবে।"
+
+msgid "You're still warm. Good."
+msgstr "তুমি এখনো উষ্ণ। ভালো।"
+
+msgid "You're the best thing I've found in this library."
+msgstr "এই গ্রন্থাগারে আমার পাওয়া সবচেয়ে ভালো জিনিস তুমি।"
+
+msgid "You're welcome, by the way."
+msgstr "ভালো কথা, তোমাকেও স্বাগত।"
+
+msgid "You've asked me twice not to sit on this table."
+msgstr "তুমি আমাকে দুবার এই টেবিলে বসতে মানা করেছ।"
+
+msgid "You've been in Millbrook three weeks, taking whatever work pays. Tonight that's the late shift at the public library. It's a quarter past midnight, the gas lamps have been out for an hour, the returns cart is still full, and you've drawn a circle on the reading room floor in children's chalk."
+msgstr "তুমি তিন সপ্তাহ হলো মিলব্রুকে, যে কাজে পয়সা মেলে তা-ই নাও। আজ রাতে সেটা গণগ্রন্থাগারের রাতের পালা। রাত বারোটা পনেরো, গ্যাসবাতি নিভেছে এক ঘণ্টা আগে, ফেরত বইয়ের ট্রলি এখনো ভরা, আর তুমি পাঠকক্ষের মেঝেতে বাচ্চাদের চক দিয়ে একটা বৃত্ত এঁকেছ।"
+
+msgid "You've got mud on your face. Leave it. It suits you."
+msgstr "তোমার মুখে কাদা। থাক। তোমাকে মানায়।"
+
+msgid "You've got sand on you. Everywhere. That's your problem, I'm not helping."
+msgstr "তোমার গায়ে বালি। সবখানে। তোমার সমস্যা, আমি সাহায্য করব না।"
+
+msgid "You've helped enough for one day, lifeguard."
+msgstr "আজকের জন্য যথেষ্ট সাহায্য করেছ, উদ্ধারকারী।"
+
+msgid "You... jumped in your clothes. For someone you'd never met."
+msgstr "তুমি... জামাকাপড় পরে লাফিয়েছ। এমন কারও জন্য যার সঙ্গে কখনো দেখাই হয়নি।"
+
 msgid "Your best: %d"
 msgstr "আপনার সেরা: %d"
+
+msgid "Your name would be nice."
+msgstr "তোমার নামটা জানলে ভালো হতো।"
 
 msgid "Your next chapter begins with a free Starburst gem already on the board."
 msgstr "আপনার পরের অধ্যায় বোর্ডে আগে থেকে রাখা একটি বিনামূল্যের তারা-বিস্ফোরণ রত্ন নিয়ে শুরু হয়।"
@@ -1388,6 +2879,12 @@ msgstr "আপনার কেনাকাটা অপেক্ষমাণ। 
 
 msgid "Your replies"
 msgstr "আপনার উত্তর"
+
+msgid "Your second ring doesn't close. That sigil is upside down. And this one isn't a sigil at all, it's a coffee stain you traced."
+msgstr "তোমার দ্বিতীয় বলয় বন্ধ হয়নি। ওই চিহ্নটা উল্টো। আর এটা তো চিহ্নই নয়, কফির দাগ, তুমি দাগ বুলিয়ে নিয়েছ।"
+
+msgid "Yours. Fine. I'm bringing my own candles."
+msgstr "তোমার। বেশ। মোমবাতি আমি নিজেরগুলো আনব।"
 
 msgid "a button"
 msgstr "একটি বোতাম"
