@@ -72,6 +72,9 @@ msgstr "+5 爱心 · %s"
 msgid "-1 move"
 msgstr "-1步"
 
+msgid "...Two hundred springs."
+msgstr "……两百个春天。"
+
 msgid "1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!"
 msgstr "每200分得1颗星星。去道具商店攒钱买增益,然后再试一次!"
 
@@ -231,11 +234,17 @@ msgstr "事后,她铺满了大半张床和你的一部分,微微发光,哼着安
 msgid "Afterwards you lie in the moss with her hair across your chest. Overhead, every leaf on her east side has turned pale side up, the way they do before a storm. There's no storm."
 msgstr "事后,你躺在苔藓里,她的头发铺在你胸口。头顶上,东侧的每一片叶子都翻成了背面朝上,就像暴风雨来临前那样。没有暴风雨。"
 
+msgid "Again. Up slow, down hard. Each time she lands, she clenches and holds you for a heartbeat."
+msgstr "又一次。慢慢上去,狠狠落下。每次落下,她都会收紧,把你夹住一个心跳那么久。"
+
 msgid "Against an alchemist? You kicked my buttons into a stream and then paid six coppers to get them back."
 msgstr "对付一个炼金术士?你把我的纽扣踢进了小溪,然后又花六个铜板买回来。"
 
 msgid "Against an alchemist? You sold my buttons for two coppers and bought them back for six."
 msgstr "对付炼金术士?你把我的纽扣两个铜板卖了,又花六个铜板买回来。"
+
+msgid "Ahh!"
+msgstr "啊!"
 
 msgid "Alchemists boil slimes down for glue. Did you know that? Twelve shillings a pound."
 msgstr "炼金术士会把史莱姆熬成胶水。你知道吗?一磅十二先令。"
@@ -287,6 +296,9 @@ msgstr "你也不会告诉任何人的,对吧,救生员?"
 
 msgid "Another date"
 msgstr "再约一次"
+
+msgid "Another slow slide. The moss above her slit brushes you, soft and damp."
+msgstr "又一次缓慢的滑动。她缝隙上方的苔藓轻轻擦过你,柔软又潮湿。"
 
 msgid "Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing."
 msgstr "任何有效的消除都会立即达成章节目标,并奖励99颗星星——仅供QA测试,不适合正常游玩。"
@@ -876,6 +888,9 @@ msgstr "种出黑泽尔的 25 朵花。"
 msgid "Grow enough seeds into blossoms to win. A new seed drops in every few moves."
 msgstr "把足够多的种子种成花朵就能过关。每隔几步会落下一颗新种子。"
 
+msgid "Hah... ah... yes. Like that. With me."
+msgstr "哈……啊……对。就这样。跟我一起。"
+
 msgid "Hammer"
 msgstr "锤子"
 
@@ -936,6 +951,9 @@ msgstr "爱心：%d / %d"
 msgid "Hearts: losing a chapter costs one, and they come back over time."
 msgstr "爱心：输掉一章会消耗一颗，之后会慢慢恢复。"
 
+msgid "Her ass comes to rest on you. You're in her to the root."
+msgstr "她的屁股落在你身上。你整根没入了她。"
+
 msgid "Her board with no move limit, just for fun and a high score."
 msgstr "她的棋盘,不限步数,纯粹为了好玩和高分。"
 
@@ -984,6 +1002,12 @@ msgstr "她的能力"
 msgid "Her powers used"
 msgstr "使用她的能力次数"
 
+msgid "Her rhythm breaks. She's only grinding now, hard and desperate, with you buried as deep as you'll go."
+msgstr "她的节奏乱了。现在她只是在研磨,用力而急切,把你埋到最深处。"
+
+msgid "Her sap runs down your shaft and over your balls, warm as bathwater."
+msgstr "她的树液顺着你的柱身流下,漫过你的囊袋,暖得像洗澡水。"
+
 msgid "Her sisters start watching"
 msgstr "她的姐妹们开始围观"
 
@@ -992,6 +1016,9 @@ msgstr "她的故事会像你通关了一样继续。你拿不到这章的星星
 
 msgid "Her story starts over from your first meeting, so you can make different choices. Endings you've found stay in the Gallery, your gift stays given, and her chapters pay out stars again."
 msgstr "她的故事会从你们初次相遇重新开始,这样你可以做出不同的选择。你已找到的结局会保留在图鉴中,送出的礼物依然算送出,她的章节也会再次给予星星。"
+
+msgid "Her thighs are trembling under your hands. Small aftershocks still flutter through her."
+msgstr "她的大腿在你手下发抖。细小的余震还在她身上一阵阵掠过。"
 
 msgid "Hide text"
 msgstr "隐藏文字"
@@ -1004,6 +1031,12 @@ msgstr "涨潮!"
 
 msgid "High Water"
 msgstr "满潮时分"
+
+msgid "Hnn...!"
+msgstr "嗯……!"
+
+msgid "Hold still. I want to do this part."
+msgstr "别动。这一步我想自己来。"
 
 msgid "Home"
 msgstr "主页"
@@ -1137,6 +1170,9 @@ msgstr "我没在看你。我在光合作用。"
 msgid "I'm so sorry. I'll get every one of them back."
 msgstr "我很抱歉。我会把每一样都找回来。"
 
+msgid "I'm... hah... don't pull out. Stay."
+msgstr "我要……哈……别拔出来。留下。"
+
 msgid "I've been doing this for a very long time, and that was not on the list of things I expected from a library."
 msgstr "我做这行很久了,而这是我从图书馆里意想不到的。"
 
@@ -1208,6 +1244,9 @@ msgstr "游戏含有性内容,包括亲密场景和暗示性画面。所有角�
 
 msgid "It isn't so bad, but some animals are... Barely tolerable company."
 msgstr "也没那么糟,不过有些动物……勉强算是能忍的伙伴。"
+
+msgid "It pulls you over with her. You hold her down on you and spill deep inside, pulse after pulse."
+msgstr "这把你也一起拽了过去。你把她按在身上,一股接一股地射在她身体深处。"
 
 msgid "It rains all night. None of it reaches you."
 msgstr "雨下了一整夜。一滴也没落到你们身上。"
@@ -1509,6 +1548,9 @@ msgstr "九颗这样的,我就没事了。"
 msgid "Nine-hour wick. Hand-dipped. You know what this is for, don't you."
 msgstr "九小时的烛芯。手工蘸制。你知道这是做什么的,对吧。"
 
+msgid "Nnnh... ahh... it's so warm..."
+msgstr "嗯……啊……好暖……"
+
 msgid "No Ads"
 msgstr "无广告"
 
@@ -1583,6 +1625,9 @@ msgstr "哦,你好暖……好多年没人不拿着斧头碰我了。"
 
 msgid "Oh. I didn't know I did that. That's embarrassing. Do it again."
 msgstr "哦。我不知道我会这样。好尴尬。再来一次。"
+
+msgid "Ohh... I can feel your heartbeat. In me."
+msgstr "哦……我能感觉到你的心跳。在我里面。"
 
 msgid "Okay, that one was nice."
 msgstr "好吧,这个不错。"
@@ -1659,6 +1704,9 @@ msgstr "爱心用完了"
 msgid "Out of moves"
 msgstr "步数用完"
 
+msgid "Overhead, every leaf on the hazel is shaking. There is no wind."
+msgstr "头顶上,榛树的每一片叶子都在颤抖。没有风。"
+
 msgid "Owned"
 msgstr "已拥有"
 
@@ -1673,6 +1721,9 @@ msgstr "珍珠。奶奶会赞成的。"
 
 msgid "Petal"
 msgstr "花瓣"
+
+msgid "Petals are drifting down around you both. The hazel has flowered. It's the wrong season for it."
+msgstr "花瓣在你们周围飘落。榛树开花了。现在不是开花的季节。"
 
 msgid "Petals. Good. Those I understand."
 msgstr "花瓣。好。这个我懂。"
@@ -1857,6 +1908,9 @@ msgstr "已破封印"
 msgid "Saltwick Cove, an hour before sunset. You're on the cliff path when the shouting starts."
 msgstr "索尔特威克湾,日落前一小时。你正走在悬崖小路上,下面传来喊叫声。"
 
+msgid "Sap. More or less. It only runs when I'm happy."
+msgstr "树液。差不多吧。只有我高兴的时候才会流。"
+
 msgid "Save it, then. I'll be watching you very closely until you spend it."
 msgstr "那就留着吧。在你许愿之前,我会非常仔细地盯着你。"
 
@@ -1911,6 +1965,15 @@ msgstr "她还没说谢谢,就先咬了一下它的角。"
 msgid "She burns them in the reading room fireplace at four in the morning, one at a time. Each one goes up green. The loose page from your desk goes last: she tears her name off the corner and burns only that."
 msgstr "凌晨四点,她在阅览室的壁炉里把它们一页一页烧掉。每一页都烧出绿色的火焰。你桌上那张散页最后烧:她把角上自己的名字撕下来,只烧了那一片。"
 
+msgid "She comes. Her whole body locks, and her cunt grips you in tight, rolling waves, base to tip, over and over."
+msgstr "她高潮了。她整个身体僵住,小穴一波一波紧紧地绞着你,从根部到顶端,一遍又一遍。"
+
+msgid "She doesn't move. Inside, she does: a slow ripple climbs your shaft from base to tip, then another."
+msgstr "她没有动。可她里面在动:一道缓慢的波纹从根部爬上你的柱身直到顶端,接着又是一道。"
+
+msgid "She drops."
+msgstr "她坐了下去。"
+
 msgid "She ducks under before you can answer and comes up a few yards away, pretending to search."
 msgstr "你还没来得及回答,她就潜了下去,在几码外冒出来,假装在搜寻。"
 
@@ -1919,6 +1982,9 @@ msgstr "她先睡着了,她以后会否认的。潮水从船屋的门下涌进�
 
 msgid "She flicks her tail and soaks you a second time, very deliberately."
 msgstr "她甩了一下尾巴,故意又溅了你一身水。"
+
+msgid "She gathers her dress up to her waist. Then she looks back at you."
+msgstr "她把裙子撩到腰间。然后回头看你。"
 
 msgid "She goes cloudy."
 msgstr "她变浑了。"
@@ -1944,6 +2010,12 @@ msgstr "她用手指勾住你的衣领,把你拉下来,直到你们隔着阅览�
 msgid "She hooks a foot round your ankle and reels you in the last step."
 msgstr "她用一只脚勾住你的脚踝,把你拉过最后一步。"
 
+msgid "She keeps going. An inch, a pause, another inch. She closes behind every one, as if she doesn't mean to give any back."
+msgstr "她继续往下。一寸,停一停,再一寸。每一寸她都在身后收紧,好像根本不打算还回去。"
+
+msgid "She keeps rocking through it in small, slow circles, drawing out everything you have."
+msgstr "她在余韵里继续小小地、慢慢地画着圈,把你的一切都榨出来。"
+
 msgid "She kisses you again, slower, just to be sure."
 msgstr "她又吻了你,更慢一些,只为确认一下。"
 
@@ -1956,11 +2028,26 @@ msgstr "她笑得把脸埋在你肩上,直到打起嗝来。"
 msgid "She laughs, and a shower of rainwater falls off her leaves onto your head."
 msgstr "她笑了起来,一阵雨水从她的叶子上哗地落在你头上。"
 
+msgid "She lays her hand over yours and keeps it where it is."
+msgstr "她把手覆在你的手上,让它就留在那里。"
+
+msgid "She leans forward onto her hands and rides you faster. The angle changes. Now the head of your cock drags along something swollen in her front wall with every stroke."
+msgstr "她向前俯身撑住双手,骑得更快了。角度变了。现在每一次抽送,你的龟头都会擦过她前壁上一处肿起的地方。"
+
+msgid "She lifts off you on shaking legs. You slip free."
+msgstr "她双腿打着颤从你身上抬起。你滑了出来。"
+
 msgid "She looks at the axe, then at the place on the trunk you were aiming for."
 msgstr "她看看斧头,又看看树干上你瞄准的那个位置。"
 
+msgid "She looks back at you. For once, she has nothing dry to say."
+msgstr "她回头看你。难得一次,她没有半句俏皮话。"
+
 msgid "She looks past you at the hollow: at the moss, pressed flat in neat little rows where something used to be laid out, and at the stream running fast and brown."
 msgstr "她越过你望向凹坑:望向苔藓上被压平的一行行整齐痕迹,那里曾摆放过东西,望向湍急浑浊的小溪。"
+
+msgid "She lowers herself until her slit rests along the length of your cock. She doesn't take it in."
+msgstr "她慢慢压低身子,直到她的缝隙贴着你的肉棒躺下。她没有把它吞进去。"
 
 msgid "She makes you hold it up in the one patch of sun that gets through her leaves, and watches the shadow for a long time."
 msgstr "她让你把它举到穿过她枝叶的那一小片阳光里,然后盯着影子看了很久。"
@@ -1980,8 +2067,14 @@ msgstr "她揪着你的衬衫把你拉了下去。她的头发垂落在你们周
 msgid "She pulls your arms round her neck so you don't have to tread water, and holds you up with her tail."
 msgstr "她把你的双臂环到自己脖子上,这样你不用踩水,她用尾巴托着你。"
 
+msgid "She reaches down between her thighs and stands your cock upright."
+msgstr "她把手伸到两腿之间,把你的肉棒扶直。"
+
 msgid "She rides in a big glass jar in your arms with the lid off, and counts every button as you drop it in."
 msgstr "她坐在你怀里一只敞着盖子的大玻璃罐里,你每放进一颗纽扣,她都数一遍。"
+
+msgid "She rocks. She isn't lifting yet, only grinding in small circles, stirring you around inside her."
+msgstr "她摇晃起来。还没有抬起,只是小圈小圈地研磨,让你在她体内搅动。"
 
 msgid "She says it, but she doesn't swim off."
 msgstr "她嘴上这么说,却没有游走。"
@@ -1992,11 +2085,20 @@ msgstr "她把它放在你粉笔圈里的残烛旁边,趁旧火苗还没熄灭,�
 msgid "She shows you which branches you can sit on and which ones she's ticklish about. The second list is long."
 msgstr "她告诉你哪些树枝可以坐,哪些树枝她怕痒。第二张清单很长。"
 
+msgid "She sinks."
+msgstr "她沉了下去。"
+
 msgid "She sits on the end of the pier with her tail in the water. After a while she leans on your shoulder, as if by accident."
 msgstr "她坐在码头尽头,尾巴泡在水里。过了一会儿,她靠在你肩上,像是不经意的。"
 
 msgid "She sits on the reading table, which you've asked her twice not to do, and moves the candle so it won't drip on the returns."
 msgstr "她坐到阅览桌上,你已经两次请她别这样了,又把蜡烛挪开,免得蜡油滴到还书上。"
+
+msgid "She slides. Forward, then back. Slick heat drags over you from root to tip."
+msgstr "她滑动起来。向前,再向后。湿滑的热度从根部一路拖到顶端。"
+
+msgid "She smells of rain on cut wood, and under that, something sweet and green."
+msgstr "她身上有雨落在新伐木头上的气味,底下还有一种甜甜的、青涩的味道。"
 
 msgid "She steps over the chalk line herself, careful not to smudge it, and picks the page up. You realise you've been staring."
 msgstr "她自己跨过粉笔线,小心着不蹭花,拿起了那页纸。你发觉自己一直在盯着她看。"
@@ -2031,8 +2133,14 @@ msgstr "她甚至不会生气。她只会说“哦,玛丽”,就像妈妈那样�
 msgid "She won't leave the candle behind. She carries it to Wick Street cupped in both hands, and makes you walk on the windy side."
 msgstr "她不肯把蜡烛留下。她双手捧着它走到烛芯街,还让你走在迎风的一侧。"
 
+msgid "She's hotter inside than a woman is. It's a deep, soaking warmth that spreads into your hips."
+msgstr "她里面比女人更烫。那是一种深沉、浸透的暖意,一直漫进你的胯骨。"
+
 msgid "She's tall, horned and dressed for somewhere much nicer than a library. She crouches to look at your circle, and tuts."
 msgstr "她高挑,有角,穿着适合更高档场所的衣服。她蹲下来看你的圈,啧了一声。"
+
+msgid "She's tight at the mouth, then she gives, and wet heat swallows the head of your cock."
+msgstr "入口很紧,接着她松开了,湿热吞没了你的龟头。"
 
 msgid "Shop"
 msgstr "商店"
@@ -2361,6 +2469,9 @@ msgstr "这是梳子盒子上的。所以它就是掉在那儿的。"
 msgid "That's real. The sea made that. People tumble old bottles in a barrel and sell it as sea glass."
 msgstr "这是真的。是大海做的。有些人把旧瓶子放进滚筒里翻,再当海玻璃卖。"
 
+msgid "That's the first one I've felt."
+msgstr "这是我感觉到的第一个。"
+
 msgid "That's the good stuff. Again."
 msgstr "这才是好东西。再来。"
 
@@ -2429,6 +2540,9 @@ msgstr "玻璃眼珠出现在灯笼街标本师店铺的橱窗里,镶在一只�
 
 msgid "The green at the tips of her hair goes a shade darker. She notices, and decides not to mention it."
 msgstr "她发梢的绿色深了一个色号。她注意到了,决定不提。"
+
+msgid "The head rests against her entrance. She's pulsing there, slow, like something rising in spring."
+msgstr "龟头抵在她的入口。她在那里缓缓地搏动,像春天里正在上涨的什么东西。"
 
 msgid "The jar stays empty all night."
 msgstr "罐子整夜都是空的。"
@@ -2538,6 +2652,9 @@ msgstr "那我来求。关上阅览室的门。蜡烛留着。"
 msgid "Then she notices the loose page on your desk, the one you copied from, and goes very still."
 msgstr "然后她注意到了你桌上那张散页,你抄的那张,顿时一动不动。"
 
+msgid "Then she rises. Her walls cling to you the whole way up, until only the head is left in her."
+msgstr "然后她升起来。她的内壁一路紧紧缠着你,直到只剩龟头还留在里面。"
+
 msgid "Then the miller. Then the miller again."
 msgstr "然后是磨坊主。然后再来一次磨坊主。"
 
@@ -2570,6 +2687,9 @@ msgstr "好了。现在我们扯平了。退潮是六点。"
 
 msgid "There. Now you can't go anywhere. It's a mermaid thing. It's very old. I just made it up."
 msgstr "好了。现在你哪儿也去不了了。这是人鱼的规矩。非常古老。我刚编的。"
+
+msgid "There... mmh... there, there, there..."
+msgstr "那里……嗯……那里,那里,那里……"
 
 msgid "These unlock on Steam too."
 msgstr "这些成就也会在Steam上解锁。"
@@ -2672,6 +2792,9 @@ msgstr "语音音量"
 
 msgid "W-with you? Where would I even..."
 msgstr "和、和你?我要在哪儿……"
+
+msgid "Warmth runs out of her and drips onto your stomach."
+msgstr "暖流从她体内淌出来,滴在你的小腹上。"
 
 msgid "Watch a video: %s"
 msgstr "看视频：%s"
@@ -2787,6 +2910,9 @@ msgstr "你没有慢慢来。她在喉咙深处低低地笑你,却没有抱怨�
 msgid "You don't think about it. You run down the steps, jump off the end of the pier in your clothes, get an arm round her and drag her back."
 msgstr "你没有多想。你跑下台阶,穿着衣服从码头尽头跳了下去,一只手臂搂住她,把她拖了回来。"
 
+msgid "You find the rhythm together. Her hips roll back as yours drive up. Wet skin claps on wet skin."
+msgstr "你们一起找到了节奏。她的胯向后碾,你的向上顶。湿漉漉的皮肤拍打着湿漉漉的皮肤。"
+
 msgid "You have %d"
 msgstr "拥有:%d"
 
@@ -2802,6 +2928,9 @@ msgstr "你笑了。她从里到外变粉,然后也笑了。"
 msgid "You leave your shoes on the pier, both of them."
 msgstr "你把鞋子留在了码头上,两只都留下了。"
 
+msgid "You lie back along the fallen bough. She swings a knee over your hips and settles astride you, facing the river."
+msgstr "你仰面躺在那根倒下的粗枝上。她一条腿跨过你的胯,骑坐在你身上,面朝河流。"
+
 msgid "You look from her to the trunk and back. Her heart is in the tree, then. So what's in her chest? Does she feel every woodpecker? Is the tree her, or is she the tree's way of talking? It doesn't feel like the moment to ask."
 msgstr "你的目光在她和树干之间来回。原来她的心在树里。那她胸口里是什么?每只啄木鸟她都感觉得到吗?树就是她,还是她只是这棵树说话的方式?现在好像不是问这个的时候。"
 
@@ -2813,6 +2942,9 @@ msgstr "你还差%d颗星星。"
 
 msgid "You needed %d more points."
 msgstr "你还差%d分。"
+
+msgid "You plant your feet and thrust up into her as she comes down. She makes a sound you haven't heard from her before."
+msgstr "你双脚撑稳,在她落下时向上顶进她体内。她发出一种你从没听她发出过的声音。"
 
 msgid "You point out that the label said newts."
 msgstr "你指出标签上写的是蝾螈。"
@@ -2837,6 +2969,9 @@ msgstr "下雨时你背靠树干坐着。她时不时发出一声轻响,你便�
 
 msgid "You sit with your back against the trunk while it rains. Every so often she makes a small sound, and you put your hand flat on the bark. Under your palm, right about where you'd have swung the axe, something in the wood is beating. So that answers that."
 msgstr "下雨时你背靠树干坐着。她时不时发出一声轻响,你便把手平放在树皮上。就在你当初要下斧的地方,掌心下,木头里有什么在跳动。这下有答案了。"
+
+msgid "You squeeze her and pull her open with your thumbs. Her breath catches, and her hips stutter."
+msgstr "你捏紧她,用拇指把她掰开。她呼吸一滞,臀部一阵发颤。"
 
 msgid "You start to take your hand away. She says you don't have to."
 msgstr "你想把手拿开。她说不用。"
@@ -2951,6 +3086,9 @@ msgstr "你……穿着衣服就跳了。为了一个你从没见过的人。"
 
 msgid "Your best: %d"
 msgstr "你的最佳:%d"
+
+msgid "Your hands find her ass. She's warm all the way through, like bark at the end of a July day."
+msgstr "你的双手找到她的屁股。她浑身都是暖的,像七月傍晚的树皮。"
 
 msgid "Your name would be nice."
 msgstr "要是能知道你的名字就好了。"

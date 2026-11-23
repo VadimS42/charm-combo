@@ -236,4 +236,4 @@ Uma coruja a assusta
 @@ opal-0118
 Absorver
 @@ opal-0119
-Escolha uma gema: todas as gemas dessa cor são limpas.
+Escolha uma gema: todas as gemas dessa cor somem.

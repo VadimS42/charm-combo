@@ -72,6 +72,9 @@ msgstr "+5 сердец · %s"
 msgid "-1 move"
 msgstr "-1 ход"
 
+msgid "...Two hundred springs."
+msgstr "...Двести вёсен."
+
 msgid "1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!"
 msgstr "1 звезда за каждые 200 очков. Накопи на усиления в Магазине предметов и попробуй снова!"
 
@@ -231,11 +234,17 @@ msgstr "Потом она растекается по большей части 
 msgid "Afterwards you lie in the moss with her hair across your chest. Overhead, every leaf on her east side has turned pale side up, the way they do before a storm. There's no storm."
 msgstr "Потом вы лежите во мху, её волосы раскинуты по твоей груди. Над головой каждый лист на восточной стороне вывернулся изнанкой вверх, как перед грозой. Грозы нет."
 
+msgid "Again. Up slow, down hard. Each time she lands, she clenches and holds you for a heartbeat."
+msgstr "Снова. Вверх медленно, вниз резко. Каждый раз, опустившись, она сжимается и держит тебя на один удар сердца."
+
 msgid "Against an alchemist? You kicked my buttons into a stream and then paid six coppers to get them back."
 msgstr "Против алхимика? Мои пуговицы улетели в ручей от твоего пинка, а потом пришлось платить шесть медяков, чтобы вернуть их."
 
 msgid "Against an alchemist? You sold my buttons for two coppers and bought them back for six."
 msgstr "Против алхимика? Ты продал мои пуговицы за два медяка и выкупил за шесть."
+
+msgid "Ahh!"
+msgstr "Ах!"
 
 msgid "Alchemists boil slimes down for glue. Did you know that? Twelve shillings a pound."
 msgstr "Алхимики вываривают слизей на клей. Ты в курсе? Двенадцать шиллингов за фунт."
@@ -287,6 +296,9 @@ msgstr "И ты тоже никому не скажешь, правда, спа�
 
 msgid "Another date"
 msgstr "Ещё свидание"
+
+msgid "Another slow slide. The moss above her slit brushes you, soft and damp."
+msgstr "Ещё одно медленное скольжение. Мох над её щёлкой задевает тебя, мягкий и влажный."
 
 msgid "Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing."
 msgstr "Любое допустимое совпадение сразу выполняет цель главы и даёт 99 звёзд — для тестировщиков, а не для настоящей игры."
@@ -876,6 +888,9 @@ msgstr "Вырасти 25 цветов Хейзел."
 msgid "Grow enough seeds into blossoms to win. A new seed drops in every few moves."
 msgstr "Вырасти достаточно цветов из семян, чтобы победить. Каждые несколько ходов падает новое семечко."
 
+msgid "Hah... ah... yes. Like that. With me."
+msgstr "Ха... ах... да. Вот так. Вместе со мной."
+
 msgid "Hammer"
 msgstr "Молоток"
 
@@ -936,6 +951,9 @@ msgstr "Сердца: %d / %d"
 msgid "Hearts: losing a chapter costs one, and they come back over time."
 msgstr "Сердца: проигрыш главы стоит одно сердце, со временем они восстанавливаются."
 
+msgid "Her ass comes to rest on you. You're in her to the root."
+msgstr "Её попка опускается на тебя. Ты в ней до самого основания."
+
 msgid "Her board with no move limit, just for fun and a high score."
 msgstr "Её поле без ограничения ходов — просто для удовольствия и рекорда."
 
@@ -984,6 +1002,12 @@ msgstr "Её сила"
 msgid "Her powers used"
 msgstr "Использовано её сил"
 
+msgid "Her rhythm breaks. She's only grinding now, hard and desperate, with you buried as deep as you'll go."
+msgstr "Её ритм ломается. Теперь она только трётся, сильно и отчаянно, а ты в ней так глубоко, как только можно."
+
+msgid "Her sap runs down your shaft and over your balls, warm as bathwater."
+msgstr "Её сок стекает по твоему стволу и по яйцам, тёплый, как вода в ванне."
+
 msgid "Her sisters start watching"
 msgstr "Её сёстры начинают подглядывать"
 
@@ -992,6 +1016,9 @@ msgstr "Её история продолжится, как будто ты пр�
 
 msgid "Her story starts over from your first meeting, so you can make different choices. Endings you've found stay in the Gallery, your gift stays given, and her chapters pay out stars again."
 msgstr "Её история начнётся заново с вашей первой встречи, так что ты сможешь делать другой выбор. Найденные концовки останутся в Галерее, подаренный подарок останется подаренным, а за её главы снова дадут звёзды."
+
+msgid "Her thighs are trembling under your hands. Small aftershocks still flutter through her."
+msgstr "Её бёдра дрожат у тебя под руками. По ней всё ещё пробегают маленькие отголоски."
 
 msgid "Hide text"
 msgstr "Скрыть текст"
@@ -1004,6 +1031,12 @@ msgstr "Прилив!"
 
 msgid "High Water"
 msgstr "Большая вода"
+
+msgid "Hnn...!"
+msgstr "Ннн...!"
+
+msgid "Hold still. I want to do this part."
+msgstr "Не двигайся. Эту часть я хочу сделать сама."
 
 msgid "Home"
 msgstr "Главная"
@@ -1137,6 +1170,9 @@ msgstr "Я не слежу за тобой. Я фотосинтезирую."
 msgid "I'm so sorry. I'll get every one of them back."
 msgstr "Мне так жаль. Я верну каждую."
 
+msgid "I'm... hah... don't pull out. Stay."
+msgstr "Я... ха... не вынимай. Останься."
+
 msgid "I've been doing this for a very long time, and that was not on the list of things I expected from a library."
 msgstr "Я занимаюсь этим очень давно, и такого от библиотеки я не ждала."
 
@@ -1208,6 +1244,9 @@ msgstr "В игре есть сексуальное содержание, вкл
 
 msgid "It isn't so bad, but some animals are... Barely tolerable company."
 msgstr "Не так уж плохо, но некоторые звери... еле терпимая компания."
+
+msgid "It pulls you over with her. You hold her down on you and spill deep inside, pulse after pulse."
+msgstr "Это утаскивает за ней и тебя. Ты прижимаешь её к себе и изливаешься глубоко внутри, толчок за толчком."
 
 msgid "It rains all night. None of it reaches you."
 msgstr "Дождь идёт всю ночь. Ни капли не долетает до вас."
@@ -1509,6 +1548,9 @@ msgstr "Девять таких, и я свободна."
 msgid "Nine-hour wick. Hand-dipped. You know what this is for, don't you."
 msgstr "Фитиль на девять часов. Ручная работа. Ты ведь знаешь, для чего это."
 
+msgid "Nnnh... ahh... it's so warm..."
+msgstr "Ннх... ах... так тепло..."
+
 msgid "No Ads"
 msgstr "Без рекламы"
 
@@ -1583,6 +1625,9 @@ msgstr "О, ты тёплый... Уже много лет никто не кас
 
 msgid "Oh. I didn't know I did that. That's embarrassing. Do it again."
 msgstr "Ох. Я не знала, что так умею. Это неловко. Повтори."
+
+msgid "Ohh... I can feel your heartbeat. In me."
+msgstr "Ох... я чувствую, как бьётся твоё сердце. Во мне."
 
 msgid "Okay, that one was nice."
 msgstr "Ладно, этот был хорош."
@@ -1659,6 +1704,9 @@ msgstr "Сердца закончились"
 msgid "Out of moves"
 msgstr "Ходы закончились"
 
+msgid "Overhead, every leaf on the hazel is shaking. There is no wind."
+msgstr "Наверху дрожит каждый лист лещины. Ветра нет."
+
 msgid "Owned"
 msgstr "Куплено"
 
@@ -1673,6 +1721,9 @@ msgstr "Жемчуг. Бабуля бы одобрила."
 
 msgid "Petal"
 msgstr "Лепесток"
+
+msgid "Petals are drifting down around you both. The hazel has flowered. It's the wrong season for it."
+msgstr "Вокруг вас медленно падают лепестки. Лещина зацвела. Не в своё время."
 
 msgid "Petals. Good. Those I understand."
 msgstr "Лепестки. Хорошо. Это я понимаю."
@@ -1857,6 +1908,9 @@ msgstr "ПЕЧАТЕЙ СЛОМАНО"
 msgid "Saltwick Cove, an hour before sunset. You're on the cliff path when the shouting starts."
 msgstr "Бухта Солтвик, за час до заката. Ты идёшь по тропе над обрывом, когда внизу начинаются крики."
 
+msgid "Sap. More or less. It only runs when I'm happy."
+msgstr "Сок. Почти. Он течёт, только когда я счастлива."
+
 msgid "Save it, then. I'll be watching you very closely until you spend it."
 msgstr "Прибереги, тогда. Я буду очень внимательно за тобой следить, пока ты его не потратишь."
 
@@ -1911,6 +1965,15 @@ msgstr "Она прикусывает уголок, ещё не успев ск�
 msgid "She burns them in the reading room fireplace at four in the morning, one at a time. Each one goes up green. The loose page from your desk goes last: she tears her name off the corner and burns only that."
 msgstr "Она сжигает их в камине читального зала в четыре утра по одной. Каждая вспыхивает зелёным. Страница с твоего стола идёт последней: она отрывает уголок со своим именем и сжигает только его."
 
+msgid "She comes. Her whole body locks, and her cunt grips you in tight, rolling waves, base to tip, over and over."
+msgstr "Она кончает. Всё её тело замирает, и её киска сжимает тебя тугими, перекатывающимися волнами, от основания к кончику, снова и снова."
+
+msgid "She doesn't move. Inside, she does: a slow ripple climbs your shaft from base to tip, then another."
+msgstr "Она не двигается. Внутри — двигается: медленная волна поднимается по твоему стволу от основания к кончику, потом ещё одна."
+
+msgid "She drops."
+msgstr "Она опускается рывком."
+
 msgid "She ducks under before you can answer and comes up a few yards away, pretending to search."
 msgstr "Она ныряет, не дав тебе ответить, и выныривает в нескольких метрах, делая вид, что ищет."
 
@@ -1919,6 +1982,9 @@ msgstr "Она засыпает первой, что будет отрицать
 
 msgid "She flicks her tail and soaks you a second time, very deliberately."
 msgstr "Она взмахивает хвостом и окатывает тебя второй раз, очень нарочно."
+
+msgid "She gathers her dress up to her waist. Then she looks back at you."
+msgstr "Она подбирает платье до пояса. Потом оглядывается на тебя."
 
 msgid "She goes cloudy."
 msgstr "Она мутнеет."
@@ -1944,6 +2010,12 @@ msgstr "Она цепляет пальцем твой воротник и при
 msgid "She hooks a foot round your ankle and reels you in the last step."
 msgstr "Она цепляет ногой твою щиколотку и подтягивает тебя на последний шаг."
 
+msgid "She keeps going. An inch, a pause, another inch. She closes behind every one, as if she doesn't mean to give any back."
+msgstr "Она продолжает. Сантиметр, пауза, ещё сантиметр. За каждым она смыкается, будто не собирается отдавать ни одного обратно."
+
+msgid "She keeps rocking through it in small, slow circles, drawing out everything you have."
+msgstr "Она продолжает покачиваться сквозь это маленькими медленными кругами, вытягивая из тебя всё до капли."
+
 msgid "She kisses you again, slower, just to be sure."
 msgstr "Она целует тебя снова, медленнее, чтобы убедиться."
 
@@ -1956,11 +2028,26 @@ msgstr "Она смеётся, уткнувшись тебе в плечо, по
 msgid "She laughs, and a shower of rainwater falls off her leaves onto your head."
 msgstr "Она смеётся, и на твою голову обрушивается дождевая вода с её листьев."
 
+msgid "She lays her hand over yours and keeps it where it is."
+msgstr "Она кладёт свою руку поверх твоей и оставляет её там, где она есть."
+
+msgid "She leans forward onto her hands and rides you faster. The angle changes. Now the head of your cock drags along something swollen in her front wall with every stroke."
+msgstr "Она наклоняется вперёд на руки и скачет на тебе быстрее. Угол меняется. Теперь головка с каждым толчком проходит по чему-то набухшему на её передней стенке."
+
+msgid "She lifts off you on shaking legs. You slip free."
+msgstr "Она поднимается с тебя на дрожащих ногах. Ты выскальзываешь."
+
 msgid "She looks at the axe, then at the place on the trunk you were aiming for."
 msgstr "Она смотрит на топор, потом на место на стволе, куда нацелен твой удар."
 
+msgid "She looks back at you. For once, she has nothing dry to say."
+msgstr "Она оглядывается на тебя. Впервые ей нечего сказать с сухой усмешкой."
+
 msgid "She looks past you at the hollow: at the moss, pressed flat in neat little rows where something used to be laid out, and at the stream running fast and brown."
 msgstr "Она смотрит мимо тебя на ямку: на мох, примятый аккуратными рядами там, где что-то лежало, и на быстрый бурый ручей."
+
+msgid "She lowers herself until her slit rests along the length of your cock. She doesn't take it in."
+msgstr "Она опускается, пока её щёлка не ложится вдоль всего твоего члена. Внутрь она его не берёт."
 
 msgid "She makes you hold it up in the one patch of sun that gets through her leaves, and watches the shadow for a long time."
 msgstr "Она заставляет тебя поднять их в единственном пятне солнца, которое пробивается сквозь листву, и долго следит за тенью."
@@ -1980,8 +2067,14 @@ msgstr "Она тянет тебя вниз за рубашку. Её волос
 msgid "She pulls your arms round her neck so you don't have to tread water, and holds you up with her tail."
 msgstr "Она закидывает твои руки себе на шею, чтобы тебе не приходилось держаться на воде, и поддерживает тебя хвостом."
 
+msgid "She reaches down between her thighs and stands your cock upright."
+msgstr "Она тянется рукой между ног и ставит твой член стоймя."
+
 msgid "She rides in a big glass jar in your arms with the lid off, and counts every button as you drop it in."
 msgstr "Она едет в большой стеклянной банке у тебя на руках с открытой крышкой и считает каждую пуговицу, пока ты её кладёшь."
+
+msgid "She rocks. She isn't lifting yet, only grinding in small circles, stirring you around inside her."
+msgstr "Она покачивается. Ещё не приподнимается, только трётся маленькими кругами, перемешивая тебя внутри."
 
 msgid "She says it, but she doesn't swim off."
 msgstr "Так говорит, но не уплывает."
@@ -1992,11 +2085,20 @@ msgstr "Она ставит её рядом с огарком в твоём ме
 msgid "She shows you which branches you can sit on and which ones she's ticklish about. The second list is long."
 msgstr "Она показывает, на каких ветвях можно сидеть, а какие у неё щекотные. Второй список длинный."
 
+msgid "She sinks."
+msgstr "Она опускается."
+
 msgid "She sits on the end of the pier with her tail in the water. After a while she leans on your shoulder, as if by accident."
 msgstr "Она садится на конец пирса, опустив хвост в воду. Через какое-то время как бы случайно опирается на твоё плечо."
 
 msgid "She sits on the reading table, which you've asked her twice not to do, and moves the candle so it won't drip on the returns."
 msgstr "Она садится на читальный стол, хотя ты уже дважды просил этого не делать, и отодвигает свечу, чтобы воск не капал на возвраты."
+
+msgid "She slides. Forward, then back. Slick heat drags over you from root to tip."
+msgstr "Она скользит. Вперёд, потом назад. Скользкий жар тянется по тебе от основания до кончика."
+
+msgid "She smells of rain on cut wood, and under that, something sweet and green."
+msgstr "Она пахнет дождём на свежесрубленном дереве, а под этим — чем-то сладким и зелёным."
 
 msgid "She steps over the chalk line herself, careful not to smudge it, and picks the page up. You realise you've been staring."
 msgstr "Она сама переступает меловую линию, стараясь не смазать, и берёт страницу. Ты понимаешь, что пялишься."
@@ -2031,8 +2133,14 @@ msgstr "Она даже не рассердится. Просто скажет �
 msgid "She won't leave the candle behind. She carries it to Wick Street cupped in both hands, and makes you walk on the windy side."
 msgstr "Она не оставляет свечу. Она несёт её по Фитильной улице в обеих ладонях, прикрывая от ветра, и заставляет тебя идти с наветренной стороны."
 
+msgid "She's hotter inside than a woman is. It's a deep, soaking warmth that spreads into your hips."
+msgstr "Внутри она горячее, чем женщина. Глубокое, пропитывающее тепло расходится по твоим бёдрам."
+
 msgid "She's tall, horned and dressed for somewhere much nicer than a library. She crouches to look at your circle, and tuts."
 msgstr "Она высокая, рогатая, одета для места получше библиотеки. Она приседает рассмотреть твой круг и цокает языком."
+
+msgid "She's tight at the mouth, then she gives, and wet heat swallows the head of your cock."
+msgstr "Она тугая у входа, потом поддаётся, и влажный жар проглатывает головку."
 
 msgid "Shop"
 msgstr "Магазин"
@@ -2361,6 +2469,9 @@ msgstr "Это от шкатулки гребня. Значит, он упал �
 msgid "That's real. The sea made that. People tumble old bottles in a barrel and sell it as sea glass."
 msgstr "Настоящее. Это море сделало. А бывает, что старые бутылки гоняют в барабане и продают как морское стекло."
 
+msgid "That's the first one I've felt."
+msgstr "Это первая, которую я почувствовала."
+
 msgid "That's the good stuff. Again."
 msgstr "Вот это хорошо. Ещё."
 
@@ -2429,6 +2540,9 @@ msgstr "Стеклянный глаз обнаруживается в витри
 
 msgid "The green at the tips of her hair goes a shade darker. She notices, and decides not to mention it."
 msgstr "Зелень на кончиках её волос становится на тон темнее. Она замечает это и решает промолчать."
+
+msgid "The head rests against her entrance. She's pulsing there, slow, like something rising in spring."
+msgstr "Головка упирается в её вход. Она там пульсирует, медленно, как что-то, что поднимается весной."
 
 msgid "The jar stays empty all night."
 msgstr "Банка всю ночь пустует."
@@ -2538,6 +2652,9 @@ msgstr "Тогда попрошу я. Закрой дверь читальног
 msgid "Then she notices the loose page on your desk, the one you copied from, and goes very still."
 msgstr "Тут она замечает на твоём столе выпавшую страницу, ту, с которой срисован круг, и замирает."
 
+msgid "Then she rises. Her walls cling to you the whole way up, until only the head is left in her."
+msgstr "Потом она поднимается. Её стенки цепляются за тебя всю дорогу, пока внутри не остаётся одна головка."
+
 msgid "Then the miller. Then the miller again."
 msgstr "Потом мельник. Потом ещё раз мельник."
 
@@ -2570,6 +2687,9 @@ msgstr "Вот. Теперь мы квиты. Отлив в шесть."
 
 msgid "There. Now you can't go anywhere. It's a mermaid thing. It's very old. I just made it up."
 msgstr "Вот. Теперь ты никуда не денешься. Это русалочье. Очень древнее. Я только что придумала."
+
+msgid "There... mmh... there, there, there..."
+msgstr "Там... ммх... там, там, там..."
 
 msgid "These unlock on Steam too."
 msgstr "Они разблокируются и в Steam."
@@ -2672,6 +2792,9 @@ msgstr "Громкость голосов"
 
 msgid "W-with you? Where would I even..."
 msgstr "У-у тебя? А где я вообще..."
+
+msgid "Warmth runs out of her and drips onto your stomach."
+msgstr "Тепло вытекает из неё и капает тебе на живот."
 
 msgid "Watch a video: %s"
 msgstr "Смотреть видео: %s"
@@ -2787,6 +2910,9 @@ msgstr "Ты торопишься. Она смеётся над тобой, ни
 msgid "You don't think about it. You run down the steps, jump off the end of the pier in your clothes, get an arm round her and drag her back."
 msgstr "Ты не раздумываешь. Бежишь вниз по ступеням, прыгаешь с края пирса прямо в одежде, обхватываешь её рукой и тащишь назад."
 
+msgid "You find the rhythm together. Her hips roll back as yours drive up. Wet skin claps on wet skin."
+msgstr "Вы вместе находите ритм. Её бёдра откатываются назад, когда твои толкаются вверх. Мокрая кожа шлёпает о мокрую кожу."
+
 msgid "You have %d"
 msgstr "У тебя: %d"
 
@@ -2802,6 +2928,9 @@ msgstr "Ты смеёшься. Она розовеет насквозь, а по
 msgid "You leave your shoes on the pier, both of them."
 msgstr "Ты оставляешь на пирсе оба ботинка."
 
+msgid "You lie back along the fallen bough. She swings a knee over your hips and settles astride you, facing the river."
+msgstr "Ты ложишься на спину вдоль упавшей ветви. Она перекидывает колено через твои бёдра и садится на тебя верхом, лицом к реке."
+
 msgid "You look from her to the trunk and back. Her heart is in the tree, then. So what's in her chest? Does she feel every woodpecker? Is the tree her, or is she the tree's way of talking? It doesn't feel like the moment to ask."
 msgstr "Ты переводишь взгляд с неё на ствол и обратно. Значит, сердце у неё в дереве. А что тогда у неё в груди? Она чувствует каждого дятла? Дерево — это она, или она — это то, как дерево разговаривает? Сейчас, кажется, не лучший момент спрашивать."
 
@@ -2813,6 +2942,9 @@ msgstr "Не хватает звёзд: %d."
 
 msgid "You needed %d more points."
 msgstr "Тебе не хватило %d очков."
+
+msgid "You plant your feet and thrust up into her as she comes down. She makes a sound you haven't heard from her before."
+msgstr "Ты упираешься ногами и толкаешься вверх в неё, когда она опускается. Она издаёт звук, которого ты от неё ещё не слышал."
 
 msgid "You point out that the label said newts."
 msgstr "Ты замечаешь, что на этикетке было написано «тритоны»."
@@ -2837,6 +2969,9 @@ msgstr "Ты сидишь, прислонившись спиной к ствол
 
 msgid "You sit with your back against the trunk while it rains. Every so often she makes a small sound, and you put your hand flat on the bark. Under your palm, right about where you'd have swung the axe, something in the wood is beating. So that answers that."
 msgstr "Ты сидишь под дождём, прислонившись спиной к стволу. Время от времени она тихо вскрикивает, и ты кладёшь ладонь на кору. Под ладонью, примерно там, куда ты собирался ударить топором, в дереве что-то бьётся. Что ж, вопрос снят."
+
+msgid "You squeeze her and pull her open with your thumbs. Her breath catches, and her hips stutter."
+msgstr "Ты сжимаешь её и раздвигаешь большими пальцами. У неё перехватывает дыхание, бёдра сбиваются."
 
 msgid "You start to take your hand away. She says you don't have to."
 msgstr "Ты хочешь убрать руку. Она говорит, что не надо."
@@ -2951,6 +3086,9 @@ msgstr "Ты... Вот так прыгнуть, в одежде. За совер
 
 msgid "Your best: %d"
 msgstr "Твой рекорд: %d"
+
+msgid "Your hands find her ass. She's warm all the way through, like bark at the end of a July day."
+msgstr "Твои руки находят её попку. Она тёплая насквозь, как кора в конце июльского дня."
 
 msgid "Your name would be nice."
 msgstr "Было бы приятно узнать твоё имя."

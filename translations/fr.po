@@ -72,6 +72,9 @@ msgstr "+5 cœurs · %s"
 msgid "-1 move"
 msgstr "-1 coup"
 
+msgid "...Two hundred springs."
+msgstr "...Deux cents printemps."
+
 msgid "1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!"
 msgstr "1 étoile tous les 200 points. Économise pour des bonus à la Boutique, puis réessaie !"
 
@@ -222,8 +225,14 @@ msgstr "Après, elle est étalée sur presque tout le lit et une partie de toi, 
 msgid "Afterwards you lie in the moss with her hair across your chest. Overhead, every leaf on her east side has turned pale side up, the way they do before a storm. There's no storm."
 msgstr "Après, tu restes allongé dans la mousse, ses cheveux en travers de ta poitrine. Au-dessus, chaque feuille de son côté est s'est retournée face pâle vers le haut, comme avant un orage. Il n'y a pas d'orage."
 
+msgid "Again. Up slow, down hard. Each time she lands, she clenches and holds you for a heartbeat."
+msgstr "Encore. Lentement en haut, fort en bas. Chaque fois qu'elle retombe, elle se resserre et te garde le temps d'un battement de cœur."
+
 msgid "Against an alchemist? You sold my buttons for two coppers and bought them back for six."
 msgstr "Contre un alchimiste ? Tu as vendu mes boutons deux sous et tu les as rachetés six."
+
+msgid "Ahh!"
+msgstr "Ahh !"
 
 msgid "Alchemists boil slimes down for glue. Did you know that? Twelve shillings a pound."
 msgstr "Les alchimistes font bouillir les slimes pour en faire de la colle. Tu le savais ? Douze shillings la livre."
@@ -272,6 +281,9 @@ msgstr "Et tu ne le diras à personne non plus, hein, sauveteur ?"
 
 msgid "Another date"
 msgstr "Un autre rendez-vous"
+
+msgid "Another slow slide. The moss above her slit brushes you, soft and damp."
+msgstr "Encore une glissade lente. La mousse au-dessus de sa fente t'effleure, douce et humide."
 
 msgid "Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing."
 msgstr "Tout alignement valide atteint aussitôt l'objectif du chapitre et donne 99 étoiles — pour les tests, pas pour jouer vraiment."
@@ -840,6 +852,9 @@ msgstr "Faire éclore 25 fleurs de Hazel."
 msgid "Grow enough seeds into blossoms to win. A new seed drops in every few moves."
 msgstr "Fais grandir assez de graines jusqu'à la fleur pour gagner. Une nouvelle graine tombe tous les quelques coups."
 
+msgid "Hah... ah... yes. Like that. With me."
+msgstr "Hah... ah... oui. Comme ça. Avec moi."
+
 msgid "Hammer"
 msgstr "Marteau"
 
@@ -897,6 +912,9 @@ msgstr "Cœurs : %d / %d"
 msgid "Hearts: losing a chapter costs one, and they come back over time."
 msgstr "Cœurs : perdre un chapitre en coûte un, et ils reviennent avec le temps."
 
+msgid "Her ass comes to rest on you. You're in her to the root."
+msgstr "Ses fesses viennent se poser sur toi. Tu es en elle jusqu'à la garde."
+
 msgid "Her board with no move limit, just for fun and a high score."
 msgstr "Son plateau sans limite de coups, juste pour le plaisir et un record."
 
@@ -942,6 +960,12 @@ msgstr "Sa scène de nuit"
 msgid "Her powers used"
 msgstr "Pouvoirs utilisés"
 
+msgid "Her rhythm breaks. She's only grinding now, hard and desperate, with you buried as deep as you'll go."
+msgstr "Son rythme se brise. Elle ne fait plus que se frotter, fort et désespérée, toi enfoui aussi loin que possible."
+
+msgid "Her sap runs down your shaft and over your balls, warm as bathwater."
+msgstr "Sa sève coule le long de ta queue et sur tes couilles, chaude comme l'eau du bain."
+
 msgid "Her sisters start watching"
 msgstr "Ses sœurs commencent à regarder"
 
@@ -950,6 +974,9 @@ msgstr "Son histoire continue comme si tu l'avais réussi. Tu ne reçois pas ses
 
 msgid "Her story starts over from your first meeting, so you can make different choices. Endings you've found stay in the Gallery, your gift stays given, and her chapters pay out stars again."
 msgstr "Son histoire recommence depuis votre première rencontre, pour que tu puisses faire d'autres choix. Les fins trouvées restent dans la Galerie, ton cadeau reste offert, et ses chapitres rapportent à nouveau des étoiles."
+
+msgid "Her thighs are trembling under your hands. Small aftershocks still flutter through her."
+msgstr "Ses cuisses tremblent sous tes mains. De petites répliques la parcourent encore."
 
 msgid "Hide text"
 msgstr "Cacher le texte"
@@ -962,6 +989,12 @@ msgstr "Grande marée !"
 
 msgid "High Water"
 msgstr "Marée haute"
+
+msgid "Hnn...!"
+msgstr "Hnn... !"
+
+msgid "Hold still. I want to do this part."
+msgstr "Ne bouge pas. Cette partie-là, je veux la faire moi-même."
 
 msgid "Home"
 msgstr "Accueil"
@@ -1092,6 +1125,9 @@ msgstr "Je ne te regarde pas. Je fais de la photosynthèse."
 msgid "I'm so sorry. I'll get every one of them back."
 msgstr "Je suis vraiment désolé. Je vais te les récupérer, jusqu'au dernier."
 
+msgid "I'm... hah... don't pull out. Stay."
+msgstr "Je... hah... ne te retire pas. Reste."
+
 msgid "I've been doing this for a very long time, and that was not on the list of things I expected from a library."
 msgstr "Ça fait très longtemps que je fais ça, et ce n'était pas sur la liste de ce que j'attendais d'une bibliothèque."
 
@@ -1160,6 +1196,9 @@ msgstr "Il contient du contenu sexuel, dont des scènes intimes, et des illustra
 
 msgid "It isn't so bad, but some animals are... Barely tolerable company."
 msgstr "Ce n'est pas si terrible, mais certains animaux sont... d'une compagnie à peine supportable."
+
+msgid "It pulls you over with her. You hold her down on you and spill deep inside, pulse after pulse."
+msgstr "Ça t'emporte avec elle. Tu la maintiens contre toi et tu te répands au fond d'elle, saccade après saccade."
 
 msgid "It rains all night. None of it reaches you."
 msgstr "Il pleut toute la nuit. Pas une goutte ne t'atteint."
@@ -1449,6 +1488,9 @@ msgstr "Neuf comme ça et je suis tirée d'affaire."
 msgid "Nine-hour wick. Hand-dipped. You know what this is for, don't you."
 msgstr "Mèche de neuf heures. Trempée à la main. Tu sais à quoi ça sert, n'est-ce pas."
 
+msgid "Nnnh... ahh... it's so warm..."
+msgstr "Nnnh... ahh... c'est si chaud..."
+
 msgid "No Ads"
 msgstr "Sans pubs"
 
@@ -1524,6 +1566,9 @@ msgstr "Oh, tu es chaud... Personne ne m'a touchée sans hache depuis des année
 msgid "Oh. I didn't know I did that. That's embarrassing. Do it again."
 msgstr "Oh. Je ne savais pas que je faisais ça. C'est gênant. Refais-le."
 
+msgid "Ohh... I can feel your heartbeat. In me."
+msgstr "Ohh... je sens ton cœur battre. En moi."
+
 msgid "Okay, that one was nice."
 msgstr "D'accord, celle-là était belle."
 
@@ -1596,6 +1641,9 @@ msgstr "Plus de cœurs"
 msgid "Out of moves"
 msgstr "À court de coups"
 
+msgid "Overhead, every leaf on the hazel is shaking. There is no wind."
+msgstr "Au-dessus, chaque feuille du noisetier tremble. Il n'y a pas de vent."
+
 msgid "Owned"
 msgstr "Possédé"
 
@@ -1610,6 +1658,9 @@ msgstr "Des perles. Mamie approuverait."
 
 msgid "Petal"
 msgstr "Pétale"
+
+msgid "Petals are drifting down around you both. The hazel has flowered. It's the wrong season for it."
+msgstr "Des pétales tombent doucement autour de vous deux. Le noisetier a fleuri. Ce n'est pas la saison."
 
 msgid "Petals. Good. Those I understand."
 msgstr "Des pétales. Bien. Ça, je comprends."
@@ -1791,6 +1842,9 @@ msgstr "SCEAUX BRISÉS"
 msgid "Saltwick Cove, an hour before sunset. You're on the cliff path when the shouting starts."
 msgstr "La crique de Saltwick, une heure avant le coucher du soleil. Tu es sur le sentier de la falaise quand les cris commencent."
 
+msgid "Sap. More or less. It only runs when I'm happy."
+msgstr "De la sève. Plus ou moins. Elle ne coule que quand je suis heureuse."
+
 msgid "Save it, then. I'll be watching you very closely until you spend it."
 msgstr "Garde-le, alors. Je vais te surveiller de très près jusqu'à ce que tu l'utilises."
 
@@ -1845,6 +1899,15 @@ msgstr "Elle en mordille un coin avant même de te remercier."
 msgid "She burns them in the reading room fireplace at four in the morning, one at a time. Each one goes up green. The loose page from your desk goes last: she tears her name off the corner and burns only that."
 msgstr "Elle les brûle dans la cheminée de la salle de lecture à quatre heures du matin, une par une. Chacune s'embrase en vert. La page volante de ton bureau passe en dernier : elle arrache son nom dans le coin et ne brûle que ça."
 
+msgid "She comes. Her whole body locks, and her cunt grips you in tight, rolling waves, base to tip, over and over."
+msgstr "Elle jouit. Tout son corps se fige, et sa chatte te serre en vagues étroites et roulantes, de la base au bout, encore et encore."
+
+msgid "She doesn't move. Inside, she does: a slow ripple climbs your shaft from base to tip, then another."
+msgstr "Elle ne bouge pas. À l'intérieur, si : une lente ondulation remonte ta queue de la base au bout, puis une autre."
+
+msgid "She drops."
+msgstr "Elle retombe."
+
 msgid "She ducks under before you can answer and comes up a few yards away, pretending to search."
 msgstr "Elle plonge avant que tu puisses répondre et refait surface quelques mètres plus loin en faisant semblant de chercher."
 
@@ -1853,6 +1916,9 @@ msgstr "C'est elle qui s'endort la première, ce qu'elle niera. La marée entre 
 
 msgid "She flicks her tail and soaks you a second time, very deliberately."
 msgstr "Elle donne un coup de queue et t'arrose une seconde fois, très délibérément."
+
+msgid "She gathers her dress up to her waist. Then she looks back at you."
+msgstr "Elle relève sa robe jusqu'à la taille. Puis elle se retourne vers toi."
 
 msgid "She goes cloudy."
 msgstr "Elle devient trouble."
@@ -1878,6 +1944,12 @@ msgstr "Elle passe un doigt dans ton col et t'attire jusqu'à ce que vous soyez 
 msgid "She hooks a foot round your ankle and reels you in the last step."
 msgstr "Elle crochète ta cheville du pied et te ramène le dernier pas."
 
+msgid "She keeps going. An inch, a pause, another inch. She closes behind every one, as if she doesn't mean to give any back."
+msgstr "Elle continue. Un centimètre, une pause, un autre centimètre. Elle se referme derrière chacun, comme si elle n'avait pas l'intention d'en rendre un seul."
+
+msgid "She keeps rocking through it in small, slow circles, drawing out everything you have."
+msgstr "Elle continue de se balancer à travers tout ça en petits cercles lents, tirant de toi tout ce que tu as."
+
 msgid "She kisses you again, slower, just to be sure."
 msgstr "Elle t'embrasse encore, plus lentement, juste pour être sûre."
 
@@ -1890,11 +1962,26 @@ msgstr "Elle rit contre ton épaule jusqu'au hoquet."
 msgid "She laughs, and a shower of rainwater falls off her leaves onto your head."
 msgstr "Elle rit, et une averse d'eau de pluie tombe de ses feuilles sur ta tête."
 
+msgid "She lays her hand over yours and keeps it where it is."
+msgstr "Elle pose sa main sur la tienne et la garde où elle est."
+
+msgid "She leans forward onto her hands and rides you faster. The angle changes. Now the head of your cock drags along something swollen in her front wall with every stroke."
+msgstr "Elle se penche en avant sur ses mains et te chevauche plus vite. L'angle change. Maintenant, à chaque coup, ton gland frotte contre un point gonflé sur sa paroi avant."
+
+msgid "She lifts off you on shaking legs. You slip free."
+msgstr "Elle se soulève de toi sur des jambes tremblantes. Tu glisses hors d'elle."
+
 msgid "She looks at the axe, then at the place on the trunk you were aiming for."
 msgstr "Elle regarde la hache, puis l'endroit du tronc que tu visais."
 
+msgid "She looks back at you. For once, she has nothing dry to say."
+msgstr "Elle se retourne vers toi. Pour une fois, elle n'a rien de pince-sans-rire à dire."
+
 msgid "She looks past you at the hollow: at the moss, pressed flat in neat little rows where something used to be laid out, and at the stream running fast and brown."
 msgstr "Elle regarde derrière toi, le creux : la mousse, aplatie en petites rangées bien nettes là où quelque chose était posé, et le ruisseau qui coule vite et brun."
+
+msgid "She lowers herself until her slit rests along the length of your cock. She doesn't take it in."
+msgstr "Elle descend jusqu'à ce que sa fente repose sur toute la longueur de ta queue. Elle ne la prend pas."
 
 msgid "She makes you hold it up in the one patch of sun that gets through her leaves, and watches the shadow for a long time."
 msgstr "Elle te le fait tenir dans la seule tache de soleil qui traverse ses feuilles, et regarde l'ombre longtemps."
@@ -1914,8 +2001,14 @@ msgstr "Elle t'attire vers elle par ta chemise. Ses cheveux tombent autour de vo
 msgid "She pulls your arms round her neck so you don't have to tread water, and holds you up with her tail."
 msgstr "Elle passe tes bras autour de son cou pour que tu n'aies pas à nager sur place, et te maintient à flot avec sa queue."
 
+msgid "She reaches down between her thighs and stands your cock upright."
+msgstr "Elle passe la main entre ses cuisses et redresse ta queue."
+
 msgid "She rides in a big glass jar in your arms with the lid off, and counts every button as you drop it in."
 msgstr "Elle voyage dans un grand bocal sans couvercle dans tes bras, et compte chaque bouton que tu y laisses tomber."
+
+msgid "She rocks. She isn't lifting yet, only grinding in small circles, stirring you around inside her."
+msgstr "Elle se balance. Elle ne se soulève pas encore, elle se frotte en petits cercles, te remuant en elle."
 
 msgid "She says it, but she doesn't swim off."
 msgstr "Elle dit ça, mais elle ne s'en va pas à la nage."
@@ -1926,11 +2019,20 @@ msgstr "Elle la pose à côté du moignon de bougie dans ton cercle de craie et 
 msgid "She shows you which branches you can sit on and which ones she's ticklish about. The second list is long."
 msgstr "Elle te montre sur quelles branches tu peux t'asseoir et lesquelles la chatouillent. La deuxième liste est longue."
 
+msgid "She sinks."
+msgstr "Elle s'enfonce."
+
 msgid "She sits on the end of the pier with her tail in the water. After a while she leans on your shoulder, as if by accident."
 msgstr "Elle s'assoit au bout de la jetée, la queue dans l'eau. Au bout d'un moment, elle s'appuie contre ton épaule, comme par accident."
 
 msgid "She sits on the reading table, which you've asked her twice not to do, and moves the candle so it won't drip on the returns."
 msgstr "Elle s'assoit sur la table de lecture, ce que tu lui as demandé deux fois de ne pas faire, et déplace la bougie pour qu'elle ne coule pas sur les retours."
+
+msgid "She slides. Forward, then back. Slick heat drags over you from root to tip."
+msgstr "Elle glisse. En avant, puis en arrière. Une chaleur glissante te parcourt de la base au bout."
+
+msgid "She smells of rain on cut wood, and under that, something sweet and green."
+msgstr "Elle sent la pluie sur le bois fraîchement coupé, et dessous, quelque chose de sucré et de vert."
 
 msgid "She steps over the chalk line herself, careful not to smudge it, and picks the page up. You realise you've been staring."
 msgstr "Elle enjambe elle-même la ligne de craie, en prenant soin de ne pas l'effacer, et ramasse la page. Tu te rends compte que tu la fixes."
@@ -1965,8 +2067,14 @@ msgstr "Elle ne sera même pas fâchée. Elle dira juste « oh, Mari », comme M
 msgid "She won't leave the candle behind. She carries it to Wick Street cupped in both hands, and makes you walk on the windy side."
 msgstr "Elle refuse d'abandonner la bougie. Elle la porte jusqu'à la rue de la Mèche dans ses mains en coupe, et te fait marcher du côté du vent."
 
+msgid "She's hotter inside than a woman is. It's a deep, soaking warmth that spreads into your hips."
+msgstr "Elle est plus chaude dedans qu'une femme. Une chaleur profonde, détrempée, qui se répand dans tes hanches."
+
 msgid "She's tall, horned and dressed for somewhere much nicer than a library. She crouches to look at your circle, and tuts."
 msgstr "Elle est grande, cornue, et habillée pour un endroit bien plus chic qu'une bibliothèque. Elle s'accroupit pour examiner ton cercle et fait claquer sa langue."
+
+msgid "She's tight at the mouth, then she gives, and wet heat swallows the head of your cock."
+msgstr "Elle est serrée à l'entrée, puis elle cède, et une chaleur humide avale ton gland."
 
 msgid "Shop"
 msgstr "Boutique"
@@ -2292,6 +2400,9 @@ msgstr "Il vient de l'écrin du peigne. Donc il est tombé pile là."
 msgid "That's real. The sea made that. People tumble old bottles in a barrel and sell it as sea glass."
 msgstr "Il est vrai. C'est la mer qui l'a fait. Il y a des gens qui roulent de vieilles bouteilles dans un tonneau et les vendent comme verre de mer."
 
+msgid "That's the first one I've felt."
+msgstr "C'est le premier que je sens."
+
 msgid "That's the good stuff. Again."
 msgstr "Ça, c'est du bon. Encore."
 
@@ -2357,6 +2468,9 @@ msgstr "L'œil de verre réapparaît dans la vitrine du taxidermiste de la rue d
 
 msgid "The green at the tips of her hair goes a shade darker. She notices, and decides not to mention it."
 msgstr "Le vert au bout de ses cheveux fonce d'un ton. Elle le remarque, et décide de ne rien dire."
+
+msgid "The head rests against her entrance. She's pulsing there, slow, like something rising in spring."
+msgstr "Le gland repose contre son entrée. Elle palpite là, lentement, comme quelque chose qui monte au printemps."
 
 msgid "The jar stays empty all night."
 msgstr "Le bocal reste vide toute la nuit."
@@ -2460,6 +2574,9 @@ msgstr "Alors c'est moi qui demande. Ferme la porte de la salle de lecture. Lais
 msgid "Then she notices the loose page on your desk, the one you copied from, and goes very still."
 msgstr "Puis elle remarque la page volante sur ton bureau, celle que tu as recopiée, et se fige."
 
+msgid "Then she rises. Her walls cling to you the whole way up, until only the head is left in her."
+msgstr "Puis elle se relève. Ses parois s'accrochent à toi tout le long, jusqu'à ce qu'il ne reste que le gland en elle."
+
 msgid "Then the miller. Then the miller again."
 msgstr "Puis le meunier. Puis encore le meunier."
 
@@ -2489,6 +2606,9 @@ msgstr "Voilà. Maintenant on est quittes. La marée basse est à six heures."
 
 msgid "There. Now you can't go anywhere. It's a mermaid thing. It's very old. I just made it up."
 msgstr "Voilà. Maintenant tu ne peux aller nulle part. C'est un truc de sirène. Très ancien. Je viens de l'inventer."
+
+msgid "There... mmh... there, there, there..."
+msgstr "Là... mmh... là, là, là..."
 
 msgid "These unlock on Steam too."
 msgstr "Ils se débloquent aussi sur Steam."
@@ -2585,6 +2705,9 @@ msgstr "Volume des voix"
 
 msgid "W-with you? Where would I even..."
 msgstr "C-chez toi ? Où est-ce que je..."
+
+msgid "Warmth runs out of her and drips onto your stomach."
+msgstr "De la chaleur coule d'elle et goutte sur ton ventre."
 
 msgid "Watch a video: %s"
 msgstr "Regarder une vidéo : %s"
@@ -2700,6 +2823,9 @@ msgstr "Tu ne prends pas ton temps. Elle se moque de toi, d'un rire grave au fon
 msgid "You don't think about it. You run down the steps, jump off the end of the pier in your clothes, get an arm round her and drag her back."
 msgstr "Tu ne réfléchis pas. Tu dévales les marches, sautes tout habillé du bout de la jetée, passes un bras autour d'elle et la ramènes."
 
+msgid "You find the rhythm together. Her hips roll back as yours drive up. Wet skin claps on wet skin."
+msgstr "Vous trouvez le rythme ensemble. Ses hanches roulent en arrière quand les tiennes montent. La peau mouillée claque contre la peau mouillée."
+
 msgid "You have %d"
 msgstr "Tu en as %d"
 
@@ -2715,6 +2841,9 @@ msgstr "Tu ris. Elle rosit de part en part, puis elle rit aussi."
 msgid "You leave your shoes on the pier, both of them."
 msgstr "Tu laisses tes chaussures sur la jetée, les deux."
 
+msgid "You lie back along the fallen bough. She swings a knee over your hips and settles astride you, facing the river."
+msgstr "Tu t'allonges sur le dos le long de la branche tombée. Elle passe un genou par-dessus tes hanches et s'installe à califourchon sur toi, face à la rivière."
+
 msgid "You look from her to the trunk and back. Her heart is in the tree, then. So what's in her chest? Does she feel every woodpecker? Is the tree her, or is she the tree's way of talking? It doesn't feel like the moment to ask."
 msgstr "Tu regardes d'elle au tronc, puis de nouveau elle. Son cœur est donc dans l'arbre. Alors qu'y a-t-il dans sa poitrine ? Sent-elle chaque pic-vert ? L'arbre, c'est elle, ou est-elle la façon dont l'arbre parle ? Ça n'a pas l'air d'être le moment de demander."
 
@@ -2726,6 +2855,9 @@ msgstr "Il te manque %d étoiles."
 
 msgid "You needed %d more points."
 msgstr "Il te manquait %d points."
+
+msgid "You plant your feet and thrust up into her as she comes down. She makes a sound you haven't heard from her before."
+msgstr "Tu cales tes pieds et tu donnes un coup de reins en elle pendant qu'elle redescend. Elle pousse un son que tu ne lui avais jamais entendu."
 
 msgid "You point out that the label said newts."
 msgstr "Tu fais remarquer que l'étiquette disait tritons."
@@ -2747,6 +2879,9 @@ msgstr "Tu secoues la tête."
 
 msgid "You sit with your back against the trunk while it rains. Every so often she makes a small sound, and you put your hand flat on the bark. Under your palm, right about where you'd have swung the axe, something in the wood is beating. So that answers that."
 msgstr "Tu t'assois le dos contre le tronc pendant qu'il pleut. De temps en temps, elle pousse un petit bruit, et tu poses la main à plat sur l'écorce. Sous ta paume, juste à l'endroit où tu aurais frappé avec la hache, quelque chose bat dans le bois. Voilà qui répond à la question."
+
+msgid "You squeeze her and pull her open with your thumbs. Her breath catches, and her hips stutter."
+msgstr "Tu la serres et l'écartes avec tes pouces. Son souffle se bloque, et ses hanches hoquettent."
 
 msgid "You start to take your hand away. She says you don't have to."
 msgstr "Tu commences à retirer ta main. Elle dit que tu n'es pas obligé."
@@ -2861,6 +2996,9 @@ msgstr "Tu as... sauté tout habillé. Pour quelqu'un que tu ne connaissais pas.
 
 msgid "Your best: %d"
 msgstr "Ton record : %d"
+
+msgid "Your hands find her ass. She's warm all the way through, like bark at the end of a July day."
+msgstr "Tes mains trouvent ses fesses. Elle est chaude de part en part, comme l'écorce à la fin d'une journée de juillet."
 
 msgid "Your name would be nice."
 msgstr "Ton nom, ce serait bien."

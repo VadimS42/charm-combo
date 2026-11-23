@@ -17,6 +17,26 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
+## ✅ Status: round-53 — Hazel's night scene, Hazel by the mill
+
+- **Hazel's night scene** is written and illustrated: 46 lines in place of
+  her placeholder, with three pictures in `art/characters/dryad/cg/`.
+  `night_lead` shows from the start, `night_act` from "She sinks." and
+  `night_after` from "She lifts off you…". Her 11 new spoken lines have
+  voice ids `hazel_night_10` to `hazel_night_19b`, ready for recording; until
+  then they're silent. Translated into all 12 languages (machine drafts,
+  `tools/i18n/round53_hazel_night.py`).
+- **Her puzzle background** `art/backgrounds/dryad_mill.png` (characters.json
+  `"puzzleBg"`) is the mill picture, mirrored so she sits to the right of the
+  board. She's painted into it, so her chapters don't draw her sprite on
+  top. Her other screens are unchanged.
+- **Picture viewer fix:** it looked for `night.png` but never
+  `night_lead.png`, so every girl's first night picture was missing.
+- `tools/i18n/rekey.py` rewrites every language's translator files with the
+  current keys after English lines are added (they had drifted).
+- Night pictures stay out of the safe-for-work and demo packages
+  (`export_presets.cfg`). All tests pass.
+
 ## ✅ Status: round-52 — 13 languages: the world's top 10 plus Ukrainian, and a translation check
 
 - **Six new languages**, complete (interface and all four stories): Hindi,

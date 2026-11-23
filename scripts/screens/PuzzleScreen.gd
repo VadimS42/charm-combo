@@ -502,7 +502,7 @@ func _build_ui_mobile() -> void:
 	_mobile_layout = true
 	var vs: Vector2 = main.get_viewport().get_visible_rect().size
 	var up := vs.y > vs.x
-	var bg_tex := ArtAssets.background_for(String(ch.get("bg", "")))
+	var bg_tex := _puzzle_bg()
 	if bg_tex:
 		var bg_img := TextureRect.new()
 		bg_img.texture = bg_tex
@@ -511,7 +511,7 @@ func _build_ui_mobile() -> void:
 		bg_img.set_anchors_preset(Control.PRESET_FULL_RECT)
 		host.add_child(bg_img)
 		var scrim := ColorRect.new()
-		scrim.color = Color(UITheme.BG.r, UITheme.BG.g, UITheme.BG.b, 0.4)
+		scrim.color = Color(UITheme.BG.r, UITheme.BG.g, UITheme.BG.b, 0.2 if _bg_has_her() else 0.4)
 		scrim.set_anchors_preset(Control.PRESET_FULL_RECT)
 		host.add_child(scrim)
 	else:
@@ -971,6 +971,17 @@ func relayout() -> void:
 	_reset_idle_timer()
 
 
+## Her puzzle background: "puzzleBg" (a picture with her in it, round 52)
+## if she has one and it's there, else her usual "bg".
+func _puzzle_bg() -> Texture2D:
+	var t := ArtAssets.background_for(String(ch.get("puzzleBg", "")))
+	return t if t else ArtAssets.background_for(String(ch.get("bg", "")))
+
+
+func _bg_has_her() -> bool:
+	return ArtAssets.background_for(String(ch.get("puzzleBg", ""))) != null
+
+
 func _build_ui() -> void:
 	if Platform.mobile:
 		_build_ui_mobile()
@@ -981,7 +992,7 @@ func _build_ui() -> void:
 	# res://art/backgrounds/<ch.bg>.png exists (see ArtAssets.gd); until
 	# then falls back to the same soft accent-blob placeholder as the other
 	# screens, so it never looks like a missing asset.
-	var bg_tex := ArtAssets.background_for(String(ch.get("bg", "")))
+	var bg_tex := _puzzle_bg()
 	if bg_tex:
 		var bg_img := TextureRect.new()
 		bg_img.texture = bg_tex
@@ -990,7 +1001,7 @@ func _build_ui() -> void:
 		bg_img.set_anchors_preset(Control.PRESET_FULL_RECT)
 		host.add_child(bg_img)
 		var scrim := ColorRect.new()
-		scrim.color = Color(UITheme.BG.r, UITheme.BG.g, UITheme.BG.b, 0.4)
+		scrim.color = Color(UITheme.BG.r, UITheme.BG.g, UITheme.BG.b, 0.2 if _bg_has_her() else 0.4)
 		scrim.set_anchors_preset(Control.PRESET_FULL_RECT)
 		host.add_child(scrim)
 	else:
@@ -1006,6 +1017,11 @@ func _build_ui() -> void:
 	# right corner the sidebar portrait uses (matching `margin` below).
 	var idle := ArtAssets.idle_animation(char_id)
 	var rig := ArtAssets.live_rig(char_id)
+	# She's painted into her puzzle background (round 52, Hazel by the mill):
+	# no second copy of her over it.
+	if _bg_has_her():
+		idle = {}
+		rig = {}
 	if not rig.is_empty():
 		var layer := Control.new()
 		layer.set_anchors_preset(Control.PRESET_FULL_RECT)
@@ -1075,7 +1091,7 @@ func _build_ui() -> void:
 		anim.pivot_offset = Vector2(w * 0.5, h)
 		layer.add_child(anim)
 		_anim_sprite = anim
-	else:
+	elif not _bg_has_her():
 		# No animation, but full-body sprites: same layer, same spot, same
 		# height — the sidebar is far too narrow to show a head-to-toe figure.
 		var neutral_tex := ArtAssets.character_portrait(char_id, "neutral")
@@ -1829,6 +1845,9 @@ func _set_sprite_expr(expr: String) -> void:
 	# animation instead — see _react_sprite()); swapping in a static
 	# waist-up expression portrait over a full-body animation would jump.
 	if _anim_sprite != null or _live_sprite != null:
+		return
+	# She's in the background picture already (round 52).
+	if not _mobile_layout and _bg_has_her():
 		return
 	if _mobile_layout:
 		_mobile_face(expr)

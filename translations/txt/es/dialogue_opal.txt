@@ -236,4 +236,4 @@ Un búho la sobresalta
 @@ opal-0118
 Absorber
 @@ opal-0119
-Elige una gema: se eliminan todas las gemas de ese color.
+Elige una gema: desaparecen todas las gemas de ese color.

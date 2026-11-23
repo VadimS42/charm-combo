@@ -37,8 +37,8 @@ NAMES = {
     "Opal": {"zh_CN": "欧泊", "hi": "ओपल", "ar": "أوبال", "bn": "ওপাল", "ru": "Опал", "ja": "オパール", "uk": "Опал"},
     "Hazel": {"zh_CN": "黑泽尔", "hi": "हेज़ल", "ar": "هيزل", "bn": "হেজেল", "ru": "Хейзел", "ja": "ヘイゼル", "uk": "Гейзел"},
 }
-# Lines where the English name means something else (Hazel's flower = the hazel tree).
-NAME_SKIP = {"hazel-0107"}
+# Lines (by English text, keys renumber) where the English name means something else (Hazel's flower = the hazel tree).
+NAME_SKIP = {"Morning in the grove. There's blossom on the east side of the tree that wasn't there last night. Hazels flower in February. It's May."}
 # Words that may stay in Latin letters inside non-Latin translations.
 LATIN_OK = {"Steam", "Godot", "Engine", "Google", "Play", "Ctrl", "Enter", "F11", "godot", "log", "Charm", "Combo",
             "L", "T", "A", "H", "x", "QA", "OK", "Mega", "Rune", "Millbrook"}
@@ -79,7 +79,7 @@ def check(loc, keys, en_index):
         for name, per in NAMES.items():
             if name in en and key.startswith(("ui-", "amara", "marina", "opal", "hazel")):
                 want = per.get(loc, name)
-                if want not in tr and key not in NAME_SKIP:
+                if want not in tr and en not in NAME_SKIP:
                     notes.append("name %s %s: %s" % (name, key, tr[:60]))
         if loc in NON_LATIN:
             words = [w for w in re.findall(r"[A-Za-z]{2,}", re.sub(r"%[ds]", "", tr)) if w not in LATIN_OK]

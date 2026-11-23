@@ -72,6 +72,9 @@ msgstr "ハート+5 · %s"
 msgid "-1 move"
 msgstr "-1手"
 
+msgid "...Two hundred springs."
+msgstr "……二百回の春。"
+
 msgid "1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!"
 msgstr "200ポイントごとに星1つ。ショップでアイテムをためて、もう一度挑戦しよう!"
 
@@ -228,8 +231,14 @@ msgstr "そのあと彼女は、ベッドのほとんどとあなたの一部に
 msgid "Afterwards you lie in the moss with her hair across your chest. Overhead, every leaf on her east side has turned pale side up, the way they do before a storm. There's no storm."
 msgstr "そのあと、あなたは彼女の髪を胸にかけたまま苔の上に横たわっている。頭上では、彼女の東側の葉がすべて白い裏側を上に向けている。嵐の前にそうなるように。嵐は来ていない。"
 
+msgid "Again. Up slow, down hard. Each time she lands, she clenches and holds you for a heartbeat."
+msgstr "もう一度。上がるのはゆっくり、落ちるのは強く。落ちるたびに締めつけて、鼓動ひとつ分あなたを離さない。"
+
 msgid "Against an alchemist? You sold my buttons for two coppers and bought them back for six."
 msgstr "錬金術師を相手に?私のボタンを銅貨2枚で売って、6枚で買い戻した人が?"
+
+msgid "Ahh!"
+msgstr "あっ!"
 
 msgid "Alchemists boil slimes down for glue. Did you know that? Twelve shillings a pound."
 msgstr "錬金術師はスライムを煮て膠にするの。知ってた?1ポンド12シリング。"
@@ -278,6 +287,9 @@ msgstr "あなたも誰にも言わないわよね、ライフガードさん?"
 
 msgid "Another date"
 msgstr "もう一度デート"
+
+msgid "Another slow slide. The moss above her slit brushes you, soft and damp."
+msgstr "またゆっくりとひと滑り。割れ目の上の苔が、柔らかく湿ってあなたをかすめる。"
 
 msgid "Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing."
 msgstr "どんなマッチでもすぐにチャプターの目標を達成し、星を99個もらえる — 動作確認用。普通に遊ぶためのものではない。"
@@ -849,6 +861,9 @@ msgstr "ヘイゼルの花を25個咲かせる。"
 msgid "Grow enough seeds into blossoms to win. A new seed drops in every few moves."
 msgstr "十分な数の種を花まで育てればクリア。数手ごとに新しい種が落ちてくる。"
 
+msgid "Hah... ah... yes. Like that. With me."
+msgstr "はぁ……あ……そう。それ。一緒に。"
+
 msgid "Hammer"
 msgstr "ハンマー"
 
@@ -906,6 +921,9 @@ msgstr "ハート：%d / %d"
 msgid "Hearts: losing a chapter costs one, and they come back over time."
 msgstr "ハート：章に負けると1つ減り、時間とともに回復します。"
 
+msgid "Her ass comes to rest on you. You're in her to the root."
+msgstr "彼女のお尻があなたの上に落ち着く。根元まで、彼女の中だ。"
+
 msgid "Her board with no move limit, just for fun and a high score."
 msgstr "手数制限なしの彼女の盤面。気軽に遊んでハイスコアを狙おう。"
 
@@ -951,6 +969,12 @@ msgstr "彼女の夜のシーン"
 msgid "Her powers used"
 msgstr "使った彼女の力"
 
+msgid "Her rhythm breaks. She's only grinding now, hard and desperate, with you buried as deep as you'll go."
+msgstr "彼女のリズムが崩れる。もう擦りつけるだけだ。強く、必死に、あなたを一番奥まで埋めたまま。"
+
+msgid "Her sap runs down your shaft and over your balls, warm as bathwater."
+msgstr "彼女の樹液があなたの幹を伝い、袋まで流れ落ちる。風呂の湯みたいに温かい。"
+
 msgid "Her sisters start watching"
 msgstr "姉妹たちが見物を始める"
 
@@ -959,6 +983,9 @@ msgstr "クリアしたものとして彼女の物語が進む。このチャプ
 
 msgid "Her story starts over from your first meeting, so you can make different choices. Endings you've found stay in the Gallery, your gift stays given, and her chapters pay out stars again."
 msgstr "彼女の物語が初めて出会ったところからやり直しになるので、違う選択ができる。見つけたエンディングはギャラリーに残り、贈り物も渡したまま、チャプターでまた星がもらえる。"
+
+msgid "Her thighs are trembling under your hands. Small aftershocks still flutter through her."
+msgstr "あなたの手の下で、彼女の太ももが震えている。小さな余韻がまだ彼女の中を走っている。"
 
 msgid "Hide text"
 msgstr "テキストを隠す"
@@ -971,6 +998,12 @@ msgstr "満ち潮!"
 
 msgid "High Water"
 msgstr "満潮"
+
+msgid "Hnn...!"
+msgstr "んっ……!"
+
+msgid "Hold still. I want to do this part."
+msgstr "じっとしてて。ここは、私がしたいの。"
 
 msgid "Home"
 msgstr "ホーム"
@@ -1101,6 +1134,9 @@ msgstr "見てないわ。光合成してるだけ。"
 msgid "I'm so sorry. I'll get every one of them back."
 msgstr "本当にごめん。ひとつ残らず取り戻すよ。"
 
+msgid "I'm... hah... don't pull out. Stay."
+msgstr "もう……はぁ……抜かないで。そのままでいて。"
+
 msgid "I've been doing this for a very long time, and that was not on the list of things I expected from a library."
 msgstr "ずいぶん長いことこれをやってるけど、図書館でこんなことになるなんて予想リストになかったわ。"
 
@@ -1169,6 +1205,9 @@ msgstr "性的な内容(親密なシーンを含む)と際どいイラストが�
 
 msgid "It isn't so bad, but some animals are... Barely tolerable company."
 msgstr "そんなに悪くないけど、動物によっては……ぎりぎり我慢できる程度の話し相手なの。"
+
+msgid "It pulls you over with her. You hold her down on you and spill deep inside, pulse after pulse."
+msgstr "それがあなたも連れていく。あなたは彼女を押さえつけたまま、奥深くに注ぎ込む。脈打つたびに、何度も。"
 
 msgid "It rains all night. None of it reaches you."
 msgstr "雨は一晩じゅう降る。一滴もあなたには届かない。"
@@ -1461,6 +1500,9 @@ msgstr "あれを9つで、私は解放される。"
 msgid "Nine-hour wick. Hand-dipped. You know what this is for, don't you."
 msgstr "9時間の芯。手作り。これが何のためのものか、わかってるでしょう。"
 
+msgid "Nnnh... ahh... it's so warm..."
+msgstr "んんっ……あぁ……すごく、温かい……"
+
 msgid "No Ads"
 msgstr "広告なし"
 
@@ -1536,6 +1578,9 @@ msgstr "あら、あったかい……斧なしで誰かに触れられたのは
 msgid "Oh. I didn't know I did that. That's embarrassing. Do it again."
 msgstr "あ。私、こんなふうになるなんて知らなかった。恥ずかしい。もう一回して。"
 
+msgid "Ohh... I can feel your heartbeat. In me."
+msgstr "ああ……あなたの鼓動がわかる。私の中で。"
+
 msgid "Okay, that one was nice."
 msgstr "うん、今のはよかった。"
 
@@ -1608,6 +1653,9 @@ msgstr "ハートがありません"
 msgid "Out of moves"
 msgstr "手数切れ"
 
+msgid "Overhead, every leaf on the hazel is shaking. There is no wind."
+msgstr "頭上で、ハシバミの葉が一枚残らず震えている。風はない。"
+
 msgid "Owned"
 msgstr "購入済み"
 
@@ -1622,6 +1670,9 @@ msgstr "パール。おばあちゃんなら褒めてくれる。"
 
 msgid "Petal"
 msgstr "ペタル"
+
+msgid "Petals are drifting down around you both. The hazel has flowered. It's the wrong season for it."
+msgstr "二人のまわりに花びらが舞い落ちている。ハシバミが花を咲かせた。咲く季節じゃないのに。"
 
 msgid "Petals. Good. Those I understand."
 msgstr "花びら。いいわね。それならわかる。"
@@ -1803,6 +1854,9 @@ msgstr "解いた封印"
 msgid "Saltwick Cove, an hour before sunset. You're on the cliff path when the shouting starts."
 msgstr "ソルトウィック入り江、日没の1時間前。崖の小道を歩いていると、叫び声が上がる。"
 
+msgid "Sap. More or less. It only runs when I'm happy."
+msgstr "樹液よ。だいたいね。嬉しいときしか流れないの。"
+
 msgid "Save it, then. I'll be watching you very closely until you spend it."
 msgstr "じゃあ取っておいて。使うまで、すぐそばでじっくり見張ってるから。"
 
@@ -1857,6 +1911,15 @@ msgstr "彼女はお礼を言うより先に、角をかじってみる。"
 msgid "She burns them in the reading room fireplace at four in the morning, one at a time. Each one goes up green. The loose page from your desk goes last: she tears her name off the corner and burns only that."
 msgstr "午前4時、彼女は閲覧室の暖炉でそれを一枚ずつ燃やす。どのページも緑色に燃え上がる。あなたの机にあったページは最後。彼女は隅の自分の名前だけをちぎり取り、そこだけを燃やす。"
 
+msgid "She comes. Her whole body locks, and her cunt grips you in tight, rolling waves, base to tip, over and over."
+msgstr "彼女が達する。全身が固まり、彼女の中があなたをきつく、うねる波で締めつける。根元から先端へ、何度も、何度も。"
+
+msgid "She doesn't move. Inside, she does: a slow ripple climbs your shaft from base to tip, then another."
+msgstr "彼女は動かない。中だけが動く。ゆっくりとしたうねりが根元から先端へ這い上がり、また次が来る。"
+
+msgid "She drops."
+msgstr "彼女が落ちる。"
+
 msgid "She ducks under before you can answer and comes up a few yards away, pretending to search."
 msgstr "あなたが答える前に彼女は潜り、数メートル先に顔を出して、探すふりをする。"
 
@@ -1865,6 +1928,9 @@ msgstr "先に眠るのは彼女のほうだ。本人は否定するだろうけ
 
 msgid "She flicks her tail and soaks you a second time, very deliberately."
 msgstr "彼女は尾をはねさせて、とてもわざとらしく、もう一度あなたをずぶ濡れにする。"
+
+msgid "She gathers her dress up to her waist. Then she looks back at you."
+msgstr "彼女はドレスを腰までたくし上げる。それから、あなたを振り返る。"
 
 msgid "She goes cloudy."
 msgstr "彼女は濁る。"
@@ -1890,6 +1956,12 @@ msgstr "彼女は指をあなたの襟に引っかけて引き下ろし、閲覧
 msgid "She hooks a foot round your ankle and reels you in the last step."
 msgstr "彼女は足先をあなたの足首に引っかけ、最後の一歩を引き寄せる。"
 
+msgid "She keeps going. An inch, a pause, another inch. She closes behind every one, as if she doesn't mean to give any back."
+msgstr "彼女は止まらない。一センチ、間を置いて、また一センチ。そのたびに後ろで閉じていく。ひとつも返すつもりがないみたいに。"
+
+msgid "She keeps rocking through it in small, slow circles, drawing out everything you have."
+msgstr "その間も、彼女は小さくゆっくりと円を描いて揺れ続け、あなたのすべてを搾り取っていく。"
+
 msgid "She kisses you again, slower, just to be sure."
 msgstr "彼女はもう一度キスをする。今度はゆっくり、念のために。"
 
@@ -1902,11 +1974,26 @@ msgstr "彼女はあなたの肩に顔をうずめて、しゃっくりが出る
 msgid "She laughs, and a shower of rainwater falls off her leaves onto your head."
 msgstr "彼女が笑うと、葉っぱから雨水がざあっとあなたの頭に降ってくる。"
 
+msgid "She lays her hand over yours and keeps it where it is."
+msgstr "彼女はあなたの手に自分の手を重ね、そのまま離さない。"
+
+msgid "She leans forward onto her hands and rides you faster. The angle changes. Now the head of your cock drags along something swollen in her front wall with every stroke."
+msgstr "彼女は前に手をついて、もっと速くあなたの上で動く。角度が変わる。今は突くたびに、先端が彼女の前の壁の膨らんだところを擦っていく。"
+
+msgid "She lifts off you on shaking legs. You slip free."
+msgstr "彼女は震える脚であなたから身を起こす。あなたが抜け出る。"
+
 msgid "She looks at the axe, then at the place on the trunk you were aiming for."
 msgstr "彼女は斧を見て、それからあなたが狙っていた幹の場所を見る。"
 
+msgid "She looks back at you. For once, she has nothing dry to say."
+msgstr "彼女はあなたを振り返る。珍しく、皮肉のひとつも出てこない。"
+
 msgid "She looks past you at the hollow: at the moss, pressed flat in neat little rows where something used to be laid out, and at the stream running fast and brown."
 msgstr "彼女はあなたの向こう、くぼみを見る。何かが並べられていた跡が小さくきちんとした列になって残る苔と、速く茶色く流れる小川を。"
+
+msgid "She lowers herself until her slit rests along the length of your cock. She doesn't take it in."
+msgstr "彼女は腰を落とし、割れ目をあなたのペニスに沿ってぴったりと乗せる。中には入れない。"
 
 msgid "She makes you hold it up in the one patch of sun that gets through her leaves, and watches the shadow for a long time."
 msgstr "彼女は葉の間から差し込む唯一の日だまりにそれをかざさせ、長いあいだ影を見つめている。"
@@ -1926,8 +2013,14 @@ msgstr "彼女はあなたのシャツをつかんで引き寄せる。根元は
 msgid "She pulls your arms round her neck so you don't have to tread water, and holds you up with her tail."
 msgstr "彼女はあなたの腕を自分の首に回させて、立ち泳ぎしなくていいように、尾であなたを支える。"
 
+msgid "She reaches down between her thighs and stands your cock upright."
+msgstr "彼女は太ももの間に手を伸ばし、あなたのペニスをまっすぐに立てる。"
+
 msgid "She rides in a big glass jar in your arms with the lid off, and counts every button as you drop it in."
 msgstr "彼女はふたを外した大きなガラス瓶に入ってあなたの腕に抱かれ、あなたが入れるボタンをひとつずつ数える。"
+
+msgid "She rocks. She isn't lifting yet, only grinding in small circles, stirring you around inside her."
+msgstr "彼女が揺れる。まだ持ち上げない。小さな円を描いて擦りつけ、中であなたをかき回す。"
 
 msgid "She says it, but she doesn't swim off."
 msgstr "そう言いながらも、彼女は泳いで去らない。"
@@ -1938,11 +2031,20 @@ msgstr "彼女はそれをチョークの円の燃えさしの隣に立て、古
 msgid "She shows you which branches you can sit on and which ones she's ticklish about. The second list is long."
 msgstr "彼女は、座っていい枝と、くすぐったい枝を教えてくれる。二つ目のリストは長い。"
 
+msgid "She sinks."
+msgstr "彼女が沈む。"
+
 msgid "She sits on the end of the pier with her tail in the water. After a while she leans on your shoulder, as if by accident."
 msgstr "彼女は尾を水につけて桟橋の端に座る。しばらくすると、偶然のようにあなたの肩にもたれる。"
 
 msgid "She sits on the reading table, which you've asked her twice not to do, and moves the candle so it won't drip on the returns."
 msgstr "彼女は閲覧机に腰かける。もう2回やめてと頼んだのに。それから返却本に蝋が垂れないよう、ろうそくをずらす。"
+
+msgid "She slides. Forward, then back. Slick heat drags over you from root to tip."
+msgstr "彼女が滑る。前へ、そして後ろへ。ぬめる熱が根元から先端までをなぞっていく。"
+
+msgid "She smells of rain on cut wood, and under that, something sweet and green."
+msgstr "伐ったばかりの木に降る雨の匂い。その下に、甘くて青い何か。"
 
 msgid "She steps over the chalk line herself, careful not to smudge it, and picks the page up. You realise you've been staring."
 msgstr "彼女は線をこすらないよう慎重にチョークの線をまたぎ、ページを拾い上げる。自分が見とれていたことに気づく。"
@@ -1977,8 +2079,14 @@ msgstr "怒りもしないと思う。ママみたいに「もう、マリった
 msgid "She won't leave the candle behind. She carries it to Wick Street cupped in both hands, and makes you walk on the windy side."
 msgstr "彼女はろうそくを置いていこうとしない。両手で包んで芯通りまで運び、あなたに風上を歩かせる。"
 
+msgid "She's hotter inside than a woman is. It's a deep, soaking warmth that spreads into your hips."
+msgstr "中は人間の女よりも熱い。深く、しみ込むような温もりが、あなたの腰に広がっていく。"
+
 msgid "She's tall, horned and dressed for somewhere much nicer than a library. She crouches to look at your circle, and tuts."
 msgstr "背が高く、角があり、図書館よりずっと上等な場所に行くような服装をしている。彼女はしゃがんであなたの円を眺め、舌打ちする。"
+
+msgid "She's tight at the mouth, then she gives, and wet heat swallows the head of your cock."
+msgstr "入り口はきつく、やがてほどけて、濡れた熱があなたの先端を呑み込む。"
 
 msgid "Shop"
 msgstr "ショップ"
@@ -2304,6 +2412,9 @@ msgstr "櫛の箱の留め金よ。やっぱりここに落ちたんだ。"
 msgid "That's real. The sea made that. People tumble old bottles in a barrel and sell it as sea glass."
 msgstr "本物。海が作ったもの。古い瓶を樽で転がして、シーグラスとして売る人もいるのよ。"
 
+msgid "That's the first one I've felt."
+msgstr "感じたのは、これが初めて。"
+
 msgid "That's the good stuff. Again."
 msgstr "これこれ。もう一回。"
 
@@ -2369,6 +2480,9 @@ msgstr "義眼はランタン通りの剥製屋のショーウィンドウ、フ
 
 msgid "The green at the tips of her hair goes a shade darker. She notices, and decides not to mention it."
 msgstr "髪の先の緑が一段濃くなる。彼女はそれに気づき、言わないことにする。"
+
+msgid "The head rests against her entrance. She's pulsing there, slow, like something rising in spring."
+msgstr "先端が彼女の入り口に当たる。そこが、ゆっくりと脈打っている。春に何かがせり上がってくるように。"
 
 msgid "The jar stays empty all night."
 msgstr "瓶は一晩じゅう空っぽのまま。"
@@ -2472,6 +2586,9 @@ msgstr "なら私が頼むわ。閲覧室のドアを閉めて。ろうそくは
 msgid "Then she notices the loose page on your desk, the one you copied from, and goes very still."
 msgstr "そのとき彼女は机の上の一枚のページ、あなたが写したあのページに気づき、ぴたりと動きを止める。"
 
+msgid "Then she rises. Her walls cling to you the whole way up, until only the head is left in her."
+msgstr "それから彼女は腰を上げる。内壁がずっとすがりついてきて、先端だけが中に残る。"
+
 msgid "Then the miller. Then the miller again."
 msgstr "それから粉屋。それからもう一度粉屋。"
 
@@ -2501,6 +2618,9 @@ msgstr "はい。これでおあいこ。干潮は6時よ。"
 
 msgid "There. Now you can't go anywhere. It's a mermaid thing. It's very old. I just made it up."
 msgstr "はい。これでどこにも行けない。人魚のしきたり。すごく古いの。今作ったけど。"
+
+msgid "There... mmh... there, there, there..."
+msgstr "そこ……んん……そこ、そこ、そこ……"
 
 msgid "These unlock on Steam too."
 msgstr "Steamでも解除される。"
@@ -2597,6 +2717,9 @@ msgstr "ボイス音量"
 
 msgid "W-with you? Where would I even..."
 msgstr "あ、あなたのところに?私、どこに……"
+
+msgid "Warmth runs out of her and drips onto your stomach."
+msgstr "温かいものが彼女からあふれ、あなたのお腹に滴り落ちる。"
 
 msgid "Watch a video: %s"
 msgstr "動画を見る：%s"
@@ -2712,6 +2835,9 @@ msgstr "あなたはゆっくりなどしない。彼女は喉の奥で低く笑
 msgid "You don't think about it. You run down the steps, jump off the end of the pier in your clothes, get an arm round her and drag her back."
 msgstr "考えるより先に体が動く。階段を駆け下り、服のまま桟橋の端から飛び込み、彼女に腕を回して引き戻す。"
 
+msgid "You find the rhythm together. Her hips roll back as yours drive up. Wet skin claps on wet skin."
+msgstr "二人でリズムを見つける。あなたが突き上げると、彼女の腰が後ろへうねる。濡れた肌が濡れた肌を打つ。"
+
 msgid "You have %d"
 msgstr "所持 %d"
 
@@ -2727,6 +2853,9 @@ msgstr "あなたは笑う。彼女は全身ピンクになって、それから
 msgid "You leave your shoes on the pier, both of them."
 msgstr "あなたは靴を桟橋に置いていく。両方とも。"
 
+msgid "You lie back along the fallen bough. She swings a knee over your hips and settles astride you, facing the river."
+msgstr "あなたは倒れた太い枝に沿って仰向けに横たわる。彼女はあなたの腰の上に片膝を振り上げ、川のほうを向いてまたがる。"
+
 msgid "You look from her to the trunk and back. Her heart is in the tree, then. So what's in her chest? Does she feel every woodpecker? Is the tree her, or is she the tree's way of talking? It doesn't feel like the moment to ask."
 msgstr "あなたは彼女と幹を交互に見る。彼女の心臓は木の中にあるのだ。では胸には何がある?キツツキの一羽一羽を感じるのか?木が彼女なのか、それとも彼女は木が話すための姿なのか?聞くべき場面ではなさそうだ。"
 
@@ -2738,6 +2867,9 @@ msgstr "星があと%d個必要。"
 
 msgid "You needed %d more points."
 msgstr "あと%dポイント足りなかった。"
+
+msgid "You plant your feet and thrust up into her as she comes down. She makes a sound you haven't heard from her before."
+msgstr "あなたは足を踏ん張り、彼女が落ちてくるのに合わせて突き上げる。彼女は、今まで聞いたことのない声を上げる。"
 
 msgid "You point out that the label said newts."
 msgstr "ラベルにはイモリって書いてあったと、あなたは指摘する。"
@@ -2759,6 +2891,9 @@ msgstr "あなたは首を横に振る。"
 
 msgid "You sit with your back against the trunk while it rains. Every so often she makes a small sound, and you put your hand flat on the bark. Under your palm, right about where you'd have swung the axe, something in the wood is beating. So that answers that."
 msgstr "雨のあいだ、あなたは幹に背中を預けて座っている。ときどき彼女が小さな声をもらし、そのたびにあなたは樹皮に手のひらを当てる。手のひらの下、ちょうど斧を振り下ろすはずだったあたりで、木の中の何かが脈打っている。これで答えは出た。"
+
+msgid "You squeeze her and pull her open with your thumbs. Her breath catches, and her hips stutter."
+msgstr "あなたは彼女を掴み、親指で押し開く。彼女の息が詰まり、腰がもつれる。"
 
 msgid "You start to take your hand away. She says you don't have to."
 msgstr "あなたは手を離しかける。そのままでいいと、彼女は言う。"
@@ -2873,6 +3008,9 @@ msgstr "あなた……服のまま飛び込んだの。会ったこともない
 
 msgid "Your best: %d"
 msgstr "最高記録:%d"
+
+msgid "Your hands find her ass. She's warm all the way through, like bark at the end of a July day."
+msgstr "あなたの手が彼女のお尻を見つける。七月の一日の終わりの樹皮みたいに、芯まで温かい。"
 
 msgid "Your name would be nice."
 msgstr "名前を教えてくれたら嬉しいな。"

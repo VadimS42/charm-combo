@@ -3246,6 +3246,7 @@
    "id": "summer",
    "name": "Summer",
    "desc": "Every seed and sprout on the board grows one stage."
-  }
+  },
+  "puzzleBg": "dryad_mill"
  }
 ]

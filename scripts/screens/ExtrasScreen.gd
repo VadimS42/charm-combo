@@ -81,6 +81,8 @@ static func unlocked_pictures() -> Array:
 				out.append([id, tex, label])
 		var main_tex := ArtAssets.main_sprite(id)
 		add.call(main_tex, UITheme.first_name(String(ch.name)))
+		# Her puzzle background when she's painted into it (round 52).
+		add.call(ArtAssets.background_for(String(ch.get("puzzleBg", ""))), UITheme.first_name(String(ch.name)))
 		for e in EXPRESSIONS:
 			var t := ArtAssets.character_portrait(id, e)
 			if t != main_tex:
@@ -95,7 +97,7 @@ static func unlocked_pictures() -> Array:
 			add.call(ArtAssets.cg(id, parts[1] + "_beat2"), UITheme.t(String(ending.get("title", ""))))
 			add.call(ArtAssets.ending_cg(id), UITheme.t(String(ending.get("title", ""))))
 		if GameState.replays.has(id + "|night") and not Platform.sfw:
-			for k in ["night", "night_act", "night_after"]:
+			for k in ["night_lead", "night", "night_act", "night_after"]:
 				add.call(ArtAssets.cg_exact(id, k), UITheme.t("Her night scene"))
 	return out
 

@@ -234,6 +234,6 @@ Dornen unter den Füßen
 @@ opal-0117
 Eine Eule erschreckt sie
 @@ opal-0118
-Absorbieren
+Aufsaugen
 @@ opal-0119
-Wähle einen Edelstein: Alle Edelsteine dieser Farbe werden geräumt.
+Wähl einen Stein: Jeder Stein dieser Farbe verschwindet.

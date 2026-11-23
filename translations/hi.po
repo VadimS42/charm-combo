@@ -72,6 +72,9 @@ msgstr "+5 दिल · %s"
 msgid "-1 move"
 msgstr "-1 चाल"
 
+msgid "...Two hundred springs."
+msgstr "...दो सौ वसंत।"
+
 msgid "1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!"
 msgstr "हर 200 अंकों पर 1 सितारा। सामान की दुकान में मदद के लिए बचत करें, फिर कोशिश करें!"
 
@@ -222,8 +225,14 @@ msgstr "बाद में वह बिस्तर के ज़्याद�
 msgid "Afterwards you lie in the moss with her hair across your chest. Overhead, every leaf on her east side has turned pale side up, the way they do before a storm. There's no storm."
 msgstr "बाद में तुम काई में लेटे हो, उसके बाल तुम्हारी छाती पर बिखरे। ऊपर, उसकी पूरब वाली तरफ़ का हर पत्ता पीला हिस्सा ऊपर करके पलट गया है, जैसे तूफ़ान से पहले होता है। कोई तूफ़ान नहीं है।"
 
+msgid "Again. Up slow, down hard. Each time she lands, she clenches and holds you for a heartbeat."
+msgstr "फिर से। ऊपर धीरे, नीचे ज़ोर से। हर बार नीचे आते ही वह कस जाती है और एक धड़कन भर तुम्हें जकड़े रखती है।"
+
 msgid "Against an alchemist? You sold my buttons for two coppers and bought them back for six."
 msgstr "एक कीमियागर के ख़िलाफ़? तुमने मेरे बटन दो सिक्कों में बेचे और छह में वापस ख़रीदे।"
+
+msgid "Ahh!"
+msgstr "आह्ह!"
 
 msgid "Alchemists boil slimes down for glue. Did you know that? Twelve shillings a pound."
 msgstr "कीमियागर स्लाइम को उबालकर गोंद बनाते हैं। तुम्हें पता था? बारह शिलिंग प्रति पाउंड।"
@@ -272,6 +281,9 @@ msgstr "और तुम भी किसी को नहीं बताओग
 
 msgid "Another date"
 msgstr "एक और डेट"
+
+msgid "Another slow slide. The moss above her slit brushes you, soft and damp."
+msgstr "एक और धीमी फिसलन। उसकी योनि के ऊपर की काई तुम्हें छूती है, मुलायम और नम।"
 
 msgid "Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing."
 msgstr "कोई भी सही मेल तुरंत अध्याय का लक्ष्य पूरा करता है और 99 सितारे देता है — जाँच के लिए, असल में खेलने के लिए नहीं।"
@@ -840,6 +852,9 @@ msgstr "हेज़ल के 25 फूल खिलाएँ।"
 msgid "Grow enough seeds into blossoms to win. A new seed drops in every few moves."
 msgstr "जीतने के लिए काफ़ी बीजों को फूल तक बढ़ाएँ। हर कुछ चालों में एक नया बीज गिरता है।"
 
+msgid "Hah... ah... yes. Like that. With me."
+msgstr "हाह... आह... हाँ। ऐसे ही। मेरे साथ।"
+
 msgid "Hammer"
 msgstr "हथौड़ा"
 
@@ -897,6 +912,9 @@ msgstr "दिल: %d / %d"
 msgid "Hearts: losing a chapter costs one, and they come back over time."
 msgstr "दिल: अध्याय हारने पर एक जाता है, और समय के साथ लौट आते हैं।"
 
+msgid "Her ass comes to rest on you. You're in her to the root."
+msgstr "उसके नितंब तुम पर आकर टिक जाते हैं। तुम जड़ तक उसके अंदर हो।"
+
 msgid "Her board with no move limit, just for fun and a high score."
 msgstr "बिना चालों की सीमा वाला उसका बोर्ड, बस मज़े और ऊँचे स्कोर के लिए।"
 
@@ -942,6 +960,12 @@ msgstr "उसका रात का दृश्य"
 msgid "Her powers used"
 msgstr "इस्तेमाल की गई शक्तियाँ"
 
+msgid "Her rhythm breaks. She's only grinding now, hard and desperate, with you buried as deep as you'll go."
+msgstr "उसकी ताल टूट जाती है। अब वह सिर्फ़ रगड़ रही है, ज़ोर से और बेताब, तुम्हें जितना गहरा हो सके उतना गहरा दबाए।"
+
+msgid "Her sap runs down your shaft and over your balls, warm as bathwater."
+msgstr "उसका रस तुम्हारे लिंग से होकर तुम्हारे अंडकोषों पर बहता है, नहाने के पानी जितना गर्म।"
+
 msgid "Her sisters start watching"
 msgstr "उसकी बहनें देखने लगती हैं"
 
@@ -950,6 +974,9 @@ msgstr "उसकी कहानी ऐसे आगे बढ़ेगी ज�
 
 msgid "Her story starts over from your first meeting, so you can make different choices. Endings you've found stay in the Gallery, your gift stays given, and her chapters pay out stars again."
 msgstr "उसकी कहानी आपकी पहली मुलाक़ात से फिर शुरू होती है, ताकि आप अलग फ़ैसले ले सकें। मिले हुए अंत गैलरी में रहते हैं, आपका तोहफ़ा दिया हुआ रहता है, और उसके अध्याय फिर से सितारे देते हैं।"
+
+msgid "Her thighs are trembling under your hands. Small aftershocks still flutter through her."
+msgstr "उसकी जाँघें तुम्हारे हाथों के नीचे काँप रही हैं। छोटे-छोटे झटके अब भी उसके अंदर फड़फड़ा रहे हैं।"
 
 msgid "Hide text"
 msgstr "पाठ छिपाएँ"
@@ -962,6 +989,12 @@ msgstr "ऊँचा ज्वार!"
 
 msgid "High Water"
 msgstr "भरा ज्वार"
+
+msgid "Hnn...!"
+msgstr "ह्न्न...!"
+
+msgid "Hold still. I want to do this part."
+msgstr "हिलना मत। ये हिस्सा मैं ख़ुद करना चाहती हूँ।"
 
 msgid "Home"
 msgstr "होम"
@@ -1092,6 +1125,9 @@ msgstr "मैं तुम्हें नहीं देख रही। म�
 msgid "I'm so sorry. I'll get every one of them back."
 msgstr "मुझे बहुत अफ़सोस है। मैं हर एक चीज़ वापस लाऊँगा।"
 
+msgid "I'm... hah... don't pull out. Stay."
+msgstr "मैं... हाह... बाहर मत निकालना। रुके रहो।"
+
 msgid "I've been doing this for a very long time, and that was not on the list of things I expected from a library."
 msgstr "मैं यह बहुत लंबे समय से कर रही हूँ, और पुस्तकालय से जिन चीज़ों की उम्मीद थी, उनकी सूची में यह नहीं था।"
 
@@ -1160,6 +1196,9 @@ msgstr "इसमें यौन सामग्री है, जिसमे�
 
 msgid "It isn't so bad, but some animals are... Barely tolerable company."
 msgstr "इतना बुरा नहीं है, पर कुछ जानवर... मुश्किल से झेलने लायक साथी हैं।"
+
+msgid "It pulls you over with her. You hold her down on you and spill deep inside, pulse after pulse."
+msgstr "वह तुम्हें भी अपने साथ खींच ले जाती है। तुम उसे अपने ऊपर दबाए रखते हो और उसके अंदर गहरे छूट जाते हो, एक धड़कन के बाद दूसरी।"
 
 msgid "It rains all night. None of it reaches you."
 msgstr "पूरी रात बारिश होती है। एक बूँद भी तुम तक नहीं पहुँचती।"
@@ -1449,6 +1488,9 @@ msgstr "ऐसे नौ, और मैं बच गई।"
 msgid "Nine-hour wick. Hand-dipped. You know what this is for, don't you."
 msgstr "नौ घंटे की बत्ती। हाथ से डुबोई हुई। तुम जानते हो यह किसलिए है, है न।"
 
+msgid "Nnnh... ahh... it's so warm..."
+msgstr "न्न्ह... आह्ह... कितना गर्म है..."
+
 msgid "No Ads"
 msgstr "बिना विज्ञापन"
 
@@ -1524,6 +1566,9 @@ msgstr "ओह, तुम गर्म हो... बरसों से कि�
 msgid "Oh. I didn't know I did that. That's embarrassing. Do it again."
 msgstr "ओह। मुझे नहीं पता था कि मैं ऐसा करती हूँ। शर्मिंदगी है। फिर से करो।"
 
+msgid "Ohh... I can feel your heartbeat. In me."
+msgstr "ओह्ह... मैं तुम्हारी धड़कन महसूस कर सकती हूँ। अपने अंदर।"
+
 msgid "Okay, that one was nice."
 msgstr "ठीक है, वह वाला अच्छा था।"
 
@@ -1596,6 +1641,9 @@ msgstr "दिल ख़त्म"
 msgid "Out of moves"
 msgstr "चालें ख़त्म"
 
+msgid "Overhead, every leaf on the hazel is shaking. There is no wind."
+msgstr "ऊपर, हेज़ल के पेड़ का हर पत्ता काँप रहा है। हवा नहीं चल रही।"
+
 msgid "Owned"
 msgstr "आपके पास है"
 
@@ -1610,6 +1658,9 @@ msgstr "मोती। दादी को पसंद आते।"
 
 msgid "Petal"
 msgstr "पंखुड़ी"
+
+msgid "Petals are drifting down around you both. The hazel has flowered. It's the wrong season for it."
+msgstr "तुम दोनों के चारों ओर पंखुड़ियाँ उतर रही हैं। हेज़ल में फूल आ गए हैं। ये उसका मौसम नहीं है।"
 
 msgid "Petals. Good. Those I understand."
 msgstr "पंखुड़ियाँ। अच्छा। ये मैं समझती हूँ।"
@@ -1791,6 +1842,9 @@ msgstr "तोड़ी गई मुहरें"
 msgid "Saltwick Cove, an hour before sunset. You're on the cliff path when the shouting starts."
 msgstr "सॉल्टविक खाड़ी, सूरज डूबने से एक घंटा पहले। तुम चट्टान वाली पगडंडी पर हो जब चीख़ें शुरू होती हैं।"
 
+msgid "Sap. More or less. It only runs when I'm happy."
+msgstr "रस। कमोबेश। ये तभी बहता है जब मैं ख़ुश होती हूँ।"
+
 msgid "Save it, then. I'll be watching you very closely until you spend it."
 msgstr "तो बचाकर रखो। जब तक ख़र्च नहीं करते, मैं तुम पर बहुत क़रीब से नज़र रखूँगी।"
 
@@ -1845,6 +1899,15 @@ msgstr "धन्यवाद कहने से पहले ही वह उ
 msgid "She burns them in the reading room fireplace at four in the morning, one at a time. Each one goes up green. The loose page from your desk goes last: she tears her name off the corner and burns only that."
 msgstr "वह उन्हें सुबह चार बजे वाचनालय के अलाव में एक-एक करके जलाती है। हर पन्ना हरी लपट में जलता है। तुम्हारी मेज़ वाला पन्ना सबसे आख़िर में जाता है: वह कोने से अपना नाम फाड़ती है और सिर्फ़ उसे जलाती है।"
 
+msgid "She comes. Her whole body locks, and her cunt grips you in tight, rolling waves, base to tip, over and over."
+msgstr "वह चरम पर पहुँचती है। उसका पूरा बदन जकड़ जाता है, और उसकी योनि तुम्हें कसी, लहराती तरंगों में भींचती है, जड़ से सिरे तक, बार-बार।"
+
+msgid "She doesn't move. Inside, she does: a slow ripple climbs your shaft from base to tip, then another."
+msgstr "वह हिलती नहीं। अंदर से वह हिलती है: एक धीमी लहर जड़ से सिरे तक तुम्हारे लिंग पर चढ़ती है, फिर एक और।"
+
+msgid "She drops."
+msgstr "वह नीचे गिरती है।"
+
 msgid "She ducks under before you can answer and comes up a few yards away, pretending to search."
 msgstr "तुम्हारे जवाब देने से पहले वह गोता लगा जाती है और कुछ मीटर दूर निकलती है, ढूँढने का नाटक करती हुई।"
 
@@ -1853,6 +1916,9 @@ msgstr "वह पहले सो जाती है, जिससे वह �
 
 msgid "She flicks her tail and soaks you a second time, very deliberately."
 msgstr "वह पूँछ फटकारकर तुम्हें दूसरी बार भिगो देती है, बहुत जानबूझकर।"
+
+msgid "She gathers her dress up to her waist. Then she looks back at you."
+msgstr "वह अपनी पोशाक कमर तक समेट लेती है। फिर मुड़कर तुम्हें देखती है।"
 
 msgid "She goes cloudy."
 msgstr "वह धुँधली हो जाती है।"
@@ -1878,6 +1944,12 @@ msgstr "वह तुम्हारे कॉलर में उँगली �
 msgid "She hooks a foot round your ankle and reels you in the last step."
 msgstr "वह अपना पैर तुम्हारे टख़ने में फँसाती है और आख़िरी क़दम तुम्हें खींच लेती है।"
 
+msgid "She keeps going. An inch, a pause, another inch. She closes behind every one, as if she doesn't mean to give any back."
+msgstr "वह रुकती नहीं। एक इंच, एक ठहराव, एक और इंच। हर इंच के बाद वह कस जाती है, जैसे कुछ भी लौटाने का इरादा न हो।"
+
+msgid "She keeps rocking through it in small, slow circles, drawing out everything you have."
+msgstr "वह उस दौरान छोटे, धीमे घेरों में झूलती रहती है, तुम्हारा सब कुछ खींच लेती है।"
+
 msgid "She kisses you again, slower, just to be sure."
 msgstr "वह तुम्हें फिर चूमती है, धीरे, बस पक्का करने के लिए।"
 
@@ -1890,11 +1962,26 @@ msgstr "वह तुम्हारे कंधे में मुँह छ�
 msgid "She laughs, and a shower of rainwater falls off her leaves onto your head."
 msgstr "वह हँसती है, और उसके पत्तों से बारिश का पानी तुम्हारे सिर पर बरस पड़ता है।"
 
+msgid "She lays her hand over yours and keeps it where it is."
+msgstr "वह अपना हाथ तुम्हारे हाथ पर रख देती है और उसे वहीं रहने देती है।"
+
+msgid "She leans forward onto her hands and rides you faster. The angle changes. Now the head of your cock drags along something swollen in her front wall with every stroke."
+msgstr "वह आगे झुककर हाथों पर टिकती है और तुम पर और तेज़ी से सवारी करती है। कोण बदल जाता है। अब हर धक्के के साथ तुम्हारे लिंग का सिरा उसकी अगली दीवार में किसी सूजी हुई जगह पर रगड़ता है।"
+
+msgid "She lifts off you on shaking legs. You slip free."
+msgstr "वह काँपते पैरों पर तुमसे ऊपर उठती है। तुम बाहर फिसल आते हो।"
+
 msgid "She looks at the axe, then at the place on the trunk you were aiming for."
 msgstr "वह कुल्हाड़ी को देखती है, फिर तने की उस जगह को जहाँ तुम निशाना लगा रहे थे।"
 
+msgid "She looks back at you. For once, she has nothing dry to say."
+msgstr "वह मुड़कर तुम्हें देखती है। इस बार, उसके पास कहने को कोई रूखी बात नहीं है।"
+
 msgid "She looks past you at the hollow: at the moss, pressed flat in neat little rows where something used to be laid out, and at the stream running fast and brown."
 msgstr "वह तुम्हारे पार गड्ढे को देखती है: उस काई को, जो साफ़-सुथरी छोटी कतारों में दबी है जहाँ कभी कुछ सजा था, और उस धारा को, जो तेज़ और मटमैली बह रही है।"
+
+msgid "She lowers herself until her slit rests along the length of your cock. She doesn't take it in."
+msgstr "वह नीचे झुकती है जब तक उसकी योनि तुम्हारे लिंग की पूरी लंबाई पर टिक नहीं जाती। वह उसे अंदर नहीं लेती।"
 
 msgid "She makes you hold it up in the one patch of sun that gets through her leaves, and watches the shadow for a long time."
 msgstr "वह तुमसे उसे धूप के उस इकलौते टुकड़े में पकड़वाती है जो उसके पत्तों से छनकर आता है, और बहुत देर तक छाया देखती है।"
@@ -1914,8 +2001,14 @@ msgstr "वह तुम्हारी कमीज़ पकड़कर त�
 msgid "She pulls your arms round her neck so you don't have to tread water, and holds you up with her tail."
 msgstr "वह तुम्हारी बाँहें अपने गले में डाल देती है ताकि तुम्हें पानी में पैर न चलाने पड़ें, और अपनी पूँछ से तुम्हें थामे रखती है।"
 
+msgid "She reaches down between her thighs and stands your cock upright."
+msgstr "वह अपनी जाँघों के बीच हाथ ले जाती है और तुम्हारे लिंग को सीधा खड़ा कर देती है।"
+
 msgid "She rides in a big glass jar in your arms with the lid off, and counts every button as you drop it in."
 msgstr "वह तुम्हारी बाँहों में बिना ढक्कन के काँच के बड़े मर्तबान में सवार है, और हर वह बटन गिनती है जो तुम उसमें डालते हो।"
+
+msgid "She rocks. She isn't lifting yet, only grinding in small circles, stirring you around inside her."
+msgstr "वह झूलती है। अभी उठ नहीं रही, बस छोटे-छोटे घेरों में रगड़ रही है, तुम्हें अपने अंदर घुमाते हुए।"
 
 msgid "She says it, but she doesn't swim off."
 msgstr "वह कहती तो है, पर तैरकर जाती नहीं।"
@@ -1926,11 +2019,20 @@ msgstr "वह उसे तुम्हारे चॉक के घेरे 
 msgid "She shows you which branches you can sit on and which ones she's ticklish about. The second list is long."
 msgstr "वह तुम्हें दिखाती है कि किन डालों पर बैठ सकते हो और किन पर उसे गुदगुदी होती है। दूसरी सूची लंबी है।"
 
+msgid "She sinks."
+msgstr "वह नीचे धँसती है।"
+
 msgid "She sits on the end of the pier with her tail in the water. After a while she leans on your shoulder, as if by accident."
 msgstr "वह घाट के सिरे पर पूँछ पानी में डाले बैठ जाती है। कुछ देर बाद वह तुम्हारे कंधे से टिक जाती है, जैसे अनजाने में।"
 
 msgid "She sits on the reading table, which you've asked her twice not to do, and moves the candle so it won't drip on the returns."
 msgstr "वह वाचनालय की मेज़ पर बैठ जाती है, जिसके लिए तुम दो बार मना कर चुके हो, और मोमबत्ती खिसका देती है ताकि लौटाई किताबों पर न टपके।"
+
+msgid "She slides. Forward, then back. Slick heat drags over you from root to tip."
+msgstr "वह फिसलती है। आगे, फिर पीछे। चिकनी गर्मी जड़ से सिरे तक तुम पर रगड़ती है।"
+
+msgid "She smells of rain on cut wood, and under that, something sweet and green."
+msgstr "उसमें कटी लकड़ी पर गिरी बारिश की ख़ुशबू है, और उसके नीचे कुछ मीठा और हरा-सा।"
 
 msgid "She steps over the chalk line herself, careful not to smudge it, and picks the page up. You realise you've been staring."
 msgstr "वह ख़ुद चॉक की लकीर लाँघती है, ध्यान से कि वह मिटे नहीं, और पन्ना उठा लेती है। तुम्हें एहसास होता है कि तुम उसे घूरे जा रहे हो।"
@@ -1965,8 +2067,14 @@ msgstr "वह नाराज़ भी नहीं होंगी। बस 
 msgid "She won't leave the candle behind. She carries it to Wick Street cupped in both hands, and makes you walk on the windy side."
 msgstr "वह मोमबत्ती पीछे नहीं छोड़ती। उसे दोनों हथेलियों में सँभाले बत्ती गली तक ले जाती है, और तुम्हें हवा वाली तरफ़ चलवाती है।"
 
+msgid "She's hotter inside than a woman is. It's a deep, soaking warmth that spreads into your hips."
+msgstr "वह अंदर से किसी औरत से ज़्यादा गर्म है। एक गहरी, भिगो देने वाली गर्माहट जो तुम्हारे कूल्हों तक फैल जाती है।"
+
 msgid "She's tall, horned and dressed for somewhere much nicer than a library. She crouches to look at your circle, and tuts."
 msgstr "वह लंबी है, सींगों वाली, और किसी पुस्तकालय से कहीं शानदार जगह के लिए तैयार। वह तुम्हारा घेरा देखने को झुकती है, और च्च करती है।"
+
+msgid "She's tight at the mouth, then she gives, and wet heat swallows the head of your cock."
+msgstr "मुहाने पर वह कसी हुई है, फिर ढीली पड़ती है, और गीली गर्मी तुम्हारे लिंग के सिरे को निगल लेती है।"
 
 msgid "Shop"
 msgstr "दुकान"
@@ -2292,6 +2400,9 @@ msgstr "यह कंघी के डिब्बे का है। यान
 msgid "That's real. The sea made that. People tumble old bottles in a barrel and sell it as sea glass."
 msgstr "यह असली है। इसे समुद्र ने बनाया है। कुछ लोग पुरानी बोतलें पीपे में घुमाकर समुद्री काँच कहकर बेचते हैं।"
 
+msgid "That's the first one I've felt."
+msgstr "ये पहला है जो मैंने महसूस किया।"
+
 msgid "That's the good stuff. Again."
 msgstr "यह हुई न बात। फिर से।"
 
@@ -2357,6 +2468,9 @@ msgstr "काँच की आँख लालटेन गली के भु
 
 msgid "The green at the tips of her hair goes a shade darker. She notices, and decides not to mention it."
 msgstr "उसके बालों की नोकों का हरा रंग एक शेड गहरा हो जाता है। वह ग़ौर करती है, और ज़िक्र न करने का फ़ैसला करती है।"
+
+msgid "The head rests against her entrance. She's pulsing there, slow, like something rising in spring."
+msgstr "सिरा उसके द्वार पर टिका है। वह वहाँ धीरे-धीरे धड़क रही है, जैसे वसंत में कुछ ऊपर उठ रहा हो।"
 
 msgid "The jar stays empty all night."
 msgstr "मर्तबान पूरी रात ख़ाली रहता है।"
@@ -2460,6 +2574,9 @@ msgstr "तो मैं माँगती हूँ। वाचनालय �
 msgid "Then she notices the loose page on your desk, the one you copied from, and goes very still."
 msgstr "फिर उसकी नज़र तुम्हारी मेज़ पर पड़े उस खुले पन्ने पर पड़ती है, जिससे तुमने उतारा था, और वह एकदम ठिठक जाती है।"
 
+msgid "Then she rises. Her walls cling to you the whole way up, until only the head is left in her."
+msgstr "फिर वह उठती है। उसकी दीवारें पूरे रास्ते तुमसे चिपकी रहती हैं, जब तक सिर्फ़ सिरा अंदर नहीं रह जाता।"
+
 msgid "Then the miller. Then the miller again."
 msgstr "फिर चक्कीवाला। फिर दोबारा चक्कीवाला।"
 
@@ -2489,6 +2606,9 @@ msgstr "लो। अब हिसाब बराबर। भाटा छह 
 
 msgid "There. Now you can't go anywhere. It's a mermaid thing. It's very old. I just made it up."
 msgstr "लो। अब तुम कहीं नहीं जा सकते। यह जलपरियों वाली बात है। बहुत पुरानी। अभी-अभी गढ़ी है।"
+
+msgid "There... mmh... there, there, there..."
+msgstr "वहाँ... म्म्ह... वहाँ, वहाँ, वहाँ..."
 
 msgid "These unlock on Steam too."
 msgstr "ये Steam पर भी खुलती हैं।"
@@ -2585,6 +2705,9 @@ msgstr "आवाज़ों का वॉल्यूम"
 
 msgid "W-with you? Where would I even..."
 msgstr "त-तुम्हारे साथ? मैं कहाँ..."
+
+msgid "Warmth runs out of her and drips onto your stomach."
+msgstr "उसके अंदर से गर्माहट बहकर तुम्हारे पेट पर टपकती है।"
 
 msgid "Watch a video: %s"
 msgstr "वीडियो देखें: %s"
@@ -2700,6 +2823,9 @@ msgstr "तुम आराम से नहीं करते। वह गल
 msgid "You don't think about it. You run down the steps, jump off the end of the pier in your clothes, get an arm round her and drag her back."
 msgstr "तुम सोचते नहीं। सीढ़ियाँ उतरकर दौड़ते हो, कपड़ों समेत घाट के सिरे से कूदते हो, उसे बाँह में लपेटते हो और खींच लाते हो।"
 
+msgid "You find the rhythm together. Her hips roll back as yours drive up. Wet skin claps on wet skin."
+msgstr "तुम दोनों मिलकर ताल पा लेते हो। जब तुम्हारे कूल्हे ऊपर धकेलते हैं, उसके कूल्हे पीछे लहराते हैं। गीली त्वचा गीली त्वचा से टकराती है।"
+
 msgid "You have %d"
 msgstr "आपके पास %d हैं"
 
@@ -2715,6 +2841,9 @@ msgstr "तुम हँसते हो। वह पूरी की पूर
 msgid "You leave your shoes on the pier, both of them."
 msgstr "तुम अपने जूते घाट पर छोड़ देते हो, दोनों।"
 
+msgid "You lie back along the fallen bough. She swings a knee over your hips and settles astride you, facing the river."
+msgstr "तुम गिरी हुई मोटी डाल पर पीठ के बल लेट जाते हो। वह एक घुटना तुम्हारे कूल्हों के ऊपर से घुमाती है और नदी की ओर मुँह करके तुम पर सवार होकर बैठ जाती है।"
+
 msgid "You look from her to the trunk and back. Her heart is in the tree, then. So what's in her chest? Does she feel every woodpecker? Is the tree her, or is she the tree's way of talking? It doesn't feel like the moment to ask."
 msgstr "तुम उसे और तने को बारी-बारी देखते हो। यानी उसका दिल पेड़ में है। तो उसकी छाती में क्या है? क्या उसे हर कठफोड़वा महसूस होता है? क्या पेड़ वह है, या वह पेड़ का बोलने का ज़रिया है? यह पूछने का सही वक़्त नहीं लगता।"
 
@@ -2726,6 +2855,9 @@ msgstr "आपको %d सितारे और चाहिए।"
 
 msgid "You needed %d more points."
 msgstr "आपको %d अंक और चाहिए थे।"
+
+msgid "You plant your feet and thrust up into her as she comes down. She makes a sound you haven't heard from her before."
+msgstr "तुम पैर जमाकर, उसके नीचे आते ही ऊपर उसके अंदर धक्का देते हो। उसके मुँह से ऐसी आवाज़ निकलती है जो तुमने उससे पहले कभी नहीं सुनी।"
 
 msgid "You point out that the label said newts."
 msgstr "तुम बताते हो कि लेबल पर न्यूट लिखा था।"
@@ -2747,6 +2879,9 @@ msgstr "तुम सिर हिलाकर मना करते हो।"
 
 msgid "You sit with your back against the trunk while it rains. Every so often she makes a small sound, and you put your hand flat on the bark. Under your palm, right about where you'd have swung the axe, something in the wood is beating. So that answers that."
 msgstr "बारिश के दौरान तुम तने से पीठ टिकाए बैठे रहते हो। बीच-बीच में वह एक हल्की आवाज़ करती है, और तुम छाल पर हथेली सपाट रख देते हो। तुम्हारी हथेली के नीचे, लगभग वहीं जहाँ तुमने कुल्हाड़ी चलाई होती, लकड़ी में कुछ धड़क रहा है। तो सवाल का जवाब मिल गया।"
+
+msgid "You squeeze her and pull her open with your thumbs. Her breath catches, and her hips stutter."
+msgstr "तुम उसे दबाते हो और अँगूठों से उसे खोलते हो। उसकी साँस अटक जाती है, और उसके कूल्हे लड़खड़ा जाते हैं।"
 
 msgid "You start to take your hand away. She says you don't have to."
 msgstr "तुम हाथ हटाने लगते हो। वह कहती है ज़रूरत नहीं।"
@@ -2861,6 +2996,9 @@ msgstr "तुम... कपड़ों समेत कूद गए। कि�
 
 msgid "Your best: %d"
 msgstr "आपका सबसे अच्छा: %d"
+
+msgid "Your hands find her ass. She's warm all the way through, like bark at the end of a July day."
+msgstr "तुम्हारे हाथ उसके नितंबों पर पहुँचते हैं। वह अंदर तक गर्म है, जैसे जुलाई के दिन के आख़िर में पेड़ की छाल।"
 
 msgid "Your name would be nice."
 msgstr "तुम्हारा नाम जान लूँ, बस इतना।"

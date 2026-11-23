@@ -72,6 +72,9 @@ msgstr "+5 قلوب · %s"
 msgid "-1 move"
 msgstr "-1 حركة"
 
+msgid "...Two hundred springs."
+msgstr "...مئتا ربيع."
+
 msgid "1 star for every 200 points. Save up for power-ups in the Item Shop, then try again!"
 msgstr "نجمة لكل 200 نقطة. ادَّخر للمساعدات في متجر الأدوات، ثم حاول مجددًا!"
 
@@ -222,8 +225,14 @@ msgstr "بعد ذلك تكون ممتدة على معظم السرير وعلى 
 msgid "Afterwards you lie in the moss with her hair across your chest. Overhead, every leaf on her east side has turned pale side up, the way they do before a storm. There's no storm."
 msgstr "بعد ذلك تستلقي في الطحلب وشعرها على صدرك. في الأعلى، كل ورقة في جانبها الشرقي انقلبت فصار وجهها الشاحب إلى أعلى، كما تفعل قبل العاصفة. لا عاصفة."
 
+msgid "Again. Up slow, down hard. Each time she lands, she clenches and holds you for a heartbeat."
+msgstr "مرة أخرى. صعود بطيء، ونزول قوي. كلما هبطت انقبضت وأمسكت بك لنبضة قلب."
+
 msgid "Against an alchemist? You sold my buttons for two coppers and bought them back for six."
 msgstr "ضد خيميائي؟ بعت أزراري بقطعتين نحاسيتين واشتريتها بست."
+
+msgid "Ahh!"
+msgstr "آه!"
 
 msgid "Alchemists boil slimes down for glue. Did you know that? Twelve shillings a pound."
 msgstr "الخيميائيون يغلون الهلاميات ليصنعوا الغراء. أكنت تعرف؟ اثنا عشر شلنًا للرطل."
@@ -272,6 +281,9 @@ msgstr "وأنت أيضًا لن تخبر أحدًا، أليس كذلك يا م
 
 msgid "Another date"
 msgstr "موعد آخر"
+
+msgid "Another slow slide. The moss above her slit brushes you, soft and damp."
+msgstr "انزلاقة بطيئة أخرى. الطحلب فوق شقّها يلامسك، ناعمًا ورطبًا."
 
 msgid "Any valid match instantly clears the chapter goal, and grants 99 stars — for QA, not for actually playing."
 msgstr "أي تطابق صحيح ينهي هدف الفصل فورًا ويمنح 99 نجمة — للاختبار، لا للعب الفعلي."
@@ -840,6 +852,9 @@ msgstr "أنمِ 25 زهرة لهيزل."
 msgid "Grow enough seeds into blossoms to win. A new seed drops in every few moves."
 msgstr "أنمِ ما يكفي من البذور حتى تزهر لتفوز. تسقط بذرة جديدة كل بضع حركات."
 
+msgid "Hah... ah... yes. Like that. With me."
+msgstr "هاه... آه... نعم. هكذا. معي."
+
 msgid "Hammer"
 msgstr "المطرقة"
 
@@ -897,6 +912,9 @@ msgstr "القلوب: %d / %d"
 msgid "Hearts: losing a chapter costs one, and they come back over time."
 msgstr "القلوب: خسارة فصل تكلِّف قلبًا، وتعود مع الوقت."
 
+msgid "Her ass comes to rest on you. You're in her to the root."
+msgstr "تستقر مؤخرتها عليك. أنت فيها حتى الأصل."
+
 msgid "Her board with no move limit, just for fun and a high score."
 msgstr "لوحتها بلا حد للحركات، للمتعة وتحقيق رقم قياسي فقط."
 
@@ -942,6 +960,12 @@ msgstr "مشهدها الليلي"
 msgid "Her powers used"
 msgstr "القوى المستخدمة"
 
+msgid "Her rhythm breaks. She's only grinding now, hard and desperate, with you buried as deep as you'll go."
+msgstr "ينكسر إيقاعها. لم تعد إلا تحتكّ، بقوة ويأس، وأنت مدفون فيها إلى أعمق ما تستطيع."
+
+msgid "Her sap runs down your shaft and over your balls, warm as bathwater."
+msgstr "يسيل نُسغها على قضيبك وفوق خصيتيك، دافئًا كماء الحمّام."
+
 msgid "Her sisters start watching"
 msgstr "أخواتها يبدأن بالمشاهدة"
 
@@ -950,6 +974,9 @@ msgstr "تستمر قصتها كأنك أنهيته. لن تحصل على نجو
 
 msgid "Her story starts over from your first meeting, so you can make different choices. Endings you've found stay in the Gallery, your gift stays given, and her chapters pay out stars again."
 msgstr "تبدأ قصتها من جديد من لقائكما الأول، فتستطيع أن تختار اختيارات مختلفة. النهايات التي وجدتها تبقى في المعرض، وتبقى هديتك مقدَّمة، وتمنح فصولها النجوم من جديد."
+
+msgid "Her thighs are trembling under your hands. Small aftershocks still flutter through her."
+msgstr "فخذاها ترتجفان تحت يديك. ارتعاشات صغيرة ما زالت ترفرف فيها."
 
 msgid "Hide text"
 msgstr "إخفاء النص"
@@ -962,6 +989,12 @@ msgstr "المدّ العالي!"
 
 msgid "High Water"
 msgstr "المدُّ العالي"
+
+msgid "Hnn...!"
+msgstr "همم...!"
+
+msgid "Hold still. I want to do this part."
+msgstr "لا تتحرك. أريد أن أفعل هذا الجزء بنفسي."
 
 msgid "Home"
 msgstr "الرئيسية"
@@ -1092,6 +1125,9 @@ msgstr "لست أراقبك. أنا أقوم بالتمثيل الضوئي."
 msgid "I'm so sorry. I'll get every one of them back."
 msgstr "أنا آسف جدًّا. سأستعيدها لك كلها، واحدة واحدة."
 
+msgid "I'm... hah... don't pull out. Stay."
+msgstr "أنا... هاه... لا تُخرجه. ابقَ."
+
 msgid "I've been doing this for a very long time, and that was not on the list of things I expected from a library."
 msgstr "أفعل هذا منذ زمن طويل جدًّا، ولم يكن هذا في قائمة ما توقعته من مكتبة."
 
@@ -1160,6 +1196,9 @@ msgstr "تحتوي على محتوى جنسي، يشمل مشاهد حميمة،
 
 msgid "It isn't so bad, but some animals are... Barely tolerable company."
 msgstr "ليس الأمر سيئًا، لكن بعض الحيوانات... رفقة بالكاد تُحتمل."
+
+msgid "It pulls you over with her. You hold her down on you and spill deep inside, pulse after pulse."
+msgstr "يجرّك ذلك معها. تُبقيها مضغوطة عليك وتقذف في أعماقها، دفقة بعد دفقة."
 
 msgid "It rains all night. None of it reaches you."
 msgstr "تمطر طوال الليل. لا يصلك منه شيء."
@@ -1449,6 +1488,9 @@ msgstr "تسع من هذه وأنجو."
 msgid "Nine-hour wick. Hand-dipped. You know what this is for, don't you."
 msgstr "فتيل تسع ساعات. مغموسة باليد. تعرف لماذا هذه، أليس كذلك."
 
+msgid "Nnnh... ahh... it's so warm..."
+msgstr "ممم... آه... إنه دافئ جدًا..."
+
 msgid "No Ads"
 msgstr "بلا إعلانات"
 
@@ -1524,6 +1566,9 @@ msgstr "أوه، أنت دافئ... لم يلمسني أحد دون فأس من�
 msgid "Oh. I didn't know I did that. That's embarrassing. Do it again."
 msgstr "أوه. لم أكن أعرف أنني أفعل هذا. هذا محرج. افعلها مجددًا."
 
+msgid "Ohh... I can feel your heartbeat. In me."
+msgstr "آه... أستطيع أن أشعر بنبض قلبك. في داخلي."
+
 msgid "Okay, that one was nice."
 msgstr "حسنًا، تلك كانت جميلة."
 
@@ -1596,6 +1641,9 @@ msgstr "نفدت القلوب"
 msgid "Out of moves"
 msgstr "نفدت الحركات"
 
+msgid "Overhead, every leaf on the hazel is shaking. There is no wind."
+msgstr "في الأعلى، كل ورقة في شجرة البندق ترتجف. لا ريح."
+
 msgid "Owned"
 msgstr "تملكه"
 
@@ -1610,6 +1658,9 @@ msgstr "لآلئ. جدتي كانت ستوافق."
 
 msgid "Petal"
 msgstr "بتلة"
+
+msgid "Petals are drifting down around you both. The hazel has flowered. It's the wrong season for it."
+msgstr "بتلات تتساقط حولكما. أزهرت شجرة البندق. ليس هذا موسمها."
 
 msgid "Petals. Good. Those I understand."
 msgstr "بتلات. جيد. هذه أفهمها."
@@ -1791,6 +1842,9 @@ msgstr "الأختام المكسورة"
 msgid "Saltwick Cove, an hour before sunset. You're on the cliff path when the shouting starts."
 msgstr "خليج سولتويك، قبل الغروب بساعة. أنت على درب الجرف حين يبدأ الصراخ."
 
+msgid "Sap. More or less. It only runs when I'm happy."
+msgstr "نُسغ. تقريبًا. لا يسيل إلا حين أكون سعيدة."
+
 msgid "Save it, then. I'll be watching you very closely until you spend it."
 msgstr "ادَّخرها إذن. سأراقبك عن كثب شديد حتى تنفقها."
 
@@ -1845,6 +1899,15 @@ msgstr "تعضُّ طرفها قبل حتى أن تشكرك."
 msgid "She burns them in the reading room fireplace at four in the morning, one at a time. Each one goes up green. The loose page from your desk goes last: she tears her name off the corner and burns only that."
 msgstr "تحرقها في مدفأة قاعة المطالعة في الرابعة صباحًا، واحدة واحدة. كل واحدة تشتعل بلهب أخضر. الصفحة السائبة من مكتبك تأتي أخيرًا: تمزِّق اسمها من الزاوية ولا تحرق سواه."
 
+msgid "She comes. Her whole body locks, and her cunt grips you in tight, rolling waves, base to tip, over and over."
+msgstr "تبلغ ذروتها. يتصلّب جسدها كله، ويقبض عليك فرجها في موجات محكمة متدحرجة، من الأصل إلى الرأس، مرة بعد مرة."
+
+msgid "She doesn't move. Inside, she does: a slow ripple climbs your shaft from base to tip, then another."
+msgstr "لا تتحرك. لكنها من الداخل تتحرك: تموّجة بطيئة تصعد على قضيبك من أصله إلى رأسه، ثم أخرى."
+
+msgid "She drops."
+msgstr "تهبط بثقلها."
+
 msgid "She ducks under before you can answer and comes up a few yards away, pretending to search."
 msgstr "تغطس قبل أن تتمكن من الرد وتطفو على بعد بضعة أمتار، متظاهرة بالبحث."
 
@@ -1853,6 +1916,9 @@ msgstr "تنام أولًا، وستنكر ذلك. يدخل المدُّ تحت 
 
 msgid "She flicks her tail and soaks you a second time, very deliberately."
 msgstr "تضرب بذيلها وتبلِّلك مرة ثانية، عمدًا تمامًا."
+
+msgid "She gathers her dress up to her waist. Then she looks back at you."
+msgstr "ترفع فستانها حتى خصرها. ثم تلتفت إليك."
 
 msgid "She goes cloudy."
 msgstr "تصير عكرة."
@@ -1878,6 +1944,12 @@ msgstr "تشبك إصبعًا في ياقتك وتشدُّك إلى الأسفل
 msgid "She hooks a foot round your ankle and reels you in the last step."
 msgstr "تلفُّ قدمها حول كاحلك وتجذبك الخطوة الأخيرة."
 
+msgid "She keeps going. An inch, a pause, another inch. She closes behind every one, as if she doesn't mean to give any back."
+msgstr "تواصل. إنشًا، ثم وقفة، ثم إنشًا آخر. تنغلق خلف كل واحد منها، كأنها لا تنوي أن تعيد شيئًا."
+
+msgid "She keeps rocking through it in small, slow circles, drawing out everything you have."
+msgstr "تواصل التمايل خلال ذلك في دوائر صغيرة بطيئة، تستخرج منك كل ما لديك."
+
 msgid "She kisses you again, slower, just to be sure."
 msgstr "تقبِّلك مجددًا، ببطء أكبر، فقط لتتأكد."
 
@@ -1890,11 +1962,26 @@ msgstr "تضحك في كتفك حتى تصيبها الحازوقة."
 msgid "She laughs, and a shower of rainwater falls off her leaves onto your head."
 msgstr "تضحك، فتنهمر رشقة من ماء المطر من أوراقها على رأسك."
 
+msgid "She lays her hand over yours and keeps it where it is."
+msgstr "تضع يدها فوق يدك وتُبقيها حيث هي."
+
+msgid "She leans forward onto her hands and rides you faster. The angle changes. Now the head of your cock drags along something swollen in her front wall with every stroke."
+msgstr "تميل إلى الأمام على يديها وتركبك أسرع. تتغير الزاوية. الآن يحتك رأس قضيبك مع كل دفعة بشيء منتفخ في جدارها الأمامي."
+
+msgid "She lifts off you on shaking legs. You slip free."
+msgstr "ترتفع عنك على ساقين مرتجفتين. تنزلق خارجًا."
+
 msgid "She looks at the axe, then at the place on the trunk you were aiming for."
 msgstr "تنظر إلى الفأس، ثم إلى الموضع الذي كنت تصوِّب إليه على الجذع."
 
+msgid "She looks back at you. For once, she has nothing dry to say."
+msgstr "تلتفت إليك. لأول مرة، ليس لديها ما تقوله بسخرية."
+
 msgid "She looks past you at the hollow: at the moss, pressed flat in neat little rows where something used to be laid out, and at the stream running fast and brown."
 msgstr "تنظر من فوقك إلى التجويف: إلى الطحلب المضغوط في صفوف صغيرة مرتبة حيث كان شيء موضوعًا، وإلى الجدول الذي يجري سريعًا وبنيًّا."
+
+msgid "She lowers herself until her slit rests along the length of your cock. She doesn't take it in."
+msgstr "تنخفض حتى يستقر شقّها على طول قضيبك. لا تُدخله."
 
 msgid "She makes you hold it up in the one patch of sun that gets through her leaves, and watches the shadow for a long time."
 msgstr "تجعلك تحملها في بقعة الشمس الوحيدة التي تنفذ من بين أوراقها، وتراقب الظل طويلًا."
@@ -1914,8 +2001,14 @@ msgstr "تشدُّك إليها من قميصك. يتساقط شعرها حول�
 msgid "She pulls your arms round her neck so you don't have to tread water, and holds you up with her tail."
 msgstr "تلفُّ ذراعيك حول عنقها كي لا تضطر إلى التجديف بقدميك، وتبقيك طافيًا بذيلها."
 
+msgid "She reaches down between her thighs and stands your cock upright."
+msgstr "تمدّ يدها بين فخذيها وتنصب قضيبك منتصبًا."
+
 msgid "She rides in a big glass jar in your arms with the lid off, and counts every button as you drop it in."
 msgstr "تركب في برطمان زجاجي كبير بين ذراعيك بلا غطاء، وتعدُّ كل زر تُسقطه فيه."
+
+msgid "She rocks. She isn't lifting yet, only grinding in small circles, stirring you around inside her."
+msgstr "تتمايل. لا ترتفع بعد، بل تدور في دوائر صغيرة، تحرّكك في داخلها."
 
 msgid "She says it, but she doesn't swim off."
 msgstr "تقول ذلك، لكنها لا تسبح مبتعدة."
@@ -1926,11 +2019,20 @@ msgstr "تضعها بجانب بقية الشمعة في دائرة الطباش
 msgid "She shows you which branches you can sit on and which ones she's ticklish about. The second list is long."
 msgstr "تريك أيُّ الأغصان يمكنك الجلوس عليها وأيُّها يدغدغها. القائمة الثانية طويلة."
 
+msgid "She sinks."
+msgstr "تهبط."
+
 msgid "She sits on the end of the pier with her tail in the water. After a while she leans on your shoulder, as if by accident."
 msgstr "تجلس على طرف الرصيف وذيلها في الماء. بعد حين تتكئ على كتفك، كأن ذلك صدفة."
 
 msgid "She sits on the reading table, which you've asked her twice not to do, and moves the candle so it won't drip on the returns."
 msgstr "تجلس على طاولة المطالعة، وقد طلبت منها مرتين ألا تفعل، وتحرِّك الشمعة كي لا يقطر شمعها على الكتب المعادة."
+
+msgid "She slides. Forward, then back. Slick heat drags over you from root to tip."
+msgstr "تنزلق. إلى الأمام، ثم إلى الخلف. حرارة زلقة تمرّ عليك من الأصل إلى الرأس."
+
+msgid "She smells of rain on cut wood, and under that, something sweet and green."
+msgstr "رائحتها كرائحة المطر على خشب مقطوع، وتحتها شيء حلو وأخضر."
 
 msgid "She steps over the chalk line herself, careful not to smudge it, and picks the page up. You realise you've been staring."
 msgstr "تتخطى خط الطباشير بنفسها، بحذر كي لا تلطخه، وتلتقط الصفحة. تدرك أنك كنت تحدِّق."
@@ -1965,8 +2067,14 @@ msgstr "لن تغضب حتى. ستقول فقط «آه يا ماري»، كما 
 msgid "She won't leave the candle behind. She carries it to Wick Street cupped in both hands, and makes you walk on the windy side."
 msgstr "ترفض أن تترك الشمعة. تحملها إلى شارع الفتيل بين كفَّيها، وتجعلك تمشي في الجانب المعرَّض للريح."
 
+msgid "She's hotter inside than a woman is. It's a deep, soaking warmth that spreads into your hips."
+msgstr "هي من الداخل أسخن من أي امرأة. دفء عميق مُشبِع يسري في وركيك."
+
 msgid "She's tall, horned and dressed for somewhere much nicer than a library. She crouches to look at your circle, and tuts."
 msgstr "إنها طويلة، ذات قرنين، ومرتدية لمكان أفخم بكثير من مكتبة. تجثو لتنظر إلى دائرتك، وتطقطق بلسانها."
+
+msgid "She's tight at the mouth, then she gives, and wet heat swallows the head of your cock."
+msgstr "هي ضيقة عند المدخل، ثم تلين، وتبتلع حرارة رطبة رأس قضيبك."
 
 msgid "Shop"
 msgstr "المتجر"
@@ -2292,6 +2400,9 @@ msgstr "إنه من علبة المشط. إذن سقط هنا بالضبط."
 msgid "That's real. The sea made that. People tumble old bottles in a barrel and sell it as sea glass."
 msgstr "هذه حقيقية. صنعها البحر. هناك من يدحرج زجاجات قديمة في برميل ويبيعها على أنها زجاج بحر."
 
+msgid "That's the first one I've felt."
+msgstr "هذا أول ربيع أشعر به."
+
 msgid "That's the good stuff. Again."
 msgstr "هذا هو الجيد. مرة أخرى."
 
@@ -2357,6 +2468,9 @@ msgstr "تظهر العين الزجاجية في واجهة محل المحنِ
 
 msgid "The green at the tips of her hair goes a shade darker. She notices, and decides not to mention it."
 msgstr "يغمق الأخضر عند أطراف شعرها درجة. تلاحظ ذلك، وتقرر ألا تذكره."
+
+msgid "The head rests against her entrance. She's pulsing there, slow, like something rising in spring."
+msgstr "يستقر رأسه عند مدخلها. إنها تنبض هناك ببطء، كشيء يصعد في الربيع."
 
 msgid "The jar stays empty all night."
 msgstr "يبقى البرطمان فارغًا طوال الليل."
@@ -2460,6 +2574,9 @@ msgstr "إذن سأطلب أنا. أغلِق باب قاعة المطالعة. �
 msgid "Then she notices the loose page on your desk, the one you copied from, and goes very still."
 msgstr "ثم تلاحظ الصفحة السائبة على مكتبك، التي نسخت منها، فتتجمد في مكانها."
 
+msgid "Then she rises. Her walls cling to you the whole way up, until only the head is left in her."
+msgstr "ثم ترتفع. جدرانها تتشبث بك طوال الطريق، حتى لا يبقى فيها إلا الرأس."
+
 msgid "Then the miller. Then the miller again."
 msgstr "ثم الطحَّان. ثم الطحَّان مرة أخرى."
 
@@ -2489,6 +2606,9 @@ msgstr "هكذا. الآن نحن متعادلان. الجزر في السادس
 
 msgid "There. Now you can't go anywhere. It's a mermaid thing. It's very old. I just made it up."
 msgstr "هكذا. الآن لا يمكنك الذهاب إلى أي مكان. إنه طقس حوريات. قديم جدًّا. اخترعته للتو."
+
+msgid "There... mmh... there, there, there..."
+msgstr "هناك... ممم... هناك، هناك، هناك..."
 
 msgid "These unlock on Steam too."
 msgstr "تُفتح هذه على Steam أيضًا."
@@ -2585,6 +2705,9 @@ msgstr "مستوى صوت الأصوات"
 
 msgid "W-with you? Where would I even..."
 msgstr "ع-عندك؟ وأين سأكون..."
+
+msgid "Warmth runs out of her and drips onto your stomach."
+msgstr "يسيل الدفء منها ويقطر على بطنك."
 
 msgid "Watch a video: %s"
 msgstr "شاهد فيديو: %s"
@@ -2700,6 +2823,9 @@ msgstr "لا تأخذ وقتك. تضحك منك ضحكة خافتة من حلق�
 msgid "You don't think about it. You run down the steps, jump off the end of the pier in your clothes, get an arm round her and drag her back."
 msgstr "لا تفكر. تركض نازلًا الدرج، تقفز بثيابك من طرف الرصيف، تلفُّ ذراعك حولها وتسحبها عائدًا."
 
+msgid "You find the rhythm together. Her hips roll back as yours drive up. Wet skin claps on wet skin."
+msgstr "تجدان الإيقاع معًا. يتراجع وركاها بينما يندفع وركاك إلى أعلى. جلد مبلل يصفق جلدًا مبللًا."
+
 msgid "You have %d"
 msgstr "لديك %d"
 
@@ -2715,6 +2841,9 @@ msgstr "تضحك. تتورد هي من رأسها إلى أخمصها، ثم ت�
 msgid "You leave your shoes on the pier, both of them."
 msgstr "تترك حذاءيك على الرصيف، كليهما."
 
+msgid "You lie back along the fallen bough. She swings a knee over your hips and settles astride you, facing the river."
+msgstr "تستلقي على ظهرك فوق الغصن الساقط. تمرّر ركبتها فوق وركيك وتجلس فوقك منفرجة الساقين، ووجهها نحو النهر."
+
 msgid "You look from her to the trunk and back. Her heart is in the tree, then. So what's in her chest? Does she feel every woodpecker? Is the tree her, or is she the tree's way of talking? It doesn't feel like the moment to ask."
 msgstr "تنقل نظرك بينها وبين الجذع. قلبها في الشجرة إذن. فما الذي في صدرها؟ أتشعر بكل نقار خشب؟ أهي الشجرة، أم هي طريقة الشجرة في الكلام؟ لا يبدو هذا الوقت المناسب للسؤال."
 
@@ -2726,6 +2855,9 @@ msgstr "تحتاج %d نجمة إضافية."
 
 msgid "You needed %d more points."
 msgstr "كنت تحتاج %d نقطة إضافية."
+
+msgid "You plant your feet and thrust up into her as she comes down. She makes a sound you haven't heard from her before."
+msgstr "تثبّت قدميك وتندفع إلى أعلى داخلها وهي تهبط. تُطلق صوتًا لم تسمعه منها من قبل."
 
 msgid "You point out that the label said newts."
 msgstr "تشير إلى أن الملصق قال سمادل."
@@ -2747,6 +2879,9 @@ msgstr "تهزُّ رأسك."
 
 msgid "You sit with your back against the trunk while it rains. Every so often she makes a small sound, and you put your hand flat on the bark. Under your palm, right about where you'd have swung the axe, something in the wood is beating. So that answers that."
 msgstr "تجلس مسندًا ظهرك إلى الجذع بينما تمطر. بين حين وآخر تُصدر صوتًا خافتًا، فتضع كفَّك مبسوطة على اللحاء. تحت راحتك، تقريبًا حيث كنت ستضرب بالفأس، شيء في الخشب ينبض. وهكذا أُجيب السؤال."
+
+msgid "You squeeze her and pull her open with your thumbs. Her breath catches, and her hips stutter."
+msgstr "تضغط عليها وتفتحها بإبهاميك. تنحبس أنفاسها، ويتعثّر وركاها."
 
 msgid "You start to take your hand away. She says you don't have to."
 msgstr "تبدأ في سحب يدك. تقول إنك لست مضطرًّا."
@@ -2861,6 +2996,9 @@ msgstr "لقد... قفزت بثيابك. من أجل شخص لم تلتقِه ق
 
 msgid "Your best: %d"
 msgstr "أفضل نتيجة لك: %d"
+
+msgid "Your hands find her ass. She's warm all the way through, like bark at the end of a July day."
+msgstr "تجد يداك مؤخرتها. إنها دافئة حتى الأعماق، كلحاء شجرة في آخر يوم من تموز."
 
 msgid "Your name would be nice."
 msgstr "اسمك سيكون لطيفًا."
