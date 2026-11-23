@@ -2463,6 +2463,16 @@
    "id": "absorb",
    "name": "Absorb",
    "desc": "Pick a gem: every gem of that colour is cleared."
+  },
+  "cardCrop": {
+   "zoom": 1.8,
+   "x": 0.53,
+   "y": 0.13
+  },
+  "puzzleSprite": {
+   "height": 700,
+   "lift": 0,
+   "right": 40
   }
  },
  {

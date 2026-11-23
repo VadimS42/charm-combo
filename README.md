@@ -17,7 +17,7 @@ scene brief (round 15); see "Art asset checklist" below for the short version.
 Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.md`**
 (itch.io) and `docs/STORE_PAGE.md` (starter text for both store pages).
 
-## ✅ Status: round-53 — Hazel's night scene, Hazel by the mill
+## ✅ Status: round-53 — Hazel's night scene, Hazel by the mill, Opal's sprite
 
 - **Hazel's night scene** is written and illustrated: 46 lines in place of
   her placeholder, with three pictures in `art/characters/dryad/cg/`.
@@ -34,6 +34,11 @@ Releasing: **`docs/STEAM_SETUP.md`** (Steam, step by step), **`docs/ITCH_SETUP.m
   `night_lead.png`, so every girl's first night picture was missing.
 - `tools/i18n/rekey.py` rewrites every language's translator files with the
   current keys after English lines are added (they had drifted).
+- **Opal's main sprite** `art/characters/slime/main.png` (cut out of its
+  white background): her chapters, conversations, roster card and Gallery.
+  It's nude, so the safe-for-work builds never load it
+  (`ArtAssets.ADULT_MAIN`) and don't package it (`export_presets.cfg`); they
+  keep her placeholder until there's a `main_sfw.png`.
 - Night pictures stay out of the safe-for-work and demo packages
   (`export_presets.cfg`). All tests pass.
 

@@ -142,7 +142,18 @@ static func live_rig(char_id: String) -> Dictionary:
 ## chapters show on the right when she has no idle animation (see
 ## idle_animation()); conversations and her roster card keep using her seven
 ## expression pictures.
+##
+## Safe-for-work builds (round 53): main_sfw.png if she has one. A girl in
+## ADULT_MAIN (her main.png is nude: Opal) never shows main.png there, and
+## those builds don't package it either (export_presets.cfg).
+const ADULT_MAIN := ["slime"]
+
+
 static func main_sprite(char_id: String) -> Texture2D:
+	if Platform.sfw:
+		var safe := _try_load(CHAR_DIR + char_id + "/main_sfw.png")
+		if safe or char_id in ADULT_MAIN:
+			return safe
 	return _try_load(CHAR_DIR + char_id + "/main.png")
 
 
